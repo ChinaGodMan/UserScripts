@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MissAv批量备份收藏视频
-// @namespace    https://github.com/10086100886/
-// @version      0.9.2
+// @namespace    https://github.com/10086100886
+// @version      0.9.3
 // @description  从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license MIT
 // @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  ChatGPT
@@ -14,6 +14,7 @@
 // @icon         https://pic.616pic.com/ys_bnew_img/00/35/79/Gv93yQh7v6.jpg
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @require      https://update.greasyfork.org/scripts/498124/1395427/video.js
+// @require https://update.greasyfork.org/scripts/498149/1395619/%E4%BF%A1%E6%81%AF%E6%9F%A5%E7%9C%8B%E5%99%A8.js
 // ==/UserScript==
 
 (function() {
@@ -42,7 +43,7 @@ var controlButton = createButton('备份', '10px', '10px');
     document.body.appendChild(buttonC);
 
     // 控制按钮的点击事件
-    controlButton.addEventListener('click'， function() {
+    controlButton.addEventListener('click', function() {
         if (buttonA.style.display === 'none') {
             // 显示三个按钮
             buttonA.style.display = 'block';
@@ -59,9 +60,10 @@ var controlButton = createButton('备份', '10px', '10px');
     });
 
     // 按钮A的点击事件
-    buttonA.addEventListener('click'， function() {
+    buttonA.addEventListener('click', function() {
            resetGlobalVariables();
      singleFileDownload =true;
+      window.showLogContainer();
       var currentDate = new Date();
     var currentTime = currentDate.getFullYear() + '-' + (currentDate.getMonth() + 1) + '-' + currentDate.getDate() + '_' +currentDate.getHours() + '-' + currentDate.getMinutes() + '-' + currentDate.getSeconds();
 if (useDefaultTitle) {
@@ -148,6 +150,9 @@ var useDefaultTitle= true;
 var pageCount= true;
 var saveVideoInfo= false;
 var   saveImage= false;
+  var downloadLog = {};
+  var   errorLogs = {};
+var  downloadLogFileA = false; // 这里设置为 true 时载日志
  ini();//读取配置
 function resetGlobalVariables() {
     zip = new JSZip(); // 重置为一个新的 JSZip 实例，用于创建新的压缩文件
@@ -156,7 +161,8 @@ function resetGlobalVariables() {
       imgFolder = zip.folder("img"); // 在 zip 中创建一个名为 "img" 的文件夹，用于存储图片文件
     allimgFolder = allzip.folder("img"); // 在 allzip 中创建一个名为 "img" 的文件夹，可能用于另一个压缩文件的图片存储
    }
-
+    downloadLog = {};
+   errorLogs = {};
     ALLfiledown = false; // 重置为 false，表示所有文件未下载完毕
     videos = []; // 清空存储视频文件或相关信息的数组
     finalData = []; // 清空存储最终处理数据的数组
@@ -184,11 +190,13 @@ async function processUrls() {
         a = a + 1; // 每次循环递增 a
         inurl = url;
         console.log("正在处理网址:", url, names[a]);
+       window.addToLog("处理:"+url+names[a], 'info');
         name = names[a];
 
         try {
             const totalPages = await getTotalPages(url); // 等待 getTotalPages 返回结果
             console.log("Total pages for", url, ":", totalPages); // 显示总页数
+            window.addToLog(name+" 总页数:"+url+ totalPages, 'info');
             allpages = totalPages;
             start(totalPages); // 启动处理流程
 
@@ -250,13 +258,17 @@ function getAllCookies() {
 
                          // 调用 processUrls 函数处理 URLs
                         } else {
-                            console.error('Invalid JSON format or missing data array');
+                            console.error('JSON 格式无效');
+                          window.addToLog('JSON 格式无效', 'warning');
                         }
                     } catch (error) {
                         console.error('Error parsing JSON:', error);
+                      window.addToLog(error, 'warning');
                     }
                 } else {
                     console.error('Request failed with status:', response.status);
+                   window.addToLog('返回错误：'+ response.status, 'warning');
+
                 }
             },
             onerror: function(error) {
@@ -342,14 +354,18 @@ function getAllCookies() {
                         const totalPages = parseInt(totalPagesText.replace('/', '').trim(), 10);
                         resolve(totalPages); // 成功时返回总页数
                     } else {
-                        reject('Total pages element not found'); // 页面中没有找到总页数元素
+                        window.addToLog('页面中没有找到总页数,默认为1页', 'warning');
+                      reject('Total pages element not found'); // 页面中没有找到总页数元素
                     }
                 } else {
-                    reject(`Request failed with status ${response.status}`); // 请求失败
+                    window.addToLog('请求失败', 'warning');
+                  reject(`Request failed with status ${response.status}`); // 请求失败
                 }
             },
             onerror: function() {
-                reject('Request failed'); // 请求出错
+                window.addToLog('请求出错', 'warning');
+              reject('Request failed'); // 请求出错
+
             }
         });
     });
@@ -503,10 +519,34 @@ function processPageContent(htmlContent, pageNum, pages, callback) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(htmlContent, 'text/html');
     const divElements = doc.querySelectorAll('div.relative.aspect-w-16.aspect-h-9.rounded.overflow-hidden.shadow-lg');
+   const logEntry = {
+        url: `${processUrl(inurl)}${pageNum}`,
+        elementsFetched: divElements.length
+    };
 
-    if (divElements.length === 0) {
-        console.log(`获取第 ${pageNum} 页失败。`);
+    // 如果当前名称的日志组不存在，则创建一个新数组
+    if (!downloadLog[name]) {
+        downloadLog[name] = [];
     }
+
+    // 将日志条目添加到日志数组中
+    downloadLog[name].push(logEntry);
+    if (divElements.length === 0) {
+        const logEntry = {
+            url: `${processUrl(inurl)}${pageNum}`,
+            elementsFetched: 0, // 这里可以根据实际需求设置其他信息
+            errorMessage: `获取第 ${pageNum} 页失败。`
+        };
+       if (!errorLogs[name]) {
+        errorLogs[name] = [];
+    }
+        errorLogs[name].push(logEntry);
+      console.log(`获取第 ${pageNum} 页失败。`);
+        window.addToLog(`${name}${processUrl(inurl)}${pageNum}+获取失败 数量：`+divElements.length, 'error');
+    }
+
+
+
 
     divElements.forEach(div => {
         var imgUrl = div.querySelector('img').getAttribute('data-src');
@@ -527,7 +567,8 @@ if (shouldReplace) {
 
  if(saveVideoInfo){
           video.info=extractInformation(video.jumpUrl);
-   showBanner(`正在获取 ${video.fileName} 信息`);
+   //showBanner(`正在获取 ${video.fileName} 信息`);
+    window.addToLog(`正在获取 ${video.fileName} 信息`, 'info');
    console.log()
         };
 
@@ -536,6 +577,7 @@ if (shouldReplace) {
         if (video.imgUrl && video.altText) {
             videos.push(video);
              if (saveImage) {
+               window.addToLog(`保存`+video.imgUrl, 'info');
             pendingRequests++;
             GM_xmlhttpRequest({
                 method: 'GET',
@@ -579,6 +621,49 @@ if (shouldReplace) {
 }
 
   closeModal();
+
+function downloadLogFile() {
+
+
+    if (!skipDownload) {
+        console.log('日志下载已被跳过');
+        return;
+    }
+  if (Object.keys(errorLogs).length === 0) {
+        // 如果错误日志为空，直接下载正常日志文件
+        const logBlob = new Blob([JSON.stringify(downloadLog, null, 4)], { type: 'application/json' });
+        const logUrl = URL.createObjectURL(logBlob);
+        const logLink = document.createElement('a');
+        logLink.href = logUrl;
+        logLink.download = 'download_log.json';
+        logLink.click();
+        URL.revokeObjectURL(logUrl);
+    } else {
+        // 创建一个JSZip实例
+        const zip = new JSZip();
+
+        // 添加正常日志文件到压缩包
+        const logBlob = new Blob([JSON.stringify(downloadLog, null, 4)], { type: 'application/json' });
+        zip.file('download_log.json', logBlob);
+
+        // 添加错误日志文件到压缩包
+        const errorLogBlob = new Blob([JSON.stringify(errorLogs, null, 4)], { type: 'application/json' });
+        zip.file('error_log.json', errorLogBlob);
+
+        // 生成压缩包并触发下载
+        zip.generateAsync({ type: 'blob' }).then(function(content) {
+            const zipUrl = URL.createObjectURL(content);
+            const link = document.createElement('a');
+            link.href = zipUrl;
+            link.download = 'logs.zip';
+            link.click();
+            URL.revokeObjectURL(zipUrl);
+        });
+    }
+}
+
+
+
 function sanitizeFileName(name) {
     return name.replace(/[\\\/:*?"<>|]/g, '_');
 }
@@ -613,7 +698,9 @@ if (saveJson) {
                     a.href = htmlUrl;
                     a.download = `${sanitizeFileName(name)}.html`;
                     a.click();
-            closeModal();
+           closeModal();
+           downloadLogFile();
+
                 if (callback) callback();
          }else{
                       zip.file(`${sanitizeFileName(name)}.html`, jsonIndexContent);
@@ -629,6 +716,7 @@ if (saveJson) {
                 a.click();
                 URL.revokeObjectURL(zipUrl);
                 closeModal();
+               downloadLogFile();
                 if (callback) callback();
             });
                     }
@@ -680,7 +768,7 @@ if (singleFileDownload === false) {
                 console.error('Error fetching file content:', error);
                 closeModal();
             });
-
+  downloadLogFile();
             return; // 结束函数执行，不生成压缩包
         }
 
@@ -697,6 +785,7 @@ if (singleFileDownload === false) {
                 a.click();
                 URL.revokeObjectURL(zipUrl);
                 closeModal();
+        downloadLogFile();
                 if (callback) callback();
             });
     // 如果 singleFileDownload 等于假，则执行这里的代码
@@ -1042,6 +1131,7 @@ confirmButton.addEventListener('click', () => {
        if (anyCheckboxChecked) {
 
         processUrls();
+         window.showLogContainer();
     }
 
 });
@@ -1054,7 +1144,7 @@ function ini() {
   pageCount= GM_getValue('pageCount', true);
 saveVideoInfo= GM_getValue('saveVideoInfo', false);
   saveImage= GM_getValue('saveImage', true);
-
+downloadLogFileA== GM_getValue('saveImage', false);
 }
  // 创建设置界面
 function createControl(tagName, attributes = {}, styles = {}, parent = document.body) {
@@ -1143,6 +1233,13 @@ function createSettingsUI() {
             label: '自定义抓取页数',
             checked: GM_getValue('pageCount', true),
             onchange: function() { GM_setValue('pageCount', this.checked); }
+        },
+      {
+            type: 'checkbox',
+            id: 'downloadLogFileA',
+            label: '保存下载日志',
+            checked: GM_getValue('downloadLogFileA', false),
+            onchange: function() { GM_setValue('downloadLogFileA', this.checked); }
         },
         {
             type: 'number',
