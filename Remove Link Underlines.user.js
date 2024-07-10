@@ -11,7 +11,7 @@
 // @name:hi      लिंक रेखांकन हटाएं
 // @name:es      Eliminar subrayados de enlaces
 // @namespace    https://greasyfork.org/users/1169082/
-// @version      1.1
+// @version      1.2
 // @description  Remove underlines from all links on any website and dynamically handle new links
 // @description:zh-CN 移除所有网站上的链接下划线，并动态处理新链接
 // @description:zh-TW 移除所有网站上的连结底线，并动态处理新连结
@@ -34,18 +34,18 @@
 //去你妈的下划线。
 //2024-06-23 11:23 人民的勤务员 
 //2024-07-08 08:33 人民的勤务员 改为CSS
-(function() {
-    'use strict';
+(function () {
+    'use strict'
 
     // 创建一个样式元素
-    var style = document.createElement('style');
-    style.type = 'text/css';
+    var style = document.createElement('style')
+    style.type = 'text/css'
     style.innerHTML = `
         a {
             text-decoration: none !important;
         }
-    `;
+    `
 
     // 将样式元素添加到头部
-    document.head.appendChild(style);
-})();
+    document.head.appendChild(style)
+})()
