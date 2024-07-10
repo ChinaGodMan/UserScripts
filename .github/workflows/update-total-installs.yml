@@ -35,7 +35,7 @@ jobs:
             \"totalGoodRatings\": $total_good_ratings,
             \"totalOkRatings\": $total_ok_ratings,
             \"totalBadRatings\": $total_bad_ratings
-          }" > total_installs.json
+          }" >  TotalJson/total_installs.json
 
           # 清理工作区中的临时文件
           rm data.json
