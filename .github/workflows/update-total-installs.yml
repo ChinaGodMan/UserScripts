@@ -2,7 +2,7 @@ name: Update Total Installs
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时运行一次
+    - cron: '*/30 * * * *'  # 每小时运行一次
   push:
     branches:
       - main
