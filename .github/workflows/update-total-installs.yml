@@ -19,7 +19,7 @@ jobs:
       - name: Fetch and process JSON data
         run: |
           # 下载 JSON 文件
-          curl -s https://greasyfork.org/zh-CN/users/1-jasonbarnabe.json -o data.json
+          curl -s https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98.json -o data.json
 
           # 计算各项统计数据
           total_installs=$(jq '[.all_listable_scripts[].total_installs] | add' data.json)
