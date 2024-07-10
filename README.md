@@ -7,7 +7,6 @@
 ![Good Ratings](https://img.shields.io/badge/dynamic/json?color=4CAF50&label=Good%20Ratings&query=$.totalGoodRatings&url=https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/TotalJson/total_installs.json)
 ![Ok Ratings](https://img.shields.io/badge/dynamic/json?color=FF9800&label=Ok%20Ratings&query=$.totalOkRatings&url=https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/TotalJson/total_installs.json)
 ![Bad Ratings](https://img.shields.io/badge/dynamic/json?color=F44336&label=Bad%20Ratings&query=$.totalBadRatings&url=https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/TotalJson/total_installs.json)
-![Support](https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue.svg)
 
 [![Github](https://img.shields.io/badge/Github-100000.svg?logo=github&logoColor=white)](https://github.com/10086100886/)
 ![license](https://img.shields.io/github/license/10086100886/renmindeqinwuyuan.svg?style=flat-square&color=4285dd&logo=github)
@@ -15,6 +14,7 @@
 ![COM](https://img.shields.io/badge/CopyRight-人民的勤务员-4285dd" "人民的勤务员为人民服务")
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330.svg?logo=javascript&logoColor=F7DF1E "JavaScript")
 ![yiti](https://img.shields.io/github/issues/10086100886/renmindeqinwuyuan/github-chinese?style=flat-square&logo=github&label=Issue "议题")
+![Support](https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue.svg)
 ![**Tampermonkey OK**](https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36)
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
