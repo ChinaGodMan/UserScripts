@@ -1,0 +1,53 @@
+name: Update Total Installs
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  push:
+    branches:
+      - main
+
+jobs:
+  update-total-installs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout code
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: Fetch and process JSON data
+        run: |
+          # 下载 JSON 文件
+          curl -s https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98.json -o data.json
+
+          # 计算各项统计数据
+          total_installs=$(jq '[.all_listable_scripts[].total_installs] | add' data.json)
+          num_scripts=$(jq '.all_listable_scripts | length' data.json)
+          total_good_ratings=$(jq '[.all_listable_scripts[].good_ratings] | add' data.json)
+          total_ok_ratings=$(jq '[.all_listable_scripts[].ok_ratings] | add' data.json)
+          total_bad_ratings=$(jq '[.all_listable_scripts[].bad_ratings] | add' data.json)
+
+          # 将数据写入 JSON 文件
+          echo "{
+            \"totalInstalls\": $total_installs,
+            \"numScripts\": $num_scripts,
+            \"totalGoodRatings\": $total_good_ratings,
+            \"totalOkRatings\": $total_ok_ratings,
+            \"totalBadRatings\": $total_bad_ratings
+          }" > total_installs.json
+
+          # 清理工作区中的临时文件
+          rm data.json
+
+      - name: Commit and push changes
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 添加更改
+          git add total_installs.json
+          git commit -m 'Update total_installs.json with latest statistics' || echo "No changes to commit"
+          git push origin main
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
