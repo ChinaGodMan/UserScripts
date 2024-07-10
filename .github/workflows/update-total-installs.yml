@@ -46,7 +46,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           # 添加更改
-          git add total_installs.json
+          git TotalJson/total_installs.json
           git commit -m 'Update total_installs.json with latest statistics' || echo "No changes to commit"
           git push origin main
         env:
