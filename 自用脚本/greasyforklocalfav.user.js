@@ -3,7 +3,7 @@
 // @name:zh-CN      Greasy Fork 书签
 // @name:ja      Greasy Fork ブックマーク
 // @namespace    http://tampermonkey.net/
-// @version      2024-04-24
+// @version      2024-07-10 11：22
 // @description       Bookmark the script easily
 // @description:zh-CN    Bookmark the script easily
 // @description:ja    Greasy Forkのブックマーク機能
