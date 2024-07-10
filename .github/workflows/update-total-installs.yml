@@ -27,6 +27,7 @@ jobs:
           total_good_ratings=$(jq '[.all_listable_scripts[].good_ratings] | add' data.json)
           total_ok_ratings=$(jq '[.all_listable_scripts[].ok_ratings] | add' data.json)
           total_bad_ratings=$(jq '[.all_listable_scripts[].bad_ratings] | add' data.json)
+           total_daily_installs=$(jq '[.all_listable_scripts[].daily_installs] | add' data.json)
 
           # 将数据写入 JSON 文件
           echo "{
@@ -35,6 +36,7 @@ jobs:
             \"totalGoodRatings\": $total_good_ratings,
             \"totalOkRatings\": $total_ok_ratings,
             \"totalBadRatings\": $total_bad_ratings
+             \"totalDailyInstalls\": $total_daily_installs
           }" >  TotalJson/total_installs.json
 
           # 清理工作区中的临时文件
