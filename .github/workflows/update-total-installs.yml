@@ -35,7 +35,7 @@ jobs:
             \"numScripts\": $num_scripts,
             \"totalGoodRatings\": $total_good_ratings,
             \"totalOkRatings\": $total_ok_ratings,
-            \"totalBadRatings\": $total_bad_ratings
+            \"totalBadRatings\": $total_bad_ratings,
              \"totalDailyInstalls\": $total_daily_installs
           }" >  TotalJson/total_installs.json
 
