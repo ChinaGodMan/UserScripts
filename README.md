@@ -19,7 +19,7 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
-**脚本来自互联网广大网友，本人仅是做了些许改动**
+**脚本来自互联网广大网友，本人仅是做了些许改动.**
 **如有侵权,联系必删**
 
 ## 脚本列表
