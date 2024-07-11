@@ -1,0 +1,50 @@
+name: Update User Script Version
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天运行一次
+  push:
+    branches:
+      - main
+
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: Checkout code
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: Update script version
+        run: |
+          script_file="自用脚本/导航栏添加快速功能.user.js"
+          # 读取当前版本号
+          current_version=$(grep -oP '(?<=// @version\s+)\d+\.\d+\.\d+' "$script_file")
+          
+          if [ -z "$current_version" ]; then
+            echo "Version number not found in the script file."
+            exit 1
+          fi
+          
+          # 分割版本号并增加最后一个数字
+          IFS='.' read -r -a version_parts <<< "$current_version"
+          ((version_parts[2]++))
+          new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
+          
+          # 更新脚本文件中的版本号
+          sed -i "s|// @version\s\+$current_version|// @version     $new_version|" "$script_file"
+          
+          echo "Updated version from $current_version to $new_version"
+          
+      - name: Commit and push changes
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 添加更改
+          git add 自用脚本/导航栏添加快速功能.user.js
+          git commit -m "Update version to $new_version" || echo "No changes to commit"
+          git push origin main
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
