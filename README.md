@@ -33,6 +33,7 @@
 | **missavexplorer** |miss片单备份，导出本地网页 支持导出到webdav  |   [安装](https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/missavexplorer.user.js)|[安装](https://update.greasyfork.org/scripts/497682/MissAv%E6%89%B9%E9%87%8F%E5%A4%87%E4%BB%BD%E6%94%B6%E8%97%8F%E8%A7%86%E9%A2%91.user.js)|
 |**Remove Link Underlines**|去除网页下划线  |  [安装](https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/Remove%20Link%20Underlines.user.js)|[安装](https://update.greasyfork.org/scripts/498625/Remove%20Link%20Underlines.user.js)|
 |**网页高亮关键字**|对网页上的文字进行高亮显示  |  [安装](https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js)|[安装](https://update.greasyfork.org/scripts/498906/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97.user.js)|
+|**Script Finder+**|Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本  |  [安装](https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/Script%20Finder%2B.user.js)|[安装](https://update.greasyfork.org/scripts/498904/Script%20Finder%2B.user.js)|
 
 ---
 
