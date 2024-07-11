@@ -25,7 +25,7 @@
 // @description:es Eliminar subrayados de todos los enlaces en cualquier sitio web y manejar dinámicamente nuevos enlaces
 // @author       人民的勤务员<toniaiwanowskiskr47@gmail.com> & ChatGPT
 // @match        *://*/*
-
+// @run-at document-body
 // @license MIT
 // @downloadURL https://update.greasyfork.org/scripts/498625/Remove%20Link%20Underlines.user.js
 // @updateURL https://update.greasyfork.org/scripts/498625/Remove%20Link%20Underlines.meta.js
