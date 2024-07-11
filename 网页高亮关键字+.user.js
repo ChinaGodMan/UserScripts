@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网页高亮关键字
 // @namespace    http://tampermonkey.net/
-// @version      1.1.1
+// @version      1.1.2
 // @description  对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 // @author       You
 // @include           *
@@ -20,7 +20,37 @@
     // 初始化
     function initialize() {
         let defaultWords = {
+            "key_123": {
+                limit: ["baidu"],
+                "info": "汉字",
+                "words": ["抖音", "快手", "网页", "平台", "的", "最", "一", "个", "多", "服务", "大"],
+                "color": "#85d228",
+                "textcolor": "#3467eb"
 
+
+            },
+            "key_124": {
+                limit: [],
+                "info": "数字",
+                "words": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
+                "color": "#48c790",
+                "textcolor": "#3467eb"
+
+            },
+            "key_3379656389": {
+                limit: [],
+                "info": "字母",
+                "words": ["a", "b", "c", "d", "e", "f", "t", "y", "u", "i", "o", "k", "j", "h", "g", "s", "z", "x", "v", "n", "m"],
+                "color": "#e33544",
+                "textcolor": "#3467eb"
+            },
+            "key_4947181948": {
+                limit: [],
+                "info": "相同的字可以显示各个分组的标题",
+                "words": ["的", "最", "一", "个", "多", "服务", "大"],
+                "color": "#6e7bdd",
+                "textcolor": "#e33544"
+            }
         }
         // 设置关键字默认值
         if (!GM_getValue("key")) { GM_setValue("key", defaultWords) }
@@ -37,7 +67,7 @@
             }
             Object.keys(defult).forEach((key2) => {
                 if (!cache[key][key2]) {
-                    console.log(defult[key2]);
+                    console.log(defult[key2])
                     cache[key][key2] = defult[key2]
                 }
             })
@@ -197,12 +227,12 @@
                         let classesKey = words.get(word).classesKey
                         let infoList = words.get(word).infoList
                         let color = words.get(word).color
-                         let textcolor = words.get(word).textcolor
+                        let textcolor = words.get(word).textcolor
 
                         // 返回新节点模板
-                       // return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color};">${word}</span>`
+                        // return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color};">${word}</span>`
 
-                       return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color}; color:${textcolor};">${word}</span>`;
+                        return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color}; color:${textcolor};">${word}</span>`
                     })
                     // 是否检测出了
                     if (value != newInnerHTML) {
@@ -212,7 +242,7 @@
                         node.parentElement.replaceChild(newNode, node)
                         // 点击复制
                         newNode.addEventListener("click", (e) => {
-                            navigator.clipboard.writeText(e.target.innerText);
+                            navigator.clipboard.writeText(e.target.innerText)
                         })
                     }
                 })
@@ -228,10 +258,10 @@
      */
     function watch() {
         // 选择需要观察变动的节点
-        const targetNode = document.body;
+        const targetNode = document.body
 
         // 观察器的配置（需要观察什么变动）
-        const config = { attributes: false, childList: true, subtree: true, characterData: true };
+        const config = { attributes: false, childList: true, subtree: true, characterData: true }
 
         // 当观察到变动时执行的回调函数
         const callback = function (mutationsList, observer) {
@@ -241,14 +271,14 @@
                 nodeMap.forEach((value, node) => {
                     doOnce(node)
                 })
-            }, 1);
-        };
+            }, 1)
+        }
 
         // 创建一个观察器实例并传入回调函数
-        const observer = new MutationObserver(callback);
+        const observer = new MutationObserver(callback)
 
         // 以上述配置开始观察目标节点
-        observer.observe(targetNode, config);
+        observer.observe(targetNode, config)
     }
 
 
@@ -586,7 +616,7 @@
                     GM_addStyle(res.responseText)
                 },
                 onerror: (error => {
-                    console.log("该页无法链接");
+                    console.log("该页无法链接")
                 })
             })
         }
@@ -628,7 +658,7 @@
                     // 开启设置
                     open_seting() {
                         this.showSeting = true
-                        console.log(2233);
+                        console.log(2233)
                     },
                     // 添加属性开关
                     addEdit(rules) {
@@ -650,10 +680,10 @@
                     },
 
                     // 颜色更新
-                    colorChange(key, color,textcolor) {
+                    colorChange(key, color, textcolor) {
                         document.querySelectorAll(`.mt_highlight[classesKey="${key}"]`).forEach(node => {
-                            node.style.background = color;
-                            node.style.color = textcolor;
+                            node.style.background = color
+                            node.style.color = textcolor
                         })
                         // 保存到油猴中
                         GM_setValue("key", this.rule)
@@ -696,7 +726,7 @@
 
                         // 保存到油猴中
                         GM_setValue("key", this.rule)
-                        console.log(2233);
+                        console.log(2233)
                     },
 
                     // 删除规则
@@ -716,7 +746,7 @@
 
                     // 复制到粘贴板
                     copy() {
-                        navigator.clipboard.writeText(JSON.stringify(this.rules));
+                        navigator.clipboard.writeText(JSON.stringify(this.rules))
                     },
 
                     // 获取配置覆盖
@@ -734,39 +764,39 @@
                     importFileJSON(ev) {
                         return new Promise((resolve, reject) => {
                             const fileDom = ev.target,
-                                file = fileDom.files[0];
+                                file = fileDom.files[0]
 
                             // 格式判断
                             if (file.type !== 'application/json') {
-                                reject('仅允许上传json文件');
+                                reject('仅允许上传json文件')
                             }
                             // 检验是否支持FileRender
                             if (typeof FileReader === 'undefined') {
-                                reject('当前浏览器不支持FileReader');
+                                reject('当前浏览器不支持FileReader')
                             }
 
                             // 执行后清空input的值，防止下次选择同一个文件不会触发onchange事件
-                            ev.target.value = '';
+                            ev.target.value = ''
 
                             // 执行读取json数据操作
-                            const reader = new FileReader();
-                            reader.readAsText(file); // 读取的结果还有其他读取方式，我认为text最为方便
+                            const reader = new FileReader()
+                            reader.readAsText(file) // 读取的结果还有其他读取方式，我认为text最为方便
 
                             reader.onerror = (err) => {
-                                reject('json文件解析失败', err);
+                                reject('json文件解析失败', err)
                             }
 
                             reader.onload = () => {
-                                const resultData = reader.result;
+                                const resultData = reader.result
                                 if (resultData) {
                                     try {
-                                        const importData = JSON.parse(resultData);
-                                        resolve(importData);
+                                        const importData = JSON.parse(resultData)
+                                        resolve(importData)
                                     } catch (error) {
-                                        reject('读取数据解析失败', error);
+                                        reject('读取数据解析失败', error)
                                     }
                                 } else {
-                                    reject('读取数据解析失败', error);
+                                    reject('读取数据解析失败', error)
                                 }
                             }
                         })
@@ -782,7 +812,7 @@
                                     cache["key_" + Math.floor(Math.random() * 10000000000)] = GM_getValue("key")[key]
                                 })
                                 cache = { ...cache, ...res }
-                                console.log(cache);
+                                console.log(cache)
 
                                 GM_setValue("key", cache)
                             } else {
@@ -797,11 +827,11 @@
                     // 导出配置
                     config_out() {
                         function exportJson(name, data) {
-                            let blob = new Blob([data]); //  创建 blob 对象
-                            let link = document.createElement("a");
-                            link.href = URL.createObjectURL(blob); //  创建一个 URL 对象并传给 a 的 href
-                            link.download = name; //  设置下载的默认文件名
-                            link.click();
+                            let blob = new Blob([data]) //  创建 blob 对象
+                            let link = document.createElement("a")
+                            link.href = URL.createObjectURL(blob) //  创建一个 URL 对象并传给 a 的 href
+                            link.download = name //  设置下载的默认文件名
+                            link.click()
                         }
 
                         exportJson("mt_hight_light_config.json", JSON.stringify(this.rule))
@@ -810,24 +840,24 @@
 
                     // 刷新
                     refresh() {
-                        location.reload();
+                        location.reload()
                     },
 
                 },
 
-              mounted() {
-    GM_registerMenuCommand("打开设置", this.open_seting);
-    // 点击其他区域关闭设置
-document.body.addEventListener("click", (e) => {
-    // 检查是否是移动设备
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        if (!document.querySelector("#mt_seting_box").contains(e.target)) {
-            this.close_seting();
-        }
-    }
-});
+                mounted() {
+                    GM_registerMenuCommand("打开设置", this.open_seting)
+                    // 点击其他区域关闭设置
+                    document.body.addEventListener("click", (e) => {
+                        // 检查是否是移动设备
+                        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                            if (!document.querySelector("#mt_seting_box").contains(e.target)) {
+                                this.close_seting()
+                            }
+                        }
+                    })
 
-},
+                },
             })
 
         }
@@ -836,15 +866,15 @@ document.body.addEventListener("click", (e) => {
 
     ///////////////////////////////////////////////////////////
     // vue根节点
-    let seting_box = document.createElement("div");  // 创建一个节点
-    seting_box.setAttribute("id", "mt_seting_box"); // 设置一个属性
+    let seting_box = document.createElement("div")  // 创建一个节点
+    seting_box.setAttribute("id", "mt_seting_box") // 设置一个属性
     document.body.appendChild(seting_box)
 
     GM_addStyle(HIGHTLIGHT.highlightStyle)
 
     // 初始化数据
     initialize()
-    console.log(GM_getValue("key"));
+    console.log(GM_getValue("key"))
 
     // 静态页面的检测
     let nodeMap = textMap(document.body)
@@ -854,7 +884,7 @@ document.body.addEventListener("click", (e) => {
 
     // 减少节点的重复检测
     let doOnce = ((wait) => {
-        let timer = null;
+        let timer = null
         // 存储动态更新的节点
         let elMap = new Map
 
@@ -871,11 +901,11 @@ document.body.addEventListener("click", (e) => {
                             HIGHTLIGHT.highlight(nodeMap)
                             nodeMap = null
 
-                        }, 1);
+                        }, 1)
                     })
                     elMap.clear()
                     timer = null
-                }, wait);
+                }, wait)
             }
         }
     })(100)
