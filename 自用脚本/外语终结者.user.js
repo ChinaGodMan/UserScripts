@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         外语终结者
-// @namespace    millle@foxmail.com
+// @namespace    https://github.com/10086100886/renmindeqinwuyuan
 // @version      1.3.98
 // @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换中文翻译
 // @license      MIT
