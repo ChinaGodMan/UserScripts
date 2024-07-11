@@ -4106,6 +4106,7 @@ cursor: pointer;
         }
     }
     //  -------------------------------------------------------------
+    //--功能-增加本地中文汉化
     if (getCountryCode() === 'zh-CN') {
         const translatet = new Map()
         translatet.set("Script Sets", "脚本收藏夹")
@@ -4118,3 +4119,55 @@ cursor: pointer;
         })
     }
 })()
+///--功能-美化网页徽章等 greasyfork.org/scripts/436913
+function addbageStyles() {
+    const cssMain = `
+        .report-link.report-link-abs::before {
+            content: "🚩 ";
+        }
+
+        .report-link.report-link-abs {
+            box-shadow: rgba(221, 46, 68, 0.52) 0px 0px 5px;
+            background-color: rgba(36, 36, 36, 0.9);
+            border: 0.16em solid rgb(217, 29, 53);
+            color: rgb(230, 33, 58) !important;
+            padding: 1px 4px 2px 0px;
+            letter-spacing: 0.029em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            scale: 0.9;
+        }
+
+        .report-link.report-link-abs:lang(ar), .report-link.report-link-abs:lang(ug), .report-link.report-link-abs:lang(he) {
+            direction: ltr;
+            margin-right: 90.46%;
+        }
+
+        .script-type {
+            box-shadow: rgba(221, 160, 15, 0.29) 0px 0px 5px;
+            background-color: rgba(36, 36, 36, 0.9);
+            border: 0.16em solid rgb(172, 81, 0);
+            color: rgb(221, 102, 15) !important;
+            padding: 0.8px 0.5ex 2px 2px;
+            font-variant: all-petite-caps;
+            border-radius: 4px;
+            position: relative;
+            font-weight: 800;
+            margin-left: 1ex;
+            font-size: 70%;
+            top: -0.2ex;
+        }
+            .sign-out-link {
+ color: rgb(5, 5, 5) !important;
+       }
+ 
+ 
+    `
+
+    GM_addStyle(cssMain)
+}
+
+
+addbageStyles();
+
