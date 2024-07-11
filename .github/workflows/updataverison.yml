@@ -18,7 +18,7 @@ jobs:
 
       - name: Check if script file exists
         run: |
-          script_file="自用脚本/导航栏添加快速功能.user.js"
+          script_file="\u81ea\u7528\u811a\u672c/\u5bfc\u822a\u680f\u6dfb\u52a0\u5feb\u901f\u529f\u80fd.user.js"
           if [ ! -f "$script_file" ]; then
             echo "Script file not found: $script_file"
             exit 1
@@ -27,7 +27,7 @@ jobs:
 
       - name: Update script version
         run: |
-          script_file="自用脚本/导航栏添加快速功能.user.js"
+          script_file="\u81ea\u7528\u811a\u672c/\u5bfc\u822a\u680f\u6dfb\u52a0\u5feb\u901f\u529f\u80fd.user.js"
 
           # 读取当前版本号
           current_version=$(awk '/\/\/ @version/ {print $3}' "$script_file")
@@ -63,7 +63,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           # 添加更改
-          git add 自用脚本/导航栏添加快速功能.user.js
+          git add \u81ea\u7528\u811a\u672c/\u5bfc\u822a\u680f\u6dfb\u52a0\u5feb\u901f\u529f\u80fd.user.js
           git commit -m "Update version to $new_version" || echo "No changes to commit"
           git push origin main
         env:
