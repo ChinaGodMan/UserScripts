@@ -19,8 +19,9 @@ jobs:
       - name: Update script version
         run: |
           script_file="自用脚本/导航栏添加快速功能.user.js"
+          
           # 读取当前版本号
-          current_version=$(grep -oP '(?<=// @version\s+)\d+\.\d+\.\d+' "$script_file")
+          current_version=$(awk '/\/\/ @version/ {print $3}' "$script_file")
           
           if [ -z "$current_version" ]; then
             echo "Version number not found in the script file."
