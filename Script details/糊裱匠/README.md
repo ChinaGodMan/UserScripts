@@ -119,6 +119,34 @@
 </ul>
 </details>
 
+## Thank you
+
+<details>
+<summary>引用脚本/ Quote script</summary>
+<ul>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
+    <li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
+    <li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
+    <li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
+    <li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
+    <li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
+     <li><a href="h https://greasyfork.org/zh-CN/scripts/475722target="_blank">Greasyfork 优化</a></li>
+    <li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
+    <li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
+</ul>
+</details>
+
 ## 图片展示:
 
 ![nav.png](https://img.xwyue.com/i/2024/07/12/669052994d5f4.png)
