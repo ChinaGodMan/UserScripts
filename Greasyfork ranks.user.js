@@ -22,27 +22,27 @@
 
 // ==/UserScript==
 
-(function() {
+(function () {
 
-    'use strict';
+    'use strict'
 
     // 检测脚本列表的出现，并自动插入评分
 
     function observeScriptList() {
 
-        const scriptList = document.querySelector('.script-list');
+        const scriptList = document.querySelector('.script-list')
 
         if (scriptList) {
 
             // 插入评分
 
-            insertRatings(scriptList);
+            insertRatings(scriptList)
 
 
 
             // 配置观察器
 
-            const observer = new MutationObserver(function(mutationsList， observer) {
+            const observer = new MutationObserver(function (mutationsList, observer) {
 
                 for (let mutation of mutationsList) {
 
@@ -54,7 +54,7 @@
 
                             if (node.nodeType === Node.ELEMENT_NODE && node.matches('li[data-script-id]')) {
 
-                                insertRating(node);
+                                insertRating(node)
 
                             }
 
@@ -64,11 +64,11 @@
 
                 }
 
-            });
+            })
 
             // 开始观察脚本列表的变化
 
-            observer.observe(scriptList, { childList: true, subtree: true });
+            observer.observe(scriptList, { childList: true, subtree: true })
 
         }
 
@@ -78,29 +78,29 @@
 
     function insertRating(scriptBlock) {
 
-        const ratingElement = scriptBlock.querySelector('dd.script-list-ratings');
+        const ratingElement = scriptBlock.querySelector('dd.script-list-ratings')
 
         if (ratingElement) {
 
-            const rating = ratingElement.getAttribute('data-rating-score');
+            const rating = ratingElement.getAttribute('data-rating-score')
 
-            const ratingDisplay = document.createElement('span');
+            const ratingDisplay = document.createElement('span')
 
-            ratingDisplay.textContent = rating.replace(/[^\d.]/g, '');
+            ratingDisplay.textContent = rating.replace(/[^\d.]/g, '')
 
-            ratingDisplay.style.marginLeft = '30px';
+            ratingDisplay.style.marginLeft = '30px'
 
-            ratingDisplay.style.fontSize = '1em';
+            ratingDisplay.style.fontSize = '1em'
 
-            ratingDisplay.style.color = '#ff8c00';
+            ratingDisplay.style.color = '#ff8c00'
 
-            ratingDisplay.style.fontWeight = 'bold';
+            ratingDisplay.style.fontWeight = 'bold'
 
-            const titleElement = scriptBlock.querySelector('.script-link');
+            const titleElement = scriptBlock.querySelector('.script-link')
 
             if (titleElement) {
 
-                titleElement.insertAdjacentElement('afterend', ratingDisplay);
+                titleElement.insertAdjacentElement('afterend', ratingDisplay)
 
             }
 
@@ -112,19 +112,19 @@
 
     function insertRatings(scriptList) {
 
-        const scriptBlocks = scriptList.querySelectorAll('li[data-script-id]');
+        const scriptBlocks = scriptList.querySelectorAll('li[data-script-id]')
 
-        scriptBlocks.forEach(insertRating);
+        scriptBlocks.forEach(insertRating)
 
     }
 
     // 开始观察当前页面脚本列表的出现
 
-    observeScriptList();
+    observeScriptList()
 
     // 观察 body 元素以检测页面加载了下一页
 
-    const bodyObserver = new MutationObserver(function(mutationsList, observer) {
+    const bodyObserver = new MutationObserver(function (mutationsList, observer) {
 
         mutationsList.forEach(mutation => {
 
@@ -134,19 +134,19 @@
 
                     // 页面加载了下一页，自动插入评分
 
-                    insertRatings(node);
+                    insertRatings(node)
 
                 }
 
-            });
+            })
 
-        });
+        })
 
-    });
+    })
 
     // 开始观察 body 元素的子节点变化
 
-    bodyObserver.observe(document.body, { childList: true, subtree: true });
+    bodyObserver.observe(document.body, { childList: true, subtree: true })
 
 })();
 
