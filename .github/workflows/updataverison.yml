@@ -16,12 +16,24 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
+      - name: Check if script file exists
+        run: |
+          script_file="自用脚本/导航栏添加快速功能.user.js"
+          if [ ! -f "$script_file" ]; then
+            echo "Script file not found: $script_file"
+            exit 1
+          fi
+          echo "Script file found: $script_file"
+
       - name: Update script version
         run: |
           script_file="自用脚本/导航栏添加快速功能.user.js"
-          
+
           # 读取当前版本号
           current_version=$(awk '/\/\/ @version/ {print $3}' "$script_file")
+          
+          # 打印当前版本号
+          echo "Current version: $current_version"
           
           if [ -z "$current_version" ]; then
             echo "Version number not found in the script file."
@@ -33,8 +45,15 @@ jobs:
           ((version_parts[2]++))
           new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
           
+          # 打印新版本号
+          echo "New version: $new_version"
+          
           # 更新脚本文件中的版本号
           sed -i "s|// @version\s\+$current_version|// @version     $new_version|" "$script_file"
+          
+          # 打印更新后的脚本文件内容
+          echo "Updated script file content:"
+          cat "$script_file"
           
           echo "Updated version from $current_version to $new_version"
           
