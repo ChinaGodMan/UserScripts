@@ -24,8 +24,8 @@ jobs:
             "Greasyfork Utility Toolkit.user.js"
             "自用脚本/外语终结者.user.js"
           )
-
-          # 将文件列表保存到 GitHub 环境变量中
+          
+          # 将文件列表保存到 GitHub 环境变量中，确保空格和换行符被正确处理
           files_list=$(printf "%s\n" "${files[@]}")
           echo "FILES_LIST=${files_list}" >> $GITHUB_ENV
 
@@ -37,6 +37,7 @@ jobs:
       - name: Debug file paths
         run: |
           echo "FILES_LIST=${{ env.FILES_LIST }}"
+          # 列出所有文件路径，确认它们是否存在
           for file in ${{ env.FILES_LIST }}; do
             echo "Checking file: \"$file\""
             if [ -f "$file" ]; then
@@ -52,7 +53,6 @@ jobs:
           # 从环境变量中读取文件列表，并将换行符替换为原来的空格
           files=$(echo "${{ env.FILES_LIST }}" | tr '\n' ' ')
           for file in $files; do
-            # 输出调试信息
             echo "Processing file: \"$file\""
             if [ -f "$file" ]; then
               current_version=$(awk '/^\/\/ @version/ {print $NF}' "$file")
@@ -96,7 +96,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 将所有更改添加到 Git
+          # 将所有更改添加到 Git 中
           git add ${{ env.FILES_LIST }}
           
           # 提交更改
