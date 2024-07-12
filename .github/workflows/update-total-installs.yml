@@ -2,7 +2,7 @@ name: Update Total Installs
 
 on:
   schedule:
-    - cron: '*/6 * * * *' # 5 分钟运行一次
+    - cron: '*/6 * * * *' # 每 6 分钟运行一次
   push:
     branches:
       - main
@@ -25,13 +25,33 @@ jobs:
           echo "Downloaded JSON content:"
           cat data.json
 
-          # 处理 JSON 文件中的统计数据
-          total_installs=$(jq '[.all_listable_scripts[]? | select(.total_installs != null) | .total_installs] | add' data.json)
-          num_scripts=$(jq '.all_listable_scripts | length' data.json)
-          total_good_ratings=$(jq '[.all_listable_scripts[]? | select(.good_ratings != null) | .good_ratings] | add' data.json)
-          total_ok_ratings=$(jq '[.all_listable_scripts[]? | select(.ok_ratings != null) | .ok_ratings] | add' data.json)
-          total_bad_ratings=$(jq '[.all_listable_scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
-          total_daily_installs=$(jq '[.all_listable_scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
+          # 检查 `all_listable_scripts` 是否存在
+          if jq -e '.all_listable_scripts' data.json > /dev/null; then
+              echo "当前使用的是 all_listable_scripts"
+              # 处理 `all_listable_scripts` 中的统计数据
+              total_installs=$(jq '[.all_listable_scripts[]? | select(.total_installs != null) | .total_installs] | add' data.json)
+              num_scripts=$(jq '.all_listable_scripts | length' data.json)
+              total_good_ratings=$(jq '[.all_listable_scripts[]? | select(.good_ratings != null) | .good_ratings] | add' data.json)
+              total_ok_ratings=$(jq '[.all_listable_scripts[]? | select(.ok_ratings != null) | .ok_ratings] | add' data.json)
+              total_bad_ratings=$(jq '[.all_listable_scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
+              total_daily_installs=$(jq '[.all_listable_scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
+
+          # 如果 `all_listable_scripts` 不存在，则检查 `scripts`
+          elif jq -e '.scripts' data.json > /dev/null; then
+              echo "当前使用的是 scripts"
+              # 处理 `scripts` 中的统计数据
+              total_installs=$(jq '[.scripts[]? | select(.total_installs != null) | .total_installs] | add' data.json)
+              num_scripts=$(jq '.scripts | length' data.json)
+              total_good_ratings=$(jq '[.scripts[]? | select(.good_ratings != null) | .good_ratings] | add' data.json)
+              total_ok_ratings=$(jq '[.scripts[]? | select(.ok_ratings != null) | .ok_ratings] | add' data.json)
+              total_bad_ratings=$(jq '[.scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
+              total_daily_installs=$(jq '[.scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
+
+          # 如果 `all_listable_scripts` 和 `scripts` 都不存在
+          else
+              echo "未找到数据源"
+              exit 1
+          fi
 
           # 检查是否有计算结果为空
           if [ -z "$total_installs" ]; then total_installs=0; fi
