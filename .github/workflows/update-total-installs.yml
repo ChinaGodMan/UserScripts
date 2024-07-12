@@ -21,7 +21,7 @@ jobs:
       - name: Pull latest changes
         run: |
           git pull origin main  # 拉取最新的远程更改
-      - name: Fetch and process JSON data
+      - name: Fetch 和 process JSON data
         run: |
           # 下载 JSON 文件
           curl -s https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98.json -o data.json
@@ -75,13 +75,13 @@ jobs:
           # 清理工作区中的临时文件
           rm data.json
 
-      - name: Commit and push changes
+      - name: Commit 和 push changes
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # 拉取最新远端仓库
-          git pull origin main
+          
+          
           # 添加更改
           git add TotalJson/total_installs.json
           git commit -m 'Update total_installs.json with latest statistics' || echo "No changes to commit"
