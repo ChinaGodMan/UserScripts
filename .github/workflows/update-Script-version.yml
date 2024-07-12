@@ -59,6 +59,19 @@ jobs:
             fi
           done < docs/ScriptsPath.txt
 
+      - name: Debug environment variables
+        run: |
+          cat $GITHUB_ENV  # 打印环境变量以进行调试
+
+      - name: Debug changes
+        run: |
+          git status
+          git diff  # 打印更改的差异以进行调试
+
+      - name: Pull remote changes
+        run: |
+          git pull origin main  # 拉取远程 main 分支的更改
+
       - name: Commit and push changes
         run: |
           # 配置 Git 用户
