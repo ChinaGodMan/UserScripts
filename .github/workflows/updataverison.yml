@@ -28,14 +28,16 @@ jobs:
       - name: Extract current version
         id: extract_version
         run: |
-          current_version=$(grep -oP '(?<=// @version\s+)\d+\.\d+\.\d+\.\d+' "Greasyfork Utility Toolkit.user.js")
+          # 提取当前版本号
+          current_version=$(awk '/^\/\/ @version/ {for (i=2; i<=NF; i++) { if ($i ~ /^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/) {print $i; exit} }}' "Greasyfork Utility Toolkit.user.js")
           echo "Current version: $current_version"
-          
+
           if [ -z "$current_version" ]; then
             echo "Version number not found in the script file."
             exit 1
           fi
 
+          # 分割版本号成数组
           IFS='.' read -r -a version_parts <<< "$current_version"
           ((version_parts[3]++))
 
