@@ -17,11 +17,11 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Create file list
-        run: |
-          # 创建包含文件列表的文本文件
-          echo "Greasyfork Utility Toolkit.user.js" > files.txt
-          echo "自用脚本/外语终结者.user.js" >> files.txt
+      #- name: Create file list
+      #  run: |
+      #    # 创建包含文件列表的文本文件
+       #   echo "Greasyfork Utility Toolkit.user.js" > files.txt
+       #   echo "自用脚本/外语终结者.user.js" >> files.txt
 
       - name: Debug file list
         run: |
