@@ -24,7 +24,7 @@ jobs:
           echo "Downloaded JSON content:"
           cat data.json
 
-          # 检查 `all_listable_scripts` 是否存在
+          # 处理 `all_listable_scripts` 和 `scripts` 中的统计数据
           if jq -e '.all_listable_scripts' data.json > /dev/null; then
               echo "当前使用的是 all_listable_scripts"
               # 处理 `all_listable_scripts` 中的统计数据
@@ -34,8 +34,6 @@ jobs:
               total_ok_ratings=$(jq '[.all_listable_scripts[]? | select(.ok_ratings != null) | .ok_ratings] | add' data.json)
               total_bad_ratings=$(jq '[.all_listable_scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
               total_daily_installs=$(jq '[.all_listable_scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
-
-          # 如果 `all_listable_scripts` 不存在，则检查 `scripts`
           elif jq -e '.scripts' data.json > /dev/null; then
               echo "当前使用的是 scripts"
               # 处理 `scripts` 中的统计数据
@@ -45,20 +43,18 @@ jobs:
               total_ok_ratings=$(jq '[.scripts[]? | select(.ok_ratings != null) | .ok_ratings] | add' data.json)
               total_bad_ratings=$(jq '[.scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
               total_daily_installs=$(jq '[.scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
-
-          # 如果 `all_listable_scripts` 和 `scripts` 都不存在
           else
               echo "未找到数据源"
               exit 1
           fi
 
           # 检查是否有计算结果为空
-          if [ -z "$total_installs" ]; then total_installs=0; fi
-          if [ -z "$num_scripts" ]; then num_scripts=0; fi
-          if [ -z "$total_good_ratings" ]; then total_good_ratings=0; fi
-          if [ -z "$total_ok_ratings" ]; then total_ok_ratings=0; fi
-          if [ -z "$total_bad_ratings" ]; then total_bad_ratings=0; fi
-          if [ -z "$total_daily_installs" ]; then total_daily_installs=0; fi
+          total_installs=${total_installs:-0}
+          num_scripts=${num_scripts:-0}
+          total_good_ratings=${total_good_ratings:-0}
+          total_ok_ratings=${total_ok_ratings:-0}
+          total_bad_ratings=${total_bad_ratings:-0}
+          total_daily_installs=${total_daily_installs:-0}
 
           # 将数据写入 JSON 文件
           echo "{
@@ -78,6 +74,8 @@ jobs:
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 拉取最新远端仓库
+          git pull origin main
           # 添加更改
           git add TotalJson/total_installs.json
           git commit -m 'Update total_installs.json with latest statistics' || echo "No changes to commit"
