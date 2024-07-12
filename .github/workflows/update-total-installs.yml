@@ -6,9 +6,9 @@ on:
 
   workflow_dispatch:  # 允许手动触发工作流
 
-  push:
-    branches:
-      - main  # 只有当代码推送到 `main` 分支时才触发工作流
+ # push:
+  #  branches:
+   #   - main  # 只有当代码推送到 `main` 分支时才触发工作流
 
 jobs:
   update-total-installs:
