@@ -37,26 +37,20 @@ jobs:
             exit 1
           fi
 
-          # 分割版本号成数组
-          IFS='.' read -r -a version_parts <<< "$current_version"
-          ((version_parts[3]++))
+          # 将版本号中的.替换为空格，以便进行加法操作
+          version_number=$(echo "$current_version" | sed 's/\./ /g')
 
-          if [ "${version_parts[3]}" -ge 10 ]; then
-            version_parts[3]=0
-            ((version_parts[2]++))
-          fi
+          # 将版本号转换为数字并加1
+          version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
 
-          if [ "${version_parts[2]}" -ge 10 ]; then
-            version_parts[2]=0
-            ((version_parts[1]++))
-          fi
+          # 还原为4部分版本号，并分割为数组
+          major=$((version_number / 1000000))
+          minor=$(( (version_number % 1000000) / 10000 ))
+          patch=$(( (version_number % 10000) / 100 ))
+          build=$(( version_number % 100 ))
 
-          if [ "${version_parts[1]}" -ge 10 ]; then
-            version_parts[1]=0
-            ((version_parts[0]++))
-          fi
-
-          new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}.${version_parts[3]}"
+          # 生成新的版本号
+          new_version="$major.$minor.$patch.$build"
           echo "New version: $new_version"
           
           echo "new_version=$new_version" >> $GITHUB_ENV
