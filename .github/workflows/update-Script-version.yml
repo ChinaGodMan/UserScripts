@@ -2,10 +2,7 @@ name: Update User Script Versions
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天运行一次
-#  push:
- #   branches:
- #     - main
+    - cron: '0 0 * * *'  # 每天的 UTC 时间 0 点，即中国时间的早上 8 点
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
@@ -17,16 +14,10 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      #- name: Create file list
-      #  run: |
-      #    # 创建包含文件列表的文本文件
-       #   echo "Greasyfork Utility Toolkit.user.js" > files.txt
-       #   echo "自用脚本/外语终结者.user.js" >> files.txt
-
       - name: Debug file list
         run: |
-          cat docs/ScriptsPath.txt
-          
+          cat docs/ScriptsPath.txt  # 打印 docs/ScriptsPath.txt 文件内容以进行调试
+
       - name: Extract current version
         id: extract_version
         run: |
@@ -68,8 +59,6 @@ jobs:
             fi
           done < docs/ScriptsPath.txt
 
-
-          
       - name: Commit and push changes
         run: |
           # 配置 Git 用户
