@@ -23,16 +23,20 @@ jobs:
           files=(
             "Greasyfork Utility Toolkit.user.js"
             "自用脚本/外语终结者.user.js"
-            
           )
           
           # 将文件列表保存到 GitHub 环境变量中
           echo "FILES=${files[*]}" >> $GITHUB_ENV
+          
+          # 生成一个用空格分隔的文件列表供后续步骤使用
+          files_list=$(printf "%s " "${files[@]}")
+          echo "FILES_LIST=${files_list}" >> $GITHUB_ENV
 
       - name: Extract current version
         id: extract_version
         run: |
-          files=(${{ env.FILES }})
+          # 从环境变量中读取文件列表
+          files=(${{ env.FILES_LIST }})
           for file in "${files[@]}"; do
             if [ -f "$file" ]; then
               current_version=$(awk '/^\/\/ @version/ {print $NF}' "$file")
@@ -76,9 +80,14 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 添加更改
-          git add ${files[@]}
-          git commit -m "Update versions to ${{ env.FILES_NEW_VERSIONS }}" || echo "No changes to commit"
+          # 将所有更改添加到 Git
+          git add ${FILES_LIST}
+          
+          # 提交更改
+          commit_message="Update versions for $(printf '%s ' "${{ env.FILES_LIST }}")"
+          git commit -m "$commit_message" || echo "No changes to commit"
+          
+          # 推送更改
           git push origin main
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
