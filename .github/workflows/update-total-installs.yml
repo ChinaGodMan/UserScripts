@@ -3,9 +3,8 @@ name: Update Total Installs
 on:
   schedule:
     - cron: '*/6 * * * *' # 每 6 分钟运行一次
-  push:
-    branches:
-      - main
+
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   update-total-installs:
