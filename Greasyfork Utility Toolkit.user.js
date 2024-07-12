@@ -63,6 +63,7 @@
 // @homepageURL  https://greasyfork.org/users/1169082
 // @downloadURL https://update.greasyfork.org/scripts/497346/Greasyfork%20%E7%B3%8A%E8%A3%B1%E5%8C%A0.user.js
 // @updateURL https://update.greasyfork.org/scripts/497346/Greasyfork%20%E7%B3%8A%E8%A3%B1%E5%8C%A0.meta.js
+//20240712添加网站风格
 // ==/UserScript==
 const translate = (function () {
     const userLang = location.pathname.split('/')[1]
