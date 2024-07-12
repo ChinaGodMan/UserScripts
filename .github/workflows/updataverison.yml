@@ -1,4 +1,4 @@
-name: Update User Script Version
+name: Update User Script Versions
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
       - main
 
 jobs:
-  update-version:
+  update-versions:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,63 +16,69 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Check if script file exists
+      - name: Define script files
+        id: define_files
         run: |
-          script_file="Greasyfork Utility Toolkit.user.js"
-          if [ ! -f "$script_file" ]; then
-            echo "Script file not found: $script_file"
-            exit 1
-          fi
-          echo "Script file found: $script_file"
+          # 定义需要更新的文件列表
+          files=(
+            "Greasyfork Utility Toolkit.user.js"
+            "自用脚本/外语终结者.user.js"
+            
+          )
+          
+          # 将文件列表保存到 GitHub 环境变量中
+          echo "FILES=${files[*]}" >> $GITHUB_ENV
 
       - name: Extract current version
         id: extract_version
         run: |
-          # 提取当前版本号
-           current_version=$(awk '/^\/\/ @version/ {print $NF}' "Greasyfork Utility Toolkit.user.js")
-          echo "Current version: $current_version"
-
-          if [ -z "$current_version" ]; then
-            echo "Version number not found in the script file."
-            exit 1
-          fi
-
-          # 将版本号中的.替换为空格，以便进行加法操作
-          version_number=$(echo "$current_version" | sed 's/\./ /g')
-
-          # 将版本号转换为数字并加1
-          version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
-
-          # 还原为4部分版本号，并分割为数组
-          major=$((version_number / 1000000))
-          minor=$(( (version_number % 1000000) / 10000 ))
-          patch=$(( (version_number % 10000) / 100 ))
-          build=$(( version_number % 100 ))
-
-          # 生成新的版本号
-          new_version="$major.$minor.$patch.$build"
-          echo "New version: $new_version"
-          
-          echo "new_version=$new_version" >> $GITHUB_ENV
-
-      - name: Update script version
-        run: |
-          script_file="Greasyfork Utility Toolkit.user.js"
-          sed -i "s|// @version\s\+[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|// @version      ${{ env.new_version }}|" "$script_file"
-          
-          echo "Updated script file content:"
-          cat "$script_file"
-          
-          echo "Updated version to ${{ env.new_version }}"
+          files=(${{ env.FILES }})
+          for file in "${files[@]}"; do
+            if [ -f "$file" ]; then
+              current_version=$(awk '/^\/\/ @version/ {print $NF}' "$file")
+              echo "Current version for $file: $current_version"
+              
+              if [ -z "$current_version" ]; then
+                echo "Version number not found in the script file: $file"
+                exit 1
+              fi
+              
+              # 将版本号中的.替换为空格，以便进行加法操作
+              version_number=$(echo "$current_version" | sed 's/\./ /g')
+              
+              # 将版本号转换为数字并加1
+              version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
+              
+              # 还原为4部分版本号，并分割为数组
+              major=$((version_number / 1000000))
+              minor=$(( (version_number % 1000000) / 10000 ))
+              patch=$(( (version_number % 10000) / 100 ))
+              build=$(( version_number % 100 ))
+              
+              # 生成新的版本号
+              new_version="$major.$minor.$patch.$build"
+              echo "New version for $file: $new_version"
+              
+              # 替换版本号
+              sed -i "s|// @version\s\+[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|// @version      $new_version|" "$file"
+              
+              # 将新的版本号添加到环境变量中
+              echo "${file}_NEW_VERSION=$new_version" >> $GITHUB_ENV
+            else
+              echo "Script file not found: $file"
+              exit 1
+            fi
+          done
 
       - name: Commit and push changes
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
           # 添加更改
-          git add "Greasyfork Utility Toolkit.user.js"
-          git commit -m "Update version to ${{ env.new_version }}" || echo "No changes to commit"
+          git add ${files[@]}
+          git commit -m "Update versions to ${{ env.FILES_NEW_VERSIONS }}" || echo "No changes to commit"
           git push origin main
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
