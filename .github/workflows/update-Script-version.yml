@@ -25,7 +25,7 @@ jobs:
 
       - name: Debug file list
         run: |
-          cat files.txt
+          cat docs/ScriptsPath.txt
           
       - name: Extract current version
         id: extract_version
@@ -66,12 +66,9 @@ jobs:
               echo "Script file not found: $file"
               exit 1
             fi
-          done < files.txt
+          done < docs/ScriptsPath.txt
 
-      - name: Debug updated files
-        run: |
-          cat Greasyfork\ Utility\ Toolkit.user.js
-          cat 自用脚本/外语终结者.user.js
+
           
       - name: Commit and push changes
         run: |
