@@ -6,6 +6,10 @@ on:
 
   workflow_dispatch:  # 允许手动触发工作流
 
+  push:
+    branches:
+      - main  # 只有当代码推送到 `main` 分支时才触发工作流
+
 jobs:
   update-total-installs:
     runs-on: ubuntu-latest
@@ -14,7 +18,9 @@ jobs:
         name: Checkout code
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
-
+      - name: Pull latest changes
+        run: |
+          git pull origin main  # 拉取最新的远程更改
       - name: Fetch and process JSON data
         run: |
           # 下载 JSON 文件
