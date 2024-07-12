@@ -29,7 +29,7 @@ jobs:
         id: extract_version
         run: |
           # 提取当前版本号
-          current_version=$(awk '/^\/\/ @version/ {for (i=2; i<=NF; i++) { if ($i ~ /^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$/) {print $i; exit} }}' "Greasyfork Utility Toolkit.user.js")
+           current_version=$(awk '/^\/\/ @version/ {print $NF}' "Greasyfork Utility Toolkit.user.js")
           echo "Current version: $current_version"
 
           if [ -z "$current_version" ]; then
