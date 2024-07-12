@@ -73,6 +73,11 @@ jobs:
           git fetch origin  # 仅拉取更新，不合并
           git reset --hard origin/main  # 强制重置本地 main 分支为远程 main 分支的状态
 
+      - name: Debug before pushing changes
+        run: |
+          git log -1  # 打印最近的一次提交记录
+          git diff  # 打印未提交的更改（如果有的话）
+
       - name: Commit and push changes
         run: |
           # 配置 Git 用户
