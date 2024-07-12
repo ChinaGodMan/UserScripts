@@ -1,4 +1,4 @@
-name: Update User Script Versions
+name: 更新用户脚本版本
 
 on:
   schedule:
@@ -10,39 +10,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        name: Checkout code
+        name: 检出代码
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Pull latest changes
+      - name: 获取当前分支
+        id: get_branch
         run: |
-          git pull origin main  # 拉取最新的远程更改
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: Debug file list
+      - name: 拉取最新更改
         run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
+      - name: 调试文件列表
+        run: |
+          echo "当前脚本路径列表:"
           cat docs/ScriptsPath.txt  # 打印 docs/ScriptsPath.txt 文件内容以进行调试
 
-      - name: Extract current version
+      - name: 提取当前版本
         id: extract_version
         run: |
           while IFS= read -r file; do
-            echo "Processing file: \"$file\""
+            echo "处理文件: \"$file\""
             if [ -f "$file" ]; then
               current_version=$(awk '/^\/\/ @version/ {print $NF}' "$file")
-              echo "Current version for $file: $current_version"
+              echo "文件 $file 的当前版本: $current_version"
               
               if [ -z "$current_version" ]; then
-                echo "Version number not found in the script file: $file"
+                echo "在脚本文件 $file 中未找到版本号"
                 exit 1
               fi
               
               # 将版本号中的.替换为空格，以便进行加法操作
               version_number=$(echo "$current_version" | sed 's/\./ /g')
-              echo "Version number (with spaces): $version_number"
+              echo "版本号（转换为数字）: $version_number"
               
               # 将版本号转换为数字并加1
               version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
-              echo "Version number (incremented): $version_number"
+              echo "版本号（加1后的数字）: $version_number"
               
               # 还原为4部分版本号，并分割为数组
               major=$((version_number / 1000000))
@@ -52,7 +59,7 @@ jobs:
               
               # 生成新的版本号
               new_version="$major.$minor.$patch.$build"
-              echo "New version for $file: $new_version"
+              echo "文件 $file 的新版本号: $new_version"
               
               # 替换版本号
               sed -i "s|// @version[ ]\+[0-9]*\([.][0-9]*\)*|// @version $new_version|" "$file"
@@ -60,27 +67,31 @@ jobs:
               # 将新的版本号添加到环境变量中
               echo "${file}_NEW_VERSION=$new_version" >> $GITHUB_ENV
             else
-              echo "Script file not found: $file"
+              echo "未找到脚本文件: $file"
               exit 1
             fi
           done < docs/ScriptsPath.txt
 
-      - name: Check if @version was updated in files
+      - name: 检查 @version 是否已更新
         run: |
-          grep '^// @version' 'Greasyfork Utility Toolkit.user.js'
-          grep '^// @version' '自用脚本/外语终结者.user.js'
-          grep '^// @version' 'Script Finder+.user.js'
+          while IFS= read -r file; do
+            echo "检查文件中的版本号: $file"
+            grep '^// @version' "$file"
+          done < docs/ScriptsPath.txt
 
-      - name: Debug environment variables
+      - name: 调试环境变量
         run: |
+          echo "当前环境变量:"
           cat $GITHUB_ENV  # 打印环境变量以进行调试
 
-      - name: Debug changes
+      - name: 调试更改
         run: |
+          echo "Git 状态:"
           git status
+          echo "更改的差异:"
           git diff  # 打印更改的差异以进行调试
 
-      - name: Commit 和 push changes
+      - name: 提交和推送更改
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
@@ -90,11 +101,11 @@ jobs:
           git add .
           
           # 提交更改
-          commit_message="Update versions"
-          echo "Commit message: $commit_message"
-          git commit -m "$commit_message" || echo "No changes to commit"
+          commit_message="更新版本号"
+          echo "提交信息: $commit_message"
+          git commit -m "$commit_message" || echo "没有需要提交的更改"
           
           # 推送更改
-          git push origin main
+          git push origin ${{ env.branch }}  # 推送到当前分支
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中

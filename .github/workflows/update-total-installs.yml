@@ -1,38 +1,46 @@
-name: Update Total Installs
+name: 更新总安装量
 
 on:
   schedule:
-    - cron: '*/6 * * * *' # 每 6 分钟运行一次
+    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
 
   workflow_dispatch:  # 允许手动触发工作流
 
- # push:
+  # push:
   #  branches:
-   #   - main  # 只有当代码推送到 `main` 分支时才触发工作流
+  #    - main  # 只有当代码推送到 `main` 分支时才触发工作流
 
 jobs:
   update-total-installs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        name: Checkout code
+        name: 检出代码
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
-      - name: Pull latest changes
+
+      - name: 获取当前分支
+        id: get_branch
         run: |
-          git pull origin main  # 拉取最新的远程更改
-      - name: Fetch 和 process JSON data
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+      - name: 拉取最新更改
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
+      - name: 获取和处理 JSON 数据
         run: |
           # 下载 JSON 文件
           curl -s https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98.json -o data.json
 
           # 打印下载的 JSON 文件内容进行调试
-          echo "Downloaded JSON content:"
+          echo "下载的 JSON 文件内容:"
           cat data.json
 
           # 处理 `all_listable_scripts` 和 `scripts` 中的统计数据
           if jq -e '.all_listable_scripts' data.json > /dev/null; then
-              echo "当前使用的是 all_listable_scripts"
+              echo "当前数据来源是 all_listable_scripts"
               # 处理 `all_listable_scripts` 中的统计数据
               total_installs=$(jq '[.all_listable_scripts[]? | select(.total_installs != null) | .total_installs] | add' data.json)
               num_scripts=$(jq '.all_listable_scripts | length' data.json)
@@ -41,7 +49,7 @@ jobs:
               total_bad_ratings=$(jq '[.all_listable_scripts[]? | select(.bad_ratings != null) | .bad_ratings] | add' data.json)
               total_daily_installs=$(jq '[.all_listable_scripts[]? | select(.daily_installs != null) | .daily_installs] | add' data.json)
           elif jq -e '.scripts' data.json > /dev/null; then
-              echo "当前使用的是 scripts"
+              echo "当前数据来源是 scripts"
               # 处理 `scripts` 中的统计数据
               total_installs=$(jq '[.scripts[]? | select(.total_installs != null) | .total_installs] | add' data.json)
               num_scripts=$(jq '.scripts | length' data.json)
@@ -72,19 +80,22 @@ jobs:
             \"totalDailyInstalls\": $total_daily_installs
           }" > TotalJson/total_installs.json
 
+          # 打印生成的 JSON 文件内容进行调试
+          echo "生成的 JSON 文件内容:"
+          cat TotalJson/total_installs.json
+
           # 清理工作区中的临时文件
           rm data.json
 
-      - name: Commit 和 push changes
+      - name: 提交和推送更改
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          
           # 添加更改
           git add TotalJson/total_installs.json
-          git commit -m 'Update total_installs.json with latest statistics' || echo "No changes to commit"
-          git push origin main
+          git commit -m '更新 total_installs.json 以获取最新统计数据' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
