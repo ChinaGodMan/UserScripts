@@ -2,7 +2,7 @@ name: Update User Script Versions
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天运行一次
+    - cron: '0 0 */2 * *'  # 每两天午夜12点 UTC 时间运行一次
   push:
     branches:
       - main
@@ -16,43 +16,15 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Define script files
-        id: define_files
+      - name: Read file list
         run: |
-          # 定义需要更新的文件列表
-          files=(
-            "Greasyfork Utility Toolkit.user.js"
-            "自用脚本/外语终结者.user.js"
-          )
+          # 查看文件列表内容
+          cat files.txt
           
-          # 将文件列表保存到 GitHub 环境变量中，确保空格和换行符被正确处理
-          files_list=$(printf "%s\n" "${files[@]}")
-          echo "FILES_LIST=${files_list}" >> $GITHUB_ENV
-
-      - name: Debug current directory
-        run: |
-          pwd
-          ls -la
-
-      - name: Debug file paths
-        run: |
-          echo "FILES_LIST=${{ env.FILES_LIST }}"
-          # 列出所有文件路径，确认它们是否存在
-          for file in ${{ env.FILES_LIST }}; do
-            echo "Checking file: \"$file\""
-            if [ -f "$file" ]; then
-              echo "$file exists"
-            else
-              echo "$file does not exist"
-            fi
-          done
-
       - name: Extract current version
         id: extract_version
         run: |
-          # 从环境变量中读取文件列表，并将换行符替换为原来的空格
-          files=$(echo "${{ env.FILES_LIST }}" | tr '\n' ' ')
-          for file in $files; do
+          while IFS= read -r file; do
             echo "Processing file: \"$file\""
             if [ -f "$file" ]; then
               current_version=$(awk '/^\/\/ @version/ {print $NF}' "$file")
@@ -62,48 +34,3 @@ jobs:
                 echo "Version number not found in the script file: $file"
                 exit 1
               fi
-              
-              # 将版本号中的.替换为空格，以便进行加法操作
-              version_number=$(echo "$current_version" | sed 's/\./ /g')
-              
-              # 将版本号转换为数字并加1
-              version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
-              
-              # 还原为4部分版本号，并分割为数组
-              major=$((version_number / 1000000))
-              minor=$(( (version_number % 1000000) / 10000 ))
-              patch=$(( (version_number % 10000) / 100 ))
-              build=$(( version_number % 100 ))
-              
-              # 生成新的版本号
-              new_version="$major.$minor.$patch.$build"
-              echo "New version for $file: $new_version"
-              
-              # 替换版本号
-              sed -i "s|// @version\s\+[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|// @version      $new_version|" "$file"
-              
-              # 将新的版本号添加到环境变量中
-              echo "${file}_NEW_VERSION=$new_version" >> $GITHUB_ENV
-            else
-              echo "Script file not found: $file"
-              exit 1
-            fi
-          done
-
-      - name: Commit and push changes
-        run: |
-          # 配置 Git 用户
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # 将所有更改添加到 Git 中
-          git add ${{ env.FILES_LIST }}
-          
-          # 提交更改
-          commit_message="Update versions for $(printf '%s ' $files)"
-          git commit -m "$commit_message" || echo "No changes to commit"
-          
-          # 推送更改
-          git push origin main
-        env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
