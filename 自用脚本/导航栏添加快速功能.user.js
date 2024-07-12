@@ -4,7 +4,7 @@
 // @match       https://greasyfork.org/*
 // @match        https://sleazyfork.org/*
 // @grant       none
-// @version     0.2.0
+// @version     0.3.0
 // @license     MIT
 // @author      CY Fung
 // @grant        GM_addStyle

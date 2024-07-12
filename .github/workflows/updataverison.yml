@@ -2,7 +2,7 @@ name: Update User Script Version
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天运行一次
+    - cron: '0 0 * * *'  # 每天运行一次
   push:
     branches:
       - main
@@ -18,53 +18,65 @@ jobs:
 
       - name: Check if script file exists
         run: |
-          script_file="自用脚本/导航栏添加快速功能.user.js"  # 直接使用正常的路径
+          script_file="Greasyfork Utility Toolkit.user.js"
           if [ ! -f "$script_file" ]; then
             echo "Script file not found: $script_file"
             exit 1
           fi
           echo "Script file found: $script_file"
 
-      - name: Update script version
+      - name: Extract current version
+        id: extract_version
         run: |
-          script_file="自用脚本/导航栏添加快速功能.user.js"  # 直接使用正常的路径
-
-          # 读取当前版本号
-          current_version=$(awk '/\/\/ @version/ {print $3}' "$script_file")
-          
-          # 打印当前版本号
+          current_version=$(grep -oP '(?<=// @version\s+)\d+\.\d+\.\d+\.\d+' "Greasyfork Utility Toolkit.user.js")
           echo "Current version: $current_version"
           
           if [ -z "$current_version" ]; then
             echo "Version number not found in the script file."
             exit 1
           fi
-          
-          # 分割版本号并增加最后一个数字
+
           IFS='.' read -r -a version_parts <<< "$current_version"
-          ((version_parts[2]++))
-          new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}"
-          
-          # 打印新版本号
+          ((version_parts[3]++))
+
+          if [ "${version_parts[3]}" -ge 10 ]; then
+            version_parts[3]=0
+            ((version_parts[2]++))
+          fi
+
+          if [ "${version_parts[2]}" -ge 10 ]; then
+            version_parts[2]=0
+            ((version_parts[1]++))
+          fi
+
+          if [ "${version_parts[1]}" -ge 10 ]; then
+            version_parts[1]=0
+            ((version_parts[0]++))
+          fi
+
+          new_version="${version_parts[0]}.${version_parts[1]}.${version_parts[2]}.${version_parts[3]}"
           echo "New version: $new_version"
           
-          # 更新脚本文件中的版本号
-          sed -i "s|// @version\s\+$current_version|// @version     $new_version|" "$script_file"
+          echo "new_version=$new_version" >> $GITHUB_ENV
+
+      - name: Update script version
+        run: |
+          script_file="Greasyfork Utility Toolkit.user.js"
+          sed -i "s|// @version\s\+[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*|// @version      ${{ env.new_version }}|" "$script_file"
           
-          # 打印更新后的脚本文件内容
           echo "Updated script file content:"
           cat "$script_file"
           
-          echo "Updated version from $current_version to $new_version"
-          
+          echo "Updated version to ${{ env.new_version }}"
+
       - name: Commit and push changes
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           # 添加更改
-          git add "自用脚本/导航栏添加快速功能.user.js"  # 直接使用正常的路径
-          git commit -m "Update version to $new_version" || echo "No changes to commit"
+          git add "Greasyfork Utility Toolkit.user.js"
+          git commit -m "Update version to ${{ env.new_version }}" || echo "No changes to commit"
           git push origin main
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
