@@ -2,7 +2,7 @@ name: Update User Script Versions
 
 on:
   schedule:
-    - cron: '0 0 */2 * *'  # 每两天午夜12点 UTC 时间运行一次
+    - cron: '0 0 * * *'  # 每天运行一次
   push:
     branches:
       - main
@@ -16,9 +16,14 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Read file list
+      - name: Create file list
         run: |
-          # 查看文件列表内容
+          # 创建包含文件列表的文本文件
+          echo "Greasyfork Utility Toolkit.user.js" > files.txt
+          echo "自用脚本/外语终结者.user.js" >> files.txt
+
+      - name: Debug file list
+        run: |
           cat files.txt
           
       - name: Extract current version
@@ -34,3 +39,53 @@ jobs:
                 echo "Version number not found in the script file: $file"
                 exit 1
               fi
+              
+              # 将版本号中的.替换为空格，以便进行加法操作
+              version_number=$(echo "$current_version" | sed 's/\./ /g')
+              
+              # 将版本号转换为数字并加1
+              version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
+              
+              # 还原为4部分版本号，并分割为数组
+              major=$((version_number / 1000000))
+              minor=$(( (version_number % 1000000) / 10000 ))
+              patch=$(( (version_number % 10000) / 100 ))
+              build=$(( version_number % 100 ))
+              
+              # 生成新的版本号
+              new_version="$major.$minor.$patch.$build"
+              echo "New version for $file: $new_version"
+              
+              # 替换版本号
+              sed -i "s|// @version[ ]\+[0-9]*\([.][0-9]*\)*|// @version $new_version|" "$file"
+              
+              # 将新的版本号添加到环境变量中
+              echo "${file}_NEW_VERSION=$new_version" >> $GITHUB_ENV
+            else
+              echo "Script file not found: $file"
+              exit 1
+            fi
+          done < files.txt
+
+      - name: Debug updated files
+        run: |
+          cat Greasyfork\ Utility\ Toolkit.user.js
+          cat 自用脚本/外语终结者.user.js
+          
+      - name: Commit and push changes
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 将更改添加到 Git 中
+          git add .
+          
+          # 提交更改
+          commit_message="Update versions to ${{ env.FILES_LIST_NEW_VERSIONS }}"
+          git commit -m "$commit_message" || echo "No changes to commit"
+          
+          # 推送更改
+          git push origin main
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
