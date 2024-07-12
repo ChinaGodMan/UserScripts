@@ -26,9 +26,6 @@ jobs:
           )
           
           # 将文件列表保存到 GitHub 环境变量中
-          echo "FILES=${files[*]}" >> $GITHUB_ENV
-          
-          # 生成一个用空格分隔的文件列表供后续步骤使用
           files_list=$(printf "%s " "${files[@]}")
           echo "FILES_LIST=${files_list}" >> $GITHUB_ENV
 
@@ -81,10 +78,10 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           # 将所有更改添加到 Git
-          git add ${FILES_LIST}
+          git add "${{ env.FILES_LIST }}"
           
           # 提交更改
-          commit_message="Update versions for $(printf '%s ' "${{ env.FILES_LIST }}")"
+          commit_message="Update versions for $(printf '%s ' "${files[@]}")"
           git commit -m "$commit_message" || echo "No changes to commit"
           
           # 推送更改
