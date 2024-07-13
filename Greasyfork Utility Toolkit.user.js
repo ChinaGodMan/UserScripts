@@ -4119,6 +4119,81 @@ cursor: pointer;
             }
         })
     }
+    //功能-增加自动登录
+    async function autoLogin() {
+        // 等待登录链接出现
+        await waitForElement("span.sign-in-link a[rel=nofollow]")
+
+        let user = ""
+        let pwd = ""
+
+        if (!user) {
+            Toast("本地尚未储存账号", 1000, '#ff6347', '#ffffff', 'top')
+            alert()
+            return
+        }
+        if (!pwd) {
+            Toast("本地尚未储存密码", 1000, '#ff6347', '#ffffff', 'top')
+            return
+        }
+
+        let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
+        if (!csrfTokenMeta) {
+
+            Toast("获取csrf-token失败", 1000, '#ff6347', '#ffffff', 'top')
+            return
+        }
+        let csrfToken = csrfTokenMeta.getAttribute("content")
+
+        let postResp = await fetch("https://greasyfork.org/zh-CN/users/sign_in", {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: new URLSearchParams({
+                authenticity_token: csrfToken,
+                'user[email]': user,
+                'user[password]': pwd,
+                'user[remember_me]': '1',
+                commit: '登录'
+            })
+        })
+
+        if (postResp.status !== 200) {
+            alert("登录失败，请在控制台查看原因")
+            return
+        }
+
+        let respText = await postResp.text()
+        let parser = new DOMParser()
+        let parseLoginHTMLNode = parser.parseFromString(respText, 'text/html')
+
+        if (parseLoginHTMLNode.querySelectorAll(
+            ".sign-out-link a[rel=nofollow][data-method='delete']"
+        ).length) {
+            alert("登录成功，1秒后自动跳转")
+            setTimeout(() => {
+                window.location.reload()
+            }, 1000)
+        } else {
+            alert("登录失败，可能是账号/密码错误，请在控制台查看原因")
+        }
+    }
+
+    // 等待指定的元素出现
+    function waitForElement(selector) {
+        return new Promise((resolve) => {
+            const observer = new MutationObserver(() => {
+                if (document.querySelector(selector)) {
+                    resolve()
+                    observer.disconnect()
+                }
+            })
+            observer.observe(document.body, { childList: true, subtree: true })
+        })
+    }
+
+    autoLogin()
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
 function addbageStyles() {
