@@ -1402,7 +1402,7 @@ margin-bottom: 0;
                 // 将安装链接添加到 article 元素的底部
                 article.appendChild(installLink)
                 if (scriptlang === "js") {
-                    //  checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, scripver)
+                    checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, scripver)
                 } else {
                     logMessage('addInstallAndDownloadLinks', `${scriptlang}文件暂未添加检测版本`, false)
                 }
@@ -4145,7 +4145,7 @@ cursor: pointer;
             Toast("本地尚未储存密码", 1000, '#ff6347', '#ffffff', 'top')
             return
         }
-
+        Toast("即将自动跳转登录...", 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
         let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
         if (!csrfTokenMeta) {
 
@@ -4171,6 +4171,7 @@ cursor: pointer;
         if (postResp.status !== 200) {
 
             Toast("登录失败，请在控制台查看原因", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
+            logMessage("自动登录", "返回码错误", postResp, false)
             return
         }
 
@@ -4187,7 +4188,8 @@ cursor: pointer;
                 window.location.reload()
             }, 1000)
         } else {
-            Toast("登录失败，请在控制台查看原因", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
+            Toast("登录失败，无法找到元素", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
+
         }
     }
 
