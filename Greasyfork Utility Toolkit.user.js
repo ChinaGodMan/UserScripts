@@ -1326,19 +1326,22 @@ margin-bottom: 0;
                                 switch (comparisonResult) {
                                     case 1:
                                         status = `降级到：${netversion}`
+                                        console.log(status)
                                         break
                                     case 0:
                                         status = `重新安装：${netversion}`
+                                        console.log(status)
                                         break
                                     case -1:
                                         status = `升级到：${netversion}`
+                                        console.log(status)
                                         break
                                     default:
                                         status = `Install：${installedVersion}`
                                 }
                                 button.textContent = status
                             } else {
-                                //  button.textContent = `${name} is not installed.`
+                                // button.textContent = `${name} is not installed.`
                             }
                         } catch (error) {
                             logMessage('checkVersionInfo', '检查失败:', false, error)
@@ -2226,6 +2229,7 @@ ${compatibleBeautifyCSS}
             console.log(scriptDetails.id)
             const installLink = document.querySelector('#browse-script-list .install-link:last-child')
             console.log(`https://greasyfork.org/scripts/${scriptDetails.id}.json`)
+            console.log(installLink)
             checkVersionInfo(`https://greasyfork.org/scripts/${scriptDetails.id}.json`, installLink, scriptDetails.version)
         })
         function restoreBackup() {
