@@ -2223,6 +2223,10 @@ ${compatibleBeautifyCSS}
         scriptData.forEach(scriptDetails => {
             const scriptHtml = createScriptInfoHtml(scriptDetails, scr.name, scr.url, textContents)
             document.querySelector('#browse-script-list').insertAdjacentHTML('beforeend', scriptHtml)
+            console.log(scriptDetails.id)
+            const installLink = document.querySelector('#browse-script-list .install-link:last-child')
+            console.log(`https://greasyfork.org/scripts/${scriptDetails.id}.json`)
+            checkVersionInfo(`https://greasyfork.org/scripts/${scriptDetails.id}.json`, installLink, scriptDetails.version)
         })
         function restoreBackup() {
             document.querySelector('#script-info').innerHTML = backup
@@ -2368,7 +2372,7 @@ button:focus {
                 </div>
             </li>
     `
-        //  去你妈的  checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, version)
+        //    checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, version)
         return scriptInfoHtml
     }
     //功能- 锁定语言  greasyfork.org/scripts/6245/
