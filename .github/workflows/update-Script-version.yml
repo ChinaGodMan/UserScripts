@@ -101,7 +101,7 @@ jobs:
           git add .
           
           # 提交更改
-          commit_message="更新版本号"
+          commit_message="fix bug"
           echo "提交信息: $commit_message"
           git commit -m "$commit_message" || echo "没有需要提交的更改"
           
