@@ -2227,7 +2227,8 @@ ${compatibleBeautifyCSS}
             const scriptHtml = createScriptInfoHtml(scriptDetails, scr.name, scr.url, textContents)
             document.querySelector('#browse-script-list').insertAdjacentHTML('beforeend', scriptHtml)
             console.log(scriptDetails.id)
-            const installLink = document.querySelector('#browse-script-list .install-link:last-child')
+            const installLinks = document.querySelectorAll('#browse-script-list .install-link:not(.down)')
+            const installLink = installLinks[installLinks.length - 1]
             console.log(`https://greasyfork.org/scripts/${scriptDetails.id}.json`)
             console.log(installLink)
             checkVersionInfo(`https://greasyfork.org/scripts/${scriptDetails.id}.json`, installLink, scriptDetails.version)
@@ -2342,7 +2343,8 @@ button:focus {
       <li  >
                 <h2>
                   <a class="script-link" href="${url}"target="_blank">${name}</a>
-                  <span class="badge ${badgeClass}" title="用户脚本">${badgeContent}</span><a class="install-link" href="${code_url}" style-54998="" style="text-decoration: none;">${translate('install')} ${version}</a></span>
+                  <span class="badge ${badgeClass}" title="用户脚本">${badgeContent}</span>
+                  <a class="install-link" href="${code_url}" style-54998="" style="text-decoration: none;">${translate('install')} ${version}</a></span>
   <a class="install-link down" href="${code_url}" style-54998=""style="text-decoration: none;">下载</a></span>
                   <span class="name-description-separator">
                   </span>
