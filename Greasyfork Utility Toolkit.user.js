@@ -49,7 +49,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.4
+// @version 2.2.0.5
 
 
 
