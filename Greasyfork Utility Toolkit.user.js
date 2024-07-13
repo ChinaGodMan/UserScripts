@@ -49,8 +49,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.5
-
+// @version 2.2.0.6
 
 
 // @i1con          https://raw.gitmirror.com/greasyfork-org/greasyfork/main/public/images/blacklogo96.png
@@ -1326,15 +1325,15 @@ margin-bottom: 0;
                                 switch (comparisonResult) {
                                     case 1:
                                         status = `降级到：${netversion}`
-                                        console.log(status)
+
                                         break
                                     case 0:
                                         status = `重新安装：${netversion}`
-                                        console.log(status)
+
                                         break
                                     case -1:
                                         status = `升级到：${netversion}`
-                                        console.log(status)
+
                                         break
                                     default:
                                         status = `Install：${installedVersion}`
@@ -2226,11 +2225,10 @@ ${compatibleBeautifyCSS}
         scriptData.forEach(scriptDetails => {
             const scriptHtml = createScriptInfoHtml(scriptDetails, scr.name, scr.url, textContents)
             document.querySelector('#browse-script-list').insertAdjacentHTML('beforeend', scriptHtml)
-            console.log(scriptDetails.id)
+
             const installLinks = document.querySelectorAll('#browse-script-list .install-link:not(.down)')
             const installLink = installLinks[installLinks.length - 1]
-            console.log(`https://greasyfork.org/scripts/${scriptDetails.id}.json`)
-            console.log(installLink)
+
             checkVersionInfo(`https://greasyfork.org/scripts/${scriptDetails.id}.json`, installLink, scriptDetails.version)
         })
         function restoreBackup() {
@@ -4218,7 +4216,86 @@ cursor: pointer;
             observer.observe(document.body, { childList: true, subtree: true })
         })
     }
-
+    //功能-侧边栏
+    outline()
+    function outline() {
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+        const body = $("body")
+        function sanitify(s) {
+            // Remove emojis (such a headache)
+            s = s.replaceAll(/([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2580-\u27BF]|\uD83E[\uDD10-\uDEFF]|\uFE0F)/g, "")
+            // Trim spaces and newlines
+            s = s.trim()
+            // Replace spaces
+            s = s.replaceAll(" ", "-")
+            s = s.replaceAll("%20", "-")
+            // No more multiple "-"
+            s = s.replaceAll(/-+/g, "-")
+            return s
+        }
+        function process(node) { // Add anchor and assign id to given node; Add to outline. Return true if node is actually processed.
+            if (node.childElementCount > 1 || node.classList.length > 0) return false // Ignore complex nodes
+            const text = node.textContent
+            if (!node.id) { // If the node has no id
+                node.id = sanitify(text) // Then assign id
+            }
+            // Add anchors
+            const anchor = node.appendChild(document.createElement('a'))
+            anchor.className = 'anchor'
+            anchor.href = '#' + node.id
+            const link = outline.appendChild(document.createElement("li"))
+                .appendChild(document.createElement("a"))
+            link.href = "#" + node.id
+            link.text = text
+            return true
+        }
+        function injectCSS(css) {
+            const style = document.head.appendChild(document.createElement("style"))
+            style.id = "greasyfork-enhance-basic"
+            style.textContent = css
+        }
+        // Basic css
+        injectCSS(`
+    html { scroll-behavior: smooth; }
+    a.anchor::before { content: "#"; }
+    a.anchor { opacity: 0; text-decoration: none; padding: 0px 0.5em; transition: all 0.25s ease-in-out; }
+    h1:hover>a.anchor, h2:hover>a.anchor, h3:hover>a.anchor,
+    h4:hover>a.anchor, h5:hover>a.anchor, h6:hover>a.anchor { opacity: 1; transition: all 0.25s ease-in-out; }
+    
+    div.code-toolbar { display: flex; gap: 1em; }
+    .dynamic-opacity { transition: opacity 0.2s ease-in-out; opacity: 0.2; }
+    .dynamic-opacity:hover { opacity: 0.8; }
+    @media screen and (min-width: 767px) {
+        aside.panel { display: contents; line-height: 1.5; }
+        ul.outline { position: sticky; float: right; padding: 0 0 0 0.5em; margin: 0 0.5em -99vh; max-height: 80vh; border: 1px solid #BBBBBB; border-left: 2px solid #F2E5E5; box-shadow: 0 0 5px #ddd; background: linear-gradient(to right, #fcf1f1, #FFF 1em); list-style: none; width: 10.5%; color: gray; border-radius: 5px; overflow-y: scroll; z-index: 1; }
+        ul.outline > li { overflow: hidden; text-overflow: ellipsis; }
+        ul.outline > li > a { color: gray; white-space: nowrap; text-decoration: none; }
+    }
+   `)
+        let outline
+        const is_script = /^\/[^\/]+\/scripts/
+        const is_specific_script = /^\/[^\/]+\/scripts\/\d+/
+        const is_disccussion = /^\/[^\/]+\/discussions/
+        const path = window.location.pathname
+        if ((!is_script.test(path) && !is_disccussion.test(path)) || is_specific_script.test(path)) {
+            const panel = body.insertBefore(document.createElement("aside"), $("body > div.width-constraint"))
+            panel.className = "panel"
+            const reference_node = $("body > div.width-constraint > section")
+            outline = panel.appendChild(document.createElement("ul"))
+            outline.classList.add("outline")
+            outline.classList.add("dynamic-opacity")
+            outline.style.top = reference_node ? getComputedStyle(reference_node).marginTop : "1em"
+            outline.style.marginTop = outline.style.top
+            let flag = false
+            $$("body > div.width-constraint h1, h2, h3, h4, h5, h6").forEach((node) => {
+                flag = process(node) || flag // Not `flag || process(node)`!
+            })
+            if (!flag) {
+                panel.remove()
+            }
+        }
+    }
 
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
