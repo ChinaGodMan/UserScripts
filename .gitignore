@@ -1,3 +1,7 @@
 
 *.json
 
+.RunSSH.ps1
+.uptogithub.ps1
+
+
