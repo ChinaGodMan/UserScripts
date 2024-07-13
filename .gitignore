@@ -1,6 +1,6 @@
 
 *.json
-
+git使用.md
 .RunSSH.ps1
 .uptogithub.ps1
 
