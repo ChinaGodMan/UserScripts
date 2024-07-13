@@ -674,6 +674,9 @@ const translate = (function () {
     var hidediscussionread = GM_getValue('hidediscussionread', false)//隐藏已经阅读的评论
     var italicdiscussionread = GM_getValue('italicdiscussionread', true)//斜体已经阅读的评论
     var shouwtotalonuserpage = GM_getValue('shouwtotalonuserpage', true)// 主页显示数量
+    var userpassword = GM_getValue('userpassword', '')// 账号密码
+    var useremail = GM_getValue('useremail', '')//  账号邮箱
+    var userautologin = GM_getValue('userautologin', false)//  使用自动登录
     function reloadSettings() {
         showRating = GM_getValue('showRating', false) // 默认展示评分
         showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
@@ -2837,6 +2840,11 @@ button:focus {
         },
         { type: 'checkbox', id: 'italicdiscussionread', label: '斜体已阅读评论', checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
     ], viewMode)
+    createCategory('checkLogin', '自动登录', [
+        { type: 'checkbox', id: 'userautologin', label: "启用自动登录", checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
+        { type: 'text', id: 'useremail', label: '账号', value: GM_getValue('useremail', "1") },
+        { type: 'text', id: 'userpassword', label: '密码', value: GM_getValue('userpassword', 1111) },
+    ], 1)
     createCategory('sl', '脚本列表', [
         { type: 'checkbox', id: 'showinstallbutton', label: '列表显示安装下载', checked: GM_getValue('showinstallbutton', true), onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
         { type: 'checkbox', id: 'setlocklang', label: translate('locklangset'), checked: GM_getValue('setlocklang', false), onchange: function () { GM_setValue('setlocklang', this.checked) } },
@@ -4160,7 +4168,8 @@ cursor: pointer;
         })
 
         if (postResp.status !== 200) {
-            alert("登录失败，请在控制台查看原因")
+
+            Toast("登录失败，请在控制台查看原因", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
             return
         }
 
@@ -4171,12 +4180,13 @@ cursor: pointer;
         if (parseLoginHTMLNode.querySelectorAll(
             ".sign-out-link a[rel=nofollow][data-method='delete']"
         ).length) {
-            alert("登录成功，1秒后自动跳转")
+
+            Toast("登录成功，1秒后自动跳转", 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
             setTimeout(() => {
                 window.location.reload()
             }, 1000)
         } else {
-            alert("登录失败，可能是账号/密码错误，请在控制台查看原因")
+            Toast("登录失败，请在控制台查看原因", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
         }
     }
 
