@@ -2682,9 +2682,10 @@ button:focus {
         <div class="col-md-${colWidth}">
           <div class="form-group">
             <label for="${control.id}">${control.label}</label>
-            <input type="text" class="form-control" id="${control.id}" value="${control.value}" placeholder="${control.placeholder}" onchange="${control.onchange ? control.onchange.toString() : ''}">
+            <input type="text" class="form-control" id="${control.id}" value="${control.value || ''}" placeholder="${control.placeholder || '请输入内容'}" onchange="${control.onchange ? control.onchange.toString() : ''}">
           </div>
         </div>
+    
       `
             case 'button':
                 return `
@@ -2842,8 +2843,8 @@ button:focus {
     ], viewMode)
     createCategory('checkLogin', '自动登录', [
         { type: 'checkbox', id: 'userautologin', label: "启用自动登录", checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
-        { type: 'text', id: 'useremail', label: '账号', value: GM_getValue('useremail', "1") },
-        { type: 'text', id: 'userpassword', label: '密码', value: GM_getValue('userpassword', 1111) },
+        { type: 'text', id: 'useremail', label: '账号', value: GM_getValue('useremail', "") },
+        { type: 'text', id: 'userpassword', label: '密码', value: GM_getValue('userpassword', "") },
     ], 1)
     createCategory('sl', '脚本列表', [
         { type: 'checkbox', id: 'showinstallbutton', label: '列表显示安装下载', checked: GM_getValue('showinstallbutton', true), onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
@@ -4132,8 +4133,8 @@ cursor: pointer;
         // 等待登录链接出现
         await waitForElement("span.sign-in-link a[rel=nofollow]")
 
-        let user = ""
-        let pwd = ""
+        let user = useremail
+        let pwd = userpassword
 
         if (!user) {
             Toast("本地尚未储存账号", 1000, '#ff6347', '#ffffff', 'top')
@@ -4190,7 +4191,10 @@ cursor: pointer;
         }
     }
 
-    // 等待指定的元素出现
+    if (userautologin) {
+        autoLogin()
+
+    }
     function waitForElement(selector) {
         return new Promise((resolve) => {
             const observer = new MutationObserver(() => {
@@ -4203,7 +4207,7 @@ cursor: pointer;
         })
     }
 
-    autoLogin()
+
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
 function addbageStyles() {
