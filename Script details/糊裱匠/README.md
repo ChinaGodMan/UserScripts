@@ -160,7 +160,7 @@
   - 修复在移动设备上浏览图片超出浏览器外的问题
 - 2024/7/14 2.2.0.6
   - 添加了导航栏展开"更多"
-  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
+  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
   - 完善对多语言的支持
 - 2024/7/13 2.2.0.5
   - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
