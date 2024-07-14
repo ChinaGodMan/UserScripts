@@ -119,7 +119,11 @@
 <li>10. 隐藏已阅读评论 / Hide Read Comments</li>
 </ul>
 </details>
+
 ## Thank you
+
+
+
 <details>
 <summary><mark style="background-color: green; color: yellow;">引用脚本/ Quote script</mark></summary>
 <ul>
@@ -153,14 +157,15 @@
   - 增加侧边导航栏开关
   - 增加图片代理
     - 图片代理开启时不兼容[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+  - 修复在移动设备上浏览图片超出浏览器外的问题
 - 2024/7/14 2.2.0.6
   - 添加了导航栏展开"更多"
-  -  增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
-  -  完善对多语言的支持
+  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
+  - 完善对多语言的支持
 - 2024/7/13 2.2.0.5
   - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  -  修复显示列表上的脚本安装状态
-  -  完善对多语言的支持
+  - 修复显示列表上的脚本安装状态
+  - 完善对多语言的支持
 
 ## 图片展示:
 
