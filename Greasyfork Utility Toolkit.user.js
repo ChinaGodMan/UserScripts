@@ -173,6 +173,8 @@ const translate = (function () {
             'loginsuccessredirect': 'Login Successful, Redirecting in 1 Second',
             'loginfailedelementnotfound': 'Login Failed, Element Not Found',
             'report': 'Report',
+            'useroutlines': 'outlines',
+            'imageproxy': 'imageproxy',
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -282,6 +284,8 @@ const translate = (function () {
             'loginsuccessredirect': '登录成功，1秒后自动跳转',
             'loginfailedelementnotfound': '登录失败，无法找到元素',
             'report': '举报',
+            'imageproxy': '代理用户上传图像',
+            'useroutlines': '侧边导航',
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -764,7 +768,9 @@ const translate = (function () {
     var userpassword = GM_getValue('userpassword', '')// 账号密码
     var useremail = GM_getValue('useremail', '')//  账号邮箱
     var userautologin = GM_getValue('userautologin', false)//  使用自动登录
-    var Expandsubmenu = GM_getValue('Expandsubmenu', false)//  账号邮箱
+    var Expandsubmenu = GM_getValue('Expandsubmenu', false)//  展开导航栏上的"更多'
+    var useroutline = GM_getValue('useroutline', true)//  使用侧边导航栏
+    var userimageproxy = GM_getValue('userimageproxy', false)//  使用图像代理
     function reloadSettings() {
         showRating = GM_getValue('showRating', false) // 默认展示评分
         showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
@@ -2932,6 +2938,8 @@ button:focus {
             ), onchange: function () { GM_setValue('hidediscussionread', this.checked) }
         },
         { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
+        { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: GM_getValue('useroutline', true), onchange: function () { GM_setValue('useroutline', this.checked) } },
+        { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: GM_getValue('userimageproxy', false), onchange: function () { GM_setValue('userimageproxy', this.checked) } },
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
@@ -4312,11 +4320,12 @@ cursor: pointer;
         })
     }
     //功能-侧边栏
-    outline()
+    if (useroutline) {
+        outline()
+    }
     function outline() {
         const $ = document.querySelector.bind(document)
         const $$ = document.querySelectorAll.bind(document)
-        const body = $("body")
         function sanitify(s) {
             // Remove emojis (such a headache)
             s = s.replaceAll(/([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2580-\u27BF]|\uD83E[\uDD10-\uDEFF]|\uFE0F)/g, "")
@@ -4359,8 +4368,6 @@ cursor: pointer;
     aside.panel { display: none; }
     .dynamic-opacity { transition: opacity 0.2s ease-in-out; opacity: 0.2; }
     .dynamic-opacity:hover { opacity: 0.8; }
-    table { border: 1px solid #8d8d8d; border-collapse: collapse; width: auto; }
-    table td, table th { padding: 0.5em 0.75em; vertical-align: middle; border: 1px solid #8d8d8d; }
     @media (any-hover: none) { .dynamic-opacity { opacity: 0.8; } .dynamic-opacity:hover { opacity: 0.8; } }
     @media screen and (min-width: 767px) {
         aside.panel { display: contents; line-height: 1.5; }
@@ -4375,7 +4382,7 @@ cursor: pointer;
         const is_disccussion = /^\/[^\/]+\/discussions/
         const path = window.location.pathname
         if ((!is_script.test(path) && !is_disccussion.test(path)) || is_specific_script.test(path)) {
-            const panel = body.insertBefore(document.createElement("aside"), $("body > div.width-constraint"))
+            const panel = $("body").insertBefore(document.createElement("aside"), $("body > div.width-constraint"))
             panel.className = "panel"
             const reference_node = $("body > div.width-constraint > section")
             outline = panel.appendChild(document.createElement("ul"))
@@ -4391,6 +4398,33 @@ cursor: pointer;
                 panel.remove()
             }
         }
+    }
+    // 功能-设置用户图片代理
+    if (userimageproxy) {
+        const $$ = document.querySelectorAll.bind(document)
+        const PROXY = "https://wsrv.nl/?url="
+        const images = $$("a[href^='/rails/active_storage/blobs/redirect/'] > img[src^='https://greasyfork.']")
+        for (const img of images) {
+            img.src = PROXY + img.src
+            const link = img.parentElement
+            link.href = PROXY + link.href
+        }
+    }
+    if (window.innerWidth < window.innerHeight) {
+        GM_addStyle(`
+            img.lum-img{
+                width: 100% !important;
+                height: 100% !important;
+            }
+.lum-next-button,
+.lum-previous-button {
+    margin-top: 10px !important; /* 按钮之间的间距 */
+    font-size: 12px; /* 文字大小 */
+    padding: 5px 10px; /* 内边距，上下5px，左右10px */
+    width: 35px; /* 自动宽度，以适应内容 */
+    height: auto; /* 自动高度，以适应内容 */
+}
+          `)
     }
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
