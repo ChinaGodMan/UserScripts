@@ -19,14 +19,15 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
-## 简体中文/繁體中文/English:
+## 简体中文/English:
 
-为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。/為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。/Add a section on the script details page to allow viewing all scripts published by this author.
+为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。/Add a section on the script details page to allow viewing all scripts published by this author.
 
 ## 功能介绍/Features
 
 <details>
-<summary>脚本详情 / Script Details</summary>
+<summary><mark style="background-color: yellow; color: green;">脚本详情 / Script Details</mark>
+</summary>
 <ul>
 <li>1. 切换文档视图与网页视图 / Switch Document View and Web View</li>
 <li>2. 复制代码 / Copy Code</li>
@@ -45,7 +46,7 @@
 </details>
 
 <details>
-<summary>脚本列表 / Script List</summary>
+<summary><mark style="background-color: yellow; color: green;">脚本列表 / Script List</mark></summary>
 <ul>
 <li>1. 列表显示安装下载 / Display Installation and Download in List</li>
 <li>2. 锁定语言设置 / Lock Language Settings</li>
@@ -59,7 +60,7 @@
 </details>
 
 <details>
-<summary>美化控件 / Beautify Controls</summary>
+<summary><mark style="background-color: yellow; color: green;">美化控件 / Beautify Controls</mark></summary>
 <ul>
 <li>1. 控件美化 / Beautify Controls</li>
 <li>2. 美化选择框和单选框标签 / Beautify Select Box and Radio Button Labels</li>
@@ -67,7 +68,7 @@
 </details>
 
 <details>
-<summary>适用于 / Applicable To</summary>
+<summary><mark style="background-color: yellow; color: green;">适用于 / Applicable To</mark></summary>
 <ul>
 <li>1. 启用增强 / Enable Enhancement</li>
 <li>2. 新窗口打开 / Open in New Window</li>
@@ -82,7 +83,7 @@
 </details>
 
 <details>
-<summary>个人主页 / Personal Homepage</summary>
+<summary><mark style="background-color: yellow; color: green;">个人主页 / Personal Homepage</mark></summary>
 <ul>
 <li>1. 清理旧的主页内容 / Clean Up Old Homepage Content</li>
 <li>2. 主页清理的天数 / Days to Clean Homepage Content</li>
@@ -93,7 +94,7 @@
 </details>
 
 <details>
-<summary>导航栏 / Navigation Bar</summary>
+<summary><mark style="background-color: yellow; color: green;">导航栏 / Navigation Bar</mark></summary>
 <ul>
 <li>1. 增加发布新脚本选项 / Add Option to Publish New Script</li>
 <li>2. 跳转成人脚本 / Link to Adult Scripts</li>
@@ -104,7 +105,7 @@
 </details>
 
 <details>
-<summary>网站 / Website</summary>
+<summary><mark style="background-color: yellow; color: green;">网站 / Website</mark></summary>
 <ul>
 <li>1. 自动启用代码编辑框美化 / Automatically Apply Code Editor Beautification</li>
 <li>2. 在新标签页中打开链接 / Open Links in New Tab</li>
@@ -118,11 +119,9 @@
 <li>10. 隐藏已阅读评论 / Hide Read Comments</li>
 </ul>
 </details>
-
 ## Thank you
-
 <details>
-<summary>引用脚本/ Quote script</summary>
+<summary><mark style="background-color: green; color: yellow;">引用脚本/ Quote script</mark></summary>
 <ul>
     <li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
     <li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
@@ -141,39 +140,34 @@
     <li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
     <li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
     <li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
-     <li><a href="h https://greasyfork.org/zh-CN/scripts/475722target="_blank">Greasyfork 优化</a></li>
+     <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
     <li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
     <li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
+<li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
 </ul>
 </details>
 
+## 更新信息：
+
+- 2024/7/15
+  - 增加侧边导航栏开关
+  - 增加图片代理
+    - 图片代理开启时不兼容[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+
 ## 图片展示:
 
-![nav.png](https://img.xwyue.com/i/2024/07/12/669052994d5f4.png)
-
-![rep2.png](https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png)
-
-![rep1.png](https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png)
-
-![time.png](https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png)
-
-![user.png](https://img.xwyue.com/i/2024/07/12/6690529c57dab.png)
-
-![maxw.png](https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png)
-
-![hidec.png](https://img.xwyue.com/i/2024/07/12/6690529c744ea.png)
-
-![libdown.png](https://img.xwyue.com/i/2024/07/12/6690529c84351.png)
-
-![scriptdet.png](https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png)
-
-![scripcode.png](https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png)
-
-![code2.png](https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png)
-
-![hisdown.png](https://img.xwyue.com/i/2024/07/12/6690529cce8da.png)
-
-![scriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png)
-
-![allscriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
+<img src="https://img.xwyue.com/i/2024/07/12/669052994d5f4.png" alt="nav.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png" alt="rep2.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png" alt="rep1.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png" alt="time.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c57dab.png" alt="user.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png" alt="maxw.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c744ea.png" alt="hidec.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c84351.png" alt="libdown.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png" alt="scriptdet.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png" alt="scripcode.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png" alt="code2.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cce8da.png" alt="hisdown.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
 
