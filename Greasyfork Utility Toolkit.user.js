@@ -27,7 +27,6 @@
 // @description:he מתן מגוון פונקציות עבור Greasyfork, כולל זמן מוחלט, דפי אינטרנט ברוחב מסך רחב, שיפורי דפי סקריפטים, הרחבות להורדה, תיקוני לוח ועוד.
 // @description:vi Cung cấp các tính năng khác nhau cho Greasyfork, bao gồm thời gian tuyệt đối, trang web màn hình rộng, nâng cao trang kịch bản, tiện ích mở rộng tải xuống, sửa lỗi bảng điều khiển và nhiều hơn nữa.
 // @require https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
-// @require      https://cdn.jsdelivr.net/gh/fuzetsu/userscripts@ec863aa92cea78a20431f92e80ac0e93262136df/wait-for-elements/wait-for-elements.js
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
 // @require      https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
@@ -1306,19 +1305,18 @@ margin-bottom: 0;
     if (/\/(versions|script_versions)\/new/.test(window.location.href)) {
         if (autocheck) {
             var textarea = document.getElementById('script_version_code')
-            waitForElems({
-                sel: '#enable-source-editor-code',
-                stop: true,
-                onmatch(checkbox) {
-                    // 检查当前页面的 URL 是否包含 "scripts" 和 "versions"
-                    // https://update.greasyfork.org/scripts/22223/
+            waitForElement('#enable-source-editor-code').then(() => {
+                // 选择 enable-source-editor-code 元素
+                const checkbox = document.querySelector('#enable-source-editor-code')
+
+
+                if (checkbox && !checkbox.checked) {
+
                     checkbox.click()
                     textarea.style.height = '800px'
                     logMessage('autocheck', '自动点击完成', true)
-                    // @match               *://greasyfork.org/*/*versions/new
                 }
-            }
-            )
+            })
         }
     }
     // 注册油猴菜单命令

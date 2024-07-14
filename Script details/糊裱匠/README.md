@@ -162,6 +162,7 @@
   - 添加了导航栏展开"更多"
   - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
   - 完善对多语言的支持
+  - 修改在编辑代码时自动勾选美化
 - 2024/7/13 2.2.0.5
   - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
   - 修复显示列表上的脚本安装状态
