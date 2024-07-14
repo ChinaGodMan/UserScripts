@@ -50,8 +50,6 @@
 // @compatible     opera
 // @compatible     safari
 // @version 2.2.0.6
-
-
 // @i1con          https://raw.gitmirror.com/greasyfork-org/greasyfork/main/public/images/blacklogo96.png
 // @icon         data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 300 300" style="fill: %23D72323;"><path d="M200.3 269.9c-15.7 6.6-32.7 10.1-50.3 10.1-34.7 0-67.4-13.5-91.9-38.1C33.5 217.4 20 184.7 20 150s13.5-67.4 38.1-91.9C82.6 33.5 115.3 20 150 20s67.4 13.5 91.9 38.1C266.5 82.6 280 115.3 280 150c0 17.6-3.5 34.6-10 50.3 5 5 10 10.1 15.1 15.1 9.6-19.8 15-42 15-65.4C300 67.2 232.8 0 150 0S0 67.2 0 150s67.2 150 150 150c23.4 0 45.6-5.4 65.4-15-5.1-5-10.1-10.1-15.1-15.1z"/><path d="M267.8 300c-9.6-1.3-16.5-7-23.1-13.7-14.9-15.3-30.1-30.2-45.2-45.3-9.3-9.3-12-20.1-7.5-32.7.3-.8.3-2.1-.2-2.6-3.9-4.1-7.9-8-12-12.1-6.4 4-13.1 6.7-20.5 7.6-15.5 1.9-29-2.4-40.2-13.2-12.3-11.8-24.2-24-36.2-36.1-3.5-3.5-4.1-7.4-2.2-11.2 1.9-3.7 5.9-6.4 9.7-5.6 2.5.5 5.1 2 6.9 3.8 7.4 7.1 14.5 14.4 21.8 21.6.6.6 1.3 1.2 1.7 1.6l13.8-13.8c-6.2-6.1-12.6-12.5-18.9-18.9-1.9-1.9-3.8-3.7-5.6-5.6-3.8-4.2-3.7-9.7.2-13.6 3.9-3.9 9.5-4.1 13.6-.1 7.5 7.3 14.8 14.7 22.1 22.1.8.8 1.5 1.8 2.1 2.4l14.3-14.3c-2-1.8-4.5-4-6.8-6.3-6-5.9-11.9-11.8-17.8-17.8-2.7-2.7-3.7-5.9-2.4-9.6 1.4-3.9 4.2-6.3 8.3-6.9 3.4-.6 6 1 8.4 3.3l14.7 14.7c7.4 7.4 14.9 14.6 22 22.2 14.7 15.7 17 39.1 6.1 57.7-.4.7-.7 1.4-1.3 2.4 3.9 3.9 7.9 7.8 11.9 11.6.6.5 2 .6 2.8.3 12.5-4.4 23.3-1.7 32.7 7.6 15.1 15.1 30.1 30.3 45.3 45.2 6.7 6.5 12.4 13.4 13.7 23v5.8c-.2.5-.4 1.1-.5 1.6-1.8 9.5-6.6 17-15.5 21.2-3.3 1.6-6.9 2.3-10.4 3.5-1.9.2-3.8.2-5.8.2z"/><path d="M170 219.6c-2.7.7-5.4 1.2-8.2 1.5-3.1.4-6.2.6-9.2.6-17.9 0-34.2-6.6-47.2-19.2-10.2-9.8-20.2-20-30-29.8l-6.6-6.6c-9.5-9.5-11.7-22.7-5.8-34.3 4.9-9.6 14.4-16 24.5-16.6.5-6.9 3.5-13.6 8.9-18.9 5.2-5.1 11.8-8.2 18.7-8.7.2-2.5.7-4.9 1.6-7.4 3.8-10.8 12.6-18.1 23.9-20 1.5-.2 3.1-.4 4.6-.4 5.4 0 13.4 1.6 21.1 9.2 4.7 4.7 9.6 9.5 14.8 14.7 2.1 2.2 4.4 4.4 6.5 6.5 5.3 5.2 10.7 10.6 15.9 16.2 10.2 10.9 16.4 24.5 17.9 39.3.9 8.2.2 16.4-1.8 24.2h.1c12.8 0 24.7 5.1 34.7 14.8 3.6-10.9 5.6-22.6 5.6-34.7 0-60.8-49.2-110-110-110S40 89.2 40 150s49.2 110 110 110c12.1 0 23.8-2 34.7-5.6-9.8-10.1-14.8-22.1-14.7-34.8z"/></svg>
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -82,7 +80,7 @@ const translate = (function () {
             'fixNavbar': 'Fix navbar',
             'addNewScript': 'Add new script option to navbar',
             'exactDate': 'Exact date',
-            'addDownButton': 'Add download button to scripts & libraries',
+            'addDownButton': 'Add download  to scripts',
             'jumpTo18': '🔞Jump to adult scripts',
             'maxView': 'Maximize website view',
             'cleanUpOld': 'Clean up comments older than days',
@@ -130,6 +128,51 @@ const translate = (function () {
             'website': 'Site Settings',
             '复制短链接': 'Copy short link',
             '主页脚本添加操作': 'Adding Operations to Homepage Script',
+            'copylib': 'Copy LIB require',
+            'barvertical': 'Navigation bar vertical',
+            'followsystem': 'Follow System',
+            'daymode': 'Day Mode',
+            'nightmode': 'Night Mode',
+            'cleariconcache': 'Clear Icon Cache',
+            'expandmore': 'Expand "More"',
+            'localbookmarks': 'Bookmarks',
+            'scriptlist': 'Script List',
+            'oneclickreport': 'One-Click Report',
+            'hidereadcomments': 'Hide Read Comments',
+            'italicizereadcomments': 'Italicize Read Comments',
+            'enableautologin': 'Enable Auto Login',
+            'account': 'Account',
+            'password': 'Password',
+            'listdisplayinstallationdownload': 'List Display Installation Download',
+            'useoldversionlist': 'Use Old Version List',
+            'showscriptall': 'Show Scripts in All Languages',
+            'displaystatisticsonhomepage': 'Display Statistics on Homepage',
+            'beautifycontrols': 'Beautify Controls',
+            'applyto': 'Apply to',
+            'enableenhancements': 'Enable Enhancements',
+            'openinnewwindow': 'Open in New Window',
+            'detailsapplytoopen': 'Details Apply to Open',
+            'forumsearch': 'Forum Search',
+            'webpageopen': 'Webpage Open',
+            'popupprompt': 'Popup Prompt',
+            'displaycitationcount': 'Display Citation Count',
+            'beautifycodesnippets': 'Beautify Code Snippets',
+            'beautifycodeview': 'Beautify Code View',
+            'beautifycodetheme': 'Beautify Code Theme',
+            'hiderrecentcomments': 'Hide Recent Comments',
+            'personalhomepage': 'Personal Homepage',
+            'showscriptsinforum': 'Show Script Count in Forum',
+            'downgradeto': 'Downgrade to:',
+            'reinstall': 'Reinstall:',
+            'upgradeto': 'Upgrade to:',
+            'autologinredirect': 'Auto Redirect to Login...',
+            'nostoredaccount': 'No Account Stored Locally',
+            'nostoredpassword': 'No Password Stored Locally',
+            'getcsrftokenfailed': 'Failed to Get CSRF Token',
+            'loginfailedconsole': 'Login Failed, Check Console for Details',
+            'loginsuccessredirect': 'Login Successful, Redirecting in 1 Second',
+            'loginfailedelementnotfound': 'Login Failed, Element Not Found',
+            'report': 'Report',
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -194,6 +237,51 @@ const translate = (function () {
             'website': '网站',
             '复制短链接': '复制短链接',
             '主页脚本添加操作': '主页脚本添加操作',
+            'copylib': '复制库声明',
+            'barvertical': '导航栏对齐',
+            'followsystem': '跟随系统',
+            'daymode': '白天模式',
+            'nightmode': '黑夜模式',
+            'cleariconcache': '清空图标缓存',
+            'expandmore': '展开"更多"',
+            'localbookmarks': '书签',
+            'scriptlist': '脚本列表',
+            'oneclickreport': '一键举报',
+            'hidereadcomments': '隐藏已阅读评论',
+            'italicizereadcomments': '斜体已阅读评论',
+            'enableautologin': '启用自动登录',
+            'account': '账号',
+            'password': '密码',
+            'listdisplayinstallationdownload': '列表显示安装下载',
+            'useoldversionlist': '使用旧版列表',
+            'showscriptsinall': '显示所有语言脚本',
+            'displaystatisticsonhomepage': '主页显示统计',
+            'beautifycontrols': '美化控件',
+            'applyto': '适用于',
+            'enableenhancements': '启用增强',
+            'openinnewwindow': '新窗口打开',
+            'detailsapplytoopen': '详情适用于打开',
+            'forumsearch': '论坛搜索',
+            'webpageopen': '网页打开',
+            'popupprompt': '弹出提示',
+            'displaycitationcount': '显示引用文件数',
+            'beautifycodesnippets': '美化代码片段',
+            'beautifycodeview': '美化查看代码',
+            'beautifycodetheme': '美化代码主题',
+            'hiderrecentcomments': '隐藏近期评论',
+            'personalhomepage': '个人主页',
+            'showscriptsinforum': '显示在论坛的脚本数量',
+            'downgradeto': '降级到：',
+            'reinstall': '重新安装：',
+            'upgradeto': '升级到：',
+            'autologinredirect': '即将自动跳转登录...',
+            'nostoredaccount': '本地尚未储存账号',
+            'nostoredpassword': '本地尚未储存密码',
+            'getcsrftokenfailed': '获取csrf-token失败',
+            'loginfailedconsole': '登录失败，请在控制台查看原因',
+            'loginsuccessredirect': '登录成功，1秒后自动跳转',
+            'loginfailedelementnotfound': '登录失败，无法找到元素',
+            'report': '举报',
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -676,6 +764,7 @@ const translate = (function () {
     var userpassword = GM_getValue('userpassword', '')// 账号密码
     var useremail = GM_getValue('useremail', '')//  账号邮箱
     var userautologin = GM_getValue('userautologin', false)//  使用自动登录
+    var Expandsubmenu = GM_getValue('Expandsubmenu', false)//  账号邮箱
     function reloadSettings() {
         showRating = GM_getValue('showRating', false) // 默认展示评分
         showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
@@ -813,7 +902,7 @@ const translate = (function () {
         favs = JSON.parse(GM_getValue('favs', '[]'))
     }
     if (userlocalfav) {
-        addNavLink('书签', "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks", true)
+        addNavLink(translate('localbookmarks'), "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks", true)
     }
     getCountryCode()
     function favPage() {
@@ -1324,16 +1413,13 @@ margin-bottom: 0;
                                 let status
                                 switch (comparisonResult) {
                                     case 1:
-                                        status = `降级到：${netversion}`
-
+                                        status = `${translate('downgradeto')}${netversion}`
                                         break
                                     case 0:
-                                        status = `重新安装：${netversion}`
-
+                                        status = `${translate('reinstall')}${netversion}`
                                         break
                                     case -1:
-                                        status = `升级到：${netversion}`
-
+                                        status = `${translate('upgradeto')}${netversion}`
                                         break
                                     default:
                                         status = `Install：${installedVersion}`
@@ -2193,7 +2279,6 @@ ${compatibleBeautifyCSS}
           ${statsHtml}
         </section>
         <ol id="browse-script-list" class="script-list">
-        
         </ol>
       </section>
     `
@@ -2225,10 +2310,8 @@ ${compatibleBeautifyCSS}
         scriptData.forEach(scriptDetails => {
             const scriptHtml = createScriptInfoHtml(scriptDetails, scr.name, scr.url, textContents)
             document.querySelector('#browse-script-list').insertAdjacentHTML('beforeend', scriptHtml)
-
             const installLinks = document.querySelectorAll('#browse-script-list .install-link:not(.down)')
             const installLink = installLinks[installLinks.length - 1]
-
             checkVersionInfo(`https://greasyfork.org/scripts/${scriptDetails.id}.json`, installLink, scriptDetails.version)
         })
         function restoreBackup() {
@@ -2690,10 +2773,9 @@ button:focus {
         <div class="col-md-${colWidth}">
           <div class="form-group">
             <label for="${control.id}">${control.label}</label>
-            <input type="text" class="form-control" id="${control.id}" value="${control.value || ''}" placeholder="${control.placeholder || '请输入内容'}" onchange="${control.onchange ? control.onchange.toString() : ''}">
+            <input type="text" class="form-control" id="${control.id}" value="${control.value || ''}" placeholder="${control.placeholder || '输入内容...'}" onchange="${control.onchange ? control.onchange.toString() : ''}">
           </div>
         </div>
-    
       `
             case 'button':
                 return `
@@ -2787,24 +2869,24 @@ button:focus {
         { type: 'checkbox', id: 'sethtmlview', label: translate('htmlViewtotext'), checked: GM_getValue('sethtmlview', false), onchange: function () { GM_setValue('sethtmlview', this.checked) } },
         { type: 'checkbox', id: 'setcopylink', label: translate('copyto'), checked: GM_getValue('setcopylink', true), onchange: function () { GM_setValue('setcopylink', this.checked) } },
         { type: 'checkbox', id: 'viewicon', label: translate('showIcon'), checked: GM_getValue('viewicon', true), onchange: function () { GM_setValue('viewicon', this.checked) } },
-        { type: 'button', id: 'clear-icon-cache', text: `清空${Object.keys(JSON.parse(GM_getValue('scriptsIcon', '{}'))).length}个图标缓存`, class: 'btn-danger', onclick: () => { GM_setValue('scriptsIcon', JSON.stringify({})); Toast('已清空', 1000, '#0000ff', '#ffffff', 'top') } },
+        { type: 'button', id: 'clear-icon-cache', text: `${translate('cleariconcache')} ${Object.keys(JSON.parse(GM_getValue('scriptsIcon', '{}'))).length}`, class: 'btn-danger', onclick: () => { GM_setValue('scriptsIcon', JSON.stringify({})); Toast('success', 1000, '#0000ff', '#ffffff', 'top') } },
         { type: 'checkbox', id: 'installforversions', label: translate('scriptHisAddInstall'), checked: GM_getValue('installforversions', true), onchange: function () { GM_setValue('installforversions', this.checked) } },
         { type: 'checkbox', id: 'addbutton', label: translate('addDownButton'), checked: GM_getValue('addbutton', true), onchange: function () { GM_setValue('addbutton', this.checked) } },
         { type: 'checkbox', id: 'showtotal', label: translate('scriptLinNumb'), checked: GM_getValue('showtotal', false), onchange: function () { GM_setValue('showtotal', this.checked) } },
-        { type: 'checkbox', id: 'addCopyButtonBeforelibScript', label: '复制库声明', checked: GM_getValue('addCopyButtonBeforelibScript', true), onchange: function () { GM_setValue('addCopyButtonBeforelibScript', this.checked) } },
-        { type: 'checkbox', id: 'showresource', label: '显示引用文件数', checked: GM_getValue('showresource', false), onchange: function () { GM_setValue('showresource', this.checked) } },
+        { type: 'checkbox', id: 'addCopyButtonBeforelibScript', label: translate('copylib'), checked: GM_getValue('addCopyButtonBeforelibScript', true), onchange: function () { GM_setValue('addCopyButtonBeforelibScript', this.checked) } },
+        { type: 'checkbox', id: 'showresource', label: translate('displaycitationcount'), checked: GM_getValue('showresource', false), onchange: function () { GM_setValue('showresource', this.checked) } },
         { type: 'checkbox', id: 'copyshortlink', label: translate('复制短链接'), checked: GM_getValue('copyshortlink', true), onchange: function () { GM_setValue('copyshortlink', this.checked) } },
-        { type: 'checkbox', id: 'useHighlighting', label: '美化代码片段', checked: GM_getValue('useHighlighting', true), onchange: function () { GM_setValue('useHighlighting', this.checked) } },
-        { type: 'checkbox', id: 'useHighlighttocode', label: '美化查看代码', checked: GM_getValue('useHighlighttocode', true), onchange: function () { GM_setValue('useHighlighttocode', this.checked) } },
+        { type: 'checkbox', id: 'useHighlighting', label: translate('beautifycodesnippets'), checked: GM_getValue('useHighlighting', true), onchange: function () { GM_setValue('useHighlighting', this.checked) } },
+        { type: 'checkbox', id: 'useHighlighttocode', label: translate('beautifycodeview'), checked: GM_getValue('useHighlighttocode', true), onchange: function () { GM_setValue('useHighlighttocode', this.checked) } },
         {
             type: 'select',
             id: 'lockmode',
-            label: '美化代码主题:',
+            label: translate('beautifycodetheme'),
             placeholder: 'Select...',
             options: [
-                { value: '0', text: '跟随系统', selected: true },
-                { value: '1', text: '黑夜模式', selected: false },
-                { value: '2', text: '白天模式', selected: false },
+                { value: '0', text: translate('followsystem'), selected: true },
+                { value: '1', text: translate('nightmode'), selected: false },
+                { value: '2', text: translate('daymode'), selected: false },
                 { value: 'Tomorrow-Night', text: 'Tomorrow-Night', selected: false },
                 { value: 'Tomorrow-Night-Eighties', text: 'Tomorrow-Night-Eighties', selected: false },
                 { value: 'Tomorrow-Night-Blue', text: 'Tomorrow-Night-Blue', selected: false },
@@ -2833,54 +2915,58 @@ button:focus {
         { type: 'checkbox', id: 'jumpto', label: translate('jumpTo18'), checked: GM_getValue('jumpto', false), onchange: function () { GM_setValue('jumpto', this.checked) } },
         { type: 'checkbox', id: 'HeaderStyleFix', label: translate('fixNavbar'), checked: GM_getValue('HeaderStyleFix', true), onchange: function () { GM_setValue('HeaderStyleFix', this.checked) } },
         { type: 'checkbox', id: 'setopenindoc', label: translate('openindoc'), checked: GM_getValue('setopenindoc', true), onchange: function () { GM_setValue('setopenindoc', this.checked) } },
-        { type: 'checkbox', id: 'wightnav', label: '导航栏对齐', checked: GM_getValue('wightnav', true), onchange: function () { GM_setValue('wightnav', this.checked) } }
-    ])
+        { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: GM_getValue('wightnav', true), onchange: function () { GM_setValue('wightnav', this.checked) } },
+        { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: GM_getValue('Expandsubmenu', false), onchange: function () { GM_setValue('Expandsubmenu', this.checked) } },
+    ]
+    )
     createCategory('category3', translate('website'), [
         { type: 'checkbox', id: 'autocheck', label: translate('AutoEnableCodeEditor'), checked: GM_getValue('autocheck', false), onchange: function () { GM_setValue('autocheck', this.checked) } },
         { type: 'checkbox', id: 'newtabtoinstall', label: translate('openTab'), checked: GM_getValue('newtabtoinstall', false), onchange: function () { GM_setValue('newtabtoinstall', this.checked) } },
         { type: 'checkbox', id: 'AbsoluteTime', label: translate('exactDate'), checked: GM_getValue('AbsoluteTime', false), onchange: function () { GM_setValue('AbsoluteTime', this.checked) } },
         { type: 'checkbox', id: 'greasymaxWidth', label: translate('maxView'), checked: GM_getValue('greasymaxWidth', false), onchange: function () { GM_setValue('greasymaxWidth', this.checked) } },
-        { type: 'checkbox', id: 'usereport', label: '一键举报', checked: GM_getValue('usereport', true), onchange: function () { GM_setValue('usereport', this.checked) } },
-        { type: 'checkbox', id: 'userlocalfav', label: '本地书签', checked: GM_getValue('userlocalfav', true), onchange: function () { GM_setValue('userlocalfav', this.checked) } },
+        { type: 'checkbox', id: 'usereport', label: translate('oneclickreport'), checked: GM_getValue('usereport', true), onchange: function () { GM_setValue('usereport', this.checked) } },
+        { type: 'checkbox', id: 'userlocalfav', label: translate('localbookmarks'), checked: GM_getValue('userlocalfav', true), onchange: function () { GM_setValue('userlocalfav', this.checked) } },
         { type: 'checkbox', id: 'remme', label: translate('Rememberme'), checked: GM_getValue('remme', true), onchange: function () { GM_setValue('remme', this.checked) } },
         {
-            type: 'checkbox', id: 'hidediscussionread', label: '隐藏已阅读评论', checked: GM_getValue('hidediscussionread', false
+            type: 'checkbox', id: 'hidediscussionread', label: translate('hidereadcomments'), checked: GM_getValue('hidediscussionread', false
             ), onchange: function () { GM_setValue('hidediscussionread', this.checked) }
         },
-        { type: 'checkbox', id: 'italicdiscussionread', label: '斜体已阅读评论', checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
+        { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
     ], viewMode)
-    createCategory('checkLogin', '自动登录', [
-        { type: 'checkbox', id: 'userautologin', label: "启用自动登录", checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
-        { type: 'text', id: 'useremail', label: '账号', value: GM_getValue('useremail', "") },
-        { type: 'text', id: 'userpassword', label: '密码', value: GM_getValue('userpassword', "") },
+    createCategory('checkLogin', translate('enableautologin'), [
+        { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
+        { type: 'text', id: 'useremail', label: translate('account'), value: GM_getValue('useremail', "") },
+        { type: 'text', id: 'userpassword', label: translate('password'), value: GM_getValue('userpassword', "") },
     ], 1)
-    createCategory('sl', '脚本列表', [
-        { type: 'checkbox', id: 'showinstallbutton', label: '列表显示安装下载', checked: GM_getValue('showinstallbutton', true), onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
+    createCategory('sl', translate('scriptlist'), [
+        { type: 'checkbox', id: 'showinstallbutton', label: translate('listdisplayinstallationdownload'), checked: GM_getValue('showinstallbutton', true), onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
         { type: 'checkbox', id: 'setlocklang', label: translate('locklangset'), checked: GM_getValue('setlocklang', false), onchange: function () { GM_setValue('setlocklang', this.checked) } },
         { type: 'checkbox', id: 'showRating', label: translate('showRating'), checked: GM_getValue('showRating', false), onchange: function () { GM_setValue('showRating', this.checked) } },
         { type: 'checkbox', id: 'showSourceCode', label: translate('showJump'), checked: GM_getValue('showSourceCode', false), onchange: function () { GM_setValue('showSourceCode', this.checked) } },
-        { type: 'checkbox', id: 'userapplyCustomStyles', label: '使用旧版列表', checked: GM_getValue('userapplyCustomStyles', false), onchange: function () { GM_setValue('userapplyCustomStyles', this.checked) } },
-        { type: 'checkbox', id: 'userhandleLocaleFilter', label: '显示所有语言脚本', checked: GM_getValue('userhandleLocaleFilter', true), onchange: function () { GM_setValue('userhandleLocaleFilter', this.checked) } },
+        { type: 'checkbox', id: 'userapplyCustomStyles', label: translate('useoldversionlist'), checked: GM_getValue('userapplyCustomStyles', false), onchange: function () { GM_setValue('userapplyCustomStyles', this.checked) } },
+        { type: 'checkbox', id: 'userhandleLocaleFilter', label: translate('showscriptall'), checked: GM_getValue('userhandleLocaleFilter', true), onchange: function () { GM_setValue('userhandleLocaleFilter', this.checked) } },
         { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: GM_getValue('scriptset', true), onchange: function () { GM_setValue('scriptset', this.checked) } },
         { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: GM_getValue('scriptwithdata', true), onchange: function () { GM_setValue('scriptwithdata', this.checked) } },
     ], viewMode)
-    createCategory('sl2', '个人主页', [
+    createCategory('sl2', translate('personalhomepage'), [
         { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: GM_getValue('clearhomepage', true), onchange: function () { GM_setValue('clearhomepage', this.checked) } },
         { type: 'text', id: 'clearhomepagedays', label: translate('cleanUpOld'), value: GM_getValue('clearhomepagedays', 30) },
         { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: GM_getValue('addedittohomepage', true), onchange: function () { GM_setValue('addedittohomepage', this.checked) } },
-        { type: 'checkbox', id: 'hideuserdiscussions', label: '隐藏近期评论', checked: GM_getValue('hideuserdiscussions', false), onchange: function () { GM_setValue('hideuserdiscussions', this.checked) } },
-        { type: 'checkbox', id: 'shouwtotalonuserpage', label: '主页显示统计', checked: GM_getValue('shouwtotalonuserpage', true), onchange: function () { GM_setValue('shouwtotalonuserpage', this.checked) } },
+        { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: GM_getValue('hideuserdiscussions', false), onchange: function () { GM_setValue('hideuserdiscussions', this.checked) } },
+        { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: GM_getValue('shouwtotalonuserpage', true), onchange: function () { GM_setValue('shouwtotalonuserpage', this.checked) } },
     ], viewMode)
-    createCategory('sl3', '美化控件', [
-        { type: 'checkbox', id: 'usercssto', label: '控件美化', checked: GM_getValue('usercssto', true), onchange: function () { GM_setValue('usercssto', this.checked) } },
+    createCategory('sl3', translate('beautifycontrols'), [
+        { type: 'checkbox', id: 'usercssto', label: translate('beautifycontrols'), checked: GM_getValue('usercssto', true), onchange: function () { GM_setValue('usercssto', this.checked) } },
         { type: 'checkbox', id: 'modifyRadioLabels', label: translate('beautifyDis'), checked: GM_getValue('modifyRadioLabels', false), onchange: function () { GM_setValue('modifyRadioLabels', this.checked) } },
     ], viewMode)
-    createCategory('openabout', '适用于', [
-        { type: 'checkbox', id: 'usersearchingreasyfork', label: '启用增强', checked: GM_getValue('usersearchingreasyfork', true), onchange: function () { GM_setValue('usersearchingreasyfork', this.checked) } },
+    createCategory('openabout', translate('applyto'), [
+        { type: 'checkbox', id: 'usersearchingreasyfork', label: translate('enableenhancements'), checked: GM_getValue('usersearchingreasyfork', true), onchange: function () { GM_setValue('usersearchingreasyfork', this.checked) } },
         //  { type: 'divider' },
-        { type: 'checkbox', id: 'newtabopenabout', label: '新窗口打开', checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('navigateTotab', this.checked) } },
-        { type: 'checkbox', id: 'showlinktotal', label: '显示在论坛的脚本数量', checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('showlinktotal', this.checked) } },
-        { type: 'select', id: 'searchingreasyfork', label: '详情适用于打开:', placeholder: 'Select...', options: [{ value: '0', text: '论坛搜索', selected: false }, { value: '1', text: '网页打开', selected: true }, { value: '2', text: '弹出提示', selected: false }], onchange: thandleSelectChange('searchingreasyfork') }
+        {
+            type: 'checkbox', id: 'newtabopenabout', label: translate('openinnewwindow'), checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('navigateTotab', this.checked) }
+        },
+        { type: 'checkbox', id: 'showlinktotal', label: translate('showscriptsinforum'), checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('showlinktotal', this.checked) } },
+        { type: 'select', id: 'searchingreasyfork', label: translate('detailsapplytoopen'), placeholder: 'Select...', options: [{ value: '0', text: translate('forumsearch'), selected: false }, { value: '1', text: translate('webpageopen'), selected: true }, { value: '2', text: translate('popupprompt'), selected: false }], onchange: thandleSelectChange('searchingreasyfork') }
     ], 1)
     const controls2 = [
         { type: 'label', label: 'Thank You', class: 'text-center', link: { href: '', target: '_blank', class: 'ml-2', text: '' } },
@@ -2928,13 +3014,11 @@ button:focus {
                 if (titleText) {
                     const numberMatch = titleText.match(/\d+/)
                     if (numberMatch) {
-
                         const span = document.createElement('span')
                         span.className = 'title-number'
                         span.style.fontSize = '12px'
                         span.style.color = '#007bff'
                         span.textContent = numberMatch[0]
-
                         link.parentNode.insertBefore(span, link)
                     }
                 }
@@ -3184,12 +3268,14 @@ button:focus {
                 }
             })
             $('textarea').attr('cols', '130')
-            $("input").each(function () {
-                if ($(this).val() == "Generate")
-                    $(this).val("生成")
-                if ($(this).val() == "Regenerate")
-                    $(this).val("重新生成")
-            })
+            if (getCountryCode() === "zh-CN") {
+                $("input").each(function () {
+                    if ($(this).val() == "Generate")
+                        $(this).val("生成")
+                    if ($(this).val() == "Regenerate")
+                        $(this).val("重新生成")
+                })
+            }
         }
     }
     //功能-隐藏AD 482672
@@ -3810,7 +3896,7 @@ button:focus {
         if (!url) return
         let discussionId = /id=(\d+)\b/.exec(url)
         if (discussionId) discussionId = discussionId[1]
-        let r = window.confirm(`举报评论#${discussionId || "------"} ?`)
+        let r = window.confirm(` ${translate('report')}#${discussionId || "------"} ?`)
         if (!r) return
         const iframe = document.createElement('iframe')
         skipMode = false
@@ -3845,7 +3931,7 @@ cursor: pointer;
         if (isNaN(lastSegment) || lastSegment < 0) return
         let span = document.createElement('span') // 使用 document.createElement 创建元素
         span.classList.add('rating-icon', 'rating-icon-bad', 're')  // 添加自定义类名 're'
-        span.textContent = '举报'
+        span.textContent = translate('report')
         span.setAttribute('data-href', 'https://greasyfork.org/en/reports/new?item_class=discussion&item_id=' + discussionId)
         span.addEventListener('click', clickHandler, false)
         let meta = li.querySelector('.discussion-meta') // 选择 .discussion-meta 元素
@@ -3892,7 +3978,7 @@ cursor: pointer;
             newAnchor.setAttribute('data-href', newAnchor.getAttribute('href'))
             newAnchor.setAttribute('href', '#')
             newAnchor.addEventListener('click', clickHandler, false)
-            newAnchor.textContent = '举报'
+            newAnchor.textContent = translate('report')
             anchorNode.parentNode.insertBefore(newAnchorNode, anchorNode.nextSibling)
         }
         // 创建一个观察器实例并传入回调函数
@@ -4136,32 +4222,49 @@ cursor: pointer;
             }
         })
     }
+    //功能-导航栏更多不收缩
+    if (Expandsubmenu) {
+        waitForElement('a[href="#"][onclick="return false"]').then(() => {
+            var submenu = document.querySelector('.with-submenu')
+            var links = submenu.querySelectorAll('nav li a')
+            var targetNav = document.querySelector('#site-nav > nav')
+            links.forEach(function (link) {
+                var newLi = document.createElement('li')
+                newLi.appendChild(link.cloneNode(true))
+                targetNav.appendChild(newLi)
+            })
+            var parentLi = submenu.closest('li')
+            if (parentLi) {
+                parentLi.remove()
+            }
+            var moreLink = document.querySelector('a[href="#"][onclick="return false"]')
+            if (moreLink) {
+                moreLink.remove()
+            }
+        })
+    }
     //功能-增加自动登录
     async function autoLogin() {
         // 等待登录链接出现
         await waitForElement("span.sign-in-link a[rel=nofollow]")
-
         let user = useremail
         let pwd = userpassword
-
         if (!user) {
-            Toast("本地尚未储存账号", 1000, '#ff6347', '#ffffff', 'top')
+            Toast(translate('nostoredaccount'), 1000, '#ff6347', '#ffffff', 'top')
             alert()
             return
         }
         if (!pwd) {
-            Toast("本地尚未储存密码", 1000, '#ff6347', '#ffffff', 'top')
+            Toast(translate('nostoredpassword'), 1000, '#ff6347', '#ffffff', 'top')
             return
         }
-        Toast("即将自动跳转登录...", 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
+        Toast(translate('autologinredirect'), 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
         let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
         if (!csrfTokenMeta) {
-
-            Toast("获取csrf-token失败", 1000, '#ff6347', '#ffffff', 'top')
+            Toast(translate('getcsrftokenfailed'), 1000, '#ff6347', '#ffffff', 'top')
             return
         }
         let csrfToken = csrfTokenMeta.getAttribute("content")
-
         let postResp = await fetch("https://greasyfork.org/zh-CN/users/sign_in", {
             method: 'POST',
             headers: {
@@ -4175,35 +4278,27 @@ cursor: pointer;
                 commit: '登录'
             })
         })
-
         if (postResp.status !== 200) {
-
-            Toast("登录失败，请在控制台查看原因", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
-            logMessage("自动登录", "返回码错误", postResp, false)
+            Toast(translate('loginfailedconsole'), 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
+            logMessage("自动登录", "返回码错误", postResp.status, false)
             return
         }
-
         let respText = await postResp.text()
         let parser = new DOMParser()
         let parseLoginHTMLNode = parser.parseFromString(respText, 'text/html')
-
         if (parseLoginHTMLNode.querySelectorAll(
             ".sign-out-link a[rel=nofollow][data-method='delete']"
         ).length) {
-
-            Toast("登录成功，1秒后自动跳转", 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
+            Toast(translate('loginsuccessredirect'), 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
             setTimeout(() => {
                 window.location.reload()
             }, 1000)
         } else {
-            Toast("登录失败，无法找到元素", 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
-
+            Toast(translate('loginfailedelementnotfound'), 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
         }
     }
-
     if (userautologin) {
         autoLogin()
-
     }
     function waitForElement(selector) {
         return new Promise((resolve) => {
@@ -4257,22 +4352,23 @@ cursor: pointer;
         }
         // Basic css
         injectCSS(`
-    html { scroll-behavior: smooth; }
     a.anchor::before { content: "#"; }
     a.anchor { opacity: 0; text-decoration: none; padding: 0px 0.5em; transition: all 0.25s ease-in-out; }
     h1:hover>a.anchor, h2:hover>a.anchor, h3:hover>a.anchor,
     h4:hover>a.anchor, h5:hover>a.anchor, h6:hover>a.anchor { opacity: 1; transition: all 0.25s ease-in-out; }
-    
-    div.code-toolbar { display: flex; gap: 1em; }
+    aside.panel { display: none; }
     .dynamic-opacity { transition: opacity 0.2s ease-in-out; opacity: 0.2; }
     .dynamic-opacity:hover { opacity: 0.8; }
+    table { border: 1px solid #8d8d8d; border-collapse: collapse; width: auto; }
+    table td, table th { padding: 0.5em 0.75em; vertical-align: middle; border: 1px solid #8d8d8d; }
+    @media (any-hover: none) { .dynamic-opacity { opacity: 0.8; } .dynamic-opacity:hover { opacity: 0.8; } }
     @media screen and (min-width: 767px) {
         aside.panel { display: contents; line-height: 1.5; }
         ul.outline { position: sticky; float: right; padding: 0 0 0 0.5em; margin: 0 0.5em -99vh; max-height: 80vh; border: 1px solid #BBBBBB; border-left: 2px solid #F2E5E5; box-shadow: 0 0 5px #ddd; background: linear-gradient(to right, #fcf1f1, #FFF 1em); list-style: none; width: 10.5%; color: gray; border-radius: 5px; overflow-y: scroll; z-index: 1; }
         ul.outline > li { overflow: hidden; text-overflow: ellipsis; }
         ul.outline > li > a { color: gray; white-space: nowrap; text-decoration: none; }
     }
-   `)
+`)
         let outline
         const is_script = /^\/[^\/]+\/scripts/
         const is_specific_script = /^\/[^\/]+\/scripts\/\d+/
@@ -4296,7 +4392,6 @@ cursor: pointer;
             }
         }
     }
-
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
 function addbageStyles() {
@@ -4304,7 +4399,6 @@ function addbageStyles() {
         .report-link.report-link-abs::before {
             content: "🚩 ";
         }
-
         .report-link.report-link-abs {
             box-shadow: rgba(221, 46, 68, 0.52) 0px 0px 5px;
             background-color: rgba(36, 36, 36, 0.9);
@@ -4317,12 +4411,10 @@ function addbageStyles() {
             font-weight: 600;
             scale: 0.9;
         }
-
         .report-link.report-link-abs:lang(ar), .report-link.report-link-abs:lang(ug), .report-link.report-link-abs:lang(he) {
             direction: ltr;
             margin-right: 90.46%;
         }
-
         .script-type {
             box-shadow: rgba(221, 160, 15, 0.29) 0px 0px 5px;
             background-color: rgba(36, 36, 36, 0.9);
@@ -4340,13 +4432,7 @@ function addbageStyles() {
             .sign-out-link {
  color: rgb(5, 5, 5) !important;
        }
- 
- 
     `
-
     GM_addStyle(cssMain)
 }
-
-
-addbageStyles();
-
+addbageStyles()
