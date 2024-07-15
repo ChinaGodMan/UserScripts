@@ -120,7 +120,7 @@ Add a section on the script details page to allow viewing all scripts published 
 <li>9.Grayscale Read Comments</li>
 <li>10.Hide Read Comments</li>
 <li>11.Side navigation bar</li>
-<li>12.Image Proxry/li>
+<li>12.Image Proxry</li>
 </ul>
 </details>
 
