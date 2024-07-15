@@ -26,7 +26,7 @@
 // @description:ar توفير وظائف متنوعة لـ Greasyfork، بما في ذلك الوقت المطلق، وصفحات الويب ذات الشاشة العريضة، وتعزيز صفحات النصوص البرمجية، وتوسعات التنزيل، وإصلاحات اللوحة، والمزيد.
 // @description:he מתן מגוון פונקציות עבור Greasyfork, כולל זמן מוחלט, דפי אינטרנט ברוחב מסך רחב, שיפורי דפי סקריפטים, הרחבות להורדה, תיקוני לוח ועוד.
 // @description:vi Cung cấp các tính năng khác nhau cho Greasyfork, bao gồm thời gian tuyệt đối, trang web màn hình rộng, nâng cao trang kịch bản, tiện ích mở rộng tải xuống, sửa lỗi bảng điều khiển và nhiều hơn nữa.
-// @require https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
+// @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
 // @require      https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
