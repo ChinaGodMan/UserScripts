@@ -25,6 +25,10 @@
 
 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
 
+---
+
+
+
 ## 功能介紹
 
 <details>
@@ -122,6 +126,10 @@
 
 </details>
 
+---
+
+
+
 ## Thank you
 
 <details>
@@ -151,6 +159,10 @@
 <li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
 
 </details>
+
+---
+
+
 
 ## 图片展示:
 
