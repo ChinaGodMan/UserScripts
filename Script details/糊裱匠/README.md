@@ -117,12 +117,11 @@
 <li>8. 显示图标 / Show Icon</li>
 <li>9. 灰度已阅读评论 / Grayscale Read Comments</li>
 <li>10. 隐藏已阅读评论 / Hide Read Comments</li>
+<li>11. 侧边导航栏 / Side navigation bar</li>
 </ul>
 </details>
 
 ## Thank you
-
-
 
 <details>
 <summary><mark style="background-color: green; color: yellow;">引用脚本/ Quote script</mark></summary>
@@ -159,7 +158,7 @@
   - 增加图片代理
     - 图片代理开启时不兼容[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
   - 修复在移动设备上浏览图片超出浏览器外的问题
-  -  修改在编辑代码时自动勾选美化
+  - 修改在编辑代码时自动勾选美化
 - 2024/7/14 2.2.0.6
   
   - 添加了导航栏展开"更多"
