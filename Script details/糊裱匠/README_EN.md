@@ -30,7 +30,7 @@ Add a section on the script details page to allow viewing all scripts published 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Script Details</mark>
 </summary>
-<ul>
+
 <li>1. Switch Document View and Web View</li>
 <li>2. Copy Code</li>
 <li>3. Show Script Icon</li>
@@ -44,12 +44,12 @@ Add a section on the script details page to allow viewing all scripts published 
 <li>11.Copy Short Link</li>
 <li>12.Beautify Code Snippets</li>
 <li>13.Beautify Code View</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Script List</mark></summary>
-<ul>
+
 <li>1. Display Installation and Download in List</li>
 <li>2. Lock Language Settings</li>
 <li>3. Show Ratings</li>
@@ -58,57 +58,57 @@ Add a section on the script details page to allow viewing all scripts published 
 <li>6. Show Scripts in All Languages</li>
 <li>7. Move Sidebar</li>
 <li>8. Sort Script List by Creation Date</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Beautify Controls</mark></summary>
-<ul>
+
 <li>1.Beautify Controls</li>
 <li>2.Beautify Select Box and Radio Button Labels</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Applicable To</mark></summary>
-<ul>
+
 <li>1.Enable Enhancement</li>
 <li>2.Open in New Window</li>
 <li>3.Show Number of Scripts on Forum</li>
 <li>4.Details Applicable To:</li>
-<ul>
+
 <li>Forum Search</li>
 <li>Open Webpage</li>
 <li>Popup Tip</li>
-</ul>
-</ul>
+
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Personal Homepage</mark></summary>
-<ul>
+
 <li>1.Clean Up Old Homepage Content</li>
 <li>2.Days to Clean Homepage Content</li>
 <li>3.Add Scripts to Homepage</li>
 <li>4.Hide Recent Comments</li>
 <li>5.Display Statistics on Homepage</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Navigation Bar</mark></summary>
-<ul>
+
 <li>1.Add Option to Publish New Script</li>
 <li>2.Link to Adult Scripts</li>
 <li>3.Fix Navigation Bar Style</li>
 <li>4.Add "Open This Page" to Navigation Bar</li>
 <li>5.Align Navigation Bar</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">Website</mark></summary>
-<ul>
+
 <li>1.Automatically Apply Code Editor Beautification</li>
 <li>2.Open Links in New Tab</li>
 <li>3.Precise Date</li>
@@ -121,36 +121,36 @@ Add a section on the script details page to allow viewing all scripts published 
 <li>10.Hide Read Comments</li>
 <li>11.Side navigation bar</li>
 <li>12.Image Proxry</li>
-</ul>
+
 </details>
 
 ## Thank you
 
 <details>
 <summary><mark style="background-color: green; color: yellow;">Quote script</mark></summary>
-<ul>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
-    <li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
-    <li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
-    <li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
-    <li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
-     <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
-    <li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
-    <li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
+<li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
+<li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
+<li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
+<li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
+ <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
+<li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
+<li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
+
 <li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
-</ul>
+
 </details>
 
 

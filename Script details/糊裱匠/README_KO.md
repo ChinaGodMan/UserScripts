@@ -29,7 +29,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">스크립트 상세</mark></summary>
-<ul>
+
 <li>1. 문서 보기와 웹 보기 전환</li>
 <li>2. 코드 복사</li>
 <li>3. 스크립트 아이콘 표시</li>
@@ -43,12 +43,12 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <li>11. 짧은 링크 복사</li>
 <li>12. 코드 스니펫 미화</li>
 <li>13. 코드 보기 미화</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">스크립트 목록</mark></summary>
-<ul>
+
 <li>1. 리스트 표시로 설치 및 다운로드</li>
 <li>2. 언어 설정 잠금</li>
 <li>3. 평가 표시</li>
@@ -57,57 +57,57 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <li>6. 모든 언어 스크립트 표시</li>
 <li>7. 사이드바 이동</li>
 <li>8. 생성일로 스크립트 목록 정렬</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">미화 컨트롤</mark></summary>
-<ul>
+
 <li>1. 컨트롤 미화</li>
 <li>2. 선택 상자와 라디오 버튼 레이블 미화</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">적용 대상</mark></summary>
-<ul>
+
 <li>1. 기능 확장 활성화</li>
 <li>2. 새 창에서 열기</li>
 <li>3. 포럼에서 스크립트 수 표시</li>
 <li>4. 자세한 내용은 다음에 적용:</li>
-<ul>
+
 <li>포럼 검색</li>
 <li>웹 페이지 열기</li>
 <li>팝업 알림</li>
-</ul>
-</ul>
+
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">개인 홈페이지</mark></summary>
-<ul>
+
 <li>1. 오래된 홈페이지 콘텐츠 정리</li>
 <li>2. 홈페이지 정리 일수 설정</li>
 <li>3. 홈페이지 스크립트 추가 작업</li>
 <li>4. 최근 댓글 숨기기</li>
 <li>5. 홈페이지 통계 표시</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">탐색 바</mark></summary>
-<ul>
+
 <li>1. 새 스크립트 게시 옵션 추가</li>
 <li>2. 성인 스크립트로 이동</li>
 <li>3. 탐색 바 스타일 수정</li>
 <li>4. 탐색 바에 이 인터페이스 열기 버튼 추가</li>
 <li>5. 탐색 바 정렬</li>
-</ul>
+
 </details>
 
 <details>
 <summary><mark style="background-color: yellow; color: green;">웹사이트</mark></summary>
-<ul>
+
 <li>1. 코드 편집기 미화 자동 활성화</li>
 <li>2. 새 탭에서 링크 열기</li>
 <li>3. 정확한 날짜 표시</li>
@@ -120,38 +120,38 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <li>10. 읽은 댓글 숨기기</li>
 <li>11. 사이드 내비게이션 바</li>
 <li>12. 사용자 이미지 프록시</li>
-</ul>
+
 </details>
 
 ## 감사합니다
 
 <details>
 <summary><mark style="background-color: green; color: yellow;">참고한 스크립트</mark></summary>
+<li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
+<li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
+<li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
+<li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
+<li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
+ <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
+<li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
+<li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
 
-<ul>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
-    <li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
-    <li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
-    <li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
-    <li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
-    <li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
-     <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
-    <li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
-    <li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
 <li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
-</ul>
+
 </details>
+
 
 ## Photos:
 
