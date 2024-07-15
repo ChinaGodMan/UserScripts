@@ -30,6 +30,9 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 ![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
+
+
+
 ---
 
 
