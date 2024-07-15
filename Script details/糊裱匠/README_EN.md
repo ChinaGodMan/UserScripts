@@ -21,9 +21,9 @@
 
 ---
 
-## English:
+## Script Overview:
 
-Add a section on the script details page to allow viewing all scripts published by this author.
+Provide various usage functions for Greasyfork, absolute time, web page widescreen, script page enhancement, download extension, panel repair and a series of operations. This script is collected from the website.
 
 ---
 
