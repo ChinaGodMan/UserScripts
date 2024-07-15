@@ -23,7 +23,7 @@
 
 
 
-## 简体中文/English:
+## 脚本功能/Script Overview:
 
 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。/Add a section on the script details page to allow viewing all scripts published by this author.
 
