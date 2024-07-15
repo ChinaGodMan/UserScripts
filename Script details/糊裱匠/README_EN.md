@@ -25,6 +25,8 @@
 
 Add a section on the script details page to allow viewing all scripts published by this author.
 
+---
+
 ## Features
 
 <details>
@@ -81,7 +83,6 @@ Add a section on the script details page to allow viewing all scripts published 
 <li>Open Webpage</li>
 <li>Popup Tip</li>
 
-
 </details>
 
 <details>
@@ -124,6 +125,8 @@ Add a section on the script details page to allow viewing all scripts published 
 
 </details>
 
+---
+
 ## Thank you
 
 <details>
@@ -153,7 +156,7 @@ Add a section on the script details page to allow viewing all scripts published 
 
 </details>
 
-
+---
 
 ## Photos:
 

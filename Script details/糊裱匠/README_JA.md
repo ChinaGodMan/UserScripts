@@ -25,6 +25,10 @@
 
 Greasyfork にさまざまな使用機能を提供します。絶対時間、ウェブページのワイドスクリーン、スクリプトページの強化、ダウンロード拡張、パネル修正など、一連の操作をサポートするスクリプトです。サイトから収集されたものです。
 
+---
+
+
+
 ## 機能紹介
 
 <details>
@@ -80,7 +84,6 @@ Greasyfork にさまざまな使用機能を提供します。絶対時間、ウ
 <li>ウェブページの表示</li>
 <li>ポップアップ通知</li>
 
-
 </details>
 
 <details>
@@ -123,6 +126,10 @@ Greasyfork にさまざまな使用機能を提供します。絶対時間、ウ
 
 </details>
 
+---
+
+
+
 ## ありがとう
 
 <details>
@@ -152,6 +159,10 @@ Greasyfork にさまざまな使用機能を提供します。絶対時間、ウ
 <li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
 
 </details>
+
+---
+
+
 
 ## Photos:
 
