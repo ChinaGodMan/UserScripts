@@ -5,6 +5,7 @@ on:
     - cron: '0 0 * * *'  # 每天的 UTC 时间 0 点，即中国时间的早上 8 点
   workflow_dispatch:  # 允许手动触发工作流
 
+
 jobs:
   update-versions:
     runs-on: ubuntu-latest
