@@ -19,113 +19,113 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
-## 简体中文/English:
+## 繁体中文
 
-为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。/Add a section on the script details page to allow viewing all scripts published by this author.
+為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
 
-## 功能介绍/Features
+## 功能介紹
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">脚本详情 / Script Details</mark>
-</summary>
+<summary><mark style="background-color: yellow; color: green;">腳本詳情</mark></summary>
 <ul>
-<li>1. 切换文档视图与网页视图 / Switch Document View and Web View</li>
-<li>2. 复制代码 / Copy Code</li>
-<li>3. 显示脚本图标 / Show Script Icon</li>
-<li>4. 清空图标缓存 / Clear Icon Cache</li>
-<li>5. 脚本历史增加安装 / Add Installation to Script History</li>
-<li>6. 增加下载按钮 / Add Download Button</li>
-<li>7. 脚本代码显示行数字数 / Display Line Numbers for Script Code</li>
-<li>8. 按创建日期排序脚本列表 / Sort Script List by Creation Date</li>
-<li>9. 复制库声明 / Copy Library Declaration</li>
-<li>10. 显示引用文件数 / Show Number of Referenced Files</li>
-<li>11. 复制短链接 / Copy Short Link</li>
-<li>12. 美化代码片段 / Beautify Code Snippets</li>
-<li>13. 美化查看代码 / Beautify Code View</li>
+<li>1. 切換文檔視圖與網頁視圖</li>
+<li>2. 複製代碼</li>
+<li>3. 顯示腳本圖標</li>
+<li>4. 清空圖標快取</li>
+<li>5. 腳本歷史增加安裝</li>
+<li>6. 增加下載按鈕</li>
+<li>7. 腳本代碼顯示行數字數</li>
+<li>8. 按創建日期排序腳本列表</li>
+<li>9. 複製庫聲明</li>
+<li>10. 顯示引用檔案數</li>
+<li>11. 複製短連結</li>
+<li>12. 美化代碼片段</li>
+<li>13. 美化查看代碼</li>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">脚本列表 / Script List</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">腳本列表</mark></summary>
 <ul>
-<li>1. 列表显示安装下载 / Display Installation and Download in List</li>
-<li>2. 锁定语言设置 / Lock Language Settings</li>
-<li>3. 显示评分 / Show Ratings</li>
-<li>4. 显示源码 / Show Source Code</li>
-<li>5. 使用旧版列表 / Use Old Version of List</li>
-<li>6. 显示所有语言脚本 / Show Scripts in All Languages</li>
-<li>7. 移动侧边栏 / Move Sidebar</li>
-<li>8. 按创建日期排序脚本列表 / Sort Script List by Creation Date</li>
+<li>1. 列表顯示安裝下載</li>
+<li>2. 鎖定語言設定</li>
+<li>3. 顯示評分</li>
+<li>4. 顯示源代碼</li>
+<li>5. 使用舊版列表</li>
+<li>6. 顯示所有語言腳本</li>
+<li>7. 移動側邊欄</li>
+<li>8. 按創建日期排序腳本列表</li>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">美化控件 / Beautify Controls</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">美化控件</mark></summary>
 <ul>
-<li>1. 控件美化 / Beautify Controls</li>
-<li>2. 美化选择框和单选框标签 / Beautify Select Box and Radio Button Labels</li>
+<li>1. 控件美化</li>
+<li>2. 美化選擇框和單選框標籤</li>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">适用于 / Applicable To</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">適用於</mark></summary>
 <ul>
-<li>1. 启用增强 / Enable Enhancement</li>
-<li>2. 新窗口打开 / Open in New Window</li>
-<li>3. 显示在论坛的脚本数量 / Show Number of Scripts on Forum</li>
-<li>4. 详情适用于打开: / Details Applicable To:</li>
+<li>1. 啟用增強</li>
+<li>2. 新窗口打開</li>
+<li>3. 顯示在論壇的腳本數量</li>
+<li>4. 詳情適用於打開:</li>
 <ul>
-<li>论坛搜索 / Forum Search</li>
-<li>网页打开 / Open Webpage</li>
-<li>弹出提示 / Popup Tip</li>
+<li>論壇搜尋</li>
+<li>網頁打開</li>
+<li>彈出提示</li>
 </ul>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">个人主页 / Personal Homepage</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">個人主頁</mark></summary>
 <ul>
-<li>1. 清理旧的主页内容 / Clean Up Old Homepage Content</li>
-<li>2. 主页清理的天数 / Days to Clean Homepage Content</li>
-<li>3. 主页脚本添加操作 / Add Scripts to Homepage</li>
-<li>4. 隐藏近期评论 / Hide Recent Comments</li>
-<li>5. 主页显示统计 / Display Statistics on Homepage</li>
+<li>1. 清理舊的主頁內容</li>
+<li>2. 主頁清理的天數</li>
+<li>3. 主頁腳本添加操作</li>
+<li>4. 隱藏近期評論</li>
+<li>5. 主頁顯示統計</li>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">导航栏 / Navigation Bar</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">導航欄</mark></summary>
 <ul>
-<li>1. 增加发布新脚本选项 / Add Option to Publish New Script</li>
-<li>2. 跳转成人脚本 / Link to Adult Scripts</li>
-<li>3. 修复导航栏样式 / Fix Navigation Bar Style</li>
-<li>4. 在导航栏添加打开本界面 / Add "Open This Page" to Navigation Bar</li>
-<li>5. 导航栏对齐 / Align Navigation Bar</li>
+<li>1. 增加發布新腳本選項</li>
+<li>2. 跳轉成人腳本</li>
+<li>3. 修復導航欄樣式</li>
+<li>4. 在導航欄添加打開本介面</li>
+<li>5. 導航欄對齊</li>
 </ul>
 </details>
 
 <details>
-<summary><mark style="background-color: yellow; color: green;">网站 / Website</mark></summary>
+<summary><mark style="background-color: yellow; color: green;">網站</mark></summary>
 <ul>
-<li>1. 自动启用代码编辑框美化 / Automatically Apply Code Editor Beautification</li>
-<li>2. 在新标签页中打开链接 / Open Links in New Tab</li>
-<li>3. 精确日期 / Precise Date</li>
-<li>4. 网站最大化浏览 / Maximize Website View</li>
-<li>5. 一键举报 / One-Click Report</li>
-<li>6. 本地代码高亮 / Local Code Highlighting</li>
-<li>7. 隐藏图标 / Hide Icon</li>
-<li>8. 显示图标 / Show Icon</li>
-<li>9. 灰度已阅读评论 / Grayscale Read Comments</li>
-<li>10. 隐藏已阅读评论 / Hide Read Comments</li>
-<li>11. 侧边导航栏 / Side navigation bar</li>
-<li>12. 代理用户图片 / Image Proxry/li>
+<li>1. 自動啟用代碼編輯框美化</li>
+<li>2. 在新標籤頁中打開連結</li>
+<li>3. 精確日期</li>
+<li>4. 網站最大化瀏覽</li>
+<li>5. 一鍵舉報</li>
+<li>6. 本地代碼高亮</li>
+<li>7. 隱藏圖標</li>
+<li>8. 顯示圖標</li>
+<li>9. 灰度已閱讀評論</li>
+<li>10. 隱藏已閱讀評論</li>
+<li>11. 側邊導航欄</li>
+<li>12. 代理用戶圖片</li>
 </ul>
 </details>
+
 
 ## Thank you
 
 <details>
-<summary><mark style="background-color: green; color: yellow;">引用脚本/ Quote script</mark></summary>
+<summary><mark style="background-color: green; color: yellow;">引用腳本</mark></summary>
 <ul>
     <li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
     <li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
@@ -150,27 +150,6 @@
 <li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
 </ul>
 </details>
-
-## 更新信息：
-- 2024/7/15 2.2.0.8
-  -  完全的繁体语言支持
-- 2024/7/15 2.2.0.7
-  
-  - 增加侧边导航栏开关
-  - 增加图片代理
-    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复在移动设备上浏览图片超出浏览器外的问题
-  - 修改在编辑代码时自动勾选美化
-- 2024/7/14 2.2.0.6
-  
-  - 添加了导航栏展开"更多"
-  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
-  - 完善对多语言的支持
-- 2024/7/13 2.2.0.5
-  
-  - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复显示列表上的脚本安装状态
-  - 完善对多语言的支持
 
 ## 图片展示:
 
