@@ -19,6 +19,8 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
+---
+
 ## English:
 
 Add a section on the script details page to allow viewing all scripts published by this author.

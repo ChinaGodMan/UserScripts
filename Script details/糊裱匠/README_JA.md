@@ -19,6 +19,8 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
+---
+
 ## Greasyfork 用の機能提供
 
 Greasyfork にさまざまな使用機能を提供します。絶対時間、ウェブページのワイドスクリーン、スクリプトページの強化、ダウンロード拡張、パネル修正など、一連の操作をサポートするスクリプトです。サイトから収集されたものです。

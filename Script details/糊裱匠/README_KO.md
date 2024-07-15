@@ -19,6 +19,8 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
+---
+
 ## Greasyfork의 다양한 기능 제공
 
 Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절대 시간, 웹 페이지 넓은 화면, 스크립트 페이지 강화, 다운로드 확장, 패널 수정 등 일련의 작업을 지원합니다. 이 스크립트는 웹사이트에서 수집되었습니다.

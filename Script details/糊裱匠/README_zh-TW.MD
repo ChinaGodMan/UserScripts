@@ -19,6 +19,8 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
+---
+
 ## 繁体中文
 
 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
