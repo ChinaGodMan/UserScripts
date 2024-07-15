@@ -24,7 +24,12 @@
 ## Greasyfork의 다양한 기능 제공
 
 Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절대 시간, 웹 페이지 넓은 화면, 스크립트 페이지 강화, 다운로드 확장, 패널 수정 등 일련의 작업을 지원합니다. 이 스크립트는 웹사이트에서 수집되었습니다.
-
+>![size](https://img.shields.io/github/size/10086100886/renmindeqinwuyuan/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
+![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
+![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
+![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
+![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
+![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 ---
 
 

@@ -24,7 +24,12 @@
 ## Greasyfork 用の機能提供
 
 Greasyfork にさまざまな使用機能を提供します。絶対時間、ウェブページのワイドスクリーン、スクリプトページの強化、ダウンロード拡張、パネル修正など、一連の操作をサポートするスクリプトです。サイトから収集されたものです。
-
+>![size](https://img.shields.io/github/size/10086100886/renmindeqinwuyuan/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
+![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
+![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
+![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
+![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
+![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 ---
 
 
