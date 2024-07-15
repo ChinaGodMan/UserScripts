@@ -25,9 +25,16 @@
 
 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
 
+>![size](https://img.shields.io/github/size/10086100886/renmindeqinwuyuan/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
+![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
+![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
+![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
+![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
+![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
+
+
+
 ---
-
-
 
 ## 功能介紹
 
@@ -128,8 +135,6 @@
 
 ---
 
-
-
 ## Thank you
 
 <details>
@@ -161,8 +166,6 @@
 </details>
 
 ---
-
-
 
 ## 图片展示:
 
