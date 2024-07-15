@@ -19,6 +19,10 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
+---
+
+
+
 ## 简体中文
 
 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。
@@ -121,7 +125,6 @@
 </ul>
 </details>
 
-
 ## Thank you
 
 <details>
@@ -152,8 +155,10 @@
 </details>
 
 ## 更新信息：
+
 - 2024/7/15 2.2.0.8
-  -  完全的繁体语言支持
+  
+  - 完全的繁体语言支持
 - 2024/7/15 2.2.0.7
   
   - 增加侧边导航栏开关
