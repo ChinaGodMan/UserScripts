@@ -156,8 +156,8 @@
   
   - 增加侧边导航栏开关
   - 增加图片代理
-  - 完全的繁体语言支持
-    - 图片代理开启时不兼容[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+  -  完全的繁体语言支持
   - 修复在移动设备上浏览图片超出浏览器外的问题
   - 修改在编辑代码时自动勾选美化
 - 2024/7/14 2.2.0.6
