@@ -60,7 +60,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>复制授权修改版</strong></a></td>
+                <td><a href="/zh-CN/scripts/497403" target="_blank"><strong>复制授权修改版</strong></a></td>
                 <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/clipboard.user.js">安装</a>
@@ -71,7 +71,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork详情适用于打开</strong></a></td>
+                <td><a href="/zh-CN/scripts/497317" target="_blank"><strong>Greasyfork详情适用于打开</strong></a></td>
                 <td>脚本详情页增加适用于链接增加点击打开网页，点击复制</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/Greasy%20fork%20link.user.js">安装</a>
@@ -91,7 +91,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Missav备份助手</strong></a></td>
+                <td><a href="/zh-CN/scripts/497682" target="_blank"><strong>Missav备份助手</strong></a></td>
                 <td>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/missavexplorer.user.js">安装</a>
@@ -102,7 +102,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Remove Link Underlines</strong></a></td>
+                <td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
                 <td>去除网页下划线</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/Remove%20Link%20Underlines.user.js">安装</a>
@@ -113,7 +113,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>网页高亮关键字</strong></a></td>
+                <td><a href="/zh-CN/scripts/498906" target="_blank"><strong>网页高亮关键字</strong></a></td>
                 <td>对网页上的文字进行高亮显示</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安装</a>
@@ -124,7 +124,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Script Finder+</strong></a></td>
+                <td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
                 <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/Script%20Finder%2B.user.js">安装</a>
@@ -135,7 +135,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>置頂和置底按鈕</strong></a></td>
+                <td><a href="/zh-CN/scripts/500255" target="_blank"><strong>置頂和置底按鈕</strong></a></td>
                 <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安装</a>
@@ -146,7 +146,7 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>在搜索结果中屏蔽指定站点</strong></a></td>
+                <td><a href="/zh-CN/scripts/500262" target="_blank"><strong>在搜索结果中屏蔽指定站点</strong></a></td>
                 <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安装</a>
