@@ -36,157 +36,128 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 ---
 
 
-
 ## 기능 소개
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">스크립트 상세</mark></summary>
+### 스크립트 상세
 
-<li>1. 문서 보기와 웹 보기 전환</li>
-<li>2. 코드 복사</li>
-<li>3. 스크립트 아이콘 표시</li>
-<li>4. 아이콘 캐시 비우기</li>
-<li>5. 스크립트 히스토리에 설치 추가</li>
-<li>6. 다운로드 버튼 추가</li>
-<li>7. 스크립트 코드의 줄 수와 문자 수 표시</li>
-<li>8. 생성일로 스크립트 목록 정렬</li>
-<li>9. 라이브러리 선언 복사</li>
-<li>10. 참조 파일 수 표시</li>
-<li>11. 짧은 링크 복사</li>
-<li>12. 코드 스니펫 미화</li>
-<li>13. 코드 보기 미화</li>
+- 문서 보기와 웹 보기 전환
+- 코드 복사
+- 스크립트 아이콘 표시
+- 아이콘 캐시 비우기
+- 스크립트 히스토리에 설치 추가
+- 다운로드 버튼 추가
+- 스크립트 코드의 줄 수와 문자 수 표시
+- 생성일로 스크립트 목록 정렬
+- 라이브러리 선언 복사
+- 참조 파일 수 표시
+- 짧은 링크 복사
+- 코드 스니펫 미화
+- 코드 보기 미화
 
-</details>
+### 스크립트 목록
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">스크립트 목록</mark></summary>
+- 리스트 표시로 설치 및 다운로드
+- 언어 설정 잠금
+- 평가 표시
+- 소스 코드 표시
+- 구버전 목록 사용
+- 모든 언어 스크립트 표시
+- 사이드바 이동
+- 생성일로 스크립트 목록 정렬
 
-<li>1. 리스트 표시로 설치 및 다운로드</li>
-<li>2. 언어 설정 잠금</li>
-<li>3. 평가 표시</li>
-<li>4. 소스 코드 표시</li>
-<li>5. 구버전 목록 사용</li>
-<li>6. 모든 언어 스크립트 표시</li>
-<li>7. 사이드바 이동</li>
-<li>8. 생성일로 스크립트 목록 정렬</li>
+### 미화 컨트롤
 
-</details>
+- 컨트롤 미화
+- 선택 상자와 라디오 버튼 레이블 미화
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">미화 컨트롤</mark></summary>
+### 적용 대상
 
-<li>1. 컨트롤 미화</li>
-<li>2. 선택 상자와 라디오 버튼 레이블 미화</li>
+- 기능 확장 활성화
+- 새 창에서 열기
+- 포럼에서 스크립트 수 표시
+- 자세한 내용은 다음에 적용:
+  - 포럼 검색
+  - 웹 페이지 열기
+  - 팝업 알림
 
-</details>
+### 개인 홈페이지
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">적용 대상</mark></summary>
+- 오래된 홈페이지 콘텐츠 정리
+- 홈페이지 정리 일수 설정
+- 홈페이지 스크립트 추가 작업
+- 최근 댓글 숨기기
+- 홈페이지 통계 표시
 
-<li>1. 기능 확장 활성화</li>
-<li>2. 새 창에서 열기</li>
-<li>3. 포럼에서 스크립트 수 표시</li>
-<li>4. 자세한 내용은 다음에 적용:</li>
+### 탐색 바
 
-<li>포럼 검색</li>
-<li>웹 페이지 열기</li>
-<li>팝업 알림</li>
+- 새 스크립트 게시 옵션 추가
+- 성인 스크립트로 이동
+- 탐색 바 스타일 수정
+- 탐색 바에 이 인터페이스 열기 버튼 추가
+- 탐색 바 정렬
 
-</details>
+### 웹사이트
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">개인 홈페이지</mark></summary>
-
-<li>1. 오래된 홈페이지 콘텐츠 정리</li>
-<li>2. 홈페이지 정리 일수 설정</li>
-<li>3. 홈페이지 스크립트 추가 작업</li>
-<li>4. 최근 댓글 숨기기</li>
-<li>5. 홈페이지 통계 표시</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">탐색 바</mark></summary>
-
-<li>1. 새 스크립트 게시 옵션 추가</li>
-<li>2. 성인 스크립트로 이동</li>
-<li>3. 탐색 바 스타일 수정</li>
-<li>4. 탐색 바에 이 인터페이스 열기 버튼 추가</li>
-<li>5. 탐색 바 정렬</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">웹사이트</mark></summary>
-
-<li>1. 코드 편집기 미화 자동 활성화</li>
-<li>2. 새 탭에서 링크 열기</li>
-<li>3. 정확한 날짜 표시</li>
-<li>4. 웹사이트 최대화</li>
-<li>5. 원클릭 신고</li>
-<li>6. 로컬 코드 하이라이트</li>
-<li>7. 아이콘 숨기기</li>
-<li>8. 아이콘 표시</li>
-<li>9. 읽은 댓글 그레이 스케일</li>
-<li>10. 읽은 댓글 숨기기</li>
-<li>11. 사이드 내비게이션 바</li>
-<li>12. 사용자 이미지 프록시</li>
-
-</details>
+- 코드 편집기 미화 자동 활성화
+- 새 탭에서 링크 열기
+- 정확한 날짜 표시
+- 웹사이트 최대화
+- 원클릭 신고
+- 로컬 코드 하이라이트
+- 아이콘 숨기기
+- 아이콘 표시
+- 읽은 댓글 그레이 스케일
+- 읽은 댓글 숨기기
+- 사이드 내비게이션 바
+- 사용자 이미지 프록시
 
 ---
-
-
 
 ## 감사합니다
 
-<details>
-<summary><mark style="background-color: green; color: yellow;">참고한 스크립트</mark></summary>
-<li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
-<li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
-<li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
-<li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
-<li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
- <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
-<li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
-
-<li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
-
-</details>
+### 참고한 스크립트
+- [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
+- [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
+- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/411837)
+- [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
+- [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
+- [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
+- [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
+- [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
+- [Absolute Time on GreasyFork](https://greasyfork.org/scripts/470348)
+- [折叠 greasyfork 过期讨论](https://greasyfork.org/scripts/426549/)
+- [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
+- [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
+- [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
+- [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
+- [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
+- [Greasy Fork 增强](https://greasyfork.org/scripts/467078)
+- [Greasy Fork URL 脚本名称清理](https://greasyfork.org/scripts/431940)
+- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+- [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
+- [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
+- [GreasyFork 一键回报垃圾评论](https://greasyfork.org/scripts/474395)
 
 ---
 
-
-
 ## Photos:
 
-<img src="https://img.xwyue.com/i/2024/07/12/669052994d5f4.png" alt="nav.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png" alt="rep2.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png" alt="rep1.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png" alt="time.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c57dab.png" alt="user.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png" alt="maxw.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c744ea.png" alt="hidec.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c84351.png" alt="libdown.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png" alt="scriptdet.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png" alt="scripcode.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png" alt="code2.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cce8da.png" alt="hisdown.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
+![nav.png](https://img.xwyue.com/i/2024/07/12/669052994d5f4.png)
+![rep2.png](https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png)
+![rep1.png](https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png)
+![time.png](https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png)
+![user.png](https://img.xwyue.com/i/2024/07/12/6690529c57dab.png)
+![maxw.png](https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png)
+![hidec.png](https://img.xwyue.com/i/2024/07/12/6690529c744ea.png)
+![libdown.png](https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png)
+![scriptdet.png](https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png)
+![scripcode.png](https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png)
+![code2.png](https://img.xwyue.com/i/2024/07/12/6690529cce8da.png)
+![hisdown.png](https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png)
+![scriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
+![allscriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
+
+
 
 ---
 
