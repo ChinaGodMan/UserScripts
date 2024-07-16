@@ -292,7 +292,7 @@
 
 
 <details>
-    <summary>更新信息：</summary>
+    <summary><strong>更新信息：</strong></summary>
     <ul>
         <li>2024/7/16 2.2.0.8
             <ul>
