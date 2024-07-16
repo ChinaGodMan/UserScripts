@@ -162,136 +162,107 @@
 
 ---
 
-
-
 ## 功能介紹
+### 腳本詳情
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">腳本詳情</mark></summary>
+- 切換文檔視圖與網頁視圖
+- 複製代碼
+- 顯示腳本圖標
+- 清空圖標快取
+- 腳本歷史增加安裝
+- 增加下載按鈕
+- 腳本代碼顯示行數字數
+- 按創建日期排序腳本列表
+- 複製庫聲明
+- 顯示引用檔案數
+- 複製短連結
+- 美化代碼片段
+- 美化查看代碼
 
-<li>1. 切換文檔視圖與網頁視圖</li>
-<li>2. 複製代碼</li>
-<li>3. 顯示腳本圖標</li>
-<li>4. 清空圖標快取</li>
-<li>5. 腳本歷史增加安裝</li>
-<li>6. 增加下載按鈕</li>
-<li>7. 腳本代碼顯示行數字數</li>
-<li>8. 按創建日期排序腳本列表</li>
-<li>9. 複製庫聲明</li>
-<li>10. 顯示引用檔案數</li>
-<li>11. 複製短連結</li>
-<li>12. 美化代碼片段</li>
-<li>13. 美化查看代碼</li>
+### 腳本列表
 
-</details>
+- 列表顯示安裝下載
+- 鎖定語言設定
+- 顯示評分
+- 顯示源代碼
+- 使用舊版列表
+- 顯示所有語言腳本
+- 移動側邊欄
+- 按創建日期排序腳本列表
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">腳本列表</mark></summary>
+### 美化控件
 
-<li>1. 列表顯示安裝下載</li>
-<li>2. 鎖定語言設定</li>
-<li>3. 顯示評分</li>
-<li>4. 顯示源代碼</li>
-<li>5. 使用舊版列表</li>
-<li>6. 顯示所有語言腳本</li>
-<li>7. 移動側邊欄</li>
-<li>8. 按創建日期排序腳本列表</li>
+- 控件美化
+- 美化選擇框和單選框標籤
 
-</details>
+### 適用於
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">美化控件</mark></summary>
+- 啟用增強
+- 新窗口打開
+- 顯示在論壇的腳本數量
+- 詳情適用於打開:
+  - 論壇搜尋
+  - 網頁打開
+  - 彈出提示
 
-<li>1. 控件美化</li>
-<li>2. 美化選擇框和單選框標籤</li>
+### 個人主頁
 
-</details>
+- 清理舊的主頁內容
+- 主頁清理的天數
+- 主頁腳本添加操作
+- 隱藏近期評論
+- 主頁顯示統計
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">適用於</mark></summary>
+### 導航欄
 
-<li>1. 啟用增強</li>
-<li>2. 新窗口打開</li>
-<li>3. 顯示在論壇的腳本數量</li>
-<li>4. 詳情適用於打開:</li>
+- 增加發布新腳本選項
+- 跳轉成人腳本
+- 修復導航欄樣式
+- 在導航欄添加打開本介面
+- 導航欄對齊
 
-<li>論壇搜尋</li>
-<li>網頁打開</li>
-<li>彈出提示</li>
+### 網站
 
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">個人主頁</mark></summary>
-
-<li>1. 清理舊的主頁內容</li>
-<li>2. 主頁清理的天數</li>
-<li>3. 主頁腳本添加操作</li>
-<li>4. 隱藏近期評論</li>
-<li>5. 主頁顯示統計</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">導航欄</mark></summary>
-
-<li>1. 增加發布新腳本選項</li>
-<li>2. 跳轉成人腳本</li>
-<li>3. 修復導航欄樣式</li>
-<li>4. 在導航欄添加打開本介面</li>
-<li>5. 導航欄對齊</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">網站</mark></summary>
-
-<li>1. 自動啟用代碼編輯框美化</li>
-<li>2. 在新標籤頁中打開連結</li>
-<li>3. 精確日期</li>
-<li>4. 網站最大化瀏覽</li>
-<li>5. 一鍵舉報</li>
-<li>6. 本地代碼高亮</li>
-<li>7. 隱藏圖標</li>
-<li>8. 顯示圖標</li>
-<li>9. 灰度已閱讀評論</li>
-<li>10. 隱藏已閱讀評論</li>
-<li>11. 側邊導航欄</li>
-<li>12. 代理用戶圖片</li>
-
-</details>
+- 自動啟用代碼編輯框美化
+- 在新標籤頁中打開連結
+- 精確日期
+- 網站最大化瀏覽
+- 一鍵舉報
+- 本地代碼高亮
+- 隱藏圖標
+- 顯示圖標
+- 灰度已閱讀評論
+- 隱藏已閱讀評論
+- 側邊導航欄
+- 代理用戶圖片
 
 ---
 
 ## Thank you
 
-<details>
-<summary><mark style="background-color: green; color: yellow;">引用腳本</mark></summary>
+### 引用腳本
 
-<li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
-<li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
-<li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
-<li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
-<li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
- <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
-<li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
-
-<li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
-
-</details>
+- [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
+- [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
+- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/411837)
+- [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
+- [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
+- [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
+- [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
+- [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
+- [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
+- [折叠 greasyfork 过期讨论](https://greasyfork.org/scripts/426549/)
+- [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
+- [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
+- [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
+- [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
+- [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
+- [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
+- [Greasy Fork URL 脚本名称清理](https://greasyfork.org/scripts/431940/)
+- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+- [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
+- [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
+- [GreasyFork 一键回报垃圾评论](https://greasyfork.org/scripts/474395)
 
 ---
 
@@ -311,6 +282,9 @@
 <img src="https://img.xwyue.com/i/2024/07/12/6690529cce8da.png" alt="hisdown.png" width="800">
 <img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
 <img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
+
+
+
 
 ---
 
