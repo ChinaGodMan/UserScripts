@@ -188,3 +188,8 @@ Greasyfork にさまざまな使用機能を提供します。絶対時間、ウ
 <img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
 <img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
 
+---
+
+
+<p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>さらに多くのユーザースクリプト</strong></a> /
+<a href="#">トップに戻る↑</a></p>
