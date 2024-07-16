@@ -332,10 +332,6 @@
         </li>
     </ul>
 </details>
-  
-  - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复显示列表上的脚本安装状态
-  - 完善对多语言的支持
 
 ---
 
