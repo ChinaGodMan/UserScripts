@@ -314,5 +314,5 @@
 
 ---
 
-<p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>更多用戶腳本/strong></a> /
+<p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>更多用戶腳本</strong></a> /
 <a href="#">回到頂部↑</a></p>
