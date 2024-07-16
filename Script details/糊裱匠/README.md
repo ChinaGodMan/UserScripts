@@ -217,3 +217,7 @@
 <img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
 <img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
 
+---
+
+<p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>更多用户脚本</strong></a> /
+<a href="#">回到顶部↑</a></p>

@@ -182,3 +182,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 <img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
 <img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
 
+---
+
+<p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>More user scripts</strong></a> /
+<a href="#">Back to top↑</a></p>
