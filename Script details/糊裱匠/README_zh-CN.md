@@ -31,6 +31,7 @@
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
+  <p><a href="#更新信息">查看Greasyfork 糊裱匠的版本更新记录</a></p>
 
 ---
 
@@ -290,53 +291,6 @@
 
 ---
 
-
-<details>
-    <summary><strong>更新信息：</strong></summary>
-    <ul>
-        <li>2024/7/16 2.2.0.8
-            <ul>
-                <li>增加日语</li>
-            </ul>
-        </li>
-        <li>2024/7/15 2.2.0.8
-            <ul>
-                <li>完全的繁体语言支持</li>
-            </ul>
-        </li>
-        <li>2024/7/15 2.2.0.7
-            <ul>
-                <li>增加侧边导航栏开关</li>
-                <li>增加图片代理
-                    <ul>
-                        <li>图片代理开启时不兼<a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></li>
-                    </ul>
-                </li>
-                <li>修复在移动设备上浏览图片超出浏览器外的问题</li>
-                <li>修改在编辑代码时自动勾选美化</li>
-            </ul>
-        </li>
-        <li>2024/7/14 2.2.0.6
-            <ul>
-                <li>添加了导航栏展开"更多"</li>
-                <li>增加<a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a>中的侧边导航栏</li>
-                <li>完善对多语言的支持</li>
-            </ul>
-        </li>
-        <li>2024/7/13 2.2.0.5
-            <ul>
-                <li>增加自动登录<a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></li>
-                <li>修复显示列表上的脚本安装状态</li>
-                <li>完善对多语言的支持</li>
-            </ul>
-        </li>
-    </ul>
-</details>
-
----
-
-
-
 ## 图片展示:
 
 <img src="https://img.xwyue.com/i/2024/07/12/669052994d5f4.png" alt="nav.png" width="800">
@@ -356,6 +310,26 @@
 
 ---
 
+## 更新信息
+
+- 2024/7/15 2.2.0.8
+  
+  - 完全的繁体语言支持
+- 2024/7/15 2.2.0.7
+  
+  - 增加侧边导航栏开关
+  - 增加图片代理
+    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+  - 修复在移动设备上浏览图片超出浏览器外的问题
+  - 修改在编辑代码时自动勾选美化
+- 2024/7/14 2.2.0.6
+  
+  - 添加了导航栏展开"更多"
+  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
+  - 完善对多语言的支持
+- 2024/7/13 2.2.0.5
+
+---
+
 <p><a href="https://github.com/10086100886/renmindeqinwuyuan"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
-
