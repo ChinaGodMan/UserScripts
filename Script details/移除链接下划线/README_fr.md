@@ -11,7 +11,7 @@
 [![Github](https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white)](https://github.com/10086100886/)
 ![license](https://img.shields.io/github/license/10086100886/UserScripts?svg&style=flat-square&color=4285dd&logo=github)
 ![star](https://img.shields.io/github/forks/10086100886/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github" "Nombre de réplication")
-![COM](https://img.shields.io/badge/CopyRight-Personnes du peuple-4285dd" "Personnes du peuple为人民服务")
+![COM](https://img.shields.io/badge/CopyRight-Personnes du peuple-4285dd" "")
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E "JavaScript")
 ![yiti](https://img.shields.io/github/issues/10086100886/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "problème")
 ![Support](https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue?svg&)
