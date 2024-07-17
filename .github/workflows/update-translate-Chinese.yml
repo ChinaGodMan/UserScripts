@@ -40,17 +40,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
+      - name: 打印 pull_required 的值
+        run: |
+          echo "pull_required=${{ steps.check_file_status.outputs.pull_required }}"
+
       - name: 拉取最新更改
         if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           git pull origin ${{ env.branch }} --rebase  # 使用 rebase 拉取最新的远程更改
 
       - name: 读取并翻译 README 文件
+        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
-      #     python translate_readme.py
+          python translate_readme.py  # 运行翻译脚本
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
+        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
@@ -59,9 +65,6 @@ jobs:
           # 添加更改
           git add .
           git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
-          
-          # 拉取最新的远程更改并合并到本地
-          git pull origin ${{ env.branch }} --rebase
           
           # 推送更改
           git push origin ${{ env.branch }}  
