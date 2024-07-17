@@ -11,13 +11,13 @@ on:
   #    - main  # 只有当代码推送到 `main` 分支时才触发工作流
 
 jobs:
-  update-total-installs:
+  update-到tal-installs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         name: 检出代码
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+          到ken: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
       - name: 获取当前分支
         id: get_branch
@@ -78,7 +78,7 @@ jobs:
             \"totalOkRatings\": $total_ok_ratings,
             \"totalBadRatings\": $total_bad_ratings,
             \"totalDailyInstalls\": $total_daily_installs
-          }" > TotalJson/total_installs.json
+          }" > docs/total_installs.json
 
           # 打印生成的 JSON 文件内容进行调试
           echo "生成的 JSON 文件内容:"
