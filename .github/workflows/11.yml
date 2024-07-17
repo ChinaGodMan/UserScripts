@@ -40,14 +40,16 @@ jobs:
           python translate_readme.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
-      - name: 检查 fanyi.md 文件是否存在
+      - name: 读取 tr.txt 文件并检查 README 文件
         run: |
-          if [ ! -f "Script details/糊裱匠/fanyi.md" ]; then
-            echo "Script details/糊裱匠/fanyi.md not found, creating an empty file."
-            mkdir -p "Script details/糊裱匠"
-            touch "Script details/糊裱匠/fanyi.md"
-          fi
-
+          while IFS= read -r lang; do
+            readme_file="README_${lang}.md"
+            if [ ! -f "$readme_file" ]; then
+              echo "$readme_file 文件不存在，创建一个空文件。"
+              touch "$readme_file"
+            fi
+          done < "Script details/糊裱匠/tr.txt"
+        
       - name: 提交和推送更改
         run: |
           # 配置 Git 用户
@@ -55,7 +57,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           # 添加更改
-          git add "Script details/糊裱匠/fanyi.md"
+          git add .
           git commit -m '自动翻译 README 文件' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}  
         env:
