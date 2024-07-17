@@ -35,16 +35,7 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 读取 tr.txt 文件并检查 README 文件
-        run: |
-          mkdir -p "Script details/糊裱匠"
-          while IFS= read -r lang; do
-            readme_file="Script details/糊裱匠/README_${lang}.md"
-            if [ ! -f "$readme_file" ]; then
-              echo "$readme_file 文件不存在，创建一个空文件。"
-              touch "$readme_file"
-            fi
-          done < "Script details/糊裱匠/tr.txt"
+
 
       - name: 读取并翻译 README
         run: |
