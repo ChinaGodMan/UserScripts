@@ -57,6 +57,6 @@ jobs:
           # 添加更改
           git add "Script details/糊裱匠/fanyi.md"
           git commit -m '自动翻译 README 文件' || echo "没有需要提交的更改"
-          git push https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ env.branch }}  # 使用 MY_GITHUB_TOKEN 进行推送
+          git push origin ${{ env.branch }}  
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
