@@ -174,6 +174,10 @@ const translate = (function () {
             'report': 'Report',
             'useroutlines': 'outlines',
             'imageproxy': 'imageproxy',
+            'ScriptListdouble': 'ScriptListdouble',
+            'beautifyTopNav': 'BeautifyNav',
+            'fixElementoption': 'Fix Sidebar',
+
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -285,6 +289,11 @@ const translate = (function () {
             'report': '举报',
             'imageproxy': '代理用户上传图像',
             'useroutlines': '侧边导航',
+            'ScriptListdouble': '双列显示',
+            'beautifyTopNav': '美化导航栏',
+            'fixElementoption': '侧边栏固定',
+
+
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -396,6 +405,9 @@ const translate = (function () {
             'report': '舉報',
             'imageproxy': '代理用戶上傳圖像',
             'useroutlines': '側邊導航',
+            'ScriptListdouble': '雙列顯示',
+            'beautifyTopNav': '美化導覽列',
+            'fixElementoption': '側邊欄固定',
 
         },
         'ja': {
@@ -909,6 +921,9 @@ const translate = (function () {
     var Expandsubmenu = GM_getValue('Expandsubmenu', false)//  展开导航栏上的"更多'
     var useroutline = GM_getValue('useroutline', true)//  使用侧边导航栏
     var userimageproxy = GM_getValue('userimageproxy', false)//  使用图像代理
+    var scriptlistdouble = GM_getValue('scriptlistdouble', true)//  使用列表双列
+    var beautifyTopNav = GM_getValue('beautifyTopNav', true)//  美化导航栏 只在pc生效
+    var fixElementoption = GM_getValue('fixElementoption', true)//  固定油猴侧边操作栏目只在PC生效.
     function reloadSettings() {
         showRating = GM_getValue('showRating', false) // 默认展示评分
         showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
@@ -1048,7 +1063,7 @@ const translate = (function () {
     if (userlocalfav) {
         addNavLink(translate('localbookmarks'), "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks", true)
     }
-    getCountryCode()
+
     function favPage() {
         if (window.location.href == "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks") {
             document.title = 'bookmarks'
@@ -3060,6 +3075,8 @@ button:focus {
         { type: 'checkbox', id: 'setopenindoc', label: translate('openindoc'), checked: GM_getValue('setopenindoc', true), onchange: function () { GM_setValue('setopenindoc', this.checked) } },
         { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: GM_getValue('wightnav', true), onchange: function () { GM_setValue('wightnav', this.checked) } },
         { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: GM_getValue('Expandsubmenu', false), onchange: function () { GM_setValue('Expandsubmenu', this.checked) } },
+        { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: GM_getValue('beautifyTopNav', true), onchange: function () { GM_setValue('beautifyTopNav', this.checked) } },
+
     ]
     )
     createCategory('category3', translate('website'), [
@@ -3077,6 +3094,8 @@ button:focus {
         { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
         { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: GM_getValue('useroutline', true), onchange: function () { GM_setValue('useroutline', this.checked) } },
         { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: GM_getValue('userimageproxy', false), onchange: function () { GM_setValue('userimageproxy', this.checked) } },
+        { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: GM_getValue('fixElementoption', true), onchange: function () { GM_setValue('fixElementoption', this.checked) } },
+
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
@@ -3092,6 +3111,8 @@ button:focus {
         { type: 'checkbox', id: 'userhandleLocaleFilter', label: translate('showscriptall'), checked: GM_getValue('userhandleLocaleFilter', true), onchange: function () { GM_setValue('userhandleLocaleFilter', this.checked) } },
         { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: GM_getValue('scriptset', true), onchange: function () { GM_setValue('scriptset', this.checked) } },
         { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: GM_getValue('scriptwithdata', true), onchange: function () { GM_setValue('scriptwithdata', this.checked) } },
+        { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: GM_getValue('scriptlistdouble', true), onchange: function () { GM_setValue('scriptlistdouble', this.checked) } },
+
     ], viewMode)
     createCategory('sl2', translate('personalhomepage'), [
         { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: GM_getValue('clearhomepage', true), onchange: function () { GM_setValue('clearhomepage', this.checked) } },
@@ -3917,7 +3938,7 @@ button:focus {
                 return textContent
             }
         } catch (error) {
-            console.error('获取文件内容失败:', error)
+
             throw error // 将错误抛出，以便调用者处理
         }
     }
@@ -4370,22 +4391,32 @@ cursor: pointer;
     //功能-导航栏更多不收缩
     if (Expandsubmenu) {
         waitForElement('a[href="#"][onclick="return false"]').then(() => {
-            var submenu = document.querySelector('.with-submenu')
-            var links = submenu.querySelectorAll('nav li a')
-            var targetNav = document.querySelector('#site-nav > nav')
-            links.forEach(function (link) {
-                var newLi = document.createElement('li')
-                newLi.appendChild(link.cloneNode(true))
-                targetNav.appendChild(newLi)
+            /*         var submenu = document.querySelector('.with-submenu')
+                    var links = submenu.querySelectorAll('nav li a')
+                    var targetNav = document.querySelector('#site-nav > nav')
+                    links.forEach(function (link) {
+                        var newLi = document.createElement('li')
+                        newLi.appendChild(link.cloneNode(true))
+                        targetNav.appendChild(newLi)
+                    })
+                    var parentLi = submenu.closest('li')
+                    if (parentLi) {
+                        parentLi.remove()
+                    }
+                    var moreLink = document.querySelector('a[href="#"][onclick="return false"]')
+                    if (moreLink) {
+                        moreLink.remove()
+                    } */
+            GM_addStyle(`
+        .with-submenu {
+            display: none !important;
+        }
+    `)
+            let $siteNav = document.querySelector("#site-nav")
+            let $siteNavNav = $siteNav.querySelector("nav")
+            document.querySelectorAll(".with-submenu nav li").forEach(($ele) => {
+                $siteNavNav.appendChild($ele)
             })
-            var parentLi = submenu.closest('li')
-            if (parentLi) {
-                parentLi.remove()
-            }
-            var moreLink = document.querySelector('a[href="#"][onclick="return false"]')
-            if (moreLink) {
-                moreLink.remove()
-            }
         })
     }
     //功能-增加自动登录
@@ -4456,6 +4487,45 @@ cursor: pointer;
             observer.observe(document.body, { childList: true, subtree: true })
         })
     }
+
+    //功能-设置脚本列表为双列 
+    if (scriptlistdouble) {
+        const beautifyCenterContentCSS = `
+        .sidebarred-main-content {
+            max-width: unset;
+            flex: unset;
+        }
+        ol#browse-script-list,
+        ol#user-script-list,
+          ol#user-library-script-list
+         {
+            display: flex;
+            flex-wrap: wrap;
+            border: none;
+            gap: 20px;
+            background: transparent;
+            box-shadow: none;
+        }
+        ol#browse-script-list .script-description,
+        ol#user-script-list.script-description,
+         ol#user-library-script-list.script-description
+        {
+            overflow-wrap: anywhere;
+        }
+        ol#browse-script-list li,
+        ol#user-script-list li,
+         ol#user-library-script-list li
+        {
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 5px;
+            flex: 1 1 45%;
+            box-shadow: rgb(221, 221, 221) 0px 0px 5px 2px;
+        }
+    `
+
+        GM_addStyle(beautifyCenterContentCSS)
+    }
+
     //功能-侧边栏
     if (useroutline) {
         outline()
@@ -4564,6 +4634,60 @@ cursor: pointer;
           `)
 
     }
+    if (fixElementoption && isMobile() === false) {
+        let element = document.querySelector("#script-list-option-groups")
+
+        if (!element) {
+            element = document.querySelector("body > div.width-constraint > div > div.sidebar.collapsed")
+        }
+        if (element) {
+            function fixElementInViewport() {
+
+                const viewportTop = window.scrollY
+                const viewportLeft = window.scrollX
+
+
+                const rect = element.getBoundingClientRect()
+                const elementWidth = rect.width
+                const elementHeight = rect.height
+
+
+                element.style.position = "fixed"
+                element.style.top = "60px"   // 固定在距离视口顶部 10 像素的位置
+                element.style.right = "10px" // 固定在距离视口右侧 10 像素的位置
+                element.style.zIndex = "1000"
+                element.style.backgroundColor = "#fff"
+                element.style.boxShadow = "0 2px 5px rgba(0,0,0,0.3)"
+                element.style.overflow = "auto" // 允许内容滚动
+                element.style.maxHeight = "800px" // 设置最大高度为视口高度减去顶部和底部的边距
+
+
+            }
+
+
+            fixElementInViewport()
+
+
+            window.addEventListener('resize', fixElementInViewport)
+            window.addEventListener('scroll', fixElementInViewport)
+        }
+    }
+
+    /**
+     * 美化顶部导航栏
+     */
+    if (beautifyTopNav && isMobile() === false) {
+        beautifyTopNavigationBar()
+        function beautifyTopNavigationBar() {
+            const beautifyTopNavigationBarCSS = "#language-selector {\r\n	display: none;\r\n}\r\n@media screen and (min-width: 600px) {\r\n	body {\r\n		--header-height: 50px;\r\n	}\r\n	header#main-header + div {\r\n		margin-top: calc(var(--header-height) + 35px);\r\n	}\r\n	header#main-header {\r\n		height: var(--header-height);\r\n		position: fixed;\r\n		top: 0;\r\n		width: 100%;\r\n		z-index: 55555;\r\n		padding: unset;\r\n		.width-constraint {\r\n			display: flex;\r\n			align-items: center;\r\n			gap: 20px;\r\n			padding: unset;\r\n		}\r\n\r\n		#site-name {\r\n			display: flex;\r\n			img {\r\n				width: calc(var(--header-height) - 5px);\r\n				height: calc(var(--header-height) - 5px);\r\n			}\r\n		}\r\n\r\n		/* 隐藏Greasyfork文字 */\r\n		#site-name-text {\r\n			display: none;\r\n		}\r\n\r\n		#site-nav {\r\n			display: flex;\r\n			flex-direction: row-reverse;\r\n			align-items: center;\r\n			flex: 1;\r\n			justify-content: space-between;\r\n			height: 100%;\r\n			nav a {\r\n				text-decoration: none;\r\n			}\r\n			nav li {\r\n				padding: 0 0.5em;\r\n				display: flex;\r\n				align-items: center;\r\n				height: var(--header-height);\r\n				min-width: 30px;\r\n				justify-content: center;\r\n			}\r\n			nav li:hover {\r\n				background: #5f0101;\r\n			}\r\n		}\r\n\r\n		#nav-user-info {\r\n			max-width: 150px;\r\n			.user-profile-link {\r\n				/*overflow: hidden;\r\n				white-space: nowrap;\r\n				text-overflow: ellipsis;*/\r\n			}\r\n			> span {\r\n				flex: 1;\r\n			}\r\n		}\r\n		#nav-user-info,\r\n		#nav-user-info + nav {\r\n			position: unset;\r\n			width: unset;\r\n			/* height: 100%; */\r\n			display: flex;\r\n			flex-wrap: wrap;\r\n			align-items: center;\r\n		}\r\n	}\r\n}\r\n"
+            GM_addStyle(beautifyTopNavigationBarCSS)
+
+
+
+        }
+    }
+
+
 })()
 ///--功能-美化网页徽章等 greasyfork.org/scripts/436913
 function addbageStyles() {
@@ -4608,3 +4732,6 @@ function addbageStyles() {
     GM_addStyle(cssMain)
 }
 addbageStyles()
+
+
+
