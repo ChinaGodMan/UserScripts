@@ -11,42 +11,50 @@
 [![Github](https://img.shields.io/badge/Github-100000.svg?logo=github&logoColor=white)](https://github.com/10086100886/)
 ![license](https://img.shields.io/github/license/10086100886/renmindeqinwuyuan.svg?style=flat-square&color=4285dd&logo=github)
 ![star](https://img.shields.io/github/forks/10086100886/renmindeqinwuyuan.svg?style=flat-square&label=Fork&color=4285dd&logo=github" "复刻数量")
-![COM](https://img.shields.io/badge/CopyRight-人民的勤务员-4285dd" "版权所有")
+![COM](https://img.shields.io/badge/CopyRight-人民的勤务员-4285dd" "人民的勤务员为人民服务")
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330.svg?logo=javascript&logoColor=F7DF1E "JavaScript")
 ![yiti](https://img.shields.io/github/issues/10086100886/renmindeqinwuyuan/github-chinese?style=flat-square&logo=github&label=Issue "议题")
 ![Support](https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue.svg)
 ![**Tampermonkey OK**](https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36)
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
+# Remove Link Underlines
 
-# Script Finder
+## Description
+This userscript removes underlines from all links on any website and dynamically handles new links. It ensures a cleaner and more visually appealing browsing experience.
 
-The Script Finder userscript allows you to find and manage user scripts on any website. It provides a convenient way to search and install userscripts from Greasy Fork. With Script Finder, you can easily enhance your browsing experience by adding custom scripts to your favorite websites easily.
+## Description in Multiple Languages
 
-Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本。它提供了一种方便的方式来搜索和安装来自 Greasy Fork 的用户脚本。借助 Script Finder，你可以轻松地一键将自定义脚本添加到你喜爱的网站上，从而增强你的浏览体验。
+### Chinese (Simplified) / 中文（简体）
+这个用户脚本移除所有网站上的链接下划线，并动态处理新链接。它确保了更干净和更有视觉吸引力的浏览体验。
 
-## Features / 功能
+### Chinese (Traditional) / 中文（繁体）
+这个使用者脚本移除所有网站上的连结底线，并动态处理新连结。它确保了更干净和更有视觉吸引力的浏览体验。
 
-- Search for userscripts based on website domain / 根据网站域名搜索用户脚本
-- View detailed information about each script, including author, description, installs, version and rating / 查看每个脚本的详细信息，包括作者、描述、安装数量、版本和评分
-- Install userscripts with a single click / 一键安装用户脚本
+### French / Français
+Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
 
-## How to Use / 使用方法
+### Japanese / 日本语
+このユーザースクリプトは、任意のWebサイト上のすべてのリンクの下线を削除し、新しいリンクを动的に処理します。これにより、よりクリーンで视覚的に魅力的なブラウジング体験が保証されます。
 
-1. Install a userscript manager such as Tampermonkey or Greasemonkey in your browser / 在浏览器中安装用户脚本管理器，例如 Tampermonkey 或 Greasemonkey
-2. Install the Script Finder userscript by visiting the Greasy Fork and clicking the "Install" button / 访问 Greasy Fork 网站并点击 "Install" 按钮来安装 Script Finder 脚本
-3. After installation, a "Scripts" button will appear on your browser toolbar / 安装完成后，访问页面的右侧上会出现一个 "Scripts" 按钮
-4. Click the "Scripts" button to open the Script Finder interface / 点击 "Scripts" 按钮打开 Script Finder 界面
-5. Use the search bar to find userscripts for a specific website / 可以使用搜索栏根据特定网站查找用户脚本
-6. Click on a userscript to view more details or install it by one-click / 点击一个用户脚本以查看更多详细信息或一键安装脚本
-7. Enjoy discovering and using new userscripts with Script Finder! / 尽情发现和使用 Script Finder 提供的新用户脚本吧！
+### German / Deutsch
+Dieses Benutzerskript entfernt die Unterstreichungen aller Links auf jeder Website und behandelt neue Links dynamisch. Es sorgt für ein saubereres und optisch ansprechenderes Surferlebnis.
 
-**Note**: This userscript requires a userscript manager extension to be installed in your browser. / **注意**：该用户脚本需要在浏览器中安装用户脚本管理器才能正常使用。
+### Korean / 한국어
+이 사용자 스크립트는 모든 웹사이트에서 모든 링크의 밑줄을 제거하고 새 링크를 동적으로 처리합니다. 이는 더 깨끗하고 시각적으로 매력적인 브라우징 경험을 보장합니다.
 
-## 原作者
-# [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
+### Vietnamese / Tiếng Việt
+Tập lệnh người dùng này xóa gạch chân khỏi tất cả các liên kết trên bất kỳ trang web nào và xử lý động các liên kết mới. Nó đảm bảo trải nghiệm duyệt web sạch hơn và hấp dẫn hơn về mặt hình ảnh.
 
-## 修改内容
+### Arabic / العربية
+يقوم هذا النص البرمجي للمستخدم بإزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة. يضمن تجربة تصفح أنظف وأكثر جاذبية بصريًا.
 
-- 增加对移动设备上的支持，手机也能使用啦~
-- 取消搜索出错时清空列表的操作
+### Hindi / हिंदी
+यह उपयोगकर्ता स्क्रिप्ट किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटा देती है और नए लिंक को गतिशील रूप से संभालती है। यह एक क्लीनर और अधिक आकर्षक ब्राउज़िंग अनुभव सुनिश्चित करता है।
+
+### Spanish / Español
+Este script de usuario elimina los subrayados de todos los enlaces en cualquier sitio web y maneja dinámicamente los nuevos enlaces. Garantiza una experiencia de navegación más limpia y visualmente atractiva.
+
+## Author
+人民的勤务员 (Servant of the People) & ChatGPT
+[toniaiwanowskiskr47@gmail.com](mailto:toniaiwanowskiskr47@gmail.com)
