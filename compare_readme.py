@@ -11,23 +11,27 @@ pull_required = False
 for item in config['translatelist']:
     local_file = os.path.join(item['foldpath'], item['translatefile'])
     
-    # 检查本地文件是否存在
     if os.path.exists(local_file):
-        # 使用 git diff 比较本地和远程文件
+        # 使用 git diff 比较本地文件和远程 HEAD 版本
         result = subprocess.run(
-            ['git', 'diff', 'origin/HEAD', '--', local_file],
+            ['git', 'diff', '--name-only', 'origin/HEAD', '--', local_file],
             capture_output=True,
             text=True
         )
         
+        # 打印调试信息
+        print(f"Comparing {local_file}:")
+        print(result.stdout)
+        
         # 如果 git diff 有输出，说明文件有变化
         if result.stdout:
-            item['istranslated'] = True
+            item['translated'] = 'true'
             pull_required = True
         else:
-            item['istranslated'] = False
+            item['translated'] = 'false'
     else:
-        item['istranslated'] = False
+        item['translated'] = 'true'
+        pull_required = True
 
 # 更新 JSON 文件
 with open('docs/translate_readme.json', 'w', encoding='utf-8') as file:
