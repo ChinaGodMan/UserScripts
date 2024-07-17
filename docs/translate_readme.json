@@ -1,0 +1,21 @@
+{
+    "translatelist": [
+        {
+            "foldpath": "Script details/复制剪贴板保护 修改版/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "it",
+                "ko"
+            ]
+        },
+        {
+            "foldpath": "Script details/移除链接下划线/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "fr",
+                "es",
+                "de"
+            ]
+        }
+    ]
+}
