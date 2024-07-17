@@ -31,83 +31,58 @@ jobs:
       - name: 读取 docs/translate_readme.json 文件并处理翻译
         id: process_translations
         run: |
-          import json
-          import os
-          from pathlib import Path
+          # 读取 JSON 文件并更新 istranslated 状态
+          python -c "
+import json
+import os
+from pathlib import Path
 
-          # 读取 JSON 文件
-          with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
-              data = json.load(f)
+# 读取 JSON 文件
+with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
-          # 获取最新提交的 SHA 值
-          latest_commit_sha = os.popen('git rev-parse HEAD').read().strip()
+# 获取最新提交的 SHA 值
+latest_commit_sha = os.popen('git rev-parse HEAD').read().strip()
 
-          # 标记是否有文件需要更新
-          update_needed = False
+# 标记是否有文件需要更新
+update_needed = False
 
-          # 遍历 translatelist
-          for item in data['translatelist']:
-              foldpath = item['foldpath']
-              translatefile = item['translatefile']
-              full_path = Path(foldpath) / translatefile
+# 遍历 translatelist
+for item in data['translatelist']:
+    foldpath = item['foldpath']
+    translatefile = item['translatefile']
+    full_path = Path(foldpath) / translatefile
 
-              if full_path.exists():
-                  # 获取文件的最新提交 SHA 值
-                  file_commit_sha = os.popen(f'git log -1 --format=%H -- {full_path}').read().strip()
+    if full_path.exists():
+        # 获取文件的最新提交 SHA 值
+        file_commit_sha = os.popen(f'git log -1 --format=%H -- {full_path}').read().strip()
 
-                  if file_commit_sha == latest_commit_sha:
-                      item['istranslated'] = True
-                  else:
-                      item['istranslated'] = False
-              else:
-                  item['istranslated'] = False
+        if file_commit_sha == latest_commit_sha:
+            item['istranslated'] = True
+        else:
+            item['istranslated'] = False
+    else:
+        item['istranslated'] = False
 
-              if item['istranslated']:
-                  update_needed = True
+    if item['istranslated']:
+        update_needed = True
 
-          # 将更新后的数据写回 JSON 文件
-          with open('docs/translate_readme.json', 'w', encoding='utf-8') as f:
-              json.dump(data, f, ensure_ascii=False, indent=2)
+# 将更新后的数据写回 JSON 文件
+with open('docs/translate_readme.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
 
-          # 保存更新后的 JSON 文件
-          os.system('git add docs/translate_readme.json')
-          os.system('git commit -m "更新 docs/translate_readme.json 文件的 istranslated 状态" || echo "没有需要提交的更改"')
+# 保存更新后的 JSON 文件
+os.system('git add docs/translate_readme.json')
+os.system('git commit -m \"更新 docs/translate_readme.json 文件的 istranslated 状态\" || echo \"没有需要提交的更改\"')
 
-          # 输出是否需要更新的状态
-          if update_needed:
-            print("需要从远程仓库更新文件。")
-            os.environ['UPDATE_NEEDED'] = 'true'
-          else:
-            print("不需要从远程仓库更新文件。")
-            os.environ['UPDATE_NEEDED'] = 'false'
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
-
-      - name: 拉取远程仓库更新
-        if: env.UPDATE_NEEDED == 'true'
-        run: |
-          # 拉取远程仓库更新
-          git fetch origin
-          git pull origin HEAD
+# 输出是否需要更新的状态
+if update_needed:
+  print(\"需要从远程仓库更新文件。\")
+  os.environ['UPDATE_NEEDED'] = 'true'
+else:
+  print(\"不需要从远程仓库更新文件。\")
+  os.environ['UPDATE_NEEDED'] = 'false'
+          "
 
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
-
-      - name: 读取并翻译 README
-        run: |
-          python translate_readme.py
-        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
-
-      - name: 提交和推送更改
-        run: |
-          # 配置 Git 用户
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # 添加更改
-          git add .
-          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
-          git push origin HEAD
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环
