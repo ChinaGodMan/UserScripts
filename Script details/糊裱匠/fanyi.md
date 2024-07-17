@@ -33,131 +33,131 @@ Provide a series of operations such as the absolute time, absolute time, web wid
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
-<p> <a href=" prec
+  <p> <a href=" prec
 
 ---
 
 <details>
-<summary> <mumary> <mark style = "background-color: RGB (17, 0, 255); color: rgb (122, 11, 39);"> People of the people </Mark> </Summary>
-<table>
-<thead>
-<tr>
-<th> script name </th>
-<TH> Script Explanation </th>
-<th>GitHub</th>
-<th>Greasyfork</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td> <a href="/zh-cn/scripts/497346" target="_blank"> <strong> GreasyFork
-<TD> Enhanced GreasyFork, Copy code, script download, accurate time to seconds, homepage cleaning, discuss one -click reports, the script list jump code to add download beautification, view code display code reference file, display script icon, jump to adult script, etc.Some operations </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasyform%20UTILITYKIT.USER.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/497346.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/497346?color=%239900&Label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+    <summary> <mumary> <mark style = "background-color: RGB (17, 0, 255); color: rgb (122, 11, 39);"> People of the people </Mark> </Summary>
+    <table>
+        <thead>
+            <tr>
+                <th> script name </th>
+                <TH> Script Explanation </th>
+                <th>GitHub</th>
+                <th>Greasyfork</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <a href="/zh-cn/scripts/497346" target="_blank"> <strong> GreasyFork
+                <TD> Enhanced GreasyFork, Copy code, script download, accurate time to seconds, homepage cleaning, discuss one -click reports, the script list jump code to add download beautification, view code display code reference file, display script icon, jump to adult script, etc.Some operations </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasyform%20UTILITYKIT.USER.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497346.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/497346?color=%239900&Label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td> <a href="/zh-cn/scripts/497403" target="_blank"> <strong> Copy authorized modification version </strong> </a> </td>
-<TD> No web pages are prohibited from shit towards the editing version, green is release, red prohibits, orange temporary direction </td>
-<td><a
-href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/clipboard.user.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/497403?color=%239900&label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td> <a href="/zh-cn/scripts/497403" target="_blank"> <strong> Copy authorized modification version </strong> </a> </td>
+                <TD> No web pages are prohibited from shit towards the editing version, green is release, red prohibits, orange temporary direction </td>
+                <td><a
+                        href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/clipboard.user.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/497403?color=%239900&label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td> <a href="/z/cn/scripts/497317" target="_blank"> <strong> GreasyFork Details for details </strong> </a> </td>
-<TD> Script Details Page Applicable to Links to increase click to open the webpage, click Copy </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasy%20Link.user.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/497317?color=%239900&label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td> <a href="/z/cn/scripts/497317" target="_blank"> <strong> GreasyFork Details for details </strong> </a> </td>
+                <TD> Script Details Page Applicable to Links to increase click to open the webpage, click Copy </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasy%20Link.user.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/497317?color=%239900&label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork ranks</strong></a></td>
-<TD> Script list add scores </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasy-0%20RANKS.USER.JS"> Installation </a>
-</td>
-<td></td>
-</tr>
-<tr>
+                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork ranks</strong></a></td>
+                <TD> Script list add scores </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/greasy-0%20RANKS.USER.JS"> Installation </a>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
 
-<td> <a href="/zh-cn/scripts/497682" target="_blank"> <strong> MISSAV backup assistant </strong> </a> </td>
-<TD> MISS Single Backup, support downloading pictures to save video information. Export local web pages support export to webdav </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/missavexplorer.user.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/497682.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/497682?color=%239900&Label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td> <a href="/zh-cn/scripts/497682" target="_blank"> <strong> MISSAV backup assistant </strong> </a> </td>
+                <TD> MISS Single Backup, support downloading pictures to save video information. Export local web pages support export to webdav </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/missavexplorer.user.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497682.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/497682?color=%239900&Label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
-<TD> Remove the line of the webpage </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/remove%20link%20Underlines.user.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/498625?color=%239900&Label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
+                <TD> Remove the line of the webpage </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/remove%20link%20Underlines.user.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/498625?color=%239900&Label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td> <a href="/zh-cn/scripts/498906" target="_blank"> <strong> Web highlight keyword </strong> </a> </td>
-<TD> Highlight the text on the webpage </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%9%A1%B5%E9%AB%98%BAE5%85%B3%E9%94%AE%E5%AD%97%2B.USER.JS "> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/498906?color=%239900&Label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td> <a href="/zh-cn/scripts/498906" target="_blank"> <strong> Web highlight keyword </strong> </a> </td>
+                <TD> Highlight the text on the webpage </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%9%A1%B5%E9%AB%98%BAE5%85%B3%E9%94%AE%E5%AD%97%2B.USER.JS "> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/498906?color=%239900&Label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
-<TD> Script Finder is a user script (UserScript), which can help you find and manage user scripts on any website </td>
-<td><a
-href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/script%20Finder%2B.User.js"> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/498904?color=%239900&Label=installs"> <br> Installation </a>
-</td>
-</tr>
-<tr>
+                <td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
+                <TD> Script Finder is a user script (UserScript), which can help you find and manage user scripts on any website </td>
+                <td><a
+                        href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/script%20Finder%2B.User.js"> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/498904?color=%239900&Label=installs"> <br> Installation </a>
+                </td>
+            </tr>
+            <tr>
 
-<td> <a href="/zh-cn/scripts/500255" target="_blank"> <strong> Top and bottom button </strong> </a> </td>
-<TD> Modify from the GREASYFORK user script to add the top and bottom button to the webpage, which is convenient to quickly move to the top or bottom in the long page.Increase the button to change when rolling down, and automatically stop automatically within 3 seconds </td>
-<td><a
-href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%AE9%A0%82%E5%BD%E5%BAPAPE6%89%89%E9%88%95.js "> Installation </a>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/500255?color=P
-</td>
-</tr>
-<tr>
+                <td> <a href="/zh-cn/scripts/500255" target="_blank"> <strong> Top and bottom button </strong> </a> </td>
+                <TD> Modify from the GREASYFORK user script to add the top and bottom button to the webpage, which is convenient to quickly move to the top or bottom in the long page.Increase the button to change when rolling down, and automatically stop automatically within 3 seconds </td>
+                <td><a
+                        href = "https://raw.githubusercontent.com/10086100886/renmindeqinwuyuan/main/%E7%BD%AE9%A0%82%E5%BD%E5%BAPAPE6%89%89%E9%88%95.js "> Installation </a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/500255?color=P
+                </td>
+            </tr>
+            <tr>
 
-<td> <a href="/zh-cn/scripts/500262" target="_blank"> <strong> Block the specified site in the search results </strong> </a> </td>
-<TD> Shield specific sites in the search engine results to help users filter out unwanted search results.Customize input shielding site.Format "-zhihu" ""-BAIDU "used to block Google search content </td>
-<td><a
-href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/%E5%9C%A8%90%9C%E7%B4%E7%BBB%9%9E6E6E6C%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%87%E5%AE%9a%E7%AB%E7%82%B9.User.js "> Installation </A>
-</td>
-<td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
-src = "https://img.shields.io/greasyfork/dt/500255?color=P
-</td>
-</tr>
-</tbody>
-</table>
+                <td> <a href="/zh-cn/scripts/500262" target="_blank"> <strong> Block the specified site in the search results </strong> </a> </td>
+                <TD> Shield specific sites in the search engine results to help users filter out unwanted search results.Customize input shielding site.Format "-zhihu" ""-BAIDU "used to block Google search content </td>
+                <td><a
+                        href = "https://raw.githubuserContent.com/10086100886/renmindeqinwuyuan/main/%E5%9C%A8%90%9C%E7%B4%E7%BBB%9%9E6E6E6C%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%87%E5%AE%9a%E7%AB%E7%82%B9.User.js "> Installation </A>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
+                            src = "https://img.shields.io/greasyfork/dt/500255?color=P
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </details>
 
 
@@ -200,9 +200,9 @@ src = "https://img.shields.io/greasyfork/dt/500255?color=P
 - open in a new window
 -D quantity displayed in the forum
 -D details applicable to open:
--On forum search
--Onp web
--This prompt
+  -On forum search
+  -Onp web
+  -This prompt
 
 ### Homepage
 
@@ -286,24 +286,24 @@ src = "https://img.shields.io/greasyfork/dt/500255?color=P
 
 ## Update information
 - 2024/7/17 2.2.0.9
--Cap [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722) script double-column display
--Puge [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722)
--Prost the fixed website side operation bar
+  -Cap [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722) script double-column display
+  -Puge [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722)
+  -Prost the fixed website side operation bar
 - 2024/7/15 2.2.0.8
-
--The complete traditional language support
+  
+  -The complete traditional language support
 - 2024/7/15 2.2.0.7
-
--Prip the side navigation bar switch
--Prost the picture proxy
--Addeming agent is not available [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722) browsing
--Pei the picture on the mobile device to browse the picture beyond the browser
--Codd automatic check and beautification when editing code
+  
+  -Prip the side navigation bar switch
+  -Prost the picture proxy
+    -Addeming agent is not available [GREASYFORK optimization] (https://greasyfork.org/zh-cn/scripts/475722) browsing
+  -Pei the picture on the mobile device to browse the picture beyond the browser
+  -Codd automatic check and beautification when editing code
 - 2024/7/14 2.2.0.6
-
--Added the navigation bar and set up "more"
--Cap [Greasy Fork enhancement] (https://greasyfork.org/zh-cn/scripts/467078) in the side navigation bar
--Perde the support for multi -language
+  
+  -Added the navigation bar and set up "more"
+  -Cap [Greasy Fork enhancement] (https://greasyfork.org/zh-cn/scripts/467078) in the side navigation bar
+  -Perde the support for multi -language
 - 2024/7/13 2.2.0.5
 
 ---
