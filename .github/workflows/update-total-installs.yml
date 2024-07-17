@@ -11,7 +11,7 @@ on:
   #    - main  # 只有当代码推送到 `main` 分支时才触发工作流
 
 jobs:
-  update-到tal-installs:
+  update-total-installs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
