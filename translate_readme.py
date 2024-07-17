@@ -33,11 +33,6 @@ for item in data['translatelist']:
     for lang in translatedto:
         # 创建目标文件的路径
         output_path = os.path.join(foldpath, f'README_{lang}.md')
-        
-        # 如果目标文件已经存在，则跳过翻译
-        if os.path.exists(output_path):
-            print(f'文件 {output_path} 已存在，跳过翻译。')
-            continue
 
         # 存储中文文本的位置和对应的翻译
         translations = []
@@ -64,7 +59,7 @@ for item in data['translatelist']:
                 line = line.replace(original_text, translated_text)
             new_lines.append(line)  # 添加翻译后的行内容
 
-        # 保存翻译后的内容到对应的 README 文件中
+        # 新建或覆盖目标文件并保存翻译后的内容
         with open(output_path, 'w', encoding='utf-8') as f_out:
             f_out.writelines(new_lines)
 
