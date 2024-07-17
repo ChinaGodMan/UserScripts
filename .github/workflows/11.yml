@@ -24,7 +24,15 @@ jobs:
 
       - name: Read and Translate README
         run: |
-          python translate_readme.py  # 替换成实际的 Python 脚本名字
+          python translate_readme.py
+
+      - name: Check if fanyi.md exists
+        run: |
+          if [ ! -f "Script details/糊裱匠/fanyi.md" ]; then
+            echo "Script details/糊裱匠/fanyi.md not found, creating an empty file."
+            mkdir -p "Script details/糊裱匠"
+            touch "Script details/糊裱匠/fanyi.md"
+          fi
 
       - name: Commit translated file
         run: |
