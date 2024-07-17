@@ -24,11 +24,17 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install googletrans==4.0.0-rc1  # 安装 Google Translate API 的 Python 包
-          
+
+      - name: 获取当前分支
+        id: get_branch
+        run: |
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
       - name: 拉取最新更改
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
-          
+
       - name: 读取并翻译 README
         run: |
           python translate_readme.py
@@ -51,6 +57,6 @@ jobs:
           # 添加更改
           git add "Script details/糊裱匠/fanyi.md"
           git commit -m '自动翻译 README 文件' || echo "没有需要提交的更改"
-          git push https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}  # 使用 MY_GITHUB_TOKEN 进行推送
+          git push https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ env.branch }}  # 使用 MY_GITHUB_TOKEN 进行推送
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
