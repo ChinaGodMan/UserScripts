@@ -1,0 +1,36 @@
+name: Translate README
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to run the workflow on'
+        required: true
+        default: 'main'
+        type: string
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.inputs.branch }}  # 使用手动触发时指定的分支
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Translate README
+        env:
+          GITHUB_BRANCH: ${{ github.event.inputs.branch }}  # 传递分支信息到 Python 脚本
+        run: |
+          python translate_readme.py
