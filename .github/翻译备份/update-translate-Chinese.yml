@@ -1,6 +1,9 @@
 name: 翻译自述文件
 
 on:
+#  schedule:
+#    - cron: '0 0 * * *'  # 每天午夜运行一次，也可以调整为其他频率
+
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
@@ -28,25 +31,15 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 拉取远程更新
-        run: |
-          git fetch origin ${{ env.branch }}
-
-      - name: 读取并比对 README 文件
-        id: compare_readme
-        run: |
-       #   python compare_readme.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-
       - name: 拉取最新更改
-        if: steps.compare_readme.outputs.pull_required == 'true'
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
+
+
       - name: 读取并翻译 README
         run: |
-        #  python translate_readme.py
+          python translate_readme.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
