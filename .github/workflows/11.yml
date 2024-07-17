@@ -1,0 +1,35 @@
+name: Translate and Write README
+
+on:
+  push:
+    branches:
+      - main  # 替换成你的默认分支
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install googletrans==4.0.0-rc1
+
+      - name: Read and Translate README
+        run: |
+          python translate_readme.py  # 替换成实际的 Python 脚本名字
+
+      - name: Commit translated file
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add "Script details/糊裱匠/fanyi.md"
+          git commit -m "Auto-translate README"
+          git push
