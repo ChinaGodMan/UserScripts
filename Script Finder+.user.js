@@ -2,7 +2,7 @@
 // @name                    Script Finder+
 // @name:zh-CN              Script Finder 油猴脚本查找
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.6
+// @version 0.1.6.8
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 // @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的greasyfork油猴脚本
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -28,8 +28,8 @@
     let loadedPages = 0
 
     function getScriptsInfo(domain, page = 1) {
-        var url = `https://greasyfork.org/scripts/by-site/${domain}?filter_locale=0&page=${page}`
-        console.log(url)
+        var url = `https://greasyfork.org/scripts/by-site/${domain}?filter_locale=0&sort=updated&page=${page}`
+        
         GM_xmlhttpRequest({
             method: "GET",
             url: url,
@@ -489,7 +489,7 @@ div.info-container {
         })
 
         toGreasyfork.addEventListener('click', function () {
-            window.open(`https://greasyfork.org/scripts/by-site/${domain}?q=${searchInput.value}&filter_locale=0`)
+            window.open(`https://greasyfork.org/scripts/by-site/${domain}?q=${searchInput.value}&filter_locale=0&sort=updated`)
         })
 
         loadMore.addEventListener('click', () => {
