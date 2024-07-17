@@ -1,33 +1,36 @@
-name: Translate and Write README
+name: 自动翻译 README
 
 on:
-  push:
-    branches:
-      - main  # 替换成你的默认分支
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜运行一次，也可以调整为其他频率
+
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  translate:
+  translate-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
-      - name: Setup Python
+      - name: 设置 Python 环境
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install googletrans==4.0.0-rc1
+          pip install googletrans==4.0.0-rc1  # 安装 Google Translate API 的 Python 包
 
-      - name: Read and Translate README
+      - name: 读取并翻译 README
         run: |
           python translate_readme.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
-      - name: Check if fanyi.md exists
+      - name: 检查 fanyi.md 文件是否存在
         run: |
           if [ ! -f "Script details/糊裱匠/fanyi.md" ]; then
             echo "Script details/糊裱匠/fanyi.md not found, creating an empty file."
@@ -35,12 +38,15 @@ jobs:
             touch "Script details/糊裱匠/fanyi.md"
           fi
 
-      - name: Commit translated file
+      - name: 提交和推送更改
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 添加更改
           git add "Script details/糊裱匠/fanyi.md"
-          git commit -m "Auto-translate README"
-          git push https://github.com/${{ github.repository }}.git HEAD:${{ github.ref }}  # 使用 MY_GITHUB_TOKEN 进行推送
+          git commit -m '自动翻译 README 文件' || echo "没有需要提交的更改"
+          git push https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}  # 使用 MY_GITHUB_TOKEN 进行推送
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
