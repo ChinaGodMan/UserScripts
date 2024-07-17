@@ -35,11 +35,6 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 读取并翻译 README
-        run: |
-          python translate_readme.py
-        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
-
       - name: 读取 tr.txt 文件并检查 README 文件
         run: |
           mkdir -p "Script details/糊裱匠"
@@ -50,7 +45,12 @@ jobs:
               touch "$readme_file"
             fi
           done < "Script details/糊裱匠/tr.txt"
-        
+
+      - name: 读取并翻译 README
+        run: |
+          python translate_readme.py
+        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+
       - name: 提交和推送更改
         run: |
           # 配置 Git 用户
