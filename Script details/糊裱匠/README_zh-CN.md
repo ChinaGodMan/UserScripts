@@ -285,7 +285,10 @@
 ---
 
 ## 更新信息
-
+- 2024/7/17 2.2.0.9
+  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的脚本双列显示
+  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的美化导航栏
+  - 增加固定网站侧边操作栏
 - 2024/7/15 2.2.0.8
   
   - 完全的繁体语言支持
@@ -293,7 +296,7 @@
   
   - 增加侧边导航栏开关
   - 增加图片代理
-    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的图片浏览
   - 修复在移动设备上浏览图片超出浏览器外的问题
   - 修改在编辑代码时自动勾选美化
 - 2024/7/14 2.2.0.6
