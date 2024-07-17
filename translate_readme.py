@@ -28,7 +28,7 @@ for line_number, line in enumerate(lines):
                 translated_text = translator.translate(text, src='zh-CN', dest='en').text
                 # 记录中文文本的位置和翻译
                 translations.append((line_number, text, translated_text))
-                time.sleep(1)  # 暂停1秒，防止请求过多被屏蔽
+                
 
 # 替换文本中的中文部分为英文翻译
 for line_number, line in enumerate(lines):
