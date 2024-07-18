@@ -7,7 +7,7 @@
                 "it",
                 "ko"
             ],
-            "translated": "false",
+            "translated": false,
             "istranslated": false
         },
         {
@@ -18,7 +18,7 @@
                 "es",
                 "de"
             ],
-            "translated": "false",
+            "translated": true,
             "istranslated": false
         }
     ]
