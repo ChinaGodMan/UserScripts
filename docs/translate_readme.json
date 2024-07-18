@@ -17,6 +17,27 @@
                 "es",
                 "de"
             ],
+            "translated": false
+        },
+        {
+            "foldpath": "Script details/糊裱匠/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "fr",
+                "es",
+                "de",
+                "sr",
+                "ar",
+                "bg",
+                "ckb",
+                "el",
+                "eo",
+                "es",
+                "ru",
+                "sv",
+                "th",
+                "vi"
+            ],
             "translated": true
         }
     ]
