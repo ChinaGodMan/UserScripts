@@ -15,7 +15,20 @@
             "translatedto": [
                 "fr",
                 "es",
-                "de"
+                "de",
+                "it",
+                "bh",
+                "ko",
+                "th",
+                "sr",
+                "sv",
+                "vi",
+                "ru",
+                "de",
+                "id",
+                "hu",
+                "he",
+                "eo"
             ],
             "translated": true
         },
@@ -24,7 +37,20 @@
             "translatefile": "README_zh-CN.md",
             "translatedto": [
                 "fr",
-                "vi"
+                "vi",
+                "it",
+                "bh",
+                "ko",
+                "th",
+                "sr",
+                "sv",
+                "vi",
+                "ru",
+                "de",
+                "id",
+                "hu",
+                "he",
+                "eo"
             ],
             "translated": true
         },
