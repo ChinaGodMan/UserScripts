@@ -1,12 +1,13 @@
 name: 寻找md
 
 on:
-#  schedule:#   - cron: '*/6 * * * *'  # 每 6 分钟运行一次
+  schedule:
+    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
 
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  find-和-replace:
+  find-and-replace:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
