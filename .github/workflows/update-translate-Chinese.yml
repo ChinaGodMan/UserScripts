@@ -28,73 +28,49 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 打印 Git 状态
-        run: |
-          git status
-          git log -1
-
-      - name: 拉取远程更新并比较文件
+      - name: 拉取远程更新
         run: |
           git fetch origin ${{ env.branch }}
-          
-          # 检查是否需要拉取更新
-          pull_required=false
+          git status
 
-          # 读取 translate_readme.json
-          config=$(<docs/translate_readme.json)
+      - name: 检查文件状态并更新 translate_readme.json
+        id: check_file_status
+        run: |
+          python compare_readme.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
-          # 比较本地文件和远程文件内容
-          for item in $(echo "${config}" | jq -c '.translatelist[]'); do
-              foldpath=$(echo "${item}" | jq -r '.foldpath')
-              translatefile=$(echo "${item}" | jq -r '.translatefile')
-              local_file="${foldpath}/${translatefile}"
-              remote_file_path="${foldpath}/${translatefile}"
+      - name: 打印 pull_required 的值
+        run: |
+          echo "pull_required=${{ steps.check_file_status.outputs.pull_required }}"
 
-              if [[ -f "${local_file}" ]]; then
-                  # 从远程分支中获取文件内容
-                  remote_file_content=$(git show ${env.branch}:${remote_file_path})
+      - name: 暂存本地更改（如果有）
+        if: steps.check_file_status.outputs.pull_required == 'true'
+        run: |
+          git add docs/translate_readme.json
+          git status
+          git commit -m "临时提交本地更改" || echo "没有需要提交的更改"
 
-                  # 读取本地文件内容
-                  local_file_content=$(<${local_file})
+      - name: 拉取最新更改
+        if: steps.check_file_status.outputs.pull_required == 'true'
+        run: |
+          git pull origin ${{ env.branch }}
 
-                  # 统一换行符为 LF
-                  local_file_content=$(echo "${local_file_content}" | tr -d '\r')
-                  remote_file_content=$(echo "${remote_file_content}" | tr -d '\r')
-
-                  # 比较文件内容
-                  if [[ "${local_file_content}" != "${remote_file_content}" ]]; then
-                      echo "文件 ${local_file} 发生更改，标记为 true"
-                      jq --arg foldpath "${foldpath}" --arg translatefile "${translatefile}" '.translatelist[] | select(.foldpath == $foldpath and .translatefile == $translatefile) |= . + {translated: true}' <<< "${config}" > docs/translate_readme.json
-                      pull_required=true
-                  else
-                      echo "文件 ${local_file} 未发生更改，标记为 false"
-                      jq --arg foldpath "${foldpath}" --arg translatefile "${translatefile}" '.translatelist[] | select(.foldpath == $foldpath and .translatefile == $translatefile) |= . + {translated: false}' <<< "${config}" > docs/translate_readme.json
-                  fi
-              else
-                  echo "文件 ${local_file} 不存在，标记为 true"
-                  jq --arg foldpath "${foldpath}" --arg translatefile "${translatefile}" '.translatelist[] | select(.foldpath == $foldpath and .translatefile == $translatefile) |= . + {translated: true}' <<< "${config}" > docs/translate_readme.json
-                  pull_required=true
-              fi
-          done
-
-          # 输出是否需要拉取更新
-          echo "::set-output name=pull_required::$(echo ${pull_required} | tr '[:upper:]' '[:lower:]')"
-          
       - name: 读取并翻译 README 文件
-        if: ${{ steps.translate-readme.outputs.pull_required == 'true' }}
+        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           python translate_readme.py  # 确保这个脚本实际进行了更改
         continue-on-error: true
 
       - name: 提交和推送更改
-        if: ${{ steps.translate-readme.outputs.pull_required == 'true' }}
+        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git add docs/translate_readme.json
+          git add .
           git status  # 确认添加的更改
-          git commit -m '自动标记翻译状态并翻译 README 文件' || echo "没有需要提交的更改"
+          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
