@@ -32,47 +32,32 @@ jobs:
           git fetch origin ${{ env.branch }}
 
       - name: 检查文件状态并更新 translate_readme.json
-        id: check_file_status
         run: |
           python compare_readme.py
+          git add docs/translate_readme.json
+          git commit -m "临时提交本地更改" || echo "没有需要提交的更改"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
-      - name: 打印 pull_required 的值
-        run: |
-          echo "pull_required=${{ steps.check_file_status.outputs.pull_required }}"
-
-      - name: 暂存本地更改（如果有）
-        if: steps.check_file_status.outputs.pull_required == 'true'
-        run: |
-          # 暂存本地文件到临时文件
-          cp docs/translate_readme.json /tmp/translate_readme_backup.json
-          git status  # 检查状态，确认暂存成功
-
       - name: 拉取最新更改
-        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           git pull origin ${{ env.branch }}
 
       - name: 恢复暂存的本地更改
-        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           cp /tmp/translate_readme_backup.json docs/translate_readme.json
 
       - name: 读取并翻译 README 文件
-        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           python translate_readme.py  # 确保这个脚本实际进行了更改
         continue-on-error: true
 
       - name: 提交和推送更改
-        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           git add .
-          git status  # 确认添加的更改
           git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
