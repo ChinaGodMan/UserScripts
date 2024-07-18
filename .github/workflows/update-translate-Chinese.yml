@@ -1,6 +1,4 @@
 name: 翻译自述文件
-
-on:
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
@@ -44,15 +42,21 @@ jobs:
         run: |
           echo "pull_required=${{ steps.check_file_status.outputs.pull_required }}"
 
+      - name: 暂存本地更改（如果有）
+        if: steps.check_file_status.outputs.pull_required == 'true'
+        run: |
+          git add .
+          git commit -m "临时提交本地更改" || echo "没有需要提交的更改"
+
       - name: 拉取最新更改
         if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
-          git pull origin ${{ env.branch }} --rebase  # 使用 rebase 拉取最新的远程更改
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
       - name: 读取并翻译 README 文件
         if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
-        #   python translate_readme.py  # 运行翻译脚本
+          python translate_readme.py  # 运行翻译脚本
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
