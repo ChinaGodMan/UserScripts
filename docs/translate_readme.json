@@ -7,8 +7,7 @@
                 "it",
                 "ko"
             ],
-            "translated": false,
-            "istranslated": false
+            "translated": false
         },
         {
             "foldpath": "Script details/移除链接下划线/",
@@ -18,8 +17,7 @@
                 "es",
                 "de"
             ],
-            "translated": false,
-            "istranslated": false
+            "translated": true
         }
     ]
 }
