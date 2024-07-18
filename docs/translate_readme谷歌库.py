@@ -3,7 +3,7 @@ import json
 import os
 import re
 import time
-
+#太慢,慢成狗了
 # 创建翻译器实例
 translator = Translator()
 
