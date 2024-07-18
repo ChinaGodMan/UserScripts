@@ -1,36 +1,18 @@
+from googletrans import Translator
 import json
 import os
 import re
 import time
-from urllib.parse import urlencode
-from urllib.request import urlopen
+
+# 创建翻译器实例
+translator = Translator()
 
 # 读取 JSON 文件中的翻译列表
-with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
+with open('docs/translate_readme_test.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
-
-# 函数来请求翻译API
-def translate_text(text, target_lang):
-    api_url = 'https://translate.googleapis.com/translate_a/single'
-    params = {
-        'client': 'gtx',
-        'dt': 't',
-        'sl': 'auto',
-        'tl': target_lang,
-        'q': text
-    }
-    full_url = api_url + '?' + urlencode(params)
-    try:
-        response = urlopen(full_url)
-        data = response.read().decode('utf-8')
-        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        return translated_text
-    except Exception as e:
-        print(f"翻译错误：{e}")
-        return None
 
 # 遍历 translatelist 中的每个条目
 for item in data['translatelist']:
@@ -64,11 +46,14 @@ for item in data['translatelist']:
             for match in chinese_pattern.finditer(line):
                 chinese_text = match.group()
                 # 翻译中文文本
-                translated_text = translate_text(chinese_text, lang)
-                if translated_text is not None:
-                    # 记录中文文本的位置和翻译
-                    translations.append((line_number, chinese_text, translated_text))
-                    time.sleep(0.5)  # 添加请求间隔时间以防止被限制
+                try:
+                    translated_text = translator.translate(chinese_text, src='zh-CN', dest=lang).text
+                except Exception as e:
+                    print(f"翻译错误：{e}")
+                    translated_text = chinese_text  # 发生错误时使用原文本
+                # 记录中文文本的位置和翻译
+                translations.append((line_number, chinese_text, translated_text))
+               # time.sleep(0.5)  # 添加请求间隔时间以防止被限制
 
         # 替换文本中的中文部分为翻译后的文本
         new_lines = []
