@@ -38,6 +38,7 @@ for item in config['translatelist']:
     local_file = os.path.join(item['foldpath'], item['translatefile'])
     remote_file_path = os.path.join(item['foldpath'], item['translatefile']).replace('\\', '/')
 
+    # 忽略当前的 translated 值，强制重新进行比对
     if os.path.exists(local_file):
         # 比较本地文件和远程文件内容
         if compare_file_contents(local_file, 'origin/main', remote_file_path):
