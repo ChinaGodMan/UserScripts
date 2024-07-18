@@ -4,6 +4,9 @@
   - 需要自动更新的脚本路径
 - total_installs.json
   - Greasyfork网站用户的统计信息
+- translate_readme.py
+  - 翻译主程序
+  
 
 
 
