@@ -33,12 +33,12 @@ for item in config['translatelist']:
     if os.path.exists(local_file):
         # 比较本地文件和远程文件内容
         if compare_file_contents(local_file, 'origin/main', remote_file_path):
-            item['translated'] = 'true'
+            item['translated'] = True  # 使用布尔值 True
             pull_required = True
         else:
-            item['translated'] = 'false'
+             item['translated'] = False  # 使用布尔值 False
     else:
-        item['translated'] = 'true'
+        item['translated'] = True  # 文件不存在，设置为 True
         pull_required = True
 
 # 更新 JSON 文件
