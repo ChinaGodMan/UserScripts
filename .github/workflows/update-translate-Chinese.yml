@@ -34,8 +34,8 @@ jobs:
       - name: 检查文件状态并更新 translate_readme.json
         run: |
           python compare_readme.py
-          git add docs/translate_readme.json
-          git commit -m "临时提交本地更改" || echo "没有需要提交的更改"
+       #   git add docs/translate_readme.json
+       #    git commit -m "临时提交本地更改" || echo "没有需要提交的更改"
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
