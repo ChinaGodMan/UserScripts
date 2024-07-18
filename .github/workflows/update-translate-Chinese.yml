@@ -37,7 +37,7 @@ jobs:
         run: |
           git fetch origin ${{ env.branch }}
      #     git reset --hard origin/${{ env.branch }}  # 强制同步到远程分支
-          git status
+     #     git status
 
       - name: 检查文件状态并更新 translate_readme.json
         id: check_file_status
