@@ -6,8 +6,19 @@ import subprocess
 with open('docs/translate_readme.json', 'r', encoding='utf-8') as file:
     config = json.load(file)
 
+# 缓存本地文件内容
+local_file_contents = {}
+
+def get_local_file_content(local_file):
+    if local_file not in local_file_contents:
+        with open(local_file, 'r', encoding='utf-8') as file:
+            local_file_contents[local_file] = file.read()
+    return local_file_contents[local_file]
+
 # 比较本地文件和远程文件的内容
 def compare_file_contents(local_file, remote_branch, remote_file_path):
+    local_file_content = get_local_file_content(local_file)
+    
     # 从远程分支中获取文件内容
     result = subprocess.run(
         ['git', 'show', f'{remote_branch}:{remote_file_path}'],
@@ -20,10 +31,6 @@ def compare_file_contents(local_file, remote_branch, remote_file_path):
 
     remote_file_content = result.stdout
     
-    # 读取本地文件内容
-    with open(local_file, 'r', encoding='utf-8') as file:
-        local_file_content = file.read()
-
     # 统一换行符为 LF
     local_file_content = local_file_content.replace('\r\n', '\n')
     remote_file_content = remote_file_content.replace('\r\n', '\n')
