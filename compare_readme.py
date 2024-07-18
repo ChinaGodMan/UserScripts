@@ -28,6 +28,12 @@ def compare_file_contents(local_file, remote_branch, remote_file_path):
     local_file_content = local_file_content.replace('\r\n', '\n')
     remote_file_content = remote_file_content.replace('\r\n', '\n')
 
+    # 打印本地文件和远程文件内容
+    print(f"本地文件内容 ({local_file}):")
+    print(local_file_content)
+    print(f"远程文件内容 ({remote_branch}:{remote_file_path}):")
+    print(remote_file_content)
+
     # 比较文件内容
     return local_file_content != remote_file_content
 
@@ -38,7 +44,6 @@ for item in config['translatelist']:
     local_file = os.path.join(item['foldpath'], item['translatefile'])
     remote_file_path = os.path.join(item['foldpath'], item['translatefile']).replace('\\', '/')
 
-    # 忽略当前的 translated 值，强制重新进行比对
     if os.path.exists(local_file):
         # 比较本地文件和远程文件内容
         if compare_file_contents(local_file, 'origin/main', remote_file_path):
