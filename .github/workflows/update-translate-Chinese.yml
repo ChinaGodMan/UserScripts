@@ -30,8 +30,8 @@ jobs:
 
       - name: 拉取远程更新
         run: |
-          git fetch origin ${{ env.branch }}
-          git status
+   #       git fetch origin ${{ env.branch }}
+   #       git status
 
       - name: 检查文件状态并更新 translate_readme.json
         id: check_file_status
