@@ -68,7 +68,7 @@ for item in data['translatelist']:
                 if translated_text is not None:
                     # 记录中文文本的位置和翻译
                     translations.append((line_number, chinese_text, translated_text))
-                    time.sleep(0.5)  # 添加请求间隔时间以防止被限制
+                  #  time.sleep(0.5)  # 添加请求间隔时间以防止被限制
 
         # 替换文本中的中文部分为翻译后的文本
         new_lines = []
