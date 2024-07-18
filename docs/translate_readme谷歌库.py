@@ -8,7 +8,7 @@ import time
 translator = Translator()
 
 # 读取 JSON 文件中的翻译列表
-with open('docs/translate_readme_test.json', 'r', encoding='utf-8') as f:
+with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # 正则表达式匹配中文字符

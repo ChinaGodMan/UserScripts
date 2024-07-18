@@ -7,7 +7,7 @@
                 "it",
                 "ko"
             ],
-            "translated": false
+            "translated": true
         },
         {
             "foldpath": "Script details/移除链接下划线/",
@@ -25,6 +25,26 @@
             "translatedto": [
                 "fr",
                 "vi"
+            ],
+            "translated": true
+        },
+        {
+            "foldpath": "Script details/屏蔽谷歌搜索站点/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "it",
+                "bh",
+                "ko",
+                "th",
+                "sr",
+                "sv",
+                "vi",
+                "ru",
+                "de",
+                "id",
+                "hu",
+                "he",
+                "eo"
             ],
             "translated": true
         }
