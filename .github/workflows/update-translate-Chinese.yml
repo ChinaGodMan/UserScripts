@@ -39,11 +39,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
+      - name: 创建临时备份文件
+        if: steps.check_file_status.outputs.pull_required == 'true'
+        run: |
+          echo "{}" > /tmp/translate_readme_backup.json
+          cp docs/translate_readme.json /tmp/translate_readme_backup.json
+
       - name: 拉取最新更改
         run: |
           git pull origin ${{ env.branch }}
 
       - name: 恢复暂存的本地更改
+        if: steps.check_file_status.outputs.pull_required == 'true'
         run: |
           cp /tmp/translate_readme_backup.json docs/translate_readme.json
 
