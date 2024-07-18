@@ -30,7 +30,7 @@ This userscript removes underlines from all links on any website and dynamically
 In diesem Benutzerskript wird der Link unter allen Websites entfernt，Und dynamisch einen neuen Link behandeln。Es gewährleistet sauberere und visuellere attraktivere Browsererlebnisse。
 
 ### Chinese (Traditional) / Chinesisch（Traditionell）
-In diesem Benutzerskript wird das Verbindungsgebühr auf allen Websites entfernt，Und dynamisch neue Links umgehen。Es gewährleistet sauberere und visuellere attraktivere Browsererlebnisse。
+Dieses Benutzerskript entfernt das Verbindungsmontik auf allen Websites，Und dynamisch neue Links umgehen。Es gewährleistet sauberere und visuellere attraktivere Browsererlebnisse。
 
 ### French / Français
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
