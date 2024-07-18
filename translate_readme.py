@@ -17,7 +17,7 @@ chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 # 遍历 translatelist 中的每个条目
 for item in data['translatelist']:
     if not item.get('translated', False):  # 检查 translated 的值，如果为 False 则跳过
-        print(f"条目 {item['translatefile']} 的 translated 为 false，跳过翻译。")
+        print(f"条目 {item['foldpath']} 的 translated 为 false，跳过翻译。")
         continue
 
     foldpath = item['foldpath']
