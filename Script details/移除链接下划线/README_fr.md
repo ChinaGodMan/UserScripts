@@ -1,4 +1,4 @@
-# [![Gmail](https://img.shields.io/badge/Contact-Gmail-yellow?svg&)](mailto:toniaiwanowskiskr47@gmail.com)personnes1Militaire10010121/UserScripts
+# [![Gmail](https://img.shields.io/badge/Contact-Gmail-yellow?svg&)](mailto:toniaiwanowskiskr47@gmail.com)Personnes du peuple10010121/UserScripts
 
 
 
@@ -32,7 +32,7 @@ This userscript removes underlines from all links on any website and dynamically
 Ce script utilisateur supprime le lien sous tous les sites Web，Et gérer dynamiquement un nouveau lien。Il garantit une expérience de navigation plus propre et plus visuelle。
 
 ### Chinese (Traditional) / Chinois（Traditionnel）
-Ce script utilisateur supprime la connexion en ligne sur tous les sites Web，Et gérer dynamiquement de nouveaux liens。Il garantit une expérience de navigation plus propre et plus visuelle。
+Ce script utilisateur supprime le résultat net de la connexion sur tous les sites Web，Et gérer dynamiquement de nouveaux liens。Il garantit une expérience de navigation plus propre et plus visuelle。
 
 ### French / Français
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
