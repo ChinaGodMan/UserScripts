@@ -1,13 +1,12 @@
 name: 寻找md
 
 on:
-  schedule:
-    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
+#  schedule:#   - cron: '*/6 * * * *'  # 每 6 分钟运行一次
 
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  find-md-files:
+  find-和-replace:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,10 +20,10 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 寻找 .md 文件
+      - name: 寻找并替换字符串
         run: |
-          echo "仓库中的 .md 文件列表:"
-          find . -name "*.md"
+          echo "遍历并替换 .md 文件中的字符串"
+          find . -name "*.md" -print0 | xargs -0 sed -i 's/FDp6mhVe5?svg&/FDp6mhVe5rsv/g'
 
       - name: 提交和推送更改
         run: |
@@ -34,7 +33,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '更新 .md 文件列表' || echo "没有需要提交的更改"
+          git commit -m '更新 .md 文件中的字符串' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
