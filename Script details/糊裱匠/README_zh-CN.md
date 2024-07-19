@@ -83,12 +83,14 @@
             </tr>
             <tr>
 
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork ranks</strong></a></td>
+                <td><a href="/zh-CN/scripts/501119" target="_blank"><strong>Greasyfork ranks</strong></a></td>
                 <td>脚本列表添加分数</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js">安装</a>
                 </td>
-                <td></td>
+                <td><a href="https://update.greasyfork.org/scripts/501119.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs"><br>安装</a>
+                </td>
             </tr>
             <tr>
 
