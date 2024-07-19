@@ -8,7 +8,7 @@
         {
             "name": "油猴脚本查找器",
             "path": "Script Finder+.user.js",
-            "isUpdated": false
+            "isUpdated": true
         },
         {
             "name": "Missav管理器",
@@ -23,7 +23,7 @@
         {
             "name": "剪辑版授权",
             "path": "clipboard.user.js",
-            "isUpdated": false
+            "isUpdated": true
         },
         {
             "name": "置頂和置底按鈕",
