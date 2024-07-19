@@ -9,15 +9,20 @@
 ![Bad Ratings](https://img.shields.io/badge/dynamic/json?color=F44336&label=Bad%20Ratings&query=$.totalBadRatings&url=https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/total_installs.json)
 
 [![Github](https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white)](https://github.com/10086100886/)
+[![forks](https://img.shields.io/github/forks/10086100886/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github)](https://github.com/10086100886/UserScripts)
+[![stars](https://img.shields.io/github/stars/10086100886/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github)](https://github.com/10086100886/UserScripts)
+[![Issue](https://img.shields.io/github/issues/10086100886/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue)]( https://github.com/10086100886/UserScripts/issues)
 ![license](https://img.shields.io/github/license/10086100886/UserScripts?svg&style=flat-square&color=4285dd&logo=github)
-![star](https://img.shields.io/github/forks/10086100886/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github" "复刻数量")
-![COM](https://img.shields.io/badge/CopyRight-人民的勤务员-4285dd" "人民的勤务员为人民服务")
+![CopyRight](https://img.shields.io/badge/CopyRight-人民的勤务员-4285dd" "人民的勤务员为人民服务")
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E "JavaScript")
-![yiti](https://img.shields.io/github/issues/10086100886/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "议题")
 ![Support](https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue?svg&)
 ![**Tampermonkey OK**](https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36)
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
+
+
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ---
 
