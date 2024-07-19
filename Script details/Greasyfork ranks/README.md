@@ -46,7 +46,7 @@
             <tr>
 
                 <td><a href="/zh-CN/scripts/497403" target="_blank"><strong>复制授权修改版</strong></a></td>
-                <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时放行</td>
+                <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
                 <td><a
                         href="https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js">安装</a>
                 </td>
@@ -145,6 +145,7 @@
         </tbody>
     </table>
 </details>
+
 ---
 
 # Greasyfork ranks
