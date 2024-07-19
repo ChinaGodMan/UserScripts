@@ -1,19 +1,14 @@
 import json
 import os
 import re
+import time
 from urllib.parse import urlencode
 from urllib.request import urlopen
-
-# 读取 translate_table.json 文件中的翻译表
-with open('docs/translate_table.json', 'r', encoding='utf-8') as f:
-    translate_table = json.load(f)
-
-# 提取翻译目标语言的国家代码
-target_languages = [item['code'] for item in translate_table if item.get('translated', False)]
 
 # 读取 JSON 文件中的翻译列表
 with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
+
 
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
@@ -46,6 +41,7 @@ for item in data['translatelist']:
 
     foldpath = item['foldpath']
     translatefile = item['translatefile']
+    translatedto = item['translatedto']
 
     # 读取要翻译的 README 文件
     readme_path = os.path.join(foldpath, translatefile)
@@ -57,7 +53,7 @@ for item in data['translatelist']:
         lines = f_in.readlines()
 
     # 提取中文文本进行翻译
-    for lang in target_languages:
+    for lang in translatedto:
         # 创建目标文件的路径
         output_path = os.path.join(foldpath, f'README_{lang}.md')
 
@@ -73,6 +69,7 @@ for item in data['translatelist']:
                 if translated_text is not None:
                     # 记录中文文本的位置和翻译
                     translations.append((line_number, chinese_text, translated_text))
+                  #  time.sleep(0.5)  # 添加请求间隔时间以防止被限制
 
         # 替换文本中的中文部分为翻译后的文本
         new_lines = []
