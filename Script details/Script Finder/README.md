@@ -43,6 +43,10 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 
 **Note**: This userscript requires a userscript manager extension to be installed in your browser. / **注意**：该用户脚本需要在浏览器中安装用户脚本管理器才能正常使用。
 
+## 图片
+![show.png](https://img.xwyue.com/i/2024/07/20/669ac8ff5c44c.png)
+![fi.png](https://img.xwyue.com/i/2024/07/20/669ac8feb90d1.png)
+
 ## 原作者
 # [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
 
