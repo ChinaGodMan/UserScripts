@@ -20,13 +20,11 @@
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Greasyfork의 다양한 기능 제공
+## 脚本功能
 
-Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절대 시간, 웹 페이지 넓은 화면, 스크립트 페이지 강화, 다운로드 확장, 패널 수정 등 일련의 작업을 지원합니다. 이 스크립트는 웹사이트에서 수집되었습니다.
+为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。
 >![size](https://img.shields.io/github/size/10086100886/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
 ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
 ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
@@ -34,91 +32,216 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
-
-
----
-
-
-## 기능 소개
-
-### 스크립트 상세
-
-- 문서 보기와 웹 보기 전환
-- 코드 복사
-- 스크립트 아이콘 표시
-- 아이콘 캐시 비우기
-- 스크립트 히스토리에 설치 추가
-- 다운로드 버튼 추가
-- 스크립트 코드의 줄 수와 문자 수 표시
-- 생성일로 스크립트 목록 정렬
-- 라이브러리 선언 복사
-- 참조 파일 수 표시
-- 짧은 링크 복사
-- 코드 스니펫 미화
-- 코드 보기 미화
-
-### 스크립트 목록
-
-- 리스트 표시로 설치 및 다운로드
-- 언어 설정 잠금
-- 평가 표시
-- 소스 코드 표시
-- 구버전 목록 사용
-- 모든 언어 스크립트 표시
-- 사이드바 이동
-- 생성일로 스크립트 목록 정렬
-
-### 미화 컨트롤
-
-- 컨트롤 미화
-- 선택 상자와 라디오 버튼 레이블 미화
-
-### 적용 대상
-
-- 기능 확장 활성화
-- 새 창에서 열기
-- 포럼에서 스크립트 수 표시
-- 자세한 내용은 다음에 적용:
-  - 포럼 검색
-  - 웹 페이지 열기
-  - 팝업 알림
-
-### 개인 홈페이지
-
-- 오래된 홈페이지 콘텐츠 정리
-- 홈페이지 정리 일수 설정
-- 홈페이지 스크립트 추가 작업
-- 최근 댓글 숨기기
-- 홈페이지 통계 표시
-
-### 탐색 바
-
-- 새 스크립트 게시 옵션 추가
-- 성인 스크립트로 이동
-- 탐색 바 스타일 수정
-- 탐색 바에 이 인터페이스 열기 버튼 추가
-- 탐색 바 정렬
-
-### 웹사이트
-
-- 코드 편집기 미화 자동 활성화
-- 새 탭에서 링크 열기
-- 정확한 날짜 표시
-- 웹사이트 최대화
-- 원클릭 신고
-- 로컬 코드 하이라이트
-- 아이콘 숨기기
-- 아이콘 표시
-- 읽은 댓글 그레이 스케일
-- 읽은 댓글 숨기기
-- 사이드 내비게이션 바
-- 사용자 이미지 프록시
+  <p><a href="#:~:text=更新信息">查看Greasyfork 糊裱匠的版本更新记录</a></p>
 
 ---
 
-## 감사합니다
+<details>
+    <summary><mark style="background-color: rgb(17, 0, 255); color: rgb(122, 11, 39);">人民的勤务员其他脚本</mark></summary>
+    <table>
+        <thead>
+            <tr>
+                <th>脚本名称</th>
+                <th>脚本说明</th>
+                <th>GitHub</th>
+                <th>Greasyfork</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork 糊裱匠</strong></a></td>
+                <td>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497346.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
 
-### 참고한 스크립트
+                <td><a href="/zh-CN/scripts/497403" target="_blank"><strong>复制授权修改版</strong></a></td>
+                <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/497317" target="_blank"><strong>Greasyfork详情适用于打开</strong></a></td>
+                <td>脚本详情页增加适用于链接增加点击打开网页，点击复制</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasy%20fork%20link.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/501119" target="_blank"><strong>Greasyfork ranks</strong></a></td>
+                <td>脚本列表添加分数</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/501119.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/497682" target="_blank"><strong>Missav备份助手</strong></a></td>
+                <td>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/missavexplorer.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497682.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
+                <td>去除网页下划线</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Remove%20Link%20Underlines.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/498906" target="_blank"><strong>网页高亮关键字</strong></a></td>
+                <td>对网页上的文字进行高亮显示</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
+                <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20Finder%2B.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/500255" target="_blank"><strong>置頂和置底按鈕</strong></a></td>
+                <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+
+                <td><a href="/zh-CN/scripts/500262" target="_blank"><strong>在搜索结果中屏蔽指定站点</strong></a></td>
+                <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</details>
+
+
+## 功能介绍
+### 脚本详情
+
+- 切换文档视图与网页视图
+- 复制代码
+- 显示脚本图标
+- 清空图标缓存
+- 脚本历史增加安装
+- 增加下载按钮
+- 脚本代码显示行数字数
+- 按创建日期排序脚本列表
+- 复制库声明
+- 显示引用文件数
+- 复制短链接
+- 美化代码片段
+- 美化查看代码
+
+### 脚本列表
+
+- 列表显示安装下载
+- 锁定语言设置
+- 显示评分
+- 显示源码
+- 使用旧版列表
+- 显示所有语言脚本
+- 移动侧边栏
+- 按创建日期排序脚本列表
+
+### 美化控件
+
+- 控件美化
+- 美化选择框和单选框标签
+
+### 适用于
+
+- 启用增强
+- 新窗口打开
+- 显示在论坛的脚本数量
+- 详情适用于打开:
+  - 论坛搜索
+  - 网页打开
+  - 弹出提示
+
+### 个人主页
+
+- 清理旧的主页内容
+- 主页清理的天数
+- 主页脚本添加操作
+- 隐藏近期评论
+- 主页显示统计
+
+### 导航栏
+
+- 增加发布新脚本选项
+- 跳转成人脚本
+- 修复导航栏样式
+- 在导航栏添加打开本界面
+- 导航栏对齐
+
+### 网站
+
+- 自动启用代码编辑框美化
+- 在新标签页中打开链接
+- 精确日期
+- 网站最大化浏览
+- 一键举报
+- 本地代码高亮
+- 隐藏图标
+- 显示图标
+- 灰度已阅读评论
+- 隐藏已阅读评论
+- 侧边导航栏
+- 代理用户图片
+
+---
+
+## Thank you
+
+### 引用脚本
+
 - [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
 - [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
 - [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/411837)
@@ -127,15 +250,15 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
 - [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
 - [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
-- [Absolute Time on GreasyFork](https://greasyfork.org/scripts/470348)
+- [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
 - [折叠 greasyfork 过期讨论](https://greasyfork.org/scripts/426549/)
 - [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
 - [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
 - [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
 - [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
 - [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
-- [Greasy Fork 增强](https://greasyfork.org/scripts/467078)
-- [Greasy Fork URL 脚本名称清理](https://greasyfork.org/scripts/431940)
+- [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
+- [Greasy Fork URL 脚本名称清理](https://greasyfork.org/scripts/431940/)
 - [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/475722)
 - [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
 - [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
@@ -143,28 +266,56 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 ---
 
-## Photos:
+## 图片展示:
 
-![nav.png](https://img.xwyue.com/i/2024/07/12/669052994d5f4.png)
-![rep2.png](https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png)
-![rep1.png](https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png)
-![time.png](https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png)
-![user.png](https://img.xwyue.com/i/2024/07/12/6690529c57dab.png)
-![maxw.png](https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png)
-![hidec.png](https://img.xwyue.com/i/2024/07/12/6690529c744ea.png)
-![libdown.png](https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png)
-![scriptdet.png](https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png)
-![scripcode.png](https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png)
-![code2.png](https://img.xwyue.com/i/2024/07/12/6690529cce8da.png)
-![hisdown.png](https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png)
-![scriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
-![allscriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
+<img src="https://img.xwyue.com/i/2024/07/12/669052994d5f4.png" alt="nav.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png" alt="rep2.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png" alt="rep1.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png" alt="time.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c57dab.png" alt="user.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png" alt="maxw.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c744ea.png" alt="hidec.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529c84351.png" alt="libdown.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png" alt="scriptdet.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png" alt="scripcode.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png" alt="code2.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cce8da.png" alt="hisdown.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
+<img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
 
+---
+
+## 更新信息
+- 2024/7/17 2.2.0.9
+  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的脚本双列显示
+  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的美化导航栏
+  - 增加固定网站侧边操作栏
+- 2024/7/15 2.2.0.8
+  
+  - 完全的繁体语言支持
+- 2024/7/15 2.2.0.7
+  
+  - 增加侧边导航栏开关
+  - 增加图片代理
+    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的图片浏览
+  - 修复在移动设备上浏览图片超出浏览器外的问题
+  - 修改在编辑代码时自动勾选美化
+- 2024/7/14 2.2.0.6
+  
+  - 添加了导航栏展开"更多"
+  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
+  - 完善对多语言的支持
+- 2024/7/13 2.2.0.5
+  
+  - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
+  - 修复显示列表上的脚本安装状态
+  - 完善对多语言的支持
 
 
 ---
 
-<p><a href="https://github.com/10086100886/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#">맨 위로↑</a></p>
+<p><a href="https://github.com/10086100886/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#">回到顶部↑</a></p>
+
 
 
