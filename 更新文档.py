@@ -33,11 +33,12 @@ def main():
     new_content = get_new_content()
     
     # 遍历当前目录下的所有 .md 文件
-    for root, dirs, files in os.walk('.'):
+    for root, dirs, files in os.walk('/renmindeqinwuyuan'):
         for file_name in files:
              if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
                 process_file(file_path, new_content)
+                
 
 if __name__ == '__main__':
     main()
