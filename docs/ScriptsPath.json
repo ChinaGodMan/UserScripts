@@ -1,0 +1,34 @@
+{
+    "scripts": [
+        {
+            "name": "糊裱匠",
+            "path": "Greasyfork Utility Toolkit.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "油猴脚本查找器",
+            "path": "Script Finder+.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "Missav管理器",
+            "path": "missavexplorer.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "网页高亮关键字+",
+            "path": "网页高亮关键字+.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "剪辑版授权",
+            "path": "clipboard.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "置頂和置底按鈕",
+            "path": "置頂和置底按鈕.user.js",
+            "isUpdated": true
+        }
+    ]
+}
