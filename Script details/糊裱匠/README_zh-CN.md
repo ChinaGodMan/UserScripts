@@ -286,6 +286,8 @@
 ---
 
 ## 更新信息
+- 2024/7/20 2.2.0.14
+  - 复制[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的新CSS
 - 2024/7/17 2.2.0.9
   - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的脚本双列显示
   - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的美化导航栏
