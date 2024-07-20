@@ -49,7 +49,7 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 **Note**: This userscript requires a userscript manager extension to be installed in your browser. / **注意**：该用户脚本需要在浏览器中安装用户脚本管理器才能正常使用。
 
 ## 图片
-![669ac8ff5c44c_edit_527824039021540.png](https://img.xwyue.com/i/2024/07/20/669b6a3841b1b.png)
+![show.png](https://img.xwyue.com/i/2024/07/20/669b6a3841b1b.png)
 ![fi.png](https://img.xwyue.com/i/2024/07/20/669ac8feb90d1.png)
 
 ## 原作者
