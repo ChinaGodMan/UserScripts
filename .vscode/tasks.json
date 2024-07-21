@@ -1,8 +1,0 @@
-{
-    "version": "2.0.0",
-    "terminal.integrated.shellArgs.windows": [
-        "-NoExit",
-        "-Command",
-        "code --task Run ConlseHistorySavePath.ps1"
-    ]
-}
