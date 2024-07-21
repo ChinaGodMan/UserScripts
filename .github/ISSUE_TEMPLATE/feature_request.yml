@@ -1,0 +1,37 @@
+name: Feature request
+description: 提出新的功能要求或改进建议
+title: "[FEATURE] "
+labels: ["feature"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 功能要求
+
+        请简要描述您想要的功能或改进建议。
+
+  - type: textarea
+    id: user_stories
+    attributes:
+      label: 用户故事
+      description: 描述您如何使用这个新功能的场景或用户故事。
+      placeholder: |
+        作为一个 [角色]，我想要 [功能]，以便 [目标]。
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: 使用场景
+      description: 列出您认为这个功能应该支持的使用场景或例子。
+      placeholder: |
+        1. 使用场景 1
+        2. 使用场景 2
+        3. 使用场景 3
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 额外信息
+      description: 如果有其他您认为有助于理解这个功能要求的信息，请在这里提供。
