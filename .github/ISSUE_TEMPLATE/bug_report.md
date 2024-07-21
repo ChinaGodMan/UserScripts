@@ -1,5 +1,5 @@
 ---
-name: Bug report2
+name: 错误报告md
 about: 创建一个关于此项目的 Bug 报告
 title: ''
 labels: bug
