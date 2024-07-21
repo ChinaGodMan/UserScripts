@@ -29,6 +29,21 @@
             "name": "置頂和置底按鈕",
             "path": "置頂和置底按鈕.user.js",
             "isUpdated": true
+        },
+        {
+            "name": "油猴评分",
+            "path": "Greasyfork ranks.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "去除下划线",
+            "path": "Remove Link Underlines.user.js",
+            "isUpdated": true
+        },
+        {
+            "name": "油猴适用于增强",
+            "path": "Greasy fork link.user.js",
+            "isUpdated": true
         }
     ]
 }
