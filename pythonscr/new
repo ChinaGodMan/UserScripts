@@ -9,6 +9,7 @@
 ![Bad Ratings](https://img.shields.io/badge/dynamic/json?color=F44336&label=Bad%20Ratings&query=$.totalBadRatings&url=https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/total_installs.json)
 
 [![Github](https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white)](https://github.com/10086100886/)
+[![commit](https://img.shields.io/github/last-commit/10086100886/UserScripts?color=blue&logo=githube)](https://github.com/10086100886/)
 [![forks](https://img.shields.io/github/forks/10086100886/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github)](https://github.com/10086100886/UserScripts)
 [![stars](https://img.shields.io/github/stars/10086100886/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github)](https://github.com/10086100886/UserScripts)
 [![Issue](https://img.shields.io/github/issues/10086100886/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue)]( https://github.com/10086100886/UserScripts/issues)
