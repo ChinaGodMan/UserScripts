@@ -1,0 +1,1027 @@
+
+    <html>
+    <head>
+        <title>Folder Tree</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                margin: 0;
+                padding: 0;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid #ddd;
+            }
+            th, td {
+                padding: 8px;
+                text-align: left;
+            }
+            .container {
+                display: flex;
+                justify-content: space-between;
+                height: 100vh;
+            }
+            .tree {
+                width: 70%;
+                overflow-y: auto;
+            }
+            .search-results {
+                width: 30%;
+                padding: 10px;
+                border-left: 1px solid #ddd;
+                overflow-y: auto;
+            }
+            .search-results input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+            }
+            .search-results table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            .search-results table, th, td {
+                border: 1px solid #ddd;
+            }
+            .search-results th, .search-results td {
+                padding: 8px;
+                text-align: left;
+            }
+            .file-path {
+                font-size: 0.9em;
+                color: #555;
+            }
+        </style>
+        <script>
+            function copyLink(link) {
+                var tempInput = document.createElement('input');
+                tempInput.value = link;
+                document.body.appendChild(tempInput);
+                tempInput.select();
+                document.execCommand('copy');
+                document.body.removeChild(tempInput);
+              //  alert('链接已复制到剪贴板！');
+            }
+
+            function searchFiles() {
+                var query = document.getElementById('searchInput').value.toLowerCase();
+                var results = document.getElementById('searchResults');
+                var tree = document.getElementById('tree');
+                
+                var items = tree.getElementsByTagName('summary');
+                var searchResults = [];
+                
+                // Process files at the root level
+                var rootFiles = tree.getElementsByTagName('tr');
+                for (var i = 0; i < rootFiles.length; i++) {
+                    var file = rootFiles[i].getElementsByTagName('a')[0];
+                    if (file && file.innerText.toLowerCase().includes(query)) {
+                        searchResults.push('<li>' + rootFiles[i].outerHTML + '</li>');
+                    }
+                }
+
+                // Process directories
+                for (var i = 0; i < items.length; i++) {
+                    var item = items[i];
+                    if (item.innerText.toLowerCase().includes(query)) {
+                        item.parentElement.style.display = 'list-item';
+                        searchResults.push('<li>' + item.parentElement.outerHTML + '</li>');
+                    } else {
+                        item.parentElement.style.display = 'none';
+                    }
+                }
+
+                results.innerHTML = '<ul>' + searchResults.join('') + '</ul>';
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="tree" class="tree">
+                <ul style="background-color: #CCE5FF; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="自用脚本">自用脚本</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="自用脚本\Fix Sidebar Icon.user.js">
+                                <td><a href="#自用脚本\Fix Sidebar Icon.user.js">Fix Sidebar Icon.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/Fix%20Sidebar%20Icon.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/Fix%20Sidebar%20Icon.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\Fix Sidebar Icon.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\GitHub File Download Links Exporter.user.js">
+                                <td><a href="#自用脚本\GitHub File Download Links Exporter.user.js">GitHub File Download Links Exporter.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GitHub%20File%20Download%20Links%20Exporter.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GitHub%20File%20Download%20Links%20Exporter.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\GitHub File Download Links Exporter.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\GitHub File Download Links Exporter_markdown.user.js">
+                                <td><a href="#自用脚本\GitHub File Download Links Exporter_markdown.user.js">GitHub File Download Links Exporter_markdown.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GitHub%20File%20Download%20Links%20Exporter_markdown.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GitHub%20File%20Download%20Links%20Exporter_markdown.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\GitHub File Download Links Exporter_markdown.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\Greasy Fork - 分析发布的脚本增强版本.user.js">
+                                <td><a href="#自用脚本\Greasy Fork - 分析发布的脚本增强版本.user.js">Greasy Fork - 分析发布的脚本增强版本.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/Greasy%20Fork%20-%20%E5%88%86%E6%9E%90%E5%8F%91%E5%B8%83%E7%9A%84%E8%84%9A%E6%9C%AC%E5%A2%9E%E5%BC%BA%E7%89%88%E6%9C%AC.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/Greasy%20Fork%20-%20%E5%88%86%E6%9E%90%E5%8F%91%E5%B8%83%E7%9A%84%E8%84%9A%E6%9C%AC%E5%A2%9E%E5%BC%BA%E7%89%88%E6%9C%AC.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\Greasy Fork - 分析发布的脚本增强版本.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\GreasyFork Search.user.js">
+                                <td><a href="#自用脚本\GreasyFork Search.user.js">GreasyFork Search.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GreasyFork%20Search.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GreasyFork%20Search.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\GreasyFork Search.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\greasyforklocalfav.user.js">
+                                <td><a href="#自用脚本\greasyforklocalfav.user.js">greasyforklocalfav.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/greasyforklocalfav.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/greasyforklocalfav.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\greasyforklocalfav.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\去你妈的CSDN登录复制.user.js">
+                                <td><a href="#自用脚本\去你妈的CSDN登录复制.user.js">去你妈的CSDN登录复制.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%8E%BB%E4%BD%A0%E5%A6%88%E7%9A%84CSDN%E7%99%BB%E5%BD%95%E5%A4%8D%E5%88%B6.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%8E%BB%E4%BD%A0%E5%A6%88%E7%9A%84CSDN%E7%99%BB%E5%BD%95%E5%A4%8D%E5%88%B6.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\去你妈的CSDN登录复制.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\网页翻译——自动翻译为中文日文.user.js">
+                                <td><a href="#自用脚本\网页翻译——自动翻译为中文日文.user.js">网页翻译——自动翻译为中文日文.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E4%B8%BA%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91%E4%B8%BA%E4%B8%AD%E6%96%87%E6%97%A5%E6%96%87.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\网页翻译——自动翻译为中文日文.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\自用高亮关键字.user.js">
+                                <td><a href="#自用脚本\自用高亮关键字.user.js">自用高亮关键字.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E8%87%AA%E7%94%A8%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E8%87%AA%E7%94%A8%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\自用高亮关键字.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\高亮隐藏.user.js">
+                                <td><a href="#自用脚本\高亮隐藏.user.js">高亮隐藏.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\高亮隐藏.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\外语终结者.user.js">
+                                <td><a href="#自用脚本\外语终结者.user.js">外语终结者.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%A4%96%E8%AF%AD%E7%BB%88%E7%BB%93%E8%80%85.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%A4%96%E8%AF%AD%E7%BB%88%E7%BB%93%E8%80%85.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\外语终结者.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\导航栏添加快速功能.user.js">
+                                <td><a href="#自用脚本\导航栏添加快速功能.user.js">导航栏添加快速功能.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E5%BF%AB%E9%80%9F%E5%8A%9F%E8%83%BD.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/%E5%AF%BC%E8%88%AA%E6%A0%8F%E6%B7%BB%E5%8A%A0%E5%BF%AB%E9%80%9F%E5%8A%9F%E8%83%BD.user.js')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\导航栏添加快速功能.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="自用脚本\README.md">
+                                <td><a href="#自用脚本\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/README.md')">打开链接</button></td>
+                                <td><span>路径: 自用脚本\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path=".github">.github</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path=".githubworkflows">workflows</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id=".github\workflows\update-total-installs.yml">
+                                <td><a href="#.github\workflows\update-total-installs.yml">update-total-installs.yml</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-total-installs.yml')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-total-installs.yml')">打开链接</button></td>
+                                <td><span>路径: .github\workflows\update-total-installs.yml</span></td>
+                            </tr>
+                        
+                            <tr id=".github\workflows\update-translate-Chinese.yml">
+                                <td><a href="#.github\workflows\update-translate-Chinese.yml">update-translate-Chinese.yml</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-translate-Chinese.yml')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-translate-Chinese.yml')">打开链接</button></td>
+                                <td><span>路径: .github\workflows\update-translate-Chinese.yml</span></td>
+                            </tr>
+                        
+                            <tr id=".github\workflows\re">
+                                <td><a href="#.github\workflows\re">re</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/re')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/re')">打开链接</button></td>
+                                <td><span>路径: .github\workflows\re</span></td>
+                            </tr>
+                        
+                            <tr id=".github\workflows\update-Script-version.yml">
+                                <td><a href="#.github\workflows\update-Script-version.yml">update-Script-version.yml</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-Script-version.yml')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/workflows/update-Script-version.yml')">打开链接</button></td>
+                                <td><span>路径: .github\workflows\update-Script-version.yml</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path=".githubISSUE_TEMPLATE">ISSUE_TEMPLATE</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id=".github\ISSUE_TEMPLATE\bug_report.yml">
+                                <td><a href="#.github\ISSUE_TEMPLATE\bug_report.yml">bug_report.yml</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/bug_report.yml')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/bug_report.yml')">打开链接</button></td>
+                                <td><span>路径: .github\ISSUE_TEMPLATE\bug_report.yml</span></td>
+                            </tr>
+                        
+                            <tr id=".github\ISSUE_TEMPLATE\feature_request.yml">
+                                <td><a href="#.github\ISSUE_TEMPLATE\feature_request.yml">feature_request.yml</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/feature_request.yml')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/feature_request.yml')">打开链接</button></td>
+                                <td><span>路径: .github\ISSUE_TEMPLATE\feature_request.yml</span></td>
+                            </tr>
+                        
+                            <tr id=".github\ISSUE_TEMPLATE\bug_report.md">
+                                <td><a href="#.github\ISSUE_TEMPLATE\bug_report.md">bug_report.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/bug_report.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.github/ISSUE_TEMPLATE/bug_report.md')">打开链接</button></td>
+                                <td><span>路径: .github\ISSUE_TEMPLATE\bug_report.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        </ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="Html">Html</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Html\js高亮.html">
+                                <td><a href="#Html\js高亮.html">js高亮.html</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Html/js%E9%AB%98%E4%BA%AE.html')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Html/js%E9%AB%98%E4%BA%AE.html')">打开链接</button></td>
+                                <td><span>路径: Html\js高亮.html</span></td>
+                            </tr>
+                        
+                            <tr id="Html\gms">
+                                <td><a href="#Html\gms">gms</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Html/gms')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Html/gms')">打开链接</button></td>
+                                <td><span>路径: Html\gms</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="pythonscr">pythonscr</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="pythonscr\new">
+                                <td><a href="#pythonscr\new">new</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/new')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/new')">打开链接</button></td>
+                                <td><span>路径: pythonscr\new</span></td>
+                            </tr>
+                        
+                            <tr id="pythonscr\更新md脚本列表.py">
+                                <td><a href="#pythonscr\更新md脚本列表.py">更新md脚本列表.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%9B%B4%E6%96%B0md%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%9B%B4%E6%96%B0md%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8.py')">打开链接</button></td>
+                                <td><span>路径: pythonscr\更新md脚本列表.py</span></td>
+                            </tr>
+                        
+                            <tr id="pythonscr\更新小徽章.py">
+                                <td><a href="#pythonscr\更新小徽章.py">更新小徽章.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%9B%B4%E6%96%B0%E5%B0%8F%E5%BE%BD%E7%AB%A0.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%9B%B4%E6%96%B0%E5%B0%8F%E5%BE%BD%E7%AB%A0.py')">打开链接</button></td>
+                                <td><span>路径: pythonscr\更新小徽章.py</span></td>
+                            </tr>
+                        
+                            <tr id="pythonscr\添加小分隔符.py">
+                                <td><a href="#pythonscr\添加小分隔符.py">添加小分隔符.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%B7%BB%E5%8A%A0%E5%B0%8F%E5%88%86%E9%9A%94%E7%AC%A6.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E6%B7%BB%E5%8A%A0%E5%B0%8F%E5%88%86%E9%9A%94%E7%AC%A6.py')">打开链接</button></td>
+                                <td><span>路径: pythonscr\添加小分隔符.py</span></td>
+                            </tr>
+                        
+                            <tr id="pythonscr\还原下载链接.py">
+                                <td><a href="#pythonscr\还原下载链接.py">还原下载链接.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E8%BF%98%E5%8E%9F%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/pythonscr/%E8%BF%98%E5%8E%9F%E4%B8%8B%E8%BD%BD%E9%93%BE%E6%8E%A5.py')">打开链接</button></td>
+                                <td><span>路径: pythonscr\还原下载链接.py</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="Z__本地用">Z__本地用</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Z__本地用\导出仓库下载地址.ps1">
+                                <td><a href="#Z__本地用\导出仓库下载地址.ps1">导出仓库下载地址.ps1</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Z__%E6%9C%AC%E5%9C%B0%E7%94%A8/%E5%AF%BC%E5%87%BA%E4%BB%93%E5%BA%93%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.ps1')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Z__%E6%9C%AC%E5%9C%B0%E7%94%A8/%E5%AF%BC%E5%87%BA%E4%BB%93%E5%BA%93%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80.ps1')">打开链接</button></td>
+                                <td><span>路径: Z__本地用\导出仓库下载地址.ps1</span></td>
+                            </tr>
+                        
+                            <tr id="Z__本地用\替换文本.ps1">
+                                <td><a href="#Z__本地用\替换文本.ps1">替换文本.ps1</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Z__%E6%9C%AC%E5%9C%B0%E7%94%A8/%E6%9B%BF%E6%8D%A2%E6%96%87%E6%9C%AC.ps1')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Z__%E6%9C%AC%E5%9C%B0%E7%94%A8/%E6%9B%BF%E6%8D%A2%E6%96%87%E6%9C%AC.ps1')">打开链接</button></td>
+                                <td><span>路径: Z__本地用\替换文本.ps1</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="Script details">Script details</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details糊裱匠">糊裱匠</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\糊裱匠糊裱匠旧版图">糊裱匠旧版图</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032350.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032350.png">QQ20240627-032350.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032350.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032350.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032350.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032501.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032501.png">QQ20240627-032501.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032501.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032501.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032501.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\max.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\max.png">max.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/max.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/max.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\max.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032147.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032147.png">QQ20240627-032147.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032147.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032147.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032147.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032211.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032211.png">QQ20240627-032211.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032211.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032211.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032211.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032259.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032259.png">QQ20240627-032259.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032259.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/QQ20240627-032259.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\QQ20240627-032259.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\alls.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\alls.png">alls.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/alls.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/alls.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\alls.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\al.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\al.png">al.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/al.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/al.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\al.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠旧版图\nav2.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠旧版图\nav2.png">nav2.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/nav2.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%97%A7%E7%89%88%E5%9B%BE/nav2.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠旧版图\nav2.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\糊裱匠糊裱匠新图">糊裱匠新图</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\糊裱匠\糊裱匠新图\allscriptlist.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\allscriptlist.png">allscriptlist.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/allscriptlist.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/allscriptlist.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\allscriptlist.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\code2.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\code2.png">code2.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/code2.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/code2.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\code2.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\hidec.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\hidec.png">hidec.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/hidec.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/hidec.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\hidec.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\hisdown.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\hisdown.png">hisdown.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/hisdown.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/hisdown.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\hisdown.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\libdown.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\libdown.png">libdown.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/libdown.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/libdown.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\libdown.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\maxw.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\maxw.png">maxw.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/maxw.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/maxw.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\maxw.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\nav.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\nav.png">nav.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/nav.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/nav.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\nav.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\rep1.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\rep1.png">rep1.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/rep1.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/rep1.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\rep1.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\rep2.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\rep2.png">rep2.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/rep2.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/rep2.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\rep2.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\scripcode.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\scripcode.png">scripcode.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scripcode.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scripcode.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\scripcode.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\scriptdet.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\scriptdet.png">scriptdet.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scriptdet.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scriptdet.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\scriptdet.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\scriptlist.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\scriptlist.png">scriptlist.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scriptlist.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/scriptlist.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\scriptlist.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\time.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\time.png">time.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/time.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/time.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\time.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\糊裱匠新图\user.png">
+                                <td><a href="#Script details\糊裱匠\糊裱匠新图\user.png">user.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/user.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E7%B3%8A%E8%A3%B1%E5%8C%A0%E6%96%B0%E5%9B%BE/user.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\糊裱匠新图\user.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\糊裱匠回复评论图片">回复评论图片</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\糊裱匠\回复评论图片\1.png">
+                                <td><a href="#Script details\糊裱匠\回复评论图片\1.png">1.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/1.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/1.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\回复评论图片\1.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\回复评论图片\2.png">
+                                <td><a href="#Script details\糊裱匠\回复评论图片\2.png">2.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/2.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/2.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\回复评论图片\2.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\回复评论图片\3.png">
+                                <td><a href="#Script details\糊裱匠\回复评论图片\3.png">3.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/3.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/%E5%9B%9E%E5%A4%8D%E8%AF%84%E8%AE%BA%E5%9B%BE%E7%89%87/3.png')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\回复评论图片\3.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\糊裱匠\README.md">
+                                <td><a href="#Script details\糊裱匠\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README.md</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\README_EN.md">
+                                <td><a href="#Script details\糊裱匠\README_EN.md">README_EN.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_EN.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_EN.md')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README_EN.md</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\README_JA.md">
+                                <td><a href="#Script details\糊裱匠\README_JA.md">README_JA.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_JA.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_JA.md')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README_JA.md</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\README_ko.md">
+                                <td><a href="#Script details\糊裱匠\README_ko.md">README_ko.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_ko.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_ko.md')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README_ko.md</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\README_zh-CN.md">
+                                <td><a href="#Script details\糊裱匠\README_zh-CN.md">README_zh-CN.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_zh-CN.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_zh-CN.md')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README_zh-CN.md</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\糊裱匠\README_zh-TW.MD">
+                                <td><a href="#Script details\糊裱匠\README_zh-TW.MD">README_zh-TW.MD</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_zh-TW.MD')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0/README_zh-TW.MD')">打开链接</button></td>
+                                <td><span>路径: Script details\糊裱匠\README_zh-TW.MD</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script detailsMiss备份助手">Miss备份助手</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Miss备份助手\README.md">
+                                <td><a href="#Script details\Miss备份助手\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Miss%E5%A4%87%E4%BB%BD%E5%8A%A9%E6%89%8B/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Miss%E5%A4%87%E4%BB%BD%E5%8A%A9%E6%89%8B/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\Miss备份助手\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script detailsScript Finder">Script Finder</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\Script Finderpic">pic</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Script Finder\pic\fi.png">
+                                <td><a href="#Script details\Script Finder\pic\fi.png">fi.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/pic/fi.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/pic/fi.png')">打开链接</button></td>
+                                <td><span>路径: Script details\Script Finder\pic\fi.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\Script Finder\pic\show.png">
+                                <td><a href="#Script details\Script Finder\pic\show.png">show.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/pic/show.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/pic/show.png')">打开链接</button></td>
+                                <td><span>路径: Script details\Script Finder\pic\show.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Script Finder\README.md">
+                                <td><a href="#Script details\Script Finder\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Script%20Finder/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\Script Finder\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details网页高亮关键字">网页高亮关键字</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\网页高亮关键字pic">pic</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\网页高亮关键字\pic\hl.png">
+                                <td><a href="#Script details\网页高亮关键字\pic\hl.png">hl.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97/pic/hl.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97/pic/hl.png')">打开链接</button></td>
+                                <td><span>路径: Script details\网页高亮关键字\pic\hl.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\网页高亮关键字\README.md">
+                                <td><a href="#Script details\网页高亮关键字\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\网页高亮关键字\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details复制剪贴板保护 修改版">复制剪贴板保护 修改版</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\复制剪贴板保护 修改版\README.md">
+                                <td><a href="#Script details\复制剪贴板保护 修改版\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E5%A4%8D%E5%88%B6%E5%89%AA%E8%B4%B4%E6%9D%BF%E4%BF%9D%E6%8A%A4%20%E4%BF%AE%E6%94%B9%E7%89%88/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E5%A4%8D%E5%88%B6%E5%89%AA%E8%B4%B4%E6%9D%BF%E4%BF%9D%E6%8A%A4%20%E4%BF%AE%E6%94%B9%E7%89%88/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\复制剪贴板保护 修改版\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script detailsGreasy fork 脚本页面适用于网址增强">Greasy fork 脚本页面适用于网址增强</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\Greasy fork 脚本页面适用于网址增强图片说明">图片说明</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.png">
+                                <td><a href="#Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.png">image.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/%E5%9B%BE%E7%89%87%E8%AF%B4%E6%98%8E/image.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/%E5%9B%BE%E7%89%87%E8%AF%B4%E6%98%8E/image.png')">打开链接</button></td>
+                                <td><span>路径: Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.png</span></td>
+                            </tr>
+                        
+                            <tr id="Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.jpg">
+                                <td><a href="#Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.jpg">image.jpg</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/%E5%9B%BE%E7%89%87%E8%AF%B4%E6%98%8E/image.jpg')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/%E5%9B%BE%E7%89%87%E8%AF%B4%E6%98%8E/image.jpg')">打开链接</button></td>
+                                <td><span>路径: Script details\Greasy fork 脚本页面适用于网址增强\图片说明\image.jpg</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Greasy fork 脚本页面适用于网址增强\README.md">
+                                <td><a href="#Script details\Greasy fork 脚本页面适用于网址增强\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\Greasy fork 脚本页面适用于网址增强\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details移除链接下划线">移除链接下划线</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\移除链接下划线\README.md">
+                                <td><a href="#Script details\移除链接下划线\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%A7%BB%E9%99%A4%E9%93%BE%E6%8E%A5%E4%B8%8B%E5%88%92%E7%BA%BF/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%A7%BB%E9%99%A4%E9%93%BE%E6%8E%A5%E4%B8%8B%E5%88%92%E7%BA%BF/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\移除链接下划线\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details屏蔽谷歌搜索站点">屏蔽谷歌搜索站点</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\屏蔽谷歌搜索站点\README.md">
+                                <td><a href="#Script details\屏蔽谷歌搜索站点\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E5%B1%8F%E8%94%BD%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E7%AB%99%E7%82%B9/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E5%B1%8F%E8%94%BD%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E7%AB%99%E7%82%B9/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\屏蔽谷歌搜索站点\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script details置顶和置底按钮">置顶和置底按钮</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\置顶和置底按钮\README.md">
+                                <td><a href="#Script details\置顶和置底按钮\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%AE%E9%A1%B6%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%92%AE/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/%E7%BD%AE%E9%A1%B6%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%92%AE/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\置顶和置底按钮\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #006400; font-weight: bold;" data-path="Script detailsGreasyfork rank">Greasyfork rank</summary>
+                                <ul style="background-color: #FFF3CD; padding: 5px; list-style-type: none;">
+                        <li>
+                            <details>
+                                <summary style="color: #ffcc00; font-weight: bold;" data-path="Script details\Greasyfork rank图片">图片</summary>
+                                <ul style="background-color: #F8D7DA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Greasyfork rank\图片\rank.png">
+                                <td><a href="#Script details\Greasyfork rank\图片\rank.png">rank.png</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasyfork%20rank/%E5%9B%BE%E7%89%87/rank.png')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasyfork%20rank/%E5%9B%BE%E7%89%87/rank.png')">打开链接</button></td>
+                                <td><span>路径: Script details\Greasyfork rank\图片\rank.png</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Script details\Greasyfork rank\README.md">
+                                <td><a href="#Script details\Greasyfork rank\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasyfork%20rank/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20details/Greasyfork%20rank/README.md')">打开链接</button></td>
+                                <td><span>路径: Script details\Greasyfork rank\README.md</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        </ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="Library">Library</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Library\Toastnew.js">
+                                <td><a href="#Library\Toastnew.js">Toastnew.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/Toastnew.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/Toastnew.js')">打开链接</button></td>
+                                <td><span>路径: Library\Toastnew.js</span></td>
+                            </tr>
+                        
+                            <tr id="Library\video.js">
+                                <td><a href="#Library\video.js">video.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/video.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/video.js')">打开链接</button></td>
+                                <td><span>路径: Library\video.js</span></td>
+                            </tr>
+                        
+                            <tr id="Library\信息查看器.js">
+                                <td><a href="#Library\信息查看器.js">信息查看器.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/%E4%BF%A1%E6%81%AF%E6%9F%A5%E7%9C%8B%E5%99%A8.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Library/%E4%BF%A1%E6%81%AF%E6%9F%A5%E7%9C%8B%E5%99%A8.js')">打开链接</button></td>
+                                <td><span>路径: Library\信息查看器.js</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path="docs">docs</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="docs\translate_readme.json">
+                                <td><a href="#docs\translate_readme.json">translate_readme.json</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme.json')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme.json')">打开链接</button></td>
+                                <td><span>路径: docs\translate_readme.json</span></td>
+                            </tr>
+                        
+                            <tr id="docs\translate_readme谷歌库.py">
+                                <td><a href="#docs\translate_readme谷歌库.py">translate_readme谷歌库.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme%E8%B0%B7%E6%AD%8C%E5%BA%93.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme%E8%B0%B7%E6%AD%8C%E5%BA%93.py')">打开链接</button></td>
+                                <td><span>路径: docs\translate_readme谷歌库.py</span></td>
+                            </tr>
+                        
+                            <tr id="docs\README.md">
+                                <td><a href="#docs\README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/README.md')">打开链接</button></td>
+                                <td><span>路径: docs\README.md</span></td>
+                            </tr>
+                        
+                            <tr id="docs\translate_table.json">
+                                <td><a href="#docs\translate_table.json">translate_table.json</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_table.json')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_table.json')">打开链接</button></td>
+                                <td><span>路径: docs\translate_table.json</span></td>
+                            </tr>
+                        
+                            <tr id="docs\translate_readme.py">
+                                <td><a href="#docs\translate_readme.py">translate_readme.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme.py')">打开链接</button></td>
+                                <td><span>路径: docs\translate_readme.py</span></td>
+                            </tr>
+                        
+                            <tr id="docs\ScriptsPath.json">
+                                <td><a href="#docs\ScriptsPath.json">ScriptsPath.json</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/ScriptsPath.json')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/ScriptsPath.json')">打开链接</button></td>
+                                <td><span>路径: docs\ScriptsPath.json</span></td>
+                            </tr>
+                        
+                            <tr id="docs\translate_readme _h.py">
+                                <td><a href="#docs\translate_readme _h.py">translate_readme _h.py</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme%20_h.py')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/translate_readme%20_h.py')">打开链接</button></td>
+                                <td><span>路径: docs\translate_readme _h.py</span></td>
+                            </tr>
+                        
+                            <tr id="docs\total_installs.json">
+                                <td><a href="#docs\total_installs.json">total_installs.json</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/total_installs.json')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/total_installs.json')">打开链接</button></td>
+                                <td><span>路径: docs\total_installs.json</span></td>
+                            </tr>
+                        
+                            <tr id="docs\folder_tree.html">
+                                <td><a href="#docs\folder_tree.html">folder_tree.html</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/folder_tree.html')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/docs/folder_tree.html')">打开链接</button></td>
+                                <td><span>路径: docs\folder_tree.html</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        
+                        <li>
+                            <details>
+                                <summary style="color: #0033cc; font-weight: bold;" data-path=".vscode">.vscode</summary>
+                                <ul style="background-color: #D4EDDA; padding: 5px; list-style-type: none;"><li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id=".vscode\launch.json">
+                                <td><a href="#.vscode\launch.json">launch.json</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.vscode/launch.json')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.vscode/launch.json')">打开链接</button></td>
+                                <td><span>路径: .vscode\launch.json</span></td>
+                            </tr>
+                        </table></div></li></ul>
+                            </details>
+                        </li>
+                        <li><div style="width: 100%; overflow-x: auto;"><table border="1" cellpadding="5" cellspacing="0" style="width: 100%;"><tr><th>文件名</th><th>复制链接</th><th>打开链接</th><th>绝对路径</th></tr>
+                            <tr id="Greasy fork link.user.js">
+                                <td><a href="#Greasy fork link.user.js">Greasy fork link.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasy%20fork%20link.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasy%20fork%20link.user.js')">打开链接</button></td>
+                                <td><span>路径: Greasy fork link.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="clipboard.user.js">
+                                <td><a href="#clipboard.user.js">clipboard.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js')">打开链接</button></td>
+                                <td><span>路径: clipboard.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="README.md">
+                                <td><a href="#README.md">README.md</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/README.md')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/README.md')">打开链接</button></td>
+                                <td><span>路径: README.md</span></td>
+                            </tr>
+                        
+                            <tr id="Greasyfork ranks.user.js">
+                                <td><a href="#Greasyfork ranks.user.js">Greasyfork ranks.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js')">打开链接</button></td>
+                                <td><span>路径: Greasyfork ranks.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="LICENSE">
+                                <td><a href="#LICENSE">LICENSE</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/LICENSE')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/LICENSE')">打开链接</button></td>
+                                <td><span>路径: LICENSE</span></td>
+                            </tr>
+                        
+                            <tr id="Remove Link Underlines.user.js">
+                                <td><a href="#Remove Link Underlines.user.js">Remove Link Underlines.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Remove%20Link%20Underlines.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Remove%20Link%20Underlines.user.js')">打开链接</button></td>
+                                <td><span>路径: Remove Link Underlines.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="missavexplorer.user.js">
+                                <td><a href="#missavexplorer.user.js">missavexplorer.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/missavexplorer.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/missavexplorer.user.js')">打开链接</button></td>
+                                <td><span>路径: missavexplorer.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="网页高亮关键字+.user.js">
+                                <td><a href="#网页高亮关键字+.user.js">网页高亮关键字+.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js')">打开链接</button></td>
+                                <td><span>路径: 网页高亮关键字+.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="置頂和置底按鈕.user.js">
+                                <td><a href="#置頂和置底按鈕.user.js">置頂和置底按鈕.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js')">打开链接</button></td>
+                                <td><span>路径: 置頂和置底按鈕.user.js</span></td>
+                            </tr>
+                        
+                            <tr id=".gitignore">
+                                <td><a href="#.gitignore">.gitignore</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/.gitignore')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/.gitignore')">打开链接</button></td>
+                                <td><span>路径: .gitignore</span></td>
+                            </tr>
+                        
+                            <tr id="Greasyfork Utility Toolkit.user.js">
+                                <td><a href="#Greasyfork Utility Toolkit.user.js">Greasyfork Utility Toolkit.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js')">打开链接</button></td>
+                                <td><span>路径: Greasyfork Utility Toolkit.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="Script Finder+.user.js">
+                                <td><a href="#Script Finder+.user.js">Script Finder+.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20Finder%2B.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20Finder%2B.user.js')">打开链接</button></td>
+                                <td><span>路径: Script Finder+.user.js</span></td>
+                            </tr>
+                        
+                            <tr id="在搜索结果中屏蔽指定站点.user.js">
+                                <td><a href="#在搜索结果中屏蔽指定站点.user.js">在搜索结果中屏蔽指定站点.user.js</a></td>
+                                <td><button onclick="copyLink('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js')">复制链接</button></td>
+                                <td><button onclick="window.open('https://raw.githubusercontent.com/10086100886/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js')">打开链接</button></td>
+                                <td><span>路径: 在搜索结果中屏蔽指定站点.user.js</span></td>
+                            </tr>
+                        </table></div></li></ul>
+            </div>
+            <div class="search-results">
+                <input type="text" id="searchInput" placeholder="搜索..." onkeyup="searchFiles()" />
+                <div id="searchResults"></div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
