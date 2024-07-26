@@ -6,9 +6,6 @@
 // @license MIT
 // @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  ChatGPT
 // @match        https://missav.com/*
-
-
-
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_xmlhttpRequest
@@ -18,9 +15,6 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @require https://update.greasyfork.org/scripts/498124/1396763/video.js
 // @require https://update.greasyfork.org/scripts/498149/1395619/%E4%BF%A1%E6%81%AF%E6%9F%A5%E7%9C%8B%E5%99%A8.js
-
-
-
 // ==/UserScript==
 
 (function () {
