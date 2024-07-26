@@ -3,7 +3,7 @@
 // @namespace    https://github.com/10086100886
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com> Sky,仰望星空
 // @description     管理网页剪贴板的写入行为&禁用音视频内容预载及自动播放。
-// @version 1.2.2.13
+// @version 1.2.2.14
 // @include         *
 // @run-at          document-start
 // @license MIT
