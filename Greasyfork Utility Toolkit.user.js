@@ -3670,7 +3670,7 @@ button:focus {
   cursor: auto;
 }
       `)
-            alert
+
         }
     }
     // 选择白天模式或黑夜模式  //反选
@@ -4427,7 +4427,7 @@ cursor: pointer;
         let pwd = userpassword
         if (!user) {
             Toast(translate('nostoredaccount'), 1000, '#ff6347', '#ffffff', 'top')
-            alert()
+
             return
         }
         if (!pwd) {

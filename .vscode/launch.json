@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debug",
+            "name": "Python调试",
             "type": "python",
             "request": "launch",
             "program": "${file}",
