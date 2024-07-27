@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Greasy fork脚本页面适用于网址增强
 // @namespace     https://github.com/10086100886/renmindeqinwuyuan
-// @version 0.9.3.5
+// @version 0.9.3.6
 // @description  脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://*.greasyfork.org/zh-CN/scripts/*
