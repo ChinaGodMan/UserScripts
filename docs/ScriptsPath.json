@@ -44,6 +44,11 @@
             "name": "油猴适用于增强",
             "path": "Greasy fork link.user.js",
             "isUpdated": true
+        },
+        {
+            "name": "GreasyFork 导航栏增强",
+            "path": "GreasyFork User Control Panel Button.user.js",
+            "isUpdated": true
         }
     ]
 }
