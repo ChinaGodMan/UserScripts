@@ -1,17 +1,34 @@
 // ==UserScript==
-// @name        GreasyFork: 导航栏添加用户脚本列表
-// @namespace   UserScripts
+// @name        GreasyFork: User Control Panel Button
+// @name:en     GreasyFork: User Control Panel Button
+// @name:zh-CN  GreasyFork: 导航栏增强
+// @name:zh-TW  GreasyFork: 導航欄增強
+// @name:ko     GreasyFork: 네비게이션 바 향상
+// @name:ja     GreasyFork: ナビゲーションバー強化
+// @namespace   https://github.com/10086100886
 // @match       https://greasyfork.org/*
 // @match       https://sleazyfork.org/*
 // @grant       none
 // @version     0.3.1
 // @license     MIT
-// @author      CY Fung
-// @description To add User Control Panel Button into navigation bar
-
+// @author      CY Fung  &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @description    To add User Control Panel Button into navigation bar
+// @description:en To add User Control Panel Button into navigation bar
+// @description:zh-CN 在导航栏上添加用户列表,控制台,收藏等..
+// @description:ko 네비게이션 바에 사용자 목록, 콘솔, 즐겨찾기 등을 추가...
+// @description:ja ナビゲーションバーにユーザーリスト、コンソール、お気に入りなどを追加...
+// @description:zh-TW 在導航欄上添加使用者列表、控制台、收藏等...
 // ==/UserScript==
 
 (async () => {
+    let sections = [
+        { id: '#user-script-sets-section' },
+        { id: '#control-panel' },
+        // { id: '#user-library-list-section', name: '库' },
+        //{ id: '#user-unlisted-script-list-section', name: '没上架' },
+        //  { id: '#user-discussions', name: '讨论' },
+        { id: '#user-script-list-section' }
+    ]
 
     function preSetup() {
         let pos = document.querySelectorAll('#site-nav>nav>li.with-submenu')
@@ -132,14 +149,7 @@
         template.innerHTML = userPageHTML
         const content = template.content
 
-        const sections = [
-            { id: '#user-script-sets-section', name: '我的收藏' },
-            { id: '#control-panel', name: '控制台' },
-            // { id: '#user-library-list-section', name: '库' },
-            //{ id: '#user-unlisted-script-list-section', name: '没上架' },
-            //  { id: '#user-discussions', name: '讨论' },
-            { id: '#user-script-list-section', name: '脚本' }
-        ]
+
 
         sections.forEach(({ id, name }) => {
             let section = content.querySelector(id)
