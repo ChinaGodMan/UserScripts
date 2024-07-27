@@ -20,7 +20,7 @@ if (Test-Path $gitignorePath) {
     $gitignorePatterns = Get-Content $gitignorePath | Where-Object { $_ -and $_.Trim() -ne '' }
 }
 else {
-    Write-Output ".gitignore 文件不存在。"
+    Write-Output ".gitignore 文件不存在。quxiaozhixing"
 }
 
 # 解析 .gitignore 文件中的排除规则
