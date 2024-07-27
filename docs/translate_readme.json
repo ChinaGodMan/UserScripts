@@ -7,6 +7,14 @@
                 "it",
                 "ko"
             ],
+            "translated": false
+        },
+        {
+            "foldpath": "Script details/GreasyFork User Control Panel Button/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "zh-TW"
+            ],
             "translated": true
         },
         {
@@ -30,7 +38,7 @@
                 "he",
                 "eo"
             ],
-            "translated": true
+            "translated": false
         },
         {
             "foldpath": "Script details/糊裱匠/",
@@ -52,7 +60,7 @@
                 "he",
                 "eo"
             ],
-            "translated": true
+            "translated": false
         },
         {
             "foldpath": "Script details/屏蔽谷歌搜索站点/",
@@ -72,7 +80,7 @@
                 "he",
                 "eo"
             ],
-            "translated": true
+            "translated": false
         }
     ]
 }
