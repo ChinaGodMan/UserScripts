@@ -1,7 +1,7 @@
 function Toast(msg, duration = 3000, backgroundColor = 'rgba(0, 0, 0, 0.7)', textColor = 'rgb(255, 255, 255)', position = 'bottom-right') {
-    const toast = document.createElement('div');
-    toast.className = 'toast';
-    toast.innerHTML = msg;
+    const toast = document.createElement('div')
+    toast.className = 'toast'
+    toast.innerHTML = msg
     toast.style.cssText = `
         max-width: 80%;
         min-width: 150px;
@@ -17,7 +17,7 @@ function Toast(msg, duration = 3000, backgroundColor = 'rgba(0, 0, 0, 0.7)', tex
         font-size: 16px;
         transition: opacity 0.5s ease-in, transform 0.5s ease-in;
         word-wrap: break-word;
-    `;
+    `
 
     // 使用位置参数设置位置样式
     const positions = {
@@ -30,16 +30,16 @@ function Toast(msg, duration = 3000, backgroundColor = 'rgba(0, 0, 0, 0.7)', tex
         'bottom-left': 'bottom: 10%; left: 10%; transform: translate(0, 0);',
         'bottom-right': 'bottom: 10%; right: 10%; transform: translate(0, 0);',
         'center': 'top: 50%; left: 50%; transform: translate(-50%, -50%);',
-    };
+    }
 
-    toast.style.cssText += positions[position] || positions['bottom-right'];
+    toast.style.cssText += positions[position] || positions['bottom-right']
 
-    document.body.appendChild(toast);
+    document.body.appendChild(toast)
 
     setTimeout(() => {
-        toast.style.opacity = '0';
-        setTimeout(() => document.body.removeChild(toast), 500);
-    }, duration);
+        toast.style.opacity = '0'
+        setTimeout(() => document.body.removeChild(toast), 500)
+    }, duration)
 
     // 增加媒体查询来优化移动设备上的样式
     const mediaQuery = `
@@ -51,8 +51,8 @@ function Toast(msg, duration = 3000, backgroundColor = 'rgba(0, 0, 0, 0.7)', tex
                 min-width: 0;
             }
         }
-    `;
-    const style = document.createElement('style');
-    style.textContent = mediaQuery;
-    document.head.appendChild(style);
+    `
+    const style = document.createElement('style')
+    style.textContent = mediaQuery
+    document.head.appendChild(style)
 }
