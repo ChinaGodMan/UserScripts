@@ -50,7 +50,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
+          git commit -m '更新小徽章' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}  
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
