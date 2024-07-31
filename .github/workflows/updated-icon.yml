@@ -39,7 +39,7 @@ jobs:
 
       - name: 运行更新
         run: |
-          python pythonscr/更新小徽章.py
+          python icon.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
