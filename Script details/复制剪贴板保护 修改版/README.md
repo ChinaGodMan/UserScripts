@@ -9,6 +9,7 @@
 ![Bad Ratings](https://img.shields.io/badge/dynamic/json?color=F44336&label=Bad%20Ratings&query=$.totalBadRatings&url=https://raw.githubusercontent.com/qinwuyuan-cn/UserScripts/main/docs/total_installs.json)
 
 [![Github](https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white)](https://github.com/qinwuyuan-cn/)
+[![commit](https://img.shields.io/github/last-commit/qinwuyuan-cn/UserScripts?color=blue&logo=githube)](https://github.com/qinwuyuan-cn/)
 [![forks](https://img.shields.io/github/forks/qinwuyuan-cn/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github)](https://github.com/qinwuyuan-cn/UserScripts)
 [![stars](https://img.shields.io/github/stars/qinwuyuan-cn/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github)](https://github.com/qinwuyuan-cn/UserScripts)
 [![Issue](https://img.shields.io/github/issues/qinwuyuan-cn/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue)]( https://github.com/qinwuyuan-cn/UserScripts/issues)
@@ -19,6 +20,8 @@
 ![**Tampermonkey OK**](https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36)
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
+
+
 
 
 
