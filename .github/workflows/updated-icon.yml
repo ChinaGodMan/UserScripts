@@ -1,0 +1,56 @@
+name: 更新小徽章
+
+on:
+#  schedule:
+#    - cron: '0 0 * * *'  # 每天午夜运行一次，也可以调整为其他频率
+
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  translate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install googletrans==4.0.0-rc1  # 安装 Google Translate API 的 Python 包
+
+      - name: 获取当前分支
+        id: get_branch
+        run: |
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+      - name: 拉取最新更改
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
+
+
+      - name: 读取并翻译 README
+        run: |
+          python docs/translate_readme.py
+        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+
+      - name: 提交和推送更改
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 添加更改
+          git add .
+          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}  
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
