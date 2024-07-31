@@ -23,6 +23,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本功能
 
 脚本详情页"适用于"下的网址去除默认跳转论坛搜索，改为可以点击的文本链接。点击时弹出提示：
@@ -33,6 +34,7 @@
 ## 版本更新
 
 ### 0.1 版本
+
 ~~提供一个菜单可以修改数值点击生效方式~~
 - 0=弹出提示
 - 1=打开网址
