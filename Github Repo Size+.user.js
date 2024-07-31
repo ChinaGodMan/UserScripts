@@ -125,7 +125,7 @@ new MutationObserver(() => {
     if (url !== lastUrl) {
         lastUrl = url
         setTimeout(function () {
-
+            //NOTE - 此处增加延时了,就这样得了
             addSizeToRepos()
         }, 1500)
     }
