@@ -6,6 +6,9 @@ Get-ChildItem -Path $directoryPath -Recurse -Filter *.md | ForEach-Object {
     $filePath = $_.FullName
     Write-Output "Processing file: $filePath"
 
+
+
+    
     # 读取文件内容
     $content = Get-Content -Path $filePath -Raw
 
