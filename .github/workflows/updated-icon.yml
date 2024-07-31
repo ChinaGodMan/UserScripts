@@ -20,10 +20,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 安装依赖
-        run: |
-          python -m pip install --upgrade pip
-          pip install googletrans==4.0.0-rc1  # 安装 Google Translate API 的 Python 包
+
 
       - name: 获取当前分支
         id: get_branch
@@ -39,7 +36,7 @@ jobs:
 
       - name: 运行更新
         run: |
-          python icon.py
+          python pythonscr/更新小徽章.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
