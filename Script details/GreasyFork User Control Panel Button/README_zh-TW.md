@@ -1,7 +1,3 @@
-# GreasyFork: 導航列增加分類
-
----
-
 # [![Gmail](https://img.shields.io/badge/Contact-Gmail-yellow?svg&)](mailto:toniaiwanowskiskr47@gmail.com)<img height=32px width=32px src="https://avatars.githubusercontent.com/u/96548841?v=4">人民的勤務員/UserScripts
 
 [![GreasyFork](https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII= "Greasyfork")](https://greasyfork.org/users/1169082)
@@ -27,6 +23,10 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+# GreasyFork: 導航列增加分類
+
+---
 
 ## 功能說明
 
@@ -76,10 +76,10 @@
                 <td><a href="/zh-CN/scripts/497403" target="_blank"><strong>複製授權修改版</strong></a></td>
                 <td>禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/clipboard.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/497403.user.js">
+                            src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -87,10 +87,10 @@
                 <td><a href="/zh-CN/scripts/497317" target="_blank"><strong>Greasyfork詳情適用於打開</strong></a></td>
                 <td>腳本詳情頁增加適用於連結增加點擊開啟網頁，點選複製</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasy%20fork%20link.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasy%20fork%20link.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/497317.user.js">
+                            src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -98,10 +98,10 @@
                 <td><a href="/zh-CN/scripts/501119" target="_blank"><strong>Greasyfork ranks</strong></a></td>
                 <td>腳本清單添加分數</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Greasyfork%20ranks.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/501119.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/501119.user.js">
+                            src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -109,10 +109,10 @@
                 <td><a href="/zh-CN/scripts/497682" target="_blank"><strong>Missav備份助手</strong></a></td>
                 <td>miss單張備份，支援下載圖片保存影片訊息.導出本地網頁 支援導出到webdav</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/missavexplorer.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/missavexplorer.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/497682.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/497682.user.js">
+                            src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -120,10 +120,10 @@
                 <td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
                 <td>去除網頁下劃線</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Remove%20Link%20Underlines.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Remove%20Link%20Underlines.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/498625.user.js">
+                            src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -131,10 +131,10 @@
                 <td><a href="/zh-CN/scripts/498906" target="_blank"><strong>網頁高亮關鍵字</strong></a></td>
                 <td>對網頁上的文字進行高亮顯示</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/498906.user.js">
+                            src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -142,10 +142,10 @@
                 <td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
                 <td>Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20Finder%2B.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/Script%20Finder%2B.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/498904.user.js">
+                            src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -153,10 +153,10 @@
                 <td><a href="/zh-CN/scripts/500255" target="_blank"><strong>置頂和置底按鈕</strong></a></td>
                 <td>修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/500255.user.js">
+                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
             <tr>
@@ -164,10 +164,10 @@
                 <td><a href="/zh-CN/scripts/500262" target="_blank"><strong>在搜尋結果中封鎖指定站點</strong></a></td>
                 <td>在搜尋引擎結果中封鎖特定的站點，幫助用戶過濾掉不需要的搜尋結果。 自訂輸入屏蔽站點。格式"-zhihu""-baidu" 用於封鎖谷歌搜尋內容</td>
                 <td><a
-                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安裝</a>
+                        href="https://raw.githubusercontent.com/10086100886/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安裝
                 </td>
-                <td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
-                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安裝</a>
+                https://update.greasyfork.org/scripts/500262.user.js">
+                            src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">>安裝
                 </td>
             </tr>
         </tbody>
