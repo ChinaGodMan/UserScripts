@@ -9,7 +9,7 @@
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
 // @grant       none
-// @icon        https://www.google.com/s2/favicons?domain=github.com
+// @icon        https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @source     https://github.com/qinwuyuan-cn/UserScripts
 
