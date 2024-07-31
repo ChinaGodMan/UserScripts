@@ -40,7 +40,7 @@ def extract_markdown_tables(file_path):
 
 def main():
     # 直接在代码中指定要搜索的目录路径
-    directory = '/renmindeqinwuyuan'
+    directory = '/UserScripts'
 
     # 获取所有 .md 和 .MD 文件路径
     md_files = list_md_files(directory)

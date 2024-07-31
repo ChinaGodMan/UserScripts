@@ -191,4 +191,4 @@ def generate_html_tree(directory, html_file):
         f.write(tree_html)
 
 # 使用示例
-generate_html_tree('/renmindeqinwuyuan', 'docs/folder_tree.html')
+generate_html_tree('/UserScripts', 'docs/folder_tree.html')
