@@ -49,6 +49,11 @@
             "name": "GreasyFork 导航栏增强",
             "path": "GreasyFork User Control Panel Button.user.js",
             "isUpdated": true
+        },
+        {
+            "name": "github显示仓库大小",
+            "path": "Github Repo Size+.user.js",
+            "isUpdated": true
         }
     ]
 }
