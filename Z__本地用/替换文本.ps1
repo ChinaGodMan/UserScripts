@@ -1,5 +1,5 @@
 # 指定要遍历的目录路径
-$directoryPath = "D:\renmindeqinwuyuan"
+$directoryPath = "D:\UserScripts"
 
 # 递归遍历目录及其子目录下的所有 md 文件，并打印路径
 Get-ChildItem -Path $directoryPath -Recurse -Filter *.md | ForEach-Object {
