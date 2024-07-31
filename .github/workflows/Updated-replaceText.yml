@@ -1,8 +1,8 @@
-name: 寻找md
+name: 替换md文件字符串
 
 on:
-  schedule:
-    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
+#  schedule:
+#    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
 
   workflow_dispatch:  # 允许手动触发工作流
 
