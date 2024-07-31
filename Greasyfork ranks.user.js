@@ -7,7 +7,7 @@
 // @name:ja      スクリプトリスト名の後にスクリプト評価を表示する
 // @name:ko      스크립트 목록 이름 뒤에 스크립트 평가 표시
 // @namespace    https://github.com/10086100886/
-// @version 1.3.3.9
+// @version 1.3.3.10
 // @description     Add the script rating after the script name when browsing the script list
 // @description:en  Add the script rating after the script name when browsing the script list
 // @description:fr  Ajouter la note du script après le nom du script lors de la navigation dans la liste des scripts
