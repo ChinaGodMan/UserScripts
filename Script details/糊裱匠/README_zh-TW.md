@@ -211,7 +211,6 @@
 
 ---
 
-<p><a href="https://github.com/qinwuyuan-cn/UserScripts">更多用戶腳本 /
-<a href="#">回到頂部↑</a></p>
-
+<p><a href="https://github.com/qinwuyuan-cn/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#">回到顶部↑</a></p>
 
