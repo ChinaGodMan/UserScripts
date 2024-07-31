@@ -3,57 +3,74 @@
         {
             "name": "糊裱匠",
             "path": "Greasyfork Utility Toolkit.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/糊裱匠"
         },
         {
             "name": "油猴脚本查找器",
             "path": "Script Finder+.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/Script Finder"
         },
         {
             "name": "Missav管理器",
             "path": "missavexplorer.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/Miss备份助手"
         },
         {
             "name": "网页高亮关键字+",
             "path": "网页高亮关键字+.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/网页高亮关键字"
         },
         {
             "name": "剪辑版授权",
             "path": "clipboard.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/复制剪贴板保护 修改版"
         },
         {
             "name": "置頂和置底按鈕",
             "path": "置頂和置底按鈕.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/置顶和置底按钮"
         },
         {
             "name": "油猴评分",
             "path": "Greasyfork ranks.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/Greasyfork rank"
         },
         {
             "name": "去除下划线",
             "path": "Remove Link Underlines.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/移除链接下划线"
         },
         {
             "name": "油猴适用于增强",
             "path": "Greasy fork link.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/Greasy fork 脚本页面适用于网址增强"
         },
         {
             "name": "GreasyFork 导航栏增强",
             "path": "GreasyFork User Control Panel Button.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/GreasyFork User Control Panel Button"
         },
         {
             "name": "github显示仓库大小",
             "path": "Github Repo Size+.user.js",
-            "isUpdated": true
+            "isUpdated": true,
+            "backuppath": "Script details/Github Repo Size+"
+        },
+        {
+            "name": "屏蔽搜索结果",
+            "path": "在搜索结果中屏蔽指定站点.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/屏蔽谷歌搜索站点"
         }
     ]
 }
