@@ -1,7 +1,7 @@
 import os
 
 # 定义分隔符和新内容文件的路径
-SEPARATOR = '<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
+SEPARATOR = 'https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
 NEW_CONTENT_PATH = os.path.join('pythonscr', 'new')
 
 def get_new_content():
