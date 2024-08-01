@@ -39,7 +39,9 @@ jobs:
         id: read-script
         run: |
          script_name=$(cat pythonscr/翻译readme_slp/Load.txt)
-         echo "script_name=${script_name}" >> $GITHUB_ENV
+         script_path="pythonscr/翻译readme_slp/${script_name}"
+         
+         echo "script_name=${script_path}" >> $GITHUB_ENV
 
       - name: 读取并翻译 README
         run: |
