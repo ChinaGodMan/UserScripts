@@ -1,4 +1,4 @@
-<center> <a href="https://github.com/qinwuyuan-cn/UserScripts" target="_blank">
+<center> <a href="https://github.com/qinwuyuan-cn" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
 <h1><a href="https://github.com/qinwuyuan-cn/UserScripts" target="_blank">人民的勤务员/UserScripts</a></h1>
