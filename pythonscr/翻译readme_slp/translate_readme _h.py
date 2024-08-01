@@ -6,7 +6,10 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 
 # 读取 JSON 文件中的翻译列表
-with open('docs/translate_readme.json', 'r', encoding='utf-8') as f:
+script_dir = os.path.dirname(os.path.abspath(__file__))
+NEW_CONTENT_PATH = os.path.join(script_dir, 'translate_readme.json')
+print(NEW_CONTENT_PATH)
+with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 
