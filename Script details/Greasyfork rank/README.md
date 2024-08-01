@@ -28,7 +28,7 @@
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
 <center>
 <details>
-    <summary><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">点击查看人民的勤务员其他脚本</mark></summary>
+    <summary><h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">点击查看人民的勤务员其他脚本</mark></h2></summary>
     <table>
         <thead>
             <tr>
