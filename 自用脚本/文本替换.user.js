@@ -24,7 +24,7 @@
     button.style.border = 'none'
     button.style.borderRadius = '5px'
     button.style.cursor = 'pointer'
-
+    fafaffafafaffaf
     // 按钮点击事件
     button.addEventListener('click', () => {
         document.querySelectorAll('input').forEach(input => {
