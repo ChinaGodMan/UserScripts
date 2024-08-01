@@ -209,6 +209,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本介绍
 
 在其他地方下载的脚本，作者不知道是谁很不错，防范牛皮癣。用 ChatGPT 修改了下，让脚本在 PC 端浏览时可以使用快捷键复制，专防网页后台复制各种口令。该脚本与复制限制解除类脚本可能不兼容！
