@@ -7,7 +7,7 @@
                 "it",
                 "ko"
             ],
-            "translated": true
+            "translated": false
         },
         {
             "foldpath": "Script details/GreasyFork User Control Panel Button/",
@@ -80,7 +80,7 @@
                 "he",
                 "eo"
             ],
-            "translated": false
+            "translated": true
         }
     ]
 }
