@@ -191,4 +191,6 @@ def generate_html_tree(directory, html_file):
         f.write(tree_html)
 
 # 使用示例
-generate_html_tree('/UserScripts', 'docs/folder_tree.html')
+script_dir = os.path.dirname(os.path.abspath(__file__))
+output_file = os.path.join(script_dir, 'folder_tree.html')
+generate_html_tree('./',output_file)
