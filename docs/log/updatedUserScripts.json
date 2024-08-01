@@ -1,13 +1,9 @@
 [
-  {
-    "member_count": 2
-  },
-  {
-    "date": "0000-00-00-000000",
-    "updated_files_count": 12
-  },
-  {
-    "date": "2024-08-01 09:01:57",
-    "updated_files_count": 12
-  }
+    {
+        "member_count": 1
+    },
+    {
+        "date": "2024-08-01 09:01:57",
+        "updated_files_count": 12
+    }
 ]
