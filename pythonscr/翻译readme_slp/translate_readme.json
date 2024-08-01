@@ -7,7 +7,7 @@
                 "it",
                 "ko"
             ],
-            "translated": false
+            "translated": true
         },
         {
             "foldpath": "Script details/GreasyFork User Control Panel Button/",
@@ -15,7 +15,7 @@
             "translatedto": [
                 "zh-TW"
             ],
-            "translated": true
+            "translated": false
         },
         {
             "foldpath": "Script details/移除链接下划线/",
