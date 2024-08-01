@@ -26,8 +26,9 @@
 ![**Tampermonkey OK**](https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36)
 ![**Violentmonkey OK**](https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72)
 ![**FireMonkey OK**](https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053)
+<center>
 <details>
-    <summary><mark style="background-color: rgb(17, 0, 255); color: rgb(122, 11, 39);">人民的勤务员其他脚本</mark></summary>
+    <summary><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">点击查看人民的勤务员其他脚本</mark></summary>
     <table>
         <thead>
             <tr>
@@ -173,6 +174,7 @@
         </tbody>
     </table>
 </details>
+</center>
 
 
 
