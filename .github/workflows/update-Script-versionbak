@@ -32,7 +32,6 @@ jobs:
       - name: 提取当前版本
         id: extract_version
         run: |
-          # 使用 jq 解析 JSON 文件并处理每个脚本
           jq -c '.scripts[] | select(.isUpdated == true) | .path' docs/ScriptsPath.json | while IFS= read -r file; do
             file=$(echo "$file" | tr -d '"')  # 去除 JSON 中的双引号
             echo "处理文件: \"$file\""
@@ -45,29 +44,34 @@ jobs:
                 exit 1
               fi
               
-              # 将版本号中的.替换为空格，以便进行加法操作
               version_number=$(echo "$current_version" | sed 's/\./ /g')
               echo "版本号（转换为数字）: $version_number"
               
-              # 将版本号转换为数字并加1
               version_number=$(echo $version_number | awk '{printf "%d", ($1*1000000 + $2*10000 + $3*100 + $4 + 1)}')
               echo "版本号（加1后的数字）: $version_number"
               
-              # 还原为4部分版本号，并分割为数组
               major=$((version_number / 1000000))
               minor=$(( (version_number % 1000000) / 10000 ))
               patch=$(( (version_number % 10000) / 100 ))
               build=$(( version_number % 100 ))
               
-              # 生成新的版本号
               new_version="$major.$minor.$patch.$build"
               echo "文件 $file 的新版本号: $new_version"
               
-              # 替换版本号
               sed -i "s|// @version[ ]\+[0-9]*\([.][0-9]*\)*|// @version $new_version|" "$file"
               
-              # 将新的版本号添加到环境变量中
               echo "${file}_NEW_VERSION=$new_version" >> $GITHUB_ENV
+              
+              # 读取 backuppath 并复制文件
+              backup_path=$(jq -r --arg file "$file" '.scripts[] | select(.path == $file) | .backuppath' docs/ScriptsPath.json)
+              if [ -n "$backup_path" ]; then
+                echo "备份路径: $backup_path"
+                mkdir -p "$backup_path"  # 创建备份目录
+                cp -f "$file" "$backup_path"  # 强制覆盖文件
+                echo "文件 $file 备份到 $backup_path"
+              else
+                echo "未为文件 $file 指定备份路径"
+              fi
             else
               echo "未找到脚本文件: $file"
               exit 1
@@ -96,19 +100,14 @@ jobs:
 
       - name: 提交和推送更改
         run: |
-          # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # 将更改添加到 Git 中
           git add .
-          
-          # 提交更改
           commit_message="fix bug"
           echo "提交信息: $commit_message"
           git commit -m "$commit_message" || echo "没有需要提交的更改"
           
-          # 推送更改
           git push origin ${{ env.branch }}  # 推送到当前分支
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
