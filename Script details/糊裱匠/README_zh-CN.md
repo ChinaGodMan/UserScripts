@@ -167,6 +167,29 @@
                             src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
                 </td>
             </tr>
+                        <tr>
+
+                <td><a href="/zh-CN/scripts/502291" target="_blank"><strong>Github Repo Size+</strong></a></td>
+                <td>在Github查看仓库和搜索仓库时显示仓库大小</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/qinwuyuan-cn/UserScripts/main/Github%20Repo%20Size%2B.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/502291.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+                        </tr>
+                        <tr>
+
+                <td><a href="/zh-CN/scripts/501880" target="_blank"><strong>GreasyFork: 导航栏增强</strong></a></td>
+                <td>增强greasyfork导航栏,增加用户列表,用户控制台等</td>
+                <td><a
+                        href="https://raw.githubusercontent.com/qinwuyuan-cn/UserScripts/main/GreasyFork%20User%20Control%20Panel%20Button.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/501880.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/501880?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
         </tbody>
     </table>
 </details>
