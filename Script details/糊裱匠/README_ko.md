@@ -403,3 +403,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 [kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
 
+<p><a href="https://github.com/qinwuyuan-cn/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#">回到顶部↑</a></p>
+
+
