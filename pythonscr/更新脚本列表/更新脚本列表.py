@@ -1,7 +1,7 @@
 import os
 
 # 定义分隔符和新内容文件的路径
-SEPARATOR = 'https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
+SEPARATOR = "## 人民的勤务员其他脚本"
 script_dir = os.path.dirname(os.path.abspath(__file__))
 NEW_CONTENT_PATH = os.path.join(script_dir, 'NewMD')
 
@@ -13,17 +13,16 @@ def process_file(file_path, new_content):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
     
-    # 找到分隔符的索引
+    # 尝试找到分隔符的索引
     try:
         separator_index = next(i for i, line in enumerate(lines) if SEPARATOR in line)
+        # 生成新的内容
+        new_lines = lines[:separator_index]  # 保留分隔符之前的内容
+        new_lines.append(new_content + '\n')  # 添加新内容
     except StopIteration:
-        # 如果分隔符没有找到，返回原文件内容
-        print(f"No separator found in {file_path}.")
-        return
-
-    # 生成新的内容
-    new_lines = [new_content]  # 替换的内容
-    new_lines.extend(lines[separator_index:])  # 保留分隔符及其后的内容
+        # 如果分隔符没有找到，直接在文件末尾添加新内容
+        new_lines = lines
+        new_lines.append('\n' + new_content)  # 添加新内容
     
     # 写回文件
     with open(file_path, 'w', encoding='utf-8') as file:
@@ -33,10 +32,10 @@ def process_file(file_path, new_content):
 def main():
     new_content = get_new_content()
     
-    # 遍历当前目录下的所有 .md 文件 .//
+    # 遍历当前目录下的所有 .md 文件
     for root, dirs, files in os.walk('./Script details/'):
         for file_name in files:
-             if file_name.lower().endswith('.md'):
+            if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
                 process_file(file_path, new_content)
                 
