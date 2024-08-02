@@ -95,7 +95,7 @@ jobs:
           
           # 添加更改
           git add docs/total_installs.json
-          git commit -m '更新 total_installs.json 以获取最新统计数据' || echo "没有需要提交的更改"
+          git commit -m '更新 Greasyfork 最新统计数据' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
