@@ -37,10 +37,11 @@
 [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png)
 
  <p><a href="#:~:text=使用帮助">不会使用脚本？点我观看教学</a></p>
+
+ 脚本已兼容管理器: [![][TM]][Tampermonkey] [![][vm]][Violentmonkey]  [![][cat]][cat_link]  [![][stayr]][Stay] [![][Macaquer]][Macaque]<br>
+脚本已兼容浏览器:  [![][Opera]][opera_link] [![][Edge]][edge_link] [![][Firefox]][firefox_link] [![][Chrome]][chrome_link] [![][QQ]][QQ_link]  [![][Safari]][safari_link]  [![][VIA]][via_link]  [![][X]][x_link]  [![][kiwi]][kiwi_link] [![][le]][le_link]
  
 ---
-
-
 
 [GreasyFork-logo]: https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=
 [Total-Installs]: https://img.shields.io/badge/dynamic/json?color=0084ff&label=Total%20Installs&query=$.totalInstalls&url=https://raw.githubusercontent.com/qinwuyuan-cn/UserScripts/main/docs/total_installs.json
@@ -64,9 +65,6 @@
 [Tampermonkey-OK]: https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36
 [Violentmonkey-OK]: https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
-
-
-
 
 <center>
 <details>
