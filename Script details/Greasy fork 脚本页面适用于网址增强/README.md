@@ -62,8 +62,6 @@
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
 
-
-
 <center>
 <details>
     <summary><h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">点击查看人民的勤务员其他脚本</mark></h2></summary>
@@ -203,10 +201,18 @@
 </details>
 </center>
 
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+<div style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">
+    该脚本存在BUG,建议使用<a href="/zh-CN/scripts/497346" target="_blank"><strong>【Greasyfork 糊裱匠】</strong></a>  
+     <a href="https://update.greasyfork.org/scripts/497346.user.js" target="_blank"><strong>【点我安装】</strong>
+     </a> 
+    <div>内置超多功能,并且新脚本内的适用于增强功能经过测试完全的没有BUG
+      </div>
+</div>
+
+    
+
 
 ## 脚本功能
 
