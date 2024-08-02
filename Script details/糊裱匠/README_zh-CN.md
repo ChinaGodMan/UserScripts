@@ -301,21 +301,6 @@
 - 代理用户图片
 
 ---
-## 🌐 浏览器与脚本管理器
-
-|                浏览器                |                           脚本管理器                           |
-| :----------------------------------: | :------------------------------------------------------------: |
-| Chrome 或 基于 Chromium 内核的浏览器 | [Tampermonkey][Tampermonkey] 或 [Violentmonkey][Violentmonkey] |
-| Safari 浏览器（macOS, iOS, iPadOS）  |               [Macaque][Macaque] 或 [Stay][Stay]               |
-|  Firefox 或 基于 Gecko 内核的浏览器  | [Tampermonkey][Tampermonkey] 或 [Violentmonkey][Violentmonkey] |
-|        Via 浏览器（Android）         |                          浏览器内自带                          |
-
-[Tampermonkey]: http://tampermonkey.net/ "篡改猴"
-[Violentmonkey]: https://violentmonkey.github.io/ "暴力猴"
-[Macaque]: https://macaque.app/ "猕猴"
-[Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay"
-
-
 
 ## Thank you
 
@@ -449,4 +434,8 @@
 
 [kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
+
+<p><a href="https://github.com/qinwuyuan-cn/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#">回到顶部↑</a></p>
+
 
