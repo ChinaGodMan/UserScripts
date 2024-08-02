@@ -257,7 +257,7 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 |                           推荐浏览器                           |                                                      安装管理器                                                       | 安装浏览器                                                            |
 | :------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------- |
 | Chrome 或 基于 Chromium 内核的浏览器[![][chrome]][chrome_link] | ![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-| Safari 浏览器（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                          [Macaque][Macaque] 或 [Stay][Stay]                                           | [![][safari]][safari_link]                                            |
+| Safari 浏览器（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 ![][Macaquer] [Macaque][Macaque] 或 ![][stayr] [Stay]                                 | [![][safari]][safari_link]                                            |
 | Firefox 或 基于 Gecko 内核的浏览器[![][firefox]][firefox_link] | ![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | [![][firefox]][firefox_link]                                          |
 |              Opera 浏览器[![][opera]][opera_link]              | ![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | [![][opera]][opera_link]                                              |
 |           Via 浏览器（Android）[![][via]][via_link]            |                                                     浏览器内自带                                                      | [![][via]][via_link]                                                  |
@@ -266,11 +266,13 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 |            狐猴浏览器（Android）[![][le]][le_link]             | ![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | [![][le]][le_link]                                                    |
 |                                                                |
 
+
 [Tampermonkey]:http://tampermonkey.net/ "篡改猴"
 [Violentmonkey]:https://violentmonkey.github.io/ "暴力猴"
 [Macaque]:https://macaque.app/ "猕猴"
-[Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay"
-
+[Macaquer]:https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
+[Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
+[stayr]:https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
 [opera]:https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png 
 [opera_link]:https://www.opera.com "opera浏览器"
 [edge]:https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
@@ -299,6 +301,9 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 
 [kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
+
+
+
 
 <p><a href="https://github.com/qinwuyuan-cn/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
