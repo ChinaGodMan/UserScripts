@@ -208,26 +208,52 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-# Greasyfork ranks
+<p align="center">
+  <h1 align="center">Github Repo Size</h1>
+</p>
 
-**中文:**
-- 在脚本列表名称后面显示脚本评分
+将 Github 存储库的大小添加到搜索结果和存储库页面的用户脚本。
 
-**繁体:**
-- 在腳本列表名稱後面添加腳本評分
+## 预览
 
-**English:**
-- Display the script rating after the script list name
+![preview1.png](https://img.xwyue.com/i/2024/08/01/66aa9344b5041.png)
+![preview2.png](https://img.xwyue.com/i/2024/08/01/66aa9344db1ea.png)
 
-**French:**
-- Afficher la note du script après le nom de la liste de scripts
+## 先决条件
 
-**Japanese:**
-- スクリプトリスト名の後にスクリプト評価を表示する
+要使用此脚本，您将需要一个用户脚本管理器。一些流行的选择是：
 
-**Korean:**
--  스크립트 목록 이름 뒤에 스크립트 평가 표시
+- [Tampermonkey](https://tampermonkey.net/)（Chrome、Firefox、Safari、Microsoft Edge、Opera Next）
+- [Violentmonkey](https://violentmonkey.github.io/)（Chrome、Firefox、Microsoft Edge）
+- [Greasemonkey](https://www.greasespot.net/) (Firefox)
+- [用户脚本](https://apps.apple.com/us/app/userscripts/id1463298887) (Safari)
 
+## 安装
 
-## photo:
-![rank.png](https://img.xwyue.com/i/2024/07/19/6699c56c9f1a7.png)
+1. 安装 Tampermonkey 或您首选的用户脚本管理器。
+2. 从[此处](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js)安装脚本。
+3. （可选）如果您想查看私有存储库的大小，请参阅以下说明。
+
+## 查看私有仓库大小
+
+默认情况下，此脚本将仅显示公共存储库的大小。
+要显示私有存储库的大小，您需要生成一个具有“repo”范围的新个人访问令牌。
+该令牌将用于通过 Github API 进行身份验证。
+
+1. [此处](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
+2. 为令牌命名并检查“repo”范围。
+3. 单击“生成令牌”按钮并复制令牌。
+4. 将脚本顶部的“TOKEN”常量值替换为您刚刚生成的令牌。
+
+## 用法
+
+该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
+
+## 更改说明
+
+修复在搜索页面失效问题
+修复查看其他仓库时不显示(增加延时)
+
+## 感谢
+
+脚本修改自用户 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) 感谢原作者 **mshll** 的**勤劳**与**智慧**
