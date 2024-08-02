@@ -34,6 +34,8 @@
 ⭐[Star Me][Github-UserScripts]
 ⭐[请给我点星][Github-UserScripts]
 
+[![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png)
+
 ---
 
 
