@@ -2,7 +2,7 @@
 // @name                    Script Finder+
 // @name:zh-CN              Script Finder 油猴脚本查找
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.27
+// @version 0.1.6.28
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 // @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的greasyfork油猴脚本
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
