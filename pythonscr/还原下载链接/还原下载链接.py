@@ -3,7 +3,7 @@ from html import escape
 from urllib.parse import quote
 
 # GitHub 仓库的原始文件 URL
-repo_url = 'https://raw.githubusercontent.com/10086100886/UserScripts/main/'
+repo_url = 'https://raw.githubusercontent.com/qinwuyuan-cn/UserScripts/main/'
 
 def read_gitignore(directory):
     gitignore_path = os.path.join(directory, '.gitignore')
