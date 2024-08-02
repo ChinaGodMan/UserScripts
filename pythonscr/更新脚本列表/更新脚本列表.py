@@ -3,7 +3,7 @@ import os
 # 定义分隔符和新内容文件的路径
 SEPARATOR = "## 人民的勤务员其他脚本"
 script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'NewUserScriptslist')
+NEW_CONTENT_PATH = os.path.join(script_dir, 'NewUserScriptslist.md')
 
 def get_new_content():
     with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as file:
