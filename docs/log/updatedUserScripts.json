@@ -1,6 +1,6 @@
 [
   {
-    "member_count": 2
+    "member_count": 3
   },
   {
     "date": "2024-08-01 09:01:57",
@@ -8,6 +8,10 @@
   },
   {
     "date": "2024-08-01 09:04:14",
+    "updated_files_count": 12
+  },
+  {
+    "date": "2024-08-02 08:46:37",
     "updated_files_count": 12
   }
 ]
