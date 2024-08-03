@@ -22,11 +22,6 @@
 [![Issue][Issue-logo]](https://github.com/qinwuyuan-cn/UserScripts/issues)
 ![license][license-logo]
 ![CopyRight][CopyRight-logo]
-![JavaScript][JavaScript-logo]
-![Support][Support-logo]
-![**Tampermonkey OK**][Tampermonkey-OK]
-![**Violentmonkey OK**][Violentmonkey-OK]
-![**FireMonkey OK**][FireMonkey-OK]
 
 ---
 
