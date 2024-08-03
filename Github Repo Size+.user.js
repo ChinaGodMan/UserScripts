@@ -4,7 +4,7 @@
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @version 0.1.2.5
+// @version 0.1.2.6
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
