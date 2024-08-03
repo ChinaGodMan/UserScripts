@@ -24,7 +24,7 @@ jobs:
       - name: 寻找并替换字符串
         run: |
           echo "遍历并替换 .md 文件中的字符串"
-          find . -name "*.md" -print0 | xargs -0 sed -i 's/10086100886/qinwuyuan-cn/g'
+          find . -name "*.md" -print0 | xargs -0 sed -i 's/qinwuyuan-cn/ChinaGodMan/g'
 
       - name: 提交和推送更改
         run: |
