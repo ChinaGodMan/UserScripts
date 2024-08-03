@@ -29,7 +29,7 @@
 ⭐[Star Me][Github-UserScripts]
 ⭐[请给我点星][Github-UserScripts]
 
-[![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png)
+**给勤务员加根辣条** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
  <p><a href="#:~:text=使用帮助">不会使用脚本？点我观看教学</a></p>
 
