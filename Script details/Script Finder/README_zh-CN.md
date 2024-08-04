@@ -209,13 +209,13 @@
 
 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本。它提供了一种方便的方式来搜索和安装来自 Greasy Fork 的用户脚本。借助 Script Finder，你可以轻松地一键将自定义脚本添加到你喜爱的网站上，从而增强你的浏览体验。
 
-## Features / 功能
+## 功能
 
 - 根据网站域名搜索用户脚本
 - 查看每个脚本的详细信息，包括作者、描述、安装数量、版本和评分
 - I一键安装用户脚本
 
-## How to Use / 使用方法
+## 使用方法
 
 1. 在浏览器中安装用户脚本管理器，例如 Tampermonkey 或 Greasemonkey
 2. 访问 Greasy Fork 网站并点击 "Install" 按钮来安装 Script Finder 脚本

@@ -209,13 +209,13 @@
 
 The Script Finder userscript allows you to find and manage user scripts on any website. It provides a convenient way to search and install userscripts from Greasy Fork. With Script Finder, you can easily enhance your browsing experience by adding custom scripts to your favorite websites easily.
 
-## Features / 功能
+## Features
 
 - Search for userscripts based on website domain 
 - View detailed information about each script, including author, description, installs, version and rating
 - Install userscripts with a single click
 
-## How to Use / 使用方法
+## How to Use
 
 1. Install a userscript manager such as Tampermonkey or Greasemonkey in your browser 
 2. Install the Script Finder userscript by visiting the Greasy Fork and clicking the "Install" button
@@ -227,18 +227,18 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 
 **Note**: This userscript requires a userscript manager extension to be installed in your browser. 
 
-## 图片
+##  Preview
 ![show.png](https://img.xwyue.com/i/2024/07/20/669b6a3841b1b.png)
 ![fi.png](https://img.xwyue.com/i/2024/07/20/669ac8feb90d1.png)
 
-## 原作者
+## Aoriginal Author
 # [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
 
-## 修改内容
+## Modify content
 
-- 增加对移动设备上的支持，手机也能使用啦~
-- 取消搜索出错时清空列表的操作
-- 取消默认排序,改为按照更新时间排序
+- Added support for mobile devices, mobile phones can also be used~
+- Cancel the operation of clearing the list when a search error occurs
+- Cancel the default sorting and change to sorting by update time
 
 
 
