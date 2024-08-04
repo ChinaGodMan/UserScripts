@@ -240,11 +240,11 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 - 取消搜索出错时清空列表的操作
 - 取消默认排序,改为按照更新时间排序
 
-<h1 align="center">Script Finder 修复历史 </h1> </p>
+<center><h1>Script Finder 更新记录 </h1> </center>
 
-- 2024/8/4 14:32
+-  2024/8/4 14:32
   
-  > [#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网CSS冲突，导致右下角的按钮会变成长长的一条横在整个页面的底部<br>
+  >**Ver:0.1.6.32** <br>[#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网CSS冲突，导致右下角的按钮会变成长长的一条横在整个页面的底部<br>
   *<mark>修复方式：更改按钮类名</mark> ` button.script-button`👉 ` scrbutton.script-button`*
 
 
