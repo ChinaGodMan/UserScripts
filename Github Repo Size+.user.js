@@ -57,15 +57,16 @@ const addSizeToRepos = () => {
     // Get all the repo links
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
-        const tkn = TOKEN ? TOKEN : atob("Z2hwX2hPY3I1YjNGWnZabThSQWdWVzNxbk9RMGVvekg2UTJ0VEluUQ==")
+        const tkn = TOKEN
         var href = elem.getAttribute("href")
         href = extractPath(href)
         console.log(href)
+        const headers = tkn ? { authorization: `token ${tkn}` } : {}
+
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
-                headers: {
-                    authorization: `token ${tkn}`,
-                },
+                headers: headers,
+
             })
         ).json()
         // If JSON failed to load, skip
