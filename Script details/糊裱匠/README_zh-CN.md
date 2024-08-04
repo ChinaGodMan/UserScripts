@@ -343,6 +343,10 @@
 ---
 
 ## 更新信息
+- 2024/8/4 22:09
+  >**Ver: 2.2.0.35** <br> [#253957](https://greasyfork.org/zh-CN/scripts/497346/discussions/253957)监听规则变化,导致动态监听失败<br>
+  *<mark>修复方式：增加监听规则</mark> ` user-script-list-section browse-script-list` *
+  
 - 2024/7/20 2.2.0.14
   - 复制[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的新CSS
 - 2024/7/17 2.2.0.9
