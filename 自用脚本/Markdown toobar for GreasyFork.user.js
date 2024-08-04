@@ -1,5 +1,10 @@
 // ==UserScript==
-// @name             GreasyFork  Markdown
+// @name              Markdown toolbar for GreasyFork
+// @name:ru           Markdown-тулбар для GreasyFork
+// @name:zh-CN        GreasyFork markdown
+// @description       Select Markdown format by default, add help links, add toolbar formatting buttons for markdown
+// @description:ru    Включает формат Markdown по умолчанию, добавляет справочные ссылки по форматам, добавляет панель кнопок форматирования markdown
+// @description:zh-CN 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏
 // @author            wOxxOm, darkred
 // @contributor       JixunMoe
 // @license           MIT
@@ -11,6 +16,8 @@
 // @include           https://greasyfork.org/*/users/edit
 // @grant             GM_addStyle
 // @run-at            document-start
+// @icon              https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
+// @supportURL        https://github.com/darkred/Userscripts/issues
 // ==/UserScript==
 
 var inForum = location.href.indexOf('/discussions') > 0
