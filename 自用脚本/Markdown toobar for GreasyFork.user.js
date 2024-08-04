@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name              Markdown toolbar for GreasyFork
+// @name             GreasyFork  Markdown
 // @author            wOxxOm, darkred
 // @contributor       JixunMoe
 // @license           MIT
@@ -22,8 +22,8 @@ function contains(selector, text) {
         return RegExp(text).test(element.textContent)
     })
 }
-
-window.addEventListener('DOMContentLoaded', function (e) {
+//DOMContentLoaded有时会和其他脚本冲突导致监听失败
+window.addEventListener('load', function (e) {
     var refElements = document.querySelectorAll(`
         input[name="authenticity_token"]              + .label-note,
         label[for="script-version-additional-info-0"] + .label-note,
@@ -32,6 +32,7 @@ window.addEventListener('DOMContentLoaded', function (e) {
         label[for="user_profile"] + .label-note,
         form > .label-note
     `)
+
 
     if (inForum) {
         refElements.forEach(element => {
@@ -96,8 +97,8 @@ function addFeatures(n) {
 
     // Add buttons
     btnMake(n, '<b>' + __('B') + '</b>', __('Bold'), '**')
-    btnMake(n, '#', '标题', '#', ' ')
-    btnMake(n, '-', '无序列表', '-', ' ')
+    btnMake(n, '#', '标题', '#', '  ')
+    btnMake(n, '-', '无序列表', '-  ', ' ')
 
     btnMake(n, '<i>' + __('I') + '</i>', __('Italic'), '*')
     btnMake(n, '<u>' + __('U') + '</u>', __('Underline'), '<u>', '</u>')
