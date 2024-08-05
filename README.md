@@ -80,6 +80,14 @@
 | [在搜索结果中屏蔽指定站 点][block_sites_search_results_script] [<mark style="background-color: yellow; color: green;">详细</mark>][block_sites_search_results_detail]    | 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容                                         | [安装][block_sites_search_results_github]    | [安装][block_sites_search_results_greasyfork] [![Installs][block_sites_search_results_installs]][block_sites_search_results_greasyfork]          |
 | [Github Repo Size+][github_repo_size_script] [<mark style="background-color: yellow; color: green;">详细</mark>][github_repo_size_detail]                                | 在Github查看仓库和搜索仓库时显示仓库大小                                                                                                                               | [安装][github_repo_size_github]              | [安装][github_repo_size_greasyfork] [![Installs][github_repo_size_installs]][github_repo_size_greasyfork]                                        |
 | [GreasyFork: 导航栏增强][greasyfork_user_control_panel_script] [<mark style="background-color: yellow; color: green;">详细</mark>][greasyfork_user_control_panel_detail] | 增强greasyfork导航栏                                                                                                                                                   | [安装][greasyfork_user_control_panel_github] | [安装][greasyfork_user_control_panel_greasyfork] [![Installs][greasyfork_user_control_panel_installs]][greasyfork_user_control_panel_greasyfork] |
+| [谷歌高级搜索][GoogleSearch_script] [<mark style="background-color: yellow; color: green;">详细</mark>][GoogleSearch_detail]                                             | 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。                                                   | [安装][GoogleSearch_github]                  | [安装][GoogleSearch_greasyfork] [![Installs][GoogleSearch_installs]][GoogleSearch_greasyfork]                                                    |
+
+
+[GoogleSearch_script]: /Google-advance-search.user.js
+[GoogleSearch_detail]: /Script%20details/Google-advance-search
+[GoogleSearch_github]: https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js
+[GoogleSearch_greasyfork]: https://update.greasyfork.org/scripts/502652.user.js
+[GoogleSearch_installs]: https://img.shields.io/greasyfork/dt/502652?color=%23990000&label=Installs
 
 [greasyfork_toolkit_script]: /Greasyfork%20Utility%20Toolkit.user.js
 [greasyfork_toolkit_detail]: /Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0
