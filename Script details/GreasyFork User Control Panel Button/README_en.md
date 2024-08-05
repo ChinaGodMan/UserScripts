@@ -297,4 +297,4 @@ Script modified from user **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/z
 [kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#">回到顶部↑</a></p>
+<a href="#top">回到顶部↑</a></p>
