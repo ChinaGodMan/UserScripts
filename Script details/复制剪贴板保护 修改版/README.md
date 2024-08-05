@@ -230,7 +230,7 @@
 
 ## 预览
 
-![1.png](https://img.xwyue.com/i/2024/08/05/66b00369924bf.png)
+![](https://s3.bmp.ovh/imgs/2024/08/05/1f33ee827cac9fe6.png)
 
 ## 使用帮助
 ### 安装浏览器
