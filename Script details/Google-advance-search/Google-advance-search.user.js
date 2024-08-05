@@ -5,7 +5,7 @@
 // @version                 0.1.8
 // @description             Add an advanced search form to the top of the page
 // @description:zh-CN       在谷歌搜索页面顶部添加一个高级搜索表单
-// @author                  shiquda
+// @author                  shiquda  &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @namespace               https://github.com/shiquda/shiquda_UserScript
 // @supportURL              https://github.com/shiquda/shiquda_UserScript/issues
 // @match                   *://www.google.com/search*
