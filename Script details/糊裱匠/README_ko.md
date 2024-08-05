@@ -338,20 +338,20 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 ## Photos:
 
-![nav.png](https://img.xwyue.com/i/2024/07/12/669052994d5f4.png)
-![rep2.png](https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png)
-![rep1.png](https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png)
-![time.png](https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png)
-![user.png](https://img.xwyue.com/i/2024/07/12/6690529c57dab.png)
-![maxw.png](https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png)
-![hidec.png](https://img.xwyue.com/i/2024/07/12/6690529c744ea.png)
-![libdown.png](https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png)
-![scriptdet.png](https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png)
-![scripcode.png](https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png)
-![code2.png](https://img.xwyue.com/i/2024/07/12/6690529cce8da.png)
-![hisdown.png](https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png)
-![scriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
-![allscriptlist.png](https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png)
+![nav.png](https://s2.loli.net/2024/08/05/ePCZp6TINsnLyht.png)
+![maxw.png](https://s2.loli.net/2024/08/05/NuKCdETWZ8epkVO.png)
+![rep2.png](https://s2.loli.net/2024/08/05/oBN6yVteI5phWDa.png)
+![code2.png](https://s2.loli.net/2024/08/05/7K5uIdoYv3l8LkR.png)
+![libdown.png](https://s2.loli.net/2024/08/05/XNcaLeiAxbzvhZu.png)
+![hidec.png](https://s2.loli.net/2024/08/05/dPgULVlHmuIiqDC.png)
+![hisdown.png](https://s2.loli.net/2024/08/05/kuNwm3VWlhce7sH.png)
+![allscriptlist.png](https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png)
+![scripcode.png](https://s2.loli.net/2024/08/05/g7FXurVS2ynjvab.png)
+![rep1.png](https://s2.loli.net/2024/08/05/IbWEv1nFUuXfs4e.png)
+![user.png](https://s2.loli.net/2024/08/05/felk9jJKWDMLI54.png)
+![time.png](https://s2.loli.net/2024/08/05/9ZTCra3btwQRzqj.png)
+![scriptdet.png](https://s2.loli.net/2024/08/05/9pMfdUi2qHDREek.png)
+![scriptlist.png](https://s2.loli.net/2024/08/05/3xrMsHPSDtTf8hu.png)
 
 
 
