@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        置頂和置底按鈕
-// @version 1.2.0.26
+// @version 1.2.0.27
 // @description 在所有頁面生成兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消滾動到底部
 // @run-at      document-end
 // @match       *://*/*

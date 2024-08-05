@@ -4,7 +4,7 @@
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @version 0.1.2.7
+// @version 0.1.2.9
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
@@ -57,15 +57,16 @@ const addSizeToRepos = () => {
     // Get all the repo links
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
-        const tkn = TOKEN ? TOKEN : atob("Z2hwX3VZa2hLNUUxdUF1Um5wczUwbGNKOG5HUmJUY1U5WTBhQjBRaQ==")
+        const tkn = TOKEN
         var href = elem.getAttribute("href")
         href = extractPath(href)
         console.log(href)
+        const headers = tkn ? { authorization: `token ${tkn}` } : {}
+
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
-                headers: {
-                    authorization: `token ${tkn}`,
-                },
+                headers: headers,
+
             })
         ).json()
         // If JSON failed to load, skip

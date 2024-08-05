@@ -48,8 +48,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.34
-// @i1con          https://raw.gitmirror.com/greasyfork-org/greasyfork/main/public/images/blacklogo96.png
+// @version 2.2.0.36
 // @icon         data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 300 300" style="fill: %23D72323;"><path d="M200.3 269.9c-15.7 6.6-32.7 10.1-50.3 10.1-34.7 0-67.4-13.5-91.9-38.1C33.5 217.4 20 184.7 20 150s13.5-67.4 38.1-91.9C82.6 33.5 115.3 20 150 20s67.4 13.5 91.9 38.1C266.5 82.6 280 115.3 280 150c0 17.6-3.5 34.6-10 50.3 5 5 10 10.1 15.1 15.1 9.6-19.8 15-42 15-65.4C300 67.2 232.8 0 150 0S0 67.2 0 150s67.2 150 150 150c23.4 0 45.6-5.4 65.4-15-5.1-5-10.1-10.1-15.1-15.1z"/><path d="M267.8 300c-9.6-1.3-16.5-7-23.1-13.7-14.9-15.3-30.1-30.2-45.2-45.3-9.3-9.3-12-20.1-7.5-32.7.3-.8.3-2.1-.2-2.6-3.9-4.1-7.9-8-12-12.1-6.4 4-13.1 6.7-20.5 7.6-15.5 1.9-29-2.4-40.2-13.2-12.3-11.8-24.2-24-36.2-36.1-3.5-3.5-4.1-7.4-2.2-11.2 1.9-3.7 5.9-6.4 9.7-5.6 2.5.5 5.1 2 6.9 3.8 7.4 7.1 14.5 14.4 21.8 21.6.6.6 1.3 1.2 1.7 1.6l13.8-13.8c-6.2-6.1-12.6-12.5-18.9-18.9-1.9-1.9-3.8-3.7-5.6-5.6-3.8-4.2-3.7-9.7.2-13.6 3.9-3.9 9.5-4.1 13.6-.1 7.5 7.3 14.8 14.7 22.1 22.1.8.8 1.5 1.8 2.1 2.4l14.3-14.3c-2-1.8-4.5-4-6.8-6.3-6-5.9-11.9-11.8-17.8-17.8-2.7-2.7-3.7-5.9-2.4-9.6 1.4-3.9 4.2-6.3 8.3-6.9 3.4-.6 6 1 8.4 3.3l14.7 14.7c7.4 7.4 14.9 14.6 22 22.2 14.7 15.7 17 39.1 6.1 57.7-.4.7-.7 1.4-1.3 2.4 3.9 3.9 7.9 7.8 11.9 11.6.6.5 2 .6 2.8.3 12.5-4.4 23.3-1.7 32.7 7.6 15.1 15.1 30.1 30.3 45.3 45.2 6.7 6.5 12.4 13.4 13.7 23v5.8c-.2.5-.4 1.1-.5 1.6-1.8 9.5-6.6 17-15.5 21.2-3.3 1.6-6.9 2.3-10.4 3.5-1.9.2-3.8.2-5.8.2z"/><path d="M170 219.6c-2.7.7-5.4 1.2-8.2 1.5-3.1.4-6.2.6-9.2.6-17.9 0-34.2-6.6-47.2-19.2-10.2-9.8-20.2-20-30-29.8l-6.6-6.6c-9.5-9.5-11.7-22.7-5.8-34.3 4.9-9.6 14.4-16 24.5-16.6.5-6.9 3.5-13.6 8.9-18.9 5.2-5.1 11.8-8.2 18.7-8.7.2-2.5.7-4.9 1.6-7.4 3.8-10.8 12.6-18.1 23.9-20 1.5-.2 3.1-.4 4.6-.4 5.4 0 13.4 1.6 21.1 9.2 4.7 4.7 9.6 9.5 14.8 14.7 2.1 2.2 4.4 4.4 6.5 6.5 5.3 5.2 10.7 10.6 15.9 16.2 10.2 10.9 16.4 24.5 17.9 39.3.9 8.2.2 16.4-1.8 24.2h.1c12.8 0 24.7 5.1 34.7 14.8 3.6-10.9 5.6-22.6 5.6-34.7 0-60.8-49.2-110-110-110S40 89.2 40 150s49.2 110 110 110c12.1 0 23.8-2 34.7-5.6-9.8-10.1-14.8-22.1-14.7-34.8z"/></svg>
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -177,7 +176,6 @@ const translate = (function () {
             'ScriptListdouble': 'ScriptListdouble',
             'beautifyTopNav': 'BeautifyNav',
             'fixElementoption': 'Fix Sidebar',
-
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -292,8 +290,6 @@ const translate = (function () {
             'ScriptListdouble': '双列显示',
             'beautifyTopNav': '美化导航栏',
             'fixElementoption': '侧边栏固定',
-
-
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -408,7 +404,6 @@ const translate = (function () {
             'ScriptListdouble': '雙列顯示',
             'beautifyTopNav': '美化導覽列',
             'fixElementoption': '側邊欄固定',
-
         },
         'ja': {
             'newScript': '新しいスクリプトを公開する',
@@ -866,7 +861,7 @@ const translate = (function () {
 }());
 (function () {
     'use strict'
-    var DEBUG = true
+    var DEBUG = false
     var showRating = GM_getValue('showRating', false) // 默认展示评分
     var showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
     var modifyRadioLabels = GM_getValue('modifyRadioLabels', false)//评论区梅花
@@ -957,7 +952,8 @@ const translate = (function () {
         navigateTotab = GM_getValue('navigateTotab', true) // 适用于新窗口打开
         showlinktotal = GM_getValue('showlinktotal', true) // 显示链接总数
     }
-    //功能-发布新脚本链接放在导航栏
+
+    //STUB - 发布新脚本链接放在导航栏
     if (Postlink) {
         const country_code = getCountryCode()
         setTimeout(function () {
@@ -965,7 +961,7 @@ const translate = (function () {
         }, 100)
     }
     if (remme && document.querySelector("#new_user > div:nth-child(4) > label")) {
-        //功能-登录页面自动点击记住我
+        //STUB - 登录页面自动点击记住我
         function clickLabelsDirectly() {
             // 直接选中并点击第一个元素
             document.querySelector("#new_user > div:nth-child(4) > label").click()
@@ -977,7 +973,7 @@ const translate = (function () {
         }
     }
     // 调用函数
-    //功能-增加图标
+    //STUB - 增加图标
     if (viewicon) {
         if (/^https:\/\/(greasy|sleazy)fork\.org\/([^/]+\/)?scripts\/([^/]+|$)/.test(window.location.href)) {
             const installArea = document.querySelector('div#install-area')
@@ -986,7 +982,7 @@ const translate = (function () {
             }
         }
     }
-    //功能-油猴新窗口打开
+    //STUB - 油猴新窗口打开
     if (newtabtoinstall) {
         //      installBtn.target = '_blank';
         document.querySelectorAll('a').forEach(item => {
@@ -996,7 +992,7 @@ const translate = (function () {
             }
         })
     }
-    //功能-作者界面清理超过30天的评论
+    //STUB - 作者界面清理超过30天的评论
     if (clearhomepage) {
         if (window.location.href.includes("users")) {
             let items = document.querySelectorAll("#user-discussions-on-scripts-written > section > div")
@@ -1011,12 +1007,12 @@ const translate = (function () {
             }
         }
     }
-    //功能-修复导航栏不在中间
+    //STUB - 修复导航栏不在中间
     if (wightnav) {
         var e = document.getElementsByClassName("width-constraint")
         e[0].style.maxWidth = "95%" //header
     }
-    //功能-最大化使用
+    //STUB - 最大化使用
     if (greasymaxWidth) {
         try {
             var e = document.getElementsByClassName("width-constraint")
@@ -1037,7 +1033,7 @@ const translate = (function () {
         } catch (exp) { } //carbon werbung
         //try{document.getElementsByClassName("adsbygoogle")[0].style.height = "0px";}catch(exp){} //google werbung
     }
-    //功能-点击导航栏默认跳转创建日期
+    //STUB - 点击导航栏默认跳转创建日期
     if (scriptwithdata) {
         var scriptslinks = document.getElementsByClassName("scripts-index-link")
         if (userhandleLocaleFilter) {
@@ -1046,7 +1042,7 @@ const translate = (function () {
             scriptslinks[0].firstChild.href = scriptslinks[0].firstChild.href.replace("/scripts", "/scripts?sort=created")
         }
     }
-    // 功能-跳转大人
+    // STUB - 跳转大人
     if (jumpto) {
         var currentUrl = window.location.href
         const country_code = getCountryCode()
@@ -1056,14 +1052,13 @@ const translate = (function () {
             addNavLink("🍴", "https://greasyfork.org/" + country_code + '/scripts', false, false)
         }
     }
-    //功能-本地收藏夹
+    //STUB - 本地收藏夹
     function refreshFavorites() {
         favs = JSON.parse(GM_getValue('favs', '[]'))
     }
     if (userlocalfav) {
         addNavLink(translate('localbookmarks'), "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks", true)
     }
-
     function favPage() {
         if (window.location.href == "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks") {
             document.title = 'bookmarks'
@@ -1199,12 +1194,12 @@ margin-bottom: 0;
             li.innerHTML = '<a href="#" style="text-decoration: none;">☆</a>'
         }
     }
-    // 功能-脚本名称清理 https://greasyfork.org/zh-CN/scripts/431940
+    // STUB - 脚本名称清理 https://greasyfork.org/zh-CN/scripts/431940
     const m = /(\/[^/]+\/(?:scripts|users)\/\d+)-[^/]+(\/.*)?/.exec(location.pathname)
     if (m && cleanscriptname) {
         history.replaceState({}, null, `${location.origin}${m[1]}${m[2] ?? ''}${location.search}${location.hash}`)
     }
-    // 功能-主页增加编辑  // Adds a new link plus a separator
+    // STUB - 主页增加编辑  // Adds a new link plus a separator
     //https://update.greasyfork.org/scripts/15201/Greasy%20Fork%20Links.user.js
     if (addedittohomepage && isHomepage()) {
         function insertElement(link, text, href) {
@@ -1238,11 +1233,11 @@ margin-bottom: 0;
             }
         }
     }
-    //功能-隐藏主页评论
+    //STUB - 隐藏主页评论
     if (hideuserdiscussions && isHomepage()) {
         document.querySelector("#user-discussions").style.display = 'none'
     }
-    // 功能-短链接复制
+    // STUB - 短链接复制
     const idPrefix = "" // 根据需要设置前缀
     if (copyshortlink && document.querySelector("#script-info")) {
         shortLink()
@@ -1285,7 +1280,7 @@ margin-bottom: 0;
         }
     }
     //webhoot
-    // 功能-导航栏增加打开设置
+    // STUB - 导航栏增加打开设置
     if (setopenindoc) {
         addNavLink(translate('thisname'), '#', false, false, "renminde")
         var customClassName = 'renminde' // 自定义类名
@@ -1297,7 +1292,7 @@ margin-bottom: 0;
             })
         }
     }
-    // 功能-评论区美化选项
+    // STUB - 评论区美化选项
     if (modifyRadioLabels) {
         if (document.location.pathname.endsWith('/feedback')) {
             var ratings = {
@@ -1331,7 +1326,7 @@ margin-bottom: 0;
         }
         //
     }
-    // 功能-代码字数
+    // STUB - 代码字数
     function get_size_from_doc(doc) {
         let t = doc.querySelector('#script-content .code-container pre').innerText
         const byteLength = new TextEncoder().encode(t).length
@@ -1381,7 +1376,7 @@ margin-bottom: 0;
             .join('\n')
         GM_setClipboard(codeText, "text")
     }
-    // 功能-代码复制按钮
+    // STUB - 代码复制按钮
     function copycodelink() {
         let b = document.createElement('a')
         b.href = '#'
@@ -1401,7 +1396,7 @@ margin-bottom: 0;
             document.querySelector('#script-feedback-suggestion').appendChild(b)
         }
     }
-    // 功能-切换脚本简介greasyfork.org/scripts/471149
+    // STUB - 切换脚本简介greasyfork.org/scripts/471149
     let additionalInfoDiv = document.querySelector('#additional-info.user-content')
     if (sethtmlview && additionalInfoDiv) {
         const htmlViewb = document.createElement("a")
@@ -1429,7 +1424,7 @@ margin-bottom: 0;
             additionalInfoDiv.parentNode.insertBefore(htmlViewb, additionalInfoDiv)
         }
     }
-    // 功能-侧边栏脚本上移动
+    // STUB - 侧边栏脚本上移动
     const findlis = document.getElementById("script-list-sort")
     if (scriptset && findlis) {
         var observer = new MutationObserver(function (mutationsList) {
@@ -1455,17 +1450,14 @@ margin-bottom: 0;
             subtree: true
         })
     }
-    // 功能-编辑器自动美化
+    // STUB - 编辑器自动美化
     if (/\/(versions|script_versions)\/new/.test(window.location.href)) {
         if (autocheck) {
             var textarea = document.getElementById('script_version_code')
             waitForElement('#enable-source-editor-code').then(() => {
                 // 选择 enable-source-editor-code 元素
                 const checkbox = document.querySelector('#enable-source-editor-code')
-
-
                 if (checkbox && !checkbox.checked) {
-
                     checkbox.click()
                     textarea.style.height = '800px'
                     logMessage('autocheck', '自动点击完成', true)
@@ -1492,7 +1484,7 @@ margin-bottom: 0;
             GM_setValue('clearhomepage', false)
         }
     }
-    //功能-列表增加评分
+    //STUB - 列表增加评分各种操作按钮
     /**
      * 创建一个自定义的链接元素
      * @param {string} url - 链接的目标地址
@@ -1770,8 +1762,20 @@ margin-bottom: 0;
             mutations.forEach(mutation => {
                 if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
                     mutation.addedNodes.forEach(node => {
+                        if (node.nodeType === 1 && (node.id === "user-script-list-section" || node.id === "browse-script-list")) {
+                            if (node.id === "user-script-list-section") {
+                                node = node.querySelector("#user-script-list")
+                                logMessage('用户列表', '元素', true, node)
+                            }
+                            if (node.id === "browse-script-list") {
+                                logMessage('脚本列表', '元素', true, node)
+                            }
+                            Array.from(node.children).forEach(li => {
+                                processScriptItem(li)
+                            })
+                        }
                         if (node.nodeType === 1 && (node.matches('#browse-script-list > li') || node.matches('#user-script-list > li'))) {
-                            logMessage('脚本列表', '元素', true, node)
+                            logMessage('脚本列表_规则2', '元素', true, node)
                             processScriptItem(node)
                         }
                     })
@@ -1781,7 +1785,7 @@ margin-bottom: 0;
         // 观察整个文档主体中的变化
         ScriptListobserver.observe(document.body, { childList: true, subtree: true })
     }
-    //  功能- 修复导航栏https://update.greasyfork.org/scripts/473269/GreasyFork%20Header%20Style%20Fix.user.js
+    //  STUB -  修复导航栏https://update.greasyfork.org/scripts/473269/GreasyFork%20Header%20Style%20Fix.user.js
     if (HeaderStyleFix) {
         let css = `
     /* Insert code here... */
@@ -1854,7 +1858,7 @@ margin-bottom: 0;
             (document.querySelector("head") || document.documentElement).appendChild(styleNode)
         }
     }
-    //功能- 显示绝对时间 https://update.greasyfork.org/scripts/470348/Absolute%20Time%20on%20GreasyFork.user.js
+    //STUB -  显示绝对时间 https://update.greasyfork.org/scripts/470348/Absolute%20Time%20on%20GreasyFork.user.js
     if (AbsoluteTime) {
         let langUsed = null
         const Promise = (async () => { })().constructor
@@ -1954,7 +1958,7 @@ margin-bottom: 0;
         })
         document.head.appendChild(document.createElement('style')).textContent = cssText
     }
-    //功能- 给库和脚本详情页增加下载按钮  https://greasyfork.org/users/980489
+    //STUB -  给库和脚本详情页增加下载按钮  https://greasyfork.org/users/980489
     if (addbutton && document.querySelector('div#script-feedback-suggestion')) {
         const installArea = document.querySelector('div#install-area')
         const installBtns = installArea?.querySelectorAll(':scope > a.install-link')
@@ -2121,7 +2125,7 @@ margin-bottom: 0;
             // GM_setValue(scriptID, url);
         }
     }
-    //功能-美化控件
+    //STUB - 美化控件
     const beautifyMarkdownCSS = 'code {\r\n font-family: Menlo, Monaco, Consolas, "Courier New", monospace;\r\n font-size: 0.85em;\r\n  color: #000;\r\n  background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n padding: 0.2em 0;\r\n}\r\ntable {\r\n text-indent: initial;\r\n}\r\ntable {\r\n margin: 10px 0 15px 0;\r\n  border-collapse: collapse;\r\n  border-spacing: 0;\r\n  display: block;\r\n width: 100%;\r\n  overflow: auto;\r\n word-break: normal;\r\n word-break: keep-all;\r\n}\r\ncode,\r\npre {\r\n  color: #333;\r\n  background: 0 0;\r\n  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;\r\n  text-align: left;\r\n white-space: pre;\r\n word-spacing: normal;\r\n word-break: normal;\r\n word-wrap: normal;\r\n  line-height: 1.4;\r\n -moz-tab-size: 8;\r\n -o-tab-size: 8;\r\n tab-size: 8;\r\n  -webkit-hyphens: none;\r\n  -moz-hyphens: none;\r\n -ms-hyphens: none;\r\n  hyphens: none;\r\n}\r\npre {\r\n  padding: 0.8em;\r\n overflow: auto;\r\n border-radius: 3px;\r\n background: #f5f5f5;\r\n}\r\n:not(pre) > code {\r\n padding: 0.1em;\r\n border-radius: 0.3em;\r\n white-space: normal;\r\n  background: #f5f5f5;\r\n}\r\nhtml body {\r\n  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,\r\n    sans-serif;\r\n font-size: 16px;\r\n  line-height: 1.6;\r\n color: #333;\r\n  background-color: #fff;\r\n overflow: initial;\r\n  box-sizing: border-box;\r\n word-wrap: break-word;\r\n}\r\nhtml body > :first-child {\r\n margin-top: 0;\r\n}\r\nhtml body h1,\r\nhtml body h2,\r\nhtml body h3,\r\nhtml body h4,\r\nhtml body h5,\r\nhtml body h6 {\r\n  line-height: 1.2;\r\n margin-top: 1em;\r\n  margin-bottom: 16px;\r\n  color: #000;\r\n}\r\nhtml body h1 {\r\n font-size: 2.25em;\r\n  font-weight: 300;\r\n padding-bottom: 0.3em;\r\n}\r\nhtml body h2 {\r\n font-size: 1.75em;\r\n  font-weight: 400;\r\n padding-bottom: 0.3em;\r\n}\r\nhtml body h3 {\r\n font-size: 1.5em;\r\n font-weight: 500;\r\n}\r\nhtml body h4 {\r\n  font-size: 1.25em;\r\n  font-weight: 600;\r\n}\r\nhtml body h5 {\r\n  font-size: 1.1em;\r\n font-weight: 600;\r\n}\r\nhtml body h6 {\r\n  font-size: 1em;\r\n font-weight: 600;\r\n}\r\nhtml body h1,\r\nhtml body h2,\r\nhtml body h3,\r\nhtml body h4,\r\nhtml body h5 {\r\n  font-weight: 600;\r\n}\r\nhtml body h5 {\r\n  font-size: 1em;\r\n}\r\nhtml body h6 {\r\n  color: #5c5c5c;\r\n}\r\nhtml body strong {\r\n  color: #000;\r\n}\r\nhtml body del {\r\n  color: #5c5c5c;\r\n}\r\nhtml body a:not([href]) {\r\n color: inherit;\r\n}\r\nhtml body a {\r\n text-decoration: underline;\r\n text-underline-offset: 0.2rem;\r\n}\r\nhtml body a:hover {\r\n  color: #00a3f5;\r\n}\r\nhtml body img {\r\n max-width: 100%;\r\n}\r\nhtml body > p {\r\n  margin-top: 0;\r\n  margin-bottom: 16px;\r\n  word-wrap: break-word;\r\n}\r\nhtml body > ol,\r\nhtml body > ul {\r\n  margin-bottom: 16px;\r\n}\r\nhtml body ol,\r\nhtml body ul {\r\n  padding-left: 2em;\r\n}\r\nhtml body ol.no-list,\r\nhtml body ul.no-list {\r\n  padding: 0;\r\n list-style-type: none;\r\n}\r\nhtml body ol ol,\r\nhtml body ol ul,\r\nhtml body ul ol,\r\nhtml body ul ul {\r\n  margin-top: 0;\r\n  margin-bottom: 0;\r\n}\r\nhtml body li {\r\n  margin-bottom: 0;\r\n}\r\nhtml body li.task-list-item {\r\n list-style: none;\r\n}\r\nhtml body li > p {\r\n  margin-top: 0;\r\n  margin-bottom: 0;\r\n}\r\nhtml body .task-list-item-checkbox {\r\n  margin: 0 0.2em 0.25em -1.8em;\r\n  vertical-align: middle;\r\n}\r\nhtml body .task-list-item-checkbox:hover {\r\n  cursor: pointer;\r\n}\r\nhtml body blockquote {\r\n margin: 16px 0;\r\n font-size: inherit;\r\n padding: 0 15px;\r\n  color: #5c5c5c;\r\n background-color: #f0f0f0;\r\n  border-left: 4px solid #d6d6d6 !important;\r\n}\r\nhtml body blockquote > :first-child {\r\n  margin-top: 0;\r\n}\r\nhtml body blockquote > :last-child {\r\n margin-bottom: 0;\r\n}\r\nhtml body hr {\r\n  height: 4px;\r\n  margin: 32px 0;\r\n background-color: #d6d6d6;\r\n  border: 0 none;\r\n}\r\nhtml body table {\r\n margin: 10px 0 15px 0;\r\n  border-collapse: collapse;\r\n  border-spacing: 0;\r\n  display: block;\r\n width: 100%;\r\n  overflow: auto;\r\n word-break: normal;\r\n word-break: keep-all;\r\n}\r\nhtml body table th {\r\n  font-weight: 700;\r\n color: #000;\r\n}\r\nhtml body table td,\r\nhtml body table th {\r\n  border: 1px solid #d6d6d6;\r\n  padding: 6px 13px;\r\n}\r\nhtml body dl {\r\n padding: 0;\r\n}\r\nhtml body dl dt {\r\n padding: 0;\r\n margin-top: 16px;\r\n font-size: 1em;\r\n font-style: italic;\r\n font-weight: 700;\r\n}\r\nhtml body dl dd {\r\n padding: 0 16px;\r\n  margin-bottom: 16px;\r\n}\r\nhtml body code {\r\n font-family: Menlo, Monaco, Consolas, "Courier New", monospace;\r\n font-size: 0.85em;\r\n  color: #000;\r\n  background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n padding: 0.2em 0;\r\n}\r\nhtml body code::after,\r\nhtml body code::before {\r\n  letter-spacing: -0.2em;\r\n content: "\\00a0";\r\n}\r\nhtml body pre > code {\r\n padding: 0;\r\n margin: 0;\r\n  word-break: normal;\r\n white-space: pre;\r\n background: 0 0;\r\n  border: 0;\r\n}\r\nhtml body .highlight {\r\n margin-bottom: 16px;\r\n}\r\nhtml body .highlight pre,\r\nhtml body pre {\r\n padding: 1em;\r\n overflow: auto;\r\n line-height: 1.45;\r\n  border: #d6d6d6;\r\n  border-radius: 3px;\r\n}\r\nhtml body .highlight pre {\r\n  margin-bottom: 0;\r\n word-break: normal;\r\n}\r\nhtml body pre code,\r\nhtml body pre tt {\r\n display: inline;\r\n  max-width: initial;\r\n padding: 0;\r\n margin: 0;\r\n  overflow: initial;\r\n  line-height: inherit;\r\n word-wrap: normal;\r\n  background-color: transparent;\r\n  border: 0;\r\n}\r\nhtml body pre code:after,\r\nhtml body pre code:before,\r\nhtml body pre tt:after,\r\nhtml body pre tt:before {\r\n  content: normal;\r\n}\r\nhtml body blockquote,\r\nhtml body dl,\r\nhtml body ol,\r\nhtml body p,\r\nhtml body pre,\r\nhtml body ul {\r\n  margin-top: 0;\r\n  margin-bottom: 16px;\r\n}\r\nhtml body kbd {\r\n  color: #000;\r\n  border: 1px solid #d6d6d6;\r\n  border-bottom: 2px solid #c7c7c7;\r\n padding: 2px 4px;\r\n background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n}\r\n@media print {\r\n  html body {\r\n   background-color: #fff;\r\n }\r\n html body h1,\r\n html body h2,\r\n html body h3,\r\n html body h4,\r\n html body h5,\r\n html body h6 {\r\n    color: #000;\r\n    page-break-after: avoid;\r\n  }\r\n html body blockquote {\r\n    color: #5c5c5c;\r\n }\r\n html body pre {\r\n   page-break-inside: avoid;\r\n }\r\n html body table {\r\n   display: table;\r\n }\r\n html body img {\r\n   display: block;\r\n   max-width: 100%;\r\n    max-height: 100%;\r\n }\r\n html body code,\r\n html body pre {\r\n   word-wrap: break-word;\r\n    white-space: pre;\r\n }\r\n}\r\n.scrollbar-style::-webkit-scrollbar {\r\n width: 8px;\r\n}\r\n.scrollbar-style::-webkit-scrollbar-track {\r\n border-radius: 10px;\r\n  background-color: transparent;\r\n}\r\n.scrollbar-style::-webkit-scrollbar-thumb {\r\n  border-radius: 5px;\r\n background-color: rgba(150, 150, 150, 0.66);\r\n  border: 4px solid rgba(150, 150, 150, 0.66);\r\n  background-clip: content-box;\r\n}\r\n'
     const beautifyButtonCSS = '/* 美化按钮 */\r\ninput[type="submit"],\r\nbutton {\r\n  display: inline-flex;\r\n justify-content: center;\r\n  align-items: center;\r\n  line-height: 1;\r\n height: 32px;\r\n white-space: nowrap;\r\n  cursor: pointer;\r\n  /* color: #606266; */\r\n text-align: center;\r\n box-sizing: border-box;\r\n outline: none;\r\n  transition: 0.1s;\r\n font-weight: 500;\r\n user-select: none;\r\n  vertical-align: middle;\r\n -webkit-appearance: none;\r\n background-color: #ffffff;\r\n  border: 1px solid #dcdfe6;\r\n  border-color: #dcdfe6;\r\n  padding: 8px 15px;\r\n  font-size: 14px;\r\n  border-radius: 4px;\r\n}\r\n\r\ninput[type="submit"]:hover,\r\ninput[type="submit"]:focus,\r\nbutton:hover,\r\nbutton:focus {\r\n color: #409eff;\r\n border-color: #c6e2ff;\r\n  background-color: #ecf5ff;\r\n  outline: none;\r\n}\r\n\r\ninput[type="url"] {\r\n  position: relative;\r\n font-size: 14px;\r\n  display: inline-flex;\r\n line-height: 32px;\r\n  box-sizing: border-box;\r\n vertical-align: middle;\r\n -webkit-appearance: none;\r\n /* color: #606266; */\r\n padding: 0;\r\n outline: none;\r\n  border: none;\r\n background: none;\r\n flex-grow: 1;\r\n align-items: center;\r\n  justify-content: center;\r\n  padding: 1px 11px;\r\n  background-color: #ffffff;\r\n  background-image: none;\r\n border-radius: 4px;\r\n cursor: text;\r\n transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\r\n transform: translateZ(0);\r\n box-shadow: 0 0 0 1px #dcdfe6 inset;\r\n\r\n  width: 100%;\r\n  width: -moz-available;\r\n  width: -webkit-fill-available;\r\n  width: fill-available;\r\n}\r\n\r\ninput[type="url"]::placeholder {\r\n color: #a8abb2;\r\n}\r\n\r\ninput[type="url"]:hover {\r\n box-shadow: 0 0 0 1px #c0c4cc inset;\r\n}\r\n\r\ninput[type="url"]:focus {\r\n  box-shadow: 0 0 0 1px #409eff inset;\r\n}\r\n'
     const beautifyRadioCSS = 'label.radio-label {\r\n font-weight: 500;\r\n position: relative;\r\n cursor: pointer;\r\n  display: inline-flex;\r\n align-items: center;\r\n  white-space: normal;\r\n  outline: none;\r\n  font-size: 14px;\r\n  user-select: none;\r\n  margin-right: 32px;\r\n height: 32px;\r\n padding: 4px;\r\n border-radius: 4px;\r\n box-sizing: border-box;\r\n}\r\nlabel:has(input[type="radio"]:checked),\r\nlabel:has(input[type="radio"]:checked) a {\r\n color: #409eff;\r\n}\r\nlabel.radio-label input[type="radio"] {\r\n margin-right: 4px;\r\n  width: 14px;\r\n  height: 14px;\r\n}\r\nlabel.radio-label input[type="radio"]:checked {\r\n -webkit-appearance: none;\r\n -moz-appearance: none;\r\n  appearance: none;\r\n border-radius: 50%;\r\n width: 14px;\r\n  height: 14px;\r\n outline: none;\r\n  border: 4px solid #409eff;\r\n  cursor: pointer;\r\n}\r\nlabel.radio-label input[type="radio"]:checked + span {\r\n color: #409eff;\r\n}\r\n'
@@ -2141,7 +2145,7 @@ ${compatibleBeautifyCSS}
     `)
         // 添加 CSS 样式到页面
     }
-    //功能-美化版本列表边框
+    //STUB - 美化版本列表边框
     function beautifyChangelog() {
         document.querySelectorAll(".version-changelog").forEach(element => {
             element.style.cssText = `
@@ -2178,7 +2182,7 @@ ${compatibleBeautifyCSS}
         })
     }
     // 调用函数来执行替换操作
-    //功能- 下载历史版本
+    //STUB -  下载历史版本
     if (window.location.href.includes('versions') && installforversions) {
         beautifyChangelog()//m美化日志
         replaceVersionLinks()//美化信息边框
@@ -2265,7 +2269,7 @@ ${compatibleBeautifyCSS}
             logMessage('createHistoryLinks', '找不到父元素', false)
         }
     }
-    //功能- 脚本详情页增加作者所有脚本
+    //STUB -  脚本详情页增加作者所有脚本
     function createAuthorScriptsLink() {
         // 检查是否已经存在作者其他脚本链接
         if (document.querySelector('[data-author-scripts-link]')) {
@@ -2373,7 +2377,7 @@ ${compatibleBeautifyCSS}
                 })
         }
     }
-    //功能-主页显示统计
+    //STUB - 主页显示统计
     const userHeader = document.querySelector('#about-user h2')
     if (userHeader && shouwtotalonuserpage) {
         var userId = window.location.href.match(/\d+/)?.[0]
@@ -2620,7 +2624,7 @@ button:focus {
         //    checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, version)
         return scriptInfoHtml
     }
-    //功能- 锁定语言  greasyfork.org/scripts/6245/
+    //STUB -  锁定语言  greasyfork.org/scripts/6245/
     if (setlocklang) {
         let valuehe = ''
         if (window.location.origin == 'https://greasyfork.org') {
@@ -3076,7 +3080,6 @@ button:focus {
         { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: GM_getValue('wightnav', true), onchange: function () { GM_setValue('wightnav', this.checked) } },
         { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: GM_getValue('Expandsubmenu', false), onchange: function () { GM_setValue('Expandsubmenu', this.checked) } },
         { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: GM_getValue('beautifyTopNav', true), onchange: function () { GM_setValue('beautifyTopNav', this.checked) } },
-
     ]
     )
     createCategory('category3', translate('website'), [
@@ -3095,7 +3098,6 @@ button:focus {
         { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: GM_getValue('useroutline', true), onchange: function () { GM_setValue('useroutline', this.checked) } },
         { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: GM_getValue('userimageproxy', false), onchange: function () { GM_setValue('userimageproxy', this.checked) } },
         { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: GM_getValue('fixElementoption', true), onchange: function () { GM_setValue('fixElementoption', this.checked) } },
-
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
@@ -3112,7 +3114,6 @@ button:focus {
         { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: GM_getValue('scriptset', true), onchange: function () { GM_setValue('scriptset', this.checked) } },
         { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: GM_getValue('scriptwithdata', true), onchange: function () { GM_setValue('scriptwithdata', this.checked) } },
         { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: GM_getValue('scriptlistdouble', true), onchange: function () { GM_setValue('scriptlistdouble', this.checked) } },
-
     ], viewMode)
     createCategory('sl2', translate('personalhomepage'), [
         { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: GM_getValue('clearhomepage', true), onchange: function () { GM_setValue('clearhomepage', this.checked) } },
@@ -3444,7 +3445,7 @@ button:focus {
             }
         }
     }
-    //功能-隐藏AD 482672
+    //STUB - 隐藏AD 482672
     function addStyleToHideElements(classSelectors) {
         classSelectors.forEach(selector => {
             var style = document.createElement('style')
@@ -3454,7 +3455,7 @@ button:focus {
         })
     }
     addStyleToHideElements(['.ad-entry', '.ad.ad-ea'])
-    //功能-语言筛选器 greasyfork.org/scripts/467463
+    //STUB - 语言筛选器 greasyfork.org/scripts/467463
     function handleLocaleFilter(linkSelector, filterParam = 'filter_locale', defaultValue = '0') {
         const currentURL = new URL(window.location.href)
         const regex = /^https:\/\/greasyfork\.org\/.*\/scripts\?.*/
@@ -3481,7 +3482,7 @@ button:focus {
     if (userhandleLocaleFilter) {
         handleLocaleFilter('.sidebarred-main-content p a')
     }
-    //功能-旧版本视图greasyfork.org/scripts/464089/
+    //STUB - 旧版本视图greasyfork.org/scripts/464089/
     function applyCustomStyles() {
         let css = `
         /* disable default properties */
@@ -3520,7 +3521,7 @@ button:focus {
         applyCustomStyles()
     }
     // Call the function to apply the styles
-    //功能-高亮代码片段
+    //STUB - 高亮代码片段
     // Define a function to set up code highlighting
     function setupCodeHighlighting() {
         if (checkMode()) {
@@ -3560,7 +3561,7 @@ button:focus {
         return /android|iPad|iPhone|iPod|IEMobile|WPDesktop|Windows Phone|webOS|BlackBerry|Opera Mini|Mobile|tablet/i.test(userAgent) ||
             (window.innerWidth <= 1024 && (window.innerHeight <= 768 || window.orientation !== undefined))
     }
-    //功能-库页面增加复制按钮 greasyfork.org/scripts/463
+    //STUB - 库页面增加复制按钮 greasyfork.org/scripts/463
     function addCopyButtonBeforeScriptLink() {
         var scriptLink = $('#script-content > p > code:first-child')
         if (scriptLink.length > 0) {
@@ -3615,7 +3616,7 @@ button:focus {
     if (addCopyButtonBeforelibScript) {
         addCopyButtonBeforeScriptLink()
     }
-    //功能-代码查看页面增加梅花
+    //STUB - 代码查看页面增加梅花
     function setCodeContainerTheme(isDayMode, addde = true) {
         // const themeCSS = isDayMode ? GM_getResourceText('nnfx-light.min.css') : GM_getResourceText('nnfx-dark.min.css');
         const themeCSS = isDayMode ? GM_getResourceText('atom-one-light.css') : GM_getResourceText('atom-one-dark.css')
@@ -3670,7 +3671,6 @@ button:focus {
   cursor: auto;
 }
       `)
-
         }
     }
     // 选择白天模式或黑夜模式  //反选
@@ -3762,7 +3762,7 @@ button:focus {
             }
         })
     }
-    //功能-选择器透明
+    //STUB - 选择器透明
     function fuckselector() {
         const languageSelector = document.querySelector("#language-selector-locale")
         if (languageSelector) {
@@ -3872,7 +3872,7 @@ button:focus {
                 return null
         }
     }
-    //功能-已经阅读的评论斜体
+    //STUB - 已经阅读的评论斜体
     function applyDiscussionReadStyles(hide, applyStyles) {
         const style = document.createElement('style')
         let css = '.discussion-list-container.discussion-read {'
@@ -3885,7 +3885,7 @@ button:focus {
         document.head.appendChild(style)
     }
     applyDiscussionReadStyles(hidediscussionread, italicdiscussionread)
-    //功能-在代码页面增加引用库数量显示
+    //STUB - 在代码页面增加引用库数量显示
     function logUserScriptOccurrences(textContent) {
         const urlPattern = /(https?:\/\/[^\s]+)/g  // 匹配网址的正则表达式
         const scriptPattern = /(@require|@resource)/  // 查找 @require 或 @resource 的正则表达式
@@ -3938,7 +3938,6 @@ button:focus {
                 return textContent
             }
         } catch (error) {
-
             throw error // 将错误抛出，以便调用者处理
         }
     }
@@ -3996,7 +3995,7 @@ button:focus {
             //console.error('指定的插入位置不存在');
         }
     }
-    //功能-添加举报
+    //STUB - 添加举报
     const TEST_MODE = 0
     let skipMode = false
     const onIframeLoad = async (evt) => {
@@ -4376,7 +4375,7 @@ cursor: pointer;
         }
     }
     //  -------------------------------------------------------------
-    //--功能-增加本地中文汉化
+    //--STUB - 增加本地中文汉化
     if (getCountryCode() === 'zh-CN') {
         const translatet = new Map()
         translatet.set("Script Sets", "脚本收藏夹")
@@ -4388,7 +4387,7 @@ cursor: pointer;
             }
         })
     }
-    //功能-导航栏更多不收缩
+    //STUB - 导航栏更多不收缩
     if (Expandsubmenu) {
         waitForElement('a[href="#"][onclick="return false"]').then(() => {
             /*         var submenu = document.querySelector('.with-submenu')
@@ -4419,7 +4418,7 @@ cursor: pointer;
             })
         })
     }
-    //功能-增加自动登录
+    //STUB - 增加自动登录
     async function autoLogin() {
         // 等待登录链接出现
         await waitForElement("span.sign-in-link a[rel=nofollow]")
@@ -4427,7 +4426,6 @@ cursor: pointer;
         let pwd = userpassword
         if (!user) {
             Toast(translate('nostoredaccount'), 1000, '#ff6347', '#ffffff', 'top')
-
             return
         }
         if (!pwd) {
@@ -4487,8 +4485,7 @@ cursor: pointer;
             observer.observe(document.body, { childList: true, subtree: true })
         })
     }
-
-    //功能-设置脚本列表为双列 
+    //STUB - 设置脚本列表为双列 
     if (scriptlistdouble) {
         const beautifyCenterContentCSS = `
         .sidebarred-main-content {
@@ -4522,11 +4519,9 @@ cursor: pointer;
             box-shadow: rgb(221, 221, 221) 0px 0px 5px 2px;
         }
     `
-
         GM_addStyle(beautifyCenterContentCSS)
     }
-
-    //功能-侧边栏
+    //STUB - 侧边栏
     if (useroutline) {
         outline()
     }
@@ -4606,7 +4601,7 @@ cursor: pointer;
             }
         }
     }
-    // 功能-设置用户图片代理
+    // STUB - 设置用户图片代理
     if (userimageproxy) {
         const $$ = document.querySelectorAll.bind(document)
         const PROXY = "https://wsrv.nl/?url="
@@ -4632,26 +4627,19 @@ cursor: pointer;
     height: auto; /* 自动高度，以适应内容 */
 }
           `)
-
     }
     if (fixElementoption && isMobile() === false) {
         let element = document.querySelector("#script-list-option-groups")
-
         if (!element) {
             element = document.querySelector("body > div.width-constraint > div > div.sidebar.collapsed")
         }
         if (element) {
             function fixElementInViewport() {
-
                 const viewportTop = window.scrollY
                 const viewportLeft = window.scrollX
-
-
                 const rect = element.getBoundingClientRect()
                 const elementWidth = rect.width
                 const elementHeight = rect.height
-
-
                 element.style.position = "fixed"
                 element.style.top = "60px"   // 固定在距离视口顶部 10 像素的位置
                 element.style.right = "10px" // 固定在距离视口右侧 10 像素的位置
@@ -4660,19 +4648,12 @@ cursor: pointer;
                 element.style.boxShadow = "0 2px 5px rgba(0,0,0,0.3)"
                 element.style.overflow = "auto" // 允许内容滚动
                 element.style.maxHeight = "800px" // 设置最大高度为视口高度减去顶部和底部的边距
-
-
             }
-
-
             fixElementInViewport()
-
-
             window.addEventListener('resize', fixElementInViewport)
             window.addEventListener('scroll', fixElementInViewport)
         }
     }
-
     /**
      * 美化顶部导航栏
      */
@@ -4681,15 +4662,10 @@ cursor: pointer;
         function beautifyTopNavigationBar() {
             const beautifyTopNavigationBarCSS = "#language-selector {\r\n	display: none;\r\n}\r\n@media screen and (min-width: 600px) {\r\n	body {\r\n		--header-height: 50px;\r\n		--el-gap: 20px;\r\n	}\r\n\r\n	header#main-header {\r\n		height: var(--header-height);\r\n		position: fixed;\r\n		top: 0;\r\n		width: 100%;\r\n		z-index: 55555;\r\n		padding: unset;\r\n		display: flex;\r\n		justify-content: space-around;\r\n	}\r\n\r\n	header#main-header + div {\r\n		margin-top: calc(var(--header-height) + 35px);\r\n	}\r\n\r\n	header#main-header .width-constraint {\r\n		display: flex;\r\n		align-items: center;\r\n		gap: var(--el-gap);\r\n		padding: unset;\r\n		margin: unset;\r\n		max-width: unset;\r\n	}\r\n\r\n	header#main-header a {\r\n		text-decoration: none;\r\n		text-wrap: nowrap;\r\n	}\r\n\r\n	header#main-header .sign-out-link a {\r\n		text-decoration: underline;\r\n	}\r\n\r\n	header#main-header #site-name {\r\n		display: flex;\r\n		align-items: center;\r\n	}\r\n\r\n	header#main-header #site-name img {\r\n		width: calc(var(--header-height) - 5px);\r\n		height: calc(var(--header-height) - 5px);\r\n	}\r\n\r\n	/* 隐藏Greasyfork文字 */\r\n	header#main-header #site-name-text {\r\n		display: none;\r\n	}\r\n\r\n	header#main-header #site-nav {\r\n		display: flex;\r\n		flex-direction: row-reverse;\r\n		align-items: center;\r\n		flex: 1;\r\n		justify-content: space-between;\r\n		height: 100%;\r\n		gap: var(--el-gap);\r\n	}\r\n\r\n	header#main-header #site-nav nav li {\r\n		padding: 0 0.5em;\r\n		display: flex;\r\n		align-items: center;\r\n		height: var(--header-height);\r\n		min-width: 30px;\r\n		justify-content: center;\r\n	}\r\n\r\n	header#main-header #site-nav nav li:hover {\r\n		background: #5f0101;\r\n	}\r\n\r\n	header#main-header #nav-user-info {\r\n		max-width: 150px;\r\n	}\r\n\r\n	header#main-header #nav-user-info > span {\r\n		flex: 1;\r\n	}\r\n\r\n	header#main-header #nav-user-info,\r\n	header#main-header #nav-user-info + nav {\r\n		position: unset;\r\n		width: unset;\r\n		display: flex;\r\n		flex-wrap: nowrap;\r\n		align-items: center;\r\n	}\r\n}\r\n"
             GM_addStyle(beautifyTopNavigationBarCSS)
-
-
-
         }
     }
-
-
 })()
-///--功能-美化网页徽章等 greasyfork.org/scripts/436913
+///--STUB - 美化网页徽章等 greasyfork.org/scripts/436913
 function addbageStyles() {
     const cssMain = `
         .report-link.report-link-abs::before {
@@ -4732,6 +4708,3 @@ function addbageStyles() {
     GM_addStyle(cssMain)
 }
 addbageStyles()
-
-
-
