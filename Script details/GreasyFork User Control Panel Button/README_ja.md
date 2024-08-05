@@ -244,9 +244,9 @@
 ---
 
 ## 写真
-![3.png](https://s3.bmp.ovh/imgs/2024/08/05/baaacaa42567825c.png)
-![2.png](https://s3.bmp.ovh/imgs/2024/08/05/bc4d5759adbafa24.png)
-![1.png](https://s3.bmp.ovh/imgs/2024/08/05/7d194fbc79d1be96.png)
+![3.png](https://s2.loli.net/2024/08/05/woDtxEg5SGrTJ7h.png)
+![1.png](https://s2.loli.net/2024/08/05/GtB2fbacqSOX1hz.png)
+![2.png](https://s2.loli.net/2024/08/05/sDZqO8fgEk1GzWh.png)
 
 
 
