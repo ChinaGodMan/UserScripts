@@ -259,7 +259,7 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 [Tampermonkey]:http://tampermonkey.net/ "篡改猴"
 [Violentmonkey]:https://violentmonkey.github.io/ "暴力猴"
-[Macaque]:https://macaque.app/ "猕猴"
+[Macaque]:https://macaque.app/ "猕猴 "
 [Macaquer]:https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
 [stayr]:https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
