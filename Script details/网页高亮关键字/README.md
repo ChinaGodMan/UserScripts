@@ -236,7 +236,7 @@
    - 输入你想要高亮的词，空格隔开
 
 ## 图片
-![hl.png](https://img.xwyue.com/i/2024/07/20/669ac8ff115db.png)
+![](https://s3.bmp.ovh/imgs/2024/08/05/165e1f40ed762fcc.png)
 
 
 ## 初次安装
