@@ -240,8 +240,8 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 **Note**: This userscript requires a userscript manager extension to be installed in your browser. 
 
 ##  Preview
-![show.png](https://img.xwyue.com/i/2024/07/20/669b6a3841b1b.png)
-![fi.png](https://img.xwyue.com/i/2024/07/20/669ac8feb90d1.png)
+![fi.png](https://s2.loli.net/2024/08/05/WOkL8vV2oxRASYQ.png)
+![show.png](https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png)
 
 ## Aoriginal Author
 # [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
