@@ -239,7 +239,7 @@
 
 
 ## photo:
-![rank.png](https://img.xwyue.com/i/2024/07/19/6699c56c9f1a7.png)
+![rank.png](https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png)
 
 ## 使用帮助
 ### 安装浏览器
