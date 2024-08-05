@@ -240,8 +240,8 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 **注意**：该用户脚本需要在浏览器中安装用户脚本管理器才能正常使用(可在最底部查看可以使用的管理器)
 
 ## 图片
-![show.png](https://img.xwyue.com/i/2024/07/20/669b6a3841b1b.png)
-![fi.png](https://img.xwyue.com/i/2024/07/20/669ac8feb90d1.png)
+![fi.png](https://s2.loli.net/2024/08/05/WOkL8vV2oxRASYQ.png)
+![show.png](https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png)
 
 ## 原作者
 # [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
