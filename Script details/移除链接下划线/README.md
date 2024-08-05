@@ -195,6 +195,18 @@
                             src="https://img.shields.io/greasyfork/dt/501880?color=%23990000&label=Installs"><br>安装</a>
                 </td>
             </tr>
+            </tr>
+                        </tr>
+                        <tr>
+                <td><a href="/zh-CN/scripts/502652" target="_blank"><strong>Google 高级搜索助手</strong></a></td>
+                <td>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</td>
+                <td><a
+                        href="https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/502652.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/502652?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>            
         </tbody>
     </table>
 </details>
