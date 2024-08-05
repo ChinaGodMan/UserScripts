@@ -258,8 +258,9 @@
 
 脚本修改自用户 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的脚本 [ Google 高级搜索助手](https://greasyfork.org/scripts/474178) 感谢原作者 **shiquda** 的**勤劳**与**智慧**
 
-![mb.png](https://s3.bmp.ovh/imgs/2024/08/05/415c4157626c369f.png)
-![PC.png](https://s3.bmp.ovh/imgs/2024/08/05/b3ec50953a1b76c0.png)
+![mb.png](https://s2.loli.net/2024/08/05/DMIGuYrvTF1QRE9.png)
+![PC.png](https://s2.loli.net/2024/08/05/Yo1pmz3v8uINMnR.png)
+
 
 
 ## 使用帮助

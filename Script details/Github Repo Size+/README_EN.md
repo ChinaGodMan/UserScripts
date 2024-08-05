@@ -227,8 +227,8 @@ A userscript that adds the size of Github repositories to the search results and
 
 ## Preview
 
-![preview1.png](https://s3.bmp.ovh/imgs/2024/08/05/c8bce0e20af1fa5e.png)
-![preview2.png](https://s3.bmp.ovh/imgs/2024/08/05/5d4434df8591f039.png)
+![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
+![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
 
 
 ## Prerequisites
