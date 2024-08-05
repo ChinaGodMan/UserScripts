@@ -338,20 +338,20 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 ## Photos:
 
-<img src="https://img.xwyue.com/i/2024/07/12/669052994d5f4.png" alt="nav.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/66905299aaa1e.png" alt="rep2.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529a9d5e5.png" alt="rep1.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c24d9a.png" alt="time.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c57dab.png" alt="user.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c62ebd.png" alt="maxw.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c744ea.png" alt="hidec.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529c84351.png" alt="libdown.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529ca36ab.png" alt="scriptdet.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cb6d3f.png" alt="scripcode.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cbdc2f.png" alt="code2.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cce8da.png" alt="hisdown.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529ccfeab.png" alt="scriptlist.png" width="800">
-<img src="https://img.xwyue.com/i/2024/07/12/6690529cd54fc.png" alt="allscriptlist.png" width="800">
+![nav.png](https://s2.loli.net/2024/08/05/ePCZp6TINsnLyht.png)
+![maxw.png](https://s2.loli.net/2024/08/05/NuKCdETWZ8epkVO.png)
+![rep2.png](https://s2.loli.net/2024/08/05/oBN6yVteI5phWDa.png)
+![code2.png](https://s2.loli.net/2024/08/05/7K5uIdoYv3l8LkR.png)
+![libdown.png](https://s2.loli.net/2024/08/05/XNcaLeiAxbzvhZu.png)
+![hidec.png](https://s2.loli.net/2024/08/05/dPgULVlHmuIiqDC.png)
+![hisdown.png](https://s2.loli.net/2024/08/05/kuNwm3VWlhce7sH.png)
+![allscriptlist.png](https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png)
+![scripcode.png](https://s2.loli.net/2024/08/05/g7FXurVS2ynjvab.png)
+![rep1.png](https://s2.loli.net/2024/08/05/IbWEv1nFUuXfs4e.png)
+![user.png](https://s2.loli.net/2024/08/05/felk9jJKWDMLI54.png)
+![time.png](https://s2.loli.net/2024/08/05/9ZTCra3btwQRzqj.png)
+![scriptdet.png](https://s2.loli.net/2024/08/05/9pMfdUi2qHDREek.png)
+![scriptlist.png](https://s2.loli.net/2024/08/05/3xrMsHPSDtTf8hu.png)
 
 ---
 
