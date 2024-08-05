@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网页高亮关键字
 // @namespace    http://tampermonkey.net/
-// @version 1.1.2.27
+// @version 1.1.2.28
 // @description  对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 // @author       You
 // @include           *
