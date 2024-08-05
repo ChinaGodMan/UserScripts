@@ -71,6 +71,12 @@
             "path": "在搜索结果中屏蔽指定站点.user.js",
             "isUpdated": true,
             "backuppath": "Script details/屏蔽谷歌搜索站点"
+        },
+        {
+            "name": "谷歌高级搜索",
+            "path": "Google-advance-search.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/Google-advance-search"
         }
     ]
 }
