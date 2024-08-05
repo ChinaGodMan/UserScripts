@@ -230,7 +230,7 @@
 
 ## 预览
 
-![](https://s3.bmp.ovh/imgs/2024/08/05/1f33ee827cac9fe6.png)
+![1.png](https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png)
 
 ## 使用帮助
 ### 安装浏览器
