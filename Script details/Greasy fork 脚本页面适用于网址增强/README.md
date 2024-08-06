@@ -217,7 +217,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-<div style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">
+<div style="background-color: rgb(255, 0, 0); color: white;">
     该脚本存在BUG,建议使用<a href="/zh-CN/scripts/497346" target="_blank"><strong>【Greasyfork 糊裱匠】</strong></a>  
      <a href="https://update.greasyfork.org/scripts/497346.user.js" target="_blank"><strong>【点我安装】</strong>
      </a> 
