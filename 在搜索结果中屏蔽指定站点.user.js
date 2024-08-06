@@ -12,6 +12,7 @@
 // @compatible   firefox >= 29
 // @compatible   opera >= 46
 // @compatible   safari >= 10.1
+// @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/Scripts%20Icons/icons8-google-96.png
 
 // ==/UserScript==
 
