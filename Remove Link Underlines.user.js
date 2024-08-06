@@ -27,8 +27,7 @@
 // @match        *://*/*
 // @run-at document-body
 // @license MIT
-// @downloadURL https://update.greasyfork.org/scripts/498625/Remove%20Link%20Underlines.user.js
-// @updateURL https://update.greasyfork.org/scripts/498625/Remove%20Link%20Underlines.meta.js
+// @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-Underlines-96.png
 // ==/UserScript==
 
 //去你妈的下划线。
