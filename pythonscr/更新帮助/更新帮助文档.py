@@ -37,7 +37,7 @@ def main():
         for file_name in files:
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
-                if "Update history" in file_path:
+                if "Change history" in file_path:
                      continue
                 process_file(file_path, new_content)
                 
