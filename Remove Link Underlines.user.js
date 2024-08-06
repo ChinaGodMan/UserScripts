@@ -23,7 +23,7 @@
 // @description:ar إزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة
 // @description:hi किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटाएं और नए लिंक को गतिशील रूप से संभालें
 // @description:es Eliminar subrayados de todos los enlaces en cualquier sitio web y manejar dinámicamente nuevos enlaces
-// @author       人民的勤务员<toniaiwanowskiskr47@gmail.com> & ChatGPT
+// @author       人民的勤务员<toniaiwanowskiskr47@gmail.com>
 // @match        *://*/*
 // @run-at document-body
 // @license MIT
