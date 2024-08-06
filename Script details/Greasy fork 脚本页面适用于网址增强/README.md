@@ -217,13 +217,15 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-<div style="background-color: rgb(255, 0, 0); color: white;">
-    该脚本存在BUG,建议使用<a href="/zh-CN/scripts/497346" target="_blank"><strong>【Greasyfork 糊裱匠】</strong></a>  
-     <a href="https://update.greasyfork.org/scripts/497346.user.js" target="_blank"><strong>【点我安装】</strong>
-     </a> 
-    <div>内置超多功能,并且新脚本内的适用于增强功能经过测试完全的没有BUG
-      </div>
-</div>
+<h1>
+    <div style="background-color: rgb(255, 0, 0); color: white;">
+        该脚本存在<b>BUG</b>,建议使用<a href="/zh-CN/scripts/497346" target="_blank"><strong>【Greasyfork 糊裱匠】</strong></a>
+        <a href="https://update.greasyfork.org/scripts/497346.user.js" target="_blank"><strong>【点我安装】</strong>
+        </a>
+        <div>内置超多功能,并且新脚本内的适用于增强功能经过测试完全的没有BUG
+        </div>
+    </div>
+</h1>
 
     
 
@@ -246,7 +248,7 @@
 
 ### 0.6 版本
 新增在脚本详情页下方增加一个更改跳转方式的选择框。
-![图示](image_placeholder)
+
 
 ### 0.7 版本
 新增大人的叉子
