@@ -10,6 +10,7 @@
 // @grant         GM_setValue
 // @grant         GM_getValue
 // @require   https://cdn.jsdelivr.net/npm/vue@2.6.1/dist/vue.min.js
+// @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-mark-96.png
 
 // @license MIT
 

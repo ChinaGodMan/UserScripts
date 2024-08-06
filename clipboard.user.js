@@ -7,7 +7,7 @@
 // @include         *
 // @run-at          document-start
 // @license                  MIT
-// @icon                https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Scripts%20Icons/Clipboard.png
+// @icon                https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/Scripts%20Icons/Clipboard.png
 // ==/UserScript==
 //在其他地方下载的脚本，作者不知道是谁很不错，防范牛皮癣 。用Chatgpt修改了下，让脚本在PC端浏览时可以使用快捷键复制
 !function () {
