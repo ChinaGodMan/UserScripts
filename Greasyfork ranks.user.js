@@ -16,11 +16,11 @@
 // @description:zh-CN 在浏览脚本列表时在脚本名称后面添加脚本评分
 // @description:zh-TW  在瀏覽腳本列表時在腳本名稱後面添加腳本評分
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
-// @match        https://greasyfork.org/* 
-// @match        https://sleazyfork.org/* 
+// @match        https://greasyfork.org/*
+// @match        https://sleazyfork.org/*
 // @license      MIT
 // @grant        none
-// @icon         https://www.google.com/s2/favicons?domain=greasyfork.org
+// @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // ==/UserScript==
 (function () {
     'use strict'
