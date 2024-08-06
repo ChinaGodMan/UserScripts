@@ -6,8 +6,7 @@
 // @match       *://*/*
 // @license     MIT
 // @namespace   https://greasyfork.org/zh-CN/users/1169082
-// @downloadURL https://update.greasyfork.org/scripts/498420/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js
-// @updateURL https://update.greasyfork.org/scripts/498420/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.meta.js
+// @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-up-96.png
 // ==/UserScript==
 
 (function () {
