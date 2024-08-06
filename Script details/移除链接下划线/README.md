@@ -223,34 +223,34 @@ This userscript removes underlines from all links on any website and dynamically
 
 ## Description in Multiple Languages
 
-### Chinese (Simplified) / 中文（简体）
+###  中文（简体）
 这个用户脚本移除所有网站上的链接下划线，并动态处理新链接。它确保了更干净和更有视觉吸引力的浏览体验。
 
-### Chinese (Traditional) / 中文（繁体）
+###  中文（繁体）
 这个使用者脚本移除所有网站上的连结底线，并动态处理新连结。它确保了更干净和更有视觉吸引力的浏览体验。
 
-### French / Français
+###  Français
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
 
-### Japanese / 日本语
+###  日本语
 このユーザースクリプトは、任意のWebサイト上のすべてのリンクの下线を削除し、新しいリンクを动的に処理します。これにより、よりクリーンで视覚的に魅力的なブラウジング体験が保証されます。
 
-### German / Deutsch
+###  Deutsch
 Dieses Benutzerskript entfernt die Unterstreichungen aller Links auf jeder Website und behandelt neue Links dynamisch. Es sorgt für ein saubereres und optisch ansprechenderes Surferlebnis.
 
-### Korean / 한국어
+###  한국어
 이 사용자 스크립트는 모든 웹사이트에서 모든 링크의 밑줄을 제거하고 새 링크를 동적으로 처리합니다. 이는 더 깨끗하고 시각적으로 매력적인 브라우징 경험을 보장합니다.
 
-### Vietnamese / Tiếng Việt
+###  Tiếng Việt
 Tập lệnh người dùng này xóa gạch chân khỏi tất cả các liên kết trên bất kỳ trang web nào và xử lý động các liên kết mới. Nó đảm bảo trải nghiệm duyệt web sạch hơn và hấp dẫn hơn về mặt hình ảnh.
 
-### Arabic / العربية
+###  العربية
 يقوم هذا النص البرمجي للمستخدم بإزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة. يضمن تجربة تصفح أنظف وأكثر جاذبية بصريًا.
 
-### Hindi / हिंदी
+###  हिंदी
 यह उपयोगकर्ता स्क्रिप्ट किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटा देती है और नए लिंक को गतिशील रूप से संभालती है। यह एक क्लीनर और अधिक आकर्षक ब्राउज़िंग अनुभव सुनिश्चित करता है।
 
-### Spanish / Español
+###  Español
 Este script de usuario elimina los subrayados de todos los enlaces en cualquier sitio web y maneja dinámicamente los nuevos enlaces. Garantiza una experiencia de navegación más limpia y visualmente atractiva.
 
 ## Author
