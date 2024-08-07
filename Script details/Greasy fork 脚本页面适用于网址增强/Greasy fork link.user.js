@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Greasy fork脚本页面适用于网址增强
 // @namespace     https://github.com/qinwuyuan-cn/UserScripts
-// @version 0.9.3.23
+// @version 0.9.3.24
 // @description  脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://*.greasyfork.org/zh-CN/scripts/*
 // @match        https://*.sleazyfork.org/zh-CN/scripts/*
-// @icon               https://www.google.com/s2/favicons?domain=https://greasyfork.org
+// @icon              https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @license      MIT
 // @grant        GM_getValue
 // @grant        GM_setValue

@@ -9,7 +9,7 @@
 // @match       https://greasyfork.org/*
 // @match       https://sleazyfork.org/*
 // @grant       none
-// @version 0.3.1.14
+// @version 0.3.1.15
 // @license     MIT
 // @author      CY Fung  &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @description    To add User Control Panel Button into navigation bar
@@ -18,6 +18,7 @@
 // @description:ko 네비게이션 바에 사용자 목록, 콘솔, 즐겨찾기 등을 추가...
 // @description:ja ナビゲーションバーにユーザーリスト、コンソール、お気に入りなどを追加...
 // @description:zh-TW 在導航欄上添加使用者列表、控制台、收藏等...
+// @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // ==/UserScript==
 
 (async () => {

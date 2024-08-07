@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网页高亮关键字
 // @namespace    http://tampermonkey.net/
-// @version 1.1.2.29
+// @version 1.1.2.30
 // @description  对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 // @author       You
 // @include           *
@@ -10,6 +10,7 @@
 // @grant         GM_setValue
 // @grant         GM_getValue
 // @require   https://cdn.jsdelivr.net/npm/vue@2.6.1/dist/vue.min.js
+// @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-mark-96.png
 
 // @license MIT
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         屏蔽谷歌搜索站点
 // @namespace    https://greasyfork.org/zh-CN/users/1169082
-// @version 0.0.1.8
+// @version 0.0.1.9
 // @description  在google搜索屏蔽指定站点
 // @license      MIT
 // @author       人民的勤务员
@@ -12,6 +12,7 @@
 // @compatible   firefox >= 29
 // @compatible   opera >= 46
 // @compatible   safari >= 10.1
+// @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-google-96.png
 
 // ==/UserScript==
 
