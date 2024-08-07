@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name        置頂和置底按鈕
-// @version 1.2.0.28
+// @version 1.2.0.29
 // @description 在所有頁面生成兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消滾動到底部
 // @run-at      document-end
 // @match       *://*/*
 // @license     MIT
 // @namespace   https://greasyfork.org/zh-CN/users/1169082
-// @downloadURL https://update.greasyfork.org/scripts/498420/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js
-// @updateURL https://update.greasyfork.org/scripts/498420/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.meta.js
+// @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-up-96.png
 // ==/UserScript==
 
 (function () {
