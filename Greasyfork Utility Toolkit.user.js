@@ -48,7 +48,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.43
+// @version 2.2.0.44
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -3263,7 +3263,7 @@ button:focus {
             window.location.href = url
         }
     }
-    //webhook页面增强 482672
+    // STUB - webhook页面增强 482672
     function customizeWebhookInfoPage() {
         if (!location.pathname.includes('/users/webhook-info')) return
         document.head.appendChild(document.createElement('style')).textContent = `
@@ -3417,6 +3417,41 @@ button:focus {
             }
         })
     }
+    //STUB - WebHook脚本添加跳转
+    function addAdminButtons() {
+        const firstUl = document.querySelector('ul')
+        if (firstUl) {
+            const listItems = firstUl.querySelectorAll('li')
+            listItems.forEach(li => {
+                const firstLink = li.querySelector('a')
+                if (firstLink) {
+                    const buttonHtml = '<button style="margin-left: 10px;">admin</button>'
+                    firstLink.insertAdjacentHTML('afterend', buttonHtml)
+
+                    const button = firstLink.nextElementSibling
+                    button.addEventListener('click', () => {
+                        const originalHref = firstLink.href
+                        const newHref = originalHref + '/admin'
+                        window.open(newHref, '_blank')
+                    })
+                }
+            })
+        }
+    }
+
+    function checkAndRun() {
+        const url = window.location.href
+        const lastSegment = url.substring(url.lastIndexOf('/') + 1)
+
+        if (lastSegment === 'webhook-info') {
+            addAdminButtons()
+
+        }
+    }
+
+    // 调用函数以检查 URL 并执行操作
+    checkAndRun()
+
     // 调用函数
     customizeWebhookInfoPage()
     customizeWebhookInfoPage2()
