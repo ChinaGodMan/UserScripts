@@ -21,6 +21,8 @@
 // @license      MIT
 // @grant        none
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 (function () {
     'use strict'

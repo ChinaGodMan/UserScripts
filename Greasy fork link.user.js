@@ -10,6 +10,8 @@
 // @license      MIT
 // @grant        GM_getValue
 // @grant        GM_setValue
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {

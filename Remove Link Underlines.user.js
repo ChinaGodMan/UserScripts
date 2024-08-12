@@ -28,6 +28,8 @@
 // @run-at document-body
 // @license MIT
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-Underlines-96.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 //去你妈的下划线。

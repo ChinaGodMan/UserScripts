@@ -13,7 +13,8 @@
 // @compatible   opera >= 46
 // @compatible   safari >= 10.1
 // @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-google-96.png
-
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {
