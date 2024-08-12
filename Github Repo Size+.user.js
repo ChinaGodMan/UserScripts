@@ -18,6 +18,8 @@
 // @icon        https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @source     https://github.com/qinwuyuan-cn/UserScripts
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 "use strict"
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here

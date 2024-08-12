@@ -7,6 +7,8 @@
 // @license     MIT
 // @namespace   https://greasyfork.org/zh-CN/users/1169082
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-up-96.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {

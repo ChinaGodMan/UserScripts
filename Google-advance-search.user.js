@@ -15,7 +15,8 @@
 // @grant                   GM_getValue
 // @license                 MIT
 // @icon                      https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/Google-advance-search.png
-
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {

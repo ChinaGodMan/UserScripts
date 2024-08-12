@@ -8,6 +8,7 @@
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @match                   *://*/*
 // @connect                 greasyfork.org
 // @icon                    https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/Finder.jpg
@@ -15,8 +16,6 @@
 // @grant                   GM_addStyle
 // @license                 AGPL-3.0
 
-// @downloadURL https://update.greasyfork.org/scripts/498904/Script%20Finder%2B.user.js
-// @updateURL https://update.greasyfork.org/scripts/498904/Script%20Finder%2B.meta.js
 // ==/UserScript==
 
 (function () {
