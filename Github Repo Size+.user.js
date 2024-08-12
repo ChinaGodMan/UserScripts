@@ -4,18 +4,16 @@
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @version 0.1.2.16
+// @version 0.1.2.17
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
+// @match       *://github.com/*?tab=repositories*
 // @grant       none
 // @icon        https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @source     https://github.com/qinwuyuan-cn/UserScripts
-
 // ==/UserScript==
-
-
 "use strict"
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
@@ -26,6 +24,8 @@ const getPageType = () => {
     const [, username, repo] = pathname.split("/")
     const q = params.get("q")?.toLocaleLowerCase()
     const type = params.get("type")?.toLocaleLowerCase()
+    if (window.location.pathname.split('/').pop() === "repositories") return "list-view-container"
+    if (window.location.href.includes("?tab=repositories")) return "user-repositories"
     if (username && repo) return "repo"
     if (q && type === "code") return "code_search"
     if (q) return "search"
@@ -37,6 +37,12 @@ const addSizeToRepos = () => {
     switch (pageType) {
         case "repo":
             repoSelector = "#repository-container-header strong a"
+            break
+        case "list-view-container":
+            repoSelector = 'div[data-testid="list-view-item-title-container"] h4 a'
+            break
+        case "user-repositories":
+            repoSelector = '#user-repositories-list h3 a'
             break
         case "search":
             repoSelector = 'div[data-testid="results-list"] .search-title a'
@@ -62,11 +68,9 @@ const addSizeToRepos = () => {
         href = extractPath(href)
         console.log(href)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
-
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
                 headers: headers,
-
             })
         ).json()
         // If JSON failed to load, skip
@@ -130,5 +134,4 @@ new MutationObserver(() => {
             addSizeToRepos()
         }, 1500)
     }
-
 }).observe(document, { subtree: true, childList: true })
