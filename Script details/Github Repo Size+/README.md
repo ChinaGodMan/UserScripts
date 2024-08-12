@@ -251,9 +251,9 @@
 该令牌将用于通过 Github API 进行身份验证。
 
 1. [此处](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
-2. 为令牌命名并检查“repo”范围。
-3. 单击“生成令牌”按钮并复制令牌。
-4. 将脚本顶部的“TOKEN”常量值替换为您刚刚生成的令牌。
+2. 为令牌命名并检查`repo`范围。
+3. 单击 `Generate token` 按钮并复制令牌。
+4. ~~*将脚本顶部的`TOKEN`常量值替换为您刚刚生成的令牌。*~~ 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
 
 ## 用法
 
@@ -263,6 +263,9 @@
 <center>
 <h1> Github Repo Size+ 更新记录</h1>
 </center>
+- 2024/8/13 00:19
+  >**Ver:  0.1.2.18** <br> 
+  *<mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark>*
 
 - 2024/8/12 21:56
   >**Ver:  0.1.2.17** <br> [#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059)<br>
@@ -273,7 +276,7 @@
   *<mark>修复方式：删除原作者令牌,Github生成的公共令牌总是被清除,干脆不添加得了</mark>*
 
 - 2024/8/1 03:43
-  >**Ver:  0.1.2** <br> [#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059)原作者令牌失效导致无法访问公共仓库.<br>
+  >**Ver:  0.1.2** <br> 
   *<mark>修复在搜索页面失效问题<br> 修复查看其他仓库时不显示(增加延时)</mark>*
 
 

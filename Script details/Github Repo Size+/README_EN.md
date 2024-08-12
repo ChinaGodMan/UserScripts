@@ -255,7 +255,7 @@ This token will be used to authenticate with the Github API.
 1. Generate a new token [here](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo).
 2. Give the token a name and check the `repo` scope.
 3. Click on the `Generate token` button and copy the token.
-4. Replace the value of the `TOKEN` constant at the top of the script with the token you just generated.
+4. Click the script menu `Set GitHub Token` and fill in the token you just generated.
 
 ## Usage
 

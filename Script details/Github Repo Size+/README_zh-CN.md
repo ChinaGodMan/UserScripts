@@ -253,7 +253,7 @@
 1. [此处](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
 2. 为令牌命名并检查`repo`范围。
 3. 单击 `Generate token` 按钮并复制令牌。
-4. 将脚本顶部的`TOKEN`常量值替换为您刚刚生成的令牌。
+4. 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
 
 ## 用法
 
