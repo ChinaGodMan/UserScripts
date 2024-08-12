@@ -19,6 +19,8 @@
 // @description:ja ナビゲーションバーにユーザーリスト、コンソール、お気に入りなどを追加...
 // @description:zh-TW 在導航欄上添加使用者列表、控制台、收藏等...
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (async () => {
