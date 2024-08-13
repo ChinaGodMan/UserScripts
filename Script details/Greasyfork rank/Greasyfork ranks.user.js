@@ -7,7 +7,7 @@
 // @name:ja      スクリプトリスト名の後にスクリプト評価を表示する
 // @name:ko      스크립트 목록 이름 뒤에 스크립트 평가 표시
 // @namespace    https://github.com/10086100886/
-// @version 1.3.3.26
+// @version 1.3.3.27
 // @description     Add the script rating after the script name when browsing the script list
 // @description:en  Add the script rating after the script name when browsing the script list
 // @description:fr  Ajouter la note du script après le nom du script lors de la navigation dans la liste des scripts
@@ -21,6 +21,8 @@
 // @license      MIT
 // @grant        none
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 (function () {
     'use strict'

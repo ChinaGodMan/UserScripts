@@ -11,7 +11,7 @@
 // @name:hi      लिंक रेखांकन हटाएं
 // @name:es      Eliminar subrayados de enlaces
 // @namespace    https://greasyfork.org/users/1169082/
-// @version 1.2.0.26
+// @version 1.2.0.27
 // @description  Remove underlines from all links on any website and dynamically handle new links
 // @description:zh-CN 移除所有网站上的链接下划线，并动态处理新链接
 // @description:zh-TW 移除所有网站上的连结底线，并动态处理新连结
@@ -28,6 +28,8 @@
 // @run-at document-body
 // @license MIT
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-Underlines-96.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 //去你妈的下划线。

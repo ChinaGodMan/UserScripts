@@ -48,16 +48,15 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.43
+// @version 2.2.0.45
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
 // @match        https://sleazyfork.org/*
 // @license      MIT
-// @supportURL   https://greasyfork.org/scripts/497346/feedback
-// @homepageURL  https://greasyfork.org/users/1169082
-// @downloadURL https://update.greasyfork.org/scripts/497346/Greasyfork%20%E7%B3%8A%E8%A3%B1%E5%8C%A0.user.js
-// @updateURL https://update.greasyfork.org/scripts/497346/Greasyfork%20%E7%B3%8A%E8%A3%B1%E5%8C%A0.meta.js
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
+
 //20240712添加网站风格
 // ==/UserScript==
 const translate = (function () {
@@ -99,7 +98,7 @@ const translate = (function () {
             'CSSScripts': "Number of CSS Scripts:",
             'DailyTotal': "Daily Installs:",
             'TotalInstalls': "Total Installs:",
-            'ok': "All Scripts:",
+
             'bad': "Total Bad Reviews:",
             'good': "Total Good Reviews:",
             'ok': "Average:",
@@ -176,6 +175,7 @@ const translate = (function () {
             'ScriptListdouble': 'ScriptListdouble',
             'beautifyTopNav': 'BeautifyNav',
             'fixElementoption': 'Fix Sidebar',
+            '1169082': 'Thank you for visiting the 勤务员’s homepage',
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -213,7 +213,6 @@ const translate = (function () {
             'CSSScripts': 'CSS脚本数量:',
             'DailyTotal': '每日安装:',
             'TotalInstalls': '总安装:',
-            'ok': '所有脚本:',
             'bad': '总差评:',
             'good': '总好评:',
             'ok': '一般:',
@@ -290,6 +289,7 @@ const translate = (function () {
             'ScriptListdouble': '双列显示',
             'beautifyTopNav': '美化导航栏',
             'fixElementoption': '侧边栏固定',
+            '1169082': '感谢光临勤务员的主页',
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -327,7 +327,6 @@ const translate = (function () {
             'CSSScripts': "CSS腳本數量:",
             'DailyTotal': "每日安裝:",
             'TotalInstalls': "總安裝:",
-            'ok': "所有腳本:",
             'bad': "總差評:",
             'good': "總好評:",
             'ok': "一般:",
@@ -441,7 +440,6 @@ const translate = (function () {
             'CSSScripts': "CSSスクリプトの数:",
             'DailyTotal': "毎日のインストール:",
             'TotalInstalls': "総インストール数:",
-            'ok': "すべてのスクリプト:",
             'bad': "総悪いレビュー:",
             'good': "総良いレビュー:",
             'ok': "平均:",
@@ -552,7 +550,6 @@ const translate = (function () {
             'CSSScripts': "CSS 스크립트 수:",
             'DailyTotal': "일일 설치:",
             'TotalInstalls': "총 설치:",
-            'ok': "모든 스크립트:",
             'bad': "총 나쁜 리뷰:",
             'good': "총 좋은 리뷰:",
             'ok': "보통:",
@@ -594,7 +591,6 @@ const translate = (function () {
             'CSSScripts': "Количество CSS скриптов:",
             'DailyTotal': "Ежедневные установки:",
             'TotalInstalls': "Всего установок:",
-            'ok': "Все скрипты:",
             'bad': "Всего плохих отзывов:",
             'good': "Всего хороших отзывов:",
             'ok': "Средний:",
@@ -636,7 +632,6 @@ const translate = (function () {
             'CSSScripts': "Anzahl der CSS-Skripte:",
             'DailyTotal': "Tägliche Installationen:",
             'TotalInstalls': "Gesamtinstallationen:",
-            'ok': "Alle Skripte:",
             'bad': "Gesamtschlechte Bewertungen:",
             'good': "Gesamtgute Bewertungen:",
             'ok': "Durchschnitt:",
@@ -678,7 +673,6 @@ const translate = (function () {
             'CSSScripts': "Nombre de scripts CSS:",
             'DailyTotal': "Installations quotidiennes:",
             'TotalInstalls': "Total des installations:",
-            'ok': "Tous les scripts:",
             'bad': "Total des mauvais avis:",
             'good': "Total des bons avis:",
             'ok': "Moyenne:",
@@ -720,7 +714,6 @@ const translate = (function () {
             'CSSScripts': "Numero di script CSS:",
             'DailyTotal': "Installazioni giornaliere:",
             'TotalInstalls': "Installazioni totali:",
-            'ok': "Tutti gli script:",
             'bad': "Totale recensioni negative:",
             'good': "Totale recensioni positive:",
             'ok': "Media:",
@@ -762,7 +755,6 @@ const translate = (function () {
             'CSSScripts': "عدد برامج CSS النصية:",
             'DailyTotal': "التثبيتات اليومية:",
             'TotalInstalls': "إجمالي التثبيتات:",
-            'ok': "جميع البرامج النصية:",
             'bad': "إجمالي التقييمات السلبية:",
             'good': "إجمالي التقييمات الإيجابية:",
             'ok': "متوسط:",
@@ -804,7 +796,6 @@ const translate = (function () {
             'CSSScripts': "מספר סקריפטים CSS:",
             'DailyTotal': "התקנות יומיות:",
             'TotalInstalls': "סך ההתקנות:",
-            'ok': "כל הסקריפטים:",
             'bad': "סה\"כ ביקורות רעות:",
             'good': "סה\"כ ביקורות טובות:",
             'ok': "ממוצע:",
@@ -846,7 +837,6 @@ const translate = (function () {
             'CSSScripts': "Số lượng tập lệnh CSS:",
             'DailyTotal': "Lượt cài đặt hàng ngày:",
             'TotalInstalls': "Tổng lượt cài đặt:",
-            'ok': "Tất cả tập lệnh:",
             'bad': "Tổng số đánh giá xấu:",
             'good': "Tổng số đánh giá tốt:",
             'ok': "Trung bình:",
@@ -952,7 +942,12 @@ const translate = (function () {
         navigateTotab = GM_getValue('navigateTotab', true) // 适用于新窗口打开
         showlinktotal = GM_getValue('showlinktotal', true) // 显示链接总数
     }
-
+    if (window.location.href.includes('users/1169082')) {
+        const targetElement = document.querySelector("#about-user > h2")
+        if (targetElement) {
+            targetElement.innerHTML += '<span class="badge badge-moderator">  ' + translate('1169082') + '</span>'
+        }
+    }
     //STUB - 发布新脚本链接放在导航栏
     if (Postlink) {
         const country_code = getCountryCode()
@@ -3263,7 +3258,7 @@ button:focus {
             window.location.href = url
         }
     }
-    //webhook页面增强 482672
+    // STUB - webhook页面增强 482672
     function customizeWebhookInfoPage() {
         if (!location.pathname.includes('/users/webhook-info')) return
         document.head.appendChild(document.createElement('style')).textContent = `
@@ -3417,6 +3412,41 @@ button:focus {
             }
         })
     }
+    //STUB - WebHook脚本添加跳转
+    function addAdminButtons() {
+        const firstUl = document.querySelector('ul')
+        if (firstUl) {
+            const listItems = firstUl.querySelectorAll('li')
+            listItems.forEach(li => {
+                const firstLink = li.querySelector('a')
+                if (firstLink) {
+                    const buttonHtml = '<button style="margin-left: 10px;">admin</button>'
+                    firstLink.insertAdjacentHTML('afterend', buttonHtml)
+
+                    const button = firstLink.nextElementSibling
+                    button.addEventListener('click', () => {
+                        const originalHref = firstLink.href
+                        const newHref = originalHref + '/admin'
+                        window.open(newHref, '_blank')
+                    })
+                }
+            })
+        }
+    }
+
+    function checkAndRun() {
+        const url = window.location.href
+        const lastSegment = url.substring(url.lastIndexOf('/') + 1)
+
+        if (lastSegment === 'webhook-info') {
+            addAdminButtons()
+
+        }
+    }
+
+    // 调用函数以检查 URL 并执行操作
+    checkAndRun()
+
     // 调用函数
     customizeWebhookInfoPage()
     customizeWebhookInfoPage2()

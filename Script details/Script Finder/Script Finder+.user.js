@@ -2,12 +2,13 @@
 // @name                    Script Finder+
 // @name:zh-CN              Script Finder 油猴脚本查找
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.40
+// @version 0.1.6.41
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 // @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的greasyfork油猴脚本
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @match                   *://*/*
 // @connect                 greasyfork.org
 // @icon                    https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/Finder.jpg
@@ -15,8 +16,6 @@
 // @grant                   GM_addStyle
 // @license                 AGPL-3.0
 
-// @downloadURL https://update.greasyfork.org/scripts/498904/Script%20Finder%2B.user.js
-// @updateURL https://update.greasyfork.org/scripts/498904/Script%20Finder%2B.meta.js
 // ==/UserScript==
 
 (function () {

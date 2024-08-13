@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MissAv批量备份收藏视频
 // @namespace    https://github.com/100816100886
-// @version 1.2.3.36
+// @version 1.2.3.37
 // @description  从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license MIT
 // @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  ChatGPT
@@ -15,6 +15,8 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @require https://update.greasyfork.org/scripts/498124/1396763/video.js
 // @require https://update.greasyfork.org/scripts/498149/1395619/%E4%BF%A1%E6%81%AF%E6%9F%A5%E7%9C%8B%E5%99%A8.js
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {
