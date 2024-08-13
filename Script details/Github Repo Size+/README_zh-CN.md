@@ -264,6 +264,7 @@
 <h1> Github Repo Size+ 更新记录</h1>
 </center>
 - 2024/8/13 00:19
+
   >**Ver:  0.1.2.18** <br> 
   *<mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark>*
 
