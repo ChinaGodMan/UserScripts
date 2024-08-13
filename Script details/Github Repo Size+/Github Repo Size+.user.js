@@ -4,28 +4,67 @@
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @version 0.1.2.16
+// @version 0.1.2.19
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
+// @match       *://github.com/*?tab=repositories*
+// @grant       none
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @grant        GM_addStyle
+// @grant       GM_registerMenuCommand
 // @grant       none
 // @icon        https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @source     https://github.com/qinwuyuan-cn/UserScripts
-
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
-
-
 "use strict"
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
-const TOKEN = ""
+let TOKEN = GM_getValue('githubToken', "")
+GM_registerMenuCommand('Set GitHub Token', function () {
+    showPrompt()
+})
+function showPrompt() {
+    let promptDiv = document.createElement('div')
+    promptDiv.id = 'github-token-prompt'
+    promptDiv.innerHTML = `
+            <div style="position:fixed;top:10%;left:50%;transform:translateX(-50%);width:300px;background:white;border:1px solid #ccc;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+                <h3>Set GitHub Token</h3>
+                <input type="text" id="github-token-input" style="width:100%;" value="${TOKEN}">
+                <button id="save-token" style="background-color: #28a745; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; margin-top: 10px;">Save</button>
+                <button id="cancel-token" style="background-color: #dc3545; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; margin-top: 10px;">Cancel</button>
+               <a href="https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo" target="_blank" style="position: fixed; bottom: 10px; right: 10px; z-index: 10000; text-decoration: underline; color: blue;">New personal access token</a>
+            </div>
+        `
+    document.body.appendChild(promptDiv)
+    document.getElementById('save-token').addEventListener('click', function () {
+        let tokenValue = document.getElementById('github-token-input').value
+        GM_setValue('githubToken', tokenValue)
+        TOKEN = GM_getValue('githubToken', "")
+
+        document.getElementById('github-token-prompt').remove()
+    })
+    document.getElementById('cancel-token').addEventListener('click', function () {
+        document.getElementById('github-token-prompt').remove()
+    })
+    GM_addStyle(`
+            #github-token-prompt {
+                z-index: 10000;
+            }
+        `)
+}
 const getPageType = () => {
     const { pathname, search } = window.location
     const params = new URLSearchParams(search)
     const [, username, repo] = pathname.split("/")
     const q = params.get("q")?.toLocaleLowerCase()
     const type = params.get("type")?.toLocaleLowerCase()
+    if (window.location.pathname.split('/').pop() === "repositories") return "list-view-container"
+    if (window.location.href.includes("?tab=repositories")) return "user-repositories"
     if (username && repo) return "repo"
     if (q && type === "code") return "code_search"
     if (q) return "search"
@@ -35,13 +74,19 @@ const addSizeToRepos = () => {
     // Get the repo selector based on the page type
     let repoSelector
     switch (pageType) {
-        case "repo":
+        case "repo"://仓库详情界面
             repoSelector = "#repository-container-header strong a"
             break
-        case "search":
+        case "list-view-container"://ORG下的仓库列表
+            repoSelector = 'div[data-testid="list-view-item-title-container"] h4 a'
+            break
+        case "user-repositories"://用户资料页面的仓库TAB
+            repoSelector = '#user-repositories-list h3 a'
+            break
+        case "search"://搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
-        case "code_search":
+        case "code_search"://代码搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
         default:
@@ -62,11 +107,9 @@ const addSizeToRepos = () => {
         href = extractPath(href)
         console.log(href)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
-
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
                 headers: headers,
-
             })
         ).json()
         // If JSON failed to load, skip
@@ -130,5 +173,4 @@ new MutationObserver(() => {
             addSizeToRepos()
         }, 1500)
     }
-
 }).observe(document, { subtree: true, childList: true })

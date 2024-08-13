@@ -3,11 +3,13 @@
 // @namespace    https://github.com/10086100886
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com> Sky,仰望星空
 // @description     管理网页剪贴板的写入行为 防止未经授权的自动复制 &禁用音视频内容预载及自动播放。
-// @version 1.2.2.36
+// @version 1.2.2.37
 // @include         *
 // @run-at          document-start
 // @license                  MIT
 // @icon                https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/Scripts%20Icons/Clipboard.png
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 //在其他地方下载的脚本，作者不知道是谁很不错，防范牛皮癣 。用Chatgpt修改了下，让脚本在PC端浏览时可以使用快捷键复制
 !function () {
