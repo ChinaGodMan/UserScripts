@@ -355,6 +355,9 @@
 ---
 
 ## 更新信息
+- 2024/8/14 17:43
+  >**Ver: 2.2.0.47** <br> [#255571](https://greasyfork.org/zh-CN/scripts/497346/discussions/255571)<br>
+  *<mark>增加越南语言包，感谢网友**RenjiYuusei**翻译</mark>*
 
 - 2024/8/13 04:43
   >**Ver:  2.2.0.44** <br> 
