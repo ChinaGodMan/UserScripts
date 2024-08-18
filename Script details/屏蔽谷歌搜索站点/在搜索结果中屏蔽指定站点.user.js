@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         屏蔽谷歌搜索站点
 // @namespace    https://greasyfork.org/zh-CN/users/1169082
-// @version 0.0.1.19
+// @version 0.0.1.20
 // @description  在google搜索屏蔽指定站点
 // @license      MIT
 // @author       人民的勤务员
