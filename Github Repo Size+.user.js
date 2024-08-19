@@ -4,7 +4,7 @@
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @version 0.1.2.25
+// @version 0.1.2.26
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*
@@ -26,37 +26,97 @@
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
 let TOKEN = GM_getValue('githubToken', "")
 GM_registerMenuCommand('Set GitHub Token', function () {
-    showPrompt()
+    createModal()
 })
-function showPrompt() {
-    let promptDiv = document.createElement('div')
-    promptDiv.id = 'github-token-prompt'
-    promptDiv.innerHTML = `
-            <div style="position:fixed;top:10%;left:50%;transform:translateX(-50%);width:300px;background:white;border:1px solid #ccc;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,0.1);">
-                <h3>Set GitHub Token</h3>
-                <input type="text" id="github-token-input" style="width:100%;" value="${TOKEN}">
-                <button id="save-token" style="background-color: #28a745; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; margin-top: 10px;">Save</button>
-                <button id="cancel-token" style="background-color: #dc3545; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; margin-top: 10px;">Cancel</button>
-               <a href="https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo" target="_blank" style="position: fixed; bottom: 10px; right: 10px; z-index: 10000; text-decoration: underline; color: blue;">New personal access token</a>
-            </div>
-        `
-    document.body.appendChild(promptDiv)
-    document.getElementById('save-token').addEventListener('click', function () {
-        let tokenValue = document.getElementById('github-token-input').value
-        GM_setValue('githubToken', tokenValue)
-        TOKEN = GM_getValue('githubToken', "")
+function createModal() {
 
-        document.getElementById('github-token-prompt').remove()
+
+    const modalHTML = `
+        <div class="modal-overlay" style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        ">
+            <div class="modal-content" style="
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                width: 400px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                position: relative;
+            ">
+                <h2 class="modal-title" style="
+                    margin: 0 0 10px 0;
+                    font-size: 20px;
+                ">Set GitHub Token</h2>
+                <p class="modal-description" style="
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                    color: #666;
+                ">
+                    Enter your GitHub personal access token with "repo" scope.
+                    <a href="https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo" target="_blank" rel="noopener noreferrer" style="
+                        color: #007bff;
+                        text-decoration: underline;
+                    ">
+                        Click here to create a new token
+                    </a>
+                </p>
+                <input type="text" id="github-token-input" placeholder="Enter your GitHub personal access token" style="
+                    width: 100%;
+                    padding: 8px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                ">
+                <button id="save-token" style="
+                    background-color: #28a745;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    border-radius: 4px;
+                    margin-right: 10px;
+                ">Save</button>
+                <button id="cancel-token" class="cancel" style="
+                    background-color: #dc3545;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    border-radius: 4px;
+                ">Cancel</button>
+            </div>
+        </div>
+    `
+
+    const modalContainer = document.createElement('div')
+    modalContainer.innerHTML = modalHTML
+    document.body.appendChild(modalContainer)
+
+    const input = document.getElementById('github-token-input')
+    input.value = GM_getValue('githubToken', '')
+
+    document.getElementById('save-token').addEventListener('click', () => {
+        const token = input.value.trim()
+        if (token) {
+            GM_setValue('githubToken', token)
+            modalContainer.remove()
+            TOKEN = GM_getValue('githubToken', "")
+        }
     })
-    document.getElementById('cancel-token').addEventListener('click', function () {
-        document.getElementById('github-token-prompt').remove()
-    })
-    GM_addStyle(`
-            #github-token-prompt {
-                z-index: 10000;
-            }
-        `)
+
+    document.getElementById('cancel-token').addEventListener('click', () => modalContainer.remove())
 }
+
 const getPageType = () => {
     const { pathname, search } = window.location
     const params = new URLSearchParams(search)

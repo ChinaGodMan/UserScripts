@@ -1,5 +1,9 @@
 <h1 align="center"> Github Repo Size+ 更新记录</h1> </p>
 
+- 2024/8/20 05:28
+  >**Ver:  0.1.2.26** <br> [GitHub Repo Size Display](https://greasyfork.org/zh-CN/scripts/503821)<br>
+  *<mark>使用该脚本的设置界面。</mark>*
+
 - 2024/8/13 00:19
   >**Ver:  0.1.2.18** <br> 
   *<mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark>*
