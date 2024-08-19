@@ -25,7 +25,6 @@
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
 let TOKEN = GM_getValue('githubToken', "")
-// 添加样式
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -36,8 +35,6 @@ GM_addStyle(`
     #save-token{background-color:#28a745;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;margin-right:10px;}
     #cancel-token{background-color:#dc3545;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;}
 `)
-
-// 创建模态框
 function createModal() {
     const modalHTML = `
         <div class="modal-overlay">
