@@ -42,7 +42,7 @@ function createModal() {
                 <h2 class="modal-title">Set GitHub Token</h2>
                 <p class="modal-description">
                     Enter your GitHub personal access token with "repo" scope.
-                    <a href="https://github.com/settings/tokens/new?description=GitHub%20Repo%20Size%20Display&scopes=repo" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/settings/tokens/new?description=GitHub%20Repo%20Size%20UserScript&scopes=repo" target="_blank" rel="noopener noreferrer">
                         Click here to create a new token
                     </a>
                 </p>
