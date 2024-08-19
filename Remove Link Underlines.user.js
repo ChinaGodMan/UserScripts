@@ -11,7 +11,7 @@
 // @name:hi      लिंक रेखांकन हटाएं
 // @name:es      Eliminar subrayados de enlaces
 // @namespace    https://greasyfork.org/users/1169082/
-// @version 1.2.0.32
+// @version 1.2.0.33
 // @description  Remove underlines from all links on any website and dynamically handle new links
 // @description:zh-CN 移除所有网站上的链接下划线，并动态处理新链接
 // @description:zh-TW 移除所有网站上的连结底线，并动态处理新连结
