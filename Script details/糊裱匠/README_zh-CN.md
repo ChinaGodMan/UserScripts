@@ -355,6 +355,10 @@
 ---
 
 ## 更新信息
+
+- 2024/8/20 02:20
+  >**Ver: 2.2.0.53** <br> 修复问题<br>
+  *<mark>修正脚本设置界面在移动设备上显示错乱问题</mark>*
 - 2024/8/14 17:43
   >**Ver: 2.2.0.47** <br> [#255571](https://greasyfork.org/zh-CN/scripts/497346/discussions/255571)<br>
   *<mark>增加越南语言包，感谢网友**RenjiYuusei**翻译</mark>*

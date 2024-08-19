@@ -48,7 +48,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.52
+// @version 2.2.0.53
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -2888,6 +2888,48 @@ button:focus {
 .col-md-10 { flex: 0 0 83.33%; max-width: 83.33%; }
 .col-md-11 { flex: 0 0 91.66%; max-width: 91.66%; }
 .col-md-12 { flex: 0 0 100%; max-width: 100%; }
+@media (max-width: 600px) {//NOTE - 修正在移动设备上显示错乱问题
+  #settingsModal {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  #settingsModal .modal-header,
+  #settingsModal .modal-footer {
+    padding: 0.5rem;
+  }
+
+  #settingsModal .modal-body {
+    padding: 0.5rem;
+  }
+
+  #settingsModal .nav-link {
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+  }
+
+  #settingsModal .form-control,
+  #settingsModal .form-check-label {
+    font-size: 14px;
+  }
+
+  /* 强制不折行 */
+  .nav-link {
+    white-space: nowrap;
+  }
+    #settingsModal .nav {
+    width: 30%; /* 缩小分类切换栏的宽度 */
+  }
+
+  #settingsModal .nav-link {
+    font-size: 12px; /* 缩小字体 */
+  }
+
+  #settingsModal .tab-content {
+    width: 70%; /* 增加内容区域的宽度 */
+  }
+}
       `)
     }
     // 控件数据示例
