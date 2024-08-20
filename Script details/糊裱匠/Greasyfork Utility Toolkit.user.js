@@ -48,7 +48,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.52
+// @version 2.2.0.54
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -801,120 +801,120 @@ const translate = (function () {
             'ok': "ממוצע:",
             'loading': "טוען, נא להמתין."
         },
-         'vi': {
-'newScript': 'Đăng Kịch bản mới',
-'linesOfCode': 'Số dòng mã',
-'wordCount': 'Số từ',
-'setDisplay': 'Tùy chọn hiển thị',
-'showJump': 'Hiển thị nút nhảy đến mã',
-'beautifyDis': 'Tùy chọn làm đẹp trang thảo luận',
-'AutoEnableCodeEditor': 'Tự động bật làm đẹp trình soạn thảo mã',
-'showRating': 'Hiển thị xếp hạng',
-'scriptLinNumb': 'Hiển thị số dòng mã kịch bản',
-'ScriptListByCreat': 'Sắp xếp danh sách kịch bản theo ngày tạo',
-'moveSidebar': 'Di chuyển mục yêu thích trên thanh bên lên trên',
-'fixNavbar': 'Sửa thanh điều hướng',
-'addNewScript': 'Thêm tùy chọn kịch bản mới vào thanh điều hướng',
-'exactDate': 'Ngày chính xác',
-'addDownButton': 'Thêm nút tải xuống vào kịch bản',
-'jumpTo18': '🔞Nhảy đến kịch bản người lớn',
-'maxView': 'Tối đa hóa chế độ xem trang web',
-'cleanUpOld': 'Dọn dẹp bình luận cũ hơn số ngày',
-'openTab': 'Mở liên kết trong tab Greasemonkey mới',
-'showIcon': 'Hiển thị biểu tượng kịch bản',
-'scriptHisAddInstall': 'Thêm cài đặt vào lịch sử kịch bản',
-'Settings': 'Cài đặt',
-'Close': 'Đóng',
-'inputDaysToCleanUp': 'Vui lòng nhập số ngày để dọn dẹp:',
-'download': 'Tải xuống ⇩',
-'downloading': 'Đang tải xuống...',
-'errorCode': 'Lỗi: Tải xuống không thành công, máy chủ trả về mã trạng thái:',
-'errorNetwork': 'Tải xuống không thành công, lỗi mạng hoặc sự cố liên quan đến miền chéo',
-'install': 'Cài đặt',
-'downloadFailed': 'Tải xuống không thành công',
-'dallScripts': 'Tất cả Kịch bản đã Phát hành',
-'JSScripts': "Số lượng Kịch bản JS:",
-'CSSScripts': "Số lượng Kịch bản CSS:",
-'DailyTotal': "Lượt Cài đặt Hàng ngày:",
-'TotalInstalls': "Tổng số Lượt Cài đặt:",
-'bad': "Tổng số Đánh giá Xấu:",
-'good': "Tổng số Đánh giá Tốt:",
-'ok': "Trung bình:",
-'loading': "Đang tải, vui lòng đợi.",
-'viewauthor': 'Tác giả',
-'viewdaily_installs': 'Lượt cài đặt hàng ngày',
-'tviewotal_installs': 'Tổng lượt cài đặt',
-'viewfan_score': 'Điểm người hâm mộ',
-'viewversion': 'Phiên bản',
-'viewcreated_at': 'Được tạo vào',
-'viewcode_updated_at': 'Cập nhật lúc',
-'viewlicense': 'Giấy phép',
-'viewlocale': 'Khu vực',
-'copyto': 'Sao chép mã vào khay nhớ tạm.',
-'htmlViewtotext': ' Chuyển sang chế độ xem TEXT',
-'texttohtmlView': ' Chuyển sang chế độ xem HTML',
-'Rememberme': 'Tự động chọn Ghi nhớ tôi trên trang đăng nhập.',
-'locklang': 'Chuyển ngôn ngữ trang web sang:',
-'locklangset': 'Khóa Ngôn ngữ sau khi bạn nhấp vào nút chuyển đổi ngôn ngữ',
-'openindoc': 'Thêm vào thanh điều hướng để mở trang này',
-'thisname': ' Bộ Công cụ Tiện ích Greasyfork',
-'脚本详情': ' Trang Chi tiết',
-'导航栏': 'Thanh Điều hướng',
-'website': 'Cài đặt Trang web',
-'复制短链接': 'Sao chép liên kết ngắn',
-'主页脚本添加操作': 'Thêm Thao tác vào Kịch bản Trang chủ',
-'copylib': 'Sao chép LIB yêu cầu',
-'barvertical': 'Thanh điều hướng dọc',
-'followsystem': 'Theo Hệ thống',
-'daymode': 'Chế độ Ban ngày',
-'nightmode': 'Chế độ Ban đêm',
-'cleariconcache': 'Xóa Bộ nhớ đệm Biểu tượng',
-'expandmore': 'Mở rộng "Thêm"',
-'localbookmarks': 'Dấu trang',
-'scriptlist': 'Danh sách Kịch bản',
-'oneclickreport': 'Báo cáo Một lần Nhấp',
-'hidereadcomments': 'Ẩn Bình luận đã Đọc',
-'italicizereadcomments': 'In nghiêng Bình luận đã Đọc',
-'enableautologin': 'Bật Tự động Đăng nhập',
-'account': 'Tài khoản',
-'password': 'Mật khẩu',
-'listdisplayinstallationdownload': 'Danh sách Hiển thị Cài đặt Tải xuống',
-'useoldversionlist': 'Sử dụng Danh sách Phiên bản Cũ',
-'showscriptall': 'Hiển thị Kịch bản bằng Tất cả Ngôn ngữ',
-'displaystatisticsonhomepage': 'Hiển thị Thống kê trên Trang chủ',
-'beautifycontrols': 'Làm đẹp Điều khiển',
-'applyto': 'Áp dụng cho',
-'enableenhancements': 'Bật Nâng cao',
-'openinnewwindow': 'Mở trong Cửa sổ Mới',
-'detailsapplytoopen': 'Chi tiết Áp dụng để Mở',
-'forumsearch': 'Tìm kiếm Diễn đàn',
-'webpageopen': 'Mở Trang web',
-'popupprompt': 'Nhắc nhở Bật lên',
-'displaycitationcount': 'Hiển thị Số lượng Trích dẫn',
-'beautifycodesnippets': 'Làm đẹp Đoạn mã',
-'beautifycodeview': 'Làm đẹp Chế độ xem Mã',
-'beautifycodetheme': 'Làm đẹp Chủ đề Mã',
-'hiderrecentcomments': 'Ẩn Bình luận Gần đây',
-'personalhomepage': 'Trang chủ Cá nhân',
-'showscriptsinforum': 'Hiển thị Số lượng Kịch bản trong Diễn đàn',
-'downgradeto': 'Hạ cấp xuống:',
-'reinstall': 'Cài đặt lại:',
-'upgradeto': 'Nâng cấp lên:',
-'autologinredirect': 'Tự động Chuyển hướng đến Đăng nhập...',
-'nostoredaccount': 'Không có Tài khoản nào được Lưu trữ Cục bộ',
-'nostoredpassword': 'Không có Mật khẩu nào được Lưu trữ Cục bộ',
-'getcsrftokenfailed': 'Không thể Nhận Mã thông báo CSRF',
-'loginfailedconsole': 'Đăng nhập Không thành công, Kiểm tra Bảng điều khiển để biết Chi tiết',
-'loginsuccessredirect': 'Đăng nhập Thành công, Chuyển hướng sau 1 Giây',
-'loginfailedelementnotfound': 'Đăng nhập Không thành công, Không tìm thấy Phần tử',
-'report': 'Báo cáo',
-'useroutlines': 'dàn bài',
-'imageproxy': 'proxy hình ảnh',
-'ScriptListdouble': 'Danh sách Kịch bản kép',
-'beautifyTopNav': 'Làm đẹp Thanh điều hướng',
-'fixElementoption': 'Sửa Thanh bên',
-'1169082': 'Cảm ơn bạn đã ghé thăm trang chủ của 勤务员',
-         }
+        'vi': {
+            'newScript': 'Đăng Kịch bản mới',
+            'linesOfCode': 'Số dòng mã',
+            'wordCount': 'Số từ',
+            'setDisplay': 'Tùy chọn hiển thị',
+            'showJump': 'Hiển thị nút nhảy đến mã',
+            'beautifyDis': 'Tùy chọn làm đẹp trang thảo luận',
+            'AutoEnableCodeEditor': 'Tự động bật làm đẹp trình soạn thảo mã',
+            'showRating': 'Hiển thị xếp hạng',
+            'scriptLinNumb': 'Hiển thị số dòng mã kịch bản',
+            'ScriptListByCreat': 'Sắp xếp danh sách kịch bản theo ngày tạo',
+            'moveSidebar': 'Di chuyển mục yêu thích trên thanh bên lên trên',
+            'fixNavbar': 'Sửa thanh điều hướng',
+            'addNewScript': 'Thêm tùy chọn kịch bản mới vào thanh điều hướng',
+            'exactDate': 'Ngày chính xác',
+            'addDownButton': 'Thêm nút tải xuống vào kịch bản',
+            'jumpTo18': '🔞Nhảy đến kịch bản người lớn',
+            'maxView': 'Tối đa hóa chế độ xem trang web',
+            'cleanUpOld': 'Dọn dẹp bình luận cũ hơn số ngày',
+            'openTab': 'Mở liên kết trong tab Greasemonkey mới',
+            'showIcon': 'Hiển thị biểu tượng kịch bản',
+            'scriptHisAddInstall': 'Thêm cài đặt vào lịch sử kịch bản',
+            'Settings': 'Cài đặt',
+            'Close': 'Đóng',
+            'inputDaysToCleanUp': 'Vui lòng nhập số ngày để dọn dẹp:',
+            'download': 'Tải xuống ⇩',
+            'downloading': 'Đang tải xuống...',
+            'errorCode': 'Lỗi: Tải xuống không thành công, máy chủ trả về mã trạng thái:',
+            'errorNetwork': 'Tải xuống không thành công, lỗi mạng hoặc sự cố liên quan đến miền chéo',
+            'install': 'Cài đặt',
+            'downloadFailed': 'Tải xuống không thành công',
+            'dallScripts': 'Tất cả Kịch bản đã Phát hành',
+            'JSScripts': "Số lượng Kịch bản JS:",
+            'CSSScripts': "Số lượng Kịch bản CSS:",
+            'DailyTotal': "Lượt Cài đặt Hàng ngày:",
+            'TotalInstalls': "Tổng số Lượt Cài đặt:",
+            'bad': "Tổng số Đánh giá Xấu:",
+            'good': "Tổng số Đánh giá Tốt:",
+            'ok': "Trung bình:",
+            'loading': "Đang tải, vui lòng đợi.",
+            'viewauthor': 'Tác giả',
+            'viewdaily_installs': 'Lượt cài đặt hàng ngày',
+            'tviewotal_installs': 'Tổng lượt cài đặt',
+            'viewfan_score': 'Điểm người hâm mộ',
+            'viewversion': 'Phiên bản',
+            'viewcreated_at': 'Được tạo vào',
+            'viewcode_updated_at': 'Cập nhật lúc',
+            'viewlicense': 'Giấy phép',
+            'viewlocale': 'Khu vực',
+            'copyto': 'Sao chép mã vào khay nhớ tạm.',
+            'htmlViewtotext': ' Chuyển sang chế độ xem TEXT',
+            'texttohtmlView': ' Chuyển sang chế độ xem HTML',
+            'Rememberme': 'Tự động chọn Ghi nhớ tôi trên trang đăng nhập.',
+            'locklang': 'Chuyển ngôn ngữ trang web sang:',
+            'locklangset': 'Khóa Ngôn ngữ sau khi bạn nhấp vào nút chuyển đổi ngôn ngữ',
+            'openindoc': 'Thêm vào thanh điều hướng để mở trang này',
+            'thisname': ' Bộ Công cụ Tiện ích Greasyfork',
+            '脚本详情': ' Trang Chi tiết',
+            '导航栏': 'Thanh Điều hướng',
+            'website': 'Cài đặt Trang web',
+            '复制短链接': 'Sao chép liên kết ngắn',
+            '主页脚本添加操作': 'Thêm Thao tác vào Kịch bản Trang chủ',
+            'copylib': 'Sao chép LIB yêu cầu',
+            'barvertical': 'Thanh điều hướng dọc',
+            'followsystem': 'Theo Hệ thống',
+            'daymode': 'Chế độ Ban ngày',
+            'nightmode': 'Chế độ Ban đêm',
+            'cleariconcache': 'Xóa Bộ nhớ đệm Biểu tượng',
+            'expandmore': 'Mở rộng "Thêm"',
+            'localbookmarks': 'Dấu trang',
+            'scriptlist': 'Danh sách Kịch bản',
+            'oneclickreport': 'Báo cáo Một lần Nhấp',
+            'hidereadcomments': 'Ẩn Bình luận đã Đọc',
+            'italicizereadcomments': 'In nghiêng Bình luận đã Đọc',
+            'enableautologin': 'Bật Tự động Đăng nhập',
+            'account': 'Tài khoản',
+            'password': 'Mật khẩu',
+            'listdisplayinstallationdownload': 'Danh sách Hiển thị Cài đặt Tải xuống',
+            'useoldversionlist': 'Sử dụng Danh sách Phiên bản Cũ',
+            'showscriptall': 'Hiển thị Kịch bản bằng Tất cả Ngôn ngữ',
+            'displaystatisticsonhomepage': 'Hiển thị Thống kê trên Trang chủ',
+            'beautifycontrols': 'Làm đẹp Điều khiển',
+            'applyto': 'Áp dụng cho',
+            'enableenhancements': 'Bật Nâng cao',
+            'openinnewwindow': 'Mở trong Cửa sổ Mới',
+            'detailsapplytoopen': 'Chi tiết Áp dụng để Mở',
+            'forumsearch': 'Tìm kiếm Diễn đàn',
+            'webpageopen': 'Mở Trang web',
+            'popupprompt': 'Nhắc nhở Bật lên',
+            'displaycitationcount': 'Hiển thị Số lượng Trích dẫn',
+            'beautifycodesnippets': 'Làm đẹp Đoạn mã',
+            'beautifycodeview': 'Làm đẹp Chế độ xem Mã',
+            'beautifycodetheme': 'Làm đẹp Chủ đề Mã',
+            'hiderrecentcomments': 'Ẩn Bình luận Gần đây',
+            'personalhomepage': 'Trang chủ Cá nhân',
+            'showscriptsinforum': 'Hiển thị Số lượng Kịch bản trong Diễn đàn',
+            'downgradeto': 'Hạ cấp xuống:',
+            'reinstall': 'Cài đặt lại:',
+            'upgradeto': 'Nâng cấp lên:',
+            'autologinredirect': 'Tự động Chuyển hướng đến Đăng nhập...',
+            'nostoredaccount': 'Không có Tài khoản nào được Lưu trữ Cục bộ',
+            'nostoredpassword': 'Không có Mật khẩu nào được Lưu trữ Cục bộ',
+            'getcsrftokenfailed': 'Không thể Nhận Mã thông báo CSRF',
+            'loginfailedconsole': 'Đăng nhập Không thành công, Kiểm tra Bảng điều khiển để biết Chi tiết',
+            'loginsuccessredirect': 'Đăng nhập Thành công, Chuyển hướng sau 1 Giây',
+            'loginfailedelementnotfound': 'Đăng nhập Không thành công, Không tìm thấy Phần tử',
+            'report': 'Báo cáo',
+            'useroutlines': 'dàn bài',
+            'imageproxy': 'proxy hình ảnh',
+            'ScriptListdouble': 'Danh sách Kịch bản kép',
+            'beautifyTopNav': 'Làm đẹp Thanh điều hướng',
+            'fixElementoption': 'Sửa Thanh bên',
+            '1169082': 'Cảm ơn bạn đã ghé thăm trang chủ của 勤务员',
+        }
 
     }
     return (id, lang = '') => {
@@ -2888,6 +2888,48 @@ button:focus {
 .col-md-10 { flex: 0 0 83.33%; max-width: 83.33%; }
 .col-md-11 { flex: 0 0 91.66%; max-width: 91.66%; }
 .col-md-12 { flex: 0 0 100%; max-width: 100%; }
+@media (max-width: 600px) {//NOTE - 修正在移动设备上显示错乱问题
+  #settingsModal {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  #settingsModal .modal-header,
+  #settingsModal .modal-footer {
+    padding: 0.5rem;
+  }
+
+  #settingsModal .modal-body {
+    padding: 0.5rem;
+  }
+
+  #settingsModal .nav-link {
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+  }
+
+  #settingsModal .form-control,
+  #settingsModal .form-check-label {
+    font-size: 14px;
+  }
+
+  /* 强制不折行 */
+  .nav-link {
+    white-space: nowrap;
+  }
+    #settingsModal .nav {
+    width: 30%; /* 缩小分类切换栏的宽度 */
+  }
+
+  #settingsModal .nav-link {
+    font-size: 12px; /* 缩小字体 */
+  }
+
+  #settingsModal .tab-content {
+    width: 70%; /* 增加内容区域的宽度 */
+  }
+}
       `)
     }
     // 控件数据示例
