@@ -3113,7 +3113,7 @@ button:focus {
         { type: 'checkbox', id: 'sethtmlview', label: translate('htmlViewtotext'), checked: sethtmlview, onchange: function () { updateAndSetValue('sethtmlview', this.checked) } },
         { type: 'checkbox', id: 'setcopylink', label: translate('copyto'), checked: setcopylink, onchange: function () { updateAndSetValue('setcopylink', this.checked) } },
         { type: 'checkbox', id: 'viewicon', label: translate('showIcon'), checked: viewicon, onchange: function () { updateAndSetValue('viewicon', this.checked) } },
-        { type: 'button', id: 'clear-icon-cache', text: `${translate('cleariconcache')} ${Object.keys(JSON.parse(GM_getValue('scriptsIcon', '{}'))).length}`, class: 'btn-danger', onclick: () => { updateAndSetValue('scriptsIcon', JSON.stringify({})); Toast('success', 1000, '#0000ff', '#ffffff', 'top') } },
+        { type: 'button', id: 'clear-icon-cache', text: `${translate('cleariconcache')} ${Object.keys(JSON.parse(GM_getValue('scriptsIcon', '{}'))).length}`, class: 'btn-danger', onclick: () => { GM_setValue('scriptsIcon', JSON.stringify({})); Toast('success', 1000, '#0000ff', '#ffffff', 'top') } },
         { type: 'checkbox', id: 'installforversions', label: translate('scriptHisAddInstall'), checked: installforversions, onchange: function () { updateAndSetValue('installforversions', this.checked) } },
         { type: 'checkbox', id: 'addbutton', label: translate('addDownButton'), checked: addbutton, onchange: function () { updateAndSetValue('addbutton', this.checked) } },
         { type: 'checkbox', id: 'showtotal', label: translate('scriptLinNumb'), checked: showtotal, onchange: function () { updateAndSetValue('showtotal', this.checked) } },
