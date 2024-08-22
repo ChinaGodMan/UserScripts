@@ -56,7 +56,6 @@
 // @license      MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-
 //20240712添加网站风格
 // ==/UserScript==
 const translate = (function () {
@@ -98,7 +97,6 @@ const translate = (function () {
             'CSSScripts': "Number of CSS Scripts:",
             'DailyTotal': "Daily Installs:",
             'TotalInstalls': "Total Installs:",
-
             'bad': "Total Bad Reviews:",
             'good': "Total Good Reviews:",
             'ok': "Average:",
@@ -915,7 +913,6 @@ const translate = (function () {
             'fixElementoption': 'Sửa Thanh bên',
             '1169082': 'Cảm ơn bạn đã ghé thăm trang chủ của 勤务员',
         }
-
     }
     return (id, lang = '') => {
         const selectedLang = lang || userLang
@@ -926,65 +923,83 @@ const translate = (function () {
 (function () {
     'use strict'
     //FIXME - 基本配置
-    var DEBUG = false
-    var showRating = GM_getValue('showRating', false) // 默认展示评分
-    var showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
-    var modifyRadioLabels = GM_getValue('modifyRadioLabels', false)//评论区梅花
-    var autocheck = GM_getValue('autocheck', false)//自动点击美化编辑器
-    var showtotal = GM_getValue('showtotal', false)//显示代码字数
-    var scriptwithdata = GM_getValue('scriptwithdata', true)//导航栏点击跳转时间创建
-    var scriptset = GM_getValue('scriptset', true)//侧边栏脚本上移动
-    var HeaderStyleFix = GM_getValue('HeaderStyleFix', true)//修复导航栏
-    var AbsoluteTime = GM_getValue('AbsoluteTime', false)//精确时间
-    var addbutton = GM_getValue('addbutton', true)//添加下载按钮
-    var jumpto = GM_getValue('jumpto', false)//跳转18
-    var greasymaxWidth = GM_getValue('greasymaxWidth', false)//最大窗口
-    var clearhomepage = GM_getValue('clearhomepage', true)//清理主页过期评论
-    var clearhomepagedays = GM_getValue('clearhomepagedays', false)//清理主页过期评论的天数
-    var newtabtoinstall = GM_getValue('newtabtoinstall', false)  //油猴新窗口打开
-    var viewicon = GM_getValue('viewicon', true)//查看脚本的图标
-    var installforversions = GM_getValue('installforversions', true)//下载历史版本
-    var setcopylink = GM_getValue('setcopylink', true)//复制代码
-    var sethtmlview = GM_getValue('sethtmlview', false)//脚本简介转文档查看
-    var Postlink = GM_getValue('Postlink', true)//发布新脚本
-    var remme = GM_getValue('remme', true)//在登录页自动点击记住我
-    var setlocklang = GM_getValue('setlocklang', false)// 锁点语言
-    var setopenindoc = GM_getValue('setopenindoc', true) //在导航栏添加打开设置界面
-    var buttonopen = true
-    var copyshortlink = GM_getValue('copyshortlink', true) //复制短链接
-    var cleanscriptname = GM_getValue('cleanscriptname', true) //清理脚本名称
-    var addedittohomepage = GM_getValue('addedittohomepage', true) //在主页脚本增加编辑删除安装
-    var searchingreasyfork = GM_getValue('searchingreasyfork', '1')//适用于默认打开网址
-    var usersearchingreasyfork = GM_getValue('usersearchingreasyfork', true)//启用适用于增强
-    var navigateTotab = GM_getValue('navigateTotab', true)//适用于新窗口打开
-    var showlinktotal = GM_getValue('showlinktotal', true)//适用于网站数量
-    var userhandleLocaleFilter = GM_getValue('userhandleLocaleFilter', true)//语言移除功能
-    var userapplyCustomStyles = GM_getValue('userapplyCustomStyles', false)//旧版本风格
-    var usercssto = GM_getValue('usercssto', true)//美化页面按钮等信息
-    var useHighlighting = GM_getValue('useHighlighting', true)//高亮网页文本代码
-    var useHighlighttocode = GM_getValue('useHighlighttocode', true)//高亮查看代码
-    var showinstallbutton = GM_getValue('showinstallbutton', true)//脚本列表显示安装和下载按钮
-    var addCopyButtonBeforelibScript = GM_getValue('addCopyButtonBeforelibScript', true)//库声明前增加复制
-    var wightnav = GM_getValue('wightnav', true)//对齐导航栏
-    var lockmode = GM_getValue('lockmode', '0')//高亮美化代码和代码片段锁定黑夜模式
-    var hideuserdiscussions = GM_getValue('hideuserdiscussions', false)//隐藏主页评论
-    var showresource = GM_getValue('showresource', false)//代码页面显示引用的文件数量
-    var usereport = GM_getValue('usereport', true)//讨论页面增加举报
-    var userlocalfav = GM_getValue('userlocalfav', true)//本地收藏
-    var favs = JSON.parse(GM_getValue('favs', '[]'))//本地收藏信息
-    var hidediscussionread = GM_getValue('hidediscussionread', false)//隐藏已经阅读的评论
-    var italicdiscussionread = GM_getValue('italicdiscussionread', true)//斜体已经阅读的评论
-    var shouwtotalonuserpage = GM_getValue('shouwtotalonuserpage', true)// 主页显示数量
-    var userpassword = GM_getValue('userpassword', '')// 账号密码
-    var useremail = GM_getValue('useremail', '')//  账号邮箱
-    var userautologin = GM_getValue('userautologin', false)//  使用自动登录
-    var Expandsubmenu = GM_getValue('Expandsubmenu', false)//  展开导航栏上的"更多'
-    var useroutline = GM_getValue('useroutline', true)//  使用侧边导航栏
-    var userimageproxy = GM_getValue('userimageproxy', false)//  使用图像代理
-    var scriptlistdouble = GM_getValue('scriptlistdouble', true)//  使用列表双列
-    var beautifyTopNav = GM_getValue('beautifyTopNav', true)//  美化导航栏 只在pc生效
-    var fixElementoption = GM_getValue('fixElementoption', true)//  固定油猴侧边操作栏目只在PC生效.
+    var DEBUG = false // 控制是否启用调试模式
+    function DEBUG11() {
+        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
 
+        if (profileLinkElement) {
+            const href = profileLinkElement.getAttribute('href')
+            if (href && href.includes('1169082')) {
+                DEBUG = true
+            }
+        }
+    }
+    DEBUG11()
+    const settings = {
+        showRating: { default: false, comment: '默认展示评分' },
+        showSourceCode: { default: false, comment: '默认展示源码按钮' },
+        modifyRadioLabels: { default: false, comment: '评论区梅花' },
+        autocheck: { default: false, comment: '自动点击美化编辑器' },
+        showtotal: { default: false, comment: '显示代码字数' },
+        scriptwithdata: { default: true, comment: '导航栏点击跳转时间创建' },
+        scriptset: { default: true, comment: '侧边栏脚本上移动' },
+        HeaderStyleFix: { default: true, comment: '修复导航栏' },
+        AbsoluteTime: { default: false, comment: '精确时间' },
+        addbutton: { default: true, comment: '添加下载按钮' },
+        jumpto: { default: false, comment: '跳转18' },
+        greasymaxWidth: { default: false, comment: '最大窗口' },
+        clearhomepage: { default: true, comment: '清理主页过期评论' },
+        clearhomepagedays: { default: false, comment: '清理主页过期评论的天数' },
+        newtabtoinstall: { default: false, comment: '油猴新窗口打开' },
+        viewicon: { default: true, comment: '查看脚本的图标' },
+        installforversions: { default: true, comment: '下载历史版本' },
+        setcopylink: { default: true, comment: '复制代码' },
+        sethtmlview: { default: '', comment: '脚本简介转文档查看' },
+        Postlink: { default: true, comment: '发布新脚false本' },
+        remme: { default: true, comment: '在登录页自动点击记住我' },
+        setlocklang: { default: false, comment: '锁点语言' },
+        setopenindoc: { default: true, comment: '在导航栏添加打开设置界面' },
+        buttonopen: { default: true, comment: '' },
+        copyshortlink: { default: true, comment: '复制短链接' },
+        cleanscriptname: { default: true, comment: '清理脚本名称' },
+        addedittohomepage: { default: true, comment: '在主页脚本增加编辑删除安装' },
+        searchingreasyfork: { default: '1', comment: '适用于默认打开网址' },
+        usersearchingreasyfork: { default: true, comment: '启用适用于增强' },
+        navigateTotab: { default: true, comment: '适用于新窗口打开' },
+        showlinktotal: { default: true, comment: '适用于网站数量' },
+        userhandleLocaleFilter: { default: true, comment: '语言移除功能' },
+        userapplyCustomStyles: { default: false, comment: '旧版本风格' },
+        usercssto: { default: true, comment: '美化页面按钮等信息' },
+        useHighlighting: { default: true, comment: '高亮网页文本代码' },
+        useHighlighttocode: { default: true, comment: '高亮查看代码' },
+        showinstallbutton: { default: true, comment: '脚本列表显示安装和下载按钮' },
+        addCopyButtonBeforelibScript: { default: true, comment: '库声明前增加复制' },
+        wightnav: { default: true, comment: '对齐导航栏' },
+        lockmode: { default: '0', comment: '高亮美化代码和代码片段锁定黑夜模式' },
+        hideuserdiscussions: { default: false, comment: '隐藏主页评论' },
+        showresource: { default: false, comment: '代码页面显示引用的文件数量' },
+        usereport: { default: true, comment: '讨论页面增加举报' },
+        userlocalfav: { default: true, comment: '本地收藏' },
+        favs: { default: '[]', comment: '本地收藏信息', parse: JSON.parse },
+        hidediscussionread: { default: false, comment: '隐藏已经阅读的评论' },
+        italicdiscussionread: { default: true, comment: '斜体已经阅读的评论' },
+        shouwtotalonuserpage: { default: true, comment: '主页显示数量' },
+        userpassword: { default: '', comment: '账号密码' },
+        useremail: { default: '', comment: '账号邮箱' },
+        userautologin: { default: false, comment: '使用自动登录' },
+        Expandsubmenu: { default: false, comment: '展开导航栏上的"更多"' },
+        useroutline: { default: true, comment: '使用侧边导航栏' },
+        userimageproxy: { default: false, comment: '使用图像代理' },
+        scriptlistdouble: { default: true, comment: '使用列表双列' },
+        beautifyTopNav: { default: true, comment: '美化导航栏 只在pc生效' },
+        fixElementoption: { default: true, comment: '固定油猴侧边操作栏目只在PC生效' }
+    }
+    // 动态创建变量
+    Object.keys(settings).forEach(key => {
+        const setting = settings[key]
+        window[key] = setting.parse ? setting.parse(GM_getValue(key, setting.default)) : GM_getValue(key, setting.default)
+        logMessage(`${key}: ${window[key]} // ${setting.comment}`, ` `, true)
+    })
     if (window.location.href.includes('users/1169082')) {
         const targetElement = document.querySelector("#about-user > h2")
         if (targetElement) {
@@ -2863,26 +2878,21 @@ button:focus {
     max-width: 100%;
     padding: 1rem;
   }
-
   #settingsModal .modal-header,
   #settingsModal .modal-footer {
     padding: 0.5rem;
   }
-
   #settingsModal .modal-body {
     padding: 0.5rem;
   }
-
   #settingsModal .nav-link {
     padding: 0.25rem 0.5rem;
     font-size: 14px;
   }
-
   #settingsModal .form-control,
   #settingsModal .form-check-label {
     font-size: 14px;
   }
-
   /* 强制不折行 */
   .nav-link {
     white-space: nowrap;
@@ -2890,11 +2900,9 @@ button:focus {
     #settingsModal .nav {
     width: 30%; /* 缩小分类切换栏的宽度 */
   }
-
   #settingsModal .nav-link {
     font-size: 12px; /* 缩小字体 */
   }
-
   #settingsModal .tab-content {
     width: 70%; /* 增加内容区域的宽度 */
   }
@@ -3102,13 +3110,11 @@ button:focus {
     // 保存设置按钮事件
     $('#saveSettings').on('click', function () {
         saveSettings()
-
         $('#settingsModal').modal('hide')
     })
     const viewMode = isMobileDevice() ? 1 : 2
     //FIXME - 修改设置
     // 使用封装函数创建分类
-
     createCategory('category1', translate('脚本详情'), [
         { type: 'checkbox', id: 'sethtmlview', label: translate('htmlViewtotext'), checked: sethtmlview, onchange: function () { updateAndSetValue('sethtmlview', this.checked) } },
         { type: 'checkbox', id: 'setcopylink', label: translate('copyto'), checked: setcopylink, onchange: function () { updateAndSetValue('setcopylink', this.checked) } },
@@ -3154,7 +3160,6 @@ button:focus {
             onchange: thandleSelectChange('lockmode')
         }
     ], viewMode)
-
     createCategory('category2', translate('导航栏'), [
         { type: 'checkbox', id: 'Postlink', label: translate('addNewScript'), checked: Postlink, onchange: function () { updateAndSetValue('Postlink', this.checked) } },
         { type: 'checkbox', id: 'jumpto', label: translate('jumpTo18'), checked: jumpto, onchange: function () { updateAndSetValue('jumpto', this.checked) } },
@@ -3163,7 +3168,6 @@ button:focus {
         { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: wightnav, onchange: function () { updateAndSetValue('wightnav', this.checked) } },
         { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: Expandsubmenu, onchange: function () { updateAndSetValue('Expandsubmenu', this.checked) } },
         { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: beautifyTopNav, onchange: function () { updateAndSetValue('beautifyTopNav', this.checked) } },
-
     ]
     )
     createCategory('category3', translate('website'), [//网站设置
@@ -3179,7 +3183,6 @@ button:focus {
         { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: useroutline, onchange: function () { updateAndSetValue('useroutline', this.checked) } },
         { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: userimageproxy, onchange: function () { updateAndSetValue('userimageproxy', this.checked) } },
         { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: fixElementoption, onchange: function () { updateAndSetValue('fixElementoption', this.checked) } },
-
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: userautologin, onchange: function () { updateAndSetValue('userautologin', this.checked) } },
@@ -3196,7 +3199,6 @@ button:focus {
         { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: scriptset, onchange: function () { updateAndSetValue('scriptset', this.checked) } },
         { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: scriptwithdata, onchange: function () { updateAndSetValue('scriptwithdata', this.checked) } },
         { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: scriptlistdouble, onchange: function () { updateAndSetValue('scriptlistdouble', this.checked) } },
-
     ], viewMode)
     createCategory('sl2', translate('personalhomepage'), [
         { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: clearhomepage, onchange: function () { updateAndSetValue('clearhomepage', this.checked) } },
@@ -3204,7 +3206,6 @@ button:focus {
         { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: addedittohomepage, onchange: function () { updateAndSetValue('addedittohomepage', this.checked) } },
         { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: hideuserdiscussions, onchange: function () { updateAndSetValue('hideuserdiscussions', this.checked) } },
         { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { updateAndSetValue('shouwtotalonuserpage', this.checked) } },
-
     ], viewMode)
     createCategory('sl3', translate('beautifycontrols'), [
         { type: 'checkbox', id: 'usercssto', label: translate('beautifycontrols'), checked: usercssto, onchange: function () { updateAndSetValue('usercssto', this.checked) } },
@@ -3247,7 +3248,6 @@ button:focus {
     function updateAndSetValue(key, value) {
         GM_setValue(key, value)    // 更新 GM 存储中的值
         eval(`${key} = GM_getValue('${key}')`) // 使用 eval 动态更新全局变量
-
     }
     handleSelectChange('searchingreasyfork', searchingreasyfork)
     handleSelectChange('lockmode', lockmode)
@@ -3516,7 +3516,6 @@ button:focus {
                 if (firstLink) {
                     const buttonHtml = '<button style="margin-left: 10px;">admin</button>'
                     firstLink.insertAdjacentHTML('afterend', buttonHtml)
-
                     const button = firstLink.nextElementSibling
                     button.addEventListener('click', () => {
                         const originalHref = firstLink.href
@@ -3531,16 +3530,12 @@ button:focus {
     function checkAndRun() {
         const url = window.location.href
         const lastSegment = url.substring(url.lastIndexOf('/') + 1)
-
         if (lastSegment === 'webhook-info') {
             addAdminButtons()
-
         }
     }
-
     // 调用函数以检查 URL 并执行操作
     checkAndRun()
-
     // 调用函数
     customizeWebhookInfoPage()
     customizeWebhookInfoPage2()
