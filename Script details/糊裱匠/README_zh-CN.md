@@ -355,6 +355,9 @@
 ---
 
 ## 更新信息
+- 2024/8/23 06:12
+  >**Ver: 2.2.0.57** <br><strong> 优化</strong><br>
+  *<mark>优化设置界面代码</mark>*
 
 - 2024/8/20 02:20
   >**Ver: 2.2.0.53** <br> 修复问题<br>
@@ -362,7 +365,7 @@
 
 - 2024/8/14 17:43
   >**Ver: 2.2.0.47** <br> [#255571](https://greasyfork.org/zh-CN/scripts/497346/discussions/255571)<br>
-  *<mark>增加越南语言包，感谢网友 **RenjiYuusei**翻译</mark>*
+   *<mark>增加越南语言包，感谢网友[RenjiYuusei](https://greasyfork.org/zh-CN/users/1195312)的翻译</mark>*
 
 - 2024/8/13 04:43
   >**Ver:  2.2.0.44** <br> 
