@@ -925,6 +925,7 @@ const translate = (function () {
 }());
 (function () {
     'use strict'
+    //FIXME - 基本配置
     var DEBUG = false
     var showRating = GM_getValue('showRating', false) // 默认展示评分
     var showSourceCode = GM_getValue('showSourceCode', false) // 默认展示源码按钮
@@ -3137,20 +3138,22 @@ button:focus {
         $('#settingsModal').modal('hide')
     })
     const viewMode = isMobileDevice() ? 1 : 2
+    //FIXME - 修改设置
     // 使用封装函数创建分类
+
     createCategory('category1', translate('脚本详情'), [
-        { type: 'checkbox', id: 'sethtmlview', label: translate('htmlViewtotext'), checked: GM_getValue('sethtmlview', false), onchange: function () { GM_setValue('sethtmlview', this.checked) } },
-        { type: 'checkbox', id: 'setcopylink', label: translate('copyto'), checked: GM_getValue('setcopylink', true), onchange: function () { GM_setValue('setcopylink', this.checked) } },
-        { type: 'checkbox', id: 'viewicon', label: translate('showIcon'), checked: GM_getValue('viewicon', true), onchange: function () { GM_setValue('viewicon', this.checked) } },
+        { type: 'checkbox', id: 'sethtmlview', label: translate('htmlViewtotext'), checked: sethtmlview, onchange: function () { GM_setValue('sethtmlview', this.checked) } },
+        { type: 'checkbox', id: 'setcopylink', label: translate('copyto'), checked: setcopylink, onchange: function () { GM_setValue('setcopylink', this.checked) } },
+        { type: 'checkbox', id: 'viewicon', label: translate('showIcon'), checked: viewicon, onchange: function () { GM_setValue('viewicon', this.checked) } },
         { type: 'button', id: 'clear-icon-cache', text: `${translate('cleariconcache')} ${Object.keys(JSON.parse(GM_getValue('scriptsIcon', '{}'))).length}`, class: 'btn-danger', onclick: () => { GM_setValue('scriptsIcon', JSON.stringify({})); Toast('success', 1000, '#0000ff', '#ffffff', 'top') } },
-        { type: 'checkbox', id: 'installforversions', label: translate('scriptHisAddInstall'), checked: GM_getValue('installforversions', true), onchange: function () { GM_setValue('installforversions', this.checked) } },
-        { type: 'checkbox', id: 'addbutton', label: translate('addDownButton'), checked: GM_getValue('addbutton', true), onchange: function () { GM_setValue('addbutton', this.checked) } },
-        { type: 'checkbox', id: 'showtotal', label: translate('scriptLinNumb'), checked: GM_getValue('showtotal', false), onchange: function () { GM_setValue('showtotal', this.checked) } },
-        { type: 'checkbox', id: 'addCopyButtonBeforelibScript', label: translate('copylib'), checked: GM_getValue('addCopyButtonBeforelibScript', true), onchange: function () { GM_setValue('addCopyButtonBeforelibScript', this.checked) } },
-        { type: 'checkbox', id: 'showresource', label: translate('displaycitationcount'), checked: GM_getValue('showresource', false), onchange: function () { GM_setValue('showresource', this.checked) } },
-        { type: 'checkbox', id: 'copyshortlink', label: translate('复制短链接'), checked: GM_getValue('copyshortlink', true), onchange: function () { GM_setValue('copyshortlink', this.checked) } },
-        { type: 'checkbox', id: 'useHighlighting', label: translate('beautifycodesnippets'), checked: GM_getValue('useHighlighting', true), onchange: function () { GM_setValue('useHighlighting', this.checked) } },
-        { type: 'checkbox', id: 'useHighlighttocode', label: translate('beautifycodeview'), checked: GM_getValue('useHighlighttocode', true), onchange: function () { GM_setValue('useHighlighttocode', this.checked) } },
+        { type: 'checkbox', id: 'installforversions', label: translate('scriptHisAddInstall'), checked: installforversions, onchange: function () { GM_setValue('installforversions', this.checked) } },
+        { type: 'checkbox', id: 'addbutton', label: translate('addDownButton'), checked: addbutton, onchange: function () { GM_setValue('addbutton', this.checked) } },
+        { type: 'checkbox', id: 'showtotal', label: translate('scriptLinNumb'), checked: showtotal, onchange: function () { GM_setValue('showtotal', this.checked) } },
+        { type: 'checkbox', id: 'addCopyButtonBeforelibScript', label: translate('copylib'), checked: addCopyButtonBeforelibScript, onchange: function () { GM_setValue('addCopyButtonBeforelibScript', this.checked) } },
+        { type: 'checkbox', id: 'showresource', label: translate('displaycitationcount'), checked: showresource, onchange: function () { GM_setValue('showresource', this.checked) } },
+        { type: 'checkbox', id: 'copyshortlink', label: translate('复制短链接'), checked: copyshortlink, onchange: function () { GM_setValue('copyshortlink', this.checked) } },
+        { type: 'checkbox', id: 'useHighlighting', label: translate('beautifycodesnippets'), checked: useHighlighting, onchange: function () { GM_setValue('useHighlighting', this.checked) } },
+        { type: 'checkbox', id: 'useHighlighttocode', label: translate('beautifycodeview'), checked: useHighlighttocode, onchange: function () { GM_setValue('useHighlighttocode', this.checked) } },
         {
             type: 'select',
             id: 'lockmode',
@@ -3183,67 +3186,69 @@ button:focus {
             onchange: thandleSelectChange('lockmode')
         }
     ], viewMode)
+
     createCategory('category2', translate('导航栏'), [
-        { type: 'checkbox', id: 'Postlink', label: translate('addNewScript'), checked: GM_getValue('Postlink', true), onchange: function () { GM_setValue('Postlink', this.checked) } },
-        { type: 'checkbox', id: 'jumpto', label: translate('jumpTo18'), checked: GM_getValue('jumpto', false), onchange: function () { GM_setValue('jumpto', this.checked) } },
-        { type: 'checkbox', id: 'HeaderStyleFix', label: translate('fixNavbar'), checked: GM_getValue('HeaderStyleFix', true), onchange: function () { GM_setValue('HeaderStyleFix', this.checked) } },
-        { type: 'checkbox', id: 'setopenindoc', label: translate('openindoc'), checked: GM_getValue('setopenindoc', true), onchange: function () { GM_setValue('setopenindoc', this.checked) } },
-        { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: GM_getValue('wightnav', true), onchange: function () { GM_setValue('wightnav', this.checked) } },
-        { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: GM_getValue('Expandsubmenu', false), onchange: function () { GM_setValue('Expandsubmenu', this.checked) } },
-        { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: GM_getValue('beautifyTopNav', true), onchange: function () { GM_setValue('beautifyTopNav', this.checked) } },
+        { type: 'checkbox', id: 'Postlink', label: translate('addNewScript'), checked: Postlink, onchange: function () { GM_setValue('Postlink', this.checked) } },
+        { type: 'checkbox', id: 'jumpto', label: translate('jumpTo18'), checked: jumpto, onchange: function () { GM_setValue('jumpto', this.checked) } },
+        { type: 'checkbox', id: 'HeaderStyleFix', label: translate('fixNavbar'), checked: HeaderStyleFix, onchange: function () { GM_setValue('HeaderStyleFix', this.checked) } },
+        { type: 'checkbox', id: 'setopenindoc', label: translate('openindoc'), checked: setopenindoc, onchange: function () { GM_setValue('setopenindoc', this.checked) } },
+        { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: wightnav, onchange: function () { GM_setValue('wightnav', this.checked) } },
+        { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: Expandsubmenu, onchange: function () { GM_setValue('Expandsubmenu', this.checked) } },
+        { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: beautifyTopNav, onchange: function () { GM_setValue('beautifyTopNav', this.checked) } },
+
     ]
     )
     createCategory('category3', translate('website'), [
-        { type: 'checkbox', id: 'autocheck', label: translate('AutoEnableCodeEditor'), checked: GM_getValue('autocheck', false), onchange: function () { GM_setValue('autocheck', this.checked) } },
-        { type: 'checkbox', id: 'newtabtoinstall', label: translate('openTab'), checked: GM_getValue('newtabtoinstall', false), onchange: function () { GM_setValue('newtabtoinstall', this.checked) } },
-        { type: 'checkbox', id: 'AbsoluteTime', label: translate('exactDate'), checked: GM_getValue('AbsoluteTime', false), onchange: function () { GM_setValue('AbsoluteTime', this.checked) } },
-        { type: 'checkbox', id: 'greasymaxWidth', label: translate('maxView'), checked: GM_getValue('greasymaxWidth', false), onchange: function () { GM_setValue('greasymaxWidth', this.checked) } },
-        { type: 'checkbox', id: 'usereport', label: translate('oneclickreport'), checked: GM_getValue('usereport', true), onchange: function () { GM_setValue('usereport', this.checked) } },
-        { type: 'checkbox', id: 'userlocalfav', label: translate('localbookmarks'), checked: GM_getValue('userlocalfav', true), onchange: function () { GM_setValue('userlocalfav', this.checked) } },
-        { type: 'checkbox', id: 'remme', label: translate('Rememberme'), checked: GM_getValue('remme', true), onchange: function () { GM_setValue('remme', this.checked) } },
-        {
-            type: 'checkbox', id: 'hidediscussionread', label: translate('hidereadcomments'), checked: GM_getValue('hidediscussionread', false
-            ), onchange: function () { GM_setValue('hidediscussionread', this.checked) }
-        },
-        { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: GM_getValue('italicdiscussionread', true), onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
-        { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: GM_getValue('useroutline', true), onchange: function () { GM_setValue('useroutline', this.checked) } },
-        { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: GM_getValue('userimageproxy', false), onchange: function () { GM_setValue('userimageproxy', this.checked) } },
-        { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: GM_getValue('fixElementoption', true), onchange: function () { GM_setValue('fixElementoption', this.checked) } },
+        { type: 'checkbox', id: 'autocheck', label: translate('AutoEnableCodeEditor'), checked: autocheck, onchange: function () { GM_setValue('autocheck', this.checked) } },
+        { type: 'checkbox', id: 'newtabtoinstall', label: translate('openTab'), checked: newtabtoinstall, onchange: function () { GM_setValue('newtabtoinstall', this.checked) } },
+        { type: 'checkbox', id: 'AbsoluteTime', label: translate('exactDate'), checked: AbsoluteTime, onchange: function () { GM_setValue('AbsoluteTime', this.checked) } },
+        { type: 'checkbox', id: 'greasymaxWidth', label: translate('maxView'), checked: greasymaxWidth, onchange: function () { GM_setValue('greasymaxWidth', this.checked) } },
+        { type: 'checkbox', id: 'usereport', label: translate('oneclickreport'), checked: usereport, onchange: function () { GM_setValue('usereport', this.checked) } },
+        { type: 'checkbox', id: 'userlocalfav', label: translate('localbookmarks'), checked: userlocalfav, onchange: function () { GM_setValue('userlocalfav', this.checked) } },
+        { type: 'checkbox', id: 'remme', label: translate('Rememberme'), checked: remme, onchange: function () { GM_setValue('remme', this.checked) } },
+        { type: 'checkbox', id: 'hidediscussionread', label: translate('hidereadcomments'), checked: hidediscussionread, onchange: function () { GM_setValue('hidediscussionread', this.checked) } },
+        { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: italicdiscussionread, onchange: function () { GM_setValue('italicdiscussionread', this.checked) } },
+        { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: useroutline, onchange: function () { GM_setValue('useroutline', this.checked) } },
+        { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: userimageproxy, onchange: function () { GM_setValue('userimageproxy', this.checked) } },
+        { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: fixElementoption, onchange: function () { GM_setValue('fixElementoption', this.checked) } },
+
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
-        { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: GM_getValue('userautologin', false), onchange: function () { GM_setValue('userautologin', this.checked) } },
-        { type: 'text', id: 'useremail', label: translate('account'), value: GM_getValue('useremail', "") },
-        { type: 'text', id: 'userpassword', label: translate('password'), value: GM_getValue('userpassword', "") },
+        { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: userautologin, onchange: function () { GM_setValue('userautologin', this.checked) } },
+        { type: 'text', id: 'useremail', label: translate('account'), value: useremail },
+        { type: 'text', id: 'userpassword', label: translate('password'), value: userpassword },
     ], 1)
     createCategory('sl', translate('scriptlist'), [
-        { type: 'checkbox', id: 'showinstallbutton', label: translate('listdisplayinstallationdownload'), checked: GM_getValue('showinstallbutton', true), onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
-        { type: 'checkbox', id: 'setlocklang', label: translate('locklangset'), checked: GM_getValue('setlocklang', false), onchange: function () { GM_setValue('setlocklang', this.checked) } },
-        { type: 'checkbox', id: 'showRating', label: translate('showRating'), checked: GM_getValue('showRating', false), onchange: function () { GM_setValue('showRating', this.checked) } },
-        { type: 'checkbox', id: 'showSourceCode', label: translate('showJump'), checked: GM_getValue('showSourceCode', false), onchange: function () { GM_setValue('showSourceCode', this.checked) } },
-        { type: 'checkbox', id: 'userapplyCustomStyles', label: translate('useoldversionlist'), checked: GM_getValue('userapplyCustomStyles', false), onchange: function () { GM_setValue('userapplyCustomStyles', this.checked) } },
-        { type: 'checkbox', id: 'userhandleLocaleFilter', label: translate('showscriptall'), checked: GM_getValue('userhandleLocaleFilter', true), onchange: function () { GM_setValue('userhandleLocaleFilter', this.checked) } },
-        { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: GM_getValue('scriptset', true), onchange: function () { GM_setValue('scriptset', this.checked) } },
-        { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: GM_getValue('scriptwithdata', true), onchange: function () { GM_setValue('scriptwithdata', this.checked) } },
-        { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: GM_getValue('scriptlistdouble', true), onchange: function () { GM_setValue('scriptlistdouble', this.checked) } },
+        { type: 'checkbox', id: 'showinstallbutton', label: translate('listdisplayinstallationdownload'), checked: showinstallbutton, onchange: function () { GM_setValue('showinstallbutton', this.checked) } },
+        { type: 'checkbox', id: 'setlocklang', label: translate('locklangset'), checked: setlocklang, onchange: function () { GM_setValue('setlocklang', this.checked) } },
+        { type: 'checkbox', id: 'showRating', label: translate('showRating'), checked: showRating, onchange: function () { GM_setValue('showRating', this.checked) } },
+        { type: 'checkbox', id: 'showSourceCode', label: translate('showJump'), checked: showSourceCode, onchange: function () { GM_setValue('showSourceCode', this.checked) } },
+        { type: 'checkbox', id: 'userapplyCustomStyles', label: translate('useoldversionlist'), checked: userapplyCustomStyles, onchange: function () { GM_setValue('userapplyCustomStyles', this.checked) } },
+        { type: 'checkbox', id: 'userhandleLocaleFilter', label: translate('showscriptall'), checked: userhandleLocaleFilter, onchange: function () { GM_setValue('userhandleLocaleFilter', this.checked) } },
+        { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: scriptset, onchange: function () { GM_setValue('scriptset', this.checked) } },
+        { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: scriptwithdata, onchange: function () { GM_setValue('scriptwithdata', this.checked) } },
+        { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: scriptlistdouble, onchange: function () { GM_setValue('scriptlistdouble', this.checked) } },
+
     ], viewMode)
     createCategory('sl2', translate('personalhomepage'), [
-        { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: GM_getValue('clearhomepage', true), onchange: function () { GM_setValue('clearhomepage', this.checked) } },
-        { type: 'text', id: 'clearhomepagedays', label: translate('cleanUpOld'), value: GM_getValue('clearhomepagedays', 30) },
-        { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: GM_getValue('addedittohomepage', true), onchange: function () { GM_setValue('addedittohomepage', this.checked) } },
-        { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: GM_getValue('hideuserdiscussions', false), onchange: function () { GM_setValue('hideuserdiscussions', this.checked) } },
-        { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: GM_getValue('shouwtotalonuserpage', true), onchange: function () { GM_setValue('shouwtotalonuserpage', this.checked) } },
+        { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: clearhomepage, onchange: function () { GM_setValue('clearhomepage', this.checked) } },
+        { type: 'text', id: 'clearhomepagedays', label: translate('cleanUpOld'), value: clearhomepagedays },
+        { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: addedittohomepage, onchange: function () { GM_setValue('addedittohomepage', this.checked) } },
+        { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: hideuserdiscussions, onchange: function () { GM_setValue('hideuserdiscussions', this.checked) } },
+        { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { GM_setValue('shouwtotalonuserpage', this.checked) } },
+
     ], viewMode)
     createCategory('sl3', translate('beautifycontrols'), [
-        { type: 'checkbox', id: 'usercssto', label: translate('beautifycontrols'), checked: GM_getValue('usercssto', true), onchange: function () { GM_setValue('usercssto', this.checked) } },
-        { type: 'checkbox', id: 'modifyRadioLabels', label: translate('beautifyDis'), checked: GM_getValue('modifyRadioLabels', false), onchange: function () { GM_setValue('modifyRadioLabels', this.checked) } },
+        { type: 'checkbox', id: 'usercssto', label: translate('beautifycontrols'), checked: usercssto, onchange: function () { GM_setValue('usercssto', this.checked) } },
+        { type: 'checkbox', id: 'modifyRadioLabels', label: translate('beautifyDis'), checked: modifyRadioLabels, onchange: function () { GM_setValue('modifyRadioLabels', this.checked) } },
     ], viewMode)
     createCategory('openabout', translate('applyto'), [
-        { type: 'checkbox', id: 'usersearchingreasyfork', label: translate('enableenhancements'), checked: GM_getValue('usersearchingreasyfork', true), onchange: function () { GM_setValue('usersearchingreasyfork', this.checked) } },
+        { type: 'checkbox', id: 'usersearchingreasyfork', label: translate('enableenhancements'), checked: usersearchingreasyfork, onchange: function () { GM_setValue('usersearchingreasyfork', this.checked) } },
         //  { type: 'divider' },
         {
-            type: 'checkbox', id: 'newtabopenabout', label: translate('openinnewwindow'), checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('navigateTotab', this.checked) }
+            type: 'checkbox', id: 'newtabopenabout', label: translate('openinnewwindow'), checked: navigateTotab, onchange: function () { GM_setValue('navigateTotab', this.checked) }
         },
-        { type: 'checkbox', id: 'showlinktotal', label: translate('showscriptsinforum'), checked: GM_getValue('navigateTotab', true), onchange: function () { GM_setValue('showlinktotal', this.checked) } },
+        { type: 'checkbox', id: 'showlinktotal', label: translate('showscriptsinforum'), checked: navigateTotab, onchange: function () { GM_setValue('showlinktotal', this.checked) } },
         { type: 'select', id: 'searchingreasyfork', label: translate('detailsapplytoopen'), placeholder: 'Select...', options: [{ value: '0', text: translate('forumsearch'), selected: false }, { value: '1', text: translate('webpageopen'), selected: true }, { value: '2', text: translate('popupprompt'), selected: false }], onchange: thandleSelectChange('searchingreasyfork') }
     ], 1)
     const controls2 = [
@@ -3282,7 +3287,7 @@ button:focus {
             }
         }
     }
-    //设置- 适用于网页增强
+    //STUB - - 适用于网页增强
     const ulElement = document.querySelector("#script-stats > dd.script-show-applies-to > ul")
     if (ulElement && usersearchingreasyfork) {
         const links = ulElement.querySelectorAll("a")
@@ -3549,7 +3554,7 @@ button:focus {
             })
         }
     }
-
+    //NOTE - 美化WEBHOOK页面
     function checkAndRun() {
         const url = window.location.href
         const lastSegment = url.substring(url.lastIndexOf('/') + 1)
