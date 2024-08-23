@@ -39,6 +39,7 @@ const translate = (function () {
             windowHeight: 'Set Window Height',
             setLongPressDuration: 'Enter Long Press Duration (milliseconds):',
             setBlurIntensityprompt: 'Enter Blur Intensity (0-10):',
+            toggleActionMode: 'Select Trigger Mode:\n1: Long Press\n2: Drag\n0: Both',
             setWindowSizeprompt: 'Enter Window Size (pixels):'
         },
         'zh-CN': {
@@ -55,7 +56,9 @@ const translate = (function () {
             windowHeight: '设置小窗高度',
             setLongPressDuration: '输入长按触发时间（毫秒）:',
             setBlurIntensityprompt: '输入模糊强度（0-10）:',
+            toggleActionMode: '选择触发方式:\n1: 长按\n2: 拖拽\n0: 两者都用',
             setWindowSizeprompt: '输入小窗口（像素）:'
+
         },
         'zh-TW': {
             actionMode: '選擇觸發方式',
@@ -71,6 +74,7 @@ const translate = (function () {
             windowHeight: '設定小窗高度',
             setLongPressDuration: '輸入長按觸發時間（毫秒）:',
             setBlurIntensityprompt: '輸入模糊強度（0-10）:',
+            toggleActionMode: '選擇觸發方式:\n1: 長按\n2: 拖曳\n0: 兩者都用',
             setWindowSizeprompt: '輸入小窗口（像素）:'
         },
         'ja': {
@@ -87,6 +91,7 @@ const translate = (function () {
             windowHeight: 'ウィンドウ高さの設定',
             setLongPressDuration: '長押しの時間（ミリ秒）を入力:',
             setBlurIntensityprompt: 'ぼかしの強度（0-10）を入力:',
+            toggleActionMode: 'トリガーモードの選択:\n1: 長押し\n2: ドラッグ\n0: 両方',
             setWindowSizeprompt: 'ウィンドウサイズ（ピクセル）を入力:'
         },
         'vi': {
@@ -103,6 +108,7 @@ const translate = (function () {
             windowHeight: 'Cài đặt chiều cao cửa sổ',
             setLongPressDuration: 'Nhập thời gian nhấn lâu (mili giây):',
             setBlurIntensityprompt: 'Nhập độ mờ (0-10):',
+            toggleActionMode: 'Chọn chế độ kích hoạt:\n1: Nhấn lâu\n2: Kéo thả\n0: Cả hai',
             setWindowSizeprompt: 'Nhập kích thước cửa sổ (pixel):'
         }
     }
@@ -212,7 +218,7 @@ const translate = (function () {
         })
     }
     function toggleActionMode() {
-        const mode = prompt('选择触发方式:\n1: 长按\n2: 拖拽\n0: 两者都用', config.actionMode)
+        const mode = prompt(translate('toggleActionMode'), config.actionMode)
         if (mode !== null) {
             config.actionMode = parseInt(mode, 10)
             GM_setValue('actionMode', config.actionMode)
