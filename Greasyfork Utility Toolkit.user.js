@@ -48,7 +48,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.58
+// @version 2.2.0.59
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -1029,7 +1029,8 @@ const translate = (function () {
     //STUB - 增加图标
     if (viewicon) {
         if (/^https:\/\/(greasy|sleazy)fork\.org\/([^/]+\/)?scripts\/([^/]+|$)/.test(window.location.href)) {
-            const installArea = document.querySelector('div#install-area')
+            // const installArea = document.querySelector('div#install-area')
+            const installArea = document.querySelector('#script-info header h2')
             if (installArea) {
                 addIcon(installArea)
             }
@@ -2125,8 +2126,12 @@ margin-bottom: 0;
                 timeout: 10000,
                 onload: function (r) {
                     var url = (r.responseText.match(/\n\s*\/\/\s+@icon(?:url)?\s+((?:https?:\/\/|data:image\/).+)|$/i)[1] || '').trim()
-                    if (!url)
-                        return
+                    if (!url) {
+                        url = "https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/default.png"
+                        return __addIcon(url, h2Element, true)
+                    }
+
+
                     if (!/^http:/.test(url))
                         return __addIcon(url, h2Element)
                     // download http icon and store it in script db if it's small
@@ -2157,7 +2162,7 @@ margin-bottom: 0;
                 }
             })
         }
-        function __addIcon(url, h2Element) {
+        function __addIcon(url, h2Element, NoCache = false) {
             if (!h2Element) {
                 logMessage('addIcon', '缺少附加图标的元素', false)
                 return
@@ -2168,13 +2173,22 @@ margin-bottom: 0;
         margin-left: calc(-80px - 1ex);\
         display: inline-block;\
         text-align: right"></div>')
-            var img = h2Element.appendChild(document.createElement('img'))
-            img.style.maxWidth = img.style.maxHeight = '64px'
+            var img = document.createElement('img')
+            const imgsize = '32px'
+            img.style.maxWidth = img.style.maxHeight = imgsize
             img.style.width = img.style.height = 'auto'
             img.src = url
-            const scripts = JSON.parse(GM_getValue('scriptsIcon', '{}'))
-            scripts[scriptID] = url
-            GM_setValue('scriptsIcon', JSON.stringify(scripts))
+            h2Element.insertAdjacentElement('afterbegin', img)
+            if (!NoCache) {
+                logMessage("添加图标", "nocache,为false,进行缓存", true)
+                const scripts = JSON.parse(GM_getValue('scriptsIcon', '{}'))
+                scripts[scriptID] = url
+                GM_setValue('scriptsIcon', JSON.stringify(scripts))
+            } else {
+                logMessage("添加图标", "nocache为true,不缓存", false)
+
+            }
+
             // GM_setValue(scriptID, url);
         }
     }
