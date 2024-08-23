@@ -61,8 +61,8 @@
 **脚本来自互联网广大网友，本人仅是做了些许改动.感谢网友**
 **如有侵权,联系必删**
 
-## 脚本目录
-  [<mark style="background-color: yellow; color: green;">脚本目录</mark>](/Script%20details)    
+##  [<mark style="background-color: yellow; color: green;">浏览脚本目录查看详细</mark>](/Script%20details)   
+  
 
 ## 脚本列表
 
