@@ -22,6 +22,96 @@
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
+const translate = (function () {
+    const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
+    const strings = {
+        'en': {
+            actionMode: 'Select Trigger Mode',
+            actionMode1: 'Long Press',
+            actionMode2: 'Drag',
+            actionMode0: 'Both',
+            longPressDuration: 'Long Press Duration',
+            blurEnabled: 'Toggle Blur Effect',
+            blurIntensity: 'Set Blur Intensity',
+            closeOnMouseClick: 'Toggle Close on Mouse Click',
+            closeOnScroll: 'Toggle Close on Scroll',
+            windowWidth: 'Set Window Width',
+            windowHeight: 'Set Window Height',
+            setLongPressDuration: 'Enter Long Press Duration (milliseconds):',
+            setBlurIntensityprompt: 'Enter Blur Intensity (0-10):',
+            setWindowSizeprompt: 'Enter Window Size (pixels):'
+        },
+        'zh-CN': {
+            actionMode: '选择触发方式',
+            actionMode1: '长按',
+            actionMode2: '拖拽',
+            actionMode0: '两者都用',
+            longPressDuration: '长按触发时间',
+            blurEnabled: '切换模糊效果',
+            blurIntensity: '设置模糊强度',
+            closeOnMouseClick: '切换点击关闭小窗',
+            closeOnScroll: '切换滚动关闭小窗',
+            windowWidth: '设置小窗宽度',
+            windowHeight: '设置小窗高度',
+            setLongPressDuration: '输入长按触发时间（毫秒）:',
+            setBlurIntensityprompt: '输入模糊强度（0-10）:',
+            setWindowSizeprompt: '输入小窗口（像素）:'
+        },
+        'zh-TW': {
+            actionMode: '選擇觸發方式',
+            actionMode1: '長按',
+            actionMode2: '拖曳',
+            actionMode0: '兩者都用',
+            longPressDuration: '長按觸發時間',
+            blurEnabled: '切換模糊效果',
+            blurIntensity: '設定模糊強度',
+            closeOnMouseClick: '切換點擊關閉小窗',
+            closeOnScroll: '切換滾動關閉小窗',
+            windowWidth: '設定小窗寬度',
+            windowHeight: '設定小窗高度',
+            setLongPressDuration: '輸入長按觸發時間（毫秒）:',
+            setBlurIntensityprompt: '輸入模糊強度（0-10）:',
+            setWindowSizeprompt: '輸入小窗口（像素）:'
+        },
+        'ja': {
+            actionMode: 'トリガーモードの選択',
+            actionMode1: '長押し',
+            actionMode2: 'ドラッグ',
+            actionMode0: '両方',
+            longPressDuration: '長押しの時間',
+            blurEnabled: 'ぼかし効果の切り替え',
+            blurIntensity: 'ぼかしの強度を設定',
+            closeOnMouseClick: 'マウスクリックで閉じる切り替え',
+            closeOnScroll: 'スクロールで閉じる切り替え',
+            windowWidth: 'ウィンドウ幅の設定',
+            windowHeight: 'ウィンドウ高さの設定',
+            setLongPressDuration: '長押しの時間（ミリ秒）を入力:',
+            setBlurIntensityprompt: 'ぼかしの強度（0-10）を入力:',
+            setWindowSizeprompt: 'ウィンドウサイズ（ピクセル）を入力:'
+        },
+        'vi': {
+            actionMode: 'Chọn chế độ kích hoạt',
+            actionMode1: 'Nhấn lâu',
+            actionMode2: 'Kéo thả',
+            actionMode0: 'Cả hai',
+            longPressDuration: 'Thời gian nhấn lâu',
+            blurEnabled: 'Bật hiệu ứng mờ',
+            blurIntensity: 'Cài đặt độ mờ',
+            closeOnMouseClick: 'Bật/tắt đóng cửa sổ bằng nhấp chuột',
+            closeOnScroll: 'Bật/tắt đóng cửa sổ khi cuộn',
+            windowWidth: 'Cài đặt chiều rộng cửa sổ',
+            windowHeight: 'Cài đặt chiều cao cửa sổ',
+            setLongPressDuration: 'Nhập thời gian nhấn lâu (mili giây):',
+            setBlurIntensityprompt: 'Nhập độ mờ (0-10):',
+            setWindowSizeprompt: 'Nhập kích thước cửa sổ (pixel):'
+        }
+    }
+    // 返回翻译函数
+    return (id, lang = '') => {
+        const selectedLang = lang || userLang
+        return (strings[selectedLang] || strings.en)[id] || strings.en[id]
+    }
+}());
 (function () {
     'use strict'
     const state = {
@@ -130,17 +220,17 @@
         }
     }
     const menuCommands = [
-        { label: `选择触发方式 (${config.actionMode === 1 ? '长按' : config.actionMode === 2 ? '拖拽' : '两者都用'})`, action: toggleActionMode },
-        { label: `长按触发时间 (${config.longPressDuration}ms)`, action: setLongPressDuration },
-        { label: `切换模糊效果 (${config.blurEnabled ? '✅' : '❌'})`, action: toggleBlurEffect },
-        { label: `设置模糊强度 (${config.blurIntensity})`, action: setBlurIntensity },
-        { label: `切换点击关闭小窗 (${config.closeOnMouseClick ? '✅' : '❌'})`, action: toggleCloseOnMouseClick },
-        { label: `切换滚动关闭小窗 (${config.closeOnScroll ? '✅' : '❌'})`, action: toggleCloseOnScroll },
-        { label: `设置小窗宽度 (${config.windowWidth})`, action: () => { setWindowSize('width') } },
-        { label: `设置小窗高度 (${config.windowHeight})`, action: () => { setWindowSize('height') } }
+        { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
+        { label: translate('longPressDuration') + ` (${config.longPressDuration}ms)`, action: setLongPressDuration },
+        { label: translate('blurEnabled') + ` (${config.blurEnabled ? '✅' : '❌'})`, action: toggleBlurEffect },
+        { label: translate('blurIntensity') + ` (${config.blurIntensity})`, action: setBlurIntensity },
+        { label: translate('closeOnMouseClick') + ` (${config.closeOnMouseClick ? '✅' : '❌'})`, action: toggleCloseOnMouseClick },
+        { label: translate('closeOnScroll') + ` (${config.closeOnScroll ? '✅' : '❌'})`, action: toggleCloseOnScroll },
+        { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },
+        { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } }
     ]
     function setLongPressDuration() {
-        const duration = prompt('输入长按触发时间（毫秒）:', config.longPressDuration)
+        const duration = prompt(translate('setLongPressDuration'), config.longPressDuration)
         if (duration !== null) {
             GM_setValue('longPressDuration', duration)
         }
@@ -150,7 +240,7 @@
         GM_setValue('blurEnabled', config.blurEnabled)
     }
     function setBlurIntensity() {
-        const intensity = prompt('输入模糊强度（0-10）:', config.blurIntensity)
+        const intensity = prompt(translate('setBlurIntensityprompt'), config.blurIntensity)
         if (intensity !== null) {
             config.blurIntensity = parseInt(intensity, 10)
             GM_setValue('blurIntensity', config.blurIntensity)
@@ -173,7 +263,7 @@
         }
     }
     function setWindowSize(dimension) {
-        const size = prompt(`输入小窗口${dimension}（像素）:`, config[dimension === 'width' ? 'windowWidth' : 'windowHeight'])
+        const size = prompt(`${translate('setWindowSizeprompt')} (${dimension})`, config[dimension === 'width' ? 'windowWidth' : 'windowHeight'])
         if (size !== null) {
             config[dimension === 'width' ? 'windowWidth' : 'windowHeight'] = parseInt(size, 10)
             GM_setValue(dimension === 'width' ? 'windowWidth' : 'windowHeight', config[dimension === 'width' ? 'windowWidth' : 'windowHeight'])
