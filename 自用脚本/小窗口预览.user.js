@@ -9,8 +9,7 @@
 // @grant        GM_setValue
 // @grant        GM_info
 // @namespace https://greasyfork.org/users/217852
-// @downloadURL https://update.greasyfork.org/scripts/504567/%E5%B0%8F%E7%AA%97%E9%A2%84%E8%A7%88.user.js
-// @updateURL https://update.greasyfork.org/scripts/504567/%E5%B0%8F%E7%AA%97%E9%A2%84%E8%A7%88.meta.js
+
 // ==/UserScript==
 (function () {
     'use strict'
