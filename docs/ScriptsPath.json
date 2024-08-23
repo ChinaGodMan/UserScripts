@@ -77,6 +77,18 @@
             "path": "Google-advance-search.user.js",
             "isUpdated": true,
             "backuppath": "Script details/Google-advance-search"
+        },
+        {
+            "name": "上下滚动小按钮小辣鸡",
+            "path": "ScollButton.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/ScrollButton"
+        },
+        {
+            "name": "高亮网页文本",
+            "path": "HighLight.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/HighLight"
         }
     ]
 }
