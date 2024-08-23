@@ -4,13 +4,15 @@
 // @version      1.0.5
 // @description  在网页上自定义关键词突出显示包括滚动时动态加载的内容
 // @description:zh-CN 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-// @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  leconte112 
+// @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  leconte112
 // @match        *://*/*
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
 // @grant        GM_addStyle
 // @license MIT
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 
 (function () {
