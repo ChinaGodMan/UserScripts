@@ -89,6 +89,12 @@
             "path": "HighLight.user.js",
             "isUpdated": true,
             "backuppath": "Script details/HighLight"
+        },
+        {
+            "name": "小窗口预览",
+            "path": "PopUpWindow.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/PopUpWindow"
         }
     ]
 }
