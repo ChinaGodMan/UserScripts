@@ -74,6 +74,13 @@
         if (!state.popupWindow || state.popupWindow.closed) {
             state.acrylicOverlay = createAcrylicOverlay()
             state.popupWindow = window.open(link, '_blank', `width=${config.windowWidth},height=${config.windowHeight},left=${config.screenLeft},top=${config.screenTop}`)
+            //   console.log('Popup window:', state.popupWindow) 
+            state.popupWindowChecker = setInterval(() => {
+                if (state.popupWindow.closed) {
+                    removeAcrylicOverlay()
+                    clearInterval(state.popupWindowChecker)
+                }
+            }, 500)
         }
     }
     function closePopupWindow() {
