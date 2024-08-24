@@ -217,9 +217,8 @@
 
 
 # 外语终结者
-![图标](https://immersive-translate.owenyoung.com/favicon.png)
 **版本:** 1.3.98  
-**作者:**   [人民的勤务员](https://greasyfork.org/zh-CN/users/1169082)
+**作者:**   [人民的勤务员](https://greasyfork.org/zh-CN/users/1169082)  
 **描述:** 识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文。
 
 
