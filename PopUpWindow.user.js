@@ -11,10 +11,11 @@
 // @description:ja リンクをドラッグしてポップアップウィンドウでプレビューを表示し、Edge のプレビュー技術を使用して開く前にリンクを開きます。また、ウィンドウが開いているときにアクリル効果を背景に追加します。
 // @name:vi        Xem trước cửa sổ nhỏ
 // @description:vi Kéo thả liên kết để mở nó trong một cửa sổ popup với chế độ xem trước trước khi mở, sử dụng công nghệ tiên đoán của Edge. Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ khi nó mở.
-// @version 2.4.0.1
+// @version 2.4.0.2
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
+// @grant        GM_unregisterMenuCommand
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_info
@@ -41,7 +42,8 @@ const translate = (function () {
             setLongPressDuration: 'Enter Long Press Duration (milliseconds):',
             setBlurIntensityprompt: 'Enter Blur Intensity (0-10):',
             toggleActionMode: 'Select Trigger Mode:\n1: Long Press\n2: Drag\n0: Both',
-            setWindowSizeprompt: 'Enter Window Size (pixels):'
+            setWindowSizeprompt: 'Enter Window Size (pixels):',
+            showCountdown: 'Show countdown progress bar'
         },
         'zh-CN': {
             actionMode: '选择触发方式',
@@ -58,8 +60,8 @@ const translate = (function () {
             setLongPressDuration: '输入长按触发时间（毫秒）:',
             setBlurIntensityprompt: '输入模糊强度（0-10）:',
             toggleActionMode: '选择触发方式:\n1: 长按\n2: 拖拽\n0: 两者都用',
-            setWindowSizeprompt: '输入小窗口（像素）:'
-
+            setWindowSizeprompt: '输入小窗口（像素）:',
+            showCountdown: '显示倒计时进度条'
         },
         'zh-TW': {
             actionMode: '選擇觸發方式',
@@ -76,7 +78,8 @@ const translate = (function () {
             setLongPressDuration: '輸入長按觸發時間（毫秒）:',
             setBlurIntensityprompt: '輸入模糊強度（0-10）:',
             toggleActionMode: '選擇觸發方式:\n1: 長按\n2: 拖曳\n0: 兩者都用',
-            setWindowSizeprompt: '輸入小窗口（像素）:'
+            setWindowSizeprompt: '輸入小窗口（像素）:',
+            showCountdown: '顯示倒數計時進度條'
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -93,7 +96,8 @@ const translate = (function () {
             setLongPressDuration: '長押しの時間（ミリ秒）を入力:',
             setBlurIntensityprompt: 'ぼかしの強度（0-10）を入力:',
             toggleActionMode: 'トリガーモードの選択:\n1: 長押し\n2: ドラッグ\n0: 両方',
-            setWindowSizeprompt: 'ウィンドウサイズ（ピクセル）を入力:'
+            setWindowSizeprompt: 'ウィンドウサイズ（ピクセル）を入力:',
+            showCountdown: 'カウントダウン進行状況を表示'
         },
         'vi': {
             actionMode: 'Chọn chế độ kích hoạt',
@@ -110,7 +114,8 @@ const translate = (function () {
             setLongPressDuration: 'Nhập thời gian nhấn lâu (mili giây):',
             setBlurIntensityprompt: 'Nhập độ mờ (0-10):',
             toggleActionMode: 'Chọn chế độ kích hoạt:\n1: Nhấn lâu\n2: Kéo thả\n0: Cả hai',
-            setWindowSizeprompt: 'Nhập kích thước cửa sổ (pixel):'
+            setWindowSizeprompt: 'Nhập kích thước cửa sổ (pixel):',
+            showCountdown: 'Hiển thị thanh tiến trình đếm ngược'
         }
     }
     // 返回翻译函数
@@ -126,6 +131,7 @@ const translate = (function () {
         linkToPreload: null,
         popupWindow: null,
         acrylicOverlay: null,
+        progressBar: null
     }
     const config = {
         windowWidth: GM_getValue('windowWidth', 870),
@@ -138,6 +144,7 @@ const translate = (function () {
         closeOnScroll: GM_getValue('closeOnScroll', true),
         longPressDuration: GM_getValue('longPressDuration', 500), // 长按持续时间（毫秒）
         actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
+        showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
     }
     function delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms))
@@ -212,55 +219,47 @@ const translate = (function () {
             closePopupWindow()
         }
     }
-    function registerMenuCommand(label, action) {
-        return GM_registerMenuCommand(label, () => {
-            action()
-            updateMenuCommands()
-        })
-    }
     function toggleActionMode() {
         const mode = prompt(translate('toggleActionMode'), config.actionMode)
         if (mode !== null) {
             config.actionMode = parseInt(mode, 10)
             GM_setValue('actionMode', config.actionMode)
             setupEventListeners()
+            updateMenuCommands()
         }
     }
-    const menuCommands = [
-        { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
-        { label: translate('longPressDuration') + ` (${config.longPressDuration}ms)`, action: setLongPressDuration },
-        { label: translate('blurEnabled') + ` (${config.blurEnabled ? '✅' : '❌'})`, action: toggleBlurEffect },
-        { label: translate('blurIntensity') + ` (${config.blurIntensity})`, action: setBlurIntensity },
-        { label: translate('closeOnMouseClick') + ` (${config.closeOnMouseClick ? '✅' : '❌'})`, action: toggleCloseOnMouseClick },
-        { label: translate('closeOnScroll') + ` (${config.closeOnScroll ? '✅' : '❌'})`, action: toggleCloseOnScroll },
-        { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },
-        { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } }
-    ]
     function setLongPressDuration() {
         const duration = prompt(translate('setLongPressDuration'), config.longPressDuration)
         if (duration !== null) {
+            config.longPressDuration = duration
             GM_setValue('longPressDuration', duration)
+            updateMenuCommands()
         }
     }
     function toggleBlurEffect() {
         config.blurEnabled = !config.blurEnabled
         GM_setValue('blurEnabled', config.blurEnabled)
+        updateMenuCommands()
     }
+
     function setBlurIntensity() {
         const intensity = prompt(translate('setBlurIntensityprompt'), config.blurIntensity)
         if (intensity !== null) {
             config.blurIntensity = parseInt(intensity, 10)
             GM_setValue('blurIntensity', config.blurIntensity)
+            updateMenuCommands()
         }
     }
     function toggleCloseOnMouseClick() {
         config.closeOnMouseClick = !config.closeOnMouseClick
         GM_setValue('closeOnMouseClick', config.closeOnMouseClick)
+        updateMenuCommands()
     }
     function toggleCloseOnScroll() {
         config.closeOnScroll = !config.closeOnScroll
         handleScrollCommand()
         GM_setValue('closeOnScroll', config.closeOnScroll)
+        updateMenuCommands()
     }
     function handleScrollCommand() {
         if (config.closeOnScroll) {
@@ -274,21 +273,58 @@ const translate = (function () {
         if (size !== null) {
             config[dimension === 'width' ? 'windowWidth' : 'windowHeight'] = parseInt(size, 10)
             GM_setValue(dimension === 'width' ? 'windowWidth' : 'windowHeight', config[dimension === 'width' ? 'windowWidth' : 'windowHeight'])
+            updateMenuCommands()
             if (state.popupWindow && !state.popupWindow.closed) {
                 state.popupWindow.resizeTo(config.windowWidth, config.windowHeight)
             }
         }
     }
+    let registeredMenuCommands = {}
+    function registerMenuCommand(label, action) {
+        const menuCommandId = GM_registerMenuCommand(label, action)
+        registeredMenuCommands[label] = menuCommandId
+        return menuCommandId
+    }
+    function toggleshowCountdown() {
+        config.showCountdown = !config.showCountdown
+        GM_setValue('showCountdown', config.showCountdown)
+        updateMenuCommands()
+    }
+    function toggleSwitch(property) {
+        if (property in config) {
+
+            config[property] = !config[property]
+
+            GM_setValue(property, config[property])
+
+            updateMenuCommands()
+        }
+    }
     function updateMenuCommands() {
+        const menuCommands = [
+            { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
+            { label: translate('longPressDuration') + ` (${config.longPressDuration}ms)`, action: setLongPressDuration },
+            { label: translate('blurEnabled') + ` (${config.blurEnabled ? '✅' : '❌'})`, action: toggleBlurEffect },
+            { label: translate('blurIntensity') + ` (${config.blurIntensity})`, action: setBlurIntensity },
+            { label: translate('closeOnMouseClick') + ` (${config.closeOnMouseClick ? '✅' : '❌'})`, action: toggleCloseOnMouseClick },
+            { label: translate('closeOnScroll') + ` (${config.closeOnScroll ? '✅' : '❌'})`, action: toggleCloseOnScroll },
+            { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },
+            { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },
+            { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
+        ]
+        for (const label in registeredMenuCommands) {
+            GM_unregisterMenuCommand(registeredMenuCommands[label])
+        }
+        registeredMenuCommands = {}
         menuCommands.forEach((command) => {
-            const menuCommand = registerMenuCommand(command.label, command.action)
-            GM_info[`menuCommand${toTitleCase(command.label)}`] = menuCommand
+            registerMenuCommand(command.label, command.action)
+
         })
     }
+    updateMenuCommands()
     function toTitleCase(str) {
         return str.replace(/\w\S*/g, (txt) => { return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase() })
     }
-    updateMenuCommands()
     function setupEventListeners() {
         // 移除旧的事件监听器
         document.body.removeEventListener('dragstart', handleDragStart)
@@ -332,21 +368,70 @@ const translate = (function () {
             state.linkToPreload = null
         }
     }
+    function createProgressBar() {
+        if (!config.showCountdown) return null
+        const progressBar = document.createElement('div')
+        Object.assign(progressBar.style, {
+            position: 'fixed',
+            height: '3px',
+            width: '5%',
+            backgroundColor: 'blue',
+            zIndex: '9999',
+        })
+        document.body.appendChild(progressBar)
+        return progressBar
+    }
+    let mouseDownTime = 0
     function handleMouseDown(event) {
         const linkElement = event.target.tagName === 'A' ? event.target : event.target.closest('a')
         if (linkElement) {
+            let isDragging = false
+            const onMouseMove = () => {
+                isDragging = true
+                clearTimeout(state.pressTimer)
+                progressBarremove()
+            }
+            document.addEventListener('mousemove', onMouseMove)
+            setTimeout(() => {//按下100ms后显示倒计时,避免点击就显示
+                state.progressBar = createProgressBar()
+                if (state.progressBar) {
+                    const transitionDuration = Math.max(config.longPressDuration - 100, 0) + 'ms'
+                    state.progressBar.style.left = `${event.clientX}px`  // 设置进度条位置为鼠标下方
+                    state.progressBar.style.top = `${event.clientY + 20}px`  // 偏移一点，避免挡住鼠标
+                    state.progressBar.style.transition = `width ${transitionDuration} linear`
+                    requestAnimationFrame(() => {
+                        state.progressBar.style.width = '0'
+                    })
+                }
+            }, 100)
             state.pressTimer = setTimeout(() => {
-                const link = linkElement.href
-                state.linkToPreload = link
-                preloadLink(state.linkToPreload, { importance: 'high' }).then(() => {
-                    openPopupWindow(state.linkToPreload)
-                })
+                if (!isDragging) {
+                    const link = linkElement.href
+                    state.linkToPreload = link
+                    preloadLink(state.linkToPreload, { importance: 'high' }).then(() => {
+                        openPopupWindow(state.linkToPreload)
+                    })
+                }
+                progressBarremove()
+                document.removeEventListener('mousemove', onMouseMove)
+
             }, config.longPressDuration)
+            document.addEventListener('mouseup', () => {
+                document.removeEventListener('mousemove', onMouseMove)
+                clearTimeout(state.pressTimer)
+                progressBarremove()
+            }, { once: true })
         }
     }
     function handleMouseUp() {
         clearTimeout(state.pressTimer)
         state.pressTimer = null
+        progressBarremove()
+    }
+    function progressBarremove() {
+        if (state.progressBar) {
+            state.progressBar.remove()
+        }
     }
     function handleMouseLeave() {
         clearTimeout(state.pressTimer)
