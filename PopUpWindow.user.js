@@ -43,7 +43,8 @@ const translate = (function () {
             setBlurIntensityprompt: 'Enter Blur Intensity (0-10):',
             toggleActionMode: 'Select Trigger Mode:\n1: Long Press\n2: Drag\n0: Both',
             setWindowSizeprompt: 'Enter Window Size (pixels):',
-            showCountdown: 'Show countdown progress bar'
+            showCountdown: 'Show countdown progress bar',
+            saveWindowConfig: 'Record window position'
         },
         'zh-CN': {
             actionMode: '选择触发方式',
@@ -61,7 +62,8 @@ const translate = (function () {
             setBlurIntensityprompt: '输入模糊强度（0-10）:',
             toggleActionMode: '选择触发方式:\n1: 长按\n2: 拖拽\n0: 两者都用',
             setWindowSizeprompt: '输入小窗口（像素）:',
-            showCountdown: '显示倒计时进度条'
+            showCountdown: '显示倒计时进度条',
+            saveWindowConfig: '记录窗口位置',
         },
         'zh-TW': {
             actionMode: '選擇觸發方式',
@@ -79,7 +81,8 @@ const translate = (function () {
             setBlurIntensityprompt: '輸入模糊強度（0-10）:',
             toggleActionMode: '選擇觸發方式:\n1: 長按\n2: 拖曳\n0: 兩者都用',
             setWindowSizeprompt: '輸入小窗口（像素）:',
-            showCountdown: '顯示倒數計時進度條'
+            showCountdown: '顯示倒數計時進度條',
+            saveWindowConfig: '記錄窗口位置',
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -97,7 +100,8 @@ const translate = (function () {
             setBlurIntensityprompt: 'ぼかしの強度（0-10）を入力:',
             toggleActionMode: 'トリガーモードの選択:\n1: 長押し\n2: ドラッグ\n0: 両方',
             setWindowSizeprompt: 'ウィンドウサイズ（ピクセル）を入力:',
-            showCountdown: 'カウントダウン進行状況を表示'
+            showCountdown: 'カウントダウン進行状況を表示',
+            saveWindowConfig: 'ウィンドウの位置を記録'
         },
         'vi': {
             actionMode: 'Chọn chế độ kích hoạt',
@@ -115,7 +119,8 @@ const translate = (function () {
             setBlurIntensityprompt: 'Nhập độ mờ (0-10):',
             toggleActionMode: 'Chọn chế độ kích hoạt:\n1: Nhấn lâu\n2: Kéo thả\n0: Cả hai',
             setWindowSizeprompt: 'Nhập kích thước cửa sổ (pixel):',
-            showCountdown: 'Hiển thị thanh tiến trình đếm ngược'
+            showCountdown: 'Hiển thị thanh tiến trình đếm ngược',
+            saveWindowConfig: 'Ghi lại vị trí cửa sổ'
         }
     }
     // 返回翻译函数
@@ -136,8 +141,13 @@ const translate = (function () {
     const config = {
         windowWidth: GM_getValue('windowWidth', 870),
         windowHeight: GM_getValue('windowHeight', 530),
-        screenLeft: (window.screen.width - GM_getValue('windowWidth', 870)) / 2,
-        screenTop: (window.screen.height - GM_getValue('windowHeight', 530)) / 3,
+        screenLeft: (GM_getValue('screenLeft', 0) === 0)
+            ? (window.screen.width - GM_getValue('windowWidth', 870)) / 2
+            : GM_getValue('screenLeft'),
+
+        screenTop: (GM_getValue('screenTop', 0) === 0)
+            ? (window.screen.height - GM_getValue('windowHeight', 530)) / 3
+            : GM_getValue('screenTop'),
         blurIntensity: GM_getValue('blurIntensity', 5),
         blurEnabled: GM_getValue('blurEnabled', true),
         closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
@@ -145,6 +155,7 @@ const translate = (function () {
         longPressDuration: GM_getValue('longPressDuration', 500), // 长按持续时间（毫秒）
         actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
         showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
+        saveWindowConfig: GM_getValue('saveWindowConfig', false)//记住窗口位置,没啥用
     }
     function delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms))
@@ -190,9 +201,20 @@ const translate = (function () {
             state.popupWindow = window.open(link, '_blank', `width=${config.windowWidth},height=${config.windowHeight},left=${config.screenLeft},top=${config.screenTop}`)
             //   console.log('Popup window:', state.popupWindow) 
             state.popupWindowChecker = setInterval(() => {
+
                 if (state.popupWindow.closed) {
                     removeAcrylicOverlay()
                     clearInterval(state.popupWindowChecker)
+                } else {
+                    const width = state.popupWindow.innerWidth
+                    const height = state.popupWindow.innerHeight
+                    const left = state.popupWindow.screenX
+                    const top = state.popupWindow.screenY
+                    /* console.log(`Popup window size: width=${width}, height=${height}`)
+                    console.log(`Popup window position: left=${left}, top=${top}`) */
+                    if (config.saveWindowConfig) {
+                        saveWindowConfig(width, height, left, top)
+                    }
                 }
             }, 500)
         }
@@ -290,6 +312,18 @@ const translate = (function () {
         GM_setValue('showCountdown', config.showCountdown)
         updateMenuCommands()
     }
+
+    function saveWindowConfig(width, height, left, top) {
+        config.windowHeight = height
+        config.windowWidth = width
+        config.screenLeft = left
+        config.screenTop = top
+        GM_setValue('windowWidth', width)
+        GM_setValue('windowHeight', height)
+        GM_setValue('screenLeft', left)
+        GM_setValue('screenTop', top)
+        updateMenuCommands()
+    }
     function toggleSwitch(property) {
         if (property in config) {
 
@@ -311,6 +345,7 @@ const translate = (function () {
             { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },
             { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },
             { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
+            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } },
         ]
         for (const label in registeredMenuCommands) {
             GM_unregisterMenuCommand(registeredMenuCommands[label])
