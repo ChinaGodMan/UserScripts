@@ -95,6 +95,12 @@
             "path": "PopUpWindow.user.js",
             "isUpdated": true,
             "backuppath": "Script details/PopUpWindow"
+        },
+        {
+            "name": "外语终结者",
+            "path": "NoZHTerminator.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/NoZHTerminator"
         }
     ]
 }

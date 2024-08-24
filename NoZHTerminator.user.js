@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         外语终结者
-// @namespace    https://github.com/10086100886/renmindeqinwuyuan
+// @namespace   https://greasyfork.org/zh-CN/users/1169082
 // @version      1.3.98
-// @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换中文翻译
+// @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文
 // @license      MIT
-// @author       https://github.com/10086100886/renmindeqinwuyuan
+// @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @icon           https://immersive-translate.owenyoung.com/favicon.png
@@ -13,8 +13,8 @@
 // @grant        GM_setValue
 // @grant        GM_registerMenuCommand
 // @connect      translate.googleapis.com
-// @downloadURL https://update.greasyfork.org/scripts/497560/%E5%A4%96%E8%AF%AD%E7%BB%88%E7%BB%93%E8%80%85.user.js
-// @updateURL https://update.greasyfork.org/scripts/497560/%E5%A4%96%E8%AF%AD%E7%BB%88%E7%BB%93%E8%80%85.meta.js
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 //https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dj=1&dt=t&dt=rm&q=你好
 GM_addStyle(`
@@ -164,7 +164,7 @@ GM_addStyle(`
     // 注册油猴菜单命令
     GM_registerMenuCommand(isCurrentSiteEnabled() ? '移出翻译' : '添加翻译', toggleTranslation)
     GM_registerMenuCommand('编辑生效站点', editSites)
-    GM_registerMenuCommand('开启/关闭高亮和删除功能', toggleMouseListeners)
+    // GM_registerMenuCommand('开启/关闭高亮和删除功能', toggleMouseListeners)
 
     // 递归遍历给定节点及其后代（深度优先搜索）
     function scanTextNodes(node) {
