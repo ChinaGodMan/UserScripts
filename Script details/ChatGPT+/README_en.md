@@ -7,7 +7,6 @@
 </a>
 </center>
 
-
 [![GreasyFork][GreasyFork-logo]](https://greasyfork.org/users/1169082)
 ![Total Installs][Total-Installs]
 ![Total Daily Installs][Total-Daily-Installs]
@@ -211,7 +210,6 @@
     </table>
 </details>
 </center>
-
 
 
 
