@@ -101,6 +101,12 @@
             "path": "NoZHTerminator.user.js",
             "isUpdated": true,
             "backuppath": "Script details/NoZHTerminator"
+        },
+        {
+            "name": "ChatGPT+",
+            "path": "ChatGPT+.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/ChatGPT+"
         }
     ]
 }

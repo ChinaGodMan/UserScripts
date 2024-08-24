@@ -63,22 +63,10 @@
             "translated": false
         },
         {
-            "foldpath": "Script details/屏蔽谷歌搜索站点/",
+            "foldpath": "Script details/ChatGPT+/",
             "translatefile": "README.md",
             "translatedto": [
-                "it",
-                "bh",
-                "ko",
-                "th",
-                "sr",
-                "sv",
-                "vi",
-                "ru",
-                "de",
-                "id",
-                "hu",
-                "he",
-                "eo"
+                "vi"
             ],
             "translated": true
         }
