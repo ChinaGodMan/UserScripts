@@ -421,26 +421,41 @@ const translate = (function () {
         const linkElement = event.target.tagName === 'A' ? event.target : event.target.closest('a')
         if (linkElement) {
             let isDragging = false
+            let isMouseDown = true
+
             const onMouseMove = () => {
                 isDragging = true
                 clearTimeout(state.pressTimer)
                 progressBarremove()
             }
+
+            const onMouseUp = () => {
+                isMouseDown = false
+                document.removeEventListener('mousemove', onMouseMove)
+                clearTimeout(state.pressTimer)
+                progressBarremove()
+            }
+
             document.addEventListener('mousemove', onMouseMove)
-            setTimeout(() => {//按下100ms后显示倒计时,避免点击就显示
-                state.progressBar = createProgressBar()
-                if (state.progressBar) {
-                    const transitionDuration = Math.max(config.longPressDuration - 100, 0) + 'ms'
-                    state.progressBar.style.left = `${event.clientX}px`  // 设置进度条位置为鼠标下方
-                    state.progressBar.style.top = `${event.clientY + 20}px`  // 偏移一点，避免挡住鼠标
-                    state.progressBar.style.transition = `width ${transitionDuration} linear`
-                    requestAnimationFrame(() => {
-                        state.progressBar.style.width = '0'
-                    })
+            document.addEventListener('mouseup', onMouseUp, { once: true })
+
+            setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
+                if (isMouseDown) {
+                    state.progressBar = createProgressBar()
+                    if (state.progressBar) {
+                        const transitionDuration = Math.max(config.longPressDuration - 100, 0) + 'ms'
+                        state.progressBar.style.left = `${event.clientX}px`  // 设置进度条位置为鼠标下方
+                        state.progressBar.style.top = `${event.clientY + 20}px`  // 偏移一点，避免挡住鼠标
+                        state.progressBar.style.transition = `width ${transitionDuration} linear`
+                        requestAnimationFrame(() => {
+                            state.progressBar.style.width = '0'
+                        })
+                    }
                 }
             }, 100)
+
             state.pressTimer = setTimeout(() => {
-                if (!isDragging) {
+                if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
                     const link = linkElement.href
                     state.linkToPreload = link
                     preloadLink(state.linkToPreload, { importance: 'high' }).then(() => {
@@ -448,16 +463,10 @@ const translate = (function () {
                     })
                 }
                 progressBarremove()
-                document.removeEventListener('mousemove', onMouseMove)
-
             }, config.longPressDuration)
-            document.addEventListener('mouseup', () => {
-                document.removeEventListener('mousemove', onMouseMove)
-                clearTimeout(state.pressTimer)
-                progressBarremove()
-            }, { once: true })
         }
     }
+
     function handleMouseUp() {
         clearTimeout(state.pressTimer)
         state.pressTimer = null
