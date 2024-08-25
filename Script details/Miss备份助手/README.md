@@ -77,7 +77,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><a href="/zh-CN/scripts/497346" target="_blank"><strong>Greasyfork 糊裱匠</strong></a></td>
+                <td><a href="/zh-CN/scripts/497346" target="_blank">Greasyfork 糊裱匠</a></td>
                 <td>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js">安装</a>
@@ -87,7 +87,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/497403" target="_blank"><strong>复制授权修改版</strong></a></td>
+                <td><a href="/zh-CN/scripts/497403" target="_blank">复制授权修改版</a></td>
                 <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
                 <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard.user.js">安装</a>
                 </td>
@@ -96,7 +96,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/497317" target="_blank"><strong>Greasyfork详情适用于打开</strong></a></td>
+                <td><a href="/zh-CN/scripts/497317" target="_blank">Greasyfork详情适用于打开</a></td>
                 <td>脚本详情页增加适用于链接增加点击打开网页，点击复制</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasy%20fork%20link.user.js">安装</a>
@@ -106,7 +106,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/501119" target="_blank"><strong>Greasyfork ranks</strong></a></td>
+                <td><a href="/zh-CN/scripts/501119" target="_blank">Greasyfork ranks</a></td>
                 <td>脚本列表添加分数</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20ranks.user.js">安装</a>
@@ -116,7 +116,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/498905" target="_blank"><strong>网页关键词高亮显示</strong></a></td>
+                <td><a href="/zh-CN/scripts/498905" target="_blank">网页关键词高亮显示</a></td>
                 <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
                 <td><a href="https://update.greasyfork.org/scripts/498905.user.js">安装</a>
                 </td>
@@ -125,7 +125,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/498625" target="_blank"><strong>Remove Link Underlines</strong></a></td>
+                <td><a href="/zh-CN/scripts/498625" target="_blank">Remove Link Underlines</a></td>
                 <td>去除网页下划线</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Remove%20Link%20Underlines.user.js">安装</a>
@@ -135,7 +135,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/498906" target="_blank"><strong>网页高亮关键字</strong></a></td>
+                <td><a href="/zh-CN/scripts/498906" target="_blank">网页高亮关键字</a></td>
                 <td>对网页上的文字进行高亮显示</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安装</a>
@@ -145,7 +145,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/498904" target="_blank"><strong>Script Finder+</strong></a></td>
+                <td><a href="/zh-CN/scripts/498904" target="_blank">Script Finder+</a></td>
                 <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20Finder%2B.user.js">安装</a>
@@ -155,7 +155,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/500255" target="_blank"><strong>置頂和置底按鈕</strong></a></td>
+                <td><a href="/zh-CN/scripts/500255" target="_blank">置頂和置底按鈕</a></td>
                 <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安装</a>
@@ -165,7 +165,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/500262" target="_blank"><strong>在搜索结果中屏蔽指定站点</strong></a></td>
+                <td><a href="/zh-CN/scripts/500262" target="_blank">在搜索结果中屏蔽指定站点</a></td>
                 <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安装</a>
@@ -175,7 +175,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/502291" target="_blank"><strong>Github Repo Size+</strong></a></td>
+                <td><a href="/zh-CN/scripts/502291" target="_blank">Github Repo Size+</a></td>
                 <td>在Github查看仓库和搜索仓库时显示仓库大小</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Github%20Repo%20Size%2B.user.js">安装</a>
@@ -185,7 +185,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/501880" target="_blank"><strong>GreasyFork: 导航栏增强</strong></a></td>
+                <td><a href="/zh-CN/scripts/501880" target="_blank">GreasyFork: 导航栏增强</a></td>
                 <td>增强greasyfork导航栏,增加用户列表,用户控制台等</td>
                 <td><a
                         href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GreasyFork%20User%20Control%20Panel%20Button.user.js">安装</a>
@@ -195,7 +195,7 @@
                 </td>
             </tr>
             <tr>
-                <td><a href="/zh-CN/scripts/502652" target="_blank"><strong>Google 高级搜索助手</strong></a></td>
+                <td><a href="/zh-CN/scripts/502652" target="_blank">Google 高级搜索助手</a></td>
                 <td>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</td>
                 <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js">安装</a>
                 </td>
@@ -204,7 +204,7 @@
                 </td>
             </tr> 
             <tr>
-                <td><a href="/zh-CN/scripts/504901" target="_blank"><strong>ChatGPT 折叠自己消息和最大宽度</strong></a></td>
+                <td><a href="/zh-CN/scripts/504901" target="_blank">ChatGPT 折叠自己消息和最大宽度</a></td>
                 <td>这自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。</td>
                 <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT+.user.js">安装</a>
                 </td>
@@ -213,7 +213,7 @@
                 </td>
             </tr>
              <tr>
-                <td><a href="/zh-CN/scripts/504880" target="_blank"><strong>小窗预览</strong></a></td>
+                <td><a href="/zh-CN/scripts/504880" target="_blank">小窗预览</a></td>
                 <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
                 <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/PopUpWindow.user.js">安装</a>
                 </td>
@@ -222,7 +222,7 @@
                 </td>
             </tr>             
             <tr>
-                <td><a href="/zh-CN/scripts/504890" target="_blank"><strong>外语终结者</strong></a></td>
+                <td><a href="/zh-CN/scripts/504890" target="_blank">外语终结者</a></td>
                 <td>识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文</td>
                 <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/NoZHTerminator.user.js">安装</a>
                 </td>
@@ -231,7 +231,7 @@
                 </td>
             </tr>           
              <tr>
-                <td><a href="/zh-CN/scripts/505164" target="_blank"><strong>GreasyFork markdown</strong></a></td>
+                <td><a href="/zh-CN/scripts/505164" target="_blank">GreasyFork markdown</a></td>
                 <td>在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏</td>
                 <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Markdown%20toobar%20for%20GreasyFork.user.js">安装</a>
                 </td>
