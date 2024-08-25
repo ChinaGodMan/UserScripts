@@ -440,7 +440,7 @@ const translate = (function () {
             document.addEventListener('mouseup', onMouseUp, { once: true })
 
             setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
-                if (isMouseDown) {
+                if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
                     state.progressBar = createProgressBar()
                     if (state.progressBar) {
                         const transitionDuration = Math.max(config.longPressDuration - 100, 0) + 'ms'
