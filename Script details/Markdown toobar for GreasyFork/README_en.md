@@ -23,6 +23,7 @@ Greasemonkey -any version- is not supported (the script might work, but is not t
     And it's hidden earlier than expected: it's hidden immediately, as you click Preview - not when the Preview tab itself gets the red focus.
 
 **Modification:**
+[GreasyFork markdown](https://greasyfork.org/scripts/422887) 
 - 2024-08-04T08:59:11 `DOMContentLoaded` sometimes conflicts with other scripts, causing the listener to fail. Changed to `load`.
 
 
