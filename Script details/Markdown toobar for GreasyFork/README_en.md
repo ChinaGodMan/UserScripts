@@ -229,11 +229,23 @@
                 <td><a href="https://update.greasyfork.org/scripts/504890.user.js"><img
                             src="https://img.shields.io/greasyfork/dt/504890?color=%23990000&label=Installs"><br>安装</a>
                 </td>
+            </tr>           
+             <tr>
+                <td><a href="/zh-CN/scripts/505164" target="_blank"><strong>GreasyFork markdown</strong></a></td>
+                <td>在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Markdown%20toobar%20for%20GreasyFork.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505164.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505164?color=%23990000&label=Installs"><br>安装</a>
+                </td>
             </tr>
         </tbody>
     </table>
 </details>
 </center>
+
+
+
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
