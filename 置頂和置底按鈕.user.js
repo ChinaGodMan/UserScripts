@@ -84,6 +84,9 @@
         }
     }
     document.addEventListener("keydown", function (event) {
+        if (event.target.matches('input, textarea, [contenteditable="true"]')) {
+            return
+        }
         if (event.key === GM_getValue("buttonTopKey")) {
             goToTop()
         } else if (event.key === GM_getValue("buttonBottomKey")) {
