@@ -107,6 +107,12 @@
             "path": "ChatGPT+.user.js",
             "isUpdated": true,
             "backuppath": "Script details/ChatGPT+"
+        },
+        {
+            "name": "Markdown toobar for GreasyFork",
+            "path": "Markdown toobar for GreasyFork.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/Markdown toobar for GreasyFork"
         }
     ]
 }
