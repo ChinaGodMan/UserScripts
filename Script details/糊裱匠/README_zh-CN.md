@@ -387,56 +387,58 @@
 ---
 
 ## 更新信息
-- 2024/8/24 03:23
-  >**Ver: 2.2.0.59** <br><strong> 优化</strong><br>
-  *<mark>优化脚本列表图标显示位置</mark>*
 
-- 2024/8/23 06:12
-  >**Ver: 2.2.0.57** <br><strong> 优化</strong><br>
-  *<mark>优化设置界面代码</mark>*
+- **2024/8/24 03:23 - Ver: 2.2.0.59**
+  - *优化：优化脚本列表图标显示位置*
 
-- 2024/8/20 02:20
-  >**Ver: 2.2.0.53** <br> 修复问题<br>
-  *<mark>修正脚本设置界面在移动设备上显示错乱问题</mark>*
+- **2024/8/23 06:12 - Ver: 2.2.0.57**
+  - *优化：优化设置界面代码*
 
-- 2024/8/14 17:43
-  >**Ver: 2.2.0.47** <br> [#255571](https://greasyfork.org/zh-CN/scripts/497346/discussions/255571)<br>
-   *<mark>增加越南语言包，感谢网友[RenjiYuusei](https://greasyfork.org/zh-CN/users/1195312)的翻译</mark>*
+- **2024/8/20 02:20 - Ver: 2.2.0.53**
+  - *修复：修正脚本设置界面在移动设备上显示错乱问题*
 
-- 2024/8/13 04:43
-  >**Ver:  2.2.0.44** <br> 
-  *<mark>增加WebHook页快捷跳转脚本管理</mark>*
+- **2024/8/14 17:43 - Ver: 2.2.0.47**
+  - *新增：增加越南语言包，感谢网友 [RenjiYuusei](https://greasyfork.org/zh-CN/scripts/497346/discussions/255571) 翻译*
 
-- 2024/8/4 22:09
-  >**Ver: 2.2.0.35** <br> [#253957](https://greasyfork.org/zh-CN/scripts/497346/discussions/253957)监听规则变化,导致动态监听失败<br>
-  *<mark>修复方式：增加监听规则</mark> ` user-script-list-section browse-script-list`*
-  
-- 2024/7/20 2.2.0.14
-  - 复制[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的新CSS
-- 2024/7/17 2.2.0.9
-  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的脚本双列显示
-  - 增加[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的美化导航栏
-  - 增加固定网站侧边操作栏
-- 2024/7/15 2.2.0.8
-  
-  - 完全的繁体语言支持
-- 2024/7/15 2.2.0.7
-  
-  - 增加侧边导航栏开关
-  - 增加图片代理
-    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)中的图片浏览
-  - 修复在移动设备上浏览图片超出浏览器外的问题
-  - 修改在编辑代码时自动勾选美化
-- 2024/7/14 2.2.0.6
-  
-  - 添加了导航栏展开"更多"
-  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
-  - 完善对多语言的支持
-- 2024/7/13 2.2.0.5
-  
-  - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复显示列表上的脚本安装状态
-  - 完善对多语言的支持
+- **2024/8/13 04:43 - Ver: 2.2.0.44**
+  - *新增：增加 WebHook 页快捷跳转脚本管理*
+
+- **2024/8/4 22:09 - Ver: 2.2.0.35**
+  - *修复：修复监听规则变化导致动态监听失败*
+    - *监听规则增加：`user-script-list-section browse-script-list`*
+
+- **2024/7/20 - Ver: 2.2.0.14**
+  - *复制 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的新 CSS*
+
+- **2024/7/17 - Ver: 2.2.0.9**
+  - *新增：*
+    - *增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的脚本双列显示*
+    - *增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的美化导航栏*
+    - *增加固定网站侧边操作栏*
+
+- **2024/7/15 - Ver: 2.2.0.8**
+  - *新增：完全的繁体语言支持*
+
+- **2024/7/15 - Ver: 2.2.0.7**
+  - *新增：*
+    - *增加侧边导航栏开关*
+    - *增加图片代理（开启时不兼容 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的图片浏览）*
+  - *修复：*
+    - *修复在移动设备上浏览图片超出浏览器外的问题*
+    - *修改在编辑代码时自动勾选美化*
+
+- **2024/7/14 - Ver: 2.2.0.6**
+  - *新增：*
+    - *添加导航栏展开 "更多"*
+    - *增加 [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078) 中的侧边导航栏*
+  - *优化：完善对多语言的支持*
+
+- **2024/7/13 - Ver: 2.2.0.5**
+  - *新增：*
+    - *增加自动登录 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)*
+  - *修复：*
+    - *修复显示列表上的脚本安装状态*
+  - *优化：完善对多语言的支持*
 
 
 ---

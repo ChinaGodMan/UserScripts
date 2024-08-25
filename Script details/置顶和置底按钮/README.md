@@ -258,10 +258,9 @@
 
 <h1><center>Croll to Top and Bottom Buttons 更新记录</h1> </center></p>
 
-- 2024/8/26 1:28.
-
-  >**Ver: 1.2.0.48** <br> [#257324](https://greasyfork.org/zh-CN/scripts/500255/discussions/257324)<br>
-  *请求添加绑定热键*
+- **2024/8/26 1:28 - Ver: 1.2.0.48**
+  - *请求添加绑定热键*
+  - *[#257324](https://greasyfork.org/zh-CN/scripts/500255/discussions/257324)*
 
 ![set.png](https://s2.loli.net/2024/08/26/3Et6ghaqMSo54KF.png)
 ![c.png](https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png)
