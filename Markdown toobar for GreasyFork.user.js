@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name              Markdown toolbar for GreasyFork
+// @namespace    https://greasyfork.org/zh-CN/users/1169082
 // @name:ru           Markdown-тулбар для GreasyFork
 // @name:zh-CN        GreasyFork markdown
 // @description       Select Markdown format by default, add help links, add toolbar formatting buttons for markdown
 // @description:ru    Включает формат Markdown по умолчанию, добавляет справочные ссылки по форматам, добавляет панель кнопок форматирования markdown
 // @description:zh-CN 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏
-// @author            wOxxOm, darkred
+// @author            wOxxOm, darkred, 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @contributor       JixunMoe
+// @contributor       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @license           MIT
 // @include           https://greasyfork.org/*discussions/*
 // @include           https://greasyfork.org/*scripts/*/versions/new*
@@ -16,9 +18,18 @@
 // @include           https://greasyfork.org/*/users/edit
 // @grant             GM_addStyle
 // @run-at            document-start
+// @version           2.0.4
 // @icon              https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
 // ==/UserScript==
+
+// Example URLS to test:
+// https://greasyfork.org/en/discussions/new
+// https://greasyfork.org/en/scripts/422887-markdown-toolbar-for-greasyfork/discussions/78139
+// https://greasyfork.org/en/scripts/23493/versions/new
+// https://greasyfork.org/en/scripts/422445-github-watcher/feedback
+// https://greasyfork.org/en/users/2160-darkred/conversations/new
+// https://greasyfork.org/en/users/edit
 
 var inForum = location.href.indexOf('/discussions') > 0
 var inPostNewScriptVer = location.href.indexOf('/versions/new') > 0
@@ -104,8 +115,8 @@ function addFeatures(n) {
 
     // Add buttons
     btnMake(n, '<b>' + __('B') + '</b>', __('Bold'), '**')
-    btnMake(n, '#', '标题', '#', '  ')
-    btnMake(n, '-', '无序列表', '-  ', ' ')
+    btnMake(n, '#', __('Title'), '#', '  ')
+    btnMake(n, '-', __('List'), '-  ', ' ')
 
     btnMake(n, '<i>' + __('I') + '</i>', __('Italic'), '*')
     btnMake(n, '<u>' + __('U') + '</u>', __('Underline'), '<u>', '</u>')
@@ -209,6 +220,8 @@ var __ = (function (l, langs) {
         'Force line break': '强制换行',
         'Horizontal line': '水平分割线',
         'URL': '链接',
+        'Title': '标题',
+        'List': '无序列表',
         'Add URL to selected text': '为所选文字添加链接',
         'Image (https)': '图片 (https)',
         'Convert selected https://url to inline image': '将所选地址转换为行内图片',
@@ -232,6 +245,8 @@ var __ = (function (l, langs) {
         'Force line break': 'Новая строка',
         'Horizontal line': 'Горизонтальная линия',
         'URL': 'ссылка',
+        'Title': 'Заголовок',
+        'List': 'Неупорядоченный список',
         'Add URL to selected text': 'Добавить ссылку к выделенному тексту',
         'Image (https)': 'Картинка (https)',
         'Convert selected https://url to inline image': 'Преобразовать выделенный https:// адрес в картинку',
@@ -255,6 +270,8 @@ var __ = (function (l, langs) {
         'Force line break': 'Forcer le saut de ligne',
         'Horizontal line': 'Ligne horizontale',
         'URL': 'URL',
+        'Title': 'Titre',
+        'List': 'Liste non ordonnée',
         'Add URL to selected text': 'Ajouter URL au texte sélectionné',
         'Image (https)': 'Image (https)',
         'Convert selected https://url to inline image': 'Convertir https://url sélectionnés en images',

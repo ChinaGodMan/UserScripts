@@ -22,7 +22,7 @@
 | ✅ **~~*GreasyFork User Control Panel Button*~~**   | 在导航栏中添加快捷功能按钮，提高用户操作的便捷性。                                                                                  |
 | ❌**高亮隐藏**                                      | 修改自Greasyfork用户脚本 提供高亮和隐藏网页元素的功能，高亮关键词和所在元素的文本。                                                 |
 | ✅ **去你妈的CSDN登录复制**                         | 提取自Greasyfork用户脚本，让登录复制可以点击                                                                                        |
-| ✅ **Markdown toobar for GreasyFork**               | 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏  修改    DOMContentLoaded  为load,解决与一些脚本冲突               |
+| ✅ **~~Markdown toobar for GreasyFork~~**           | 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏  修改    DOMContentLoaded  为load,解决与一些脚本冲突               |
 | ❌ **Github按文件更新日期排序**                     | 修改为自动排序,无需手动点击                                                                                                         |
 | **~~*小窗口预览*~~**                               | 增加长按触发,兼容chrome插件使用                                                                                                     |
 
