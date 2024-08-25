@@ -3540,12 +3540,77 @@ button:focus {
             })
         }
     }
+    function addButtonToScipstsList() {
+        let linkTitle = ""
+        const ScipstsList = document.querySelector('ul')
+        if (ScipstsList) {
+            const button = document.createElement('button')
+            button.textContent = 'Click Me'
+            ScipstsList.insertBefore(button, ScipstsList.firstChild)
+            button.addEventListener('click', () => {
+                const listItems = ScipstsList.querySelectorAll('li')
+                listItems.forEach((li, index) => {
+                    const firstLink = li.querySelector('a')
+                    if (firstLink) {
+                        linkTitle = li.textContent
+                        linkTitle = li.textContent.split('admin')[0].trim()
+                        const number = firstLink.href.match(/\d+/)
+                        if (number) {
+
+                            const scriptId = number[0]
+                            const promotedScriptUrl = 'https://greasyfork.org/zh-CN/scripts/497346-greasyfork-utility-toolkit'
+                            updatePromotedScript(scriptId, promotedScriptUrl, linkTitle)
+                        }
+                    }
+                })
+            })
+        }
+    }
+    function updatePromotedScript(scriptId, promotedScriptUrl, linkTitle) {
+
+        let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
+        let authenticity_token = csrfTokenMeta ? csrfTokenMeta.getAttribute("content") : ''
+        console.log(authenticity_token)
+        const url = `https://greasyfork.org/zh-CN/scripts/${scriptId}/update_promoted`
+        const data = new URLSearchParams({
+            _method: 'patch',
+            authenticity_token: authenticity_token,
+            promoted_script_id: promotedScriptUrl
+        })
+
+        fetch(url, {
+            method: 'POST',
+            body: data,
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            }
+        })
+            .then(response => response.text()) // 先以文本方式读取响应
+            .then(text => {
+                // 创建一个临时的 DOM 容器
+                const parser = new DOMParser()
+                const doc = parser.parseFromString(text, 'text/html')
+
+                // 查找 <input> 元素并获取其 value 值
+                const inputElement = doc.querySelector("input#promoted_script_id")
+                if (inputElement) {
+                    const value = inputElement.value
+                    console.log(`${linkTitle}${value}`)
+                } else {
+                    console.error(`Link Title: ${linkTitle}`)
+                }
+            })
+            .catch(error => console.error('Error:', error))
+    }
+
+
     //NOTE - 美化WEBHOOK页面
     function checkAndRun() {
         const url = window.location.href
         const lastSegment = url.substring(url.lastIndexOf('/') + 1)
         if (lastSegment === 'webhook-info') {
             addAdminButtons()
+            //FIXME - 没啥用,不改了   addButtonToScipstsList()
         }
     }
     // 调用函数以检查 URL 并执行操作
