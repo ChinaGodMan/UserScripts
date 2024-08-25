@@ -431,12 +431,12 @@ const translate = (function () {
 
             const onMouseUp = () => {
                 isMouseDown = false
-                document.removeEventListener('mousemove', onMouseMove)
+
                 clearTimeout(state.pressTimer)
                 progressBarremove()
             }
 
-            document.addEventListener('mousemove', onMouseMove)
+            document.addEventListener('mousemove', onMouseMove, { once: true })
             document.addEventListener('mouseup', onMouseUp, { once: true })
 
             setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
