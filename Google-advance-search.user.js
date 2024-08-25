@@ -7,7 +7,6 @@
 // @description:zh-CN       在谷歌搜索页面顶部添加一个高级搜索表单
 // @author                         shiquda  &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @namespace               https://github.com/shiquda/shiquda_UserScript
-// @supportURL              https://github.com/shiquda/shiquda_UserScript/issues
 // @match                   *://www.google.com/search*
 // @include                 *://*google*/search*
 // @grant                   GM_addStyle
