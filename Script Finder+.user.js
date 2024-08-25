@@ -1,12 +1,22 @@
 // ==UserScript==
 // @name                    Script Finder+
-// @name:zh-CN              Script Finder 油猴脚本查找
-// @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.53
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
-// @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的greasyfork油猴脚本
-// @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @name:en                 Script Finder+
+// @description:en          Script Finder allows you to find userscripts from greasyfork on any website.
+// @name:zh-CN              Script Finder 油猴脚本查找
+// @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的 greasyfork 油猴脚本。
+// @name:zh-TW              腳本搜尋器+
+// @description:zh-TW       腳本搜尋器可以讓你在任何網站上從 greasyfork 找到使用者腳本。
+// @name:vi                 Tìm kiếm Script+
+// @description:vi          Script Finder cho phép bạn tìm các script người dùng từ greasyfork trên bất kỳ trang web nào.
+// @name:ja                 スクリプトファインダー+
+// @description:ja          スクリプトファインダーを使うことで、greasyfork からユーザースクリプトを任意のウェブサイトで見つけることができます。
+// @name:ko                 스크립트 파인더+
+// @description:ko          Script Finder를 사용하면 greasyfork에서 사용자 스크립트를 어떤 웹사이트에서든 찾을 수 있습니다.
 
+// @namespace               https://greasyfork.org/zh-CN/users/1169082
+// @version 0.1.6.54
+// @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @match                   *://*/*
@@ -17,11 +27,101 @@
 // @license                 AGPL-3.0
 
 // ==/UserScript==
+const translate = (function () {
+    const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
+    const strings = {
+        'en': {
+            Author: 'Author',
+            Installs: 'Installs',
+            DailyInstalls: 'Daily Installs',
+            Created: 'Created',
+            Updated: 'Updated',
+            Rating: 'Rating',
+            LoadingScripts: 'Loading scripts...',
+            LoadMore: 'Load more',
+            AllScriptsLoaded: 'All scripts loaded',
+            SearchPlaceholder: 'Search scripts...',
+            ViewOnGreasyfork: 'View on Greasyfork',
+            errorMessage: 'Failed to retrieve script information or there are no available scripts for this domain.',
+            Loading: 'Loading...',
+            Scripts: 'Scripts'
+        },
+        'zh-CN': {
+            Author: '作者',
+            Installs: '安装数量',
+            DailyInstalls: '每日安装',
+            Created: '创建日期',
+            Updated: '更新时间',
+            Rating: '评分',
+            LoadingScripts: '正在加载脚本...',
+            LoadMore: '加载更多',
+            AllScriptsLoaded: '所有脚本已加载',
+            SearchPlaceholder: '搜索脚本...',
+            ViewOnGreasyfork: '在Greasyfork查看',
+            errorMessage: '无法检索脚本信息或该域没有可用的脚本。',
+            Loading: '载入中...',
+            Scripts: '脚本'
 
+        },
+        'zh-TW': {
+            Author: '作者',
+            Installs: '安裝數量',
+            DailyInstalls: '每日安裝',
+            Created: '創建日期',
+            Updated: '更新日期',
+            Rating: '評分',
+            LoadingScripts: '正在載入腳本...',
+            LoadMore: '載入更多',
+            AllScriptsLoaded: '所有腳本已載入',
+            SearchPlaceholder: '搜尋腳本...',
+            ViewOnGreasyfork: '在Greasyfork查看',
+            errorMessage: '無法檢索腳本信息或該域沒有可用的腳本。',
+            Loading: '載入中...',
+            Scripts: '腳本'
+        },
+        'ja': {
+            Author: '著者',
+            Installs: 'インストール数',
+            DailyInstalls: '日次インストール数',
+            Created: '作成日',
+            Updated: '更新日',
+            Rating: '評価',
+            LoadingScripts: 'スクリプトを読み込んでいます...',
+            LoadMore: 'もっと読む',
+            AllScriptsLoaded: 'すべてのスクリプトが読み込まれました',
+            SearchPlaceholder: 'スクリプトを検索...',
+            ViewOnGreasyfork: 'Greasyforkで見る',
+            errorMessage: 'スクリプト情報の取得に失敗するか、またはこのドメインには利用可能なスクリプトがありません。',
+            Loading: '読み込み中...',
+            Scripts: 'スクリプト'
+        },
+        'vi': {
+            Author: 'Tác giả',
+            Installs: 'Số lượt cài đặt',
+            DailyInstalls: 'Cài đặt hàng ngày',
+            Created: 'Ngày tạo',
+            Updated: 'Ngày cập nhật',
+            Rating: 'Đánh giá',
+            LoadingScripts: 'Đang tải các tập lệnh...',
+            LoadMore: 'Tải thêm',
+            AllScriptsLoaded: 'Đã tải tất cả các tập lệnh',
+            SearchPlaceholder: 'Tìm kiếm tập lệnh...',
+            ViewOnGreasyfork: 'Xem trên Greasyfork',
+            errorMessage: 'Không thể truy xuất thông tin tập lệnh hoặc không có tập lệnh nào có sẵn cho miền này.',
+            Loading: 'Đang tải...',
+            Scripts: 'Tập lệnh'
+        }
+    }
+    // 返回翻译函数
+    return (id, lang = '') => {
+        const selectedLang = lang || userLang
+        return (strings[selectedLang] || strings.en)[id] || strings.en[id]
+    }
+}());
 (function () {
     const domainParts = window.location.hostname.split('.').slice(-2)
     const domain = domainParts.join('.')
-    const errorMessage = "Failed to retrieve script information or there are no available scripts for this domain."
+    const errorMessage = translate('errorMessage')
     let neverLoadedScripts = true
     let collapsed = true
     let loadedPages = 0
@@ -53,10 +153,10 @@
                 if (doc.querySelector('.next_page') == null || doc.querySelector('.next_page')?.getAttribute('aria-disabled') === 'true') {
                     loadedPages = 'max'
                     loadMoreButton.disabled = true
-                    loadMoreButton.textContent = 'All scripts loaded'
+                    loadMoreButton.textContent = translate('AllScriptsLoaded')
                 } else {
                     loadMoreButton.disabled = false
-                    loadMoreButton.textContent = 'Load more'
+                    loadMoreButton.textContent = translate('LoadMore')
                 }
                 // console.log(scriptsInfo);
                 document.querySelector('.wait-loading').style.display = 'none'
@@ -102,7 +202,7 @@
             //  infoList.innerHTML = errorMessage;
             const loadMoreButton = document.querySelector('.load-more')
             loadMoreButton.disabled = true
-            loadMoreButton.textContent = 'All scripts loaded'
+            loadMoreButton.textContent = translate('AllScriptsLoaded')
             loadMoreButton.innerHTML = errorMessage
         } else {
             for (var i = 0; i < scriptsInfo.length; i++) {
@@ -133,12 +233,12 @@
                 installButton.href = `https://greasyfork.org/scripts/${script.id}/code/script.user.js`
 
                 const details = [
-                    { key: 'Author', value: script.author },
-                    { key: 'Installs', value: script.installs },
-                    { key: 'Daily Installs', value: script.dailyInstalls },
-                    { key: 'Created', value: script.createDate },
-                    { key: 'Updated', value: script.updateDate },
-                    { key: 'Rating', value: script.ratingScore }
+                    { key: translate('Author'), value: script.author },
+                    { key: translate('Installs'), value: script.installs },
+                    { key: translate('DailyInstalls'), value: script.dailyInstalls },
+                    { key: translate('Created'), value: script.createDate },
+                    { key: translate('Updated'), value: script.updateDate },
+                    { key: translate('Rating'), value: script.ratingScore }
                 ]
 
                 for (let i = 0; i < details.length; i++) {
@@ -396,7 +496,7 @@ div.info-container {
         // 创建打开列表按钮
         var button = document.createElement('scrbutton')
         button.className = 'script-button'
-        button.innerText = 'Scripts'
+        button.innerText = translate('Scripts')
 
         // 创建脚本容器
         var infoContainer = document.createElement('div')
@@ -405,13 +505,13 @@ div.info-container {
         // 创建搜索框
         var searchInput = document.createElement('input')
         searchInput.type = 'text'
-        searchInput.placeholder = 'Search scripts...'
+        searchInput.placeholder = translate('SearchPlaceholder')
         searchInput.className = 'script-search-input'
 
         // 创建指向greasyfork的链接
         var toGreasyfork = document.createElement('button')
         toGreasyfork.className = 'to-greasyfork'
-        toGreasyfork.innerText = 'View on Greasyfork'
+        toGreasyfork.innerText = translate('ViewOnGreasyfork')
 
         // 创建计数器
         var matchCount = document.createElement('span')
@@ -432,7 +532,7 @@ div.info-container {
         // 创建等待加载
         var waitLoading = document.createElement('div')
         waitLoading.className = 'wait-loading'
-        waitLoading.innerText = 'Loading scripts...'
+        waitLoading.innerText = translate('LoadingScripts')
 
         // 创建加载更多
         var loadMore = document.createElement('button')
@@ -497,7 +597,7 @@ div.info-container {
             }
             const loadMoreButton = document.querySelector('.load-more')
             loadMoreButton.disabled = true
-            loadMoreButton.textContent = 'Loading...'
+            loadMoreButton.textContent = translate('Loading')
             document.querySelector('.wait-loading').style.display = 'block'
             getScriptsInfo(domain, loadedPages + 1)
         })
