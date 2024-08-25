@@ -1,7 +1,27 @@
 // ==UserScript==
-// @name        置頂和置底按鈕
-// @version 1.2.0.46
-// @description 在所有頁面生成兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消滾動到底部
+// @name        Scroll to Top and Bottom Buttons
+// @description Generate two buttons on all pages, one for smoothly scrolling back to the top and one for continuous scrolling to the bottom. Click again to stop scrolling to the bottom.
+// @name:zh-CN        置顶和置底按钮
+// @description:zh-CN 在所有页面生成两个按钮，一个用于顺滑回到顶部，一个用于持续滚动到底部，再次点击取消滚动到底部
+// @name:zh-TW        置頂和置底按鈕
+// @description:zh-TW 在所有頁面生成兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消滾動到底部
+// @name:en        Scroll to Top and Bottom Buttons
+// @description:en Generate two buttons on all pages, one for smoothly scrolling back to the top and one for continuous scrolling to the bottom. Click again to stop scrolling to the bottom.
+// @name:vi        Nút cuộn lên và xuống
+// @description:vi Tạo hai nút trên tất cả các trang, một nút để cuộn mượt mà trở về đầu trang và một nút để cuộn liên tục đến cuối trang. Nhấp lại để hủy cuộn xuống cuối trang.
+// @name:ja        トップとボトムにスクロールボタン
+// @description:ja すべてのページに2つのボタンを生成します。1つはトップにスムーズにスクロールするためのボタン、もう1つはボトムまで継続的にスクロールするためのボタンです。再度クリックすると、ボトムへのスクロールがキャンセルされます。
+// @name:ko        상단 및 하단 스크롤 버튼
+// @description:ko 모든 페이지에 두 개의 버튼을 생성합니다. 하나는 상단으로 부드럽게 스크롤하기 위한 버튼이고, 다른 하나는 하단으로 지속적으로 스크롤하기 위한 버튼입니다. 다시 클릭하면 하단으로 스크롤이 중단됩니다.
+// @name:de        Nach oben und unten Scrollen Buttons
+// @description:de Erstellen Sie zwei Schaltflächen auf allen Seiten, eine für das sanfte Scrollen nach oben und eine für das kontinuierliche Scrollen nach unten. Klicken Sie erneut, um das Scrollen nach unten zu stoppen.
+// @name:fr        Boutons de défilement en haut et en bas
+// @description:fr Générer deux boutons sur toutes les pages, un pour faire défiler vers le haut en douceur et un autre pour défiler continuellement vers le bas. Cliquez à nouveau pour arrêter le défilement vers le bas.
+// @name:es        Botones para desplazar hacia arriba y hacia abajo
+// @description:es Genera dos botones en todas las páginas, uno para desplazarse suavemente hacia arriba y otro para desplazarse continuamente hacia abajo. Haz clic de nuevo para detener el desplazamiento hacia abajo.
+// @name:pt        Botões de rolar para cima e para baixo
+// @description:pt Gere dois botões em todas as páginas, um para rolar suavemente para cima e outro para rolar continuamente para baixo. Clique novamente para parar de rolar para baixo.
+// @version 1.2.0.47
 // @run-at      document-end
 // @match       *://*/*
 // @license     MIT
