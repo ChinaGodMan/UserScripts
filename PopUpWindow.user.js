@@ -408,10 +408,13 @@ const translate = (function () {
         const progressBar = document.createElement('div')
         Object.assign(progressBar.style, {
             position: 'fixed',
-            height: '3px',
+            height: '6px',
             width: '5%',
-            backgroundColor: 'blue',
+            background: 'linear-gradient(to right, #4caf50, #81c784)',
+            borderRadius: '3px',
+            boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
             zIndex: '9999',
+
         })
         document.body.appendChild(progressBar)
         return progressBar
