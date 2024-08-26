@@ -18,9 +18,9 @@ def process_file(file_path, new_content):
         separator_index = next(i for i, line in enumerate(lines) if SEPARATOR in line)
     except StopIteration:
         # 如果分隔符没有找到，返回原文件内容
-        print(f"No separator found in {file_path}.")
+        print(f"\033[91m 未找到分隔符 {file_path}.\033[0m")
         return
-
+  
     # 生成新的内容
     new_lines = [new_content]  # 替换的内容
     new_lines.extend(lines[separator_index:])  # 保留分隔符及其后的内容
@@ -28,7 +28,7 @@ def process_file(file_path, new_content):
     # 写回文件
     with open(file_path, 'w', encoding='utf-8') as file:
         file.writelines(new_lines)
-    print(f"Processed {file_path}")
+    print(f"已更新 {file_path}")
 
 def main():
     new_content = get_new_content()
