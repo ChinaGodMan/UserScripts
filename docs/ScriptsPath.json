@@ -113,6 +113,24 @@
             "path": "Markdown toobar for GreasyFork.user.js",
             "isUpdated": true,
             "backuppath": "Script details/Markdown toobar for GreasyFork"
+        },
+        {
+            "name": "解除CSDN登录复制限制",
+            "path": "FuckCSDN.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/FuckCSDN"
+        },
+        {
+            "name": "ChatGPT代码字体缩小",
+            "path": "ChatGPT Code Styling.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/ChatGPT Code Styling"
+        },
+        {
+            "name": "自动翻译非中文的网页",
+            "path": "Translate_only_chinese.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/Translate_only_chinese"
         }
     ]
 }
