@@ -118,7 +118,7 @@
             <tr>
                 <td><a href="/zh-CN/scripts/498905" target="_blank">网页关键词高亮显示</a></td>
                 <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
-                <td><a href="https://update.greasyfork.org/scripts/498905.user.js">安装</a>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/HighLight.user.js">安装</a>
                 </td>
                 <td><a href="https://update.greasyfork.org/scripts/498905.user.js"><img
                             src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs"><br>安装</a>
