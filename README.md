@@ -467,10 +467,26 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missavexplorer.user.js">安装</a>
+            <td>🔞</a>
             </td>
-            <td><a href="https://update.greasyfork.org/scripts/497682.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"><br>安装</a>
+            <td>🔞<img
+                        src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"></a>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
+                    href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">MissAV 自动登录</a><br><img
+                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
+                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/MissAV_AutoLogin_Helper.user.js"
+                    target="_blank">GitHub</a><a
+                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/MissAV_AutoLogin_Helper"
+                    target="_blank"> <mark>详细</mark></td>
+            </td>
+            <td>检测 MisssAV 状态，并且在未登录时自动登录</td>
+            <td>🔞</a>
+            </td>
+            <td>🔞<img
+                        src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"></a>
             </td>
         </tr>
     </tbody>
