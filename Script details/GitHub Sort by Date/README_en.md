@@ -2,11 +2,12 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
 <h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">人民的勤务员/UserScripts</a></h1>
+<div style="border: 1px solid #666;background-color:lightgrey;">脚本来自互联网广大网友，本人仅是做了些许改动.感谢网友
+如有侵权,联系必删,勤务员的脚本可供随意修改.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
 </center>
-
 
 [![GreasyFork][GreasyFork-logo]](https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200)
 ![Total Installs][Total-Installs]
