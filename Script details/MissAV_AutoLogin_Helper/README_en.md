@@ -484,7 +484,29 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-让ChatGPT输出的代码框字体变小
+# User Account Management Script
+
+This script is used for managing user accounts on MissAV. It provides functionalities for automatic login and checking if the user is already logged in.
+
+## Features
+
+- **Account Setup**: Allows users to set their email and password via a popup modal.
+- **Login Functionality**: Logs in using the provided email and password, and handles login errors.
+- **User Detection**: Checks if the user is logged in. If not, it attempts to log in automatically.
+
+## Installation and Usage
+
+1. **Install the Script**:
+   - Copy the script into the Greasemonkey or Tampermonkey extension.
+   - Ensure the script is enabled on the webpage where you want it to run.
+
+2. **Set Up Account**:
+   - Click on the Greasemonkey/Tampermonkey icon in your browser toolbar.
+   - Select the “Set Account” option, enter your email and password, and then click “Save”.
+
+3. **Automatic Login**:
+   - The script will automatically check if the user is logged in. If it detects that the user is not logged in, it will attempt to log in using the provided account information.
+
 ## 使用帮助
 ### 安装浏览器
 |                               推荐浏览器                                |                                                          安装管理器                                                           | 安装浏览器                                                                      |
