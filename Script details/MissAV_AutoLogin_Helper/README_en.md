@@ -481,7 +481,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-# User Account Management Script
+# MissAV AutoLogin Helper
 
 This script is used for managing user accounts on MissAV. It provides functionalities for automatic login and checking if the user is already logged in.
 

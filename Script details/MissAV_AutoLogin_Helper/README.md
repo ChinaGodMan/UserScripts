@@ -481,7 +481,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-# 用户账户设置脚本
+# MissAV AutoLogin Helper
 
 这是一个用于MissAV管理用户账户的脚本，主要功能自动登录以及检测用户是否已登录。
 
