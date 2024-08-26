@@ -479,9 +479,6 @@
 </details>
 </center>
 
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <h2><a href="https://greasyfork.org/zh-CN/scripts/424966">网页翻译——翻译为中文</a>修改脚本为自动翻译.无需点击或者按键</h2>
