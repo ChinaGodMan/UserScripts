@@ -249,7 +249,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-
+<h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">使用的Goolge翻译.无法连接Google的请不要下载</mark></h2>
 
 # 外语终结者
 **版本:** 1.3.98  
