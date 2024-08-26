@@ -89,7 +89,9 @@
             </td>
             <td>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/497346.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs"><br>安装</a>
@@ -105,8 +107,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>脚本详情页增加适用于链接增加点击打开网页，点击复制</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasy%20fork%20link.user.js">安装</a>
+            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasy%20fork%20link.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasy%20fork%20link.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs"><br>安装</a>
@@ -122,7 +125,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GreasyFork%20Search.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GreasyFork%20Search.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GreasyFork%20Search.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505215.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505215?color=%23990000&label=Installs"><br>安装</a>
@@ -139,7 +144,9 @@
             </td>
             <td>在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏</td>
             <td><a
-                    href="https://github.com/ChinaGodMan/UserScripts/raw/main/Markdown%20toobar%20for%20GreasyFork.user.js">安装</a>
+                    href="https://github.com/ChinaGodMan/UserScripts/raw/main/Markdown%20toobar%20for%20GreasyFork.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Markdown%20toobar%20for%20GreasyFork.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505164.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505164?color=%23990000&label=Installs"><br>安装</a>
@@ -156,7 +163,9 @@
             </td>
             <td>增强greasyfork导航栏,增加用户列表,用户控制台等</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GreasyFork%20User%20Control%20Panel%20Button.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GreasyFork%20User%20Control%20Panel%20Button.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GreasyFork%20User%20Control%20Panel%20Button.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/501880.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/501880?color=%23990000&label=Installs"><br>安装</a>
@@ -172,8 +181,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>脚本列表添加分数</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20ranks.user.js">安装</a>
+            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20ranks.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20ranks.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/501119.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs"><br>安装</a>
@@ -192,7 +202,9 @@
             </td>
             <td>去除网页下划线</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Remove%20Link%20Underlines.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Remove%20Link%20Underlines.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Remove%20Link%20Underlines.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs"><br>安装</a>
@@ -208,8 +220,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20Finder%2B.user.js">安装</a>
+            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20Finder%2B.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Script%20Finder%2B.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs"><br>安装</a>
@@ -226,7 +239,9 @@
             </td>
             <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
@@ -242,7 +257,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Google-advance-search.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/502652.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/502652?color=%23990000&label=Installs"><br>安装</a>
@@ -259,7 +276,9 @@
             </td>
             <td>在Github查看仓库和搜索仓库时显示仓库大小</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Github%20Repo%20Size%2B.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Github%20Repo%20Size%2B.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Github%20Repo%20Size%2B.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/502291.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs"><br>安装</a>
@@ -275,7 +294,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>将文件排序方式改为日期降序，方便查看最新更新的文件。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GitHub%20Sort%20by%20Date.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GitHub%20Sort%20by%20Date.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GitHub%20Sort%20by%20Date.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505218.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505218?color=%23990000&label=Installs"><br>安装</a>
@@ -291,7 +312,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>这自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT+.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT+.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ChatGPT+.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/504901.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/504901?color=%23990000&label=Installs"><br>安装</a>
@@ -307,7 +330,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>让 ChatGPT 代码字体变小,</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT%20Code%20Styling.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT%20Code%20Styling.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ChatGPT%20Code%20Styling.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505209.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505209?color=%23990000&label=Installs"><br>安装</a>
@@ -323,7 +348,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/PopUpWindow.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/PopUpWindow.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/PopUpWindow.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/504880.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs"><br>安装</a>
@@ -339,7 +366,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/NoZHTerminator.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/NoZHTerminator.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/NoZHTerminator.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/504890.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/504890?color=%23990000&label=Installs"><br>安装</a>
@@ -355,7 +384,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Translate_only_chinese.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Translate_only_chinese.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Translate_only_chinese.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505208.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505208?color=%23990000&label=Installs"><br>安装</a>
@@ -371,7 +402,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>页面右侧添加上下滚动按钮</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ScollButton.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ScollButton.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ScollButton.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/497251.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs"><br>安装</a>
@@ -388,7 +421,9 @@
             </td>
             <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
@@ -404,7 +439,9 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>去你妈的 CSDN 登录复制，无需登录即可复制</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/FuckCSDN.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/FuckCSDN.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/FuckCSDN.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/505207.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/505207?color=%23990000&label=Installs"><br>安装</a>
@@ -419,7 +456,9 @@
                     href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E5%A4%8D%E5%88%B6%E5%89%AA%E8%B4%B4%E6%9D%BF%E4%BF%9D%E6%8A%A4%20%E4%BF%AE%E6%94%B9%E7%89%88"
                     target="_blank"> <mark>详细</mark></td>
             <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard.user.js">安装</a>
+            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs"><br>安装</a>
@@ -436,7 +475,9 @@
                     <mark>详细</mark></td>
             </td>
             <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/HighLight.user.js">安装</a>
+            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/HighLight.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/HighLight.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/498905.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs"><br>安装</a>
@@ -453,7 +494,9 @@
             </td>
             <td>对网页上的文字进行高亮显示</td>
             <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js">安装</a>
+                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js?style=social"
+                        alt="size"><br>安装</a>
             </td>
             <td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
                         src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs"><br>安装</a>
@@ -469,7 +512,8 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</td>
-            <td>🔞</a>
+            <td><img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missavexplorer.user.js?style=social"
+                    alt="size"><br>🔞</a>
             </td>
             <td>🔞<img src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"></a>
             </td>
@@ -484,7 +528,8 @@
                     target="_blank"> <mark>详细</mark></td>
             </td>
             <td>检测 MisssAV 状态，并且在未登录时自动登录</td>
-            <td>🔞</a>
+            <td><img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/MissAV_AutoLogin_Helper.user.js?style=social"
+                    alt="size"><br>🔞</a>
             </td>
             <td>🔞<img src="https://img.shields.io/greasyfork/dt/505325?color=%23990000&label=Installs"></a>
             </td>
