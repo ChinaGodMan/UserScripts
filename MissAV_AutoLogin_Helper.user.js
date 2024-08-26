@@ -168,7 +168,7 @@ const translate = (function () {
     }
     function login(email, password) {
         if (!email || !password) {
-            Toast('Error: UserEmail or UserPassword is empty.', 2000, '#FF0000', '#ffffff', 'top')
+            Toast(translate('Accountnull'), 2000, '#FF0000', '#ffffff', 'top')
             return
         }
         fetch('https://missav.com/cn/api/login', {
