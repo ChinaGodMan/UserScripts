@@ -577,10 +577,10 @@ Greasemonkey -any version- is not supported (the script might work, but is not t
 
 If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](https://github.com/darkred/Userscripts)
 
-![Screenshot 1](https://greasyfork.s3.us-east-2.amazonaws.com/ovrm7oyb7emsuy02mder765txu9d)  
-![Screenshot 2](https://greasyfork.s3.us-east-2.amazonaws.com/2y6vh1wst0mm2o24ywoyqc4fxqy2)  
-![Screenshot 3](https://greasyfork.s3.us-east-2.amazonaws.com/p3zqbf7mpmv06wqpc9ffnzdi74sz)  
-![Screenshot 4](https://greasyfork.s3.us-east-2.amazonaws.com/d2h03acaewidd0duft297r1g732c)
+![Screenshot 1](https://greasyfork.s3.us-east-2.amazonaws.com/mjjezdy220vguyllvmpsgpfjqpz8)  
+![Screenshot 2](https://greasyfork.s3.us-east-2.amazonaws.com/asth9x7akm7goqddr5u0f7uia92k)  
+![Screenshot 3](https://greasyfork.s3.us-east-2.amazonaws.com/0imd0nxmpd0jztoqhgionebw4jfi)  
+![Screenshot 4](https://greasyfork.s3.us-east-2.amazonaws.com/u3fgy6vyn01419tqb3zvd9h96bue)
 
 ## 使用帮助
 ### 安装浏览器

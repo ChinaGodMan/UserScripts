@@ -578,10 +578,10 @@
 
 如果您有任何错误、修复建议或创意，请在我的 [GitHub repo](https://github.com/darkred/Userscripts) 上报告。
 
-![截图 1](https://greasyfork.s3.us-east-2.amazonaws.com/ovrm7oyb7emsuy02mder765txu9d)  
-![截图 2](https://greasyfork.s3.us-east-2.amazonaws.com/2y6vh1wst0mm2o24ywoyqc4fxqy2)  
-![截图 3](https://greasyfork.s3.us-east-2.amazonaws.com/p3zqbf7mpmv06wqpc9ffnzdi74sz)  
-![截图 4](https://greasyfork.s3.us-east-2.amazonaws.com/d2h03acaewidd0duft297r1g732c)
+![Screenshot 1](https://greasyfork.s3.us-east-2.amazonaws.com/mjjezdy220vguyllvmpsgpfjqpz8)  
+![Screenshot 2](https://greasyfork.s3.us-east-2.amazonaws.com/asth9x7akm7goqddr5u0f7uia92k)  
+![Screenshot 3](https://greasyfork.s3.us-east-2.amazonaws.com/0imd0nxmpd0jztoqhgionebw4jfi)  
+![Screenshot 4](https://greasyfork.s3.us-east-2.amazonaws.com/u3fgy6vyn01419tqb3zvd9h96bue)
 
 ## 使用帮助
 ### 安装浏览器
