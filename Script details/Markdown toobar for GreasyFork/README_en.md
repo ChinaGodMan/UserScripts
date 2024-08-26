@@ -274,6 +274,24 @@
                 <td><a href="https://update.greasyfork.org/scripts/505208.user.js"><img
                             src="https://img.shields.io/greasyfork/dt/505208?color=%23990000&label=Installs"><br>安装</a>
                 </td>
+            </tr> 
+           <tr>
+                <td><a href="/zh-CN/scripts/497251" target="_blank">上下滚动按钮</a></td>
+                <td>页面右侧添加上下滚动按钮</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ScollButton.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/497251.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr> 
+              <tr>
+                <td><a href="/zh-CN/scripts/505207" target="_blank">解除 CSDN 登录复制</a></td>
+                <td>去你妈的 CSDN 登录复制，无需登录即可复制</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/FuckCSDN.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505207.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505207?color=%23990000&label=Installs"><br>安装</a>
+                </td>
             </tr>
         </tbody>
     </table>
