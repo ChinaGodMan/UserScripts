@@ -17,7 +17,7 @@
 | ❌**GitHub File Download Links Exporter**           | 将 GitHub 文件下载链接导出为列表，方便用户批量下载文件。                                                                            |
 | ❌ **GitHub File Download Links Exporter_markdown** | 将 GitHub 文件下载链接导出为 Markdown 格式，便于记录和分享。                                                                        |
 | ⚠️**Greasy Fork - 分析发布的脚本增强版本**          | 修改自Greasyfork用户脚本 半成品BUG很多                                                                                              |
-| ✅**GreasyFork Search**                             | 修改自Greasyfork用户脚本，增加了sleasyfork搜索                                                                                      |
+| ✅**~~GreasyFork Search~~**                         | 修改自Greasyfork用户脚本，增加了sleasyfork搜索                                                                                      |
 | ❌**greasyforklocalfav**  *已合并糊裱匠*            | 为 Greasy Fork 添加本地收藏功能，方便用户管理和访问收藏的脚本。                                                                     |
 | ✅ **~~*GreasyFork User Control Panel Button*~~**   | 在导航栏中添加快捷功能按钮，提高用户操作的便捷性。                                                                                  |
 | ❌**高亮隐藏**                                      | 修改自Greasyfork用户脚本 提供高亮和隐藏网页元素的功能，高亮关键词和所在元素的文本。                                                 |
