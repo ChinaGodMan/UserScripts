@@ -2,7 +2,7 @@
 // @name         ChatGPT Code Box Styling
 // @description  Change the font size and enable word wrap in ChatGPT code boxes
 // @name:zh-CN        ChatGPT 代码字体变小
-// @description:zh-CN   ChatGPT 代码字体变小
+// @description:zh-CN   让 ChatGPT 代码字体变小,
 // @namespace   https://greasyfork.org/users/1169082/
 // @version      0.1
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
