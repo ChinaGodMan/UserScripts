@@ -137,6 +137,12 @@
             "path": "GreasyFork Search.user.js",
             "isUpdated": true,
             "backuppath": "Script details/GreasyFork Search"
+        },
+        {
+            "name": "GitHub Sort by Date",
+            "path": "GitHub Sort by Date.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/GitHub Sort by Date"
         }
     ]
 }

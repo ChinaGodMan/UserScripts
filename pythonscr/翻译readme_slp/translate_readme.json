@@ -1,13 +1,15 @@
 {
     "translatelist": [
         {
-            "foldpath": "Script details/复制剪贴板保护 修改版/",
+            "foldpath": "Script details/GitHub Sort by Date/",
             "translatefile": "README.md",
             "translatedto": [
-                "it",
-                "ko"
+                "en",
+                "ko",
+                "vi",
+                "ja"
             ],
-            "translated": false
+            "translated": true
         },
         {
             "foldpath": "Script details/GreasyFork User Control Panel Button/",
@@ -68,7 +70,7 @@
             "translatedto": [
                 "vi"
             ],
-            "translated": true
+            "translated": false
         }
     ]
 }
