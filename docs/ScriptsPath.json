@@ -143,6 +143,12 @@
             "path": "GitHub Sort by Date.user.js",
             "isUpdated": true,
             "backuppath": "Script details/GitHub Sort by Date"
+        },
+        {
+            "name": "自动登录MissAV",
+            "path": "MissAV_AutoLogin_Helper.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/MissAV_AutoLogin_Helper"
         }
     ]
 }
