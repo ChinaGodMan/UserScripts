@@ -81,6 +81,9 @@
 // @grant        GM_getValue
 // @version      0.2
 // @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
+// @icon         https://pic.616pic.com/ys_bnew_img/00/35/79/Gv93yQh7v6.jpg
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 const translate = (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
