@@ -131,6 +131,12 @@
             "path": "Translate_only_chinese.user.js",
             "isUpdated": true,
             "backuppath": "Script details/Translate_only_chinese"
+        },
+        {
+            "name": "脚本高级搜索",
+            "path": "GreasyFork Search.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/GreasyFork Search"
         }
     ]
 }
