@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         网页翻译——自动翻译为中文日文
+// @name         网页翻译——自动翻译为中文
 // @author       Kaiter-Plus &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @namespace    https://gitee.com/Kaiter-Plus/TampermonkeyScript/tree/master/Translate/Translate_only_chinese.js
 // @description  给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
