@@ -2,12 +2,11 @@
 // @name                    Advanced Search Assistant for Google
 // @name:zh-CN              Google 高级搜索助手
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.9.21
+// @version 0.1.9.22
 // @description             Add an advanced search form to the top of the page
 // @description:zh-CN       在谷歌搜索页面顶部添加一个高级搜索表单
 // @author                         shiquda  &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @namespace               https://github.com/shiquda/shiquda_UserScript
-// @supportURL              https://github.com/shiquda/shiquda_UserScript/issues
 // @match                   *://www.google.com/search*
 // @include                 *://*google*/search*
 // @grant                   GM_addStyle
