@@ -486,7 +486,7 @@
             <td>🔞</a>
             </td>
             <td>🔞<img
-                        src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"></a>
+                        src="https://img.shields.io/greasyfork/dt/505325?color=%23990000&label=Installs"></a>
             </td>
         </tr>
     </tbody>
