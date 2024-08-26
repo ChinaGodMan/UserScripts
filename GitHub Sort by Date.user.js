@@ -1,15 +1,22 @@
 // ==UserScript==
-// @name         Github按文件更新日期排序
-// @namespace    https://github.com/androidcn/
+// @name         GitHub Sort by Date
+// @name:zh-CN   GitHub 按日期排序
+// @name:vi      GitHub Sắp xếp theo Ngày
+// @name:ja      GitHub 日付順ソート
+// @name:ko      GitHub 날짜별 정렬
+// @description  Change the file sorting order to descending by date for easier viewing of the most recently updated files.
+// @description:zh-CN  将文件排序方式改为日期降序，方便查看最新更新的文件。
+// @description:vi     Thay đổi thứ tự sắp xếp tệp thành giảm dần theo ngày để dễ dàng xem các tệp được cập nhật gần đây nhất.
+// @description:ja     ファイルの並び順を日付の降順に変更し、最新の更新ファイルを簡単に確認できるようにします。
+// @description:ko     파일 정렬 순서를 날짜 내림차순으로 변경하여 가장 최근에 업데이트된 파일을 쉽게 확인할 수 있습니다。
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version      1.1
-// @description  Github按文件更新日期排序...
-// @author       @Androidcn
+// @author       @Androidcn ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://github.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
-
-// @downloadURL https://update.greasyfork.org/scripts/492514/Github%E6%8C%89%E6%96%87%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F%E6%8E%92%E5%BA%8F.user.js
-// @updateURL https://update.greasyfork.org/scripts/492514/Github%E6%8C%89%E6%96%87%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F%E6%8E%92%E5%BA%8F.meta.js
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
 (function () {
     'use strict'
