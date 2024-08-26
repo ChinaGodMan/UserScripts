@@ -238,6 +238,42 @@
                 <td><a href="https://update.greasyfork.org/scripts/505164.user.js"><img
                             src="https://img.shields.io/greasyfork/dt/505164?color=%23990000&label=Installs"><br>安装</a>
                 </td>
+            </tr> 
+            <tr>
+                <td><a href="/zh-CN/scripts/505215" target="_blank">GreasyFork Search</a></td>
+                <td>使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GreasyFork%20Search.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505215.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505215?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="/zh-CN/scripts/505218" target="_blank">GitHub 按日期排序</a></td>
+                <td>将文件排序方式改为日期降序，方便查看最新更新的文件。</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GitHub%20Sort%20by%20Date.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505218.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505218?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+           <tr>
+                <td><a href="/zh-CN/scripts/505209" target="_blank">ChatGPT 代码字体变小</a></td>
+                <td>让 ChatGPT 代码字体变小,</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT%20Code%20Styling.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505209.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505209?color=%23990000&label=Installs"><br>安装</a>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="/zh-CN/scripts/505208" target="_blank">网页翻译——自动翻译为中文</a></td>
+                <td>给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译</td>
+                <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Translate_only_chinese.user.js">安装</a>
+                </td>
+                <td><a href="https://update.greasyfork.org/scripts/505208.user.js"><img
+                            src="https://img.shields.io/greasyfork/dt/505208?color=%23990000&label=Installs"><br>安装</a>
+                </td>
             </tr>
         </tbody>
     </table>
