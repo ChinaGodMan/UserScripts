@@ -479,9 +479,6 @@
 </details>
 </center>
 
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 # 用户账户设置脚本
