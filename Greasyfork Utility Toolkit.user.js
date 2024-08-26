@@ -35,6 +35,7 @@
 // @resource     nnfx-dark.min.css  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-dark.min.css
 // @resource     nnfx-light.min.css  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-light.min.css
 // @require      https://update.greasyfork.org/scripts/447149/1065246/checkVersion.js
+// @require   https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js
 // @grant       GM_getResourceText
 // @grant        GM_registerMenuCommand
 // @grant        GM_registerMenuCommand
@@ -48,7 +49,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.61
+// @version 2.2.0.62
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -926,7 +927,6 @@ const translate = (function () {
     var DEBUG = false // 控制是否启用调试模式
     function DEBUG11() {
         const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
-
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
             if (href && href.includes('1169082')) {
@@ -2130,8 +2130,6 @@ margin-bottom: 0;
                         url = "https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/default.png"
                         return __addIcon(url, h2Element, true)
                     }
-
-
                     if (!/^http:/.test(url))
                         return __addIcon(url, h2Element)
                     // download http icon and store it in script db if it's small
@@ -2186,9 +2184,7 @@ margin-bottom: 0;
                 GM_setValue('scriptsIcon', JSON.stringify(scripts))
             } else {
                 logMessage("添加图标", "nocache为true,不缓存", false)
-
             }
-
             // GM_setValue(scriptID, url);
         }
     }
@@ -3556,7 +3552,6 @@ button:focus {
                         linkTitle = li.textContent.split('admin')[0].trim()
                         const number = firstLink.href.match(/\d+/)
                         if (number) {
-
                             const scriptId = number[0]
                             const promotedScriptUrl = 'https://greasyfork.org/zh-CN/scripts/497346-greasyfork-utility-toolkit'
                             updatePromotedScript(scriptId, promotedScriptUrl, linkTitle)
@@ -3567,7 +3562,6 @@ button:focus {
         }
     }
     function updatePromotedScript(scriptId, promotedScriptUrl, linkTitle) {
-
         let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
         let authenticity_token = csrfTokenMeta ? csrfTokenMeta.getAttribute("content") : ''
         console.log(authenticity_token)
@@ -3577,7 +3571,6 @@ button:focus {
             authenticity_token: authenticity_token,
             promoted_script_id: promotedScriptUrl
         })
-
         fetch(url, {
             method: 'POST',
             body: data,
@@ -3590,7 +3583,6 @@ button:focus {
                 // 创建一个临时的 DOM 容器
                 const parser = new DOMParser()
                 const doc = parser.parseFromString(text, 'text/html')
-
                 // 查找 <input> 元素并获取其 value 值
                 const inputElement = doc.querySelector("input#promoted_script_id")
                 if (inputElement) {
@@ -3602,8 +3594,6 @@ button:focus {
             })
             .catch(error => console.error('Error:', error))
     }
-
-
     //NOTE - 美化WEBHOOK页面
     function checkAndRun() {
         const url = window.location.href
@@ -4439,7 +4429,7 @@ cursor: pointer;
         return !!document.querySelector("#about-user")
     }
     //下载函数
-    function downloadFile(url, filename, callback, maxRetries = 3) {
+    function downloadFile(url, filename, callback, maxRetries = 3, zipInstance) {
         let attempt = 0  // 当前尝试次数
         function tryDownload() {
             var xhr = new XMLHttpRequest()
@@ -4448,14 +4438,18 @@ cursor: pointer;
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     var blob = xhr.response
-                    var objectUrl = window.URL.createObjectURL(blob)
-                    var a = document.createElement('a')
-                    a.href = objectUrl
-                    a.download = filename // 设置下载文件名
-                    document.body.appendChild(a)
-                    a.click()
-                    window.URL.revokeObjectURL(objectUrl)
-                    document.body.removeChild(a) // 清理 DOM
+                    if (zipInstance) {
+                        zipInstance.file(filename, blob)
+                    } else {
+                        var objectUrl = window.URL.createObjectURL(blob)
+                        var a = document.createElement('a')
+                        a.href = objectUrl
+                        a.download = filename // 设置下载文件名
+                        document.body.appendChild(a)
+                        a.click()
+                        window.URL.revokeObjectURL(objectUrl)
+                        document.body.removeChild(a) // 清理 DOM
+                    }
                     if (callback && typeof callback === 'function') {
                         callback(null) // 执行回调，传递 null 表示没有错误
                     }
@@ -4503,6 +4497,64 @@ cursor: pointer;
         decodedFilename = decodedFilename.replace(/%20/g, '_') // 替换所有的 %20 为下划线
         return decodedFilename
     }
+    async function printAllDataCodeUrls() {
+        const scriptList = document.querySelector('.script-list')
+        if (!scriptList) {
+            console.error('Script list not found')
+            return
+        }
+
+        const button = document.createElement('button')
+        button.textContent = 'DownAll'
+        button.style.marginBottom = '10px'
+        scriptList.parentNode.insertBefore(button, scriptList)
+
+        button.addEventListener('click', async () => {
+            button.disabled = true
+            const scriptItems = scriptList.querySelectorAll('li')
+            const totalFiles = scriptItems.length
+            let currentFile = 0
+            const zip = new JSZip()
+
+            function updateButtonText() {
+                button.textContent = ` (${currentFile}/${totalFiles})`
+            }
+            const downloadPromises = Array.from(scriptItems).map(item => {
+                const codeUrl = item.getAttribute('data-code-url')
+                const filename = getFilenameFromUrl(codeUrl)
+                return new Promise((resolve, reject) => {
+                    downloadFile(codeUrl, filename, (error) => {
+                        currentFile++
+                        updateButtonText()
+                        if (error) {
+                            reject(error)
+                        } else {
+                            resolve()
+                        }
+                    }, 3, zip)
+                })
+            })
+            try {
+                await Promise.all(downloadPromises)
+                const zipBlob = await zip.generateAsync({ type: 'blob' })
+                const objectUrl = window.URL.createObjectURL(zipBlob)
+                const a = document.createElement('a')
+                a.href = objectUrl
+                a.download = `${document.title}.zip`
+                document.body.appendChild(a)
+                a.click()
+                window.URL.revokeObjectURL(objectUrl)
+                document.body.removeChild(a)
+                button.textContent = 'DownAll'
+            } catch (error) {
+                logMessage('', '下载所有脚本失败', false, error)
+                button.textContent = 'Failed'
+            }
+            button.disabled = false
+        })
+    }
+
+    printAllDataCodeUrls()
     /**
 * 在控制台输出带有样式的日志信息
 * @param {string} mainMessage - 主要日志信息
