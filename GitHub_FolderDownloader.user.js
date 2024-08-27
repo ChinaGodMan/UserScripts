@@ -23,8 +23,6 @@
 // @run-at       document-idle
 // @grant        none
 // @license      MIT
-// @downloadURL https://update.greasyfork.org/scripts/434592/GitHub%20%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BD%BD.user.js
-// @updateURL https://update.greasyfork.org/scripts/434592/GitHub%20%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BD%BD.meta.js
 // ==/UserScript==
 // 记录页面宽度是否允许 GitHub 展开完整页面的变量
 var isFold = false
