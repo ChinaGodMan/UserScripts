@@ -1,58 +1,70 @@
 // ==UserScript==
-// @name         GitHub 文件夹下载
-// @namespace    https://github.com/the-eric-kwok/my_userscripts
-// @version      0.6
-// @description  为 GitHub 文件夹增加一个下载按钮，可以方便地下载某个文件夹
-// @author       EricKwok
-// @supportURL   https://github.com/the-eric-kwok/my_userscripts/issues
+// @name        GitHub Folder Downloader
+// @name:en        GitHub Folder Downloader
+// @name:zh-CN    GitHub 文件夹下载器
+// @name:zh-TW    GitHub 文件夾下載器
+// @name:ja      GitHub フォルダー ダウンローダー
+// @name:vi      Trình tải xuống thư mục GitHub
+// @name:ko      GitHub 폴더 다운로더
+// @description  To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
+// @description:en  To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
+// @description:zh-CN  添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+// @description:zh-TW  添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夾。
+// @description:ja      特定の GitHub フォルダーを簡単にダウンロードできるダウンロードボタンを追加します。
+// @description:vi      Thêm một nút tải xuống cho phép tải xuống thư mục GitHub cụ thể một cách dễ dàng.
+// @description:ko      특정 GitHub 폴더를 쉽게 다운로드할 수 있는 다운로드 버튼을 추가합니다.
+// @namespace               https://github.com/ChinaGodMan/UserScripts
+// @version      0.7
+// @author       EricKwok,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @match        *://github.com/*
 // @icon         https://i.loli.net/2021/03/30/ULV9XunaHesqGIR.png
 // @run-at       document-idle
 // @grant        none
-// @license      GPLv3
+// @license      MIT
 // @downloadURL https://update.greasyfork.org/scripts/434592/GitHub%20%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BD%BD.user.js
 // @updateURL https://update.greasyfork.org/scripts/434592/GitHub%20%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E8%BD%BD.meta.js
 // ==/UserScript==
-
 // 记录页面宽度是否允许 GitHub 展开完整页面的变量
 var isFold = false
-
-
-// 注入下载文件夹按钮
-function injectDownloadFolderBtn() {
-    if (document.querySelector('.github-folder-download')) return
-    if (isFold) {
-        // 收起状态（移动端）
-        let devider = document.querySelector('button[data-testid="tree-overflow-menu-anchor"]')
-        if (devider) {
-            let _html = `
+//检查被收缩元素
+const parentElement = document.querySelector('#__primerPortalRoot__')
+const observer = new MutationObserver((mutationsList) => {
+    for (const mutation of mutationsList) {
+        if (mutation.addedNodes.length > 0) {
+            for (const node of mutation.addedNodes) {
+                const ulElement = parentElement.querySelector('ul[role="menu"]')
+                if (document.querySelector('.github-folder-download')) return
+                console.log(node)
+                if (ulElement) {
+                    let _html = `
             <li class="github-folder-download">
-                <p style="padding:0px 8px 2px 10px; color:grey; margin:0; font-size:10px;">Download folder with...</p>
+                <p style="padding:0px 8px 2px 10px; color:grey; margin:0; font-size:10px;">Download folder with..</p>
             </li>
-            <li class="d-block d-md-none github-folder-download">
                 <a class="dropdown-item" target="_blank" href="https://download-directory.github.io?url=${window.location.href}">
                     download-directory
                 </a>
-            </li >
-            <li class="d-block d-md-none github-folder-download">
                 <a class="dropdown-item" target="_blank" href="https://downgit.github.io/#/home?url=${window.location.href}">
                     DownGit
                 </a>
-            </li>
             <li class="d-block d-md-none dropdown-divider github-folder-download" role="none"></li>`
-            devider.insertAdjacentHTML("beforeend", _html)
+                    ulElement.insertAdjacentHTML("beforeend", _html)
+                }
+                return
+            }
         }
-    } else {
+    }
+})
+const config = { childList: true, subtree: true }
+observer.observe(parentElement, config)
+// 注入下载文件夹按钮
+function injectDownloadFolderBtn() {
+    if (document.querySelector('.github-folder-download')) return
+    if (!isFold) {
         // 展开状态（PC端）
-        let html = document.querySelector(".types__StyledButton-sc-ws60qy-0.feqCqy")
-
-        if (!html) {
-            alert("e")
-        }
-
-        if (html) {
-
-            let _html = `
+        let html = document.querySelector('[data-testid="tree-overflow-menu-anchor"]')//.types__StyledButton-sc-ws60qy-0.feqCqy
+        let _html = `
             <details data-view-component="true" class="details-overlay details-reset position-relative mr-2 github-folder-download">
                 <summary role="button" data-view-component="true">
                     <span class="btn d-none d-md-flex flex-items-center">
@@ -80,15 +92,12 @@ function injectDownloadFolderBtn() {
                     </ul >
                 </div >
             </detials>`
-            html.insertAdjacentHTML("beforebegin", _html)
-        }
+        html.insertAdjacentHTML("beforebegin", _html)
     }
 }
-
 function removeAllInjectedElem() {
     document.querySelectorAll(".github-folder-download").forEach(elem => elem.remove())
 }
-
 function detectFoldUnfold() {
     if (document.body.clientWidth <= 1200 && !isFold) {
         console.log("收起" + document.body.clientWidth)
@@ -98,21 +107,17 @@ function detectFoldUnfold() {
         isFold = false
     }
 }
-
 function reinject() {
-    if (document.querySelector(".octicon.octicon-copy")) {//电脑端
-
+    if (document.querySelector(".octicon.octicon-copy")) {//复制路径的元素
         // 仅当处于文件夹内时注入按钮
         removeAllInjectedElem()
         injectDownloadFolderBtn()
     }
 }
-
 function main() {
     detectFoldUnfold()
     reinject()
 }
-
 (function () {
     'use strict'
     /**
@@ -129,7 +134,6 @@ function main() {
         window.dispatchEvent(new Event('locationchange'))
         return ret
     }
-
     let oldReplaceState = history.replaceState
     history.replaceState = function replaceState() {
         let ret = oldReplaceState.apply(this, arguments)
@@ -137,11 +141,9 @@ function main() {
         window.dispatchEvent(new Event('locationchange'))
         return ret
     }
-
     window.addEventListener('popstate', () => {
         window.dispatchEvent(new Event('locationchange'))
     })
-
     document.addEventListener('pjax:success', function () {
         // 由于 GitHub 使用 pjax 而不是页面跳转的方式在仓库内导航，因此将 main 函数绑定到 pjax 监听器上
         window.dispatchEvent(new Event('locationchange'))
