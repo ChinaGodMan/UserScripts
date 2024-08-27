@@ -11,7 +11,7 @@
 // @description:ja リンクをドラッグしてポップアップウィンドウでプレビューを表示し、Edge のプレビュー技術を使用して開く前にリンクを開きます。また、ウィンドウが開いているときにアクリル効果を背景に追加します。
 // @name:vi        Xem trước cửa sổ nhỏ
 // @description:vi Kéo thả liên kết để mở nó trong một cửa sổ popup với chế độ xem trước trước khi mở, sử dụng công nghệ tiên đoán của Edge. Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ khi nó mở.
-// @version 2.4.0.4
+// @version 2.4.0.6
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -201,22 +201,23 @@ const translate = (function () {
             state.popupWindow = window.open(link, '_blank', `width=${config.windowWidth},height=${config.windowHeight},left=${config.screenLeft},top=${config.screenTop}`)
             //   console.log('Popup window:', state.popupWindow) 
             state.popupWindowChecker = setInterval(() => {
-
-                if (state.popupWindow.closed) {
-                    removeAcrylicOverlay()
-                    clearInterval(state.popupWindowChecker)
-                } else {
-                    const width = state.popupWindow.innerWidth
-                    const height = state.popupWindow.innerHeight
-                    const left = state.popupWindow.screenX
-                    const top = state.popupWindow.screenY
-                    /* console.log(`Popup window size: width=${width}, height=${height}`)
-                    console.log(`Popup window position: left=${left}, top=${top}`) */
-                    if (config.saveWindowConfig) {
-                        saveWindowConfig(width, height, left, top)
+                if (state.popupWindow) {//保证窗口存在时才检测,兼容下原来脚本点击原窗口焦点关闭覆盖层
+                    if (state.popupWindow.closed) {
+                        removeAcrylicOverlay()
+                        clearInterval(state.popupWindowChecker)
+                    } else {
+                        const width = state.popupWindow.innerWidth
+                        const height = state.popupWindow.innerHeight
+                        const left = state.popupWindow.screenX
+                        const top = state.popupWindow.screenY
+                        /* console.log(`Popup window size: width=${width}, height=${height}`)
+                        console.log(`Popup window position: left=${left}, top=${top}`) */
+                        if (config.saveWindowConfig) {
+                            saveWindowConfig(width, height, left, top)
+                        }
                     }
                 }
-            }, 500)
+            }, 200)
         }
     }
     function closePopupWindow() {
