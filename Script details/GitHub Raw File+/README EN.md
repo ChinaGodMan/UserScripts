@@ -578,8 +578,6 @@
 </center>
 
 
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 # Github Copy Raw File URL and Download File
