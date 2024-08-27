@@ -149,6 +149,12 @@
             "path": "MissAV_AutoLogin_Helper.user.js",
             "isUpdated": true,
             "backuppath": "Script details/MissAV_AutoLogin_Helper"
+        },
+        {
+            "name": "GitHub文件夹下载",
+            "path": "GitHub_FolderDownloader.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/GitHub_FolderDownloader"
         }
     ]
 }
