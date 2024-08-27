@@ -155,6 +155,12 @@
             "path": "GitHub_FolderDownloader.user.js",
             "isUpdated": true,
             "backuppath": "Script details/GitHub_FolderDownloader"
+        },
+        {
+            "name": "GitHub下载单文件和复制文件URL",
+            "path": "GitHub Raw File+.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/GitHub Raw File+"
         }
     ]
 }
