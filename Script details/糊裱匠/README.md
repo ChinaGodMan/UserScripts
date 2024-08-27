@@ -286,6 +286,25 @@
         </tr>
         <tr>
             <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
+                    href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">Github 复制原始文件 URL
+                    与下载文件</a><br><img src="https://github.githubassets.com/favicons/favicon.svg" width="16"
+                    height="16"><a
+                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GitHub%20Raw%20File%2B.user.js"
+                    target="_blank">GitHub</a><a
+                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GitHub%20Raw%20File%2B"
+                    target="_blank"> <mark>详细</mark></td>
+            </td>
+            <td>在GitHub仓库每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件</td>
+            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GitHub%20Raw%20File%2B.user.js"><img
+                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GitHub%20Raw%20File%2B.user.js?style=social"
+                        alt="size"><br>安装</a>
+            </td>
+            <td><a href="https://update.greasyfork.org/scripts/505501.user.js"><img
+                        src="https://img.shields.io/greasyfork/dt/505501?color=%23990000&label=Installs"><br>安装</a>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
                     href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub 文件夹下载器</a><br><img
                     src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
                     href="https://github.com/ChinaGodMan/UserScripts/blob/main/GitHub_FolderDownloader.user.js"
