@@ -440,7 +440,7 @@ const translate = (function () {
                 progressBarremove()
             }
 
-            document.addEventListener('mousemove', onMouseMove, { once: true })
+            document.addEventListener('dragstart', onMouseMove, { once: true })
             document.addEventListener('mouseup', onMouseUp, { once: true })
 
             setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
