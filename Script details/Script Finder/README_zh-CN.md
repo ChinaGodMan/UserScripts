@@ -609,7 +609,7 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 ![show.png](https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png)
 
 ## 原作者
- 脚本修改自用户 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的脚本 [Script Finder](https://greasyfork.org/scripts/472056) 感谢原作者 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的**勤劳**与**智慧**
+ 脚本修改自用户 **@shiquda** 的脚本 [Script Finder](https://greasyfork.org/scripts/472056) 感谢原作者 **@shiquda** 的**勤劳**与**智慧**
 
 <center><h1>Script Finder 更新记录 </h1> </center>
 
