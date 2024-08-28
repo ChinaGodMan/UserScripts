@@ -49,7 +49,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.69
+// @version 2.2.0.70
 // @icon         https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -2631,6 +2631,7 @@ button:focus {
             bad_ratings,
             code_url,
             version,
+            fan_score,
             license
         } = scriptDetails
         const extension = code_url.substring(code_url.lastIndexOf('.') + 1)
@@ -2668,7 +2669,7 @@ button:focus {
                       <dt class="script-list-total-installs"><span>${translate('tviewotal_installs')}</span></dt>
                       <dd class="script-list-total-installs"><span>${total_installs}</span></dd>
                       <dt class="script-list-ratings"><span>${translate('viewfan_score')}</span></dt>
-                      <dd class="script-list-ratings" data-rating-score="0.0"><span><span class="good-rating-count" title="好评或收藏的人数。">${good_ratings}</span>
+                      <dd class="script-list-ratings" data-rating-score="${fan_score}"><span><span class="good-rating-count" title="好评或收藏的人数。">${good_ratings}</span>
         <span class="ok-rating-count" title="评级为一般的人数。">${ok_ratings}</span>
         <span class="bad-rating-count" title="评级为差评的人数。">${bad_ratings}</span>
         </span></dd>
