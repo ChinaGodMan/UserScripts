@@ -1,3 +1,4 @@
+- **2024/8/29 09:28 - Ver:.2.4.0.8** *移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消.[#526172](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172)*
 - **2024/8/27 00:33 - Ver: 2.4.0.5** 
   - *[#526054](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054) BUG反馈:当打开一个链接的预览窗，然后点击原窗口焦点关闭预览窗之后再长按另外一个链接 , 有概率无法触发时间条打开预览窗<br>添加代码:`if (state.popupWindow) `当窗口存在时执行代码*
   
