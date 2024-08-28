@@ -669,29 +669,6 @@
 
 ## Thank you
 
-### 引用脚本
-
-- [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
-- [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
-- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/411837)
-- [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
-- [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
-- [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
-- [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
-- [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
-- [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
-- [折叠 greasyfork 过期讨论](https://greasyfork.org/scripts/426549/)
-- [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
-- [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
-- [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
-- [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
-- [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
-- [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)
-- [Greasy Fork URL 脚本名称清理](https://greasyfork.org/scripts/431940/)
-- [Greasyfork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-- [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
-- [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
-- [GreasyFork 一键回报垃圾评论](https://greasyfork.org/scripts/474395)
 
 ---
 
