@@ -31,11 +31,6 @@
 ⭐[请给我点星][Github-UserScripts]
 
 **给勤务员加鸡腿** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
-
- <p><a href="#:~:text=使用帮助">不会使用脚本？点我观看教学</a></p>
-
- 脚本已兼容管理器: [![][TM]][Tampermonkey] [![][vm]][Violentmonkey]  [![][cat]][cat_link]  [![][stayr]][Stay] [![][Macaquer]][Macaque]<br>
-脚本已兼容浏览器:  [![][Opera]][opera_link] [![][Edge]][edge_link] [![][Firefox]][firefox_link] [![][Chrome]][chrome_link] [![][QQ]][QQ_link]  [![][Safari]][safari_link]  [![][VIA]][via_link]  [![][X]][x_link]  [![][kiwi]][kiwi_link] [![][le]][le_link]
  
 ---
 
@@ -780,36 +775,3 @@
 
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
-
-
-[Tampermonkey]:http://tampermonkey.net/ "篡改猴"
-[Violentmonkey]:https://violentmonkey.github.io/ "暴力猴"
-[Macaque]:https://macaque.app/ "猕猴"
-[Macaquer]:https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
-[Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
-[stayr]:https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
-[opera]:https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png
-[opera_link]:https://www.opera.com "opera浏览器"
-[edge]:https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
-[edge_link]:https://www.microsoft.com/edge  "edge 浏览器"
-[firefox]: https://img.xwyue.com/i/2024/08/02/66ac91cae7577.png
-[firefox_link]:https://www.firefox.com "Firefox浏览器"
-[chrome]: https://img.xwyue.com/i/2024/08/02/66ac91cae814c.png
-[chrome_link]:https://gooogleweb.com/index.html "Chrome浏览器"
-[QQ]: https://img.xwyue.com/i/2024/08/02/66ac91cae9ff7.png
-[QQ_link]:https://browser.qq.com/ "QQ浏览器"
-[safari]:https://img.xwyue.com/i/2024/08/02/66ac91cb0a2ed.png
-[safari_link]:https://www.apple.com/vn/safari/ "Safari浏览器"
-[via]:https://img.xwyue.com/i/2024/08/02/66ac91cb15181.png
-[via_link]:https://viayoo.com/ "VIA浏览器"
-[x]:https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
-[x_link]:https://www.xbext.com/ "X浏览器"
-[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "暴力猴"
-[cat]:https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]:https://docs.scriptcat.org/ "脚本猫"
-[TM]:https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "篡改猴"
-[le]:https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]:https://lemurbrowser.com/ "狐猴浏览器"
-[kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
-[kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
-
