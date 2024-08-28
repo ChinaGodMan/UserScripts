@@ -31,6 +31,11 @@
 ⭐[请给我点星][Github-UserScripts]
 
 **给勤务员加鸡腿** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
+
+ <p><a href="#:~:text=使用帮助">不会使用脚本？点我观看教学</a></p>
+
+ 脚本已兼容管理器: [![][TM]][Tampermonkey] [![][vm]][Violentmonkey]  [![][cat]][cat_link]  [![][stayr]][Stay] [![][Macaquer]][Macaque]<br>
+脚本已兼容浏览器:  [![][Opera]][opera_link] [![][Edge]][edge_link] [![][Firefox]][firefox_link] [![][Chrome]][chrome_link] [![][QQ]][QQ_link]  [![][Safari]][safari_link]  [![][VIA]][via_link]  [![][X]][x_link]  [![][kiwi]][kiwi_link] [![][le]][le_link]
  
 ---
 
@@ -56,6 +61,10 @@
 [Tampermonkey-OK]: https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36
 [Violentmonkey-OK]: https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
+
+
+
+
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
