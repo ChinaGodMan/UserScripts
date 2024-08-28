@@ -84,7 +84,7 @@
                     糊裱匠</a><br><img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
                     href="https://github.com/ChinaGodMan/UserScripts/blob/main/Greasyfork%20Utility%20Toolkit.user.js"
                     target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E7%B3%8A%E8%A3%B1%E5%8C%A0"
+                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Greasyfork%20Utility%20Toolkit"
                     target="_blank"> <mark>详细</mark></a>
             </td>
             <td>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</td>
@@ -576,6 +576,8 @@
 </table>
 </details>
 </center>
+
+
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
