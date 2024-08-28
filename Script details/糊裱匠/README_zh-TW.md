@@ -735,36 +735,6 @@
 
 ---
 
-## 更新信息
-- 2024/7/20 2.2.0.14
-  - 復製[GreasyFork 優化](https://greasyfork.org/zh-CN/scripts/475722)中的新CSS
-- 2024/7/17 2.2.0.9
-  - 增加[GreasyFork 優化](https://greasyfork.org/zh-CN/scripts/475722)中的腳本雙列顯示
-  - 增加[GreasyFork 優化](https://greasyfork.org/zh-CN/scripts/475722)中的美化導航欄
-  - 增加固定網站側邊操作欄
-- 2024/7/15 2.2.0.8
-  
-  - 完全的繁體語言支持
-- 2024/7/15 2.2.0.7
-  
-  - 增加側邊導航欄開關
-  - 增加圖片代理
-    - 圖片代理開啟時不兼[GreasyFork 優化](https://greasyfork.org/zh-CN/scripts/475722)中的圖片瀏覽
-  - 修復在移動設備上瀏覽圖片超出瀏覽器外的問題
-  - 修改在編輯代碼時自動勾選美化
-- 2024/7/14 2.2.0.6
-  
-  - 添加了導航欄展開"更多"
-  - 增加[Greasy Fork 增強](https://greasyfork.org/zh-CN/scripts/467078)中的側邊導航欄
-  - 完善對多語言的支持
-- 2024/7/13 2.2.0.5
-  
-  - 增加自動登錄[GreasyFork 優化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修復顯示列表上的腳本安裝狀態
-  - 完善對多語言的支持
-
-
----
 
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
