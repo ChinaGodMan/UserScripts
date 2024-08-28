@@ -1,7 +1,11 @@
 <h1 align="center">Script Finder 更新记录</h1>
 
 - **2024/8/28 12:01 - Ver: 0.1.6.58** *网页进入全屏,隐藏右下角按钮.*
-- **2024/8/26 07:32 - Ver: 0.1.6.54**  *<mark>增加语言支持</mark>*
+- **2024/8/26 07:32 - Ver: 0.1.6.54**  *增加语言支持*
 
 - **2024/8/4 14:32 - Ver: 0.1.6.32**
-  - *<mark>[#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网CSS冲突，导致右下角的按钮会变成长长的一条横在整个页面的底部<br>修复方式：更改按钮类名 `button.script-button` 👉 `scrbutton.script-button`</mark>*
+  - *[#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网CSS冲突，导致右下角的按钮会变成长长的一条横在整个页面的底部<br>修复方式：更改按钮类名 `button.script-button` 👉 `scrbutton.script-button`*
+
+- **2024/7/18 08:45 - Ver: 0.1.6.9**  *取消默认排序，改为按照更新时间排序*
+- **2024/6/26 06:43 - Ver: 0.1.6.1**  
+  - *新增:增加对移动设备上的支持，手机也能使用啦~<br>修改:取消搜索出错时清空列表的操作* 
