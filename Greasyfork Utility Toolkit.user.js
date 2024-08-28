@@ -57,7 +57,7 @@
 // @license      MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-//20240712添加网站风格
+
 // ==/UserScript==
 const translate = (function () {
     const userLang = location.pathname.split('/')[1]
