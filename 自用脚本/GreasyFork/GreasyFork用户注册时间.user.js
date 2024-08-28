@@ -37,7 +37,7 @@
     const billion = 1000000000
     var avggap = 3600 * 24 / 400
     var db
-    var url = "http://127.0.0.1:5500/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/1.json"
+    var url = "http://127.0.0.1:5500/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GreasyFork/1.json"
     var xhr = new XMLHttpRequest()
     xhr.open('GET', url, false)
     xhr.onload = function () {
@@ -162,11 +162,11 @@
     } else {
         GM_xmlhttpRequest({
             method: "GET",
-            url: `https://greasyfork.org/scripts/450618-db2-for-script-450603/code/db2%20for%20script%20450603.js?v=${now}`,
+            url: `http://127.0.0.1:5500/%E8%87%AA%E7%94%A8%E8%84%9A%E6%9C%AC/GreasyFork/db.json`,
             onload(res) {
                 console.log("db2 updated")
                 GM_setValue("utime", now)
-                var db2 = JSON.parse(res.responseText.match(/var db2 = (\[.*?\]);/)[1])
+                var db2 = JSON.parse(res.responseText)
                 GM_setValue("db2", db2)
                 db = db2.concat(db)
                 setInterval(run(), interval)
@@ -191,13 +191,15 @@
     //1359490
     var first_value = db[0]
 
-    // 循环十次
-    for (var i = 0; i < 10; i++) {
+
+    var unixTimestamp = 0
+    for (let first_value = 0; first_value <= 1359490; first_value += 100) {
         // 调用 test 函数，传递 first_value + 100
-        test(first_value + 100)
-        // 增加 first_value 以便下次迭代的计算
-        first_value += 100
+        //   test(first_value + 100)
+
     }
+
+    console.log(unixTimestamp)
     // 将 db 转换为 JSON 格式
     var json = JSON.stringify(db)
 
@@ -208,9 +210,10 @@
     a.href = url
     a.download = 'db.json'
     document.body.appendChild(a)
-    a.click()
+    // a.click()
     document.body.removeChild(a)
     URL.revokeObjectURL(url)
+
     function test(uid) {
         var maxuid = 0
         // 如果最大uid超出了db中所记录，假设页面上最大的uid为刚注册，并依此设定超出数据库范围的uid的注册间隔；如果算得的gap显然不合理，则沿用初始值
@@ -222,17 +225,18 @@
         //console.log(genregtime(uid))
         //    console.log(db)
         var regtime = genregtime(uid) // 获取注册时间的 ISO 8601 格式字符串
-        var unixTimestamp = isoToUnix(regtime) - billion // 转换为 Unix 时间戳
+        unixTimestamp = isoToUnix(regtime) - billion // 转换为 Unix 时间戳
 
         console.log("减去:", unixTimestamp, regtime)
         db = 加入(uid, unixTimestamp)
-        console.log(db)
+
 
         function isoToUnix(isoString) {
             return Math.floor(new Date(isoString).getTime() / 1000)
         }
     }
     function 加入(uid, unixTimestamp) {
+        console.log(unixTimestamp)
         // 假设 db 是一个数组，我们将 uid 和 unixTimestamp 作为一个新元素加入到 db 中
         db.unshift(uid, unixTimestamp)
         return db // 返回更新后的 db
