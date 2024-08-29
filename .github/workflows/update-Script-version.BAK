@@ -149,7 +149,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
           git add .
-          commit_message="**<img height='32px' width='32px' src='https://avatars.githubusercontent.com/u/96548841?v=4' alt='UserScripts'> [<ruby>人民的勤务员<rt>Github:@ChinaGodMan</rt></ruby>](https://github.com/ChinaGodMan)(UTC+8)$currentDateTime 触发自动更新**"
+          commit_message="fix bug"
           echo "提交信息: $commit_message"
           git commit -m "$commit_message" || echo "没有需要提交的更改"
           
