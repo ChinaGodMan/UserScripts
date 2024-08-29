@@ -150,7 +150,7 @@ jobs:
           
           git add .
           current_date=$(TZ='Asia/Shanghai' date '+%Y/%m/%d %H:%M:%S')
-          commit_message="**<img height='32px' width='32px' src=https://avatars.githubusercontent.com/in/15368?v=4' alt='UserScripts'> [<ruby>人民的勤务员<rt>Github:@ChinaGodMan</rt></ruby>](https://github.com/ChinaGodMan)(UTC+8)$current_date FIX BUG**"
+          commit_message="**<img height='32px' width='32px' src=https://avatars.githubusercontent.com/in/15368?v=4' alt='UserScripts'> [<ruby>人民的勤务员<rt>Github:ChinaGodMan</rt></ruby>](https://github.com/ChinaGodMan)(UTC+8)$current_date FIX BUG**"
           echo "提交信息: $commit_message"
           git commit -m "$commit_message" || echo "没有需要提交的更改"
           
