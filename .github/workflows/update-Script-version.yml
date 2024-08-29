@@ -86,31 +86,73 @@ jobs:
             grep '^// @version' "$file"
           done
 
-      - name: 获取更改的文件列表并提交
-        id: changed-files
+      - name: 调试环境变量
         run: |
-          # 获取更改的文件列表
-          git status --porcelain | awk '{print $2}' > changed_files.txt
-          
-          commit_message="Your commit message"
-          while IFS= read -r file
-          do
-            file=$(echo "$file" | sed 's/^"//;s/"$//')  # 去除可能存在的引号
-            if [[ $file == *.user.js ]]; then
-              echo "Adding and committing $file with message '$commit_message'"
-              git add "$file"
-              git commit -m "$commit_message" || echo "没有需要提交的更改"
-            else
-              echo "Adding and committing $file with message '更新'"
-              git add "$file"
-              git commit -m "更新" || echo "没有需要提交的更改"
-            fi
-          done < changed_files.txt
+          echo "当前环境变量:"
+          cat $GITHUB_ENV  # 打印环境变量以进行调试
 
-      - name: 推送更改
+      - name: 调试更改
+        run: |
+          echo "Git 状态:"
+          git status
+          echo "更改的差异:"
+          git diff  # 打印更改的差异以进行调试
+
+      - name: 记录操作日志
+        run: |
+          # 获取更新的文件数量
+          updated_files_count=$(jq -c '.scripts[] | select(.isUpdated == true) | .path' docs/ScriptsPath.json | wc -l)
+          echo "Updated files count: $updated_files_count"
+
+          # 获取当前日期和时间，精确到秒，24小时制
+          current_date=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
+          echo "当前日期和时间: $current_date"
+
+          # 如果文件不存在，则创建并初始化为空数组
+          if [ ! -f docs/log/updatedUserScripts.json ]; then
+            echo "[]" > docs/log/updatedUserScripts.json
+          fi
+
+          # 更新 JSON 文件，先添加新记录
+          jq --arg date "$current_date" --argjson count "$updated_files_count" \
+            '. += [{"date": $date, "updated_files_count": $count}]' \
+            docs/log/updatedUserScripts.json > docs/log/updatedUserScripts.json.tmp
+          if [ $? -ne 0 ]; then
+            echo "jq 命令失败"
+            exit 1
+          fi
+
+          # 计算现有成员数量，排除 member_count 字段
+          member_count=$(jq '[.[] | select(has("member_count") | not)] | length' docs/log/updatedUserScripts.json.tmp)
+          echo "当前成员数量: $member_count"
+
+          # 更新 JSON 文件，修改或添加 member_count 字段
+          jq --argjson member_count "$member_count" \
+            'if .[0] | has("member_count") then
+              .[0].member_count = $member_count
+            else
+              [{"member_count": $member_count}] + .
+            end' \
+            docs/log/updatedUserScripts.json.tmp > docs/log/updatedUserScripts.json
+          if [ $? -ne 0 ]; then
+            echo "jq 命令失败"
+            exit 1
+          fi
+          rm docs/log/updatedUserScripts.json.tmp
+          # 输出最终结果用于调试
+          echo "更新后的 docs/log/updatedUserScripts.json 内容:"
+          cat docs/log/updatedUserScripts.json
+
+      - name: 提交和推送更改
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          git add .
+          current_date=$(TZ='Asia/Shanghai' date '+%Y/%m/%d %H:%M:%S')
+          commit_message="**<img height='32px' width='32px' src=https://avatars.githubusercontent.com/in/15368?v=4' alt='UserScripts'> [<ruby>人民的勤务员<rt>Github:@ChinaGodMan</rt></ruby>](https://github.com/ChinaGodMan)(UTC+8)$current_date FIX BUG**"
+          echo "提交信息: $commit_message"
+          git commit -m "$commit_message" || echo "没有需要提交的更改"
           
           git push origin ${{ env.branch }}  # 推送到当前分支
         env:
