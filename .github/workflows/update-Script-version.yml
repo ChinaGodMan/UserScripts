@@ -86,36 +86,28 @@ jobs:
             grep '^// @version' "$file"
           done
 
-      - name: 获取更改的文件列表并提交
-        id: changed-files
+      - name: 提交和推送更改
         run: |
           # 获取更改的文件列表
-          changed_files=$(git status --porcelain | awk '{print $2}')
-          echo "Changed files: $changed_files"
+          git status --porcelain | awk '{print $2}' > changed_files.txt
           
-          # 创建一个文件以存储更改的文件
-          echo "$changed_files" > changed_files.txt
-
           commit_message="Your commit message"
           while IFS= read -r file
           do
-            file=$(echo "$file" | xargs)
+            file=$(echo "$file" | xargs)  # 修复路径问题
             if [[ $file == *.user.js ]]; then
               echo "Adding and committing $file with message '$commit_message'"
               git add "$file"
-              git commit -m "$commit_message"
+              git commit -m "$commit_message" || echo "没有需要提交的更改"
             else
               echo "Adding and committing $file with message '更新'"
               git add "$file"
-              git commit -m "更新"
+              git commit -m "更新" || echo "没有需要提交的更改"
             fi
           done < changed_files.txt
 
-      - name: 推送更改
-        run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
           git push origin ${{ env.branch }}  # 推送到当前分支
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
