@@ -440,7 +440,7 @@ const translate = (function () {
         }
     }
     function handleDragEnd() {
-        if (config.showCountdowndrag) {//显示超时进度条时
+        if (state.dragprogressBar) {//显示超时进度条时
             clearInterval(state.dragintervalId)
             state.dragprogressBar.style.display = 'none'
         }
