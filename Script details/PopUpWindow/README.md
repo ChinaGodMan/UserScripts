@@ -103,7 +103,11 @@
    - **描述**：当启用 `操作模式 (actionMode)=1` 长按时，在长按触发预览窗口前，在鼠标下方显示倒计时进度条，时间是 `长按持续时间 (longPressDuration)` 设定的时间。
    - **操作**：用于启用或禁用倒计时进度条显示。
 
-10. **保存窗口配置 (saveWindowConfig)**
+10. **显示拖拽超时 (showCountdowndrag)**
+   - **描述**：当启用时，在拖拽预览窗口前，在鼠标下方显示超时进度条，时间是 `拖拽超时时间 (dragTimeOut)` 设定的时间,时间耗尽,拖拽不会打开预览窗口,设定时间为0时为禁用显示以及禁用超时取消拖拽打开小窗预览。
+   - **操作**：用于启用或禁用超时进度条显示。
+
+11.  **保存窗口配置 (saveWindowConfig)**
     - **描述**：用于记忆保存窗口的大小与位置配置，会覆盖用户自己设定的预览窗口高度和宽度。
 
 **每个选项后面都有一个对应的操作函数，这些函数用于更新菜单的设置。通过点击选项，用户可以直接改变相关配置，并立即看到效果。**
@@ -126,27 +130,24 @@
 
 ![1.png](https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui)
 ## 原作者
- [hiisme](https://greasyfork.org/zh-CN/scripts/504567)
+ **[hiisme](https://greasyfork.org/zh-CN/scripts/504567)**
 
 <center><h1>小窗预览 更新记录 </h1> </center>
 
-- **2024/8/29 09:28 - Ver:.2.4.0.8** *移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消.[#526172](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172)*
+- **2024/8/29 08:39 - Ver:.2.4.0.9** *添加拖拽时超时显示超时进度条,时间耗光取消拖拽打开预览窗口*
+- **2024/8/29 06:28 - Ver:.2.4.0.8** *移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消打开预览窗口.[#526172](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172)*
 - **2024/8/27 00:33 - Ver: 2.4.0.5** 
   - *[#526054](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054) BUG反馈:当打开一个链接的预览窗，然后点击原窗口焦点关闭预览窗之后再长按另外一个链接 , 有概率无法触发时间条打开预览窗<br>添加代码:`if (state.popupWindow) `当窗口存在时执行代码*
   
 
 - **2024/8/25 04:59 - Ver: 2.4.0.2**
-  - *<mark>[#257270](https://greasyfork.org/zh-CN/scripts/504880/discussions/257270) 添加长按时显示倒计时, 修复长按时间过短导致在拖拽时触发长按逻辑, 增加记住窗口位置</mark>*
+  - *[#257270](https://greasyfork.org/zh-CN/scripts/504880/discussions/257270) 添加长按时显示倒计时, 修复长按时间过短导致在拖拽时触发长按逻辑, 增加记住窗口位置*
 
 - **2024/8/24 07:29 - Ver: 2.4**
-  - *<mark>优化脚本<br>添加语言包</mark>*
+  - *优化脚本<br>添加语言包*
 
 - **2024/8/23 08:12 - Ver: 2.4**
-  - *<mark>优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 `Google Chrome 的超级拖拽 0.9.9`<br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</mark>*
-
-
-
-
+  - *<优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 `Google Chrome 的超级拖拽 0.9.9`<br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题*
 
 
 
