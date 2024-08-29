@@ -7,7 +7,6 @@
 // @match        https://greasyfork.org/*
 // @match        https://sleazyfork.org/*/scripts/by-site/*
 // @match        https://sleazyfork.org/*
-
 // @grant        none
 // ==/UserScript==
 
