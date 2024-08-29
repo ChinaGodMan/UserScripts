@@ -148,12 +148,12 @@
 
   **脚本**修改自用户 **[hiisme](https://greasyfork.org/zh-CN/users/217852)** 的脚本 [小窗预览](https://greasyfork.org/scripts/504567) 感谢原作者 **Kamikaze** 的**勤劳**与**智慧**
 
+<video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/PopUpWindow/preview/video.mp4"
+       poster="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"
+       width="320" height="240" controls loop>
+</video>
+
 ![1.png](https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui)
-
-
-
-
-
 
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
