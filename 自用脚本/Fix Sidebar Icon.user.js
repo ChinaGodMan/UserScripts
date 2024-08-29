@@ -9,6 +9,7 @@
 // @match        https://sleazyfork.org/*
 // @grant        none
 da//
+
     // ==/UserScript==
     (function () {
         'use strict'
