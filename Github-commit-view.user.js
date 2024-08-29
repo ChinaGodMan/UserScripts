@@ -263,5 +263,4 @@ function watchUpdate() {//检查链接变化
     }
     // 开始观察 document.body 的变化
     observer.observe(document.body, config)
-
 }
