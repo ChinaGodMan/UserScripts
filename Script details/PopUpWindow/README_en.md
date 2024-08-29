@@ -103,7 +103,11 @@
    - **Description**: When `Action Mode (actionMode)=1` is enabled, displays a countdown progress bar below the mouse before the preview window is triggered by a long press. The time is set by `Long Press Duration (longPressDuration)`.
    - **Action**: Used to enable or disable the countdown progress bar display.
 
-10. **Save Window Configuration (saveWindowConfig)**
+10. **Show Drag Timeout (showCountdowndrag)**
+   - **Description**: When enabled, a timeout progress bar is displayed under the mouse before the drag preview window opens. The duration is determined by the `Drag Timeout (dragTimeOut)` setting. If the time runs out, the drag operation will not open the preview window. If the timeout is set to 0, both the progress bar and the timeout-based cancellation of the drag preview will be disabled.
+   - **Action**: Used to enable or disable the display of the timeout progress bar.
+
+11. **Save Window Configuration (saveWindowConfig)**
     - **Description**: Used to remember and save the size and position configuration of the window, overriding the user-defined preview window height and width.
 
 **Each option is followed by a corresponding action function, which is used to update the menu settings. By clicking on an option, users can directly change the related configuration and see the effect immediately.**
