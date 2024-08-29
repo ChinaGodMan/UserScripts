@@ -14,10 +14,6 @@ da//
 
 
 
-
-
-
-
     (function () {
         'use strict'
         // Function to toggle sidebar visibility
