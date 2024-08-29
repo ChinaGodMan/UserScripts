@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fix Sidebar Icon
 // @namespace    http://tampermonkey.net/
-// @version      0.11222
+// @version      0.11222sss
 // @description  Fix the sidebar icon to the top right corner while scrolling and toggle sidebar visibility
 // @match        https://greasyfork.org/*/scripts/by-site/*
 // @match        https://greasyfork.org/*
