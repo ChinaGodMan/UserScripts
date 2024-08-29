@@ -14,7 +14,7 @@
 // @description:vi      Thêm một nút tải xuống cho phép tải xuống thư mục GitHub cụ thể một cách dễ dàng.
 // @description:ko      특정 GitHub 폴더를 쉽게 다운로드할 수 있는 다운로드 버튼을 추가합니다.
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 0.7.0.1
+// @version 0.7.0.3
 // @author       EricKwok,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
@@ -26,36 +26,44 @@
 // ==/UserScript==
 // 记录页面宽度是否允许 GitHub 展开完整页面的变量
 var isFold = false
-//检查被收缩元素
-const parentElement = document.querySelector('#__primerPortalRoot__')
-const observer = new MutationObserver((mutationsList) => {
-    for (const mutation of mutationsList) {
-        if (mutation.addedNodes.length > 0) {
-            for (const node of mutation.addedNodes) {
-                const ulElement = parentElement.querySelector('ul[role="menu"]')
-                if (document.querySelector('.github-folder-download')) return
-                console.log(node)
-                if (ulElement) {
-                    let _html = `
-            <li class="github-folder-download">
-                <p style="padding:0px 8px 2px 10px; color:grey; margin:0; font-size:10px;">Download folder with..</p>
-            </li>
-                <a class="dropdown-item" target="_blank" href="https://download-directory.github.io?url=${window.location.href}">
-                    download-directory
-                </a>
-                <a class="dropdown-item" target="_blank" href="https://downgit.github.io/#/home?url=${window.location.href}">
-                    DownGit
-                </a>
-            <li class="d-block d-md-none dropdown-divider github-folder-download" role="none"></li>`
-                    ulElement.insertAdjacentHTML("beforeend", _html)
+var isRun = false
+function observeAndAddLinks() {
+    const parentElement = document.querySelector('#__primerPortalRoot__')
+    if (!parentElement) return
+    const observer = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+            if (mutation.addedNodes.length > 0) {
+                for (const node of mutation.addedNodes) {
+                    const ulElement = parentElement.querySelector('ul[role="menu"]')
+                    if (document.querySelector('.github-folder-download')) return
+                    console.log(node)
+                    if (ulElement) {
+                        const _html = `
+                            <li class="github-folder-download">
+                                <p style="padding:0px 8px 2px 10px; color:grey; margin:0; font-size:10px;">Download folder with..</p>
+                            </li>
+                            <a class="dropdown-item" target="_blank" href="https://download-directory.github.io?url=${window.location.href}">
+                                download-directory
+                            </a>
+                            <a class="dropdown-item" target="_blank" href="https://downgit.github.io/#/home?url=${window.location.href}">
+                                DownGit
+                            </a>
+                            <li class="d-block d-md-none dropdown-divider github-folder-download" role="none"></li>`
+                        ulElement.insertAdjacentHTML("beforeend", _html)
+                    }
+                    return
                 }
-                return
             }
         }
+    })
+    const config = { childList: true, subtree: true }
+    if (!isRun) {
+        isRun = true
+        observer.observe(parentElement, config)
     }
-})
-const config = { childList: true, subtree: true }
-observer.observe(parentElement, config)
+    return true
+}
+observeAndAddLinks()
 // 注入下载文件夹按钮
 function injectDownloadFolderBtn() {
     if (document.querySelector('.github-folder-download')) return
@@ -91,6 +99,8 @@ function injectDownloadFolderBtn() {
                 </div >
             </detials>`
         html.insertAdjacentHTML("beforebegin", _html)
+    } else {
+        observeAndAddLinks()
     }
 }
 function removeAllInjectedElem() {
@@ -125,30 +135,21 @@ function main() {
         // 监听窗口大小改变
         main()
     }
-    let oldPushState = history.pushState
-    history.pushState = function pushState() {
-        let ret = oldPushState.apply(this, arguments)
-        window.dispatchEvent(new Event('pushstate'))
-        window.dispatchEvent(new Event('locationchange'))
-        return ret
+    function observeUrlChanges(callback, delay = 1000) {
+        let lastUrl = location.href
+        const observer = new MutationObserver(() => {
+            const url = location.href
+            if (url !== lastUrl) {
+                lastUrl = url
+                setTimeout(() => {
+                    console.log("页面发生变动,")
+                    callback()
+                }, delay)
+            }
+        })
+        observer.observe(document, { subtree: true, childList: true })
+        return observer
     }
-    let oldReplaceState = history.replaceState
-    history.replaceState = function replaceState() {
-        let ret = oldReplaceState.apply(this, arguments)
-        window.dispatchEvent(new Event('replacestate'))
-        window.dispatchEvent(new Event('locationchange'))
-        return ret
-    }
-    window.addEventListener('popstate', () => {
-        window.dispatchEvent(new Event('locationchange'))
-    })
-    document.addEventListener('pjax:success', function () {
-        // 由于 GitHub 使用 pjax 而不是页面跳转的方式在仓库内导航，因此将 main 函数绑定到 pjax 监听器上
-        window.dispatchEvent(new Event('locationchange'))
-    })
-    window.addEventListener('locationchange', function () {
-        console.log('locationchange!')
-        main()
-    })
+    observeUrlChanges(main)
     main()
 })()
