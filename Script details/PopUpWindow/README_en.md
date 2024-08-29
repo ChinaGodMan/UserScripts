@@ -128,6 +128,11 @@
 - Experience it now!
 🚀 **Enhance Browsing Efficiency** — Install the script to enjoy intelligent link previews and aesthetically pleasing small windows!
 
+<video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/PopUpWindow/preview/video.mp4"
+       poster="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"
+       width="320" height="240" controls loop>
+</video>
+
 ![1.png](https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui)
 ## Original Author
  [hiisme](https://greasyfork.org/zh-CN/scripts/504567)
