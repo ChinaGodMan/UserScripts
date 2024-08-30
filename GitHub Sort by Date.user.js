@@ -17,6 +17,7 @@
 // @grant        none
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
+// @license      MIT
 // ==/UserScript==
 (function () {
     'use strict'
