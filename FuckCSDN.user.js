@@ -10,7 +10,6 @@
 // @grant        none
 // @license      MIT
 // ==/UserScript==
-
 (function () {
     'use strict'
 

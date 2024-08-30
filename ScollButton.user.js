@@ -10,7 +10,6 @@
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @license      MIT
 // ==/UserScript==
-
 //Variable to set how much to scroll
 var sH = (window.innerHeight) - 50
 
