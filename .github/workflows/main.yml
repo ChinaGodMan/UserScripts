@@ -21,8 +21,8 @@ jobs:
 
     - name: Install fonts
       run: |
-        mkdir -p ~/.fonts
-        cp fonts/* ~/.fonts/
+        mkdir -p ~/.pythonscr/update-script-history/fonts
+        cp fonts/* ~/.pythonscr/update-script-history/fonts/
         fc-cache -f -v
 
     - name: Install dependencies
@@ -43,7 +43,7 @@ jobs:
 
     - name: Run script
       run: |
-        python pythonscr/update-script-history2.py  # 替换为你的Python脚本文件名
+        python pythonscr/update-script-history/main.py  # 替换为你的Python脚本文件名
 
     - name: Commit and push if it changed
       run: |
