@@ -40,11 +40,18 @@ const selectors = {
 }
 let LastCommitText = ""
 let LastCommitHref = ""
+let wocaonima = null
 function updateCommitMessageInDetails(selector) {//详情页,
     const element = document.querySelector(selector)
     if (!element) return
     const textContent = element.textContent.trim()
-    element.innerHTML = textContent
+    if (!containsHTML(textContent)) return
+    if (wocaonima) {
+        element.innerHTML = wocaonima
+    } else {
+        element.innerHTML = textContent
+    }
+
 }
 function updateRepoHeaderExpandCommit(selector) {//头部展开
     const spanElements = document.querySelectorAll(selector)
@@ -70,6 +77,11 @@ function updateRepoHeaderScreenCommit(selector) {
         const linkElement = spanElement.querySelector('a')
         const hrefValue = linkElement.getAttribute('href')
         if (containsHTML(textContent)) {
+            spanElement.addEventListener('click', () => {
+                wocaonima = spanElement.innerHTML
+
+
+            })
             if (!LastCommitHref || !LastCommitText) {
                 spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + `</a>`
             } else {
@@ -78,6 +90,7 @@ function updateRepoHeaderScreenCommit(selector) {
         }
     })
 }
+
 function updateRepoListCommit(selector) {
     const commitMessages = document.querySelectorAll(selector)
     commitMessages.forEach(element => {
@@ -86,10 +99,7 @@ function updateRepoListCommit(selector) {
         if (titleContent) {
             if (containsHTML(titleContent)) {
                 element.addEventListener('click', () => {
-                    // 点击后的处理逻辑
-                    console.log('Element clicked')
-                    // 这里可以获取或处理点击后显示的信息
-                    console.log('Content after click:', element.innerHTML)
+                    wocaonima = element.innerHTML
                 })
                 element.innerHTML = `<a href="${hrefValue}">${titleContent}</a>`
             }
@@ -202,6 +212,7 @@ main()
 watchUpdate()
 
 function main() {
+
     LastCommitText = ""
     LastCommitHref = ""
     observeForElement(selectors.commitList.value, function (element) {
@@ -236,8 +247,14 @@ function main() {
             selectors.commitHeaderScreenIsRun
         )
     }
-    updateCommitMessageInDetails('.commit-desc')
-    //   updateCommitMessageInDetails('.commit-title.markdown-title')
+    //updateCommitMessageInDetails('.commit-desc')
+    const element = document.querySelector('.commit-desc')
+    if (element) {
+        element.remove()
+    }
+    updateCommitMessageInDetails('.commit-title.markdown-title')
+    wocaonima = null
+    //   updateCommitMessageInDetails('.commit-desc')
 }
 function watchUpdate() {//检查链接变化
     // 检测浏览器是否支持 MutationObserver
