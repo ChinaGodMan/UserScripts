@@ -1,53 +1,67 @@
-name: Run Python script and update image
+import json
+import os
+import requests
+import matplotlib.pyplot as plt
+import pandas as pd
+import mplcyberpunk
+import time  # 导入 time 模块
 
-on:
-  schedule:
-    - cron: '0 0 * * *'  # 每天的 UTC 时间 0 点，即中国时间的早上 8 点
-  workflow_dispatch:  # 允许手动触发工作流
+# 读取 JSON 文件
+with open('docs/ScriptsPath.json', 'r', encoding='utf-8') as file:
+    data = json.load(file)
 
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-
-    - name: Install fonts
-      run: |
-        mkdir -p ~/.fonts
-        cp fonts/* ~/.fonts/
-        fc-cache -f -v
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests matplotlib pandas mplcyberpunk
-
-    - name: 获取当前分支
-      id: get_branch
-      run: |
-        echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
-        echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
-
-    - name: 拉取最新更改
-      run: |
-        git fetch origin
-        git reset --hard origin/${{ env.branch }}  # 强制将当前分支重置为远程的最新状态
-
-    - name: Run script
-      run: |
-        python pythonscr/update-script-history2.py  # 替换为你的Python脚本文件名
-
-    - name: Commit and push if it changed
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update image"
-        git push origin ${{ env.branch }}
+for script in data['scripts']:
+    # 获取 GreasyFork 的 ID 和备份路径
+    greasyfork_id = script['GreasyFork']
+    backuppath = script['backuppath']
+    
+    # 构造 URL
+    url = f'https://greasyfork.org/zh-CN/scripts/{greasyfork_id}/stats.json'
+    
+    # 获取数据
+    response = requests.get(url)
+    
+    # 调试信息
+    print(f"请求 URL: {url}")
+    print(f"响应状态码: {response.status_code}")
+    print(f"响应内容: {response.text[:500]}")  # 只打印前500个字符
+    
+    try:
+        star_json = json.loads(response.text)
+    except json.JSONDecodeError as e:
+        print(f"解析 JSON 时出错: {e}")
+        continue  # 如果解析出错，跳过这个脚本
+    
+    star_date = []
+    star_installs = []
+    star_temp = 0
+    
+    for i in star_json:
+        star_date.append(str(i))
+        star_temp += star_json[i]['installs']
+        star_installs.append(star_temp)
+    
+    # 打印调试信息
+    print(star_date)
+    print(star_installs)
+    
+    # 确保文件夹存在
+    output_dir = os.path.join(backuppath, 'preview')
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    # 绘制图像
+    plt.style.use("cyberpunk")
+    plt.figure(figsize=(20, 10), dpi=100)
+    plt.rcParams['font.sans-serif'] = ['HYWenHei']  # 用来正常显示中文标签
+    plt.title("Github搜索净化", fontdict={'size': 30})
+    plt.xlabel("时间", fontdict={'size': 30})
+    plt.ylabel("总安装数（Greasy Fork）", fontdict={'size': 30})
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+    plt.plot(pd.to_datetime(star_date), star_installs, linewidth=4.0)
+    plt.savefig(os.path.join(output_dir, 'statshistory.png'))
+    plt.close()
+    
+    # 延时 3 秒钟
+    time.sleep(3)
