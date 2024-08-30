@@ -14,7 +14,7 @@
 
 点击[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/Github-commit-view/preview/qinwuyuan.ps1)下载Powershell脚本
 
-```param (
+<pre> param (
     [string]$qinwuyuan_messageFilePath
 )
 $qinwuyuan_scriptPath = $PSScriptRoot
@@ -62,7 +62,7 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFilePath -Force
-```
+</pre>
 ## 支持
 
 - [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
