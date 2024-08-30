@@ -1,0 +1,53 @@
+name: Run Python script and update image
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天的 UTC 时间 0 点，即中国时间的早上 8 点
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install fonts
+      run: |
+        mkdir -p ~/.fonts
+        cp fonts/* ~/.fonts/
+        fc-cache -f -v
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests matplotlib pandas mplcyberpunk
+
+    - name: 获取当前分支
+      id: get_branch
+      run: |
+        echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+        echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+    - name: 拉取最新更改
+      run: |
+        git fetch origin
+        git reset --hard origin/${{ env.branch }}  # 强制将当前分支重置为远程的最新状态
+
+    - name: Run script
+      run: |
+        python pythonscrupdate-script-history2.py  # 替换为你的Python脚本文件名
+
+    - name: Commit and push if it changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff --quiet && git diff --staged --quiet || git commit -m "Update image"
+        git push origin ${{ env.branch }}
