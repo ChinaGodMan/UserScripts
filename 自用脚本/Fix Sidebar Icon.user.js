@@ -20,7 +20,6 @@
             sidebar.classList.toggle('collapsed')
         }
     }
-
     // Function to create the sidebar icon
     function createSidebarIcon() {
         const sidebarIcon = document.createElement('div')
