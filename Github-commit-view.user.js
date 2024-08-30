@@ -69,6 +69,7 @@ function updateRepoHeaderExpandCommit(selector) {//头部展开
         }
     })
 }
+//
 function updateRepoHeaderScreenCommit(selector) {
     const spanElements = document.querySelectorAll(selector)
     spanElements.forEach(spanElement => {
@@ -83,8 +84,10 @@ function updateRepoHeaderScreenCommit(selector) {
 
             })
             if (!LastCommitHref || !LastCommitText) {
+                console.log("未通过点击跳转:", textContent)
                 spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + `</a>`
             } else {
+                console.log("通过点击跳转", LastCommitText)
                 spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + `</a>`
             }
         }
@@ -227,7 +230,7 @@ function main() {
         observeForElement(
             selectors.commitHeader.value,
             function (element) {
-                getLastTimeCommit(selectors.commitLastTime.value)
+                getLastTimeCommit(selectors.commitLastTime.value)//从列表获取最新的提交信息,作为进入或返回目录使用
                 updateRepoHeaderExpandCommit(selectors.commitHeader.value)
             },
             false,
@@ -235,11 +238,12 @@ function main() {
             selectors.commitHeaderFound
         )
     }
+    selectors.commitHeaderScreenIsRun = false
     if (!selectors.commitHeaderScreenIsRun) {
         observeForElement(
             selectors.commitHeaderScreen.value,
             function (element) {
-                getLastTimeCommit(selectors.commitLastTime.value)
+                getLastTimeCommit(selectors.commitLastTime.value)//从列表获取最新的提交信息,作为进入或返回目录使用
                 updateRepoHeaderScreenCommit(selectors.commitHeaderScreen.value)//头部预览
             },
             false,
@@ -248,13 +252,15 @@ function main() {
         )
     }
     //updateCommitMessageInDetails('.commit-desc')
-    const element = document.querySelector('.commit-desc')
+    const element = document.querySelector('.commit-title.markdown-title')
     if (element) {
         element.remove()
     }
-    updateCommitMessageInDetails('.commit-title.markdown-title')
+    updateCommitMessageInDetails('.commit-desc')
+    //updateCommitMessageInDetails('.commit-title.markdown-title')
+
     wocaonima = null
-    //   updateCommitMessageInDetails('.commit-desc')
+    //  
 }
 function watchUpdate() {//检查链接变化
     // 检测浏览器是否支持 MutationObserver
