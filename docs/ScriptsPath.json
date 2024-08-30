@@ -2,165 +2,165 @@
     "scripts": [
         {
             "name": "糊裱匠",
-            "path": "Greasyfork Utility Toolkit.user.js",
+            "path": "greasyfork-utility-toolkit.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Greasyfork Utility Toolkit"
+            "backuppath": "Script details/greasyfork-utility-toolkit"
         },
         {
             "name": "油猴脚本查找器",
-            "path": "Script Finder+.user.js",
+            "path": "script-finder-plus.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Script Finder"
+            "backuppath": "Script details/script-finder-plus"
         },
         {
             "name": "Missav管理器",
-            "path": "missavexplorer.user.js",
+            "path": "missav-explorer.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Miss备份助手"
+            "backuppath": "Script details/missav-explorer"
         },
         {
             "name": "网页高亮关键字+",
-            "path": "网页高亮关键字+.user.js",
+            "path": "highlight-keywords.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/网页高亮关键字"
+            "backuppath": "Script details/highlight-keywords"
         },
         {
             "name": "剪辑版授权",
-            "path": "clipboard.user.js",
+            "path": "clipboard-manager.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/复制剪贴板保护 修改版"
+            "backuppath": "Script details/clipboard-manager"
         },
         {
             "name": "置頂和置底按鈕",
-            "path": "置頂和置底按鈕.user.js",
+            "path": "scroll-to-top-button.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/置顶和置底按钮"
+            "backuppath": "Script details/scroll-to-top-button"
         },
         {
             "name": "油猴评分",
-            "path": "Greasyfork ranks.user.js",
+            "path": "greasyfork-ranks.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Greasyfork rank"
+            "backuppath": "Script details/greasyfork-ranks"
         },
         {
             "name": "去除下划线",
-            "path": "Remove Link Underlines.user.js",
+            "path": "remove-link-underlines.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/移除链接下划线"
+            "backuppath": "Script details/remove-link-underlines"
         },
         {
             "name": "油猴适用于增强",
-            "path": "Greasy fork link.user.js",
+            "path": "greasyfork-link.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Greasy fork 脚本页面适用于网址增强"
+            "backuppath": "Script details/greasyfork-link"
         },
         {
             "name": "GreasyFork 导航栏增强",
-            "path": "GreasyFork User Control Panel Button.user.js",
+            "path": "greasyfork-user-control-panel-button.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/GreasyFork User Control Panel Button"
+            "backuppath": "Script details/greasyfork-user-control-panel-button"
         },
         {
             "name": "github显示仓库大小",
-            "path": "Github Repo Size+.user.js",
+            "path": "github-repo-size-view.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Github Repo Size+"
+            "backuppath": "Script details/github-repo-size-view"
         },
         {
             "name": "屏蔽搜索结果",
-            "path": "在搜索结果中屏蔽指定站点.user.js",
+            "path": "google-block-search-sites.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/屏蔽谷歌搜索站点"
+            "backuppath": "Script details/google-block-search-sites"
         },
         {
             "name": "谷歌高级搜索",
-            "path": "Google-advance-search.user.js",
+            "path": "google-advanced-search.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Google-advance-search"
+            "backuppath": "Script details/google-advanced-search"
         },
         {
             "name": "上下滚动小按钮小辣鸡",
-            "path": "ScollButton.user.js",
+            "path": "scroll-button.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/ScrollButton"
+            "backuppath": "Script details/scroll-button"
         },
         {
-            "name": "高亮网页文本",
-            "path": "HighLight.user.js",
+            "name": "高亮网页文本小辣鸡",
+            "path": "highlight-keywords-mini.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/HighLight"
+            "backuppath": "Script details/highlight-keywords-mini.user.js"
         },
         {
             "name": "小窗口预览",
-            "path": "PopUpWindow.user.js",
+            "path": "popup-window.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/PopUpWindow"
+            "backuppath": "Script details/popup-window"
         },
         {
             "name": "外语终结者",
-            "path": "NoZHTerminator.user.js",
+            "path": "no-zh-terminator.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/NoZHTerminator"
+            "backuppath": "Script details/no-zh-terminator"
         },
         {
             "name": "ChatGPT+",
-            "path": "ChatGPT+.user.js",
+            "path": "chatgpt-plus.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/ChatGPT+"
+            "backuppath": "Script details/chatgpt-plus"
         },
         {
             "name": "Markdown toobar for GreasyFork",
-            "path": "Markdown toobar for GreasyFork.user.js",
+            "path": "greasyfork-markdown-toolbar.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Markdown toobar for GreasyFork"
+            "backuppath": "Script details/greasyfork-markdown-toolbar"
         },
         {
             "name": "解除CSDN登录复制限制",
-            "path": "FuckCSDN.user.js",
+            "path": "csdn-blocker.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/FuckCSDN"
+            "backuppath": "Script details/csdn-blocker"
         },
         {
             "name": "ChatGPT代码字体缩小",
-            "path": "ChatGPT Code Styling.user.js",
+            "path": "chatgpt-code-styling.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/ChatGPT Code Styling"
+            "backuppath": "Script details/chatgpt-code-styling"
         },
         {
             "name": "自动翻译非中文的网页",
-            "path": "Translate_only_chinese.user.js",
+            "path": "translate-only-chinese.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Translate_only_chinese"
+            "backuppath": "Script details/translate-only-chinese"
         },
         {
             "name": "脚本高级搜索",
-            "path": "GreasyFork Search.user.js",
+            "path": "greasyfork-search.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/GreasyFork Search"
+            "backuppath": "Script details/greasyfork-search"
         },
         {
             "name": "GitHub Sort by Date",
-            "path": "GitHub Sort by Date.user.js",
+            "path": "github-sort-by-date.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/GitHub Sort by Date"
+            "backuppath": "Script details/github-sort-by-date"
         },
         {
             "name": "自动登录MissAV",
-            "path": "MissAV_AutoLogin_Helper.user.js",
+            "path": "missav-auto-login-helper.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/MissAV_AutoLogin_Helper"
+            "backuppath": "Script details/missav-auto-login-helper"
         },
         {
             "name": "GitHub文件夹下载",
-            "path": "GitHub_FolderDownloader.user.js",
+            "path": "github-folder-downloader.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/GitHub_FolderDownloader"
+            "backuppath": "Script details/github-folder-downloader"
         },
         {
             "name": "GitHub下载单文件和复制文件URL",
-            "path": "GitHub Raw File+.user.js",
+            "path": "github-raw-file-plus.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/GitHub Raw File+"
+            "backuppath": "Script details/github-raw-file-plus"
         },
         {
             "name": "GitHub下载单文件和复制文件URL",
@@ -170,9 +170,9 @@
         },
         {
             "name": "GitHub提交信息显示HTML",
-            "path": "Github-commit-view.user.js",
+            "path": "github-commit-viewer.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/Github-commit-view"
+            "backuppath": "Script details/github-commit-viewer"
         }
     ]
 }
