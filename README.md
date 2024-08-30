@@ -66,6 +66,7 @@
 
 ## 脚本列表
 
+
 <table>
     <thead>
         <tr>
@@ -76,503 +77,681 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+<tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">Greasyfork
-                    糊裱匠</a><br><img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Greasyfork%20Utility%20Toolkit.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Greasyfork%20Utility%20Toolkit"
-                    target="_blank"> <mark>详细</mark></a>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">Greasyfork糊裱匠</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
+                    <mark>详细</mark>
+                </a>
             </td>
             <td>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20Utility%20Toolkit.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?style=social"
-                        alt="size"><br>安装</a>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
             </td>
-            <td><a href="https://update.greasyfork.org/scripts/497346.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/497317" target="_blank">Greasyfork详情适用于打开</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Greasy%20fork%20link.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Greasy%20fork%20%E8%84%9A%E6%9C%AC%E9%A1%B5%E9%9D%A2%E9%80%82%E7%94%A8%E4%BA%8E%E7%BD%91%E5%9D%80%E5%A2%9E%E5%BC%BA"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>脚本详情页增加适用于链接增加点击打开网页，点击复制</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasy%20fork%20link.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasy%20fork%20link.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/497317.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs"><br>安装</a>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497346.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
             </td>
         </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505215" target="_blank">GreasyFork Search</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GreasyFork%20Search.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GreasyFork%20Search"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GreasyFork%20Search.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GreasyFork%20Search.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505215.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505215?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505164" target="_blank">GreasyFork markdown</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Markdown%20toobar%20for%20GreasyFork.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Markdown%20toobar%20for%20GreasyFork"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏</td>
-            <td><a
-                    href="https://github.com/ChinaGodMan/UserScripts/raw/main/Markdown%20toobar%20for%20GreasyFork.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Markdown%20toobar%20for%20GreasyFork.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505164.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505164?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/501880" target="_blank">GreasyFork: 导航栏增强</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GreasyFork%20User%20Control%20Panel%20Button.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GreasyFork%20User%20Control%20Panel%20Button"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>增强greasyfork导航栏,增加用户列表,用户控制台等</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GreasyFork%20User%20Control%20Panel%20Button.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GreasyFork%20User%20Control%20Panel%20Button.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/501880.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/501880?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/501119" target="_blank">Greasyfork ranks</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Greasyfork%20ranks.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Greasyfork%20rank"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>脚本列表添加分数</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Greasyfork%20ranks.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20ranks.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/501119.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">Remove Link
-                    Underlines</a><br><img src="https://github.githubassets.com/favicons/favicon.svg" width="16"
-                    height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Remove%20Link%20Underlines.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E7%A7%BB%E9%99%A4%E9%93%BE%E6%8E%A5%E4%B8%8B%E5%88%92%E7%BA%BF"
-                    target="_blank">
-                    <mark>详细</mark></td>
-            </td>
-            <td>去除网页下划线</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Remove%20Link%20Underlines.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Remove%20Link%20Underlines.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/498625.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script Finder+</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Script%20Finder%2B.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Script%20Finder"
-                    target="_blank"> <mark>详细</mark></td>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">油猴脚本查找器</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
+                    <mark>详细</mark>
+                </a>
             </td>
             <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20Finder%2B.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Script%20Finder%2B.user.js?style=social"
-                        alt="size"><br>安装</a>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
             </td>
-            <td><a href="https://update.greasyfork.org/scripts/498904.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/500262" target="_blank">Google 搜索屏蔽指定站点</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E5%B1%8F%E8%94%BD%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2%E7%AB%99%E7%82%B9"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式"-zhihu""-baidu" 用于屏蔽谷歌搜索内容</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E5%9C%A8%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E4%B8%AD%E5%B1%8F%E8%94%BD%E6%8C%87%E5%AE%9A%E7%AB%99%E7%82%B9.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/500262.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498904.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
             </td>
         </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/502652" target="_blank">Google 高级搜索助手</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Google-advance-search.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Google-advance-search"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Google-advance-search.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Google-advance-search.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/502652.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/502652?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">Github Repo Size+</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Github%20Repo%20Size%2B.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Github%20Repo%20Size%2B"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>在Github查看仓库和搜索仓库时显示仓库大小</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Github%20Repo%20Size%2B.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Github%20Repo%20Size%2B.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/502291.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">Github 复制原始文件 URL
-                    与下载文件</a><br><img src="https://github.githubassets.com/favicons/favicon.svg" width="16"
-                    height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GitHub%20Raw%20File%2B.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GitHub%20Raw%20File%2B"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>在GitHub仓库每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GitHub%20Raw%20File%2B.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GitHub%20Raw%20File%2B.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505501.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505501?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub 文件夹下载器</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GitHub_FolderDownloader.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GitHub_FolderDownloader"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/GitHub_FolderDownloader.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GitHub_FolderDownloader.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505496.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505496?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505218" target="_blank">GitHub 按日期排序</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/GitHub%20Sort%20by%20Date.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/GitHub%20Sort%20by%20Date"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>将文件排序方式改为日期降序，方便查看最新更新的文件。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/GitHub%20Sort%20by%20Date.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/GitHub%20Sort%20by%20Date.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505218.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505218?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/504901" target="_blank">ChatGPT 折叠自己消息和最大宽度</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/ChatGPT+.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/ChatGPT%2B"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>这自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT+.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ChatGPT+.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/504901.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/504901?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPT 代码字体变小</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/ChatGPT%20Code%20Styling.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/ChatGPT%20Code%20Styling"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>让 ChatGPT 代码字体变小,</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ChatGPT%20Code%20Styling.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ChatGPT%20Code%20Styling.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505209.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505209?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小窗预览</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/PopUpWindow.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/PopUpWindow"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/PopUpWindow.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/PopUpWindow.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/504880.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/504890" target="_blank">外语终结者</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/NoZHTerminator.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/NoZHTerminator"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/NoZHTerminator.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/NoZHTerminator.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/504890.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/504890?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">网页翻译——自动翻译为中文</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/Translate_only_chinese.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Translate_only_chinese"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/Translate_only_chinese.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/Translate_only_chinese.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505208.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505208?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">上下滚动按钮</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/ScollButton.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/ScrollButton"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>页面右侧添加上下滚动按钮</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/ScollButton.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/ScollButton.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/497251.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">置頂和置底按鈕</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E7%BD%AE%E9%A1%B6%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%92%AE"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E7%BD%AE%E9%A0%82%E5%92%8C%E7%BD%AE%E5%BA%95%E6%8C%89%E9%88%95.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/500255.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">解除 CSDN 登录复制</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/FuckCSDN.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/FuckCSDN"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>去你妈的 CSDN 登录复制，无需登录即可复制</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/FuckCSDN.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/FuckCSDN.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/505207.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/505207?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/497403" target="_blank">复制授权修改版</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E5%A4%8D%E5%88%B6%E5%89%AA%E8%B4%B4%E6%9D%BF%E4%BF%9D%E6%8A%A4%20%E4%BF%AE%E6%94%B9%E7%89%88"
-                    target="_blank"> <mark>详细</mark></td>
-            <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
-            <td><a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/497403.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">网页关键词高亮显示</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/HighLight.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/HighLight"
-                    target="_blank">
-                    <mark>详细</mark></td>
-            </td>
-            <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
-            <td><a href="https://github.com/ChinaGodMan/UserScripts/raw/main/HighLight.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/HighLight.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/498905.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">网页高亮关键字(推荐)</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97"
-                    target="_blank"> <mark>详细</mark></td>
-            </td>
-            <td>对网页上的文字进行高亮显示</td>
-            <td><a
-                    href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js"><img
-                        src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/%E7%BD%91%E9%A1%B5%E9%AB%98%E4%BA%AE%E5%85%B3%E9%94%AE%E5%AD%97%2B.user.js?style=social"
-                        alt="size"><br>安装</a>
-            </td>
-            <td><a href="https://update.greasyfork.org/scripts/498906.user.js"><img
-                        src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs"><br>安装</a>
-            </td>
-        </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/497682" target="_blank">MissAV批量备份</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/missavexplorer.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/Miss%E5%A4%87%E4%BB%BD%E5%8A%A9%E6%89%8B"
-                    target="_blank"> <mark>详细</mark></td>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497682" target="_blank">Missav管理器</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-explorer" target="_blank">
+                    <mark>详细</mark>
+                </a>
             </td>
             <td>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</td>
-            <td><img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missavexplorer.user.js?style=social"
-                    alt="size"><br>🔞</a>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
             </td>
-            <td>🔞<img src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs"></a>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497682.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497682?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
             </td>
         </tr>
-        <tr>
-            <td><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16"><a
-                    href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">MissAV 自动登录</a><br><img
-                    src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16"><a
-                    href="https://github.com/ChinaGodMan/UserScripts/blob/main/MissAV_AutoLogin_Helper.user.js"
-                    target="_blank">GitHub</a><a
-                    href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/MissAV_AutoLogin_Helper"
-                    target="_blank"> <mark>详细</mark></td>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">网页高亮关键字+</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>对网页上的文字进行高亮显示</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498906.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497403" target="_blank">剪辑版授权</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497403.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497403?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">置頂和置底按鈕</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/500255.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/501119" target="_blank">油猴评分</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-ranks.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>脚本列表添加评价分数</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-ranks.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-ranks.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/501119.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/501119?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">去除下划线</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>去除网页链接的下划线</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498625.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497317" target="_blank">油猴适用于增强</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497317.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/501880" target="_blank">GreasyFork 导航栏增强</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>增强greasyfork导航栏,增加用户列表,用户控制台等</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/501880.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/501880?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github显示仓库大小</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>在Github查看仓库和搜索仓库时显示仓库大小</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/502291.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/500262" target="_blank">Google 搜索屏蔽指定站点</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-block-search-sites.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/500262.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/500262?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/502652" target="_blank">谷歌高级搜索</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-advanced-search.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/502652.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/502652?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">上下滚动小按钮小辣鸡</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>页面右侧添加上下滚动按钮</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497251.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">高亮网页文本小辣鸡</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini.user.js" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498905.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小窗口预览</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/504880.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/504890" target="_blank">外语终结者</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/no-zh-terminator.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/504890.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/504890?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/504901" target="_blank">ChatGPT 折叠自己消息和最大宽度</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/504901.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/504901?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505164" target="_blank">Markdown toobar for GreasyFork</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>介在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505164.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505164?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">解除CSDN登录复制限制</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>去你妈的 CSDN 登录复制，无需登录即可复制代码框内容</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505207.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505207?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPT代码字体缩小</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-code-styling" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>让 ChatGPT 代码字体变小</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505209.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505209?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">网页翻译——自动翻译为中文</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505208.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505208?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505215" target="_blank">脚本高级搜索</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-search.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>介绍</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505215.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505215?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GitHub Sort by Date</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497346.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">自动登录MissAV</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper" target="_blank">
+                    <mark>详细</mark>
+                </a>
             </td>
             <td>检测 MisssAV 状态，并且在未登录时自动登录</td>
-            <td><img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/MissAV_AutoLogin_Helper.user.js?style=social"
-                    alt="size"><br>🔞</a>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
             </td>
-            <td>🔞<img src="https://img.shields.io/greasyfork/dt/505325?color=%23990000&label=Installs"></a>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505325.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505325?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub文件夹下载</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505496.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505496?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">GitHub下载单文件和复制文件URL</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-raw-file-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505501.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505501?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/505830" target="_blank">GitHub提交信息显示HTML</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-commit-viewer" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/505830.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/505830?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
             </td>
         </tr>
     </tbody>
 </table>
+
 
 
 
