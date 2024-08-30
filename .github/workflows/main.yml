@@ -42,7 +42,7 @@ jobs:
 
     - name: Run script
       run: |
-        python pythonscrupdate-script-history2.py  # 替换为你的Python脚本文件名
+        python pythonscr/update-script-history2.py  # 替换为你的Python脚本文件名
 
     - name: Commit and push if it changed
       run: |
