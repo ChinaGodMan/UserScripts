@@ -25,14 +25,13 @@ html_table = '''
 
 # 遍历每个脚本条目并生成表格行
 for script in data.get('scripts', []):
-    html_table += f'''
-        <tr>
+    html_table += f'''<tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/{script.get("GreasyFork")}" target="_blank">{script.get("name")}</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/{script.get("path")}" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script%20details/{script.get("backuppath")}" target="_blank">
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}" target="_blank">
                     <mark>详细</mark>
                 </a>
             </td>
@@ -52,8 +51,7 @@ for script in data.get('scripts', []):
         </tr>
     '''
 
-html_table += '''
-    </tbody>
+html_table += '''</tbody>
 </table>
 '''
 
