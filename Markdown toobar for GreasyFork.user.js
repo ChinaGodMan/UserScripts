@@ -18,7 +18,7 @@
 // @include           https://greasyfork.org/*/users/edit
 // @grant             GM_addStyle
 // @run-at            document-start
-// @version 2.0.4.5
+// @version 2.0.4.6
 // @icon              https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
 // ==/UserScript==

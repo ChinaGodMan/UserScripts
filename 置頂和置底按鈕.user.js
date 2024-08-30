@@ -21,7 +21,7 @@
 // @description:es Genera dos botones en todas las páginas, uno para desplazarse suavemente hacia arriba y otro para desplazarse continuamente hacia abajo. Haz clic de nuevo para detener el desplazamiento hacia abajo.
 // @name:pt        Botões de rolar para cima e para baixo
 // @description:pt Gere dois botões em todas as páginas, um para rolar suavemente para cima e outro para rolar continuamente para baixo. Clique novamente para parar de rolar para baixo.
-// @version 1.2.0.53
+// @version 1.2.0.54
 // @run-at      document-end
 // @match       *://*/*
 // @license     MIT
