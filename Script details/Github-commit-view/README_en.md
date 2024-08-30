@@ -2,7 +2,7 @@
 
 ## Description
 
-`GitHub CommitMessage Html View` is a user script designed to convert commit messages on GitHub into HTML views, providing clearer commit details. This script automatically transforms commit message lists, commit headers, and the latest commit information into HTML format to enhance visual appeal and user experience, and can be used in conjunction with Git.
+`GitHub CommitMessage Html View` is a user script designed to convert commit messages on GitHub into HTML views, providing clearer commit details. This script automatically transforms commit message lists, commit headers, 和 the latest commit information into HTML format to enhance visual appeal and user experience, 和 can be used in conjunction with Git.
 
 ## Features
 
@@ -14,7 +14,7 @@
 
 Click[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/Github-commit-view/preview/qinwuyuan.ps1) to download the PowerShell script.
 
-`param (
+<pre> param (
     [string]$qinwuyuan_messageFilePath
 )
 $qinwuyuan_scriptPath = $PSScriptRoot
@@ -38,8 +38,8 @@ $qinwuyuan_oldCommitMessage = if (Test-Path $qinwuyuan_oldCommitFilePath) {
 if ($qinwuyuan_newCommitMessage -eq $qinwuyuan_oldCommitMessage) {
     $qinwuyuan_currentDateTime = Get-Date -Format "yyyy/M/d HH:mm:ss"
     $qinwuyuan_commitMessage = @"
-<b><img src="https://avatars.githubusercontent.com/u/96548841?v=4&size=32">
-<a href="https://github.com/ChinaGodMan">
+https://avatars.githubusercontent.com/u/96548841?v=4&size=32">
+https://github.com/ChinaGodMan">
   <ruby>人民的勤务员<rt>Github:ChinaGodMan</rt></ruby>
 </a>
 <span>(UTC+8) $qinwuyuan_currentDateTime </span></b>
@@ -62,7 +62,7 @@ if ($LASTEXITCODE -ne 0) {
     exit 1
 }
 Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFilePath -Force
-`
+</pre>
 
 ## Support
 
