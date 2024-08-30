@@ -165,8 +165,14 @@
         {
             "name": "GitHub下载单文件和复制文件URL",
             "path": "自用脚本/Fix Sidebar Icon.user.js",
-            "isUpdated": true,
+            "isUpdated": false,
             "backuppath": "Script details/test"
+        },
+        {
+            "name": "GitHub提交信息显示HTML",
+            "path": "Github-commit-view.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/Github-commit-view"
         }
     ]
 }
