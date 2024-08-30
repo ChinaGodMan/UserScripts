@@ -51,7 +51,6 @@ function updateCommitMessageInDetails(selector) {//详情页,
     } else {
         element.innerHTML = textContent
     }
-
 }
 function updateRepoHeaderExpandCommit(selector) {//头部展开
     const spanElements = document.querySelectorAll(selector)
@@ -80,8 +79,6 @@ function updateRepoHeaderScreenCommit(selector) {
         if (containsHTML(textContent)) {
             spanElement.addEventListener('click', () => {
                 wocaonima = spanElement.innerHTML
-
-
             })
             if (!LastCommitHref || !LastCommitText) {
                 console.log("未通过点击跳转:", textContent)
@@ -93,10 +90,13 @@ function updateRepoHeaderScreenCommit(selector) {
         }
     })
 }
-
 function updateRepoListCommit(selector) {
     const commitMessages = document.querySelectorAll(selector)
     commitMessages.forEach(element => {
+        const nextElement = element.nextElementSibling
+        if (nextElement) (
+            nextElement.remove()
+        )
         const titleContent = element.getAttribute("title")
         const hrefValue = element.getAttribute("href")
         if (titleContent) {
@@ -213,13 +213,10 @@ function observeForElement_______________________________(selector, callback) {
 }
 main()
 watchUpdate()
-
 function main() {
-
     LastCommitText = ""
     LastCommitHref = ""
     observeForElement(selectors.commitList.value, function (element) {
-
         updateRepoListCommit(selectors.commitList.value)
     },
         true,
@@ -258,7 +255,6 @@ function main() {
     }
     updateCommitMessageInDetails('.commit-desc')
     //updateCommitMessageInDetails('.commit-title.markdown-title')
-
     wocaonima = null
     //  
 }
