@@ -12,7 +12,7 @@
 
 ## PowerShell配合上传到远程仓库
 
-点击[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/Github-commit-view/preview/qinwuyuan.ps1)下载Powershell脚本
+点击[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-commit-viewer/preview/qinwuyuan.ps1)下载Powershell脚本
 
 <pre> param (
     [string]$qinwuyuan_messageFilePath
