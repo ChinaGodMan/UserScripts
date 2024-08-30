@@ -2,7 +2,7 @@ name: 更新总安装量
 
 on:
   schedule:
-    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
+    - cron: '0 * * * *'  # 每 60 分钟运行一次
 
   workflow_dispatch:  # 允许手动触发工作流
 
