@@ -21,8 +21,8 @@ jobs:
 
     - name: Install fonts
       run: |
-        mkdir -p ~/.pythonscr/update-script-history/fonts
-        cp fonts/* ~/.pythonscr/update-script-history/fonts/
+        mkdir -p ~/.fonts
+        cp pythonscr/update-script-history/fonts/* ~/.fonts/
         fc-cache -f -v
 
     - name: Install dependencies
