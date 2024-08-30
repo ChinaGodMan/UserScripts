@@ -84,7 +84,7 @@ function updateRepoHeaderScreenCommit(selector) {
                 console.log("未通过点击跳转:", textContent)
                 spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + `</a>`
             } else {
-                console.log("通过点击跳转1", LastCommitText)
+                console.log("通过点击跳转", LastCommitText)
                 spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + `</a>`
             }
         }
