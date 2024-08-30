@@ -1,4 +1,4 @@
-name: 更新总安装量
+name: GreasyFork 更新用户信息
 
 on:
   schedule:

@@ -1,4 +1,4 @@
-name: 更新用户脚本版本
+name: GreasyFork 更新用户脚本版本
 
 on:
   schedule:
