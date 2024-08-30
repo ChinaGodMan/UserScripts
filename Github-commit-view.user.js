@@ -163,7 +163,7 @@ function observeForElement(selector, callback, disconnect = true, DEBUG = "操�
                         callback(element)
                         if (disconnect) {
                             observer.disconnect()
-                        } //else { console.log(`没有断开连接器: ${DEBUG} - ${selector} `) }
+                        } //else { console.log(`没有断开监听器器: ${DEBUG} - ${selector} `) }
                     }
                 }
             }
