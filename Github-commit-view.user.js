@@ -85,6 +85,12 @@ function updateRepoListCommit(selector) {
         const hrefValue = element.getAttribute("href")
         if (titleContent) {
             if (containsHTML(titleContent)) {
+                element.addEventListener('click', () => {
+                    // 点击后的处理逻辑
+                    console.log('Element clicked')
+                    // 这里可以获取或处理点击后显示的信息
+                    console.log('Content after click:', element.innerHTML)
+                })
                 element.innerHTML = `<a href="${hrefValue}">${titleContent}</a>`
             }
         }
