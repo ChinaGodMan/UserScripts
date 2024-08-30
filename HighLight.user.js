@@ -13,6 +13,7 @@
 // @license MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
+// @icon   https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-mark-96.png
 // ==/UserScript==
 
 (function () {
