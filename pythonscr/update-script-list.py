@@ -56,10 +56,10 @@ html_table += '''</tbody>
 '''
 
 # 输出到 HTML 文件
-html_file_path = '1.html'
-with open(html_file_path, 'w', encoding='utf-8') as file:
-    file.write(html_table)
-
+#html_file_path = '1.html'
+#with open(html_file_path, 'w', encoding='utf-8') as file:
+#   file.write(html_table)
+# print(f'HTML 表格已保存为 {html_file_path}')
 # 读取 README.md 文件
 readme_path = 'README.md'
 with open(readme_path, 'r', encoding='utf-8') as file:
@@ -73,4 +73,4 @@ new_readme_content = re.sub(r'<table>.*?</table>', html_table, readme_content, f
 with open(readme_path, 'w', encoding='utf-8') as file:
     file.write(new_readme_content)
 
-print(f'HTML 表格已保存为 {html_file_path}')
+
