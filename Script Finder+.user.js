@@ -24,7 +24,7 @@
 // @icon                    https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/Finder.jpg
 // @grant                   GM_xmlhttpRequest
 // @grant                   GM_addStyle
-// @license                 AGPL-3.0
+// @license                 MIT
 
 // ==/UserScript==
 const translate = (function () {
