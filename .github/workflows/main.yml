@@ -51,6 +51,5 @@ jobs:
         git add .
         git diff --quiet && git diff --staged --quiet || git commit -m "Update image"
         git push origin ${{ env.branch }}
-      
        env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 
