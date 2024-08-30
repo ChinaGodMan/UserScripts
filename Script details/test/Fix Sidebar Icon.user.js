@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fix Sidebar Icon
 // @namespace    http://tampermonkey.net/
-// @version 1.1.2.5
+// @version 1.1.2.6
 // @description  Fix the sidebar icon to the top right corner while scrolling and toggle sidebar visibility
 // @match        https://greasyfork.org/*/scripts/by-site/*
 // @match        https://greasyfork.org/*
@@ -13,6 +13,8 @@
 (function () {
     'use strict'
 
+
+
     // Function to toggle sidebar visibility
     function toggleSidebar() {
         const sidebar = document.querySelector('.sidebar')
@@ -20,7 +22,6 @@
             sidebar.classList.toggle('collapsed')
         }
     }
-
     // Function to create the sidebar icon
     function createSidebarIcon() {
         const sidebarIcon = document.createElement('div')
