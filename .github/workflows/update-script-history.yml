@@ -1,4 +1,4 @@
-name: Run Python script and update image
+name: Greasyfork 更新脚本状态
 
 on:
   schedule:

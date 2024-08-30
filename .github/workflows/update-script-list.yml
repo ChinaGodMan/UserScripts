@@ -1,4 +1,4 @@
-name: 更新仓库README.md中的列表
+name: GitHub更新仓库README.md中的列表
 
 on:
   schedule:

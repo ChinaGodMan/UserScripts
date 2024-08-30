@@ -1,4 +1,4 @@
-name: 替换md文件字符串
+name: Github 替换md文件字符串
 
 on:
 #  schedule:
