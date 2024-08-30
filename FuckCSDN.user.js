@@ -8,6 +8,7 @@
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {
