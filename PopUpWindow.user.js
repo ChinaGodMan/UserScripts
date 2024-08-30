@@ -25,6 +25,7 @@
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license      MIT
 // ==/UserScript==
+
 const translate = (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
     const strings = {

@@ -86,6 +86,7 @@
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @license      MIT
 // ==/UserScript==
+
 const translate = (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
     const strings = {

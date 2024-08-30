@@ -21,7 +21,6 @@
 // ==/UserScript==
 (function () {
     'use strict'
-
     function createButton() {
         // Create a button element
         const button = document.createElement('button')
