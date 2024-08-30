@@ -13,6 +13,8 @@
 (function () {
     'use strict'
 
+
+
     // Function to toggle sidebar visibility
     function toggleSidebar() {
         const sidebar = document.querySelector('.sidebar')
