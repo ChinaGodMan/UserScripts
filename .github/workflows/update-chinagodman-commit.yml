@@ -29,6 +29,13 @@ jobs:
       - name: 拉取最新更改
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+ 
+      - name: 获取最新提交信息
+        id: get_commit_message
+        run: |
+          # 获取最新提交的提交信息
+          commit_message=$(git log -1 --pretty=format:%s)
+          echo "commit_message=$commit_message" >> $GITHUB_ENV
 
       - name: 根目录脚本__更新py
         run: |
@@ -43,7 +50,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '更新用户脚本' || echo "没有需要提交的更改"
+          git commit -m "${{ env.commit_message }}" || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}  
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
