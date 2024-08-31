@@ -22,7 +22,8 @@
             "isUpdated": true,
             "backuppath": "Script details/missav-explorer",
             "GreasyFork": "497682",
-            "description": "miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav"
+            "description": "miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav",
+            "isSleazy":true
         },
         {
             "name": "网页高亮关键字+(推荐)",
@@ -198,7 +199,9 @@
             "isUpdated": true,
             "backuppath": "Script details/missav-auto-login-helper",
             "GreasyFork": "505325",
-            "description": "检测 MisssAV 状态，并且在未登录时自动登录"
+            "description": "检测 MisssAV 状态，并且在未登录时自动登录",
+            "isSleazy":true
+            
         },
         {
             "name": "GitHub文件夹下载",
