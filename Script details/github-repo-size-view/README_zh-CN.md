@@ -61,11 +61,29 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-<p align="center">
-  <h1 align="center">Github Repo Size</h1>
-</p>
 
-将 Github 存储库的大小添加到搜索结果和存储库页面的用户脚本。
+<center>
+    <h1>github显示仓库大小</h1>
+    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            Fork</a></p>
+    <details><summary>更新记录</summary><h1 align="center">Github Repo Size+ 更新记录</h1>
+
+<ul>
+<li><strong>2024/8/20 05:28 - Ver: 0.1.2.26</strong></li>
+<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>使用该脚本的设置界面。</mark></em></li>
+<li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>
+<li><em><mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark></em></li>
+<li><strong>2024/8/12 21:56 - Ver: 0.1.2.17</strong></li>
+<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>增加在用户资料仓库列表和org列表显示仓库大小.</mark></em></li>
+<li><strong>2024/8/5 05:18 - Ver: 0.1.2.8</strong></li>
+<li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>原作者令牌失效导致无法访问公共仓库.<mark>修复方式：删除原作者令牌, Github生成的公共令牌总是被清除, 干脆不添加得了</mark></em></li>
+<li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
+<li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
+</ul></details> 
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-repo-size-view/preview/statshistory.png">
+</center>
 
 ## 预览
 
@@ -102,41 +120,6 @@
 ## 用法
 
 该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
-
-
-<center>
-    <h1>github显示仓库大小</h1>
-    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p>
-    <details><summary>更新记录</summary><h1 align="center">Github Repo Size+ 更新记录</h1>
-
-<ul>
-<li><strong>2024/8/20 05:28 - Ver: 0.1.2.26</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>使用该脚本的设置界面。</mark></em></li>
-<li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>
-<li><em><mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark></em></li>
-<li><strong>2024/8/12 21:56 - Ver: 0.1.2.17</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>增加在用户资料仓库列表和org列表显示仓库大小.</mark></em></li>
-<li><strong>2024/8/5 05:18 - Ver: 0.1.2.8</strong></li>
-<li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>原作者令牌失效导致无法访问公共仓库.<mark>修复方式：删除原作者令牌, Github生成的公共令牌总是被清除, 干脆不添加得了</mark></em></li>
-<li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
-<li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
-</ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-repo-size-view/preview/statshistory.png">
-</center>
-
-- **2024/8/20 05:28 - Ver: 0.1.2.26**
-  - *<mark>[GitHub Repo Size Display](https://greasyfork.org/zh-CN/scripts/503821)使用该脚本的设置界面。</mark>*
-- **2024/8/13 00:19 - Ver: 0.1.2.18**
-  - *<mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark>*
-- **2024/8/12 21:56 - Ver: 0.1.2.17**
-  - *<mark>[#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059)增加在用户资料仓库列表和org列表显示仓库大小.</mark>*
-- **2024/8/5 05:18 - Ver: 0.1.2.8**
-  - *[#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059)原作者令牌失效导致无法访问公共仓库.<mark>修复方式：删除原作者令牌, Github生成的公共令牌总是被清除, 干脆不添加得了</mark>*
-- **2024/8/1 03:43 - Ver: 0.1.2**
-  - *<mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark>*
 
 
 ## 感谢
