@@ -33,7 +33,7 @@ jobs:
       - name: 根目录脚本__更新py
         run: |
           # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
-           python copy_js_files.py
+           python pythonscr/copy_js_files.py
         
       - name: 提交和推送更改
         run: |
