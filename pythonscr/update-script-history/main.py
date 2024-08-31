@@ -80,4 +80,4 @@ for script in data.get('scripts', []):
     plt.close()
     
     # 延时 3 秒钟
-      # time.sleep(3)
+    time.sleep(3)
