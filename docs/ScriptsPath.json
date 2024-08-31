@@ -9,7 +9,7 @@
             "description": "增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作"
         },
         {
-            "name": "油猴脚本查找器",
+            "name": "Script Finder油猴脚本查找器",
             "path": "script-finder-plus.user.js",
             "isUpdated": true,
             "backuppath": "Script details/script-finder-plus",
@@ -17,7 +17,7 @@
             "description": "Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本"
         },
         {
-            "name": "Missav管理器",
+            "name": "MissAV收藏管理器",
             "path": "missav-explorer.user.js",
             "isUpdated": true,
             "backuppath": "Script details/missav-explorer",
@@ -25,7 +25,7 @@
             "description": "miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav"
         },
         {
-            "name": "网页高亮关键字+",
+            "name": "网页高亮关键字+(推荐)",
             "path": "highlight-keywords.user.js",
             "isUpdated": true,
             "backuppath": "Script details/highlight-keywords",
@@ -33,7 +33,7 @@
             "description": "对网页上的文字进行高亮显示"
         },
         {
-            "name": "剪辑版授权",
+            "name": "网页写入剪辑版授权管理器",
             "path": "clipboard-manager.user.js",
             "isUpdated": true,
             "backuppath": "Script details/clipboard-manager",
@@ -41,7 +41,7 @@
             "description": "禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向"
         },
         {
-            "name": "置頂和置底按鈕",
+            "name": "一键置顶和置底按钮",
             "path": "scroll-to-top-button.user.js",
             "isUpdated": true,
             "backuppath": "Script details/scroll-to-top-button",
@@ -49,7 +49,7 @@
             "description": "修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止"
         },
         {
-            "name": "油猴评分",
+            "name": "GreasyFork 显示脚本评分",
             "path": "greasyfork-ranks.user.js",
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-ranks",
@@ -57,7 +57,7 @@
             "description": "脚本列表添加评价分数"
         },
         {
-            "name": "去除下划线",
+            "name": "去除链接下划线",
             "path": "remove-link-underlines.user.js",
             "isUpdated": true,
             "backuppath": "Script details/remove-link-underlines",
@@ -65,7 +65,7 @@
             "description": "去除网页链接的下划线"
         },
         {
-            "name": "油猴适用于增强",
+            "name": "GreasyFork适用于增强",
             "path": "greasyfork-link.user.js",
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-link",
@@ -97,7 +97,7 @@
             "description": "在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容"
         },
         {
-            "name": "谷歌高级搜索",
+            "name": "Google 高级搜索",
             "path": "google-advanced-search.user.js",
             "isUpdated": true,
             "backuppath": "Script details/google-advanced-search",
@@ -105,7 +105,7 @@
             "description": "这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。"
         },
         {
-            "name": "上下滚动小按钮小辣鸡",
+            "name": "上下滚动小按钮",
             "path": "scroll-button.user.js",
             "isUpdated": true,
             "backuppath": "Script details/scroll-button",
@@ -113,10 +113,10 @@
             "description": "页面右侧添加上下滚动按钮"
         },
         {
-            "name": "高亮网页文本小辣鸡",
+            "name": "高亮网页文本_迷你版",
             "path": "highlight-keywords-mini.user.js",
             "isUpdated": true,
-            "backuppath": "Script details/highlight-keywords-mini.user.js",
+            "backuppath": "Script details/highlight-keywords-mini",
             "GreasyFork": "498905",
             "description": "在网页上自定义关键词突出显示包括滚动时动态加载的内容"
         },
@@ -145,7 +145,7 @@
             "description": "自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。"
         },
         {
-            "name": "Markdown toobar for GreasyFork",
+            "name": "GreasyFork Markdown toobar",
             "path": "greasyfork-markdown-toolbar.user.js",
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-markdown-toolbar",
@@ -177,7 +177,7 @@
             "description": "给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译"
         },
         {
-            "name": "脚本高级搜索",
+            "name": "GreasyFork 高级搜索",
             "path": "greasyfork-search.user.js",
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-search",
@@ -193,7 +193,7 @@
             "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本"
         },
         {
-            "name": "自动登录MissAV",
+            "name": "MiSSAV自动登录",
             "path": "missav-auto-login-helper.user.js",
             "isUpdated": true,
             "backuppath": "Script details/missav-auto-login-helper",
