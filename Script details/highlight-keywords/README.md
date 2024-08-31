@@ -61,7 +61,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center>
-    <h1>网页高亮关键字+</h1>
+    <h1>网页高亮关键字+(推荐)</h1>
     <p>「 对网页上的文字进行高亮显示 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy

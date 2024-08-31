@@ -61,7 +61,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center>
-    <h1>上下滚动小按钮小辣鸡</h1>
+    <h1>上下滚动小按钮</h1>
     <p>「 页面右侧添加上下滚动按钮 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497251">Greasy
