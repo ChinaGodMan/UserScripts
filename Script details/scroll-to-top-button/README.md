@@ -56,9 +56,6 @@
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
 
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 
@@ -67,25 +64,6 @@
 - **处于网页底部时，自动关闭滚动。**
 - **处于滚动时，向下的按钮变成绿色。**
 
-
-<h1><center>
-    <h1>一键置顶和置底按钮</h1>
-    <p>「 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1 align="center">Scroll to Top and Bottom Buttons 更新记录</h1>
-
-<ul>
-<li><strong>2024/8/26 1:28 - Ver: 1.2.0.48</strong></li>
-<li><em>请求添加绑定热键</em></li>
-<li><em><a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a></em></li>
-</ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/scroll-to-top-button/preview/statshistory.png">
-</center></p>
-
-- **2024/8/26 1:28 - Ver: 1.2.0.48**
-  - *请求添加绑定热键*
-  - *[#257324](https://greasyfork.org/zh-CN/scripts/500255/discussions/257324)*
 
 ![set.png](https://s2.loli.net/2024/08/26/3Et6ghaqMSo54KF.png)
 ![c.png](https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png)

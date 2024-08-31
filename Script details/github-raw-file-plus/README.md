@@ -96,9 +96,6 @@ MIT 许可证
 
 脚本修改自用户 **[Kamikaze](https://greasyfork.org/zh-CN/users/928242)** 的脚本 [Button to copy the raw file URL | Github](https://greasyfork.org/scripts/453489) 感谢原作者 **Kamikaze** 的**勤劳**与**智慧**
 
-### 更新记录
-- **2024/8/28 05:09 - Ver: 2.2** *增加下载功能.*
-
 ![Snipaste_2024-08-28_05-14-50.png](https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png)
 
 ## 使用帮助
