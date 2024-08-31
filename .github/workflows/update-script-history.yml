@@ -44,7 +44,7 @@ jobs:
     - name: Run script
       run: |
         python pythonscr/update-script-history/main.py  # 替换为你的Python脚本文件名
-        python pythonscr/添加脚本声明头信息/main.py  # 更新所有的文档信息
+       # python pythonscr/添加脚本声明头信息/main.py  # 更新所有的文档信息
 
     - name: Commit and push if it changed
       run: |

@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  translate-readme:
+  update-change-history:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
