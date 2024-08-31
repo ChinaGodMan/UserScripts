@@ -66,9 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p>
-    <details><summary>更新记录</summary><h1 align="center">Greasyfork 糊裱匠 更新记录</h1>
-
-<ul>
+    <details><summary>更新记录</summary><ul>
 <li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>脚本详情页,所有脚本列表添加<code>脚本评分</code>.</em></li>
 <li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修复兼容性.</em></li>
 <li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在脚本列表顶部添加下载按钮,点击下载所有脚本</em></li>
