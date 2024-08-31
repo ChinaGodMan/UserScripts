@@ -62,9 +62,9 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center>
     <h1>GitHub Sort by Date</h1>
-    <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 」</p>
+    <p>「 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
+            href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-sort-by-date/preview/statshistory.png">
 </center>
