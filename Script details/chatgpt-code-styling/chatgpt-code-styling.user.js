@@ -4,7 +4,7 @@
 // @name:zh-CN        ChatGPT 代码字体变小
 // @description:zh-CN   让 ChatGPT 代码字体变小,
 // @namespace   https://greasyfork.org/users/1169082/
-// @version 0.1.0.7
+// @version 0.1.0.8
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @grant        none
