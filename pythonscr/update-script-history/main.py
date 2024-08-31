@@ -71,8 +71,8 @@ for script in data.get('scripts', []):
     plt.figure(figsize=(20, 10), dpi=100)
     plt.rcParams['font.sans-serif'] = ['HYWenHei']  # 用来正常显示中文标签
     plt.title(script.get('name'), fontdict={'size': 30})
-    plt.xlabel("时间", fontdict={'size': 30})
-    plt.ylabel("总安装数（Greasy Fork）", fontdict={'size': 30})
+    plt.xlabel("时间(Time)", fontdict={'size': 30})
+    plt.ylabel("总安装数 Installs（Greasy Fork）", fontdict={'size': 30})
     plt.xticks(fontsize=20)
     plt.yticks(fontsize=20)
     plt.plot(pd.to_datetime(star_date), star_installs, linewidth=4.0)
