@@ -32,7 +32,7 @@ jobs:
       - name: 读取 Load.txt 中的脚本名称
         id: read-script
         run: |
-          script_path="pythonscr/update-script-list.py"
+          script_path="pythonscr/update-script-list/update-script-list.py"
           echo "script_path=${script_path}" >> $GITHUB_ENV
 
       - name: 执行README.md更新

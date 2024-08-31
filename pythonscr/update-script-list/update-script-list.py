@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import sys
 
 # JSON 文件路径
 json_file_path = 'docs/ScriptsPath.json'
@@ -8,7 +9,23 @@ json_file_path = 'docs/ScriptsPath.json'
 # 读取 JSON 数据
 with open(json_file_path, 'r', encoding='utf-8') as file:
     data = json.load(file)
+# 获取 scripts 成员的数量
+scripts_count = len(data.get('scripts', []))
+print(f"脚本数量: {scripts_count}")
+# 定义数量文件的名称
+script_dir = os.path.dirname(os.path.abspath(__file__))
+count_file = os.path.join(script_dir, f'{scripts_count}.txt')
 
+
+if os.path.exists(count_file):
+    print(f"文件 '{count_file}' 已存在，程序退出。")
+    sys.exit()
+
+
+ # 如果文件不存在，则创建文件
+with open(count_file, 'w', encoding='utf-8') as file:
+    file.write(f"脚本数量: {scripts_count}\n")
+print(f"文件 '{count_file}' 已创建。")   
 # 生成 HTML 表格
 html_table = '''
 <table>
@@ -73,4 +90,4 @@ new_readme_content = re.sub(r'<table>.*?</table>', html_table, readme_content, f
 with open(readme_path, 'w', encoding='utf-8') as file:
     file.write(new_readme_content)
 
-
+print(f"执行完毕")   
