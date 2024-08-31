@@ -66,6 +66,30 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p>
+    <details><summary>更新记录</summary><ul>
+<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>添加拖拽时超时显示超时进度条,时间耗光取消拖拽打开预览窗口</em></li>
+<li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消打开预览窗口.<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
+<li><strong>2024/8/27 00:33 - Ver: 2.4.0.5</strong> </li>
+<li>
+<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> BUG反馈:当打开一个链接的预览窗，然后点击原窗口焦点关闭预览窗之后再长按另外一个链接 , 有概率无法触发时间条打开预览窗<br>添加代码:<code>if (state.popupWindow)</code>当窗口存在时执行代码</em></p>
+</li>
+<li>
+<p><strong>2024/8/25 04:59 - Ver: 2.4.0.2</strong></p>
+</li>
+<li>
+<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a> 添加长按时显示倒计时, 修复长按时间过短导致在拖拽时触发长按逻辑, 增加记住窗口位置</em></p>
+</li>
+<li>
+<p><strong>2024/8/24 07:29 - Ver: 2.4</strong></p>
+</li>
+<li>
+<p><em>优化脚本<br>添加语言包</em></p>
+</li>
+<li>
+<p><strong>2024/8/23 08:12 - Ver: 2.4</strong></p>
+</li>
+<li><em>&lt;优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 <code>Google Chrome 的超级拖拽 0.9.9</code><br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</em></li>
+</ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/popup-window/preview/statshistory.png">
 </center>
 

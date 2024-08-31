@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
             Fork</a></p>
+     
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/highlight-keywords-mini/preview/statshistory.png">
 </center>
 

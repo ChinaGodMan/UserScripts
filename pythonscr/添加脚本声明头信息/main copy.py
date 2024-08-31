@@ -17,6 +17,12 @@ for script in data['scripts']:
     description = script.get('description', '')
     greasyfork_id = script.get('GreasyFork', '')
 
+    # 检查 preview 图片是否存在
+    img_path = os.path.join(backuppath, "preview", "statshistory.png")
+    img_tag = ''
+    if os.path.exists(img_path):
+        img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
+
     # 准备要添加或替换的 HTML 代码
     html_content = f"""
 <center>
@@ -25,7 +31,7 @@ for script in data['scripts']:
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/{greasyfork_id}">Greasy
             Fork</a></p>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">
+    {img_tag}
 </center>
 """
 

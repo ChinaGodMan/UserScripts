@@ -1,10 +1,27 @@
 import os
 import json
 import re
+import markdown  # 确保导入 markdown 模块
 
 # 定义分隔符和 JSON 文件路径
 SEPARATOR = 'https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
 json_file_path = 'docs/ScriptsPath.json'
+
+def md_to_html(md_file):
+    # 检查 Markdown 文件是否存在
+    if not os.path.isfile(md_file):
+        print(f"文件 {md_file} 不存在。")
+        return None
+
+    # 读取 Markdown 文件内容
+    with open(md_file, 'r', encoding='utf-8') as f:
+        md_text = f.read()
+
+    # 将 Markdown 转换为 HTML
+    html_text = markdown.markdown(md_text)
+
+    # 返回 HTML 文本字符串
+    return html_text
 
 # 读取 JSON 文件
 with open(json_file_path, 'r', encoding='utf-8') as json_file:
@@ -16,6 +33,12 @@ for script in data['scripts']:
     name = script.get('name', '')
     description = script.get('description', '')
     greasyfork_id = script.get('GreasyFork', '')
+
+    # 检查 Change history/README.md 文件是否存在并转化为 HTML
+    readme_path = os.path.join(backuppath, "Change history", "README.md")
+    readme_html = ''
+    if os.path.isfile(readme_path):
+        readme_html = "<details><summary>更新记录</summary>"+md_to_html(readme_path)+"</details>"
 
     # 检查 preview 图片是否存在
     img_path = os.path.join(backuppath, "preview", "statshistory.png")
@@ -31,6 +54,7 @@ for script in data['scripts']:
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/{greasyfork_id}">Greasy
             Fork</a></p>
+    {readme_html} 
     {img_tag}
 </center>
 """

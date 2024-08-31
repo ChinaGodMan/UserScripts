@@ -66,6 +66,11 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
             Fork</a></p>
+    <details><summary>更新记录</summary><h1 align="center"> Markdown toobar for GreasyFork 更新记录</h1>
+</p>
+<p><strong>修改：</strong>
+<a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
+- 2024-08-04T08:59:11 <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-markdown-toolbar/preview/statshistory.png">
 </center>
 
