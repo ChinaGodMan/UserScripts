@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/highlight-keywords-mini/preview/statshistory.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/498905.png">
 </center>
 
 ## 原作者(leconte112)[Spoiler Protection for tampermonkey](https://greasyfork.org/zh-CN/scripts/475806-spoiler-protection-for-tampermonkey) 

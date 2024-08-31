@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497251">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/scroll-button/preview/statshistory.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/497251.png">
 </center>
 
 在每个网页的右侧添加上下按钮，方便滚动。

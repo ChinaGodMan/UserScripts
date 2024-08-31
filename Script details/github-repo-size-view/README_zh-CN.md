@@ -79,7 +79,7 @@
 <li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
 <li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-repo-size-view/preview/statshistory.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/502291.png">
 </center>
 
 ## 预览
