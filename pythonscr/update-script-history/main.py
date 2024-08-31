@@ -21,13 +21,21 @@ for script in data.get('scripts', []):
     # 获取 GreasyFork 的 ID 和备份路径
     greasyfork_id = script.get('GreasyFork')
     backuppath = script.get('backuppath')
+    
 
     if not greasyfork_id or not backuppath:
         print("错误：脚本数据不完整")
         continue
 
     # 构造 URL
-    url = f'https://greasyfork.org/zh-CN/scripts/{greasyfork_id}/stats.json'
+    
+   # url = f'https://greasyfork.org/zh-CN/scripts/{greasyfork_id}/stats.json'
+    is_sleazy = script.get('isSleazy', False)
+
+    # 根据 isSleazy 的值选择不同的 URL
+    base_url = 'https://sleazyfork.org' if is_sleazy else 'https://greasyfork.org'
+    url = f'{base_url}/zh-CN/scripts/{greasyfork_id}/stats.json'
+
     
     # 获取数据
     response = requests.get(url)
