@@ -1,19 +1,25 @@
 import os
 import shutil
-import glob
 
 # 定义源目录和目标目录
 source_dir = 'Script details'
 target_dir = '.'
 
-# 查找所有 .js 文件
-js_files = glob.glob(os.path.join(source_dir, '**', '*.js'), recursive=True)
-
-# 复制每个 .js 文件到目标目录
-for file_path in js_files:
-    # 构造目标文件路径
-    target_path = os.path.join(target_dir, os.path.basename(file_path))
+# 遍历源目录的子目录
+for root, dirs, files in os.walk(source_dir):
+    # 计算相对深度
+    depth = root[len(source_dir):].count(os.sep)
     
-    # 复制文件
-    shutil.copy(file_path, target_path)
-    print(f'复制 {file_path} 到 {target_path}')
+    # 只处理到第二层目录（即深度为 2）
+    if depth > 1:
+        continue
+    
+    # 处理每个 .js 文件
+    for file in files:
+        if file.endswith('.js'):
+            file_path = os.path.join(root, file)
+            target_path = os.path.join(target_dir, file)
+            
+            # 复制文件
+            shutil.copy(file_path, target_path)
+            print(f'复制 {file_path} 到 {target_path}')
