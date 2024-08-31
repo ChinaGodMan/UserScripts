@@ -1,0 +1,54 @@
+name: Github合并更新历史md到主md
+
+on:
+  push:
+    paths:
+      - 'Script details/**/Change history/README.md'  # 仅在指定路径的 README.md 文件发生变动时触发
+  workflow_dispatch:  # 允许手动触发工作流
+
+
+jobs:
+  translate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+
+
+      - name: 获取当前分支
+        id: get_branch
+        run: |
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+      - name: 拉取最新更改
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
+
+
+      - name: 运行更新
+        run: |
+          python pythonscr/添加脚本声明头信息/main.py  # 更新所有的文档信息
+        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+
+      - name: 提交和推送更改
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 添加更改
+          git add .
+          git commit -m '合并更新历史' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}  
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
