@@ -6,7 +6,6 @@ on:
       - 'Script details/**/Change history/README.md'  # 仅在指定路径的 README.md 文件发生变动时触发
   workflow_dispatch:  # 允许手动触发工作流
 
-
 jobs:
   translate-readme:
     runs-on: ubuntu-latest
@@ -21,7 +20,11 @@ jobs:
         with:
           python-version: '3.x'
 
-
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install markdown  # 安装 markdown 库
+          # 如果有其他依赖项，请在这里添加
 
       - name: 获取当前分支
         id: get_branch
@@ -32,8 +35,6 @@ jobs:
       - name: 拉取最新更改
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
-
-
 
       - name: 运行更新
         run: |
