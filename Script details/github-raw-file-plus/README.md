@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>GitHub下载单文件和复制文件URL</h1>
+    <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-raw-file-plus/preview/statshistory.png">
+</center>
 
 # Github 复制原始文件 URL 与下载文件
 

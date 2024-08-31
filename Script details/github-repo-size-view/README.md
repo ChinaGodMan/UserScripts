@@ -105,7 +105,12 @@
 
 
 <center>
-<h1> Github Repo Size+ 更新记录</h1>
+    <h1>github显示仓库大小</h1>
+    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-repo-size-view/preview/statshistory.png">
 </center>
 
 - **2024/8/20 05:28 - Ver: 0.1.2.26**

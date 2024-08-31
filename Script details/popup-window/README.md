@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>小窗口预览</h1>
+    <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/popup-window/preview/statshistory.png">
+</center>
 
 ## 功能介绍
 🔗 拖拽即开小窗 — 拖拽网页链接，便捷地在小窗口中打开并预览，使用 Edge 的预读技术。小窗口后方有亚克力效果，提升视觉体验。

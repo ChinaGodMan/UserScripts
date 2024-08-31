@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>油猴适用于增强</h1>
+    <p>「 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/497317">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-link/preview/statshistory.png">
+</center>
 
 <h1>
     <div style="background-color: rgb(255, 0, 0); color: yellow;">
