@@ -45,7 +45,7 @@ for script in data['scripts']:
     img_tag = ''
     if os.path.exists(img_path):
         # img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
-        img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/{greasyfork_id}.png">'
+        img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
 
 
     # 准备要添加或替换的 HTML 代码
