@@ -65,8 +65,7 @@
     <p>「 脚本列表添加评价分数 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501119">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-ranks/preview/statshistory.png">
 </center>
 

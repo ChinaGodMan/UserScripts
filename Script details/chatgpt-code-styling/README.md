@@ -65,8 +65,7 @@
     <p>「 让 ChatGPT 代码字体变小 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-code-styling">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505209">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/chatgpt-code-styling/preview/statshistory.png">
 </center>
 

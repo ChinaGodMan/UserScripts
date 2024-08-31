@@ -65,8 +65,7 @@
     <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/clipboard-manager/preview/statshistory.png">
 </center>
 

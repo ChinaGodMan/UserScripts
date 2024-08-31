@@ -65,8 +65,7 @@
     <p>「 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p>
-    <details><summary>更新记录</summary><h1 align="center">谷歌高级搜索助手 更新记录</h1>
+            Fork</a></p><details><summary>更新记录</summary><h1 align="center">谷歌高级搜索助手 更新记录</h1>
 </p>
 <ul>
 <li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>

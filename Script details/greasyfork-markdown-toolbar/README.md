@@ -65,8 +65,7 @@
     <p>「 介在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p>
-    <details><summary>更新记录</summary><h1 align="center"> Markdown toobar for GreasyFork 更新记录</h1>
+            Fork</a></p><details><summary>更新记录</summary><h1 align="center"> Markdown toobar for GreasyFork 更新记录</h1>
 </p>
 <p><strong>修改：</strong>
 <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
