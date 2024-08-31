@@ -31,7 +31,7 @@
 // @description:mo  該腳本將 GitHub 上的提交信息轉換為 HTML 视图，以更清晰地查看提交詳情。它會自動將提交信息列表、提交標題和最新提交信息轉換為 HTML 格式，提供更佳的視覺效果和使用者體驗。
 // @description:pt  Este script converte mensagens de commit no GitHub em visualizações HTML para uma visibilidade mais clara dos detalhes dos commits. Ele transforma automaticamente listas de mensagens de commit, cabeçalhos de commit e informações sobre o último commit em formato HTML, proporcionando maior atratividade visual e experiência do usuário.
 // @description:ru  Этот скрипт преобразует сообщения коммитов на GitHub в HTML-виды для более четкого отображения деталей коммитов. Он автоматически преобразует списки сообщений коммитов, заголовки коммитов и информацию о последнем коммите в формат HTML, обеспечивая улучшенную визуальную привлекательность и пользовательский опыт.
-// @version 1.0.0.2
+// @version 1.0.0.3
 // @namespace   https://github.com/ChinaGodMan
 // @author   人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/*/*

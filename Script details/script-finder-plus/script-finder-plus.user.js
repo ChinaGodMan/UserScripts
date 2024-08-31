@@ -15,7 +15,7 @@
 // @description:ko          Script Finder를 사용하면 greasyfork에서 사용자 스크립트를 어떤 웹사이트에서든 찾을 수 있습니다.
 
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.62
+// @version 0.1.6.63
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
