@@ -15,6 +15,11 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
 
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
       - name: 获取当前分支
         id: get_branch
         run: |
@@ -25,10 +30,10 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 根目录脚本更新
+      - name: 根目录脚本__更新py
         run: |
           # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
-          rsync -av --ignore-existing "Script details/**/*.js" ./ || true
+           python copy_js_files.py
         
       - name: 提交和推送更改
         run: |
