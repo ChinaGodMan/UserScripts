@@ -198,7 +198,9 @@
             "isUpdated": true,
             "backuppath": "Script details/missav-auto-login-helper",
             "GreasyFork": "505325",
-            "description": "检测 MisssAV 状态，并且在未登录时自动登录"
+            "description": "检测 MisssAV 状态，并且在未登录时自动登录",
+            "isSleazy":true
+            
         },
         {
             "name": "GitHub文件夹下载",
