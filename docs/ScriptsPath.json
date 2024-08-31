@@ -150,7 +150,7 @@
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-markdown-toolbar",
             "GreasyFork": "505164",
-            "description": "介在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍"
+            "description": "在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍"
         },
         {
             "name": "解除CSDN登录复制限制",
@@ -182,15 +182,15 @@
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-search",
             "GreasyFork": "505215",
-            "description": "介绍"
+            "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 "
         },
         {
             "name": "GitHub Sort by Date",
             "path": "github-sort-by-date.user.js",
             "isUpdated": true,
             "backuppath": "Script details/github-sort-by-date",
-            "GreasyFork": "497346",
-            "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本"
+            "GreasyFork": "505218",
+            "description": "仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。"
         },
         {
             "name": "MiSSAV自动登录",
