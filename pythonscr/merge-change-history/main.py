@@ -43,7 +43,8 @@ for script in data['scripts']:
     # 检查 preview 图片是否存在
     img_path = os.path.join(backuppath, "preview", "statshistory.png")
     img_tag = ''
-    if os.path.exists(img_path):
+    isAddImage = True#添加历史安装图片
+    if isAddImage:#if os.path.exists(img_path):
         # img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
         img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
 
