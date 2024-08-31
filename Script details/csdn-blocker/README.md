@@ -65,8 +65,7 @@
     <p>「 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505207">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/csdn-blocker/preview/statshistory.png">
 </center>
 

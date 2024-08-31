@@ -65,8 +65,7 @@
     <p>「 在网页上自定义关键词突出显示包括滚动时动态加载的内容 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/highlight-keywords-mini/preview/statshistory.png">
 </center>
 

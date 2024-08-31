@@ -65,8 +65,7 @@
     <p>「 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500262">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/google-block-search-sites/preview/statshistory.png">
 </center>
 ## 屏蔽谷歌搜索中的指定站点

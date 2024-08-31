@@ -65,8 +65,7 @@
     <p>「 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/no-zh-terminator/preview/statshistory.png">
 </center>
 

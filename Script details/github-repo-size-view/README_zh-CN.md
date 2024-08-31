@@ -67,8 +67,7 @@
     <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p>
-    <details><summary>更新记录</summary><ul>
+            Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/8/20 05:28 - Ver: 0.1.2.26</strong></li>
 <li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>使用该脚本的设置界面。</mark></em></li>
 <li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>

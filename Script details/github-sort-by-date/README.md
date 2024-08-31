@@ -65,8 +65,7 @@
     <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p>
-     
+            Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-sort-by-date/preview/statshistory.png">
 </center>
 
