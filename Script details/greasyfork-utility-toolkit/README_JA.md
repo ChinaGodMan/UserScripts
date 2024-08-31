@@ -168,7 +168,7 @@
 </li>
 <li><em>优化：完善对多语言的支持</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-utility-toolkit/preview/statshistory.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/497346.png">
 </center>
 
 ## Greasyfork 用の機能提供
