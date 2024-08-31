@@ -62,7 +62,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center>
     <h1>GreasyFork 高级搜索</h1>
-    <p>「 介绍 」</p>
+    <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本  」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
             Fork</a></p> 
