@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>自动登录MissAV</h1>
+    <p>「 检测 MisssAV 状态，并且在未登录时自动登录 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
+            Fork</a></p>
+    
+</center>
 
 # MissAV AutoLogin Helper
 

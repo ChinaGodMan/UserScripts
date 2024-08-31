@@ -90,7 +90,14 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 ## 原作者
  脚本修改自用户 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的脚本 [Script Finder](https://greasyfork.org/scripts/472056) 感谢原作者 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的**勤劳**与**智慧**
 
-<center><h1>Script Finder 更新记录 </h1> </center>
+<center>
+    <h1>油猴脚本查找器</h1>
+    <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/script-finder-plus/preview/statshistory.png">
+</center>
 
 - **2024/8/28 12:01 - Ver: 0.1.6.58** *网页进入全屏,隐藏右下角按钮.*
 - **2024/8/26 07:32 - Ver: 0.1.6.54**  *增加语言支持*

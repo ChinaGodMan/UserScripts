@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>外语终结者</h1>
+    <p>「 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/no-zh-terminator/preview/statshistory.png">
+</center>
 
 <h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">使用的Goolge翻译.无法连接Google的请不要下载</mark></h2>
 

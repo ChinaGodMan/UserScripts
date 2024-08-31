@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>油猴评分</h1>
+    <p>「 脚本列表添加评价分数 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/501119">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-ranks/preview/statshistory.png">
+</center>
 
 # Greasyfork ranks
 

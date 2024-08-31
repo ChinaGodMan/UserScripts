@@ -60,6 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center>
+    <h1>Markdown toobar for GreasyFork</h1>
+    <p>「 介在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
+            Fork</a></p>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-markdown-toolbar/preview/statshistory.png">
+</center>
 
 这个脚本是 [wOxxOm](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573) 编写的脚本的一个分支，旨在使其适应新的 GF 布局。  
 感谢他制作了如此重要的脚本。
