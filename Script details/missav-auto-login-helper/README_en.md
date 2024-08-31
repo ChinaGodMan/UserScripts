@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
             Fork</a></p> 
-    
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/missav-auto-login-helper/preview/statshistory.png">
 </center>
 
 # MissAV AutoLogin Helper
