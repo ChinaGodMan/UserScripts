@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505208">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/505208.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505208.png">
 </center>
 
 <h2><a href="https://greasyfork.org/zh-CN/scripts/424966">网页翻译——翻译为中文</a>修改脚本为自动翻译.无需点击或者按键</h2>

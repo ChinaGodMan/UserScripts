@@ -68,7 +68,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>增加下载功能.</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/505501.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </center>
 
 # Github Copy Raw File URL and Download File
