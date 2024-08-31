@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
             Fork</a></p>
+     
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-user-control-panel-button/preview/statshistory.png">
 </center>
 

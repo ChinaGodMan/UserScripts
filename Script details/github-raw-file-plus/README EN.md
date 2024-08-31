@@ -66,6 +66,9 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
             Fork</a></p>
+    <details><summary>更新记录</summary><ul>
+<li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>增加下载功能.</em></li>
+</ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/github-raw-file-plus/preview/statshistory.png">
 </center>
 

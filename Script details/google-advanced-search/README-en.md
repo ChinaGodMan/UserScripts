@@ -66,6 +66,19 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
             Fork</a></p>
+    <details><summary>更新记录</summary><h1 align="center">谷歌高级搜索助手 更新记录</h1>
+</p>
+<ul>
+<li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>
+<li>
+<p><em><mark>增加脚本图标</mark></em></p>
+</li>
+<li>
+<p><strong>2024/8/5 10:26 - Ver: 0.1.9</strong></p>
+</li>
+<li><em><mark>问题: 移动设备无法显示高级搜索框</mark></em></li>
+<li><em><mark>修复方式：下面代码仅在PC端生效</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
+</ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/google-advanced-search/preview/statshistory.png">
 </center>
 

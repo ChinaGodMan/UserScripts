@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498625">Greasy
             Fork</a></p>
+     
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/remove-link-underlines/preview/statshistory.png">
 </center>
 # Remove Link Underlines

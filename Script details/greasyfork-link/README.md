@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497317">Greasy
             Fork</a></p>
+     
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/greasyfork-link/preview/statshistory.png">
 </center>
 

@@ -74,6 +74,13 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
             Fork</a></p>
+    <details><summary>更新记录</summary><h1 align="center">Scroll to Top and Bottom Buttons 更新记录</h1>
+
+<ul>
+<li><strong>2024/8/26 1:28 - Ver: 1.2.0.48</strong></li>
+<li><em>请求添加绑定热键</em></li>
+<li><em><a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a></em></li>
+</ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/scroll-to-top-button/preview/statshistory.png">
 </center></p>
 

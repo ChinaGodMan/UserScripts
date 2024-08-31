@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500262">Greasy
             Fork</a></p>
+     
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/Script details/google-block-search-sites/preview/statshistory.png">
 </center>
 ## 屏蔽谷歌搜索中的指定站点
