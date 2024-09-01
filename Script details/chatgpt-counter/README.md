@@ -61,11 +61,11 @@
     <h1>ChatGPT 字符计数器限制</h1>
     <p>「 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。） 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505830">Greasy
+            href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题..</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505830.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </center>
 
 # ChatGPT 字符计数器限制 

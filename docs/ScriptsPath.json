@@ -231,7 +231,7 @@
             "path": "chatgpt-counter.user.js",
             "isUpdated": true,
             "backuppath": "Script details/chatgpt-counter",
-            "GreasyFork": "505830",
+            "GreasyFork": "506166",
             "description": "添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）"
         }
     ]
