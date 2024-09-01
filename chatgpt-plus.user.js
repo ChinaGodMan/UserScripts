@@ -12,7 +12,7 @@
 // @description:ja ChatGPTで長い「あなた」のメッセージを折りたたみ、最大幅を設定します
 // @description:vi Gấp lại các tin nhắn "Bạn" dài trong ChatGPT và thiết lập chiều rộng tối đa
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.0.11
+// @version 0.1.0.12
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @match      https://share.nezhagpt.cloud/*

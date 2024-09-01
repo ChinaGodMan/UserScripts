@@ -2,7 +2,7 @@
 // @name         GreasyFork Search
 // @name:zh-CN         GreasyFork Search
 // @namespace     https://greasyfork.org/zh-CN/users/1169082
-// @version 0.6.5.9
+// @version 0.6.5.10
 // @description  To search scripts using Google Search
 // @description:zh-CN   使用谷歌搜索GreasyFork和SleazyFork上的脚本
 // @author       CY Fung , 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
