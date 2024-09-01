@@ -16,7 +16,7 @@
 // @description:en Add buttons at the end of each file line to copy the raw file URL and download the file
 // @description:de Fügen Sie Schaltflächen am Ende jeder Dateizeile hinzu, um die Rohdatei-URL zu kopieren und die Datei herunterzuladen
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 2.2.0.7
+// @version 2.2.0.8
 // @author       	Kamikaze (https://github.com/Kamiikaze) ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        	https://github.com/*
 // @icon         	https://www.google.com/s2/favicons?sz=64&domain=github.com
