@@ -14,7 +14,7 @@
 // @description:vi      Thêm một nút tải xuống cho phép tải xuống thư mục GitHub cụ thể một cách dễ dàng.
 // @description:ko      특정 GitHub 폴더를 쉽게 다운로드할 수 있는 다운로드 버튼을 추가합니다.
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 0.7.0.8
+// @version 0.7.0.9
 // @author       EricKwok,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
