@@ -11,7 +11,7 @@
 // @description:ja リンクをドラッグしてポップアップウィンドウでプレビューを表示し、Edge のプレビュー技術を使用して開く前にリンクを開きます。また、ウィンドウが開いているときにアクリル効果を背景に追加します。
 // @name:vi        Xem trước cửa sổ nhỏ
 // @description:vi Kéo thả liên kết để mở nó trong một cửa sổ popup với chế độ xem trước trước khi mở, sử dụng công nghệ tiên đoán của Edge. Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ khi nó mở.
-// @version 2.4.0.17
+// @version 2.4.0.18
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -25,7 +25,6 @@
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license      MIT
 // ==/UserScript==
-
 const translate = (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
     const strings = {
@@ -441,11 +440,15 @@ const translate = (function () {
             })
         }
     }
-    function handleDragEnd() {
+    function handleDragEnd(event) {
+        const x = event.clientX
+        const y = event.clientY
+        const elementAtPoint = document.elementFromPoint(x, y)
         if (state.dragprogressBar) {//显示超时进度条时
             clearInterval(state.dragintervalId)
             state.dragprogressBar.style.display = 'none'
         }
+        if (elementAtPoint !== document.body) state.isDragging = false
         if (state.isDragging && state.linkToPreload) {
             state.isDragging = false
             openPopupWindow(state.linkToPreload)
@@ -485,6 +488,7 @@ const translate = (function () {
             }
             document.addEventListener('dragstart', onMouseMove, { once: true })
             document.addEventListener('mouseup', onMouseUp, { once: true })
+            document.addEventListener('keydown', onMouseUp, { once: true })
             setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
                 if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
                     state.progressBar = createProgressBar()
