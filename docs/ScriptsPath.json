@@ -23,7 +23,7 @@
             "backuppath": "Script details/missav-explorer",
             "GreasyFork": "497682",
             "description": "miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav",
-            "isSleazy":true
+            "isSleazy": true
         },
         {
             "name": "网页高亮关键字+(推荐)",
@@ -200,8 +200,7 @@
             "backuppath": "Script details/missav-auto-login-helper",
             "GreasyFork": "505325",
             "description": "检测 MisssAV 状态，并且在未登录时自动登录",
-            "isSleazy":true
-            
+            "isSleazy": true
         },
         {
             "name": "GitHub文件夹下载",
@@ -226,6 +225,14 @@
             "backuppath": "Script details/github-commit-viewer",
             "GreasyFork": "505830",
             "description": "该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。"
+        },
+        {
+            "name": "ChatGPT 字符计数器限制",
+            "path": "chatgpt-counter.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/chatgpt-counter",
+            "GreasyFork": "505830",
+            "description": "添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）"
         }
     ]
 }
