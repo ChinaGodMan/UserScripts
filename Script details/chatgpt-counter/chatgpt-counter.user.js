@@ -42,7 +42,7 @@
     'use strict'
     // Function to add character counter and handle its behavior
     function addCharacterCounter() {
-        if (document.querySelector('.gpt-charCounter')) {
+        if (document.querySelector('.gpt-charCounter')) {//存在返回
             return
         }
         let textarea = document.querySelector('#prompt-textarea')
