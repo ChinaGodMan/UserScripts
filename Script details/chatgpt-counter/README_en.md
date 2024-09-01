@@ -86,3 +86,5 @@ The ChatGPT Character Counter Limit (CCCL) is a user script designed to add a ch
 
 ## Thanks
 Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) by user [Emree.el](https://greasyfork.org/zh-CN/users/1297357)
+
+![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
