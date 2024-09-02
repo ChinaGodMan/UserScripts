@@ -60,30 +60,33 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
-    <h1>ChatGPT 字符计数器限制</h1>
-    <p>「 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。） 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题..</em></li>
-</ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
-</center>
 
-# ChatGPT 字符计数器限制 
+# GreasyFork 通知助手
 
-## 描述
-
-ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT 的输入框添加一个字符计数器，限制为 32732 个字符。这个脚本可以帮助用户在输入时实时查看已输入字符的数量，并在超出限制时给出视觉提示。
+一个 Tampermonkey 脚本，用于在 GreasyFork 上增强讨论列表功能。当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
 
 ## 功能
 
-- 在 ChatGPT 输入框下方添加一个字符计数器。
-- 实时更新计数器，显示已输入字符数和字符限制。
-- 当字符数超出限制时，计数器文本颜色变为红色，提示用户。
-- 当字符数接近限制时，计数器文本颜色变为绿色，显示警告。
+- **自定义样式：** 提供一个干净、用户友好的模态窗口，用于显示最新的讨论内容，样式可自定义。
+- **自动更新：** 脚本会定期检查讨论的更新，并在有新回复时提醒你。
+- **信息提取：** 从网页上提取讨论标题、时间戳和用户名，并将其整理到模态窗口中。
+
+## 自定义检查时间
+
+脚本使用 `delay` 配置项来设定检查更新的间隔时间。时间格式为以下几种组合：
+
+- `1h1m`：1小时1分钟
+- `30m`：30分钟
+- `1h`：1小时
+- `1m`：1分钟
+- `1s`：1秒
+- `2m1s`：2分1秒
+
+你可以根据需要修改 `delay` 配置项的值，以调整脚本检查讨论更新的频率。例如，如果你希望每15分钟检查一次，可以将 `delay` 设置为 `15m`。
+
+## 项目与反馈
+
+- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
+- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
   
-## Thanks
-修改自用户 [Emree.el](https://greasyfork.org/zh-CN/users/1297357)的脚本 [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) 
-![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
+  ![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)

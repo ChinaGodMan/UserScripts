@@ -60,30 +60,33 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
-    <h1>ChatGPT 字符计数器限制</h1>
-    <p>「 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。） 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题..</em></li>
-</ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
-</center>
 
-# ChatGPT 字符计数器限制 
+# GreasyFork Discussion Watcher
 
-## 描述
+A Tampermonkey script designed to enhance the discussion list functionality on GreasyFork. When there are new replies to your scripts or discussions you are involved in, the script will display the latest discussion content in a modal window on the webpage.
 
-ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT 的输入框添加一个字符计数器，限制为 32732 个字符。这个脚本可以帮助用户在输入时实时查看已输入字符的数量，并在超出限制时给出视觉提示。
+## Features
 
-## 功能
+- **Customizable Style:** Provides a clean, user-friendly modal window to display the latest discussion content, with customizable styles.
+- **Automatic Updates:** The script periodically checks for discussion updates and notifies you when there are new replies.
+- **Information Extraction:** Extracts discussion titles, timestamps, and usernames from the webpage and organizes them into the modal window.
 
-- 在 ChatGPT 输入框下方添加一个字符计数器。
-- 实时更新计数器，显示已输入字符数和字符限制。
-- 当字符数超出限制时，计数器文本颜色变为红色，提示用户。
-- 当字符数接近限制时，计数器文本颜色变为绿色，显示警告。
-  
-## Thanks
-修改自用户 [Emree.el](https://greasyfork.org/zh-CN/users/1297357)的脚本 [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) 
-![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
+## Custom Check Interval
+
+The script uses the `delay` configuration option to set the interval for checking updates. The time format can be one of the following combinations:
+
+- `1h1m`: 1 hour and 1 minute
+- `30m`: 30 minutes
+- `1h`: 1 hour
+- `1m`: 1 minute
+- `1s`: 1 second
+- `2m1s`: 2 minutes and 1 second
+
+You can modify the value of the `delay` configuration option as needed to adjust how often the script checks for discussion updates. For example, if you want to check every 15 minutes, you can set `delay` to `15m`.
+
+## Project and Feedback
+
+- **Project Page:** [GitHub Repository](https://github.com/ChinaGodMan/UserScripts)
+- **Support and Issues:** [Report Issues](https://github.com/ChinaGodMan/UserScripts/issues)
+
+![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)
