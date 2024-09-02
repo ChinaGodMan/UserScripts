@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         网页关键词高亮显示
 // @namespace    https://greasyfork.org/zh-CN/users/1169082
-// @version 1.0.5.13
+// @version 1.0.5.14
 // @description  在网页上自定义关键词突出显示包括滚动时动态加载的内容
 // @description:zh-CN 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  &  leconte112
