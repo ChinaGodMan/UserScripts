@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>GitHub文件夹下载</h1>
     <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
@@ -70,7 +70,7 @@
 <li><strong>2024/8/28 04:21 - Ver: 0.7</strong> <em>替换失效的选择器.</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
-</center>
+</div></center>
 
 # GitHub Folder Downloader
 ### Description

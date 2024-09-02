@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>一键置顶和置底按钮</h1>
     <p>「 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button">Github</a> | ⭐<a
@@ -71,7 +71,7 @@
 <li><em><a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a></em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
-</center>
+</div></center>
 
 
 该脚本修改自 [金衍丞](https://greasyfork.org/scripts/498420/)

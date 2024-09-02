@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>github显示仓库大小</h1>
     <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
@@ -78,7 +78,7 @@
 <li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
-</center>
+</div></center>
 
 
 <p align="center">
