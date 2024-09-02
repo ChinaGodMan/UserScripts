@@ -51,7 +51,7 @@ for script in data['scripts']:
 
     # 准备要添加或替换的 HTML 代码
     html_content = f"""
-<center>
+<center><div align="center">
     <h1>{name}</h1>
     <p>「 {description} 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
