@@ -72,6 +72,7 @@
 
 
 
+
 <table>
     <thead>
         <tr>
@@ -517,6 +518,30 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork 通知助手</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/506345.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/506345?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">网页高亮关键字+(推荐)</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
@@ -780,6 +805,7 @@
         </tr>
     </tbody>
 </table>
+
 
 
 
