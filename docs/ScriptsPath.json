@@ -149,7 +149,7 @@
             "path": "greasyfork-discussion-watcher.user.js",
             "isUpdated": true,
             "backuppath": "Script details/greasyfork-discussion-watcher",
-            "GreasyFork": "497346",
+            "GreasyFork": "506345",
             "description": "当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。"
         },
         {
