@@ -68,7 +68,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题..</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506166.png">
 </div></center>
 
 # ChatGPT Character Counter Limit (CCCL)
