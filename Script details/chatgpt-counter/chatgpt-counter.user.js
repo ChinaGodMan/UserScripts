@@ -29,7 +29,7 @@
 // @name:vi         Giới hạn đếm ký tự ChatGPT (CCCL)
 // @description:vi  Thêm bộ đếm ký tự vào trường nhập với giới hạn 32732 ký tự. (Giới hạn của ChatGPT là 32732 ký tự.)
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 1.3.1.1
+// @version 1.3.1.2
 // @author       Emree.el on instagram ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @grant        none
