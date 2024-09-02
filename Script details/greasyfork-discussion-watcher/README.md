@@ -64,11 +64,11 @@
     <h1>Greasyfork 通知助手</h1>
     <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
+            href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本</em></li>
+<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </center>
 
 # GreasyFork 通知助手
