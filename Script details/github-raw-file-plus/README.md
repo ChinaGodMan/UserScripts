@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>GitHub下载单文件和复制文件URL</h1>
     <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
@@ -69,7 +69,7 @@
 <li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>增加下载功能.</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
-</center>
+</div></center>
 
 # Github 复制原始文件 URL 与下载文件
 

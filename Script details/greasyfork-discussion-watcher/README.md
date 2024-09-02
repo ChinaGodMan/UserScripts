@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>Greasyfork 通知助手</h1>
     <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
@@ -69,7 +69,7 @@
 <li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
-</center>
+</div></center>
 
 # GreasyFork 通知助手
 

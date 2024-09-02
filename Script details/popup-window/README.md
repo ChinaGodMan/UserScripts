@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>小窗口预览</h1>
     <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
@@ -92,7 +92,7 @@
 <li><em>&lt;优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 <code>Google Chrome 的超级拖拽 0.9.9</code><br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
-</center>
+</div></center>
 
 ## 功能介绍
 🔗 拖拽即开小窗 — 拖拽网页链接，便捷地在小窗口中打开并预览，使用 Edge 的预读技术。小窗口后方有亚克力效果，提升视觉体验。

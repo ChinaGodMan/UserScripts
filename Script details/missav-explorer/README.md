@@ -60,14 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>MissAV收藏管理器</h1>
     <p>「 miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">
-</center>
+</div></center>
 
 # Missav 批量提取器
 

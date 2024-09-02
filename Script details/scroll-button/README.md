@@ -60,14 +60,14 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>上下滚动小按钮</h1>
     <p>「 页面右侧添加上下滚动按钮 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497251">Greasy
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497251.png">
-</center>
+</div></center>
 
 在每个网页的右侧添加上下按钮，方便滚动。
 ![1.png](https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png)

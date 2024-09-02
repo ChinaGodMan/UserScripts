@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
     <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
@@ -69,7 +69,7 @@
 <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
 - 2024-08-04T08:59:11 <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
-</center>
+</div></center>
 
 这个脚本是 [wOxxOm](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573) 编写的脚本的一个分支，旨在使其适应新的 GF 布局。  
 感谢他制作了如此重要的脚本。

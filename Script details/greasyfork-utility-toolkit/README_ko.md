@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>Greasyfork糊裱匠</h1>
     <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
@@ -169,7 +169,7 @@
 <li><em>优化：完善对多语言的支持</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
-</center>
+</div></center>
 
 ## Greasyfork의 다양한 기능 제공
 

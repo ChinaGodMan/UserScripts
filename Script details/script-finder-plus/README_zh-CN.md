@@ -60,7 +60,7 @@
 
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center>
+<center><div align="center">
     <h1>Script Finder油猴脚本查找器</h1>
     <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
@@ -83,7 +83,7 @@
 <li><em>新增:增加对移动设备上的支持，手机也能使用啦~<br>修改:取消搜索出错时清空列表的操作</em> </li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
-</center>
+</div></center>
 
 # Script Finder
 
