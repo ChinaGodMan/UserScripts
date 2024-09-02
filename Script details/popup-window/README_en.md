@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>事件错误,修改为检查鼠标y轴＜1时判断移动在浏览器标签页</em></li>
 <li><strong>2024/9/02 05:34 - Ver:.2.4.0.18</strong> </li>
 <li>请求:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">添加功能:</span><br><em>长按鼠标模式下按下键盘不触发预览窗口<br>拖拽模式下浏览器拖住拖拽链接到新标签打开,不会触发预览窗口</em></li>
 <li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>添加拖拽时超时显示超时进度条,时间耗光取消拖拽打开预览窗口</em></li>
