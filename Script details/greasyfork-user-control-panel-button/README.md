@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png">
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/501880.png">
 </div></center>
 
 # GreasyFork: 导航栏增加分类

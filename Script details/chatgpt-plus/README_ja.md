@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/504901.png">
 </div></center>
 
 # ChatGPT Chat Fold Script & MAXWidth

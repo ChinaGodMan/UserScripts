@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504890.png">
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/504890.png">
 </div></center>
 
 <h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">使用的Goolge翻译.无法连接Google的请不要下载</mark></h2>

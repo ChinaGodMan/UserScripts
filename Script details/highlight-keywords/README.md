@@ -66,7 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/498906.png">
 </div></center>
 # 原作者发布页[ mabangde](https://greasyfork.org/zh-CN/scripts/465200)
 
