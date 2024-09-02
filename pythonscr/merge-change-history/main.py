@@ -58,7 +58,7 @@ for script in data['scripts']:
             href="https://greasyfork.org/zh-CN/scripts/{greasyfork_id}">Greasy
             Fork</a></p>{readme_html} 
     {img_tag}
-</center>
+</div></center>
 """
 
     # 检查 backuppath 是否存在
