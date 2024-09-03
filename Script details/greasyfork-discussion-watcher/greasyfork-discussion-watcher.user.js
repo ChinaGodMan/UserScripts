@@ -28,12 +28,13 @@
 // @name:cy          GreasyFork Cymorth Rhybudd
 // @description:cy    Pan fo'ch sgript neu drafodaeth rydych chi'n cymryd rhan ynddi'n derbyn ateb newydd, bydd y sgript yn dangos cynnwys y drafodaeth ddiweddaraf mewn ffenestr modal ar y dudalen.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version      1.0.0.0
+// @version      1.1.0.0
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
 // @grant        GM_setValue
 // @grant        GM_getValue
+// @grant        GM_registerMenuCommand
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==
@@ -42,8 +43,20 @@
     const config = {
         isInstalled: GM_getValue('Installed', false),//第一次不加载~,
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
-        delay: "30m"//格式如下:1h1m1s,1h1s,1m,1s,1m1s
+        delay: GM_getValue('delay', "30m") // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
     }
+    GM_registerMenuCommand("Set refresh time", function () {
+        const currentDelay = config.delay
+        const newDelay = prompt("New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):", currentDelay)
+        if (newDelay !== null) {
+            if (/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(newDelay)) {
+                GM_setValue('delay', newDelay)
+                config.delay = newDelay
+            } else {
+                alert("The input format is incorrect, please re-enter!")
+            }
+        }
+    })
     function timeToSeconds(timeStr) {
         let hours = 0, minutes = 0, seconds = 0
         const hoursMatch = timeStr.match(/(\d+)h/)
