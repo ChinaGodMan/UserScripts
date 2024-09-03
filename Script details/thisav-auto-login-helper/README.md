@@ -61,12 +61,12 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>ThisAV自动登录</h1>
-    <p>「 检测 ThisAV 状态，并且在未登录时自动登录 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/this-auto-login-helper">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
-            Fork</a></p> 
-    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/505325.png">
+    <h1>TissAV自动登录</h1>
+    <p>「 检测 TissAV 状态，并且在未登录时自动登录 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/thisav-auto-login-helper">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/506528">Greasy
+            Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details> 
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506528.png">
 </div></center>
 
 # ThisAV AutoLogin Helper
