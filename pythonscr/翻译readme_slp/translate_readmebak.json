@@ -1,0 +1,76 @@
+{
+    "translatelist": [
+        {
+            "foldpath": "Script details/GitHub Sort by Date/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "en",
+                "ko",
+                "vi",
+                "ja"
+            ],
+            "translated": true
+        },
+        {
+            "foldpath": "Script details/GreasyFork User Control Panel Button/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "zh-TW"
+            ],
+            "translated": false
+        },
+        {
+            "foldpath": "Script details/移除链接下划线/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "fr",
+                "es",
+                "de",
+                "it",
+                "bh",
+                "ko",
+                "th",
+                "sr",
+                "sv",
+                "vi",
+                "ru",
+                "de",
+                "id",
+                "hu",
+                "he",
+                "eo"
+            ],
+            "translated": false
+        },
+        {
+            "foldpath": "Script details/糊裱匠/",
+            "translatefile": "README_zh-CN.md",
+            "translatedto": [
+                "fr",
+                "vi",
+                "it",
+                "bh",
+                "ko",
+                "th",
+                "sr",
+                "sv",
+                "vi",
+                "ru",
+                "de",
+                "id",
+                "hu",
+                "he",
+                "eo"
+            ],
+            "translated": false
+        },
+        {
+            "foldpath": "Script details/ChatGPT+/",
+            "translatefile": "README.md",
+            "translatedto": [
+                "vi"
+            ],
+            "translated": false
+        }
+    ]
+}
