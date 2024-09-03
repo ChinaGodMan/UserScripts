@@ -152,7 +152,7 @@ jobs:
           current_date=$(TZ='Asia/Shanghai' date '+%Y/%m/%d %H:%M:%S')
           commit_message="<b><img src='https://avatars.githubusercontent.com/in/15368?v=4%27&size=32'><a href='https://github.com/ChinaGodMan'><ruby>人民的勤务员<rt>Github:ChinaGodMan</rt></ruby></a><span>(UTC+8) $current_date Fix BUG</span></b>"
           echo "提交信息: $commit_message"
-          git commit -m "$commit_message" || echo "没有需要提交的更改"
+          git commit -m "FIX" || echo "没有需要提交的更改"
           
           git push origin ${{ env.branch }}  # 推送到当前分支
         env:
