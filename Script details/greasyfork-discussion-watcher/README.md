@@ -66,6 +66,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>增加设置刷新时间的油猴菜单</em></li>
 <li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
     <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506345.png">
