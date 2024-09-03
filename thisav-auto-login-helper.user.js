@@ -75,11 +75,11 @@
 // @description:ja  ThisAV  の状態を検出し、未ログインの場合に自動でログインします
 // @namespace               https://github.com/ChinaGodMan/UserScripts
 // @author         人民的勤务员 <toniaiwanowskiskr47@gmail.com>
-// @match        https:// ThisAV  .com/*
+// @match        https://thisav.com/*
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @version 1.0.0.95
+// @version 1.0.0.96
 // @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @icon         https://pic.616pic.com/ys_bnew_img/00/35/79/Gv93yQh7v6.jpg
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
