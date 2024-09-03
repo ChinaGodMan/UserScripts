@@ -87,7 +87,7 @@
         return totalSeconds
     }
     function isUpdate() {
-        return true
+
         const now = Math.floor(new Date().getTime() / 1000)
         const lastUpdated = config.lastUpdated
         const secondsDifference = now - lastUpdated
