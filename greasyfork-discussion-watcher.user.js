@@ -28,7 +28,7 @@
 // @name:cy          GreasyFork Cymorth Rhybudd
 // @description:cy    Pan fo'ch sgript neu drafodaeth rydych chi'n cymryd rhan ynddi'n derbyn ateb newydd, bydd y sgript yn dangos cynnwys y drafodaeth ddiweddaraf mewn ffenestr modal ar y dudalen.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 1.1.0.1
+// @version 1.2.0.0
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -41,10 +41,14 @@
 (function () {
     'use strict'
     const config = {
-        isInstalled: GM_getValue('Installed', false),//第一次不加载~,
+        isInstalled: GM_getValue('Installed', true),//第一次不加载~,
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
-        delay: GM_getValue('delay', "30m") // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
+        delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
+        userId: null,//当前登录id
+        maxItem: GM_getValue('maxItem', "50"),//访问时显示最大的信息数量
+
     }
+
     GM_registerMenuCommand("Set refresh time", function () {
         const currentDelay = config.delay
         const newDelay = prompt("New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):", currentDelay)
@@ -55,6 +59,14 @@
             } else {
                 alert("The input format is incorrect, please re-enter!")
             }
+        }
+    })
+    GM_registerMenuCommand("Limit message count ", function () {
+
+        const newMax = prompt("New Count:", config.maxItem)
+        if (newMax !== null) {
+            GM_setValue('maxItem', newMax)
+            config.maxItem = newMax
         }
     })
     function timeToSeconds(timeStr) {
@@ -75,6 +87,7 @@
         return totalSeconds
     }
     function isUpdate() {
+
         const now = Math.floor(new Date().getTime() / 1000)
         const lastUpdated = config.lastUpdated
         const secondsDifference = now - lastUpdated
@@ -105,6 +118,7 @@
         var discussionList = document.getElementById('discussion-list')
         var modalContent = document.getElementById('modal-content')
         urls.forEach(url => {
+
             fetchPromises.push(
                 fetch(url)
                     .then(response => response.text())
@@ -121,17 +135,23 @@
                             var existingDiscussion = discussions.find(function (disc) {
                                 return disc.discussionTitleHref === discussionTitleHref
                             })
+                            const userLinks = element.querySelectorAll('a.user-link')
                             if (existingDiscussion && existingDiscussion.relativeTime === latestRelativeTime) return
                             var discussionInfo = {
                                 discussionTitleHref: discussionTitleHref,
                                 relativeTime: latestRelativeTime,
-                                userName: element.querySelector('a.user-link') ? element.querySelector('a.user-link').textContent.trim() : null
+                                lasteduserName: userLinks.length > 1 ? userLinks[userLinks.length - 1].textContent.trim() : null,//最后的发言人
+                                lastedID: userLinks.length > 1 ? userLinks[userLinks.length - 1].href.match(/\/users\/(\d+)-/)[1] : null//ANCHOR - 获取最后的发言人ID
                             }
                             if (existingDiscussion) {
                                 existingDiscussion.relativeTime = latestRelativeTime
-                                existingDiscussion.userName = discussionInfo.userName
+                                existingDiscussion.lasteduserName = discussionInfo.lasteduserName
                             } else {
                                 discussions.push(discussionInfo)
+                            }
+                            if (discussionInfo.lastedID === config.userId) {
+                                console.log("skip ")//NOTE - 最新发言是自己,跳过.
+                                return
                             }
                             var listItemHTML = '<li class="discussion-item">' + element.innerHTML + '<hr style="margin: 10px 0; border: none; border-top: 1px solid #ddd;"></li>'
                             discussionList.innerHTML += listItemHTML
@@ -187,11 +207,11 @@
             return null
         }
     }
-    const userId = getUserId()
-    if (userId) {
+    config.userId = getUserId()
+    if (config.userId) {
         fetchAndDisplayDiscussions([
-            `https://greasyfork.org/discussions?user=${userId}`,
-            'https://greasyfork.org/discussions?me=script'
+            `https://greasyfork.org/discussions?user=${config.userId}&per_page=${config.maxItem}`,
+            `https://greasyfork.org/discussions?me=script&per_page=${config.maxItem}`
         ])
     } else {
         console.log("没有登录,放弃操作")
