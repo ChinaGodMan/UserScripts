@@ -187,6 +187,15 @@
             "isSleazy": true
         },
         {
+            "name": "TissAV自动登录",
+            "path": "thisav-auto-login-helper.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/thisav-auto-login-helper",
+            "GreasyFork": "506528",
+            "description": "检测 TissAV 状态，并且在未登录时自动登录",
+            "isSleazy": true
+        },
+        {
             "name": "外语终结者",
             "path": "no-zh-terminator.user.js",
             "isUpdated": true,
