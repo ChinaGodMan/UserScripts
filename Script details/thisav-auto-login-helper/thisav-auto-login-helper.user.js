@@ -79,7 +79,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @version 1.0.0.96
+// @version 1.0.0.97
 // @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @icon         https://pic.616pic.com/ys_bnew_img/00/35/79/Gv93yQh7v6.jpg
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues

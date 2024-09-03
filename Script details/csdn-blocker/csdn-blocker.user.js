@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         解除CSDN登录复制
 // @namespace    https://greasyfork.org/users/1169082/
-// @version 1.0.0.11
+// @version 1.0.0.12
 // @description  去你妈的CSDN登录复制,无需登录即可复制
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://blog.csdn.net/*
