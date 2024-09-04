@@ -37,6 +37,7 @@ html_table = '''<table>
             <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
             <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
             <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
         </tr>
     </thead>
     <tbody>
@@ -70,6 +71,7 @@ for script in data.get('scripts', []):
             <td><sub>{script.get("created_at")}</sub></td>
             <td><sub>{script.get("code_updated_at")}</sub></td>
              <td><sub>{script.get("version")}</sub></td>
+              <td><sub>{script.get("local_created_at")}</sub></td>
         </tr>
     '''
 
