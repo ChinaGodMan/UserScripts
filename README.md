@@ -76,6 +76,7 @@
 
 
 
+
 <table>
     <thead>
         <tr>
@@ -394,6 +395,30 @@
             <td>
                 <a href="https://update.greasyfork.org/scripts/497317.user.js">
                     <img src="https://img.shields.io/greasyfork/dt/497317?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 增强 WebHook同步设置</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/506717.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/506717?color=%23990000&label=Installs">
                     <br>安装
                 </a>
             </td>
@@ -832,6 +857,7 @@
         </tr>
     </tbody>
 </table>
+
 
 
 
