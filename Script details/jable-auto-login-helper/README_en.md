@@ -57,9 +57,6 @@
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
 
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>JableTV自动登录</h1>
@@ -73,7 +70,6 @@
 </div></center>
 
 # JableTV  AutoLogin Helper
-
 This script is used for managing user accounts on JableTV . It provides functionalities for automatic login and checking if the user is already logged in.
 
 ## Features
