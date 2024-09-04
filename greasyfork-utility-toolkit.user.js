@@ -1,31 +1,81 @@
 // ==UserScript==
 // @name        Greasyfork Utility Toolkit
-// @name:en     Greasyfork Utility Toolkit
 // @name:zh-CN  Greasyfork 糊裱匠
-// @name:zh-TW  Greasyfork 糊裱匠
-// @name:ja     Greasyfork ツールキット
-// @name:ko     Greasyfork 유틸리티 툴킷
-// @name:ru     Набор инструментов для Greasyfork
-// @name:de     Greasyfork Dienstprogramm-Toolkit
-// @name:fr     Toolkit utilitaire Greasyfork
-// @name:it     Kit di strumenti utilitari Greasyfork
-// @name:ar     مجموعة أدوات Greasyfork
-// @name:he     ערכת כלים Greasyfork
-// @name:vi     Bộ công cụ tiện ích Greasyfork
+// @description:zh-CN 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
+// @name:ar  Greasyfork حرفي الغراء
+// @description:ar ل Greasyfork توفير وظائف الاستخدام المختلفة，الوقت المطلق，شاشة ويب عريضة，تحسينات صفحة البرنامج النصي，تنزيل الامتداد，إصلاح اللوحة وسلسلة من العمليات
+// @name:bg  Greasyfork Майстор на лепило
+// @description:bg за Greasyfork Осигурете различни функции за използване，абсолютно време，Уеб широкоекранен，Подобрения на страницата със скриптове，Изтегляне на разширение，Ремонт на панел и серия от операции
+// @name:cs  Greasyfork Lepidlo řemeslník
+// @description:cs pro Greasyfork Poskytují různé uživatelské funkce，absolutní čas，Širokoúhlý web，Vylepšení stránky skriptu，Stáhnout rozšíření，Oprava panelu a řada operací
+// @name:da  Greasyfork Lim håndværker
+// @description:da for Greasyfork Giver forskellige brugsfunktioner，absolut tid，Web widescreen，Forbedringer af scriptside，Download udvidelse，Panelreparation og en række operationer
+// @name:de  Greasyfork Kleberhandwerker
+// @description:de für Greasyfork Stellen Sie verschiedene Nutzungsfunktionen bereit，absolute Zeit，Web-Breitbild，Verbesserungen der Skriptseite，Erweiterung herunterladen，Panel-Reparatur und eine Reihe von Operationen
+// @name:el  Greasyfork Τεχνίτης κόλλας
+// @description:el για Greasyfork Παρέχετε διάφορες λειτουργίες χρήσης，απόλυτος χρόνος，Web ευρεία οθόνη，Βελτιώσεις σελίδας σεναρίου，Λήψη επέκτασης，Επισκευή πίνακα και μια σειρά λειτουργιών
+// @name:en  Greasyfork Glue craftsman
+// @description:en for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
+// @name:eo  Greasyfork Glua metiisto
+// @description:eo por Greasyfork Provizu diversajn uzfunkciojn，absoluta tempo，Reteja larĝa ekrano，Plibonigoj pri skriptopaĝo，Elŝutu etendon，Riparo de paneloj kaj serio de operacioj
+// @name:es  Greasyfork Artesano del pegamento
+// @description:es para Greasyfork Proporcionar varias funciones de uso.，tiempo absoluto，pantalla ancha web，Mejoras en la página de script，Descargar extensión，Reparación de paneles y una serie de operaciones.
+// @name:fi  Greasyfork Liiman käsityöläinen
+// @description:fi varten Greasyfork Tarjoa erilaisia ​​käyttötoimintoja，absoluuttinen aika，Web laajakuva，Käsikirjoitussivun parannukset，Lataa laajennus，Paneelin korjaus ja sarja toimenpiteitä
+// @name:fr  Greasyfork Artisan de la colle
+// @description:fr pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
+// @name:he  Greasyfork אומן דבק
+// @description:he עֲבוּר Greasyfork לספק פונקציות שימוש שונות，זמן מוחלט，מסך רחב באינטרנט，שיפורי דפי סקריפט，הורד תוסף，תיקון לוח וסדרת פעולות
+// @name:hr  Greasyfork Majstor za ljepilo
+// @description:hr za Greasyfork Pružite različite funkcije korištenja，apsolutno vrijeme，Web široki zaslon，Poboljšanja stranice skripte，Proširenje za preuzimanje，Popravak panela i niz operacija
+// @name:hu  Greasyfork Ragasztó iparos
+// @description:hu számára Greasyfork Különféle használati funkciókat biztosít，abszolút idő，Web szélesvásznú，A szkriptoldal fejlesztései，Bővítmény letöltése，Paneljavítás és egy sor művelet
+// @name:id  Greasyfork Pengrajin lem
+// @description:id untuk Greasyfork Menyediakan berbagai fungsi penggunaan，waktu mutlak，Layar lebar web，Peningkatan halaman skrip，Unduh ekstensi，Perbaikan panel dan serangkaian operasi
+// @name:it  Greasyfork Artigiano della colla
+// @description:it per Greasyfork Fornire varie funzioni di utilizzo，tempo assoluto，Web widescreen，Miglioramenti alla pagina dello script，Scarica l’estensione，Riparazione del pannello e una serie di operazioni
+// @name:ja  Greasyfork 糊裱匠
+// @description:ja のために Greasyfork さまざまな利用機能を提供，絶対時間，ウェブワイドスクリーン，スクリプトページの機能強化，ダウンロード拡張機能，パネル修理と一連の作業
+// @name:ka  Greasyfork წებოს ხელოსანი
+// @description:ka ამისთვის Greasyfork უზრუნველყოს სხვადასხვა გამოყენების ფუნქციები，აბსოლუტური დრო，ვებ ფართოეკრანი，სკრიპტის გვერდის გაუმჯობესება，გაფართოების ჩამოტვირთვა，პანელის შეკეთება და ოპერაციების სერია
+// @name:ko  Greasyfork 糊裱匠
+// @description:ko ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+// @name:nl  Greasyfork Lijm ambachtsman
+// @description:nl voor Greasyfork Bied verschillende gebruiksfuncties，absolute tijd，Web-breedbeeld，Verbeteringen van scriptpagina’s，Extensie downloaden，Paneelreparatie en een reeks bewerkingen
+// @name:nb  Greasyfork Lim håndverker
+// @description:nb til Greasyfork Tilby ulike bruksfunksjoner，absolutt tid，Web widescreen，Skriptsideforbedringer，Last ned utvidelse，Panelreparasjon og en rekke operasjoner
+// @name:pl  Greasyfork Mistrz klejenia
+// @description:pl Do Greasyfork Zapewnij różne funkcje użytkowe，czas absolutny，Internet panoramiczny，Ulepszenia strony skryptowej，Pobierz rozszerzenie，Naprawa panelu i szereg operacji
+// @name:pt-BR  Greasyfork Artesão de cola
+// @description:pt-BR para Greasyfork Fornece várias funções de uso，tempo absoluto，Ecrã panorâmico da Web，Melhorias na página de script，Baixar extensão，Reparo do painel e uma série de operações
+// @name:ro  Greasyfork Meșter de lipici
+// @description:ro pentru Greasyfork Furnizați diverse funcții de utilizare，timp absolut，Ecran lat web，Îmbunătățiri ale paginii de script，Descărcați extensia，Reparatie panouri si o serie de operatii
+// @name:ru  Greasyfork Мастер по клею
+// @description:ru для Greasyfork Обеспечить различные функции использования，абсолютное время，Интернет широкоэкранный，Улучшения страницы скрипта，Скачать расширение，Ремонт панели и ряд операций
+// @name:sk  Greasyfork Lepidlo remeselník
+// @description:sk pre Greasyfork Poskytujte rôzne funkcie používania，absolútny čas，Web širokouhlý，Vylepšenia stránky skriptov，Stiahnite si rozšírenie，Oprava panelov a séria operácií
+// @name:sr  Greasyfork Мајстор лепка
+// @description:sr за Greasyfork Обезбедите различите функције коришћења，апсолутно време，Веб видесцреен，Побољшања странице скрипте，Преузмите екстензију，Поправка панела и низ операција
+// @name:sv  Greasyfork Limhantverkare
+// @description:sv för Greasyfork Tillhandahålla olika användningsfunktioner，absolut tid，Web widescreen，Förbättringar av skriptsidor，Ladda ner tillägg，Panelreparation och en rad operationer
+// @name:th  Greasyfork ช่างกาว
+// @description:th สำหรับ Greasyfork จัดให้มีฟังก์ชันการใช้งานต่างๆ，เวลาที่แน่นอน，เว็บไวด์สกรีน，การปรับปรุงหน้าสคริปต์，ดาวน์โหลดส่วนขยาย，การซ่อมแซมแผงและการดำเนินการต่างๆ
+// @name:tr  Greasyfork Tutkal ustası
+// @description:tr için Greasyfork Çeşitli kullanım fonksiyonları sağlayın，mutlak zaman，Web geniş ekranı，Komut dosyası sayfası geliştirmeleri，Uzantıyı indir，Panel onarımı ve bir dizi işlem
+// @name:ug  Greasyfork يېلىم ھۈنەرۋەن
+// @description:ug for Greasyfork ھەر خىل ئىشلىتىش ئىقتىدارلىرى بىلەن تەمىنلەڭ，مۇتلەق ۋاقىت，تور كەڭ ئېكران，قوليازما بېتىنى ياخشىلاش，كېڭەيتىلمىنى چۈشۈرۈڭ，تاختاينى رېمونت قىلىش ۋە بىر يۈرۈش مەشغۇلاتلار
+// @name:uk  Greasyfork Майстер з клею
+// @description:uk для Greasyfork Забезпечте різноманітні функції використання，абсолютний час，Веб широкоформатний，Покращення сторінки сценарію，Завантажте розширення，Ремонт панелей та ряд операцій
+// @name:vi  Greasyfork Thợ làm keo
+// @description:vi vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động
+// @name:zh-TW  Greasyfork 膠水工匠
+// @description:zh-TW 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
+// @name:zh-HK  Greasyfork 膠水工匠
+// @description:zh-HK 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
+// @name:fr-CA  Greasyfork Artisan de la colle
+// @description:fr-CA pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
 // @namespace    https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98
 // @description Providing various features for Greasyfork, including absolute time, widescreen web pages, script page enhancements, download extensions, panel fixes, and more.
-// @description:en Providing various features for Greasyfork, including absolute time, widescreen web pages, script page enhancements, download extensions, panel fixes, and more.
-// @description:zh-CN 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
-// @description:zh-TW 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載擴展，面板修復等一系列操作
-// @description:ja Greasyfork に絶対時間、ワイドスクリーンウェブページ、スクリプトページの強化、ダウンロード拡張、パネル修正など、さまざまな機能を提供します。
-// @description:ko Greasyfork에 절대 시간, 와이드스크린 웹 페이지, 스크립트 페이지 강화, 다운로드 확장, 패널 수정 등을 포함한 다양한 기능을 제공합니다.
-// @description:ru Предоставление различных функций для Greasyfork, включая абсолютное время, широкоформатные веб-страницы, улучшения страниц скриптов, расширения для загрузки, исправления панелей и многое другое.
-// @description:de Bereitstellung verschiedener Funktionen für Greasyfork, einschließlich absoluter Zeit, Breitbild-Webseiten, Skriptseitenerweiterungen, Download-Erweiterungen, Panelkorrekturen und mehr.
-// @description:fr Fournir diverses fonctionnalités pour Greasyfork, y compris le temps absolu, les pages Web en écran large, les améliorations de pages de scripts, les extensions de téléchargement, les correctifs de panneau, et plus encore.
-// @description:it Fornire varie funzionalità per Greasyfork, inclusi il tempo assoluto, le pagine Web widescreen, i miglioramenti delle pagine degli script, le estensioni di download, le correzioni dei pannelli e altro ancora.
-// @description:ar توفير وظائف متنوعة لـ Greasyfork، بما في ذلك الوقت المطلق، وصفحات الويب ذات الشاشة العريضة، وتعزيز صفحات النصوص البرمجية، وتوسعات التنزيل، وإصلاحات اللوحة، والمزيد.
-// @description:he מתן מגוון פונקציות עבור Greasyfork, כולל זמן מוחלט, דפי אינטרנט ברוחב מסך רחב, שיפורי דפי סקריפטים, הרחבות להורדה, תיקוני לוח ועוד.
-// @description:vi Cung cấp các tính năng khác nhau cho Greasyfork, bao gồm thời gian tuyệt đối, trang web màn hình rộng, nâng cao trang kịch bản, tiện ích mở rộng tải xuống, sửa lỗi bảng điều khiển và nhiều hơn nữa.
 // @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
 // @require      https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js

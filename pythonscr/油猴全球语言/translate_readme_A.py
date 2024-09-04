@@ -3,6 +3,7 @@ import os
 import re
 from urllib.parse import urlencode
 from urllib.request import urlopen
+import time
 
 # 读取 translate_table.json 文件中的翻译表
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +39,7 @@ def translate_text(text, target_lang):
         translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
         return translated_text
     except Exception as e:
-        print(f"翻译错误：{e}")
+        print(f"翻译错误：{target_lang} {e}")
         return None
 
 # 遍历 translatelist 中的每个条目
@@ -66,7 +67,7 @@ for item in data['translatelist']:
         for line in lines:
             if '@name' in line or '@description' in line:
                 # 找到 @name 或 @description 后，将目标语言代码插入到内容末尾
-                updated_line = re.sub(r'(@name|@description)', r'\1:' + lang, line)
+                updated_line = re.sub(r'(@name|@description):[a-zA-Z-]+', r'\1:' + lang, line)
                 updated_lines.append(updated_line)
             else:
                 updated_lines.append(line)
@@ -96,7 +97,12 @@ for item in data['translatelist']:
             new_lines.append(line)  # 添加翻译后的行内容
 
         # 新建或覆盖目标文件并保存翻译后的内容
-        with open(readme_path, 'a', encoding='utf-8') as f_out:
-           f_out.writelines(new_lines)
+        if translations:
+            with open(readme_path, 'a', encoding='utf-8') as f_out:
+                f_out.writelines(new_lines)
 
-        print(f"翻译完成，已将 {lang} 语言的结果写入 '{readme_path}'。")
+            print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}' 等待2秒继续。")
+        else:
+            print(f"跳过写入 {output_path}，因为没有有效翻译。")
+
+        #time.sleep(2)

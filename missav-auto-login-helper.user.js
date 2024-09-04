@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name       MissAV   Automatic login
-// @description Detection  MissAV   state,and automatically log in when not logged in
+// @name:zh-CN        MissAV   自动登录
+// @description:zh-CN 检测  MissAV   状态,并且在未登录时自动登录
 // @name:ar        MissAV   تسجيل الدخول التلقائي
 // @description:ar كشف  MissAV   ولاية,وتسجيل الدخول تلقائيًا في حالة عدم تسجيل الدخول
 // @name:bg        MissAV   Автоматично влизане
@@ -67,12 +68,13 @@
 // @description:uk виявлення  MissAV   стан,і автоматично ввійти, якщо ви не ввійшли
 // @name:vi        MissAV   Đăng nhập tự động
 // @description:vi Phát hiện  MissAV   tình trạng,và tự động đăng nhập khi chưa đăng nhập
-// @name:zh-CN        MissAV   自动登录
-// @description:zh-CN 检测  MissAV   状态,并且在未登录时自动登录
 // @name:zh-TW        MissAV   自動登入
 // @description:zh-TW 偵測  MissAV   狀態,並且在未登入時自動登入
-// @name:ja        MissAV   自動ログイン
-// @description:ja MissAV   の状態を検出し、未ログインの場合に自動でログインします
+// @name:zh-HK        MissAV   自動登入
+// @description:zh-HK 偵測  MissAV   狀態,並且在未登入時自動登入
+// @name:fr-CA        MissAV   Connexion automatique
+// @description:fr-CA Détection  MissAV   État,et connectez-vous automatiquement lorsque vous n’êtes pas connecté
+// @description Detection  MissAV   state,and automatically log in when not logged in
 // @namespace               https://github.com/ChinaGodMan/UserScripts
 // @author         人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://missav.com/*

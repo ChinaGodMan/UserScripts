@@ -39,7 +39,7 @@
         "value": "7",
         "nation": "العربية",
         "code": "ar",
-        "translated": true
+        "translated": false
     },
     {
         "value": "8",
@@ -177,7 +177,7 @@
         "value": "30",
         "nation": "Čeština",
         "code": "cs",
-        "translated": true
+        "translated": false
     },
     {
         "value": "31",
@@ -201,13 +201,13 @@
         "value": "34",
         "nation": "Dansk",
         "code": "da",
-        "translated": true
+        "translated": false
     },
     {
         "value": "35",
         "nation": "Deutsch",
         "code": "de",
-        "translated": true
+        "translated": false
     },
     {
         "value": "36",
@@ -231,25 +231,25 @@
         "value": "39",
         "nation": "Ελληνικά",
         "code": "el",
-        "translated": true
+        "translated": false
     },
     {
         "value": "40",
         "nation": "English",
         "code": "en",
-        "translated": true
+        "translated": false
     },
     {
         "value": "41",
         "nation": "Esperanto",
         "code": "eo",
-        "translated": true
+        "translated": false
     },
     {
         "value": "42",
         "nation": "Español",
         "code": "es",
-        "translated": true
+        "translated": false
     },
     {
         "value": "43",
@@ -279,7 +279,7 @@
         "value": "47",
         "nation": "Suomi",
         "code": "fi",
-        "translated": true
+        "translated": false
     },
     {
         "value": "48",
@@ -303,7 +303,7 @@
         "value": "51",
         "nation": "Français",
         "code": "fr",
-        "translated": true
+        "translated": false
     },
     {
         "value": "52",
@@ -363,7 +363,7 @@
         "value": "61",
         "nation": "עברית",
         "code": "he",
-        "translated": true
+        "translated": false
     },
     {
         "value": "62",
@@ -387,7 +387,7 @@
         "value": "65",
         "nation": "Hrvatski",
         "code": "hr",
-        "translated": true
+        "translated": false
     },
     {
         "value": "66",
@@ -399,7 +399,7 @@
         "value": "67",
         "nation": "Magyar",
         "code": "hu",
-        "translated": true
+        "translated": false
     },
     {
         "value": "68",
@@ -423,7 +423,7 @@
         "value": "71",
         "nation": "Bahasa Indonesia",
         "code": "id",
-        "translated": true
+        "translated": false
     },
     {
         "value": "72",
@@ -453,7 +453,7 @@
         "value": "76",
         "nation": "Italiano",
         "code": "it",
-        "translated": true
+        "translated": false
     },
     {
         "value": "77",
@@ -465,7 +465,7 @@
         "value": "78",
         "nation": "日本語",
         "code": "ja",
-        "translated": true
+        "translated": false
     },
     {
         "value": "79",
@@ -477,7 +477,7 @@
         "value": "80",
         "nation": "Georgian",
         "code": "ka",
-        "translated": true
+        "translated": false
     },
     {
         "value": "81",
@@ -525,7 +525,7 @@
         "value": "88",
         "nation": "한국어",
         "code": "ko",
-        "translated": true
+        "translated": false
     },
     {
         "value": "89",
@@ -705,13 +705,13 @@
         "value": "118",
         "nation": "Nederlands",
         "code": "nl",
-        "translated": true
+        "translated": false
     },
     {
         "value": "119",
         "nation": "Bokmål",
         "code": "nb",
-        "translated": true
+        "translated": false
     },
     {
         "value": "120",
@@ -777,7 +777,7 @@
         "value": "130",
         "nation": "Polski",
         "code": "pl",
-        "translated": true
+        "translated": false
     },
     {
         "value": "131",
@@ -801,7 +801,7 @@
         "value": "134",
         "nation": "Português do Brasil",
         "code": "pt-BR",
-        "translated": true
+        "translated": false
     },
     {
         "value": "135",
@@ -825,13 +825,13 @@
         "value": "138",
         "nation": "Română",
         "code": "ro",
-        "translated": true
+        "translated": false
     },
     {
         "value": "139",
         "nation": "Русский",
         "code": "ru",
-        "translated": true
+        "translated": false
     },
     {
         "value": "140",
@@ -891,7 +891,7 @@
         "value": "149",
         "nation": "Slovenčina",
         "code": "sk",
-        "translated": true
+        "translated": false
     },
     {
         "value": "150",
@@ -927,7 +927,7 @@
         "value": "155",
         "nation": "Српски",
         "code": "sr",
-        "translated": true
+        "translated": false
     },
     {
         "value": "156",
@@ -951,7 +951,7 @@
         "value": "159",
         "nation": "Svenska",
         "code": "sv",
-        "translated": true
+        "translated": false
     },
     {
         "value": "160",
@@ -987,7 +987,7 @@
         "value": "165",
         "nation": "ภาษาไทย",
         "code": "th",
-        "translated": true
+        "translated": false
     },
     {
         "value": "166",
@@ -1023,7 +1023,7 @@
         "value": "171",
         "nation": "Türkçe",
         "code": "tr",
-        "translated": true
+        "translated": false
     },
     {
         "value": "172",
@@ -1053,13 +1053,13 @@
         "value": "176",
         "nation": "ئۇيغۇرچە",
         "code": "ug",
-        "translated": true
+        "translated": false
     },
     {
         "value": "177",
         "nation": "Українська",
         "code": "uk",
-        "translated": true
+        "translated": false
     },
     {
         "value": "178",
@@ -1083,7 +1083,7 @@
         "value": "181",
         "nation": "Tiếng Việt",
         "code": "vi",
-        "translated": true
+        "translated": false
     },
     {
         "value": "182",
@@ -1125,13 +1125,7 @@
         "value": "188",
         "nation": "繁體中文",
         "code": "zh-TW",
-        "translated": true
-    },
-    {
-        "value": "188",
-        "nation": "繁體中文",
-        "code": "zh-HK",
-        "translated": true
+        "translated": false
     },
     {
         "value": "189",
@@ -1143,7 +1137,7 @@
         "value": "190",
         "nation": "Français canadien",
         "code": "fr-CA",
-        "translated": true
+        "translated": false
     },
     {
         "value": "191",
