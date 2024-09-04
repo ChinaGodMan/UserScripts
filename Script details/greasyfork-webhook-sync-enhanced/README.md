@@ -114,3 +114,5 @@
 
 ![sync.png](https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png)
 ![nav.png](https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png)
+![message.png](https://s2.loli.net/2024/09/05/2C6pUBQryHZg35j.png)
+![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
