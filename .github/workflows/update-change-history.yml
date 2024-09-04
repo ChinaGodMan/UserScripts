@@ -36,9 +36,10 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 运行合并脚本
+      - name: 运行合并脚本 并对没有帮助文档的说明增加一下
         run: |
           python pythonscr/merge-change-history/main.py
+          python pythonscr/update-help/main.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
