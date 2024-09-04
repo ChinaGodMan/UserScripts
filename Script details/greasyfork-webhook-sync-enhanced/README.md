@@ -67,7 +67,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>每次提交后返回GreasyFork同步提示.</em></li>
+<li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>每次提交后返回GreasyFork同步提示..</em></li>
 <li><strong>2024/9/4 11:52 - Ver: 1.0.0.0</strong> <em>初始版本.欢迎使用.</em></li>
 </ul></details> 
     <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506717.png">
@@ -117,3 +117,7 @@
 ![nav.png](https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png)
 ![message.png](https://s2.loli.net/2024/09/05/2C6pUBQryHZg35j.png)
 ![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
+
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
