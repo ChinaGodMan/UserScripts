@@ -77,6 +77,10 @@
 
 
 
+
+
+
+
 <table>
     <thead>
         <tr>
@@ -84,6 +88,9 @@
             <th>脚本说明</th>
             <th>GitHub</th>
             <th>Greasyfork</th>
+            <th>发布时间</th>
+            <th>更新时间</th>
+            <th>最新版本</th>
         </tr>
     </thead>
     <tbody>
@@ -110,6 +117,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 11:42:17</sub></td>
+            <td><sub>2024-09-04 09:16:23</sub></td>
+             <td><sub>0.1.0.13</sub></td>
         </tr>
     <tr>
             <td>
@@ -134,6 +144,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-09-01 09:51:01</sub></td>
+            <td><sub>2024-09-04 09:16:24</sub></td>
+             <td><sub>1.3.1.4</sub></td>
         </tr>
     <tr>
             <td>
@@ -158,6 +171,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-24 11:33:58</sub></td>
+            <td><sub>2024-09-04 09:16:24</sub></td>
+             <td><sub>0.1.0.15</sub></td>
         </tr>
     <tr>
             <td>
@@ -182,6 +198,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-09 10:17:55</sub></td>
+            <td><sub>2024-09-04 09:16:24</sub></td>
+             <td><sub>1.2.2.63</sub></td>
         </tr>
     <tr>
             <td>
@@ -206,6 +225,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 11:37:22</sub></td>
+            <td><sub>2024-09-04 09:16:25</sub></td>
+             <td><sub>1.0.0.13</sub></td>
         </tr>
     <tr>
             <td>
@@ -230,6 +252,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-30 10:13:44</sub></td>
+            <td><sub>2024-09-04 09:16:25</sub></td>
+             <td><sub>1.0.0.9</sub></td>
         </tr>
     <tr>
             <td>
@@ -254,6 +279,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-28 04:27:35</sub></td>
+            <td><sub>2024-09-04 09:16:25</sub></td>
+             <td><sub>0.7.0.13</sub></td>
         </tr>
     <tr>
             <td>
@@ -278,6 +306,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-28 05:20:14</sub></td>
+            <td><sub>2024-09-04 09:16:25</sub></td>
+             <td><sub>2.2.0.12</sub></td>
         </tr>
     <tr>
             <td>
@@ -302,6 +333,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-01 03:43:19</sub></td>
+            <td><sub>2024-09-04 09:16:26</sub></td>
+             <td><sub>0.1.2.46</sub></td>
         </tr>
     <tr>
             <td>
@@ -326,6 +360,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 12:30:53</sub></td>
+            <td><sub>2024-09-04 09:16:26</sub></td>
+             <td><sub>1.1.0.13</sub></td>
         </tr>
     <tr>
             <td>
@@ -350,6 +387,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-05 10:28:20</sub></td>
+            <td><sub>2024-09-04 09:16:26</sub></td>
+             <td><sub>0.1.9.35</sub></td>
         </tr>
     <tr>
             <td>
@@ -374,6 +414,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-07-11 14:21:02</sub></td>
+            <td><sub>2024-09-04 09:16:26</sub></td>
+             <td><sub>0.0.1.41</sub></td>
         </tr>
     <tr>
             <td>
@@ -398,6 +441,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-08 05:36:47</sub></td>
+            <td><sub>2024-09-04 09:16:27</sub></td>
+             <td><sub>0.9.3.56</sub></td>
         </tr>
     <tr>
             <td>
@@ -422,6 +468,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-09-04 12:12:18</sub></td>
+            <td><sub>2024-09-05 04:35:47</sub></td>
+             <td><sub>1.1</sub></td>
         </tr>
     <tr>
             <td>
@@ -446,6 +495,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 02:12:29</sub></td>
+            <td><sub>2024-09-04 09:16:27</sub></td>
+             <td><sub>2.0.4.14</sub></td>
         </tr>
     <tr>
             <td>
@@ -470,6 +522,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-07-19 09:44:01</sub></td>
+            <td><sub>2024-09-04 09:16:27</sub></td>
+             <td><sub>1.3.3.53</sub></td>
         </tr>
     <tr>
             <td>
@@ -494,6 +549,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 12:08:49</sub></td>
+            <td><sub>2024-09-04 09:16:28</sub></td>
+             <td><sub>0.6.5.13</sub></td>
         </tr>
     <tr>
             <td>
@@ -518,6 +576,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-07-27 09:34:43</sub></td>
+            <td><sub>2024-09-04 09:16:28</sub></td>
+             <td><sub>0.3.1.47</sub></td>
         </tr>
     <tr>
             <td>
@@ -542,6 +603,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-08 17:06:26</sub></td>
+            <td><sub>2024-09-04 09:16:28</sub></td>
+             <td><sub>2.2.0.81</sub></td>
         </tr>
     <tr>
             <td>
@@ -566,6 +630,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-09-02 12:36:00</sub></td>
+            <td><sub>2024-09-04 09:16:27</sub></td>
+             <td><sub>1.2.0.1</sub></td>
         </tr>
     <tr>
             <td>
@@ -590,6 +657,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-26 07:05:05</sub></td>
+            <td><sub>2024-09-04 09:16:30</sub></td>
+             <td><sub>1.1.2.62</sub></td>
         </tr>
     <tr>
             <td>
@@ -614,6 +684,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-26 06:53:12</sub></td>
+            <td><sub>2024-09-04 09:16:29</sub></td>
+             <td><sub>1.0.5.16</sub></td>
         </tr>
     <tr>
             <td>
@@ -638,6 +711,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-27 04:15:17</sub></td>
+            <td><sub>2024-09-04 13:52:44</sub></td>
+             <td><sub>1.0.0.97</sub></td>
         </tr>
     <tr>
             <td>
@@ -662,6 +738,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-12 10:58:39</sub></td>
+            <td><sub>2024-09-04 09:16:30</sub></td>
+             <td><sub>1.2.3.63</sub></td>
         </tr>
     <tr>
             <td>
@@ -686,6 +765,36 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-09-03 08:50:59</sub></td>
+            <td><sub>2024-09-04 09:16:32</sub></td>
+             <td><sub>1.0.0.98</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/506730" target="_blank">JableTV自动登录</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/jable-auto-login-helper.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>检测 JableTV 状态，并且在未登录时自动登录</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/506730.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/506730?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-09-04 13:43:00</sub></td>
+            <td><sub>2024-09-04 13:55:38</sub></td>
+             <td><sub>1.0.0.0</sub></td>
         </tr>
     <tr>
             <td>
@@ -710,6 +819,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-24 10:37:08</sub></td>
+            <td><sub>2024-09-04 09:16:31</sub></td>
+             <td><sub>1.3.98.15</sub></td>
         </tr>
     <tr>
             <td>
@@ -734,6 +846,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-24 06:51:35</sub></td>
+            <td><sub>2024-09-04 09:16:31</sub></td>
+             <td><sub>2.4.0.22</sub></td>
         </tr>
     <tr>
             <td>
@@ -758,6 +873,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-23 11:35:07</sub></td>
+            <td><sub>2024-09-04 09:16:31</sub></td>
+             <td><sub>1.2.0.53</sub></td>
         </tr>
     <tr>
             <td>
@@ -782,6 +900,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-26 06:43:47</sub></td>
+            <td><sub>2024-09-04 09:16:31</sub></td>
+             <td><sub>0.1.6.69</sub></td>
         </tr>
     <tr>
             <td>
@@ -806,6 +927,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-06-07 08:33:17</sub></td>
+            <td><sub>2024-09-04 09:16:32</sub></td>
+             <td><sub>1.0.0.16</sub></td>
         </tr>
     <tr>
             <td>
@@ -830,6 +954,9 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-07-11 13:57:29</sub></td>
+            <td><sub>2024-09-04 09:16:32</sub></td>
+             <td><sub>1.2.0.62</sub></td>
         </tr>
     <tr>
             <td>
@@ -854,9 +981,16 @@
                     <br>安装
                 </a>
             </td>
+            <td><sub>2024-08-26 11:37:23</sub></td>
+            <td><sub>2024-09-04 09:16:33</sub></td>
+             <td><sub>0.31.0.13</sub></td>
         </tr>
     </tbody>
 </table>
+
+
+
+
 
 
 

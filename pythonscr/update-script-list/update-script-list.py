@@ -19,13 +19,13 @@ count_file = os.path.join(script_dir, f'{scripts_count}.txt')
 
 if os.path.exists(count_file):
     print(f"文件 '{count_file}' 已存在，程序退出。")
-    sys.exit()
+    #sys.exit()
 
 
  # 如果文件不存在，则创建文件
-with open(count_file, 'w', encoding='utf-8') as file:
-    file.write(f"脚本数量: {scripts_count}\n")
-print(f"文件 '{count_file}' 已创建。")   
+#with open(count_file, 'w', encoding='utf-8') as file:
+#    file.write(f"脚本数量: {scripts_count}\n")
+#print(f"文件 '{count_file}' 已创建。")   
 # 生成 HTML 表格
 html_table = '''
 <table>
@@ -35,6 +35,9 @@ html_table = '''
             <th>脚本说明</th>
             <th>GitHub</th>
             <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
         </tr>
     </thead>
     <tbody>
@@ -65,6 +68,9 @@ for script in data.get('scripts', []):
                     <br>安装
                 </a>
             </td>
+            <td><sub>{script.get("created_at")}</sub></td>
+            <td><sub>{script.get("code_updated_at")}</sub></td>
+             <td><sub>{script.get("version")}</sub></td>
         </tr>
     '''
 
