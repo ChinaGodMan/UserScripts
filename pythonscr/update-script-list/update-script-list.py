@@ -94,6 +94,6 @@ new_readme_content = re.sub(r'<table>.*?</table>', html_table, readme_content, f
 
 # 写回 README.md 文件
 with open(readme_path, 'w', encoding='utf-8') as file:
-    file.write(new_readme_content)
+    file.write(new_readme_content.strip())
 
 print(f"执行完毕")   
