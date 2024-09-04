@@ -90,13 +90,15 @@
 - **网站顶部导航栏**：导航栏增加一个选项,用于点击之后自动获取Webhook同步的脚本.进行多个管理.
   
 ## 支持的格式
-目前支持以下三种格式：
-1. **从Markdown文件获取国家语言**  仅支持README_xxx.md 
-   ` https://www.xxx.com/path/to/your/README_xxxxx.md`
-2. **直接设置对应的国家语言（简洁格式）**  支持其他格式文件
+目前支持以下三种格式:
+
+1.  **从Markdown文件获取国家语言**: 仅支持 `README_xxx.md`.
+   `https://www.xxx.com/path/to/your/README_xxxxx.md`
+2. **直接设置对应的国家语言（简洁格式）**: 代码如下: 如果你有更多的选择可以拓展
     ` https://www.xxx.com/path/to/your/filename.md##ko` 
-3. **直接设置对应的国家语言（详细格式）** 支持其他格式文件
+3. **直接设置对应的国家语言（详细格式）**: 支持其他格式文件
     ` https://www.xxx.com/path/to/your/filename.md##简体中文 (zh-CN)` 
+
 
 代码如下: 如果你有更多的选择可以拓展
 
