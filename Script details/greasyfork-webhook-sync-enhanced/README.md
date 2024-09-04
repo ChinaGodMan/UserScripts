@@ -92,7 +92,7 @@
 目前支持以下三种格式：
 
 1. **从Markdown文件获取国家语言**  仅支持README_xxx.md
-   `https://www.xxx.com/path/to/your/README_xxxxx.md `
+   `https://www.xxx.com/path/to/your/README_xxxxx.md`
 3. **直接设置对应的国家语言（简洁格式）**  支持其他格式文件
     ` https://www.xxx.com/path/to/your/filename.md##ko` 
 4. **直接设置对应的国家语言（详细格式）**支持其他格式文件
