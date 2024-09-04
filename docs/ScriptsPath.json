@@ -105,6 +105,14 @@
             "description": "脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索"
         },
         {
+            "name": "GreaysFork 增强 WebHook同步设置",
+            "path": "greasyfork-webhook-sync-enhanced.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/greasyfork-webhook-sync-enhanced",
+            "GreasyFork": "506717",
+            "description": "这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。"
+        },
+        {
             "name": "GreasyFork Markdown toobar",
             "path": "greasyfork-markdown-toolbar.user.js",
             "isUpdated": true,
