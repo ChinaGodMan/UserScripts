@@ -94,7 +94,7 @@ When setting up synchronization information on GreasyFork, you might often find 
 Currently, the following three formats are supported:
 
 1.  **Get Country Language from Markdown File**: Only supports `README_xxx.md`.
-   `https://www.xxx.com/path/to/your/README_xxxxx.md `
+   `https://www.xxx.com/path/to/your/README_xxxxx.md`
 2. **Directly Set Corresponding Country Language (Simple Format)**: Supports other format files.
     ` https://www.xxx.com/path/to/your/filename.md##ko` 
 3. **Directly Set Corresponding Country Language (Detailed Format)**: Supports other format files.
