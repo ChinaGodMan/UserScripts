@@ -148,3 +148,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 ![1.png](https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png)
 <b>使用前:</b>
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
+
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
