@@ -21,8 +21,7 @@
 // @description:de     Schnelles Eingeben von Skriptsynchronisierungsinformationen und gleichzeitiges Hinzufügen von Sprachcodes für mehrere Länder, ohne jedes Auswahlfeld einzeln anzuklicken und die entsprechenden URLs zu besuchen.
 // @name:vi            Cài đặt đồng bộ WebHook GreaysFork được nâng cao
 // @description:vi     Nhập nhanh thông tin đồng bộ hóa kịch bản GreaysFork và thêm hàng loạt mã ngôn ngữ cho nhiều quốc gia mà không cần phải nhấp từng ô chọn và truy cập các URL tương ứng.
-// @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @compatible     chrome
 // @compatible     firefox
 // @compatible     edge
@@ -35,6 +34,7 @@
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @namespace   https://github.com/ChinaGodMan/UserScripts
+// @modified        2024-9-05 04:29
 // ==/UserScript==
 (function () {
     'use strict'
@@ -117,25 +117,21 @@
     document.body.insertAdjacentHTML('beforeend', `
 <div class="Sync-Modal">
     <button id="openSyncButton" style="position:fixed;top:10px;right:10px;z-index:1000;display:none;">Open Modal</button>
-    <button id="openSyncOnadminPage" style="position:fixed;top:300px;right:200px;z-index:1000;display:none;">Set
-        sync</button>
-    <div id="inputWindow"
-        style="display:none;position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;z-index:1001;">
-        <div
-            style="background-color:white;padding:20px;border-radius:5px;width:1000px;max-width:90%;height:95%;max-height:100%;">
-         <center><label id="ScriptName">Source Syncing</label> </center>
-            <h2 style="color: blue;"><label id="SyncLabel" label for="SyncScript">Source Syncing</label></h2>
-            <input type="text" id="SyncScriptForm" style="width:100%;margin-bottom:10px;">
-            <h3>
+    <button id="openSyncOnadminPage" style="position:fixed;top:300px;right:200px;z-index:1000;display:none;">Set sync</button>
+    <div id="inputWindow" style="display:none;position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);justify-content:center;align-items:center;z-index:1001;">
+        <div style="background-color:white;padding:20px;border-radius:5px;width:90%;max-width:1000px;height:90%;max-height:95%;display:flex;flex-direction:column;">
+            <center><label id="ScriptName">Source Syncing</label></center>
+            <h2 style="color: blue;flex-shrink:0;"><label id="SyncLabel" label for="SyncScript">Source Syncing</label></h2>
+            <input type="text" id="SyncScriptForm" style="width:100%;margin-bottom:10px;flex-shrink:0;">
+            <h3 style="flex-shrink:0;">
                 <label for="default" class="custom-label">Default additional info (language matches @name)</label>
             </h3>
-            <input type="text" id="inputdefaultAttribute" style="width:100%;margin-bottom:10px;">
-            <h3>For locale (matches @name:XX):</h3>
-            <textarea id="urlTextArea" rows="6" style="height:600px;width:100%;"></textarea>
-            <br>
-            <div style="display: flex; justify-content: flex-end;">
-                <button id="submitModalButton" style="margin-left: 10px;">Update and sync now</button>
-                <button id="closeSyncButton" style="margin-left: 10px; background-color: red;">Close</button>
+            <input type="text" id="inputdefaultAttribute" style="width:100%;margin-bottom:10px;flex-shrink:0;">
+            <h3 style="flex-shrink:0;">For locale (matches @name:XX):</h3>
+            <textarea id="urlTextArea" rows="6" style="flex-grow:1;width:100%;resize:none;"></textarea>
+            <div style="display:flex;justify-content:flex-end;margin-top:10px;flex-shrink:0;">
+                <button id="submitModalButton" style="margin-left:10px;">Update and sync now</button>
+                <button id="closeSyncButton" style="margin-left:10px;background-color:red;">Close</button>
             </div>
         </div>
     </div>
@@ -153,13 +149,11 @@
     closeModalButton.addEventListener('click', () => global.inputModal.style.display = 'none')
     submitModalButton.addEventListener('click', handleSubmit)
     function handleSubmit() {
-
         syncUpdate(SyncScriptForm.value, global.inputModalDefault.value, global.adminUrl)
     }
     openSyncOnadminPage.addEventListener('click', () => {
         openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), "", false)
     })
-
     //取消鲨臂按钮
     addNavLink("Set sync", '#', false, false, "ScriptSyncLink")
     var customClassName = 'ScriptSyncLink'
@@ -395,10 +389,29 @@
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: formData
         })
-        global.inputModal.style.display = 'none'
-        alert((postResp.ok || postResp.status === 302) ? global.scriptname + ' Sync Successful!' : 'Synchronization failed, please check the input.')
+        const responseText = await postResp.text()
+        const parser = new DOMParser()
+        const doc = parser.parseFromString(responseText, 'text/html')
+        const specificElement = doc.querySelector("body > div.width-constraint > p")
+        // 创建并插入弹出框的 HTML
+        document.body.insertAdjacentHTML('beforeend', `
+  <div id="custom-popup" style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);padding:20px;background-color:#fff;border:1px solid #ccc;box-shadow:0 0 10px rgba(0,0,0,0.1);z-index:9999;">
+    ${specificElement ? specificElement.innerHTML : 'Element not found'}
+    <button id="close-popup" style="top: 10px;  right: 10px;  color: red;">&times;</button>
+  </div>
+`)
+        document.getElementById('close-popup').onclick = function () {
+            document.getElementById('custom-popup').remove()
+        }
+        setTimeout(function () {
+            const popup = document.getElementById('custom-popup')
+            if (popup) {
+                popup.remove()
+            }
+        }, 5000)
+        //  global.inputModal.style.display = 'none'
+        //alert((postResp.ok || postResp.status === 302) ? global.scriptname + ' Sync Successful!' : 'Synchronization failed, please check the input.')
     }
-
     function extractLocaleKey(url) {
         let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)
         return localeKey ? localeKey[1] : null
@@ -438,14 +451,13 @@
         global.inputModal.style.display = 'flex'
         document.querySelector("h2 label[for='SyncScript']").textContent = global.scriptname + "←Source Syncing"
         document.getElementById("ScriptName").textContent = global.scriptname
-
     }
     function createModalWindow(linksData) {
         const modalHtml = `
         <center>
          <div class="Sync-Modal">
     <div id="adminModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 50px; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: transparent;">
-        <div style="background-color: #fefefe; padding: 20px; border: 1px solid #888; width: 80%; max-width: 600px;">
+        <div style="background-color: #fefefe; padding: 20px; border: 1px solid #888; width: 40%; max-width: 100%;">
             <span id="closeLinkModal" style="color: red; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
             <h2>Here are the scripts you have already set up to sync</h2>
             <ul id="linksList" style="list-style-type: none; padding: 0; max-height: 60vh; overflow-y: auto;">
@@ -459,7 +471,7 @@
         const modal = document.getElementById('adminModal')
         const closeModal = document.getElementById('closeLinkModal')
         const linksList = document.getElementById('linksList')
-        //    <button style="margin-left: 10px; background-color: red; color: white; border: none; padding: 10px; cursor: pointer;" onclick="window.open('${link.firstHref}/delete', '_blank')">删除</button>
+        //    
         linksData.forEach(link => {
             const listItem = document.createElement('li')
             listItem.style.marginBottom = '10px'
@@ -468,7 +480,8 @@
     <a href="${link.firstHref}" target="_blank" style="text-decoration: none; color: blue;">${link.firstTitle}</a>
     <div>
       <a href="${link.secondHref}" target="_blank" style="text-decoration: none; color: blue;">Source Syncing</a>
-        <button style="margin-left: 10px;" onclick="window.open('${link.firstHref}')">View</button>
+        <!--<button style="margin-left: 10px;" onclick="window.open('${link.firstHref}')">View</button>
+        -->
          <button class="super-admin-btn" style="margin-left: 10px;" onclick="openSuperAdmin('${link.firstHref}/admin')">Set Sync</button>
     </div>
 </div>
