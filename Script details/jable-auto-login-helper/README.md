@@ -56,10 +56,6 @@
 [Violentmonkey-OK]: https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
-
-
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>JableTV自动登录</h1>
@@ -73,7 +69,6 @@
 </div></center>
 
 # JableTV  AutoLogin Helper
-
 这是一个用于JableTV 管理用户账户的脚本，主要功能自动登录以及检测用户是否已登录。
 
 ## 功能
