@@ -92,16 +92,15 @@
 ## 支持的格式
 目前支持以下三种格式:
 
-1.  **从Markdown文件获取国家语言**: 仅支持 `README_xxx.md`.
+1.  **从Markdown文件获取国家语言**: 仅支持 `README_xxx.md`.<br>
    `https://www.xxx.com/path/to/your/README_xxxxx.md`
-2. **直接设置对应的国家语言（简洁格式）**: 支持其他格式文件.
+2. **直接设置对应的国家语言（简洁格式）**: 支持其他格式文件.<br>
     ` https://www.xxx.com/path/to/your/filename.md##ko` 
-3. **直接设置对应的国家语言（详细格式）**: 支持其他格式文件
+3. **直接设置对应的国家语言（详细格式）**: 支持其他格式文件<br>
     ` https://www.xxx.com/path/to/your/filename.md##简体中文 (zh-CN)` 
 
 
-代码如下: 如果你有更多的选择可以拓展
-
+代码如下: 如果你有更多的选择可以拓展<br>
 ` let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
 ## 注意:
