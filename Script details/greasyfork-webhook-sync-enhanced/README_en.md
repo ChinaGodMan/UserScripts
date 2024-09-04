@@ -1,6 +1,11 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
+<video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"
+       poster="https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png"
+       width="320" height="240" controls loop>
+</video>
+
 # GreasyFork - Enhanced WebHook Synchronization Settings
 
 When setting up synchronization information on GreasyFork, you might often find that after submitting, the sync information hasn't been successfully saved, requiring you to re-enter it. This is one of the small issues with the website. To solve this problem, this script helps you quickly input script synchronization information and batch-add multiple country language codes without having to click on each checkbox and then go to the corresponding URL.

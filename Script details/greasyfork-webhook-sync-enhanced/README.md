@@ -1,5 +1,10 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
+<video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"
+       poster="https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png"
+       width="320" height="240" controls loop>
+</video>
+
 # GreasyFork - 增强WebHook同步设置
 在GreasyFork上设置同步信息时，常常会遇到提交后查看时，发现同步信息并没有被设置成功，导致需要重新输入。这是网站的小问题之一。为了解决这个问题，这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
 
