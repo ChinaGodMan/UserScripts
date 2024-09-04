@@ -27,8 +27,7 @@ if os.path.exists(count_file):
 #    file.write(f"脚本数量: {scripts_count}\n")
 #print(f"文件 '{count_file}' 已创建。")   
 # 生成 HTML 表格
-html_table = '''
-<table>
+html_table = '''<table>
     <thead>
         <tr>
             <th>脚本名称</th>
@@ -75,8 +74,7 @@ for script in data.get('scripts', []):
     '''
 
 html_table += '''</tbody>
-</table>
-'''
+</table>'''
 
 # 输出到 HTML 文件
 #html_file_path = '1.html'
