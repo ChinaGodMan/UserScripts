@@ -28,7 +28,7 @@
 // @name:cy          GreasyFork Cymorth Rhybudd
 // @description:cy    Pan fo'ch sgript neu drafodaeth rydych chi'n cymryd rhan ynddi'n derbyn ateb newydd, bydd y sgript yn dangos cynnwys y drafodaeth ddiweddaraf mewn ffenestr modal ar y dudalen.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 1.2.0.0
+// @version 1.2.0.1
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
