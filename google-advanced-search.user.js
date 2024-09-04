@@ -1,10 +1,82 @@
 // ==UserScript==
 // @name                    Advanced Search Assistant for Google
 // @name:zh-CN              Google 高级搜索助手
+// @description:zh-CN       在谷歌搜索页面顶部添加一个高级搜索表单
+// @name:ar              Google مساعد البحث المتقدم
+// @description:ar       أضف نموذج بحث متقدم إلى أعلى صفحة بحث Google الخاصة بك
+// @name:bg              Google Помощник за разширено търсене
+// @description:bg       Добавете формуляр за разширено търсене в горната част на вашата страница за търсене в Google
+// @name:cs              Google Pokročilý asistent vyhledávání
+// @description:cs       Přidejte formulář pro pokročilé vyhledávání do horní části stránky vyhledávání Google
+// @name:da              Google Avanceret søgeassistent
+// @description:da       Tilføj en avanceret søgeformular øverst på din Google-søgeside
+// @name:de              Google Erweiterter Suchassistent
+// @description:de       Fügen Sie oben auf Ihrer Google-Suchseite ein erweitertes Suchformular hinzu
+// @name:el              Google Βοηθός σύνθετης αναζήτησης
+// @description:el       Προσθέστε μια φόρμα σύνθετης αναζήτησης στην κορυφή της σελίδας αναζήτησης Google
+// @name:en              Google Advanced search assistant
+// @description:en       Add an advanced search form to the top of your Google search page
+// @name:eo              Google Altnivela serĉa asistanto
+// @description:eo       Aldonu altnivelan serĉformularon al la supro de via serĉpaĝo de Guglo
+// @name:es              Google asistente de búsqueda avanzada
+// @description:es       Agregue un formulario de búsqueda avanzada en la parte superior de su página de búsqueda de Google
+// @name:fi              Google Tarkennettu hakuavustaja
+// @description:fi       Lisää tarkennettu hakulomake Google-hakusivusi yläosaan
+// @name:fr              Google Assistant de recherche avancée
+// @description:fr       Ajoutez un formulaire de recherche avancée en haut de votre page de recherche Google
+// @name:he              Google עוזר חיפוש מתקדם
+// @description:he       הוסף טופס חיפוש מתקדם לראש דף החיפוש שלך בגוגל
+// @name:hr              Google Pomoćnik za napredno pretraživanje
+// @description:hr       Dodajte obrazac za napredno pretraživanje na vrh svoje stranice Google pretraživanja
+// @name:hu              Google Speciális keresési asszisztens
+// @description:hu       Adjon hozzá egy speciális keresési űrlapot a Google keresési oldalának tetejére
+// @name:id              Google Asisten pencarian lanjutan
+// @description:id       Tambahkan formulir pencarian lanjutan ke bagian atas halaman pencarian Google Anda
+// @name:it              Google Assistente di ricerca avanzata
+// @description:it       Aggiungi un modulo di ricerca avanzata nella parte superiore della pagina di ricerca di Google
+// @name:ja              Google 高度な検索アシスタント
+// @description:ja       Google 検索ページの上部に高度な検索フォームを追加します
+// @name:ka              Google გაფართოებული საძიებო ასისტენტი
+// @description:ka       დაამატეთ გაფართოებული საძიებო ფორმა თქვენი Google ძიების გვერდის ზედა ნაწილში
+// @name:ko              Google 고급 검색 도우미
+// @description:ko       Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
+// @name:nl              Google Geavanceerde zoekassistent
+// @description:nl       Voeg een geavanceerd zoekformulier toe bovenaan uw Google-zoekpagina
+// @name:nb              Google Avansert søkeassistent
+// @description:nb       Legg til et avansert søkeskjema øverst på Google-søkesiden din
+// @name:pl              Google Zaawansowany asystent wyszukiwania
+// @description:pl       Dodaj formularz wyszukiwania zaawansowanego na górze strony wyszukiwania Google
+// @name:pt-BR              Google Assistente de pesquisa avançada
+// @description:pt-BR       Adicione um formulário de pesquisa avançada ao topo da sua página de pesquisa do Google
+// @name:ro              Google Asistent de căutare avansată
+// @description:ro       Adăugați un formular de căutare avansată în partea de sus a paginii dvs. de căutare Google
+// @name:ru              Google Расширенный помощник поиска
+// @description:ru       Добавьте форму расширенного поиска в верхнюю часть страницы поиска Google.
+// @name:sk              Google Pokročilý asistent vyhľadávania
+// @description:sk       Pridajte formulár rozšíreného vyhľadávania do hornej časti stránky vyhľadávania Google
+// @name:sr              Google Помоћник за напредну претрагу
+// @description:sr       Додајте образац за напредну претрагу на врх ваше странице Гоогле претраге
+// @name:sv              Google Avancerad sökassistent
+// @description:sv       Lägg till ett avancerat sökformulär överst på din Google-söksida
+// @name:th              Google ผู้ช่วยการค้นหาขั้นสูง
+// @description:th       เพิ่มแบบฟอร์มการค้นหาขั้นสูงที่ด้านบนของหน้าการค้นหาของ Google
+// @name:tr              Google Gelişmiş arama asistanı
+// @description:tr       Google arama sayfanızın üst kısmına gelişmiş bir arama formu ekleyin
+// @name:ug              Google ئىلغار ئىزدەش ياردەمچىسى
+// @description:ug       Google ئىزدەش بېتىڭىزنىڭ ئۈستىگە ئىلغار ئىزدەش جەدۋىلىنى قوشۇڭ
+// @name:uk              Google Розширений пошуковий помічник
+// @description:uk       Додайте форму розширеного пошуку у верхній частині сторінки пошуку Google
+// @name:vi              Google Trợ lý tìm kiếm nâng cao
+// @description:vi       Thêm biểu mẫu tìm kiếm nâng cao vào đầu trang tìm kiếm Google của bạn
+// @name:zh-TW              Google 高級搜尋助手
+// @description:zh-TW       在谷歌搜尋頁面頂部新增一個高級搜尋表單
+// @name:zh-HK              Google 高級搜尋助手
+// @description:zh-HK       在谷歌搜尋頁面頂部新增一個高級搜尋表單
+// @name:fr-CA              Google Assistant de recherche avancée
+// @description:fr-CA       Ajoutez un formulaire de recherche avancée en haut de votre page de recherche Google
 // @namespace               https://github.com/ChinaGodMan/UserScripts
 // @version 0.1.9.35
 // @description             Add an advanced search form to the top of the page
-// @description:zh-CN       在谷歌搜索页面顶部添加一个高级搜索表单
 // @author                         shiquda  &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match                   *://www.google.com/search*
 // @include                 *://*google*/search*

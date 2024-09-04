@@ -1,20 +1,82 @@
 // ==UserScript==
 // @name         Greasyfork Script Display Rating
 // @name:zh-CN         Greasyfork 脚本显示评分
-// @name:zh-TW         Greasyfork 脚本顯示評分
-// @name:en      Display the script rating after the script list name
-// @name:fr      Afficher la note du sc\ript après le nom de la liste de scripts
-// @name:ja      スクリプトリスト名の後にスクリプト評価を表示する
-// @name:ko      스크립트 목록 이름 뒤에 스크립트 평가 표시
+// @description:zh-CN 在浏览脚本列表时在脚本名称后面添加脚本评分
+// @name:ar         Greasyfork سكريبت لعرض التقييمات
+// @description:ar أضف تصنيف البرنامج النصي بعد اسم البرنامج النصي عند تصفح قائمة البرامج النصية
+// @name:bg         Greasyfork Скрипт за показване на оценки
+// @description:bg Добавете оценка на скрипта след името на скрипта, когато преглеждате списъка със скриптове
+// @name:cs         Greasyfork Skript pro zobrazení hodnocení
+// @description:cs Při procházení seznamu skriptů přidejte hodnocení skriptu za název skriptu
+// @name:da         Greasyfork Script til at vise vurderinger
+// @description:da Tilføj scriptvurdering efter scriptnavn, når du gennemser scriptlisten
+// @name:de         Greasyfork Skript zur Anzeige von Bewertungen
+// @description:de Fügen Sie beim Durchsuchen der Skriptliste nach dem Skriptnamen eine Skriptbewertung hinzu
+// @name:el         Greasyfork Σενάριο για εμφάνιση βαθμολογιών
+// @description:el Προσθέστε βαθμολογία σεναρίου μετά το όνομα σεναρίου κατά την περιήγηση στη λίστα σεναρίων
+// @name:en         Greasyfork Script to display ratings
+// @description:en Add script rating after script name when browsing script list
+// @name:eo         Greasyfork Skripto por montri taksojn
+// @description:eo Aldonu skriptrangigon post skriptonomo kiam foliumas skriptliston
+// @name:es         Greasyfork Script para mostrar calificaciones
+// @description:es Agregue calificación de secuencia de comandos después del nombre de la secuencia de comandos al explorar la lista de secuencias de comandos
+// @name:fi         Greasyfork Komentosarja arvioiden näyttämiseksi
+// @description:fi Lisää komentosarjan luokitus ohjelman nimen perään, kun selaat komentosarjaluetteloa
+// @name:fr         Greasyfork Script pour afficher les notes
+// @description:fr Ajouter une note de script après le nom du script lors de la navigation dans la liste des scripts
+// @name:he         Greasyfork סקריפט להצגת דירוגים
+// @description:he הוסף דירוג סקריפט אחרי שם התסריט בעת גלישה ברשימת הסקריפטים
+// @name:hr         Greasyfork Skripta za prikaz ocjena
+// @description:hr Dodajte ocjenu skripte nakon naziva skripte kada pregledavate popis skripti
+// @name:hu         Greasyfork Szkript az értékelések megjelenítéséhez
+// @description:hu A szkriptlista böngészésekor adja hozzá a szkript minősítését a szkript neve után
+// @name:id         Greasyfork Script untuk menampilkan peringkat
+// @description:id Tambahkan peringkat skrip setelah nama skrip saat menjelajahi daftar skrip
+// @name:it         Greasyfork Script per visualizzare le valutazioni
+// @description:it Aggiungi la valutazione dello script dopo il nome dello script quando sfogli l’elenco degli script
+// @name:ja         Greasyfork 評価を表示するスクリプト
+// @description:ja スクリプトリストを参照するときに、スクリプト名の後にスクリプト評価を追加します
+// @name:ka         Greasyfork სკრიპტი რეიტინგების საჩვენებლად
+// @description:ka სკრიპტის სიის დათვალიერებისას დაამატეთ სკრიპტის რეიტინგი სკრიპტის სახელის შემდეგ
+// @name:ko         Greasyfork 평점을 표시하는 스크립트
+// @description:ko 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
+// @name:nl         Greasyfork Script om beoordelingen weer te geven
+// @description:nl Voeg een scriptbeoordeling toe na de scriptnaam wanneer u door de scriptlijst bladert
+// @name:nb         Greasyfork Skript for å vise rangeringer
+// @description:nb Legg til skriptvurdering etter skriptnavn når du blar gjennom skriptlisten
+// @name:pl         Greasyfork Skrypt wyświetlający oceny
+// @description:pl Dodaj ocenę skryptu po nazwie skryptu podczas przeglądania listy skryptów
+// @name:pt-BR         Greasyfork Script para exibir avaliações
+// @description:pt-BR Adicione a classificação do script após o nome do script ao navegar na lista de scripts
+// @name:ro         Greasyfork Script pentru afișarea evaluărilor
+// @description:ro Adăugați evaluarea scriptului după numele scriptului când răsfoiți lista de scripturi
+// @name:ru         Greasyfork Скрипт для отображения рейтингов
+// @description:ru Добавить рейтинг сценария после имени сценария при просмотре списка сценариев.
+// @name:sk         Greasyfork Skript na zobrazenie hodnotení
+// @description:sk Pri prehliadaní zoznamu skriptov pridajte hodnotenie skriptu za názov skriptu
+// @name:sr         Greasyfork Скрипта за приказ оцена
+// @description:sr Додајте оцену скрипте после назива скрипте када прегледате листу скрипта
+// @name:sv         Greasyfork Skript för att visa betyg
+// @description:sv Lägg till skriptbetyg efter skriptnamn när du bläddrar i skriptlistan
+// @name:th         Greasyfork สคริปต์เพื่อแสดงเรตติ้ง
+// @description:th เพิ่มการให้คะแนนสคริปต์หลังชื่อสคริปต์เมื่อเรียกดูรายการสคริปต์
+// @name:tr         Greasyfork Derecelendirmeleri görüntülemek için komut dosyası
+// @description:tr Komut dosyası listesine göz atarken komut dosyası adından sonra komut dosyası derecelendirmesi ekleyin
+// @name:ug         Greasyfork باھانى كۆرسىتىش ئۈچۈن قوليازما
+// @description:ug قوليازما تىزىملىكىنى كۆرگەندە قوليازما نامىدىن كېيىن قوليازما دەرىجىسىنى قوشۇڭ
+// @name:uk         Greasyfork Скрипт для відображення оцінок
+// @description:uk Додайте оцінку сценарію після назви сценарію під час перегляду списку сценаріїв
+// @name:vi         Greasyfork Script hiển thị xếp hạng
+// @description:vi Thêm xếp hạng tập lệnh sau tên tập lệnh khi duyệt danh sách tập lệnh
+// @name:zh-TW         Greasyfork 腳本顯示評分
+// @description:zh-TW 在瀏覽腳本清單時在腳本名稱後面新增腳本評分
+// @name:zh-HK         Greasyfork 腳本顯示評分
+// @description:zh-HK 在瀏覽腳本清單時在腳本名稱後面新增腳本評分
+// @name:fr-CA         Greasyfork Script pour afficher les notes
+// @description:fr-CA Ajouter une note de script après le nom du script lors de la navigation dans la liste des scripts
 // @namespace    https://github.com/10086100886/
 // @version 1.3.3.53
 // @description     Add the script rating after the script name when browsing the script list
-// @description:en  Add the script rating after the script name when browsing the script list
-// @description:fr  Ajouter la note du script après le nom du script lors de la navigation dans la liste des scripts
-// @description:ja  スクリプトリストを閲覧する際にスクリプト名の後にスクリプト評価を追加する
-// @description:ko  스크립트 목록을 탐색할 때 스크립트 이름 뒤에 스크립트 평가 추가
-// @description:zh-CN 在浏览脚本列表时在脚本名称后面添加脚本评分
-// @description:zh-TW  在瀏覽腳本列表時在腳本名稱後面添加腳本評分
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
 // @match        https://sleazyfork.org/*

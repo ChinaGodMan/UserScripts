@@ -1,20 +1,80 @@
 // ==UserScript==
 // @name         Github Copy Raw File URL and Download File
 // @name:zh-CN   Github 复制原始文件 URL 与下载文件
-// @name:zh-TW   Github 複製原始檔案 URL 與下載檔案
-// @name:vi      Github Sao chép URL tệp gốc và tải xuống tệp
-// @name:ko      Github 원본 파일 URL 복사 및 파일 다운로드
-// @name:ja      Github 原始ファイル URL をコピーし、ファイルをダウンロードする
-// @name:en      Github Copy Raw File URL and Download File
-// @name:de      Github Rohdatei-URL kopieren und Datei herunterladen
-// @description  Add buttons at the end of each file line to copy the raw file URL and download the file
 // @description:zh-CN 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-// @description:zh-TW 在每個檔案行的末尾添加按鈕，以複製原始檔案 URL 和下載檔案
-// @description:vi Thêm nút vào cuối mỗi dòng tệp để sao chép URL tệp gốc và tải xuống tệp
-// @description:ko 각 파일 행 끝에 원본 파일 URL 복사 및 파일 다운로드 버튼 추가
-// @description:ja 各ファイル行の末尾に、原始ファイルURLをコピーし、ファイルをダウンロードするボタンを追加
-// @description:en Add buttons at the end of each file line to copy the raw file URL and download the file
-// @description:de Fügen Sie Schaltflächen am Ende jeder Dateizeile hinzu, um die Rohdatei-URL zu kopieren und die Datei herunterzuladen
+// @name:ar   Github نسخ الملف الأصلي URL مع تنزيل الملفات
+// @description:ar زر إضافة في نهاية كل سطر ملف，لنسخ الملف الأصلي URL وتحميل الملفات
+// @name:bg   Github Копирайте оригиналния файл URL с файлове за изтегляне
+// @description:bg Бутон за добавяне в края на всеки файлов ред，за да копирате оригиналния файл URL и изтегляне на файлове
+// @name:cs   Github Zkopírujte původní soubor URL se staženými soubory
+// @description:cs Tlačítko Přidat na konci každého řádku souboru，pro zkopírování původního souboru URL a stahovat soubory
+// @name:da   Github Kopiér den originale fil URL med download filer
+// @description:da Tilføj knap i slutningen af ​​hver fillinje，for at kopiere den originale fil URL og download filer
+// @name:de   Github Originaldatei kopieren URL mit Download-Dateien
+// @description:de Schaltfläche „Hinzufügen“ am Ende jeder Dateizeile，um die Originaldatei zu kopieren URL und Dateien herunterladen
+// @name:el   Github Αντιγραφή αρχικού αρχείου URL με λήψη αρχείων
+// @description:el Κουμπί προσθήκης στο τέλος κάθε γραμμής αρχείου，για να αντιγράψετε το αρχικό αρχείο URL και λήψη αρχείων
+// @name:en   Github Copy original file URL with download files
+// @description:en Add button at the end of each file line，to copy the original file URL and download files
+// @name:eo   Github Kopiu originalan dosieron URL kun elŝutaj dosieroj
+// @description:eo Aldoni butonon ĉe la fino de ĉiu dosierlinio，por kopii la originalan dosieron URL kaj elŝuti dosierojn
+// @name:es   Github Copiar archivo original URL con archivos de descarga
+// @description:es Botón Agregar al final de cada línea de archivo，para copiar el archivo original URL y descargar archivos
+// @name:fi   Github Kopioi alkuperäinen tiedosto URL lataustiedostojen kanssa
+// @description:fi Lisää-painike jokaisen tiedostorivin lopussa，kopioidaksesi alkuperäisen tiedoston URL ja ladata tiedostoja
+// @name:fr   Github Copier le fichier original URL avec des fichiers à télécharger
+// @description:fr Ajouter un bouton à la fin de chaque ligne de fichier，pour copier le fichier original URL et télécharger des fichiers
+// @name:he   Github העתק את הקובץ המקורי URL עם קבצים להורדה
+// @description:he כפתור הוסף בסוף כל שורת קובץ，כדי להעתיק את הקובץ המקורי URL ולהוריד קבצים
+// @name:hr   Github Kopiraj izvornu datoteku URL s datotekama za preuzimanje
+// @description:hr Dodaj gumb na kraju svakog retka datoteke，za kopiranje izvorne datoteke URL i preuzimanje datoteka
+// @name:hu   Github Eredeti fájl másolása URL letölthető fájlokkal
+// @description:hu Hozzáadás gomb minden fájlsor végén，az eredeti fájl másolásához URL és töltsön le fájlokat
+// @name:id   Github Salin file asli URL dengan file unduhan
+// @description:id Tombol Tambah di akhir setiap baris file，untuk menyalin file asli URL dan mengunduh file
+// @name:it   Github Copia il file originale URL con file scaricabili
+// @description:it Pulsante Aggiungi alla fine di ogni riga del file，per copiare il file originale URL e scaricare file
+// @name:ja   Github 元のファイルをコピーする URL ダウンロードファイル付き
+// @description:ja 各ファイル行の末尾にある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする
+// @name:ka   Github დააკოპირეთ ორიგინალი ფაილი URL ჩამოტვირთვის ფაილებით
+// @description:ka დაამატეთ ღილაკი თითოეული ფაილის ხაზის ბოლოს，ორიგინალური ფაილის კოპირება URL და ჩამოტვირთეთ ფაილები
+// @name:ko   Github 원본 파일 복사 URL 다운로드 파일 포함
+// @description:ko 각 파일 줄 끝에 추가 버튼，원본 파일을 복사하려면 URL 그리고 파일 다운로드
+// @name:nl   Github Kopieer origineel bestand URL met downloadbestanden
+// @description:nl Knop Toevoegen aan het einde van elke bestandsregel，om het originele bestand te kopiëren URL en bestanden downloaden
+// @name:nb   Github Kopier originalfilen URL med nedlastingsfiler
+// @description:nb Legg til-knapp på slutten av hver fillinje，for å kopiere originalfilen URL og last ned filer
+// @name:pl   Github Skopiuj oryginalny plik URL z plikami do pobrania
+// @description:pl Dodaj przycisk na końcu każdej linii pliku，aby skopiować oryginalny plik URL i pobierz pliki
+// @name:pt-BR   Github Copiar arquivo original URL com download de arquivos
+// @description:pt-BR Botão Adicionar no final de cada linha do arquivo，para copiar o arquivo original URL e baixar arquivos
+// @name:ro   Github Copiați fișierul original URL cu fișiere descărcate
+// @description:ro butonul Adaugă la sfârșitul fiecărei linii de fișier，pentru a copia fișierul original URL și descărcați fișiere
+// @name:ru   Github Скопировать исходный файл URL с загрузкой файлов
+// @description:ru Добавить кнопку в конце каждой строки файла，скопировать исходный файл URL и скачать файлы
+// @name:sk   Github Skopírujte pôvodný súbor URL so stiahnutými súbormi
+// @description:sk Tlačidlo Pridať na konci každého riadku súboru，na skopírovanie pôvodného súboru URL a sťahovať súbory
+// @name:sr   Github Копирајте оригиналну датотеку URL са датотекама за преузимање
+// @description:sr Дугме Додај на крају сваке линије датотеке，да копирате оригиналну датотеку URL и преузимање датотека
+// @name:sv   Github Kopiera originalfilen URL med nedladdningsfiler
+// @description:sv Lägg till-knappen i slutet av varje filrad，för att kopiera originalfilen URL och ladda ner filer
+// @name:th   Github คัดลอกไฟล์ต้นฉบับ URL พร้อมดาวน์โหลดไฟล์
+// @description:th เพิ่มปุ่มที่ท้ายแต่ละบรรทัดไฟล์，เพื่อคัดลอกไฟล์ต้นฉบับ URL และดาวน์โหลดไฟล์
+// @name:tr   Github Orijinal dosyayı kopyala URL indirme dosyalarıyla
+// @description:tr Her dosya satırının sonuna ekle düğmesi，orijinal dosyayı kopyalamak için URL ve dosyaları indir
+// @name:ug   Github ئەسلى ھۆججەتنى كۆچۈرۈڭ URL چۈشۈرۈش ھۆججىتى بىلەن
+// @description:ug ھەر بىر ھۆججەت قۇرنىڭ ئاخىرىغا كۇنۇپكا قوشۇڭ，ئەسلى ھۆججەتنى كۆچۈرۈش URL ھۆججەتلەرنى چۈشۈرۈڭ
+// @name:uk   Github Скопіюйте вихідний файл URL з файлами для завантаження
+// @description:uk Кнопка «Додати» в кінці кожного рядка файлу，щоб скопіювати вихідний файл URL і завантажити файли
+// @name:vi   Github Sao chép tập tin gốc URL với các tập tin tải về
+// @description:vi Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin
+// @name:zh-TW   Github 複製原始文件 URL 與下載文件
+// @description:zh-TW 在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件
+// @name:zh-HK   Github 複製原始文件 URL 與下載文件
+// @description:zh-HK 在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件
+// @name:fr-CA   Github Copier le fichier original URL avec des fichiers à télécharger
+// @description:fr-CA Ajouter un bouton à la fin de chaque ligne de fichier，pour copier le fichier original URL et télécharger des fichiers
+// @description  Add buttons at the end of each file line to copy the raw file URL and download the file
 // @namespace               https://github.com/ChinaGodMan/UserScripts
 // @version 2.2.0.12
 // @author       	Kamikaze (https://github.com/Kamiikaze) ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>

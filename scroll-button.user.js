@@ -2,6 +2,78 @@
 // @name        scroll By  to top/bottom
 // @name:zh-CN        上下滚动按钮
 // @description:zh-CN 在页面右侧生成两个按钮用于滚动页面
+// @name:ar        زر التمرير
+// @description:ar قم بإنشاء زرين على الجانب الأيمن من الصفحة لتمرير الصفحة
+// @name:bg        бутон за превъртане
+// @description:bg Генерирайте два бутона от дясната страна на страницата за превъртане на страницата
+// @name:cs        rolovací tlačítko
+// @description:cs Na pravé straně stránky vygenerujte dvě tlačítka pro posouvání stránky
+// @name:da        rulleknap
+// @description:da Generer to knapper i højre side af siden til at rulle siden
+// @name:de        Scroll-Taste
+// @description:de Generieren Sie zwei Schaltflächen auf der rechten Seite der Seite zum Scrollen der Seite
+// @name:el        κουμπί κύλισης
+// @description:el Δημιουργήστε δύο κουμπιά στη δεξιά πλευρά της σελίδας για κύλιση της σελίδας
+// @name:en        scroll button
+// @description:en Generate two buttons on the right side of the page for scrolling the page
+// @name:eo        rulbutono
+// @description:eo Generu du butonojn ĉe la dekstra flanko de la paĝo por rulumi la paĝon
+// @name:es        botón de desplazamiento
+// @description:es Genere dos botones en el lado derecho de la página para desplazarse por la página
+// @name:fi        vierityspainike
+// @description:fi Luo kaksi painiketta sivun oikealle puolelle sivun vierittämistä varten
+// @name:fr        bouton de défilement
+// @description:fr Générez deux boutons sur le côté droit de la page pour faire défiler la page
+// @name:he        כפתור גלילה
+// @description:he צור שני כפתורים בצד ימין של העמוד לגלילה בעמוד
+// @name:hr        gumb za pomicanje
+// @description:hr Generirajte dva gumba na desnoj strani stranice za pomicanje stranice
+// @name:hu        görgető gomb
+// @description:hu Az oldal görgetéséhez hozzon létre két gombot az oldal jobb oldalán
+// @name:id        tombol gulir
+// @description:id Hasilkan dua tombol di sisi kanan halaman untuk menggulir halaman
+// @name:it        pulsante di scorrimento
+// @description:it Genera due pulsanti sul lato destro della pagina per scorrere la pagina
+// @name:ja        スクロールボタン
+// @description:ja ページの右側にページをスクロールするための 2 つのボタンを生成します
+// @name:ka        გადახვევის ღილაკი
+// @description:ka შექმენით ორი ღილაკი გვერდის მარჯვენა მხარეს გვერდის გადასახვევად
+// @name:ko        스크롤 버튼
+// @description:ko 페이지 스크롤을 위해 페이지 오른쪽에 두 개의 버튼을 생성합니다.
+// @name:nl        scroll-knop
+// @description:nl Genereer twee knoppen aan de rechterkant van de pagina om door de pagina te scrollen
+// @name:nb        rulleknapp
+// @description:nb Generer to knapper på høyre side av siden for å rulle siden
+// @name:pl        przycisk przewijania
+// @description:pl Wygeneruj dwa przyciski po prawej stronie strony do przewijania strony
+// @name:pt-BR        botão de rolagem
+// @description:pt-BR Gere dois botões no lado direito da página para rolar a página
+// @name:ro        butonul de defilare
+// @description:ro Generați două butoane în partea dreaptă a paginii pentru derularea paginii
+// @name:ru        кнопка прокрутки
+// @description:ru Создайте две кнопки в правой части страницы для прокрутки страницы.
+// @name:sk        rolovacie tlačidlo
+// @description:sk Vygenerujte dve tlačidlá na pravej strane stránky na posúvanie stránky
+// @name:sr        дугме за померање
+// @description:sr Генеришите два дугмета на десној страни странице за померање странице
+// @name:sv        rullningsknapp
+// @description:sv Skapa två knappar till höger på sidan för att rulla sidan
+// @name:th        ปุ่มเลื่อน
+// @description:th สร้างปุ่มสองปุ่มทางด้านขวาของหน้าเพื่อเลื่อนหน้า
+// @name:tr        kaydırma düğmesi
+// @description:tr Sayfayı kaydırmak için sayfanın sağ tarafında iki düğme oluşturun
+// @name:ug        سىيرىلما كۇنۇپكا
+// @description:ug بەتنىڭ ئوڭ تەرىپىدە ئىككى كۇنۇپكا ھاسىل قىلىڭ
+// @name:uk        кнопка прокручування
+// @description:uk Згенеруйте дві кнопки в правій частині сторінки для прокручування сторінки
+// @name:vi        nút cuộn
+// @description:vi Tạo hai nút ở bên phải trang để cuộn trang
+// @name:zh-TW        上下滾動按鈕
+// @description:zh-TW 在頁面右側產生兩個按鈕用於滾動頁面
+// @name:zh-HK        上下滾動按鈕
+// @description:zh-HK 在頁面右側產生兩個按鈕用於滾動頁面
+// @name:fr-CA        bouton de défilement
+// @description:fr-CA Générez deux boutons sur le côté droit de la page pour faire défiler la page
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none

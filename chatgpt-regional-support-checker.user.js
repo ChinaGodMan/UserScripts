@@ -1,44 +1,80 @@
 // ==UserScript==
 // @name         Show Location on ChatGPT
-// @description  Display the current user's IP location at the top of the ChatGPT official website. If it is a non-supported region by ChatGPT, it will be highlighted in red to prevent account suspension.
 // @name:zh-CN   ChatGPT顶部显示当前用户IP
 // @description:zh-CN 在ChatGPT官方网站的顶部显示当前用户IP所在的地区，如果是非ChatGPT支持的地区会红色标识提示，以免被封号。
-// @name:zh-TW   在ChatGPT網站頂部顯示當前用戶IP
-// @description:zh-TW 在ChatGPT官方網站的頂部顯示當前用戶IP所在的地區，如果是非ChatGPT支持的地區會紅色標識提示，以免被封號。
-// @name:vi      Hiển thị Vị trí trên ChatGPT
-// @description:vi Hiển thị vị trí IP của người dùng hiện tại ở trên cùng của trang web chính thức ChatGPT. Nếu đó là một khu vực không được ChatGPT hỗ trợ, nó sẽ được đánh dấu bằng màu đỏ để tránh bị khóa tài khoản.
-// @name:ja      ChatGPTでの位置情報表示
-// @description:ja ChatGPT公式ウェブサイトの上部に現在のユーザーのIP位置を表示します。もしその位置がChatGPTのサポート対象外の地域であれば、アカウント停止を避けるために赤色で警告します。
-// @name:fr      Afficher la localisation sur ChatGPT
-// @description:fr Affiche la localisation IP actuelle de l'utilisateur en haut du site officiel de ChatGPT. Si elle se trouve dans une région non prise en charge par ChatGPT, elle sera indiquée en rouge pour éviter la suspension du compte.
-// @name:de      Standort auf ChatGPT anzeigen
-// @description:de Zeigt den aktuellen IP-Standort des Benutzers oben auf der offiziellen ChatGPT-Website an. Wenn es sich um eine nicht unterstützte Region von ChatGPT handelt, wird dies rot hervorgehoben, um eine Kontosperrung zu vermeiden.
-// @name:ru      Показать местоположение на ChatGPT
-// @description:ru Отображает текущее местоположение IP пользователя в верхней части официального сайта ChatGPT. Если это регион, не поддерживаемый ChatGPT, он будет выделен красным, чтобы избежать блокировки аккаунта.
-// @name:mo      Show Location on ChatGPT
-// @description:mo Display the current user's IP location at the top of the ChatGPT official website. If it is a non-supported region by ChatGPT, it will be highlighted in red to prevent account suspension. (Note: Macau uses Chinese or Portuguese for its primary languages. If you need the translation in Portuguese, please let me know.)
-// @name:hk      在ChatGPT網站顯示位置
-// @description:hk 在ChatGPT官方網站的頂部顯示當前用戶IP所在的地區，如果是非ChatGPT支持的地區會紅色標識提示，以免被封號。
-// @name:sg      Show Location on ChatGPT
-// @description:sg Display the current user's IP location at the top of the ChatGPT official website. If it is a non-supported region by ChatGPT, it will be highlighted in red to prevent account suspension.
-// @name:da      Vis placering på ChatGPT
-// @description:da Vis den aktuelle brugers IP-placering øverst på ChatGPT's officielle hjemmeside. Hvis det er en ikke-understøttet region af ChatGPT, vil det blive markeret med rødt for at undgå kontoafbrydelse.
-// @name:ko      ChatGPT에서 위치 표시
-// @description:ko ChatGPT 공식 웹사이트 상단에 현재 사용자의 IP 위치를 표시합니다. ChatGPT에서 지원하지 않는 지역인 경우, 계정 정지를 방지하기 위해 빨간색으로 강조 표시됩니다.
-// @name:pt      Mostrar localização no ChatGPT
-// @description:pt Exibe a localização IP atual do usuário no topo do site oficial do ChatGPT. Se estiver em uma região não suportada pelo ChatGPT, será destacada em vermelho para evitar a suspensão da conta.
-// @name:es      Mostrar ubicación en ChatGPT
-// @description:es Muestra la ubicación IP actual del usuario en la parte superior del sitio web oficial de ChatGPT. Si está en una región no compatible con ChatGPT, se destacará en rojo para evitar la suspensión de la cuenta.
-// @name:fi      Näytä sijainti ChatGPT:ssä
-// @description:fi Näyttää nykyisen käyttäjän IP-sijainnin ChatGPT:n virallisella verkkosivustolla. Jos se on alueella, jota ChatGPT ei tue, se korostetaan punaisella estämään tilin sulkemista.
-// @name:it      Mostra posizione su ChatGPT
-// @description:it Mostra la posizione IP attuale dell'utente in cima al sito ufficiale di ChatGPT. Se si trova in una regione non supportata da ChatGPT, verrà evidenziata in rosso per evitare la sospensione dell'account.
-// @name:ro      Afișați locația pe ChatGPT
-// @description:ro Afișează locația IP curentă a utilizatorului în partea de sus a site-ului oficial ChatGPT. Dacă se află într-o regiune neacceptată de ChatGPT, va fi evidențiată cu roșu pentru a preveni suspendarea contului.
-// @name:nz      Show Location on ChatGPT 
-// @description:nz Display the current user's IP location at the top of the ChatGPT official website. If it is a non-supported region by ChatGPT, it will be highlighted in red to prevent account suspension.
-// @name:pt-BR   Mostrar localização no ChatGPT 
-// @description:pt-BR Exibe a localização IP atual do usuário no topo do site oficial do ChatGPT. Se estiver em uma região não suportada pelo ChatGPT, será destacada em vermelho para evitar a suspensão da conta.
+// @name:ar   ChatGPTإظهار المستخدم الحالي في الأعلىIP
+// @description:ar يخرجChatGPTيظهر الجزء العلوي من الموقع الرسمي المستخدم الحاليIP所يخرج的地区，إذا كان على حق أو خطأChatGPTسيتم تمييز المناطق المدعومة باللون الأحمر.，لتجنب الحظر。
+// @name:bg   ChatGPTПоказване на текущия потребител в горната частIP
+// @description:bg съществуватChatGPTГорната част на официалния уебсайт показва текущия потребителIP所съществуват的地区，дали е правилно или грешноChatGPTПоддържаните области ще бъдат маркирани в червено.，За да избегнете забрана。
+// @name:cs   ChatGPTZobrazit aktuálního uživatele nahořeIP
+// @description:cs existovatChatGPTV horní části oficiálního webu je zobrazen aktuální uživatelIP所existovat的地区，jestli správně nebo špatněChatGPTPodporované oblasti budou označeny červeně.，Aby nedošlo k zákazu。
+// @name:da   ChatGPTVis den aktuelle bruger øverstIP
+// @description:da eksistereChatGPTToppen af ​​den officielle hjemmeside viser den aktuelle brugerIP所eksistere的地区，hvis rigtigt eller forkertChatGPTUnderstøttede områder vil være markeret med rødt.，For at undgå at blive forbudt。
+// @name:de   ChatGPTAktuellen Benutzer oben anzeigenIP
+// @description:de existierenChatGPTOben auf der offiziellen Website wird der aktuelle Benutzer angezeigtIP所existieren的地区，ob richtig oder falschChatGPTUnterstützte Bereiche werden rot markiert.，Um einem Verbot zu entgehen。
+// @name:el   ChatGPTΕμφάνιση του τρέχοντος χρήστη στην κορυφήIP
+// @description:el υπάρχωChatGPTΣτην κορυφή του επίσημου ιστότοπου εμφανίζεται ο τρέχων χρήστηςIP所υπάρχω的地区，αν είναι σωστό ή λάθοςChatGPTΟι υποστηριζόμενες περιοχές θα επισημαίνονται με κόκκινο χρώμα.，Για να αποφύγετε την απαγόρευση。
+// @name:en   ChatGPTShow current user at topIP
+// @description:en existChatGPTThe top of the official website shows the current userIP所exist的地区，if right or wrongChatGPTSupported areas will be marked in red.，To avoid being banned。
+// @name:eo   ChatGPTMontru nunan uzanton supreIP
+// @description:eo ekzistiChatGPTLa supro de la oficiala retejo montras la nunan uzantonIP所ekzisti的地区，se prave aŭ malĝustaChatGPTSubtenataj areoj estos markitaj ruĝe.，Por eviti esti malpermesita。
+// @name:es   ChatGPTMostrar usuario actual en la parte superiorIP
+// @description:es existirChatGPTLa parte superior del sitio web oficial muestra el usuario actual.IP所existir的地区，si es correcto o incorrectoChatGPTLas áreas admitidas estarán marcadas en rojo.，Para evitar ser prohibido。
+// @name:fi   ChatGPTNäytä nykyinen käyttäjä yläreunassaIP
+// @description:fi olemassaChatGPTVirallisen verkkosivuston yläosassa näkyy nykyinen käyttäjäIP所olemassa的地区，jos oikein tai väärinChatGPTTuetut alueet on merkitty punaisella.，Välttääkseen kiellon。
+// @name:fr   ChatGPTAfficher l’utilisateur actuel en hautIP
+// @description:fr existerChatGPTLe haut du site officiel montre l’utilisateur actuelIP所exister的地区，si c’est vrai ou fauxChatGPTLes zones prises en charge seront marquées en rouge.，Pour éviter d’être banni。
+// @name:he   ChatGPTהצג את המשתמש הנוכחי למעלהIP
+// @description:he לְהִתְקַיֵםChatGPTהחלק העליון של האתר הרשמי מציג את המשתמש הנוכחיIP所לְהִתְקַיֵם的地区，אם נכון או לא נכוןChatGPTהאזורים הנתמכים יסומנו באדום.，כדי לא להיות אסור。
+// @name:hr   ChatGPTPrikaži trenutnog korisnika na vrhuIP
+// @description:hr postojatiChatGPTVrh službene web stranice prikazuje trenutnog korisnikaIP所postojati的地区，ako je ispravno ili krivoChatGPTPodržana područja bit će označena crvenom bojom.，Da izbjegnemo zabranu。
+// @name:hu   ChatGPTAz aktuális felhasználó megjelenítése felülIP
+// @description:hu létezikChatGPTA hivatalos webhely tetején az aktuális felhasználó láthatóIP所létezik的地区，ha helyes vagy rosszChatGPTA támogatott területek piros színnel lesznek jelölve.，Hogy ne tiltsák el。
+// @name:id   ChatGPTTampilkan pengguna saat ini di atasIP
+// @description:id adaChatGPTBagian atas situs web resmi menunjukkan pengguna saat iniIP所ada的地区，jika benar atau salahChatGPTArea yang didukung akan ditandai dengan warna merah.，Agar tidak dilarang。
+// @name:it   ChatGPTMostra l’utente corrente in altoIP
+// @description:it esistereChatGPTLa parte superiore del sito Web ufficiale mostra l’utente correnteIP所esistere的地区，se giusto o sbagliatoChatGPTLe aree supportate saranno contrassegnate in rosso.，Per evitare di essere bannati。
+// @name:ja   ChatGPT現在のユーザーを一番上に表示IP
+// @description:ja 存在するChatGPT公式サイトのトップには現在のユーザーが表示されますIP所存在する的地区，正しいか間違っているかChatGPTサポートされている領域は赤色でマークされます。，出禁にならないようにするには。
+// @name:ka   ChatGPTამჟამინდელი მომხმარებლის ჩვენება ზედაIP
+// @description:ka არსებობსChatGPTოფიციალური ვებსაიტის ზედა ნაწილში ნაჩვენებია მიმდინარე მომხმარებელიIP所არსებობს的地区，სწორია თუ არასწორიChatGPTმხარდაჭერილი ადგილები წითლად იქნება მონიშნული.，აკრძალვის თავიდან ასაცილებლად。
+// @name:ko   ChatGPT현재 사용자를 맨 위에 표시IP
+// @description:ko 존재하다ChatGPT공식 홈페이지 상단에는 현재 사용자가 표시됩니다.IP所존재하다的地区，옳든 그르든ChatGPT지원되는 지역은 빨간색으로 표시됩니다.，금지당하지 않으려면。
+// @name:nl   ChatGPTToon huidige gebruiker bovenaanIP
+// @description:nl bestaanChatGPTBovenaan de officiële website wordt de huidige gebruiker weergegevenIP所bestaan的地区，als het goed of fout isChatGPTOndersteunde gebieden worden rood gemarkeerd.，Om te voorkomen dat het verboden wordt。
+// @name:nb   ChatGPTVis gjeldende bruker øverstIP
+// @description:nb eksistereChatGPTToppen av det offisielle nettstedet viser gjeldende brukerIP所eksistere的地区，om rett eller galtChatGPTStøttede områder vil være merket med rødt.，For å unngå å bli utestengt。
+// @name:pl   ChatGPTPokaż bieżącego użytkownika na górzeIP
+// @description:pl istniećChatGPTNa górze oficjalnej strony internetowej widoczny jest bieżący użytkownikIP所istnieć的地区，jeśli masz rację, czy nieChatGPTObsługiwane obszary zostaną zaznaczone na czerwono.，Aby uniknąć zakazu。
+// @name:pt-BR   ChatGPTMostrar usuário atual no topoIP
+// @description:pt-BR existirChatGPTA parte superior do site oficial mostra o usuário atualIP所existir的地区，se certo ou erradoChatGPTAs áreas suportadas serão marcadas em vermelho.，Para evitar ser banido。
+// @name:ro   ChatGPTAfișați utilizatorul actual în partea de susIP
+// @description:ro existaChatGPTPartea de sus a site-ului oficial arată utilizatorul actualIP所exista的地区，daca este corect sau gresitChatGPTZonele acceptate vor fi marcate cu roșu.，Pentru a evita interzicerea。
+// @name:ru   ChatGPTПоказывать текущего пользователя вверхуIP
+// @description:ru существоватьChatGPTВ верхней части официального сайта отображается текущий пользователь.IP所существовать的地区，если правильно или неправильноChatGPTПоддерживаемые области будут отмечены красным.，Чтобы не быть забаненным。
+// @name:sk   ChatGPTZobraziť aktuálneho používateľa navrchuIP
+// @description:sk existujúChatGPTV hornej časti oficiálnej webovej stránky sa zobrazuje aktuálny používateľIP所existujú的地区，či správne alebo nesprávneChatGPTPodporované oblasti budú označené červenou farbou.，Aby nebol zakázaný。
+// @name:sr   ChatGPTПрикажи тренутног корисника на врхуIP
+// @description:sr постојеChatGPTНа врху званичне веб странице приказан је тренутни корисникIP所постоје的地区，ако је исправно или погрешноChatGPTПодржане области ће бити означене црвеном бојом.，Да не буде забрањено。
+// @name:sv   ChatGPTVisa aktuell användare överstIP
+// @description:sv existeraChatGPTÖverst på den officiella webbplatsen visas den aktuella användarenIP所existera的地区，om rätt eller felChatGPTOmråden som stöds kommer att markeras med rött.，För att slippa bli förbjudna。
+// @name:th   ChatGPTแสดงผู้ใช้ปัจจุบันที่ด้านบนIP
+// @description:th มีอยู่ChatGPTด้านบนของเว็บไซต์อย่างเป็นทางการจะแสดงผู้ใช้ปัจจุบันIP所มีอยู่的地区，ถ้าถูกหรือผิดChatGPTพื้นที่ที่รองรับจะถูกทำเครื่องหมายด้วยสีแดง，เพื่อหลีกเลี่ยงการถูกห้าม。
+// @name:tr   ChatGPTGeçerli kullanıcıyı en üstte gösterIP
+// @description:tr var olmakChatGPTResmi web sitesinin üst kısmı mevcut kullanıcıyı gösterirIP所var olmak的地区，eğer doğruysa veya yanlışsaChatGPTDesteklenen alanlar kırmızı renkle işaretlenecektir.，Yasaklanmamak için。
+// @name:ug   ChatGPTئۈستىدىكى ئىشلەتكۈچىنى كۆرسەتIP
+// @description:ug مەۋجۇتChatGPTئورگان تور بېتىنىڭ ئۈستى تەرىپىدە نۆۋەتتىكى ئىشلەتكۈچى كۆرسىتىلدىIP所مەۋجۇت的地区，ئەگەر توغرا ياكى خاتا بولساChatGPTقوللايدىغان رايونلار قىزىل رەڭدە بولىدۇ.，چەكلىنىشتىن ساقلىنىش。
+// @name:uk   ChatGPTПоказати поточного користувача вгоріIP
+// @description:uk існуютьChatGPTУ верхній частині офіційного сайту показано поточний користувачIP所існують的地区，правильно чи ніChatGPTПідтримувані області будуть позначені червоним кольором.，Щоб уникнути бану。
+// @name:vi   ChatGPTHiển thị người dùng hiện tại ở trên cùngIP
+// @description:vi hiện hữuChatGPTPhần đầu của trang web chính thức hiển thị người dùng hiện tạiIP所hiện hữu的地区，nếu đúng hay saiChatGPTCác khu vực được hỗ trợ sẽ được đánh dấu màu đỏ.，Để tránh bị cấm。
+// @name:zh-TW   ChatGPT頂部顯示目前用戶IP
+// @description:zh-TW 在ChatGPT官方網站的頂部顯示當前用戶IP所在的地區，如果是非ChatGPT支援的地區會紅色標示提示，以免被封號。
+// @name:zh-HK   ChatGPT頂部顯示目前用戶IP
+// @description:zh-HK 在ChatGPT官方網站的頂部顯示當前用戶IP所在的地區，如果是非ChatGPT支援的地區會紅色標示提示，以免被封號。
+// @name:fr-CA   ChatGPTAfficher l’utilisateur actuel en hautIP
+// @description:fr-CA existerChatGPTLe haut du site officiel montre l’utilisateur actuelIP所exister的地区，si c’est vrai ou fauxChatGPTLes zones prises en charge seront marquées en rouge.，Pour éviter d’être banni。
+// @description  Display the current user's IP location at the top of the ChatGPT official website. If it is a non-supported region by ChatGPT, it will be highlighted in red to prevent account suspension.
 // @namespace    http://tampermonkey.net/
 // @version      0.5
 // @author       Daotin

@@ -1,18 +1,80 @@
 // ==UserScript==
 // @name        GitHub Folder Downloader
-// @name:en        GitHub Folder Downloader
 // @name:zh-CN    GitHub 文件夹下载器
-// @name:zh-TW    GitHub 文件夾下載器
-// @name:ja      GitHub フォルダー ダウンローダー
-// @name:vi      Trình tải xuống thư mục GitHub
-// @name:ko      GitHub 폴더 다운로더
-// @description  To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
-// @description:en  To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
 // @description:zh-CN  添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-// @description:zh-TW  添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夾。
-// @description:ja      特定の GitHub フォルダーを簡単にダウンロードできるダウンロードボタンを追加します。
-// @description:vi      Thêm một nút tải xuống cho phép tải xuống thư mục GitHub cụ thể một cách dễ dàng.
-// @description:ko      특정 GitHub 폴더를 쉽게 다운로드할 수 있는 다운로드 버튼을 추가합니다.
+// @name:ar    GitHub تنزيل المجلد
+// @description:ar  أضف زر التنزيل，يتيح سهولة تنزيل ملفات محددة GitHub المجلد。
+// @name:bg    GitHub програма за изтегляне на папки
+// @description:bg  Добавете бутон за изтегляне，Позволява лесно изтегляне на конкретни GitHub папка。
+// @name:cs    GitHub stahovač složek
+// @description:cs  Přidejte tlačítko stahování，Umožňuje snadné stahování konkrétních GitHub složku。
+// @name:da    GitHub mappe downloader
+// @description:da  Tilføj en downloadknap，Tillader nem download af specifikke GitHub folder。
+// @name:de    GitHub Ordner-Downloader
+// @description:de  Fügen Sie einen Download-Button hinzu，Ermöglicht das einfache Herunterladen spezifischer GitHub Ordner。
+// @name:el    GitHub πρόγραμμα λήψης φακέλων
+// @description:el  Προσθέστε ένα κουμπί λήψης，Επιτρέπει την εύκολη λήψη συγκεκριμένων GitHub ντοσιέ。
+// @name:en    GitHub folder downloader
+// @description:en  Add a download button，Allows easy downloading of specific GitHub folder。
+// @name:eo    GitHub dosierujo elŝutilo
+// @description:eo  Aldonu elŝutan butonon，Ebligas facilan elŝuton de specifaj GitHub dosierujo。
+// @name:es    GitHub descargador de carpetas
+// @description:es  Agregar un botón de descarga，Permite descargar fácilmente archivos específicos GitHub carpeta。
+// @name:fi    GitHub kansion latausohjelma
+// @description:fi  Lisää latauspainike，Mahdollistaa helpon lataamisen tiettyjä GitHub kansio。
+// @name:fr    GitHub téléchargeur de dossiers
+// @description:fr  Ajouter un bouton de téléchargement，Permet de télécharger facilement des fichiers spécifiques GitHub dossier。
+// @name:he    GitHub הורדת תיקיות
+// @description:he  הוסף כפתור הורדה，מאפשר הורדה קלה של ספציפיים GitHub תיקייה。
+// @name:hr    GitHub preuzimač mapa
+// @description:hr  Dodajte gumb za preuzimanje，Omogućuje jednostavno preuzimanje određenih GitHub mapa。
+// @name:hu    GitHub mappa letöltő
+// @description:hu  Letöltés gomb hozzáadása，Lehetővé teszi a konkrét GitHub mappát。
+// @name:id    GitHub pengunduh folder
+// @description:id  Tambahkan tombol unduh，Memungkinkan pengunduhan yang spesifik dengan mudah GitHub map。
+// @name:it    GitHub downloader di cartelle
+// @description:it  Aggiungi un pulsante di download，Consente un facile download di specifici GitHub cartella。
+// @name:ja    GitHub フォルダーダウンローダー
+// @description:ja  ダウンロードボタンを追加する，特定のファイルを簡単にダウンロードできます GitHub フォルダ。
+// @name:ka    GitHub საქაღალდის ჩამოტვირთვა
+// @description:ka  დაამატეთ ჩამოტვირთვის ღილაკი，საშუალებას გაძლევთ მარტივად ჩამოტვირთოთ კონკრეტული GitHub საქაღალდე。
+// @name:ko    GitHub 폴더 다운로더
+// @description:ko  다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。
+// @name:nl    GitHub mapdownloader
+// @description:nl  Voeg een downloadknop toe，Maakt eenvoudig downloaden van specifieke GitHub map。
+// @name:nb    GitHub mappenedlasting
+// @description:nb  Legg til en nedlastingsknapp，Tillater enkel nedlasting av spesifikke GitHub mappe。
+// @name:pl    GitHub narzędzie do pobierania folderów
+// @description:pl  Dodaj przycisk pobierania，Umożliwia łatwe pobieranie określonych GitHub falcówka。
+// @name:pt-BR    GitHub downloader de pasta
+// @description:pt-BR  Adicione um botão de download，Permite fácil download de arquivos específicos GitHub pasta。
+// @name:ro    GitHub folder downloader
+// @description:ro  Adăugați un buton de descărcare，Permite descărcarea ușoară a anumitor GitHub pliant。
+// @name:ru    GitHub загрузчик папок
+// @description:ru  Добавьте кнопку загрузки，Позволяет легко загружать определенные GitHub папка。
+// @name:sk    GitHub sťahovač priečinkov
+// @description:sk  Pridajte tlačidlo sťahovania，Umožňuje jednoduché sťahovanie konkrétnych GitHub priečinok。
+// @name:sr    GitHub фолдер за преузимање
+// @description:sr  Додајте дугме за преузимање，Омогућава лако преузимање одређених GitHub фолдер。
+// @name:sv    GitHub mappnedladdare
+// @description:sv  Lägg till en nedladdningsknapp，Tillåter enkel nedladdning av specifika GitHub mapp。
+// @name:th    GitHub ดาวน์โหลดโฟลเดอร์
+// @description:th  เพิ่มปุ่มดาวน์โหลด，ช่วยให้ดาวน์โหลดเฉพาะได้ง่าย GitHub โฟลเดอร์。
+// @name:tr    GitHub klasör indirici
+// @description:tr  İndirme düğmesi ekleyin，Belirli dosyaların kolayca indirilmesine izin verir GitHub dosya。
+// @name:ug    GitHub ھۆججەت قىسقۇچ
+// @description:ug  چۈشۈرۈش كۇنۇپكىسىنى قوشۇڭ，كونكرېت چۈشۈرۈشكە ئاسان يول قويىدۇ GitHub ھۆججەت قىسقۇچ。
+// @name:uk    GitHub завантажувач папок
+// @description:uk  Додайте кнопку завантаження，Дозволяє легко завантажувати певні GitHub папку。
+// @name:vi    GitHub trình tải xuống thư mục
+// @description:vi  Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。
+// @name:zh-TW    GitHub 資料夾下載器
+// @description:zh-TW  新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。
+// @name:zh-HK    GitHub 資料夾下載器
+// @description:zh-HK  新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。
+// @name:fr-CA    GitHub téléchargeur de dossiers
+// @description:fr-CA  Ajouter un bouton de téléchargement，Permet de télécharger facilement des fichiers spécifiques GitHub dossier。
+// @description  To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
 // @namespace               https://github.com/ChinaGodMan/UserScripts
 // @version 0.7.0.13
 // @author       EricKwok,人民的勤务员 <toniaiwanowskiskr47@gmail.com>

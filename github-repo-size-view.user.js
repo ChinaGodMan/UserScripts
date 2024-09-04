@@ -1,9 +1,81 @@
 // ==UserScript==
 // @name        Github Repo Size+
 // @name:zh-CN        Github 仓库大小
+// @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
+// @name:ar        Github حجم المستودع
+// @description:ar يخرج github أضف حجم المستودع بجوار اسم المستودع في صفحات البحث والمستودع
+// @name:bg        Github Размер на склада
+// @description:bg съществуват github Добавете размер на хранилището до името на хранилището на страниците за търсене и хранилище
+// @name:cs        Github Velikost skladu
+// @description:cs existovat github Přidejte velikost úložiště vedle názvu úložiště na stránkách vyhledávání a úložiště
+// @name:da        Github Lagerstørrelse
+// @description:da eksistere github Tilføj lagerstørrelse ud for lagernavn på søge- og lagersider
+// @name:de        Github Lagergröße
+// @description:de existieren github Fügen Sie auf Such- und Repository-Seiten neben dem Repository-Namen die Repository-Größe hinzu
+// @name:el        Github Μέγεθος αποθήκης
+// @description:el υπάρχω github Προσθέστε μέγεθος αποθετηρίου δίπλα στο όνομα χώρου αποθήκευσης στις σελίδες αναζήτησης και αποθετηρίου
+// @name:en        Github Warehouse size
+// @description:en exist github Add repository size next to repository name on search and repository pages
+// @name:eo        Github Grando de magazeno
+// @description:eo ekzisti github Aldonu deponejan grandecon apud la nomo de deponejo sur serĉo kaj deponejo paĝoj
+// @name:es        Github Tamaño del almacén
+// @description:es existir github Agregue el tamaño del repositorio junto al nombre del repositorio en las páginas de búsqueda y repositorio
+// @name:fi        Github Varaston koko
+// @description:fi olemassa github Lisää arkiston koko arkiston nimen viereen haku- ja arkistosivuilla
+// @name:fr        Github Taille de l’entrepôt
+// @description:fr exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
+// @name:he        Github גודל המחסן
+// @description:he לְהִתְקַיֵם github הוסף גודל מאגר ליד שם המאגר בדפי החיפוש והמאגר
+// @name:hr        Github Veličina skladišta
+// @description:hr postojati github Dodajte veličinu repozitorija pored naziva repozitorija na stranicama pretraživanja i repozitorija
+// @name:hu        Github Raktár mérete
+// @description:hu létezik github Adja hozzá a lerakat méretét a lerakat neve mellett a keresési és lerakatoldalakon
+// @name:id        Github Ukuran gudang
+// @description:id ada github Tambahkan ukuran repositori di sebelah nama repositori pada halaman pencarian dan repositori
+// @name:it        Github Dimensioni del magazzino
+// @description:it esistere github Aggiungi la dimensione del repository accanto al nome del repository nelle pagine di ricerca e del repository
+// @name:ja        Github 倉庫のサイズ
+// @description:ja 存在する github 検索ページとリポジトリ ページでリポジトリ名の横にリポジトリ サイズを追加します
+// @name:ka        Github საწყობის ზომა
+// @description:ka არსებობს github საძიებო და საცავის გვერდებზე საცავის სახელის გვერდით დაამატეთ საცავის ზომა
+// @name:ko        Github 창고 규모
+// @description:ko 존재하다 github 검색 및 저장소 페이지의 저장소 이름 옆에 저장소 크기 추가
+// @name:nl        Github Grootte van magazijn
+// @description:nl bestaan github Voeg de repositorygrootte toe naast de repositorynaam op zoek- en repositorypagina’s
+// @name:nb        Github Lagerstørrelse
+// @description:nb eksistere github Legg til depotstørrelse ved siden av depotnavnet på søke- og depotsidene
+// @name:pl        Github Wielkość magazynu
+// @description:pl istnieć github Dodaj rozmiar repozytorium obok nazwy repozytorium na stronach wyszukiwania i repozytorium
+// @name:pt-BR        Github Tamanho do armazém
+// @description:pt-BR existir github Adicione o tamanho do repositório próximo ao nome do repositório nas páginas de pesquisa e do repositório
+// @name:ro        Github Dimensiunea depozitului
+// @description:ro exista github Adăugați dimensiunea depozitului lângă numele depozitului pe paginile de căutare și depozit
+// @name:ru        Github Размер склада
+// @description:ru существовать github Добавьте размер репозитория рядом с именем репозитория на страницах поиска и репозитория.
+// @name:sk        Github Veľkosť skladu
+// @description:sk existujú github Pridajte veľkosť úložiska vedľa názvu úložiska na stránkach vyhľadávania a úložiska
+// @name:sr        Github Величина магацина
+// @description:sr постоје github Додајте величину спремишта поред имена спремишта на страницама претраге и спремишта
+// @name:sv        Github Lagerstorlek
+// @description:sv existera github Lägg till förvarsstorlek bredvid förvarets namn på sök- och förvarssidor
+// @name:th        Github ขนาดคลังสินค้า
+// @description:th มีอยู่ github เพิ่มขนาดที่เก็บถัดจากชื่อที่เก็บในหน้าการค้นหาและที่เก็บ
+// @name:tr        Github Depo boyutu
+// @description:tr var olmak github Arama ve depo sayfalarında depo adının yanına depo boyutunu ekleyin
+// @name:ug        Github ئامبارنىڭ چوڭلۇقى
+// @description:ug مەۋجۇت github ئىزدەش ۋە ئامبار بېتىدىكى ئامبار نامىنىڭ يېنىغا ئامبار چوڭلۇقى قوشۇڭ
+// @name:uk        Github Розмір складу
+// @description:uk існують github Додайте розмір сховища поруч із назвою сховища на сторінках пошуку та сховища
+// @name:vi        Github Kích thước kho
+// @description:vi hiện hữu github Thêm kích thước kho lưu trữ bên cạnh tên kho lưu trữ trên các trang tìm kiếm và kho lưu trữ
+// @name:zh-TW        Github 倉庫大小
+// @description:zh-TW 在 github 搜尋和儲存庫頁面上的儲存庫名稱旁邊新增儲存庫大小
+// @name:zh-HK        Github 倉庫大小
+// @description:zh-HK 在 github 搜尋和儲存庫頁面上的儲存庫名稱旁邊新增儲存庫大小
+// @name:fr-CA        Github Taille de l’entrepôt
+// @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
-// @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
 // @version 0.1.2.46
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*

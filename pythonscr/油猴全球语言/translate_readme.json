@@ -3,7 +3,117 @@
         {
             "foldpath": "pythonscr/油猴全球语言/",
             "translatefile": "README.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "chatgpt-regional-support-checker.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "github-folder-downloader.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "github-raw-file-plus.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "github-repo-size-view.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "github-sort-by-date.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "google-advanced-search.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-discussion-watcher.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-markdown-toolbar.user.md",
             "translated": true
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-ranks.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-search.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-user-control-panel-button.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-utility-toolkit.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "greasyfork-webhook-sync-enhanced.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "highlight-keywords-mini.user.md",
+            "translated": true
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "jable-auto-login-helper.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "missav-auto-login-helper.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "popup-window.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "remove-link-underlines.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "script-finder-plus.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "scroll-button.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "scroll-to-top-button.user.md",
+            "translated": false
+        },
+        {
+            "foldpath": "pythonscr/油猴全球语言/",
+            "translatefile": "thisav-auto-login-helper.user.md",
+            "translated": false
         }
     ]
 }
