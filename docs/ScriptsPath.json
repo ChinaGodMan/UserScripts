@@ -204,6 +204,15 @@
             "isSleazy": true
         },
         {
+            "name": "JableTV自动登录",
+            "path": "jable-auto-login-helper.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/jable-auto-login-helper",
+            "GreasyFork": "506730",
+            "description": "检测 JableTV 状态，并且在未登录时自动登录",
+            "isSleazy": true
+        },
+        {
             "name": "外语终结者",
             "path": "no-zh-terminator.user.js",
             "isUpdated": true,
