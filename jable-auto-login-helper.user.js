@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name       JABLE login
+// @name       JableTV Automatic login
 // @description Detection  JableTV  state,and automatically log in when not logged in
 // @name:ar        JableTV تسجيل الدخول التلقائي
 // @description:ar كشف  JableTV  ولاية,وتسجيل الدخول تلقائيًا في حالة عدم تسجيل الدخول
