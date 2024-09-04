@@ -100,7 +100,7 @@ Currently, the following three formats are supported:
 3. **Directly Set Corresponding Country Language (Detailed Format)**: Supports other format files.
     ` https://www.xxx.com/path/to/your/filename.md##简体中文 (zh-CN)` 
 
-Example code: If you have more options, you can extend it.
+Example code: If you have more options, you can extend it.<br>
 `let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
 ## Attention:
