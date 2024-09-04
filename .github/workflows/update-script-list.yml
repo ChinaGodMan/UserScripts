@@ -19,6 +19,10 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install dependencies
+         run: |
+          pip install requests
+
       - name: 获取当前分支
         id: get_branch
         run: |
