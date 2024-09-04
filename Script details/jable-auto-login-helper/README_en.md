@@ -62,12 +62,14 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>TissAV自动登录</h1>
-    <p>「 检测 TissAV 状态，并且在未登录时自动登录 」</p>
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/thisav-auto-login-helper">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/506528">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details> 
-    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506528.png">
+    <h1>JableTV自动登录</h1>
+    <p>「 检测 JableTV 状态，并且在未登录时自动登录 」</p>
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>初始版本-欢迎使用</em></li>
+</ul></details> 
+    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/506730.png">
 </div></center>
 
 # JableTV  AutoLogin Helper
