@@ -81,6 +81,7 @@
 
 
 
+
 <table>
     <thead>
         <tr>
@@ -88,9 +89,9 @@
             <th>脚本说明</th>
             <th>GitHub</th>
             <th>Greasyfork</th>
-            <th>发布时间</th>
-            <th>更新时间</th>
-            <th>最新版本</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
         </tr>
     </thead>
     <tbody>
@@ -987,6 +988,7 @@
         </tr>
     </tbody>
 </table>
+
 
 
 
