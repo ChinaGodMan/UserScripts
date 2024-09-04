@@ -92,14 +92,14 @@
 目前支持以下三种格式：
 
 1. **从Markdown文件获取国家语言**  仅支持README_xxx.md
-   `https://www.xxx.com/path/to/your/README_xxxxx.md`
-3. **直接设置对应的国家语言（简洁格式）**  支持其他格式文件
+   ` https://www.xxx.com/path/to/your/README_xxxxx.md`
+2. **直接设置对应的国家语言（简洁格式）**  支持其他格式文件
     ` https://www.xxx.com/path/to/your/filename.md##ko` 
-4. **直接设置对应的国家语言（详细格式）**支持其他格式文件
+3. **直接设置对应的国家语言（详细格式）**支持其他格式文件
     ` https://www.xxx.com/path/to/your/filename.md##简体中文 (zh-CN)` 
 
 代码如下: 如果你有更多的选择可以拓展
-`let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
+` let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
 ## 注意:
 - 提交的本地化国家信息时,代码内必须存在头部声明 例如//@name:zh-CN,否则即使提交成功也是失败的!
