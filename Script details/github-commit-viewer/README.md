@@ -43,7 +43,7 @@
 [Github]: https://github.com/ChinaGodMan/
 [Github-UserScripts]:https://github.com/ChinaGodMan/UserScripts
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
-[commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=githube
+[commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
 [forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "复刻"
 [stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "如果觉得不错,请给我点亮星星"
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "问题"
