@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-         run: |
+        run: |
           pip install requests
 
       - name: 获取当前分支
