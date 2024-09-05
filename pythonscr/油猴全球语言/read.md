@@ -1,72 +1,74 @@
-// @name:zh-CN      ChatGPT代码字体缩小
-// @description:zh-CN ChatGPT 让代码字体变小 并且自动折行
-// @name:ar      ChatGPT代码字体缩小
-// @description:ar ChatGPT جعل خط التعليمات البرمجية أصغر والتفاف تلقائيا
-// @name:cs      ChatGPTVelikost písma kódu zmenšena
-// @description:cs ChatGPT Zmenšit písmo kódu a automaticky zabalit
-// @name:da      ChatGPTKodeskriftstørrelse reduceret
-// @description:da ChatGPT Gør kodeskrifttypen mindre og automatisk indpakning
-// @name:de      ChatGPTDie Schriftgröße des Codes wurde reduziert
-// @description:de ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
-// @name:el      ChatGPTΜειώθηκε το μέγεθος γραμματοσειράς κώδικα
-// @description:el ChatGPT Κάντε τη γραμματοσειρά κώδικα μικρότερη και τυλίγεται αυτόματα
-// @name:en      ChatGPTCode font size reduced
-// @description:en ChatGPT Make code font smaller and automatically wrap
-// @name:eo      ChatGPTKoda tiparo grandeco reduktita
-// @description:eo ChatGPT Malgrandigu kodan tiparon kaj aŭtomate envolvi
-// @name:es      ChatGPTTamaño de fuente del código reducido
-// @description:es ChatGPT Reducir la fuente del código y envolver automáticamente
-// @name:fi      ChatGPTKoodin fonttikokoa pienennetty
-// @description:fi ChatGPT Pienennä koodin fonttia ja kääri automaattisesti
-// @name:fr      ChatGPTTaille de la police du code réduite
-// @description:fr ChatGPT Rendre la police du code plus petite et envelopper automatiquement
-// @name:he      ChatGPTגודל גופן הקוד מופחת
-// @description:he ChatGPT הקטן את גופן הקוד ועוטף אוטומטית
-// @name:hr      ChatGPTSmanjena veličina fonta koda
-// @description:hr ChatGPT Smanjite font koda i automatski omotati
-// @name:hu      ChatGPTA kód betűmérete csökkentve
-// @description:hu ChatGPT Csökkentse a kód betűtípusát és automatikusan becsomagolja
-// @name:id      ChatGPTUkuran font kode dikurangi
-// @description:id ChatGPT Buat font kode lebih kecil dan secara otomatis membungkus
-// @name:it      ChatGPTDimensione del carattere del codice ridotta
-// @description:it ChatGPT Rimpicciolisci il carattere del codice e avvolgi automaticamente
-// @name:ja      ChatGPTコードのフォントサイズが小さくなりました
-// @description:ja ChatGPT コードのフォントを小さくする そして自動的に折り返す
-// @name:ka      ChatGPTკოდის შრიფტის ზომა შემცირდა
-// @description:ka ChatGPT გაამცირეთ კოდის შრიფტი და ავტომატურად შეფუთვა
-// @name:ko      ChatGPT코드 글꼴 크기 감소
-// @description:ko ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
-// @name:nl      ChatGPTLettergrootte van code verkleind
-// @description:nl ChatGPT Maak het codelettertype kleiner en automatisch inpakken
-// @name:nb      ChatGPTKodeskriftstørrelse redusert
-// @description:nb ChatGPT Gjør kodeskrift mindre og pakkes inn automatisk
-// @name:pl      ChatGPTZmniejszono rozmiar czcionki kodu
-// @description:pl ChatGPT Zmniejsz czcionkę kodu i automatycznie zawijać
-// @name:pt-BR      ChatGPTTamanho da fonte do código reduzido
-// @description:pt-BR ChatGPT Diminuir a fonte do código e embrulhar automaticamente
-// @name:ro      ChatGPTDimensiunea fontului codului a fost redusă
-// @description:ro ChatGPT Faceți fontul codului mai mic și înfășurați automat
-// @name:ru      ChatGPTРазмер шрифта кода уменьшен
-// @description:ru ChatGPT Уменьшить шрифт кода и автоматически обернуть
-// @name:sk      ChatGPTZmenšená veľkosť písma kódu
-// @description:sk ChatGPT Zmenšiť písmo kódu a automaticky zabaliť
-// @name:sr      ChatGPTСмањена величина фонта кода
-// @description:sr ChatGPT Смањите фонт кода и аутоматски умотати
-// @name:sv      ChatGPTKodens teckensnittsstorlek minskas
-// @description:sv ChatGPT Gör kodteckensnittet mindre och linda automatiskt
-// @name:th      ChatGPTขนาดตัวอักษรโค้ดลดลง
-// @description:th ChatGPT ทำให้โค้ดฟอนต์เล็กลง และห่ออัตโนมัติ
-// @name:tr      ChatGPTKod yazı tipi boyutu küçültüldü
-// @description:tr ChatGPT Kod yazı tipini küçültün ve otomatik olarak sar
-// @name:ug      ChatGPTكود خەت چوڭلۇقى كىچىكلىتىلدى
-// @description:ug ChatGPT كود خەت نۇسخىسىنى كىچىكرەك قىلىڭ ھەمدە ئاپتوماتىك ئورايدۇ
-// @name:uk      ChatGPTРозмір шрифту коду зменшено
-// @description:uk ChatGPT Зменшіть шрифт коду і автоматично обернути
-// @name:vi      ChatGPTKích thước phông chữ mã giảm
-// @description:vi ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
-// @name:zh-TW      ChatGPT程式碼字體縮小
-// @description:zh-TW ChatGPT 讓程式碼字體變小 並且自動折行
-// @name:zh-HK      ChatGPT程式碼字體縮小
-// @description:zh-HK ChatGPT 讓程式碼字體變小 並且自動折行
-// @name:fr-CA      ChatGPTTaille de la police du code réduite
-// @description:fr-CA ChatGPT Rendre la police du code plus petite et envelopper automatiquement
+// @name:zh-CN 绚丽渐变美化网页表格
+// @description:zh-CN  自动为表格所有列应用颜色渐变来美化
+// @name:ar تجميل نماذج الويب بتدرجات رائعة
+// @description:ar  تطبيق التدرجات اللونية تلقائيًا على كافة أعمدة الجدول لتجميله
+// @name:bg Разкрасете уеб формуляри с великолепни градиенти
+// @description:bg  Автоматично прилагайте цветови градиенти към всички колони на таблицата, за да я разкрасите
+// @name:cs Zkrášlete webové formuláře nádhernými přechody
+// @description:cs  Automaticky aplikujte barevné přechody na všechny sloupce tabulky, abyste ji zkrášlili
+// @name:da Forskønne webformularer med smukke gradienter
+// @description:da  Anvend automatisk farvegradienter til alle kolonner i tabellen for at forskønne den
+// @name:de Verschönern Sie Webformulare mit wunderschönen Farbverläufen
+// @description:de  Wenden Sie automatisch Farbverläufe auf alle Spalten der Tabelle an, um diese zu verschönern
+// @name:el Ομορφύνετε φόρμες ιστού με υπέροχες διαβαθμίσεις
+// @description:el  Εφαρμόστε αυτόματα διαβαθμίσεις χρώματος σε όλες τις στήλες του πίνακα για να τον ομορφύνετε
+// @name:en Beautify web forms with gorgeous gradients
+// @description:en  Automatically apply color gradients to all columns of the table to beautify it
+// @name:eo Beligu TTT-formojn per belegaj gradientoj
+// @description:eo  Aŭtomate apliku kolorgradientojn al ĉiuj kolumnoj de la tabelo por plibeligi ĝin
+// @name:es Embellezca los formularios web con magníficos degradados
+// @description:es  Aplique automáticamente degradados de color a todas las columnas de la tabla para embellecerla
+// @name:fi Kaunista verkkolomakkeita upeilla liukuväreillä
+// @description:fi  Käytä värigradientteja automaattisesti kaikkiin taulukon sarakkeisiin kaunistaaksesi sitä
+// @name:fr Embellissez les formulaires Web avec de superbes dégradés
+// @description:fr  Appliquez automatiquement des dégradés de couleurs à toutes les colonnes du tableau pour l’embellir
+// @name:he יפות טפסי אינטרנט עם מעברי צבע מדהימים
+// @description:he  החל באופן אוטומטי מעברי צבע על כל העמודות של הטבלה כדי לייפות אותה
+// @name:hr Uljepšajte web obrasce prekrasnim gradijentima
+// @description:hr  Automatski primijenite prijelaze boja na sve stupce tablice kako biste je uljepšali
+// @name:hu Szépítse a webes űrlapokat gyönyörű színátmenetekkel
+// @description:hu  Automatikusan alkalmazza a színátmeneteket a táblázat összes oszlopára a szebbé tétel érdekében
+// @name:id Percantik formulir web dengan gradien menawan
+// @description:id  Terapkan gradien warna secara otomatis ke semua kolom tabel untuk mempercantiknya
+// @name:it Abbellisci i moduli web con splendidi gradienti
+// @description:it  Applica automaticamente sfumature di colore a tutte le colonne della tabella per abbellirla
+// @name:ja ゴージャスなグラデーションで Web フォームを美しくする
+// @description:ja  表のすべての列に色のグラデーションを自動的に適用して、表を美しくします。
+// @name:ka გაალამაზეთ ვებ ფორმები მშვენიერი გრადიენტებით
+// @description:ka  ავტომატურად გამოიყენეთ ფერის გრადიენტები ცხრილის ყველა სვეტზე მის გასალამაზებლად
+// @name:ko 화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요
+// @description:ko  테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
+// @name:nl Verfraai webformulieren met prachtige verlopen
+// @description:nl  Pas automatisch kleurovergangen toe op alle kolommen van de tabel om deze te verfraaien
+// @name:nb Forskjønn nettskjemaer med nydelige gradienter
+// @description:nb  Bruk fargegradienter automatisk på alle kolonnene i tabellen for å forskjønne den
+// @name:pl Upiększ formularze internetowe wspaniałymi gradientami
+// @description:pl  Automatycznie zastosuj gradienty kolorów do wszystkich kolumn tabeli, aby ją upiększyć
+// @name:pt-BR Embeleze formulários da web com lindos gradientes
+// @description:pt-BR  Aplique automaticamente gradientes de cores a todas as colunas da tabela para embelezá-la
+// @name:ro Înfrumusețați formularele web cu degrade superbe
+// @description:ro  Aplicați automat degrade de culoare tuturor coloanelor tabelului pentru a-l înfrumuseța
+// @name:ru Украсьте веб-формы великолепными градиентами
+// @description:ru  Автоматически применяйте цветовые градиенты ко всем столбцам таблицы, чтобы украсить ее.
+// @name:sk Skrášlite webové formuláre nádhernými prechodmi
+// @description:sk  Automaticky aplikujte farebné prechody na všetky stĺpce tabuľky, aby ste ju skrášlili
+// @name:sr Улепшајте веб форме прекрасним градијентима
+// @description:sr  Аутоматски примените градијенте боја на све колоне табеле да бисте је улепшали
+// @name:sv Försköna webbformulär med underbara gradienter
+// @description:sv  Använd automatiskt färggradienter på alla kolumner i tabellen för att försköna den
+// @name:th ตกแต่งเว็บฟอร์มด้วยการไล่ระดับสีที่งดงาม
+// @description:th  ใช้การไล่ระดับสีกับคอลัมน์ทั้งหมดของตารางโดยอัตโนมัติเพื่อตกแต่งให้สวยงาม
+// @name:tr Web formlarını muhteşem degradelerle güzelleştirin
+// @description:tr  Tabloyu güzelleştirmek için tablonun tüm sütunlarına otomatik olarak renk geçişleri uygulayın
+// @name:ug ئېسىل رېشاتكىلار بىلەن تور شەكىللىرىنى گۈزەللەشتۈرۈڭ
+// @description:ug  ئۇنى گۈزەللەشتۈرۈش ئۈچۈن جەدۋەلنىڭ بارلىق ئىستونلىرىغا ئاپتوماتىك گىرىم بويۇملىرىنى ئاپتوماتىك ئىشلىتىڭ
+// @name:uk Прикрашайте веб-форми чудовими градієнтами
+// @description:uk  Автоматично застосовуйте градієнти кольорів до всіх стовпців таблиці, щоб прикрасити її
+// @name:vi Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp
+// @description:vi  Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
+// @name:zh-TW 絢麗漸層美化網頁表格
+// @description:zh-TW  自動為表格所有欄位套用色彩漸層來美化
+// @name:zh-HK 絢麗漸層美化網頁表格
+// @description:zh-HK  自動為表格所有欄位套用色彩漸層來美化
+// @name:fr-CA Embellissez les formulaires Web avec de superbes dégradés
+// @description:fr-CA  Appliquez automatiquement des dégradés de couleurs à toutes les colonnes du tableau pour l’embellir

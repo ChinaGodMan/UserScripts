@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: ["update-Script-version"]  # 指定 A 流程的名称
     types:
-      - completed  # 在 A 流程完成后触发
+      - completed
   push:
     paths:
       - 'docs/ScriptsPath.json' 
