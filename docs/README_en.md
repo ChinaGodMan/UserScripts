@@ -110,7 +110,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>let ChatGPT Code font size becomes smaller 0byvxv0f</td>
+            <td>let ChatGPT Code font size becomes smaller</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -999,7 +999,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated to Chinese</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated into Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
