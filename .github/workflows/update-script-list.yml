@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - '*.js'  # 监听根目录下的所有 .js 文件 如果更新到GF
-      #- 'docs/ScriptsPath.json'  # 监听 docs 目录下的 ScriptsPath.json 文件 如果更新说明文件的话.
+      - 'docs/ScriptsPath.json'  # 监听 docs 目录下的 ScriptsPath.json 文件 如果更新说明文件的话.
   #schedule:
     #- cron: '0 6 * * *'  # 每天的 UTC 时间 6 点，即中国时间的 14点
   workflow_dispatch:  # 允许手动触发工作流
