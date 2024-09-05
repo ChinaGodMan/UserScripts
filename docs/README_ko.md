@@ -243,6 +243,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/507036" target="_blank">화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table" target="_blank">
+                    <mark>상세한</mark>
+                </a>
+            </td>
+            <td>엿 먹어라 CSDN 로그인복사，로그인하지 않고 코드 상자 내용 복사</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/colorful-table.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table.user.js?style=social" alt="size">
+                    <br>설치하다
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/507036.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/507036?color=%23990000&label=Installs">
+                    <br>설치하다
+                </a>
+            </td>
+            <td><sub>2024-09-06 06:08:08</sub></td>
+            <td><sub>2024-09-06 06:08:08</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-06 05:02:49</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505830" target="_blank">GitHub정보 표시 제출HTML</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer.user.js" target="_blank">GitHub</a>
