@@ -62,7 +62,7 @@
 [stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "기분이 좋다면,나를 위해 별을 밝혀주세요"
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "질문"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "특허"
-[CopyRight-logo]: https://img.shields.io/badge/CopyRight-人民的질서 있는-4285dd "CopyRight 질서 있는"
+[CopyRight-logo]: https://img.shields.io/badge/CopyRight-QinWuYuan-4285dd "Copyright QinWuyuan"
 [JavaScript-logo]: https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E
 [Support-logo]: https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue?svg&
 [Tampermonkey-OK]: https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36
