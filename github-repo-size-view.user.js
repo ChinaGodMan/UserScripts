@@ -76,7 +76,7 @@
 // @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
 // @namespace   https://github.com/qinwuyuan-cn
 // @description Adds the repo size next to the repo name on github search and repo pages
-// @version 0.1.2.46
+// @version 0.1.2.47
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/search*
 // @match       *://github.com/*/*

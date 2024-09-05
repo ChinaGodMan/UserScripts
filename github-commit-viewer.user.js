@@ -75,7 +75,7 @@
 // @description:zh-HK  該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 // @name:fr-CA  GitHub Soumettre des informations, afficher la vue Web
 // @description:fr-CA  Ce script sera GitHub Les informations de soumission sur HTML voir，pour voir plus clairement les détails de la soumission。Il soumettra automatiquement la liste d’informations、L’en-tête de validation et les dernières informations de validation sont convertis en HTML Format，Fournir de meilleurs effets visuels et une meilleure expérience utilisateur。
-// @version 1.0.0.9
+// @version 1.0.0.10
 // @namespace   https://github.com/ChinaGodMan
 // @author   人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/*/*

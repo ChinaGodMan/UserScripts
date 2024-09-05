@@ -76,7 +76,7 @@
 // @name:fr-CA   ChatGPT Réduire le message personnel et la largeur maximale
 // @description:fr-CA pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.0.15
+// @version 0.1.0.16
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @match      https://share.nezhagpt.cloud/*

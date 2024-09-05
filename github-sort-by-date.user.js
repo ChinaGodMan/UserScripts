@@ -76,7 +76,7 @@
 // @description:fr-CA  Changer le tri des fichiers en décroissant par date，Visualisez facilement les derniers fichiers mis à jour。
 // @description  Change the file sorting order to descending by date for easier viewing of the most recently updated files.
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 1.1.0.13
+// @version 1.1.0.14
 // @author       @Androidcn ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://github.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com

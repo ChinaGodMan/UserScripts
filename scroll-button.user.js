@@ -77,7 +77,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       *://*/*
 // @grant       none
-// @version 1.0.0.16
+// @version 1.0.0.17
 // @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & d3ward
 // @description Script to scrollBy  to top/bottom
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues

@@ -78,7 +78,7 @@
 // @match       https://greasyfork.org/*
 // @match       https://sleazyfork.org/*
 // @grant       none
-// @version 0.3.1.47
+// @version 0.3.1.48
 // @license     MIT
 // @author      CY Fung  &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @description    To add User Control Panel Button into navigation bar

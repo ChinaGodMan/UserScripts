@@ -75,7 +75,7 @@
 // @name:fr-CA              Google Assistant de recherche avancée
 // @description:fr-CA       Ajoutez un formulaire de recherche avancée en haut de votre page de recherche Google
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.9.35
+// @version 0.1.9.36
 // @description             Add an advanced search form to the top of the page
 // @author                         shiquda  &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match                   *://www.google.com/search*

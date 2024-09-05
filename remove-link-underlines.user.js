@@ -75,7 +75,7 @@
 // @name:fr-CA   Supprimer le soulignement du lien
 // @description:fr-CA Supprimer les liens soulignés sur tous les sites，et gérer les nouveaux liens de manière dynamique
 // @namespace    https://greasyfork.org/users/1169082/
-// @version 1.2.0.53
+// @version 1.2.0.54
 // @description  Remove underlines from all links on any website and dynamically handle new links
 // @author       人民的勤务员<toniaiwanowskiskr47@gmail.com>
 // @match        *://*/*

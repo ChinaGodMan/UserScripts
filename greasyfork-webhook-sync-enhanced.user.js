@@ -75,7 +75,7 @@
 // @name:fr-CA         GreaysFork AméliorerWebHookParamètres de synchronisation
 // @description:fr-CA  GreaysFork Saisissez rapidement les informations de synchronisation du script，Et ajoutez des codes de langue pour plusieurs pays par lots，Au lieu de cliquer une à une sur les cases de sélection et d’accéder à l’URL correspondante。
 // @description    Quickly input script sync information and batch add language codes for multiple countries without the need to click
-// @version      1.1
+// @version 1.1.0.1
 // @compatible     chrome
 // @compatible     firefox
 // @compatible     edge

@@ -1,17 +1,81 @@
 // ==UserScript==
 // @name        Small Window Preview
-// @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @name:en        Small Window Preview
-// @description:en Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
 // @name:zh-CN    小窗预览
 // @description:zh-CN 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+// @name:ar    معاينة نافذة صغيرة
+// @description:ar افتح الرابط في النافذة المنبثقة عند سحب الرابط，وتقديم معاينة قبل الافتتاح，يستخدم Edge تكنولوجيا ما قبل القراءة。وفي نفس الوقت، أضف تأثير الأكريليك خلف النافذة الصغيرة عند فتحها.。
+// @name:bg    Визуализация на малък прозорец
+// @description:bg Отваряне на връзката в изскачащ прозорец при плъзгане на връзката，и предоставете визуализация преди отваряне，използване Edge технология за предварително четене。В същото време добавете акрилен ефект зад малкото прозорче, когато се отвори.。
+// @name:cs    Náhled malého okna
+// @description:cs Otevřít odkaz ve vyskakovacím okně při přetahování odkazu，a před otevřením poskytněte náhled，použití Edge technologie předběžného čtení。Zároveň přidejte akrylový efekt za malé okno při jeho otevření.。
+// @name:da    Forhåndsvisning af lille vindue
+// @description:da Åbn link i pop op-vindue, når du trækker link，og giv en forhåndsvisning inden åbning，bruge Edge pre-reading teknologi。Tilføj samtidig en akryleffekt bag det lille vindue, når det åbnes.。
+// @name:de    Kleine Fenstervorschau
+// @description:de Öffnen Sie den Link im Popup-Fenster, wenn Sie den Link ziehen，und stellen Sie vor dem Öffnen eine Vorschau bereit，verwenden Edge Vorlesetechnologie。Gleichzeitig entsteht hinter dem kleinen Fenster beim Öffnen ein Acryleffekt.。
+// @name:el    Προεπισκόπηση μικρού παραθύρου
+// @description:el Άνοιγμα συνδέσμου στο αναδυόμενο παράθυρο κατά τη μεταφορά του συνδέσμου，και παρέχετε μια προεπισκόπηση πριν από το άνοιγμα，χρήση Edge τεχνολογία προ-ανάγνωσης。Ταυτόχρονα, προσθέστε ένα ακρυλικό εφέ πίσω από το μικρό παράθυρο όταν ανοίγει.。
+// @name:en    Small window preview
+// @description:en Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+// @name:eo    Malgranda fenestro antaŭrigardo
+// @description:eo Malfermu ligilon en ŝprucfenestro dum trenado de ligilo，kaj provizi antaŭrigardon antaŭ malfermo，uzi Edge antaŭlega teknologio。Samtempe, aldonu akrilan efikon malantaŭ la malgranda fenestro kiam ĝi estas malfermita.。
+// @name:es    Vista previa de ventana pequeña
+// @description:es Abrir enlace en ventana emergente al arrastrar enlace，y proporcionar una vista previa antes de abrir，usar Edge tecnología de prelectura。Al mismo tiempo, agregue un efecto acrílico detrás de la pequeña ventana cuando esté abierta.。
+// @name:fi    Pienen ikkunan esikatselu
+// @description:fi Avaa linkki ponnahdusikkunassa, kun vedät linkkiä，ja anna esikatselu ennen avaamista，käyttää Edge esilukutekniikka。Lisää samalla akryyliefekti pienen ikkunan taakse, kun se avataan.。
+// @name:fr    Aperçu dans une petite fenêtre
+// @description:fr Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
+// @name:he    תצוגה מקדימה של חלון קטן
+// @description:he פתח קישור בחלון קופץ בעת גרירת קישור，ולספק תצוגה מקדימה לפני הפתיחה，לְהִשְׁתַמֵשׁ Edge טכנולוגיית טרום קריאה。במקביל, הוסף אפקט אקרילי מאחורי החלון הקטן כאשר הוא נפתח.。
+// @name:hr    Pregled malog prozora
+// @description:hr Otvori vezu u skočnom prozoru prilikom povlačenja veze，i pružiti pregled prije otvaranja，koristiti Edge tehnologija predčitanja。U isto vrijeme dodajte akrilni efekt iza prozora kada se otvori.。
+// @name:hu    Kis ablak előnézet
+// @description:hu Link megnyitása a felugró ablakban a hivatkozás húzásakor，és adjon előnézetet megnyitás előtt，használat Edge előolvasási technológia。Ugyanakkor a kis ablak mögé, amikor kinyitják, adjunk hozzá akril hatást.。
+// @name:id    Pratinjau jendela kecil
+// @description:id Buka tautan di jendela popup saat menyeret tautan，dan memberikan pratinjau sebelum dibuka，menggunakan Edge teknologi pra-membaca。Sekaligus menambahkan efek akrilik di belakang jendela kecil saat dibuka.。
+// @name:it    Anteprima in una piccola finestra
+// @description:it Apri il collegamento nella finestra popup durante il trascinamento del collegamento，e fornire un’anteprima prima dell’apertura，utilizzo Edge tecnologia di prelettura。Allo stesso tempo, aggiungi un effetto acrilico dietro la finestrella quando è aperta.。
+// @name:ja    小さなウィンドウでプレビュー
+// @description:ja リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。
+// @name:ka    მცირე ფანჯრის გადახედვა
+// @description:ka გახსენით ბმული ამომხტარ ფანჯარაში ბმულის გადატანისას，და მიაწოდეთ გადახედვა გახსნამდე，გამოყენება Edge წინასწარი კითხვის ტექნოლოგია。ამავდროულად დაამატეთ აკრილის ეფექტი პატარა ფანჯრის უკან, როდესაც ის გაიხსნება.。
+// @name:ko    작은 창 미리보기
+// @description:ko 링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。
+// @name:nl    Voorbeeld in klein venster
+// @description:nl Open de link in het pop-upvenster tijdens het slepen van de link，en geef een voorbeeld voordat u het opent，gebruik Edge technologie voor voorlezen。Voeg tegelijkertijd een acryleffect toe achter het kleine raam wanneer dit geopend is.。
+// @name:nb    Forhåndsvisning av lite vindu
+// @description:nb Åpne lenken i popup-vinduet når du drar lenken，og gi en forhåndsvisning før åpning，bruk Edge førleseteknologi。Legg samtidig til en akryleffekt bak det lille vinduet når det åpnes.。
+// @name:pl    Mały podgląd okna
+// @description:pl Otwórz łącze w wyskakującym oknie podczas przeciągania łącza，i udostępnij podgląd przed otwarciem，używać Edge technologia wstępnego odczytu。Jednocześnie dodaj efekt akrylu za małym oknem, gdy jest ono otwarte.。
+// @name:pt-BR    Pré-visualização em janela pequena
+// @description:pt-BR Abra o link na janela pop-up ao arrastar o link，e forneça uma prévia antes de abrir，usar Edge tecnologia de pré-leitura。Ao mesmo tempo, adicione um efeito acrílico atrás da pequena janela quando ela for aberta.。
+// @name:ro    Previzualizare fereastră mică
+// @description:ro Deschideți linkul în fereastra pop-up când trageți linkul，și oferă o previzualizare înainte de deschidere，utilizare Edge tehnologie de pre-lectura。În același timp, adăugați un efect acrilic în spatele ferestrei mici atunci când este deschisă.。
+// @name:ru    Предварительный просмотр в небольшом окне
+// @description:ru Открыть ссылку во всплывающем окне при перетаскивании ссылки，и предоставьте предварительный просмотр перед открытием，использовать Edge технология предварительного чтения。В то же время добавьте акриловый эффект за маленьким окном, когда оно открыто.。
+// @name:sk    Ukážka malého okna
+// @description:sk Otvoriť odkaz vo vyskakovacom okne pri presúvaní odkazu，a pred otvorením poskytnite náhľad，použitie Edge technológia predbežného čítania。Zároveň pridajte akrylový efekt za malé okno, keď je otvorené.。
+// @name:sr    Преглед малог прозора
+// @description:sr Отворите везу у искачућем прозору када превлачите везу，и обезбедите преглед пре отварања，користити Edge технологија предчитања。Истовремено, додајте акрилни ефекат иза малог прозора када се отвори.。
+// @name:sv    Litet fönster förhandsvisning
+// @description:sv Öppna länken i popup-fönstret när du drar länken，och ge en förhandstitt innan du öppnar，använda Edge förläsningsteknik。Lägg samtidigt till en akryleffekt bakom det lilla fönstret när det öppnas.。
+// @name:th    การแสดงตัวอย่างหน้าต่างขนาดเล็ก
+// @description:th เปิดลิงก์ในหน้าต่างป๊อปอัปเมื่อลากลิงก์，และแสดงตัวอย่างก่อนเปิด，ใช้ Edge เทคโนโลยีก่อนการอ่าน。ในเวลาเดียวกัน ให้เพิ่มเอฟเฟ็กต์อะคริลิกด้านหลังหน้าต่างเล็กๆ เมื่อเปิดออก。
+// @name:tr    Küçük pencere önizlemesi
+// @description:tr Bağlantıyı sürüklerken bağlantıyı açılır pencerede aç，ve açmadan önce bir önizleme sağlayın，kullanmak Edge ön okuma teknolojisi。Aynı zamanda küçük pencere açıldığında arkasına akrilik efekti ekleyin.。
+// @name:ug    كىچىك كۆزنەك ئالدىن كۆرۈش
+// @description:ug ئۇلىنىشنى سۆرىگەندە سەكرىمە كۆزنەكتە ئۇلىنىشنى ئېچىڭ，ۋە ئېچىشتىن بۇرۇن ئالدىن كۆرۈش بىلەن تەمىنلەڭ，use Edge ئالدىن ئوقۇش تېخنىكىسى。شۇنىڭ بىلەن بىر ۋاقىتتا ، ئېچىلغاندا كىچىك كۆزنەكنىڭ كەينىگە ئاكرىللىق ئۈنۈم قوشۇڭ.。
+// @name:uk    Попередній перегляд маленького вікна
+// @description:uk Відкрити посилання у спливаючому вікні під час перетягування посилання，і надайте попередній перегляд перед відкриттям，використовувати Edge технологія попереднього читання。У той же час додайте акриловий ефект за маленьким вікном, коли воно відкривається.。
+// @name:vi    Xem trước cửa sổ nhỏ
+// @description:vi Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 // @name:zh-TW    小窗預覽
-// @description:zh-TW 拖曳連結時在彈出視窗中打開連結，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
-// @name:ja        小窓プレビュー
-// @description:ja リンクをドラッグしてポップアップウィンドウでプレビューを表示し、Edge のプレビュー技術を使用して開く前にリンクを開きます。また、ウィンドウが開いているときにアクリル効果を背景に追加します。
-// @name:vi        Xem trước cửa sổ nhỏ
-// @description:vi Kéo thả liên kết để mở nó trong một cửa sổ popup với chế độ xem trước trước khi mở, sử dụng công nghệ tiên đoán của Edge. Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ khi nó mở.
-// @version 2.4.0.22
+// @description:zh-TW 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
+// @name:zh-HK    小窗預覽
+// @description:zh-HK 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
+// @name:fr-CA    Aperçu dans une petite fenêtre
+// @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
+// @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
+// @version 2.4.0.23
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
