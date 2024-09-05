@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>网页写入剪辑版授权管理器</h1>
     <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
+    <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><p>66666</p></details> 

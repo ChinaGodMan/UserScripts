@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>MissAV收藏管理器</h1>
     <p>「 miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav 」</p>
+    <img src="https://views.whatilearened.today/views/github/497682/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
             Fork</a></p> 
