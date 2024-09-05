@@ -13,7 +13,7 @@
             "local_created_at": "2024-07-27 20:58:35"
         },
         {
-            "name": "ChatGPT 字符计数器限制",
+            "name": "ChatGPT 字符计数器",
             "path": "chatgpt-counter.user.js",
             "isUpdated": true,
             "backuppath": "Script details/chatgpt-counter",
