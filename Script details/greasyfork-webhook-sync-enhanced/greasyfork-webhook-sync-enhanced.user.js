@@ -1,27 +1,81 @@
 // ==UserScript==
 // @name            GreaysFork Enhanced WebHook Sync Settings
-// @description    Quickly input script sync information and batch add language codes for multiple countries without the need to click
 // @name:zh-CN         GreaysFork 增强WebHook同步设置
 // @description:zh-CN  GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+// @name:ar         GreaysFork يحسنWebHookإعدادات المزامنة
+// @description:ar  GreaysFork أدخل بسرعة معلومات مزامنة البرنامج النصي，وإضافة رموز اللغة لدول متعددة على دفعات，بدلاً من النقر على مربعات التحديد واحدًا تلو الآخر والانتقال إلى عنوان URL المقابل。
+// @name:bg         GreaysFork ПодобретеWebHookНастройки за синхронизиране
+// @description:bg  GreaysFork Бързо въведете информация за синхронизиране на скриптове，И добавете езикови кодове за множество държави на партиди，Вместо да щракнете върху полетата за избор едно по едно и да отидете на съответния URL адрес。
+// @name:cs         GreaysFork ZvýšitWebHookNastavení synchronizace
+// @description:cs  GreaysFork Rychle zadejte informace o synchronizaci skriptu，A přidat kódy jazyků pro více zemí v dávkách，Místo toho, abyste klikali na jednotlivá výběrová pole a přecházeli na odpovídající URL。
+// @name:da         GreaysFork ForbedreWebHookSynkroniseringsindstillinger
+// @description:da  GreaysFork Indtast hurtigt scriptsynkroniseringsoplysninger，Og tilføje sprogkoder for flere lande i batches，I stedet for at klikke på valgfelterne én efter én og gå til den tilsvarende URL。
+// @name:de         GreaysFork ErweiternWebHookSynchronisierungseinstellungen
+// @description:de  GreaysFork Geben Sie schnell Informationen zur Skriptsynchronisierung ein，Und fügen Sie stapelweise Sprachcodes für mehrere Länder hinzu，Anstatt die Auswahlfelder einzeln anzuklicken und zur entsprechenden URL zu gelangen。
+// @name:el         GreaysFork ΕπαυξάνωWebHookΡυθμίσεις συγχρονισμού
+// @description:el  GreaysFork Εισαγάγετε γρήγορα πληροφορίες συγχρονισμού σεναρίου，Και προσθέστε κωδικούς γλώσσας για πολλές χώρες σε παρτίδες，Αντί να κάνετε κλικ στα πλαίσια επιλογής ένα προς ένα και να μεταβείτε στην αντίστοιχη διεύθυνση URL。
+// @name:en         GreaysFork EnhanceWebHookSync settings
+// @description:en  GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+// @name:eo         GreaysFork PlibonigiWebHookSinkronigi agordojn
+// @description:eo  GreaysFork Rapide enigu informojn pri skripto-sinkronigado，Kaj aldonu lingvajn kodojn por pluraj landoj en aroj，Anstataŭ klaki la elektajn skatolojn unu post alia kaj iri al la responda URL。
+// @name:es         GreaysFork MejorarWebHookConfiguración de sincronización
+// @description:es  GreaysFork Ingrese rápidamente información de sincronización de scripts，Y agregue códigos de idioma para varios países en lotes，En lugar de hacer clic en los cuadros de selección uno por uno e ir a la URL correspondiente。
+// @name:fi         GreaysFork ParantaaWebHookSynkronointiasetukset
+// @description:fi  GreaysFork Syötä nopeasti komentosarjan synkronointitiedot，Ja lisää useiden maiden kielikoodeja erissä，Sen sijaan, että napsautat valintaruutuja yksitellen ja siirryt vastaavaan URL-osoitteeseen。
+// @name:fr         GreaysFork AméliorerWebHookParamètres de synchronisation
+// @description:fr  GreaysFork Saisissez rapidement les informations de synchronisation du script，Et ajoutez des codes de langue pour plusieurs pays par lots，Au lieu de cliquer une à une sur les cases de sélection et d’accéder à l’URL correspondante。
+// @name:he         GreaysFork לְהַגבִּירWebHookהגדרות סנכרון
+// @description:he  GreaysFork הזן במהירות מידע סנכרון סקריפט，והוסף קודי שפה עבור מספר מדינות בקבוצות，במקום ללחוץ על תיבות הבחירה אחת אחת ולעבור לכתובת ה-URL המתאימה。
+// @name:hr         GreaysFork PoboljšajWebHookPostavke sinkronizacije
+// @description:hr  GreaysFork Brzo unesite informacije o sinkronizaciji skripte，I dodajte jezične kodove za više zemalja u serijama，Umjesto klikanja na okvire za odabir jedan po jedan i odlaska na odgovarajući URL。
+// @name:hu         GreaysFork NöveljeWebHookSzinkronizálási beállítások
+// @description:hu  GreaysFork Gyorsan adja meg a szkript szinkronizálási adatait，És adjon hozzá több ország nyelvi kódjait kötegekben，Ahelyett, hogy egyenként kattintana a jelölőnégyzetekre, és a megfelelő URL-re lépne。
+// @name:id         GreaysFork MeningkatkanWebHookPengaturan sinkronisasi
+// @description:id  GreaysFork Masukkan informasi sinkronisasi skrip dengan cepat，Dan tambahkan kode bahasa untuk beberapa negara secara bertahap，Daripada mengklik kotak pilihan satu per satu dan membuka URL yang sesuai。
+// @name:it         GreaysFork MigliorareWebHookSincronizza le impostazioni
+// @description:it  GreaysFork Inserisci rapidamente le informazioni sulla sincronizzazione dello script，E aggiungi codici lingua per più paesi in batch，Invece di fare clic sulle caselle di selezione una per una e accedere all’URL corrispondente。
+// @name:ja         GreaysFork 強化するWebHook同期設定
+// @description:ja  GreaysFork スクリプト同期情報を素早く入力，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。
+// @name:ka         GreaysFork გაძლიერებაWebHookსინქრონიზაციის პარამეტრები
+// @description:ka  GreaysFork სწრაფად შეიყვანეთ სკრიპტის სინქრონიზაციის ინფორმაცია，და დაამატეთ ენის კოდები მრავალი ქვეყნისთვის ჯგუფურად，იმის ნაცვლად, რომ სათითაოდ დააწკაპუნოთ შერჩევის ველებზე და გადახვიდეთ შესაბამის URL-ზე。
+// @name:ko         GreaysFork 향상시키다WebHook동기화 설정
+// @description:ko  GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
+// @name:nl         GreaysFork UitbreidenWebHookSynchronisatie-instellingen
+// @description:nl  GreaysFork Voer snel scriptsynchronisatie-informatie in，En voeg taalcodes voor meerdere landen in batches toe，In plaats van één voor één op de selectievakken te klikken en naar de bijbehorende URL te gaan。
+// @name:nb         GreaysFork ForbedreWebHookSynkroniseringsinnstillinger
+// @description:nb  GreaysFork Skriv inn informasjon om skriptsynkronisering raskt，Og legg til språkkoder for flere land i grupper，I stedet for å klikke på valgboksene én etter én og gå til den tilsvarende URL-en。
+// @name:pl         GreaysFork ZwiększyćWebHookSynchronizuj ustawienia
+// @description:pl  GreaysFork Szybko wprowadź informacje dotyczące synchronizacji skryptu，I partiami dodawaj kody języków dla wielu krajów，Zamiast klikać pola wyboru jeden po drugim i przechodzić do odpowiedniego adresu URL。
+// @name:pt-BR         GreaysFork MelhorarWebHookSincronizar configurações
+// @description:pt-BR  GreaysFork Insira rapidamente informações de sincronização de script，E adicione códigos de idioma para vários países em lotes，Em vez de clicar nas caixas de seleção uma por uma e ir para o URL correspondente。
+// @name:ro         GreaysFork SporiWebHookSetări de sincronizare
+// @description:ro  GreaysFork Introduceți rapid informațiile de sincronizare a scriptului，Și adăugați coduri de limbă pentru mai multe țări în loturi，În loc să faceți clic pe casetele de selecție unul câte unul și să mergeți la adresa URL corespunzătoare。
+// @name:ru         GreaysFork УсиливатьWebHookСинхронизировать настройки
+// @description:ru  GreaysFork Быстрый ввод информации о синхронизации скриптов，И добавляйте языковые коды для нескольких стран в пакетном режиме.，Вместо того, чтобы щелкать поля выбора одно за другим и переходить на соответствующий URL-адрес.。
+// @name:sk         GreaysFork VylepšiťWebHookNastavenia synchronizácie
+// @description:sk  GreaysFork Rýchlo zadajte informácie o synchronizácii skriptov，A pridajte kódy jazykov pre viacero krajín v dávkach，Namiesto toho, aby ste jedno po druhom klikali na políčka výberu a prešli na príslušnú adresu URL。
+// @name:sr         GreaysFork ЕнханцеWebHookПодешавања синхронизације
+// @description:sr  GreaysFork Брзо унесите информације о синхронизацији скрипте，И додајте језичке кодове за више земаља у групама，Уместо да кликнете на оквире за избор један по један и идете на одговарајући УРЛ。
+// @name:sv         GreaysFork ÖkaWebHookSynkroniseringsinställningar
+// @description:sv  GreaysFork Ange snabbt skriptsynkroniseringsinformation，Och lägg till språkkoder för flera länder i omgångar，Istället för att klicka på urvalsrutorna en efter en och gå till motsvarande URL。
+// @name:th         GreaysFork ยกระดับWebHookการตั้งค่าการซิงค์
+// @description:th  GreaysFork ป้อนข้อมูลการซิงโครไนซ์สคริปต์อย่างรวดเร็ว，และเพิ่มรหัสภาษาสำหรับหลายประเทศเป็นชุด，แทนที่จะคลิกกล่องตัวเลือกทีละรายการแล้วไปที่ URL ที่เกี่ยวข้อง。
+// @name:tr         GreaysFork GenişletmekWebHookAyarları senkronize et
+// @description:tr  GreaysFork Komut dosyası senkronizasyon bilgilerini hızlı bir şekilde girin，Birden çok ülke için dil kodlarını toplu olarak ekleyin，Seçim kutularına tek tek tıklayıp karşılık gelen URL’ye gitmek yerine。
+// @name:ug         GreaysFork كۈچەيتىڭWebHookماسقەدەملەش
+// @description:ug  GreaysFork قوليازما ماسقەدەملەش ئۇچۇرىنى تېز كىرگۈزۈڭ，ھەمدە بىر قانچە دۆلەت ئۈچۈن تىل كودىنى قوشۇڭ，تاللاش رامكىسىنى بىر-بىرلەپ چېكىپ ، مۇناسىپ URL غا كىرىڭ。
+// @name:uk         GreaysFork ПоліпшенняWebHookНалаштування синхронізації
+// @description:uk  GreaysFork Швидко введіть інформацію про синхронізацію сценаріїв，І додайте коди мов для кількох країн пакетами，Замість того, щоб клацати поля вибору один за одним і переходити до відповідної URL-адреси。
+// @name:vi         GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt
+// @description:vi  GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 // @name:zh-TW         GreaysFork 增強WebHook同步設定
-// @description:zh-TW  GreaysFork 快速輸入腳本同步資訊，並批量增加多個國家的語言代碼，而不用逐個點擊選擇框再去對應的網址。
-// @name:zh-HK         GreaysFork 增強WebHook同步設置
-// @description:zh-HK  GreaysFork 快速輸入腳本同步信息，並批量增加多個國家語言代碼，而不用逐個點擊選擇框再去對應的網址。
-// @name:ja            GreaysFork WebHook同期設定の強化
-// @description:ja     GreaysFork スクリプト同期情報を素早く入力し、複数の国の言語コードを一括で追加します。選択ボックスを一つ一つクリックする必要はありません。
-// @name:ko            GreaysFork WebHook 동기화 설정 강화
-// @description:ko     GreaysFork 스크립트 동기화 정보를 빠르게 입력하고, 여러 국가의 언어 코드를 한 번에 추가합니다. 선택 상자를 하나하나 클릭할 필요가 없습니다.
-// @name:ru            Улучшенные настройки синхронизации WebHook для GreaysFork
-// @description:ru     Быстрое ввод данных синхронизации скриптов GreaysFork и массовое добавление языковых кодов нескольких стран без необходимости поочередного выбора из выпадающего списка и перехода по соответствующим ссылкам.
-// @name:en            GreaysFork Enhanced WebHook Sync Settings
-// @description:en     Quickly input script sync information and batch add language codes for multiple countries without the need to click through each selection box and visit corresponding URLs.
-// @name:fr            GreaysFork Amélioration des paramètres de synchronisation WebHook
-// @description:fr     Saisie rapide des informations de synchronisation des scripts GreaysFork et ajout en masse des codes de langue pour plusieurs pays sans avoir à sélectionner chaque option individuellement et visiter les URL correspondantes.
-// @name:de            GreaysFork Verbesserte WebHook-Synchronisierungseinstellungen
-// @description:de     Schnelles Eingeben von Skriptsynchronisierungsinformationen und gleichzeitiges Hinzufügen von Sprachcodes für mehrere Länder, ohne jedes Auswahlfeld einzeln anzuklicken und die entsprechenden URLs zu besuchen.
-// @name:vi            Cài đặt đồng bộ WebHook GreaysFork được nâng cao
-// @description:vi     Nhập nhanh thông tin đồng bộ hóa kịch bản GreaysFork và thêm hàng loạt mã ngôn ngữ cho nhiều quốc gia mà không cần phải nhấp từng ô chọn và truy cập các URL tương ứng.
-// @version      1.1
+// @description:zh-TW  GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
+// @name:zh-HK         GreaysFork 增強WebHook同步設定
+// @description:zh-HK  GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
+// @name:fr-CA         GreaysFork AméliorerWebHookParamètres de synchronisation
+// @description:fr-CA  GreaysFork Saisissez rapidement les informations de synchronisation du script，Et ajoutez des codes de langue pour plusieurs pays par lots，Au lieu de cliquer une à une sur les cases de sélection et d’accéder à l’URL correspondante。
+// @description    Quickly input script sync information and batch add language codes for multiple countries without the need to click
+// @version 1.1.0.1
 // @compatible     chrome
 // @compatible     firefox
 // @compatible     edge

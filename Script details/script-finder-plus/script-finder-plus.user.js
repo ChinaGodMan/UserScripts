@@ -1,21 +1,83 @@
 // ==UserScript==
 // @name                    Script Finder+
-// @description             Script Finder allows you to find userscripts from greasyfork on any website.
-// @name:en                 Script Finder+
-// @description:en          Script Finder allows you to find userscripts from greasyfork on any website.
 // @name:zh-CN              Script Finder 油猴脚本查找
-// @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的 greasyfork 油猴脚本。
-// @name:zh-TW              腳本搜尋器+
-// @description:zh-TW       腳本搜尋器可以讓你在任何網站上從 greasyfork 找到使用者腳本。
-// @name:vi                 Tìm kiếm Script+
-// @description:vi          Script Finder cho phép bạn tìm các script người dùng từ greasyfork trên bất kỳ trang web nào.
-// @name:ja                 スクリプトファインダー+
-// @description:ja          スクリプトファインダーを使うことで、greasyfork からユーザースクリプトを任意のウェブサイトで見つけることができます。
-// @name:ko                 스크립트 파인더+
-// @description:ko          Script Finder를 사용하면 greasyfork에서 사용자 스크립트를 어떤 웹사이트에서든 찾을 수 있습니다.
+// @description:zh-CN       Script Finder 在任何网站上找到适用于该网站的  油猴脚本。
+// @name:ar              Script Finder البحث عن نص قرد الشحوم
+// @description:ar       Script Finder ابحث في أي موقع ويب ينطبق على هذا الموقع  سيناريو القرد الشحوم。
+// @name:bg              Script Finder Търсене на скрипт на GreasyFork
+// @description:bg       Script Finder Намерете във всеки уебсайт, който се отнася за този уебсайт  GreasyFork Script。
+// @name:cs              Script Finder Vyhledávání skriptů GreasyFork
+// @description:cs       Script Finder Vyhledejte na libovolném webu, který se tohoto webu týká  GreasyFork Script。
+// @name:da              Script Finder GreasyFork Script-opslag
+// @description:da       Script Finder Find på ethvert websted, der gælder for det pågældende websted  GreasyFork Script。
+// @name:de              Script Finder Nachschlagen von GreasyFork-Skripten
+// @description:de       Script Finder Finden Sie auf jeder Website, die für diese Website gilt  GreasyFork-Skript。
+// @name:el              Script Finder Αναζήτηση σεναρίου GreasyFork
+// @description:el       Script Finder Βρείτε σε οποιονδήποτε ιστότοπο που ισχύει για αυτόν τον ιστότοπο  Σενάριο GreasyFork。
+// @name:en              Script Finder GreasyFork Script Lookup
+// @description:en       Script Finder Find on any website that applies to that website  GreasyFork Script。
+// @name:eo              Script Finder GreasyFork Skripto Serĉo
+// @description:eo       Script Finder Trovu en iu ajn retejo kiu validas por tiu retejo  GreasyFork Skripto。
+// @name:es              Script Finder Búsqueda de guiones de GreasyFork
+// @description:es       Script Finder Busque en cualquier sitio web que se aplique a ese sitio web.  Guión del mono de grasa。
+// @name:fi              Script Finder GreasyFork Script Lookup
+// @description:fi       Script Finder Etsi miltä tahansa verkkosivustoa, joka koskee kyseistä verkkosivustoa  GreasyFork Script。
+// @name:fr              Script Finder Recherche de script GreasyFork
+// @description:fr       Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web  Script de GreasyFork。
+// @name:he              Script Finder בדיקת סקריפט של גריז קוף
+// @description:he       Script Finder מצא בכל אתר הרלוונטי לאותו אתר  סקריפט גריז קוף。
+// @name:hr              Script Finder Traženje skripte GreasyFork
+// @description:hr       Script Finder Pronađite na bilo kojoj web stranici koja se odnosi na tu web stranicu  GreasyFork Script。
+// @name:hu              Script Finder GreasyFork Script Lookup
+// @description:hu       Script Finder Keresse meg az adott webhelyre vonatkozó bármely webhelyet  GreasyFork Script。
+// @name:id              Script Finder Pencarian Skrip GreasyFork
+// @description:id       Script Finder Temukan di situs web mana pun yang berlaku untuk situs web tersebut  Naskah Monyet Gemuk。
+// @name:it              Script Finder Ricerca script GreasyFork
+// @description:it       Script Finder Trova su qualsiasi sito Web che si applica a quel sito Web  Sceneggiatura della scimmia grassa。
+// @name:ja              Script Finder GreasyFork スクリプトの検索
+// @description:ja       Script Finder その Web サイトに該当する Web サイトを検索する  グリース モンキー スクリプト。
+// @name:ka              Script Finder GreasyFork სკრიპტის ძიება
+// @description:ka       Script Finder იპოვეთ ნებისმიერ ვებსაიტზე, რომელიც ეხება ამ ვებსაიტს  GreasyFork Script。
+// @name:ko              Script Finder 그리스 원숭이 스크립트 조회
+// @description:ko       Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요.  그리스 원숭이 스크립트。
+// @name:nl              Script Finder GreasyFork-script opzoeken
+// @description:nl       Script Finder Zoek op elke website wat op die website van toepassing is  GreasyFork-script。
+// @name:nb              Script Finder GreasyFork Script Lookup
+// @description:nb       Script Finder Finn på et hvilket som helst nettsted som gjelder for det nettstedet  GreasyFork Script。
+// @name:pl              Script Finder Wyszukiwanie skryptu GreasyFork
+// @description:pl       Script Finder Znajdź na dowolnej stronie internetowej, która dotyczy tej witryny  Smaruj skrypt małpy。
+// @name:pt-BR              Script Finder Pesquisa de script do GreasyFork
+// @description:pt-BR       Script Finder Encontre em qualquer site que se aplique a esse site  Script do Macaco Graxa。
+// @name:ro              Script Finder Căutare Script GreasyFork
+// @description:ro       Script Finder Găsiți pe orice site care se aplică acelui site  GreasyFork Script。
+// @name:ru              Script Finder Поиск сценария GreasyFork
+// @description:ru       Script Finder Найти на любом веб-сайте, который относится к этому веб-сайту  Сценарий GreasyFork。
+// @name:sk              Script Finder Vyhľadávanie skriptov GreasyFork
+// @description:sk       Script Finder Nájdite na ľubovoľnej webovej lokalite, ktorá sa týka danej webovej lokality  GreasyFork Script。
+// @name:sr              Script Finder Греасе Монкеи Сцрипт Лоокуп
+// @description:sr       Script Finder Пронађите на било којој веб локацији која се односи на ту веб локацију  Греасе Монкеи Сцрипт。
+// @name:sv              Script Finder GreasyFork Script Lookup
+// @description:sv       Script Finder Hitta på vilken webbplats som helst som gäller den webbplatsen  GreasyFork Script。
+// @name:th              Script Finder ค้นหาสคริปต์ GreasyFork
+// @description:th       Script Finder ค้นหาบนเว็บไซต์ใด ๆ ที่ใช้กับเว็บไซต์นั้น  สคริปต์ลิงจาระบี。
+// @name:tr              Script Finder GreasyFork Komut Dosyası Arama
+// @description:tr       Script Finder Söz konusu web sitesi için geçerli olan herhangi bir web sitesinde bulun  GreasyFork Komut Dosyası。
+// @name:ug              Script Finder مايمۇن قوليازمىسىنى ئىزدەش
+// @description:ug       Script Finder شۇ تور بېكەتكە ماس كېلىدىغان ھەرقانداق تور بەتنى ئىزدەڭ  مايمۇن قوليازمىسى。
+// @name:uk              Script Finder Пошук сценарію GreasyFork
+// @description:uk       Script Finder Знайдіть на будь-якому веб-сайті, який стосується цього веб-сайту  Сценарій GreasyFork。
+// @name:vi              Script Finder Tra cứu tập lệnh GreasyFork
+// @description:vi       Script Finder Tìm trên bất kỳ trang web nào áp dụng cho trang web đó  Kịch bản khỉ mỡ。
+// @name:zh-TW              Script Finder 油猴腳本查找
+// @description:zh-TW       Script Finder 在任何網站上找到適用於該網站的  油猴腳本。
+// @name:zh-HK              Script Finder 油猴腳本查找
+// @description:zh-HK       Script Finder 在任何網站上找到適用於該網站的  油猴腳本。
+// @name:fr-CA              Script Finder Recherche de script GreasyFork
+// @description:fr-CA       Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web  Script de GreasyFork。
+// @description             Script Finder allows you to find userscripts from greasyfork on any website.
 
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.69
+// @version 0.1.6.70
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts

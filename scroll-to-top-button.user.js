@@ -75,7 +75,7 @@
 // @name:fr-CA        Épingler sur les boutons du haut et du bas
 // @description:fr-CA Générez deux boutons sur toutes les pages，Un pour lisser vers le haut，Un pour un défilement continu vers le bas，Cliquez à nouveau pour annuler le défilement vers le bas
 // @description Generate two buttons on all pages, one for smoothly scrolling back to the top and one for continuous scrolling to the bottom. Click again to stop scrolling to the bottom.
-// @version 1.2.0.62
+// @version 1.2.0.63
 // @run-at      document-end
 // @match       *://*/*
 // @license     MIT

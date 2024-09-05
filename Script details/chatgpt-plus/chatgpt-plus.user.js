@@ -1,18 +1,82 @@
 // ==UserScript==
 // @name         ChatGPT Chat Fold Script & MAXWidth
-// @name:en         ChatGPT Chat Fold Script & MAXWidth
-// @name:zh-CN   ChatGPT 折叠自己消息和最大宽度
-// @name:zh-TW   ChatGPT 摺疊自己消息和最大寬度
-// @name:ja      ChatGPT チャット折りたたみスクリプトと最大幅
-// @name:vi      ChatGPT Gấp Lại Tin Nhắn và Đặt Chiều Rộng Tối Đa
 // @description Fold long "You" messages in ChatGPT
-// @description:en Fold long "You" messages in ChatGPT
+// @name:zh-CN   ChatGPT 折叠自己消息和最大宽度
 // @description:zh-CN 折叠ChatGPT中较长的“你”消息，并设置最大宽度
-// @description:zh-TW 摺疊ChatGPT中較長的“你”訊息，並設置最大寬度
-// @description:ja ChatGPTで長い「あなた」のメッセージを折りたたみ、最大幅を設定します
-// @description:vi Gấp lại các tin nhắn "Bạn" dài trong ChatGPT và thiết lập chiều rộng tối đa
+// @name:ar   ChatGPT طي الرسالة الذاتية والحد الأقصى للعرض
+// @description:ar طيةChatGPTمتوسطة وطويلة“أنت”معلومة，وتعيين الحد الأقصى للعرض
+// @name:bg   ChatGPT Свиване на собственото съобщение и максимална ширина
+// @description:bg гънкаChatGPTсредно и дълго“вие”информация，и задайте максималната ширина
+// @name:cs   ChatGPT Sbalit vlastní zprávu a maximální šířku
+// @description:cs složitChatGPTstřední a dlouhé“Vy”informace，a nastavte maximální šířku
+// @name:da   ChatGPT Skjul selvbesked og maks. bredde
+// @description:da foldeChatGPTmedium og lang“du”information，og indstil den maksimale bredde
+// @name:de   ChatGPT Selbstnachricht minimieren und maximale Breite erreichen
+// @description:de faltenChatGPTmittel und lang“Du”Information，und stellen Sie die maximale Breite ein
+// @name:el   ChatGPT Σύμπτυξη αυτο μηνύματος και μέγιστο πλάτος
+// @description:el πτυχήChatGPTμεσαίο και μακρύ“εσείς”πληροφορίες，και ορίστε το μέγιστο πλάτος
+// @name:en   ChatGPT Collapse self message and max width
+// @description:en foldChatGPTmedium and long“you”information，and set the maximum width
+// @name:eo   ChatGPT Kolapu mem-mesaĝon kaj maksimuman larĝon
+// @description:eo faldiChatGPTmeza kaj longa“vi”informoj，kaj starigu la maksimuman larĝon
+// @name:es   ChatGPT Contraer automensaje y ancho máximo
+// @description:es doblarChatGPTmedio y largo“tú”información，y establecer el ancho máximo
+// @name:fi   ChatGPT Tiivistä itseviesti ja enimmäisleveys
+// @description:fi taitaChatGPTkeskipitkä ja pitkä“sinä”tiedot，ja aseta suurin leveys
+// @name:fr   ChatGPT Réduire le message personnel et la largeur maximale
+// @description:fr pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
+// @name:he   ChatGPT כווץ הודעה עצמית ורוחב מקסימלי
+// @description:he לְקַפֵּלChatGPTבינוני וארוך“אַתָה”מֵידָע，והגדר את הרוחב המרבי
+// @name:hr   ChatGPT Sažmi vlastitu poruku i maksimalnu širinu
+// @description:hr presavijatiChatGPTsrednje i duge“vas”informacija，i postavite maksimalnu širinu
+// @name:hu   ChatGPT Saját üzenet összecsukása és maximális szélessége
+// @description:hu hajtogatniChatGPTközepes és hosszú“te”információ，és állítsa be a maximális szélességet
+// @name:id   ChatGPT Ciutkan pesan mandiri dan lebar maksimal
+// @description:id melipatChatGPTsedang dan panjang“Anda”informasi，dan atur lebar maksimum
+// @name:it   ChatGPT Comprimi il messaggio personale e la larghezza massima
+// @description:it piegaChatGPTmedio e lungo“Voi”informazioni，e impostare la larghezza massima
+// @name:ja   ChatGPT セルフメッセージと最大幅を折りたたむ
+// @description:ja 折り畳みChatGPTミディアムとロング“あなた”情報，最大幅を設定します
+// @name:ka   ChatGPT საკუთარი შეტყობინების ჩაკეცვა და მაქსიმალური სიგანე
+// @description:ka ჩამოყაროსChatGPTსაშუალო და გრძელი“შენ”ინფორმაცია，და დააყენეთ მაქსიმალური სიგანე
+// @name:ko   ChatGPT 자체 메시지 및 최대 너비 축소
+// @description:ko 겹ChatGPT중간 및 긴“너”정보，그리고 최대 너비를 설정하세요
+// @name:nl   ChatGPT Zelfbericht en maximale breedte samenvouwen
+// @description:nl vouwChatGPTmiddellang en lang“Jij”informatie，en stel de maximale breedte in
+// @name:nb   ChatGPT Skjul selvmelding og maks bredde
+// @description:nb bretteChatGPTmiddels og lang“du”informasjon，og still inn maksimal bredde
+// @name:pl   ChatGPT Zwiń wiadomość własną i maksymalną szerokość
+// @description:pl zginaćChatGPTśrednie i długie“Ty”informacja，i ustaw maksymalną szerokość
+// @name:pt-BR   ChatGPT Recolher mensagem própria e largura máxima
+// @description:pt-BR dobrarChatGPTmédio e longo“você”Informação，e defina a largura máxima
+// @name:ro   ChatGPT Restrângeți mesajul propriu și lățimea maximă
+// @description:ro pliazăChatGPTmediu și lung“tu”informaţii，și setați lățimea maximă
+// @name:ru   ChatGPT Свернуть собственное сообщение и максимальную ширину
+// @description:ru складыватьChatGPTсредний и длинный“ты”информация，и установите максимальную ширину
+// @name:sk   ChatGPT Zbaliť vlastnú správu a maximálnu šírku
+// @description:sk zložiťChatGPTstredné a dlhé“vy”informácie，a nastavte maximálnu šírku
+// @name:sr   ChatGPT Скупи самопоруку и максималну ширину
+// @description:sr фолдChatGPTсредње и дуго“ти”информације，и поставите максималну ширину
+// @name:sv   ChatGPT Komprimera självmeddelande och maxbredd
+// @description:sv vikaChatGPTmedium och lång“du”information，och ställ in maximal bredd
+// @name:th   ChatGPT ยุบข้อความของตัวเองและความกว้างสูงสุด
+// @description:th พับChatGPTปานกลางและยาว“คุณ”ข้อมูล，และกำหนดความกว้างสูงสุด
+// @name:tr   ChatGPT Kendi kendine mesajı ve maksimum genişliği daralt
+// @description:tr katlamakChatGPTorta ve uzun“Sen”bilgi，ve maksimum genişliği ayarlayın
+// @name:ug   ChatGPT ئۆزلۈكىدىن ئۇچۇر ۋە ئەڭ چوڭ كەڭلىك
+// @description:ug قاتلاشChatGPTئوتتۇرا ۋە ئۇزۇن“سىز”ئۇچۇر，ھەمدە ئەڭ چوڭ كەڭلىكىنى بەلگىلەڭ
+// @name:uk   ChatGPT Згорнути власне повідомлення та максимальну ширину
+// @description:uk складкаChatGPTсередні і довгі“ти”інформації，і встановити максимальну ширину
+// @name:vi   ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa
+// @description:vi nếp gấpChatGPTtrung bình và dài“Bạn”thông tin，và đặt chiều rộng tối đa
+// @name:zh-TW   ChatGPT 折疊自己訊息和最大寬度
+// @description:zh-TW 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
+// @name:zh-HK   ChatGPT 折疊自己訊息和最大寬度
+// @description:zh-HK 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
+// @name:fr-CA   ChatGPT Réduire le message personnel et la largeur maximale
+// @description:fr-CA pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.0.15
+// @version 0.1.0.16
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @match      https://share.nezhagpt.cloud/*

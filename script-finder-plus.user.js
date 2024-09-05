@@ -77,7 +77,7 @@
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 
 // @namespace               https://greasyfork.org/zh-CN/users/1169082
-// @version 0.1.6.69
+// @version 0.1.6.70
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts

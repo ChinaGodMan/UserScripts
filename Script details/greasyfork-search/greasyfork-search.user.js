@@ -1,10 +1,82 @@
 // ==UserScript==
 // @name         GreasyFork Search
 // @name:zh-CN         GreasyFork Search
-// @namespace     https://greasyfork.org/zh-CN/users/1169082
-// @version 0.6.5.13
-// @description  To search scripts using Google Search
 // @description:zh-CN   使用谷歌搜索GreasyFork和SleazyFork上的脚本
+// @name:ar         GreasyFork Search
+// @description:ar   البحث باستخدام جوجلGreasyForkوSleazyForkالنص العلوي
+// @name:bg         GreasyFork Search
+// @description:bg   Търсете с GoogleGreasyForkиSleazyForkгорен скрипт
+// @name:cs         GreasyFork Search
+// @description:cs   Hledejte pomocí GoogleGreasyForkaSleazyForkhorní písmo
+// @name:da         GreasyFork Search
+// @description:da   Søg ved hjælp af GoogleGreasyForkogSleazyForkøverste skrift
+// @name:de         GreasyFork Search
+// @description:de   Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
+// @name:el         GreasyFork Search
+// @description:el   Αναζήτηση χρησιμοποιώντας το GoogleGreasyForkκαιSleazyForkπάνω σενάριο
+// @name:en         GreasyFork Search
+// @description:en   Search using GoogleGreasyForkandSleazyForkupper script
+// @name:eo         GreasyFork Search
+// @description:eo   Serĉu per GugloGreasyForkkajSleazyForksupra manuskripto
+// @name:es         GreasyFork Search
+// @description:es   Buscar usando GoogleGreasyForkySleazyForkguión superior
+// @name:fi         GreasyFork Search
+// @description:fi   Hae Googlen avullaGreasyForkjaSleazyForkylempi kirjoitus
+// @name:fr         GreasyFork Search
+// @description:fr   Rechercher avec GoogleGreasyForketSleazyForkécriture supérieure
+// @name:he         GreasyFork Search
+// @description:he   חפש באמצעות גוגלGreasyForkוSleazyForkכתב עליון
+// @name:hr         GreasyFork Search
+// @description:hr   Pretražujte pomoću GoogleaGreasyForkiSleazyForkgornja skripta
+// @name:hu         GreasyFork Search
+// @description:hu   Keressen a Google segítségévelGreasyForkésSleazyForkfelső szkript
+// @name:id         GreasyFork Search
+// @description:id   Cari menggunakan GoogleGreasyForkDanSleazyForkskrip atas
+// @name:it         GreasyFork Search
+// @description:it   Cerca utilizzando GoogleGreasyForkESleazyForkscrittura superiore
+// @name:ja         GreasyFork Search
+// @description:ja   Googleを使って検索するGreasyForkそしてSleazyFork上的脚本
+// @name:ka         GreasyFork Search
+// @description:ka   ძიება Google-ის გამოყენებითGreasyForkდაSleazyForkზედა დამწერლობა
+// @name:ko         GreasyFork Search
+// @description:ko   Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
+// @name:nl         GreasyFork Search
+// @description:nl   Zoek met GoogleGreasyForkEnSleazyForkbovenste schrift
+// @name:nb         GreasyFork Search
+// @description:nb   Søk med GoogleGreasyForkogSleazyForkøvre skrift
+// @name:pl         GreasyFork Search
+// @description:pl   Szukaj za pomocą GoogleGreasyForkISleazyForkgórny skrypt
+// @name:pt-BR         GreasyFork Search
+// @description:pt-BR   Pesquise usando o GoogleGreasyForkeSleazyForkscript superior
+// @name:ro         GreasyFork Search
+// @description:ro   Căutați folosind GoogleGreasyForkşiSleazyForkscriptul superior
+// @name:ru         GreasyFork Search
+// @description:ru   Поиск с помощью GoogleGreasyForkиSleazyForkверхний сценарий
+// @name:sk         GreasyFork Search
+// @description:sk   Hľadajte pomocou GoogleGreasyForkaSleazyForkhorné písmo
+// @name:sr         GreasyFork Search
+// @description:sr   Претражујте помоћу Гоогле-аGreasyForkиSleazyForkгорње писмо
+// @name:sv         GreasyFork Search
+// @description:sv   Sök med GoogleGreasyForkochSleazyForkövre skrift
+// @name:th         GreasyFork Search
+// @description:th   ค้นหาโดยใช้ GoogleGreasyForkและSleazyForkสคริปต์ด้านบน
+// @name:tr         GreasyFork Search
+// @description:tr   Google’ı kullanarak arama yapınGreasyForkVeSleazyForküst yazı
+// @name:ug         GreasyFork Search
+// @description:ug   Google نى ئىشلىتىپ ئىزدەشGreasyForkۋەSleazyForkئۈستى قوليازما
+// @name:uk         GreasyFork Search
+// @description:uk   Пошук за допомогою GoogleGreasyForkіSleazyForkверхній скрипт
+// @name:vi         GreasyFork Search
+// @description:vi   Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
+// @name:zh-TW         GreasyFork Search
+// @description:zh-TW   使用谷歌搜尋GreasyFork和SleazyFork上體文字
+// @name:zh-HK         GreasyFork Search
+// @description:zh-HK   使用谷歌搜尋GreasyFork和SleazyFork上體文字
+// @name:fr-CA         GreasyFork Search
+// @description:fr-CA   Rechercher avec GoogleGreasyForketSleazyForkécriture supérieure
+// @namespace     https://greasyfork.org/zh-CN/users/1169082
+// @version 0.6.5.14
+// @description  To search scripts using Google Search
 // @author       CY Fung , 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
 // @match        https://sleazyfork.org/*

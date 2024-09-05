@@ -76,7 +76,7 @@
 // @name:fr-CA      ChatGPT Limite du compteur de caractères (CCCL)
 // @description:fr-CA Ajouter un compteur de caractères à la zone de saisie，limité à 32732 personnages。（ChatGPT La limite est 32732 personnages。）
 // @namespace   https://greasyfork.org/users/1169082/
-// @version 0.1.0.13
+// @version 0.1.0.14
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @grant        none

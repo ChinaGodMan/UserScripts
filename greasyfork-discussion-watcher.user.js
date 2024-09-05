@@ -76,7 +76,7 @@
 // @description:fr-CA  Lorsqu’il y a une nouvelle réponse à votre script ou à une discussion à laquelle vous participez，Le script affichera le dernier contenu de la discussion dans une fenêtre modale sur la page Web。
 // @description  On GreasyFork, when there are new replies to your scripts or discussions you're involved in, the latest discussion content will be displayed on the webpage.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 1.2.0.1
+// @version 1.2.0.2
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*

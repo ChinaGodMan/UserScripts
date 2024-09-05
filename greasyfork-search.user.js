@@ -75,7 +75,7 @@
 // @name:fr-CA         GreasyFork Search
 // @description:fr-CA   Rechercher avec GoogleGreasyForketSleazyForkécriture supérieure
 // @namespace     https://greasyfork.org/zh-CN/users/1169082
-// @version 0.6.5.13
+// @version 0.6.5.14
 // @description  To search scripts using Google Search
 // @author       CY Fung , 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*

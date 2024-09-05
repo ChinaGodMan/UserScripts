@@ -81,7 +81,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @version 1.0.0.0
+// @version 1.0.0.1
 // @icon         https://pic.616pic.com/ys_bnew_img/00/35/79/Gv93yQh7v6.jpg
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
