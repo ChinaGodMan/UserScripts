@@ -124,7 +124,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-05 18:25:30</sub></td>
+            <td><sub>2024-09-05 19:05:35</sub></td>
              <td><sub>0.1.0.14</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -166,7 +166,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</td>
+            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定範囲を超えないようにする。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -327,7 +327,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示する</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
@@ -362,7 +362,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -418,7 +418,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -614,7 +614,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
