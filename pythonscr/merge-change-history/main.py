@@ -55,6 +55,7 @@ for script in data['scripts']:
 <center><div align="center">
     <h1>{name}</h1>
     <p>「 {description} 」</p>
+    <img src="https://views.whatilearened.today/views/github/{greasyfork_id}/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/{greasyfork_id}">Greasy
             Fork</a></p>{readme_html} 
