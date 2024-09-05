@@ -1,0 +1,47 @@
+name: Create Random Folder Structure
+
+on:
+  # 手动触发
+  workflow_dispatch:
+
+  # 也可以在推送到 main 分支时自动触发
+  push:
+    branches:
+      - mainadjdjdj
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Create random folder and files
+        run: |
+          # 创建随机命名的文件夹
+          FOLDER_NAME=$(cat /dev/urandom | tr -dc 'a-z0-9' | fold -w 8 | head -n 1)
+          mkdir -p "Script details/$FOLDER_NAME"
+
+          # 创建随机命名的.js文件
+          FILE_NAME=$(cat /dev/urandom | tr -dc 'a-z0-9' | fold -w 8 | head -c 8)
+          touch "Script details/$FOLDER_NAME/$FILE_NAME.js"
+
+          # 创建Change history文件夹并创建README.md文件
+          mkdir -p "Script details/$FOLDER_NAME/Change history"
+          echo "# Change History" > "Script details/$FOLDER_NAME/Change history/README.md"
+
+      - name: Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Add random folder structure"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
