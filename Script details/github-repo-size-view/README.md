@@ -61,6 +61,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
+
 <center><div align="center">
     <h1>github显示仓库大小</h1>
     <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
@@ -112,11 +113,12 @@
 1. [此处](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
 2. 为令牌命名并检查`repo`范围。
 3. 单击 `Generate token` 按钮并复制令牌。
-4. ~~*将脚本顶部的`TOKEN`常量值替换为您刚刚生成的令牌。*~~ 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
+4. 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
 
 ## 用法
 
 该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
+
 
 ## 感谢
 
