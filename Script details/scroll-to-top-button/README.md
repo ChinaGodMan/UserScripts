@@ -71,7 +71,7 @@
 <li><em>请求添加绑定热键</em></li>
 <li><em><a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a></em></li>
 </ul></details> 
-    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/500255.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
 </div></center>
 
 

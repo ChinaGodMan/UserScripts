@@ -67,7 +67,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><p>66666</p></details> 
-    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/497403.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
 ## 脚本介绍

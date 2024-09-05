@@ -70,7 +70,7 @@
 <li><strong>2024/8/28 09:46 - Ver: 0.7.0.2</strong> <em>移出原脚本的检测链接发生变化的监听器,添加新的监听器用于支持在仓库主页跳转目录时显示按钮.</em></li>
 <li><strong>2024/8/28 04:21 - Ver: 0.7</strong> <em>替换失效的选择器.</em></li>
 </ul></details> 
-    <img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/505496.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>
 
 # GitHub Folder Downloader
