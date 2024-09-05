@@ -63,7 +63,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>绚丽渐变美化网页表格</h1>
-    <p>「 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容 」</p>
+    <p>「 自动为表格所有列应用颜色渐变来美化 」</p>
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
