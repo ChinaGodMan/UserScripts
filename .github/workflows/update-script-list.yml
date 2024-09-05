@@ -2,13 +2,13 @@ name: UpdateREADMEList
 
 on:
   workflow_run:
-    workflows: ["update-Script-version"]  # 指定 A 流程的名称
+    workflows: 
+      - "update-Script-version"   
+      - "merge-change-history"     
     types:
       - completed
-  push:
-    paths:
-      - 'docs/ScriptsPath.json' 
   workflow_dispatch:  # 允许手动触发工作流
+
 
 concurrency:
   group: update-qinwuyuan-UserScripts-2  # 将所有运行中的实例放到同一个并发组中

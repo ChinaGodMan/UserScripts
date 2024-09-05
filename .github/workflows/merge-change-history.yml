@@ -1,4 +1,4 @@
-name: Github合并更新历史信息到脚本README.md
+name: merge-change-history
 
 on:
   push:
@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
-  update-change-history:
+  run-python:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
