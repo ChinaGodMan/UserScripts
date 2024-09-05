@@ -6,43 +6,69 @@ on:
       - 'Script details/**/*.js'
   workflow_dispatch:  # 允许手动触发工作流
 
+concurrency:
+  group: update-qinwuyuan-UserScripts  # 将所有运行中的实例放到同一个并发组中
+  cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
+
 jobs:
   update-chinagodman-commit:
     runs-on: ubuntu-latest
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - name: 获取提交者用户名
+        id: get_git_username
+        run: |
+          git_username=$(git log -1 --pretty=format:'%cn')  # 获取最后一次提交的用户名
+          echo "git_username=$git_username" >> $GITHUB_ENV  # 将用户名存入环境变量
+          echo "最新的提交者用户名是: $git_username"
+
+      - name: 检查提交者是否为 github-actions[bot]
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行 自己提交时触发此任务.用于更新触发更新仓库列表流程
+        run: echo "提交者不是 github-actions[bot]，继续执行工作流。"
 
       - name: 设置 Python 环境
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
       - name: 获取当前分支
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         id: get_branch
         run: |
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
       - name: 拉取最新更改
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         run: |
-          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
- 
+          git pull origin ${{ env.branch }}
+
       - name: 获取最新提交信息
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         id: get_commit_message
         run: |
-          # 获取最新提交的提交信息
-          commit_message=$(git log -1 --pretty=format:%s | sed 's/"/\\"/g')  # 转义双引号
+          commit_message=$(git log -1 --pretty=format:%s | sed 's/"/\\"/g')  # 获取最新提交信息并转义双引号
           echo "commit_message=$commit_message" >> $GITHUB_ENV
 
       - name: 根目录脚本__更新py
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         run: |
           # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
-           python pythonscr/copy_js_files.py
-        
+          python pythonscr/copy_js_files.py
+
+      - name: 拉取最新更改2
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
+        run: |
+          git pull origin ${{ env.branch }}
+
       - name: 提交和推送更改
+        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         run: |
           # 配置 Git 用户
           git config --global user.name 'github-actions[bot]'
@@ -51,6 +77,6 @@ jobs:
           # 添加更改
           git add .
           git commit -m "${{ env.commit_message }}" || echo "没有需要提交的更改"
-          git push origin ${{ env.branch }}  
+          git push origin ${{ env.branch }}
         env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

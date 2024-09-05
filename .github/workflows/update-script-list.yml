@@ -1,13 +1,14 @@
-name: GitHub更新仓库README.md中的列表
+name: UpdateREADMEList
 
 on:
   push:
     paths:
-      - '*.js'  # 监听根目录下的所有 .js 文件 如果更新到GF
-      #- 'docs/ScriptsPath.json'  # 监听 docs 目录下的 ScriptsPath.json 文件 如果更新说明文件的话.
-  #schedule:
-    #- cron: '0 6 * * *'  # 每天的 UTC 时间 6 点，即中国时间的 14点
+      - '*.js'  # 监听根目录下的所有 .js 文件
   workflow_dispatch:  # 允许手动触发工作流
+
+concurrency:
+  group: update-qinwuyuan-UserScripts-2  # 将所有运行中的实例放到同一个并发组中
+  cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
   update-script-list:
@@ -33,9 +34,7 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 拉取最新更改
-        run: |
-          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
 
       - name: 读取 Load.txt 中的脚本名称
         id: read-script
@@ -49,6 +48,10 @@ jobs:
           python ${{ env.script_path }}
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
+      - name: 拉取最新更改
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+      
       - name: 提交和推送更改
         run: |
           # 配置 Git 用户
@@ -61,3 +64,5 @@ jobs:
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+      
+      
