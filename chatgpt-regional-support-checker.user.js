@@ -347,5 +347,4 @@
             messageDiv.remove()
         }, 5000)
     }
-
 })()
