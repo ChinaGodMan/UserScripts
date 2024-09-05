@@ -46,8 +46,8 @@ for script in data['scripts']:
     isAddImage = True#添加历史安装图片
     if isAddImage:#if os.path.exists(img_path):
         # img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
-        # img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
-        img_tag = f'<img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/{greasyfork_id}.png">'
+        img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
+        # img_tag = f'<img src="https://images.weserv.nl/?url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/stats/{greasyfork_id}.png">'
 
 
     # 准备要添加或替换的 HTML 代码
