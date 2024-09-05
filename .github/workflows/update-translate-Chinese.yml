@@ -1,12 +1,10 @@
 name: Github 翻译自述文件
 
 on:
-  push:
-    paths:
-      - 'docs/README.md'
-  #schedule:
-    #- cron: '0 6 * * *'  # 每天的 UTC 时间 6 点，即中国时间的 14点
-  workflow_dispatch:  # 允许手动触发工作流
+  workflow_run:
+    workflows: ["UpdateREADMEList"]  # 指定 A 流程的名称
+    types:
+      - completed  # 在 A 流程完成后触发
 
 jobs:
   translate-readme:
@@ -33,9 +31,7 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 拉取最新更改
-        run: |
-          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
 
       - name: 读取 Load.txt 中的脚本名称
         id: read-script
@@ -48,6 +44,10 @@ jobs:
         run: |
           python ${{ env.script_path }}
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+      
+      - name: 拉取最新更改
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
       - name: 提交和推送更改
         run: |

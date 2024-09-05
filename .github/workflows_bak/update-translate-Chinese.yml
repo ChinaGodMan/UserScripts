@@ -1,17 +1,15 @@
-name: Github合并更新历史信息到脚本README.md
+name: Github 翻译自述文件
 
 on:
   push:
     paths:
-      - 'Script details/**/Change history/README.md'  # 仅在指定路径的 README.md 文件发生变动时触发
+      - 'docs/README.md'
+  #schedule:
+    #- cron: '0 6 * * *'  # 每天的 UTC 时间 6 点，即中国时间的 14点
   workflow_dispatch:  # 允许手动触发工作流
 
-concurrency:
-  group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
-  cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
-
 jobs:
-  update-change-history:
+  translate-readme:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
@@ -27,8 +25,7 @@ jobs:
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install markdown  # 安装 markdown 库
-          # 如果有其他依赖项，请在这里添加
+          pip install googletrans==4.0.0-rc1  # 安装 Google Translate API 的 Python 包
 
       - name: 获取当前分支
         id: get_branch
@@ -40,10 +37,16 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 运行合并脚本 并对没有帮助文档的说明增加一下
+      - name: 读取 Load.txt 中的脚本名称
+        id: read-script
         run: |
-          python pythonscr/merge-change-history/main.py
-          python pythonscr/update-help/main.py
+          script_name=$(cat pythonscr/翻译readme_slp/Load.txt)
+          script_path="pythonscr/翻译readme_slp/${script_name}"
+          echo "script_path=${script_path}" >> $GITHUB_ENV
+
+      - name: 读取并翻译 README
+        run: |
+          python ${{ env.script_path }}
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
 
       - name: 提交和推送更改
@@ -54,7 +57,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '合并更新历史' || echo "没有需要提交的更改"
-          git push origin ${{ env.branch }}  
+          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}
         env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
