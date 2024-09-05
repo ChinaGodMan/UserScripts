@@ -49,6 +49,7 @@
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "问题"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "许可"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-全世界人民🌏-4285dd?labelColor=FFD700&color=FF69B4
+ "CopyRight people"
 [JavaScript-logo]: https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E
 [Support-logo]: https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue?svg&
 [Tampermonkey-OK]: https://img.shields.io/badge/Tampermonkey-OK-006989?labelColor=012A36
@@ -56,36 +57,6 @@
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
 
-# Gorgeous Gradient Table Beautification Script
-
-This script automatically applies gradient colors to all tables on a webpage, based on the numerical values in each column. It enhances the visual appeal of the table without any manual clicks or operations by the user.
-
-#### Features
-1. **Automatic Gradient Application**: The script scans tables on the page and automatically applies gradient colors to each column based on the data, without requiring user intervention.
-2. **Data-Driven Gradients**: Colors are generated based on the minimum and maximum values in each column, with greater color variation for larger or smaller values.
-3. **Continuous Monitoring**: The script checks the page every second to automatically apply gradients to any new tables that are loaded.
-4. **Gradient Color Configuration**: Colors are based on the HSL color model, with adjustable parameters for hue range (`HUE_RANGE`), saturation (`SATURATION`), and lightness (`LIGHTNESS`).
-
-#### Key Parameters
-- **HUE_RANGE**: Sets the hue range for the gradient color, with a default value of 120 degrees, representing a gradient from green to red.
-- **SATURATION**: Controls the color saturation, with a default of 80% for a vibrant color effect.
-- **LIGHTNESS**: Controls the color lightness, with a default of 88% to ensure a soft and non-straining color gradient.
-
-#### Core Logic
-1. **extractFirstFloat**: Extracts the first floating-point number from the cell's text, ignoring non-numeric content to ensure only numerical values are used for gradient calculation.
-2. **applyGradient**: Automatically calculates the minimum and maximum values for each column and generates corresponding gradient background colors.
-3. **initializeTables**: Periodically checks for tables on the page and applies gradient colors to any new or uninitialized tables.
-
-#### Use Cases
-This script is suitable for any webpage containing tables, automatically applying gradient colors to enhance data visualization and make it easier to distinguish data differences.
-
-## Project & Feedback
-- **Original Script:** [yearly](https://greasyfork.org/zh-CN/users/1312063)'s [Colorful Table | Table Data Visualization](https://greasyfork.org/zh-CN/scripts/502933)
-- **Project Page:** [GitHub Repository](https://github.com/ChinaGodMan/UserScripts)
-- **Support & Issue Reporting:** [Report an Issue](https://github.com/ChinaGodMan/UserScripts/issues)
-
-![colorful-table-2.png](https://s2.loli.net/2024/09/06/CjBMp6ERigxsYAV.png)
-![colorful-table.png](https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png)
 
 
 
