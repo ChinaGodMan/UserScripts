@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>GitHub文件夹下载</h1>
     <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
+    <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>

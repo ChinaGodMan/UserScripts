@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>Script Finder油猴脚本查找器</h1>
     <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
+    <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>

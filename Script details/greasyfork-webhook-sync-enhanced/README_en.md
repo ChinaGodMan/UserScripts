@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>GreaysFork 增强 WebHook同步设置</h1>
     <p>「 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。 」</p>
+    <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>

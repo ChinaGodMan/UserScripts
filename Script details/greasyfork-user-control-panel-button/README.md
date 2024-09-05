@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>GreasyFork 导航栏增强</h1>
     <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
+    <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
             Fork</a></p> 

@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>一键置顶和置底按钮</h1>
     <p>「 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止 」</p>
+    <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>

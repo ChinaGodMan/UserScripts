@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>去除链接下划线</h1>
     <p>「 去除网页链接的下划线 」</p>
+    <img src="https://views.whatilearened.today/views/github/498625/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498625">Greasy
             Fork</a></p> 

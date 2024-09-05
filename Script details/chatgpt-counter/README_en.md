@@ -64,6 +64,7 @@
 <center><div align="center">
     <h1>ChatGPT 字符计数器</h1>
     <p>「 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。） 」</p>
+    <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
