@@ -124,8 +124,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-04 09:16:23</sub></td>
-             <td><sub>0.1.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:32</sub></td>
+             <td><sub>0.1.0.14</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -152,8 +152,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>1.3.1.4</sub></td>
+            <td><sub>2024-09-05 09:16:32</sub></td>
+             <td><sub>1.3.1.5</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -180,8 +180,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>0.1.0.15</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>0.1.0.16</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -208,8 +208,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>1.2.2.63</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>1.2.2.64</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -236,8 +236,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>1.0.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>1.0.0.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -264,8 +264,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>1.0.0.9</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>1.0.0.10</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -292,8 +292,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>0.7.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>0.7.0.14</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -320,8 +320,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>2.2.0.12</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>2.2.0.13</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -348,8 +348,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.1.2.46</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>0.1.2.47</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -376,8 +376,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>1.1.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>1.1.0.14</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -404,8 +404,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.1.9.35</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>0.1.9.36</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -432,8 +432,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.0.1.41</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>0.0.1.42</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -446,7 +446,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -460,8 +460,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>0.9.3.56</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>0.9.3.57</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -474,7 +474,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -488,8 +488,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-05 04:35:47</sub></td>
-             <td><sub>1.1</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.1.0.1</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -516,8 +516,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>2.0.4.14</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>2.0.4.15</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -544,8 +544,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>1.3.3.53</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>1.3.3.54</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -572,8 +572,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>0.6.5.13</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>0.6.5.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -600,14 +600,14 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>0.3.1.47</sub></td>
+            <td><sub>2024-09-05 09:16:38</sub></td>
+             <td><sub>0.3.1.48</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -628,8 +628,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>2.2.0.81</sub></td>
+            <td><sub>2024-09-05 09:16:38</sub></td>
+             <td><sub>2.2.0.82</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -656,8 +656,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>1.2.0.1</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>1.2.0.2</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -684,8 +684,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-04 09:16:30</sub></td>
-             <td><sub>1.1.2.62</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.1.2.63</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -712,8 +712,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-04 09:16:29</sub></td>
-             <td><sub>1.0.5.16</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.0.5.17</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -740,8 +740,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-04 13:52:44</sub></td>
-             <td><sub>1.0.0.97</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.0.0.98</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -768,8 +768,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-04 09:16:30</sub></td>
-             <td><sub>1.2.3.63</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.2.3.64</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -796,8 +796,8 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.0.0.98</sub></td>
+            <td><sub>2024-09-05 09:16:44</sub></td>
+             <td><sub>1.0.0.99</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
     <tr>
@@ -824,8 +824,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-04 13:55:38</sub></td>
-             <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.0.0.1</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -838,7 +838,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -852,8 +852,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>1.3.98.15</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>1.3.98.16</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -880,8 +880,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>2.4.0.22</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>2.4.0.23</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -908,8 +908,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>1.2.0.53</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>1.2.0.54</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -936,8 +936,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>0.1.6.69</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>0.1.6.70</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -964,8 +964,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.0.0.16</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>1.0.0.17</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -992,8 +992,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.2.0.62</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>1.2.0.63</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1020,8 +1020,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-04 09:16:33</sub></td>
-             <td><sub>0.31.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:44</sub></td>
+             <td><sub>0.31.0.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     </tbody>
@@ -1050,17 +1050,17 @@
 ---
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 
-|                               Trình duyệt được đề xuất                                |                                                     Trình quản lý cài đặt                                                     | Cài đặt trình duyệt                                                             |
-| :-----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
+|                               Trình duyệt được đề xuất                                |                                                          Trình quản lý cài đặt                                                           | Cài đặt trình duyệt                                                                      |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
 | <center> Chrome hoặc dựa trên Chromium Trình duyệt hạt nhân[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|      <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                                <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                              |
+|  <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox hoặc dựa trên Gecko Trình duyệt hạt nhân[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|              <center>          Opera Trình duyệt[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|             <center>      Via Trình duyệt（Android）[![][via]][via_link]              |                           <center>                                               Trình duyệt内自带                            | <center>[![][via]][via_link]                                                    |
-|                <center>      XTrình duyệt（Android）  [![][x]][x_link]                |                            <center>                                             Trình duyệt内自带                             | <center>[![][x]][x_link]                                                        |
-|            <center>       KIWITrình duyệt（Android）[![][kiwi]][kiwi_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|           <center>       Trình duyệt vượn cáo（Android）[![][le]][le_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                                       |                                                                                                                               |                                                                                 |
+|         <center>          Opera Trình duyệt[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
+|         <center>      Via Trình duyệt（Android）[![][via]][via_link]         |                              <center>                                               Trình duyệt内自带                              | <center>[![][via]][via_link]                                                    |
+|           <center>      XTrình duyệt（Android）  [![][x]][x_link]            |                               <center>                                             Trình duyệt内自带                               | <center>[![][x]][x_link]                                                        |
+|       <center>       KIWITrình duyệt（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
+|         <center>       Trình duyệt vượn cáo（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
+|                                                                         |                                                                                                                               |                                                                                 |
 
 [Tampermonkey]:http://tampermonkey.net/ "khỉ giả mạo"
 [Violentmonkey]:https://violentmonkey.github.io/ "khỉ hung bạo"

@@ -124,8 +124,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-04 09:16:23</sub></td>
-             <td><sub>0.1.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:32</sub></td>
+             <td><sub>0.1.0.14</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -138,7 +138,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>입력 상자에 문자 카운터 추가，로 제한됨 32732 문자。（ChatGPT 한도는 32732 문자。）</td>
+            <td>입력 상자에 문자 카운터 추가，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 캐릭터。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -152,8 +152,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>1.3.1.4</sub></td>
+            <td><sub>2024-09-05 09:16:32</sub></td>
+             <td><sub>1.3.1.5</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -180,8 +180,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>0.1.0.15</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>0.1.0.16</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -208,8 +208,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-04 09:16:24</sub></td>
-             <td><sub>1.2.2.63</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>1.2.2.64</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -236,8 +236,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>1.0.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:33</sub></td>
+             <td><sub>1.0.0.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -264,8 +264,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>1.0.0.9</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>1.0.0.10</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -292,8 +292,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>0.7.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>0.7.0.14</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -320,8 +320,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-04 09:16:25</sub></td>
-             <td><sub>2.2.0.12</sub></td>
+            <td><sub>2024-09-05 09:16:34</sub></td>
+             <td><sub>2.2.0.13</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -348,8 +348,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.1.2.46</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>0.1.2.47</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -376,8 +376,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>1.1.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>1.1.0.14</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -404,8 +404,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.1.9.35</sub></td>
+            <td><sub>2024-09-05 09:16:35</sub></td>
+             <td><sub>0.1.9.36</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -432,8 +432,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-04 09:16:26</sub></td>
-             <td><sub>0.0.1.41</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>0.0.1.42</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -460,8 +460,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>0.9.3.56</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>0.9.3.57</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -474,7 +474,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
+            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -488,8 +488,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-05 04:35:47</sub></td>
-             <td><sub>1.1</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.1.0.1</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -516,8 +516,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>2.0.4.14</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>2.0.4.15</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -544,8 +544,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>1.3.3.53</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>1.3.3.54</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -572,8 +572,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>0.6.5.13</sub></td>
+            <td><sub>2024-09-05 09:16:37</sub></td>
+             <td><sub>0.6.5.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -600,8 +600,8 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>0.3.1.47</sub></td>
+            <td><sub>2024-09-05 09:16:38</sub></td>
+             <td><sub>0.3.1.48</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -628,8 +628,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-04 09:16:28</sub></td>
-             <td><sub>2.2.0.81</sub></td>
+            <td><sub>2024-09-05 09:16:38</sub></td>
+             <td><sub>2.2.0.82</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -656,8 +656,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-04 09:16:27</sub></td>
-             <td><sub>1.2.0.1</sub></td>
+            <td><sub>2024-09-05 09:16:36</sub></td>
+             <td><sub>1.2.0.2</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -684,8 +684,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-04 09:16:30</sub></td>
-             <td><sub>1.1.2.62</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.1.2.63</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -712,8 +712,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-04 09:16:29</sub></td>
-             <td><sub>1.0.5.16</sub></td>
+            <td><sub>2024-09-05 09:16:40</sub></td>
+             <td><sub>1.0.5.17</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -740,8 +740,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-04 13:52:44</sub></td>
-             <td><sub>1.0.0.97</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.0.0.98</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -768,8 +768,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-04 09:16:30</sub></td>
-             <td><sub>1.2.3.63</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.2.3.64</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -796,8 +796,8 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.0.0.98</sub></td>
+            <td><sub>2024-09-05 09:16:44</sub></td>
+             <td><sub>1.0.0.99</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
     <tr>
@@ -824,8 +824,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-04 13:55:38</sub></td>
-             <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-05 09:16:41</sub></td>
+             <td><sub>1.0.0.1</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -852,8 +852,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>1.3.98.15</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>1.3.98.16</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -880,8 +880,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>2.4.0.22</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>2.4.0.23</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -908,8 +908,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>1.2.0.53</sub></td>
+            <td><sub>2024-09-05 09:16:42</sub></td>
+             <td><sub>1.2.0.54</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -936,8 +936,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-04 09:16:31</sub></td>
-             <td><sub>0.1.6.69</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>0.1.6.70</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -964,8 +964,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.0.0.16</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>1.0.0.17</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -992,8 +992,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-04 09:16:32</sub></td>
-             <td><sub>1.2.0.62</sub></td>
+            <td><sub>2024-09-05 09:16:43</sub></td>
+             <td><sub>1.2.0.63</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1006,7 +1006,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1020,8 +1020,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-04 09:16:33</sub></td>
-             <td><sub>0.31.0.13</sub></td>
+            <td><sub>2024-09-05 09:16:44</sub></td>
+             <td><sub>0.31.0.14</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     </tbody>
@@ -1037,30 +1037,30 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 - 양식을 클릭하세요 **\[설치하다\]** 直接弹出脚本管理器설치하다界面。
-- 만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+- 만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 
 > [!IMPORTANT]
 > 
 > - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，다른 사용자 스크립트 관리자는**제대로 작동하지 않음**각본。_
-> - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
+> - _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 브라우저 및 스크립트 관리자
 
-|                                 권장 브라우저                                  |                                                          설치 관리자                                                          | 브라우저 설치                                                                   |
-| :----------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
+|                               권장 브라우저                                |                                                          설치 관리자                                                           | 브라우저 설치                                                                      |
+| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
 | <center> Chrome 또는 기반으로 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|    <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                                <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                              |
+|  <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox 또는 기반으로 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|            <center>          Opera 브라우저[![][opera]][opera_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|           <center>      Via 브라우저（Android）[![][via]][via_link]            |                             <center>                                               브라우저内自带                             | <center>[![][via]][via_link]                                                    |
-|              <center>      X브라우저（Android）  [![][x]][x_link]              |                              <center>                                             브라우저内自带                              | <center>[![][x]][x_link]                                                        |
-|          <center>       KIWI브라우저（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|        <center>       여우원숭이 브라우저（Android）[![][le]][le_link]         | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                                |                                                                                                                               |                                                                                 |
+|         <center>          Opera 브라우저[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
+|         <center>      Via 브라우저（Android）[![][via]][via_link]         |                              <center>                                               브라우저内自带                              | <center>[![][via]][via_link]                                                    |
+|           <center>      X브라우저（Android）  [![][x]][x_link]            |                               <center>                                             브라우저内自带                               | <center>[![][x]][x_link]                                                        |
+|       <center>       KIWI브라우저（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
+|         <center>       여우원숭이 브라우저（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
+|                                                                         |                                                                                                                               |                                                                                 |
 
 [Tampermonkey]:http://tampermonkey.net/ "원숭이를 조작하다"
 [Violentmonkey]:https://violentmonkey.github.io/ "난폭한 원숭이"
