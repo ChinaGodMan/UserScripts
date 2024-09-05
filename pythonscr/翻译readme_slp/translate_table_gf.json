@@ -1,0 +1,1154 @@
+[
+    {
+        "value": "1",
+        "nation": "Afar",
+        "code": "aa",
+        "translated": false
+    },
+    {
+        "value": "2",
+        "nation": "аҧсуа бызшәа",
+        "code": "ab",
+        "translated": false
+    },
+    {
+        "value": "3",
+        "nation": "Avestan",
+        "code": "ae",
+        "translated": false
+    },
+    {
+        "value": "4",
+        "nation": "Afrikaans",
+        "code": "af",
+        "translated": false
+    },
+    {
+        "value": "5",
+        "nation": "Akan",
+        "code": "ak",
+        "translated": false
+    },
+    {
+        "value": "6",
+        "nation": "አማርኛ",
+        "code": "am",
+        "translated": false
+    },
+    {
+        "value": "7",
+        "nation": "العربية",
+        "code": "ar",
+        "translated": true
+    },
+    {
+        "value": "8",
+        "nation": "Assamese",
+        "code": "as",
+        "translated": false
+    },
+    {
+        "value": "9",
+        "nation": "Asturian",
+        "code": "ast",
+        "translated": false
+    },
+    {
+        "value": "10",
+        "nation": "Avar",
+        "code": "av",
+        "translated": false
+    },
+    {
+        "value": "11",
+        "nation": "Aymara",
+        "code": "ay",
+        "translated": false
+    },
+    {
+        "value": "12",
+        "nation": "azərbaycan",
+        "code": "az",
+        "translated": false
+    },
+    {
+        "value": "13",
+        "nation": "Bashkir",
+        "code": "ba",
+        "translated": false
+    },
+    {
+        "value": "14",
+        "nation": "Беларуская",
+        "code": "be",
+        "translated": false
+    },
+    {
+        "value": "15",
+        "nation": "Български",
+        "code": "bg",
+        "translated": true
+    },
+    {
+        "value": "16",
+        "nation": "Bihari",
+        "code": "bh",
+        "translated": false
+    },
+    {
+        "value": "17",
+        "nation": "Bislama",
+        "code": "bi",
+        "translated": false
+    },
+    {
+        "value": "18",
+        "nation": "Bamanankan",
+        "code": "bm",
+        "translated": false
+    },
+    {
+        "value": "19",
+        "nation": "Bengali",
+        "code": "bn",
+        "translated": false
+    },
+    {
+        "value": "20",
+        "nation": "Tibetan",
+        "code": "bo",
+        "translated": false
+    },
+    {
+        "value": "21",
+        "nation": "Breton",
+        "code": "br",
+        "translated": false
+    },
+    {
+        "value": "22",
+        "nation": "Bosanski",
+        "code": "bs",
+        "translated": false
+    },
+    {
+        "value": "23",
+        "nation": "Català",
+        "code": "ca",
+        "translated": false
+    },
+    {
+        "value": "24",
+        "nation": "Chechen",
+        "code": "ce",
+        "translated": false
+    },
+    {
+        "value": "25",
+        "nation": "Cebuano",
+        "code": "ceb",
+        "translated": false
+    },
+    {
+        "value": "26",
+        "nation": "Chamorro",
+        "code": "ch",
+        "translated": false
+    },
+    {
+        "value": "27",
+        "nation": "Cherokee",
+        "code": "chr",
+        "translated": false
+    },
+    {
+        "value": "28",
+        "nation": "Corsican",
+        "code": "co",
+        "translated": false
+    },
+    {
+        "value": "29",
+        "nation": "Cree",
+        "code": "cr",
+        "translated": false
+    },
+    {
+        "value": "30",
+        "nation": "Čeština",
+        "code": "cs",
+        "translated": true
+    },
+    {
+        "value": "31",
+        "nation": "Old Slavonic",
+        "code": "cu",
+        "translated": false
+    },
+    {
+        "value": "32",
+        "nation": "Chuvash",
+        "code": "cv",
+        "translated": false
+    },
+    {
+        "value": "33",
+        "nation": "Cymraeg",
+        "code": "cy",
+        "translated": false
+    },
+    {
+        "value": "34",
+        "nation": "Dansk",
+        "code": "da",
+        "translated": true
+    },
+    {
+        "value": "35",
+        "nation": "Deutsch",
+        "code": "de",
+        "translated": true
+    },
+    {
+        "value": "36",
+        "nation": "Maldivian",
+        "code": "dv",
+        "translated": false
+    },
+    {
+        "value": "37",
+        "nation": "Bhutani",
+        "code": "dz",
+        "translated": false
+    },
+    {
+        "value": "38",
+        "nation": "Ɛʋɛ",
+        "code": "ee",
+        "translated": false
+    },
+    {
+        "value": "39",
+        "nation": "Ελληνικά",
+        "code": "el",
+        "translated": true
+    },
+    {
+        "value": "40",
+        "nation": "English",
+        "code": "en",
+        "translated": true
+    },
+    {
+        "value": "41",
+        "nation": "Esperanto",
+        "code": "eo",
+        "translated": true
+    },
+    {
+        "value": "42",
+        "nation": "Español",
+        "code": "es",
+        "translated": true
+    },
+    {
+        "value": "43",
+        "nation": "Eesti",
+        "code": "et",
+        "translated": false
+    },
+    {
+        "value": "44",
+        "nation": "Euskera",
+        "code": "eu",
+        "translated": false
+    },
+    {
+        "value": "45",
+        "nation": "فارسی",
+        "code": "fa",
+        "translated": false
+    },
+    {
+        "value": "46",
+        "nation": "Fulfulde",
+        "code": "ff",
+        "translated": false
+    },
+    {
+        "value": "47",
+        "nation": "Suomi",
+        "code": "fi",
+        "translated": true
+    },
+    {
+        "value": "48",
+        "nation": "Filipino",
+        "code": "fil",
+        "translated": false
+    },
+    {
+        "value": "49",
+        "nation": "Fiji",
+        "code": "fj",
+        "translated": false
+    },
+    {
+        "value": "50",
+        "nation": "Faeroese",
+        "code": "fo",
+        "translated": false
+    },
+    {
+        "value": "51",
+        "nation": "Français",
+        "code": "fr",
+        "translated": true
+    },
+    {
+        "value": "52",
+        "nation": "Frysk",
+        "code": "fy",
+        "translated": false
+    },
+    {
+        "value": "53",
+        "nation": "Gaeilge",
+        "code": "ga",
+        "translated": false
+    },
+    {
+        "value": "54",
+        "nation": "Scots Gaelic",
+        "code": "gd",
+        "translated": false
+    },
+    {
+        "value": "55",
+        "nation": "Galego",
+        "code": "gl",
+        "translated": false
+    },
+    {
+        "value": "56",
+        "nation": "Guarani",
+        "code": "gn",
+        "translated": false
+    },
+    {
+        "value": "57",
+        "nation": "Swiss German",
+        "code": "gsw-berne",
+        "translated": false
+    },
+    {
+        "value": "58",
+        "nation": "Gujarati",
+        "code": "gu",
+        "translated": false
+    },
+    {
+        "value": "59",
+        "nation": "Manx",
+        "code": "gv",
+        "translated": false
+    },
+    {
+        "value": "60",
+        "nation": "Hausa",
+        "code": "ha",
+        "translated": false
+    },
+    {
+        "value": "61",
+        "nation": "עברית",
+        "code": "he",
+        "translated": true
+    },
+    {
+        "value": "62",
+        "nation": "हिन्दी",
+        "code": "hi",
+        "translated": false
+    },
+    {
+        "value": "63",
+        "nation": "Hmong",
+        "code": "hmn",
+        "translated": false
+    },
+    {
+        "value": "64",
+        "nation": "Hiri Motu",
+        "code": "ho",
+        "translated": false
+    },
+    {
+        "value": "65",
+        "nation": "Hrvatski",
+        "code": "hr",
+        "translated": true
+    },
+    {
+        "value": "66",
+        "nation": "Haitian Creole",
+        "code": "ht",
+        "translated": false
+    },
+    {
+        "value": "67",
+        "nation": "Magyar",
+        "code": "hu",
+        "translated": true
+    },
+    {
+        "value": "68",
+        "nation": "Հայերեն",
+        "code": "hy",
+        "translated": false
+    },
+    {
+        "value": "69",
+        "nation": "Herero",
+        "code": "hz",
+        "translated": false
+    },
+    {
+        "value": "70",
+        "nation": "Interlingua",
+        "code": "ia",
+        "translated": false
+    },
+    {
+        "value": "71",
+        "nation": "Bahasa Indonesia",
+        "code": "id",
+        "translated": true
+    },
+    {
+        "value": "72",
+        "nation": "Interlingue",
+        "code": "ie",
+        "translated": false
+    },
+    {
+        "value": "73",
+        "nation": "Igbo",
+        "code": "ig",
+        "translated": false
+    },
+    {
+        "value": "74",
+        "nation": "Inupiak",
+        "code": "ik",
+        "translated": false
+    },
+    {
+        "value": "75",
+        "nation": "Íslenska",
+        "code": "is",
+        "translated": false
+    },
+    {
+        "value": "76",
+        "nation": "Italiano",
+        "code": "it",
+        "translated": true
+    },
+    {
+        "value": "77",
+        "nation": "Inuktitut",
+        "code": "iu",
+        "translated": false
+    },
+    {
+        "value": "78",
+        "nation": "日本語",
+        "code": "ja",
+        "translated": true
+    },
+    {
+        "value": "79",
+        "nation": "Javanese",
+        "code": "jv",
+        "translated": false
+    },
+    {
+        "value": "80",
+        "nation": "Georgian",
+        "code": "ka",
+        "translated": true
+    },
+    {
+        "value": "81",
+        "nation": "Kongo",
+        "code": "kg",
+        "translated": false
+    },
+    {
+        "value": "82",
+        "nation": "Kikuyu",
+        "code": "ki",
+        "translated": false
+    },
+    {
+        "value": "83",
+        "nation": "Kwanyama",
+        "code": "kj",
+        "translated": false
+    },
+    {
+        "value": "84",
+        "nation": "Қазақ",
+        "code": "kk",
+        "translated": false
+    },
+    {
+        "value": "85",
+        "nation": "Greenlandic",
+        "code": "kl",
+        "translated": false
+    },
+    {
+        "value": "86",
+        "nation": "Cambodian",
+        "code": "km",
+        "translated": false
+    },
+    {
+        "value": "87",
+        "nation": "ಕನ್ನಡ",
+        "code": "kn",
+        "translated": false
+    },
+    {
+        "value": "88",
+        "nation": "한국어",
+        "code": "ko",
+        "translated": true
+    },
+    {
+        "value": "89",
+        "nation": "Kanuri",
+        "code": "kr",
+        "translated": false
+    },
+    {
+        "value": "90",
+        "nation": "Kashmiri",
+        "code": "ks",
+        "translated": false
+    },
+    {
+        "value": "91",
+        "nation": "Kurdî",
+        "code": "ku",
+        "translated": false
+    },
+    {
+        "value": "92",
+        "nation": "Komi",
+        "code": "kv",
+        "translated": false
+    },
+    {
+        "value": "93",
+        "nation": "Cornish",
+        "code": "kw",
+        "translated": false
+    },
+    {
+        "value": "94",
+        "nation": "Кыргызча",
+        "code": "ky",
+        "translated": false
+    },
+    {
+        "value": "95",
+        "nation": "Latina",
+        "code": "la",
+        "translated": false
+    },
+    {
+        "value": "96",
+        "nation": "Luxembourgish",
+        "code": "lb",
+        "translated": false
+    },
+    {
+        "value": "97",
+        "nation": "Luganda",
+        "code": "lg",
+        "translated": false
+    },
+    {
+        "value": "98",
+        "nation": "Limbu",
+        "code": "lif",
+        "translated": false
+    },
+    {
+        "value": "99",
+        "nation": "Lingala",
+        "code": "ln",
+        "translated": false
+    },
+    {
+        "value": "100",
+        "nation": "Laothian",
+        "code": "lo",
+        "translated": false
+    },
+    {
+        "value": "101",
+        "nation": "Lietuvių",
+        "code": "lt",
+        "translated": false
+    },
+    {
+        "value": "102",
+        "nation": "Latviešu",
+        "code": "lv",
+        "translated": false
+    },
+    {
+        "value": "103",
+        "nation": "Malagasy",
+        "code": "mg",
+        "translated": false
+    },
+    {
+        "value": "104",
+        "nation": "Marshallese",
+        "code": "mh",
+        "translated": false
+    },
+    {
+        "value": "105",
+        "nation": "Māori",
+        "code": "mi",
+        "translated": false
+    },
+    {
+        "value": "106",
+        "nation": "Македонски",
+        "code": "mk",
+        "translated": false
+    },
+    {
+        "value": "107",
+        "nation": "മലയാളം",
+        "code": "ml",
+        "translated": false
+    },
+    {
+        "value": "108",
+        "nation": "Mongolian",
+        "code": "mn",
+        "translated": false
+    },
+    {
+        "value": "109",
+        "nation": "Moldavian",
+        "code": "mo",
+        "translated": false
+    },
+    {
+        "value": "110",
+        "nation": "Marathi",
+        "code": "mr",
+        "translated": false
+    },
+    {
+        "value": "111",
+        "nation": "Bahasa Melayu",
+        "code": "ms",
+        "translated": false
+    },
+    {
+        "value": "112",
+        "nation": "Malti",
+        "code": "mt",
+        "translated": false
+    },
+    {
+        "value": "113",
+        "nation": "Burmese",
+        "code": "my",
+        "translated": false
+    },
+    {
+        "value": "114",
+        "nation": "Nauru",
+        "code": "na",
+        "translated": false
+    },
+    {
+        "value": "115",
+        "nation": "North Ndebele",
+        "code": "nd",
+        "translated": false
+    },
+    {
+        "value": "116",
+        "nation": "Nepali",
+        "code": "ne",
+        "translated": false
+    },
+    {
+        "value": "117",
+        "nation": "Ndonga",
+        "code": "ng",
+        "translated": false
+    },
+    {
+        "value": "118",
+        "nation": "Nederlands",
+        "code": "nl",
+        "translated": true
+    },
+    {
+        "value": "119",
+        "nation": "Bokmål",
+        "code": "nb",
+        "translated": true
+    },
+    {
+        "value": "120",
+        "nation": "Nynorsk",
+        "code": "nn",
+        "translated": false
+    },
+    {
+        "value": "121",
+        "nation": "South Ndebele",
+        "code": "nr",
+        "translated": false
+    },
+    {
+        "value": "122",
+        "nation": "Navajo",
+        "code": "nv",
+        "translated": false
+    },
+    {
+        "value": "123",
+        "nation": "Chichewa",
+        "code": "ny",
+        "translated": false
+    },
+    {
+        "value": "124",
+        "nation": "Occitan",
+        "code": "oc",
+        "translated": false
+    },
+    {
+        "value": "125",
+        "nation": "Oromo",
+        "code": "om",
+        "translated": false
+    },
+    {
+        "value": "126",
+        "nation": "Oriya",
+        "code": "or",
+        "translated": false
+    },
+    {
+        "value": "127",
+        "nation": "Ossetian",
+        "code": "os",
+        "translated": false
+    },
+    {
+        "value": "128",
+        "nation": "Punjabi",
+        "code": "pa",
+        "translated": false
+    },
+    {
+        "value": "129",
+        "nation": "Pali",
+        "code": "pi",
+        "translated": false
+    },
+    {
+        "value": "130",
+        "nation": "Polski",
+        "code": "pl",
+        "translated": true
+    },
+    {
+        "value": "131",
+        "nation": "پښتو",
+        "code": "ps",
+        "translated": false
+    },
+    {
+        "value": "132",
+        "nation": "Portuguese, International",
+        "code": "pt",
+        "translated": false
+    },
+    {
+        "value": "133",
+        "nation": "Português",
+        "code": "pt-PT",
+        "translated": false
+    },
+    {
+        "value": "134",
+        "nation": "Português do Brasil",
+        "code": "pt-BR",
+        "translated": true
+    },
+    {
+        "value": "135",
+        "nation": "Quechua",
+        "code": "qu",
+        "translated": false
+    },
+    {
+        "value": "136",
+        "nation": "Rhaeto-Romance",
+        "code": "rm",
+        "translated": false
+    },
+    {
+        "value": "137",
+        "nation": "Kirundi",
+        "code": "rn",
+        "translated": false
+    },
+    {
+        "value": "138",
+        "nation": "Română",
+        "code": "ro",
+        "translated": true
+    },
+    {
+        "value": "139",
+        "nation": "Русский",
+        "code": "ru",
+        "translated": true
+    },
+    {
+        "value": "140",
+        "nation": "Kinyarwanda",
+        "code": "rw",
+        "translated": false
+    },
+    {
+        "value": "141",
+        "nation": "Sanskrit",
+        "code": "sa",
+        "translated": false
+    },
+    {
+        "value": "142",
+        "nation": "Sardinian",
+        "code": "sc",
+        "translated": false
+    },
+    {
+        "value": "143",
+        "nation": "Scots",
+        "code": "sco",
+        "translated": false
+    },
+    {
+        "value": "144",
+        "nation": "Sindhi",
+        "code": "sd",
+        "translated": false
+    },
+    {
+        "value": "145",
+        "nation": "Northern Sami",
+        "code": "se",
+        "translated": false
+    },
+    {
+        "value": "146",
+        "nation": "Sango",
+        "code": "sg",
+        "translated": false
+    },
+    {
+        "value": "147",
+        "nation": "Serbo-Croatian",
+        "code": "sh",
+        "translated": false
+    },
+    {
+        "value": "148",
+        "nation": "සිංහල",
+        "code": "si",
+        "translated": false
+    },
+    {
+        "value": "149",
+        "nation": "Slovenčina",
+        "code": "sk",
+        "translated": true
+    },
+    {
+        "value": "150",
+        "nation": "Slovenščina",
+        "code": "sl",
+        "translated": false
+    },
+    {
+        "value": "151",
+        "nation": "Samoan",
+        "code": "sm",
+        "translated": false
+    },
+    {
+        "value": "152",
+        "nation": "Shona",
+        "code": "sn",
+        "translated": false
+    },
+    {
+        "value": "153",
+        "nation": "Somali",
+        "code": "so",
+        "translated": false
+    },
+    {
+        "value": "154",
+        "nation": "Shqip",
+        "code": "sq",
+        "translated": false
+    },
+    {
+        "value": "155",
+        "nation": "Српски",
+        "code": "sr",
+        "translated": true
+    },
+    {
+        "value": "156",
+        "nation": "Siswati",
+        "code": "ss",
+        "translated": false
+    },
+    {
+        "value": "157",
+        "nation": "Sesotho",
+        "code": "st",
+        "translated": false
+    },
+    {
+        "value": "158",
+        "nation": "Sudanese",
+        "code": "su",
+        "translated": false
+    },
+    {
+        "value": "159",
+        "nation": "Svenska",
+        "code": "sv",
+        "translated": true
+    },
+    {
+        "value": "160",
+        "nation": "Kiswahili",
+        "code": "sw",
+        "translated": false
+    },
+    {
+        "value": "161",
+        "nation": "Syriac",
+        "code": "syr",
+        "translated": false
+    },
+    {
+        "value": "162",
+        "nation": "தமிழ்",
+        "code": "ta",
+        "translated": false
+    },
+    {
+        "value": "163",
+        "nation": "తెలుగు",
+        "code": "te",
+        "translated": false
+    },
+    {
+        "value": "164",
+        "nation": "Tajik",
+        "code": "tg",
+        "translated": false
+    },
+    {
+        "value": "165",
+        "nation": "ภาษาไทย",
+        "code": "th",
+        "translated": true
+    },
+    {
+        "value": "166",
+        "nation": "Tigrinya",
+        "code": "ti",
+        "translated": false
+    },
+    {
+        "value": "167",
+        "nation": "Turkmen",
+        "code": "tk",
+        "translated": false
+    },
+    {
+        "value": "168",
+        "nation": "Tagalog",
+        "code": "tl",
+        "translated": false
+    },
+    {
+        "value": "169",
+        "nation": "Setswana",
+        "code": "tn",
+        "translated": false
+    },
+    {
+        "value": "170",
+        "nation": "Tonga",
+        "code": "to",
+        "translated": false
+    },
+    {
+        "value": "171",
+        "nation": "Türkçe",
+        "code": "tr",
+        "translated": true
+    },
+    {
+        "value": "172",
+        "nation": "Tsonga",
+        "code": "ts",
+        "translated": false
+    },
+    {
+        "value": "173",
+        "nation": "Tatarça",
+        "code": "tt",
+        "translated": false
+    },
+    {
+        "value": "174",
+        "nation": "Twi",
+        "code": "tw",
+        "translated": false
+    },
+    {
+        "value": "175",
+        "nation": "Tahitian",
+        "code": "ty",
+        "translated": false
+    },
+    {
+        "value": "176",
+        "nation": "ئۇيغۇرچە",
+        "code": "ug",
+        "translated": true
+    },
+    {
+        "value": "177",
+        "nation": "Українська",
+        "code": "uk",
+        "translated": true
+    },
+    {
+        "value": "178",
+        "nation": "اردو",
+        "code": "ur",
+        "translated": false
+    },
+    {
+        "value": "179",
+        "nation": "o'zbek",
+        "code": "uz",
+        "translated": false
+    },
+    {
+        "value": "180",
+        "nation": "Venda",
+        "code": "ve",
+        "translated": false
+    },
+    {
+        "value": "181",
+        "nation": "Tiếng Việt",
+        "code": "vi",
+        "translated": true
+    },
+    {
+        "value": "182",
+        "nation": "Wolof",
+        "code": "wo",
+        "translated": false
+    },
+    {
+        "value": "183",
+        "nation": "isiXhosa",
+        "code": "xh",
+        "translated": false
+    },
+    {
+        "value": "184",
+        "nation": "Yiddish",
+        "code": "yi",
+        "translated": false
+    },
+    {
+        "value": "185",
+        "nation": "Yorùbá",
+        "code": "yo",
+        "translated": false
+    },
+    {
+        "value": "186",
+        "nation": "Zhuang",
+        "code": "za",
+        "translated": false
+    },
+    {
+        "value": "187",
+        "nation": "简体中文",
+        "code": "zh-CN",
+        "translated": false
+    },
+    {
+        "value": "188",
+        "nation": "繁體中文",
+        "code": "zh-TW",
+        "translated": true
+    },
+    {
+        "value": "188",
+        "nation": "繁體中文",
+        "code": "zh-HK",
+        "translated": true
+    },
+    {
+        "value": "189",
+        "nation": "isiZulu",
+        "code": "zu",
+        "translated": false
+    },
+    {
+        "value": "190",
+        "nation": "Français canadien",
+        "code": "fr-CA",
+        "translated": true
+    },
+    {
+        "value": "191",
+        "nation": "کوردیی ناوەندی",
+        "code": "t",
+        "translated": false
+    }
+]

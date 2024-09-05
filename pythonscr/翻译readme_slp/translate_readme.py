@@ -56,6 +56,7 @@ for item in data['translatelist']:
         lines = f_in.readlines()
 
     # 提取中文文本进行翻译
+    blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
     for lang in translatedto:
         # 创建目标文件的路径
         output_path = os.path.join(foldpath, f'README_{lang}.md')
@@ -67,6 +68,10 @@ for item in data['translatelist']:
             # 查找所有中文文本
             for match in chinese_pattern.finditer(line):
                 chinese_text = match.group()
+                if chinese_text in blacklist:
+                    print(f"'{chinese_text}' 在黑名单中，跳过翻译。")
+                    continue  # 跳过此文本，不进行翻译
+                
                 # 翻译中文文本
                 translated_text = translate_text(chinese_text, lang)
                 if translated_text is not None:
@@ -76,6 +81,7 @@ for item in data['translatelist']:
 
         # 替换文本中的中文部分为翻译后的文本
         new_lines = []
+       
         for line_number, line in enumerate(lines):
             # 将翻译后的中文文本替换为目标语言的翻译
             for original_text, translated_text in [(text, trans) for ln, text, trans in translations if ln == line_number]:
