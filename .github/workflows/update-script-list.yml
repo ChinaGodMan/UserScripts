@@ -1,9 +1,13 @@
 name: UpdateREADMEList
 
 on:
+  workflow_run:
+    workflows: ["update-Script-version"]  # 指定 A 流程的名称
+    types:
+      - completed  # 在 A 流程完成后触发
   push:
     paths:
-      - '*.js'  # 监听根目录下的所有 .js 文件
+      - 'docs/ScriptsPath.json' 
   workflow_dispatch:  # 允许手动触发工作流
 
 concurrency:
