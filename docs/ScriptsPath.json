@@ -8,7 +8,7 @@
             "GreasyFork": "505209",
             "description": "让 ChatGPT 代码字体变小",
             "created_at": "2024-08-26 11:42:17",
-            "code_updated_at": "2024-09-04 09:16:23",
+            "code_updated_at": "2024-09-05 07:53:58",
             "version": "0.1.0.13",
             "local_created_at": "2024-07-27 20:58:35"
         },
@@ -20,7 +20,7 @@
             "GreasyFork": "506166",
             "description": "添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）",
             "created_at": "2024-09-01 09:51:01",
-            "code_updated_at": "2024-09-04 09:16:24",
+            "code_updated_at": "2024-09-05 07:53:59",
             "version": "1.3.1.4",
             "local_created_at": "2024-09-01 09:45:50"
         },
@@ -32,7 +32,7 @@
             "GreasyFork": "504901",
             "description": "自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。",
             "created_at": "2024-08-24 11:33:58",
-            "code_updated_at": "2024-09-04 09:16:24",
+            "code_updated_at": "2024-09-05 07:53:59",
             "version": "0.1.0.15",
             "local_created_at": "2024-08-24 11:09:34"
         },
@@ -68,7 +68,7 @@
             "GreasyFork": "505830",
             "description": "该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。",
             "created_at": "2024-08-30 10:13:44",
-            "code_updated_at": "2024-09-04 09:16:25",
+            "code_updated_at": "2024-09-05 07:54:00",
             "version": "1.0.0.9",
             "local_created_at": "2024-08-30 03:21:51"
         },
@@ -80,7 +80,7 @@
             "GreasyFork": "505496",
             "description": "添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。",
             "created_at": "2024-08-28 04:27:35",
-            "code_updated_at": "2024-09-04 09:16:25",
+            "code_updated_at": "2024-09-05 07:54:01",
             "version": "0.7.0.13",
             "local_created_at": "2024-08-29 06:11:34"
         },
@@ -92,7 +92,7 @@
             "GreasyFork": "505501",
             "description": "在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件",
             "created_at": "2024-08-28 05:20:14",
-            "code_updated_at": "2024-09-04 09:16:25",
+            "code_updated_at": "2024-09-05 07:54:01",
             "version": "2.2.0.12",
             "local_created_at": "2024-08-29 06:11:33"
         },
@@ -104,7 +104,7 @@
             "GreasyFork": "502291",
             "description": "在Github查看仓库和搜索仓库时显示仓库大小",
             "created_at": "2024-08-01 03:43:19",
-            "code_updated_at": "2024-09-04 09:16:26",
+            "code_updated_at": "2024-09-05 07:54:01",
             "version": "0.1.2.46",
             "local_created_at": "2024-08-01 00:53:59"
         },
@@ -116,7 +116,7 @@
             "GreasyFork": "505218",
             "description": "仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。",
             "created_at": "2024-08-26 12:30:53",
-            "code_updated_at": "2024-09-04 09:16:26",
+            "code_updated_at": "2024-09-05 07:54:02",
             "version": "1.1.0.13",
             "local_created_at": "2024-08-06 01:28:58"
         },
@@ -128,7 +128,7 @@
             "GreasyFork": "502652",
             "description": "这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。",
             "created_at": "2024-08-05 10:28:20",
-            "code_updated_at": "2024-09-04 09:16:26",
+            "code_updated_at": "2024-09-05 07:54:02",
             "version": "0.1.9.35",
             "local_created_at": "2024-08-06 00:32:20"
         },
@@ -164,7 +164,7 @@
             "GreasyFork": "506717",
             "description": "这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。",
             "created_at": "2024-09-04 12:12:18",
-            "code_updated_at": "2024-09-05 04:35:47",
+            "code_updated_at": "2024-09-05 07:54:06",
             "version": "1.1",
             "local_created_at": "2024-09-04 12:08:47"
         },
@@ -176,7 +176,7 @@
             "GreasyFork": "505164",
             "description": "在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍",
             "created_at": "2024-08-26 02:12:29",
-            "code_updated_at": "2024-09-04 09:16:27",
+            "code_updated_at": "2024-09-05 07:54:03",
             "version": "2.0.4.14",
             "local_created_at": "2024-08-06 00:32:53"
         },
@@ -188,7 +188,7 @@
             "GreasyFork": "501119",
             "description": "脚本列表添加评价分数",
             "created_at": "2024-07-19 09:44:01",
-            "code_updated_at": "2024-09-04 09:16:27",
+            "code_updated_at": "2024-09-05 07:54:03",
             "version": "1.3.3.53",
             "local_created_at": "2024-07-27 20:54:00"
         },
@@ -200,7 +200,7 @@
             "GreasyFork": "505215",
             "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 ",
             "created_at": "2024-08-26 12:08:49",
-            "code_updated_at": "2024-09-04 09:16:28",
+            "code_updated_at": "2024-09-05 07:54:04",
             "version": "0.6.5.13",
             "local_created_at": "2024-07-27 20:58:34"
         },
@@ -212,7 +212,7 @@
             "GreasyFork": "501880",
             "description": "增强greasyfork导航栏,增加用户列表,用户控制台等",
             "created_at": "2024-07-27 09:34:43",
-            "code_updated_at": "2024-09-04 09:16:28",
+            "code_updated_at": "2024-09-05 07:54:04",
             "version": "0.3.1.47",
             "local_created_at": "2024-07-27 20:54:01"
         },
@@ -224,7 +224,7 @@
             "GreasyFork": "497346",
             "description": "增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作",
             "created_at": "2024-06-08 17:06:26",
-            "code_updated_at": "2024-09-04 09:16:28",
+            "code_updated_at": "2024-09-05 07:54:05",
             "version": "2.2.0.81",
             "local_created_at": "2024-07-27 20:54:01"
         },
@@ -236,7 +236,7 @@
             "GreasyFork": "506345",
             "description": "当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。",
             "created_at": "2024-09-02 12:36:00",
-            "code_updated_at": "2024-09-04 09:16:27",
+            "code_updated_at": "2024-09-05 07:54:03",
             "version": "1.2.0.1",
             "local_created_at": "2024-09-02 12:34:55"
         },
@@ -273,7 +273,7 @@
             "description": "检测 MisssAV 状态，并且在未登录时自动登录",
             "isSleazy": true,
             "created_at": "2024-08-27 04:15:17",
-            "code_updated_at": "2024-09-04 13:52:44",
+            "code_updated_at": "2024-09-05 07:54:07",
             "version": "1.0.0.97",
             "local_created_at": "2024-08-27 02:45:07"
         },
@@ -299,7 +299,7 @@
             "description": "检测 TissAV 状态，并且在未登录时自动登录",
             "isSleazy": true,
             "created_at": "2024-09-03 08:50:59",
-            "code_updated_at": "2024-09-04 09:16:32",
+            "code_updated_at": "2024-09-05 07:54:09",
             "version": "1.0.0.98",
             "local_created_at": "2024-09-03 08:52:46"
         },
@@ -312,7 +312,7 @@
             "description": "检测 JableTV 状态，并且在未登录时自动登录",
             "isSleazy": true,
             "created_at": "2024-09-04 13:43:00",
-            "code_updated_at": "2024-09-04 13:55:38",
+            "code_updated_at": "2024-09-05 07:54:07",
             "version": "1.0.0.0",
             "local_created_at": "2024-09-04 13:44:42"
         },
@@ -336,7 +336,7 @@
             "GreasyFork": "504880",
             "description": "拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。",
             "created_at": "2024-08-24 06:51:35",
-            "code_updated_at": "2024-09-04 09:16:31",
+            "code_updated_at": "2024-09-05 07:54:07",
             "version": "2.4.0.22",
             "local_created_at": "2024-08-23 07:20:13"
         },
@@ -348,7 +348,7 @@
             "GreasyFork": "498625",
             "description": "去除网页链接的下划线",
             "created_at": "2024-06-23 11:35:07",
-            "code_updated_at": "2024-09-04 09:16:31",
+            "code_updated_at": "2024-09-05 07:54:08",
             "version": "1.2.0.53",
             "local_created_at": "2024-07-27 20:54:00"
         },
@@ -360,7 +360,7 @@
             "GreasyFork": "498904",
             "description": "Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本",
             "created_at": "2024-06-26 06:43:47",
-            "code_updated_at": "2024-09-04 09:16:31",
+            "code_updated_at": "2024-09-05 07:54:08",
             "version": "0.1.6.69",
             "local_created_at": "2024-07-27 20:54:01"
         },
@@ -372,7 +372,7 @@
             "GreasyFork": "497251",
             "description": "页面右侧添加上下滚动按钮",
             "created_at": "2024-06-07 08:33:17",
-            "code_updated_at": "2024-09-04 09:16:32",
+            "code_updated_at": "2024-09-05 07:54:09",
             "version": "1.0.0.16",
             "local_created_at": "2024-08-24 06:05:19"
         },
@@ -384,7 +384,7 @@
             "GreasyFork": "500255",
             "description": "修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止",
             "created_at": "2024-07-11 13:57:29",
-            "code_updated_at": "2024-09-04 09:16:32",
+            "code_updated_at": "2024-09-05 07:54:09",
             "version": "1.2.0.62",
             "local_created_at": "2024-07-27 20:54:01"
         },
