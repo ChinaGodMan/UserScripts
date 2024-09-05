@@ -8,9 +8,9 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">中文简体</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">Japanese</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">대한민국</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">Japanese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
     </h6>
 </div>
 <p align="center">
@@ -1050,17 +1050,17 @@ To use any script，First you need to install the browser **Tampermonkey  Script
 ---
 ## 🌐 Browser and Script Manager
 
-|                               Recommended browser                                |                                                          Installation manager                                                           | Install browser                                                                      |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
+|                              Recommended browser                              |                                                     Installation manager                                                      | Install browser                                                                 |
+| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
 | <center> Chrome or based on Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
+|    <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                                 <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|         <center>          Opera Browser[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via Browser（Android）[![][via]][via_link]         |                              <center>                                               Browser内自带                              | <center>[![][via]][via_link]                                                    |
-|           <center>      XBrowser（Android）  [![][x]][x_link]            |                               <center>                                             Browser内自带                               | <center>[![][x]][x_link]                                                        |
-|       <center>       KIWIBrowser（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|         <center>       Lemur Browser（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                         |                                                                                                                               |                                                                                 |
+|            <center>          Opera Browser[![][opera]][opera_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
+|           <center>      Via Browser（Android）[![][via]][via_link]            |                             <center>                                               Browser内自带                              | <center>[![][via]][via_link]                                                    |
+|              <center>      XBrowser（Android）  [![][x]][x_link]              |                              <center>                                             Browser内自带                               | <center>[![][x]][x_link]                                                        |
+|          <center>       KIWIBrowser（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
+|           <center>       Lemur Browser（Android）[![][le]][le_link]           | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
+|                                                                               |                                                                                                                               |                                                                                 |
 
 [Tampermonkey]:http://tampermonkey.net/ "tamper monkey"
 [Violentmonkey]:https://violentmonkey.github.io/ "violent monkey"
