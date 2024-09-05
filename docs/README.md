@@ -250,7 +250,7 @@
                     <mark>详细</mark>
                 </a>
             </td>
-            <td>去你妈的 CSDN 登录复制，无需登录即可复制代码框内容</td>
+            <td>自动为表格所有列应用颜色渐变来美化</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/colorful-table.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table.user.js?style=social" alt="size">
