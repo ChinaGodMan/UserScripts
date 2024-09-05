@@ -172,9 +172,9 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
 
-## 脚本功能/Script Overview:
+## 脚本功能
 
-为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。/Add a section on the script details page to allow viewing all scripts published by this author.
+为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。
 >![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
 ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
 ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
@@ -182,172 +182,90 @@
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
+  <p><a href="#:~:text=更新信息">查看Greasyfork 糊裱匠的版本更新记录</a></p>
 
 ---
 
+## 功能介绍
+### 脚本详情
 
+- 切换文档视图与网页视图
+- 复制代码
+- 显示脚本图标
+- 清空图标缓存
+- 脚本历史增加安装
+- 增加下载按钮
+- 脚本代码显示行数字数
+- 按创建日期排序脚本列表
+- 复制库声明
+- 显示引用文件数
+- 复制短链接
+- 美化代码片段
+- 美化查看代码
 
-## 功能介绍/Features
+### 脚本列表
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">脚本详情 / Script Details</mark>
-</summary>
+- 列表显示安装下载
+- 锁定语言设置
+- 显示评分
+- 显示源码
+- 使用旧版列表
+- 显示所有语言脚本
+- 移动侧边栏
+- 按创建日期排序脚本列表
 
-<li>1. 切换文档视图与网页视图 / Switch Document View and Web View</li>
-<li>2. 复制代码 / Copy Code</li>
-<li>3. 显示脚本图标 / Show Script Icon</li>
-<li>4. 清空图标缓存 / Clear Icon Cache</li>
-<li>5. 脚本历史增加安装 / Add Installation to Script History</li>
-<li>6. 增加下载按钮 / Add Download Button</li>
-<li>7. 脚本代码显示行数字数 / Display Line Numbers for Script Code</li>
-<li>8. 按创建日期排序脚本列表 / Sort Script List by Creation Date</li>
-<li>9. 复制库声明 / Copy Library Declaration</li>
-<li>10. 显示引用文件数 / Show Number of Referenced Files</li>
-<li>11. 复制短链接 / Copy Short Link</li>
-<li>12. 美化代码片段 / Beautify Code Snippets</li>
-<li>13. 美化查看代码 / Beautify Code View</li>
+### 美化控件
 
-</details>
+- 控件美化
+- 美化选择框和单选框标签
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">脚本列表 / Script List</mark></summary>
+### 适用于
 
-<li>1. 列表显示安装下载 / Display Installation and Download in List</li>
-<li>2. 锁定语言设置 / Lock Language Settings</li>
-<li>3. 显示评分 / Show Ratings</li>
-<li>4. 显示源码 / Show Source Code</li>
-<li>5. 使用旧版列表 / Use Old Version of List</li>
-<li>6. 显示所有语言脚本 / Show Scripts in All Languages</li>
-<li>7. 移动侧边栏 / Move Sidebar</li>
-<li>8. 按创建日期排序脚本列表 / Sort Script List by Creation Date</li>
+- 启用增强
+- 新窗口打开
+- 显示在论坛的脚本数量
+- 详情适用于打开:
+  - 论坛搜索
+  - 网页打开
+  - 弹出提示
 
-</details>
+### 个人主页
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">美化控件 / Beautify Controls</mark></summary>
+- 清理旧的主页内容
+- 主页清理的天数
+- 主页脚本添加操作
+- 隐藏近期评论
+- 主页显示统计
 
-<li>1. 控件美化 / Beautify Controls</li>
-<li>2. 美化选择框和单选框标签 / Beautify Select Box and Radio Button Labels</li>
+### 导航栏
 
-</details>
+- 增加发布新脚本选项
+- 跳转成人脚本
+- 修复导航栏样式
+- 在导航栏添加打开本界面
+- 导航栏对齐
 
-<details>
-<summary><mark style="background-color: yellow; color: green;">适用于 / Applicable To</mark></summary>
+### 网站
 
-<li>1. 启用增强 / Enable Enhancement</li>
-<li>2. 新窗口打开 / Open in New Window</li>
-<li>3. 显示在论坛的脚本数量 / Show Number of Scripts on Forum</li>
-<li>4. 详情适用于打开: / Details Applicable To:</li>
-
-<li>论坛搜索 / Forum Search</li>
-<li>网页打开 / Open Webpage</li>
-<li>弹出提示 / Popup Tip</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">个人主页 / Personal Homepage</mark></summary>
-
-<li>1. 清理旧的主页内容 / Clean Up Old Homepage Content</li>
-<li>2. 主页清理的天数 / Days to Clean Homepage Content</li>
-<li>3. 主页脚本添加操作 / Add Scripts to Homepage</li>
-<li>4. 隐藏近期评论 / Hide Recent Comments</li>
-<li>5. 主页显示统计 / Display Statistics on Homepage</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">导航栏 / Navigation Bar</mark></summary>
-
-<li>1. 增加发布新脚本选项 / Add Option to Publish New Script</li>
-<li>2. 跳转成人脚本 / Link to Adult Scripts</li>
-<li>3. 修复导航栏样式 / Fix Navigation Bar Style</li>
-<li>4. 在导航栏添加打开本界面 / Add "Open This Page" to Navigation Bar</li>
-<li>5. 导航栏对齐 / Align Navigation Bar</li>
-
-</details>
-
-<details>
-<summary><mark style="background-color: yellow; color: green;">网站 / Website</mark></summary>
-
-<li>1. 自动启用代码编辑框美化 / Automatically Apply Code Editor Beautification</li>
-<li>2. 在新标签页中打开链接 / Open Links in New Tab</li>
-<li>3. 精确日期 / Precise Date</li>
-<li>4. 网站最大化浏览 / Maximize Website View</li>
-<li>5. 一键举报 / One-Click Report</li>
-<li>6. 本地代码高亮 / Local Code Highlighting</li>
-<li>7. 隐藏图标 / Hide Icon</li>
-<li>8. 显示图标 / Show Icon</li>
-<li>9. 灰度已阅读评论 / Grayscale Read Comments</li>
-<li>10. 隐藏已阅读评论 / Hide Read Comments</li>
-<li>11. 侧边导航栏 / Side navigation bar</li>
-<li>12. 代理用户图片 / Image Proxry/li>
-
-</details>
+- 自动启用代码编辑框美化
+- 在新标签页中打开链接
+- 精确日期
+- 网站最大化浏览
+- 一键举报
+- 本地代码高亮
+- 隐藏图标
+- 显示图标
+- 灰度已阅读评论
+- 隐藏已阅读评论
+- 侧边导航栏
+- 代理用户图片
 
 ---
-
-
 
 ## Thank you
 
-<details>
-<summary><mark style="background-color: green; color: yellow;">引用脚本/ Quote script</mark></summary>
-<li><a href="https://greasyfork.org/zh-CN/scripts/22223" target="_blank">Auto Enable Syntax-Highlighting Source Editor</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6245" target="_blank">Greasyfork in your language</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/411837" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/423726" target="_blank">GreasyFork Copy Code Snippet</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/420872" target="_blank">Download Script Button</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/6861" target="_blank">GreasyFork Script Icon</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/450357" target="_blank">Add "Post a new script" Link</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/495477" target="_blank">Open Scripts List Sorting for Creation Date by Default</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/470348" target="_blank">Absolute Time on GreasyFork</a></li>
-<li><a href="https://greasyfork.org/scripts/426549/" target="_blank">折叠 greasyfork 过期讨论</a></li>
-<li><a href="https://greasyfork.org/de/scripts/36037" target="_blank">maximale Fensterbreite auf nutzen</a></li>
-<li><a href="https://greasyfork.org/de/scripts/471149" target="_blank">Toggle HTML View</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/473269" target="_blank">GreasyFork Header Style Fix</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/436913" target="_blank">Greasy Fork Dark Theme</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/446849" target="_blank">Greasyfork 美化</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts/467078" target="_blank">Greasy Fork 增强</a></li>
-<li><a href="https://greasyfork.org/scripts/431940" target="_blank">Greasy Fork URL 脚本名称清理</a></li>
- <li><a href="https://greasyfork.org/zh-CN/scripts/475722" target="_blank">Greasyfork 优化</a></li>
-<li><a href="https://greasyfork.org/scripts/438010" target="_blank">Greasy Fork: Mark Script Discussions as Read</a></li>
-<li><a href="https://greasyfork.org/scripts/493406" target="_blank">Greasy Fork Bookmark</a></li>
-
-<li><a href="https://greasyfork.org/scripts/474395" target="_blank">GreasyFork 一键回报垃圾评论</a></li>
-
-</details>
 
 ---
-
-
-
-## 更新信息：
-
-- 2024/7/15 2.2.0.8
-  
-  - 完全的繁体语言支持
-- 2024/7/15 2.2.0.7
-  
-  - 增加侧边导航栏开关
-  - 增加图片代理
-    - 图片代理开启时不兼[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复在移动设备上浏览图片超出浏览器外的问题
-  - 修改在编辑代码时自动勾选美化
-- 2024/7/14 2.2.0.6
-  
-  - 添加了导航栏展开"更多"
-  - 增加[Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078)中的侧边导航栏
-  - 完善对多语言的支持
-- 2024/7/13 2.2.0.5
-  
-  - 增加自动登录[GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)
-  - 修复显示列表上的脚本安装状态
-  - 完善对多语言的支持
-
----
-
-
 
 ## 图片展示:
 
@@ -367,11 +285,6 @@
 ![scriptlist.png](https://s2.loli.net/2024/08/05/3xrMsHPSDtTf8hu.png)
 
 ---
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#">回到顶部↑</a></p>
-
-
 
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
