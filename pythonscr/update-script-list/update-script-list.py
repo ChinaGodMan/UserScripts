@@ -84,7 +84,7 @@ html_table += '''</tbody>
 #   file.write(html_table)
 # print(f'HTML 表格已保存为 {html_file_path}')
 # 读取 README.md 文件
-readme_path = 'README.md'
+readme_path = 'docs/README.md'
 with open(readme_path, 'r', encoding='utf-8') as file:
     readme_content = file.read()
 
