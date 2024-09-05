@@ -7,10 +7,10 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">中文简体</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">英語</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">日本語</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">대한민국</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">Japanese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
     </h6>
 </div>
 <p align="center">
@@ -1050,17 +1050,17 @@
 ---
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推奨ブラウザ                                |                                                          インストールマネージャー                                                           | ブラウザをインストールする                                                                      |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
+|                                    推奨ブラウザ                                     |                                                   インストールマネージャー                                                    | ブラウザをインストールする                                                      |
+| :---------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
+|       <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                               <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|         <center>          Opera ブラウザ[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               ブラウザ内自带                              | <center>[![][via]][via_link]                                                    |
-|           <center>      Xブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             ブラウザ内自带                               | <center>[![][x]][x_link]                                                        |
-|       <center>       KIWIブラウザ（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|         <center>       キツネザルブラウザ（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                         |                                                                                                                               |                                                                                 |
+|              <center>          Opera ブラウザ[![][opera]][opera_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
+|              <center>      Via ブラウザ（Android）[![][via]][via_link]              |                             <center>                                               ブラウザ内自带                             | <center>[![][via]][via_link]                                                    |
+|                <center>      Xブラウザ（Android）  [![][x]][x_link]                 |                              <center>                                             ブラウザ内自带                              | <center>[![][x]][x_link]                                                        |
+|            <center>       KIWIブラウザ（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
+|           <center>       キツネザルブラウザ（Android）[![][le]][le_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
+|                                                                                     |                                                                                                                               |                                                                                 |
 
 [Tampermonkey]:http://tampermonkey.net/ "タンパーモンキー"
 [Violentmonkey]:https://violentmonkey.github.io/ "凶暴な猿"
