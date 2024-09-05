@@ -23,12 +23,17 @@ jobs:
           mkdir -p "Script details/$FOLDER_NAME/Change history"
           echo "# Change History" > "Script details/$FOLDER_NAME/Change history/README.md"
 
+      - name: Modify ScriptsPath.json
+        run: |
+          RANDOM_STRING=$(head /dev/urandom | tr -dc a-z0-9 | head -c 8)
+          jq --arg rand "$RANDOM_STRING" '.scripts[0].description += " " + $rand' docs/ScriptsPath.json > tmp.json && mv tmp.json docs/ScriptsPath.json
+          
       - name: Push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Add random folder structure"
+          git commit -m "Add random folder structure and update description in ScriptsPath.json"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
