@@ -1,3 +1,18 @@
+<div align="right">
+    <h6>
+        <picture>
+            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+            <img height=14
+                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+        </picture>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">中文简体</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">英语</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">日本語</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">대한민국</a>
+    </h6>
+</div>
 <p align="center">
  <img height=96px width=96px src="https://avatars.githubusercontent.com/u/96548841?v=4"> 
   <h1 align="center">  人民的勤务员/UserScripts</h1>
