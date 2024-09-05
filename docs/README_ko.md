@@ -124,7 +124,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-05 12:35:00</sub></td>
+            <td><sub>2024-09-05 18:25:30</sub></td>
              <td><sub>0.1.0.14</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -250,7 +250,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
+            <td>이 스크립트는 GitHub 의 제출 정보가 다음으로 변환됩니다. HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -1006,7 +1006,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1041,7 +1041,7 @@
 
 > [!IMPORTANT]
 > 
-> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，다른 사용자 스크립트 관리자는**제대로 작동하지 않음**각본。_
 > - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
