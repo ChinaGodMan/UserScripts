@@ -66,7 +66,7 @@
             "isUpdated": true,
             "backuppath": "Script details/colorful-table",
             "GreasyFork": "507036",
-            "description": "去你妈的 CSDN 登录复制，无需登录即可复制代码框内容",
+            "description": "自动为表格所有列应用颜色渐变来美化",
             "created_at": "2024-09-06 06:08:08",
             "code_updated_at": "2024-09-06 06:08:08",
             "version": "1.0.0.0",
