@@ -1,6 +1,8 @@
 name: Github 翻译自述文件
 
 on:
+  schedule:
+    - cron: '0 6 * * *'  # 每天的 UTC 时间 6 点，即中国时间的 14点
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
