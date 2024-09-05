@@ -243,6 +243,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/507036" target="_blank">绚丽渐变美化网页表格</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>去你妈的 CSDN 登录复制，无需登录即可复制代码框内容</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/colorful-table.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/507036.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/507036?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-09-06 06:08:08</sub></td>
+            <td><sub>2024-09-06 06:08:08</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-06 05:02:49</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505830" target="_blank">GitHub提交信息显示HTML</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer.user.js" target="_blank">GitHub</a>
