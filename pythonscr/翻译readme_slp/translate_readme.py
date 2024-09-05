@@ -59,7 +59,7 @@ for item in data['translatelist']:
     blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
     for lang in translatedto:
         # 创建目标文件的路径
-        output_path = os.path.join(foldpath, f'README_{lang}.md')
+        output_path = os.path.join(foldpath, f'docs/README_{lang}.md')
 
         # 存储中文文本的位置和对应的翻译
         translations = []
