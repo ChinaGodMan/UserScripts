@@ -3,7 +3,7 @@ name: 人民的勤务员更新脚本
 on:
   push:
     paths:
-      - 'Script details/**/*.js'
+      - 'Script details/**/*.js' #新的脚本被提交或者被修改了.
   workflow_dispatch:  # 允许手动触发工作流
 
 concurrency:
