@@ -61,13 +61,13 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>gorgeousKoreagraduallyChangebeautifulchangenetPagesurfacegrid</h1>
-    <p>「 sincemovefornetPagesuperiorofsurfacegridPlacehaveListansweruseYancolorgraduallyChangebeautifulchange. 」</p>
+    <h1>绚丽渐变美化网页表格</h1>
+    <p>「 自动为网页上的表格所有列应用颜色渐变美化. 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
-            Fork</a></p><details><summary>Evennewrememberrecord</summary><ul>
-<li><strong>2024/9/6 05:41 - Ver: 1.0.0.0</strong> <em>buildchangeforsincemovegraduallyChangecolor..</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/6 05:41 - Ver: 1.0.0.0</strong> <em>修改为自动渐变色..</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
 </div></center>

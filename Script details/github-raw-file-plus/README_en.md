@@ -61,13 +61,13 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>GitHubDownloadoneartspiecesandcomplexsystemartspiecesURL</h1>
-    <p>「 existEveryindivualartspiecesOKofendtailaddaddaccording tobutton，bycomplexsystemOriginalbeginningartspieces URL andDownloadartspieces 」</p>
+    <h1>GitHub下载单文件和复制文件URL</h1>
+    <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
-            Fork</a></p><details><summary>Evennewrememberrecord</summary><ul>
-<li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>increaseaddDownloadachievementable.</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>增加下载功能.</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </div></center>

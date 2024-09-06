@@ -61,15 +61,15 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>Greasyfork PassKnowhelphand</h1>
-    <p>「 whenyouoffootbookoryouginsengandofdiscussArgumenthavenewtimescomplexhour，footbookmeetingexistnetPagesuperiorbymoldstatewindowmouthshowShowmostnewofdiscussArgumentInsideAllow。 」</p>
+    <h1>Greasyfork 通知助手</h1>
+    <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Evennewrememberrecord</summary><ul>
-<li><strong>2024/9/4 04:39 - Ver: 1.2.0.0</strong> <em>increaseaddset upsetmostbigremovebreathnumberquantityofOilmonkeyvegetableone,increaseaddJumpPassmostbackhairWordpeopleyes<code>sinceself</code></em></li>
-<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>increaseaddset upsetbrushnewhourbetweenofOilmonkeyvegetableone</em></li>
-<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>first timebeginningversionbook,joyouswelcomemakeuse</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/4 04:39 - Ver: 1.2.0.0</strong> <em>增加设置最大消息数量的油猴菜单,增加跳过最后发言人是<code>自己</code></em></li>
+<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>增加设置刷新时间的油猴菜单</em></li>
+<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>

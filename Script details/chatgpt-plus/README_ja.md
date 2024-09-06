@@ -61,8 +61,8 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>ChatGPT 折り畳みり畳みスタック自分で取ってくださいり取り除くく息そしてほとんど大きいきい振幅</h1>
-    <p>「 引っクロスしに来てくださいく折り畳みり畳みスタックによるあなた髪届けるの長さささ選ぶり選ぶり取り除くくく息，祭り状態画面画面ヌル間。ライセンスする5月あなた設確かにセットチャットヌルウィンドウ口のほとんど大きいきい振幅，するるしなければならない長さささ選ぶり選ぶり取り除くくく息いいえミーティング追跡いクロスす外部参照かにファン囲む。 」</p>
+    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
+    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
