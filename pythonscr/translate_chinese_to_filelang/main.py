@@ -5,7 +5,7 @@ from urllib.parse import urlencode
 from urllib.request import urlopen
 
 # 正则表达式匹配中文字符
-chinese_pattern = re.compile(r'[\u4e00-\u9fff]')
+chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 
 # 函数来请求翻译API
 def translate_text(text, target_lang):
