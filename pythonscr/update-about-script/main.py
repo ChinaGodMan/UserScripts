@@ -36,7 +36,7 @@ def generate_description(current_script, all_scripts):
                 description = related_script.get('description', '无描述')
                 # 创建点击可跳转的 Markdown 链接
                 link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
-                descriptions.append(f"- {link}: {description}")
+                descriptions.append(f"> - {link}: {description}")
             else:
                 descriptions.append(f"- 未找到与 GreasyFork ID {greasyfork_id} 对应的脚本。")
     
