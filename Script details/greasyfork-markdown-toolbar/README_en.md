@@ -62,13 +62,13 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
-    <p>「 existArgumentaltarsilentrecognizemakeuse Markdown gridMode，addaddgridModehelphelpchaincatchand Markdown workToolcolumnShao 」</p>
+    <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Evennewrememberrecord</summary><p><strong>buildchange：</strong>
+            Fork</a></p><details><summary>更新记录</summary><p><strong>修改：</strong>
 <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
-- 2024-08-04T08:59:11 <code>DOMContentLoaded</code> havehourmeetingandThathefootbookrushsudden，guideTosuperviselistenlosedefeat。alreadyEvenchangefor <code>load</code>。</p></details> 
+- 2024-08-04T08:59:11 <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
 
