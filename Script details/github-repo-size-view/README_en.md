@@ -90,26 +90,6 @@ Fixed the issue of not displaying when viewing other warehouses (increased delay
 
 The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/users/1010122)**'s script [Github Repo Size](https://greasyfork.org/scripts/458048) Thanks to the original The **hard work** and **wisdom** of the author **mshll**
 
-<h1 align="center">Github Repo Size+ Update Record</h1> </p>
-
-- **2024/8/20 05:28 - Ver: 0.1.2.26**
-  - *<mark>[GitHub Repo Size Display](https://greasyfork.org/zh-CN/scripts/503821) Settings interface for using this script.</mark>*
-
-- **2024/8/13 00:19 - Ver: 0.1.2.18**
-  - *<mark>Added script menu → GitHubToken settings interface, no need to modify in the code.</mark>*
-
-- **2024/8/12 21:56 - Ver: 0.1.2.17**
-  - *<mark>[#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059) Added repository size display in user profile repositories and org lists.</mark>*
-
-- **2024/8/5 05:18 - Ver: 0.1.2.8**
-  - *[#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059) The original author's token expired, causing inability to access public repositories. <mark>Fix: Deleted the original author's token. GitHub-generated public tokens are always cleared, so decided not to add them.</mark>*
-
-- **2024/8/1 03:43 - Ver: 0.1.2**
-  - *<mark>Fixed issue with search page failure<br>Fixed issue with repository display when viewing other repositories (added delay)</mark>*
-  
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GitHubRelated scripts
 
