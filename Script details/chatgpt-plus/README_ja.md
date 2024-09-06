@@ -1,9 +1,9 @@
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
-<h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人々民事の勤勉なサービスメンバー/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
-<div style="border: 1px solid #666;background-color:lightgrey;">足本来る以来共通のリンクネット広い大きいネット友，本人々のみはいするわかったいくつかの5月変化動く.感ありがとうネット友
-のように持っている侵入する右,リンク系しなければならない消去,勤勉なサービスメンバーの足本できるのためにフォローする意味建てる変化.</div>
+<h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人々々民事の勤勉なサービスメンバー/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
+<div style="border: 1px solid #666;background-color:lightgrey;">十分なる以来一般的のリンクネット広い大きいきいネット友，自分自身々のみはいするわかったいくつかの5月変化動く.感ありがとうネット友
+のように所有っている侵入する右,リンク系しなければならない消去,勤勉なサービスメンバーの完了できるのためにフォローする建物を意味しますてる変化.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
@@ -28,9 +28,9 @@
 
 [![stars][stars-logo]][Github-UserScripts]
 ⭐[Star Me][Github-UserScripts]
-⭐[お願いします与える私ポイント星][Github-UserScripts]
+⭐[お喜んでいしますそしてえる私ポイント星][Github-UserScripts]
 
-**与える勤勉なサービスメンバー追加チキン脚** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
+**そしてえる勤勉なサービスメンバー追加チキン足** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
 [GreasyFork-logo]: https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=
 [Total-Installs]: https://img.shields.io/badge/dynamic/json?color=0084ff&label=Total%20Installs&query=$.totalInstalls&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json
@@ -45,8 +45,8 @@
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
 [commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
 [forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "複雑な彫る"
-[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "のようにフルーツ寝るしなければならないいいえ間違っている,お願いします与える私ポイント明るい星星"
-[Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "聞く質問"
+[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "のようにフルーツ寝るしなければならないいいえ間違っている,お喜んでいしますそしてえる私ポイント明るいるい星"
+[Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "匂いく質問"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "5月できる"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-PeopleOfTheWorld🌏-4285dd?labelColor=FFD700&color=FF69B4 "CopyRight people"
 [JavaScript-logo]: https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E
@@ -61,8 +61,8 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>ChatGPT 折り畳みスタック以来自己取り除く息そしてほとんど大きい幅度</h1>
-    <p>「 以来動く折り畳みスタックによるあなた髪届けるの長さ取り除く息，祭り州画面画面ヌル間。許可する5月あなた設確かにセットチャット空ウィンドウ口のほとんど大きい幅度，作るしなければならない長さ取り除く息いいえミーティング追い越す外参照確かにファン囲む。 」</p>
+    <h1>ChatGPT 折り畳みり畳みスタック自分で取ってくださいり取り除くく息そしてほとんど大きいきい振幅</h1>
+    <p>「 引っクロスしに来てくださいく折り畳みり畳みスタックによるあなた髪届けるの長さささ選ぶり選ぶり取り除くくく息，祭り状態画面画面ヌル間。ライセンスする5月あなた設確かにセットチャットヌルウィンドウ口のほとんど大きいきい振幅，するるしなければならない長さささ選ぶり選ぶり取り除くくく息いいえミーティング追跡いクロスす外部参照かにファン囲む。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
@@ -73,26 +73,26 @@
 # ChatGPT Chat Fold Script & MAXWidth
 
 ## ガイド入力
-`ChatGPT Chat Fold Script & MAXWidth` で作る使用されるものです ChatGPT 本物ん真ん中の折り畳みり目が長さくなっています“あなた”メッセージを届ける手紙し、ほとんど大きい幅を設確かに確かにするスクリプト。これできるによるヘルプヘルプあなた平良い土地チューブ理由長さ取り除く息，インターフェイスのレイアウトを変化良いする。
+`ChatGPT Chat Fold Script & MAXWidth` でするる使用されるものです ChatGPT 本物ん本物ん真ん中の折り畳みり畳みり目が長ささくなっています“あなた”メッセージをセッションける手紙し、ほとんど大きいきい幅を設正しいかに正しいかにするスクリプト。これできるによるヘルプヘルプあなた平良い土地チューブ長い理由ささ選ぶり取り除くく息，インターフェイスのレイアウトを変化良いする。
 
 ## 関数
-- **長ささいメッセージを折り畳みり畳みりたたむ**：以来ポイントが届ける手紙した長ささいメッセージを以来動くのに折り畳みり畳みりたたむ，絵画麺類スペースを祭りについてする。 
-- **ほとんど大きいきい幅を設確かに確かに確かにする**：チャットウィンドウのほとんど大きいきい幅を設確かに確かに確かにできます。，長さいメッセージが参照確かにファン囲を追い越すえないようにする。
+- **長ささささいメッセージを折り畳みり畳みり畳みり畳みりたたむ**：以来ポイントがセッションける手紙した長ささささいメッセージを引っ越しに来てくださいくのに折り畳みり畳みり畳みり畳みりたたむ，絵画麺類スペースを祭りについてする。 
+- **ほとんど大きいきいきいきい幅を設正しいかに正しいかに正しいかにする**：チャットウィンドウのほとんど大きいきいきいきい幅を設正しいかに正しいかに正しいかにできます。，長ささいメッセージが参照正しいかにファン囲を追跡いクロスすえないようにする。
 
-## 作る使用方法
-- デフォルトでは，スクリプトは長さいメッセージを以来動くのに折り畳みりたたむ。
-- メッセージの横をクリックすると、 “折り畳みり畳みり畳み” によるとボタン来る手動く折り畳みり畳みり畳みまたは展示開ける取り除く息。
-- 設確かに確かにでチャットウィンドウのほとんど大きい幅を調子全てします。
+## するる使用方法
+- デフォルトでは，スクリプトは長ささいメッセージを引っ越しに来てくださいくのに折り畳みり畳みりたたむ。
+- メッセージの横をクリックすると、 “折り畳みり畳みり畳みり畳みり畳み” によるとボタン来るるマニュアルく折り畳みり畳みり畳みり畳みり畳みまたはオープンを表示ける選ぶり取り除くく息。
+- 設正しいかに正しいかにでチャットウィンドウのほとんど大きいきい幅を調子全てします。
 
 ## 変平ログ
-- **v0.1**：初期待するバージョン，折り畳みりたたみ機械できるとほとんど大きい幅設確かに確かにを追跡追加。
+- **v0.1**：当初の期待するバージョン，折り畳みり畳みりたたみ機械的できるとほとんど大きいきい幅設正しいかに正しいかにを追跡追加。
 
 ## 賛辞オファーする
-何か運ぶ分野組み合わせるや聞く品質聞くが見つかった分野組み合わせるは，合格ってください GitHub またはGreasyFork 品質聞くを届ける手紙する。
+何か運ぶ分野組み組み組み合わせるわせるわせるや匂いく品質匂いくが見つかった分野組み組み組み合わせるわせるわせるは，組み組み合わせるわせる格ってください GitHub またはGreasyFork 品質匂いくをセッションける手紙する。
 
 ![1.png](https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png)
 
 
-## 作る使用ヘルプヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>平多くの使用家庭足本</strong></a> /
-<a href="#top">回到着トップ部門↑</a></p>
+## するる使用ヘルプヘルプ
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /
+<a href="#top">戻るトップ部門↑</a></p>
