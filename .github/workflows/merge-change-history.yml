@@ -40,7 +40,11 @@ jobs:
       - name: 拉取最新更改
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
-
+        
+      - name: 更新相关脚本
+        run: |
+          python pythonscr/update-about-script/main.py
+        
       - name: 运行合并脚本 并对没有帮助文档的说明增加一下
         run: |
           python pythonscr/更新小徽章/更新小徽章.py
