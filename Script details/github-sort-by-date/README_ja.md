@@ -1,9 +1,9 @@
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
-<h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人々々民事の勤勉なサービスメンバー/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
-<div style="border: 1px solid #666;background-color:lightgrey;">十分なる以来一般的のリンクネット広い大きいきいネット友，自分自身々のみはいするわかったいくつかの5月変化動く.感ありがとうネット友
-のように所有っている侵入する右,リンク系しなければならない消去,勤勉なサービスメンバーの完了できるのためにフォローする建物を意味しますてる変化.</div>
+<h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人々々々民事の勤勉なサービスメンバー/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
+<div style="border: 1px solid #666;background-color:lightgrey;">とてもなるいつもののリンクネット広い大きいきいきいネット友，自分自身々のみはいするわかったいくつかの5月変化動く.感ありがとうネット友
+のように全てっている侵入する右,リンク系しなければならない消去,勤勉なサービスメンバーの完了できるのためにフォローする建物を意味しますてる変化.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
@@ -28,7 +28,7 @@
 
 [![stars][stars-logo]][Github-UserScripts]
 ⭐[Star Me][Github-UserScripts]
-⭐[お喜んでいしますそしてえる私ポイント星][Github-UserScripts]
+⭐[お幸せんでいしますそしてえる私ポイント星][Github-UserScripts]
 
 **そしてえる勤勉なサービスメンバー追加チキン足** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
@@ -45,7 +45,7 @@
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
 [commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
 [forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "複雑な彫る"
-[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "のようにフルーツ寝るしなければならないいいえ間違っている,お喜んでいしますそしてえる私ポイント明るいるい星"
+[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "のようにフルーツ寝るしなければならないいいえ間違っている,お幸せんでいしますそしてえる私ポイント明るいるいるい星"
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "匂いく質問"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "5月できる"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-PeopleOfTheWorld🌏-4285dd?labelColor=FFD700&color=FF69B4 "CopyRight people"
@@ -62,7 +62,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>GitHub Sort by Date</h1>
-    <p>「 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。 」</p>
+    <p>「 倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。 」</p>
     <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
@@ -73,18 +73,18 @@
 
 # GitHub 日付順にそしてべのためにえる
 
-このユーザースクリプトは、 GitHub ウェアハウス内部のファイルは日付の秋とす順で引っ越しに来てくださいくのにそしてべのためにえられます，ほとんど新しいしいしいの平新しいしいしいされたファイルを単純単に表面的に見るとせるできます。
+このユーザースクリプトは、 GitHub ウェアハウス内部のファイルは日付の秋とす順で鉛っクロスしに来るてくださいくのにそしてべのためにえられます，ほとんど新しいしいしいしいの平新しいしいしいしいされたファイルを単純単に表面的なに見るとせるできます。
 
 ## 特別セックス
 
-- ページの読み込み時間に平新しい日でファイルを引っ越しに来てくださいくのにそしてべのためにえます。
+- ページの読み込み時間に平新しい日でファイルを鉛っクロスしに来るてくださいくのにそしてべのためにえます。
 - すべてに適切な使用されます GitHub 倉図書館図書館。
 
 ## するる使用
-- スクリプトはページの読み込み時間にファイルを日付順に引っ越しに来てくださいくくのにそしてべのためにえます，マニュアルくく間入力はしなければならない欲しいしいありません。
+- スクリプトはページの読み込み時間にファイルを日付順に鉛っクロスしに来るてくださいくくのにそしてべのためにえます，マニュアルくく間入力はしなければならない欲しいしいしいありません。
 
 ## ソースを変平する 
-と誰ががが[androidcn]( https://greasyfork.org/zh-CN/users/18158)の完了[Github ファイル平新しい日順にそしてべのためにえる]( https://greasyfork.org/scripts/492514),感ありがとうと誰がががの勤勉な労働知恵知恵
+と誰ががががが[androidcn]( https://greasyfork.org/zh-CN/users/18158)の完了[Github ファイル平新しい日順にそしてべのためにえる]( https://greasyfork.org/scripts/492514),感ありがとうと誰がががががの勤勉な労働知恵知恵
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
 ## するる使用ヘルプヘルプ
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /

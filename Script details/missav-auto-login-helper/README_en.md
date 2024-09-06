@@ -61,8 +61,8 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>MiSSAV自动登录</h1>
-    <p>「 检测 MisssAV 状态，并且在未登录时自动登录 」</p>
+    <h1>MiSSAVAutomatic login</h1>
+    <p>「 Detection MisssAV state，and automatically log in when not logged in 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
