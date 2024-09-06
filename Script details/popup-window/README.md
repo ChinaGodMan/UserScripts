@@ -150,6 +150,16 @@
 ## 支持的网页
 🌐 全网页适用 — 支持所有网页，随时随地享受便捷的链接预览与打开功能。
 
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+### 网页相关脚本
+
+- [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+- [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+- [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+- [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+- [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 ## 脚本亮点：
 
 亚克力效果：为小窗口添加美观的背景效果。
@@ -176,16 +186,7 @@
 
 
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### 网页相关脚本
 
-- [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-- [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-- [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-- [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-- [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

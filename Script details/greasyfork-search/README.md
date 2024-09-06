@@ -92,15 +92,6 @@
 - **谷歌搜索语法**：您可以使用谷歌支持的高级搜索操作符和语法来优化您的搜索查询。这包括排除特定类型的页面以及将搜索范围限制在 GreasyFork 的脚本页面内。
 - **准确且全面的结果**：通过利用谷歌搜索的强大功能，您可以获得更准确和广泛的搜索结果，从而提高找到所需脚本的几率。
 - **易于使用**：此用户脚本无缝集成到 [GreasyFork.org](https://greasyfork.org/)   [SleazyFork.org](https://sleazyfork.org/) 网站，增强了现有搜索输入框的功能。您只需在查询前输入 "g "（例如，"g 脚本名称"）即可启动谷歌搜索。
-
-## 兼容性
-
-**GreasyFork 谷歌搜索脚本**设计用于 [GreasyFork.org](https://greasyfork.org/) [SleazyFork.org](https://sleazyfork.org/) 网站。它兼容支持用户脚本的现代网络浏览器，例如 Tampermonkey 和 Greasemonkey。
-## 修改来源 
-作者[𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179)的脚本[GreasyFork Search]( https://greasyfork.org/scripts/468495),感谢作者的勤劳智慧
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GreasyFork相关脚本
 
@@ -115,6 +106,13 @@
 - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+## 兼容性
+
+**GreasyFork 谷歌搜索脚本**设计用于 [GreasyFork.org](https://greasyfork.org/) [SleazyFork.org](https://sleazyfork.org/) 网站。它兼容支持用户脚本的现代网络浏览器，例如 Tampermonkey 和 Greasemonkey。
+## 修改来源 
+作者[𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179)的脚本[GreasyFork Search]( https://greasyfork.org/scripts/468495),感谢作者的勤劳智慧
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

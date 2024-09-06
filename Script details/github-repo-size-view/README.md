@@ -115,17 +115,6 @@
 3. 单击 `Generate token` 按钮并复制令牌。
 4. 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
 
-## 用法
-
-该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
-
-
-## 感谢
-
-脚本修改自用户 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) 感谢原作者 **mshll** 的**勤劳**与**智慧**
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GitHub相关脚本
 
@@ -136,6 +125,17 @@
 - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+## 用法
+
+该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
+
+
+## 感谢
+
+脚本修改自用户 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) 感谢原作者 **mshll** 的**勤劳**与**智慧**
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

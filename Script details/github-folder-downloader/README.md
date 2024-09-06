@@ -81,18 +81,10 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 - 为 GitHub 文件夹添加下载按钮。
 - 提供使用 [download-directory](https://download-directory.github.io) 和 [DownGit](https://downgit.github.io) 下载文件夹的选项。
 
-### 修改说明
-修改自用户[Eric Kwok](https://greasyfork.org/zh-CN/users/220259) 的脚本 [GitHub 文件夹下载](https://greasyfork.org/scripts/434592 ) 
-
 ### 使用方法
 1. 导航到一个 GitHub 仓库。
 2. 打开仓库中的一个文件夹。
 3. 点击“下载文件夹”按钮，以查看下载文件夹的选项。
-
-![2.png](https://s2.loli.net/2024/08/28/i3Ov9gj5aKIYSVR.png)
-![1.png](https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png)
-
-
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GitHub相关脚本
@@ -104,6 +96,16 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+### 修改说明
+修改自用户[Eric Kwok](https://greasyfork.org/zh-CN/users/220259) 的脚本 [GitHub 文件夹下载](https://greasyfork.org/scripts/434592 ) 
+
+![2.png](https://s2.loli.net/2024/08/28/i3Ov9gj5aKIYSVR.png)
+![1.png](https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png)
+
+
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
