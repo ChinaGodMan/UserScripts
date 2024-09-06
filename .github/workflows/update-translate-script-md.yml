@@ -1,13 +1,13 @@
-name: Github 翻译自述文件
-
+name: translate-script-readme
+##最后触发更新整个所有脚本的其他语言文档.
 on:
   workflow_run:
-    workflows: ["UpdateREADMEList"]  # 指定 A 流程的名称
+    workflows: ["translate-repo-md"]  # 指定 A 流程的名称
     types:
       - completed  # 在 A 流程完成后触发
 
 jobs:
-  translate-readme:
+  translate-script-readme:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
@@ -31,18 +31,9 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-
-
-      - name: 读取 Load.txt 中的脚本名称
-        id: read-script
-        run: |
-          script_name=$(cat pythonscr/翻译readme_slp/Load.txt)
-          script_path="pythonscr/翻译readme_slp/${script_name}"
-          echo "script_path=${script_path}" >> $GITHUB_ENV
-
       - name: 读取并翻译 README
         run: |
-          python ${{ env.script_path }}
+          python pythonscr/translate_chinese_to_filelang/main.py
         continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
       
       - name: 拉取最新更改
@@ -57,7 +48,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '自动谷歌翻译 README 文件' || echo "没有需要提交的更改"
+          git commit -m '谷歌翻译脚本说明文档' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
