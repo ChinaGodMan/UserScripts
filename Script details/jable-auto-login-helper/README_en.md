@@ -61,13 +61,13 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>JableTV自动登录</h1>
-    <p>「 检测 JableTV 状态，并且在未登录时自动登录 」</p>
+    <h1>JableTVAutomatic login</h1>
+    <p>「 Detection JableTV state，and automatically log in when not logged in 」</p>
     <img src="https://views.whatilearened.today/views/github/506730/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>初始版本-欢迎使用</em></li>
+            Fork</a></p><details><summary>Update record</summary><ul>
+<li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>initial version-Welcome</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png">
 </div></center>

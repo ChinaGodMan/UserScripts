@@ -61,12 +61,12 @@ likehaveinvaderight,linksystemmustdelete,diligentservicememberoffootbookCanforFo
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>TissAV自动登录</h1>
-    <p>「 检测 TissAV 状态，并且在未登录时自动登录 」</p>
+    <h1>TissAVAutomatic login</h1>
+    <p>「 Detection TissAV state，and automatically log in when not logged in 」</p>
     <img src="https://views.whatilearened.today/views/github/506528/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/thisav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506528">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details> 
+            Fork</a></p><details><summary>Update record</summary><p>initial version,Welcome</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506528.png">
 </div></center>
 
