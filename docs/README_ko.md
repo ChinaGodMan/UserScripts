@@ -124,8 +124,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-06 12:45:35</sub></td>
-             <td><sub>0.1.0.16</sub></td>
+            <td><sub>2024-09-06 12:54:10</sub></td>
+             <td><sub>0.1.0.17</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -138,7 +138,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>입력 상자에 문자 카운터 추가，제한됨 32732 문자。（ChatGPT 한도는 32732 문자。）</td>
+            <td>입력 상자에 문자 카운터 추가，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 캐릭터。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -152,8 +152,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-06 12:45:36</sub></td>
-             <td><sub>1.3.1.7</sub></td>
+            <td><sub>2024-09-06 12:54:10</sub></td>
+             <td><sub>1.3.1.8</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -180,8 +180,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-06 12:45:36</sub></td>
-             <td><sub>0.1.0.18</sub></td>
+            <td><sub>2024-09-06 12:54:10</sub></td>
+             <td><sub>0.1.0.19</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -208,8 +208,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-06 12:45:37</sub></td>
-             <td><sub>1.2.2.66</sub></td>
+            <td><sub>2024-09-06 12:54:11</sub></td>
+             <td><sub>1.2.2.67</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -236,8 +236,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-06 12:45:37</sub></td>
-             <td><sub>1.0.0.16</sub></td>
+            <td><sub>2024-09-06 12:54:11</sub></td>
+             <td><sub>1.0.0.17</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -264,8 +264,8 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-09-06 12:45:37</sub></td>
-             <td><sub>1.0.0.2</sub></td>
+            <td><sub>2024-09-06 12:54:11</sub></td>
+             <td><sub>1.0.0.3</sub></td>
               <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
     <tr>
@@ -292,8 +292,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-06 12:45:38</sub></td>
-             <td><sub>1.0.0.12</sub></td>
+            <td><sub>2024-09-06 12:54:12</sub></td>
+             <td><sub>1.0.0.13</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -303,10 +303,10 @@
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader" target="_blank">
-                    <mark>상세한</mark>
+                    <mark>详细</mark>
                 </a>
             </td>
-            <td>다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。</td>
+            <td>添加一个下载按钮，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
@@ -320,8 +320,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-06 12:45:38</sub></td>
-             <td><sub>0.7.0.16</sub></td>
+            <td><sub>2024-09-06 12:54:12</sub></td>
+             <td><sub>0.7.0.17</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -348,8 +348,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-06 12:45:38</sub></td>
-             <td><sub>2.2.0.15</sub></td>
+            <td><sub>2024-09-06 12:54:12</sub></td>
+             <td><sub>2.2.0.16</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -376,8 +376,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-06 12:45:38</sub></td>
-             <td><sub>0.1.2.49</sub></td>
+            <td><sub>2024-09-06 12:54:13</sub></td>
+             <td><sub>0.1.2.50</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -404,8 +404,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-06 12:45:39</sub></td>
-             <td><sub>1.1.0.16</sub></td>
+            <td><sub>2024-09-06 12:54:13</sub></td>
+             <td><sub>1.1.0.17</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -432,8 +432,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-06 12:45:39</sub></td>
-             <td><sub>0.1.9.38</sub></td>
+            <td><sub>2024-09-06 12:54:14</sub></td>
+             <td><sub>0.1.9.39</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -460,8 +460,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-06 12:45:40</sub></td>
-             <td><sub>0.0.1.44</sub></td>
+            <td><sub>2024-09-06 12:54:14</sub></td>
+             <td><sub>0.0.1.45</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -488,8 +488,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-06 12:45:40</sub></td>
-             <td><sub>0.9.3.59</sub></td>
+            <td><sub>2024-09-06 12:54:15</sub></td>
+             <td><sub>0.9.3.60</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -502,7 +502,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
+            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -516,8 +516,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-06 12:45:44</sub></td>
-             <td><sub>1.1.0.3</sub></td>
+            <td><sub>2024-09-06 12:54:18</sub></td>
+             <td><sub>1.1.0.4</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -544,8 +544,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-06 12:45:41</sub></td>
-             <td><sub>2.0.4.17</sub></td>
+            <td><sub>2024-09-06 12:54:15</sub></td>
+             <td><sub>2.0.4.18</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -572,8 +572,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-06 12:45:41</sub></td>
-             <td><sub>1.3.3.56</sub></td>
+            <td><sub>2024-09-06 12:54:16</sub></td>
+             <td><sub>1.3.3.57</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -600,8 +600,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-06 12:45:41</sub></td>
-             <td><sub>0.6.5.16</sub></td>
+            <td><sub>2024-09-06 12:54:16</sub></td>
+             <td><sub>0.6.5.17</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -628,8 +628,8 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-06 12:45:42</sub></td>
-             <td><sub>0.3.1.50</sub></td>
+            <td><sub>2024-09-06 12:54:16</sub></td>
+             <td><sub>0.3.1.51</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -656,8 +656,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-06 12:45:42</sub></td>
-             <td><sub>2.2.0.84</sub></td>
+            <td><sub>2024-09-06 12:54:17</sub></td>
+             <td><sub>2.2.0.85</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -684,8 +684,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-06 12:45:40</sub></td>
-             <td><sub>1.2.0.4</sub></td>
+            <td><sub>2024-09-06 12:54:14</sub></td>
+             <td><sub>1.2.0.5</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -712,8 +712,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-06 12:45:44</sub></td>
-             <td><sub>1.1.2.65</sub></td>
+            <td><sub>2024-09-06 12:54:19</sub></td>
+             <td><sub>1.1.2.66</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -740,8 +740,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-06 12:45:44</sub></td>
-             <td><sub>1.0.5.19</sub></td>
+            <td><sub>2024-09-06 12:54:19</sub></td>
+             <td><sub>1.0.5.20</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -768,8 +768,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-06 12:45:45</sub></td>
-             <td><sub>1.0.1.0</sub></td>
+            <td><sub>2024-09-06 12:54:20</sub></td>
+             <td><sub>1.0.1.1</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -796,8 +796,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-06 12:45:45</sub></td>
-             <td><sub>1.2.3.66</sub></td>
+            <td><sub>2024-09-06 12:54:20</sub></td>
+             <td><sub>1.2.3.67</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -824,8 +824,8 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-06 12:45:48</sub></td>
-             <td><sub>1.0.1.1</sub></td>
+            <td><sub>2024-09-06 12:54:23</sub></td>
+             <td><sub>1.0.1.2</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
     <tr>
@@ -852,8 +852,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-06 12:45:45</sub></td>
-             <td><sub>1.0.0.3</sub></td>
+            <td><sub>2024-09-06 12:54:19</sub></td>
+             <td><sub>1.0.0.4</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -880,8 +880,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-06 12:45:46</sub></td>
-             <td><sub>1.3.98.18</sub></td>
+            <td><sub>2024-09-06 12:54:20</sub></td>
+             <td><sub>1.3.98.19</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -908,8 +908,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-06 12:45:46</sub></td>
-             <td><sub>2.4.0.25</sub></td>
+            <td><sub>2024-09-06 12:54:21</sub></td>
+             <td><sub>2.4.0.26</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -936,8 +936,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-06 12:45:46</sub></td>
-             <td><sub>1.2.0.56</sub></td>
+            <td><sub>2024-09-06 12:54:21</sub></td>
+             <td><sub>1.2.0.57</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -964,8 +964,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-06 12:45:47</sub></td>
-             <td><sub>0.1.6.72</sub></td>
+            <td><sub>2024-09-06 12:54:22</sub></td>
+             <td><sub>0.1.6.73</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -992,8 +992,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-06 12:45:47</sub></td>
-             <td><sub>1.0.0.19</sub></td>
+            <td><sub>2024-09-06 12:54:22</sub></td>
+             <td><sub>1.0.0.20</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -1020,8 +1020,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-06 12:45:48</sub></td>
-             <td><sub>1.2.0.65</sub></td>
+            <td><sub>2024-09-06 12:54:22</sub></td>
+             <td><sub>1.2.0.66</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1034,7 +1034,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1048,8 +1048,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-06 12:45:49</sub></td>
-             <td><sub>0.31.0.16</sub></td>
+            <td><sub>2024-09-06 12:54:23</sub></td>
+             <td><sub>0.31.0.17</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     </tbody>
@@ -1065,13 +1065,13 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 - 양식을 클릭하세요 **\[설치하다\]** 直接弹出脚本管理器설치하다界面。
-- 만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+- 만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 
 > [!IMPORTANT]
 > 
 > - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，다른 사용자 스크립트 관리자는**제대로 작동하지 않음**각본。_
-> - _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
+> - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
