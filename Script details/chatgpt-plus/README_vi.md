@@ -2,8 +2,8 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
 <h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
-<div style="border: 1px solid #666;background-color:lightgrey;">脚本来自互联网广大网友，本人仅是做了些许改动.感谢网友
-如有侵权,联系必删,勤务员的脚本可供随意修改.</div>
+<div style="border: 1px solid #666;background-color:lightgrey;">Kịch bản đến từ đông đảo cư dân mạng trên Internet，Tôi vừa thực hiện một số thay đổi.Cảm ơn cư dân mạng
+Nếu có sự vi phạm,Liên hệ phải được xóa,Kịch bản của trật tự có thể được sửa đổi theo ý muốn.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
@@ -28,9 +28,9 @@
 
 [![stars][stars-logo]][Github-UserScripts]
 ⭐[Star Me][Github-UserScripts]
-⭐[请给我点星][Github-UserScripts]
+⭐[Xin vui lòng cho tôi một số ngôi sao][Github-UserScripts]
 
-**给勤务员加鸡腿** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
+**Xếp chân gà vào theo thứ tự** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
 [GreasyFork-logo]: https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=
 [Total-Installs]: https://img.shields.io/badge/dynamic/json?color=0084ff&label=Total%20Installs&query=$.totalInstalls&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json
@@ -44,10 +44,10 @@
 [Github-UserScripts]:https://github.com/ChinaGodMan/UserScripts
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
 [commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
-[forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "复刻"
-[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "如果觉得不错,请给我点亮星星"
-[Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "问题"
-[license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "许可"
+[forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "bản sao"
+[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "Nếu bạn cảm thấy tốt,Hãy thắp sáng những vì sao cho tôi"
+[Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "câu hỏi"
+[license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "giấy phép"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-PeopleOfTheWorld🌏-4285dd?labelColor=FFD700&color=FF69B4 "CopyRight people"
 [JavaScript-logo]: https://img.shields.io/badge/JavaScript-323330?svg&logo=javascript&logoColor=F7DF1E
 [Support-logo]: https://img.shields.io/badge/Support-Chrome%7CFirefox%7CEdge-blue?svg&
@@ -61,8 +61,8 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
-    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
+    <h1>ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa</h1>
+    <p>「 Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
@@ -97,6 +97,6 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Thậm chínhiềusử dụnghộ gia đình chânsách</strong></a> /
 <a href="#top">lầnđếnđứng đầuphòng↑</a></p>
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+## Giúp đỡ
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
+<a href="#top">trở lại đầu trang↑</a></p>
