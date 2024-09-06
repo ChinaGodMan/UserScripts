@@ -91,3 +91,9 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 ![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
 
 
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
