@@ -99,10 +99,10 @@ This script is used for managing user accounts on ThisAV. It provides functional
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### adult script
 
-- [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，并且在未登录时Automatic login
+- [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and when not logged inAutomatic login
 - [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
-- [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，并且在未登录时Automatic login
-- [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，并且在未登录时Automatic login
+- [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and when not logged inAutomatic login
+- [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and when not logged inAutomatic login
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

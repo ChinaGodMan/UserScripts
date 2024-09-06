@@ -72,13 +72,13 @@ If there is any infringement,Contact must be deleted,The script of the orderly c
 <li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>Added a download button at the top of the script list,Click to download all scripts</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>optimization：optimization脚本列表图标显示位置</em></p>
+<p><em>optimization：optimizationScript list icon display position</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>optimization：optimization设置界面代码</em></p>
+<p><em>optimization：optimizationSet interface code</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
@@ -102,7 +102,7 @@ If there is any infringement,Contact must be deleted,The script of the orderly c
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>repair：repair监听规则变化导致动态监听失败</em></p>
+<p><em>repair：repairDynamic monitoring fails due to changes in monitoring rules</em></p>
 <ul>
 <li><em>Monitoring rules added：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
@@ -315,7 +315,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
 - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，添加Format帮助链接及 Markdown Toolbar introduction
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add toFormatHelp links and Markdown Toolbar introduction
 - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
 - [**GreasyFork Navigation bar enhancement**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console, etc.

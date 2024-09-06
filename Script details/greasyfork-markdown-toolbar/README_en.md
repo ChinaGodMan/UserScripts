@@ -62,7 +62,7 @@ If there is any infringement,Contact must be deleted,The script of the orderly c
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
-    <p>「 Used by default in forums Markdown Format，添加Format帮助链接及 Markdown Toolbar introduction 」</p>
+    <p>「 Used by default in forums Markdown Format，Add toFormatHelp links and Markdown Toolbar introduction 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
@@ -118,7 +118,7 @@ If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](http
 
 - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
 - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，添加Format帮助链接及 Markdown Toolbar introduction
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add toFormatHelp links and Markdown Toolbar introduction
 - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
 - [**GreasyFork Navigation bar enhancement**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console, etc.
