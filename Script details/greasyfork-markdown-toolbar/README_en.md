@@ -110,10 +110,5 @@ If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](http
 ![Screenshot 3](https://greasyfork.s3.us-east-2.amazonaws.com/0imd0nxmpd0jztoqhgionebw4jfi)  
 ![Screenshot 4](https://greasyfork.s3.us-east-2.amazonaws.com/u3fgy6vyn01419tqb3zvd9h96bue)
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

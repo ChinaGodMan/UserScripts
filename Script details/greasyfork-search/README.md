@@ -99,6 +99,4 @@
 ## 修改来源 
 作者[𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179)的脚本[GreasyFork Search]( https://greasyfork.org/scripts/468495),感谢作者的勤劳智慧
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

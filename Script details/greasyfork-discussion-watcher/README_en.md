@@ -103,10 +103,5 @@ You can modify the value of the `delay` configuration option as needed to adjust
 - **Support and Issues:** [Report Issues](https://github.com/ChinaGodMan/UserScripts/issues)
 
 ![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

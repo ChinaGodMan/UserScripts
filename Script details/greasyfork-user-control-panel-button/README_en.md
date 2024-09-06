@@ -105,10 +105,5 @@ Script modified from user **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/z
 
 
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

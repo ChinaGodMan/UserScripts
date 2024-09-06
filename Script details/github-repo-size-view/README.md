@@ -124,6 +124,4 @@
 
 脚本修改自用户 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) 感谢原作者 **mshll** 的**勤劳**与**智慧**
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

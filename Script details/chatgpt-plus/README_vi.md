@@ -94,9 +94,4 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 
 
 ## làmsử dụnggiúp đỡgiúp đỡ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Thậm chínhiềusử dụnghộ gia đình chânsách</strong></a> /
-<a href="#top">lầnđếnđứng đầuphòng↑</a></p>
-
 ## Giúp đỡ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
-<a href="#top">trở lại đầu trang↑</a></p>

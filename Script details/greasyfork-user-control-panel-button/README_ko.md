@@ -101,14 +101,3 @@
 ![1.png](https://s2.loli.net/2024/08/05/GtB2fbacqSOX1hz.png)
 ![2.png](https://s2.loli.net/2024/08/05/sDZqO8fgEk1GzWh.png)
 
-
-
-
-
-## 만들다사용돕다돕다
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>심지어많은사용가정발책</strong></a> /
-<a href="#top">시간도착하다맨 위부서↑</a></p>
-
-## 돕다
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#top">맨 위로 돌아가기↑</a></p>

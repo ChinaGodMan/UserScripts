@@ -87,9 +87,4 @@
 と誰ががががががが[androidcn]( https://greasyfork.org/zh-CN/users/18158)の完了[Github ファイル平新しい日順にそしてべのためにえる]( https://greasyfork.org/scripts/492514),感ありがとうと誰がががががががの勤勉な労働知恵知恵
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
 ## するる使用ヘルプヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /
-<a href="#top">戻るトップ部門↑</a></p>
-
 ## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>

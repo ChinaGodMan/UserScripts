@@ -93,6 +93,4 @@
 ![1.png](https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png)
 
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

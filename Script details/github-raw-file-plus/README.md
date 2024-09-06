@@ -99,6 +99,4 @@ MIT 许可证
 
 ![Snipaste_2024-08-28_05-14-50.png](https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png)
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

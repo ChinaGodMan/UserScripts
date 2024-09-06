@@ -71,6 +71,4 @@
 </div></center>
 
 解除CSDN需要登录复制的限制
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

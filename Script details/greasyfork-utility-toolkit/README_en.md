@@ -309,11 +309,3 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 ![scriptlist.png](https://s2.loli.net/2024/08/05/3xrMsHPSDtTf8hu.png)
 
 ---
-
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
-
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>

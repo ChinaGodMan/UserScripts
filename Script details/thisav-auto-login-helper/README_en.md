@@ -93,10 +93,5 @@ This script is used for managing user accounts on ThisAV. It provides functional
 3. **Automatic Login**:
    - The script will automatically check if the user is logged in. If it detects that the user is not logged in, it will attempt to log in using the provided account information.
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

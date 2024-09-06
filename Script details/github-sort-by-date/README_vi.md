@@ -86,9 +86,4 @@ Bản mô tả người dùng này sẽ GitHub Các file trong kho được tự
 tác giả[androidcn]( https://greasyfork.org/zh-CN/users/18158)kịch bản[Github Sắp xếp theo ngày cập nhật tập tin]( https://greasyfork.org/scripts/492514),Cảm giácCảm ơntác giảcủasiêng năngnhân côngkhôn ngoanKhôn ngoan
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
 ## làmsử dụnggiúp đỡgiúp đỡ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Thậm chínhiềusử dụnghộ gia đình chânsách</strong></a> /
-<a href="#top">lầnđếnđứng đầuphòng↑</a></p>
-
 ## Giúp đỡ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
-<a href="#top">trở lại đầu trang↑</a></p>
