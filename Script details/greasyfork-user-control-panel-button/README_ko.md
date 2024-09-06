@@ -101,3 +101,9 @@
 ![1.png](https://s2.loli.net/2024/08/05/GtB2fbacqSOX1hz.png)
 ![2.png](https://s2.loli.net/2024/08/05/sDZqO8fgEk1GzWh.png)
 
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

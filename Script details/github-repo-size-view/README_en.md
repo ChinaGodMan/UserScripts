@@ -154,3 +154,9 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
   
 
 
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

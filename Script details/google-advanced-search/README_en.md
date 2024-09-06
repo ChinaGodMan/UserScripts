@@ -122,3 +122,9 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 
 
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

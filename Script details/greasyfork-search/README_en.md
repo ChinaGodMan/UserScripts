@@ -100,3 +100,9 @@ The **GreasyFork Scripts by Google Search** user script is designed to work with
 The author [𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179) script [GreasyFork Search]( https://greasyfork.org/scripts/468495), thank the author for his hard work and wisdom
 
 
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
