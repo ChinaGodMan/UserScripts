@@ -278,7 +278,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Kịch bản này sẽ GitHub Thông tin nộp bài trên được chuyển đổi thành HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
+            <td>Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -390,7 +390,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -502,7 +502,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -586,7 +586,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -866,7 +866,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -971,11 +971,11 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">上下滚动小按钮</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">Nút cuộn nhỏ lên xuống</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
-                    <mark>详细</mark>
+                    <mark>chi tiết</mark>
                 </a>
             </td>
             <td>Thêm nút cuộn lên xuống ở bên phải trang</td>
