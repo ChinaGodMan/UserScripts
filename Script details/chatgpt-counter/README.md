@@ -55,6 +55,10 @@
 [Violentmonkey-OK]: https://img.shields.io/badge/Violentmonkey-OK-006989?labelColor=4B3F72
 [FireMonkey-OK]: https://img.shields.io/badge/FireMonkey-OK-006989?labelColor=885053
 
+
+
+
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>ChatGPT 字符计数器</h1>
@@ -63,7 +67,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题..</em></li>
+<li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题...</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
