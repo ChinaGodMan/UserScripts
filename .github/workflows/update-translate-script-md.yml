@@ -5,6 +5,7 @@ on:
     workflows: ["translate-repo-md"]  # 指定 A 流程的名称
     types:
       - completed  # 在 A 流程完成后触发
+  workflow_dispatch:  
 
 jobs:
   translate-script-readme:
