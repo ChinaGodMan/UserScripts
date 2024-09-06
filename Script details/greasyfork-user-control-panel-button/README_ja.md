@@ -2,8 +2,8 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
 <h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
-<div style="border: 1px solid #666;background-color:lightgrey;">この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン
-違反があった場合,連絡先を削除する必要があります,秩序ある者のスクリプトは自由に変更できます.</div>
+<div style="border: 1px solid #666;background-color:lightgrey;">この脚本はインターネット優れたの膨大な数のネチズンから供給されたものです，いくつか変更を追加えただけです.ありがとうネチズン
+違反があった場合,連絡先を削除する必要があります,注文ある誰がのスクリプトは無料に変更できます.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
@@ -30,7 +30,7 @@
 ⭐[Star Me][Github-UserScripts]
 ⭐[星をいくつかください][Github-UserScripts]
 
-**鶏の足を順番に加えます** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
+**鶏の足を順番に追加えます** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
 [GreasyFork-logo]: https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=
 [Total-Installs]: https://img.shields.io/badge/dynamic/json?color=0084ff&label=Total%20Installs&query=$.totalInstalls&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json
@@ -45,7 +45,7 @@
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
 [commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
 [forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "レプリカ"
-[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "気分が良ければ,私のために星を照らしてください"
+[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "気分が良ければ,私のために星をによるとらしてください"
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "質問"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "ライセンス"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-PeopleOfTheWorld🌏-4285dd?labelColor=FFD700&color=FF69B4 "CopyRight people"
@@ -61,8 +61,8 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>GreasyFork ナビゲーションバーの強化</h1>
-    <p>「 強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど 」</p>
+    <h1>GreasyFork ナビゲーションバーの強化する</h1>
+    <p>「 強化するするgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
@@ -83,15 +83,15 @@
 
 ## その彼の参考として参照してくださいせる
 
-さらにアイテムが追跡追加されました,ミックス雑したナビゲーションバーが表面的なななななに見るとせるされます,スクリプトをするる使用して確立するてるただできます [GreasyFork Header Style Fix](https://greasyfork.org/scripts/473269)
+さらにアイテムが追跡追加されました,ミックス雑したナビゲーションバーが表面的ななななななに見るとせるされます,スクリプトをするる使用して確立するてるただできます [GreasyFork Header Style Fix](https://greasyfork.org/scripts/473269)
 
-するる使用を強力なくお勧めします **[GreasyFork ペーストフレーム匠](https://greasyfork.org/zh-CN/scripts/497346)** ナビゲーションバーを確立するてる複雑なおよび美しいしいしいしいしいしいしい変化することができます
+するる使用を強力なくお勧めします **[GreasyFork ペーストフレーム匠](https://greasyfork.org/zh-CN/scripts/497346)** ナビゲーションバーを確立するてる複雑なおよび美しいしいしいしいしいしいしいしい変化することができます
 
 ---
 
 ## ありがたい
 
-ユーザーからスクリプトが変平されました **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** の完了 [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) オリジナルする誰がががががががさんに感ありがとう **CY Fung** の**勤勉な勉**そして**知るるるるるるる恵**
+ユーザーからスクリプトが変平されました **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** の完了 [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) オリジナルする誰ががががががががさんに感ありがとう **CY Fung** の**勤勉な勉**そして**知るるるるるるるる恵**
 
 
 ---
@@ -105,15 +105,15 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GreasyFork関連するスクリプト
 
-- [**GreasyFork強化に適した**](https://greasyfork.org/scripts/497317): スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索
-- [**GreaysFork 強化する WebHook同期設定**](https://greasyfork.org/scripts/506717): このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): フォーラムでデフォルトで使用されます Markdown 形式，添加形式帮助链接及 Markdown ツールバーの紹介
-- [**GreasyFork 脚本の評価を表示する**](https://greasyfork.org/scripts/501119): 評価スコアをスクリプトリストに追加
-- [**GreasyFork 詳細検索**](https://greasyfork.org/scripts/505215): Googleを使って検索する GreasyFork そして SleazyFork 上的脚本 
-- [**GreasyFork ナビゲーションバーの強化**](https://greasyfork.org/scripts/501880): 強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど
-- [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします
-- [**Greasyfork 通知アシスタント**](https://greasyfork.org/scripts/506345): スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。
-- [**Script Finderグリース モンキー スクリプト ファインダー**](https://greasyfork.org/scripts/498904): Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます
+- [**GreasyFork強化するに適切なした**](https://greasyfork.org/scripts/497317): スクリプトの詳しいページが追加され、クリックすると Web ページが開けるきます。，Webページをコピーする,タイヤ検索
+- [**GreaysFork 強化するする WebHook同期設定**](https://greasyfork.org/scripts/506717): このスクリプトは、スクリプト同期情報を速いに入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に動くするのではなく、。
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): フォーラムでデフォルトで使用されます Markdown 形状，添加形状帮助链接及 Markdown ツールバーの紹介
+- [**GreasyFork 脚本の評価を急行する**](https://greasyfork.org/scripts/501119): 評価スコアをスクリプトリストに追加
+- [**GreasyFork 詳細検索**](https://greasyfork.org/scripts/505215): Googleを作るって検索する GreasyFork そして SleazyFork 上的脚本 
+- [**GreasyFork ナビゲーションバーの強化するする**](https://greasyfork.org/scripts/501880): 強化するするするgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど
+- [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 強化するするgreasyfork,コードをコピーする，スクリプトのダウンロード，2番までの正しいな時間，ホームページのクリーンアップ，ワンクリックレポートについて話し組み合わせるう，スクリプトリストジャンプコード追加ダウンロード コードの急行とコード参照ファイルの急行を美しいしくする，スクリプトアイコンを急行，アダルト スクリプトやその彼の操作するにジャンプします
+- [**Greasyfork 通知するアシスタント**](https://greasyfork.org/scripts/506345): スクリプトまたは参加しているディスカッションに対して新しいしい返信があったとき，スクリプトは、Web ページ優れたのモーダル ウィンドウに最新のしいのディスカッション コンテンツを急行します。。
+- [**Script Finderグリース モンキー スクリプト ファインダー**](https://greasyfork.org/scripts/498904): Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト優れたのユーザースクリプトの検索と管理に役立ちます
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

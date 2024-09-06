@@ -96,7 +96,7 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 ### ChatGPTRelated scripts
 
 - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-- [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一个character counter到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
+- [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add acharacter counterto the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->

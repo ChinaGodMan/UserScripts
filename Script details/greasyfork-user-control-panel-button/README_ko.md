@@ -107,7 +107,7 @@
 
 - [**GreasyFork향상에 적합**](https://greasyfork.org/scripts/497317): 추가할 링크에 적합한 스크립트 세부정보 페이지가 추가됩니다.，웹페이지 복사,타이어 검색
 - [**GreaysFork 향상시키다 WebHook동기화 설정**](https://greasyfork.org/scripts/506717): 이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，添加체재帮助链接及 Markdown 툴바 소개
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，다음에 추가체재도움말 링크 및 Markdown 툴바 소개
 - [**GreasyFork 스크립트 등급 표시**](https://greasyfork.org/scripts/501119): 스크립트 목록에 평가 점수 추가
 - [**GreasyFork 고급 검색**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색 GreasyFork 그리고 SleazyFork 상적 각본 
 - [**GreasyFork 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등

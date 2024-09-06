@@ -2,8 +2,8 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts">
 </a>
 <h1><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h1>
-<div style="border: 1px solid #666;background-color:lightgrey;">この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン
-違反があった場合,連絡先を削除する必要があります,秩序ある者のスクリプトは自由に変更できます.</div>
+<div style="border: 1px solid #666;background-color:lightgrey;">この脚本はインターネット優れたの膨大な数のネチズンから供給されたものです，いくつか変更を追加えただけです.ありがとうネチズン
+違反があった場合,連絡先を削除する必要があります,注文ある誰がのスクリプトは無料に変更できます.</div>
 <a href="mailto:toniaiwanowskiskr47@gmail.com">
   <img src="https://img.shields.io/badge/Contact-Gmail-yellow?svg&" alt="Gmail" />
 </a>
@@ -30,7 +30,7 @@
 ⭐[Star Me][Github-UserScripts]
 ⭐[星をいくつかください][Github-UserScripts]
 
-**鶏の足を順番に加えます** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
+**鶏の足を順番に追加えます** [![](https://img.shields.io/badge/Crazy%20Thur.-V%20me%2050-red?logo=kfc)](https://img.xwyue.com/i/2024/08/02/66ac586a44530.png) 
 
 [GreasyFork-logo]: https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=
 [Total-Installs]: https://img.shields.io/badge/dynamic/json?color=0084ff&label=Total%20Installs&query=$.totalInstalls&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json
@@ -45,7 +45,7 @@
 [Github-logo]: https://img.shields.io/badge/Github-100000?svg&logo=github&logoColor=white
 [commit-logo]: https://img.shields.io/github/last-commit/ChinaGodMan/UserScripts?color=blue&logo=github
 [forks-logo]: https://img.shields.io/github/forks/ChinaGodMan/UserScripts?svg&style=flat-square&label=Fork&color=4285dd&logo=github "レプリカ"
-[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "気分が良ければ,私のために星を照らしてください"
+[stars-logo]: https://img.shields.io/github/stars/ChinaGodMan/UserScripts?svg&style=flat-square&label=stars&color=4285dd&logo=github "気分が良ければ,私のために星をによるとらしてください"
 [Issue-logo]: https://img.shields.io/github/issues/ChinaGodMan/UserScripts/github-chinese?style=flat-square&logo=github&label=Issue "質問"
 [license-logo]: https://img.shields.io/github/license/ChinaGodMan/UserScripts?svg&style=flat-square&color=4285dd&logo=github "ライセンス"
 [CopyRight-logo]: https://img.shields.io/badge/CopyRight-PeopleOfTheWorld🌏-4285dd?labelColor=FFD700&color=FF69B4 "CopyRight people"
@@ -62,7 +62,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>GitHub Sort by Date</h1>
-    <p>「 倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。 」</p>
+    <p>「 倉庫リストファイルのソート方法を日付の降順に変更する，最新のの更新するされたファイルを簡単に急行できます。 」</p>
     <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
@@ -73,18 +73,18 @@
 
 # GitHub 日付順にそしてべのためにえる
 
-このユーザースクリプトは、 GitHub ウェアハウス内部のファイルは日付の秋とす順で鉛っクロスしに来るるるるるてくださいくのにそしてべのためにえられます，ほとんど新しいしいしいしいしいしいしいしいの平新しいしいしいしいしいしいしいしいされたファイルを単純単に表面的なななななに見るとせるできます。
+このユーザースクリプトは、 GitHub ウェアハウス内部のファイルは日付の秋とす順で鉛っクロスしに来るるるるるるてくださいくのにそしてべのためにえられます，ほとんど新しいしいしいしいしいしいしいしいしいの平新しいしいしいしいしいしいしいしいしいされたファイルを単純単に表面的ななななななに見るとせるできます。
 
 ## 特別セックス
 
-- ページの読み込み時間に平新しい日でファイルを鉛っクロスしに来るるるるるてくださいくのにそしてべのためにえます。
+- ページの読み込み時間に平新しい日でファイルを鉛っクロスしに来るるるるるるてくださいくのにそしてべのためにえます。
 - すべてに適切な使用されます GitHub 倉図書館図書館。
 
 ## するる使用
-- スクリプトはページの読み込み時間にファイルを日付順に鉛っクロスしに来るるるるるてくださいくくのにそしてべのためにえます，マニュアルくく間入力はしなければならない欲しいしいしいしいしいしいしいありません。
+- スクリプトはページの読み込み時間にファイルを日付順に鉛っクロスしに来るるるるるるてくださいくくのにそしてべのためにえます，マニュアルくく間入力はしなければならない欲しいしいしいしいしいしいしいしいありません。
 
 ## ソースを変平する 
-と誰ががががががががががががが[androidcn]( https://greasyfork.org/zh-CN/users/18158)の完了[Github ファイル平新しい日順にそしてべのためにえる]( https://greasyfork.org/scripts/492514),感ありがとうと誰がががががががががががががの勤勉な労働知恵知恵
+と誰ががががががががががががががが[androidcn]( https://greasyfork.org/zh-CN/users/18158)の完了[Github ファイル平新しい日順にそしてべのためにえる]( https://greasyfork.org/scripts/492514),感ありがとうと誰がががががががががががががががの勤勉な労働知恵知恵
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
 ## するる使用ヘルプヘルプ
 ## ヘルプ
@@ -92,11 +92,11 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GitHub関連するスクリプト
 
-- [**GitHub送信情報表示HTML**](https://greasyfork.org/scripts/505830): このスクリプトは、 GitHub の投稿情報が変換されます。 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。
+- [**GitHub送信情報表示HTML**](https://greasyfork.org/scripts/505830): このスクリプトは、 GitHub の投稿情報が変換されます。 HTML ビュー，プロポーズするの詳しいをよりクリアに確認するには。情報リストを自動に送信します、コミットヘッダーと最新ののコミット情報が変換されます。 HTML 形状，より良い視覚効果とユーザーエクスペリエンスを供給する。
 - [**GitHubフォルダーのダウンロード**](https://greasyfork.org/scripts/505496): ダウンロードボタンを追加する，特定のファイルを簡単にダウンロードできます GitHub フォルダ。
-- [**GitHub単一ファイルのダウンロードとファイルのコピーURL**](https://greasyfork.org/scripts/505501): 各ファイル行の末尾にある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする
-- [**github倉庫のサイズを表示する**](https://greasyfork.org/scripts/502291): 存在するGithub查看仓库和搜索仓库时倉庫のサイズを表示する
-- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。
+- [**GitHub単一ファイルのダウンロードとファイルのコピーURL**](https://greasyfork.org/scripts/505501): それぞれファイルわかりましたの終わりにある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする
+- [**github倉庫のサイズを急行する**](https://greasyfork.org/scripts/502291): 存在するするGithub倉庫閲覧・倉庫検索時の倉庫のサイズを急行する
+- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 倉庫リストファイルのソート方法を日付の降順に変更する，最新のの更新するされたファイルを簡単に急行できます。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

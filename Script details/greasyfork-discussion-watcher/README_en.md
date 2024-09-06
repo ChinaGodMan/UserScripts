@@ -111,7 +111,7 @@ You can modify the value of the `delay` configuration option as needed to adjust
 
 - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
 - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，添加Format帮助链接及 Markdown Toolbar introduction
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add toFormatHelp links and Markdown Toolbar introduction
 - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
 - [**GreasyFork Navigation bar enhancement**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console, etc.
