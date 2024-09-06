@@ -92,6 +92,4 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 ![2.png](https://s2.loli.net/2024/08/28/i3Ov9gj5aKIYSVR.png)
 ![1.png](https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png)
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

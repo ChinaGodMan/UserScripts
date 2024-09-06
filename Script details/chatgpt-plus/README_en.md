@@ -93,10 +93,5 @@ If you have any suggestions or find a problem，Please pass GitHub orGreasyFork 
 ![1.png](https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png)
 
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

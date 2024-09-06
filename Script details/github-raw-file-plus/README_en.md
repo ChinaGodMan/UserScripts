@@ -103,10 +103,5 @@ The script is modified from user **[Kamikaze](https://greasyfork.org/zh-CN/users
 
 ![Snipaste_2024-08-28_05-14-50.png](https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png)
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

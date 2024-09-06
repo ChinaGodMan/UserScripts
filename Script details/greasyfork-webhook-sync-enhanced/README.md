@@ -118,6 +118,4 @@
 ![message.png](https://s2.loli.net/2024/09/05/2C6pUBQryHZg35j.png)
 ![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

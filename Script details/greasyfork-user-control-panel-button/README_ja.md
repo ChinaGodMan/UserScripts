@@ -101,14 +101,3 @@
 ![1.png](https://s2.loli.net/2024/08/05/GtB2fbacqSOX1hz.png)
 ![2.png](https://s2.loli.net/2024/08/05/sDZqO8fgEk1GzWh.png)
 
-
-
-
-
-## するる使用ヘルプヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /
-<a href="#top">戻るトップ部門↑</a></p>
-
-## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>

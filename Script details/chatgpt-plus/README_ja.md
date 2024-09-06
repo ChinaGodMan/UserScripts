@@ -94,9 +94,4 @@
 
 
 ## するる使用ヘルプヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /
-<a href="#top">戻るトップ部門↑</a></p>
-
 ## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>

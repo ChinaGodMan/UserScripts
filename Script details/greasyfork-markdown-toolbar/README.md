@@ -106,6 +106,4 @@
 ![Screenshot 3](https://greasyfork.s3.us-east-2.amazonaws.com/0imd0nxmpd0jztoqhgionebw4jfi)  
 ![Screenshot 4](https://greasyfork.s3.us-east-2.amazonaws.com/u3fgy6vyn01419tqb3zvd9h96bue)
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

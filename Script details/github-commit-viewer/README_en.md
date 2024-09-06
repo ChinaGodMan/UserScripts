@@ -150,10 +150,5 @@ This script is licensed under the [MIT License](https://opensource.org/licenses/
 <b>Before:</b>
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

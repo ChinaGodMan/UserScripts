@@ -83,6 +83,4 @@
 
 ![Snipaste_2024-08-01_09-37-45.png](https://img.xwyue.com/i/2024/08/01/66aae80f5a5c2.png)
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

@@ -98,10 +98,5 @@ Currently, there are only two features. Just type and search on the main page or
 The **GreasyFork Scripts by Google Search** user script is designed to work with the [GreasyFork.org](https://greasyfork.org/)  [SleazyFork.org](https://sleazyfork.org/)  website. It is compatible with modern web browsers that support user scripts, such as Tampermonkey and Greasemonkey.
 ## Modify source
 The author [𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179) script [GreasyFork Search]( https://greasyfork.org/scripts/468495), thank the author for his hard work and wisdom
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

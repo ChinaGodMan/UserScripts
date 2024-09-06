@@ -85,10 +85,5 @@ This userscript will GitHub Files in the warehouse are automatically sorted in d
 ## Modify source 
 author[androidcn]( https://greasyfork.org/zh-CN/users/18158)script[Github Sort by file update date]( https://greasyfork.org/scripts/492514),FeelingThanksauthorofdiligentlaborwisdomWisdom
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

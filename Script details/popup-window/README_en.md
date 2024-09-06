@@ -173,10 +173,5 @@ If there is any infringement,Contact must be deleted,The script of the orderly c
  [hiisme](https://greasyfork.org/zh-CN/scripts/504567)
 
 
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

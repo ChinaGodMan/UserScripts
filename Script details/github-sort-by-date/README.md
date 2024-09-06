@@ -85,6 +85,4 @@
 ## 修改来源 
 作者[androidcn]( https://greasyfork.org/zh-CN/users/18158)的脚本[Github 按文件更新日期排序]( https://greasyfork.org/scripts/492514),感谢作者的勤劳智慧
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

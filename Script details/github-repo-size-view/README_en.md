@@ -152,10 +152,5 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 - **2024/8/1 03:43 - Ver: 0.1.2**
   - *<mark>Fixed issue with search page failure<br>Fixed issue with repository display when viewing other repositories (added delay)</mark>*
   
-## makeusehelphelp
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Evenmanyusehouseholdfootbook</strong></a> /
-<a href="#top">timesarrivetopdepartment↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

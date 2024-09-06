@@ -118,6 +118,4 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 
 
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

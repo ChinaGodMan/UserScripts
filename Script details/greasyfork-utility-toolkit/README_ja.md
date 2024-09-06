@@ -314,16 +314,3 @@ Greasyfork にさまざまなするる機械的を使用するできるを運ぶ
 
 ---
 
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらに多くのくのくのくのくのユーザースクリプト</strong></a> /
-<a href="#">トップに戻る↑</a></p>
-
-
-
-## するる使用ヘルプヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>ピンドゥオくのファミリースクリプトを使用する</strong></a> /
-<a href="#top">戻るトップ部門↑</a></p>
-
-## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>

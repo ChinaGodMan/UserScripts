@@ -120,10 +120,5 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 ![PC_en.png](https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png)
 
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+

@@ -95,6 +95,4 @@
    - 脚本会自动检测用户是否已登录。如果检测到未登录状态，它将使用提供的账户信息尝试登录。
 
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

@@ -105,6 +105,4 @@
 ![colorful-table.png](https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png)
 
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+

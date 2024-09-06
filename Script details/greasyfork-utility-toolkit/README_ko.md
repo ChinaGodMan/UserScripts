@@ -311,13 +311,3 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 
 ---
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#">맨 위로↑</a></p>
-## 만들다사용돕다돕다
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>심지어많은사용가정발책</strong></a> /
-<a href="#top">시간도착하다맨 위부서↑</a></p>
-
-## 돕다
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#top">맨 위로 돌아가기↑</a></p>
