@@ -14,10 +14,10 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=问题&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>GitHubSubmit information displayHTML</h1>
-    <p>「 This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。 」</p>
+    <h1>GitHub提交信息显示HTML</h1>
+    <p>「 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。 」</p>
     <img src="https://views.whatilearened.today/views/github/505830/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-commit-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505830">Greasy
@@ -109,17 +109,17 @@ This script is licensed under the [MIT License](https://opensource.org/licenses/
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### GitHubRelated scripts
+### GitHub相关脚本
 
-- [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-- [**GitHubFolder download**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
-- [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-- [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithub查看仓库和搜索仓库时Show warehouse size
-- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
+- [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+- [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+- [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+- [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
+- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

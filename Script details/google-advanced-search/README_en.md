@@ -14,23 +14,23 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=问题&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>Google Advanced search</h1>
-    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。 」</p>
+    <h1>Google 高级搜索</h1>
+    <p>「 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
+            Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>
 <li>
-<p><em><mark>Add script icon</mark></em></p>
+<p><em><mark>增加脚本图标</mark></em></p>
 </li>
 <li>
 <p><strong>2024/8/5 10:26 - Ver: 0.1.9</strong></p>
 </li>
-<li><em><mark>question: Advanced search box cannot be displayed on mobile devices</mark></em></li>
-<li><em><mark>How to fix it：The code below is onlyPCValid on the terminal</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
+<li><em><mark>问题: 移动设备无法显示高级搜索框</mark></em></li>
+<li><em><mark>修复方式：下面代码仅在PC端生效</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
@@ -79,14 +79,14 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### GoogleRelated scripts
+### Google相关脚本
 
-- [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google 添加Advanced search表单的用户脚本。它能在页面顶部添加一个可隐藏的Advanced search表单，Enable you to search for information more precisely。
-- [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
+- [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
+- [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

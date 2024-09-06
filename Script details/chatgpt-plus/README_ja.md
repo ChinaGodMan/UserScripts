@@ -14,10 +14,10 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=问题&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>ChatGPT セルフメッセージと最大幅を折りたたむ</h1>
-    <p>「 自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。 」</p>
+    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
+    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
@@ -52,15 +52,15 @@
 ## ヘルプ
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### ChatGPT関連するスクリプト
+### ChatGPT相关脚本
 
-- [**ChatGPTコードのフォントサイズが小さくなりました**](https://greasyfork.org/scripts/505209): させて ChatGPT コードのフォントサイズが小さくなる
-- [**ChatGPT 文字カウンター**](https://greasyfork.org/scripts/506166): 添加一个文字カウンター到输入框，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 キャラクター。）
-- [**ChatGPT セルフメッセージと最大幅を折りたたむ**](https://greasyfork.org/scripts/504901): 自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。
+- [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
+- [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+- [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

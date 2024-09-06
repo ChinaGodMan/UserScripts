@@ -14,115 +14,115 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=问题&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>Greasyfork糊裱匠</h1>
-    <p>「 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします 」</p>
+    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新記録</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>スクリプトの詳細ページ,すべてのスクリプトのリストが追加されました<code>脚本の評価</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>互換性を修正.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>スクリプトリストの上部にダウンロードボタンを追加しました,クリックしてすべてのスクリプトをダウンロードします</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>脚本详情页,所有脚本列表添加<code>脚本评分</code>.</em></li>
+<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修复兼容性.</em></li>
+<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在脚本列表顶部添加下载按钮,点击下载所有脚本</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>最適化：最適化脚本列表图标显示位置</em></p>
+<p><em>优化：优化脚本列表图标显示位置</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>最適化：最適化设置界面代码</em></p>
+<p><em>优化：优化设置界面代码</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
 </li>
 <li>
-<p><em>修理：モバイルデバイスでスクリプト設定インターフェイスが正しく表示されない問題を修正しました</em></p>
+<p><em>修复：修正脚本设置界面在移动设备上显示错乱问题</em></p>
 </li>
 <li>
 <p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
 </li>
 <li>
-<p><em>新しい：ベトナム語言語パックを追加，ありがとうネチズン <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻訳する</em></p>
+<p><em>新增：增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译</em></p>
 </li>
 <li>
 <p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
 </li>
 <li>
-<p><em>新しい：増加 WebHook ページクイックジャンプスクリプト管理</em></p>
+<p><em>新增：增加 WebHook 页快捷跳转脚本管理</em></p>
 </li>
 <li>
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>修理：修理监听规则变化导致动态监听失败</em></p>
+<p><em>修复：修复监听规则变化导致动态监听失败</em></p>
 <ul>
-<li><em>監視ルールの追加：<code>user-script-list-section browse-script-list</code></em></li>
+<li><em>监听规则增加：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
 </li>
 <li>
-<p><em>コピー <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 新しい CSS</em></p>
+<p><em>复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS</em></p>
 </li>
 <li>
 <p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
 </li>
 <li>
-<p><em>新しい：</em></p>
+<p><em>新增：</em></p>
 <ul>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 2列表示のスクリプト</em></li>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> ナビゲーションバーを美しくする</em></li>
-<li><em>固定ウェブサイトのサイドアクションバーを追加</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏</em></li>
+<li><em>增加固定网站侧边操作栏</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
 </li>
 <li>
-<p><em>新しい：伝統的な言語を完全にサポート</em></p>
+<p><em>新增：完全的繁体语言支持</em></p>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>サイドナビゲーションバースイッチを追加</em></li>
-<li><em>イメージプロキシを追加（有効にすると互換性がありません <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 画像の閲覧）</em></li>
+<li><em>新增：</em><ul>
+<li><em>增加侧边导航栏开关</em></li>
+<li><em>增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）</em></li>
 </ul>
 </li>
 <li>
-<p><em>修理：</em></p>
+<p><em>修复：</em></p>
 <ul>
-<li><em>モバイルデバイスで画像がブラウザ外で表示される問題を修正しました</em></li>
-<li><em>コード編集時に美化チェックを自動で行うように修正</em></li>
+<li><em>修复在移动设备上浏览图片超出浏览器外的问题</em></li>
+<li><em>修改在编辑代码时自动勾选美化</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>ナビゲーションバーの拡張を追加する "もっと"</em></li>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 強化する</a> サイドナビゲーションバーの</em></li>
+<li><em>新增：</em><ul>
+<li><em>添加导航栏展开 "更多"</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏</em></li>
 </ul>
 </li>
 <li>
-<p><em>最適化：複数言語のサポートを改善する</em></p>
+<p><em>优化：完善对多语言的支持</em></p>
 </li>
 <li>
 <p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>自動ログインを追加する <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a></em></li>
+<li><em>新增：</em><ul>
+<li><em>增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></em></li>
 </ul>
 </li>
-<li><em>修理：</em><ul>
-<li><em>表示リスト上のスクリプトのインストールステータスを修正</em></li>
+<li><em>修复：</em><ul>
+<li><em>修复显示列表上的脚本安装状态</em></li>
 </ul>
 </li>
-<li><em>最適化：複数言語のサポートを改善する</em></li>
+<li><em>优化：完善对多语言的支持</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -271,21 +271,21 @@ Greasyfork にさまざまなするる機械的を使用するできるを運ぶ
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### GreasyFork関連するスクリプト
+### GreasyFork相关脚本
 
-- [**GreasyFork強化に適した**](https://greasyfork.org/scripts/497317): スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索
-- [**GreaysFork 強化する WebHook同期設定**](https://greasyfork.org/scripts/506717): このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): フォーラムでデフォルトで使用されます Markdown 形式，添加形式帮助链接及 Markdown ツールバーの紹介
-- [**GreasyFork 脚本の評価を表示する**](https://greasyfork.org/scripts/501119): 評価スコアをスクリプトリストに追加
-- [**GreasyFork 詳細検索**](https://greasyfork.org/scripts/505215): Googleを使って検索する GreasyFork そして SleazyFork 上的脚本 
-- [**GreasyFork ナビゲーションバーの強化**](https://greasyfork.org/scripts/501880): 強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど
-- [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします
-- [**Greasyfork 通知アシスタント**](https://greasyfork.org/scripts/506345): スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。
-- [**Script Finderグリース モンキー スクリプト ファインダー**](https://greasyfork.org/scripts/498904): Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます
+- [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
+- [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
+- [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
+- [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
+- [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
+- [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
+- [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+- [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-## ヘルプ
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#top">トップに戻る↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
