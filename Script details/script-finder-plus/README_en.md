@@ -126,6 +126,8 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 
 
 
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

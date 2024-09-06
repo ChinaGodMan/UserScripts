@@ -96,6 +96,8 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 ## làmsử dụnggiúp đỡgiúp đỡ
 ## Giúp đỡ
 
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
