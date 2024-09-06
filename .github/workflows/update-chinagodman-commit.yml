@@ -62,11 +62,6 @@ jobs:
           # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
           python pythonscr/copy_js_files.py
 
-      - name: 拉取最新更改2
-        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
-        run: |
-          git pull origin ${{ env.branch }}
-
       - name: 提交和推送更改
         if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
         run: |
