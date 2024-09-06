@@ -25,8 +25,8 @@ def generate_description(current_script, all_scripts):
     
     # 遍历relatedscripts下的每个属性
     for category, related_ids in relatedscripts.items():
-        descriptions.append(f"### {category}\n")
-        
+        #descriptions.append(f"### {category}\n")
+        descriptions.append(f"> ### {category}")
         # 对于每个id，查找GreasyFork匹配的脚本
         for greasyfork_id in related_ids:
             related_script = find_script_by_greasyfork_id(all_scripts, greasyfork_id)
