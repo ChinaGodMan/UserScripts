@@ -75,10 +75,6 @@
 - **自定义输入屏蔽站点**
 - **格式** `"-zhihu" "-baidu"` 用于屏蔽谷歌搜索内容
 
-
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### Google相关脚本
 

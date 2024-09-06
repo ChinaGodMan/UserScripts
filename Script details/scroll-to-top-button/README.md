@@ -80,13 +80,6 @@
 - **处于网页底部时，自动关闭滚动。**
 - **处于滚动时，向下的按钮变成绿色。**
 
-
-![set.png](https://s2.loli.net/2024/08/26/3Et6ghaqMSo54KF.png)
-![c.png](https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png)
- 
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### 相关脚本
 
@@ -94,6 +87,13 @@
 - [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+![set.png](https://s2.loli.net/2024/08/26/3Et6ghaqMSo54KF.png)
+![c.png](https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png)
+ 
+
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

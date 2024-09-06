@@ -69,29 +69,29 @@
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
 </div></center>
+
 # 原作者发布页[ mabangde](https://greasyfork.org/zh-CN/scripts/465200)
-
 ## 脚本功能
-
 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用。
-
 ## UI 说明
-
 1. **第一栏：网页限制**
    - 可以指定在哪些网页上起作用，比如 `bilibili`, `baidu`, `bilibili.com`
    - 输入网址的一部分或者全部。每一个网址用空格隔开
    - 如果什么都不输入，那么就会作用到所有网站上
-
 2. **第二栏：分类信息**
    - 鼠标移动到对应的关键字上会显示你输入的内容
-
 3. **第三栏：关键字栏**
    - 输入你想要高亮的词，空格隔开
-
 ## 图片
 ![hl.png](https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png)
 
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+### 相关脚本
 
+- [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
+- [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 ## 初次安装
 
 第一次安装会默认添加一些规则测试，可以删除。
@@ -103,17 +103,6 @@
 - 保证在移动设备上能够适应屏幕
 - 增加了对设置文字颜色的支持（第二个颜色选择器）
 
-
-
-
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### 相关脚本
-
-- [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-- [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

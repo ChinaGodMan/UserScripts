@@ -82,11 +82,6 @@
 ## 使用
 - 脚本将在页面加载时自动按日期排序文件，无需手动干预。
 
-## 修改来源 
-作者[androidcn]( https://greasyfork.org/zh-CN/users/18158)的脚本[Github 按文件更新日期排序]( https://greasyfork.org/scripts/492514),感谢作者的勤劳智慧
-![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GitHub相关脚本
 
@@ -97,6 +92,13 @@
 - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+## 修改来源 
+作者[androidcn]( https://greasyfork.org/zh-CN/users/18158)的脚本[Github 按文件更新日期排序]( https://greasyfork.org/scripts/492514),感谢作者的勤劳智慧
+
+![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

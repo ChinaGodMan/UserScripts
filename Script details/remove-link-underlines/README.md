@@ -75,7 +75,16 @@
 This userscript removes underlines from all links on any website and dynamically handles new links. It ensures a cleaner and more visually appealing browsing experience.
 
 ## Description in Multiple Languages
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+### 网页相关脚本
 
+- [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+- [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+- [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+- [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+- [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 ###  中文（简体）
 这个用户脚本移除所有网站上的链接下划线，并动态处理新链接。它确保了更干净和更有视觉吸引力的浏览体验。
 
@@ -110,20 +119,6 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 人民的勤务员 (Servant of the People) & ChatGPT
 [toniaiwanowskiskr47@gmail.com](mailto:toniaiwanowskiskr47@gmail.com)
 
-
-
-
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### 网页相关脚本
-
-- [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-- [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-- [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-- [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-- [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

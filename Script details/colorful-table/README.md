@@ -96,17 +96,6 @@
 #### 使用场景
 该脚本适用于任何包含网页表格场景，能够自动为网页表格应用颜色渐变，帮助用户快速识别数据的差异，提升表格的可视化效果。
 
-## 项目与反馈
-- **原脚本：** [yearly](https://greasyfork.org/zh-CN/users/1312063)创建的[彩色表格 | 表格数据可视化](https://greasyfork.org/zh-CN/scripts/502933)
-- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
-- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
-
-![colorful-table-2.png](https://s2.loli.net/2024/09/06/CjBMp6ERigxsYAV.png)
-![colorful-table.png](https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png)
-
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### 网页相关脚本
 
@@ -117,6 +106,15 @@
 - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+## 项目与反馈
+- **原脚本：** [yearly](https://greasyfork.org/zh-CN/users/1312063)创建的[彩色表格 | 表格数据可视化](https://greasyfork.org/zh-CN/scripts/502933)
+- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
+- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
+
+![colorful-table-2.png](https://s2.loli.net/2024/09/06/CjBMp6ERigxsYAV.png)
+![colorful-table.png](https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png)
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

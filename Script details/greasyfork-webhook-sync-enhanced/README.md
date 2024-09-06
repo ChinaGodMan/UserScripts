@@ -107,19 +107,6 @@
 ## 注意:
 - 提交的本地化国家信息时,代码内必须存在头部声明 例如//@name:zh-CN,否则即使提交成功也是失败的!
 - 脚本必须存在!否则同步失败,
-
-## 项目与反馈
-
-- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
-- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
-
-![sync.png](https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png)
-![nav.png](https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png)
-![message.png](https://s2.loli.net/2024/09/05/2C6pUBQryHZg35j.png)
-![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GreasyFork相关脚本
 
@@ -132,8 +119,18 @@
 - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
 - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
 - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+## 项目与反馈
+
+- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
+- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
+
+![sync.png](https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png)
+![nav.png](https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png)
+![message.png](https://s2.loli.net/2024/09/05/2C6pUBQryHZg35j.png)
+![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
+
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

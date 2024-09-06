@@ -135,6 +135,18 @@ if ($LASTEXITCODE -ne 0) {
 }
 Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFilePath -Force
 </pre>
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+### GitHub相关脚本
+
+- [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+- [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+- [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+- [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
+- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
 ## 支持
 
 - [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
@@ -149,18 +161,6 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <b>使用前:</b>
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
 
-
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-### GitHub相关脚本
-
-- [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-- [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-- [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-- [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
-- [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /

@@ -75,7 +75,8 @@
 </div></center>
 
 # GreasyFork 通知助手
-
+  ![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)
+  
 一个 Tampermonkey 脚本，用于在 GreasyFork 上增强讨论列表功能。当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
 
 ## 功能
@@ -97,15 +98,6 @@
 
 你可以根据需要修改 `delay` 配置项的值，以调整脚本检查讨论更新的频率。例如，如果你希望每15分钟检查一次，可以将 `delay` 设置为 `15m`。
 
-## 项目与反馈
-
-- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
-- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
-  
-  ![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 ### GreasyFork相关脚本
 
@@ -120,6 +112,12 @@
 - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+## 项目与反馈
+
+- **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
+- **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
+  
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
