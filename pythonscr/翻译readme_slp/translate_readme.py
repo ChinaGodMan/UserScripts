@@ -5,6 +5,7 @@ import time
 import io
 from urllib.parse import urlencode
 from urllib.request import urlopen
+
 # 读取 JSON 文件中的翻译列表
 script_dir = os.path.dirname(os.path.abspath(__file__))
 NEW_CONTENT_PATH = os.path.join(script_dir, 'translate_readme.json')
@@ -13,6 +14,15 @@ with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as f:
 
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
+
+# 创建一个全局翻译缓存字典
+translation_cache = {
+    "复刻": "Fork",
+    "问题": "issues",
+    # 可以继续添加其他常见的翻译
+}
+
+# json_data：用于替换编码的映射表
 json_data = {
     "所有脚本总安装数": "%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0",
     "今日所有脚本安装数": "%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0",
@@ -25,22 +35,51 @@ json_data = {
     "问题": "%E9%97%AE%E9%A2%98",
     "联系": "%E8%81%94%E7%B3%BB"
 }
-# 函数来请求翻译API
-# 创建一个全局翻译缓存字典
-translation_cache = {
-    "复刻": "Fork",
-    "问题": "issues",
-    # 可以继续添加其他常见的翻译
-}
+
+# 逐行读取文件，并匹配中文字符
+def match_chinese_in_text(lines):
+    # 存储中文及其位置 (行号, 列号, 中文文本)
+    chinese_matches = []
+    for line_number, line in enumerate(lines):
+        for match in chinese_pattern.finditer(line):
+            chinese_text = match.group()
+            start_index = match.start()
+            chinese_matches.append((line_number, start_index, chinese_text))
+    return chinese_matches
+
+# 批量翻译函数，将多个文本合并并发送到翻译API
+def translate_text_batch(text_list, target_lang):
+    concatenated_text = '----'.join(text_list)  # 用 "----" 连接字符串
+    api_url = 'https://translate.googleapis.com/translate_a/single'
+    params = {
+        'client': 'gtx',
+        'dt': 't',
+        'sl': 'auto',
+        'tl': target_lang,
+        'q': concatenated_text
+    }
+    full_url = api_url + '?' + urlencode(params)
+
+    try:
+        response = urlopen(full_url)
+        data = response.read().decode('utf-8')
+        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+
+        # 将翻译后的文本按 "----" 分隔符分割回原始的字符串列表
+        return translated_text.split('----')
+    except Exception as e:
+        print(f"翻译错误：{e}")
+        return None
+
+# 读取文件并进行编码替换
 def read_file_to_memory(file_path, json_data):
     """ 将文件内容读取到内存中，并进行编码替换 """
-    # 读取文件内容到内存
     with open(file_path, 'r', encoding='utf-8') as f_in:
         content = f_in.read()  # 读取整个文件内容为一个字符串
-    
+
     # 使用 StringIO 创建虚拟文件
     virtual_file = io.StringIO(content)
-    
+
     # 读取虚拟文件的内容，并进行编码替换
     updated_lines = []
     for line in virtual_file:
@@ -48,38 +87,57 @@ def read_file_to_memory(file_path, json_data):
             if encoded_value in line:
                 line = line.replace(encoded_value, chinese_text)
         updated_lines.append(line)
-    
-    # 关闭虚拟文件
+
     virtual_file.close()
-    
     return updated_lines
 
-# 函数来请求翻译API
-def translate_text(text, target_lang):
-    # 如果文本在缓存字典中，直接返回对应的翻译
-    if text in translation_cache:
-        print(f"从缓存中获取翻译：{text} -> {translation_cache[text]}")
-        return translation_cache[text]
-    # 不在缓存中的文本，调用翻译API
-    api_url = 'https://translate.googleapis.com/translate_a/single'
-    params = {
-        'client': 'gtx',
-        'dt': 't',
-        'sl': 'auto',
-        'tl': target_lang,
-        'q': text
-    }
-    full_url = api_url + '?' + urlencode(params)
-    try:
-        response = urlopen(full_url)
-        data = response.read().decode('utf-8')
-        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        # 将新翻译的文本添加到缓存字典中
-        #translation_cache[text] = translated_text
-        return translated_text
-    except Exception as e:
-        print(f"翻译错误：{e}")
-        return None
+# 处理文件翻译流程
+def process_file(file_path, translatedto, json_data):
+    # 读取文件内容到内存
+    lines = read_file_to_memory(file_path, json_data)
+
+    # 匹配所有中文字符及其位置
+    chinese_matches = match_chinese_in_text(lines)
+
+    if not chinese_matches:
+        print("没有找到需要翻译的中文文本。")
+        return
+
+    # 提取所有中文字符
+    chinese_texts = [match[2] for match in chinese_matches]
+
+    # 翻译目标语言的文档
+    for lang in translatedto:
+        print(f"开始翻译为 {lang}...")
+        translated_results = []
+        batch_size = 15  # 每次批量翻译15个中文文本（表内的15个数组项）
+
+        # 将中文字符分批发送进行翻译
+        for i in range(0, len(chinese_texts), batch_size):
+            batch = chinese_texts[i:i+batch_size]
+            translated_batch = translate_text_batch(batch, lang)
+            if translated_batch:
+                translated_results.extend(translated_batch)
+
+        # 确保翻译数量和匹配中文数量一致
+        if len(translated_results) != len(chinese_matches):
+            print("翻译后的结果数量与匹配的中文数量不一致！")
+            return
+
+        # 从后往前替换中文文本，避免位置错乱
+        for i in range(len(chinese_matches) - 1, -1, -1):
+            line_number, start_index, original_text = chinese_matches[i]
+            translated_text = translated_results[i]
+            line = lines[line_number]
+            # 替换对应位置的中文文本
+            lines[line_number] = line[:start_index] + translated_text + line[start_index + len(original_text):]
+
+        # 新建或覆盖目标文件并保存翻译后的内容
+        output_path = os.path.join(os.path.dirname(file_path), f'docs/README_{lang}.md')
+        with open(output_path, 'w', encoding='utf-8') as f_out:
+            f_out.writelines(lines)
+        print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}'。")
+
 # 遍历 translatelist 中的每个条目
 for item in data['translatelist']:
     if not item.get('translated', False):  # 检查 translated 的值，如果为 False 则跳过
@@ -90,41 +148,9 @@ for item in data['translatelist']:
     translatedto = item['translatedto']
     # 读取要翻译的 README 文件
     readme_path = os.path.join(foldpath, translatefile)
-    #replace_encoded_with_utf8(readme_path, json_data)
+
     if not os.path.exists(readme_path):
         print(f'文件 {readme_path} 不存在，跳过翻译。')
         continue
-        
-    lines = read_file_to_memory(readme_path, json_data)
-    
-    # 提取中文文本进行翻译
-    blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
-    for lang in translatedto:
-        # 创建目标文件的路径
-        output_path = os.path.join(foldpath, f'docs/README_{lang}.md')
-        # 存储中文文本的位置和对应的翻译
-        translations = []
-        for line_number, line in enumerate(lines):
-            # 查找所有中文文本
-            for match in chinese_pattern.finditer(line):
-                chinese_text = match.group()
-                if chinese_text in blacklist:
-                    print(f"'{chinese_text}' 在黑名单中，跳过翻译。")
-                    continue  # 跳过此文本，不进行翻译
-                # 翻译中文文本
-                translated_text = translate_text(chinese_text, lang)
-                if translated_text is not None:
-                    # 记录中文文本的位置和翻译
-                    translations.append((line_number, chinese_text, translated_text))
-                  #  time.sleep(0.5)  # 添加请求间隔时间以防止被限制
-        # 替换文本中的中文部分为翻译后的文本
-        new_lines = []
-        for line_number, line in enumerate(lines):
-            # 将翻译后的中文文本替换为目标语言的翻译
-            for original_text, translated_text in [(text, trans) for ln, text, trans in translations if ln == line_number]:
-                line = line.replace(original_text, translated_text)
-            new_lines.append(line)  # 添加翻译后的行内容
-        # 新建或覆盖目标文件并保存翻译后的内容
-        with open(output_path, 'w', encoding='utf-8') as f_out:
-            f_out.writelines(new_lines)
-        print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}'。")
+
+    process_file(readme_path, translatedto, json_data)
