@@ -4,7 +4,7 @@ import os
 START_TAG = "<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->"
 END_TAG = "<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->"
 script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'NewImgIcon.md')
+NEW_CONTENT_PATH = os.path.join(script_dir, 'SHIELDS.md')
 
 def get_new_content():
     with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as file:

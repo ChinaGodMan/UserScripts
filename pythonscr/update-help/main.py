@@ -4,7 +4,7 @@ import os
 START_TAG = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->"
 END_TAG = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->"
 script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'NewUserScriptslist.md')
+NEW_CONTENT_PATH = os.path.join(script_dir, 'HELP.md')
 
 def get_new_content():
     with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as file:
