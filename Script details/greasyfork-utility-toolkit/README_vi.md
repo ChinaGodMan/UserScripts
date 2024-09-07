@@ -1,6 +1,6 @@
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
+<h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>đầy tớ của nhân dân/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Tổng số lượt cài đặt của tất cả các tập lệnh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Số lượng cài đặt tập lệnh ngày hôm nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -223,7 +223,7 @@ vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ
 > - [**GreasyFork Hiển thị xếp hạng kịch bản**](https://greasyfork.org/scripts/501119): Thêm điểm đánh giá vào danh sách tập lệnh
 > - [**GreasyFork Tìm kiếm nâng cao**](https://greasyfork.org/scripts/505215): Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp 
-> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
+> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
 > - [**GreasyforkThợ keo**](https://greasyfork.org/scripts/497346): Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác
 > - [**Greasyfork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
 > - [**Script FinderCông cụ tìm tập lệnh Grease Monkey**](https://greasyfork.org/scripts/498904): Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào
