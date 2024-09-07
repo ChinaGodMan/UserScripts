@@ -92,6 +92,7 @@ def read_file_to_memory(file_path, json_data):
     return updated_lines
 
 # 处理文件翻译流程
+# 处理文件翻译流程
 def process_file(file_path, translatedto, json_data):
     # 读取文件内容到内存
     lines = read_file_to_memory(file_path, json_data)
@@ -116,13 +117,13 @@ def process_file(file_path, translatedto, json_data):
         for i in range(0, len(chinese_texts), batch_size):
             batch = chinese_texts[i:i+batch_size]
             translated_batch = translate_text_batch(batch, lang)
-            if translated_batch:
-                translated_results.extend(translated_batch)
 
-        # 确保翻译数量和匹配中文数量一致
-        if len(translated_results) != len(chinese_matches):
-            print("翻译后的结果数量与匹配的中文数量不一致！")
-            return
+            # 检查返回的翻译结果是否与批量发送的文本数量一致
+            if translated_batch and len(translated_batch) == len(batch):
+                translated_results.extend(translated_batch)
+            else:
+                print(f"翻译错误：返回的翻译数量与发送的文本数量不一致！批次从索引 {i} 开始。")
+                return
 
         # 从后往前替换中文文本，避免位置错乱
         for i in range(len(chinese_matches) - 1, -1, -1):
