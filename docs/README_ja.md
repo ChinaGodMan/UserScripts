@@ -173,7 +173,7 @@
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
-                    <mark>詳しい</mark>
+                    <mark>詳細</mark>
                 </a>
             </td>
             <td>ファックユー CSDN ログインコピー，ログインせずにコードボックスの内容をコピーする</td>
@@ -638,8 +638,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-07 08:40:18</sub></td>
-             <td><sub>1.2.0.6</sub></td>
+            <td><sub>2024-09-07 09:32:22</sub></td>
+             <td><sub>1.3.0.0</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
