@@ -94,77 +94,33 @@
 // ==/UserScript==
 (function () {
     'use strict'
-
-    const DEBOUNCE_DELAY = 300
     const POLL_INTERVAL = 1000
-    const HUE_RANGE = 120
+    const HUE_RANGE = 120 // Hue range for the gradient (green to red or red to green)
     const SATURATION = '80%'
     const LIGHTNESS = '88%'
-
-    function extractFirstFloat(str) {
-        const match = str.match(/[-+]?\d*\.?\d+/)
-        return match ? parseFloat(match[0]) : NaN
-    }
-
-    function applyGradient(table, column) {
-        const values = Array.from(table.rows)
-            .map(row => row.cells[column])
-            .filter(cell => cell)
-            .map(cell => extractFirstFloat(cell.textContent || cell.innerText))
-            .filter(val => !isNaN(val))
-
-        if (values.length === 0) return
-
-        const min = Math.min(...values)
-        const max = Math.max(...values)
-        if (min === max) return
-
-        const headerCell = table.rows[0]?.cells[column]
-        if (!headerCell) return
-
-        headerCell.gradient_fill_increase = !headerCell.gradient_fill_increase
-        const isIncreasing = headerCell.gradient_fill_increase
-
-        Array.from(table.rows).forEach(row => {
+    function applyGradientToColumn(table, column) {
+        const rowCount = table.rows.length
+        Array.from(table.rows).forEach((row, index) => {
             const cell = row.cells[column]
             if (!cell) return
-
-            const value = extractFirstFloat(cell.textContent || cell.innerText)
-            if (isNaN(value)) return
-
-            const hue = isIncreasing
-                ? HUE_RANGE - ((value - min) / (max - min)) * HUE_RANGE
-                : ((value - min) / (max - min)) * HUE_RANGE
-
-            cell.style.backgroundColor = `hsl(${hue}, ${SATURATION}, ${LIGHTNESS})`
+            // Calculate a hue based on the row index (no need to rely on cell content)
+            const hue = (index / (rowCount - 1)) * HUE_RANGE
+            // Apply the gradient color to the cell
+            cell.style.backgroundColor = `hsl(${HUE_RANGE - hue}, ${SATURATION}, ${LIGHTNESS})`
         })
     }
-
-    function debounce(func, delay) {
-        let timeoutId
-        return function (...args) {
-            clearTimeout(timeoutId)
-            timeoutId = setTimeout(() => func.apply(this, args), delay)
-        }
-    }
-
     function initializeTable(table) {
         if (table.hasAttribute('data-gradient-initialized')) return
         table.setAttribute('data-gradient-initialized', 'true')
-
-        table.addEventListener('click', debounce(event => {
-            const column = event.target.cellIndex
-            if (column !== undefined) {
-                applyGradient(table, column)
-            }
-        }, DEBOUNCE_DELAY))
+        const columnCount = table.rows[0]?.cells.length || 0
+        for (let col = 0; col < columnCount; col++) {
+            applyGradientToColumn(table, col)
+        }
     }
-
     function initializeTables() {
         document.querySelectorAll('table:not([data-gradient-initialized])').forEach(initializeTable)
     }
-
-    // Initial call and setup interval
+    // Initial call and setup interval to handle dynamically loaded tables
     initializeTables()
     setInterval(initializeTables, POLL_INTERVAL)
 })()
