@@ -13,12 +13,16 @@
             "translated": true
         },
         {
-            "foldpath": "Script details/GreasyFork User Control Panel Button/",
-            "translatefile": "README.md",
+            "foldpath": "",
+            "translatefile": "Script details/greasyfork-utility-toolkit/README.md",
             "translatedto": [
-                "zh-TW"
+                "zh-TW",
+                "en",
+                "ko",
+                "vi",
+                "ja"
             ],
-            "translated": false
+            "translated": true
         },
         {
             "foldpath": "Script details/移除链接下划线/",
