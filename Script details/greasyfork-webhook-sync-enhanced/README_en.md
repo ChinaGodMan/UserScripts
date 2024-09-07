@@ -18,14 +18,14 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GreaysFork Enhance WebHookSync settings</h1>
-    <p>「 This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。 」</p>
+    <h1>GreaysFork 增强 WebHook同步设置</h1>
+    <p>「 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。 」</p>
     <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>Return after each submissionGreasyForkSync tips..</em></li>
-<li><strong>2024/9/4 11:52 - Ver: 1.0.0.0</strong> <em>initial version.Welcome.</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>每次提交后返回GreasyFork同步提示..</em></li>
+<li><strong>2024/9/4 11:52 - Ver: 1.0.0.0</strong> <em>初始版本.欢迎使用.</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>

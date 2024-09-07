@@ -18,21 +18,21 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>Google Advanced search</h1>
-    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。 」</p>
+    <h1>Google 高级搜索</h1>
+    <p>「 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
+            Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>
 <li>
-<p><em><mark>Add script icon</mark></em></p>
+<p><em><mark>增加脚本图标</mark></em></p>
 </li>
 <li>
 <p><strong>2024/8/5 10:26 - Ver: 0.1.9</strong></p>
 </li>
-<li><em><mark>question: Advanced search box cannot be displayed on mobile devices</mark></em></li>
-<li><em><mark>How to fix it：The code below is onlyPCValid on the terminal</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
+<li><em><mark>问题: 移动设备无法显示高级搜索框</mark></em></li>
+<li><em><mark>修复方式：下面代码仅在PC端生效</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>

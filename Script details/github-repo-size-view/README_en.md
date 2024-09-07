@@ -18,22 +18,22 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>githubShow warehouse size</h1>
-    <p>「 existGithubShow warehouse size when viewing and searching warehouses 」</p>
+    <h1>github显示仓库大小</h1>
+    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
+            Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/8/20 05:28 - Ver: 0.1.2.26</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>Use the setup interface of this script。</mark></em></li>
+<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>使用该脚本的设置界面。</mark></em></li>
 <li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>
-<li><em><mark>Add script menu→set upGitHubTokeninterface,No need to modify within the code.</mark></em></li>
+<li><em><mark>增加脚本菜单→设置GitHubToken界面,无需在代码内修改.</mark></em></li>
 <li><strong>2024/8/12 21:56 - Ver: 0.1.2.17</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>Added to user profile repository list andorgList shows warehouse size.</mark></em></li>
+<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>增加在用户资料仓库列表和org列表显示仓库大小.</mark></em></li>
 <li><strong>2024/8/5 05:18 - Ver: 0.1.2.8</strong></li>
-<li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>The original author’s token is invalid and the public repository cannot be accessed..<mark>How to fix it：Remove original author token, GithubGenerated public tokens are always cleared, Just don’t add it</mark></em></li>
+<li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>原作者令牌失效导致无法访问公共仓库.<mark>修复方式：删除原作者令牌, Github生成的公共令牌总是被清除, 干脆不添加得了</mark></em></li>
 <li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
-<li><em><mark>Fix the problem of failure in search page<br>Fixed the problem of not displaying when viewing other warehouses（increase delay）</mark></em></li>
+<li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>

@@ -19,112 +19,112 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>Greasyfork糊裱匠</h1>
-    <p>「 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします 」</p>
+    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新記録</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>スクリプトの詳細ページ,すべてのスクリプトのリストが追加されました<code>脚本の評価</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>互換性を修正.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>スクリプトリストの上部にダウンロードボタンを追加しました,クリックしてすべてのスクリプトをダウンロードします</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>脚本详情页,所有脚本列表添加<code>脚本评分</code>.</em></li>
+<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修复兼容性.</em></li>
+<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在脚本列表顶部添加下载按钮,点击下载所有脚本</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>最適化：スクリプト一覧アイコンの表示位置を最適化</em></p>
+<p><em>优化：优化脚本列表图标显示位置</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>最適化：設定インターフェースコードの最適化</em></p>
+<p><em>优化：优化设置界面代码</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
 </li>
 <li>
-<p><em>修理：モバイルデバイスでスクリプト設定インターフェイスが正しく表示されない問題を修正しました</em></p>
+<p><em>修复：修正脚本设置界面在移动设备上显示错乱问题</em></p>
 </li>
 <li>
 <p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
 </li>
 <li>
-<p><em>新しい：ベトナム語言語パックを追加，ありがとうネチズン <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻訳する</em></p>
+<p><em>新增：增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译</em></p>
 </li>
 <li>
 <p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
 </li>
 <li>
-<p><em>新しい：増加 WebHook ページクイックジャンプスクリプト管理</em></p>
+<p><em>新增：增加 WebHook 页快捷跳转脚本管理</em></p>
 </li>
 <li>
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>修理：監視ルールの変更により動的監視が失敗する問題を修正しました</em></p>
+<p><em>修复：修复监听规则变化导致动态监听失败</em></p>
 <ul>
-<li><em>監視ルールの追加：<code>user-script-list-section browse-script-list</code></em></li>
+<li><em>监听规则增加：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
 </li>
 <li>
-<p><em>コピー <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 新しい CSS</em></p>
+<p><em>复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS</em></p>
 </li>
 <li>
 <p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
 </li>
 <li>
-<p><em>新しい：</em></p>
+<p><em>新增：</em></p>
 <ul>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 2列表示のスクリプト</em></li>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> ナビゲーションバーを美しくする</em></li>
-<li><em>固定ウェブサイトのサイドアクションバーを追加</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏</em></li>
+<li><em>增加固定网站侧边操作栏</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
 </li>
 <li>
-<p><em>新しい：伝統的な言語を完全にサポート</em></p>
+<p><em>新增：完全的繁体语言支持</em></p>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>サイドナビゲーションバースイッチを追加</em></li>
-<li><em>イメージプロキシを追加（有効にすると互換性がありません <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 画像の閲覧）</em></li>
+<li><em>新增：</em><ul>
+<li><em>增加侧边导航栏开关</em></li>
+<li><em>增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）</em></li>
 </ul>
 </li>
 <li>
-<p><em>修理：</em></p>
+<p><em>修复：</em></p>
 <ul>
-<li><em>モバイルデバイスで画像がブラウザ外で表示される問題を修正しました</em></li>
-<li><em>コード編集時に美化チェックを自動で行うように修正</em></li>
+<li><em>修复在移动设备上浏览图片超出浏览器外的问题</em></li>
+<li><em>修改在编辑代码时自动勾选美化</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>ナビゲーションバーの拡張を追加する "もっと"</em></li>
-<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 強化する</a> サイドナビゲーションバーの</em></li>
+<li><em>新增：</em><ul>
+<li><em>添加导航栏展开 "更多"</em></li>
+<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏</em></li>
 </ul>
 </li>
 <li>
-<p><em>最適化：複数言語のサポートを改善する</em></p>
+<p><em>优化：完善对多语言的支持</em></p>
 </li>
 <li>
 <p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
 </li>
-<li><em>新しい：</em><ul>
-<li><em>自動ログインを追加する <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a></em></li>
+<li><em>新增：</em><ul>
+<li><em>增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></em></li>
 </ul>
 </li>
-<li><em>修理：</em><ul>
-<li><em>表示リスト上のスクリプトのインストールステータスを修正</em></li>
+<li><em>修复：</em><ul>
+<li><em>修复显示列表上的脚本安装状态</em></li>
 </ul>
 </li>
-<li><em>最適化：複数言語のサポートを改善する</em></li>
+<li><em>优化：完善对多语言的支持</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>

@@ -18,8 +18,8 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GreasyFork 導覽列增強</h1>
-    <p>「 增強greasyfork導覽列,增加用戶列表,使用者控制台等 」</p>
+    <h1>GreasyFork 导航栏增强</h1>
+    <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy

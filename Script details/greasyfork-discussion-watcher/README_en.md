@@ -18,16 +18,16 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>Greasyfork Notification assistant</h1>
-    <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
+    <h1>Greasyfork 通知助手</h1>
+    <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/7 09:06 - Ver: 1.3.0.0</strong> <em>Use the site’s discussion list instead,Add categories to information</em></li>
-<li><strong>2024/9/4 04:39 - Ver: 1.2.0.0</strong> <em>Added grease monkey menu to set the maximum number of messages,Added skip last speaker is<code>Own</code></em></li>
-<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>Added oil monkey menu to set refresh time</em></li>
-<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>initial version,Welcome</em></li>
+            Fork</a></p><details><summary>更新记录</summary><ul>
+<li><strong>2024/9/7 09:06 - Ver: 1.3.0.0</strong> <em>改为使用网站的讨论列表,增加在信息内添加分类</em></li>
+<li><strong>2024/9/4 04:39 - Ver: 1.2.0.0</strong> <em>增加设置最大消息数量的油猴菜单,增加跳过最后发言人是<code>自己</code></em></li>
+<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>增加设置刷新时间的油猴菜单</em></li>
+<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>
