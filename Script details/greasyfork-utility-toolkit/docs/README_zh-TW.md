@@ -13,7 +13,7 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center></div></center></div></center></div></center></div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center></div></center></div></center></div></center></div></center></div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
     <h1>Greasyfork膠水工匠</h1>
     <p>「 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作 」</p>
