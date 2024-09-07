@@ -17,63 +17,63 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=Tổng số lượt cài đặt của tất cả các tập lệnh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Number of all script installations today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Số lượng tập lệnh&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=Tất cả các đánh giá tích cực&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Tất cả chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=Tất cả các đánh giá tiêu cực&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=ngôi sao&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=すべてのスクリプトの合計インストール数&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=今日のすべてのスクリプトのインストール数&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=スクリプトの数&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=すべての肯定的なレビュー&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=すべて一般的&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=すべての否定的なレビュー&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=星&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Ngôi sao nhỏ để khuyến khích,Ngôi sao nhỏ để khuyến khích↑Ngôi sao nhỏ để khuyến khích</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">励ます小さな星,励ます小さな星↑励ます小さな星</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-**Cảm ơn cư dân mạng，Cảm ơn cư dân mạng.Cảm ơn cư dân mạng**
-**Liên hệ phải được xóa,Liên hệ phải được xóa**
+**ありがとうネチズン，ありがとうネチズン.ありがとうネチズン**
+**連絡先を削除する必要があります,連絡先を削除する必要があります**
 
-##  [<mark style="background-color: yellow; color: green;">Duyệt thư mục tập lệnh để biết chi tiết</mark>](/Script%20details)   
+##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
   
 
-## danh sách kịch bản
+## スクリプトリスト
 
 <table>
     <thead>
         <tr>
-            <th>Tên tập lệnh</th>
-            <th>Mô tả kịch bản</th>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
             <th>GitHub</th>
             <th>Greasyfork</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">Thời gian phát hành</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">Thời gian cập nhật</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">phiên bản mới nhất</th>
-            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">Được tạo lần đầu tiên</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
         </tr>
     </thead>
     <tbody>
 <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPTKích thước phông chữ mã giảm</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPTコードのフォントサイズが小さくなりました</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-code-styling" target="_blank">
-                    <mark>chi tiết</mark>
+                    <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Kích thước phông chữ mã trở nên nhỏ hơn ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn</td>
+            <td>コードのフォントサイズが小さくなる ChatGPT コードのフォントサイズが小さくなる</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
-                    <br>Cài đặt
+                    <br>インストール
                 </a>
             </td>
             <td>
                 <a href="https://update.greasyfork.org/scripts/505209.user.js">
                     <img src="https://img.shields.io/greasyfork/dt/505209?color=%23990000&label=Installs">
-                    <br>Cài đặt
+                    <br>インストール
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
@@ -84,11 +84,11 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT bộ đếm ký tự</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT 文字カウンター</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter" target="_blank">
-                    <mark>chi tiết</mark>
+                    <mark>詳しい</mark>
                 </a>
             </td>
             <td>添加一キャラクター计数器到输入框，キャラクター 32732 キャラクター。（ChatGPT キャラクター 32732 キャラクター。）</td>
