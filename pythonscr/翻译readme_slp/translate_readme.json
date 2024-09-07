@@ -13,8 +13,8 @@
             "translated": true
         },
         {
-            "foldpath": "",
-            "translatefile": "Script details/greasyfork-utility-toolkit/README.md",
+            "foldpath": "Script details/greasyfork-utility-toolkit/",
+            "translatefile": "README.md",
             "translatedto": [
                 "zh-TW",
                 "en",
