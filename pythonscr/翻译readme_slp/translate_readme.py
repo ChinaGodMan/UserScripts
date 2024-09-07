@@ -1,3 +1,88 @@
+import os
+import json
+import re
+import time
+import io
+import threading
+from urllib.parse import urlencode
+from urllib.request import urlopen
+
+# 正则表达式匹配中文字符
+chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
+
+# 全局翻译缓存字典
+translation_cache = {
+    "复刻": "Fork",
+    "问题": "issues",
+    # 可以继续添加其他常见的翻译
+}
+
+# 翻译字典，用于替换特定编码内容
+json_data = {
+    "所有脚本总安装数": "%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0",
+    "今日所有脚本安装数": "%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0",
+    "脚本数量": "%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F",
+    "所有好评": "%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84",
+    "所有一般": "%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC",
+    "所有差评": "%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84",
+    "星标": "%E6%98%9F%E6%A0%87",
+    "复刻": "%E5%A4%8D%E5%88%BB",
+    "问题": "%E9%97%AE%E9%A2%98",
+    "联系": "%E8%81%94%E7%B3%BB"
+}
+
+# 翻译函数
+def translate_text(text, target_lang):
+    if text in translation_cache:
+        print(f"从缓存中获取翻译：{text} -> {translation_cache[text]}")
+        return translation_cache[text]
+    
+    api_url = 'https://translate.googleapis.com/translate_a/single'
+    params = {
+        'client': 'gtx',
+        'dt': 't',
+        'sl': 'auto',
+        'tl': target_lang,
+        'q': text
+    }
+    full_url = api_url + '?' + urlencode(params)
+    try:
+        response = urlopen(full_url)
+        data = response.read().decode('utf-8')
+        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        return translated_text
+    except Exception as e:
+        print(f"翻译错误：{e}")
+        return None
+
+# 读取文件并查找中文文本
+def read_file_to_memory(file_path, json_data):
+    with open(file_path, 'r', encoding='utf-8') as f_in:
+        content = f_in.read()
+    
+    virtual_file = io.StringIO(content)
+    updated_lines = []
+    for line in virtual_file:
+        for chinese_text, encoded_value in json_data.items():
+            if encoded_value in line:
+                line = line.replace(encoded_value, chinese_text)
+        updated_lines.append(line)
+    
+    virtual_file.close()
+    return updated_lines
+
+# 翻译锁，确保多个线程不会同时修改 translations
+translation_lock = threading.Lock()
+
+# 用于保存翻译结果的线程函数
+def translate_worker(chinese_texts, translations, lang):
+    for idx, chinese_text in chinese_texts:
+        translated_text = translate_text(chinese_text, lang)
+        if translated_text:
+            # 使用锁确保线程安全地修改 translations
+            with translation_lock:
+                translations[(idx, chinese_text)] = translated_text
+
 # 翻译特定语言的函数（并行处理每种语言）
 def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
     translations = {}  # 每种语言有自己的翻译结果
@@ -75,3 +160,13 @@ def translate_readme(data, json_data):
         for thread in language_threads:
             thread.join()
 
+
+# 示例 JSON 数据读取与处理
+script_dir = os.path.dirname(os.path.abspath(__file__))
+NEW_CONTENT_PATH = os.path.join(script_dir, 'translate_readme.json')
+
+with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+# 开始翻译
+translate_readme(data, json_data)
