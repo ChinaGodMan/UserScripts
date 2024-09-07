@@ -483,7 +483,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Toolbar introduction Markdown Toolbar introduction，Toolbar introduction Markdown Toolbar introduction</td>
+            <td>Add format help link and Markdown Add format help link and，Add format help link and Markdown Add format help link and</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -1013,7 +1013,7 @@
 
 ---
 
-## Use script/Use script？
+## How to install/How to install？
 
 Script Manager Extension，Script Manager Extension **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
