@@ -111,11 +111,15 @@ def translate_readme(data, json_data):
         for lang in translatedto:
             translations = {}  # 每次针对单一语言创建一个新字典
             threads = []
-            thread = threading.Thread(target=translate_worker, args=(chinese_texts, translations, lang))
-            threads.append(thread)
-            thread.start()
+            # 让每个线程翻译部分的中文文本
+            chunk_size = len(chinese_texts) // 5 or 1  # 假设5个线程，按块划分
+            for i in range(0, len(chinese_texts), chunk_size):
+                chunk = chinese_texts[i:i + chunk_size]
+                thread = threading.Thread(target=translate_worker, args=(chunk, translations, lang))
+                threads.append(thread)
+                thread.start()
 
-            # 等待线程完成
+            # 等待所有线程完成
             for thread in threads:
                 thread.join()
 
