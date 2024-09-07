@@ -23,6 +23,9 @@ json_data = {
     "联系": "%E8%81%94%E7%B3%BB"
 }
 
+# 黑名单：不需要翻译的中文文本
+blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
+
 # 翻译函数
 def translate_text(text, target_lang):
     # 模拟调用翻译 API
@@ -114,12 +117,13 @@ def process_file(root, file, lang_code):
     # 替换编码内容为中文
     lines = replace_encoded_with_utf8(lines, json_data)
 
-    # 保存中文文本的位置信息
+    # 保存中文文本的位置信息，跳过黑名单
     chinese_texts = []
     for line_number, line in enumerate(lines):
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
-            chinese_texts.append((line_number, chinese_text))
+            if chinese_text not in blacklist:
+                chinese_texts.append((line_number, chinese_text))
 
     # 翻译并保存结果，覆盖原文件
     translate_and_save(lines, chinese_texts, lang_code, file_path)
