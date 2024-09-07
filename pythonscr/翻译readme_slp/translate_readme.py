@@ -50,7 +50,6 @@ def translate_text(text, target_lang):
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
         translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        #translation_cache[text] = translated_text  # 保存到缓存中
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
@@ -108,30 +107,31 @@ def translate_readme(data, json_data):
                 if chinese_text not in blacklist:
                     chinese_texts.append((line_number, chinese_text))
 
-        # 多线程翻译
-        translations = {}
-        threads = []
+        # 针对每个语言，单独创建一个 translations 字典
         for lang in translatedto:
+            translations = {}  # 每次针对单一语言创建一个新字典
+            threads = []
             thread = threading.Thread(target=translate_worker, args=(chinese_texts, translations, lang))
             threads.append(thread)
             thread.start()
 
-        # 等待所有线程完成
-        for thread in threads:
-            thread.join()
+            # 等待线程完成
+            for thread in threads:
+                thread.join()
 
-        # 从后往前替换中文文本
-        new_lines = lines[:]
-        for line_number, chinese_text, translated_text in reversed(
-                [(ln, ct, translations.get(ln, None)) for ln, ct in chinese_texts if ln in translations]):
-            new_lines[line_number] = new_lines[line_number].replace(chinese_text, translated_text)
+            # 从后往前替换中文文本
+            new_lines = lines[:]
+            for line_number, chinese_text, translated_text in reversed(
+                    [(ln, ct, translations.get(ln, None)) for ln, ct in chinese_texts if ln in translations]):
+                new_lines[line_number] = new_lines[line_number].replace(chinese_text, translated_text)
 
-        # 保存翻译后的文件
-        for lang in translatedto:
+            # 保存翻译后的文件
             output_path = os.path.join(foldpath, f'docs/README_{lang}.md')
             with open(output_path, 'w', encoding='utf-8') as f_out:
                 f_out.writelines(new_lines)
             print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}'。")
+
+            # 每次翻译完成一个语言，清除 translations，确保不会互相影响
             translations.clear()
 
 # 示例 JSON 数据读取与处理
