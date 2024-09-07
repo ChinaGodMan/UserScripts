@@ -26,13 +26,13 @@
 <li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>Added a download button at the top of the script list,Click to download all scripts</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>optimization：optimizationScript list icon display position</em></p>
+<p><em>optimization：Optimize the display position of the script list icon</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>optimization：optimizationSet interface code</em></p>
+<p><em>optimization：Optimize setting interface code</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
@@ -56,7 +56,7 @@
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>repair：repairDynamic monitoring fails due to changes in monitoring rules</em></p>
+<p><em>repair：Fixed the issue of dynamic monitoring failure caused by changes in monitoring rules</em></p>
 <ul>
 <li><em>Monitoring rules added：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
@@ -126,9 +126,9 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
 
-## Script Overview:
+## Script function
 
-Provide various usage functions for Greasyfork, absolute time, web page widescreen, script page enhancement, download extension, panel repair and a series of operations. This script is collected from the website.
+for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations。This script is collected from the website。
 >![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
 ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
 ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
@@ -136,116 +136,101 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
+  <p><a href="#:~:text=Update information">CheckGreasyfork The version update record of the poster maker</a></p>
 
 ---
 
-## Features
+## Function introduction
+### Script details
 
-### Script Details
+- Switch between document view and web view
+- Copy code
+- show script icon
+- Clear icon cache
+- Script history added installation
+- Add download button
+- Script code displays row number
+- Sort script list by creation date
+- Copy library declaration
+- Show the number of referenced files
+- Copy short link
+- Beautify code snippets
+- Beautify view code
 
-- Switch Document View and Web View
-- Copy Code
-- Show Script Icon
-- Clear Icon Cache
-- Add Installation to Script History
-- Add Download Button
-- Display Line Numbers for Script Code
-- Sort Script List by Creation Date
-- Copy Library Declaration
-- Show Number of Referenced Files
-- Copy Short Link
-- Beautify Code Snippets
-- Beautify Code View
+### script list
 
-### Script List
+- List display installation downloads
+- Lock language settings
+- Show ratings
+- Show source code
+- Use legacy list
+- Show all language scripts
+- Move sidebar
+- Sort script list by creation date
 
-- Display Installation and Download in List
-- Lock Language Settings
-- Show Ratings
-- Show Source Code
-- Use Old Version of List
-- Show Scripts in All Languages
-- Move Sidebar
-- Sort Script List by Creation Date
+### Beautify controls
 
-### Beautify Controls
+- Control beautification
+- Beautify select box and radio button labels
 
-- Beautify Controls
-- Beautify Select Box and Radio Button Labels
+### Applicable to
 
-### Applicable To
+- Enable enhancement
+- New window opens
+- The number of scripts displayed in the forum
+- Details apply to open:
+  - Forum search
+  - Web page opens
+  - Pop up prompt
 
-- Enable Enhancement
-- Open in New Window
-- Show Number of Scripts on Forum
-- Details Applicable To:
-  - Forum Search
-  - Open Webpage
-  - Popup Tip
+### Personal homepage
 
-### Personal Homepage
+- Clean up old home page content
+- Number of days to clean the homepage
+- Home page script addition operation
+- Hide recent comments
+- Home page shows statistics
 
-- Clean Up Old Homepage Content
-- Days to Clean Homepage Content
-- Add Scripts to Homepage
-- Hide Recent Comments
-- Display Statistics on Homepage
+### Navigation bar
 
-### Navigation Bar
+- Added option to publish new scripts
+- Jump to adult script
+- Fix navigation bar style
+- Add to the navigation bar to open this interface
+- Navigation bar alignment
 
-- Add Option to Publish New Script
-- Link to Adult Scripts
-- Fix Navigation Bar Style
-- Add "Open This Page" to Navigation Bar
-- Align Navigation Bar
+### website
 
-### Website
-
-- Automatically Apply Code Editor Beautification
-- Open Links in New Tab
-- Precise Date
-- Maximize Website View
-- One-Click Report
-- Local Code Highlighting
-- Hide Icon
-- Show Icon
-- Grayscale Read Comments
-- Hide Read Comments
-- Side Navigation Bar
-- Image Proxy
-
----
-
-## Thank you
-
-### Quote script
-
-- [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
-- [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
-- [Greasyfork excellentchange](https://greasyfork.org/zh-CN/scripts/411837)
-- [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
-- [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
-- [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
-- [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
-- [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
-- [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
-- [foldstack greasyfork PassExpectdiscussArgument](https://greasyfork.org/scripts/426549/)
-- [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
-- [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
-- [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
-- [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
-- [Greasyfork beautifulchange](https://greasyfork.org/zh-CN/scripts/446849)
-- [Greasy Fork increasepowerful](https://greasyfork.org/scripts/467078)
-- [Greasy Fork URL footbooknamesayclearreason](https://greasyfork.org/scripts/431940)
-- [Greasyfork excellentchange](https://greasyfork.org/zh-CN/scripts/475722)
-- [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
-- [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
-- [GreasyFork onekeytimesnewspapergarbagegarbagecommentArgument](https://greasyfork.org/scripts/474395)
-
+- Automatically enable code editing box beautification
+- Open link in new tab
+- precise date
+- Maximize website browsing
+- One-click report
+- local code highlighting
+- Hide icon
+- show icon
+- Grayscale has read the comments
+- Hide read comments
+- Side navigation bar
+- Agent user picture
 
 ---
 
-## Photos:
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+> ### GreasyForkRelated scripts
+> - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
+> - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
+> - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
+> - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
+> - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
+> - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
+## Picture display:
 
 ![nav.png](https://s2.loli.net/2024/08/05/ePCZp6TINsnLyht.png)
 ![maxw.png](https://s2.loli.net/2024/08/05/NuKCdETWZ8epkVO.png)
@@ -264,19 +249,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 ---
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GreasyForkRelated scripts
-> - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
-> - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add toFormatHelp links and Markdown Toolbar introduction
-> - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
-> - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation bar enhancement**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console, etc.
-> - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
-> - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
-> - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
