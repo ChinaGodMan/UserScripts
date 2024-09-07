@@ -75,7 +75,7 @@
 // @description:fr-CA ChatGPT Rendre la police du code plus petite et envelopper automatiquement
  
 // @namespace   https://greasyfork.org/users/1169082/
-// @version 0.1.0.17
+// @version 0.1.0.18
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @grant        none
