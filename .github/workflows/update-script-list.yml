@@ -38,7 +38,7 @@ jobs:
           echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
           echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 拉取最新更改
+      - name: 拉取最新更改 就这样了,拉一下,防止同时运行多个流程
         run: |
           git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
@@ -62,7 +62,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '更新脚本列表' || echo "没有需要提交的更改"
+          git commit -m '仓库更新→docs/README.md' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
