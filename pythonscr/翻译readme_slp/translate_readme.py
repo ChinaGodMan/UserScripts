@@ -132,6 +132,7 @@ def translate_readme(data, json_data):
             with open(output_path, 'w', encoding='utf-8') as f_out:
                 f_out.writelines(new_lines)
             print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}'。")
+            translations.clear()
 
 # 示例 JSON 数据读取与处理
 script_dir = os.path.dirname(os.path.abspath(__file__))
