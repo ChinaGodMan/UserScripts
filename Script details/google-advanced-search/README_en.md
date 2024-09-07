@@ -79,7 +79,7 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GoogleRelated scripts
-> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add toAdvanced searchForm user script。它能在页面顶部Add to一个可隐藏的Advanced searchform，Enable you to search for information more precisely。
+> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add toAdvanced searchForm user script。it can be at the top of the pageAdd toa hideableAdvanced searchform，Enable you to search for information more precisely。
 > - [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
