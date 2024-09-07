@@ -223,7 +223,7 @@ vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ
 > - [**GreasyFork Hiển thị xếp hạng kịch bản**](https://greasyfork.org/scripts/501119): Thêm điểm đánh giá vào danh sách tập lệnh
 > - [**GreasyFork Tìm kiếm nâng cao**](https://greasyfork.org/scripts/505215): Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên 
-> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
+> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
 > - [**GreasyforkThợ keo**](https://greasyfork.org/scripts/497346): Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác
 > - [**Greasyfork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
 > - [**Script FinderCông cụ tìm tập lệnh Grease Monkey**](https://greasyfork.org/scripts/498904): Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào
