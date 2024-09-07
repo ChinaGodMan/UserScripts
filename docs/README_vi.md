@@ -27,12 +27,12 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Ngôi sao nhỏ để khuyến khích,Ngôi sao nhỏ để khuyến khích↑Ngôi sao nhỏ để khuyến khích</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Nếu kịch bản giúp bạn,Tôi có thể cho một cái↑Ngôi sao nhỏ để khuyến khích</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-**Cảm ơn cư dân mạng，Cảm ơn cư dân mạng.Cảm ơn cư dân mạng**
-**Liên hệ phải được xóa,Liên hệ phải được xóa**
+**Kịch bản đến từ đông đảo cư dân mạng trên Internet，Tôi vừa thực hiện một số thay đổi.Cảm ơn cư dân mạng**
+**Nếu có sự vi phạm,Liên hệ phải được xóa**
 
 ##  [<mark style="background-color: yellow; color: green;">Duyệt thư mục tập lệnh để biết chi tiết</mark>](/Script%20details)   
   
@@ -63,7 +63,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Kích thước phông chữ mã trở nên nhỏ hơn ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn</td>
+            <td>cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -91,7 +91,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>添加一nhân vật计数器到输入框，nhân vật 32732 nhân vật。（ChatGPT nhân vật 32732 nhân vật。）</td>
+            <td>添加一nhân vật计数器到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -119,7 +119,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Giữ tin nhắn dài không vượt quá phạm vi được chỉ định，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。Giữ tin nhắn dài không vượt quá phạm vi được chỉ định，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。</td>
+            <td>Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -147,7 +147,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hướng dẫn tạm thời màu cam，hướng dẫn tạm thời màu cam，hướng dẫn tạm thời màu cam，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -168,14 +168,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">Hạn chế sao chép đăng nhậpCSDNHạn chế sao chép đăng nhập</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">Thang máyCSDNHạn chế sao chép đăng nhập</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Sao chép nội dung hộp mã mà không cần đăng nhập CSDN Sao chép nội dung hộp mã mà không cần đăng nhập，Sao chép nội dung hộp mã mà không cần đăng nhập</td>
+            <td>chết tiệt bạn CSDN Đăng nhậpSao chép，Sao chép nội dung hộp mã mà không cần đăng nhập</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker.user.js?style=social" alt="size">
@@ -231,7 +231,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn GitHub Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn HTML Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn、Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn HTML Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
+            <td>Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -259,7 +259,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>thư mục，thư mục GitHub thư mục。</td>
+            <td>Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
@@ -287,7 +287,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>và tải về các tập tin，và tải về các tập tin URL và tải về các tập tin</td>
+            <td>Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?style=social" alt="size">
@@ -315,7 +315,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Hiển thị kích thước kho khi xem và tìm kiếm khoGithubHiển thị kích thước kho khi xem và tìm kiếm kho</td>
+            <td>hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
@@ -343,7 +343,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Xem thuận tiện các tập tin cập nhật mới nhất，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -371,7 +371,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Giúp bạn tìm kiếm thông tin chính xác hơn Google Giúp bạn tìm kiếm thông tin chính xác hơn。Giúp bạn tìm kiếm thông tin chính xác hơn，Giúp bạn tìm kiếm thông tin chính xác hơn。</td>
+            <td>Đây là một cho Google Thêm tập lệnh người dùng cho biểu mẫu tìm kiếm nâng cao。Nó thêm một biểu mẫu tìm kiếm nâng cao có thể ẩn ở đầu trang，Giúp bạn tìm kiếm thông tin chính xác hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -399,7 +399,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Được sử dụng để chặn nội dung tìm kiếm của Google，Được sử dụng để chặn nội dung tìm kiếm của Google。 Được sử dụng để chặn nội dung tìm kiếm của Google。Được sử dụng để chặn nội dung tìm kiếm của Google-zhihu -baidu Được sử dụng để chặn nội dung tìm kiếm của Google</td>
+            <td>Chặn các trang web cụ thể khỏi kết quả của công cụ tìm kiếm，Giúp người dùng lọc ra các kết quả tìm kiếm không mong muốn。 Trang web chặn đầu vào tùy chỉnh。Định dạng-zhihu -baidu Được sử dụng để chặn nội dung tìm kiếm của Google</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -427,7 +427,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>tìm kiếm lốp xe，tìm kiếm lốp xe,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -448,14 +448,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork Đồng bộ hóa cài đặt WebHookĐồng bộ hóa cài đặt</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork Nâng cao WebHookĐồng bộ hóa cài đặt</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced" target="_blank">
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -483,7 +483,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Giới thiệu thanh công cụ Markdown Giới thiệu thanh công cụ，Giới thiệu thanh công cụ Markdown Giới thiệu thanh công cụ</td>
+            <td>Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -539,7 +539,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>kịch bản cao cấp GreasyFork kịch bản cao cấp SleazyFork kịch bản cao cấp </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -567,7 +567,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Bảng điều khiển người dùng, v.v.greasyforkBảng điều khiển người dùng, v.v.,Bảng điều khiển người dùng, v.v.,Bảng điều khiển người dùng, v.v.</td>
+            <td>Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -595,7 +595,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Chuyển đến tập lệnh dành cho người lớn và các thao tác khácgreasyfork,Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</td>
+            <td>Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -623,7 +623,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
+            <td>Khi có phản hồi mới cho kịch bản của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -644,7 +644,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">gợi ý+(gợi ý)</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Đánh dấu từ khóa trên các trang web+(gợi ý)</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
@@ -672,7 +672,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">phiên bản nhỏ_phiên bản nhỏ</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Làm nổi bật văn bản web_phiên bản nhỏ</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
@@ -707,7 +707,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>và tự động đăng nhập khi chưa đăng nhập MisssAV và tự động đăng nhập khi chưa đăng nhập，và tự động đăng nhập khi chưa đăng nhập</td>
+            <td>Phát hiện MisssAV tình trạng，và tự động đăng nhập khi chưa đăng nhập</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper.user.js?style=social" alt="size">
@@ -735,7 +735,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>missHỗ trợ xuất khẩu sang，Hỗ trợ xuất khẩu sang.Hỗ trợ xuất khẩu sang Hỗ trợ xuất khẩu sangwebdav</td>
+            <td>missSao lưu danh sách phát，Hỗ trợ tải hình ảnh và lưu thông tin video.Xuất trang web địa phương Hỗ trợ xuất khẩu sangwebdav</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer.user.js?style=social" alt="size">
@@ -763,7 +763,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>và tự động đăng nhập khi chưa đăng nhập TissAV và tự động đăng nhập khi chưa đăng nhập，và tự động đăng nhập khi chưa đăng nhập</td>
+            <td>Phát hiện TissAV tình trạng，và tự động đăng nhập khi chưa đăng nhập</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/thisav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper.user.js?style=social" alt="size">
@@ -791,7 +791,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>và tự động đăng nhập khi chưa đăng nhập JableTV và tự động đăng nhập khi chưa đăng nhập，và tự động đăng nhập khi chưa đăng nhập</td>
+            <td>Phát hiện JableTV tình trạng，và tự động đăng nhập khi chưa đăng nhập</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?style=social" alt="size">
@@ -819,7 +819,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>mạng，mạng 5 mạng，mạng,mạnggooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -847,7 +847,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.，Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.，Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở. Edge Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。</td>
+            <td>Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
@@ -903,7 +903,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Script Finder Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào</td>
+            <td>Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
@@ -959,7 +959,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tự động dừng nếu không cuộn trong vài giâyGreasyforkTự động dừng nếu không cuộn trong vài giây Tự động dừng nếu không cuộn trong vài giây，Tự động dừng nếu không cuộn trong vài giây。 Tự động dừng nếu không cuộn trong vài giây，3Tự động dừng nếu không cuộn trong vài giây</td>
+            <td>Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
@@ -980,14 +980,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">Tự động dịch sang tiếng Trung——Tự động dịch sang tiếng Trung</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">dịch trang web——Tự động dịch sang tiếng Trung</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thêm bản dịch tự động（Thêm bản dịch tự động）Thêm bản dịch tự động google Thêm bản dịch tự động，Thêm bản dịch tự động，Thêm bản dịch tự động，Thêm bản dịch tự động</td>
+            <td>Cung cấp góc dưới bên phải của mỗi trang web không phải tiếng Trung Quốc（Có thể điều chỉnh ở góc dưới bên trái）thêm một google Biểu tượng dịch，Phiên bản này là phiên bản dịch tiếng Trung，Chỉ dịch tiếng nước ngoài sang tiếng Trung，Thêm bản dịch tự động</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1013,32 +1013,32 @@
 
 ---
 
-## Sử dụng tập lệnh/Sử dụng tập lệnh？
+## Cách cài đặt/Sử dụng tập lệnh？
 
-Tiện ích mở rộng Trình quản lý tập lệnh，Tiện ích mở rộng Trình quản lý tập lệnh **Tampermonkey  Tiện ích mở rộng Trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+Để sử dụng bất kỳ tập lệnh nào，Đầu tiên bạn cần cài đặt trình duyệt **Tampermonkey  Tiện ích mở rộng Trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Trực tiếp bật lên giao diện cài đặt trình quản lý tập lệnh **\[Trực tiếp bật lên giao diện cài đặt trình quản lý tập lệnh\]** Trực tiếp bật lên giao diện cài đặt trình quản lý tập lệnh。
-- Thế thôi Github Thế thôi，Thế thôiGreasyFork **\[Thế thôi\]** Thế thôi，Thế thôi **\[Thế thôi\]** Thế thôi。
+- Bấm vào biểu mẫu **\[Cài đặt\]** Trực tiếp bật lên giao diện cài đặt trình quản lý tập lệnh。
+- nếu như Github Tốc độ truy cập quá chậm，Bạn có thể chọn bấmGreasyFork **\[Cài đặt\]** Lời nhắc tiện ích mở rộng bật lên sau，Bấm lại **\[Cài đặt\]** Thế thôi。
 
 > [!IMPORTANT]
 > 
-> - _Mở rộng **Chromium** Mở rộng（Mở rộng）Mở rộng Chrome Mở rộng。_
-> - _Kịch bản **Tampermonkey Kịch bản** Kịch bản，其他的用户Kịch bản管理器可能导致**Kịch bản**Kịch bản。_
-> - _Tập lệnh và sau đó cài đặt lại tập lệnh，Tập lệnh và sau đó cài đặt lại tập lệnh Tampermonkey Tập lệnh và sau đó cài đặt lại tập lệnh**Tập lệnh và sau đó cài đặt lại tập lệnh**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> - _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
+> - _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
+> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
 
-> _**Chức năng .crx Chức năng？[Chrome、Edge Chức năng [Chức năng .crx Chức năng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 
-|                               Cài đặt trình duyệt                                |                                                          Cài đặt trình duyệt                                                           | Cài đặt trình duyệt                                                                      |
+|                               Trình duyệt được đề xuất                                |                                                          Trình quản lý cài đặt                                                           | Cài đặt trình duyệt                                                                      |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
-| <center> Chrome Trình duyệt hạt nhân Trình duyệt hạt nhân Chromium Trình duyệt hạt nhân[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari hoặc（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
-| <center>Firefox Trình duyệt hạt nhân Trình duyệt hạt nhân Gecko Trình duyệt hạt nhân[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
+| <center> Chrome hoặc dựa trên Chromium Trình duyệt hạt nhân[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
+|  <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
+| <center>Firefox hoặc dựa trên Gecko Trình duyệt hạt nhân[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
 |         <center>          Opera Trình duyệt[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via Trình duyệt tích hợp（Android）[![][via]][via_link]         |                              <center>                                               Trình duyệt tích hợp                              | <center>[![][via]][via_link]                                                    |
-|           <center>      XTrình duyệt tích hợp（Android）  [![][x]][x_link]            |                               <center>                                             Trình duyệt tích hợp                               | <center>[![][x]][x_link]                                                        |
+|         <center>      Via Trình duyệt（Android）[![][via]][via_link]         |                              <center>                                               Trình duyệt tích hợp                              | <center>[![][via]][via_link]                                                    |
+|           <center>      XTrình duyệt（Android）  [![][x]][x_link]            |                               <center>                                             Trình duyệt tích hợp                               | <center>[![][x]][x_link]                                                        |
 |       <center>       KIWITrình duyệt（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
 |         <center>       Trình duyệt vượn cáo（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
 |                                                                         |                                                                                                                               |                                                                                 |

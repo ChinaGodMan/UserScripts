@@ -27,12 +27,12 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Little star to encourage,Little star to encourage↑Little star to encourage</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">If the script helps you,I can give one↑Little star to encourage</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-**Thanks netizens，Thanks netizens.Thanks netizens**
-**Contact must be deleted,Contact must be deleted**
+**The script comes from the vast number of netizens on the Internet，I just made some changes.Thanks netizens**
+**If there is any infringement,Contact must be deleted**
 
 ##  [<mark style="background-color: yellow; color: green;">Browse the script directory for details</mark>](/Script%20details)   
   
@@ -63,7 +63,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Code font size becomes smaller ChatGPT Code font size becomes smaller</td>
+            <td>let ChatGPT Code font size becomes smaller</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -91,7 +91,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>添加一characters计数器到输入框，characters 32732 characters。（ChatGPT characters 32732 characters。）</td>
+            <td>添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -119,7 +119,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Keep long messages from exceeding the specified range，Keep long messages from exceeding the specified range。Keep long messages from exceeding the specified range，Keep long messages from exceeding the specified range。</td>
+            <td>Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -147,7 +147,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>orange temporary directions，orange temporary directions，orange temporary directions，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -168,14 +168,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">Login copy restrictionsCSDNLogin copy restrictions</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">LiftCSDNLogin copy restrictions</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Copy code box content without logging in CSDN Copy code box content without logging in，Copy code box content without logging in</td>
+            <td>fuck you CSDN LoginCopy，Copy code box content without logging in</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker.user.js?style=social" alt="size">
@@ -231,7 +231,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Provide better visual effects and user experience GitHub Provide better visual effects and user experience HTML Provide better visual effects and user experience，Provide better visual effects and user experience。Provide better visual effects and user experience、Provide better visual effects and user experience HTML Provide better visual effects and user experience，Provide better visual effects and user experience。</td>
+            <td>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -259,7 +259,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>folder，folder GitHub folder。</td>
+            <td>Add a download button，Allows easy downloading of specific GitHub folder。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
@@ -287,7 +287,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>and download files，and download files URL and download files</td>
+            <td>Add button at the end of each file line，to copy the original file URL and download files</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?style=social" alt="size">
@@ -315,7 +315,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Show warehouse size when viewing and searching warehousesGithubShow warehouse size when viewing and searching warehouses</td>
+            <td>existGithubShow warehouse size when viewing and searching warehouses</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
@@ -343,7 +343,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Conveniently view the latest updated files，Conveniently view the latest updated files。</td>
+            <td>Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -371,7 +371,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Enable you to search for information more precisely Google Enable you to search for information more precisely。Enable you to search for information more precisely，Enable you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -399,7 +399,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Used to block Google search content，Used to block Google search content。 Used to block Google search content。Used to block Google search content-zhihu -baidu Used to block Google search content</td>
+            <td>Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -427,7 +427,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>tire search，tire search,tire search</td>
+            <td>The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -448,14 +448,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork Sync settings WebHookSync settings</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork Enhance WebHookSync settings</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Instead of clicking the selection boxes one by one and going to the corresponding URL，Instead of clicking the selection boxes one by one and going to the corresponding URL，Instead of clicking the selection boxes one by one and going to the corresponding URL。</td>
+            <td>This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -483,7 +483,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Toolbar introduction Markdown Toolbar introduction，Toolbar introduction Markdown Toolbar introduction</td>
+            <td>Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -539,7 +539,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>superior script GreasyFork superior script SleazyFork superior script </td>
+            <td>Search using Google GreasyFork and SleazyFork upper script </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -567,7 +567,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>User console etc.greasyforkUser console etc.,User console etc.,User console etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -595,7 +595,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Jump to adult scripts and other operationsgreasyfork,Jump to adult scripts and other operations，Jump to adult scripts and other operations，Jump to adult scripts and other operations，Jump to adult scripts and other operations，Jump to adult scripts and other operations，Jump to adult scripts and other operations Jump to adult scripts and other operations，Jump to adult scripts and other operations，Jump to adult scripts and other operations</td>
+            <td>Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -616,14 +616,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>The script will display the latest discussion content in a modal window on the web page，The script will display the latest discussion content in a modal window on the web page。</td>
+            <td>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -644,7 +644,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">recommend+(recommend)</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Highlight keywords on web pages+(recommend)</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
@@ -672,7 +672,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">mini version_mini version</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Highlight web text_mini version</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
@@ -707,7 +707,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>and automatically log in when not logged in MisssAV and automatically log in when not logged in，and automatically log in when not logged in</td>
+            <td>Detection MisssAV state，and automatically log in when not logged in</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper.user.js?style=social" alt="size">
@@ -735,7 +735,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>missSupport export to，Support export to.Support export to Support export towebdav</td>
+            <td>missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer.user.js?style=social" alt="size">
@@ -763,7 +763,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>and automatically log in when not logged in TissAV and automatically log in when not logged in，and automatically log in when not logged in</td>
+            <td>Detection TissAV state，and automatically log in when not logged in</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/thisav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper.user.js?style=social" alt="size">
@@ -791,7 +791,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>and automatically log in when not logged in JableTV and automatically log in when not logged in，and automatically log in when not logged in</td>
+            <td>Detection JableTV state，and automatically log in when not logged in</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?style=social" alt="size">
@@ -819,7 +819,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>network，network 5 network，network,networkgooglenetwork</td>
+            <td>Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessiblegooglenetwork</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -847,7 +847,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>At the same time, add an acrylic effect behind the small window when it is opened.，At the same time, add an acrylic effect behind the small window when it is opened.，At the same time, add an acrylic effect behind the small window when it is opened. Edge At the same time, add an acrylic effect behind the small window when it is opened.。At the same time, add an acrylic effect behind the small window when it is opened.。</td>
+            <td>Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
@@ -903,7 +903,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Script Finder It helps you find and manage userscripts on any website（userscript），It helps you find and manage userscripts on any website</td>
+            <td>Script Finder is a user script（userscript），It helps you find and manage userscripts on any website</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
@@ -959,7 +959,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Automatically stops if there is no scrolling within secondsGreasyforkAutomatically stops if there is no scrolling within seconds Automatically stops if there is no scrolling within seconds，Automatically stops if there is no scrolling within seconds。 Automatically stops if there is no scrolling within seconds，3Automatically stops if there is no scrolling within seconds</td>
+            <td>Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
@@ -980,14 +980,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">Automatically translated to Chinese——Automatically translated to Chinese</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated to Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Add automatic translation（Add automatic translation）Add automatic translation google Add automatic translation，Add automatic translation，Add automatic translation，Add automatic translation</td>
+            <td>Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1013,32 +1013,32 @@
 
 ---
 
-## Use script/Use script？
+## How to install/Use script？
 
-Script Manager Extension，Script Manager Extension **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Directly pop up the script manager installation interface **\[Directly pop up the script manager installation interface\]** Directly pop up the script manager installation interface。
-- That’s it Github That’s it，That’s itGreasyFork **\[That’s it\]** That’s it，That’s it **\[That’s it\]** That’s it。
+- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
+- if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
 > 
-> - _Expand **Chromium** Expand（Expand）Expand Chrome Expand。_
-> - _Script **Tampermonkey Script** Script，其他的用户Script管理器可能导致**Script**Script。_
-> - _Script and then reinstall the script，Script and then reinstall the script Tampermonkey Script and then reinstall the script**Script and then reinstall the script**Script and then reinstall the script。_
+> - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
+> - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
+> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
-> _**Function .crx Function？[Chrome、Edge Function [Function .crx Function] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 Browser and Script Manager
 
-|                               Install browser                                |                                                          Install browser                                                           | Install browser                                                                      |
+|                               Recommended browser                                |                                                          Installation manager                                                           | Install browser                                                                      |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
-| <center> Chrome Kernel browser Kernel browser Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari or（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
-| <center>Firefox Kernel browser Kernel browser Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
+| <center> Chrome or based on Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
+|  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
+| <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
 |         <center>          Opera Browser[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via Built-in browser（Android）[![][via]][via_link]         |                              <center>                                               Built-in browser                              | <center>[![][via]][via_link]                                                    |
-|           <center>      XBuilt-in browser（Android）  [![][x]][x_link]            |                               <center>                                             Built-in browser                               | <center>[![][x]][x_link]                                                        |
+|         <center>      Via Browser（Android）[![][via]][via_link]         |                              <center>                                               Built-in browser                              | <center>[![][via]][via_link]                                                    |
+|           <center>      XBrowser（Android）  [![][x]][x_link]            |                               <center>                                             Built-in browser                               | <center>[![][x]][x_link]                                                        |
 |       <center>       KIWIBrowser（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
 |         <center>       Lemur Browser（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
 |                                                                         |                                                                                                                               |                                                                                 |

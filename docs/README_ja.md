@@ -27,12 +27,12 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">励ます小さな星,励ます小さな星↑励ます小さな星</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">スクリプトがお役に立てば,一つあげてもいいよ↑励ます小さな星</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-**ありがとうネチズン，ありがとうネチズン.ありがとうネチズン**
-**連絡先を削除する必要があります,連絡先を削除する必要があります**
+**この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
+**違反があった場合,連絡先を削除する必要があります**
 
 ##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
   
@@ -63,7 +63,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>コードのフォントサイズが小さくなる ChatGPT コードのフォントサイズが小さくなる</td>
+            <td>させて ChatGPT コードのフォントサイズが小さくなる</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -91,7 +91,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>添加一キャラクター计数器到输入框，キャラクター 32732 キャラクター。（ChatGPT キャラクター 32732 キャラクター。）</td>
+            <td>添加一キャラクター计数器到输入框，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -119,7 +119,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>長いメッセージが指定範囲を超えないようにする，長いメッセージが指定範囲を超えないようにする。長いメッセージが指定範囲を超えないようにする，長いメッセージが指定範囲を超えないようにする。</td>
+            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -147,7 +147,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>オレンジ色の臨時ルート，オレンジ色の臨時ルート，オレンジ色の臨時ルート，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -168,14 +168,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">ログインコピーの制限CSDNログインコピーの制限</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">リフトCSDNログインコピーの制限</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ログインせずにコードボックスの内容をコピーする CSDN ログインせずにコードボックスの内容をコピーする，ログインせずにコードボックスの内容をコピーする</td>
+            <td>ファックユー CSDN ログインコピー，ログインせずにコードボックスの内容をコピーする</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker.user.js?style=social" alt="size">
@@ -231,7 +231,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>より優れた視覚効果とユーザーエクスペリエンスを提供する GitHub より優れた視覚効果とユーザーエクスペリエンスを提供する HTML より優れた視覚効果とユーザーエクスペリエンスを提供する，より優れた視覚効果とユーザーエクスペリエンスを提供する。より優れた視覚効果とユーザーエクスペリエンスを提供する、より優れた視覚効果とユーザーエクスペリエンスを提供する HTML より優れた視覚効果とユーザーエクスペリエンスを提供する，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -259,7 +259,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>フォルダ，フォルダ GitHub フォルダ。</td>
+            <td>ダウンロードボタンを追加する，特定のファイルを簡単にダウンロードできます GitHub フォルダ。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
@@ -287,7 +287,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>そしてファイルをダウンロードする，そしてファイルをダウンロードする URL そしてファイルをダウンロードする</td>
+            <td>各ファイル行の末尾にある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?style=social" alt="size">
@@ -308,14 +308,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示する</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫の表示および検索時に倉庫のサイズを表示するGithub倉庫の表示および検索時に倉庫のサイズを表示する</td>
+            <td>存在するGithub倉庫の表示および検索時に倉庫のサイズを表示する</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
@@ -343,7 +343,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>最新の更新されたファイルを簡単に表示できます，最新の更新されたファイルを簡単に表示できます。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -371,7 +371,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>より正確に情報を検索できるようになります Google より正確に情報を検索できるようになります。より正確に情報を検索できるようになります，より正確に情報を検索できるようになります。</td>
+            <td>これは、 Google 詳細検索フォームのユーザー スクリプトを追加する。ページの上部に非表示可能な高度な検索フォームを追加します，より正確に情報を検索できるようになります。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -399,7 +399,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Google 検索コンテンツをブロックするために使用されます，Google 検索コンテンツをブロックするために使用されます。 Google 検索コンテンツをブロックするために使用されます。Google 検索コンテンツをブロックするために使用されます-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -427,7 +427,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>タイヤ検索，タイヤ検索,タイヤ検索</td>
+            <td>スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -448,14 +448,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 同期設定 WebHook同期設定</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 強化する WebHook同期設定</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced" target="_blank">
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。</td>
+            <td>このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -483,7 +483,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ツールバーの紹介 Markdown ツールバーの紹介，ツールバーの紹介 Markdown ツールバーの紹介</td>
+            <td>フォーラムでデフォルトで使用されます Markdown 形式，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -539,7 +539,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>上的脚本 GreasyFork 上的脚本 SleazyFork 上的脚本 </td>
+            <td>Googleを使って検索する GreasyFork そして SleazyFork 上的脚本 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -567,7 +567,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ユーザーコンソールなどgreasyforkユーザーコンソールなど,ユーザーコンソールなど,ユーザーコンソールなど</td>
+            <td>強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -595,7 +595,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>アダルト スクリプトやその他の操作にジャンプしますgreasyfork,アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -623,7 +623,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。</td>
+            <td>スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -644,7 +644,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">推薦する+(推薦する)</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Web ページ上のキーワードを強調表示する+(推薦する)</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
@@ -672,7 +672,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">ミニバージョン_ミニバージョン</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Web テキストを強調表示する_ミニバージョン</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
@@ -707,7 +707,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ログインしていない場合は自動的にログインします MisssAV ログインしていない場合は自動的にログインします，ログインしていない場合は自動的にログインします</td>
+            <td>検出 MisssAV 州，ログインしていない場合は自動的にログインします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper.user.js?style=social" alt="size">
@@ -735,7 +735,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>missへのエクスポートをサポート，へのエクスポートをサポート.へのエクスポートをサポート へのエクスポートをサポートwebdav</td>
+            <td>missプレイリストのバックアップ，写真のダウンロードとビデオ情報の保存をサポート.ローカル Web ページをエクスポートする へのエクスポートをサポートwebdav</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer.user.js?style=social" alt="size">
@@ -763,7 +763,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ログインしていない場合は自動的にログインします TissAV ログインしていない場合は自動的にログインします，ログインしていない場合は自動的にログインします</td>
+            <td>検出 TissAV 州，ログインしていない場合は自動的にログインします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/thisav-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper.user.js?style=social" alt="size">
@@ -791,7 +791,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ログインしていない場合は自動的にログインします JableTV ログインしていない場合は自動的にログインします，ログインしていない場合は自動的にログインします</td>
+            <td>検出 JableTV 州，ログインしていない場合は自動的にログインします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?style=social" alt="size">
@@ -819,7 +819,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>ネットワーク，ネットワーク 5 ネットワーク，ネットワーク,ネットワークgoogleネットワーク</td>
+            <td>中国語以外の文字を認識する，長さがそれより大きい場合 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -847,7 +847,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>同時に、開いたときの小窓の後ろにアクリル効果を追加します。，同時に、開いたときの小窓の後ろにアクリル効果を追加します。，同時に、開いたときの小窓の後ろにアクリル効果を追加します。 Edge 同時に、開いたときの小窓の後ろにアクリル効果を追加します。。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</td>
+            <td>リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
@@ -903,7 +903,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Script Finder あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</td>
+            <td>Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
@@ -959,7 +959,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>数秒以内にスクロールがない場合は自動的に停止しますGreasyfork数秒以内にスクロールがない場合は自動的に停止します 数秒以内にスクロールがない場合は自動的に停止します，数秒以内にスクロールがない場合は自動的に停止します。 数秒以内にスクロールがない場合は自動的に停止します，3数秒以内にスクロールがない場合は自動的に停止します</td>
+            <td>から変更されましたGreasyforkユーザースクリプト Web ページに上部と下部のボタンを追加する，長いページの上部または下部への素早い移動を容易にします。。 下にスクロールしたときにボタンの色の変更を追加しました，3数秒以内にスクロールがない場合は自動的に停止します</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
@@ -980,14 +980,14 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">自動的に中国語に翻訳されます——自動的に中国語に翻訳されます</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">ウェブページの翻訳——自動的に中国語に翻訳されます</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>自動翻訳を追加する（自動翻訳を追加する）自動翻訳を追加する google 自動翻訳を追加する，自動翻訳を追加する，自動翻訳を追加する，自動翻訳を追加する</td>
+            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）を追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1013,32 +1013,32 @@
 
 ---
 
-## スクリプトを使用する/スクリプトを使用する？
+## インストール方法/スクリプトを使用する？
 
-スクリプトマネージャー拡張機能，スクリプトマネージャー拡張機能 **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。 **\[スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
-- それでおしまい Github それでおしまい，それでおしまいGreasyFork **\[それでおしまい\]** それでおしまい，それでおしまい **\[それでおしまい\]** それでおしまい。
+- フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
+- もし Github アクセス速度が遅すぎる，クリックするか選択できますGreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 
 > [!IMPORTANT]
 > 
-> - _拡大する **Chromium** 拡大する（拡大する）拡大する Chrome 拡大する。_
-> - _脚本 **Tampermonkey 脚本** 脚本，脚本**脚本**脚本。_
-> - _スクリプトを作成し、スクリプトを再インストールします，スクリプトを作成し、スクリプトを再インストールします Tampermonkey スクリプトを作成し、スクリプトを再インストールします**スクリプトを作成し、スクリプトを再インストールします**スクリプトを作成し、スクリプトを再インストールします。_
+> - _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
+> - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
+> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
-> _**関数 .crx 関数？[Chrome、Edge 関数 [関数 .crx 関数] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               ブラウザをインストールする                                |                                                          ブラウザをインストールする                                                           | ブラウザをインストールする                                                                      |
+|                               推奨ブラウザ                                |                                                          インストールマネージャー                                                           | ブラウザをインストールする                                                                      |
 | :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
-| <center> Chrome カーネルブラウザ カーネルブラウザ Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari または（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
-| <center>Firefox カーネルブラウザ カーネルブラウザ Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
+| <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
+|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
+| <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
 |         <center>          Opera ブラウザ[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via 内蔵ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               内蔵ブラウザ                              | <center>[![][via]][via_link]                                                    |
-|           <center>      X内蔵ブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             内蔵ブラウザ                               | <center>[![][x]][x_link]                                                        |
+|         <center>      Via ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               内蔵ブラウザ                              | <center>[![][via]][via_link]                                                    |
+|           <center>      Xブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             内蔵ブラウザ                               | <center>[![][x]][x_link]                                                        |
 |       <center>       KIWIブラウザ（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
 |         <center>       キツネザルブラウザ（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
 |                                                                         |                                                                                                                               |                                                                                 |
