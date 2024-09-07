@@ -50,7 +50,7 @@ def translate_text(text, target_lang):
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
         translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        translation_cache[text] = translated_text  # 保存到缓存中
+        #translation_cache[text] = translated_text  # 保存到缓存中
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
