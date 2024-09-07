@@ -165,7 +165,7 @@ def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
 
 # 主函数
 def translate_readme(data, json_data):
-    blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
+    blacklist = ["人民的勤务员", "简体中文", "繁體中文", "日本語"]
 
     for item in data['translatelist']:
         if not item.get('translated', False):
