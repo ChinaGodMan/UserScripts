@@ -483,7 +483,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>フォーマットのヘルプリンクを追加し、 Markdown フォーマットのヘルプリンクを追加し、，フォーマットのヘルプリンクを追加し、 Markdown フォーマットのヘルプリンクを追加し、</td>
+            <td>ツールバーの紹介 Markdown ツールバーの紹介，ツールバーの紹介 Markdown ツールバーの紹介</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -1013,7 +1013,7 @@
 
 ---
 
-## インストール方法/インストール方法？
+## スクリプトを使用する/スクリプトを使用する？
 
 スクリプトマネージャー拡張機能，スクリプトマネージャー拡張機能 **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

@@ -483,7 +483,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thêm liên kết trợ giúp định dạng và Markdown Thêm liên kết trợ giúp định dạng và，Thêm liên kết trợ giúp định dạng và Markdown Thêm liên kết trợ giúp định dạng và</td>
+            <td>Giới thiệu thanh công cụ Markdown Giới thiệu thanh công cụ，Giới thiệu thanh công cụ Markdown Giới thiệu thanh công cụ</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -1013,7 +1013,7 @@
 
 ---
 
-## Cách cài đặt/Cách cài đặt？
+## Sử dụng tập lệnh/Sử dụng tập lệnh？
 
 Tiện ích mở rộng Trình quản lý tập lệnh，Tiện ích mở rộng Trình quản lý tập lệnh **Tampermonkey  Tiện ích mở rộng Trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

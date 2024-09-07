@@ -483,7 +483,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>형식 도움말 링크를 추가하고 Markdown 형식 도움말 링크를 추가하고，형식 도움말 링크를 추가하고 Markdown 형식 도움말 링크를 추가하고</td>
+            <td>툴바 소개 Markdown 툴바 소개，툴바 소개 Markdown 툴바 소개</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -1013,7 +1013,7 @@
 
 ---
 
-## 설치 방법/설치 방법？
+## 스크립트 사용/스크립트 사용？
 
 스크립트 관리자 확장，스크립트 관리자 확장 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
