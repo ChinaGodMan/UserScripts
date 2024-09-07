@@ -76,7 +76,7 @@
 // @description:fr-CA  Lorsqu’il y a une nouvelle réponse à votre script ou à une discussion à laquelle vous participez，Le script affichera le dernier contenu de la discussion dans une fenêtre modale sur la page Web。
 // @description  On GreasyFork, when there are new replies to your scripts or discussions you're involved in, the latest discussion content will be displayed on the webpage.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 1.2.0.6
+// @version 1.3.0.0
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -85,9 +85,11 @@
 // @grant        GM_registerMenuCommand
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
+// @modified        2024-09-07 09:06:49
 // ==/UserScript==
 (function () {
     'use strict'
+    var DEBUG = false
     const config = {
         isInstalled: GM_getValue('Installed', false),//第一次不加载~,
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
@@ -144,10 +146,14 @@
             console.log(`时间超过${config.delay} 进行更新`)
             return true
         }
-        return false
+
+        return DEBUG
     }
     function fetchAndDisplayDiscussions(urls) {
-        // GM_setValue('discussions', [])
+
+        if (DEBUG) {
+            GM_setValue('discussions', [])
+        }
         if (!isUpdate()) {
             return
         }
@@ -155,17 +161,22 @@
         let fetchPromises = []
         let itemCount = 0
         var modalHTML = `
-            <div id="discussion-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); display: flex; visibility: hidden;align-items: center; justify-content: center; z-index: 1000;">
-                <div id="modal-content" style="background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-height: 80vh; overflow-y: auto; width: 80%; max-width: 600px; padding: 20px; font-family: Arial, sans-serif;">
-                    <ul id="discussion-list" style="list-style-type: none; padding: 0; margin: 0;"></ul>
-                    <button id="close-button" style="background-color: #ff5e5e; border: none; color: #fff; padding: 5px 10px; cursor: pointer; border-radius: 5px; font-family: Arial, sans-serif; font-size: 14px;">Close</button>
-                </div>
-            </div>
+<div id="discussion-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); display: flex; visibility: hidden; align-items: center; justify-content: center; z-index: 1000;">
+    <div id="   " style="background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-height: 80vh; overflow-y: auto; width: 80%; max-width: 600px; padding: 20px; font-family: Arial, sans-serif; display: flex; flex-direction: column;">
+        <button id="close-button" style="align-self: flex-end; background-color: #ff5e5e; border: none; color: #fff; padding: 5px 5px; cursor: pointer; border-radius: 5px; font-family: Arial, sans-serif; font-size: 14px;">X</button>
+        <div class="discussion-list" style="margin-top: 10px;">
+            <ul id="discussion-list-a" style="list-style-type: none; padding: 0; margin: 0;"></ul>
+        </div>
+    </div>
+</div>
+
+             
         `
         document.body.insertAdjacentHTML('beforeend', modalHTML)
-        var discussionList = document.getElementById('discussion-list')
+        var discussionList = document.getElementById('discussion-list-a')
         var modalContent = document.getElementById('modal-content')
-        urls.forEach(url => {
+        var a = false
+        urls.forEach(([url, description]) => {
 
             fetchPromises.push(
                 fetch(url)
@@ -174,6 +185,13 @@
                         var parser = new DOMParser()
                         var doc = parser.parseFromString(data, 'text/html')
                         var elements = doc.querySelectorAll('.discussion-list > div > div')
+                        if (!a) {
+                            a = true
+                            discussionList.innerHTML += `<center><h2>${description}</h2></center>`
+                        } else {
+                            discussionList.innerHTML += `<center><h2><div class="discussion-list-item">${description}</div></h2></center>`
+                        }
+
                         elements.forEach(function (element) {
                             var discussionTitle = element.querySelector('.discussion-title')
                             var relativeTimes = element.querySelectorAll('relative-time')
@@ -201,7 +219,7 @@
                                 console.log("skip ")//NOTE - 最新发言是自己,跳过.
                                 return
                             }
-                            var listItemHTML = '<li class="discussion-item">' + element.innerHTML + '<hr style="margin: 10px 0; border: none; border-top: 1px solid #ddd;"></li>'
+                            var listItemHTML = '<div class="discussion-list-item">' + element.innerHTML + '</div>'
                             discussionList.innerHTML += listItemHTML
                             itemCount++
                         })
@@ -258,8 +276,8 @@
     config.userId = getUserId()
     if (config.userId) {
         fetchAndDisplayDiscussions([
-            `https://greasyfork.org/discussions?user=${config.userId}&per_page=${config.maxItem}`,
-            `https://greasyfork.org/discussions?me=script&per_page=${config.maxItem}`
+            [`https://greasyfork.org/discussions?user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
+            [`https://greasyfork.org/discussions?me=script&per_page=${config.maxItem}`, "Scripts Discussions"]
         ])
     } else {
         console.log("没有登录,放弃操作")
