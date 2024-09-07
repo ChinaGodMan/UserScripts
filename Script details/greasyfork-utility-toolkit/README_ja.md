@@ -3,128 +3,128 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%90%88%E8%A8%88%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%82%AF%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E4%B8%80%E8%88%AC%E7%9A%84&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%90%A6%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">スクリプトがお役に立てば,一つあげてもいいよ↑励ます小さな星</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>Greasyfork糊裱匠</h1>
-    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
+    <p>「 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>脚本详情页,所有脚本列表添加<code>脚本评分</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修复兼容性.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在脚本列表顶部添加下载按钮,点击下载所有脚本</em></li>
+            Fork</a></p><details><summary>更新記録</summary><ul>
+<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>スクリプトの詳細ページ,すべてのスクリプトのリストが追加されました<code>脚本の評価</code>.</em></li>
+<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>互換性を修正.</em></li>
+<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>スクリプトリストの上部にダウンロードボタンを追加しました,クリックしてすべてのスクリプトをダウンロードします</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>优化：优化脚本列表图标显示位置</em></p>
+<p><em>最適化：スクリプト一覧アイコンの表示位置を最適化</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>优化：优化设置界面代码</em></p>
+<p><em>最適化：設定インターフェースコードの最適化</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
 </li>
 <li>
-<p><em>修复：修正脚本设置界面在移动设备上显示错乱问题</em></p>
+<p><em>修理：モバイルデバイスでスクリプト設定インターフェイスが正しく表示されない問題を修正しました</em></p>
 </li>
 <li>
 <p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
 </li>
 <li>
-<p><em>新增：增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译</em></p>
+<p><em>新しい：ベトナム語言語パックを追加，ありがとうネチズン <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻訳する</em></p>
 </li>
 <li>
 <p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
 </li>
 <li>
-<p><em>新增：增加 WebHook 页快捷跳转脚本管理</em></p>
+<p><em>新しい：増加 WebHook ページクイックジャンプスクリプト管理</em></p>
 </li>
 <li>
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>修复：修复监听规则变化导致动态监听失败</em></p>
+<p><em>修理：監視ルールの変更により動的監視が失敗する問題を修正しました</em></p>
 <ul>
-<li><em>监听规则增加：<code>user-script-list-section browse-script-list</code></em></li>
+<li><em>監視ルールの追加：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
 </li>
 <li>
-<p><em>复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS</em></p>
+<p><em>コピー <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 新しい CSS</em></p>
 </li>
 <li>
 <p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
 </li>
 <li>
-<p><em>新增：</em></p>
+<p><em>新しい：</em></p>
 <ul>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏</em></li>
-<li><em>增加固定网站侧边操作栏</em></li>
+<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 2列表示のスクリプト</em></li>
+<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> ナビゲーションバーを美しくする</em></li>
+<li><em>固定ウェブサイトのサイドアクションバーを追加</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
 </li>
 <li>
-<p><em>新增：完全的繁体语言支持</em></p>
+<p><em>新しい：伝統的な言語を完全にサポート</em></p>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>增加侧边导航栏开关</em></li>
-<li><em>增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）</em></li>
+<li><em>新しい：</em><ul>
+<li><em>サイドナビゲーションバースイッチを追加</em></li>
+<li><em>イメージプロキシを追加（有効にすると互換性がありません <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a> 画像の閲覧）</em></li>
 </ul>
 </li>
 <li>
-<p><em>修复：</em></p>
+<p><em>修理：</em></p>
 <ul>
-<li><em>修复在移动设备上浏览图片超出浏览器外的问题</em></li>
-<li><em>修改在编辑代码时自动勾选美化</em></li>
+<li><em>モバイルデバイスで画像がブラウザ外で表示される問題を修正しました</em></li>
+<li><em>コード編集時に美化チェックを自動で行うように修正</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>添加导航栏展开 "更多"</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏</em></li>
+<li><em>新しい：</em><ul>
+<li><em>ナビゲーションバーの拡張を追加する "もっと"</em></li>
+<li><em>増加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 強化する</a> サイドナビゲーションバーの</em></li>
 </ul>
 </li>
 <li>
-<p><em>优化：完善对多语言的支持</em></p>
+<p><em>最適化：複数言語のサポートを改善する</em></p>
 </li>
 <li>
 <p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></em></li>
+<li><em>新しい：</em><ul>
+<li><em>自動ログインを追加する <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最適化</a></em></li>
 </ul>
 </li>
-<li><em>修复：</em><ul>
-<li><em>修复显示列表上的脚本安装状态</em></li>
+<li><em>修理：</em><ul>
+<li><em>表示リスト上のスクリプトのインストールステータスを修正</em></li>
 </ul>
 </li>
-<li><em>优化：完善对多语言的支持</em></li>
+<li><em>最適化：複数言語のサポートを改善する</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -146,78 +146,78 @@ Greasyfork にさまざまなするる機械的を使用するできるを運ぶ
 
 ## 機械的できるシャオ間
 
-### スクリプトの詳しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい薄いいいいいいいいいいいいいいい
+### スクリプトの詳しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい薄いいいいいいいいいいいいいいいい
 
 - ドキュメントビューとウェブビューのカットりのためにえ
 - コードのコピー
-- スクリプトアイコンの表面的なななななななななななななに見るとせる
+- スクリプトアイコンの表面的ななななななななななななななに見るとせる
 - アイコンキャッシュのクリア
 - スクリプト靴歴にインストールの追跡追加
 - ダウンロードボタンの追跡追加
-- スクリプトコードのわかりました数と芸術キャラクター数の表面的なななななななななななななに見るとせる
+- スクリプトコードのわかりました数と芸術キャラクター数の表面的ななななななななななななななに見るとせる
 - するなる日でスクリプトリストのソート
 - ライブラリ声明るいのコピー
-- 人参によるとファイル数の表面的なななななななななななななに見るとせる
-- 短いいいいいいいいいいいいいいい縮むむむむむむむむむむむむむむむリンクのコピー
-- コードスニペットの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
-- コード表面的なななななななななななななに見るとせるの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
+- 人参によるとファイル数の表面的ななななななななななななななに見るとせる
+- 短いいいいいいいいいいいいいいいい縮むむむむむむむむむむむむむむむむリンクのコピー
+- コードスニペットの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
+- コード表面的ななななななななななななななに見るとせるの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
 
 ### スクリプトリスト
 
-- リスト表面的なななななななななななななに見るとせるでインストールとダウンロード
+- リスト表面的ななななななななななななななに見るとせるでインストールとダウンロード
 - 言葉語設ただしいかにただしいかにのロック
-- コメント価の表面的なななななななななななななに見るとせる
-- ソースコードの表面的なななななななななななななに見るとせる
+- コメント価の表面的ななななななななななななななに見るとせる
+- ソースコードの表面的ななななななななななななななに見るとせる
 - 古代いバージョンリストのするる使用
-- すべての言葉語スクリプトの表面的なななななななななななななに見るとせる
-- サイドバーのシフト動くくくくくくくくくくくくくくく
+- すべての言葉語スクリプトの表面的ななななななななななななななに見るとせる
+- サイドバーのシフト動くくくくくくくくくくくくくくくく
 - するなる日でスクリプトリストのソート
 
-### 美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化コントロール
+### 美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化コントロール
 
-- コントロールの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
-- セレクトボックスとラジオボタンのラベルの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
+- コントロールの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
+- セレクトボックスとラジオボタンのラベルの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化
 
 ### 対応
 
 - 拡開ける機械的できるの完了てっている効変化
-- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいウィンドウで開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるく
-- フォーラムでのスクリプト数の表面的なななななななななななななに見るとせる
-- 詳しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい薄いいいいいいいいいいいいいいいはによる下に対応:
+- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいウィンドウで開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるけるく
+- フォーラムでのスクリプト数の表面的ななななななななななななななに見るとせる
+- 詳しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい薄いいいいいいいいいいいいいいいいはによる下に対応:
   - フォーラム検それで
-  - ウェブページの表面的なななななななななななななに見るとせる
+  - ウェブページの表面的ななななななななななななななに見るとせる
   - ポップアップ資格のある知識る
 
-### 個人的々々の々の々の々の々の々の々の々の々の々の々の々の々の々のな人々々々々々々々々々々々々々々ホームページ
+### 個人々的々々の々の々の々の々の々の々の々の々の々の々の々の々の々のな人々々々々々々々々々々々々々々ホームページ
 
 - 古代いホームページコンテンツのクリーンアップ
 - ホームページのクリーンアップ日数のただしく設定するしいかにただしいかに
 - ホームページのスクリプト追跡追加所有する
-- ほとんど近いいいいいいいいいいいいいいいのコメントのいいえ表面的なななななななななななななに見るとせる
-- ホームページのシステムカウント表面的なななななななななななななに見るとせる
+- ほとんど近いいいいいいいいいいいいいいいいのコメントのいいえ表面的ななななななななななななななに見るとせる
+- ホームページのシステムカウント表面的ななななななななななななななに見るとせる
 
 ### ナビゲーションバー
 
-- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいスクリプトのキャスト手紙を本くきオプションの追跡追加
-- なる人々々々々々々々々々々々々々々々ににににににににににににににに向かってかってかってかってかってかってかってかってかってかってかってかってかってかってかってけスクリプトへのジャンプ
+- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいスクリプトのキャスト手紙を本くきオプションの追跡追加
+- なる人々々々々々々々々々々々々々々々々にににににににににににににににに向かってかってかってかってかってかってかってかってかってかってかってかってかってかってかってかってけスクリプトへのジャンプ
 - ナビゲーションバーのスタイル確立するてるただ
-- ナビゲーションバーにこのインターフェースを開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるくボタンを追跡追加
+- ナビゲーションバーにこのインターフェースを開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるけるくボタンを追跡追加
 - ナビゲーションバーの完了てリスト
 
 ### ウェブサイト
 
-- コードエディタの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変変化を鉛っクロスしに来るるるるるるるるるるるるるてくださいくで完了てっている効変変化
-- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいタブでリンクを開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるく
+- コードエディタの美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変変化を鉛っクロスしに来るるるるるるるるるるるるるるてくださいくで完了てっている効変変化
+- 新しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしいタブでリンクを開けるけるけるけるけるけるけるけるけるけるけるけるけるけるけるけるく
 - 洗練された密集な日付表面見せる
-- ウェブサイトのほとんど大きいきいきいきいきいきいきいきいきいきいきいきいきいきいきい変化表面見せる
-- ワンクリックでジャーナリズム教育するするするするするするするするするするするするするえて
-- ローカルコードのハイライト表面的なななななななななななななに見るとせる
-- アイコンのいいえ表面的なななななななななななななに見るとせる
-- アイコンの表面的なななななななななななななに見るとせる
-- 読わかった済みコメントのグレースケール表面的なななななななななななななに見るとせる
-- 読わかった済みコメントのいいえ表面的なななななななななななななに見るとせる
+- ウェブサイトのほとんど大きいきいきいきいきいきいきいきいきいきいきいきいきいきいきいきい変化表面見せる
+- ワンクリックでジャーナリズム教育するするするするするするするするするするするするするするえて
+- ローカルコードのハイライト表面的ななななななななななななななに見るとせる
+- アイコンのいいえ表面的ななななななななななななななに見るとせる
+- アイコンの表面的ななななななななななななななに見るとせる
+- 読わかった済みコメントのグレースケール表面的ななななななななななななななに見るとせる
+- 読わかった済みコメントのいいえ表面的ななななななななななななななに見るとせる
 - サイドナビゲーションバー
-- ユーザー絵画写真の世代的なななななななななななななな理由が表面するせる
+- ユーザー絵画写真の世代的ななななななななななななななな理由が表面するせる
 
 ---
 
@@ -234,12 +234,12 @@ Greasyfork にさまざまなするる機械的を使用するできるを運ぶ
 - [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
 - [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
 - [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
-- [折り畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みスタック greasyfork 期待される資格する話しグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみ組み合わせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるう口論](https://greasyfork.org/scripts/426549/)
+- [折り畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みり畳みスタック greasyfork 期待される資格する話しグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみグループみ組み合わせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるわせるう口論](https://greasyfork.org/scripts/426549/)
 - [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
 - [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
 - [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
 - [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
-- [Greasyfork 美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化](https://greasyfork.org/zh-CN/scripts/446849)
+- [Greasyfork 美しいしいしいしいしいしいしいしいしいしいしいしいしいしいしいしい変化](https://greasyfork.org/zh-CN/scripts/446849)
 - [Greasy Fork 増加強力な](https://greasyfork.org/scripts/467078)
 - [Greasy Fork URL 足本名前言うクリア理由](https://greasyfork.org/scripts/431940)
 - [Greasyfork 素晴らしい変化](https://greasyfork.org/zh-CN/scripts/475722)
@@ -274,15 +274,15 @@ Greasyfork にさまざまなするる機械的を使用するできるを運ぶ
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GreasyFork関連するスクリプト
-> - [**GreasyFork強化に適した**](https://greasyfork.org/scripts/497317): スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索
-> - [**GreaysFork 強化する WebHook同期設定**](https://greasyfork.org/scripts/506717): このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): フォーラムでデフォルトで使用されます Markdown 形式，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介
-> - [**GreasyFork 脚本の評価を表示する**](https://greasyfork.org/scripts/501119): 評価スコアをスクリプトリストに追加
-> - [**GreasyFork 詳細検索**](https://greasyfork.org/scripts/505215): Googleを使って検索する GreasyFork そして SleazyFork 上的脚本 
-> - [**GreasyFork ナビゲーションバー強化する**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,ユーザーリストを追加,ユーザーコンソールなど
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします
-> - [**Greasyfork 通知アシスタント**](https://greasyfork.org/scripts/506345): スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。
-> - [**Script Finderグリース モンキー スクリプト ファインダー**](https://greasyfork.org/scripts/498904): Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます
+> - [**GreasyFork強化するに適切なした**](https://greasyfork.org/scripts/497317): スクリプトの詳しいページが追加され、クリックすると Web ページが開けるきます。，Webページをコピーする,タイヤ検索
+> - [**GreaysFork 強化するする WebHook同期設定**](https://greasyfork.org/scripts/506717): このスクリプトは、スクリプト同期情報を速いに入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に動くするのではなく、。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): フォーラムでデフォルトで使用されます Markdown 形状，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介
+> - [**GreasyFork 脚本の評価を急行する**](https://greasyfork.org/scripts/501119): 評価スコアをスクリプトリストに追加
+> - [**GreasyFork 詳細検索**](https://greasyfork.org/scripts/505215): Googleを作るって検索する GreasyFork そして SleazyFork 上的脚本 
+> - [**GreasyFork ナビゲーションバー強化するする**](https://greasyfork.org/scripts/501880): 強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど
+> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 強化するするgreasyfork,コードをコピーする，スクリプトのダウンロード，2番までの正しいな時間，ホームページのクリーンアップ，ワンクリックレポートについて話し組み合わせるう，スクリプトリストジャンプコード追加ダウンロード コードの急行とコード参照ファイルの急行を美しいしくする，スクリプトアイコンを急行，アダルト スクリプトやその彼の操作するにジャンプします
+> - [**Greasyfork 通知するアシスタント**](https://greasyfork.org/scripts/506345): スクリプトまたは参加しているディスカッションに対して新しいしい返信があったとき，スクリプトは、Web ページ優れたのモーダル ウィンドウに最新ののディスカッション コンテンツを急行します。。
+> - [**Script Finderグリース モンキー スクリプト ファインダー**](https://greasyfork.org/scripts/498904): Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト優れたのユーザースクリプトの検索と管理に役立ちます
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
