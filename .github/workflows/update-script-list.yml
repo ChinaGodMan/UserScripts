@@ -62,7 +62,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '仓库更新→docs/README.md' || echo "没有需要提交的更改"
+          git commit -m '仓库更新→docs/ScriptsPath.json→/docs/README.md' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
