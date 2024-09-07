@@ -1,3 +1,4 @@
+<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
@@ -13,7 +14,9 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
 ⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
-</div></center></div></center></div></center></div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>绚丽渐变美化网页表格</h1>
     <p>「 自动为网页上的表格所有列应用颜色渐变美化. 」</p>
