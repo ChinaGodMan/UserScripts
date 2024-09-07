@@ -140,7 +140,7 @@ def process_files(base_dir):
                     continue
                 
                 # 匹配 README_xx.md 格式的文件，并提取语言代码
-                match = re.match(r'README_([a-z]{2})\.md', file)
+                match = re.match(r'README_([a-zA-Z\-]+)\.md', file)
                 if not match:
                     continue
 
