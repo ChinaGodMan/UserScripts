@@ -63,7 +63,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>させて ChatGPT コードのフォントサイズが小さくなる</td>
+            <td>させて ChatGPT コードのフォントサイズが小さくなる wsucixjv</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -91,7 +91,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>入力ボックスに文字カウンターを追加する，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 キャラクター。）</td>
+            <td>添加一キャラクター计数器到输入框，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -483,7 +483,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>フォーラムでデフォルトで使用されます Markdown 形式，添加形式帮助链接及 Markdown ツールバーの紹介</td>
+            <td>フォーラムでデフォルトで使用されます Markdown 形式，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -819,7 +819,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の文字を認識する，長さがそれより長い場合は、 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
+            <td>中国語以外の文字を認識する，長さがそれより大きい場合 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -1017,7 +1017,7 @@
 
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- フォームをクリックしてください **\[インストール\]** 直接弹出脚本管理器インストール界面。
+- フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
 - もし Github アクセス速度が遅すぎる，クリックするか選択できますGreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 
 > [!IMPORTANT]
@@ -1037,8 +1037,8 @@
 |  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
 |         <center>          Opera ブラウザ[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               ブラウザ内自带                              | <center>[![][via]][via_link]                                                    |
-|           <center>      Xブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             ブラウザ内自带                               | <center>[![][x]][x_link]                                                        |
+|         <center>      Via ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               内蔵ブラウザ                              | <center>[![][via]][via_link]                                                    |
+|           <center>      Xブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             内蔵ブラウザ                               | <center>[![][x]][x_link]                                                        |
 |       <center>       KIWIブラウザ（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
 |         <center>       キツネザルブラウザ（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
 |                                                                         |                                                                                                                               |                                                                                 |

@@ -63,7 +63,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>let ChatGPT Code font size becomes smaller</td>
+            <td>let ChatGPT Code font size becomes smaller wsucixjv</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -91,7 +91,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）</td>
+            <td>添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -483,7 +483,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Used by default in forums Markdown Format，添加Format帮助链接及 Markdown Toolbar introduction</td>
+            <td>Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -539,7 +539,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Search using Google GreasyFork and SleazyFork superior script </td>
+            <td>Search using Google GreasyFork and SleazyFork upper script </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -980,7 +980,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated to Chinese</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated into Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
@@ -1017,13 +1017,13 @@
 
 To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Click on the form **\[Install\]** 直接弹出脚本管理器Install界面。
+- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
 - if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
 > 
 > - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
-> - _Please make sure to use **Tampermonkey Official version** Expand，Other user script managers may cause**Not working properly**Script。_
+> - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
 > - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
@@ -1037,8 +1037,8 @@ To use any script，First you need to install the browser **Tampermonkey  Script
 |  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
 | <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
 |         <center>          Opera Browser[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via Browser（Android）[![][via]][via_link]         |                              <center>                                               Browser内自带                              | <center>[![][via]][via_link]                                                    |
-|           <center>      XBrowser（Android）  [![][x]][x_link]            |                               <center>                                             Browser内自带                               | <center>[![][x]][x_link]                                                        |
+|         <center>      Via Browser（Android）[![][via]][via_link]         |                              <center>                                               Built-in browser                              | <center>[![][via]][via_link]                                                    |
+|           <center>      XBrowser（Android）  [![][x]][x_link]            |                               <center>                                             Built-in browser                               | <center>[![][x]][x_link]                                                        |
 |       <center>       KIWIBrowser（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
 |         <center>       Lemur Browser（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
 |                                                                         |                                                                                                                               |                                                                                 |
