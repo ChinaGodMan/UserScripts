@@ -55,7 +55,7 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 ### ChatGPTTập lệnh liên quan
 
 - [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn
-- [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): 添加一个bộ đếm ký tự到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
+- [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): thêm mộtbộ đếm ký tựvào hộp nhập liệu，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
 - [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->

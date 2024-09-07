@@ -49,7 +49,7 @@
 - [**GitHub정보 표시 제출HTML**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 - [**GitHub폴더 다운로드**](https://greasyfork.org/scripts/505496): 다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。
 - [**GitHub단일 파일 다운로드 및 파일 복사URL**](https://greasyfork.org/scripts/505501): 각 파일 줄 끝에 추가 버튼，원본 파일을 복사하려면 URL 그리고 파일 다운로드
-- [**github창고 크기 표시**](https://greasyfork.org/scripts/502291): 존재하다Github查看仓库和搜索仓库时창고 크기 표시
+- [**github창고 크기 표시**](https://greasyfork.org/scripts/502291): 존재하다Github저장소를 보고 검색할 때창고 크기 표시
 - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 창고 목록 파일 정렬 방식을 날짜 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
