@@ -2,126 +2,126 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Tổng số lượt cài đặt của tất cả các tập lệnh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Số lượng cài đặt tập lệnh ngày hôm nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Số lượng tập lệnh&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Tất cả các đánh giá tích cực&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Tất cả chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=Tất cả các đánh giá tiêu cực&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=ngôi sao&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=bản sao&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=câu hỏi&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">如果脚本对你有帮助,可以给个↑小星以资鼓励</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Nếu kịch bản giúp bạn,Tôi có thể cho một↑Ngôi sao nhỏ để khuyến khích</a></code>
 </div></center></div></center></div></center></div></center></div></center></div></center></div></center></div></center><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <center><div align="center">
-    <h1>Greasyfork糊裱匠</h1>
-    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
+    <h1>GreasyforkThợ keo</h1>
+    <p>「 Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>脚本详情页,所有脚本列表添加<code>脚本评分</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修复兼容性.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在脚本列表顶部添加下载按钮,点击下载所有脚本</em></li>
+            Fork</a></p><details><summary>Cập nhật bản ghi</summary><ul>
+<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>Trang chi tiết kịch bản,Tất cả danh sách tập lệnh đã được thêm<code>Xếp hạng kịch bản</code>.</em></li>
+<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>Sửa lỗi tương thích.</em></li>
+<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>Đã thêm nút tải xuống ở đầu danh sách tập lệnh,Bấm để tải xuống tất cả các tập lệnh</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>优化：优化脚本列表图标显示位置</em></p>
+<p><em>tối ưu hóa：Tối ưu hóa vị trí hiển thị của biểu tượng danh sách script</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>优化：优化设置界面代码</em></p>
+<p><em>tối ưu hóa：Tối ưu hóa cài đặt mã giao diện</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
 </li>
 <li>
-<p><em>修复：修正脚本设置界面在移动设备上显示错乱问题</em></p>
+<p><em>Sửa chữa：Đã khắc phục sự cố giao diện cài đặt tập lệnh hiển thị không chính xác trên thiết bị di động</em></p>
 </li>
 <li>
 <p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
 </li>
 <li>
-<p><em>新增：增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译</em></p>
+<p><em>Mới：Thêm gói ngôn ngữ tiếng Việt，Cảm ơn cư dân mạng <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> dịch</em></p>
 </li>
 <li>
 <p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
 </li>
 <li>
-<p><em>新增：增加 WebHook 页快捷跳转脚本管理</em></p>
+<p><em>Mới：Tăng WebHook Quản lý tập lệnh nhảy nhanh trang</em></p>
 </li>
 <li>
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>修复：修复监听规则变化导致动态监听失败</em></p>
+<p><em>Sửa chữa：Đã khắc phục sự cố lỗi giám sát động do thay đổi quy tắc giám sát</em></p>
 <ul>
-<li><em>监听规则增加：<code>user-script-list-section browse-script-list</code></em></li>
+<li><em>Đã thêm quy tắc giám sát：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
 </li>
 <li>
-<p><em>复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS</em></p>
+<p><em>sao chép <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> mới vào CSS</em></p>
 </li>
 <li>
 <p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
 </li>
 <li>
-<p><em>新增：</em></p>
+<p><em>Mới：</em></p>
 <ul>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏</em></li>
-<li><em>增加固定网站侧边操作栏</em></li>
+<li><em>Tăng <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Tập lệnh hiển thị cột đôi</em></li>
+<li><em>Tăng <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Làm đẹp thanh điều hướng trong</em></li>
+<li><em>Thêm thanh hành động bên trang web cố định</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
 </li>
 <li>
-<p><em>新增：完全的繁体语言支持</em></p>
+<p><em>Mới：Hỗ trợ đầy đủ ngôn ngữ truyền thống</em></p>
 </li>
 <li>
 <p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>增加侧边导航栏开关</em></li>
-<li><em>增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）</em></li>
+<li><em>Mới：</em><ul>
+<li><em>Thêm công tắc thanh điều hướng bên</em></li>
+<li><em>Thêm proxy hình ảnh（Không tương thích khi được bật <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Duyệt ảnh trong）</em></li>
 </ul>
 </li>
 <li>
-<p><em>修复：</em></p>
+<p><em>Sửa chữa：</em></p>
 <ul>
-<li><em>修复在移动设备上浏览图片超出浏览器外的问题</em></li>
-<li><em>修改在编辑代码时自动勾选美化</em></li>
+<li><em>Đã khắc phục sự cố hình ảnh được xem bên ngoài trình duyệt trên thiết bị di động</em></li>
+<li><em>Sửa đổi để tự động kiểm tra làm đẹp khi chỉnh sửa code</em></li>
 </ul>
 </li>
 <li>
 <p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>添加导航栏展开 "更多"</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏</em></li>
+<li><em>Mới：</em><ul>
+<li><em>Thêm phần mở rộng thanh điều hướng "Hơn"</em></li>
+<li><em>Tăng <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork Nâng cao</a> Thanh điều hướng bên trong</em></li>
 </ul>
 </li>
 <li>
-<p><em>优化：完善对多语言的支持</em></p>
+<p><em>tối ưu hóa：Cải thiện hỗ trợ cho nhiều ngôn ngữ</em></p>
 </li>
 <li>
 <p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
 </li>
-<li><em>新增：</em><ul>
-<li><em>增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a></em></li>
+<li><em>Mới：</em><ul>
+<li><em>Thêm đăng nhập tự động <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a></em></li>
 </ul>
 </li>
-<li><em>修复：</em><ul>
-<li><em>修复显示列表上的脚本安装状态</em></li>
+<li><em>Sửa chữa：</em><ul>
+<li><em>Sửa trạng thái cài đặt tập lệnh trên danh sách hiển thị</em></li>
 </ul>
 </li>
-<li><em>优化：完善对多语言的支持</em></li>
+<li><em>tối ưu hóa：Cải thiện hỗ trợ cho nhiều ngôn ngữ</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -217,16 +217,16 @@ vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian
 ---
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GreasyFork相关脚本
-> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
-> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
-> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
-> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
-> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
+> ### GreasyForkTập lệnh liên quan
+> - [**GreasyForkthích hợp để nâng cao**](https://greasyfork.org/scripts/497317): Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe
+> - [**GreaysFork Nâng cao WebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ
+> - [**GreasyFork Hiển thị xếp hạng kịch bản**](https://greasyfork.org/scripts/501119): Thêm điểm đánh giá vào danh sách tập lệnh
+> - [**GreasyFork Tìm kiếm nâng cao**](https://greasyfork.org/scripts/505215): Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên 
+> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
+> - [**GreasyforkThợ keo**](https://greasyfork.org/scripts/497346): Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác
+> - [**Greasyfork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
+> - [**Script FinderCông cụ tìm tập lệnh Grease Monkey**](https://greasyfork.org/scripts/498904): Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
@@ -251,7 +251,7 @@ vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+## Giúp đỡ
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
+<a href="#top">trở lại đầu trang↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
