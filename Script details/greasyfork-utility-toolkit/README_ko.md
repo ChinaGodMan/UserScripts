@@ -27,13 +27,13 @@
 <li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>스크립트 목록 상단에 다운로드 버튼을 추가했습니다.,모든 스크립트를 다운로드하려면 클릭하세요.</em></li>
 <li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
 <li>
-<p><em>최적화：최적화脚本列表图标显示位置</em></p>
+<p><em>최적화：최적화스크립트 목록 아이콘 표시 위치</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
 </li>
 <li>
-<p><em>최적화：최적화设置界面代码</em></p>
+<p><em>최적화：최적화인터페이스 코드 설정</em></p>
 </li>
 <li>
 <p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
@@ -57,7 +57,7 @@
 <p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
 </li>
 <li>
-<p><em>수리하다：수리하다监听规则变化导致动态监听失败</em></p>
+<p><em>수리하다：수리하다모니터링 규칙 변경으로 인해 동적 모니터링이 실패함</em></p>
 <ul>
 <li><em>모니터링 규칙이 추가되었습니다.：<code>user-script-list-section browse-script-list</code></em></li>
 </ul>
@@ -272,7 +272,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 - [**GreasyFork향상에 적합**](https://greasyfork.org/scripts/497317): 추가할 링크에 적합한 스크립트 세부정보 페이지가 추가됩니다.，웹페이지 복사,타이어 검색
 - [**GreaysFork 향상시키다 WebHook동기화 설정**](https://greasyfork.org/scripts/506717): 이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
-- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，添加체재帮助链接及 Markdown 툴바 소개
+- [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，다음에 추가체재도움말 링크 및 Markdown 툴바 소개
 - [**GreasyFork 스크립트 등급 표시**](https://greasyfork.org/scripts/501119): 스크립트 목록에 평가 점수 추가
 - [**GreasyFork 고급 검색**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색 GreasyFork 그리고 SleazyFork 상적 각본 
 - [**GreasyFork 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등

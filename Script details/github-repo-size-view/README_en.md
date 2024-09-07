@@ -96,7 +96,7 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 - [**GitHubFolder download**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-- [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithub查看仓库和搜索仓库时Show warehouse size
+- [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubWhen viewing and searching repositoriesShow warehouse size
 - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
