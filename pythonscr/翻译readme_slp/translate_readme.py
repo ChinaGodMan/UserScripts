@@ -6,14 +6,23 @@ import io
 import threading
 from urllib.parse import urlencode
 from urllib.request import urlopen
+import urllib.parse
 
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 
 # 全局翻译缓存字典
 translation_cache = {
-    "复刻": "Fork",
-    "问题": "issues",
+    "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值
+    "问题": ("issues", False) ,
+    "所有脚本总安装数": ("issues", True) ,
+    "今日所有脚本安装数": ("issues", True) ,
+    "所有一般": ("issues", True) ,
+    "联系": ("issues", True) ,
+    "所有差评": ("issues", True) ,
+    "所有好评": ("issues", True) ,
+    "星标": ("issues", True) ,
+    "脚本数量": ("issues", True) ,
     # 可以继续添加其他常见的翻译
 }
 
@@ -32,7 +41,7 @@ json_data = {
 }
 
 # 翻译函数
-def translate_text(text, target_lang):
+def translate_text_s(text, target_lang):
     if text in translation_cache:
         print(f"从缓存中获取翻译：{text} -> {translation_cache[text]}")
         return translation_cache[text]
@@ -54,7 +63,41 @@ def translate_text(text, target_lang):
     except Exception as e:
         print(f"翻译错误：{e}")
         return None
-
+def translate_text(text, target_lang):
+    # 如果在缓存中，判断布尔值
+    if text in translation_cache:
+        cached_translation, needs_api_translation = translation_cache[text]
+        # 如果缓存中的布尔值为 False，直接使用缓存翻译
+        if not needs_api_translation:
+            #print(f"从缓存中获取翻译：{text} -> {cached_translation}")
+            return cached_translation
+        # 如果布尔值为 True，强制调用 API 翻译，不使用缓存的翻译
+        else:
+            print(f"{text} 在缓存中，但需要通过 API 翻译。")
+    # 调用翻译 API 进行翻译
+    api_url = 'https://translate.googleapis.com/translate_a/single'
+    params = {
+        'client': 'gtx',
+        'dt': 't',
+        'sl': 'auto',
+        'tl': target_lang,
+        'q': text
+    }
+    full_url = api_url + '?' + urlencode(params)
+    try:
+        # 调用 API 获取翻译
+        response = urlopen(full_url)
+        data = response.read().decode('utf-8')
+        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        #print(f"API 翻译：{text} -> {translated_text}")
+        # 如果缓存中该词条的布尔值为 True，进行 URL 编码
+        if text in translation_cache and translation_cache[text][1]:
+            translated_text = urllib.parse.quote(translated_text)
+            #print(f"URL 编码后的翻译：{translated_text}")
+        return translated_text
+    except Exception as e:
+        print(f"翻译错误：{e}")
+        return None
 # 读取文件并查找中文文本
 def read_file_to_memory(file_path, json_data):
     with open(file_path, 'r', encoding='utf-8') as f_in:
