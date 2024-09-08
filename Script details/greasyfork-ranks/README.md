@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501119">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501119.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501119.png?t=1">
 </div></center>
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->

@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505207">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png?t=1">
 </div></center>
 
 解除CSDN需要登录复制的限制

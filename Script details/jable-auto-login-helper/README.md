@@ -26,7 +26,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>初始版本-欢迎使用</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1">
 </div></center>
 
 # JableTV  AutoLogin Helper

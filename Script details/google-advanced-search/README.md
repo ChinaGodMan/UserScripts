@@ -34,7 +34,7 @@
 <li><em><mark>问题: 移动设备无法显示高级搜索框</mark></em></li>
 <li><em><mark>修复方式：下面代码仅在PC端生效</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png?t=1">
 </div></center>
 
 # Google 高级搜索助手

@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png?t=1">
 </div></center>
 
 #  GreasyFork SleazyFork 谷歌搜索脚本
