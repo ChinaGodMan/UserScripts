@@ -96,6 +96,7 @@
 - 新增链接新窗口打开选项，默认为当前页面跳转
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助

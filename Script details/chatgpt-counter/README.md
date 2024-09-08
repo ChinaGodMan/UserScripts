@@ -60,6 +60,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 修改自用户 [Emree.el](https://greasyfork.org/zh-CN/users/1297357)的脚本 [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助

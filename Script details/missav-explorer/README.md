@@ -96,6 +96,7 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助

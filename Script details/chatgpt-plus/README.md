@@ -70,6 +70,7 @@
 如果你有任何建议或发现了问题，请通过 GitHub 或者GreasyFork 提交问题。
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助
