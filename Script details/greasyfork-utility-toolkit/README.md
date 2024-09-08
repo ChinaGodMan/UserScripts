@@ -142,9 +142,6 @@
 ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
   <p><a href="#:~:text=更新信息">查看Greasyfork 糊裱匠的版本更新记录</a></p>
-
----
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能介绍
@@ -235,7 +232,6 @@
 - 侧边导航栏
 - 代理用户图片
 
----
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GreasyFork相关脚本
@@ -270,13 +266,10 @@
 ![scriptdet.png](https://s2.loli.net/2024/08/05/9pMfdUi2qHDREek.png)
 ![scriptlist.png](https://s2.loli.net/2024/08/05/3xrMsHPSDtTf8hu.png)
 
----
-
-
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<p><a href="https://github.com/ChinaGodMan/UserScripts#readme"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
