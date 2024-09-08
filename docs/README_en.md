@@ -78,8 +78,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-07 08:40:13</sub></td>
-             <td><sub>0.1.0.18</sub></td>
+            <td><sub>2024-09-08 08:45:08</sub></td>
+             <td><sub>0.1.0.19</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -106,8 +106,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-07 08:40:14</sub></td>
-             <td><sub>1.3.1.9</sub></td>
+            <td><sub>2024-09-08 08:45:08</sub></td>
+             <td><sub>1.3.1.10</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -134,8 +134,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-07 08:40:14</sub></td>
-             <td><sub>0.1.0.20</sub></td>
+            <td><sub>2024-09-08 08:45:09</sub></td>
+             <td><sub>0.1.0.21</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -148,7 +148,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -162,8 +162,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-07 08:40:14</sub></td>
-             <td><sub>1.2.2.68</sub></td>
+            <td><sub>2024-09-08 08:45:09</sub></td>
+             <td><sub>1.2.2.69</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -190,8 +190,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-07 08:40:15</sub></td>
-             <td><sub>1.0.0.18</sub></td>
+            <td><sub>2024-09-08 08:45:09</sub></td>
+             <td><sub>1.0.0.19</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -218,8 +218,8 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-09-07 08:40:15</sub></td>
-             <td><sub>1.0.0.4</sub></td>
+            <td><sub>2024-09-08 08:45:09</sub></td>
+             <td><sub>1.0.0.5</sub></td>
               <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
     <tr>
@@ -246,8 +246,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-07 08:40:15</sub></td>
-             <td><sub>1.0.0.14</sub></td>
+            <td><sub>2024-09-08 08:45:10</sub></td>
+             <td><sub>1.0.0.15</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -274,8 +274,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-07 08:40:16</sub></td>
-             <td><sub>0.7.0.18</sub></td>
+            <td><sub>2024-09-08 08:45:10</sub></td>
+             <td><sub>0.7.0.19</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -302,8 +302,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-07 08:40:16</sub></td>
-             <td><sub>2.2.0.17</sub></td>
+            <td><sub>2024-09-08 08:45:11</sub></td>
+             <td><sub>2.2.0.18</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -330,8 +330,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-07 08:40:16</sub></td>
-             <td><sub>0.1.2.51</sub></td>
+            <td><sub>2024-09-08 08:45:11</sub></td>
+             <td><sub>0.1.2.52</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -358,8 +358,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-07 08:40:17</sub></td>
-             <td><sub>1.1.0.18</sub></td>
+            <td><sub>2024-09-08 08:45:11</sub></td>
+             <td><sub>1.1.0.19</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -386,8 +386,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-07 08:40:17</sub></td>
-             <td><sub>0.1.9.40</sub></td>
+            <td><sub>2024-09-08 08:45:12</sub></td>
+             <td><sub>0.1.9.41</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -414,8 +414,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-07 08:40:17</sub></td>
-             <td><sub>0.0.1.46</sub></td>
+            <td><sub>2024-09-08 08:45:12</sub></td>
+             <td><sub>0.0.1.47</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -442,8 +442,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-07 08:40:18</sub></td>
-             <td><sub>0.9.3.61</sub></td>
+            <td><sub>2024-09-08 08:45:13</sub></td>
+             <td><sub>0.9.3.62</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -470,8 +470,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-07 08:40:21</sub></td>
-             <td><sub>1.1.0.5</sub></td>
+            <td><sub>2024-09-08 08:45:16</sub></td>
+             <td><sub>1.1.0.6</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -484,7 +484,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Used by default in forums Markdown Format，Add format help link and Markdown 工具栏绍</td>
+            <td>Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
@@ -498,8 +498,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-07 08:40:18</sub></td>
-             <td><sub>2.0.4.19</sub></td>
+            <td><sub>2024-09-08 08:45:13</sub></td>
+             <td><sub>2.0.4.20</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -526,8 +526,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-07 08:40:19</sub></td>
-             <td><sub>1.3.3.58</sub></td>
+            <td><sub>2024-09-08 08:45:13</sub></td>
+             <td><sub>1.3.3.59</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -540,7 +540,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Search using Google GreasyFork and SleazyFork upper script </td>
+            <td>Search using Google GreasyFork and SleazyFork superior script </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -554,8 +554,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-07 08:40:19</sub></td>
-             <td><sub>0.6.5.18</sub></td>
+            <td><sub>2024-09-08 08:45:14</sub></td>
+             <td><sub>0.6.5.19</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -568,7 +568,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -582,8 +582,8 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-07 08:40:20</sub></td>
-             <td><sub>0.3.1.52</sub></td>
+            <td><sub>2024-09-08 08:45:14</sub></td>
+             <td><sub>0.3.1.53</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -610,14 +610,14 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-07 08:40:20</sub></td>
-             <td><sub>2.2.0.86</sub></td>
+            <td><sub>2024-09-08 08:45:15</sub></td>
+             <td><sub>2.2.0.87</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
@@ -638,8 +638,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-07 09:32:22</sub></td>
-             <td><sub>1.3.0.0</sub></td>
+            <td><sub>2024-09-08 08:45:12</sub></td>
+             <td><sub>1.3.0.1</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -666,8 +666,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-07 08:40:22</sub></td>
-             <td><sub>1.1.2.67</sub></td>
+            <td><sub>2024-09-08 08:45:16</sub></td>
+             <td><sub>1.1.2.68</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -694,8 +694,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-07 08:40:22</sub></td>
-             <td><sub>1.0.5.21</sub></td>
+            <td><sub>2024-09-08 08:45:16</sub></td>
+             <td><sub>1.0.5.22</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -722,8 +722,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-07 08:40:23</sub></td>
-             <td><sub>1.0.1.2</sub></td>
+            <td><sub>2024-09-08 08:45:17</sub></td>
+             <td><sub>1.0.1.3</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -750,8 +750,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-07 08:40:23</sub></td>
-             <td><sub>1.2.3.68</sub></td>
+            <td><sub>2024-09-08 08:45:18</sub></td>
+             <td><sub>1.2.3.69</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -778,8 +778,8 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-07 08:40:26</sub></td>
-             <td><sub>1.0.1.3</sub></td>
+            <td><sub>2024-09-08 08:45:20</sub></td>
+             <td><sub>1.0.1.4</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
     <tr>
@@ -806,8 +806,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-07 08:40:22</sub></td>
-             <td><sub>1.0.0.5</sub></td>
+            <td><sub>2024-09-08 08:45:17</sub></td>
+             <td><sub>1.0.0.6</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -834,8 +834,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-07 08:40:23</sub></td>
-             <td><sub>1.3.98.20</sub></td>
+            <td><sub>2024-09-08 08:45:18</sub></td>
+             <td><sub>1.3.98.21</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -862,8 +862,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-07 08:40:24</sub></td>
-             <td><sub>2.4.0.27</sub></td>
+            <td><sub>2024-09-08 08:45:18</sub></td>
+             <td><sub>2.4.0.28</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -890,8 +890,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-07 08:40:24</sub></td>
-             <td><sub>1.2.0.58</sub></td>
+            <td><sub>2024-09-08 08:45:19</sub></td>
+             <td><sub>1.2.0.59</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -918,8 +918,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-07 08:40:25</sub></td>
-             <td><sub>0.1.6.74</sub></td>
+            <td><sub>2024-09-08 08:45:19</sub></td>
+             <td><sub>0.1.6.75</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -946,8 +946,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-07 08:40:25</sub></td>
-             <td><sub>1.0.0.21</sub></td>
+            <td><sub>2024-09-08 08:45:20</sub></td>
+             <td><sub>1.0.0.22</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -974,8 +974,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-07 08:40:25</sub></td>
-             <td><sub>1.2.0.67</sub></td>
+            <td><sub>2024-09-08 08:45:20</sub></td>
+             <td><sub>1.2.0.68</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1002,8 +1002,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-07 08:40:26</sub></td>
-             <td><sub>0.31.0.18</sub></td>
+            <td><sub>2024-09-08 08:45:21</sub></td>
+             <td><sub>0.31.0.19</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     </tbody>
@@ -1025,7 +1025,7 @@ To use any script，First you need to install the browser **Tampermonkey  Script
 > 
 > - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
+> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
