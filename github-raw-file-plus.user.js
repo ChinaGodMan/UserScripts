@@ -79,7 +79,7 @@
 // @version 2.2.0.18
 // @author       	Kamikaze (https://github.com/Kamiikaze) ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        	https://github.com/*
-// @icon         	https://github.githubassets.com/pinned-octocat.svg
+// @icon         	https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @run-at       	document-ready
 // @license      	MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
