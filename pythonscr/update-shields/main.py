@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 # 定义标记和新内容文件的路径
 START_TAG = "<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->"
@@ -54,6 +55,15 @@ def main():
         for file_name in files:
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
+                result = subprocess.run(['python', './pythonscr/1.py', file_path], capture_output=True, text=True)
+                output = result.stdout.strip()
+                print(output)
+                # 根据返回值输出结果
+                if output == 'True':
+                    print(f"\033[91m 文件提交时间在 5 分钟内，返回: True 对文件进行更新-> {file_path}\033[0m")
+                else:
+                    print(f"文件提交时间超过 5 分钟，返回: False 不对文件进行更新-> {file_path}")
+                    continue
                 if "Change history" in file_path:
                     print(f"\033[91m 文件被跳过 {file_path}\033[0m")
                     continue
