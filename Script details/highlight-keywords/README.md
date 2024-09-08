@@ -27,9 +27,15 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # 原作者发布页[ mabangde](https://greasyfork.org/zh-CN/scripts/465200)
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本功能
 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用。
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## UI 说明
 1. **第一栏：网页限制**
    - 可以指定在哪些网页上起作用，比如 `bilibili`, `baidu`, `bilibili.com`
@@ -39,6 +45,8 @@
    - 鼠标移动到对应的关键字上会显示你输入的内容
 3. **第三栏：关键字栏**
    - 输入你想要高亮的词，空格隔开
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 图片
 ![hl.png](https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png)
 
@@ -48,11 +56,17 @@
 > - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 初次安装
 
 第一次安装会默认添加一些规则测试，可以删除。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 更新日志
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 2024 年 6 月 26 日
 
@@ -60,6 +74,8 @@
 - 增加了对设置文字颜色的支持（第二个颜色选择器）
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

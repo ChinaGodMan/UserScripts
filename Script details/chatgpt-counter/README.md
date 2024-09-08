@@ -31,9 +31,13 @@
 
 ![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 描述
 
 ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT 的输入框添加一个字符计数器，限制为 32732 个字符。这个脚本可以帮助用户在输入时实时查看已输入字符的数量，并在超出限制时给出视觉提示。.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能
 
@@ -50,10 +54,14 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Thanks
 修改自用户 [Emree.el](https://greasyfork.org/zh-CN/users/1297357)的脚本 [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -29,14 +29,20 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # JableTV  AutoLogin Helper
 This script is used for managing user accounts on JableTV . It provides functionalities for automatic login and checking if the user is already logged in.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
 - **Account Setup**: Allows users to set their email and password via a popup modal.
 - **Login Functionality**: Logs in using the provided email and password, and handles login errors.
 - **User Detection**: Checks if the user is logged in. If not, it attempts to log in automatically.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Installation and Usage
 
@@ -63,6 +69,8 @@ This script is used for managing user accounts on JableTV . It provides function
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

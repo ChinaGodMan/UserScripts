@@ -27,22 +27,34 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # ChatGPT Chat Fold Script & MAXWidth
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 簡介
 `ChatGPT Chat Fold Script & MAXWidth` 是一個用於在 ChatGPT 中折疊較長的“你”發送的訊息並設定最大寬度的腳本。這可以幫助你更好地管理長訊息，並改善介面佈局。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 功能
 - **折疊長訊息**：自動折疊由你發送的長訊息，節省螢幕空間。 
 - **設定最大寬度**：允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用方法
 - 預設情況下，腳本會自動折疊長訊息。
 - 你可以點擊訊息旁邊的 “折疊” 按钮来手动折疊或展开消息。
 - 在設定中調整聊天視窗的最大寬度。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 更新日誌
 - **v0.1**：初始版本，添加折疊功能和最大寬度設置。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 貢獻
 如果你有任何建議或發現了問題，請透過 GitHub 或者GreasyFork 提交問題。
@@ -60,6 +72,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用幫助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
 <a href="#top">回到頂部↑</a></p>

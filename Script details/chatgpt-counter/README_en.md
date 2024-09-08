@@ -29,11 +29,17 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # ChatGPT Character Counter Limit (CCCL)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description
 
 The ChatGPT Character Counter Limit (CCCL) is a user script designed to add a character counter to the ChatGPT input box, limiting the count to 32,732 characters. This script helps users view the number of characters entered in real-time and provides visual prompts when the limit is exceeded.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
@@ -41,6 +47,8 @@ The ChatGPT Character Counter Limit (CCCL) is a user script designed to add a ch
 - Updates the counter in real-time, displaying the number of characters entered and the character limit.
 - Changes the counter text color to red when the character count exceeds the limit, providing a warning.
 - Changes the counter text color to green when the character count approaches the limit, displaying a caution.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Thanks
 Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802) by user [Emree.el](https://greasyfork.org/zh-CN/users/1297357)
@@ -57,6 +65,8 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

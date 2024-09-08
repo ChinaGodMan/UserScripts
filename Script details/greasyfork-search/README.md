@@ -27,11 +27,17 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 #  GreasyFork SleazyFork 谷歌搜索脚本
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 描述
 
 **GreasyFork SleazyFork 谷歌搜索脚本**是一款用户脚本，通过利用谷歌搜索增强了 [GreasyFork.org](https://greasyfork.org/) [SleazyFork.org](https://sleazyfork.org/) 上的脚本搜索功能。此脚本允许您使用谷歌强大的搜索引擎来搜索脚本，提供更准确和全面的搜索结果。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 用法
 
@@ -42,6 +48,8 @@
 
 2. `youtube.com tamer`
    > 它将使用 Greasy Fork 搜索与 "tamer" 相关的脚本，搜索范围限定在 "youtube.com" 域名内。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 特点
 
@@ -62,14 +70,20 @@
 > - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 兼容性
 
 **GreasyFork 谷歌搜索脚本**设计用于 [GreasyFork.org](https://greasyfork.org/) [SleazyFork.org](https://sleazyfork.org/) 网站。它兼容支持用户脚本的现代网络浏览器，例如 Tampermonkey 和 Greasemonkey。
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 修改来源 
 作者[𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179)的脚本[GreasyFork Search]( https://greasyfork.org/scripts/468495),感谢作者的勤劳智慧
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

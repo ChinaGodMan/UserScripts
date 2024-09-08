@@ -46,11 +46,15 @@
 
 A userscript that adds the size of Github repositories to the search results and repository pages.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Preview
 
 ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
 ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Prerequisites
 
@@ -61,11 +65,15 @@ To use this script, you will need a userscript manager. Some popular choices are
 - [Greasemonkey](https://www.greasespot.net/) (Firefox)
 - [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) (Safari)
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Installation
 
 1. Install Tampermonkey or your preferred userscript manager.
 2. Install the script from [here](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js).
 3. (Optional) If you want to view the sizes of private repositories, see the instructions below.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## View Private Repositories Size
 
@@ -78,15 +86,21 @@ This token will be used to authenticate with the Github API.
 3. Click on the `Generate token` button and copy the token.
 4. Click the script menu `Set GitHub Token` and fill in the token you just generated.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Usage
 
 This script will automatically run on Github search pages and repository pages, and will display the repository size next to the repository name.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Change description
 
 Fix the problem of failure in search page
 Fixed the issue of not displaying when viewing other warehouses (increased delay)
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## grateful
 
@@ -102,6 +116,8 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

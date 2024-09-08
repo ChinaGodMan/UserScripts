@@ -129,6 +129,8 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本功能
 
 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。
@@ -143,7 +145,11 @@
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 功能介绍
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 脚本详情
 
 - 切换文档视图与网页视图
@@ -160,6 +166,8 @@
 - 美化代码片段
 - 美化查看代码
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 脚本列表
 
 - 列表显示安装下载
@@ -171,10 +179,14 @@
 - 移动侧边栏
 - 按创建日期排序脚本列表
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 美化控件
 
 - 控件美化
 - 美化选择框和单选框标签
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 适用于
 
@@ -186,6 +198,8 @@
   - 网页打开
   - 弹出提示
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 个人主页
 
 - 清理旧的主页内容
@@ -194,6 +208,8 @@
 - 隐藏近期评论
 - 主页显示统计
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 导航栏
 
 - 增加发布新脚本选项
@@ -201,6 +217,8 @@
 - 修复导航栏样式
 - 在导航栏添加打开本界面
 - 导航栏对齐
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 网站
 
@@ -233,6 +251,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 图片展示:
 
 ![nav.png](https://s2.loli.net/2024/08/05/ePCZp6TINsnLyht.png)
@@ -254,6 +274,8 @@
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

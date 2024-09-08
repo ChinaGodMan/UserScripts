@@ -26,10 +26,16 @@
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498625.png?t=1">
 </div></center>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Remove Link Underlines
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description
 This userscript removes underlines from all links on any website and dynamically handles new links. It ensures a cleaner and more visually appealing browsing experience.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description in Multiple Languages
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
@@ -41,41 +47,65 @@ This userscript removes underlines from all links on any website and dynamically
 > - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  中文（简体）
 这个用户脚本移除所有网站上的链接下划线，并动态处理新链接。它确保了更干净和更有视觉吸引力的浏览体验。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ###  中文（繁体）
 这个使用者脚本移除所有网站上的连结底线，并动态处理新连结。它确保了更干净和更有视觉吸引力的浏览体验。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  Français
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ###  日本语
 このユーザースクリプトは、任意のWebサイト上のすべてのリンクの下线を削除し、新しいリンクを动的に処理します。これにより、よりクリーンで视覚的に魅力的なブラウジング体験が保証されます。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  Deutsch
 Dieses Benutzerskript entfernt die Unterstreichungen aller Links auf jeder Website und behandelt neue Links dynamisch. Es sorgt für ein saubereres und optisch ansprechenderes Surferlebnis.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ###  한국어
 이 사용자 스크립트는 모든 웹사이트에서 모든 링크의 밑줄을 제거하고 새 링크를 동적으로 처리합니다. 이는 더 깨끗하고 시각적으로 매력적인 브라우징 경험을 보장합니다.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  Tiếng Việt
 Tập lệnh người dùng này xóa gạch chân khỏi tất cả các liên kết trên bất kỳ trang web nào và xử lý động các liên kết mới. Nó đảm bảo trải nghiệm duyệt web sạch hơn và hấp dẫn hơn về mặt hình ảnh.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ###  العربية
 يقوم هذا النص البرمجي للمستخدم بإزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة. يضمن تجربة تصفح أنظف وأكثر جاذبية بصريًا.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  हिंदी
 यह उपयोगकर्ता स्क्रिप्ट किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटा देती है और नए लिंक को गतिशील रूप से संभालती है। यह एक क्लीनर और अधिक आकर्षक ब्राउज़िंग अनुभव सुनिश्चित करता है।
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ###  Español
 Este script de usuario elimina los subrayados de todos los enlaces en cualquier sitio web y maneja dinámicamente los nuevos enlaces. Garantiza una experiencia de navegación más limpia y visualmente atractiva.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Author
 人民的勤务员 (Servant of the People) & ChatGPT
 [toniaiwanowskiskr47@gmail.com](mailto:toniaiwanowskiskr47@gmail.com)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -27,11 +27,15 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 功能说明
 
 增强GreasyFork的导航栏, 添加用户列表、用户收藏、用户控制台等等....
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 其他说明
 
@@ -53,6 +57,8 @@
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 感谢
 
 脚本修改自用户 **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** 的脚本 [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) 感谢原作者 **CY Fung** 的**勤劳**与**智慧**
@@ -61,12 +67,16 @@
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 图片
 ![3.png](https://s2.loli.net/2024/08/05/woDtxEg5SGrTJ7h.png)
 ![1.png](https://s2.loli.net/2024/08/05/GtB2fbacqSOX1hz.png)
 ![2.png](https://s2.loli.net/2024/08/05/sDZqO8fgEk1GzWh.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

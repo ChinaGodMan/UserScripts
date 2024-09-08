@@ -41,6 +41,8 @@
     
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本功能
 
 脚本详情页"适用于"下的网址去除默认跳转论坛搜索，改为可以点击的文本链接。点击时弹出提示：
@@ -61,7 +63,11 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 版本更新
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 0.1 版本
 
@@ -70,12 +76,18 @@
 - 1=打开网址
 - 2=在论坛搜索
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 0.6 版本
 新增在脚本详情页下方增加一个更改跳转方式的选择框。
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 0.7 版本
 新增大人的叉子
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 0.8 版本（2024 年 06 月 09 日 06:17:02）
 
@@ -84,6 +96,8 @@
 - 新增链接新窗口打开选项，默认为当前页面跳转
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

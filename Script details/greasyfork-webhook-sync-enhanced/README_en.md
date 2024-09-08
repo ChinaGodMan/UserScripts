@@ -35,18 +35,26 @@
        width="320" height="240" controls loop>
 </video>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork - Enhanced WebHook Synchronization Settings
 
 When setting up synchronization information on GreasyFork, you might often find that after submitting, the sync information hasn't been successfully saved, requiring you to re-enter it. This is one of the small issues with the website. To solve this problem, this script helps you quickly input script synchronization information and batch-add multiple country language codes without having to click on each checkbox and then go to the corresponding URL.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 - **Quick Input of Synchronization Information**: No need to manually repeat input, allowing you to quickly set and sync information.
 - **Batch Add Language Codes**: Supports batch addition of multiple country/region language codes without the need to select each one individually.
 - **Supports Multiple Formats**: You can choose different URL formats for setup based on your needs.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Instructions (For more details, refer to the images below or the video above)
 - **Script Management Page**: On the script management page, an additional button is added at the bottom. After clicking it, you can manage the current script.
 - **Website Top Navigation Bar**: Adds an option to the navigation bar that, when clicked, automatically retrieves the WebHook synchronized scripts for multiple management.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Supported Formats
 Currently, the following three formats are supported:
@@ -61,9 +69,13 @@ Currently, the following three formats are supported:
 Example code: If you have more options, you can extend it.<br>
 `let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Attention:
 - When submitting localized country information, there must be a header declaration such as//@ name: zh CN in the code, otherwise even if the submission is successful, it will still fail!
 - The script must exist! Otherwise, synchronization will fail,
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Project and Feedback
 
@@ -92,6 +104,8 @@ Example code: If you have more options, you can extend it.<br>
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

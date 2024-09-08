@@ -27,9 +27,13 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork: 導航列增加分類
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能說明
 
@@ -37,6 +41,8 @@
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 其他說明
 
@@ -46,12 +52,16 @@
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 感謝
 
 腳本修改自用戶 **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** 腳本 [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) 感謝原作者 **CY Fung** 的**勤勞**與**智慧**
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 圖片
 ![3.png](https://s2.loli.net/2024/08/05/woDtxEg5SGrTJ7h.png)
@@ -78,6 +88,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用幫助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
 <a href="#top">回到頂部↑</a></p>

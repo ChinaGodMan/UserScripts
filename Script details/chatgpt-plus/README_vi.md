@@ -27,22 +27,34 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # ChatGPT Chat Fold Script & MAXWidth
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Giới thiệu
 `ChatGPT Chat Fold Script & MAXWidth` là một cái được sử dụng trong ChatGPT Nếp gấp ở giữa dài hơn“Bạn”Tập lệnh gửi tin nhắn và đặt độ rộng tối đa。cái nàyCó thểquagiúp đỡgiúp đỡBạnThậm chíTốtđấtỐnglý dodàidi dờihơi thở，và cải thiện bố cục giao diện。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Chức năng
 - **Thu gọn tin nhắn dài**：Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。 
 - **Đặt chiều rộng tối đa**：Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Cách sử dụng
 - Theo mặc định，Tập lệnh tự động thu gọn các tin nhắn dài。
 - Bạn có thể bấm vào bên cạnh tin nhắn “nếp gấp” theocái nútĐếntaydi chuyểnnếp gấphoặctriển lãmmởdi dờihơi thở。
 - Điều chỉnh độ rộng tối đa của cửa sổ trò chuyện trong cài đặt。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Nhật ký thay đổi
 - **v0.1**：phiên bản đầu tiên，Thêm chức năng gấp và cài đặt chiều rộng tối đa。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## đóng góp
 Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，Xin vui lòng vượt qua GitHub hoặcGreasyFork Gửi câu hỏi。
@@ -50,7 +62,11 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 ![1.png](https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png)
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## làmsử dụnggiúp đỡgiúp đỡ
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Giúp đỡ
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
@@ -61,6 +77,8 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Giúp đỡ
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
 <a href="#top">trở lại đầu trang↑</a></p>

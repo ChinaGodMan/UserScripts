@@ -27,11 +27,17 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork  SleazyFork Scripts by Google Search
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description
 
 The **GreasyFork SleazyFork Scripts by Google Search** is a user script that enhances the script search functionality on [GreasyFork.org](https://greasyfork.org/) [SleazyFork.org](https://sleazyfork.org/)  by utilizing Google Search. This script allows you to search for scripts using Google's powerful search engine, providing you with more accurate and comprehensive search results.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Usage
 
@@ -43,6 +49,8 @@ Currently, there are only two features. Just type and search on the main page or
 2. `youtube.com tamer`
    > It will use Greasy Fork to search the scripts with "tamer" on Greasy Fork with the site (domain) "youtube.com".
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Features
 
 - **Improved Search**: Instead of relying solely on GreasyFork's built-in search functionality, this user script integrates Google Search to enhance the script search experience.
@@ -50,9 +58,13 @@ Currently, there are only two features. Just type and search on the main page or
 - **Accurate and Comprehensive Results**: By leveraging the capabilities of Google Search, you can expect more accurate and extensive results, improving your chances of finding the desired scripts.
 - **Easy to Use**: The user script seamlessly integrates with the [GreasyFork.org](https://greasyfork.org/)   [SleazyFork.org](https://sleazyfork.org/)  website, adding the enhanced search functionality to the existing search input. You can initiate a Google search by simply entering your query preceded by "g " (e.g., "g script name").
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Compatibility
 
 The **GreasyFork Scripts by Google Search** user script is designed to work with the [GreasyFork.org](https://greasyfork.org/)  [SleazyFork.org](https://sleazyfork.org/)  website. It is compatible with modern web browsers that support user scripts, such as Tampermonkey and Greasemonkey.
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Modify source
 The author [𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/371179) script [GreasyFork Search]( https://greasyfork.org/scripts/468495), thank the author for his hard work and wisdom
 
@@ -72,6 +84,8 @@ The author [𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/37117
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

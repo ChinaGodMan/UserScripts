@@ -29,12 +29,16 @@
 
 <h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">使用的Goolge翻译.无法连接Google的请不要下载</mark></h2>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # 外语终结者
 **版本:** 1.3.98  
 **作者:**   [人民的勤务员](https://greasyfork.org/zh-CN/users/1169082)  
 **描述:** 识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文。
 
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能说明
 
@@ -43,11 +47,15 @@
 
 - **站点控制:** 用户可以通过菜单命令来控制翻译功能在特定站点的启用或禁用。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用说明
 
 - 在任何网页上自动启用翻译功能。
 - 可通过用户菜单控制翻译功能的启用和禁用。
 - 编辑生效站点列表，定制哪些站点启用翻译功能。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 配置和定制
 
@@ -57,8 +65,12 @@
 - **编辑生效站点:** 手动编辑站点列表，定制翻译功能。
   
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用前:
 ![bf.png](https://s2.loli.net/2024/08/24/kuC7yUIwPmcRje8.png)
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用后:
 ![af.png](https://s2.loli.net/2024/08/24/nYrsvgqNukK1ADZ.png)
 
@@ -71,6 +83,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -27,17 +27,25 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub Sort by date
 
 This userscript will GitHub Files in the warehouse are automatically sorted in descending order by date，Conveniently view the latest updated files。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## characteristic
 
 - Automatically sort files by updated date when page loads。
 - Applies to all GitHub storehouse。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## use
 - Script will automatically sort files by date on page load，No manual intervention required。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Modify source 
 author[androidcn]( https://greasyfork.org/zh-CN/users/18158)script[Github Sort by file update date]( https://greasyfork.org/scripts/492514),FeelingThanksauthorofdiligentlaborwisdomWisdom
@@ -55,6 +63,8 @@ author[androidcn]( https://greasyfork.org/zh-CN/users/18158)script[Github Sort b
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

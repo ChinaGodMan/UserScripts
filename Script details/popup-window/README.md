@@ -53,10 +53,16 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 功能介绍
 🔗 拖拽即开小窗 — 拖拽网页链接，便捷地在小窗口中打开并预览，使用 Edge 的预读技术。小窗口后方有亚克力效果，提升视觉体验。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # 菜单选项说明
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 选项列表
 
@@ -104,6 +110,8 @@
 
 **每个选项后面都有一个对应的操作函数，这些函数用于更新菜单的设置。通过点击选项，用户可以直接改变相关配置，并立即看到效果。**
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 支持的网页
 🌐 全网页适用 — 支持所有网页，随时随地享受便捷的链接预览与打开功能。
 
@@ -116,6 +124,8 @@
 > - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 脚本亮点：
 
 亚克力效果：为小窗口添加美观的背景效果。
@@ -124,10 +134,14 @@
 可调节模糊效果强度。
 自定义小窗口尺寸。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 注意事项：
 点击或滚动页面时，可以自动关闭小窗口。
 立即体验！
 🚀 提升浏览效率 — 安装脚本，享受智能链接预览和美观小窗口！
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 原作者
 
@@ -142,6 +156,8 @@
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -27,14 +27,20 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub 按日期排序
 
 此用户脚本将 GitHub 仓库中的文件自动按日期降序排列，方便查看最新更新的文件。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 特性
 
 - 页面加载时自动按更新日期排序文件。
 - 适用于所有 GitHub 仓库。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用
 - 脚本将在页面加载时自动按日期排序文件，无需手动干预。
@@ -49,6 +55,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 修改来源 
 作者[androidcn]( https://greasyfork.org/zh-CN/users/18158)的脚本[Github 按文件更新日期排序]( https://greasyfork.org/scripts/492514),感谢作者的勤劳智慧
 
@@ -56,6 +64,8 @@
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

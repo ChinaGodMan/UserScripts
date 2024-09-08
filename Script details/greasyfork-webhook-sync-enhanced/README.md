@@ -35,18 +35,26 @@
        width="320" height="240" controls loop>
 </video>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork - 增强WebHook同步设置
 在GreasyFork上设置同步信息时，常常会遇到提交后查看时，发现同步信息并没有被设置成功，导致需要重新输入。这是网站的小问题之一。为了解决这个问题，这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能特点
 - **快速输入同步信息**：无需手动重复输入，可以快速地设置和同步信息。
 - **批量增加语言代码**：支持批量添加多个国家/地区的语言代码，无需逐个选择。
 - **支持多种格式**：可以根据需要选择不同的URL格式进行设置。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用说明 (详情可以查看下方图片或上方视频)
 - **脚本管理页面**：处于脚本管理页面,在下方增加一个按钮,点击之后可以对当前脚本进行管理。
 - **网站顶部导航栏**：导航栏增加一个选项,用于点击之后自动获取Webhook同步的脚本.进行多个管理.
   
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 支持的格式
 目前支持以下三种格式:
 
@@ -60,6 +68,8 @@
 
 代码如下: 如果你有更多的选择可以拓展<br>
 ` let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 注意:
 - 提交的本地化国家信息时,代码内必须存在头部声明 例如//@name:zh-CN,否则即使提交成功也是失败的!
@@ -78,6 +88,8 @@
 > - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 项目与反馈
 
 - **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
@@ -90,6 +102,8 @@
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

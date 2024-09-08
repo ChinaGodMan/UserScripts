@@ -43,15 +43,21 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Script Finder
 
 The Script Finder userscript allows you to find and manage user scripts on any website. It provides a convenient way to search and install userscripts from Greasy Fork. With Script Finder, you can easily enhance your browsing experience by adding custom scripts to your favorite websites easily.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
 - Search for userscripts based on website domain 
 - View detailed information about each script, including author, description, installs, version and rating
 - Install userscripts with a single click
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## How to Use
 
@@ -65,12 +71,20 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 
 **Note**: This userscript requires a userscript manager extension to be installed in your browser. 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ##  Preview
 ![fi.png](https://s2.loli.net/2024/08/05/WOkL8vV2oxRASYQ.png)
 ![show.png](https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png)
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Aoriginal Author
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # [shiquda](https://greasyfork.org/zh-CN/scripts/472056-script-finder)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Modify content
 
@@ -97,6 +111,8 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

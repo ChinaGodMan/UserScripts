@@ -40,11 +40,15 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 预览
 
 ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
 ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 先决条件
 
@@ -55,11 +59,15 @@
 - [Greasemonkey](https://www.greasespot.net/) (Firefox)
 - [用户脚本](https://apps.apple.com/us/app/userscripts/id1463298887) (Safari)
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 安装
 
 1. 安装 Tampermonkey 或您首选的用户脚本管理器。
 2. 从[此处](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js)安装脚本。
 3. （可选）如果您想查看私有存储库的大小，请参阅以下说明。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 查看私有仓库大小
 
@@ -82,10 +90,14 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 用法
 
 该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 感谢
 
@@ -93,6 +105,8 @@
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

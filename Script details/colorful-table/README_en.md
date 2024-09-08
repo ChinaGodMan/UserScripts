@@ -29,6 +29,8 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Gorgeous Gradient Table Beautification Script
 
 This script automatically applies gradient colors to all tables on a webpage, based on the numerical values in each column. It enhances the visual appeal of the table without any manual clicks or operations by the user.
@@ -51,6 +53,8 @@ This script automatically applies gradient colors to all tables on a webpage, ba
 
 #### Use Cases
 This script is suitable for any webpage containing tables, automatically applying gradient colors to enhance data visualization and make it easier to distinguish data differences.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Project & Feedback
 - **Original Script:** [yearly](https://greasyfork.org/zh-CN/users/1312063)'s [Colorful Table | Table Data Visualization](https://greasyfork.org/zh-CN/scripts/502933)
@@ -76,6 +80,8 @@ This script is suitable for any webpage containing tables, automatically applyin
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

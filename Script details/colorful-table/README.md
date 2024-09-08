@@ -30,6 +30,8 @@
 </div></center>
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # 绚丽渐变美化网页表格脚本
 
 该脚本会自动为网页中的所有表格应用颜色渐变，无需用户手动点击或操作，基于表格列中的数值大小生成不同的背景色，从而增强表格的视觉效果。
@@ -63,6 +65,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 项目与反馈
 - **原脚本：** [yearly](https://greasyfork.org/zh-CN/users/1312063)创建的[彩色表格 | 表格数据可视化](https://greasyfork.org/zh-CN/scripts/502933)
 - **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
@@ -72,6 +76,8 @@
 ![colorful-table.png](https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

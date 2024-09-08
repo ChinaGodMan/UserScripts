@@ -27,9 +27,13 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork: 탐색 표시줄에 카테고리 추가
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 기능 설명
 
@@ -37,6 +41,8 @@
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 기타 지침
 
@@ -46,12 +52,16 @@
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 고마워하는
 
 사용자가 수정한 스크립트 **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** 적각본 [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) 원작자님 감사합니다 **CY Fung** ~의**성실한**그리고**지혜**
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 그림
 ![3.png](https://s2.loli.net/2024/08/05/woDtxEg5SGrTJ7h.png)
@@ -73,6 +83,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 돕다
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
 <a href="#top">맨 위로↑</a></p>

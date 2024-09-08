@@ -43,9 +43,13 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Script Finder
 
 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本。它提供了一种方便的方式来搜索和安装来自 Greasy Fork 的用户脚本。借助 Script Finder，你可以轻松地一键将自定义脚本添加到你喜爱的网站上，从而增强你的浏览体验。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能
 
@@ -67,6 +71,8 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用方法
 
 1. 在浏览器中安装用户脚本管理器，例如 Tampermonkey 或 Greasemonkey
@@ -79,14 +85,20 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 
 **注意**：该用户脚本需要在浏览器中安装用户脚本管理器才能正常使用(可在最底部查看可以使用的管理器)
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 图片
 ![fi.png](https://s2.loli.net/2024/08/05/WOkL8vV2oxRASYQ.png)
 ![show.png](https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 原作者
  脚本修改自用户 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的脚本 [Script Finder](https://greasyfork.org/scripts/472056) 感谢原作者 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的**勤劳**与**智慧**
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

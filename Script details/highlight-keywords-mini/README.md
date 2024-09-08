@@ -27,8 +27,12 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498905.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 原作者(leconte112)[Spoiler Protection for tampermonkey](https://greasyfork.org/zh-CN/scripts/475806-spoiler-protection-for-tampermonkey) 
 感谢**leconte112**的勤劳与智慧
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 功能描述
 
@@ -39,6 +43,8 @@
 > - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 优化说明
 
 优化了网页文字过多导致浏览器卡死的问题。
@@ -46,6 +52,8 @@
 ![Snipaste_2024-08-01_09-37-45.png](https://img.xwyue.com/i/2024/08/01/66aae80f5a5c2.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

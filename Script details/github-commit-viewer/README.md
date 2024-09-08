@@ -27,17 +27,25 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505830.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub CommitMessage Html View
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 描述
 
 `GitHub CommitMessage Html View` 是一个用户脚本，旨在将 GitHub 上的提交信息转换为 HTML 视图，从而提供更清晰的提交详情。该脚本自动将提交信息列表、提交头部和最新提交信息转换为 HTML 格式，以增强视觉效果和用户体验,配合git使用
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能
 
 - **提交信息列表转换**: 将提交消息列表中的提交信息转化为 HTML 视图。
 - **头部信息展示**: 显示提交头部和最新提交的详细信息。
 - **增强视觉效果**: 改善提交信息的可视性和用户体验。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## PowerShell配合上传到远程仓库
 
@@ -103,10 +111,14 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 支持
 
 - [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
 - [项目主页](https://github.com/ChinaGodMan/UserScripts)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 许可证
 
@@ -118,6 +130,8 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

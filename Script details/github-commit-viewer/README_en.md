@@ -27,17 +27,25 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505830.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub CommitMessage Html View
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description
 
 `GitHub CommitMessage Html View` is a user script designed to convert commit messages on GitHub into HTML views, providing clearer commit details. This script automatically transforms commit message lists, commit headers, and the latest commit information into HTML format to enhance visual appeal and user experience, and can be used in conjunction with Git.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
 - **Commit Message List Transformation**: Converts commit messages in the commit list to HTML view.
 - **Header Information Display**: Shows detailed information about commit headers and the latest commit.
 - **Enhanced Visuals**: Improves the visibility and user experience of commit information.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Using PowerShell to Upload to a Remote Repository
 
@@ -93,10 +101,14 @@ if ($LASTEXITCODE -ne 0) {
 Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFilePath -Force
 </pre>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Support
 
 - [Report Issues](https://github.com/ChinaGodMan/UserScripts/issues)
 - [Project Homepage](https://github.com/ChinaGodMan/UserScripts)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## License
 
@@ -120,6 +132,8 @@ This script is licensed under the [MIT License](https://opensource.org/licenses/
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

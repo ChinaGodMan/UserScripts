@@ -129,6 +129,8 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 腳本功能
 
 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
@@ -144,7 +146,11 @@
 ---
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 功能介紹
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 腳本詳情
 
 - 切換文檔視圖與網頁視圖
@@ -161,6 +167,8 @@
 - 美化代碼片段
 - 美化查看代碼
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 腳本列表
 
 - 列表顯示安裝下載
@@ -172,10 +180,14 @@
 - 移動側邊欄
 - 按創建日期排序腳本列表
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 美化控件
 
 - 控制美化
 - 美化選擇框和單選框標簽
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 適用於
 
@@ -187,6 +199,8 @@
   - 網頁打開
   - 彈出提示
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 個人主頁
 
 - 清理舊的主頁內容
@@ -195,6 +209,8 @@
 - 隱藏近期評論
 - 主頁顯示統計
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 導航欄
 
 - 增加發布新腳本選項
@@ -202,6 +218,8 @@
 - 修復導航欄樣式
 - 在導航欄添加打開本界面
 - 導航欄對齊
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 網站
 
@@ -219,6 +237,8 @@
 - 代理用戶圖片
 
 ---
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 🌐 瀏覽器與腳本管理器
 
 |                瀏覽器                |                           腳本管理器                           |
@@ -235,7 +255,11 @@
 
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Thank you
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 引用腳本
 
@@ -262,6 +286,8 @@
 - [GreasyFork 一鍵回報垃圾評論](https://greasyfork.org/scripts/474395)
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 圖片展示:
 
@@ -297,6 +323,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用幫助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
 <a href="#top">回到頂部↑</a></p>

@@ -29,10 +29,16 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Github Copy Raw File URL and Download File
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Description
 This userscript adds buttons at the end of each file line on GitHub to allow users to copy the raw file URL and download the file. The buttons include "Copy Raw File URL" and "Download File".
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 - Adds a "Copy Raw File URL" button at the end of each file line.
@@ -40,19 +46,29 @@ This userscript adds buttons at the end of each file line on GitHub to allow use
 - The copy button copies the raw file URL to the clipboard.
 - The download button initiates the file download.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Installation Steps
 1. Install the Tampermonkey extension.
 2. Create a new script and paste the script code.
 3. Save and enable the script.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Compatibility
 - Works on GitHub website.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## License
 MIT License
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Support
 For issues, visit the [support page](https://github.com/ChinaGodMan/UserScripts/issues).
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## grateful
 
@@ -73,6 +89,8 @@ The script is modified from user **[Kamikaze](https://greasyfork.org/zh-CN/users
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

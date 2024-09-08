@@ -32,16 +32,22 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork 通知助手
   ![Snipaste_2024-09-02_12-30-03.png](https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png)
   
 一个 Tampermonkey 脚本，用于在 GreasyFork 上增强讨论列表功能。当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能
 
 - **自定义样式：** 提供一个干净、用户友好的模态窗口，用于显示最新的讨论内容，样式可自定义。
 - **自动更新：** 脚本会定期检查讨论的更新，并在有新回复时提醒你。
 - **信息提取：** 从网页上提取讨论标题、时间戳和用户名，并将其整理到模态窗口中。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 自定义检查时间
 
@@ -70,12 +76,16 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 项目与反馈
 
 - **项目页面：** [GitHub 仓库](https://github.com/ChinaGodMan/UserScripts)
 - **支持与问题反馈：** [报告问题](https://github.com/ChinaGodMan/UserScripts/issues)
   
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -27,11 +27,17 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Missav 批量提取器
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 简介
 
 Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工具。它可以抓取除了主页下的所有视频，并提供了自定义提取速度和文件命名的功能。下载完成后，生成一个包含图片的 `img` 文件夹和一个 `保存文件名.html` 命名网页文件，用于查看获得的视频信息。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能
 
@@ -49,7 +55,11 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 - **高清大图下载**：支持下载高清大图。
 - **支持WebDAV备份**：在下载同时保存到webdav。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 更新记录
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 2024/6/14 更新
 
@@ -62,8 +72,12 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 - **HTML 生成的界面支持从网络获取图片**：生成的 HTML 界面可以从网络获取图片。
 - **下载高清大图**：支持下载高清大图。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 已知问题
 - **最后一页获取完成后提示获取超出最大页的信息**：实际不会去获取。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用说明
 
@@ -82,6 +96,8 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

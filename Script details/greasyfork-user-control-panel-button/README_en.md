@@ -27,15 +27,21 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork: Add categories to navigation bar
 
 ---
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Function Description
 
 EnhanceGreasyForknavigation bar, Add user list、User favorites、User console etc.....
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## other instructions
 
@@ -45,6 +51,8 @@ Strongly recommended to use **[GreasyFork Glue craftsman](https://greasyfork.org
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## grateful
 
 Script modified from user **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179)** script [ GreasyFork: User Control Panel Button](https://greasyfork.org/scripts/475796) Thanks to the original author **CY Fung** of**Diligent**and**wisdom**
@@ -52,6 +60,8 @@ Script modified from user **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/z
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## picture
 ![3.png](https://s2.loli.net/2024/08/05/woDtxEg5SGrTJ7h.png)
@@ -79,6 +89,8 @@ Script modified from user **[𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/z
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

@@ -32,15 +32,21 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GreasyFork Discussion Watcher
 
 A Tampermonkey script designed to enhance the discussion list functionality on GreasyFork. When there are new replies to your scripts or discussions you are involved in, the script will display the latest discussion content in a modal window on the webpage.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
 - **Customizable Style:** Provides a clean, user-friendly modal window to display the latest discussion content, with customizable styles.
 - **Automatic Updates:** The script periodically checks for discussion updates and notifies you when there are new replies.
 - **Information Extraction:** Extracts discussion titles, timestamps, and usernames from the webpage and organizes them into the modal window.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Custom Check Interval
 
@@ -54,6 +60,8 @@ The script uses the `delay` configuration option to set the interval for checkin
 - `2m1s`: 2 minutes and 1 second
 
 You can modify the value of the `delay` configuration option as needed to adjust how often the script checks for discussion updates. For example, if you want to check every 15 minutes, you can set `delay` to `15m`.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Project and Feedback
 
@@ -78,6 +86,8 @@ You can modify the value of the `delay` configuration option as needed to adjust
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

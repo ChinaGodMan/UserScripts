@@ -53,10 +53,16 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Feature Introduction
 🔗 **Drag and Drop to Open Preview Window** — Easily open and preview web links in a small window by dragging them, utilizing Edge's pre-read technology. The background of the small window features an acrylic effect to enhance visual appeal.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Menu Options Description
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Options List
 
@@ -104,8 +110,12 @@
 
 **Each option is followed by a corresponding action function, which is used to update the menu settings. By clicking on an option, users can directly change the related configuration and see the effect immediately.**
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Supported Web Pages
 🌐 **Applicable to All Web Pages** — Supports all web pages, allowing convenient link preview and opening functionality anytime, anywhere.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Script Highlights:
 
@@ -114,6 +124,8 @@
 - **Configurable Options**:
   - Adjustable blur effect intensity.
   - Customizable small window size.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Notes:
 - Clicking or scrolling on the page can automatically close the small window.
@@ -126,6 +138,8 @@
 </video>
 
 ![1.png](https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui)
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Original Author
  [hiisme](https://greasyfork.org/zh-CN/scripts/504567)
 
@@ -143,6 +157,8 @@
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

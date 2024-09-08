@@ -129,6 +129,8 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Greasyfork의 다양한 기능 제공
 
 Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절대 시간, 웹 페이지 넓은 화면, 스크립트 페이지 강화, 다운로드 확장, 패널 수정 등 일련의 작업을 지원합니다. 이 스크립트는 웹사이트에서 수집되었습니다.
@@ -144,7 +146,11 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 ---
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 기능 소개
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 스크립트 상세
 
@@ -162,6 +168,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - 코드 스니펫 미화
 - 코드 보기 미화
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 스크립트 목록
 
 - 리스트 표시로 설치 및 다운로드
@@ -173,10 +181,14 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - 사이드바 이동
 - 생성일로 스크립트 목록 정렬
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 미화 컨트롤
 
 - 컨트롤 미화
 - 선택 상자와 라디오 버튼 레이블 미화
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 적용 대상
 
@@ -188,6 +200,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
   - 웹 페이지 열기
   - 팝업 알림
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 개인 홈페이지
 
 - 오래된 홈페이지 콘텐츠 정리
@@ -196,6 +210,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - 최근 댓글 숨기기
 - 홈페이지 통계 표시
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 탐색 바
 
 - 새 스크립트 게시 옵션 추가
@@ -203,6 +219,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - 탐색 바 스타일 수정
 - 탐색 바에 이 인터페이스 열기 버튼 추가
 - 탐색 바 정렬
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 웹사이트
 
@@ -221,7 +239,11 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 감사합니다
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 참고한 스크립트
 - [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
@@ -247,6 +269,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 - [GreasyFork 하나열쇠시간신문쓰레기쓰레기논평논쟁](https://greasyfork.org/scripts/474395)
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Photos:
 
@@ -283,6 +307,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 돕다
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
 <a href="#top">맨 위로↑</a></p>

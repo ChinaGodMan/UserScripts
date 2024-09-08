@@ -27,22 +27,34 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # ChatGPT Chat Fold Script & MAXWidth
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Introduction
 `ChatGPT Chat Fold Script & MAXWidth` is one used in ChatGPT The middle fold is longer“you”Script that sends the message and sets the maximum width。thisCanbyhelphelpyouEvengoodlandTubereasonlongremovebreath，and improve the interface layout。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Function
 - **Collapse long messages**：Automatically collapse long messages sent by you，Save screen space。 
 - **Set maximum width**：Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## How to use
 - By default，Script automatically collapses long messages。
 - You can click next to the message “fold” according tobuttonComehandmovefoldorexhibitionopenremovebreath。
 - Adjust the maximum width of the chat window in settings。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Change log
 - **v0.1**：initial version，Add folding functionality and max-width settings。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## contribute
 If you have any suggestions or find a problem，Please pass GitHub orGreasyFork Submit a question。
@@ -61,6 +73,8 @@ If you have any suggestions or find a problem，Please pass GitHub orGreasyFork 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

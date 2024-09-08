@@ -30,13 +30,21 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub Folder Downloader
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 描述
 GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使用户可以更轻松地从仓库中下载特定的文件夹。该按钮集成了两个外部工具：download-directory 和 DownGit，允许用户一键下载文件夹。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 功能
 - 为 GitHub 文件夹添加下载按钮。
 - 提供使用 [download-directory](https://download-directory.github.io) 和 [DownGit](https://downgit.github.io) 下载文件夹的选项。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 使用方法
 1. 导航到一个 GitHub 仓库。
@@ -53,6 +61,8 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### 修改说明
 修改自用户[Eric Kwok](https://greasyfork.org/zh-CN/users/220259) 的脚本 [GitHub 文件夹下载](https://greasyfork.org/scripts/434592 ) 
 
@@ -63,6 +73,8 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>

@@ -38,9 +38,13 @@
 </div></center>
 
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # Google Advanced Search Assistant
 
 This is a user script that adds an advanced search form to Google. It adds a collapsible advanced search form at the top of the page, allowing you to search for information with more precision.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Features
 
@@ -57,6 +61,8 @@ This is a user script that adds an advanced search form to Google. It adds a col
 - The script can save previous search options, so the form will be automatically filled when opening a new page.
 - Provides a "Clear" button to clear the form data.
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Usage
 
 1. Install a user script manager, such as Tampermonkey.
@@ -67,6 +73,8 @@ This is a user script that adds an advanced search form to Google. It adds a col
 6. Click the "Search" button to perform the search, or click the "Clear" button to clear the form data.
 
 Note: This script is specifically designed for the Google search page and can only be used on Google search pages.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Author
 
@@ -87,6 +95,8 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

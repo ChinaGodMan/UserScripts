@@ -129,6 +129,8 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Script Overview:
 
 Provide various usage functions for Greasyfork, absolute time, web page widescreen, script page enhancement, download extension, panel repair and a series of operations. This script is collected from the website.
@@ -142,7 +144,11 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Features
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Script Details
 
@@ -160,6 +166,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 - Beautify Code Snippets
 - Beautify Code View
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Script List
 
 - Display Installation and Download in List
@@ -171,10 +179,14 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 - Move Sidebar
 - Sort Script List by Creation Date
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Beautify Controls
 
 - Beautify Controls
 - Beautify Select Box and Radio Button Labels
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Applicable To
 
@@ -186,6 +198,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
   - Open Webpage
   - Popup Tip
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Personal Homepage
 
 - Clean Up Old Homepage Content
@@ -194,6 +208,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 - Hide Recent Comments
 - Display Statistics on Homepage
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Navigation Bar
 
 - Add Option to Publish New Script
@@ -201,6 +217,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 - Fix Navigation Bar Style
 - Add "Open This Page" to Navigation Bar
 - Align Navigation Bar
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Website
 
@@ -219,7 +237,11 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 ---
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Thank you
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Quote script
 
@@ -247,6 +269,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 
 ---
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Photos:
 
@@ -281,6 +305,8 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>

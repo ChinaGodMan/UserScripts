@@ -27,22 +27,34 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub Sắp xếp theo ngày
 
 Bản mô tả người dùng này sẽ GitHub Các file trong kho được tự động sắp xếp theo thứ tự giảm dần theo ngày，Thuận tiện xem các tập tin cập nhật mới nhất。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## đặc trưng
 
 - Tự động sắp xếp tệp theo ngày cập nhật khi tải trang。
 - Áp dụng cho tất cả GitHub nhà kho。
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## sử dụng
 - Tập lệnh sẽ tự động sắp xếp tệp theo ngày tải trang，Không cần can thiệp thủ công。
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Sửa đổi nguồn 
 tác giả[androidcn]( https://greasyfork.org/zh-CN/users/18158)kịch bản[Github Sắp xếp theo ngày cập nhật tập tin]( https://greasyfork.org/scripts/492514),Cảm giácCảm ơntác giảcủasiêng năngnhân côngkhôn ngoanKhôn ngoan
 ![1.png](https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png)
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## làmsử dụnggiúp đỡgiúp đỡ
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Giúp đỡ
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
@@ -55,6 +67,8 @@ tác giả[androidcn]( https://greasyfork.org/zh-CN/users/18158)kịch bản[Git
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Giúp đỡ
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
 <a href="#top">trở lại đầu trang↑</a></p>

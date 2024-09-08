@@ -30,17 +30,27 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1">
 </div></center>
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 # GitHub Folder Downloader
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Description
 GitHub Folder Downloader adds a download button for GitHub folders, making it easier to download specific folders from repositories. The button integrates with two external tools: download-directory and DownGit, allowing users to download folders with a single click.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Features
 - Adds a download button to GitHub folders.
 - Provides options to download using [download-directory](https://download-directory.github.io) and [DownGit](https://downgit.github.io).
 
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ### Modifications
 Modified from the script [GitHub artspiecesfolderDownload](https://greasyfork.org/scripts/434592) by user [Eric Kwok](https://greasyfork.org/users/220259).
 
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Usage
 1. Navigate to a GitHub repository.
@@ -64,6 +74,8 @@ Modified from the script [GitHub artspiecesfolderDownload](https://greasyfork.or
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 ## Help
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>
