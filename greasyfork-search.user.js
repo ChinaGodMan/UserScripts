@@ -80,7 +80,7 @@
 // @author       CY Fung , 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
 // @match        https://sleazyfork.org/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @icon          https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @require      https://fastly.jsdelivr.net/npm/jstat@1.9.6/dist/jstat.min.js
 // @grant        none
 // @license MIT
