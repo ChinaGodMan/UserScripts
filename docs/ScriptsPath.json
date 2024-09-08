@@ -170,7 +170,7 @@
             "GreasyFork": "505501",
             "description": "在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件",
             "created_at": "2024-08-28 05:20:14",
-            "code_updated_at": "2024-09-08 08:45:11",
+            "code_updated_at": "2024-09-09 06:21:05",
             "version": "2.2.0.18",
             "local_created_at": "2024-08-29 06:11:33",
             "relatedscripts": {
@@ -369,7 +369,7 @@
             "GreasyFork": "505215",
             "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 ",
             "created_at": "2024-08-26 12:08:49",
-            "code_updated_at": "2024-09-08 08:45:14",
+            "code_updated_at": "2024-09-09 06:20:39",
             "version": "0.6.5.19",
             "local_created_at": "2024-07-27 20:58:34",
             "relatedscripts": {
