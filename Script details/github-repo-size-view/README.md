@@ -36,7 +36,7 @@
 <li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
 <li><em><mark>修复在搜索页面失效问题<br>修复查看其他仓库时不显示（增加延时）</mark></em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -46,7 +46,7 @@
 <p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
 </li>
 <li>
-<p><em>새로운：베트남어 언어팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다</em></p>
+<p><em>새로운：베트남어 언어 팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다</em></p>
 </li>
 <li>
 <p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
@@ -98,7 +98,7 @@
 <p><em>수리하다：</em></p>
 <ul>
 <li><em>모바일 기기에서 브라우저 외부에서 이미지가 보이는 문제 수정</em></li>
-<li><em>코드 편집 시 자동 체크 표시 미화 수정</em></li>
+<li><em>코드 편집 시 자동으로 미화를 확인하도록 수정</em></li>
 </ul>
 </li>
 <li>
@@ -125,7 +125,7 @@
 </li>
 <li><em>최적화：다국어 지원 개선</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

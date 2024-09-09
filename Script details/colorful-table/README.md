@@ -25,7 +25,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/6 05:41 - Ver: 1.0.0.0</strong> <em>修改为自动渐变色..</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1861894861">
 </div></center>
 
 

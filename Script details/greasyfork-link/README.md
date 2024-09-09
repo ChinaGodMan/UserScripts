@@ -23,7 +23,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497317">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497317.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497317.png?t=1861894861">
 </div></center>
 
 <h1>

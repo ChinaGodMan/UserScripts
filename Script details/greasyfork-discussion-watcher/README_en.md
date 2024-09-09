@@ -18,7 +18,7 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>Greasyfork Notification Assistant</h1>
-    <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
+    <p>「 When there are new replies to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
@@ -28,7 +28,7 @@
 <li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>Added oil monkey menu to set refresh time</em></li>
 <li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>initial version,Welcome</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -23,7 +23,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505208">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505208.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505208.png?t=1861894861">
 </div></center>
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->

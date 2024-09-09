@@ -25,7 +25,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>修复在新开聊天或者切换聊天时无法显示计数器问题和在发送后计数器不清零的问题.</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1861894861">
 </div></center>
 
 ![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)

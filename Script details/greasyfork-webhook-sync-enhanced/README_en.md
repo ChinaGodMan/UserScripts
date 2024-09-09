@@ -26,7 +26,7 @@
 <li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>Return after each submissionGreasyForkSync tips..</em></li>
 <li><strong>2024/9/4 11:52 - Ver: 1.0.0.0</strong> <em>initial version.Welcome.</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png?t=1861894861">
 </div></center>
 
 <video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"

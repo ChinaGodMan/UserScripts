@@ -18,14 +18,14 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>ChatGPT character counter</h1>
-    <p>「 add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
+    <p>「 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>Update record</summary><ul>
 <li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>Fixed the problem that the counter cannot be displayed when opening a new chat or switching chats and the counter does not clear after sending..</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

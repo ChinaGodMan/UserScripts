@@ -25,7 +25,7 @@
             Fork</a></p><details><summary>更新记录</summary><ul>
 <li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>初始版本-欢迎使用</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

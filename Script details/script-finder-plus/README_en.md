@@ -39,7 +39,7 @@
 <li><strong>2024/6/26 06:43 - Ver: 0.1.6.1</strong>  </li>
 <li><em>New:Add support for mobile devices，Can also be used on mobile phones~<br>Revise:Cancel the operation of clearing the list when a search error occurs</em> </li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

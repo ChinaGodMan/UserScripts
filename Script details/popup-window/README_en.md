@@ -26,7 +26,7 @@
 <li><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>event error,Modified to check mouseyaxis＜1Determine when moving in a browser tab</em></li>
 <li><strong>2024/9/02 05:34 - Ver:.2.4.0.18</strong> </li>
 <li>ask:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">Add functionality:</span><br><em>Pressing the keyboard in long-press mouse mode does not trigger the preview window<br>In drag mode, the browser drags and drops the link to open it in a new tab.,Preview window will not be triggered</em></li>
-<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>Add a timeout to display the timeout progress bar when dragging,Time runs out. Cancel drag and drop to open the preview window.</em></li>
+<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>Add timeout to display timeout progress bar when dragging,Time runs out. Cancel drag and drop to open the preview window.</em></li>
 <li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>Detect mouse movement listener when moving out of long press,Change to monitor when the mouse enters dragging state and cancel opening the preview window..<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
 <li><strong>2024/8/27 00:33 - Ver: 2.4.0.5</strong> </li>
 <li>
@@ -47,9 +47,9 @@
 <li>
 <p><strong>2024/8/23 08:12 - Ver: 2.4</strong></p>
 </li>
-<li><em>&lt;Optimize script<br>Add long press link popup window，for compatibilitychromeplug-in <code>Google Chrome super drag 0.9.9</code><br>Fixed issue when clicking the close button in the upper right corner of a small window，Problem with acrylic layer not closing</em></li>
+<li><em>&lt;Optimize script<br>Add long press link popup window，for compatibilitychromeplug-in <code>Google Chrome super drag 0.9.9</code><br>Fix when clicking the close button in the upper right corner of the small window，Problem with acrylic layer not closing</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

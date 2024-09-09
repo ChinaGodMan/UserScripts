@@ -28,7 +28,7 @@
 <li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>增加设置刷新时间的油猴菜单</em></li>
 <li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

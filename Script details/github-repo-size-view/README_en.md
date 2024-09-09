@@ -28,13 +28,13 @@
 <li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>
 <li><em><mark>Add script menu→set upGitHubTokeninterface,No need to modify within the code.</mark></em></li>
 <li><strong>2024/8/12 21:56 - Ver: 0.1.2.17</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>Added to user profile repository list andorgList shows warehouse size.</mark></em></li>
+<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>Add to user profile repository list andorgList shows warehouse size.</mark></em></li>
 <li><strong>2024/8/5 05:18 - Ver: 0.1.2.8</strong></li>
 <li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>The original author’s token is invalid and the public repository cannot be accessed..<mark>How to fix it：Remove original author token, GithubGenerated public tokens are always cleared, Just don’t add it</mark></em></li>
 <li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
 <li><em><mark>Fix the problem of failure in search page<br>Fixed the problem of not displaying when viewing other warehouses（increase delay）</mark></em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1861894861">
 </div></center>
 
 

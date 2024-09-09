@@ -39,7 +39,7 @@
 <li><strong>2024/6/26 06:43 - Ver: 0.1.6.1</strong>  </li>
 <li><em>新增:增加对移动设备上的支持，手机也能使用啦~<br>修改:取消搜索出错时清空列表的操作</em> </li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

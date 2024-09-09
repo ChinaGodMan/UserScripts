@@ -49,7 +49,7 @@
 </li>
 <li><em>&lt;优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 <code>Google Chrome 的超级拖拽 0.9.9</code><br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

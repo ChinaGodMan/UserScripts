@@ -25,7 +25,7 @@
             Fork</a></p><details><summary>Update record</summary><p><strong>Revise：</strong>
 <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
 - 2024-08-04T08:59:11 <code>DOMContentLoaded</code> Sometimes conflicts with other scripts，Cause monitoring to fail。changed to <code>load</code>。</p></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png?t=1861894861">
 </div></center>
 
 The script is a fork of [this script](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573) by wOxxOm, to work with the new GF layout.  

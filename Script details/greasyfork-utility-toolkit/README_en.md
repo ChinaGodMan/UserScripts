@@ -98,7 +98,7 @@
 <p><em>repair：</em></p>
 <ul>
 <li><em>Fixed the problem of images being viewed outside the browser on mobile devices</em></li>
-<li><em>Modify the automatic check mark beautification when editing code</em></li>
+<li><em>Modify to automatically check beautification when editing code</em></li>
 </ul>
 </li>
 <li>
@@ -125,7 +125,7 @@
 </li>
 <li><em>optimization：Improve support for multiple languages</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

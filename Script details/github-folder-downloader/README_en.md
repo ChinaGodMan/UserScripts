@@ -26,7 +26,7 @@
 <li><strong>2024/8/28 09:46 - Ver: 0.7.0.2</strong> <em>Remove the listener for detecting link changes in the original script,Add a new listener to support displaying buttons when jumping to directories on the warehouse homepage.</em></li>
 <li><strong>2024/8/28 04:21 - Ver: 0.7</strong> <em>Replace broken selectors.</em></li>
 </ul></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1861894861">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
