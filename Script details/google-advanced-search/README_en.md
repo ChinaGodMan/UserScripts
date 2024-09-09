@@ -12,8 +12,7 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=star&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">If the script helps you,I can give one↑Little star to encourage</a></code>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,You can light up the stars for encouragement</a>⭐</sub></div></center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
