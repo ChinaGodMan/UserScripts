@@ -128,7 +128,7 @@ const translate = (function () {
             setLongPressDuration: '输入长按触发时间（毫秒）:',
             setBlurIntensityprompt: '输入模糊强度（0-10）:',
             toggleActionMode: '选择触发方式:\n1: 长按\n2: 拖拽\n0: 两者都用',
-            setWindowSizeprompt: '输入小窗口（像素）:',
+            setWindowSizeprompt: '輸入默认小窗口配置（像素）:',
             showCountdown: '显示长按倒计时进度条',
             saveWindowConfig: '记录窗口位置',
             showCountdowndrag: '显示拖拽超时进度条',
@@ -149,7 +149,7 @@ const translate = (function () {
             setLongPressDuration: '輸入長按觸發時間（毫秒）:',
             setBlurIntensityprompt: '輸入模糊強度（0-10）:',
             toggleActionMode: '選擇觸發方式:\n1: 長按\n2: 拖曳\n0: 兩者都用',
-            setWindowSizeprompt: '輸入小窗口（像素）:',
+            setWindowSizeprompt: '輸入默认小窗口配置（像素）:',
             showCountdown: '顯示倒數計時進度條',
             saveWindowConfig: '記錄窗口位置',
             showCountdowndrag: '顯示拖曳逾時進度條',
@@ -216,15 +216,63 @@ const translate = (function () {
         dragintervalId: null,
         startTime: null,
     }
+    const windowConfigs = GM_getValue('SitewindowConfigs', [
+    ])
+    GM_setValue('SitewindowConfigs', windowConfigs
+    )
+    function getWindowConfig() {
+        const currentHostName = window.location.hostname
+        // 顶级规则,查找当前域名是否在设置内.....
+        for (const config of windowConfigs) {
+            if (typeof config.hostName === 'string') {
+                if (config.hostName === currentHostName) {
+                    return {
+                        width: config.width || 870,
+                        height: config.height || 530,
+                        top: config.top || (window.screen.height - (config.height || 530)) / 3,
+                        left: config.left || (window.screen.width - (config.width || 870)) / 2
+                    }
+                }
+            } else if (Array.isArray(config.hostName)) {
+                if (config.hostName.includes(currentHostName)) {
+                    return {
+                        width: config.width || 870,
+                        height: config.height || 530,
+                        top: config.top || (window.screen.height - (config.height || 530)) / 3,
+                        left: config.left || (window.screen.width - (config.width || 870)) / 2
+                    }
+                }
+            }
+        }
+        // 二级规则,如果开启了自定义设置,使用自定义.
+        const customWindowWidth = GM_getValue('custom_windowWidth', 0)
+        const customWindowHeight = GM_getValue('custom_windowHeight', 0)
+        const customScreenLeft = GM_getValue('custom_screenLeft', 0)
+        const customScreenTop = GM_getValue('custom_screenTop', 0)
+        if (GM_getValue('saveWindowConfig', false)) {
+            if (customWindowWidth !== 0 && customWindowHeight !== 0 && customScreenLeft !== 0 && customScreenTop !== 0) {
+                return {
+                    width: customWindowWidth,
+                    height: customWindowHeight,
+                    top: customScreenTop,
+                    left: customScreenLeft
+                }
+            }
+        }
+        //三级级规则 以上规则全部找不到,窗口使用默认设置.
+        return {
+            width: 870,
+            height: 530,
+            top: (window.screen.height - 530) / 3,
+            left: (window.screen.width - 870) / 2
+        }
+    }
+    const windowConfig = getWindowConfig()
     const config = {
-        windowWidth: GM_getValue('windowWidth', 870),
-        windowHeight: GM_getValue('windowHeight', 530),
-        screenLeft: (GM_getValue('screenLeft', 0) === 0)
-            ? (window.screen.width - GM_getValue('windowWidth', 870)) / 2
-            : GM_getValue('screenLeft'),
-        screenTop: (GM_getValue('screenTop', 0) === 0)
-            ? (window.screen.height - GM_getValue('windowHeight', 530)) / 3
-            : GM_getValue('screenTop'),
+        windowWidth: windowConfig.width,
+        windowHeight: windowConfig.height,
+        screenLeft: windowConfig.left,
+        screenTop: windowConfig.top,
         blurIntensity: GM_getValue('blurIntensity', 5),
         blurEnabled: GM_getValue('blurEnabled', true),
         closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
@@ -377,7 +425,7 @@ const translate = (function () {
             window.removeEventListener('scroll', closePopupOnScroll)
         }
     }
-    function setWindowSize(dimension) {
+    function setWindowSize(dimension) {//!SECTION-已无实际意义,开启记录窗口位置后,哪里还需要手动配置.
         const size = prompt(`${translate('setWindowSizeprompt')} (${dimension})`, config[dimension === 'width' ? 'windowWidth' : 'windowHeight'])
         if (size !== null) {
             config[dimension === 'width' ? 'windowWidth' : 'windowHeight'] = parseInt(size, 10)
@@ -400,14 +448,51 @@ const translate = (function () {
         updateMenuCommands()
     }
     function saveWindowConfig(width, height, left, top) {
-        config.windowHeight = height
         config.windowWidth = width
+        config.windowHeight = height
         config.screenLeft = left
         config.screenTop = top
-        GM_setValue('windowWidth', width)
-        GM_setValue('windowHeight', height)
-        GM_setValue('screenLeft', left)
-        GM_setValue('screenTop', top)
+        const currentHostName = window.location.hostname
+        let windowConfigs = GM_getValue('SitewindowConfigs', []
+        )
+        let configUpdated = false
+        for (let config of windowConfigs) {
+            if (typeof config.hostName === 'string') {
+                if (config.hostName === currentHostName) {
+                    config.width = width
+                    config.height = height
+                    config.top = top
+                    config.left = left
+                    configUpdated = true
+                    break
+                }
+            } else if (Array.isArray(config.hostName)) {
+                if (config.hostName.includes(currentHostName)) {
+                    config.width = width
+                    config.height = height
+                    config.top = top
+                    config.left = left
+                    configUpdated = true
+                    break
+                }
+            }
+        }
+        if (!configUpdated) {
+            windowConfigs.push({
+                name: `新配置 ${currentHostName}`,
+                hostName: currentHostName,
+                width: width,
+                height: height,
+                top: top,
+                left: left
+            })
+        }
+        //ANCHOR -  开启记录窗口位置时.无法找到配置时,会推送一个新配置,当其他的网站没有自定义配置的也同样使用这一次的窗口.大小.
+        GM_setValue('SitewindowConfigs', windowConfigs)
+        GM_setValue('custom_windowWidth', width)
+        GM_setValue('custom_windowHeight', height)
+        GM_setValue('custom_screenLeft', left)
+        GM_setValue('custom_screenTop', top)
         updateMenuCommands()
     }
     function toggleSwitch(property) {
@@ -426,8 +511,8 @@ const translate = (function () {
             { label: translate('blurIntensity') + ` (${config.blurIntensity})`, action: setBlurIntensity },
             { label: translate('closeOnMouseClick') + ` (${config.closeOnMouseClick ? '✅' : '❌'})`, action: toggleCloseOnMouseClick },
             { label: translate('closeOnScroll') + ` (${config.closeOnScroll ? '✅' : '❌'})`, action: toggleCloseOnScroll },
-            { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },
-            { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },
+            /*     { label: translate('windowWidth') + ` (${config.windowWidth})`, action: () => { setWindowSize('width') } },//!SECTION -已无实际意义,脚本不会使用
+                { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },//!SECTION -已无实际意义,脚本不会使用 */
             { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
             { label: translate('showCountdowndrag') + ` (${config.showCountdowndrag ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdowndrag') } },
             { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } },

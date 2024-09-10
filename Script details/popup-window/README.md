@@ -146,6 +146,14 @@
 
   **脚本**修改自用户 **[hiisme](https://greasyfork.org/zh-CN/users/217852)** 的脚本 [小窗预览](https://greasyfork.org/scripts/504567) 感谢原作者 **hiisme** 的**勤劳**与**智慧**
 
+## 脚本演示
+
+自动记录每个站点的配置:
+<video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/popup-window/preview/view.mp4"
+       poster="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"
+       width="320" height="240" controls loop>
+</video><br>
+脚本长按,拖拽,记录窗口位置演示:
 <video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/popup-window/preview/video.mp4"
        poster="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"
        width="320" height="240" controls loop>

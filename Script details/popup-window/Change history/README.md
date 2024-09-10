@@ -1,3 +1,8 @@
+- **2024/9/10 09:24 - Ver: 2.5.0.0**
+    - .感谢**[tony0809](https://greasyfork.org/zh-CN/users/20361)** 同志的代码,新增:开启`记录窗口位置`时,会自动记录当前域名配置
+      - 查找窗口的配置逻辑为:寻找当前域名的配置,为空时→寻找自定义窗口配置,为空时→使用脚本自带配置.配置规则见以下[#529654](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-529654)
+     - 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置除了无法`CORS`的网站,比如`im.qq.com`下一次打开没在配置里的域名,会调用最后一次的窗口大小.新增功能演示请看下方视频
+
 - **2024/9/3 05:26 - Ver:.2.4.0.20** *[#527837](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837)事件错误,修改为检查鼠标y轴＜1时判断移动在浏览器标签页*
 - **2024/9/02 05:34 - Ver:.2.4.0.18** 
   - 请求:[#527625](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625)<br><span style="color: blue;">添加功能:</span><br>*长按鼠标模式下按下键盘不触发预览窗口<br>拖拽模式下浏览器拖住拖拽链接到新标签打开,不会触发预览窗口*
