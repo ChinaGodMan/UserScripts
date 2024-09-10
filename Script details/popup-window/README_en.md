@@ -3,61 +3,61 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div></center>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20positive%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=star&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,You can light up the stars for encouragement</a>⭐</sub></div></center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>小窗口预览</h1>
-    <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
+    <h1>Small window preview</h1>
+    <p>「 Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
+            Fork</a></p><details><summary>Update record</summary><ul>
 <li>
 <p><strong>2024/9/10 09:24 - Ver: 2.5.0.0</strong></p>
 <ul>
-<li>.感谢<strong><a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a></strong> 同志的代码,新增:开启<code>记录窗口位置</code>时,会自动记录当前域名配置</li>
-<li>查找窗口的配置逻辑为:寻找当前域名的配置,为空时→寻找自定义窗口配置,为空时→使用脚本自带配置.配置规则见以下<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-529654">#529654</a></li>
-<li>配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置除了无法<code>CORS</code>的网站,比如<code>im.qq.com</code>下一次打开没在配置里的域名,会调用最后一次的窗口大小.新增功能演示请看下方视频</li>
+<li>.grateful<strong><a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a></strong> gay code,New:turn on<code>Record window position</code>hour,Will automatically record the current domain name configuration</li>
+<li>The configuration logic of the search window is:Find the configuration of the current domain name,When empty→Looking for custom window configuration,When empty→Use script to configure.See below for configuration rules<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-529654">#529654</a></li>
+<li>No manual editing required for configuration,The script automatically updates the domain configuration when you change the window size.Every time you change the window size it will be logged to the global custom configuration except that it cannot<code>CORS</code>website,for example<code>im.qq.com</code>Open a domain name that is not in the configuration next time,The last window size will be called.Please watch the video below for a demonstration of the new features.</li>
 </ul>
 </li>
 <li>
-<p><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>事件错误,修改为检查鼠标y轴＜1时判断移动在浏览器标签页</em></p>
+<p><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>event error,Modified to check mouseyaxis＜1Determine when moving in a browser tab</em></p>
 </li>
 <li><strong>2024/9/02 05:34 - Ver:.2.4.0.18</strong> </li>
-<li>请求:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">添加功能:</span><br><em>长按鼠标模式下按下键盘不触发预览窗口<br>拖拽模式下浏览器拖住拖拽链接到新标签打开,不会触发预览窗口</em></li>
-<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>添加拖拽时超时显示超时进度条,时间耗光取消拖拽打开预览窗口</em></li>
-<li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消打开预览窗口.<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
+<li>ask:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">Add functionality:</span><br><em>Pressing the keyboard in long-press mouse mode does not trigger the preview window<br>In drag mode, the browser drags and drops the link to open it in a new tab.,Preview window will not be triggered</em></li>
+<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>Add a timeout to display the timeout progress bar when dragging,Time runs out. Cancel drag and drop to open the preview window.</em></li>
+<li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>Detect mouse movement listener when moving out of long press,Change to monitor when the mouse enters dragging state and cancel opening the preview window..<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
 <li><strong>2024/8/27 00:33 - Ver: 2.4.0.5</strong> </li>
 <li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> BUG反馈:当打开一个链接的预览窗，然后点击原窗口焦点关闭预览窗之后再长按另外一个链接 , 有概率无法触发时间条打开预览窗<br>添加代码:<code>if (state.popupWindow)</code>当窗口存在时执行代码</em></p>
+<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> BUGfeedback:When opening a link’s preview window，Then click the focus of the original window to close the preview window and then long press another link. , There is a probability that the time bar cannot be triggered to open the preview window.<br>add code:<code>if (state.popupWindow)</code>Execute code when window exists</em></p>
 </li>
 <li>
 <p><strong>2024/8/25 04:59 - Ver: 2.4.0.2</strong></p>
 </li>
 <li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a> 添加长按时显示倒计时, 修复长按时间过短导致在拖拽时触发长按逻辑, 增加记住窗口位置</em></p>
+<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a> Added display countdown when long pressed, Fixed the issue where the long press time is too short, causing the long press logic to be triggered when dragging, Added memory window position</em></p>
 </li>
 <li>
 <p><strong>2024/8/24 07:29 - Ver: 2.4</strong></p>
 </li>
 <li>
-<p><em>优化脚本<br>添加语言包</em></p>
+<p><em>Optimize script<br>Add language pack</em></p>
 </li>
 <li>
 <p><strong>2024/8/23 08:12 - Ver: 2.4</strong></p>
 </li>
-<li><em>&lt;优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 <code>Google Chrome 的超级拖拽 0.9.9</code><br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</em></li>
+<li><em>&lt;Optimize script<br>Add long press link popup window，for compatibilitychromeplug-in <code>Google Chrome super drag 0.9.9</code><br>Fixed issue when clicking the close button in the upper right corner of a small window，Problem with acrylic layer not closing</em></li>
 </ul></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
 </div></center>
@@ -157,19 +157,19 @@
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### 网页相关脚本
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+> ### Web related scripts
+> - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
+> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
+> - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+## Help
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
+<a href="#top">back to top↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
