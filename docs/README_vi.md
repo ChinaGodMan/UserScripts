@@ -1025,7 +1025,7 @@
 > 
 > - _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > - _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
