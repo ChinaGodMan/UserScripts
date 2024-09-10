@@ -75,7 +75,7 @@
 // @name:fr-CA    Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version 2.5.1.0
+// @version 2.5.0.0
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -216,11 +216,11 @@ const translate = (function () {
         dragintervalId: null,
         startTime: null,
     }
+    const windowConfigs = GM_getValue('SitewindowConfigs', [
+    ])
+    GM_setValue('SitewindowConfigs', windowConfigs
+    )
     function getWindowConfig() {
-        const windowConfigs = GM_getValue('SitewindowConfigs', [
-        ])
-        GM_setValue('SitewindowConfigs', windowConfigs
-        )
         const currentHostName = window.location.hostname
         // 顶级规则,查找当前域名是否在设置内.....
         for (const config of windowConfigs) {
@@ -267,18 +267,12 @@ const translate = (function () {
             left: (window.screen.width - 870) / 2
         }
     }
-    function reWindowConfig() {
-        const windowConfig = getWindowConfig()
-        config.windowWidth = windowConfig.width,
-            config.windowHeight = windowConfig.height,
-            config.screenLeft = windowConfig.left,
-            config.screenTop = windowConfig.top
-    }
+    const windowConfig = getWindowConfig()
     const config = {
-        windowWidth: 0,
-        windowHeight: 0,
-        screenLeft: 0,
-        screenTop: 0,
+        windowWidth: windowConfig.width,
+        windowHeight: windowConfig.height,
+        screenLeft: windowConfig.left,
+        screenTop: windowConfig.top,
         blurIntensity: GM_getValue('blurIntensity', 5),
         blurEnabled: GM_getValue('blurEnabled', true),
         closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
@@ -290,7 +284,6 @@ const translate = (function () {
         showCountdowndrag: GM_getValue('showCountdowndrag', true), // 是否显示拖拽倒计时进度条
         saveWindowConfig: GM_getValue('saveWindowConfig', true)//记住窗口位置,没啥用 
     }
-    reWindowConfig()
     function delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms))
     }
@@ -329,45 +322,25 @@ const translate = (function () {
             state.acrylicOverlay = null
         }
     }
-    window.addEventListener('message', (event) => {
-        const message = event.data
-        if (message.type === 'qinwuyuan') {
-            const width = window.innerWidth
-            const height = window.innerHeight
-            const left = window.screenX
-            const top = window.screenY
-            if (config.saveWindowConfig) {
-                saveWindowConfig(width, height, left, top, message.hostname)
-                //  console.log(width, height, left, top, message.hostname)
-            }
-        }
-    })
     function openPopupWindow(link) {
-        reWindowConfig()//FIXME - 跨域窗口如果自己刷新了配置,重新刷新下
         if (!state.popupWindow || state.popupWindow.closed) {
             state.acrylicOverlay = createAcrylicOverlay()
             state.popupWindow = window.open(link, '_blank', `width=${config.windowWidth},height=${config.windowHeight},left=${config.screenLeft},top=${config.screenTop}`)
+            //   console.log('Popup window:', state.popupWindow) 
             state.popupWindowChecker = setInterval(() => {
                 if (state.popupWindow) {//保证窗口存在时才检测,兼容下原来脚本点击原窗口焦点关闭覆盖层
                     if (state.popupWindow.closed) {
                         removeAcrylicOverlay()
                         clearInterval(state.popupWindowChecker)
                     } else {
-                        try {
-                            const width = state.popupWindow.innerWidth
-                            const height = state.popupWindow.innerHeight
-                            const left = state.popupWindow.screenX
-                            const top = state.popupWindow.screenY
-                            if (config.saveWindowConfig) {
-                                saveWindowConfig(width, height, left, top)
-                            }
-                        } catch (error) {
-                            console.warn('访问跨源窗口属性失败,让弹出窗口自己设置窗口大小...:')
-                            const message = {
-                                type: "qinwuyuan",
-                                hostname: window.location.hostname
-                            }
-                            state.popupWindow.postMessage(message, '*')
+                        const width = state.popupWindow.innerWidth
+                        const height = state.popupWindow.innerHeight
+                        const left = state.popupWindow.screenX
+                        const top = state.popupWindow.screenY
+                        /* console.log(`Popup window size: width=${width}, height=${height}`)
+                        console.log(`Popup window position: left=${left}, top=${top}`) */
+                        if (config.saveWindowConfig) {
+                            saveWindowConfig(width, height, left, top)
                         }
                     }
                 }
@@ -474,12 +447,12 @@ const translate = (function () {
         GM_setValue('showCountdown', config.showCountdown)
         updateMenuCommands()
     }
-    function saveWindowConfig(width, height, left, top, HostName = window.location.hostname) {
+    function saveWindowConfig(width, height, left, top) {
         config.windowWidth = width
         config.windowHeight = height
         config.screenLeft = left
         config.screenTop = top
-        const currentHostName = HostName
+        const currentHostName = window.location.hostname
         let windowConfigs = GM_getValue('SitewindowConfigs', []
         )
         let configUpdated = false
