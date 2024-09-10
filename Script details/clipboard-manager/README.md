@@ -23,7 +23,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><p>66666</p></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
 ![1.png](https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png)

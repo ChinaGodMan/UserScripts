@@ -64,7 +64,7 @@
 <h3><strong>📅 2024/8/23 - Ver 2.4</strong></h3>
 <p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
 <strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

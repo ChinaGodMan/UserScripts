@@ -23,7 +23,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-code-styling">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505209">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505209.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505209.png">
 </div></center>
 
 让ChatGPT输出的代码框字体变小

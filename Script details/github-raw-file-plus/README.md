@@ -26,7 +26,7 @@
 <h3><strong>📅 2024/8/28 05:09 - Ver 2.2</strong></h3>
 <p><strong>新增</strong>: 增加下载功能。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

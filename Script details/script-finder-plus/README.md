@@ -40,7 +40,7 @@
 <p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~<br />
 <strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

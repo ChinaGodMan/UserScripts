@@ -32,7 +32,7 @@
 <strong>New</strong>:<br />
 • turn on <code>Record window position</code> hour，Automatically record current domain name configuration。<br />
 • Find window configuration logic：Domain name configuration → Custom window configuration → Script comes with configuration。<br />
-• No manual editing required for configuration,The script automatically updates the domain configuration when you change the window size.Every time you change the window size it will be recorded in the global custom configuration<br />
+• No manual editing required for configuration,The script will automatically update the domain configuration when you change the window size.Every time you change the window size it will be recorded in the global custom configuration<br />
 • Configuration rules reference<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>   <br />
 • Please refer to the video below for a demonstration of the new features.。</p>
 <hr />
@@ -48,7 +48,7 @@
 <p><strong>New</strong>: Add timeout to display progress bar when dragging，Cancel drag and drop to open preview window when time runs out。</p>
 <hr />
 <h3><strong>📅 2024/8/29 - Ver 2.4.0.8</strong></h3>
-<p><strong>optimization</strong>: Remove the logic for monitoring mouse movement when long-pressed，Change to monitor the mouse and cancel the opening of the preview window when it enters the dragging state.。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
+<p><strong>optimization</strong>: Remove the logic of monitoring mouse movement when long-pressed，Change to monitor the mouse and cancel the opening of the preview window when it enters the dragging state.。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
 <hr />
 <h3><strong>📅 2024/8/27 - Ver 2.4.0.5</strong></h3>
 <p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> feedbackBUG：<br />
@@ -64,7 +64,7 @@
 <h3><strong>📅 2024/8/23 - Ver 2.4</strong></h3>
 <p><strong>optimization</strong>: compatible Chrome plug-in <code>Google Chrome super drag 0.9.9</code>。<br />
 <strong>repair</strong>: Fixed the problem that the acrylic layer does not close when clicking the close button of the small window。</p></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -164,7 +164,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### Web related scripts
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.

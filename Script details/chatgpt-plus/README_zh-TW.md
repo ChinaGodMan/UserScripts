@@ -23,7 +23,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -66,7 +66,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### ChatGPT相關腳本
 > - [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼字體變小 wsucixjv
-> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 个字符。）
+> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > - [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->

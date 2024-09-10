@@ -26,7 +26,7 @@
 <h3><strong>📅 2024/9/4 13:41 - Ver 1.0.0.0</strong></h3>
 <p><strong>initial version</strong>: • Welcome。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

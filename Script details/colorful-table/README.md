@@ -26,7 +26,7 @@
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
 <p><strong>修改</strong>: 修改为自动渐变色。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
 </div></center>
 
 

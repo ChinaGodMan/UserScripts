@@ -30,7 +30,7 @@
 <p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
 <strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

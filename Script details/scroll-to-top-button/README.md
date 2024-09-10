@@ -27,7 +27,7 @@
 <p><strong>请求</strong>:<br />
 • <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。  </p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
 </div></center>
 
 

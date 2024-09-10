@@ -29,7 +29,7 @@
 <h3><strong>📅 2024/9/4 11:52 - Ver 1.0.0.0</strong></h3>
 <p><strong>初始版本</strong>: • 欢迎使用。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>
 
 <video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"

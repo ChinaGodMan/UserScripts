@@ -18,7 +18,7 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>Google Advanced search</h1>
-    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。 」</p>
+    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
@@ -28,9 +28,9 @@
 <hr />
 <h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
 <p><strong>issues</strong>: Advanced search box cannot be displayed on mobile devices。<br />
-<strong>repair</strong>: The code below is only PC Effective on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<strong>repair</strong>: The code below is only PC Valid on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
 
 

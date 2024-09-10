@@ -26,7 +26,7 @@
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
 <p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
 
 ![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)

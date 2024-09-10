@@ -18,16 +18,16 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>Greasyfork Notification assistant</h1>
-    <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
+    <p>「 When there are new replies to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification assistant Change log</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification Assistant Change log</strong></h1>
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>New</strong>: Added grease monkey menu for setting the maximum number of messages。<br />
+<p><strong>New</strong>: Added grease monkey menu to set the maximum number of messages。<br />
 <strong>New</strong>: Added skip last speaker is <code>Own</code> options。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
@@ -36,7 +36,7 @@
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
 <p><strong>initial</strong>: initial version，Welcome。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -86,7 +86,7 @@ You can modify the value of the `delay` configuration option as needed to adjust
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website

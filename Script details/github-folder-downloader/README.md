@@ -29,7 +29,7 @@
 <h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
 <p><strong>修复</strong>: 替换失效的选择器。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

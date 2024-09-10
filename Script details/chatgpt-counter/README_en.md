@@ -26,7 +26,7 @@
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
 <p><strong>repair</strong>: The counter cannot be displayed when opening a new chat or switching chats，And the problem of the counter not clearing after sending。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1861894861">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -60,7 +60,7 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller wsucixjv
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
