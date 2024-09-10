@@ -44,7 +44,7 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 功能特点
+## 功能特点 
 - **快速输入同步信息**：无需手动重复输入，可以快速地设置和同步信息。
 - **批量增加语言代码**：支持批量添加多个国家/地区的语言代码，无需逐个选择。
 - **支持多种格式**：可以根据需要选择不同的URL格式进行设置。
