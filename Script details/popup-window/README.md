@@ -28,7 +28,7 @@
 <p><strong>2024/9/10 09:24 - Ver: 2.5.0.0</strong></p>
 <ul>
 <li>.感谢<strong><a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a></strong> 同志的代码,新增:开启<code>记录窗口位置</code>时,会自动记录当前域名配置</li>
-<li>查找窗口的配置逻辑为:寻找当前域名的配置,为空时→寻找自定义窗口配置,为空时→使用脚本自带配置.配置规则见以下<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-529654">#529654</a>
+<li>查找窗口的配置逻辑为:寻找当前域名的配置,为空时→寻找自定义窗口配置,为空时→使用脚本自带配置.配置规则见以下<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>
  -<span style="color: #615296;">配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置</span><span style="color: #529654;"><em>2.5.1.0解决无法跨源读取</em><s>除了无法<code>CORS</code>的网站,比如<code>im.qq.com</code></s></span>下一次打开没在配置里的域名,会调用最后一次的窗口大小.新增功能演示请看下方视频</li>
 </ul>
 </li>
