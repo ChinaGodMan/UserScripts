@@ -22,9 +22,10 @@
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/1 09:37 - Ver:.1.3.1</strong> <em>Fixed the problem that the counter cannot be displayed when opening a new chat or switching chats and the counter does not clear after sending..</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT character counter Change log</strong></h1>
+<h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
+<p><strong>repair</strong>: The counter cannot be displayed when opening a new chat or switching chats，And the problem of the counter not clearing after sending。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png?t=1861894861">
 </div></center>
 
@@ -59,7 +60,7 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller wsucixjv
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->

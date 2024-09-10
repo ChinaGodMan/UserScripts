@@ -22,17 +22,14 @@
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>
-<li>
-<p><em><mark>Add script icon</mark></em></p>
-</li>
-<li>
-<p><strong>2024/8/5 10:26 - Ver: 0.1.9</strong></p>
-</li>
-<li><em><mark>issues: Advanced search box cannot be displayed on mobile devices</mark></em></li>
-<li><em><mark>How to fix it：The code below is onlyPCEffective on the terminal</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Google Advanced search Change log</strong></h1>
+<h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
+<p><strong>New</strong>: Add script icon。</p>
+<hr />
+<h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
+<p><strong>issues</strong>: Advanced search box cannot be displayed on mobile devices。<br />
+<strong>repair</strong>: The code below is only PC Valid on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png?t=1861894861">
 </div></center>
 

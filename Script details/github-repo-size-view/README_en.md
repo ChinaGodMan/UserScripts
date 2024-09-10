@@ -22,18 +22,23 @@
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/8/20 05:28 - Ver: 0.1.2.26</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a>Use the setup interface of this script。</mark></em></li>
-<li><strong>2024/8/13 00:19 - Ver: 0.1.2.18</strong></li>
-<li><em><mark>Add script menu→set upGitHubTokeninterface,No need to modify within the code.</mark></em></li>
-<li><strong>2024/8/12 21:56 - Ver: 0.1.2.17</strong></li>
-<li><em><mark><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>Added to user profile repository list andorgList shows warehouse size.</mark></em></li>
-<li><strong>2024/8/5 05:18 - Ver: 0.1.2.8</strong></li>
-<li><em><a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a>The original author’s token is invalid and the public repository cannot be accessed..<mark>How to fix it：Remove original author token, GithubGenerated public tokens are always cleared, Just don’t add it</mark></em></li>
-<li><strong>2024/8/1 03:43 - Ver: 0.1.2</strong></li>
-<li><em><mark>Fix the problem of failure in search page<br>Fixed the problem of not displaying when viewing other warehouses（increase delay）</mark></em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
+<h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
+<hr />
+<h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
+<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
+<hr />
+<h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
+<hr />
+<h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
+<hr />
+<h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
+<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
+<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png?t=1861894861">
 </div></center>
 
@@ -108,7 +113,7 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GitHubRelated scripts
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。

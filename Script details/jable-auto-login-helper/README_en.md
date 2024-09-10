@@ -22,9 +22,10 @@
     <img src="https://views.whatilearened.today/views/github/506730/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/4 13:41 - Ver: 1.0.0.0</strong> <em>initial version-Welcome</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ JableTVAutomatic login  Change log</strong></h1>
+<h3><strong>📅 2024/9/4 13:41 - Ver 1.0.0.0</strong></h3>
+<p><strong>initial version</strong>: • Welcome。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png?t=1861894861">
 </div></center>
 

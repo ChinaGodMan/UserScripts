@@ -22,9 +22,10 @@
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/28 05:09 - Ver: 2.2</strong> <em>增加下载功能.</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>
+<h3><strong>📅 2024/8/28 05:09 - Ver 2.2</strong></h3>
+<p><strong>新增</strong>: 增加下载功能。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png?t=1861894861">
 </div></center>
 

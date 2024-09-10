@@ -22,12 +22,20 @@
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/7 09:06 - Ver: 1.3.0.0</strong> <em>改为使用网站的讨论列表,增加在信息内添加分类</em></li>
-<li><strong>2024/9/4 04:39 - Ver: 1.2.0.0</strong> <em>增加设置最大消息数量的油猴菜单,增加跳过最后发言人是<code>自己</code></em></li>
-<li><strong>2024/9/3 09:10 - Ver: 1.1.0.0</strong> <em>增加设置刷新时间的油猴菜单</em></li>
-<li><strong>2024/9/2 12:24 - Ver: 1.0.0.0</strong> <em>初始版本,欢迎使用</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
+<h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
+<p><strong>改进</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>
+<hr />
+<h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
+<p><strong>新增</strong>: 增加设置最大消息数量的油猴菜单。<br />
+<strong>新增</strong>: 增加跳过最后发言人是 <code>自己</code> 的选项。</p>
+<hr />
+<h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
+<p><strong>新增</strong>: 增加设置刷新时间的油猴菜单。</p>
+<hr />
+<h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
+<p><strong>初始</strong>: 初始版本，欢迎使用。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png?t=1861894861">
 </div></center>
 

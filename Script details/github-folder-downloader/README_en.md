@@ -22,10 +22,13 @@
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/8/28 09:46 - Ver: 0.7.0.2</strong> <em>Remove the listener for detecting link changes in the original script,Add a new listener to support displaying buttons when jumping to directories on the warehouse homepage.</em></li>
-<li><strong>2024/8/28 04:21 - Ver: 0.7</strong> <em>Replace broken selectors.</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHubFolder download Change log</strong></h1>
+<h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
+<p><strong>optimization</strong>: Remove the listener for detecting link changes in the original script，Add a new listener to support displaying buttons when jumping to directories on the warehouse homepage。</p>
+<hr />
+<h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
+<p><strong>repair</strong>: Replace broken selectors。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1861894861">
 </div></center>
 
@@ -66,7 +69,7 @@ Modified from the script [GitHub artspiecesfolderDownload](https://greasyfork.or
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GitHubRelated scripts
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。

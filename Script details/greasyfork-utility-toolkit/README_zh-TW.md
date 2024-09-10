@@ -22,109 +22,66 @@
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>腳本詳情頁,所有腳本清單添加<code>腳本評分</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>修復相容性.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>新增在腳本清單頂部新增下載按鈕,點擊下載所有腳本</em></li>
-<li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
-<li>
-<p><em>最佳化：優化腳本清單圖示顯示位置</em></p>
-</li>
-<li>
-<p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
-</li>
-<li>
-<p><em>最佳化：優化設定介面程式碼</em></p>
-</li>
-<li>
-<p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
-</li>
-<li>
-<p><em>修復：修正腳本設定介面在行動裝置上顯示錯亂問題</em></p>
-</li>
-<li>
-<p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
-</li>
-<li>
-<p><em>新增：增加越南語言包，感謝網友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻譯</em></p>
-</li>
-<li>
-<p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
-</li>
-<li>
-<p><em>新增：增加 WebHook 頁快速跳轉腳本管理</em></p>
-</li>
-<li>
-<p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
-</li>
-<li>
-<p><em>修復：修復監聽規則變化導致動態監聽失敗</em></p>
-<ul>
-<li><em>監聽規則增加：<code>user-script-list-section browse-script-list</code></em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
-</li>
-<li>
-<p><em>複製 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的新 CSS</em></p>
-</li>
-<li>
-<p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
-</li>
-<li>
-<p><em>新增：</em></p>
-<ul>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的腳本雙列顯示</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的美化導覽列</em></li>
-<li><em>增加固定網站側邊操作欄</em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
-</li>
-<li>
-<p><em>新增：完全的繁體語言支持</em></p>
-</li>
-<li>
-<p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
-</li>
-<li><em>新增：</em><ul>
-<li><em>增加側邊導覽欄開關</em></li>
-<li><em>增加圖片代理（開啟時不相容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的圖片瀏覽）</em></li>
-</ul>
-</li>
-<li>
-<p><em>修復：</em></p>
-<ul>
-<li><em>修復在行動裝置上瀏覽圖片超出瀏覽器外的問題</em></li>
-<li><em>修改在編輯程式碼時自動勾選美化</em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
-</li>
-<li><em>新增：</em><ul>
-<li><em>新增導覽列展開 "更多"</em></li>
-<li><em>增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增強</a> 中的側邊導覽欄</em></li>
-</ul>
-</li>
-<li>
-<p><em>最佳化：完善對多語言的支持</em></p>
-</li>
-<li>
-<p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
-</li>
-<li><em>新增：</em><ul>
-<li><em>增加自動登入 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a></em></li>
-</ul>
-</li>
-<li><em>修復：</em><ul>
-<li><em>修復顯示​​清單上的腳本安裝狀態</em></li>
-</ul>
-</li>
-<li><em>最佳化：完善對多語言的支持</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ Greasyfork膠水工匠 更新日誌</strong></h1>
+<h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
+<p><strong>新增</strong>: • 腳本詳情頁，所有腳本清單添加 <code>腳本評分</code>。</p>
+<hr />
+<h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
+<p><strong>修復</strong>: • 修復相容性問題。</p>
+<hr />
+<h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
+<p><strong>新增</strong>: • 在腳本清單頂部新增下載按鈕，點擊下載所有腳本。</p>
+<hr />
+<h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
+<p><strong>最佳化</strong>: • 優化腳本清單圖示顯示位置。</p>
+<hr />
+<h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
+<p><strong>最佳化</strong>: • 優化設定介面程式碼。</p>
+<hr />
+<h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
+<p><strong>修復</strong>: • 修正腳本設定介面在行動裝置上顯示錯亂問題。</p>
+<hr />
+<h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
+<p><strong>新增</strong>: • 增加越南語言包，感謝網友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻譯。</p>
+<hr />
+<h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
+<p><strong>新增</strong>: • 增加 WebHook 頁快速跳轉腳本管理。</p>
+<hr />
+<h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
+<p><strong>修復</strong>: • 修復監聽規則變化導致動態監聽失敗。<br />
+<strong>新增</strong>: • 監聽規則增加：<code>user-script-list-section browse-script-list</code>。</p>
+<hr />
+<h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
+<p><strong>最佳化</strong>: • 複製 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的新 CSS。</p>
+<hr />
+<h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
+<p><strong>新增</strong>:<br />
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的腳本雙列顯示。<br />
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的美化導覽列。<br />
+• 增加固定網站側邊操作欄。</p>
+<hr />
+<h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
+<p><strong>新增</strong>: • 完全的繁體語言支持。</p>
+<hr />
+<h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
+<p><strong>新增</strong>:<br />
+• 增加側邊導覽欄開關。<br />
+• 增加圖片代理（開啟時不相容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a> 中的圖片瀏覽）。<br />
+<strong>修復</strong>:<br />
+• 修復在行動裝置上瀏覽圖片超出瀏覽器外的問題。<br />
+• 修改在編輯程式碼時自動勾選美化。</p>
+<hr />
+<h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
+<p><strong>新增</strong>:<br />
+• 新增導覽列展開 "更多"。<br />
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增強</a> 中的側邊導覽欄。<br />
+<strong>最佳化</strong>: • 完善對多語言的支持。</p>
+<hr />
+<h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
+<p><strong>新增</strong>: • 增加自動登入 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a>。<br />
+<strong>修復</strong>: • 修復顯示​​清單上的腳本安裝狀態。<br />
+<strong>最佳化</strong>: • 完善對多語言的支持。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1861894861">
 </div></center>
 
@@ -315,7 +272,7 @@
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
 > - [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
 > - [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 
-> - [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用戶列表,使用者控制台等
+> - [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
 > - [**Greasyfork膠水工匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
 > - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
 > - [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本

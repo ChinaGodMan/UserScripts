@@ -22,17 +22,14 @@
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/5 23:18 - Ver: 0.1.9.1</strong></li>
-<li>
-<p><em><mark>增加脚本图标</mark></em></p>
-</li>
-<li>
-<p><strong>2024/8/5 10:26 - Ver: 0.1.9</strong></p>
-</li>
-<li><em><mark>问题: 移动设备无法显示高级搜索框</mark></em></li>
-<li><em><mark>修复方式：下面代码仅在PC端生效</mark> <code>searchContainer.appendChild(toggleButton</code></em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Google 高级搜索 更新日志</strong></h1>
+<h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
+<p><strong>新增</strong>: 增加脚本图标。</p>
+<hr />
+<h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
+<p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
+<strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png?t=1861894861">
 </div></center>
 

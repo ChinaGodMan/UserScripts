@@ -22,23 +22,24 @@
     <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/8/28 12:01 - Ver: 0.1.6.58</strong> <em>Web page enters full screen,Hide bottom right button.</em></li>
-<li>
-<p><strong>2024/8/26 07:32 - Ver: 0.1.6.54</strong>  <em>Add language support</em></p>
-</li>
-<li>
-<p><strong>2024/8/4 14:32 - Ver: 0.1.6.32</strong></p>
-</li>
-<li>
-<p><em><a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> On SF official websiteCSSconflict，As a result, the button in the lower right corner will become a long strip across the bottom of the entire page.<br>How to fix it：Change button class name <code>button.script-button</code> 👉 <code>scrbutton.script-button</code></em></p>
-</li>
-<li>
-<p><strong>2024/7/18 08:45 - Ver: 0.1.6.9</strong>  <em>Cancel default sorting，Sort by update time instead</em></p>
-</li>
-<li><strong>2024/6/26 06:43 - Ver: 0.1.6.1</strong>  </li>
-<li><em>New:Add support for mobile devices，Can also be used on mobile phones~<br>Revise:Cancel the operation of clearing the list when a search error occurs</em> </li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Script Finder+   Change log</strong></h1>
+<h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
+<p><strong>New</strong>: • Web page enters full screen，Hide bottom right button。</p>
+<hr />
+<h3><strong>📅 2024/8/26 07:32 - Ver 0.1.6.54</strong></h3>
+<p><strong>New</strong>: • Add language support。</p>
+<hr />
+<h3><strong>📅 2024/8/4 14:32 - Ver 0.1.6.32</strong></h3>
+<p><strong>repair</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> On SF official website CSS conflict，Causes the button in the lower right corner to become longer，across the bottom of the page。<br />
+<strong>How to fix it</strong>: • Change button class name <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
+<hr />
+<h3><strong>📅 2024/7/18 08:45 - Ver 0.1.6.9</strong></h3>
+<p><strong>optimization</strong>: • Cancel default sorting，Sort by update time instead。</p>
+<hr />
+<h3><strong>📅 2024/6/26 06:43 - Ver 0.1.6.1</strong></h3>
+<p><strong>New</strong>: • Add support for mobile devices，Can also be used on mobile phones~<br />
+<strong>Revise</strong>: • Cancel the operation of clearing the list when a search error occurs。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png?t=1861894861">
 </div></center>
 
@@ -103,7 +104,7 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website

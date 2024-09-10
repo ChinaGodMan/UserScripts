@@ -22,10 +22,13 @@
     <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/5 04:29 - Ver: 1.1.0.0</strong> <em>每次提交后返回GreasyFork同步提示..</em></li>
-<li><strong>2024/9/4 11:52 - Ver: 1.0.0.0</strong> <em>初始版本.欢迎使用.</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️  GreaysFork增强WebHook 更新日志</strong></h1>
+<h3><strong>📅 2024/9/5 04:29 - Ver 1.1.0.0</strong></h3>
+<p><strong>新增</strong>: • 每次提交后返回 GreasyFork 同步提示。</p>
+<hr />
+<h3><strong>📅 2024/9/4 11:52 - Ver 1.0.0.0</strong></h3>
+<p><strong>初始版本</strong>: • 欢迎使用。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png?t=1861894861">
 </div></center>
 

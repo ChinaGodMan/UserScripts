@@ -22,11 +22,11 @@
     <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/26 1:28 - Ver: 1.2.0.48</strong></li>
-<li><em>请求添加绑定热键</em></li>
-<li><em><a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a></em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮   更新日志</strong></h1>
+<h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
+<p><strong>请求</strong>:<br />
+• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。  </p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png?t=1861894861">
 </div></center>
 

@@ -22,9 +22,11 @@
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p><strong>修改：</strong>
-<a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
-- 2024-08-04T08:59:11 <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
+<h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
+<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
+- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png?t=1861894861">
 </div></center>
 

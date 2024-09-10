@@ -22,9 +22,11 @@
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Update record</summary><p><strong>Revise：</strong>
-<a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a> 
-- 2024-08-04T08:59:11 <code>DOMContentLoaded</code> Sometimes conflicts with other scripts，Cause monitoring to fail。changed to <code>load</code>。</p></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   Change log</strong></h1>
+<h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
+<p><strong>Revise</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
+- <code>DOMContentLoaded</code> Sometimes conflicts with other scripts，Cause monitoring to fail。changed to <code>load</code>。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png?t=1861894861">
 </div></center>
 
@@ -76,7 +78,7 @@ If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](http
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website

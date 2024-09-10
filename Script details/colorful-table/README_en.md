@@ -22,9 +22,10 @@
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/6 05:41 - Ver: 1.0.0.0</strong> <em>Change to automatic gradient color..</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Beautify web forms with gorgeous gradients Change log</strong></h1>
+<h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
+<p><strong>Revise</strong>: Change to automatic gradient color。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1861894861">
 </div></center>
 
@@ -72,7 +73,7 @@ This script is suitable for any webpage containing tables, automatically applyin
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### Web related scripts
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.

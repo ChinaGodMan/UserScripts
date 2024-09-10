@@ -22,44 +22,48 @@
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/10 11:05 - Ver: 2.5.1.0</strong> </span><span style="color: #529654;">解决上一版本无法跨源读取弹出窗口的大小位置,在无法读取到时向弹出窗口发送信息,让弹出窗口自己设置.</span></li>
-<li>
-<p><strong>2024/9/10 09:24 - Ver: 2.5.0.0</strong></p>
-<ul>
-<li>.感谢<strong><a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a></strong> 同志的代码,新增:开启<code>记录窗口位置</code>时,会自动记录当前域名配置</li>
-<li>查找窗口的配置逻辑为:寻找当前域名的配置,为空时→寻找自定义窗口配置,为空时→使用脚本自带配置.配置规则见以下<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>
- -<span style="color: #615296;">配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置</span><span style="color: #529654;"><em>2.5.1.0解决无法跨源读取</em><s>除了无法<code>CORS</code>的网站,比如<code>im.qq.com</code></s></span>下一次打开没在配置里的域名,会调用最后一次的窗口大小.新增功能演示请看下方视频</li>
-</ul>
-</li>
-<li>
-<p><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>事件错误,修改为检查鼠标y轴＜1时判断移动在浏览器标签页</em></p>
-</li>
-<li><strong>2024/9/02 05:34 - Ver:.2.4.0.18</strong> </li>
-<li>请求:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">添加功能:</span><br><em>长按鼠标模式下按下键盘不触发预览窗口<br>拖拽模式下浏览器拖住拖拽链接到新标签打开,不会触发预览窗口</em></li>
-<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>添加拖拽时超时显示超时进度条,时间耗光取消拖拽打开预览窗口</em></li>
-<li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>移出长按时检测鼠标移动监听器,改为监听鼠标进入拖拽状态取消打开预览窗口.<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
-<li><strong>2024/8/27 00:33 - Ver: 2.4.0.5</strong> </li>
-<li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> BUG反馈:当打开一个链接的预览窗，然后点击原窗口焦点关闭预览窗之后再长按另外一个链接 , 有概率无法触发时间条打开预览窗<br>添加代码:<code>if (state.popupWindow)</code>当窗口存在时执行代码</em></p>
-</li>
-<li>
-<p><strong>2024/8/25 04:59 - Ver: 2.4.0.2</strong></p>
-</li>
-<li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a> 添加长按时显示倒计时, 修复长按时间过短导致在拖拽时触发长按逻辑, 增加记住窗口位置</em></p>
-</li>
-<li>
-<p><strong>2024/8/24 07:29 - Ver: 2.4</strong></p>
-</li>
-<li>
-<p><em>优化脚本<br>添加语言包</em></p>
-</li>
-<li>
-<p><strong>2024/8/23 08:12 - Ver: 2.4</strong></p>
-</li>
-<li><em>&lt;优化脚本<br>添加长按链接弹出小窗口，用于兼容chrome插件 <code>Google Chrome 的超级拖拽 0.9.9</code><br>修复点击小窗口右上角关闭按钮时，亚克力图层不关闭的问题</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
+<h3><strong>📅 2024/9/10 - Ver 2.5.1.0</strong></h3>
+<p><strong>修复</strong>: 无法跨源读取弹出窗口大小位置的问题。<br />
+<strong>新增</strong>: 当无法跨源读取到弹窗位置时，会发送信息给弹窗，允许弹窗自己设置大小和位置。</p>
+<hr />
+<h3><strong>📅 2024/9/10 - Ver 2.5.0.0</strong></h3>
+<p><strong>感谢</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> 的代码贡献。<br />
+<strong>新增</strong>:<br />
+• 开启 <code>记录窗口位置</code> 时，自动记录当前域名配置。<br />
+• 查找窗口配置逻辑：域名配置 → 自定义窗口配置 → 脚本自带配置。<br />
+• 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置<br />
+• 配置规则参考<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>   <br />
+• 新增功能演示请参考下方视频。</p>
+<hr />
+<h3><strong>📅 2024/9/3 - Ver 2.4.0.20</strong></h3>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> 事件错误，修改为检查鼠标 <code>y</code> 轴 &lt; 1 时判断移动是否在浏览器标签页上。</p>
+<hr />
+<h3><strong>📅 2024/9/2 - Ver 2.4.0.18</strong></h3>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
+• 长按鼠标模式下按下键盘不触发预览窗口。<br />
+• 拖拽模式下拖拽链接到新标签时不会触发预览窗口。</p>
+<hr />
+<h3><strong>📅 2024/8/29 - Ver 2.4.0.9</strong></h3>
+<p><strong>新增</strong>: 拖拽时增加超时显示进度条，时间耗尽时取消拖拽打开预览窗口。</p>
+<hr />
+<h3><strong>📅 2024/8/29 - Ver 2.4.0.8</strong></h3>
+<p><strong>优化</strong>: 移除长按时监听鼠标移动的逻辑，改为监听鼠标进入拖拽状态时取消打开预览窗口。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
+<hr />
+<h3><strong>📅 2024/8/27 - Ver 2.4.0.5</strong></h3>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> 反馈的BUG：<br />
+• 修复在关闭预览窗后无法触发时间条打开预览窗的概率性问题。</p>
+<hr />
+<h3><strong>📅 2024/8/25 - Ver 2.4.0.2</strong></h3>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
+• 添加长按时显示倒计时，增加记住窗口位置功能。</p>
+<hr />
+<h3><strong>📅 2024/8/24 - Ver 2.4</strong></h3>
+<p><strong>优化</strong>: 添加语言包，优化脚本性能。</p>
+<hr />
+<h3><strong>📅 2024/8/23 - Ver 2.4</strong></h3>
+<p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
+<strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
 </div></center>
 

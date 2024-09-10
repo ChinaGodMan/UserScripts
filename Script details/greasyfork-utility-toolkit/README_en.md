@@ -22,109 +22,66 @@
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/8/29 02:37 - Ver: 2.2.0.70</strong> <em>Script details page,All scripts list added<code>Script Rating</code>.</em></li>
-<li><strong>2024/8/27 13:37 - Ver: 2.2.0.65</strong> <em>Fix compatibility.</em></li>
-<li><strong>2024/8/26 08:32 - Ver: 2.2.0.62</strong> <em>Added a download button at the top of the script list,Click to download all scripts</em></li>
-<li><strong>2024/8/24 03:23 - Ver: 2.2.0.59</strong></li>
-<li>
-<p><em>optimization：Optimize the display position of the script list icon</em></p>
-</li>
-<li>
-<p><strong>2024/8/23 06:12 - Ver: 2.2.0.57</strong></p>
-</li>
-<li>
-<p><em>optimization：Optimize setting interface code</em></p>
-</li>
-<li>
-<p><strong>2024/8/20 02:20 - Ver: 2.2.0.53</strong></p>
-</li>
-<li>
-<p><em>repair：Fixed an issue where the script setting interface displays incorrectly on mobile devices</em></p>
-</li>
-<li>
-<p><strong>2024/8/14 17:43 - Ver: 2.2.0.47</strong></p>
-</li>
-<li>
-<p><em>New：Add Vietnamese language pack，Thanks netizens <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> translate</em></p>
-</li>
-<li>
-<p><strong>2024/8/13 04:43 - Ver: 2.2.0.44</strong></p>
-</li>
-<li>
-<p><em>New：Increase WebHook Page quick jump script management</em></p>
-</li>
-<li>
-<p><strong>2024/8/4 22:09 - Ver: 2.2.0.35</strong></p>
-</li>
-<li>
-<p><em>repair：Fixed the issue of dynamic monitoring failure caused by changes in monitoring rules</em></p>
-<ul>
-<li><em>Monitoring rules added：<code>user-script-list-section browse-script-list</code></em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/20 - Ver: 2.2.0.14</strong></p>
-</li>
-<li>
-<p><em>copy <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> new in CSS</em></p>
-</li>
-<li>
-<p><strong>2024/7/17 - Ver: 2.2.0.9</strong></p>
-</li>
-<li>
-<p><em>New：</em></p>
-<ul>
-<li><em>Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Script in double column display</em></li>
-<li><em>Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Beautify navigation bar in</em></li>
-<li><em>Add fixed website side action bar</em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/15 - Ver: 2.2.0.8</strong></p>
-</li>
-<li>
-<p><em>New：Full traditional language support</em></p>
-</li>
-<li>
-<p><strong>2024/7/15 - Ver: 2.2.0.7</strong></p>
-</li>
-<li><em>New：</em><ul>
-<li><em>Add side navigation bar switch</em></li>
-<li><em>Add image proxy（Not compatible when enabled <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Picture browsing in）</em></li>
-</ul>
-</li>
-<li>
-<p><em>repair：</em></p>
-<ul>
-<li><em>Fixed the problem of images being viewed outside the browser on mobile devices</em></li>
-<li><em>Modify the automatic check mark beautification when editing code</em></li>
-</ul>
-</li>
-<li>
-<p><strong>2024/7/14 - Ver: 2.2.0.6</strong></p>
-</li>
-<li><em>New：</em><ul>
-<li><em>Add navigation bar expansion "More"</em></li>
-<li><em>Increase <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork Enhance</a> Side navigation bar in</em></li>
-</ul>
-</li>
-<li>
-<p><em>optimization：Improve support for multiple languages</em></p>
-</li>
-<li>
-<p><strong>2024/7/13 - Ver: 2.2.0.5</strong></p>
-</li>
-<li><em>New：</em><ul>
-<li><em>Add automatic login <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a></em></li>
-</ul>
-</li>
-<li><em>repair：</em><ul>
-<li><em>Fix script installation status on display list</em></li>
-</ul>
-</li>
-<li><em>optimization：Improve support for multiple languages</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyforkGlue craftsman Change log</strong></h1>
+<h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
+<p><strong>New</strong>: • Script details page，All scripts list added <code>Script Rating</code>。</p>
+<hr />
+<h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
+<p><strong>repair</strong>: • Fix compatibility issues。</p>
+<hr />
+<h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
+<p><strong>New</strong>: • Add a download button at the top of the script list，Click to download all scripts。</p>
+<hr />
+<h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
+<p><strong>optimization</strong>: • Optimize the display position of the script list icon。</p>
+<hr />
+<h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
+<p><strong>optimization</strong>: • Optimize setting interface code。</p>
+<hr />
+<h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
+<p><strong>repair</strong>: • Fixed an issue where the script setting interface displays incorrectly on mobile devices。</p>
+<hr />
+<h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
+<p><strong>New</strong>: • Add Vietnamese language pack，Thanks netizens <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> translate。</p>
+<hr />
+<h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
+<p><strong>New</strong>: • Increase WebHook Page quick jump script management。</p>
+<hr />
+<h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
+<p><strong>repair</strong>: • Fixed the issue of dynamic monitoring failure caused by changes in monitoring rules。<br />
+<strong>New</strong>: • Monitoring rules added：<code>user-script-list-section browse-script-list</code>。</p>
+<hr />
+<h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
+<p><strong>optimization</strong>: • copy <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> new in CSS。</p>
+<hr />
+<h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
+<p><strong>New</strong>:<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Script in double column display。<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Beautify navigation bar in。<br />
+• Add fixed website side action bar。</p>
+<hr />
+<h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
+<p><strong>New</strong>: • Full traditional language support。</p>
+<hr />
+<h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
+<p><strong>New</strong>:<br />
+• Add side navigation bar switch。<br />
+• Add image proxy（Not compatible when enabled <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Picture browsing in）。<br />
+<strong>repair</strong>:<br />
+• Fixed the problem of images being viewed outside the browser on mobile devices。<br />
+• Modify to automatically check beautification when editing code。</p>
+<hr />
+<h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
+<p><strong>New</strong>:<br />
+• Add navigation bar expansion "More"。<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork Enhance</a> Side navigation bar in。<br />
+<strong>optimization</strong>: • Improve support for multiple languages。</p>
+<hr />
+<h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
+<p><strong>New</strong>: • Add automatic login <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a>。<br />
+<strong>repair</strong>: • Fix script installation status on display list。<br />
+<strong>optimization</strong>: • Improve support for multiple languages。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png?t=1861894861">
 </div></center>
 
@@ -297,7 +254,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website

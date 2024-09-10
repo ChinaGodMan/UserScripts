@@ -22,9 +22,10 @@
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/9/6 05:41 - Ver: 1.0.0.0</strong> <em>修改为自动渐变色..</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 绚丽渐变美化网页表格 更新日志</strong></h1>
+<h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
+<p><strong>修改</strong>: 修改为自动渐变色。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png?t=1861894861">
 </div></center>
 

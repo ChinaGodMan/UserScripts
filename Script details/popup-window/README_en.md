@@ -22,44 +22,48 @@
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>Update record</summary><ul>
-<li><strong>2024/9/10 11:05 - Ver: 2.5.1.0</strong> </span><span style="color: #529654;">Solved the problem that the previous version could not read the size and position of the pop-up window across sources,Send information to popup window when it cannot be read,Let the popup set itself.</span></li>
-<li>
-<p><strong>2024/9/10 09:24 - Ver: 2.5.0.0</strong></p>
-<ul>
-<li>.grateful<strong><a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a></strong> gay code,New:turn on<code>Record window position</code>hour,Will automatically record the current domain name configuration</li>
-<li>The configuration logic of the search window is:Find the configuration of the current domain name,When empty→Looking for custom window configuration,When empty→Use script to configure.See below for configuration rules<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>
- -<span style="color: #615296;">No manual editing required for configuration,The script automatically updates the domain configuration when you change the window size.Every time you change the window size it will be recorded in the global custom configuration</span><span style="color: #529654;"><em>2.5.1.0Solve the problem of being unable to read across sources</em><s>Except being unable to<code>CORS</code>website,for example<code>im.qq.com</code></s></span>Open a domain name that is not in the configuration next time,The last window size will be called.Please watch the video below for a demonstration of the new features.</li>
-</ul>
-</li>
-<li>
-<p><strong>2024/9/3 05:26 - Ver:.2.4.0.20</strong> <em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a>event error,Modified to check mouseyaxis＜1Determine when moving in a browser tab</em></p>
-</li>
-<li><strong>2024/9/02 05:34 - Ver:.2.4.0.18</strong> </li>
-<li>ask:<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br><span style="color: blue;">Add functionality:</span><br><em>Pressing the keyboard in long-press mouse mode does not trigger the preview window<br>In drag mode, the browser drags and drops the link to open it in a new tab.,Preview window will not be triggered</em></li>
-<li><strong>2024/8/29 08:39 - Ver:.2.4.0.9</strong> <em>Add a timeout to display the timeout progress bar when dragging,Time runs out. Cancel drag and drop to open the preview window.</em></li>
-<li><strong>2024/8/29 06:28 - Ver:.2.4.0.8</strong> <em>Detect mouse movement listener when moving out of long press,Change to monitor when the mouse enters dragging state and cancel opening the preview window..<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></em></li>
-<li><strong>2024/8/27 00:33 - Ver: 2.4.0.5</strong> </li>
-<li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> BUGfeedback:When opening a link’s preview window，Then click the focus of the original window to close the preview window and then long press another link. , There is a probability that the time bar cannot be triggered to open the preview window.<br>add code:<code>if (state.popupWindow)</code>Execute code when window exists</em></p>
-</li>
-<li>
-<p><strong>2024/8/25 04:59 - Ver: 2.4.0.2</strong></p>
-</li>
-<li>
-<p><em><a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a> Added display countdown when long press, Fixed the issue where the long press time is too short, causing the long press logic to be triggered when dragging, Added memory window position</em></p>
-</li>
-<li>
-<p><strong>2024/8/24 07:29 - Ver: 2.4</strong></p>
-</li>
-<li>
-<p><em>Optimize script<br>Add language pack</em></p>
-</li>
-<li>
-<p><strong>2024/8/23 08:12 - Ver: 2.4</strong></p>
-</li>
-<li><em>&lt;Optimize script<br>Add long press link popup window，for compatibilitychromeplug-in <code>Google Chrome super drag 0.9.9</code><br>Fixed issue when clicking the close button in the upper right corner of a small window，Problem with acrylic layer not closing</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Small Window Preview Change log</strong></h1>
+<h3><strong>📅 2024/9/10 - Ver 2.5.1.0</strong></h3>
+<p><strong>repair</strong>: The problem of not being able to read the size and position of the pop-up window across sources。<br />
+<strong>New</strong>: When the pop-up window location cannot be read across sources，Will send information to the pop-up window，Allow pop-ups to set their own size and position。</p>
+<hr />
+<h3><strong>📅 2024/9/10 - Ver 2.5.0.0</strong></h3>
+<p><strong>grateful</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> code contributions。<br />
+<strong>New</strong>:<br />
+• turn on <code>Record window position</code> hour，Automatically record current domain name configuration。<br />
+• Find window configuration logic：Domain name configuration → Custom window configuration → Script comes with configuration。<br />
+• No manual editing required for configuration,The script will automatically update the domain configuration when you change the window size.Every time you change the window size it will be recorded in the global custom configuration<br />
+• Configuration rules reference<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a>   <br />
+• Please refer to the video below for a demonstration of the new features.。</p>
+<hr />
+<h3><strong>📅 2024/9/3 - Ver 2.4.0.20</strong></h3>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> event error，Modified to check mouse <code>y</code> axis &lt; 1 Determine if the move is on a browser tab。</p>
+<hr />
+<h3><strong>📅 2024/9/2 - Ver 2.4.0.18</strong></h3>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
+• Pressing the keyboard in long-press mouse mode does not trigger the preview window。<br />
+• When dragging a link to a new label in drag mode, the preview window will not be triggered.。</p>
+<hr />
+<h3><strong>📅 2024/8/29 - Ver 2.4.0.9</strong></h3>
+<p><strong>New</strong>: Add timeout to display progress bar when dragging，Cancel drag and drop to open preview window when time runs out。</p>
+<hr />
+<h3><strong>📅 2024/8/29 - Ver 2.4.0.8</strong></h3>
+<p><strong>optimization</strong>: Remove the logic for monitoring mouse movement when long-pressed，Change to monitor the mouse and cancel the opening of the preview window when it enters the dragging state.。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
+<hr />
+<h3><strong>📅 2024/8/27 - Ver 2.4.0.5</strong></h3>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> feedbackBUG：<br />
+• Fixed the probability issue that the time bar cannot be triggered to open the preview window after closing the preview window.。</p>
+<hr />
+<h3><strong>📅 2024/8/25 - Ver 2.4.0.2</strong></h3>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
+• Added display countdown when long press，Added function to remember window position。</p>
+<hr />
+<h3><strong>📅 2024/8/24 - Ver 2.4</strong></h3>
+<p><strong>optimization</strong>: Add language pack，Optimize script performance。</p>
+<hr />
+<h3><strong>📅 2024/8/23 - Ver 2.4</strong></h3>
+<p><strong>optimization</strong>: compatible Chrome plug-in <code>Google Chrome super drag 0.9.9</code>。<br />
+<strong>repair</strong>: Fixed the problem that the acrylic layer does not close when clicking the close button of the small window。</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png?t=1861894861">
 </div></center>
 
@@ -160,7 +164,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### Web related scripts
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.

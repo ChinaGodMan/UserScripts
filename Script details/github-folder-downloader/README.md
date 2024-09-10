@@ -22,10 +22,13 @@
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
-            Fork</a></p><details><summary>更新记录</summary><ul>
-<li><strong>2024/8/28 09:46 - Ver: 0.7.0.2</strong> <em>移出原脚本的检测链接发生变化的监听器,添加新的监听器用于支持在仓库主页跳转目录时显示按钮.</em></li>
-<li><strong>2024/8/28 04:21 - Ver: 0.7</strong> <em>替换失效的选择器.</em></li>
-</ul></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub文件夹下载 更新日志</strong></h1>
+<h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
+<p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮。</p>
+<hr />
+<h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
+<p><strong>修复</strong>: 替换失效的选择器。</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png?t=1861894861">
 </div></center>
 
