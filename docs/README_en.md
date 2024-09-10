@@ -372,7 +372,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -617,7 +617,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
@@ -862,8 +862,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-09 08:43:27</sub></td>
-             <td><sub>2.4.0.29</sub></td>
+            <td><sub>2024-09-10 09:55:32</sub></td>
+             <td><sub>2.5.0.0</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>

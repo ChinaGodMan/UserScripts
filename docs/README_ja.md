@@ -232,7 +232,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -596,7 +596,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -862,8 +862,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-09 08:43:27</sub></td>
-             <td><sub>2.4.0.29</sub></td>
+            <td><sub>2024-09-10 09:55:32</sub></td>
+             <td><sub>2.5.0.0</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -1025,7 +1025,7 @@
 > 
 > - _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
 > - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
-> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
 > _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
