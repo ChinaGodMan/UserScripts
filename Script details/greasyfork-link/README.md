@@ -48,7 +48,9 @@
 
 - 点击"确定"跳转搜索
 - 点击"取消"直接跳转到网站
+
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+
 > ### GreasyFork相关脚本
 > - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
 > - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
