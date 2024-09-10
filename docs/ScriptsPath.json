@@ -607,8 +607,8 @@
             "GreasyFork": "504880",
             "description": "拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。",
             "created_at": "2024-08-24 06:51:35",
-            "code_updated_at": "2024-09-09 08:43:27",
-            "version": "2.4.0.29",
+            "code_updated_at": "2024-09-10 09:55:32",
+            "version": "2.5.0.0",
             "local_created_at": "2024-08-23 07:20:13",
             "relatedscripts": {
                 "网页相关脚本": [
