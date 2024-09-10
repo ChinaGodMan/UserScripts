@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Small Window Preview
 // @name:zh-CN    小窗预览
-// @description:zh-CN 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+// @description:zh-CN 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小.
 // @name:ar    معاينة نافذة صغيرة
 // @description:ar افتح الرابط في النافذة المنبثقة عند سحب الرابط，وتقديم معاينة قبل الافتتاح，يستخدم Edge تكنولوجيا ما قبل القراءة。وفي نفس الوقت، أضف تأثير الأكريليك خلف النافذة الصغيرة عند فتحها.。
 // @name:bg    Визуализация на малък прозорец
@@ -75,7 +75,7 @@
 // @name:fr-CA    Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version 2.4.0.29
+// @version 2.5.0.0
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -282,7 +282,7 @@ const translate = (function () {
         actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
         showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
         showCountdowndrag: GM_getValue('showCountdowndrag', true), // 是否显示拖拽倒计时进度条
-        saveWindowConfig: GM_getValue('saveWindowConfig', false)//记住窗口位置,没啥用
+        saveWindowConfig: GM_getValue('saveWindowConfig', true)//记住窗口位置,没啥用 
     }
     function delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms))
@@ -479,7 +479,7 @@ const translate = (function () {
         }
         if (!configUpdated) {
             windowConfigs.push({
-                name: `新配置 ${currentHostName}`,
+                name: `${currentHostName}`,
                 hostName: currentHostName,
                 width: width,
                 height: height,
