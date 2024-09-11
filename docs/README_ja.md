@@ -33,7 +33,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**違反があった場合,連絡先を削除する必要があります**
+**侵害があった場合,連絡先を削除する必要があります**
 
 ##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
   
@@ -78,8 +78,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-10 10:39:10</sub></td>
-             <td><sub>0.1.0.21</sub></td>
+            <td><sub>2024-09-11 11:44:37</sub></td>
+             <td><sub>0.1.0.22</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -106,8 +106,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-10 10:39:10</sub></td>
-             <td><sub>1.3.1.12</sub></td>
+            <td><sub>2024-09-11 11:44:37</sub></td>
+             <td><sub>1.3.1.13</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -120,7 +120,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</td>
+            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定範囲を超えないようにする。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -134,8 +134,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-10 10:39:10</sub></td>
-             <td><sub>0.1.0.23</sub></td>
+            <td><sub>2024-09-11 11:44:38</sub></td>
+             <td><sub>0.1.0.24</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -162,8 +162,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-10 10:39:11</sub></td>
-             <td><sub>1.2.2.71</sub></td>
+            <td><sub>2024-09-11 11:44:38</sub></td>
+             <td><sub>1.2.2.72</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -190,8 +190,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-10 10:39:11</sub></td>
-             <td><sub>1.0.0.21</sub></td>
+            <td><sub>2024-09-11 11:44:38</sub></td>
+             <td><sub>1.0.0.22</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -218,8 +218,8 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-09-10 10:39:11</sub></td>
-             <td><sub>1.0.0.7</sub></td>
+            <td><sub>2024-09-11 11:44:38</sub></td>
+             <td><sub>1.0.0.8</sub></td>
               <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
     <tr>
@@ -232,7 +232,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -246,8 +246,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-10 10:39:12</sub></td>
-             <td><sub>1.0.0.17</sub></td>
+            <td><sub>2024-09-11 11:44:39</sub></td>
+             <td><sub>1.0.0.18</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -274,8 +274,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-10 10:39:12</sub></td>
-             <td><sub>0.7.0.21</sub></td>
+            <td><sub>2024-09-11 11:44:39</sub></td>
+             <td><sub>0.7.0.22</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -302,8 +302,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-10 10:39:12</sub></td>
-             <td><sub>2.2.0.20</sub></td>
+            <td><sub>2024-09-11 11:44:39</sub></td>
+             <td><sub>2.2.0.21</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -330,8 +330,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-10 10:39:13</sub></td>
-             <td><sub>0.1.2.54</sub></td>
+            <td><sub>2024-09-11 11:44:40</sub></td>
+             <td><sub>0.1.2.55</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -358,8 +358,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-10 10:39:13</sub></td>
-             <td><sub>1.1.0.21</sub></td>
+            <td><sub>2024-09-11 11:44:40</sub></td>
+             <td><sub>1.1.0.22</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -386,8 +386,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-10 10:39:14</sub></td>
-             <td><sub>0.1.9.43</sub></td>
+            <td><sub>2024-09-11 11:44:41</sub></td>
+             <td><sub>0.1.9.44</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -400,7 +400,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -414,8 +414,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-10 10:39:14</sub></td>
-             <td><sub>0.0.1.49</sub></td>
+            <td><sub>2024-09-11 11:44:41</sub></td>
+             <td><sub>0.0.1.50</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -428,7 +428,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>スクリプトの詳細ページが追加され、リンクを追加するのに適しています。，Webページをコピーする,タイヤ検索</td>
+            <td>スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -442,8 +442,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-10 10:39:14</sub></td>
-             <td><sub>0.9.3.64</sub></td>
+            <td><sub>2024-09-11 11:44:42</sub></td>
+             <td><sub>0.9.3.65</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -470,8 +470,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-10 10:39:18</sub></td>
-             <td><sub>1.1.0.8</sub></td>
+            <td><sub>2024-09-11 11:44:45</sub></td>
+             <td><sub>1.1.0.9</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -498,8 +498,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-10 10:39:15</sub></td>
-             <td><sub>2.0.4.22</sub></td>
+            <td><sub>2024-09-11 11:44:42</sub></td>
+             <td><sub>2.0.4.23</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -526,8 +526,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-10 10:39:15</sub></td>
-             <td><sub>1.3.3.61</sub></td>
+            <td><sub>2024-09-11 11:44:42</sub></td>
+             <td><sub>1.3.3.62</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -554,8 +554,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-10 10:39:16</sub></td>
-             <td><sub>0.6.5.21</sub></td>
+            <td><sub>2024-09-11 11:44:43</sub></td>
+             <td><sub>0.6.5.22</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -582,8 +582,8 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-10 10:39:16</sub></td>
-             <td><sub>0.3.1.55</sub></td>
+            <td><sub>2024-09-11 11:44:43</sub></td>
+             <td><sub>0.3.1.56</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -610,8 +610,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-10 10:39:16</sub></td>
-             <td><sub>2.2.0.89</sub></td>
+            <td><sub>2024-09-11 11:44:43</sub></td>
+             <td><sub>2.2.0.90</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -638,8 +638,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-11 08:01:21</sub></td>
-             <td><sub>1.4.0.0</sub></td>
+            <td><sub>2024-09-11 11:44:41</sub></td>
+             <td><sub>1.4.0.1</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -666,8 +666,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-10 10:39:18</sub></td>
-             <td><sub>1.1.2.70</sub></td>
+            <td><sub>2024-09-11 11:44:45</sub></td>
+             <td><sub>1.1.2.71</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -694,8 +694,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-10 10:39:18</sub></td>
-             <td><sub>1.0.5.24</sub></td>
+            <td><sub>2024-09-11 11:44:45</sub></td>
+             <td><sub>1.0.5.25</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -722,8 +722,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-10 10:39:19</sub></td>
-             <td><sub>1.0.1.5</sub></td>
+            <td><sub>2024-09-11 11:44:46</sub></td>
+             <td><sub>1.0.1.6</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -750,8 +750,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-10 10:39:20</sub></td>
-             <td><sub>1.2.3.71</sub></td>
+            <td><sub>2024-09-11 11:44:46</sub></td>
+             <td><sub>1.2.3.72</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -778,7 +778,7 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-10 10:39:22</sub></td>
+            <td><sub>2024-09-11 11:42:44</sub></td>
              <td><sub>1.0.1.6</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
@@ -806,8 +806,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-10 10:39:19</sub></td>
-             <td><sub>1.0.0.8</sub></td>
+            <td><sub>2024-09-11 11:44:46</sub></td>
+             <td><sub>1.0.0.9</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -834,8 +834,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-10 10:39:20</sub></td>
-             <td><sub>1.3.98.23</sub></td>
+            <td><sub>2024-09-11 11:44:47</sub></td>
+             <td><sub>1.3.98.24</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -862,8 +862,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-10 11:21:37</sub></td>
-             <td><sub>2.5.1.0</sub></td>
+            <td><sub>2024-09-11 11:44:47</sub></td>
+             <td><sub>2.5.1.1</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -890,8 +890,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-10 10:39:21</sub></td>
-             <td><sub>1.2.0.61</sub></td>
+            <td><sub>2024-09-11 11:44:48</sub></td>
+             <td><sub>1.2.0.62</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -918,8 +918,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-10 10:39:21</sub></td>
-             <td><sub>0.1.6.77</sub></td>
+            <td><sub>2024-09-11 11:44:48</sub></td>
+             <td><sub>0.1.6.78</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -946,8 +946,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-10 10:39:22</sub></td>
-             <td><sub>1.0.0.24</sub></td>
+            <td><sub>2024-09-11 11:44:49</sub></td>
+             <td><sub>1.0.0.25</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -974,8 +974,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-10 10:39:22</sub></td>
-             <td><sub>1.2.0.70</sub></td>
+            <td><sub>2024-09-11 11:44:49</sub></td>
+             <td><sub>1.2.0.71</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1027,7 +1027,7 @@
 > - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
 > - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 ブラウザとスクリプトマネージャー
