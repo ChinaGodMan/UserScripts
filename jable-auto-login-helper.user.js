@@ -130,8 +130,8 @@ const translate = (function () {
 (function () {
     'use strict'
     var messages = []
-    let UserEmail = GM_getValue("UserEmail", "Woshindiaaaa")
-    let UserPassword = GM_getValue("UserPassword", "Woshindiaaaa")
+    let UserEmail = GM_getValue("UserEmail", "")
+    let UserPassword = GM_getValue("UserPassword", "")
     var style = document.createElement('style')
     GM_registerMenuCommand("Set Account", showuserInfoModal)
     function showuserInfoModal() {
