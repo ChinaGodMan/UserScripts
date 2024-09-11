@@ -282,8 +282,8 @@
 
     if (getUserId()) {
         fetchAndDisplayDiscussions([
-            [`https://greasyfork.org/discussions?user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
-            [`https://greasyfork.org/discussions?me=script&per_page=${config.maxItem}`, "Scripts Discussions"]
+            [`https://greasyfork.org/discussions?read=unread&user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
+            [`https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`, "Scripts Discussions"]//添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
         ])
     } else {
         console.log("没有登录,放弃操作")
