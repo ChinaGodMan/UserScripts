@@ -74,7 +74,7 @@ def main():
         for file_name in files:
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
-                if is_file_updated_more_than("pythonscr/update-help/HELP.md", 5):
+                if is_file_updated_more_than("./pythonscr/update-help/HELP.md", 5):
                      print(f"跳过文件 ，因为说明帮助文件并没有更新。")
                      continue
                 if "Change history" in file_path:

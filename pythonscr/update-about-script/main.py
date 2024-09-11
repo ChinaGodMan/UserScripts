@@ -113,7 +113,7 @@ def main():
             for file in os.listdir(backuppath):
                 if file.endswith('.md'):
                     file_path = os.path.join(backuppath, file)
-                    if is_file_updated_more_than("docs/ScriptsPath.json", 5):
+                    if is_file_updated_more_than("./docs/ScriptsPath.json", 5):
                      print(f"跳过文件 ，因为脚本描述文件并没有更新。")
                      continue
                     # 针对当前脚本生成描述
