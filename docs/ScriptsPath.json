@@ -128,7 +128,7 @@
             "GreasyFork": "505830",
             "description": "该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。",
             "created_at": "2024-08-30 10:13:44",
-            "code_updated_at": "2024-09-11 11:44:39",
+            "code_updated_at": "2024-09-12 05:56:03",
             "version": "1.0.0.18",
             "local_created_at": "2024-08-30 03:21:51",
             "relatedscripts": {
@@ -149,7 +149,7 @@
             "GreasyFork": "505496",
             "description": "添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。",
             "created_at": "2024-08-28 04:27:35",
-            "code_updated_at": "2024-09-11 11:44:39",
+            "code_updated_at": "2024-09-12 05:56:04",
             "version": "0.7.0.22",
             "local_created_at": "2024-08-29 06:11:34",
             "relatedscripts": {
@@ -170,7 +170,7 @@
             "GreasyFork": "505501",
             "description": "在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件",
             "created_at": "2024-08-28 05:20:14",
-            "code_updated_at": "2024-09-11 11:44:39",
+            "code_updated_at": "2024-09-12 05:56:04",
             "version": "2.2.0.21",
             "local_created_at": "2024-08-29 06:11:33",
             "relatedscripts": {
@@ -191,7 +191,7 @@
             "GreasyFork": "502291",
             "description": "在Github查看仓库和搜索仓库时显示仓库大小",
             "created_at": "2024-08-01 03:43:19",
-            "code_updated_at": "2024-09-11 11:44:40",
+            "code_updated_at": "2024-09-12 05:56:04",
             "version": "0.1.2.55",
             "local_created_at": "2024-08-01 00:53:59",
             "relatedscripts": {
@@ -212,7 +212,7 @@
             "GreasyFork": "505218",
             "description": "仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。",
             "created_at": "2024-08-26 12:30:53",
-            "code_updated_at": "2024-09-11 11:44:40",
+            "code_updated_at": "2024-09-12 05:56:05",
             "version": "1.1.0.22",
             "local_created_at": "2024-08-06 01:28:58",
             "relatedscripts": {
@@ -444,8 +444,8 @@
             "GreasyFork": "506345",
             "description": "当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。",
             "created_at": "2024-09-02 12:36:00",
-            "code_updated_at": "2024-09-11 11:44:41",
-            "version": "1.4.0.1",
+            "code_updated_at": "2024-09-12 07:47:40",
+            "version": "1.5.0.0",
             "local_created_at": "2024-09-02 12:34:55",
             "relatedscripts": {
                 "GreasyFork相关脚本": [
@@ -548,8 +548,8 @@
             "description": "检测 TissAV 状态，并且在未登录时自动登录",
             "isSleazy": true,
             "created_at": "2024-09-03 08:50:59",
-            "code_updated_at": "2024-09-11 11:42:44",
-            "version": "1.0.1.6",
+            "code_updated_at": "2024-09-11 11:44:50",
+            "version": "1.0.1.7",
             "local_created_at": "2024-09-03 08:52:46",
             "relatedscripts": {
                 "成人脚本": [
@@ -569,7 +569,7 @@
             "description": "检测 JableTV 状态，并且在未登录时自动登录",
             "isSleazy": true,
             "created_at": "2024-09-04 13:43:00",
-            "code_updated_at": "2024-09-11 11:44:46",
+            "code_updated_at": "2024-09-11 18:59:53",
             "version": "1.0.0.9",
             "local_created_at": "2024-09-04 13:44:42",
             "relatedscripts": {
@@ -710,8 +710,8 @@
             "GreasyFork": "505208",
             "description": "给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译",
             "created_at": "2024-08-26 11:37:23",
-            "code_updated_at": "2024-09-10 10:39:23",
-            "version": "0.31.0.21",
+            "code_updated_at": "2024-09-11 11:44:50",
+            "version": "0.31.0.22",
             "local_created_at": "2024-07-27 20:58:34",
             "relatedscripts": {
                 "自动翻译": [
