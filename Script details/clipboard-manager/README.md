@@ -22,7 +22,7 @@
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p>66666</p></details> 
+            Fork</a></p><details><summary>更新记录</summary><p>初始版本.</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
@@ -51,5 +51,5 @@
 
 ## 使用帮助
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶x部↑</a></p>
+<a href="#top">回到顶部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
