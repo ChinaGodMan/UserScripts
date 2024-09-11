@@ -2,7 +2,30 @@ import os
 import json
 import re
 import markdown  # 确保导入 markdown 模块
+import subprocess
+import time
 
+
+def is_file_updated_more_than(file_path, timeout_minutes):
+    try:
+        # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ct', file_path],
+            capture_output=True, text=True, check=True
+        )
+        last_commit_time = int(result.stdout.strip())
+
+        # 获取当前时间的 Unix 时间戳
+        current_time = int(time.time())
+
+        # 计算时间差（分钟）
+        time_diff_minutes = (current_time - last_commit_time) / 60
+
+        # 检查文件是否在超时时间之前被更新
+        return time_diff_minutes > timeout_minutes
+    except subprocess.CalledProcessError as e:
+        print(f"错误: 无法获取提交时间 - {file_path}")
+        return None
 # 定义分隔符和 JSON 文件路径
 SEPARATOR = 'https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
 json_file_path = 'docs/ScriptsPath.json'
@@ -36,8 +59,12 @@ for script in data['scripts']:
 
     # 检查 Change history/README.md 文件是否存在并转化为 HTML
     readme_path = os.path.join(backuppath, "Change history", "README.md")
+    
     readme_html = ''
     if os.path.isfile(readme_path):
+        if is_file_updated_more_than(readme_path, 5):
+            print(f"跳过文件 {readme_path}，超过自动触发时间")
+            continue
         readme_html = "<details><summary>更新记录</summary>"+md_to_html(readme_path)+"</details>"
 
     # 检查 preview 图片是否存在

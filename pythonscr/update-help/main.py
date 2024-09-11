@@ -1,5 +1,26 @@
 import os
+import time
+import subprocess
+def is_file_updated_more_than(file_path, timeout_minutes):
+    try:
+        # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ct', file_path],
+            capture_output=True, text=True, check=True
+        )
+        last_commit_time = int(result.stdout.strip())
 
+        # 获取当前时间的 Unix 时间戳
+        current_time = int(time.time())
+
+        # 计算时间差（分钟）
+        time_diff_minutes = (current_time - last_commit_time) / 60
+
+        # 检查文件是否在超时时间之前被更新
+        return time_diff_minutes > timeout_minutes
+    except subprocess.CalledProcessError as e:
+        print(f"错误: 无法获取提交时间 - {file_path}")
+        return None
 # 定义标记和新内容文件的路径
 START_TAG = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->"
 END_TAG = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->"
@@ -53,6 +74,9 @@ def main():
         for file_name in files:
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(root, file_name)
+                if is_file_updated_more_than("pythonscr/update-help/HELP.md", 5):
+                     print(f"跳过文件 ，因为说明帮助文件并没有更新。")
+                     continue
                 if "Change history" in file_path:
                     print(f"\033[91m 文件被跳过 {file_path}\033[0m")
                     continue

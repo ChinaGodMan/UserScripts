@@ -6,6 +6,28 @@ import json
 from urllib.parse import urlencode
 import urllib.parse
 from urllib.request import urlopen
+import time
+import subprocess
+def is_file_updated_more_than(file_path, timeout_minutes):
+    try:
+        # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ct', file_path],
+            capture_output=True, text=True, check=True
+        )
+        last_commit_time = int(result.stdout.strip())
+
+        # 获取当前时间的 Unix 时间戳
+        current_time = int(time.time())
+
+        # 计算时间差（分钟）
+        time_diff_minutes = (current_time - last_commit_time) / 60
+
+        # 检查文件是否在超时时间之前被更新
+        return time_diff_minutes > timeout_minutes
+    except subprocess.CalledProcessError as e:
+        print(f"错误: 无法获取提交时间 - {file_path}")
+        return None
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 # 翻译对照表，替换特定编码内容
@@ -147,6 +169,9 @@ def translate_and_save(lines, chinese_texts, lang, file_path):
 # 翻译并行任务
 def process_file(root, file, lang_code):
     file_path = os.path.join(root, file)
+    if is_file_updated_more_than(file_path, 5):
+        print(f"跳过文件 {file_path}，因为文件在5分钟之内没有更新")
+        return  # 使用 return 结束当前函数的执行，而不是 continue
     print(f"开始处理文件: {file_path}，语言代码: {lang_code}")
     # 读取文件内容
     lines = read_file_to_memory(file_path)

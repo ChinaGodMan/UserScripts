@@ -1,6 +1,27 @@
 import json
 import os
+import time
+import subprocess
+def is_file_updated_more_than(file_path, timeout_minutes):
+    try:
+        # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ct', file_path],
+            capture_output=True, text=True, check=True
+        )
+        last_commit_time = int(result.stdout.strip())
 
+        # 获取当前时间的 Unix 时间戳
+        current_time = int(time.time())
+
+        # 计算时间差（分钟）
+        time_diff_minutes = (current_time - last_commit_time) / 60
+
+        # 检查文件是否在超时时间之前被更新
+        return time_diff_minutes > timeout_minutes
+    except subprocess.CalledProcessError as e:
+        print(f"错误: 无法获取提交时间 - {file_path}")
+        return None
 # 配置标记
 START_TAG = "<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->"
 END_TAG = "<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->"
@@ -92,7 +113,9 @@ def main():
             for file in os.listdir(backuppath):
                 if file.endswith('.md'):
                     file_path = os.path.join(backuppath, file)
-                    
+                    if is_file_updated_more_than("docs/ScriptsPath.json", 5):
+                     print(f"跳过文件 ，因为脚本描述文件并没有更新。")
+                     continue
                     # 针对当前脚本生成描述
                     descriptions = generate_description(script, scripts)
                     
