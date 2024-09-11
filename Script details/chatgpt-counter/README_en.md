@@ -18,7 +18,7 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>ChatGPT character counter</h1>
-    <p>「 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。） 」</p>
+    <p>「 add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
@@ -60,7 +60,7 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller wsucixjv
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
