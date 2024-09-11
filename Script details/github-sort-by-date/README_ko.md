@@ -69,16 +69,16 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## 돕다
 
- 推荐浏览器和脚本管理器：
+ 권장 브라우저 및 스크립트 관리자：
 *   Greasemonkey + Waterfox
 *   Tampermonkey/Violentmonkey + Firefox
 *   Tampermonkey/Violentmonkey + Chrome
 *   Userscripts + ios Safari
 *   Violentmonkey/KiWiBrowser + Android
   
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
+<a href="#top">맨 위로↑</a></p>
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
