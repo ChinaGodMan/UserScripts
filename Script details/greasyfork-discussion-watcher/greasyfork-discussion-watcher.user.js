@@ -76,7 +76,7 @@
 // @description:fr-CA  Lorsqu’il y a une nouvelle réponse à votre script ou à une discussion à laquelle vous participez，Le script affichera le dernier contenu de la discussion dans une fenêtre modale sur la page Web。
 // @description  On GreasyFork, when there are new replies to your scripts or discussions you're involved in, the latest discussion content will be displayed on the webpage.
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 1.3.0.3
+// @version 1.4.0.0
 // @icon           https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://greasyfork.org/*
@@ -85,7 +85,7 @@
 // @grant        GM_registerMenuCommand
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-// @modified        2024-09-07 09:06:49
+// @modified        2024-09-11 07:52:25
 // ==/UserScript==
 (function () {
     'use strict'
@@ -95,6 +95,7 @@
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
         delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
         userId: null,//当前登录id
+        userName: null,
         maxItem: GM_getValue('maxItem', "50"),//访问时显示最大的信息数量
 
     }
@@ -187,9 +188,9 @@
                         var elements = doc.querySelectorAll('.discussion-list > div > div')
                         if (!a) {
                             a = true
-                            discussionList.innerHTML += `<center><h2>${description}</h2></center>`
+                            discussionList.innerHTML += `<center><h5>${description}</h5></center>`
                         } else {
-                            discussionList.innerHTML += `<center><h2><div class="discussion-list-item">${description}</div></h2></center>`
+                            discussionList.innerHTML += `<center><h5><div class="discussion-list-item">${description}</div></h5></center>`
                         }
 
                         elements.forEach(function (element) {
@@ -206,8 +207,8 @@
                             var discussionInfo = {
                                 discussionTitleHref: discussionTitleHref,
                                 relativeTime: latestRelativeTime,
-                                lasteduserName: userLinks.length > 1 ? userLinks[userLinks.length - 1].textContent.trim() : null,//最后的发言人
-                                lastedID: userLinks.length > 1 ? userLinks[userLinks.length - 1].href.match(/\/users\/(\d+)-/)[1] : null//ANCHOR - 获取最后的发言人ID
+                                lasteduserName: userLinks.length > 0 ? userLinks[userLinks.length - 1].textContent.trim() : null,//最后的发言人
+                                lastedID: userLinks.length > 0 ? userLinks[userLinks.length - 1].href.match(/\/users\/(\d+)-/)[1] : null//ANCHOR - 获取最后的发言人ID
                             }
                             if (existingDiscussion) {
                                 existingDiscussion.relativeTime = latestRelativeTime
@@ -215,8 +216,9 @@
                             } else {
                                 discussions.push(discussionInfo)
                             }
-                            if (discussionInfo.lastedID === config.userId) {
-                                console.log("skip ")//NOTE - 最新发言是自己,跳过.
+                            if (discussionInfo.lastedID === config.userId || discussionInfo.lasteduserName === config.userName) {
+                                // 最新发言ID是自己，或用户名是自己，跳过
+                                console.log("skip ")
                                 return
                             }
                             var listItemHTML = '<div class="discussion-list-item">' + element.innerHTML + '</div>'
@@ -260,21 +262,24 @@
         const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
+
             const match = href.match(/\/users\/(\d+)-/)
             if (match) {
                 const userId = match[1]
-                console.log(userId)
-                return userId
+                config.userId = userId
+                const nameMatch = href.match(/\/users\/\d+-([^\/]+)$/)
+                config.userName = nameMatch ? decodeURIComponent(nameMatch[1]) : ''
+                return true
             } else {
                 console.log('放弃操作,无法找到id')
-                return null
+                return false
             }
         } else {
-            return null
+            return false
         }
     }
-    config.userId = getUserId()
-    if (config.userId) {
+
+    if (getUserId()) {
         fetchAndDisplayDiscussions([
             [`https://greasyfork.org/discussions?user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
             [`https://greasyfork.org/discussions?me=script&per_page=${config.maxItem}`, "Scripts Discussions"]
