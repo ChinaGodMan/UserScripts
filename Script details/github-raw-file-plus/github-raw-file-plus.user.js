@@ -76,10 +76,11 @@
 // @description:fr-CA Ajouter un bouton à la fin de chaque ligne de fichier，pour copier le fichier original URL et télécharger des fichiers
 // @description  Add buttons at the end of each file line to copy the raw file URL and download the file
 // @namespace               https://github.com/ChinaGodMan/UserScripts
-// @version 2.2.0.20
+// @version 2.2.0.21
 // @author       	Kamikaze (https://github.com/Kamiikaze) ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        	https://github.com/*
-// @icon         		https://github.githubassets.com/pinned-octocat.svg
+// @icon         		data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADY0lEQVR42q1XTUwTURDek3pQEw+7/dmlqbSlaFFBiZgQA0JEDwjIBTwT4pF4RgxyQsSgQOGCBzApBsQTJnjgxxCinrDeeoDYlDSpJEArxLb8jO9LKKnt27K0+yWTwM68mXkz82amgla4XK5TJkm6Z5Qkt1EU5xn5DJL0B4S/8Q08yEBW0AtWUTQyxcMGUQwzIo0UxhmcFbKF3W4/zZR0mQyGHSjNhnAWOqArm1t/gxI9CLo0R0ORpKssnwEc1JOgE7qPvTnHuK5OwIZqzlPDfru8nB63ttIlp/PExgrsdmptaaG71dVp6eDWBIolVcm7sTEC9vb2yOPx0JWiIsL3/IsXqbKighrq6uhhfT3dqawkh81G4BUWFNDbkRGKx+MEfJqe5tVEV1roedW+vLxMydjZ3iafz0cHBwfEw8rKCm1tbVEy/H4/93X8lwq8WV4YvV4v5Yq1tTW1lzF81OHUmszkxATlitnZWdVmBdsCWidPIN9qpUAgQLliY2ODLhcWcp2AbYTfzWMODgyQXhj3eNTS4BYwRHjM1dVV0gvhcJjrAGzDAR8v/HrjRkkJzwGfgHGayrhZWkp6435NTZoDsI0aSHv/NtZodAYuxauBHTjg5+VnfX2d9EI0GiWLovAc+AUHvvMc+DA5SXphfm5OdUwLJlF8w2MiZ3rhUXMz1wHYRiNq5DFBQ2435Yr34+Okph+2BafTeY79E1EJEb3o7qbd3V06KTCwcAGz0ajmQMQlimcTw2gwwXjW0UEfp6YwYo+ErxcX08ueHvqysECbm5ukhkgkQouLi/S6r49ulZVlXk4MhgEhAUUU7cyJGBhOh4NgCKO3uqoq7eCD2lrVcdzY0KB1R4zmSZItdSF5nhCw5+dTMBhEO04bJJ9nZkgNS0tLWh3o5K5krDN5E0JP2toI+B0K0fDQED1tbydsSLFYjFSA9BxrHDZU13Sz2ZzHhIIQRPFglp8UssmUyYEgbAiZIEvStWQnmpuaCNU8NjpKr3p7aX9/nzIgU9UHoVvQAlmWFRaqHzxFWDYzAPseL+w/2c0t2fw060TFJitDX88EJp9cbDFGXVar9YyQLfBc2Jvtxw4nm81/WQQGiegroxCj+CGFDr/158lyBGMW246iKA5BL6BrWSyWC1rSx6J3Xqvef4nmwJHOHrGpAAAAAElFTkSuQmCC
+// @iconbak https://github.githubassets.com/pinned-octocat.svg
 // @run-at       	document-ready
 // @license      	MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues

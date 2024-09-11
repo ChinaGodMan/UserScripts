@@ -75,7 +75,7 @@
 // @name:fr-CA        Épingler sur les boutons du haut et du bas
 // @description:fr-CA Générez deux boutons sur toutes les pages，Un pour lisser vers le haut，Un pour un défilement continu vers le bas，Cliquez à nouveau pour annuler le défilement vers le bas
 // @description Generate two buttons on all pages, one for smoothly scrolling back to the top and one for continuous scrolling to the bottom. Click again to stop scrolling to the bottom.
-// @version 1.2.0.70
+// @version 1.2.0.71
 // @run-at      document-end
 // @match       *://*/*
 // @license     MIT
@@ -83,7 +83,8 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @namespace   https://greasyfork.org/zh-CN/users/1169082
-// @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-up-96.png
+// @icon          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVR4nO3ZXUsUURwG8P0ACYoXoWheRYi9kG3zQAR9RjW6cAV3LyKKIMKKunHTnNFdtTNW0CewFCIyqjsxTmovYO7O7nnd//PAAdmLceb57f/M7G6pxDAMwzAR5eLj1bOXXyxtlZfW98vL6/v6b/2a7/MSkfGHT8Ym62vfkOUHf6/JeuPH+MLCed/nJ7J8EMF/+SCC//JBBP/lgwj+ywcRus+lZ/WRq4ur3zst/3jpY0zcez5q4JTk5OarNwPXXjZ3uy3/eE08Xdw9d+fugO/riiJX6qofWd40Vb5e5eX1g6FKTQ3XaoO+r09c+dArVQfDlRoRWm07SNWG8fKPlgY4WhvcjhyXj38BiOBk28lOBeB25LJ8nAAgHsFl+fgPgFgE1+XjFABxCD7KRwsAMQi+ykcbAD2P4LN8tAnQswi+y0cBgJ5DCKF8FAToGYRQykcHANEjhFQ+OgSIFiG08tEFQHQIIZaPLgGiQQi1fBgACB4h5PJhCCBYhNDLh0GA4BBiKB+GAYJBiKV8WADwjmCz/CRTry0ANHsG4cbK+74kVZtW3q2p2vj1G7Hh4+of4vUP8jYQhivVzcG5uT5nAMjy2zbLLx3+D6PH1se0ijBbm3EGkKRqx8a2c73R+D3KNgB0xubn+61sR7PVHWcASNVHm+XbBLCFMDRb2y65CtJ8xsa24wrgz3ZU3TR4H5guRXcTTk8u3wWAWQTHN2ETj6EnbTuuAUxsR1F+FmhVvkuAbhCC+TScpHnDZPmuATpBCKL8ogjtlu8DoAhCUOW3i1CkfF8A7SAEWX4rhKLl+wQ4DSHo8o9zq/7uTJKq6STLtw+XmtKvFT0OPALo6MdK/fXCUKX6QS/9nO/8UdNn4BlAfEAAvwEBCCA64AQQQHTACSCA6IATQADRASeAAKIDTgABRAecAAKIDjgBBBAdcAIIIDrgBBBAdMAJIIDogBNAANEBJ4AAogNOAAFEB5wAAogOOAEEEB1wAgggOuAEEEB0wAnwmyRTX40hpPkXz5cTX5Dlj0wBJGl+3/f1RJfyytaFJFOfu3/3q0/J2taI7+uJMuXm21Fk+QOk+V4H286efuezfIZhGKYUaH4C72t5mm5DSxAAAAAASUVORK5CYII=
+// @iconbak https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-up-96.png
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // ==/UserScript==

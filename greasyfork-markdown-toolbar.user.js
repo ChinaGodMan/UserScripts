@@ -88,7 +88,7 @@
 // @include           https://greasyfork.org/*/users/edit
 // @grant             GM_addStyle
 // @run-at            document-start
-// @version 2.0.4.22
+// @version 2.0.4.23
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAQAAADgMuRfAAABWklEQVR4Ae3YJQIUYRxA8R8OESs4BXcOsHXqngDnFtglKFjEqVOwjtNxd3f547Duux/2Xhx7Y98ITLbHdZHA6/aYDLM9EAl9YB77RWIP8Vgk9hkhvaKp/yP+R5SyXdRxl1KipqV0ETHGGVHDM8YMLoKZHogKH5jJICPIRIUZg45giyhxCykihsnFd3PD0kQwzkUhXDGOVBEs9+azy0kZwZrPShFRf7MrBxfx0hK1WOLl4CLCReNqX6Z1NrFeM9a3HxFyleSibsQbBY0oeNNJRNiolI1NDvZd09Rjmruis4j3Mj/IvG8SEc4boxZjnBedRZQ+sqZ50NJld0gt9otuIsJJIz97suVrf6NKNopuI8L2z7ZzAxaVUhRdR3Qw3zML/WChZ2kiwkUTwUQXRaqIcNzIzx4RKSPC1s/+ia/8/yP+R/wmP0kOicQeYl76H2cw2X63RAJv2W8ynwCwbA7V/z22eQAAAABJRU5ErkJggg==
 // @iconbak https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
