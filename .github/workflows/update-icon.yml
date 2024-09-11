@@ -1,4 +1,4 @@
-name: Github 更新小徽章
+name: update-shields
 
 on:
 #  schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
-  update-icon:
+  update-shields:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
