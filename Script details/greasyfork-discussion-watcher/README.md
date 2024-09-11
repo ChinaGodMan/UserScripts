@@ -23,6 +23,9 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
+<h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
+<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户ID失败时,匹配最后发言人.</p>
+<hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>改进</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>
 <hr />
