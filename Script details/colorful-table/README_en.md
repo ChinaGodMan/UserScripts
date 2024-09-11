@@ -17,14 +17,14 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>Beautify web forms with gorgeous gradients</h1>
-    <p>「 Automatically apply color gradient beautification to all columns of tables on web pages. 」</p>
+    <h1>绚丽渐变美化网页表格</h1>
+    <p>「 自动为网页上的表格所有列应用颜色渐变美化. 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Beautify web forms with gorgeous gradients Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 绚丽渐变美化网页表格 更新日志</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
-<p><strong>Revise</strong>: Change to automatic gradient color。</p>
+<p><strong>修改</strong>: 修改为自动渐变色。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
 </div></center>
@@ -71,19 +71,19 @@ This script is suitable for any webpage containing tables, automatically applyin
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### Web related scripts
-> - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
-> - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
-> - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> ### 网页相关脚本
+> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

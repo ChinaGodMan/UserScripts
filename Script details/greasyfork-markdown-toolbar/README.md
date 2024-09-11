@@ -25,7 +25,7 @@
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
 <p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
-- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code>。</p>
+- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>

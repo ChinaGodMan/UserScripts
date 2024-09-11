@@ -17,18 +17,18 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>Google Advanced search</h1>
-    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。 」</p>
+    <h1>Google 高级搜索</h1>
+    <p>「 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Google Advanced search Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Google 高级搜索 更新日志</strong></h1>
 <h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
-<p><strong>New</strong>: Add script icon</p>
+<p><strong>新增</strong>: 增加脚本图标</p>
 <hr />
 <h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
-<p><strong>issues</strong>: Advanced search box cannot be displayed on mobile devices。<br />
-<strong>repair</strong>: The code below is only PC Effective on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
+<strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
@@ -85,16 +85,16 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GoogleRelated scripts
-> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。
-> - [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
+> ### Google相关脚本
+> - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
+> - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

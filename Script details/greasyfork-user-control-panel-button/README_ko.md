@@ -17,8 +17,8 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GreasyFork 탐색 표시줄 개선</h1>
-    <p>「 향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등 」</p>
+    <h1>GreasyFork 导航栏增强</h1>
+    <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
@@ -69,23 +69,23 @@
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GreasyFork관련 스크립트
-> - [**GreasyFork향상에 적합**](https://greasyfork.org/scripts/497317): 스크립트 세부정보 페이지가 추가되어 링크 추가에 적합합니다. 클릭하면 웹페이지가 열립니다.，웹페이지 복사,타이어 검색
-> - [**GreaysFork 향상시키다 WebHook동기화 설정**](https://greasyfork.org/scripts/506717): 이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，형식 도움말 링크를 추가하고 Markdown 툴바 소개
-> - [**GreasyFork 스크립트 등급 표시**](https://greasyfork.org/scripts/501119): 스크립트 목록에 평가 점수 추가
-> - [**GreasyFork 고급 검색**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색 GreasyFork 그리고 SleazyFork 상적 각본 
-> - [**GreasyFork 네비게이션 바향상시키다**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,사용자 목록 추가,사용자 콘솔 등
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동
-> - [**Greasyfork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
-> - [**Script Finder그리스 원숭이 스크립트 찾기**](https://greasyfork.org/scripts/498904): Script Finder 사용자 스크립트입니다（userscript），모든 웹사이트에서 사용자 스크립트를 찾고 관리하는 데 도움이 됩니다.
+> ### GreasyFork相关脚本
+> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
+> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
+> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
+> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
+> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
+> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
+> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 돕다
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#top">맨 위로 돌아가기x부서↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

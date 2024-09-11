@@ -17,14 +17,14 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>ChatGPT character counter</h1>
-    <p>「 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。） 」</p>
+    <h1>ChatGPT 字符计数器</h1>
+    <p>「 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT character counter Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 字符计数器 更新日志</strong></h1>
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
-<p><strong>repair</strong>: The counter cannot be displayed when opening a new chat or switching chats，And the problem of the counter not clearing after sending。</p>
+<p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
@@ -58,17 +58,17 @@ Modified from the script [ChatGPT Character Counter Limit (CCCL)](https://greasy
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### ChatGPTRelated scripts
-> - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller wsucixjv
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
-> - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
+> ### ChatGPT相关脚本
+> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小 wsucixjv
+> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

@@ -27,7 +27,7 @@
 <p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮。</p>
 <hr />
 <h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
-<p><strong>修复</strong>: 替换失效的选择器。</p>
+<p><strong>修复</strong>: 替换失效的选择器</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>

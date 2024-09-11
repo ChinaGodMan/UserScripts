@@ -17,14 +17,14 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GitHubDownload single files and copy filesURL</h1>
-    <p>「 Add button at the end of each file line，to copy the original file URL and download files 」</p>
+    <h1>GitHub下载单文件和复制文件URL</h1>
+    <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHubDownload single files and copy filesURL Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 05:09 - Ver 2.2</strong></h3>
-<p><strong>New</strong>: Add download function。</p>
+<p><strong>新增</strong>: 增加下载功能。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </div></center>
@@ -80,19 +80,19 @@ The script is modified from user **[Kamikaze](https://greasyfork.org/zh-CN/users
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GitHubRelated scripts
-> - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
-> - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
+> ### GitHub相关脚本
+> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> - [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

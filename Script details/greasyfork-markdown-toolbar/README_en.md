@@ -18,14 +18,14 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
-    <p>「 Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction 」</p>
+    <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
-<p><strong>Revise</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
-- <code>DOMContentLoaded</code> Sometimes conflicts with other scripts，Cause monitoring to fail。changed to <code>load</code>。</p>
+<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
+- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
@@ -72,23 +72,23 @@ If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](http
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GreasyForkRelated scripts
-> - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for adding links. Click to open the web page.，Copy web page,tire search
-> - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
-> - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
-> - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
-> - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
-> - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
-> - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
+> ### GreasyFork相关脚本
+> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
+> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
+> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
+> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
+> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
+> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
+> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

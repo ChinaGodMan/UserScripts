@@ -17,14 +17,14 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>JableTVAutomatic login</h1>
-    <p>「 Detection JableTV state，and automatically log in when not logged in 」</p>
+    <h1>JableTV自动登录</h1>
+    <p>「 检测 JableTV 状态，并且在未登录时自动登录 」</p>
     <img src="https://views.whatilearened.today/views/github/506730/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ JableTVAutomatic login  Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ JableTV自动登录  更新日志</strong></h1>
 <h3><strong>📅 2024/9/4 13:41 - Ver 1.0.0.0</strong></h3>
-<p><strong>initial version</strong>: • Welcome。</p>
+<p><strong>初始版本</strong>: • 欢迎使用。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png">
 </div></center>
@@ -61,18 +61,18 @@ This script is used for managing user accounts on JableTV . It provides function
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### adult script
-> - [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
-> - [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
-> - [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
-> - [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
+> ### 成人脚本
+> - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
+> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
+> - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
+> - [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

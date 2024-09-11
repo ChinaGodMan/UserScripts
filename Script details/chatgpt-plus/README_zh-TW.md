@@ -17,8 +17,8 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>ChatGPT 折疊自己訊息和最大寬度</h1>
-    <p>「 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。 」</p>
+    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
+    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
@@ -64,17 +64,17 @@
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### ChatGPT相關腳本
-> - [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼字體變小 wsucixjv
-> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 个字符。）
-> - [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
+> ### ChatGPT相关脚本
+> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小 wsucixjv
+> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用幫助
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
-<a href="#top">回到頂x部↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->

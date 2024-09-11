@@ -17,27 +17,27 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>githubShow warehouse size</h1>
-    <p>「 existGithubShow warehouse size when viewing and searching warehouses 」</p>
+    <h1>github显示仓库大小</h1>
+    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
+<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
-<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
+<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
+<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
@@ -111,19 +111,19 @@ Fixed the issue of not displaying when viewing other warehouses (increased delay
 The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/users/1010122)**'s script [Github Repo Size](https://greasyfork.org/scripts/458048) Thanks to the original The **hard work** and **wisdom** of the author **mshll**
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GitHubRelated scripts
-> - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
-> - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
+> ### GitHub相关脚本
+> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> - [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">Back to topxdepartment↑</a></p>
+## 使用帮助
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶x部↑</a></p>
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
