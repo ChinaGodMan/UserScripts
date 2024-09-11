@@ -638,8 +638,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-10 10:39:14</sub></td>
-             <td><sub>1.3.0.3</sub></td>
+            <td><sub>2024-09-11 08:01:21</sub></td>
+             <td><sub>1.4.0.0</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -1025,7 +1025,7 @@ To use any script，First you need to install the browser **Tampermonkey  Script
 > 
 > - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
+> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
