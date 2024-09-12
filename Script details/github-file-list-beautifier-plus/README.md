@@ -21,7 +21,7 @@
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508047">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 文件列表美化器 更新日志</strong></h1>
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
 <p><strong>新增</strong>: 增加了对文件增加图标,增加了自定义文件颜色。</p>
 <hr /></details> 
