@@ -56,7 +56,9 @@
 - **谷歌搜索语法**：您可以使用谷歌支持的高级搜索操作符和语法来优化您的搜索查询。这包括排除特定类型的页面以及将搜索范围限制在 GreasyFork 的脚本页面内。
 - **准确且全面的结果**：通过利用谷歌搜索的强大功能，您可以获得更准确和广泛的搜索结果，从而提高找到所需脚本的几率。
 - **易于使用**：此用户脚本无缝集成到 [GreasyFork.org](https://greasyfork.org/)   [SleazyFork.org](https://sleazyfork.org/) 网站，增强了现有搜索输入框的功能。您只需在查询前输入 "g "（例如，"g 脚本名称"）即可启动谷歌搜索。
+
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+
 > ### GreasyFork相关脚本
 > - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
 > - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
@@ -69,6 +71,7 @@
 > - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 兼容性
