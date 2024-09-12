@@ -72,9 +72,6 @@ GitHub 文件夹下载器为 GitHub 文件夹添加了一个下载按钮，使�
 ![2.png](https://s2.loli.net/2024/08/28/i3Ov9gj5aKIYSVR.png)
 ![1.png](https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png)
 
-
-
-
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

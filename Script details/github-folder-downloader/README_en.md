@@ -63,9 +63,6 @@ Modified from the script [GitHub artspiecesfolderDownload](https://greasyfork.or
 ![2.png](https://s2.loli.net/2024/08/28/i3Ov9gj5aKIYSVR.png)
 ![1.png](https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png)
 
-
-
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 > ### GitHubRelated scripts
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
