@@ -29,7 +29,6 @@
 </div></center>
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 
-
 # GitHub File list beautifier
 
 ## Introduction
