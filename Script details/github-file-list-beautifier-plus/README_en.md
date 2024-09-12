@@ -151,6 +151,9 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 - Reason for the script [wOxxOm](https://greasyfork.org/zh-CN/users/2159) [GitHub file list beautifier](https://greasyfork.org/zh-CN/scripts/5982) and 人民的勤务员 develop。
 - For more information please visit [GitHub Project homepage](https://github.com/ChinaGodMan/UserScripts)。
 
+![image](https://i.imgur.com/UuTzStC.png)
+![dark](https://i.imgur.com/odYikhU.png)
+![Snipaste_2024-09-12_12-03-25.png](https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 

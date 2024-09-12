@@ -27,7 +27,7 @@ let customColors = GM_getValue("fileTypesColors", {})
 if (Object.keys(customColors).length === 0) {
     GM_xmlhttpRequest({
         method: 'GET',
-        url: 'https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-file-list-beautifier/colors.json',
+        url: 'https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-file-list-beautifier-plus/colors.json',
 
         onload: function (response) {
             try {

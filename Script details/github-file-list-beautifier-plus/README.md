@@ -151,6 +151,9 @@ GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库�
 - 本脚本由 [wOxxOm](https://greasyfork.org/zh-CN/users/2159) [GitHub file list beautifier](https://greasyfork.org/zh-CN/scripts/5982) 和 人民的勤务员 开发。
 - 更多信息请访问 [GitHub 项目主页](https://github.com/ChinaGodMan/UserScripts)。
 
+![image](https://i.imgur.com/UuTzStC.png)
+![dark](https://i.imgur.com/odYikhU.png)
+![Snipaste_2024-09-12_12-03-25.png](https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png)
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
