@@ -142,6 +142,28 @@
             }
         },
         {
+            "name": "GitHub 文件列表美化器",
+            "path": "github-file-list-beautifier-plus.user.js",
+            "isUpdated": true,
+            "backuppath": "Script details/github-file-list-beautifier-plus",
+            "GreasyFork": "508047",
+            "description": "GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。",
+            "created_at": "2024-08-30 10:13:44",
+            "code_updated_at": "2024-09-12 05:56:03",
+            "version": "1.0.0.18",
+            "local_created_at": "2024-9-12 10:39:51",
+            "relatedscripts": {
+                "GitHub相关脚本": [
+                    505830,
+                    505496,
+                    505501,
+                    502291,
+                    505218,
+                    508047
+                ]
+            }
+        },
+        {
             "name": "GitHub文件夹下载",
             "path": "github-folder-downloader.user.js",
             "isUpdated": true,
@@ -158,7 +180,8 @@
                     505496,
                     505501,
                     502291,
-                    505218
+                    505218,
+                    508047
                 ]
             }
         },
@@ -179,7 +202,8 @@
                     505496,
                     505501,
                     502291,
-                    505218
+                    505218,
+                    508047
                 ]
             }
         },
@@ -200,7 +224,8 @@
                     505496,
                     505501,
                     502291,
-                    505218
+                    505218,
+                    508047
                 ]
             }
         },
@@ -221,7 +246,8 @@
                     505496,
                     505501,
                     502291,
-                    505218
+                    505218,
+                    508047
                 ]
             }
         },

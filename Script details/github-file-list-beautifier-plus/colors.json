@@ -1,0 +1,194 @@
+{
+    "js": {
+        "color": "#f1c40f",
+        "icon": "javascript"
+    },
+    "LICENSE": {
+        "color": "red",
+        "icon": "javascript"
+    },
+    "jsx": {
+        "color": "#f1c40f",
+        "icon": "javascript"
+    },
+    "ts": {
+        "color": "#007acc",
+        "icon": "typescript"
+    },
+    "tsx": {
+        "color": "#007acc",
+        "icon": "typescript"
+    },
+    "css": {
+        "color": "#e67e22",
+        "icon": "css"
+    },
+    "html": {
+        "color": "#3498db",
+        "icon": "html"
+    },
+    "md": {
+        "color": "#6e5494",
+        "icon": "markdown"
+    },
+    "json": {
+        "color": "#e44b23",
+        "icon": "json"
+    },
+    "xml": {
+        "color": "#e44b23",
+        "icon": "xml"
+    },
+    "yml": {
+        "color": "#e44b23",
+        "icon": "yaml"
+    },
+    "py": {
+        "color": "#3572a5",
+        "icon": "python"
+    },
+    "java": {
+        "color": "#b07219",
+        "icon": "java"
+    },
+    "c": {
+        "color": "#555555",
+        "icon": "c"
+    },
+    "cpp": {
+        "color": "#f34b7d",
+        "icon": "cpp"
+    },
+    "h": {
+        "color": "#f34b7d",
+        "icon": "h"
+    },
+    "go": {
+        "color": "#00add8",
+        "icon": "go"
+    },
+    "rb": {
+        "color": "#701516",
+        "icon": "ruby"
+    },
+    "php": {
+        "color": "#4f5d95",
+        "icon": "php"
+    },
+    "swift": {
+        "color": "#ffac45",
+        "icon": "swift"
+    },
+    "pl": {
+        "color": "#0298c3",
+        "icon": "pl"
+    },
+    "sh": {
+        "color": "#89e051",
+        "icon": "https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Shell.svgl"
+    },
+    "bat": {
+        "color": "#4eaa25",
+        "icon": "https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CMD.png"
+    },
+    "ps1": {
+        "color": "#012456",
+        "icon": "powershell"
+    },
+    "jpg": {
+        "color": "#c82333",
+        "icon": "image"
+    },
+    "jpeg": {
+        "color": "#c82333",
+        "icon": "image"
+    },
+    "png": {
+        "color": "#36a1e3",
+        "icon": "image"
+    },
+    "gif": {
+        "color": "#e9b450",
+        "icon": "image"
+    },
+    "svg": {
+        "color": "#e15b36",
+        "icon": "svg"
+    },
+    "ico": {
+        "color": "#d9534f",
+        "icon": "favicon"
+    },
+    "webp": {
+        "color": "#a64c8c",
+        "icon": "image"
+    },
+    "cur": {
+        "color": "#d9534f",
+        "icon": "image"
+    },
+    "bmp": {
+        "color": "#c82333",
+        "icon": "image"
+    },
+    "ttf": {
+        "color": "#f39c12",
+        "icon": "'https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/TrueType.png"
+    },
+    "exe": {
+        "color": "#f39c12",
+        "icon": "exe"
+    },
+    "dll": {
+        "color": "#f39c12",
+        "icon": "dll"
+    },
+    "apk": {
+        "color": "#4caf50",
+        "icon": "android"
+    },
+    "img": {
+        "color": "#ff5722",
+        "icon": "image"
+    },
+    "doc": {
+        "color": "#2e77c0",
+        "icon": "document"
+    },
+    "zip": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "rar": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "7z": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "tar": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "gz": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "bz2": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "xz": {
+        "color": "#9b59b6",
+        "icon": "zip"
+    },
+    "log": {
+        "color": "#7f8c8d",
+        "icon": "log"
+    },
+    "yaml": {
+        "color": "#e44b23",
+        "icon": "yaml"
+    }
+}
