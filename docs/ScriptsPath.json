@@ -149,7 +149,7 @@
             "GreasyFork": "508047",
             "description": "GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。",
             "created_at": "2024-09-12 11:56:17",
-            "code_updated_at": "2024-09-12 11:56:17",
+            "code_updated_at": "2024-09-12 12:16:49",
             "version": "4.1.0.0",
             "local_created_at": "2024-9-12 10:39:51",
             "relatedscripts": {
