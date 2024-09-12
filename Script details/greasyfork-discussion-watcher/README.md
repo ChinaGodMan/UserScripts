@@ -24,7 +24,7 @@
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/256742">#256742</a>GreasyFork已经逐步支持站内通知,脚本将失去存在的意义.</p>
+<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork已经逐步支持站内通知,脚本将失去存在的意义.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
 <p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户ID失败时,匹配最后发言人.</p>
