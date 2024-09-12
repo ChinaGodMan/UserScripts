@@ -1,74 +1,74 @@
-// @name:zh-CN 绚丽渐变美化网页表格
-// @description:zh-CN  自动为表格所有列应用颜色渐变来美化
-// @name:ar تجميل نماذج الويب بتدرجات رائعة
-// @description:ar  تطبيق التدرجات اللونية تلقائيًا على كافة أعمدة الجدول لتجميله
-// @name:bg Разкрасете уеб формуляри с великолепни градиенти
-// @description:bg  Автоматично прилагайте цветови градиенти към всички колони на таблицата, за да я разкрасите
-// @name:cs Zkrášlete webové formuláře nádhernými přechody
-// @description:cs  Automaticky aplikujte barevné přechody na všechny sloupce tabulky, abyste ji zkrášlili
-// @name:da Forskønne webformularer med smukke gradienter
-// @description:da  Anvend automatisk farvegradienter til alle kolonner i tabellen for at forskønne den
-// @name:de Verschönern Sie Webformulare mit wunderschönen Farbverläufen
-// @description:de  Wenden Sie automatisch Farbverläufe auf alle Spalten der Tabelle an, um diese zu verschönern
-// @name:el Ομορφύνετε φόρμες ιστού με υπέροχες διαβαθμίσεις
-// @description:el  Εφαρμόστε αυτόματα διαβαθμίσεις χρώματος σε όλες τις στήλες του πίνακα για να τον ομορφύνετε
-// @name:en Beautify web forms with gorgeous gradients
-// @description:en  Automatically apply color gradients to all columns of the table to beautify it
-// @name:eo Beligu TTT-formojn per belegaj gradientoj
-// @description:eo  Aŭtomate apliku kolorgradientojn al ĉiuj kolumnoj de la tabelo por plibeligi ĝin
-// @name:es Embellezca los formularios web con magníficos degradados
-// @description:es  Aplique automáticamente degradados de color a todas las columnas de la tabla para embellecerla
-// @name:fi Kaunista verkkolomakkeita upeilla liukuväreillä
-// @description:fi  Käytä värigradientteja automaattisesti kaikkiin taulukon sarakkeisiin kaunistaaksesi sitä
-// @name:fr Embellissez les formulaires Web avec de superbes dégradés
-// @description:fr  Appliquez automatiquement des dégradés de couleurs à toutes les colonnes du tableau pour l’embellir
-// @name:he יפות טפסי אינטרנט עם מעברי צבע מדהימים
-// @description:he  החל באופן אוטומטי מעברי צבע על כל העמודות של הטבלה כדי לייפות אותה
-// @name:hr Uljepšajte web obrasce prekrasnim gradijentima
-// @description:hr  Automatski primijenite prijelaze boja na sve stupce tablice kako biste je uljepšali
-// @name:hu Szépítse a webes űrlapokat gyönyörű színátmenetekkel
-// @description:hu  Automatikusan alkalmazza a színátmeneteket a táblázat összes oszlopára a szebbé tétel érdekében
-// @name:id Percantik formulir web dengan gradien menawan
-// @description:id  Terapkan gradien warna secara otomatis ke semua kolom tabel untuk mempercantiknya
-// @name:it Abbellisci i moduli web con splendidi gradienti
-// @description:it  Applica automaticamente sfumature di colore a tutte le colonne della tabella per abbellirla
-// @name:ja ゴージャスなグラデーションで Web フォームを美しくする
-// @description:ja  表のすべての列に色のグラデーションを自動的に適用して、表を美しくします。
-// @name:ka გაალამაზეთ ვებ ფორმები მშვენიერი გრადიენტებით
-// @description:ka  ავტომატურად გამოიყენეთ ფერის გრადიენტები ცხრილის ყველა სვეტზე მის გასალამაზებლად
-// @name:ko 화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요
-// @description:ko  테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
-// @name:nl Verfraai webformulieren met prachtige verlopen
-// @description:nl  Pas automatisch kleurovergangen toe op alle kolommen van de tabel om deze te verfraaien
-// @name:nb Forskjønn nettskjemaer med nydelige gradienter
-// @description:nb  Bruk fargegradienter automatisk på alle kolonnene i tabellen for å forskjønne den
-// @name:pl Upiększ formularze internetowe wspaniałymi gradientami
-// @description:pl  Automatycznie zastosuj gradienty kolorów do wszystkich kolumn tabeli, aby ją upiększyć
-// @name:pt-BR Embeleze formulários da web com lindos gradientes
-// @description:pt-BR  Aplique automaticamente gradientes de cores a todas as colunas da tabela para embelezá-la
-// @name:ro Înfrumusețați formularele web cu degrade superbe
-// @description:ro  Aplicați automat degrade de culoare tuturor coloanelor tabelului pentru a-l înfrumuseța
-// @name:ru Украсьте веб-формы великолепными градиентами
-// @description:ru  Автоматически применяйте цветовые градиенты ко всем столбцам таблицы, чтобы украсить ее.
-// @name:sk Skrášlite webové formuláre nádhernými prechodmi
-// @description:sk  Automaticky aplikujte farebné prechody na všetky stĺpce tabuľky, aby ste ju skrášlili
-// @name:sr Улепшајте веб форме прекрасним градијентима
-// @description:sr  Аутоматски примените градијенте боја на све колоне табеле да бисте је улепшали
-// @name:sv Försköna webbformulär med underbara gradienter
-// @description:sv  Använd automatiskt färggradienter på alla kolumner i tabellen för att försköna den
-// @name:th ตกแต่งเว็บฟอร์มด้วยการไล่ระดับสีที่งดงาม
-// @description:th  ใช้การไล่ระดับสีกับคอลัมน์ทั้งหมดของตารางโดยอัตโนมัติเพื่อตกแต่งให้สวยงาม
-// @name:tr Web formlarını muhteşem degradelerle güzelleştirin
-// @description:tr  Tabloyu güzelleştirmek için tablonun tüm sütunlarına otomatik olarak renk geçişleri uygulayın
-// @name:ug ئېسىل رېشاتكىلار بىلەن تور شەكىللىرىنى گۈزەللەشتۈرۈڭ
-// @description:ug  ئۇنى گۈزەللەشتۈرۈش ئۈچۈن جەدۋەلنىڭ بارلىق ئىستونلىرىغا ئاپتوماتىك گىرىم بويۇملىرىنى ئاپتوماتىك ئىشلىتىڭ
-// @name:uk Прикрашайте веб-форми чудовими градієнтами
-// @description:uk  Автоматично застосовуйте градієнти кольорів до всіх стовпців таблиці, щоб прикрасити її
-// @name:vi Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp
-// @description:vi  Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
-// @name:zh-TW 絢麗漸層美化網頁表格
-// @description:zh-TW  自動為表格所有欄位套用色彩漸層來美化
-// @name:zh-HK 絢麗漸層美化網頁表格
-// @description:zh-HK  自動為表格所有欄位套用色彩漸層來美化
-// @name:fr-CA Embellissez les formulaires Web avec de superbes dégradés
-// @description:fr-CA  Appliquez automatiquement des dégradés de couleurs à toutes les colonnes du tableau pour l’embellir
+// @name:zh-CN GitHub 文件列表美化器
+// @description:zh-CN  GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。按类型为文件添加颜色和图标，在存储库源树中显示小图像以代替文件类型图标      
+// @name:ar GitHub تجميل قائمة الملفات
+// @description:ar  GitHub File List Beautifier هو برنامج نصي للمستخدم，تستخدم لتعزيز GitHub عرض تأثير الملفات في المستودع。يمكنه إضافة الألوان إلى الملفات والمجلدات，واستبدل أيقونات نوع الملف بصور صغيرة，يجعل قاعدة التعليمات البرمجية أسهل في التصفح والإدارة。إضافة الألوان والأيقونات إلى الملفات حسب النوع，عرض صور صغيرة بدلاً من أيقونات نوع الملف في شجرة مصدر المستودع      
+// @name:bg GitHub Разкрасител на списък с файлове
+// @description:bg  GitHub File List Beautifier е потребителски скрипт，използвани за подобряване GitHub Показване на ефекта на файловете в склада。Може да добавя цветове към файлове и папки，и заменете иконите за типове файлове с малки изображения，Прави кодовата база по-лесна за разглеждане и управление。Добавете цветове и икони към файлове по тип，Показване на малки изображения на мястото на иконите за типове файлове в дървото на източника на хранилището      
+// @name:cs GitHub Zkrášlovač seznamu souborů
+// @description:cs  GitHub File List Beautifier je uživatelský skript，slouží k vylepšení GitHub Zobrazení efektu souborů ve skladu。Může přidat barvy do souborů a složek，a nahraďte ikony typů souborů malými obrázky，Usnadňuje procházení a správu kódové základny。Přidejte barvy a ikony do souborů podle typu，Zobrazte malé obrázky místo ikon typů souborů ve zdrojovém stromu úložiště      
+// @name:da GitHub Filliste forskønner
+// @description:da  GitHub File List Beautifier er et brugerscript，bruges til at forbedre GitHub Vis effekt af filer på lager。Det kan tilføje farver til filer og mapper，og udskift filtypeikonerne med små billeder，Gør kodebasen nemmere at gennemse og administrere。Tilføj farver og ikoner til filer efter type，Vis små billeder i stedet for filtypeikoner i lagerkildetræet      
+// @name:de GitHub Dateilisten-Verschönerer
+// @description:de  GitHub File List Beautifier ist ein Benutzerskript，zur Verstärkung verwendet GitHub Anzeigeeffekt von Dateien im Lager。Es kann Dateien und Ordnern Farben hinzufügen，und ersetzen Sie die Dateitypsymbole durch kleine Bilder，Erleichtert das Durchsuchen und Verwalten der Codebasis。Fügen Sie Dateien nach Typ Farben und Symbole hinzu，Zeigen Sie kleine Bilder anstelle von Dateitypsymbolen im Repository-Quellbaum an      
+// @name:el GitHub Διακοσμητικό λίστας αρχείων
+// @description:el  GitHub Το File List Beautifier είναι ένα σενάριο χρήστη，χρησιμοποιείται για ενίσχυση GitHub Εμφάνιση εφέ αρχείων στην αποθήκη。Μπορεί να προσθέσει χρώματα σε αρχεία και φακέλους，και αντικαταστήστε τα εικονίδια τύπου αρχείου με μικρές εικόνες，Κάνει πιο εύκολη την περιήγηση και τη διαχείριση της βάσης κώδικα。Προσθέστε χρώματα και εικονίδια σε αρχεία ανά τύπο，Εμφάνιση μικρών εικόνων στη θέση των εικονιδίων τύπου αρχείου στο δέντρο προέλευσης του αποθετηρίου      
+// @name:en GitHub File list beautifier
+// @description:en  GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree      
+// @name:eo GitHub Plibeligilo de dosierlisto
+// @description:eo  GitHub Dosiera Listo Beautifier estas uzanta skripto，uzata por plibonigi GitHub Montri efikon de dosieroj en magazeno。Ĝi povas aldoni kolorojn al dosieroj kaj dosierujoj，kaj anstataŭigu la dosiertipaj ikonojn per malgrandaj bildoj，Plifaciligas foliumi kaj administri la kodan bazon。Aldonu kolorojn kaj ikonojn al dosieroj laŭ tipo，Montru malgrandajn bildojn anstataŭ dosiertipaj ikonoj en deponeja fontarbo      
+// @name:es GitHub Embellecedor de lista de archivos
+// @description:es  GitHub File List Beautifier es un script de usuario，utilizado para mejorar GitHub Efecto de visualización de archivos en el almacén.。Puede agregar colores a archivos y carpetas.，y reemplace los íconos de tipo de archivo con imágenes pequeñas，Hace que la base del código sea más fácil de navegar y administrar.。Agregue colores e íconos a archivos por tipo，Mostrar imágenes pequeñas en lugar de íconos de tipo de archivo en el árbol de fuentes del repositorio      
+// @name:fi GitHub Tiedostolistan kaunistaja
+// @description:fi  GitHub File List Beautifier on käyttäjän komentosarja，käytetään parantamaan GitHub Näytä tehosteet tiedostot varastossa。Se voi lisätä värejä tiedostoihin ja kansioihin，ja korvaa tiedostotyyppikuvakkeet pienillä kuvilla，Helpottaa koodikannan selailua ja hallintaa。Lisää värejä ja kuvakkeita tiedostoihin tyypin mukaan，Näytä pienet kuvat tiedostotyyppikuvakkeiden tilalla arkiston lähdepuussa      
+// @name:fr GitHub Embellisseur de liste de fichiers
+// @description:fr  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel      
+// @name:he GitHub מייפה רשימת קבצים
+// @description:he  GitHub File List Beautifier הוא סקריפט משתמש，משמש לשיפור GitHub הצגת אפקט של קבצים במחסן。זה יכול להוסיף צבעים לקבצים ולתיקיות，והחלף את סמלי סוג הקובץ בתמונות קטנות，הופך את בסיס הקוד לקל יותר לעיון ולניהול。הוסף צבעים וסמלים לקבצים לפי סוג，הצג תמונות קטנות במקום סמלי סוג קובץ בעץ המקור של המאגר      
+// @name:hr GitHub Uljepšavač popisa datoteka
+// @description:hr  GitHub File List Beautifier je korisnička skripta，koristi se za poboljšanje GitHub Učinak prikaza datoteka u skladištu。Može dodati boje datotekama i mapama，i zamijenite ikone vrste datoteka malim slikama，Čini bazu koda lakšom za pregledavanje i upravljanje。Dodajte boje i ikone datotekama prema vrsti，Prikaži male slike umjesto ikona tipa datoteke u izvornom stablu spremišta      
+// @name:hu GitHub Fájllista szépítő
+// @description:hu  GitHub A File List Beautifier egy felhasználói szkript，fokozására használják GitHub A raktárban lévő fájlok megjelenítési hatása。Színeket adhat a fájlokhoz és mappákhoz，és cserélje ki a fájltípus ikonokat kis képekkel，Könnyebbé teszi a kódbázis böngészését és kezelését。Színek és ikonok hozzáadása a fájlokhoz típus szerint，Kis képek megjelenítése a fájltípus ikonok helyett a lerakat forrásfájában      
+// @name:id GitHub Percantik daftar file
+// @description:id  GitHub File List Beautifier adalah skrip pengguna，digunakan untuk meningkatkan GitHub Menampilkan efek file di gudang。Itu dapat menambahkan warna pada file dan folder，dan ganti ikon jenis file dengan gambar kecil，Membuat basis kode lebih mudah dijelajahi dan dikelola。Tambahkan warna dan ikon ke file berdasarkan jenisnya，Tampilkan gambar kecil sebagai pengganti ikon jenis file di pohon sumber repositori      
+// @name:it GitHub Abbellitore dell’elenco dei file
+// @description:it  GitHub File List Beautifier è uno script utente，utilizzato per migliorare GitHub Visualizza l’effetto dei file nel magazzino。Può aggiungere colori a file e cartelle，e sostituisci le icone del tipo di file con piccole immagini，Rende la base di codice più semplice da sfogliare e gestire。Aggiungi colori e icone ai file per tipo，Visualizza piccole immagini al posto delle icone del tipo di file nell’albero di origine del repository      
+// @name:ja GitHub ファイルリスト整形ツール
+// @description:ja  GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルタイプのアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。種類ごとにファイルに色とアイコンを追加する，リポジトリソースツリーのファイルタイプアイコンの代わりに小さな画像を表示します      
+// @name:ka GitHub ფაილების სიის გამალამაზებელი
+// @description:ka  GitHub File List Beautifier არის მომხმარებლის სკრიპტი，გამოიყენება გასაძლიერებლად GitHub ფაილების ეფექტის ჩვენება საწყობში。მას შეუძლია ფერების დამატება ფაილებსა და საქაღალდეებში，და შეცვალეთ ფაილის ტიპის ხატები პატარა სურათებით，ამარტივებს კოდის ბაზის დათვალიერებას და მართვას。დაამატეთ ფერები და ხატები ფაილებს ტიპის მიხედვით，აჩვენეთ პატარა სურათები ფაილის ტიპის ხატულების ნაცვლად საცავის წყაროს ხეში      
+// @name:ko GitHub 파일 목록 미화자
+// @description:ko  GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。유형별로 파일에 색상 및 아이콘 추가，저장소 소스 트리의 파일 유형 아이콘 대신 작은 이미지 표시      
+// @name:nl GitHub Bestandslijstverfraaier
+// @description:nl  GitHub File List Beautifier is een gebruikersscript，gebruikt om te verbeteren GitHub Weergave-effect van bestanden in magazijn。Het kan kleuren toevoegen aan bestanden en mappen，en vervang de bestandstypepictogrammen door kleine afbeeldingen，Maakt het gemakkelijker om door de codebasis te bladeren en deze te beheren。Voeg kleuren en pictogrammen toe aan bestanden op type，Geef kleine afbeeldingen weer in plaats van bestandstypepictogrammen in de bronstructuur van de repository      
+// @name:nb GitHub Filliste forskjønner
+// @description:nb  GitHub File List Beautifier er et brukerskript，brukes til å forbedre GitHub Vis effekt av filer på lager。Den kan legge til farger i filer og mapper，og erstatte filtypeikonene med små bilder，Gjør kodebasen enklere å bla gjennom og administrere。Legg til farger og ikoner til filer etter type，Vis små bilder i stedet for filtypeikoner i depotkildetreet      
+// @name:pl GitHub Upiększanie listy plików
+// @description:pl  GitHub File List Beautifier to skrypt użytkownika，używany do ulepszania GitHub Efekt wyświetlania plików w magazynie。Może dodawać kolory do plików i folderów，i zamień ikony typów plików na małe obrazy，Ułatwia przeglądanie i zarządzanie bazą kodu。Dodaj kolory i ikony do plików według typu，Wyświetlaj małe obrazy zamiast ikon typów plików w drzewie źródeł repozytorium      
+// @name:pt-BR GitHub Embelezador de lista de arquivos
+// @description:pt-BR  GitHub File List Beautifier é um script de usuário，usado para melhorar GitHub Efeito de exibição de arquivos no warehouse。Pode adicionar cores a arquivos e pastas，e substitua os ícones de tipo de arquivo por imagens pequenas，Torna a base de código mais fácil de navegar e gerenciar。Adicione cores e ícones aos arquivos por tipo，Exibir pequenas imagens no lugar dos ícones de tipo de arquivo na árvore de origem do repositório      
+// @name:ro GitHub Înfrumusețator de listă de fișiere
+// @description:ro  GitHub File List Beautifier este un script de utilizator，folosit pentru a spori GitHub Efectul de afișare al fișierelor în depozit。Poate adăuga culori fișierelor și folderelor，și înlocuiți pictogramele tip fișier cu imagini mici，Face baza de cod mai ușor de răsfoit și gestionat。Adăugați culori și pictograme fișierelor după tip，Afișați imagini mici în locul pictogramelor de tip fișier în arborele sursă a depozitului      
+// @name:ru GitHub Средство украшения списка файлов
+// @description:ru  GitHub File List Beautifier — пользовательский скрипт.，используется для улучшения GitHub Эффект отображения файлов на складе。Он может добавлять цвета к файлам и папкам.，и замените значки типов файлов небольшими изображениями，Упрощает просмотр и управление базой кода.。Добавляйте цвета и значки к файлам по типу，Отображение небольших изображений вместо значков типов файлов в дереве исходного кода репозитория.      
+// @name:sk GitHub Skrášľovač zoznamu súborov
+// @description:sk  GitHub File List Beautifier je užívateľský skript，používa sa na vylepšenie GitHub Zobrazenie efektu súborov v sklade。Môže pridávať farby do súborov a priečinkov，a nahraďte ikony typov súborov malými obrázkami，Uľahčuje prehľadávanie a správu kódovej základne。Pridajte farby a ikony do súborov podľa typu，Zobrazte malé obrázky namiesto ikon typu súboru v strome zdroja úložiska      
+// @name:sr GitHub Улепшавање листе датотека
+// @description:sr  GitHub Филе Лист Беаутифиер је корисничка скрипта，користи за побољшање GitHub Приказ ефеката датотека у магацину。Може да додаје боје датотекама и фасциклама，и замените иконе типа датотеке малим сликама，Олакшава претраживање и управљање основом кода。Додајте боје и иконе датотекама по типу，Прикажите мале слике уместо икона типа датотеке у изворном стаблу спремишта      
+// @name:sv GitHub Fillista förskönare
+// @description:sv  GitHub File List Beautifier är ett användarskript，används för att förbättra GitHub Visningseffekt av filer i lagret。Det kan lägga till färger till filer och mappar，och ersätt filtypsikonerna med små bilder，Gör kodbasen lättare att bläddra i och hantera。Lägg till färger och ikoner till filer efter typ，Visa små bilder istället för filtypsikoner i arkivets källträd      
+// @name:th GitHub โปรแกรมตกแต่งรายการไฟล์
+// @description:th  GitHub File List Beautifier เป็นสคริปต์ผู้ใช้，ใช้เพื่อเพิ่มประสิทธิภาพ GitHub แสดงเอฟเฟกต์ของไฟล์ในคลังสินค้า。สามารถเพิ่มสีสันให้กับไฟล์และโฟลเดอร์ได้，และแทนที่ไอคอนประเภทไฟล์ด้วยรูปภาพขนาดเล็ก，ทำให้ฐานโค้ดง่ายต่อการเรียกดูและจัดการ。เพิ่มสีและไอคอนให้กับไฟล์ตามประเภท，แสดงรูปภาพขนาดเล็กแทนที่ไอคอนประเภทไฟล์ในแผนผังแหล่งเก็บข้อมูล      
+// @name:tr GitHub Dosya listesi güzelleştirici
+// @description:tr  GitHub Dosya Listesi Güzelleştirici bir kullanıcı komut dosyasıdır，geliştirmek için kullanılır GitHub Depodaki dosyaların efektini görüntüleme。Dosya ve klasörlere renk ekleyebilir，ve dosya türü simgelerini küçük resimlerle değiştirin，Kod tabanına göz atmayı ve yönetmeyi kolaylaştırır。Türe göre dosyalara renkler ve simgeler ekleyin，Depo kaynak ağacında dosya türü simgelerinin yerine küçük resimleri görüntüle      
+// @name:ug GitHub ھۆججەت تىزىملىكى گۈزەللەشتۈرگۈچى
+// @description:ug  GitHub ھۆججەت تىزىملىكى گۈزەللەشتۈرگۈچى ئىشلەتكۈچى قوليازمىسى，كۈچەيتىشكە ئىشلىتىلىدۇ GitHub ئامباردىكى ھۆججەتلەرنىڭ ئۈنۈمىنى كۆرسىتىش。ئۇ ھۆججەت ۋە ھۆججەت قىسقۇچلارغا رەڭ قوشالايدۇ，ھەمدە ھۆججەت تىپىدىكى سىنبەلگىلەرنى كىچىك رەسىملەر بىلەن ئالماشتۇرۇڭ，كود ئاساسىنى كۆرۈش ۋە باشقۇرۇشنى ئاسانلاشتۇرىدۇ。ھۆججەتلەرگە رەڭ ۋە سىنبەلگە قوشۇڭ，ئامبار مەنبە دەرىخىدە ھۆججەت تىپىدىكى سىنبەلگىلەرنىڭ ئورنىدا كىچىك رەسىملەرنى كۆرسىتىڭ      
+// @name:uk GitHub Прикрашувач списку файлів
+// @description:uk  GitHub File List Beautifier — це сценарій користувача，використовується для посилення GitHub Ефект відображення файлів у складі。Він може додавати кольори до файлів і папок，і замініть піктограми типів файлів маленькими зображеннями，Полегшує перегляд та керування кодовою базою。Додайте кольори та значки до файлів за типом，Відображати невеликі зображення замість значків типів файлів у дереві вихідних кодів сховища      
+// @name:vi GitHub Trình làm đẹp danh sách tập tin
+// @description:vi  GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。Thêm màu sắc và biểu tượng vào tệp theo loại，Hiển thị hình ảnh nhỏ thay cho biểu tượng loại tệp trong cây nguồn kho lưu trữ      
+// @name:zh-TW GitHub 文件列表美化器
+// @description:zh-TW  GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標      
+// @name:zh-HK GitHub 文件列表美化器
+// @description:zh-HK  GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標      
+// @name:fr-CA GitHub Embellisseur de liste de fichiers
+// @description:fr-CA  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel      
