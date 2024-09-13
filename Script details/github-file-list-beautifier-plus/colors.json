@@ -1,22 +1,22 @@
 {
     "js": {
-        "color": "#f1c40f",
+        "color": "#b07219",
         "icon": "javascript"
     },
-    "LICENSE": {
+    "license": {
         "color": "red",
-        "icon": "javascript"
+        "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmNTcyMiIgZD0iTTQgNnYxNGEyIDIgMCAwIDAgMiAyaDEydjZsMy0yIDMgMnYtNmg0YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0ySDZhMiAyIDAgMCAwLTIgMlptMiAwaDh2Mkg2Wm0wIDRoNnYySDZabTAgNGg4djJINlptMTAgNkg2di0yaDEwWm04LTZ2NGwtMy0yLTMgMnYtNGwtNC0yIDQtMlY2bDMgMiAzLTJ2NC4ybDQgMS44WiIvPjwvc3ZnPg=="
     },
     "jsx": {
-        "color": "#f1c40f",
+        "color": "#b07219",
         "icon": "javascript"
     },
     "ts": {
         "color": "#007acc",
         "icon": "typescript"
     },
-    "tsx": {
-        "color": "#007acc",
+    "docs": {
+        "color": "#e67e22",
         "icon": "typescript"
     },
     "css": {
@@ -29,6 +29,10 @@
     },
     "md": {
         "color": "#6e5494",
+        "icon": "markdown"
+    },
+    "readme.md": {
+        "color": "#e67e22",
         "icon": "markdown"
     },
     "json": {
@@ -94,42 +98,6 @@
     "ps1": {
         "color": "#012456",
         "icon": "powershell"
-    },
-    "jpg": {
-        "color": "#c82333",
-        "icon": "image"
-    },
-    "jpeg": {
-        "color": "#c82333",
-        "icon": "image"
-    },
-    "png": {
-        "color": "#36a1e3",
-        "icon": "image"
-    },
-    "gif": {
-        "color": "#e9b450",
-        "icon": "image"
-    },
-    "svg": {
-        "color": "#e15b36",
-        "icon": "svg"
-    },
-    "ico": {
-        "color": "#d9534f",
-        "icon": "favicon"
-    },
-    "webp": {
-        "color": "#a64c8c",
-        "icon": "image"
-    },
-    "cur": {
-        "color": "#d9534f",
-        "icon": "image"
-    },
-    "bmp": {
-        "color": "#c82333",
-        "icon": "image"
     },
     "ttf": {
         "color": "#f39c12",

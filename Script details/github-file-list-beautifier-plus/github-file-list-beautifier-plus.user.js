@@ -98,11 +98,16 @@
 // ==/UserScript==
 'use strict'
 let customColors = GM_getValue("fileTypesColors", {})
+var DEBUG = false
+if (DEBUG) {
+    GM_setValue("fileTypesColors", {})
+}
+GM_setValue("fileTypesColors", {})
 if (Object.keys(customColors).length === 0) {
     GM_xmlhttpRequest({
         method: 'GET',
         url: 'https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-file-list-beautifier-plus/colors.json',
-
+        //url: 'http://127.0.0.1:5500/UserScripts/Script%20details/github-file-list-beautifier-plus/colors.json',
         onload: function (response) {
             try {
                 customColors = JSON.parse(response.responseText)
@@ -175,8 +180,11 @@ function beautify() {
             a.setAttribute('file-type', ':folder')
             continue
         }
-        const filename = url.split('/').pop()
-        const ext = url.match(/\.(\w+)$|$/)[1] || filename
+        let filename = url.split('/').pop().toLowerCase()
+        let ext = (url.match(/\.(\w+)$|$/)[1] || filename).toLowerCase()
+        if (customColors[filename]) {
+            ext = filename
+        }
         a.setAttribute('file-type', ext)
         const customIcon = customColors[filename] && customColors[filename].icon
             ? customColors[filename].icon
@@ -185,7 +193,7 @@ function beautify() {
             addFileTypeStyle(ext)
         if (customIcon) {
             let iconUrl = customIcon
-            if (iconUrl && !iconUrl.startsWith('https://')) {
+            if (iconUrl && !iconUrl.startsWith('https://') && !iconUrl.startsWith('data:image')) {
                 iconUrl = `https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/${iconUrl}.svg`
                 console.log(iconUrl)
             }
