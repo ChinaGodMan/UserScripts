@@ -76,7 +76,7 @@
 // @name:fr-CA GitHub Embellisseur de liste de fichiers
 // @description:fr-CA  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel      
 // @license     MIT
-// @version     4.1.0.0
+// @version     4.1.0.1
 // @match       https://github.com/*
 // @grant       none
 // @run-at      document-start
@@ -99,6 +99,7 @@
 'use strict'
 let customColors = GM_getValue("fileTypesColors", {})
 var DEBUG = false
+var addIcon = true
 if (DEBUG) {
     GM_setValue("fileTypesColors", {})
 }
@@ -191,7 +192,7 @@ function beautify() {
             : (customColors[ext] && customColors[ext].icon) || null
         if (!filetypes[ext])
             addFileTypeStyle(ext)
-        if (customIcon) {
+        if (customIcon && addIcon) {
             let iconUrl = customIcon
             if (iconUrl && !iconUrl.startsWith('https://') && !iconUrl.startsWith('data:image')) {
                 iconUrl = `https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/${iconUrl}.svg`
