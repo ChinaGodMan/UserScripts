@@ -110,11 +110,11 @@ for script in data['scripts']:
                     if match:
                         # 如果匹配成功，替换匹配的内容为新的 HTML 代码
                         content = content[:separator_index] + re.sub(r'<center>.*?</center>', html_content.strip(), after_separator, flags=re.DOTALL)
-                        print(f"已替换: {file_path}")
+                        print(f"文档头部描述已替换: {file_path}")
                     else:
                         # 如果没有匹配成功，在分隔符下添加新的 HTML 代码
                         content = content[:separator_index] + "\n" + html_content.strip() + after_separator
-                        print(f"已添加: {file_path}")
+                        print(f"文档头部描述已添加: {file_path}")
 
                     # 将修改后的内容写回文件
                     with open(file_path, 'w', encoding='utf-8') as file:
