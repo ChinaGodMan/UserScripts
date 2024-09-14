@@ -41,7 +41,9 @@ json_data = {
     "星标": "%E6%98%9F%E6%A0%87",
     "复刻": "%E5%A4%8D%E5%88%BB",
     "问题": "%E9%97%AE%E9%A2%98",
-    "联系": "%E8%81%94%E7%B3%BB"
+    "联系": "%E8%81%94%E7%B3%BB",
+    "代码质量": "%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F",
+    
 }
 # 黑名单：不需要翻译的中文文本
 blacklist = ["人民的勤务员", "中文简体", "中文繁体"]
@@ -171,7 +173,7 @@ def process_file(root, file, lang_code):
     file_path = os.path.join(root, file)
     if is_file_updated_more_than(file_path, 5):
         print(f"跳过文件 {file_path}，因为文件在5分钟之内没有更新")
-        return  # 使用 return 结束当前函数的执行，而不是 continue
+        #return  # 使用 return 结束当前函数的执行，而不是 continue
     print(f"开始处理文件: {file_path}，语言代码: {lang_code}")
     # 读取文件内容
     lines = read_file_to_memory(file_path)

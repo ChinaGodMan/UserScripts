@@ -59,7 +59,8 @@ json_data = {
     "星标": "%E6%98%9F%E6%A0%87",
     "复刻": "%E5%A4%8D%E5%88%BB",
     "问题": "%E9%97%AE%E9%A2%98",
-    "联系": "%E8%81%94%E7%B3%BB"
+    "联系": "%E8%81%94%E7%B3%BB",
+    "代码质量": "%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F",
 }
 
 # 翻译函数
@@ -204,7 +205,7 @@ def translate_readme(data, json_data):
             continue
         if is_file_updated_more_than(readme_path, 5):
                      print(f"跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
-                     continue
+                   #  continue
         # 读取文件内容
         lines = read_file_to_memory(readme_path, json_data)
 

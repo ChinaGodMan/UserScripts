@@ -77,7 +77,7 @@ def main():
                 file_path = os.path.join(root, file_name)
                 if is_file_updated_more_than("./pythonscr/update-shields/SHIELDS.md", 5):
                      print(f"跳过文件 ，因为小徽章文件SHIELDS.md并没有更新。")
-                     continue
+                     #continue
                 if "Change history" in file_path:
                     print(f"\033[91m 文件被跳过 {file_path}\033[0m")
                     continue
