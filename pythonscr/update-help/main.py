@@ -78,7 +78,7 @@ def main():
                      print(f"跳过文件 ，因为说明帮助文件并没有更新。")
                      continue
                 if "Change history" in file_path:
-                    print(f"\033[91m 文件被跳过 {file_path}\033[0m")
+                    print(f"\033[91m 当前更新日志文件被跳过 {file_path}\033[0m")
                     continue
                 process_file(file_path, new_content)
 
