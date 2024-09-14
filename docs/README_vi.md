@@ -149,7 +149,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -261,7 +261,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
+            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -275,8 +275,8 @@
                 </a>
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
-            <td><sub>2024-09-12 12:16:49</sub></td>
-             <td><sub>4.1.0.0</sub></td>
+            <td><sub>2024-09-13 12:49:04</sub></td>
+             <td><sub>4.1.0.2</sub></td>
               <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
     <tr>
@@ -373,7 +373,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -457,7 +457,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết. Nhấp để mở trang web.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -569,7 +569,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -618,7 +618,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -653,7 +653,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Tập lệnh sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
+            <td>Khi có phản hồi mới cho kịch bản của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -863,7 +863,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-11 11:44:47</sub></td>
+            <td><sub>2024-09-13 12:38:16</sub></td>
              <td><sub>1.3.98.24</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -989,7 +989,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Đã sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
+            <td>Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
