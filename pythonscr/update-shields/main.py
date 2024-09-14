@@ -65,7 +65,7 @@ def process_file(file_path, new_content):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.writelines(new_lines)
 
-    print(f"Processed {file_path}")
+    print(f"小徽章已经被更新 {file_path}")
 
 def main():
     new_content = get_new_content()
