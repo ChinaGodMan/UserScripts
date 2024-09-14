@@ -63,7 +63,7 @@ for script in data['scripts']:
     readme_html = ''
     if os.path.isfile(readme_path):
         if is_file_updated_more_than(readme_path, 5):
-            print(f"跳过文件 {readme_path}，超过自动触发时间")
+            print(f"合并历史：更新日志没有修改！跳过文件 {readme_path} ")
             continue
         readme_html = "<details><summary>更新记录</summary>"+md_to_html(readme_path)+"</details>"
 
