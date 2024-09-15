@@ -75,7 +75,7 @@
 // @name:fr-CA         GreaysFork AméliorerWebHookParamètres de synchronisation
 // @description:fr-CA  GreaysFork Saisissez rapidement les informations de synchronisation du script，Et ajoutez des codes de langue pour plusieurs pays par lots，Au lieu de cliquer une à une sur les cases de sélection et d’accéder à l’URL correspondante。
 // @description    Quickly input script sync information and batch add language codes for multiple countries without the need to click
-// @version 1.1.0.9
+// @version 1.1.1.0
 // @compatible     chrome
 // @compatible     firefox
 // @compatible     edge
@@ -110,7 +110,7 @@
     #main-header ~ .width-constraint > .text-content:only-child > ul li {
       font-size: 0.88rem;
     }
-    /* Basic Styling for Submit Inputs and Buttons */
+    /* Basic Styling for Buttons */
 .Sync-Modal button {
       font-family: 'Arial', sans-serif;
       font-size: 10pt;
@@ -126,15 +126,15 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     /* Hover effect */
-    input[type="submit"]:hover, button:hover {
+    .Sync-Modal button:hover {
       background-color: #0056b3;
     }
     /* Active (pressed) effect */
-    input[type="submit"]:active, button:active {
+    .Sync-Modal button:active {
       background-color: #004494;
     }
     /* Focus effect for accessibility */
-    input[type="submit"]:focus, button:focus {
+    .Sync-Modal button:focus {
       box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
     }
       .Sync-Modal textarea {
