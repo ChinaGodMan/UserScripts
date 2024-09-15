@@ -65,7 +65,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>let ChatGPT Code font size becomes smaller wsucixjv</td>
+            <td>let ChatGPT Code font size becomes smaller</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -135,8 +135,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-11 11:44:38</sub></td>
-             <td><sub>0.1.0.24</sub></td>
+            <td><sub>2024-09-15 11:13:24</sub></td>
+             <td><sub>0.2.0.0</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -499,8 +499,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-11 11:44:45</sub></td>
-             <td><sub>1.1.0.9</sub></td>
+            <td><sub>2024-09-15 10:53:39</sub></td>
+             <td><sub>1.1.1.0</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
