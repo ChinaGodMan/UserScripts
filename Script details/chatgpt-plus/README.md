@@ -23,7 +23,10 @@
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
+<h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
+<p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
 
