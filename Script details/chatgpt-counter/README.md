@@ -48,8 +48,10 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 - 当字符数接近限制时，计数器文本颜色变为绿色，显示警告。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### ChatGPT相关脚本
-> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小 wsucixjv
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 你可能在找⬇️ChatGPT相关脚本
+> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
 > - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
 > - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 

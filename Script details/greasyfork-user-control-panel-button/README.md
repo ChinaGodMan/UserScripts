@@ -42,7 +42,9 @@
 增加的项目较多,会出现拥挤导航栏,可以使用脚本进行修复 [GreasyFork Header Style Fix](https://greasyfork.org/scripts/473269)
 强烈建议使用 **[GreasyFork 糊裱匠](https://greasyfork.org/zh-CN/scripts/497346)** 可以修复导航栏并且美化导航栏
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-> ### GreasyFork相关脚本
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 你可能在找⬇️GreasyFork相关脚本
 > - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
 > - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
