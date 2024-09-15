@@ -42,27 +42,33 @@ def find_script_by_greasyfork_id(scripts, greasyfork_id):
 def generate_description(current_script, all_scripts):
     descriptions = []
     
-    relatedscripts = current_script.get('relatedscripts', {})
+    # 获取当前脚本的 relatedscripts 值作为分类名
+    relatedscripts_category = current_script.get('relatedscripts')
     
-    # 遍历relatedscripts下的每个属性
-    for category, related_ids in relatedscripts.items():
-        #descriptions.append(f"### {category}\n")
-        descriptions.append(f"> ### {category}")
-        # 对于每个id，查找GreasyFork匹配的脚本
-        for greasyfork_id in related_ids:
-            related_script = find_script_by_greasyfork_id(all_scripts, greasyfork_id)
-            
-            if related_script:
-                name = related_script.get('name', '未知名称')
-                description = related_script.get('description', '无描述')
-                # 创建点击可跳转的 Markdown 链接
-                link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
-                descriptions.append(f"> - {link}: {description}")
-            else:
-                descriptions.append(f"- 未找到与 GreasyFork ID {greasyfork_id} 对应的脚本。")
+    # 如果没有 relatedscripts，返回空描述
+    if not relatedscripts_category:
+        return "无相关脚本。\n\n"
+    
+    # 添加分类名到描述中
+    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 你可能在找⬇️{relatedscripts_category}')
+    
+    # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
+    for script in all_scripts:
+        # 获取脚本的 relatedscripts 值
+        script_relatedscripts = script.get('relatedscripts')
+        
+        # 如果脚本的 relatedscripts 与当前脚本相同，就将其添加到描述中
+        if script_relatedscripts == relatedscripts_category:
+            greasyfork_id = script.get('GreasyFork', '未知ID')
+            name = script.get('name', '未知名称')
+            description = script.get('description', '无描述')
+            # 创建点击可跳转的 Markdown 链接
+            link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
+            descriptions.append(f"> - {link}: {description}")
     
     # 在生成的描述最后加一个换行符
     return "\n".join(descriptions) + "\n\n"
+
 
 # 更新Markdown文件内容
 def process_file(file_path, new_content):
@@ -115,7 +121,7 @@ def main():
                     file_path = os.path.join(backuppath, file)
                     if is_file_updated_more_than("./docs/ScriptsPath.json", 5):
                      print(f"跳过文件 ，因为脚本描述文件并没有更新。")
-                     continue
+                     #continue
                     # 针对当前脚本生成描述
                     descriptions = generate_description(script, scripts)
                     
