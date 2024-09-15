@@ -1,5 +1,8 @@
 # **🛠️  GreaysFork增强WebHook 更新日志**
 
+### **📅 2024/9/15 10:53 - Ver 1.1.1.0**
+**修复**: • 按钮`hover active focus`放入父类`.Sync-Modal`
+
 ### **📅 2024/9/5 04:29 - Ver 1.1.0.0**
 **新增**: • 每次提交后返回 GreasyFork 同步提示。
 
