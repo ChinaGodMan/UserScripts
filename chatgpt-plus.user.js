@@ -76,7 +76,7 @@
 // @name:fr-CA   ChatGPT Réduire le message personnel et la largeur maximale
 // @description:fr-CA pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
 // @namespace    https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.0.24
+// @version 0.2.0.0
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @match      https://share.nezhagpt.cloud/*
@@ -90,7 +90,10 @@
 
 (function () {
     'use strict'
+    //移动设备使用回车键发送
+    let isEnter = true
     //MAX WIGHT
+    
     let css = `
     .md\\:max-w-3xl {
         max-width: 100%;
@@ -129,8 +132,21 @@
                 }
             })
         }
-
-        // Run the function and also set an interval to handle dynamic content
+function handleKeyPress(event) {
+        const textarea = document.getElementById('prompt-textarea');
+ 
+        if (textarea && event.target === textarea && event.key === 'Enter' && !event.shiftKey) {
+            event.preventDefault();
+            const sendbutton = document.querySelector('button[data-testid="send-button"]');
+            if (sendbutton) {
+                sendbutton.click();
+            }
+        }
+    }
+ if(isEnter){
+    document.addEventListener('keydown', handleKeyPress);
+ }  
+     // Run the function and also set an interval to handle dynamic content
         foldLongMessages()
         setInterval(foldLongMessages, 1000)
     })
