@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         网页关键词高亮显示
-// @namespace    https://greasyfork.org/zh-CN/users/1169082
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.0.5.25
 // @description  在网页上自定义关键词突出显示包括滚动时动态加载的内容
 // @description:zh-CN 在网页上自定义关键词突出显示包括滚动时动态加载的内容

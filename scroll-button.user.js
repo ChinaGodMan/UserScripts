@@ -74,7 +74,7 @@
 // @description:zh-HK 在頁面右側產生兩個按鈕用於滾動頁面
 // @name:fr-CA        bouton de défilement
 // @description:fr-CA Générez deux boutons sur le côté droit de la page pour faire défiler la page
-// @namespace   Violentmonkey Scripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @match       *://*/*
 // @grant       none
 // @version 1.0.0.25

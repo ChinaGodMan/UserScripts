@@ -74,7 +74,7 @@
 // @description:zh-HK   使用谷歌搜尋GreasyFork和SleazyFork上體文字
 // @name:fr-CA         GreasyFork Search
 // @description:fr-CA   Rechercher avec GoogleGreasyForketSleazyForkécriture supérieure
-// @namespace     https://greasyfork.org/zh-CN/users/1169082
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 0.6.5.22
 // @description  To search scripts using Google Search
 // @author       CY Fung , 人民的勤务员 <toniaiwanowskiskr47@gmail.com>

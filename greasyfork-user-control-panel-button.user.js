@@ -74,7 +74,7 @@
 // @description:zh-HK 在導覽列上新增使用者列表,主機,收藏等..
 // @name:fr-CA  GreasyFork: Amélioration de la barre de navigation
 // @description:fr-CA Ajouter une liste d’utilisateurs sur la barre de navigation,console,Collecte etc..
-// @namespace   https://github.com/10086100886
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @match       https://greasyfork.org/*
 // @match       https://sleazyfork.org/*
 // @grant       none

@@ -74,7 +74,7 @@
 // @description:zh-HK 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
 // @name:fr-CA        GreasyFork markdown
 // @description:fr-CA Le format par défaut utilisé dans le forum estMarkdown，Ajouter un lien d’aide au format et publier un nouveau script,Barre d’outils de temps de réponse avec édition rapide activée
-// @namespace    https://greasyfork.org/zh-CN/users/1169082
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @description       Select Markdown format by default, add help links, add toolbar formatting buttons for markdown
 // @author            wOxxOm, darkred, 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @contributor       JixunMoe
