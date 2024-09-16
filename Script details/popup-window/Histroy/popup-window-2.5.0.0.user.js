@@ -83,7 +83,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_info
-// @namespace https://greasyfork.org/users/217852
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @icon          https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png

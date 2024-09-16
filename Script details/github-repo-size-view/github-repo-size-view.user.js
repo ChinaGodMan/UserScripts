@@ -74,7 +74,7 @@
 // @description:zh-HK 在 github 搜尋和儲存庫頁面上的儲存庫名稱旁邊新增儲存庫大小
 // @name:fr-CA        Github Taille de l’entrepôt
 // @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
-// @namespace   https://github.com/qinwuyuan-cn
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @description Adds the repo size next to the repo name on github search and repo pages
 // @version 0.1.2.55
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>

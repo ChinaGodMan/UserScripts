@@ -76,7 +76,7 @@
 // @description:fr-CA       Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web  Script de GreasyFork。
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 
-// @namespace               https://greasyfork.org/zh-CN/users/1169082
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 0.1.6.78
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues

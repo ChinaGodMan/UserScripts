@@ -76,7 +76,7 @@
 // @name:fr-CA  GitHub Soumettre des informations, afficher la vue Web
 // @description:fr-CA  Ce script sera GitHub Les informations de soumission sur HTML voir，pour voir plus clairement les détails de la soumission。Il soumettra automatiquement la liste d’informations、L’en-tête de validation et les dernières informations de validation sont convertis en HTML Format，Fournir de meilleurs effets visuels et une meilleure expérience utilisateur。
 // @version 1.0.0.18
-// @namespace   https://github.com/ChinaGodMan
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @author   人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       *://github.com/*/*
 // @grant       GM_registerMenuCommand

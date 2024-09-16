@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         外语终结者
-// @namespace   https://greasyfork.org/zh-CN/users/1169082
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.3.98.24
 // @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文
 // @license      MIT

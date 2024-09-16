@@ -78,7 +78,7 @@
 // @grant        none
 // @match        *://*/*
 // @author       Yearly,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
-// @namespace    https://github.com/ChinaGodMan/UserScripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @license      MIT

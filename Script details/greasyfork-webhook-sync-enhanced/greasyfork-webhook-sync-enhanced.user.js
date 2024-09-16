@@ -88,7 +88,7 @@
 // @license      MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-// @namespace   https://github.com/ChinaGodMan/UserScripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @modified        2024-9-05 04:29
 // ==/UserScript==
 (function () {

@@ -74,7 +74,7 @@
 // @description:zh-HK 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
 // @name:fr-CA  Greasyfork Artisan de la colle
 // @description:fr-CA pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
-// @namespace    https://greasyfork.org/zh-CN/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @description Providing various features for Greasyfork, including absolute time, widescreen web pages, script page enhancements, download extensions, panel fixes, and more.
 // @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js

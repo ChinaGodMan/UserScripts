@@ -75,7 +75,7 @@
 // @name:fr-CA         ThisAV  Connexion automatique
 // @description:fr-CA Détection ThisAV  État,et connectez-vous automatiquement lorsque vous n’êtes pas connecté
 // @description Detection ThisAV  state,and automatically log in when not logged in
-// @namespace               https://github.com/ChinaGodMan/UserScripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @author         人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://thisav.com/*
 // @grant        GM_registerMenuCommand

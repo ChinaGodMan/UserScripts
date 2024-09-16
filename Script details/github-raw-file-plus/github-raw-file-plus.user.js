@@ -75,7 +75,7 @@
 // @name:fr-CA   Github Copier le fichier original URL avec des fichiers à télécharger
 // @description:fr-CA Ajouter un bouton à la fin de chaque ligne de fichier，pour copier le fichier original URL et télécharger des fichiers
 // @description  Add buttons at the end of each file line to copy the raw file URL and download the file
-// @namespace               https://github.com/ChinaGodMan/UserScripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 2.2.0.21
 // @author       	Kamikaze (https://github.com/Kamiikaze) ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        	https://github.com/*

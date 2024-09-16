@@ -74,7 +74,7 @@
 // @description:zh-HK 移除所有網站上的連結底線，並動態處理新鏈接
 // @name:fr-CA   Supprimer le soulignement du lien
 // @description:fr-CA Supprimer les liens soulignés sur tous les sites，et gérer les nouveaux liens de manière dynamique
-// @namespace    https://greasyfork.org/users/1169082/
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.2.0.62
 // @description  Remove underlines from all links on any website and dynamically handle new links
 // @author       人民的勤务员<toniaiwanowskiskr47@gmail.com>

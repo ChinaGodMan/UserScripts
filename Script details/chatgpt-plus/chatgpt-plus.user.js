@@ -75,7 +75,7 @@
 // @description:zh-HK 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
 // @name:fr-CA   ChatGPT Réduire le message personnel et la largeur maximale
 // @description:fr-CA pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
-// @namespace    https://github.com/ChinaGodMan/UserScripts
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 0.2.0.0
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*

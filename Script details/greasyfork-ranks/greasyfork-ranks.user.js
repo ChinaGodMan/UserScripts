@@ -74,7 +74,7 @@
 // @description:zh-HK 在瀏覽腳本清單時在腳本名稱後面新增腳本評分
 // @name:fr-CA         Greasyfork Script pour afficher les notes
 // @description:fr-CA Ajouter une note de script après le nom du script lors de la navigation dans la liste des scripts
-// @namespace    https://github.com/10086100886/
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.3.3.62
 // @description     Add the script rating after the script name when browsing the script list
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>

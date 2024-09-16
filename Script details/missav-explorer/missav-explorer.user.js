@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        MissAv批量备份收藏视频
-// @namespace    https://github.com/100816100886
+// @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.2.3.72
 // @description  从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license MIT
