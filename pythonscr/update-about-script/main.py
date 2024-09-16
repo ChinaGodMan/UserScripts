@@ -50,7 +50,7 @@ def generate_description(current_script, all_scripts):
         return "无相关脚本。\n\n"
     
     # 添加分类名到描述中
-    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 你可能在找⬇️{relatedscripts_category}')
+    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### ⬇️你可能在找{relatedscripts_category}')
     
     # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
     for script in all_scripts:
