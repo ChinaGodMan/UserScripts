@@ -161,7 +161,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 
-## ☭共产主义的道路上,离不开同志们的帮助
+## ☭ 感谢
 
 -  **[hiisme](https://greasyfork.org/zh-CN/users/217852)  [小窗预览](https://greasyfork.org/scripts/504567)** 是本脚本的创始人,他的想法与实际行动为互联网广大网友做出了巨大贡献
 -  **[wxhzjm](https://greasyfork.org/zh-CN/users/1118488)** 
