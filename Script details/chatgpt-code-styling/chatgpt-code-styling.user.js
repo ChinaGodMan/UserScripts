@@ -75,7 +75,7 @@
 // @description:fr-CA ChatGPT Rendre la police du code plus petite et envelopper automatiquement
 
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.0.22
+// @version 0.1.0.23
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://chatgpt.com/*
 // @grant        none

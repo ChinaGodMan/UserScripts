@@ -77,7 +77,7 @@
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @match       *://*/*
 // @grant       none
-// @version 1.0.0.25
+// @version 1.0.0.26
 // @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & d3ward
 // @description Script to scrollBy  to top/bottom
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues

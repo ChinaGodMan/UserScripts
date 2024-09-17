@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         屏蔽谷歌搜索站点
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 0.0.1.50
+// @version 0.0.1.51
 // @description  在google搜索屏蔽指定站点
 // @license      MIT
 // @author       人民的勤务员

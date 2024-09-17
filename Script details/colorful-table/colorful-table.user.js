@@ -88,7 +88,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 1.0.0.8
+// @version 1.0.0.9
 // @Created         2024-09-06 05:02:49
 // @modified        2024-09-06 05:02:49
 // ==/UserScript==

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         解除CSDN登录复制
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 1.0.0.22
+// @version 1.0.0.23
 // @description  去你妈的CSDN登录复制,无需登录即可复制
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        https://blog.csdn.net/*

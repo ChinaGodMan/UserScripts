@@ -3,7 +3,7 @@
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com> Sky,仰望星空
 // @description     管理网页剪贴板的写入行为 防止未经授权的自动复制 &禁用音视频内容预载及自动播放。
-// @version 1.2.2.72
+// @version 1.2.2.73
 // @include         *
 // @run-at          document-start
 // @license                  MIT
