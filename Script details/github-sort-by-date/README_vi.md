@@ -63,7 +63,7 @@ tác giả[androidcn]( https://greasyfork.org/zh-CN/users/18158)kịch bản[Git
 > ### có thể bạn đang tìm kiếm⬇️GitHubTập lệnh liên quan
 > - [**GitHubGửi hiển thị thông tinHTML**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > - [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。
-> - [**GitHubthư mục下载**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub 文件夹。
+> - [**GitHubthư mụctải về**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。
 > - [**GitHubTải xuống các tập tin đơn lẻ và sao chép các tập tinURL**](https://greasyfork.org/scripts/505501): Nút thêm vào cuối mỗi dòng file，để sao chép tập tin gốc URL và tải về các tập tin
 > - [**githubHiển thị kích thước kho**](https://greasyfork.org/scripts/502291): hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。
