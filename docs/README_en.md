@@ -79,8 +79,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-11 11:44:37</sub></td>
-             <td><sub>0.1.0.22</sub></td>
+            <td><sub>2024-09-17 10:18:39</sub></td>
+             <td><sub>0.1.0.23</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -107,8 +107,8 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-11 11:44:37</sub></td>
-             <td><sub>1.3.1.13</sub></td>
+            <td><sub>2024-09-17 10:18:39</sub></td>
+             <td><sub>1.3.1.14</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
     <tr>
@@ -135,8 +135,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-15 11:13:24</sub></td>
-             <td><sub>0.2.0.0</sub></td>
+            <td><sub>2024-09-17 10:18:39</sub></td>
+             <td><sub>0.2.0.1</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -149,7 +149,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -163,8 +163,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-11 11:44:38</sub></td>
-             <td><sub>1.2.2.72</sub></td>
+            <td><sub>2024-09-17 10:18:40</sub></td>
+             <td><sub>1.2.2.73</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -191,8 +191,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-11 11:44:38</sub></td>
-             <td><sub>1.0.0.22</sub></td>
+            <td><sub>2024-09-17 10:18:40</sub></td>
+             <td><sub>1.0.0.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -219,8 +219,8 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-09-11 11:44:38</sub></td>
-             <td><sub>1.0.0.8</sub></td>
+            <td><sub>2024-09-17 10:18:40</sub></td>
+             <td><sub>1.0.0.9</sub></td>
               <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
     <tr>
@@ -247,8 +247,8 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-12 05:56:03</sub></td>
-             <td><sub>1.0.0.18</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>1.0.0.19</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
     <tr>
@@ -261,7 +261,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
+            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -275,8 +275,8 @@
                 </a>
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
-            <td><sub>2024-09-13 12:49:04</sub></td>
-             <td><sub>4.1.0.2</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>4.1.0.3</sub></td>
               <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
     <tr>
@@ -303,8 +303,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-12 05:56:04</sub></td>
-             <td><sub>0.7.0.22</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>0.7.0.23</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
     <tr>
@@ -331,8 +331,8 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-12 05:56:04</sub></td>
-             <td><sub>2.2.0.21</sub></td>
+            <td><sub>2024-09-17 10:18:42</sub></td>
+             <td><sub>2.2.0.22</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
@@ -359,8 +359,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-12 05:56:04</sub></td>
-             <td><sub>0.1.2.55</sub></td>
+            <td><sub>2024-09-17 10:18:42</sub></td>
+             <td><sub>0.1.2.56</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
     <tr>
@@ -387,8 +387,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-12 05:56:05</sub></td>
-             <td><sub>1.1.0.22</sub></td>
+            <td><sub>2024-09-17 10:18:43</sub></td>
+             <td><sub>1.1.0.23</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
     <tr>
@@ -401,7 +401,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -415,8 +415,8 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-11 11:44:41</sub></td>
-             <td><sub>0.1.9.44</sub></td>
+            <td><sub>2024-09-17 10:18:43</sub></td>
+             <td><sub>0.1.9.45</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
     <tr>
@@ -443,8 +443,8 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-11 11:44:41</sub></td>
-             <td><sub>0.0.1.50</sub></td>
+            <td><sub>2024-09-17 10:18:43</sub></td>
+             <td><sub>0.0.1.51</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -471,8 +471,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-11 11:44:42</sub></td>
-             <td><sub>0.9.3.65</sub></td>
+            <td><sub>2024-09-17 10:18:44</sub></td>
+             <td><sub>0.9.3.66</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -499,8 +499,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-15 10:53:39</sub></td>
-             <td><sub>1.1.1.0</sub></td>
+            <td><sub>2024-09-17 10:18:47</sub></td>
+             <td><sub>1.1.1.1</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
     <tr>
@@ -527,8 +527,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-09-11 11:44:42</sub></td>
-             <td><sub>2.0.4.23</sub></td>
+            <td><sub>2024-09-17 10:18:44</sub></td>
+             <td><sub>2.0.4.24</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
     <tr>
@@ -555,8 +555,8 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-11 11:44:42</sub></td>
-             <td><sub>1.3.3.62</sub></td>
+            <td><sub>2024-09-17 10:18:45</sub></td>
+             <td><sub>1.3.3.63</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -583,8 +583,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-11 11:44:43</sub></td>
-             <td><sub>0.6.5.22</sub></td>
+            <td><sub>2024-09-17 10:18:45</sub></td>
+             <td><sub>0.6.5.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     <tr>
@@ -597,7 +597,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -611,8 +611,8 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-11 11:44:43</sub></td>
-             <td><sub>0.3.1.56</sub></td>
+            <td><sub>2024-09-17 10:18:46</sub></td>
+             <td><sub>0.3.1.57</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -639,21 +639,21 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-11 11:44:43</sub></td>
-             <td><sub>2.2.0.90</sub></td>
+            <td><sub>2024-09-17 10:18:46</sub></td>
+             <td><sub>2.2.0.91</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</td>
+            <td>When there is a new reply to your script or to a discussion you are participating in，The script will display the latest discussion content in a modal window on the web page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -667,8 +667,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-12 07:47:40</sub></td>
-             <td><sub>1.5.0.0</sub></td>
+            <td><sub>2024-09-17 10:18:44</sub></td>
+             <td><sub>1.5.0.1</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -695,8 +695,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-11 11:44:45</sub></td>
-             <td><sub>1.1.2.71</sub></td>
+            <td><sub>2024-09-17 10:18:48</sub></td>
+             <td><sub>1.1.2.72</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -723,8 +723,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-11 11:44:45</sub></td>
-             <td><sub>1.0.5.25</sub></td>
+            <td><sub>2024-09-17 10:18:48</sub></td>
+             <td><sub>1.0.5.26</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
     <tr>
@@ -751,8 +751,8 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-11 11:44:46</sub></td>
-             <td><sub>1.0.1.6</sub></td>
+            <td><sub>2024-09-17 10:18:49</sub></td>
+             <td><sub>1.0.1.7</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
     <tr>
@@ -779,8 +779,8 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-11 11:44:46</sub></td>
-             <td><sub>1.2.3.72</sub></td>
+            <td><sub>2024-09-17 10:18:49</sub></td>
+             <td><sub>1.2.3.73</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -807,7 +807,7 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-11 11:44:50</sub></td>
+            <td><sub>2024-09-16 08:04:06</sub></td>
              <td><sub>1.0.1.7</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
@@ -835,8 +835,8 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-11 18:59:53</sub></td>
-             <td><sub>1.0.0.9</sub></td>
+            <td><sub>2024-09-17 10:18:48</sub></td>
+             <td><sub>1.0.0.10</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
     <tr>
@@ -863,8 +863,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-13 12:38:16</sub></td>
-             <td><sub>1.3.98.24</sub></td>
+            <td><sub>2024-09-17 10:18:50</sub></td>
+             <td><sub>1.3.98.25</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
     <tr>
@@ -891,8 +891,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-11 11:44:47</sub></td>
-             <td><sub>2.5.1.1</sub></td>
+            <td><sub>2024-09-17 10:18:50</sub></td>
+             <td><sub>2.5.1.2</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
@@ -919,8 +919,8 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-11 11:44:48</sub></td>
-             <td><sub>1.2.0.62</sub></td>
+            <td><sub>2024-09-17 10:18:50</sub></td>
+             <td><sub>1.2.0.63</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -947,8 +947,8 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-11 11:44:48</sub></td>
-             <td><sub>0.1.6.78</sub></td>
+            <td><sub>2024-09-17 10:18:51</sub></td>
+             <td><sub>0.1.6.79</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -975,8 +975,8 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-11 11:44:49</sub></td>
-             <td><sub>1.0.0.25</sub></td>
+            <td><sub>2024-09-17 10:18:51</sub></td>
+             <td><sub>1.0.0.26</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
     <tr>
@@ -1003,14 +1003,14 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-11 11:44:49</sub></td>
-             <td><sub>1.2.0.71</sub></td>
+            <td><sub>2024-09-17 10:18:52</sub></td>
+             <td><sub>1.2.0.72</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated to Chinese</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated into Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
@@ -1031,7 +1031,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-11 11:44:50</sub></td>
+            <td><sub>2024-09-16 08:04:06</sub></td>
              <td><sub>0.31.0.22</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
