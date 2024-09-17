@@ -22,8 +22,9 @@
 <center><div align="center">
     <h1>github显示仓库大小</h1>
     <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
-    <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
@@ -42,7 +43,7 @@
 <p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
 <strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

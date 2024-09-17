@@ -20,14 +20,15 @@
 <center><div align="center">
     <h1>GitHub下载单文件和复制文件URL</h1>
     <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
-    <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 05:09 - Ver 2.2</strong></h3>
 <p><strong>新增</strong>: 增加下载功能。</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

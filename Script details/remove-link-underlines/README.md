@@ -20,11 +20,12 @@
 <center><div align="center">
     <h1>去除链接下划线</h1>
     <p>「 去除网页链接的下划线 」</p>
-    <img src="https://views.whatilearened.today/views/github/498625/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/498625/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498625">Greasy
             Fork</a></p> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/498625.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498625.png">
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

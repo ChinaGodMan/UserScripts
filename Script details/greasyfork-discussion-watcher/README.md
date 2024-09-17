@@ -20,8 +20,9 @@
 <center><div align="center">
     <h1>Greasyfork 通知助手</h1>
     <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
-    <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
@@ -43,7 +44,7 @@
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
 <p><strong>初始</strong>: 初始版本，欢迎使用。</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

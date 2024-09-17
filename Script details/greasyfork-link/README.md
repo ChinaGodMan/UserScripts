@@ -20,11 +20,12 @@
 <center><div align="center">
     <h1>GreasyFork适用于增强</h1>
     <p>「 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索 」</p>
-    <img src="https://views.whatilearened.today/views/github/497317/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/497317/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497317">Greasy
             Fork</a></p> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497317.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497317.png">
 </div></center>
 
 <h1>

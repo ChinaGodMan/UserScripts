@@ -20,11 +20,12 @@
 <center><div align="center">
     <h1>高亮网页文本_迷你版</h1>
     <p>「 在网页上自定义关键词突出显示包括滚动时动态加载的内容 」</p>
-    <img src="https://views.whatilearened.today/views/github/498905/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/498905/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
             Fork</a></p> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/498905.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498905.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

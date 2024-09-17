@@ -20,11 +20,12 @@
 <center><div align="center">
     <h1>解除CSDN登录复制限制</h1>
     <p>「 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容 」</p>
-    <img src="https://views.whatilearened.today/views/github/505207/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/505207/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505207">Greasy
             Fork</a></p> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
 </div></center>
 
 解除CSDN需要登录复制的限制

@@ -20,8 +20,9 @@
 <center><div align="center">
     <h1>GitHub文件夹下载</h1>
     <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
-    <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub文件夹下载 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
@@ -30,7 +31,7 @@
 <h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
 <p><strong>修复</strong>: 替换失效的选择器</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

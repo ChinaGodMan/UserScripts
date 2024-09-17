@@ -20,11 +20,12 @@
 <center><div align="center">
     <h1>上下滚动小按钮</h1>
     <p>「 页面右侧添加上下滚动按钮 」</p>
-    <img src="https://views.whatilearened.today/views/github/497251/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/497251/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497251">Greasy
             Fork</a></p> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497251.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497251.png">
 </div></center>
 
 在每个网页的右侧添加上下按钮，方便滚动。

@@ -20,14 +20,15 @@
 <center><div align="center">
     <h1>绚丽渐变美化网页表格</h1>
     <p>「 自动为网页上的表格所有列应用颜色渐变美化. 」</p>
-    <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 绚丽渐变美化网页表格 更新日志</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
 <p><strong>修改</strong>: 修改为自动渐变色。</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
 </div></center>
 
 

@@ -20,8 +20,9 @@
 <center><div align="center">
     <h1>Greasyfork糊裱匠</h1>
     <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
-    <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
+    https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
+    
+Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork糊裱匠 更新日志</strong></h1>
 <h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
@@ -83,7 +84,7 @@
 <strong>修复</strong>: • 修复显示列表上的脚本安装状态。<br />
 <strong>优化</strong>: • 完善对多语言的支持。</p>
 <hr /></details> 
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
+    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
