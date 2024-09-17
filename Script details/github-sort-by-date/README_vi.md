@@ -20,12 +20,11 @@
 <center><div align="center">
     <h1>GitHub Sort by Date</h1>
     <p>「 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。 」</p>
-    https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
             Fork</a></p> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

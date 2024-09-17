@@ -20,15 +20,14 @@
 <center><div align="center">
     <h1>ChatGPT 折叠自己消息和最大宽度</h1>
     <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
-    https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
 <p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
 <hr /></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -20,12 +20,11 @@
 <center><div align="center">
     <h1>网页写入剪辑版授权管理器</h1>
     <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
-    https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><p>初始版本.</p></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
 ![1.png](https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png)

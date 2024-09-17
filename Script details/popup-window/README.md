@@ -20,9 +20,8 @@
 <center><div align="center">
     <h1>小窗口预览</h1>
     <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
-    https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
 <h3><strong>📅 2024/9/10 11:05  - Ver 2.5.1.0</strong></h3>
@@ -66,7 +65,7 @@ Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/p
 <h3><strong>📅 2024/8/23 08:12  - Ver 2.4</strong></h3>
 <p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
 <strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -20,12 +20,11 @@
 <center><div align="center">
     <h1>Google 搜索屏蔽指定站点</h1>
     <p>「 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容 」</p>
-    https://views.whatilearened.today/views/github/500262/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/500262/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500262">Greasy
             Fork</a></p> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500262.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500262.png">
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

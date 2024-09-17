@@ -20,9 +20,8 @@
 <center><div align="center">
     <h1>Google 高级搜索</h1>
     <p>「 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。 」</p>
-    https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Google 高级搜索 更新日志</strong></h1>
 <h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
@@ -32,7 +31,7 @@ Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/g
 <p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
 <strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -20,12 +20,11 @@
 <center><div align="center">
     <h1>网页高亮关键字+(推荐)</h1>
     <p>「 对网页上的文字进行高亮显示 」</p>
-    https://views.whatilearened.today/views/github/498906/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/498906/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy
             Fork</a></p> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

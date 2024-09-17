@@ -20,12 +20,11 @@
 <center><div align="center">
     <h1>GreasyFork 显示脚本评分</h1>
     <p>「 脚本列表添加评价分数 」</p>
-    https://views.whatilearened.today/views/github/501119/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/501119/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501119">Greasy
             Fork</a></p> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501119.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501119.png">
 </div></center>
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->

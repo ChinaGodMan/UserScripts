@@ -20,9 +20,8 @@
 <center><div align="center">
     <h1>Script Finder油猴脚本查找器</h1>
     <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
-    https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+   更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
@@ -42,7 +41,7 @@ Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/s
 <p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~<br />
 <strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
 <hr /></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

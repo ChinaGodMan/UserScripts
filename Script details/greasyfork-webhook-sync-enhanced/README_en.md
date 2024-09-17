@@ -20,9 +20,8 @@
 <center><div align="center">
     <h1>GreaysFork 增强 WebHook同步设置</h1>
     <p>「 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。 」</p>
-    https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️  GreaysFork增强WebHook 更新日志</strong></h1>
 <h3><strong>📅 2024/9/15 10:53 - Ver 1.1.1.0</strong></h3>
@@ -33,7 +32,7 @@ Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/g
 <h3><strong>📅 2024/9/4 11:52 - Ver 1.0.0.0</strong></h3>
 <p><strong>初始版本</strong>: • 欢迎使用。</p>
 <hr /></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>
 
 <video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"

@@ -20,16 +20,15 @@
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
     <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
-    https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
 <p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
 - <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></p>
 <hr /></details> 
-    https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
 
 这个脚本是 [wOxxOm](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573) 编写的脚本的一个分支，旨在使其适应新的 GF 布局。  
