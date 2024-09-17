@@ -233,7 +233,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub の投稿情報が変換されます。 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -807,8 +807,8 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-16 08:04:06</sub></td>
-             <td><sub>1.0.1.7</sub></td>
+            <td><sub>2024-09-17 10:18:52</sub></td>
+             <td><sub>1.0.1.8</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
     <tr>
@@ -1031,8 +1031,8 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-16 08:04:06</sub></td>
-             <td><sub>0.31.0.22</sub></td>
+            <td><sub>2024-09-17 10:18:53</sub></td>
+             <td><sub>0.31.0.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
     </tbody>
