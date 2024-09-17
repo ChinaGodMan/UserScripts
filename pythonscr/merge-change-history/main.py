@@ -72,9 +72,9 @@ for script in data['scripts']:
     img_tag = ''
     isAddImage = True#添加历史安装图片
     if isAddImage:#if os.path.exists(img_path):
-        # img_tag = f'https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
-        img_tag = f'https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
-        #img_tag = f'https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
+        # img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScripts/main/{backuppath}/preview/statshistory.png">'
+        img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
+        #img_tag = f'<img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
         # ?t=1861894861
 
     # 准备要添加或替换的 HTML 代码
@@ -82,9 +82,8 @@ for script in data['scripts']:
 <center><div align="center">
     <h1>{name}</h1>
     <p>「 {description} 」</p>
-    https://views.whatilearened.today/views/github/{greasyfork_id}/hmjz100.svg" alt="Views">
-    
-Download：https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
+    <img src="https://views.whatilearened.today/views/github/{greasyfork_id}/hmjz100.svg" alt="Views">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{backuppath}">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/{greasyfork_id}">Greasy
             Fork</a></p>{readme_html} 
     {img_tag}
