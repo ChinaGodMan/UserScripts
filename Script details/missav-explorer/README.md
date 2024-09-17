@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -90,7 +90,7 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 你可能在找⬇️成人脚本
+> ### ⬇️你可能在找成人脚本
 > - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
 > - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
 > - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
@@ -104,12 +104,14 @@ Missav 批量提取器是一个用于备份收藏夹和提取视频内容的工�
 ## 使用帮助
 
  推荐浏览器和脚本管理器：
-*   Greasemonkey + Waterfox
-*   Tampermonkey/Violentmonkey + Firefox
-*   Tampermonkey/Violentmonkey + Chrome
-*   Userscripts + ios Safari
-*   Violentmonkey/KiWiBrowser + Android
-  
+*   **Greasemonkey + Waterfox**
+*   **Tampermonkey/Violentmonkey + Firefox**
+*   **Tampermonkey/Violentmonkey + Chrome**
+*   **Userscripts + ios Safari**
+*  **Violentmonkey/KiWiBrowser + Android**
+
+ **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 

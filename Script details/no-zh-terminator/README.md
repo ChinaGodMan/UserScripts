@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504890.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/504890.png">
 </div></center>
 
 <h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">使用的Goolge翻译.无法连接Google的请不要下载</mark></h2>
@@ -79,7 +79,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 你可能在找⬇️自动翻译
+> ### ⬇️你可能在找自动翻译
 > - [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
@@ -91,12 +91,14 @@
 ## 使用帮助
 
  推荐浏览器和脚本管理器：
-*   Greasemonkey + Waterfox
-*   Tampermonkey/Violentmonkey + Firefox
-*   Tampermonkey/Violentmonkey + Chrome
-*   Userscripts + ios Safari
-*   Violentmonkey/KiWiBrowser + Android
-  
+*   **Greasemonkey + Waterfox**
+*   **Tampermonkey/Violentmonkey + Firefox**
+*   **Tampermonkey/Violentmonkey + Chrome**
+*   **Userscripts + ios Safari**
+*  **Violentmonkey/KiWiBrowser + Android**
+
+ **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 

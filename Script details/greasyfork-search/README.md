@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -61,7 +61,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 你可能在找⬇️GreasyFork相关脚本
+> ### ⬇️你可能在找GreasyFork相关脚本
 > - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
 > - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
@@ -92,12 +92,14 @@
 ## 使用帮助
 
  推荐浏览器和脚本管理器：
-*   Greasemonkey + Waterfox
-*   Tampermonkey/Violentmonkey + Firefox
-*   Tampermonkey/Violentmonkey + Chrome
-*   Userscripts + ios Safari
-*   Violentmonkey/KiWiBrowser + Android
-  
+*   **Greasemonkey + Waterfox**
+*   **Tampermonkey/Violentmonkey + Firefox**
+*   **Tampermonkey/Violentmonkey + Chrome**
+*   **Userscripts + ios Safari**
+*  **Violentmonkey/KiWiBrowser + Android**
+
+ **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 

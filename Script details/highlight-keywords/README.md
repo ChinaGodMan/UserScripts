@@ -24,7 +24,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy
             Fork</a></p> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -53,7 +53,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 你可能在找⬇️相关脚本
+> ### ⬇️你可能在找相关脚本
 > - [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
 > - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > - [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
@@ -84,12 +84,14 @@
 ## 使用帮助
 
  推荐浏览器和脚本管理器：
-*   Greasemonkey + Waterfox
-*   Tampermonkey/Violentmonkey + Firefox
-*   Tampermonkey/Violentmonkey + Chrome
-*   Userscripts + ios Safari
-*   Violentmonkey/KiWiBrowser + Android
-  
+*   **Greasemonkey + Waterfox**
+*   **Tampermonkey/Violentmonkey + Firefox**
+*   **Tampermonkey/Violentmonkey + Chrome**
+*   **Userscripts + ios Safari**
+*  **Violentmonkey/KiWiBrowser + Android**
+
+ **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 

@@ -31,7 +31,7 @@
 <p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
 <strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details> 
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -94,7 +94,7 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 你可能在找⬇️Google相关脚本
+> ### ⬇️你可能在找Google相关脚本
 > - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
 > - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
 
@@ -106,12 +106,14 @@
 ## 使用帮助
 
  推荐浏览器和脚本管理器：
-*   Greasemonkey + Waterfox
-*   Tampermonkey/Violentmonkey + Firefox
-*   Tampermonkey/Violentmonkey + Chrome
-*   Userscripts + ios Safari
-*   Violentmonkey/KiWiBrowser + Android
-  
+*   **Greasemonkey + Waterfox**
+*   **Tampermonkey/Violentmonkey + Firefox**
+*   **Tampermonkey/Violentmonkey + Chrome**
+*   **Userscripts + ios Safari**
+*  **Violentmonkey/KiWiBrowser + Android**
+
+ **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 
