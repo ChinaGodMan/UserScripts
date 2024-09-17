@@ -348,10 +348,10 @@
             "relatedscripts": "成人脚本",
             "path": "thisav-auto-login-helper.user.js",
             "backuppath": "Script details/thisav-auto-login-helper",
-            "version": "1.0.1.7",
+            "version": "1.0.1.8",
             "GreasyFork": "506528",
             "created_at": "2024-09-03 08:50:59",
-            "code_updated_at": "2024-09-16 08:04:06",
+            "code_updated_at": "2024-09-17 10:18:52",
             "local_created_at": "2024-09-03 08:52:46"
         },
         {
@@ -453,10 +453,10 @@
             "relatedscripts": "自动翻译",
             "path": "translate-only-chinese.user.js",
             "backuppath": "Script details/translate-only-chinese",
-            "version": "0.31.0.22",
+            "version": "0.31.0.23",
             "GreasyFork": "505208",
             "created_at": "2024-08-26 11:37:23",
-            "code_updated_at": "2024-09-16 08:04:06",
+            "code_updated_at": "2024-09-17 10:18:53",
             "local_created_at": "2024-07-27 20:58:34"
         }
     ]
