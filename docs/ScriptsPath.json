@@ -7,10 +7,10 @@
             "relatedscripts": "ChatGPT相关脚本",
             "path": "chatgpt-code-styling.user.js",
             "backuppath": "Script details/chatgpt-code-styling",
-            "version": "0.1.0.22",
+            "version": "0.1.0.23",
             "GreasyFork": "505209",
             "created_at": "2024-08-26 11:42:17",
-            "code_updated_at": "2024-09-11 11:44:37",
+            "code_updated_at": "2024-09-17 10:18:39",
             "local_created_at": "2024-07-27 20:58:35"
         },
         {
@@ -20,10 +20,10 @@
             "relatedscripts": "ChatGPT相关脚本",
             "path": "chatgpt-counter.user.js",
             "backuppath": "Script details/chatgpt-counter",
-            "version": "1.3.1.13",
+            "version": "1.3.1.14",
             "GreasyFork": "506166",
             "created_at": "2024-09-01 09:51:01",
-            "code_updated_at": "2024-09-11 11:44:37",
+            "code_updated_at": "2024-09-17 10:18:39",
             "local_created_at": "2024-09-01 09:45:50"
         },
         {
@@ -33,10 +33,10 @@
             "relatedscripts": "ChatGPT相关脚本",
             "path": "chatgpt-plus.user.js",
             "backuppath": "Script details/chatgpt-plus",
-            "version": "0.2.0.0",
+            "version": "0.2.0.1",
             "GreasyFork": "504901",
             "created_at": "2024-08-24 11:33:58",
-            "code_updated_at": "2024-09-15 11:13:24",
+            "code_updated_at": "2024-09-17 10:18:39",
             "local_created_at": "2024-08-24 11:09:34"
         },
         {
@@ -46,10 +46,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "clipboard-manager.user.js",
             "backuppath": "Script details/clipboard-manager",
-            "version": "1.2.2.72",
+            "version": "1.2.2.73",
             "GreasyFork": "497403",
             "created_at": "2024-06-09 10:17:55",
-            "code_updated_at": "2024-09-11 11:44:38",
+            "code_updated_at": "2024-09-17 10:18:40",
             "local_created_at": "2024-07-27 20:54:00"
         },
         {
@@ -59,10 +59,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "csdn-blocker.user.js",
             "backuppath": "Script details/csdn-blocker",
-            "version": "1.0.0.22",
+            "version": "1.0.0.23",
             "GreasyFork": "505207",
             "created_at": "2024-08-26 11:37:22",
-            "code_updated_at": "2024-09-11 11:44:38",
+            "code_updated_at": "2024-09-17 10:18:40",
             "local_created_at": "2024-07-27 20:58:34"
         },
         {
@@ -72,10 +72,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "colorful-table.user.js",
             "backuppath": "Script details/colorful-table",
-            "version": "1.0.0.8",
+            "version": "1.0.0.9",
             "GreasyFork": "507036",
             "created_at": "2024-09-06 06:08:08",
-            "code_updated_at": "2024-09-11 11:44:38",
+            "code_updated_at": "2024-09-17 10:18:40",
             "local_created_at": "2024-09-06 05:02:49"
         },
         {
@@ -85,10 +85,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-commit-viewer.user.js",
             "backuppath": "Script details/github-commit-viewer",
-            "version": "1.0.0.18",
+            "version": "1.0.0.19",
             "GreasyFork": "505830",
             "created_at": "2024-08-30 10:13:44",
-            "code_updated_at": "2024-09-12 05:56:03",
+            "code_updated_at": "2024-09-17 10:18:41",
             "local_created_at": "2024-08-30 03:21:51"
         },
         {
@@ -98,10 +98,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-file-list-beautifier-plus.user.js",
             "backuppath": "Script details/github-file-list-beautifier-plus",
-            "version": "4.1.0.2",
+            "version": "4.1.0.3",
             "GreasyFork": "508047",
             "created_at": "2024-09-12 11:56:17",
-            "code_updated_at": "2024-09-13 12:49:04",
+            "code_updated_at": "2024-09-17 10:18:41",
             "local_created_at": "2024-9-12 10:39:51"
         },
         {
@@ -111,10 +111,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-folder-downloader.user.js",
             "backuppath": "Script details/github-folder-downloader",
-            "version": "0.7.0.22",
+            "version": "0.7.0.23",
             "GreasyFork": "505496",
             "created_at": "2024-08-28 04:27:35",
-            "code_updated_at": "2024-09-12 05:56:04",
+            "code_updated_at": "2024-09-17 10:18:41",
             "local_created_at": "2024-08-29 06:11:34"
         },
         {
@@ -124,10 +124,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-raw-file-plus.user.js",
             "backuppath": "Script details/github-raw-file-plus",
-            "version": "2.2.0.21",
+            "version": "2.2.0.22",
             "GreasyFork": "505501",
             "created_at": "2024-08-28 05:20:14",
-            "code_updated_at": "2024-09-12 05:56:04",
+            "code_updated_at": "2024-09-17 10:18:42",
             "local_created_at": "2024-08-29 06:11:33"
         },
         {
@@ -137,10 +137,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-repo-size-view.user.js",
             "backuppath": "Script details/github-repo-size-view",
-            "version": "0.1.2.55",
+            "version": "0.1.2.56",
             "GreasyFork": "502291",
             "created_at": "2024-08-01 03:43:19",
-            "code_updated_at": "2024-09-12 05:56:04",
+            "code_updated_at": "2024-09-17 10:18:42",
             "local_created_at": "2024-08-01 00:53:59"
         },
         {
@@ -150,10 +150,10 @@
             "relatedscripts": "GitHub相关脚本",
             "path": "github-sort-by-date.user.js",
             "backuppath": "Script details/github-sort-by-date",
-            "version": "1.1.0.22",
+            "version": "1.1.0.23",
             "GreasyFork": "505218",
             "created_at": "2024-08-26 12:30:53",
-            "code_updated_at": "2024-09-12 05:56:05",
+            "code_updated_at": "2024-09-17 10:18:43",
             "local_created_at": "2024-08-06 01:28:58"
         },
         {
@@ -163,10 +163,10 @@
             "relatedscripts": "Google相关脚本",
             "path": "google-advanced-search.user.js",
             "backuppath": "Script details/google-advanced-search",
-            "version": "0.1.9.44",
+            "version": "0.1.9.45",
             "GreasyFork": "502652",
             "created_at": "2024-08-05 10:28:20",
-            "code_updated_at": "2024-09-11 11:44:41",
+            "code_updated_at": "2024-09-17 10:18:43",
             "local_created_at": "2024-08-06 00:32:20"
         },
         {
@@ -176,10 +176,10 @@
             "relatedscripts": "Google相关脚本",
             "path": "google-block-search-sites.user.js",
             "backuppath": "Script details/google-block-search-sites",
-            "version": "0.0.1.50",
+            "version": "0.0.1.51",
             "GreasyFork": "500262",
             "created_at": "2024-07-11 14:21:02",
-            "code_updated_at": "2024-09-11 11:44:41",
+            "code_updated_at": "2024-09-17 10:18:43",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -189,10 +189,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-link.user.js",
             "backuppath": "Script details/greasyfork-link",
-            "version": "0.9.3.65",
+            "version": "0.9.3.66",
             "GreasyFork": "497317",
             "created_at": "2024-06-08 05:36:47",
-            "code_updated_at": "2024-09-11 11:44:42",
+            "code_updated_at": "2024-09-17 10:18:44",
             "local_created_at": "2024-07-27 20:54:00"
         },
         {
@@ -202,10 +202,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-webhook-sync-enhanced.user.js",
             "backuppath": "Script details/greasyfork-webhook-sync-enhanced",
-            "version": "1.1.1.0",
+            "version": "1.1.1.1",
             "GreasyFork": "506717",
             "created_at": "2024-09-04 12:12:18",
-            "code_updated_at": "2024-09-15 10:53:39",
+            "code_updated_at": "2024-09-17 10:18:47",
             "local_created_at": "2024-09-04 12:08:47"
         },
         {
@@ -215,10 +215,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-markdown-toolbar.user.js",
             "backuppath": "Script details/greasyfork-markdown-toolbar",
-            "version": "2.0.4.23",
+            "version": "2.0.4.24",
             "GreasyFork": "505164",
             "created_at": "2024-08-26 02:12:29",
-            "code_updated_at": "2024-09-11 11:44:42",
+            "code_updated_at": "2024-09-17 10:18:44",
             "local_created_at": "2024-08-06 00:32:53"
         },
         {
@@ -228,10 +228,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-ranks.user.js",
             "backuppath": "Script details/greasyfork-ranks",
-            "version": "1.3.3.62",
+            "version": "1.3.3.63",
             "GreasyFork": "501119",
             "created_at": "2024-07-19 09:44:01",
-            "code_updated_at": "2024-09-11 11:44:42",
+            "code_updated_at": "2024-09-17 10:18:45",
             "local_created_at": "2024-07-27 20:54:00"
         },
         {
@@ -241,10 +241,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-search.user.js",
             "backuppath": "Script details/greasyfork-search",
-            "version": "0.6.5.22",
+            "version": "0.6.5.23",
             "GreasyFork": "505215",
             "created_at": "2024-08-26 12:08:49",
-            "code_updated_at": "2024-09-11 11:44:43",
+            "code_updated_at": "2024-09-17 10:18:45",
             "local_created_at": "2024-07-27 20:58:34"
         },
         {
@@ -254,10 +254,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-user-control-panel-button.user.js",
             "backuppath": "Script details/greasyfork-user-control-panel-button",
-            "version": "0.3.1.56",
+            "version": "0.3.1.57",
             "GreasyFork": "501880",
             "created_at": "2024-07-27 09:34:43",
-            "code_updated_at": "2024-09-11 11:44:43",
+            "code_updated_at": "2024-09-17 10:18:46",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -267,10 +267,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-utility-toolkit.user.js",
             "backuppath": "Script details/greasyfork-utility-toolkit",
-            "version": "2.2.0.90",
+            "version": "2.2.0.91",
             "GreasyFork": "497346",
             "created_at": "2024-06-08 17:06:26",
-            "code_updated_at": "2024-09-11 11:44:43",
+            "code_updated_at": "2024-09-17 10:18:46",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -280,10 +280,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-discussion-watcher.user.js",
             "backuppath": "Script details/greasyfork-discussion-watcher",
-            "version": "1.5.0.0",
+            "version": "1.5.0.1",
             "GreasyFork": "506345",
             "created_at": "2024-09-02 12:36:00",
-            "code_updated_at": "2024-09-12 07:47:40",
+            "code_updated_at": "2024-09-17 10:18:44",
             "local_created_at": "2024-09-02 12:34:55"
         },
         {
@@ -293,10 +293,10 @@
             "relatedscripts": "相关脚本",
             "path": "highlight-keywords.user.js",
             "backuppath": "Script details/highlight-keywords",
-            "version": "1.1.2.71",
+            "version": "1.1.2.72",
             "GreasyFork": "498906",
             "created_at": "2024-06-26 07:05:05",
-            "code_updated_at": "2024-09-11 11:44:45",
+            "code_updated_at": "2024-09-17 10:18:48",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -306,10 +306,10 @@
             "relatedscripts": "相关脚本",
             "path": "highlight-keywords-mini.user.js",
             "backuppath": "Script details/highlight-keywords-mini",
-            "version": "1.0.5.25",
+            "version": "1.0.5.26",
             "GreasyFork": "498905",
             "created_at": "2024-06-26 06:53:12",
-            "code_updated_at": "2024-09-11 11:44:45",
+            "code_updated_at": "2024-09-17 10:18:48",
             "local_created_at": "2024-08-24 06:02:07"
         },
         {
@@ -320,10 +320,10 @@
             "relatedscripts": "成人脚本",
             "path": "missav-auto-login-helper.user.js",
             "backuppath": "Script details/missav-auto-login-helper",
-            "version": "1.0.1.6",
+            "version": "1.0.1.7",
             "GreasyFork": "505325",
             "created_at": "2024-08-27 04:15:17",
-            "code_updated_at": "2024-09-11 11:44:46",
+            "code_updated_at": "2024-09-17 10:18:49",
             "local_created_at": "2024-08-27 02:45:07"
         },
         {
@@ -334,10 +334,10 @@
             "relatedscripts": "成人脚本",
             "path": "missav-explorer.user.js",
             "backuppath": "Script details/missav-explorer",
-            "version": "1.2.3.72",
+            "version": "1.2.3.73",
             "GreasyFork": "497682",
             "created_at": "2024-06-12 10:58:39",
-            "code_updated_at": "2024-09-11 11:44:46",
+            "code_updated_at": "2024-09-17 10:18:49",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -351,7 +351,7 @@
             "version": "1.0.1.7",
             "GreasyFork": "506528",
             "created_at": "2024-09-03 08:50:59",
-            "code_updated_at": "2024-09-11 11:44:50",
+            "code_updated_at": "2024-09-16 08:04:06",
             "local_created_at": "2024-09-03 08:52:46"
         },
         {
@@ -362,10 +362,10 @@
             "relatedscripts": "成人脚本",
             "path": "jable-auto-login-helper.user.js",
             "backuppath": "Script details/jable-auto-login-helper",
-            "version": "1.0.0.9",
+            "version": "1.0.0.10",
             "GreasyFork": "506730",
             "created_at": "2024-09-04 13:43:00",
-            "code_updated_at": "2024-09-11 18:59:53",
+            "code_updated_at": "2024-09-17 10:18:48",
             "local_created_at": "2024-09-04 13:44:42"
         },
         {
@@ -375,10 +375,10 @@
             "relatedscripts": "自动翻译",
             "path": "no-zh-terminator.user.js",
             "backuppath": "Script details/no-zh-terminator",
-            "version": "1.3.98.24",
+            "version": "1.3.98.25",
             "GreasyFork": "504890",
             "created_at": "2024-08-24 10:37:08",
-            "code_updated_at": "2024-09-13 12:38:16",
+            "code_updated_at": "2024-09-17 10:18:50",
             "local_created_at": "2024-07-27 20:58:35"
         },
         {
@@ -388,10 +388,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "popup-window.user.js",
             "backuppath": "Script details/popup-window",
-            "version": "2.5.1.1",
+            "version": "2.5.1.2",
             "GreasyFork": "504880",
             "created_at": "2024-08-24 06:51:35",
-            "code_updated_at": "2024-09-11 11:44:47",
+            "code_updated_at": "2024-09-17 10:18:50",
             "local_created_at": "2024-08-23 07:20:13"
         },
         {
@@ -401,10 +401,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "remove-link-underlines.user.js",
             "backuppath": "Script details/remove-link-underlines",
-            "version": "1.2.0.62",
+            "version": "1.2.0.63",
             "GreasyFork": "498625",
             "created_at": "2024-06-23 11:35:07",
-            "code_updated_at": "2024-09-11 11:44:48",
+            "code_updated_at": "2024-09-17 10:18:50",
             "local_created_at": "2024-07-27 20:54:00"
         },
         {
@@ -414,10 +414,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "script-finder-plus.user.js",
             "backuppath": "Script details/script-finder-plus",
-            "version": "0.1.6.78",
+            "version": "0.1.6.79",
             "GreasyFork": "498904",
             "created_at": "2024-06-26 06:43:47",
-            "code_updated_at": "2024-09-11 11:44:48",
+            "code_updated_at": "2024-09-17 10:18:51",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -427,10 +427,10 @@
             "relatedscripts": "相关脚本",
             "path": "scroll-button.user.js",
             "backuppath": "Script details/scroll-button",
-            "version": "1.0.0.25",
+            "version": "1.0.0.26",
             "GreasyFork": "497251",
             "created_at": "2024-06-07 08:33:17",
-            "code_updated_at": "2024-09-11 11:44:49",
+            "code_updated_at": "2024-09-17 10:18:51",
             "local_created_at": "2024-08-24 06:05:19"
         },
         {
@@ -440,10 +440,10 @@
             "relatedscripts": "相关脚本",
             "path": "scroll-to-top-button.user.js",
             "backuppath": "Script details/scroll-to-top-button",
-            "version": "1.2.0.71",
+            "version": "1.2.0.72",
             "GreasyFork": "500255",
             "created_at": "2024-07-11 13:57:29",
-            "code_updated_at": "2024-09-11 11:44:49",
+            "code_updated_at": "2024-09-17 10:18:52",
             "local_created_at": "2024-07-27 20:54:01"
         },
         {
@@ -456,7 +456,7 @@
             "version": "0.31.0.22",
             "GreasyFork": "505208",
             "created_at": "2024-08-26 11:37:23",
-            "code_updated_at": "2024-09-11 11:44:50",
+            "code_updated_at": "2024-09-16 08:04:06",
             "local_created_at": "2024-07-27 20:58:34"
         }
     ]
