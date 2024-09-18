@@ -87,6 +87,7 @@
 // @compatible     opera
 // @compatible     safari
 // @version         1.0.0.0
+// @match        https://github.com/login/device*
 // @Created         2024-09-18 08:50:32
 // @modified        2024-09-18 08:50:32
 // ==/UserScript==
