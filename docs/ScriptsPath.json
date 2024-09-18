@@ -210,6 +210,19 @@
         },
         {
             "isUpdated": true,
+            "name": "GrreasyFork 用户发布的脚本数据可视化",
+            "description": "使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况",
+            "relatedscripts": "GreasyFork相关脚本",
+            "path": "greasyfork-user-scripts-data-visualization.user.js",
+            "backuppath": "Script details/greasyfork-user-scripts-data-visualization",
+            "version": "0.9.3.66",
+            "GreasyFork": "508968",
+            "created_at": "2024-06-08 05:36:47",
+            "code_updated_at": "2024-09-17 10:18:44",
+            "local_created_at": "2024-09-19 11:22:00"
+        },
+        {
+            "isUpdated": true,
             "name": "GreaysFork 增强 WebHook同步设置",
             "description": "这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。",
             "relatedscripts": "GreasyFork相关脚本",

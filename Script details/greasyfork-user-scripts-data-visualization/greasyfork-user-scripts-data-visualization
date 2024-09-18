@@ -1,3 +1,6 @@
+// ==UserScript==
+// @name                 GrreasyFork User-published script data visualization
+// @description   useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation
 // @name:zh-CN                   GrreasyFork 用户发布的脚本数据可视化
 // @description:zh-CN    使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
 // @name:ar                   GrreasyFork تصور البيانات النصية التي ينشرها المستخدم
@@ -72,3 +75,168 @@
 // @description:zh-HK    使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 // @name:fr-CA                   GrreasyFork Visualisation des données de script publié par l’utilisateur
 // @description:fr-CA    utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
+// @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
+// @namespace   https://github.com/ChinaGodMan/UserScripts
+// @version      1.0.0.0
+// @author       aspen138,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @compatible     chrome
+// @compatible     firefox
+// @compatible     edge
+// @compatible     opera
+// @compatible     safari
+// @match        *://greasyfork.org/*/users/*
+// @grant        none
+// @license      MIT
+// @require      https://cdn.jsdelivr.net/npm/chart.js
+// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL   https://github.com/ChinaGodMan/UserScripts
+// @downloadURL https://update.greasyfork.org/scripts/499755/GrreasyFork%20User%20Script%20Data%20Visualization.user.js
+// @updateURL https://update.greasyfork.org/scripts/499755/GrreasyFork%20User%20Script%20Data%20Visualization.meta.js
+// ==/UserScript==
+(function () {
+    'use strict'
+    let ONPAGE = false //默认向GreasyFork下载用户数据
+    // Function to fetch user data
+    const getUserData = (userID) => {
+        return fetch(`https://${window.location.hostname}/users/${userID}.json`)
+            .then((response) => {
+                console.log(`${response.status}: ${response.url}`)
+                return response.json()
+            })
+            .then((data) => {
+                data.scripts.sort((a, b) => b.total_installs - a.total_installs)
+                return data
+            })
+    }
+    // Function to plot the chart
+    const plotDistribution = (labels, totalInstalls, dailyInstalls) => {
+        const canvasHtml = '<canvas id="installDistributionCanvas" width="100" height="50"></canvas>'
+        const userHeader = document.querySelector('#about-user h2')
+        if (userHeader) {
+            userHeader.insertAdjacentHTML('afterend', canvasHtml)
+            const ctx = document.getElementById('installDistributionCanvas').getContext('2d')
+            // Plot chart
+            new Chart(ctx, {
+                type: 'bar', // Change this to 'line', 'bar', etc. as needed
+                data: {
+                    labels: labels, // X-axis labels
+                    datasets: [{
+                        label: 'Total Installs',
+                        data: totalInstalls, // Y-axis data for Total Installs
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1,
+                        yAxisID: 'y-axis-1', // Associate this dataset with the first y-axis
+                    },
+                    {
+                        label: 'Daily Installs',
+                        data: dailyInstalls, // Y-axis data for Daily Installs
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                        yAxisID: 'y-axis-2', // Associate this dataset with the second y-axis
+                    }
+                    ]
+                },
+                options: {
+                    scales: {
+                        yAxes: [{
+                            id: 'y-axis-1',
+                            type: 'linear',
+                            position: 'left', // This places the first y-axis on the left
+                            beginAtZero: true,
+                        },
+                        {
+                            id: 'y-axis-2',
+                            type: 'linear',
+                            position: 'right', // This places the second y-axis on the right
+                            beginAtZero: true,
+                            grid: {
+                                drawOnChartArea: false, // Ensures grid lines from this axis do not overlap with the first axis
+                            },
+                        }
+                        ]
+                    }
+                }
+            })
+        }
+    }
+    // Function to display totals
+    const displayTotals = (daily, total, publishedScriptsNumber) => {
+        const userHeader = document.querySelector('#about-user h2')
+        const language = document.documentElement.lang // Get the current language of the document
+        let dailyInstallsText = ''
+        let totalInstallsText = ''
+        // Determine the text based on the current language
+        switch (language) {
+            case 'zh-CN':
+                publishedScriptsNumber = `已发布脚本总数：${publishedScriptsNumber}`
+                dailyInstallsText = `该用户所有脚本的今日总安装次数：${daily}`
+                totalInstallsText = `该用户所有脚本的迄今总安装次数：${total}`
+                break
+            case 'zh-TW':
+                publishedScriptsNumber = `已發布腳本總數：${publishedScriptsNumber}`
+                dailyInstallsText = `該用戶所有腳本的今日總安裝次數：${daily}`
+                totalInstallsText = `該用戶所有腳本的迄今總安裝次數：${total}`
+                break
+            case 'ja':
+                publishedScriptsNumber = `公開されたスクリプトの合計：${publishedScriptsNumber}`
+                dailyInstallsText = `本日の全スクリプトの合計インストール回数：${daily}`
+                totalInstallsText = `全スクリプトの累計インストール回数：${total}`
+                break
+            case 'ko':
+                publishedScriptsNumber = `게시된 스크립트 총 수: ${publishedScriptsNumber}`
+                dailyInstallsText = `해당 사용자의 모든 스크립트에 대한 오늘의 총 설치 횟수: ${daily}`
+                totalInstallsText = `해당 사용자의 모든 스크립트에 대한 총 설치 횟수: ${total}`
+                break
+            default:
+                publishedScriptsNumber = `Number of published scripts: ${publishedScriptsNumber}`
+                dailyInstallsText = `Total daily installations for all scripts: ${daily}`
+                totalInstallsText = `Total installations to date for all scripts: ${total}`
+        }
+        if (userHeader) {
+            userHeader.insertAdjacentHTML('afterend', `
+                <div>${publishedScriptsNumber}</div>
+                <div>${dailyInstallsText}</div>
+                <div>${totalInstallsText}</div>
+            `)
+        }
+    }
+    // Function to fetch data and plot the chart
+    const fetchDataAndPlot = () => {
+
+        if (ONPAGE) {
+            const totalInstalls_selector = '#user-script-list-section dd.script-list-total-installs > span'
+            const dailyInstalls_selector = '#user-script-list-section dd.script-list-daily-installs > span'
+            const scriptTitle_selector = '#user-script-list-section article > h2 > a.script-link'
+            const labels = Array.from(document.querySelectorAll(scriptTitle_selector)).map(el => el.text)
+            const totalInstalls = Array.from(document.querySelectorAll(totalInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
+            const dailyInstalls = Array.from(document.querySelectorAll(dailyInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
+            const totalDailyInstalls = dailyInstalls.reduce((sum, current) => sum + current, 0)
+            const totalTotalInstalls = totalInstalls.reduce((sum, current) => sum + current, 0)
+            const publishedScriptsNumber = totalInstalls.length
+            plotDistribution(labels, totalInstalls, dailyInstalls)
+            displayTotals(totalDailyInstalls, totalTotalInstalls, publishedScriptsNumber)
+            return
+        }
+        const currentURL = window.location.href
+        const userIDMatch = currentURL.match(/(\d+)/)
+        const userID = userIDMatch ? userIDMatch[1] : null
+        getUserData(userID)
+            .then((data) => {
+                //console.log("data=", data);
+                const scripts = data.all_listable_scripts || data.scripts || []
+                const filteredScripts = scripts.filter(script => !script.deleted)
+                const labels = filteredScripts.map(script => script.name)
+                const totalInstalls = filteredScripts.map(script => script.total_installs)
+                const dailyInstalls = filteredScripts.map(script => script.daily_installs)
+                const totalDailyInstalls = dailyInstalls.reduce((sum, value) => sum + value, 0)
+                const totalTotalInstalls = totalInstalls.reduce((sum, value) => sum + value, 0)
+                const publishedScriptsNumber = filteredScripts.length
+                plotDistribution(labels, totalInstalls, dailyInstalls)
+                displayTotals(totalDailyInstalls, totalTotalInstalls, publishedScriptsNumber)
+            })
+            .catch((error) => console.error('Error fetching user data:', error))
+    }
+    fetchDataAndPlot()
+})()
