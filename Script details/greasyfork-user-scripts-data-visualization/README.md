@@ -90,7 +90,7 @@
 
 该脚本遵循 MIT 许可证。有关详细信息，请查看 [LICENSE](https://github.com/ChinaGodMan/UserScripts/blob/main/LICENSE) 文件。
 
-![Snipaste_2024-09-18_11-25-20.png](https://s2.loli.net/2024/09/18/Qixhtq13b4lMwIF.png)
+![png](https://s2.loli.net/2024/09/18/Qixhtq13b4lMwIF.png)
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
