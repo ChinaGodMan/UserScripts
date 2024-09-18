@@ -91,7 +91,6 @@
 // @Created         2024-09-18 08:50:32
 // @modified        2024-09-18 08:50:32
 // ==/UserScript==
-
 (function () {
     'use strict'
     function waitForElement(selector, delay = 50, maxAttempts = 20) {
