@@ -94,7 +94,7 @@
 // ==/UserScript==
 (function () {
     'use strict'
-    let ONPAGE = false //默认向GreasyFork下载用户数据
+    let ONPAGE = false //默认向GreasyFork下载用户数据,为true时从当前访问的页面获取
     // Function to fetch user data
     const injectChartJs = () => {
         const userHeader = document.querySelector('#about-user h2')
