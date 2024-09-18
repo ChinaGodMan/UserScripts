@@ -149,7 +149,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -233,7 +233,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -366,7 +366,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示する</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
@@ -401,7 +401,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -457,7 +457,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -502,6 +502,34 @@
             <td><sub>2024-09-17 10:18:44</sub></td>
              <td><sub>0.9.3.66</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork ユーザーが公開したスクリプト データの視覚化</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>使用Chart.jsユーザースクリプトデータの取得と可視化，また、ユーザーの個人ホームページ上にチャートを生成し、以下の詳細なインストール状況を表示します。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508968.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508968?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
     <tr>
             <td>
@@ -877,7 +905,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の文字を認識する，長さがそれより大きい場合 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
+            <td>中国語以外の文字を認識する，長さがそれより長い場合は、 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -1045,7 +1073,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）を追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
+            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1075,16 +1103,16 @@
 
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
+- フォームをクリック **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
 - もし Github アクセス速度が遅すぎる，クリックするか選択できますGreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 
 > [!IMPORTANT]
 > 
 > - _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
-> - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
+> - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正常に動作しない**脚本。_
 > - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 ## 🌐 ブラウザとスクリプトマネージャー

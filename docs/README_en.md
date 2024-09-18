@@ -149,7 +149,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -261,7 +261,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
+            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -289,7 +289,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</td>
+            <td>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -429,7 +429,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -502,6 +502,34 @@
             <td><sub>2024-09-17 10:18:44</sub></td>
              <td><sub>0.9.3.66</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork User-published script data visualization</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization" target="_blank">
+                    <mark>detailed</mark>
+                </a>
+            </td>
+            <td>useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
+                    <br>Install
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508968.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508968?color=%23990000&label=Installs">
+                    <br>Install
+                </a>
+            </td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
     <tr>
             <td>
@@ -625,7 +653,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -1075,7 +1103,7 @@
 
 To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
+- Click on form **\[Install\]** Directly pop up the script manager installation interface。
 - if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
