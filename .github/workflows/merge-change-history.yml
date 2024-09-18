@@ -66,7 +66,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m "⬇️集中修改readme.md" \
+          git commit -m "集中修改脚本[*.md]文件" \
                       -m "合并日志→Script details/**/Change history/README.md → Script details/**/*.md" \
                       -m "刷新徽章→pythonscr/更新小徽章/NewImgIcon.md → Script details/**/*.md" \
                       -m "刷新帮助→pythonscr/update-help/NewUserScriptslist.md → Script details/**/*.md" \
