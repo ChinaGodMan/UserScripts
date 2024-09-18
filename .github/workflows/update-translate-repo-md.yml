@@ -49,7 +49,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m 'GoogleTranslate→docs/README.md→[docs/README_xx.md {vi,ko,en,jp}]' || echo "没有需要提交的更改"
+          git commit -m '仓库自述文件更新：\n\nGoogleTranslate→docs/README.md→[docs/README_xx.md {vi,ko,en,jp,zh-TW}]' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
