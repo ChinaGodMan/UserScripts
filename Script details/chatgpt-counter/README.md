@@ -25,7 +25,7 @@
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 字符计数器 更新日志</strong></h1>
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
-<p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题。</p>
+<p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
@@ -50,7 +50,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### ⬇️你可能在找ChatGPT相关脚本
+> ### 🔍你可能在找ChatGPT相关脚本
 > - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
 > - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
 > - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
