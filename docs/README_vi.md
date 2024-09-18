@@ -282,6 +282,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub Tự động xác nhận ủy quyền thiết bị</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization" target="_blank">
+                    <mark>chi tiết</mark>
+                </a>
+            </td>
+            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
+                    <br>Cài đặt
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508047.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508047?color=%23990000&label=Installs">
+                    <br>Cài đặt
+                </a>
+            </td>
+            <td><sub>2024-09-12 11:56:17</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>4.1.0.3</sub></td>
+              <td><sub>2024-09-18 08:50:32</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHubTải xuống thư mục</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>

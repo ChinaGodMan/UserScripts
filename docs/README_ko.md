@@ -282,6 +282,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 장치 승인 자동 확인</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization" target="_blank">
+                    <mark>상세한</mark>
+                </a>
+            </td>
+            <td>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
+                    <br>설치하다
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508047.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508047?color=%23990000&label=Installs">
+                    <br>설치하다
+                </a>
+            </td>
+            <td><sub>2024-09-12 11:56:17</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>4.1.0.3</sub></td>
+              <td><sub>2024-09-18 08:50:32</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub폴더 다운로드</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>

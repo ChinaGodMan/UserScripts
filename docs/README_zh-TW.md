@@ -282,6 +282,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 自動確認設備授權</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization" target="_blank">
+                    <mark>詳細</mark>
+                </a>
+            </td>
+            <td>在GitHub授權頁面自動輸入授權碼與自動確認。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
+                    <br>安裝
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508047.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508047?color=%23990000&label=Installs">
+                    <br>安裝
+                </a>
+            </td>
+            <td><sub>2024-09-12 11:56:17</sub></td>
+            <td><sub>2024-09-17 10:18:41</sub></td>
+             <td><sub>4.1.0.3</sub></td>
+              <td><sub>2024-09-18 08:50:32</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub資料夾下載</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>
