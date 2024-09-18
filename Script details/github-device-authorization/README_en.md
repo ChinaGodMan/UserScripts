@@ -30,6 +30,52 @@
 </div></center>
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 
+# GitHub Automatic Device Authorization
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Overview
+
+This user script aims to simplify the process on the GitHub authorization page by automatically filling in the authorization code and confirming the action, reducing the need for manual intervention. This script is particularly useful in scenarios where direct browser interaction is not possible, such as automated testing or remote operations.
+(This is a personal script for convenience during portable use.)
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Features
+
+- **Automatic Code Filling**: Reads the authorization code from the clipboard and automatically fills it into the corresponding input fields on the authorization page.
+- **Automatic Submission**: Automatically clicks the confirm button on the authorization page.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Installation and Usage
+
+1. **Installation**: Click the green install button above to install the script.
+2. **Usage**:
+   - The script will run automatically when you visit the GitHub device authorization page.
+   - The script will read the authorization code from the clipboard, automatically fill out the form, and submit it.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Script Functionality
+
+- **Automatic Code Filling**: The script waits for the page to load, then reads the authorization code from the clipboard, splits it, and fills it into the appropriate input fields.
+- **Automatic Submission**: On the confirmation page, the script will automatically click the confirm button to complete the authorization process.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Notes
+
+- Ensure that the clipboard contains a correctly formatted authorization code (e.g., `XXXX-XXXX`).
+- The script may need some time to recognize page elements and fill out the form, so please give it enough time to execute.
+
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Thanks
+
+Thanks to [LemonPupl](https://greasyfork.org/zh-CN/users/1274376) for the script [GitHub Copilot automatically obtains GHU](https://greasyfork.org/scripts/489793).
+
+
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
