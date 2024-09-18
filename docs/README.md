@@ -506,6 +506,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork 用户发布的脚本数据可视化</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/508968.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508968?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+            <td><sub>2024-09-18 11:41:12</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-19 11:22:00</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 增强 WebHook同步设置</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
