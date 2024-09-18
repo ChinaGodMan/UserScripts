@@ -87,7 +87,6 @@
 // @match        *://greasyfork.org/*/users/*
 // @grant        none
 // @license      MIT
-// @require      https://cdn.jsdelivr.net/npm/chart.js
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @downloadURL https://update.greasyfork.org/scripts/499755/GrreasyFork%20User%20Script%20Data%20Visualization.user.js
@@ -97,6 +96,15 @@
     'use strict'
     let ONPAGE = false //默认向GreasyFork下载用户数据
     // Function to fetch user data
+    const injectChartJs = () => {
+        const userHeader = document.querySelector('#about-user h2')
+        if (!userHeader) return
+
+        const script = document.createElement('script')
+        script.src = 'https://cdn.jsdelivr.net/npm/chart.js'
+        script.onload = () => fetchDataAndPlot() // Fetch data and plot chart once Chart.js is loaded
+        document.head.appendChild(script)
+    }
     const getUserData = (userID) => {
         return fetch(`https://${window.location.hostname}/users/${userID}.json`)
             .then((response) => {
@@ -238,5 +246,5 @@
             })
             .catch((error) => console.error('Error fetching user data:', error))
     }
-    fetchDataAndPlot()
+    injectChartJs()
 })()
