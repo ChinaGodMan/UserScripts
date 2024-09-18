@@ -282,7 +282,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 自动确认设备授权</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub 自动确认设备授权</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization" target="_blank">
@@ -297,14 +297,14 @@
                 </a>
             </td>
             <td>
-                <a href="https://update.greasyfork.org/scripts/508047.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/508047?color=%23990000&label=Installs">
+                <a href="https://update.greasyfork.org/scripts/508956.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/508956?color=%23990000&label=Installs">
                     <br>安装
                 </a>
             </td>
-            <td><sub>2024-09-12 11:56:17</sub></td>
-            <td><sub>2024-09-17 10:18:41</sub></td>
-             <td><sub>4.1.0.3</sub></td>
+            <td><sub>2024-09-18 09:12:31</sub></td>
+            <td><sub>2024-09-18 09:16:03</sub></td>
+             <td><sub>1.0.0.0</sub></td>
               <td><sub>2024-09-18 08:50:32</sub></td>
         </tr>
     <tr>
