@@ -159,6 +159,15 @@
                             position: 'right',// This places the second y-axis on the right
                             beginAtZero: true,
 
+                        }, x: {
+                            ticks: {
+                                maxRotation: 60,
+                                minRotation: 60,
+                                callback: function (value) {
+                                    const label = this.getLabelForValue(value)
+                                    return label.split(' ').join('\n')
+                                },
+                            }
                         }
                     },
                     plugins: {
