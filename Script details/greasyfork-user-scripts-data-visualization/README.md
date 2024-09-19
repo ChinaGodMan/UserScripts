@@ -23,6 +23,31 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️   GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
+<h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
+<p><strong>修复</strong>: • 修复图表一些问题<br></p>
+<table>
+<thead>
+<tr>
+<th>修改前</th>
+<th>修改后</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
+<td><img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
+</tr>
+<tr>
+<td><img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
+<td><img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h3><strong>📅 2024-09-18 11:01:32- Ver 1.0.0.0</strong></h3>
 <p><strong>增加</strong>: •增加了原作者<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>另外脚本<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>里面的从当前网页获取用户数据,可以在脚本内或者脚本菜单中设置从JSON数据获取还是从当前页面获取脚本数据默认向GreasyFrok下载用户数据<br>
 <strong>修改</strong>: •~~修改<code>chart.js</code>为@require 加载,无需每次重复加载~~Greasyfork不允许使用未经批准的外部脚本<br>
