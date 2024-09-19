@@ -77,7 +77,7 @@
 // @description:fr-CA    utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
 // @namespace   https://github.com/ChinaGodMan/UserScripts
-// @version      1.0.0.0
+// @version      1.1.0.0
 // @author       aspen138,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @compatible     chrome
 // @compatible     firefox
@@ -94,7 +94,7 @@
 // ==/UserScript==
 (function () {
     'use strict'
-    let ONPAGE = false //默认向GreasyFork下载用户数据,为true时从当前访问的页面获取
+    let ONPAGE = true //默认向GreasyFork下载用户数据,为true时从当前访问的页面获取
     // Function to fetch user data
     const injectChartJs = () => {
         const userHeader = document.querySelector('#about-user h2')
@@ -123,18 +123,19 @@
         if (userHeader) {
             userHeader.insertAdjacentHTML('afterend', canvasHtml)
             const ctx = document.getElementById('installDistributionCanvas').getContext('2d')
+
             // Plot chart
-            new Chart(ctx, {
-                type: 'bar', // Change this to 'line', 'bar', etc. as needed
+            const chart = new Chart(ctx, {
+                type: 'bar',  // Change this to 'line', 'bar', etc. as needed
                 data: {
-                    labels: labels, // X-axis labels
+                    labels: labels,  // X-axis labels
                     datasets: [{
                         label: 'Total Installs',
-                        data: totalInstalls, // Y-axis data for Total Installs
+                        data: totalInstalls,  // Y-axis data for Total Installs
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
                         borderColor: 'rgba(54, 162, 235, 1)',
                         borderWidth: 1,
-                        yAxisID: 'y-axis-1', // Associate this dataset with the first y-axis
+                        yAxisID: 'y-axis-1',// Associate this dataset with the first y-axis
                     },
                     {
                         label: 'Daily Installs',
@@ -142,33 +143,50 @@
                         backgroundColor: 'rgba(255, 99, 132, 0.2)',
                         borderColor: 'rgba(255, 99, 132, 1)',
                         borderWidth: 1,
-                        yAxisID: 'y-axis-2', // Associate this dataset with the second y-axis
-                    }
-                    ]
+                        yAxisID: 'y-axis-2',// Associate this dataset with the second y-axis
+                    }]
                 },
                 options: {
                     scales: {
-                        yAxes: [{
-                            id: 'y-axis-1',
+                        'y-axis-1': {
                             type: 'linear',
                             position: 'left', // This places the first y-axis on the left
                             beginAtZero: true,
+
                         },
-                        {
-                            id: 'y-axis-2',
+                        'y-axis-2': {
                             type: 'linear',
-                            position: 'right', // This places the second y-axis on the right
+                            position: 'right',// This places the second y-axis on the right
                             beginAtZero: true,
-                            grid: {
-                                drawOnChartArea: false, // Ensures grid lines from this axis do not overlap with the first axis
-                            },
+
                         }
-                        ]
+                    },
+                    plugins: {
+                        legend: {
+                            onClick: (e, legendItem, legend) => {
+                                // 获取当前数据集
+                                const datasetIndex = legendItem.datasetIndex
+                                const dataset = chart.data.datasets[datasetIndex]
+
+                                // 切换数据集的显示状态
+                                dataset.hidden = !dataset.hidden
+
+                                // 更新 Y 轴显示状态
+                                chart.options.scales['y-axis-1'].display = chart.data.datasets.some(ds => ds.yAxisID === 'y-axis-1' && !ds.hidden)
+                                chart.options.scales['y-axis-2'].display = chart.data.datasets.some(ds => ds.yAxisID === 'y-axis-2' && !ds.hidden)
+
+                                // 更新图表
+                                chart.update()
+                            }
+                        }
                     }
                 }
             })
+
         }
     }
+
+
     // Function to display totals
     const displayTotals = (daily, total, publishedScriptsNumber) => {
         const userHeader = document.querySelector('#about-user h2')

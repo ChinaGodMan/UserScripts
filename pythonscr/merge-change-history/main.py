@@ -41,7 +41,7 @@ def md_to_html(md_file):
         md_text = f.read()
 
     # 将 Markdown 转换为 HTML
-    html_text = markdown.markdown(md_text)
+    html_text = markdown.markdown(md_text, extensions=['tables'])
 
     # 返回 HTML 文本字符串
     return html_text

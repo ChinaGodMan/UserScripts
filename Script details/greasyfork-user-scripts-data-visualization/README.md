@@ -90,6 +90,15 @@
 
 该脚本遵循 MIT 许可证。有关详细信息，请查看 [LICENSE](https://github.com/ChinaGodMan/UserScripts/blob/main/LICENSE) 文件。
 
+**修正每日安装统计在右边,切换总安装/日安装时图表轴显示问题**
+
+
+| 修改前                                                            | 修改后                                                            |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+|                                                                   |
+| ![修改前.png](https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png) | ![修改后.png](https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png) |
+| ![修改前.gif](https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif) | ![修改后.gif](https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif) |
+
 ![png](https://s2.loli.net/2024/09/18/Qixhtq13b4lMwIF.png)
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
