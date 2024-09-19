@@ -77,7 +77,7 @@
 // @description:fr-CA    utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
 // @namespace   https://github.com/ChinaGodMan/UserScripts
-// @version      1.1.0.0
+// @version      1.1.1.0
 // @author       aspen138,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @compatible     chrome
 // @compatible     firefox
@@ -99,11 +99,24 @@
     const injectChartJs = () => {
         const userHeader = document.querySelector('#about-user h2')
         if (!userHeader) return
-
-        const script = document.createElement('script')
-        script.src = 'https://cdn.jsdelivr.net/npm/chart.js'
-        script.onload = () => fetchDataAndPlot() // Fetch data and plot chart once Chart.js is loaded
-        document.head.appendChild(script)
+        const loadChartJs = (library) => {
+            const script = document.createElement('script')
+            script.textContent = library
+            document.head.appendChild(script)
+            fetchDataAndPlot()
+        }
+        const chartJsFromStorage = localStorage.getItem('chartJsLibrary')
+        if (chartJsFromStorage) {
+            loadChartJs(chartJsFromStorage)
+        } else {
+            fetch('https://cdn.jsdelivr.net/npm/chart.js')
+                .then(response => response.text())
+                .then(library => {
+                    localStorage.setItem('chartJsLibrary', library)
+                    loadChartJs(library)
+                })
+                .catch(error => console.error('Chart.js 加载失败: ', error))
+        }
     }
     const getUserData = (userID) => {
         return fetch(`https://${window.location.hostname}/users/${userID}.json`)
@@ -123,7 +136,6 @@
         if (userHeader) {
             userHeader.insertAdjacentHTML('afterend', canvasHtml)
             const ctx = document.getElementById('installDistributionCanvas').getContext('2d')
-
             // Plot chart
             const chart = new Chart(ctx, {
                 type: 'bar',  // Change this to 'line', 'bar', etc. as needed
@@ -152,13 +164,11 @@
                             type: 'linear',
                             position: 'left', // This places the first y-axis on the left
                             beginAtZero: true,
-
                         },
                         'y-axis-2': {
                             type: 'linear',
                             position: 'right',// This places the second y-axis on the right
                             beginAtZero: true,
-
                         }, x: {
                             ticks: {
                                 maxRotation: 60,
@@ -176,14 +186,11 @@
                                 // 获取当前数据集
                                 const datasetIndex = legendItem.datasetIndex
                                 const dataset = chart.data.datasets[datasetIndex]
-
                                 // 切换数据集的显示状态
                                 dataset.hidden = !dataset.hidden
-
                                 // 更新 Y 轴显示状态
                                 chart.options.scales['y-axis-1'].display = chart.data.datasets.some(ds => ds.yAxisID === 'y-axis-1' && !ds.hidden)
                                 chart.options.scales['y-axis-2'].display = chart.data.datasets.some(ds => ds.yAxisID === 'y-axis-2' && !ds.hidden)
-
                                 // 更新图表
                                 chart.update()
                             }
@@ -191,11 +198,8 @@
                     }
                 }
             })
-
         }
     }
-
-
     // Function to display totals
     const displayTotals = (daily, total, publishedScriptsNumber) => {
         const userHeader = document.querySelector('#about-user h2')
@@ -239,7 +243,6 @@
     }
     // Function to fetch data and plot the chart
     const fetchDataAndPlot = () => {
-
         if (ONPAGE) {
             const totalInstalls_selector = '#user-script-list-section dd.script-list-total-installs > span'
             const dailyInstalls_selector = '#user-script-list-section dd.script-list-daily-installs > span'
