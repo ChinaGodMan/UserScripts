@@ -23,6 +23,9 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️   GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
+<h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
+<p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
+<hr />
 <h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
 <p><strong>修复</strong>: • 修复图表一些问题<br></p>
 <table>
