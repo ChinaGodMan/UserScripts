@@ -59,6 +59,7 @@ translation_cache = {
     "所有好评": ("issues", True) ,
     "星标": ("issues", True) ,
     "脚本数量": ("issues", True) ,
+    "代码质量": ("issues", True) ,
     # 可以继续添加其他常见的翻译
 }
 def translate_text_s(text, target_lang):#不操作

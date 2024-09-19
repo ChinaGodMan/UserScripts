@@ -37,7 +37,7 @@ chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 translation_cache = {
     "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值
     "问题": ("issues", False) ,
-    "所有脚本总安装数": ("issues", True) ,
+    "所有脚本总安装数": ("issues", True) ,#需要翻译,且需要URL编码
     "今日所有脚本安装数": ("issues", True) ,
     "所有一般": ("issues", True) ,
     "联系": ("issues", True) ,
@@ -45,6 +45,7 @@ translation_cache = {
     "所有好评": ("issues", True) ,
     "星标": ("issues", True) ,
     "脚本数量": ("issues", True) ,
+    "代码质量": ("issues", True) ,
     # 可以继续添加其他常见的翻译
 }
 
@@ -205,7 +206,7 @@ def translate_readme(data, json_data):
             continue
         if is_file_updated_more_than(readme_path, 5):
                      print(f"跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
-                     continue
+                     #continue
         # 读取文件内容
         lines = read_file_to_memory(readme_path, json_data)
 
