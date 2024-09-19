@@ -77,7 +77,7 @@
 // @description:fr-CA    utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
 // @namespace   https://github.com/ChinaGodMan/UserScripts
-// @version      1.1.1.0
+// @version      1.1.1.1
 // @author       aspen138,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @compatible     chrome
 // @compatible     firefox
@@ -89,12 +89,13 @@
 // @license      MIT
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-// @downloadURL https://update.greasyfork.org/scripts/499755/GrreasyFork%20User%20Script%20Data%20Visualization.user.js
-// @updateURL https://update.greasyfork.org/scripts/499755/GrreasyFork%20User%20Script%20Data%20Visualization.meta.js
+// @downloadURL https://update.greasyfork.org/scripts/508968/GrreasyFork%20User-published%20script%20data%20visualization.user.js
+// @updateURL https://update.greasyfork.org/scripts/508968/GrreasyFork%20User-published%20script%20data%20visualization.meta.js
 // ==/UserScript==
 (function () {
     'use strict'
-    let ONPAGE = true //默认向GreasyFork下载用户数据,为true时从当前访问的页面获取
+    let ONPAGE = true//默认向GreasyFork下载用户数据,为true时从当前访问的页面获取
+    let OPENLINK = 1 //点击柱,跳转到脚本网址.0 不跳转,1跳转前有提示,2直接跳转
     // Function to fetch user data
     const injectChartJs = () => {
         const userHeader = document.querySelector('#about-user h2')
@@ -129,8 +130,8 @@
                 return data
             })
     }
-    // Function to plot the chart
-    const plotDistribution = (labels, totalInstalls, dailyInstalls) => {
+    // Function to plot the chart  console.log()
+    const plotDistribution = (labels, totalInstalls, dailyInstalls, links, updateds, createds) => {
         const canvasHtml = '<canvas id="installDistributionCanvas" width="100" height="50"></canvas>'
         const userHeader = document.querySelector('#about-user h2')
         if (userHeader) {
@@ -164,20 +165,44 @@
                             type: 'linear',
                             position: 'left', // This places the first y-axis on the left
                             beginAtZero: true,
+                            ticks: {
+                                color: 'rgba(54, 162, 235, 1)'
+                            },
                         },
                         'y-axis-2': {
                             type: 'linear',
                             position: 'right',// This places the second y-axis on the right
                             beginAtZero: true,
-                        }, x: {
                             ticks: {
-                                maxRotation: 60,
-                                minRotation: 60,
-                                callback: function (value) {
-                                    const label = this.getLabelForValue(value)
-                                    return label.split(' ').join('\n')
-                                },
+                                color: 'rgba(255, 99, 132, 1)'
                             }
+                        }, x: {
+                            grid: {
+                                display: false
+                            },
+                            /*     ticks: {
+                                    color: 'blue',
+                                    maxRotation: 60,
+                                    minRotation: 60,
+                                    callback: function (value) {
+                                        const label = this.getLabelForValue(value)
+                                        if (label.length > 15) {
+                                            return label.substring(0, 10) + '...'
+                                        }
+                                        return label.split(' ').join('\n')
+                                    },
+                                } */
+                        }
+                    }, onClick: function (evt, activeElements) {
+                        if (activeElements.length > 0) {
+                            const element = activeElements[0]
+                            const datasetIndex = element.datasetIndex
+                            const dataIndex = element.index
+                            const label = chart.data.labels[dataIndex]
+                            const value = chart.data.datasets[datasetIndex].data[dataIndex]
+                            console.log(`点击\nLabel: ${label}\nValue: ${value}\nLink: ${links[dataIndex]}`)
+                            if (OPENLINK === 1 && !confirm(`Open:  ${label}?`)) return
+                            if (OPENLINK !== 0) window.open(links[dataIndex], '_blank')
                         }
                     },
                     plugins: {
@@ -194,11 +219,28 @@
                                 // 更新图表
                                 chart.update()
                             }
+                        }, tooltip: {
+                            callbacks: {
+                                label: function (tooltipItem) {
+                                    const label = tooltipItem.dataset.label || ''
+                                    const value = tooltipItem.raw
+                                    return `${label}: ${value}`
+                                },
+                                afterBody: function (tooltipItem) {
+                                    const index = tooltipItem[0].dataIndex
+                                    const extraInfo = `\n📅${toSystemTime(createds[index])}\n⏰${toSystemTime(updateds[index])}`
+                                    return extraInfo
+                                }
+                            },
                         }
                     }
                 }
             })
         }
+    }
+    function toSystemTime(isoTime) {
+        let date = new Date(isoTime)
+        return date.toLocaleString()
     }
     // Function to display totals
     const displayTotals = (daily, total, publishedScriptsNumber) => {
@@ -247,13 +289,19 @@
             const totalInstalls_selector = '#user-script-list-section dd.script-list-total-installs > span'
             const dailyInstalls_selector = '#user-script-list-section dd.script-list-daily-installs > span'
             const scriptTitle_selector = '#user-script-list-section article > h2 > a.script-link'
+            const links = Array.from(document.querySelectorAll(scriptTitle_selector)).map(el => el.href)
+            if (!links.length) return
             const labels = Array.from(document.querySelectorAll(scriptTitle_selector)).map(el => el.text)
+            const updateds = Array.from(document.querySelectorAll("#user-script-list-section dd.script-list-updated-date > span"))
+                .map(span => span.querySelector("relative-time")?.getAttribute("datetime"))
+            const createds = Array.from(document.querySelectorAll("#user-script-list-section dd.script-list-created-date > span"))
+                .map(span => span.querySelector("relative-time")?.getAttribute("datetime"))
             const totalInstalls = Array.from(document.querySelectorAll(totalInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
             const dailyInstalls = Array.from(document.querySelectorAll(dailyInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
             const totalDailyInstalls = dailyInstalls.reduce((sum, current) => sum + current, 0)
             const totalTotalInstalls = totalInstalls.reduce((sum, current) => sum + current, 0)
             const publishedScriptsNumber = totalInstalls.length
-            plotDistribution(labels, totalInstalls, dailyInstalls)
+            plotDistribution(labels, totalInstalls, dailyInstalls, links, updateds, createds)
             displayTotals(totalDailyInstalls, totalTotalInstalls, publishedScriptsNumber)
             return
         }
@@ -264,14 +312,22 @@
             .then((data) => {
                 //console.log("data=", data);
                 const scripts = data.all_listable_scripts || data.scripts || []
-                const filteredScripts = scripts.filter(script => !script.deleted)
+                //const filteredScripts = scripts.filter(script => !script.deleted)
+                const filteredScripts = scripts.filter(script =>
+                    !script.deleted &&
+                    (script.code_url.includes('.user.js') || script.code_url.includes('.user.css'))
+                )//在当前已登录账户的个人主页屏蔽删除掉的脚本与排除.js库文件
                 const labels = filteredScripts.map(script => script.name)
+                const links = filteredScripts.map(script => script.url)
+                if (!links.length) return
+                const updateds = filteredScripts.map(script => script.code_updated_at)
+                const createds = filteredScripts.map(script => script.created_at)
                 const totalInstalls = filteredScripts.map(script => script.total_installs)
                 const dailyInstalls = filteredScripts.map(script => script.daily_installs)
                 const totalDailyInstalls = dailyInstalls.reduce((sum, value) => sum + value, 0)
                 const totalTotalInstalls = totalInstalls.reduce((sum, value) => sum + value, 0)
                 const publishedScriptsNumber = filteredScripts.length
-                plotDistribution(labels, totalInstalls, dailyInstalls)
+                plotDistribution(labels, totalInstalls, dailyInstalls, links, updateds, createds)
                 displayTotals(totalDailyInstalls, totalTotalInstalls, publishedScriptsNumber)
             })
             .catch((error) => console.error('Error fetching user data:', error))
