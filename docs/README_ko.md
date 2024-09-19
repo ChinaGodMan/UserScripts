@@ -93,7 +93,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>添加一캐릭터计数器到输入框，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</td>
+            <td>添加一문자计数器到输入框，로 제한됨 32732 문자。（ChatGPT 한도는 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -527,8 +527,8 @@
                 </a>
             </td>
             <td><sub>2024-09-18 11:41:12</sub></td>
-            <td><sub>2024-09-19 08:29:54</sub></td>
-             <td><sub>1.1.0.0</sub></td>
+            <td><sub>2024-09-19 12:59:07</sub></td>
+             <td><sub>1.1.1.0</sub></td>
               <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
     <tr>
@@ -541,7 +541,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
+            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -1104,11 +1104,11 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 - 양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
-- 만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+- 만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 
 > [!IMPORTANT]
 > 
-> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
 > - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
