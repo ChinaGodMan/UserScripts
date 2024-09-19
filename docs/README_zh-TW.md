@@ -513,7 +513,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況</td>
+            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
@@ -625,7 +625,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 </td>
+            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
