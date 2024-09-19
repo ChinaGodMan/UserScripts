@@ -23,6 +23,27 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️   GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
+<h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
+<p><strong>新增</strong>: •增加自己使用的一些小功能.<code>表格显示创建与更新日期</code>  <code>Y轴数值高亮</code> <code>点击柱状图跳转对应脚本</code> 脚本中的<code>OPENLINK</code> 为<code>0</code>不跳转,<code>1</code>跳转前有提示,<code>2</code>直接跳转</p>
+<table>
+<thead>
+<tr>
+<th>新增</th>
+<th>新增演示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /></td>
+<td><img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
 <p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
 <hr />
