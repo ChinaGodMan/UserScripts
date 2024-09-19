@@ -215,10 +215,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-user-scripts-data-visualization.user.js",
             "backuppath": "Script details/greasyfork-user-scripts-data-visualization",
-            "version": "1.1.0.0",
+            "version": "1.1.1.0",
             "GreasyFork": "508968",
             "created_at": "2024-09-18 11:41:12",
-            "code_updated_at": "2024-09-19 08:29:54",
+            "code_updated_at": "2024-09-19 12:59:07",
             "local_created_at": "2024-09-19 11:22:00"
         },
         {
