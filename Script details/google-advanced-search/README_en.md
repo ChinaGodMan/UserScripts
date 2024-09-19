@@ -88,9 +88,9 @@ The script is modified from the user **[shiquda](https://greasyfork.org/users/93
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相关脚本
-> - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
+> ### 🔍you may be looking forGoogleRelated scripts
+> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。
+> - [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

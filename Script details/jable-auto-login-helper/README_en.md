@@ -64,11 +64,11 @@ This script is used for managing user accounts on JableTV . It provides function
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
-> - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
-> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
-> - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
-> - [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
+> ### 🔍You may be looking for adult scripts
+> - [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
+> - [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
+> - [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
+> - [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

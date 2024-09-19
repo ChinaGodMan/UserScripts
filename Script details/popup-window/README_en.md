@@ -165,12 +165,12 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> ### 🔍You may be looking for web related scripts
+> - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions
+> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
