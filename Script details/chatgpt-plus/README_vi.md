@@ -75,10 +75,10 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmChatGPTTập lệnh liên quan
-> - [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn
-> - [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): 添加一nhân vật计数器到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 个字符。）
-> - [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
+> ### 🔍你可能在找ChatGPT相关脚本
+> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
+> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->

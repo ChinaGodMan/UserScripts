@@ -19,7 +19,7 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>GitHub Sort by Date</h1>
-    <p>「 Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。 」</p>
+    <p>「 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。 」</p>
     <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
@@ -60,14 +60,14 @@ tác giả[androidcn]( https://greasyfork.org/zh-CN/users/18158)kịch bản[Git
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
-> - [**GitHubGửi hiển thị thông tinHTML**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
-> - [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。
-> - [**GitHub Tự động xác nhận ủy quyền thiết bị**](https://greasyfork.org/scripts/508956): hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。
-> - [**GitHubthư mục下载**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub 文件夹。
-> - [**GitHubTải xuống các tập tin đơn lẻ và sao chép các tập tinURL**](https://greasyfork.org/scripts/505501): Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin
-> - [**githubHiển thị kích thước kho**](https://greasyfork.org/scripts/502291): hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。
+> ### 🔍你可能在找GitHub相关脚本
+> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
+> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
+> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> - [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
