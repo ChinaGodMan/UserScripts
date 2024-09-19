@@ -54,7 +54,7 @@ jobs:
           git commit -m "脚本[README{_xx}.md]翻译" \
                       -m "GoogleTranslate→[Script details/**/README{_xx}.md]↓" \
                       -m "[Script details/**/README{_xx}.md]" \
-          || echo "没有需要提交的更改"
+          || echo "没有更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
