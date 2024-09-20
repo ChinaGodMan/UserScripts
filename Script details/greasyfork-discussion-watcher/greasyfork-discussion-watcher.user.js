@@ -90,108 +90,106 @@
 // @modified        2024-09-11 07:52:25
 // ==/UserScript==
 (function () {
-    'use strict'
-    var DEBUG = false
+    "use strict";
+    var DEBUG = false;
     const config = {
-        isInstalled: GM_getValue('Installed', false),//第一次不加载~,
-        lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
-        delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
-        userId: null,//当前登录id
+        isInstalled: GM_getValue("Installed", false), //第一次不加载~,
+        lastUpdated: GM_getValue("lastUpdated", 0), //上次更新时间
+        delay: GM_getValue("delay", "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
+        userId: null, //当前登录id
         userName: null,
-        maxItem: GM_getValue('maxItem', "50"),//访问时显示最大的信息数量
+        maxItem: GM_getValue("maxItem", "50"), //访问时显示最大的信息数量
+    };
 
+    function setRefreshTime() {
+        const currentDelay = config.delay;
+
+        Swal.fire({
+            title: "Set refresh time",
+            input: "text",
+            inputLabel:
+                "New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):",
+            inputValue: currentDelay,
+            showCancelButton: true,
+            inputValidator: (value) => {
+                if (!/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(value)) {
+                    return "The input format is incorrect, please re-enter!";
+                }
+            },
+        }).then((result) => {
+            if (result.isConfirmed) {
+                GM_setValue("delay", result.value);
+                config.delay = result.value;
+            }
+        });
     }
 
+    function setMessageLimit() {
+        const currentMax = config.maxItem;
 
-function setRefreshTime() {
-    const currentDelay = config.delay;
-
-    Swal.fire({
-        title: 'Set refresh time',
-        input: 'text',
-        inputLabel: 'New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):',
-        inputValue: currentDelay,
-        showCancelButton: true,
-        inputValidator: (value) => {
-            if (!/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(value)) {
-                return 'The input format is incorrect, please re-enter!'
+        Swal.fire({
+            title: "Limit message count",
+            input: "number",
+            inputLabel: "New Count:",
+            inputValue: currentMax,
+            showCancelButton: true,
+            inputValidator: (value) => {
+                if (!value || isNaN(value)) {
+                    return "Please enter a valid number!";
+                }
+            },
+        }).then((result) => {
+            if (result.isConfirmed) {
+                GM_setValue("maxItem", result.value);
+                config.maxItem = result.value;
             }
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            GM_setValue('delay', result.value);
-            config.delay = result.value;
-        }
-    });
-}
+        });
+    }
 
-function setMessageLimit() {
-    const currentMax = config.maxItem;
-
-    Swal.fire({
-        title: 'Limit message count',
-        input: 'number',
-        inputLabel: 'New Count:',
-        inputValue: currentMax,
-        showCancelButton: true,
-        inputValidator: (value) => {
-            if (!value || isNaN(value)) {
-                return 'Please enter a valid number!';
-            }
-        }
-    }).then((result) => {
-        if (result.isConfirmed) {
-            GM_setValue('maxItem', result.value);
-            config.maxItem = result.value;
-        }
-    });
-}
-
-
-GM_registerMenuCommand("Set refresh time", setRefreshTime);
-GM_registerMenuCommand("Limit message count", setMessageLimit);
+    GM_registerMenuCommand("Set refresh time", setRefreshTime);
+    GM_registerMenuCommand("Limit message count", setMessageLimit);
 
     function timeToSeconds(timeStr) {
-        let hours = 0, minutes = 0, seconds = 0
-        const hoursMatch = timeStr.match(/(\d+)h/)
-        const minutesMatch = timeStr.match(/(\d+)m/)
-        const secondsMatch = timeStr.match(/(\d+)s/)
+        let hours = 0,
+            minutes = 0,
+            seconds = 0;
+        const hoursMatch = timeStr.match(/(\d+)h/);
+        const minutesMatch = timeStr.match(/(\d+)m/);
+        const secondsMatch = timeStr.match(/(\d+)s/);
         if (hoursMatch) {
-            hours = parseInt(hoursMatch[1], 10)
+            hours = parseInt(hoursMatch[1], 10);
         }
         if (minutesMatch) {
-            minutes = parseInt(minutesMatch[1], 10)
+            minutes = parseInt(minutesMatch[1], 10);
         }
         if (secondsMatch) {
-            seconds = parseInt(secondsMatch[1], 10)
+            seconds = parseInt(secondsMatch[1], 10);
         }
-        let totalSeconds = (hours * 3600) + (minutes * 60) + seconds
-        return totalSeconds
+        let totalSeconds = hours * 3600 + minutes * 60 + seconds;
+        return totalSeconds;
     }
     function isUpdate() {
-
-        const now = Math.floor(new Date().getTime() / 1000)
-        const lastUpdated = config.lastUpdated
-        const secondsDifference = now - lastUpdated
+        const now = Math.floor(new Date().getTime() / 1000);
+        const lastUpdated = config.lastUpdated;
+        const secondsDifference = now - lastUpdated;
         if (secondsDifference > timeToSeconds(config.delay)) {
-            GM_setValue('lastUpdated', now)
-            console.log(`时间超过${config.delay} 进行更新`)
-            return true
+            GM_setValue("lastUpdated", now);
+            console.log(`时间超过${config.delay} 进行更新`);
+            return true;
         }
 
-        return DEBUG
+        return DEBUG;
     }
     function fetchAndDisplayDiscussions(urls) {
-
         if (DEBUG) {
-            GM_setValue('discussions', [])
+            GM_setValue("discussions", []);
         }
         if (!isUpdate()) {
-            return
+            return;
         }
-        let discussions = GM_getValue('discussions', [])
-        let fetchPromises = []
-        let itemCount = 0
+        let discussions = GM_getValue("discussions", []);
+        let fetchPromises = [];
+        let itemCount = 0;
         var modalHTML = `
 <div id="discussion-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); display: flex; visibility: hidden; align-items: center; justify-content: center; z-index: 1000;">
     <div id="   " style="background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-height: 80vh; overflow-y: auto; width: 80%; max-width: 600px; padding: 20px; font-family: Arial, sans-serif; display: flex; flex-direction: column;">
@@ -203,119 +201,172 @@ GM_registerMenuCommand("Limit message count", setMessageLimit);
 </div>
 
              
-        `
-        document.body.insertAdjacentHTML('beforeend', modalHTML)
-        var discussionList = document.getElementById('discussion-list-a')
-        var modalContent = document.getElementById('modal-content')
-        var a = false
+        `;
+        document.body.insertAdjacentHTML("beforeend", modalHTML);
+        var discussionList = document.getElementById("discussion-list-a");
+        var modalContent = document.getElementById("modal-content");
+        var a = false;
         urls.forEach(([url, description]) => {
-
             fetchPromises.push(
                 fetch(url)
-                    .then(response => response.text())
-                    .then(data => {
-                        var parser = new DOMParser()
-                        var doc = parser.parseFromString(data, 'text/html')
-                        var elements = doc.querySelectorAll('.discussion-list > div > div')
+                    .then((response) => response.text())
+                    .then((data) => {
+                        var parser = new DOMParser();
+                        var doc = parser.parseFromString(data, "text/html");
+                        var elements = doc.querySelectorAll(
+                            ".discussion-list > div > div",
+                        );
                         if (!a) {
-                            a = true
-                            discussionList.innerHTML += `<center><h5>${description}</h5></center>`
+                            a = true;
+                            discussionList.innerHTML += `<center><h5>${description}</h5></center>`;
                         } else {
-                            discussionList.innerHTML += `<center><h5><div class="discussion-list-item">${description}</div></h5></center>`
+                            discussionList.innerHTML += `<center><h5><div class="discussion-list-item">${description}</div></h5></center>`;
                         }
 
                         elements.forEach(function (element) {
-                            var discussionTitle = element.querySelector('.discussion-title')
-                            var relativeTimes = element.querySelectorAll('relative-time')
-                            if (!discussionTitle || relativeTimes.length === 0) return
-                            var discussionTitleHref = discussionTitle.getAttribute('href')
-                            var latestRelativeTime = relativeTimes[relativeTimes.length - 1].getAttribute('datetime')
-                            var existingDiscussion = discussions.find(function (disc) {
-                                return disc.discussionTitleHref === discussionTitleHref
-                            })
-                            const userLinks = element.querySelectorAll('a.user-link')
-                            if (existingDiscussion && existingDiscussion.relativeTime === latestRelativeTime) return
+                            var discussionTitle =
+                                element.querySelector(".discussion-title");
+                            var relativeTimes =
+                                element.querySelectorAll("relative-time");
+                            if (!discussionTitle || relativeTimes.length === 0)
+                                return;
+                            var discussionTitleHref =
+                                discussionTitle.getAttribute("href");
+                            var latestRelativeTime =
+                                relativeTimes[
+                                    relativeTimes.length - 1
+                                ].getAttribute("datetime");
+                            var existingDiscussion = discussions.find(
+                                function (disc) {
+                                    return (
+                                        disc.discussionTitleHref ===
+                                        discussionTitleHref
+                                    );
+                                },
+                            );
+                            const userLinks =
+                                element.querySelectorAll("a.user-link");
+                            if (
+                                existingDiscussion &&
+                                existingDiscussion.relativeTime ===
+                                    latestRelativeTime
+                            )
+                                return;
                             var discussionInfo = {
                                 discussionTitleHref: discussionTitleHref,
                                 relativeTime: latestRelativeTime,
-                                lasteduserName: userLinks.length > 0 ? userLinks[userLinks.length - 1].textContent.trim() : null,//最后的发言人
-                                lastedID: userLinks.length > 0 ? userLinks[userLinks.length - 1].href.match(/\/users\/(\d+)-/)[1] : null//ANCHOR - 获取最后的发言人ID
-                            }
+                                lasteduserName:
+                                    userLinks.length > 0
+                                        ? userLinks[
+                                              userLinks.length - 1
+                                          ].textContent.trim()
+                                        : null, //最后的发言人
+                                lastedID:
+                                    userLinks.length > 0
+                                        ? userLinks[
+                                              userLinks.length - 1
+                                          ].href.match(/\/users\/(\d+)-/)[1]
+                                        : null, //ANCHOR - 获取最后的发言人ID
+                            };
                             if (existingDiscussion) {
-                                existingDiscussion.relativeTime = latestRelativeTime
-                                existingDiscussion.lasteduserName = discussionInfo.lasteduserName
+                                existingDiscussion.relativeTime =
+                                    latestRelativeTime;
+                                existingDiscussion.lasteduserName =
+                                    discussionInfo.lasteduserName;
                             } else {
-                                discussions.push(discussionInfo)
+                                discussions.push(discussionInfo);
                             }
-                            if (discussionInfo.lastedID === config.userId || discussionInfo.lasteduserName === config.userName) {
+                            if (
+                                discussionInfo.lastedID === config.userId ||
+                                discussionInfo.lasteduserName ===
+                                    config.userName
+                            ) {
                                 // 最新发言ID是自己，或用户名是自己，跳过
-                                console.log("skip ")
-                                return
+                                console.log("skip ");
+                                return;
                             }
-                            var listItemHTML = '<div class="discussion-list-item">' + element.innerHTML + '</div>'
-                            discussionList.innerHTML += listItemHTML
-                            itemCount++
-                        })
-                    })
-            )
-        })
-        Promise.all(fetchPromises).then(() => {
-            if (itemCount === 0) {
-                return
-            }
-            // 将讨论信息保存到 GM_setValue
-            GM_setValue('discussions', discussions)
-            if (!config.isInstalled) {
-                console.log('首次安装时,不弹出:')
-                GM_setValue('Installed', true)
-                return
-            }
-            // 计算关闭按钮的位置，并动态设置
-            var closeButton = document.getElementById('close-button')
-            closeButton.style.position = 'absolute'
-            closeButton.style.top = `${discussionList.offsetTop - 50}px`
-            closeButton.style.left = `${discussionList.right}px`
-            document.getElementById('discussion-modal').style.visibility = 'visible'
-            // 设置所有链接在新窗口中打开
-            var links = discussionList.querySelectorAll('a')
-            links.forEach(function (link) {
-                link.setAttribute('target', '_blank')
+                            var listItemHTML =
+                                '<div class="discussion-list-item">' +
+                                element.innerHTML +
+                                "</div>";
+                            discussionList.innerHTML += listItemHTML;
+                            itemCount++;
+                        });
+                    }),
+            );
+        });
+        Promise.all(fetchPromises)
+            .then(() => {
+                if (itemCount === 0) {
+                    return;
+                }
+                // 将讨论信息保存到 GM_setValue
+                GM_setValue("discussions", discussions);
+                if (!config.isInstalled) {
+                    console.log("首次安装时,不弹出:");
+                    GM_setValue("Installed", true);
+                    return;
+                }
+                // 计算关闭按钮的位置，并动态设置
+                var closeButton = document.getElementById("close-button");
+                closeButton.style.position = "absolute";
+                closeButton.style.top = `${discussionList.offsetTop - 50}px`;
+                closeButton.style.left = `${discussionList.right}px`;
+                document.getElementById("discussion-modal").style.visibility =
+                    "visible";
+                // 设置所有链接在新窗口中打开
+                var links = discussionList.querySelectorAll("a");
+                links.forEach(function (link) {
+                    link.setAttribute("target", "_blank");
+                });
+                // 添加关闭按钮事件
+                closeButton.addEventListener("click", function () {
+                    document.body.removeChild(
+                        document.getElementById("discussion-modal"),
+                    );
+                });
             })
-            // 添加关闭按钮事件
-            closeButton.addEventListener('click', function () {
-                document.body.removeChild(document.getElementById('discussion-modal'))
-            })
-        }).catch(error => {
-            console.error('无法获取讨论列表:', error)
-        })
+            .catch((error) => {
+                console.error("无法获取讨论列表:", error);
+            });
     }
     function getUserId() {
-        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
+        const profileLinkElement = document.querySelector(
+            "#nav-user-info > span.user-profile-link > a",
+        );
         if (profileLinkElement) {
-            const href = profileLinkElement.getAttribute('href')
+            const href = profileLinkElement.getAttribute("href");
 
-            const match = href.match(/\/users\/(\d+)-/)
+            const match = href.match(/\/users\/(\d+)-/);
             if (match) {
-                const userId = match[1]
-                config.userId = userId
-                const nameMatch = href.match(/\/users\/\d+-([^\/]+)$/)
-                config.userName = nameMatch ? decodeURIComponent(nameMatch[1]) : ''
-                return true
+                const userId = match[1];
+                config.userId = userId;
+                const nameMatch = href.match(/\/users\/\d+-([^\/]+)$/);
+                config.userName = nameMatch
+                    ? decodeURIComponent(nameMatch[1])
+                    : "";
+                return true;
             } else {
-                console.log('放弃操作,无法找到id')
-                return false
+                console.log("放弃操作,无法找到id");
+                return false;
             }
         } else {
-            return false
+            return false;
         }
     }
 
     if (getUserId()) {
         fetchAndDisplayDiscussions([
-            [`https://greasyfork.org/discussions?read=unread&user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
-            [`https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`, "Scripts Discussions"]//添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
-        ])
+            [
+                `https://greasyfork.org/discussions?read=unread&user=${config.userId}&per_page=${config.maxItem}`,
+                "Discussions",
+            ],
+            [
+                `https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`,
+                "Scripts Discussions",
+            ], //添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
+        ]);
     } else {
-        console.log("没有登录,放弃操作")
+        console.log("没有登录,放弃操作");
     }
-})()
+})();
