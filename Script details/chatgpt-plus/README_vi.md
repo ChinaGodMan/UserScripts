@@ -78,7 +78,7 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 
 > ### 🔍có thể bạn đang tìm kiếmChatGPTTập lệnh liên quan
 > - [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn
-> - [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): 添加一nhân vật计数器到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 个字符。）
+> - [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): thêm mộtnhân vậtBộ đếm vào hộp đầu vào，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
 > - [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
@@ -113,14 +113,14 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 
 > ### 🔍có thể bạn đang tìm kiếm ChatGPTTập lệnh liên quan
 > - [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn
-> - [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): 添加一nhân vật计数器到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 个字符。）
+> - [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): thêm mộtnhân vậtBộ đếm vào hộp đầu vào，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
 > - [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍có thể bạn đang tìm kiếm Các tập lệnh liên quan đến web
 > - [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam
-> - [**Thang máyCSDNĐăng nhậpSao chép限制**](https://greasyfork.org/scripts/505207): chết tiệt bạn CSDN 登录复制，Sao chép nội dung hộp mã mà không cần đăng nhập
+> - [**Thang máyCSDNĐăng nhậpSao chépgiới hạn**](https://greasyfork.org/scripts/505207): chết tiệt bạn CSDN Đăng nhậpSao chép，Sao chép nội dung hộp mã mà không cần đăng nhập
 > - [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng làm đẹp độ dốc màu cho tất cả các cột của bảng trên trang web.
 > - [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 > - [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân khỏi liên kết web
@@ -131,7 +131,7 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 > - [**GitHubGửi hiển thị thông tinHTML**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > - [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。
 > - [**GitHub Tự động xác nhận ủy quyền thiết bị**](https://greasyfork.org/scripts/508956): hiện hữuGitHubTrang ủy quyền sẽ tự động nhập mã ủy quyền và tự động xác nhận.。
-> - [**GitHubthư mục下载**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub 文件夹。
+> - [**GitHubthư mụctải về**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。
 > - [**GitHubTải xuống các tập tin đơn lẻ và sao chép các tập tinURL**](https://greasyfork.org/scripts/505501): Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin
 > - [**githubHiển thị kích thước kho**](https://greasyfork.org/scripts/502291): hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。
@@ -151,7 +151,7 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ
 > - [**GreasyFork Hiển thị xếp hạng kịch bản**](https://greasyfork.org/scripts/501119): Thêm điểm đánh giá vào danh sách tập lệnh
 > - [**GreasyFork Tìm kiếm nâng cao**](https://greasyfork.org/scripts/505215): Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp 
-> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
+> - [**GreasyFork Thanh điều hướngNâng cao**](https://greasyfork.org/scripts/501880): Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.
 > - [**GreasyforkThợ làm keo**](https://greasyfork.org/scripts/497346): Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác
 > - [**Greasyfork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
 > - [**Script FinderCông cụ tìm tập lệnh Grease Monkey**](https://greasyfork.org/scripts/498904): Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào
