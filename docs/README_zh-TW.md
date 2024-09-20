@@ -513,7 +513,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</td>
+            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
@@ -723,7 +723,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-20 18:45:17</sub></td>
+            <td><sub>2024-09-20 19:06:51</sub></td>
              <td><sub>1.5.0.2</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>

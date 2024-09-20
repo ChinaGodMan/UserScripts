@@ -34,7 +34,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**侵害があった場合,連絡先を削除する必要があります**
+**違反があった場合,連絡先を削除する必要があります**
 
 ##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
   
@@ -149,7 +149,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -233,7 +233,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -261,7 +261,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルタイプのアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</td>
+            <td>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルの種類のアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -401,7 +401,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -457,7 +457,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -681,7 +681,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -723,7 +723,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-20 18:45:17</sub></td>
+            <td><sub>2024-09-20 19:06:51</sub></td>
              <td><sub>1.5.0.2</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
@@ -905,7 +905,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の文字を認識する，長さがそれより大きい場合 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
+            <td>中国語以外の文字を認識する，長さがそれより長い場合は、 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -1073,7 +1073,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）を追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
+            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">

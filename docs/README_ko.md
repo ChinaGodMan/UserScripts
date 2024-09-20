@@ -93,7 +93,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>添加一문자计数器到输入框，로 제한됨 32732 문자。（ChatGPT 한도는 32732 个字符。）</td>
+            <td>添加一캐릭터计数器到输入框，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -723,7 +723,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-20 18:45:17</sub></td>
+            <td><sub>2024-09-20 19:06:51</sub></td>
              <td><sub>1.5.0.2</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
@@ -1108,7 +1108,7 @@
 
 > [!IMPORTANT]
 > 
-> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
 > - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
