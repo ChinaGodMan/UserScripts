@@ -19,19 +19,19 @@
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GreaysFork Enhance WebHookSync settings</h1>
-    <p>「 This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。 」</p>
+    <h1>GreaysFork 增强 WebHook同步设置</h1>
+    <p>「 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。 」</p>
     <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️  GreaysForkEnhanceWebHook Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️  GreaysFork增强WebHook 更新日志</strong></h1>
 <h3><strong>📅 2024/9/15 10:53 - Ver 1.1.1.0</strong></h3>
-<p><strong>repair</strong>: • button<code>hover active focus</code>Put in parent class<code>.Sync-Modal</code></p>
+<p><strong>修复</strong>: • 按钮<code>hover active focus</code>放入父类<code>.Sync-Modal</code></p>
 <h3><strong>📅 2024/9/5 04:29 - Ver 1.1.0.0</strong></h3>
-<p><strong>New</strong>: • Return after each submission GreasyFork Sync tips。</p>
+<p><strong>新增</strong>: • 每次提交后返回 GreasyFork 同步提示。</p>
 <hr />
 <h3><strong>📅 2024/9/4 11:52 - Ver 1.0.0.0</strong></h3>
-<p><strong>initial version</strong>: • Welcome。</p>
+<p><strong>初始版本</strong>: • 欢迎使用。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>
@@ -209,6 +209,6 @@ Example code: If you have more options, you can extend it.<br>
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->

@@ -19,8 +19,8 @@
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>MiSSAVAutomatic login</h1>
-    <p>「 Detection MisssAV state，and automatically log in when not logged in 」</p>
+    <h1>MiSSAV自动登录</h1>
+    <p>「 检测 MisssAV 状态，并且在未登录时自动登录 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
@@ -167,6 +167,6 @@ This script is used for managing user accounts on MissAV. It provides functional
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->

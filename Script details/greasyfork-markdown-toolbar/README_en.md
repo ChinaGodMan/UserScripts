@@ -20,14 +20,14 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
-    <p>「 Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction 」</p>
+    <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
-<p><strong>Revise</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
-- <code>DOMContentLoaded</code> Sometimes conflicts with other scripts，Cause monitoring to fail。changed to <code>load</code></p>
+<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
+- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
@@ -186,6 +186,6 @@ If you have any bugs, bug fixes or ideas, please report at my [GitHub repo](http
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->

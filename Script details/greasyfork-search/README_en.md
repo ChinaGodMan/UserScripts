@@ -19,8 +19,8 @@
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <center><div align="center">
-    <h1>GreasyFork Advanced search</h1>
-    <p>「 Search using Google GreasyFork and SleazyFork superior script  」</p>
+    <h1>GreasyFork 高级搜索</h1>
+    <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本  」</p>
     <img src="https://views.whatilearened.today/views/github/505215/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
@@ -184,6 +184,6 @@ The author [𝖢𝖸 𝖥𝗎𝗇𝗀]( https://greasyfork.org/zh-CN/users/37117
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
