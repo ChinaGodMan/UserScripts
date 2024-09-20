@@ -109,7 +109,7 @@ for script in data['scripts']:
 
                     if match:
                         # 如果匹配成功，替换匹配的内容为新的 HTML 代码
-                        content = content[:separator_index] + re.sub(r'<center>.*?</center>', html_content.strip(), after_separator, count=1, flags=re.DOTALL)
+                        content = content[:separator_index] + re.sub(r'<center>.*?</center>', html_content.strip(), after_separator, flags=re.DOTALL)
                         print(f"文档头部描述已替换: {file_path}")
                     else:
                         # 如果没有匹配成功，在分隔符下添加新的 HTML 代码
