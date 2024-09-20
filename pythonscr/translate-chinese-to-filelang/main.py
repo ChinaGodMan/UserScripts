@@ -88,7 +88,7 @@ def translate_text_s(text, target_lang):  # 不操作
         translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
         return translated_text
     except Exception as e:
-        print(f"翻译错误：{e}")
+        print(f"\033[31m翻译错误：{e}\033[0m")
         return None
 # 翻译函数
 
