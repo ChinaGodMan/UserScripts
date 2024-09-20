@@ -1,77 +1,82 @@
 name: merge-change-history
 
 on:
-  push:
-    paths:
-      - 'Script details/**/Change history/README.md'  # 增加了新历史说明
-      #- 'docs/ScriptsPath.json'  # 也在 docs/ScriptsPath.json 文件发生变动时触发 修改了新说明.
-  workflow_dispatch:  # 允许手动触发工作流
+    push:
+        paths:
+            - "Script details/**/Change history/README.md" # 增加了新历史说明
+            #- 'docs/ScriptsPath.json'  # 也在 docs/ScriptsPath.json 文件发生变动时触发 修改了新说明.
+    workflow_dispatch: # 允许手动触发工作流
 
 concurrency:
-  group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
-  cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
+    group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
+    cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
-  run-python:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+    run-python:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 检出代码
+              uses: actions/checkout@v3
+              with:
+                  token: ${{ secrets.MY_GITHUB_TOKEN }} # 使用你创建的 Token
 
-      - name: 设置 Python 环境
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
+            - name: 设置 Python 环境
+              uses: actions/setup-python@v2
+              with:
+                  python-version: "3.x"
 
-      - name: 安装依赖
-        run: |
-          python -m pip install --upgrade pip
-          pip install markdown  # 安装 markdown 库
-          # 如果有其他依赖项，请在这里添加
+            - name: 安装依赖
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install markdown  # 安装 markdown 库
+                  # 如果有其他依赖项，请在这里添加
 
-      - name: 获取当前分支
-        id: get_branch
-        run: |
-          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
-          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+            - name: 获取当前分支
+              id: get_branch
+              run: |
+                  echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+                  echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
 
-      - name: 拉取最新更改
-        run: |
-          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
-        
-      - name: 更新相关脚本
-        run: |
-          python pythonscr/update-about-script/main.py
+            - name: 拉取最新更改
+              run: |
+                  git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
-      - name: 更新小徽章
-        run: |
-          python pythonscr/update-shields/main.py
-     
-      - name: 更新帮助
-        run: |
-          python pythonscr/update-help/main.py
-      
-      - name: 更新变更日志
-        run: |
-          python pythonscr/merge-change-history/main.py 
-        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+            - name: 更新相关脚本
+              run: |
+                  python pythonscr/update-about-script/main.py
 
-      - name: 提交和推送更改
-        run: |
-          # 配置 Git 用户
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # 添加更改
-          git add .
-          git commit -m "集中修改脚本[*.md]文件" \
-                      -m "合并日志→Script details/**/Change history/README.md → Script details/**/*.md" \
-                      -m "刷新徽章→pythonscr/update-shields/SHIELDS.md → Script details/**/*.md" \
-                      -m "刷新帮助→pythonscr/update-help/HELP.md → Script details/**/*.md" \
-                      -m "作者推荐→docs/ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
-          || echo "没有需要提交的更改"
-          git push origin ${{ env.branch }}  
-        env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+            - name: 更新小徽章
+              run: |
+                  python pythonscr/update-shields/main.py
+
+            - name: 更新帮助
+              run: |
+                  python pythonscr/update-help/main.py
+
+            - name: 所有脚本添加到readme
+              run: |
+                  python pythonscr/update-all-script/main.py
+
+            - name: 更新变更日志
+              run: |
+                  python pythonscr/merge-change-history/main.py
+              continue-on-error: true # 让这个步骤即使出错也不会终止整个工作流
+
+            - name: 提交和推送更改
+              run: |
+                  # 配置 Git 用户
+                  git config --global user.name 'github-actions[bot]'
+                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+                  # 添加更改
+                  git add .
+                  git commit -m "集中修改脚本[*.md]文件" \
+                              -m "合并日志→Script details/**/Change history/README.md → Script details/**/*.md" \
+                              -m "刷新徽章→pythonscr/update-shields/SHIELDS.md → Script details/**/*.md" \
+                              -m "刷新帮助→pythonscr/update-help/HELP.md → Script details/**/*.md" \
+                              -m "作者推荐→docs/ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                              -m "作者所有脚本→docs/ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                  || echo "没有需要提交的更改"
+                  git push origin ${{ env.branch }}
+              env:
+                  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # 传递 Token 到 Git 环境变量中
