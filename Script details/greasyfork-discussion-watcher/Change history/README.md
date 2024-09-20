@@ -1,5 +1,10 @@
 # **🛠️ Greasyfork 通知助手 更新日志**
 
+### **📅 2024/9/20 18:40 - Ver 1.5.0.2**
+**新增**: 🙄增加个`sweetalert.js`第三方库,方便自己在 KIWi 浏览器上使用罢了
+
+---
+
 ### **📅 2024/9/12 07:42 - Ver 1.5.0.0**
 **新增**: 添加`read=unread`参数,只提取未读信息,此版本为最终版本.[#259731](https://greasyfork.org/discussions/greasyfork/259731)GreasyFork已经逐步支持站内通知,脚本将失去存在的意义.
 
