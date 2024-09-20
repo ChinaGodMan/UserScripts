@@ -84,6 +84,7 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_registerMenuCommand
+// @require           https://unpkg.com/sweetalert2@10.16.6/dist/sweetalert2.min.js
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
 // @modified        2024-09-11 07:52:25
@@ -101,26 +102,55 @@
 
     }
 
-    GM_registerMenuCommand("Set refresh time", function () {
-        const currentDelay = config.delay
-        const newDelay = prompt("New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):", currentDelay)
-        if (newDelay !== null) {
-            if (/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(newDelay)) {
-                GM_setValue('delay', newDelay)
-                config.delay = newDelay
-            } else {
-                alert("The input format is incorrect, please re-enter!")
+
+function setRefreshTime() {
+    const currentDelay = config.delay;
+
+    Swal.fire({
+        title: 'Set refresh time',
+        input: 'text',
+        inputLabel: 'New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):',
+        inputValue: currentDelay,
+        showCancelButton: true,
+        inputValidator: (value) => {
+            if (!/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(value)) {
+                return 'The input format is incorrect, please re-enter!'
             }
         }
-    })
-    GM_registerMenuCommand("Limit message count ", function () {
-
-        const newMax = prompt("New Count:", config.maxItem)
-        if (newMax !== null) {
-            GM_setValue('maxItem', newMax)
-            config.maxItem = newMax
+    }).then((result) => {
+        if (result.isConfirmed) {
+            GM_setValue('delay', result.value);
+            config.delay = result.value;
         }
-    })
+    });
+}
+
+function setMessageLimit() {
+    const currentMax = config.maxItem;
+
+    Swal.fire({
+        title: 'Limit message count',
+        input: 'number',
+        inputLabel: 'New Count:',
+        inputValue: currentMax,
+        showCancelButton: true,
+        inputValidator: (value) => {
+            if (!value || isNaN(value)) {
+                return 'Please enter a valid number!';
+            }
+        }
+    }).then((result) => {
+        if (result.isConfirmed) {
+            GM_setValue('maxItem', result.value);
+            config.maxItem = result.value;
+        }
+    });
+}
+
+
+GM_registerMenuCommand("Set refresh time", setRefreshTime);
+GM_registerMenuCommand("Limit message count", setMessageLimit);
+
     function timeToSeconds(timeStr) {
         let hours = 0, minutes = 0, seconds = 0
         const hoursMatch = timeStr.match(/(\d+)h/)
