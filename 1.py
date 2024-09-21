@@ -77,7 +77,7 @@ def should_process_file(file_path, skip_time_check):
     # 如果最后一次提交时间距离现在小于 5 分钟，跳过处理
     if current_time - last_commit_time < timedelta(minutes=5):
         print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间小于5分钟）\033[0m")
-        return False
+        return True
 
     return True
 
