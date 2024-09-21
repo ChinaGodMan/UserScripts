@@ -4,39 +4,8 @@ import re
 import markdown  # 确保导入 markdown 模块
 import subprocess
 import time
-START_TAG = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->"
-END_TAG = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->"
-def process_file(file_path, new_content):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
 
-    start_index = -1
-    end_index = -1
 
-    # 查找开始和结束标记的位置
-    for i, line in enumerate(lines):
-        if START_TAG in line:
-            start_index = i
-        elif END_TAG in line:
-            end_index = i
-            break
-
-    # 如果找到了这两个标记，删除中间的内容并插入新的内容
-    if start_index != -1 and end_index != -1 and start_index < end_index:
-        new_lines = lines[:start_index + 1]  # 保留开始标记之前的内容（包括开始标记）
-        new_lines.append(new_content)  # 直接插入新的内容，无需手动添加换行符
-        new_lines.extend(lines[end_index:])  # 保留结束标记之后的内容
-    else:
-        # 如果没有找到标记，则在文件末尾插入新的标记和内容
-        new_lines = lines
-        if start_index == -1:  # 如果开始标记没有找到
-            new_lines.append(f"\n{START_TAG}\n")
-        new_lines.append(new_content)  # 直接插入新的内容
-        if end_index == -1:  # 如果结束标记没有找到
-            new_lines.append(f"\n{END_TAG}\n")
-    
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.writelines(new_lines)
 def is_file_updated_more_than(file_path, timeout_minutes):
     try:
         # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
@@ -72,7 +41,7 @@ def md_to_html(md_file):
         md_text = f.read()
 
     # 将 Markdown 转换为 HTML
-    html_text = markdown.markdown(md_text)
+    html_text = markdown.markdown(md_text, extensions=['tables'])
 
     # 返回 HTML 文本字符串
     return html_text
@@ -127,5 +96,26 @@ for script in data['scripts']:
         for file_name in os.listdir(backuppath):
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(backuppath, file_name)
-                process_file(file_path, html_content)
-                print(f"更改头部说明文档: {file_path}")
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+
+                if SEPARATOR in content:
+                    # 找到分隔符位置
+                    separator_index = content.index(SEPARATOR) + len(SEPARATOR)
+                    after_separator = content[separator_index:]
+
+                    # 使用正则表达式匹配 <center>.*?</center>
+                    match = re.search(r'<center>.*?</center>', after_separator, re.DOTALL)
+
+                    if match:
+                        # 如果匹配成功，替换匹配的内容为新的 HTML 代码
+                        content = content[:separator_index] + re.sub(r'<center>.*?</center>', html_content.strip(), after_separator, flags=re.DOTALL)
+                        print(f"文档头部描述已替换: {file_path}")
+                    else:
+                        # 如果没有匹配成功，在分隔符下添加新的 HTML 代码
+                        content = content[:separator_index] + "\n" + html_content.strip() + after_separator
+                        print(f"文档头部描述已添加: {file_path}")
+
+                    # 将修改后的内容写回文件
+                    with open(file_path, 'w', encoding='utf-8') as file:
+                        file.write(content)
