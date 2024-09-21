@@ -21,70 +21,70 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork糊裱匠</h1>
-    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
+    <h1>GreasyforkGlue craftsman</h1>
+    <p>「 Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork糊裱匠 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyforkGlue craftsman Change log</strong></h1>
 <h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
-<p><strong>新增</strong>: • 脚本详情页，所有脚本列表添加 <code>脚本评分</code>。</p>
+<p><strong>New</strong>: • Script details page，All scripts list added <code>Script Rating</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
-<p><strong>修复</strong>: • 修复兼容性问题。</p>
+<p><strong>repair</strong>: • Fix compatibility issues。</p>
 <hr />
 <h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
-<p><strong>新增</strong>: • 在脚本列表顶部添加下载按钮，点击下载所有脚本。</p>
+<p><strong>New</strong>: • Add a download button at the top of the script list，Click to download all scripts。</p>
 <hr />
 <h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
-<p><strong>优化</strong>: • 优化脚本列表图标显示位置。</p>
+<p><strong>optimization</strong>: • Optimize the display position of the script list icon。</p>
 <hr />
 <h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
-<p><strong>优化</strong>: • 优化设置界面代码。</p>
+<p><strong>optimization</strong>: • Optimize setting interface code。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>修复</strong>: • 修正脚本设置界面在移动设备上显示错乱问题。</p>
+<p><strong>repair</strong>: • Fixed an issue where the script setting interface displays incorrectly on mobile devices。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
-<p><strong>新增</strong>: • 增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译。</p>
+<p><strong>New</strong>: • Add Vietnamese language pack，Thanks netizens <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> translate。</p>
 <hr />
 <h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
-<p><strong>新增</strong>: • 增加 WebHook 页快捷跳转脚本管理。</p>
+<p><strong>New</strong>: • Increase WebHook Page quick jump script management。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。<br />
-<strong>新增</strong>: • 监听规则增加：<code>user-script-list-section browse-script-list</code>。</p>
+<p><strong>repair</strong>: • Fixed the issue of dynamic monitoring failure caused by changes in monitoring rules。<br />
+<strong>New</strong>: • Monitoring rules added：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
-<p><strong>优化</strong>: • 复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS。</p>
+<p><strong>optimization</strong>: • copy <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> new in CSS。</p>
 <hr />
 <h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。<br />
-• 增加固定网站侧边操作栏。</p>
+<p><strong>New</strong>:<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Script in double column display。<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Beautify navigation bar in。<br />
+• Add fixed website side action bar。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
-<p><strong>新增</strong>: • 完全的繁体语言支持。</p>
+<p><strong>New</strong>: • Full traditional language support。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加侧边导航栏开关。<br />
-• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。<br />
-<strong>修复</strong>:<br />
-• 修复在移动设备上浏览图片超出浏览器外的问题。<br />
-• 修改在编辑代码时自动勾选美化。</p>
+<p><strong>New</strong>:<br />
+• Add side navigation bar switch。<br />
+• Add image proxy（Not compatible when enabled <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a> Picture browsing in）。<br />
+<strong>repair</strong>:<br />
+• Fixed the problem of images being viewed outside the browser on mobile devices。<br />
+• Modify to automatically check beautification when editing code。</p>
 <hr />
 <h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
-<p><strong>新增</strong>:<br />
-• 添加导航栏展开 "更多"。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>New</strong>:<br />
+• Add navigation bar expansion "More"。<br />
+• Increase <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork Enhance</a> Side navigation bar in。<br />
+<strong>optimization</strong>: • Improve support for multiple languages。</p>
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
-<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。<br />
-<strong>修复</strong>: • 修复显示列表上的脚本安装状态。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>New</strong>: • Add automatic login <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork optimization</a>。<br />
+<strong>repair</strong>: • Fix script installation status on display list。<br />
+<strong>optimization</strong>: • Improve support for multiple languages。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -263,7 +263,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
@@ -301,14 +301,14 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -319,7 +319,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -339,7 +339,7 @@ Provide various usage functions for Greasyfork, absolute time, web page widescre
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
