@@ -122,7 +122,7 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -159,14 +159,14 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -177,7 +177,7 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 > - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -197,7 +197,7 @@ The script is modified from the user **[mshll](https://greasyfork.org/zh-CN/user
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console, etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console, etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
