@@ -59,7 +59,7 @@ for script in data['scripts']:
                 start_tag = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->"
                 end_tag = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->"
                 command = [
-    'python', '1.py',
+    'python', 'pythonscr/writer.py',
     '--new-content', html_content,
     '--target-file', file_path,
     '--start-tag', start_tag,

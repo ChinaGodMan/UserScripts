@@ -21,11 +21,12 @@ def main():
                 start_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->"
                 end_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->"
                 command = [
-    'python', '1.py',
+    'python', 'pythonscr/writer.py',
     '--new-content', new_content,
     '--target-file', file_path,
     '--start-tag', start_tag,
-    '--end-tag', end_tag
+    '--end-tag', end_tag,
+    '--check-file','.pythonscr/update-help/HELP.md'
 ]
                 subprocess.run(command)
 

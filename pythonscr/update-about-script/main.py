@@ -74,12 +74,12 @@ def main():
                     # 生成描述并执行命令
                     descriptions = generate_description(script, scripts)
                     command = [
-                        'python', '1.py',
+                        'python', 'pythonscr/writer.py',
                         '--new-content', descriptions,  # 传递生成的描述内容
                         '--target-file', file_path,
                         '--start-tag', start_tag,
                         '--end-tag', end_tag,
-                      
+                        '--check-file','./docs/ScriptsPath.json'
                     ]
                     subprocess.run(command)
 

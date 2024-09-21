@@ -59,11 +59,12 @@ def main():
                     start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
                     end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
                     command = [
-    'python', '1.py',
+    'python', 'pythonscr/writer.py',
     '--new-content', new_content,
     '--target-file', target_file,
     '--start-tag', start_tag,
-    '--end-tag', end_tag
+    '--end-tag', end_tag,
+    '--insert-position', 'tail' 
 ]
                     subprocess.run(command)
 if __name__ == "__main__":

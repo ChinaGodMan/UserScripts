@@ -90,11 +90,13 @@ def main():
     parser.add_argument('--end-tag', required=True, help="标记头的结束标记")
     parser.add_argument('--insert-position', choices=['head', 'tail'], default='tail', help="如果找不到标记，内容插入在头部还是尾部 (head/tail)")
     parser.add_argument('--skip-time-check', action='store_true', help="跳过时间检查，直接修改文件")
+    parser.add_argument('--check-file', help="指定用于检查的文件，如果未传递则使用 target-file")
 
     args = parser.parse_args()
-
+    # 选择检查的文件（如果没有传递 --check-file，则使用 target-file）
+    file_to_check = args.check_file if args.check_file else args.target_file
     # 判断是否需要处理该文件
-    if os.path.isfile(args.target_file) and should_process_file(args.target_file, args.skip_time_check):
+    if os.path.isfile(args.target_file) and should_process_file(file_to_check , args.skip_time_check):
         process_file(args.target_file, args.new_content, args.start_tag, args.end_tag, args.insert_position)
     else:
         print(f"目标文件无效或不符合处理条件：{args.target_file}")
