@@ -26,7 +26,7 @@ def main():
     '--target-file', file_path,
     '--start-tag', start_tag,
     '--end-tag', end_tag,
-    '--check-file','.pythonscr/update-help/HELP.md'
+    '--check-file','pythonscr/update-help/HELP.md'
 ]
                 subprocess.run(command)
 

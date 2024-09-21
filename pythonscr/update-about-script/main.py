@@ -79,7 +79,7 @@ def main():
                         '--target-file', file_path,
                         '--start-tag', start_tag,
                         '--end-tag', end_tag,
-                        '--check-file','./docs/ScriptsPath.json'
+                        '--check-file','docs/ScriptsPath.json'
                     ]
                     subprocess.run(command)
 

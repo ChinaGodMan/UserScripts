@@ -27,7 +27,7 @@ def main():
     '--target-file', file_path,
     '--start-tag', start_tag,
     '--end-tag', end_tag,
-    '--check-file','.pythonscr/update-shields/SHIELDS.md'
+    '--check-file','pythonscr/update-shields/SHIELDS.md'
 ]
                 subprocess.run(command)
 
