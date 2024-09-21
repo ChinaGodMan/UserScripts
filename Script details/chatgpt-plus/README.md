@@ -32,6 +32,7 @@
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
+
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 ![1.png](https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png)
@@ -70,6 +71,7 @@
 > - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
 > - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
 > - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
@@ -176,5 +178,6 @@
 
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
