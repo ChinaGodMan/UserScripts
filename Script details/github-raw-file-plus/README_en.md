@@ -18,6 +18,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>GitHubDownload single files and copy filesURL</h1>
     <p>「 Add button at the end of each file line，to copy the original file URL and download files 」</p>
@@ -30,6 +31,7 @@
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505501.png">
 </div></center>
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

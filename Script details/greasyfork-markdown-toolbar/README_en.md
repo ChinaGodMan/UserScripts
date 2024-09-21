@@ -18,6 +18,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>GreasyFork Markdown toobar</h1>
     <p>「 Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction 」</p>
@@ -31,6 +32,7 @@
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 The script is a fork of [this script](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573) by wOxxOm, to work with the new GF layout.  
 Thanks for his work making such an essential script.

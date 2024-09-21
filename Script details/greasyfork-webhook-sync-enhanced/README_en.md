@@ -18,6 +18,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>GreaysFork Enhance WebHookSync settings</h1>
     <p>「 This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。 」</p>
@@ -35,6 +36,7 @@
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 <video src="https://github.com/ChinaGodMan/UserScripts/raw/main/Script%20details/greasyfork-webhook-sync-enhanced/preview/video.mp4"
        poster="https://s2.loli.net/2024/09/04/S29ePTaR78uBsrF.png"

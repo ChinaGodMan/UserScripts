@@ -18,6 +18,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>MiSSAVAutomatic login</h1>
     <p>「 Detection MisssAV state，and automatically log in when not logged in 」</p>
@@ -27,6 +28,7 @@
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505325.png">
 </div></center>
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

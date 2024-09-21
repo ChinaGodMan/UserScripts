@@ -16,6 +16,8 @@
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div></center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>GitHub 文件列表美化器</h1>
     <p>「 GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。 」</p>
@@ -29,7 +31,7 @@
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508047.png">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 # GitHub 文件列表美化器
 
@@ -41,15 +43,17 @@ GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库�
 
 ## 功能
 
-- **文件夹图标**：将文件夹图标替换为更直观的文件夹图标。
-- **自定义图标**：根据文件的扩展名或文件名，显示自定义的图标。
-- **图片文件预览**：对于图片文件，自动显示缩略图。
-- **颜色标记**：为不同类型的文件添加颜色，以便更快速地识别文件类型。
+-   **文件夹图标**：将文件夹图标替换为更直观的文件夹图标。
+-   **自定义图标**：根据文件的扩展名或文件名，显示自定义的图标。
+-   **图片文件预览**：对于图片文件，自动显示缩略图。
+-   **颜色标记**：为不同类型的文件添加颜色，以便更快速地识别文件类型。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 请注意:
-**本脚本目就是为了着色不同的文件类型,显示图标只是附带的,有需要Github显示图标的,建议下载**
+
+**本脚本目就是为了着色不同的文件类型,显示图标只是附带的,有需要 Github 显示图标的,建议下载**
+
 -   `github-vscode-icons-updated2.0.3`
 -   `Material Icons for GitHub 1.8.19`
 
@@ -58,75 +62,75 @@ GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库�
 ## 安装
 
 1. **安装 Tampermonkey 或 Greasemonkey 插件**：
-   - [Tampermonkey](https://www.tampermonkey.net/)（支持 Chrome, Firefox, Edge, Opera 等浏览器）
-   - [Greasemonkey](https://www.greasespot.net/)（支持 Firefox）
+
+    - [Tampermonkey](https://www.tampermonkey.net/)（支持 Chrome, Firefox, Edge, Opera 等浏览器）
+    - [Greasemonkey](https://www.greasespot.net/)（支持 Firefox）
 
 2. **添加脚本**：
-   - 点击 安装到 Tampermonkey  Greasemonkey 。
- 
+
+    - 点击 安装到 Tampermonkey Greasemonkey 。
 
 3. **脚本配置**：
-   - 脚本首次运行时会从指定 URL 加载颜色配置。如果无法加载配置，将使用默认设置。
+    - 脚本首次运行时会从指定 URL 加载颜色配置。如果无法加载配置，将使用默认设置。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用
 
-- 脚本会在 GitHub 页面加载时自动运行，处理文件列表中的文件图标。
-- 可以根据需要在 `localStorage` 或脚本设置中调整图标和颜色配置。
+-   脚本会在 GitHub 页面加载时自动运行，处理文件列表中的文件图标。
+-   可以根据需要在 `localStorage` 或脚本设置中调整图标和颜色配置。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 自定义配置说明 
+## 自定义配置说明
 
-- 文件类型：
-`"js": {
-        "color": "#f1c40f",
-        "icon": "javascript"
-    },
-    "py": {
-        "color": "red",
-        "icon": "javascript"
-    }`
-- 绝对名称：(用来显示图标的,暂时没添加绝对文件的自定义着色)
-`
-    "123.txt": {
-        "color": "red",
-        "icon": "javascript"
-    },`
-- 默认从vscode-material-icon-theme获取图标：
-`
-    "123.txt": {
-        "color": "red",
-        "icon": "javascript"
-    },
-`
-- 从网络加载图标：
-`
-    "123.txt": {
-        "color": "red",
-        "icon": "https://www.1.com/1.png"
-    },`
-- 从本地加载图标：
-`
-    "123.txt": {
-        "color": "red",
-        "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAA....."
-    },`
-  
+-   文件类型：
+    `"js": {
+    "color": "#f1c40f",
+    "icon": "javascript"
+},
+"py": {
+    "color": "red",
+    "icon": "javascript"
+}`
+-   绝对名称：(用来显示图标的,暂时没添加绝对文件的自定义着色)
+    `
+"123.txt": {
+    "color": "red",
+    "icon": "javascript"
+},`
+-   默认从 vscode-material-icon-theme 获取图标：
+    `    "123.txt": {
+    "color": "red",
+    "icon": "javascript"
+},`
+-   从网络加载图标：
+    `
+"123.txt": {
+    "color": "red",
+    "icon": "https://www.1.com/1.png"
+},`
+-   从本地加载图标：
+    `
+"123.txt": {
+    "color": "red",
+    "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAA....."
+},`
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
-> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> - [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> ### 🔍 你可能在找 GitHub 相关脚本
+>
+> -   [**GitHub 提交信息显示 HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
+> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在 GitHub 授权页面自动输入授权码与自动确认。
+> -   [**GitHub 文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> -   [**GitHub 下载单文件和复制文件 URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> -   [**github 显示仓库大小**](https://greasyfork.org/scripts/502291): 在 Github 查看仓库和搜索仓库时显示仓库大小
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
@@ -134,26 +138,26 @@ GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库�
 
 ## 兼容性
 
-- **浏览器**：支持 Chrome、Firefox、Edge、Opera 和 Safari。
+-   **浏览器**：支持 Chrome、Firefox、Edge、Opera 和 Safari。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 支持与反馈
 
-- 如果遇到问题或有任何建议，请访问 [GitHub Issues 页面](https://github.com/ChinaGodMan/UserScripts/issues) 提交反馈。
+-   如果遇到问题或有任何建议，请访问 [GitHub Issues 页面](https://github.com/ChinaGodMan/UserScripts/issues) 提交反馈。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 授权
 
-- 该脚本基于 [MIT 许可证](https://opensource.org/licenses/MIT) 开源。
+-   该脚本基于 [MIT 许可证](https://opensource.org/licenses/MIT) 开源。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 贡献
 
-- 本脚本由 [wOxxOm](https://greasyfork.org/zh-CN/users/2159) [GitHub file list beautifier](https://greasyfork.org/zh-CN/scripts/5982) 和 人民的勤务员 开发。
-- 更多信息请访问 [GitHub 项目主页](https://github.com/ChinaGodMan/UserScripts)。
+-   本脚本由 [wOxxOm](https://greasyfork.org/zh-CN/users/2159) [GitHub file list beautifier](https://greasyfork.org/zh-CN/scripts/5982) 和 人民的勤务员 开发。
+-   更多信息请访问 [GitHub 项目主页](https://github.com/ChinaGodMan/UserScripts)。
 
 ![image](https://i.imgur.com/UuTzStC.png)
 ![dark](https://i.imgur.com/odYikhU.png)
@@ -165,98 +169,104 @@ GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库�
 
 ## 使用帮助
 
- 推荐浏览器和脚本管理器：
-*   **Greasemonkey + Waterfox**
-*   **Tampermonkey/Violentmonkey + Firefox**
-*   **Tampermonkey/Violentmonkey + Chrome**
-*   **Userscripts + ios Safari**
-*  **Violentmonkey/KiWiBrowser + Android**
+推荐浏览器和脚本管理器：
 
- **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
 
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
-
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> 
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本 
-
+### 查看所有发布脚本
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 ChatGPT相关脚本
-> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
-> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
-> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
+> ### 🔍 你可能在找 ChatGPT 相关脚本
+>
+> -   [**ChatGPT 代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
+> -   [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 网页相关脚本
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> ### 🔍 你可能在找 网页相关脚本
+>
+> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+> -   [**解除 CSDN 登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GitHub相关脚本
-> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> - [**github显示仓库大小**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> ### 🔍 你可能在找 GitHub 相关脚本
+>
+> -   [**GitHub 提交信息显示 HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
+> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在 GitHub 授权页面自动输入授权码与自动确认。
+> -   [**GitHub 文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> -   [**GitHub 下载单文件和复制文件 URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> -   [**github 显示仓库大小**](https://greasyfork.org/scripts/502291): 在 Github 查看仓库和搜索仓库时显示仓库大小
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 Google相关脚本
-> - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
+> ### 🔍 你可能在找 Google 相关脚本
+>
+> -   [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
+> -   [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GreasyFork相关脚本
-> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
-> - [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
-> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
-> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
-> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
+> ### 🔍 你可能在找 GreasyFork 相关脚本
+>
+> -   [**GreasyFork 适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
+> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用 Chart.js 获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+> -   [**GreaysFork 增强 WebHook 同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
+> -   [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
+> -   [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本
+> -   [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强 greasyfork 导航栏,增加用户列表,用户控制台等
+> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 增强 greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
+> -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+> -   [**Script Finder 油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 相关脚本
-> - [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> - [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> - [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
+> ### 🔍 你可能在找 相关脚本
+>
+> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
+> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
+> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自 Greasyfork 用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3 秒内无滚动自动停止
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 成人脚本
-> - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
-> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
-> - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
-> - [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
+> ### 🔍 你可能在找 成人脚本
+>
+> -   [**MiSSAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
+> -   [**MissAV 收藏管理器**](https://greasyfork.org/scripts/497682): miss 片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到 webdav
+> -   [**TissAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
+> -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 自动翻译
-> - [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络
-> - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
+> ### 🔍 你可能在找 自动翻译
+>
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问 google 的网络
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
-
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部 ↑</strong></a>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->

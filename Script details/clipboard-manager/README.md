@@ -18,6 +18,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 <center><div align="center">
     <h1>网页写入剪辑版授权管理器</h1>
     <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
@@ -27,6 +28,7 @@
             Fork</a></p><details><summary>更新记录</summary><p>初始版本.</p></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
 ![1.png](https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png)
 
