@@ -28,7 +28,7 @@
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 字符计数器 更新日志</strong></h1>
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>
-<p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题</p>
+<p><strong>修复</strong>: 无法在新开聊天或切换聊天时显示计数器的问题，以及发送后计数器不清零的问题____</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506166.png">
 </div></center>
