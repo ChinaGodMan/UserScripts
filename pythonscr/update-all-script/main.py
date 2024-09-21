@@ -64,7 +64,8 @@ def main():
     '--target-file', target_file,
     '--start-tag', start_tag,
     '--end-tag', end_tag,
-    '--insert-position', 'tail' 
+    '--insert-position', 'tail' ,
+    '--check-file','docs/ScriptsPath.json'
 ]
                     subprocess.run(command)
 if __name__ == "__main__":
