@@ -131,7 +131,6 @@
         const button = document.createElement('button')
         const svgIcon = getSVGIcon()
         button.appendChild(svgIcon)
-
         button.style.position = 'absolute'
         button.style.bottom = '8px'
         button.style.right = '8px'
