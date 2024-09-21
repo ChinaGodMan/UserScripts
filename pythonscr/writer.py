@@ -61,15 +61,28 @@ def should_process_file(file_path, skip_time_check,writer_path,history_true):
     因为他们传递进来的检查文件是SHIELDS.md,所以我们还要传递一下writer_path用于检查当前是否是更新日志.
     
     """
+    if history_true:
+        print(f"\033[93m history_true 为真，执行时间检查...\033[0m")
+        current_time = datetime.now()
+        last_commit_time = get_last_git_commit_time(file_path)
+        # 如果提交时间大于 5 分钟，跳过处理
+        if current_time - last_commit_time > timedelta(minutes=5):
+        
+            print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
+            return False
+        else:
+            return True  # 提交时间在 5 分钟以内，继续处理文件
+        
+        
     # 检查文件名是否包含 "Change history"
     if "Change history" in file_path:
         print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
-        return history_true
+        return False
     
 
     if "Change history" in writer_path:
         print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
-        return history_true
+        return False
 
     # 如果指定了跳过时间检查，直接处理文件
     if skip_time_check:

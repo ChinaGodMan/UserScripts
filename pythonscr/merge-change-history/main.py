@@ -1,30 +1,11 @@
 import os
 import json
-import time
+
 import markdown  # 确保导入 markdown 模块
 import subprocess
 json_file_path = 'docs/ScriptsPath.json'
 
-def is_file_updated_more_than(file_path, timeout_minutes):
-    try:
-        # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
-        result = subprocess.run(
-            ['git', 'log', '-1', '--format=%ct', file_path],
-            capture_output=True, text=True, check=True
-        )
-        last_commit_time = int(result.stdout.strip())
 
-        # 获取当前时间的 Unix 时间戳
-        current_time = int(time.time())
-
-        # 计算时间差（分钟）
-        time_diff_minutes = (current_time - last_commit_time) / 60
-
-        # 检查文件是否在超时时间之前被更新
-        return time_diff_minutes > timeout_minutes
-    except subprocess.CalledProcessError as e:
-        print(f"错误: 无法获取提交时间 - {file_path}")
-        return None
 def md_to_html(md_file):
     # 检查 Markdown 文件是否存在
     if not os.path.isfile(md_file):
@@ -76,8 +57,6 @@ for script in data['scripts']:
     if backuppath and os.path.exists(backuppath):
         # 遍历 backuppath 目录下的所有 .md 文件
         for file_name in os.listdir(backuppath):
-            if is_file_updated_more_than(os.path.join(backuppath,  'Change history/README.md'), 5):
-                continue
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(backuppath, file_name)
                 start_tag = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->"
@@ -87,7 +66,9 @@ for script in data['scripts']:
     '--new-content', html_content,
     '--target-file', file_path,
     '--start-tag', start_tag,
-    '--end-tag', end_tag
+    '--end-tag', end_tag,
+    '--check-file', os.path.join(backuppath,  'Change history/README.md'),
+    '--history-true'
 
 ]
                 subprocess.run(command)
