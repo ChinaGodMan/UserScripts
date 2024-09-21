@@ -86,6 +86,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT 聊天複製代碼按鈕</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button" target="_blank">
+                    <mark>詳細</mark>
+                </a>
+            </td>
+            <td>在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
+                    <br>安裝
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509598.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509598?color=%23990000&label=Installs">
+                    <br>安裝
+                </a>
+            </td>
+            <td><sub>2024-09-22 07:35:20</sub></td>
+            <td><sub>2024-09-22 07:35:19</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-22 07:06:07</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT 字元計數器</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter.user.js" target="_blank">GitHub</a>

@@ -34,7 +34,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**侵害があった場合,連絡先を削除する必要があります**
+**違反があった場合,連絡先を削除する必要があります**
 
 ##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
   
@@ -82,6 +82,34 @@
             <td><sub>2024-09-17 10:18:39</sub></td>
              <td><sub>0.1.0.23</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT チャットコードコピーボタン</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>存在する chatgpt.com 上部のコードブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509598.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509598?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-09-22 07:35:20</sub></td>
+            <td><sub>2024-09-22 07:35:19</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
     <tr>
             <td>
@@ -765,7 +793,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>スクロール時に動的に読み込まれるコンテンツを含む、Web ページ上のカスタム キーワードの強調表示</td>
+            <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">

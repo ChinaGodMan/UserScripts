@@ -86,6 +86,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT 채팅 코드 복사 버튼</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button" target="_blank">
+                    <mark>상세한</mark>
+                </a>
+            </td>
+            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
+                    <br>설치하다
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509598.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509598?color=%23990000&label=Installs">
+                    <br>설치하다
+                </a>
+            </td>
+            <td><sub>2024-09-22 07:35:20</sub></td>
+            <td><sub>2024-09-22 07:35:19</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-22 07:06:07</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT 캐릭터 카운터</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter.user.js" target="_blank">GitHub</a>
