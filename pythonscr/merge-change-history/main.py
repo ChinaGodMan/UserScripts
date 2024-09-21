@@ -64,6 +64,7 @@ for script in data['scripts']:
     '--target-file', file_path,
     '--start-tag', start_tag,
     '--end-tag', end_tag,
-    '--check-file',os.path.join(backuppath,  'Change history/README.md')
+    '--check-file',os.path.join(backuppath,  'Change history/README.md'),
+    '--history-true'
 ]
                 subprocess.run(command)
