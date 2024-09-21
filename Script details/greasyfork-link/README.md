@@ -19,6 +19,7 @@
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+
 <center><div align="center">
     <h1>GreasyFork适用于增强</h1>
     <p>「 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索 」</p>
@@ -199,6 +200,6 @@
 > - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><a href="#top"><strong>回到顶部↑</strong></a>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
