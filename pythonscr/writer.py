@@ -55,13 +55,18 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
 
     print(f"Processed {file_path}")
 
-def should_process_file(file_path, skip_time_check):
+def should_process_file(file_path, skip_time_check,writer_path):
     """判断文件是否需要处理"""
     # 检查文件名是否包含 "Change history"
     if "Change history" in file_path:
         print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
         return False
     
+
+    if "Change history" in writer_path:
+        print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
+        return False
+
     # 如果指定了跳过时间检查，直接处理文件
     if skip_time_check:
         return True
@@ -96,7 +101,7 @@ def main():
     # 选择检查的文件（如果没有传递 --check-file，则使用 target-file）
     file_to_check = args.check_file if args.check_file else args.target_file
     # 判断是否需要处理该文件
-    if os.path.isfile(args.target_file) and should_process_file(file_to_check , args.skip_time_check):
+    if os.path.isfile(args.target_file) and should_process_file(file_to_check , args.skip_time_check,args.target_file):
         process_file(args.target_file, args.new_content, args.start_tag, args.end_tag, args.insert_position)
     else:
         print(f"目标文件无效或不符合处理条件：{args.target_file}")
