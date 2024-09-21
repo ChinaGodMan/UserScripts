@@ -100,7 +100,7 @@ def main():
     parser.add_argument('--insert-position', choices=['head', 'tail'], default='tail', help="如果找不到标记，内容插入在头部还是尾部 (head/tail)")
     parser.add_argument('--skip-time-check', action='store_true', help="跳过时间检查，直接修改文件")
     parser.add_argument('--check-file', help="指定用于检查的文件，如果未传递则使用 target-file")#用于检查需要从一个文件写到一文件
-    parser.add_argument('--history-true', help="用于merge-change-history,因为他只是检查时间,不会修改这个history文件")
+    parser.add_argument('--history-true', help="用于merge-change-history,因为他只是检查时间,不会修改这个history文件", action="store_true")
 
     args = parser.parse_args()
     # 选择检查的文件（如果没有传递 --check-file，则使用 target-file）
