@@ -29,6 +29,7 @@
             Fork</a></p> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498625.png">
 </div></center>
+
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -51,6 +52,7 @@ This userscript removes underlines from all links on any website and dynamically
 > - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 > - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
 > - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -207,5 +209,6 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
