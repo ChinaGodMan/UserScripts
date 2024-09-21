@@ -1,4 +1,4 @@
-name: merge-change1-history
+name: merge-change-history
 
 on:
     push:
