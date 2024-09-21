@@ -28,7 +28,7 @@
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 绚丽渐变美化网页表格 更新日志</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
-<p><strong>修改</strong>: 修改为自动渐变色</p>
+<p><strong>修改</strong>: 修改为自动渐变色.....</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/507036.png">
 </div></center>
