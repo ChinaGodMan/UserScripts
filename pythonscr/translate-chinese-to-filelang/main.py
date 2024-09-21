@@ -196,7 +196,7 @@ def process_file(root, file, lang_code):
     file_path = os.path.join(root, file)
     if is_file_updated_more_than(file_path, 5):
         print(f"翻译时跳过文件 {file_path}，因为文件在5分钟之内没有更新")
-        #return  # 使用 return 结束当前函数的执行，而不是 continue
+        return  # 使用 return 结束当前函数的执行，而不是 continue
     print(f"开始处理文件: {file_path}，语言代码: {lang_code}")
     # 读取文件内容
     lines = read_file_to_memory(file_path)
