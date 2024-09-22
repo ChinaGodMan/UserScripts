@@ -21,35 +21,66 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GrreasyFork User-published script data visualization</h1>
-    <p>「 useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below. 」</p>
+    <h1>GrreasyFork 用户发布的脚本数据可视化</h1>
+    <p>「 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况 」</p>
     <img src="https://views.whatilearened.today/views/github/508968/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️   GrreasyFork User script data visualization Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️   GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
-<p><strong>New</strong>: •Add some small functions for your own use.<code>Table shows creation and update dates</code>  <code>YAxis value highlighting</code> <code>Click on the histogram to jump to the corresponding script</code> Medium script<code>OPENLINK</code> for<code>0</code>No jump,<code>1</code>There is a prompt before jumping,<code>2</code>Jump directly</p>
-<p>| New                                                           | Add demo                                                        |
-| -------------------------------------------------------------- | --------------------------------------------------------------- |
-|                                                                |
-| <img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /> | <img alt="Jump.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /> |</p>
+<p><strong>新增</strong>: •增加自己使用的一些小功能.<code>表格显示创建与更新日期</code>  <code>Y轴数值高亮</code> <code>点击柱状图跳转对应脚本</code> 脚本中的<code>OPENLINK</code> 为<code>0</code>不跳转,<code>1</code>跳转前有提示,<code>2</code>直接跳转</p>
+<table>
+<thead>
+<tr>
+<th>新增</th>
+<th>新增演示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /></td>
+<td><img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
-<p><strong>Revise</strong>: •Revise<code>chart.js</code>Load for the first time,After loading is completed, save it in<code>localStorage</code>No need to reload every time</p>
+<p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
 <hr />
 <h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
-<p><strong>repair</strong>: • Fix some chart issues<br></p>
-<p>| Before modification                                                            | After modification                                                            |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-|                                                                   |
-| <img alt="Before modification.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /> | <img alt="After modification.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /> |
-| <img alt="Before modification.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /> | <img alt="After modification.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /> |</p>
+<p><strong>修复</strong>: • 修复图表一些问题.<br></p>
+<table>
+<thead>
+<tr>
+<th>修改前</th>
+<th>修改后</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
+<td><img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
+</tr>
+<tr>
+<td><img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
+<td><img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h3><strong>📅 2024-09-18 11:01:32- Ver 1.0.0.0</strong></h3>
-<p><strong>Increase</strong>: •Added original author<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>additional script<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>Inside, get user data from the current web page,It can be set within the script or in the script menu.JSONData acquisition or script data acquisition from the current page defaults toGreasyFrokDownload user data<br>
-<strong>Revise</strong>: •~~Revise<code>chart.js</code>for@require load,No need to reload every time~~GreasyforkUnapproved external scripts are not allowed<br>
-<strong>Revise</strong>: •When modifying user data obtained from the network,Sort by total installs from high to low<br>
-<strong>Revise</strong>: •Modify search for usersIDThe expression is<code>/(\d+)/</code>,compatible<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork Glue craftsman</a><code>Clear link useless characters function</code><br></p>
+<p><strong>增加</strong>: •增加了原作者<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>另外脚本<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>里面的从当前网页获取用户数据,可以在脚本内或者脚本菜单中设置从JSON数据获取还是从当前页面获取脚本数据默认向GreasyFrok下载用户数据<br>
+<strong>修改</strong>: •~~修改<code>chart.js</code>为@require 加载,无需每次重复加载~~Greasyfork不允许使用未经批准的外部脚本<br>
+<strong>修改</strong>: •修改从网络获取用户数据时,按照总安装量由高到低排序<br>
+<strong>修改</strong>: •修改寻找用户ID的表达式为<code>/(\d+)/</code>,兼容<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork 糊裱匠</a><code>清除链接无用字符功能</code><br></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508968.png">
 </div></center>

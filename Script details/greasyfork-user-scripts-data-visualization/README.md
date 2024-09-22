@@ -29,21 +29,52 @@
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️   GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
 <p><strong>新增</strong>: •增加自己使用的一些小功能.<code>表格显示创建与更新日期</code>  <code>Y轴数值高亮</code> <code>点击柱状图跳转对应脚本</code> 脚本中的<code>OPENLINK</code> 为<code>0</code>不跳转,<code>1</code>跳转前有提示,<code>2</code>直接跳转</p>
-<p>| 新增                                                           | 新增演示                                                        |
-| -------------------------------------------------------------- | --------------------------------------------------------------- |
-|                                                                |
-| <img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /> | <img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /> |</p>
+<table>
+<thead>
+<tr>
+<th>新增</th>
+<th>新增演示</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /></td>
+<td><img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
 <p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
 <hr />
 <h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
-<p><strong>修复</strong>: • 修复图表一些问题<br></p>
-<p>| 修改前                                                            | 修改后                                                            |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-|                                                                   |
-| <img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /> | <img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /> |
-| <img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /> | <img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /> |</p>
+<p><strong>修复</strong>: • 修复图表一些问题.<br></p>
+<table>
+<thead>
+<tr>
+<th>修改前</th>
+<th>修改后</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
+<td><img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
+</tr>
+<tr>
+<td><img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
+<td><img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
+</tr>
+</tbody>
+</table>
 <hr />
 <h3><strong>📅 2024-09-18 11:01:32- Ver 1.0.0.0</strong></h3>
 <p><strong>增加</strong>: •增加了原作者<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>另外脚本<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>里面的从当前网页获取用户数据,可以在脚本内或者脚本菜单中设置从JSON数据获取还是从当前页面获取脚本数据默认向GreasyFrok下载用户数据<br>
