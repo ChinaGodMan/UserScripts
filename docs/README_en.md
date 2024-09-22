@@ -107,7 +107,7 @@
                 </a>
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
-            <td><sub>2024-09-22 10:48:28</sub></td>
+            <td><sub>2024-09-22 11:16:04</sub></td>
              <td><sub>1.1.0.0</sub></td>
               <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
@@ -317,7 +317,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</td>
+            <td>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -1094,7 +1094,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated into Chinese</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated to Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
