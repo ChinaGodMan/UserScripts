@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name                                        ChatGPT Chat Copy Code Button
 // @description                             Add a 'Copy Code' button to the bottom right hand of code blocks on chatgpt.com with animation
-// @name:zh-CN                          ChatGPT 聊天复制代码按钮
-// @description:zh-CN               在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
+// @name:zh-CN                          ChatGPT 聊天复制代码按钮和下载代码按钮
+// @description:zh-CN               在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮和下载代码按钮
 // @name:ar                          ChatGPT زر نسخ رمز الدردشة
 // @description:ar               يخرج chatgpt.com أضف رسمًا متحركًا في الركن الأيمن السفلي من كتلة التعليمات البرمجية العلوية“نسخ الرمز”زر
 // @name:bg                          ChatGPT Бутон за копиране на код за чат
@@ -88,13 +88,13 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version         1.0.0.0
+// @version         1.1.0.0
 // @Created         2024-09-22 07:06:07
 // @modified        2024-09-22 07:06:07
 // ==/UserScript==
 (function () {
     'use strict'
-
+    var EXPORT = true
     const copyToClipboard = (text, button) => {
         navigator.clipboard.writeText(text).then(() => {
             console.log('Copied code to clipboard')
@@ -108,30 +108,30 @@
             console.error('Failed to copy code: ', err)
         })
     }
-
-    const getSVGIcon = () => {
+    function getSVGIcon(isEx = false) {
         const svgIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg')
         svgIcon.setAttribute('width', '24')
         svgIcon.setAttribute('height', '24')
         svgIcon.setAttribute('fill', 'none')
         svgIcon.setAttribute('viewBox', '0 0 24 24')
         svgIcon.classList.add('icon-sm')
-
         const path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
         path.setAttribute('fill', 'currentColor')
         path.setAttribute('fill-rule', 'evenodd')
-        path.setAttribute('d', 'M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z')
+        if (isEx) {
+            path.setAttribute('transform', 'rotate(180 12 12)')
+            path.setAttribute('d', 'M5 20a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1zm7-2a1 1 0 0 1-1-1V8.414L9.707 10.707a1 1 0 1 1-1.414-1.414l4-4a1 1 0 0 1 1.414 0l4 4a1 1 0 0 1-1.414 1.414L13 8.414V17a1 1 0 0 1-1 1z')
+        } else {
+            path.setAttribute('d', 'M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z')
+        }
         path.setAttribute('clip-rule', 'evenodd')
-
         svgIcon.appendChild(path)
         return svgIcon
     }
-
     const addButton = (elem) => {
         const button = document.createElement('button')
         const svgIcon = getSVGIcon()
         button.appendChild(svgIcon)
-
         button.style.position = 'absolute'
         button.style.bottom = '8px'
         button.style.right = '8px'
@@ -144,39 +144,222 @@
         button.style.cursor = 'pointer'
         button.style.zIndex = '10'
         button.style.transition = 'background-color 0.3s ease'
-
         button.addEventListener('click', (e) => {
             e.stopPropagation()
             copyToClipboard(elem.querySelector('code').textContent, button)
         })
-
         button.addEventListener('mouseover', () => {
             button.style.backgroundColor = 'rgba(0,0,0,0.2)'
         })
-
         button.addEventListener('mouseout', () => {
             button.style.backgroundColor = 'rgba(0,0,0,0.1)'
         })
-
         elem.style.position = 'relative'
         elem.appendChild(button)
     }
-
+    const addexButton = (elem) => {
+        const button = document.createElement('button')
+        const svgIcon = getSVGIcon(true)
+        button.appendChild(svgIcon)
+        button.style.position = 'absolute'
+        button.style.bottom = '8px'
+        button.style.right = '48px'
+        button.style.fontSize = '12px'
+        button.style.padding = '4px 8px'
+        button.style.border = '1px solid #ccc'
+        button.style.borderRadius = '3px'
+        button.style.background = 'rgba(0,0,0,0.1)'
+        button.style.color = 'white'
+        button.style.cursor = 'pointer'
+        button.style.zIndex = '10'
+        button.style.transition = 'background-color 0.3s ease'
+        button.addEventListener('click', (e) => {
+            var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')
+            e.stopPropagation()
+            exportCode(elem, languageDiv.textContent)
+            //copyToClipboard(elem.querySelector('code').textContent, button)
+        })
+        elem.style.position = 'relative'
+        elem.appendChild(button)
+    }
     const observeCodeBlocks = () => {
         const codeBlocks = document.querySelectorAll('pre:not(.copy-code-processed)')
         if (codeBlocks.length) {
             codeBlocks.forEach(block => {
-
                 addButton(block)
+                if (EXPORT) {
+                    addexButton(block)
+                }
                 block.classList.add('copy-code-processed')
             })
         }
     }
-
+    async function exportCode(codeBlock, language) {
+        let fileName
+        let fileExtension
+        let mimeType
+        // Determine filename, extension, and MIME type based on language
+        switch (language) {
+            case 'javascript':
+            case 'js':
+                fileName = 'script'
+                fileExtension = '.js'
+                mimeType = 'application/javascript'
+                break
+            case 'html':
+                fileName = 'index'
+                fileExtension = '.html'
+                mimeType = 'text/html'
+                break
+            case 'css':
+                fileName = 'styles'
+                fileExtension = '.css'
+                mimeType = 'text/css'
+                break
+            case 'python':
+            case 'py':
+                fileName = 'main'
+                fileExtension = '.py'
+                mimeType = 'text/x-python'
+                break
+            default:
+                // If language cannot be determined from <span>, fallback to provided language
+                switch (language.toLowerCase()) {
+                    case 'javascript':
+                    case 'js':
+                        fileName = 'script'
+                        fileExtension = '.js'
+                        mimeType = 'application/javascript'
+                        break
+                    case 'html':
+                        fileName = 'index'
+                        fileExtension = '.html'
+                        mimeType = 'text/html'
+                        break
+                    case 'css':
+                        fileName = 'styles'
+                        fileExtension = '.css'
+                        mimeType = 'text/css'
+                        break
+                    case 'python':
+                    case 'py':
+                        fileName = 'main'
+                        fileExtension = '.py'
+                        mimeType = 'text/x-python'
+                        break
+                    case 'java':
+                        fileName = 'Main'
+                        fileExtension = '.java'
+                        mimeType = 'text/x-java-source'
+                        break
+                    case 'kotlin':
+                        fileName = 'Main'
+                        fileExtension = '.kt'
+                        mimeType = 'text/x-kotlin'
+                        break
+                    case 'c++':
+                    case 'cpp':
+                        fileName = 'main'
+                        fileExtension = '.cpp'
+                        mimeType = 'text/x-c++src'
+                        break
+                    case 'c#':
+                    case 'csharp':
+                        fileName = 'Program'
+                        fileExtension = '.cs'
+                        mimeType = 'text/x-csharp'
+                        break
+                    case 'c':
+                        fileName = 'main'
+                        fileExtension = '.c'
+                        mimeType = 'text/x-csrc'
+                        break
+                    case 'ruby':
+                        fileName = 'script'
+                        fileExtension = '.rb'
+                        mimeType = 'text/x-ruby'
+                        break
+                    case 'rust':
+                        fileName = 'main'
+                        fileExtension = '.rs'
+                        mimeType = 'text/x-rustsrc'
+                        break
+                    case 'php':
+                        fileName = 'script'
+                        fileExtension = '.php'
+                        mimeType = 'text/x-php'
+                        break
+                    case 'swift':
+                        fileName = 'main'
+                        fileExtension = '.swift'
+                        mimeType = 'text/x-swift'
+                        break
+                    case 'typescript':
+                    case 'ts':
+                        fileName = 'script'
+                        fileExtension = '.ts'
+                        mimeType = 'application/typescript'
+                        break
+                    case 'go':
+                        fileName = 'main'
+                        fileExtension = '.go'
+                        mimeType = 'text/x-go'
+                        break
+                    case 'perl':
+                        fileName = 'script'
+                        fileExtension = '.pl'
+                        mimeType = 'text/x-perl'
+                        break
+                    case 'lua':
+                        fileName = 'script'
+                        fileExtension = '.lua'
+                        mimeType = 'text/x-lua'
+                        break
+                    default:
+                        fileName = 'code'
+                        fileExtension = '.txt'
+                        mimeType = 'text/plain'
+                        break
+                }
+                break
+        }
+        // Create a Blob object with the code content
+        const blob = new Blob([codeBlock.querySelector('code').textContent], { type: mimeType })
+        try {
+            if (window.showSaveFilePicker) {
+                // Use File System Access API if available
+                const fileHandle = await window.showSaveFilePicker({
+                    suggestedName: fileName + fileExtension,
+                    types: [
+                        {
+                            description: language,
+                            accept: {
+                                [mimeType]: [fileExtension],
+                            },
+                        },
+                    ],
+                })
+                const writable = await fileHandle.createWritable()
+                await writable.write(blob)
+                await writable.close()
+            } else {
+                // Fallback for browsers that do not support showSaveFilePicker
+                const downloadLink = document.createElement('a')
+                downloadLink.href = URL.createObjectURL(blob)
+                downloadLink.download = fileName + fileExtension
+                downloadLink.style.display = 'none'
+                document.body.appendChild(downloadLink)
+                downloadLink.click()
+                URL.revokeObjectURL(downloadLink.href)
+                document.body.removeChild(downloadLink)
+            }
+        } catch (error) {
+            console.error('Save file dialog was canceled or failed', error)
+        }
+    }
     setTimeout(() => {
         const observer = new MutationObserver(observeCodeBlocks)
         observer.observe(document.body, { childList: true, subtree: true })
         observeCodeBlocks()
     }, 5000)
-
 })()
