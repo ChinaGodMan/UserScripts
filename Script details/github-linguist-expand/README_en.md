@@ -60,6 +60,8 @@
 -   **兼容性**：  
     该脚本兼容主流浏览器，包括 Chrome、Firefox、Edge、Opera 和 Safari。
 
+![1.png](https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png)
+
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 
 关于区域
