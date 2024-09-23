@@ -310,6 +310,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github 代码语言列表显示全部</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509889.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509889?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-09-24 05:30:01</sub></td>
+            <td><sub>2024-09-24 05:30:01</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-24 04:33:03</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub 自动确认设备授权</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
