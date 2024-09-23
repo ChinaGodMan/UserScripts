@@ -107,8 +107,8 @@
                 </a>
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
-            <td><sub>2024-09-22 11:16:04</sub></td>
-             <td><sub>1.1.0.0</sub></td>
+            <td><sub>2024-09-23 09:25:35</sub></td>
+             <td><sub>1.2.0.0</sub></td>
               <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
     <tr>
@@ -541,7 +541,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況</td>
+            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">

@@ -29,7 +29,7 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <code><br>
-⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Nếu kịch bản giúp bạn,Tôi có thể cho một↑Ngôi sao nhỏ để khuyến khích</a></code>
+⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank">Nếu kịch bản giúp bạn,Tôi có thể cho một cái↑Ngôi sao nhỏ để khuyến khích</a></code>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -107,8 +107,8 @@
                 </a>
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
-            <td><sub>2024-09-22 11:16:04</sub></td>
-             <td><sub>1.1.0.0</sub></td>
+            <td><sub>2024-09-23 09:25:35</sub></td>
+             <td><sub>1.2.0.0</sub></td>
               <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
     <tr>
@@ -289,7 +289,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
+            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -317,7 +317,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
+            <td>hiện hữuGitHubTrang ủy quyền sẽ tự động nhập mã ủy quyền và tự động xác nhận.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -513,7 +513,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -569,7 +569,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -702,7 +702,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -737,7 +737,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
+            <td>Khi có phản hồi mới cho kịch bản của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -933,7 +933,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">

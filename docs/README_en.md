@@ -107,8 +107,8 @@
                 </a>
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
-            <td><sub>2024-09-22 11:16:04</sub></td>
-             <td><sub>1.1.0.0</sub></td>
+            <td><sub>2024-09-23 09:25:35</sub></td>
+             <td><sub>1.2.0.0</sub></td>
               <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
     <tr>
@@ -261,7 +261,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
+            <td>This script will GitHub The submission information on is converted into HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -289,7 +289,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
+            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -317,7 +317,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</td>
+            <td>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -681,7 +681,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -737,7 +737,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</td>
+            <td>When there is a new reply to your script or to a discussion you are participating in，The script will display the latest discussion content in a modal window on the web page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
