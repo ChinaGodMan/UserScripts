@@ -77,7 +77,6 @@
 // @description:zh-HK               在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
 // @name:fr-CA                          ChatGPT Boutons de copie du code de chat et d’exportation du code
 // @description:fr-CA               exister chatgpt.com Ajoutez une animation dans le coin inférieur droit du bloc de code supérieur“Copier le code”bouton et un pour ChatGPT Le bloc de code en réponse ajoute un bouton d’exportation，Invite l’utilisateur à enregistrer le code dans un fichier basé sur le langage de programmation détecté par le nom de classe du bloc de code。
-
 // @match                   https://chatgpt.com/*
 // @match                   https://share.nezhagpt.cloud/*
 // @author             YodaBets,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -91,7 +90,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version         1.1.0.0
+// @version         1.2.0.0
 // @Created         2024-09-22 07:06:07
 // @modified        2024-09-22 07:06:07
 // ==/UserScript==
@@ -177,10 +176,9 @@
         button.style.zIndex = '10'
         button.style.transition = 'background-color 0.3s ease'
         button.addEventListener('click', (e) => {
-            var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')
+            var languageDiv = elem.querySelector('div.flex.items-center.text-token-text-secondary')
             e.stopPropagation()
             exportCode(elem, languageDiv.textContent)
-            //copyToClipboard(elem.querySelector('code').textContent, button)
         })
         elem.style.position = 'relative'
         elem.appendChild(button)
@@ -189,11 +187,15 @@
         const codeBlocks = document.querySelectorAll('pre:not(.copy-code-processed)')
         if (codeBlocks.length) {
             codeBlocks.forEach(block => {
-                addButton(block)
-                if (EXPORT) {
-                    addexButton(block)
+                if (block.querySelector('div.flex.items-center.text-token-text-secondary')) {
+                    // console.log(block)
+                    addButton(block)
+                    if (EXPORT) {
+                        addexButton(block)
+                    }
+                    block.classList.add('copy-code-processed')
                 }
-                block.classList.add('copy-code-processed')
+
             })
         }
     }
@@ -317,6 +319,28 @@
                         fileName = 'script'
                         fileExtension = '.lua'
                         mimeType = 'text/x-lua'
+                        break
+                    case 'powershell':
+                    case 'ps':
+                        fileName = 'script'
+                        fileExtension = '.ps1'
+                        mimeType = 'application/x-powershell'
+                        break
+                    case 'json':
+                        fileName = 'data'
+                        fileExtension = '.json'
+                        mimeType = 'application/json'
+                        break
+                    case 'bat':
+                        fileName = 'script'
+                        fileExtension = '.bat'
+                        mimeType = 'application/bat'
+                        break
+                    case 'md':
+                    case 'markdown':
+                        fileName = 'document'
+                        fileExtension = '.md'
+                        mimeType = 'text/markdown'
                         break
                     default:
                         fileName = 'code'
