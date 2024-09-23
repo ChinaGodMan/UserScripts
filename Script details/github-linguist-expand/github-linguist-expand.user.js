@@ -288,7 +288,8 @@ function buildLanguagesSection(owner, repo) {
 }
 //MAIN ENTRY POINT
 function insertCustomLangStats() {
-    'use strict'
+    langPercentagesMap = {}
+    langColorsMap = {}
     //Selects the box element that contains files and folders on the repo page
     const mainContent = document.querySelector(".Box-sc-g0xbh4-0.iNSVHo")
     if (!mainContent)
