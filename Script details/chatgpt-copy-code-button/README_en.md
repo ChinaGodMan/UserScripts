@@ -43,42 +43,52 @@
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 
-
 # ChatGPT Chat Copy Code Button user script
 
 ## introduce
+
 The user script is [chatgpt.com](https://chatgpt.com) and [share.nezhagpt.cloud](https://share.nezhagpt.cloud) code block on the page add a“Copy code”button。The button is located in the lower right corner of the code block，With animation effects，Users can easily copy the code to the clipboard with the click of a button。
 
 ## Function
-- In the lower right corner of the code block add a“Copy code”button
-- After clicking the button，The code will be copied to the clipboard
-- There is a feedback animation after clicking the button，button will show“Copied!”hint
-- Button color changes on mouseover
+
+-   In the lower right corner of the code block add a“Copy code”button
+-   After clicking the button，The code will be copied to the clipboard
+-   There is a feedback animation after clicking the button，button will show“Copied!”hint
+-   Button color changes on mouseover
 
 ## Usage scenarios
-- Developers can easily copy code snippets
-- It is more convenient for learners to view code
-- Automatically observe and add copy button for newly loaded code blocks
+
+-   Developers can easily copy code snippets
+-   It is more convenient for learners to view code
+-   Automatically observe and add copy button for newly loaded code blocks
 
 ## Installation steps
+
 1. Install a browser extension that supports userscripts，For example [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)。
 2. Click the green button above to install。
 
 ## compatibility
-- support Chrome、Firefox、Edge、Opera and Safari Wait for mainstream browsers
+
+-   support Chrome、Firefox、Edge、Opera and Safari Wait for mainstream browsers
 
 ## Project address
-- [GitHub Project address](https://github.com/ChinaGodMan/UserScripts)
-- YodaBets [OpenAI Chat Copy Code Button](https://greasyfork.org/zh-CN/scripts/463493)Script posted by the original author
+
+-   [GitHub Project address](https://github.com/ChinaGodMan/UserScripts)
+-   YodaBets [OpenAI Chat Copy Code Button](https://greasyfork.org/zh-CN/scripts/463493)Script posted by the original author
 
 ## Feedback address
-- If you have any questions or suggestions，Please provide feedback via the link below：[GitHub Feedback address](https://github.com/ChinaGodMan/UserScripts/issues)
 
-## author
-- YodaBets, 人民的勤务员
+-   If you have any questions or suggestions，Please provide feedback via the link below：[GitHub Feedback address](https://github.com/ChinaGodMan/UserScripts/issues)
+
+## Contributors
+
+-   [**YodaBets**](https://greasyfork.org/zh-CN/users/1052550) [OpenAI Chat Copy Code Button](https://greasyfork.org/zh-CN/scripts/463493) modified this script
+-   [**Muffin Productions**](https://greasyfork.org/zh-CN/users/1327919) [ChatGPT Code Export Button](https://greasyfork.org/zh-CN/scripts/499627) referenced the export code in this script
+-   [**人民的勤务员**](https://greasyfork.org/zh-CN/users/1169082)
 
 ## Authorize
-- This script follows MIT License open source
+
+-   This script follows MIT License open source
 
 ![Snipaste_2024-09-22_07-32-11.png](https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png)
 
@@ -86,10 +96,11 @@ The user script is [chatgpt.com](https://chatgpt.com) and [share.nezhagpt.cloud]
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking forChatGPTRelated scripts
-> - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
-> - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
+>
+> -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
+> -   [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
+> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
@@ -99,14 +110,15 @@ The user script is [chatgpt.com](https://chatgpt.com) and [share.nezhagpt.cloud]
 
 ## Help
 
- Recommended browsers and script managers：
-*   **Greasemonkey + Waterfox**
-*   **Tampermonkey/Violentmonkey + Firefox**
-*   **Tampermonkey/Violentmonkey + Chrome**
-*   **Userscripts + ios Safari**
-*  **Violentmonkey/KiWiBrowser + Android**
+Recommended browsers and script managers：
 
- **If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
 
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
 <a href="#top">back to top↑</a></p>
@@ -115,83 +127,88 @@ The user script is [chatgpt.com](https://chatgpt.com) and [share.nezhagpt.cloud]
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> 
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### View all publish scripts 
-
+### View all publish scripts
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
-> - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
-> - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
+>
+> -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
+> -   [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
+> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
-> - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
-> - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
-> - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
-> - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
+>
+> -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
+> -   [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
+> -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for GitHubRelated scripts
-> - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on is converted into HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
-> - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。
-> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
-> - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
+>
+> -   [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on is converted into HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
+> -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。
+> -   [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
+> -   [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
+> -   [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for GoogleRelated scripts
-> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。
-> - [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
+>
+> -   [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。
+> -   [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for GreasyForkRelated scripts
-> - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
-> - [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
-> - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
-> - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
-> - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
-> - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
-> - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
-> - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
+>
+> -   [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
+> -   [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+> -   [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
+> -   [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
+> -   [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script
+> -   [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
+> -   [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
+> -   [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
+> -   [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Related scripts
-> - [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
-> - [**Highlight web text_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
-> - [**Small scroll button up and down**](https://greasyfork.org/scripts/497251): Add up and down scroll buttons on the right side of the page
-> - [**One-touch top and bottom buttons**](https://greasyfork.org/scripts/500255): Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds
+>
+> -   [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
+> -   [**Highlight web text_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
+> -   [**Small scroll button up and down**](https://greasyfork.org/scripts/497251): Add up and down scroll buttons on the right side of the page
+> -   [**One-touch top and bottom buttons**](https://greasyfork.org/scripts/500255): Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for adult script
-> - [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
-> - [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
-> - [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
-> - [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
+>
+> -   [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
+> -   [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
+> -   [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
+> -   [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for automatic translation
-> - [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessiblegooglenetwork
-> - [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation
-
+>
+> -   [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessiblegooglenetwork
+> -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>back to top↑</strong></a></div></center>
-
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
