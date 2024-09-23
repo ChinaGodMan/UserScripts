@@ -75,7 +75,7 @@
 // @description:zh-HK 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在“其他”下
 // @name:fr-CA Github Liste des langages de code afficher tout
 // @description:fr-CA Développer Github Liste des langues sur le référentiel，Afficher chaque langue，Au lieu de cacher de petites pièces“autre”Vers le bas
-
+// @match https://github.com/*
 // @author             Davoleo,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @namespace    https://github.com/ChinaGodMan/UserScripts
 // @supportURL    https://github.com/ChinaGodMan/UserScripts/issues
