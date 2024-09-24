@@ -91,9 +91,9 @@
 // ==/UserScript==
 (function () {
     'use strict'
-    var DEBUG = true
+    var DEBUG = false
     const config = {
-        isInstalled: GM_getValue('Installed', false),//第一次不加载~,
+        isInstalled: GM_getValue('Installed', false),//第一次不加载.
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
         delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
         userId: null,//当前登录id
