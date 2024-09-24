@@ -17,5 +17,6 @@ jobs:
           days-before-stale: 1  # 30天没有活动的 issue 会被标记为陈旧
           days-before-close: 0  # 被标记为陈旧后再经过7天没有活动的 issue 会被自动关闭
           stale-issue-label: "stale"  # 标记陈旧 issue 的标签
+          close-issue-label: "resolved"
           exempt-issue-labels: "keep-open"  # 带有这个标签的 issue 不会被标记为陈旧
           ignore-updates: true
