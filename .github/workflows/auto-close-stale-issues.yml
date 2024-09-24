@@ -2,7 +2,7 @@ name: Close Stale Issues
 
 on:
   schedule:
-    - cron: "0 0 */15 * *"  # 每15天午夜运行一次
+    - cron: "0 0 */7 * *"  # 每15天午夜运行一次
   workflow_dispatch:  # 手动触发
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
           stale-pr-message: "This pull request or issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs."
           days-before-stale: 0  # 30天没有活动的 issue 会被标记为陈旧
           days-before-close: 0  # 被标记为陈旧后再经过7天没有活动的 issue 会被自动关闭
-          stale-issue-label: "stale"  # 标记陈旧 issue 的标签
-          close-issue-label: "resolved"
+          stale-issue-label: "action-stale"  # 标记陈旧 issue 的标签
+          close-issue-label: "not-completed"
           exempt-issue-labels: "keep-open"  # 带有这个标签的 issue 不会被标记为陈旧
-          ignore-updates: true
+          
