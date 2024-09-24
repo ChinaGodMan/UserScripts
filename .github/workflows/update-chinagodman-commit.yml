@@ -49,12 +49,12 @@ jobs:
         run: |
           git pull origin ${{ env.branch }}
 
-      - name: 获取最新提交信息
-        if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
-        id: get_commit_message
-        run: |
-          commit_message=$(git log -1 --pretty=format:%s | sed 's/"/\\"/g')  # 获取最新提交信息并转义双引号
-          echo "commit_message=$commit_message" >> $GITHUB_ENV
+- name: 获取触发时的提交信息
+  if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
+  id: get_commit_message
+  run: |
+    commit_message="${{ github.event.head_commit.message }}"  # 获取触发时的提交信息
+    echo "commit_message=$commit_message" >> $GITHUB_ENV  # 将提交信息写入环境变量
 
       - name: 根目录脚本__更新py
         if: ${{ env.git_username != 'github-actions[bot]' }}  # 只有当提交者不是 github-actions[bot] 时才执行
