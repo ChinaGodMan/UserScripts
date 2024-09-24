@@ -127,7 +127,7 @@
             "version": "1.0.0.0",
             "GreasyFork": "509889",
             "created_at": "2024-09-24 05:30:01",
-            "code_updated_at": "2024-09-24 05:30:01",
+            "code_updated_at": "2024-09-24 06:05:47",
             "local_created_at": "2024-09-24 04:33:03"
         },
         {
@@ -332,10 +332,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-discussion-watcher.user.js",
             "backuppath": "Script details/greasyfork-discussion-watcher",
-            "version": "1.5.0.2",
+            "version": "1.5.0.3",
             "GreasyFork": "506345",
             "created_at": "2024-09-02 12:36:00",
-            "code_updated_at": "2024-09-21 10:02:52",
+            "code_updated_at": "2024-09-24 08:42:20",
             "local_created_at": "2024-09-02 12:34:55"
         },
         {
