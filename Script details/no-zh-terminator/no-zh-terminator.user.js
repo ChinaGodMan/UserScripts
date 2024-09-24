@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         外语终结者
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 1.3.98.25
+// @version 1.4.0.0
 // @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文
 // @license      MIT
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -200,7 +200,7 @@
             onload: function (response) {
                 try {
                     var data = JSON.parse(response.responseText.replace("'", '\u2019'))
-                    var translatedText = data[0][0][0]
+                    var translatedText = data[0].reduce((acc, item) => acc + item[0], '');
                     showTranslation(node, text, translatedText)
                     // 标记该节点已经翻译过
                     translatedNodes[node.textContent] = true
