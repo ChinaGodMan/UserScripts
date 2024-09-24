@@ -1,4 +1,4 @@
-name: Auto Close and Comment Issue
+name: Autoq Close and Comment Issue
 
 on:
   push:  # 当有 push 事件时触发
