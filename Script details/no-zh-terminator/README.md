@@ -26,7 +26,10 @@
     <img src="https://views.whatilearened.today/views/github/504890/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
-            Fork</a></p> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 外语终结者 更新日志</strong></h1>
+<h3><strong>📅 2024/9/24 18:59 - Ver 1.4.0.0</strong></h3>
+<p><strong>修复</strong>: 修复被翻译的文本过长时翻译后丢失内容的问题</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504890.png">
 </div></center>
 
