@@ -3,7 +3,7 @@ name: UpdateREADMEList
 on:
   workflow_run:
     workflows: 
-      - "update-Script-version"   #触发了自动更新.
+      - "update-scripts-version"   #触发了自动更新.
       - "merge-change-history"     #触发了合并历史记录,可能json文件被改变,
     types:
       - completed
