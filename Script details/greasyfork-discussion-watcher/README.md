@@ -27,14 +27,18 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
+<h3><strong>📅 2024/9/20 08:32 - Ver 1.5.0.3</strong></h3>
+<p><strong>优化</strong>: 🙄 窗口显示新消息数量,当一个<code>discussions</code>没有未读信息时,不会添加分类标题. <br>
+<strong>新增</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
+<hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>新增</strong>: 🙄增加个<code>sweetalert.js</code>第三方库,方便自己在 KIWi 浏览器上使用罢了</p>
+<p><strong>新增</strong>: 🙄 增加个<code>sweetalert.js</code>第三方库,方便自己在 KIWi 浏览器上使用罢了</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork已经逐步支持站内通知,脚本将失去存在的意义.</p>
+<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已经逐步支持站内通知,脚本将失去存在的意义.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户ID失败时,匹配最后发言人.</p>
+<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户 ID 失败时,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>改进</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>

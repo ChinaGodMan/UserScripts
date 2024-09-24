@@ -21,33 +21,37 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork Notification assistant</h1>
-    <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
+    <h1>Greasyfork 通知助手</h1>
+    <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification assistant Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
+<h3><strong>📅 2024/9/20 08:32 - Ver 1.5.0.3</strong></h3>
+<p><strong>优化</strong>: 🙄 窗口显示新消息数量,当一个<code>discussions</code>没有未读信息时,不会添加分类标题. <br>
+<strong>新增</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
+<hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>New</strong>: 🙄add<code>sweetalert.js</code>Third-party libraries,Convenient for yourself KIWi Just use it on the browser</p>
+<p><strong>新增</strong>: 🙄 增加个<code>sweetalert.js</code>第三方库,方便自己在 KIWi 浏览器上使用罢了</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyForkIn-site notifications have been gradually supported,Scripts will lose their meaning.</p>
+<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已经逐步支持站内通知,脚本将失去存在的意义.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your own newly opened discussion,and inMatch last speakeruserIDon failure,Match last speaker.</p>
+<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户 ID 失败时,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
+<p><strong>改进</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>New</strong>: Added grease monkey menu for setting the maximum number of messages。<br />
-<strong>New</strong>: Added skip last speaker is <code>Own</code> options。</p>
+<p><strong>新增</strong>: 增加设置最大消息数量的油猴菜单。<br />
+<strong>新增</strong>: 增加跳过最后发言人是 <code>自己</code> 的选项。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>New</strong>: Added oil monkey menu to set refresh time。</p>
+<p><strong>新增</strong>: 增加设置刷新时间的油猴菜单。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
-<p><strong>initial</strong>: initial version，Welcome。</p>
+<p><strong>初始</strong>: 初始版本，欢迎使用。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>
