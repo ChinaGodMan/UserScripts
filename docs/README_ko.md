@@ -261,7 +261,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트는 GitHub 의 제출 정보가 다음으로 변환됩니다. HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
+            <td>이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -306,6 +306,34 @@
             <td><sub>2024-09-17 10:18:41</sub></td>
              <td><sub>4.1.0.3</sub></td>
               <td><sub>2024-9-12 10:39:51</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github 코드 언어 목록 모두 표시</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand" target="_blank">
+                    <mark>상세한</mark>
+                </a>
+            </td>
+            <td>확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다 “다른” 아래에</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?style=social" alt="size">
+                    <br>설치하다
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509889.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509889?color=%23990000&label=Installs">
+                    <br>설치하다
+                </a>
+            </td>
+            <td><sub>2024-09-24 05:30:01</sub></td>
+            <td><sub>2024-09-24 06:05:47</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
     <tr>
             <td>
@@ -411,7 +439,7 @@
             <td>
                 <a href="https://update.greasyfork.org/scripts/502291.user.js">
                     <img src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs">
-                    <br>설치하다
+                    <br>설치
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
@@ -751,8 +779,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-21 10:02:52</sub></td>
-             <td><sub>1.5.0.2</sub></td>
+            <td><sub>2024-09-24 08:42:20</sub></td>
+             <td><sub>1.5.0.3</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
@@ -1132,7 +1160,7 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 - 양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
-- 만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+- 만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 
 > [!IMPORTANT]
 > 

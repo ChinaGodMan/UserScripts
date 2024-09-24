@@ -310,6 +310,34 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github 代碼語言列表顯示全部</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand" target="_blank">
+                    <mark>詳細</mark>
+                </a>
+            </td>
+            <td>擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?style=social" alt="size">
+                    <br>安裝
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/509889.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/509889?color=%23990000&label=Installs">
+                    <br>安裝
+                </a>
+            </td>
+            <td><sub>2024-09-24 05:30:01</sub></td>
+            <td><sub>2024-09-24 06:05:47</sub></td>
+             <td><sub>1.0.0.0</sub></td>
+              <td><sub>2024-09-24 04:33:03</sub></td>
+        </tr>
+    <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub 自動確認設備授權</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
@@ -751,8 +779,8 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-21 10:02:52</sub></td>
-             <td><sub>1.5.0.2</sub></td>
+            <td><sub>2024-09-24 08:42:20</sub></td>
+             <td><sub>1.5.0.3</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
     <tr>
