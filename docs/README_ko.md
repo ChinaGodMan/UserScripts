@@ -439,7 +439,7 @@
             <td>
                 <a href="https://update.greasyfork.org/scripts/502291.user.js">
                     <img src="https://img.shields.io/greasyfork/dt/502291?color=%23990000&label=Installs">
-                    <br>설치
+                    <br>설치하다
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
@@ -779,7 +779,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-24 08:42:20</sub></td>
+            <td><sub>2024-09-24 10:20:27</sub></td>
              <td><sub>1.5.0.3</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
