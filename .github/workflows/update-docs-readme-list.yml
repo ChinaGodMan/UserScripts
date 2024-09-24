@@ -1,4 +1,4 @@
-name: UpdateREADMEList
+name: update-docs-readme-list
 
 on:
   workflow_run:
