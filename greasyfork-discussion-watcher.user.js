@@ -76,7 +76,7 @@
 // @description:fr-CA  Lorsqu’il y a une nouvelle réponse à votre script ou à une discussion à laquelle vous participez，Le script affichera le dernier contenu de la discussion dans une fenêtre modale sur la page Web。
 // @description  On GreasyFork, when there are new replies to your scripts or discussions you're involved in, the latest discussion content will be displayed on the webpage.
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 1.5.0.2
+// @version 1.5.0.3
 // @icon           data:image/png;base64,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
 // @iconbak https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -91,66 +91,139 @@
 // ==/UserScript==
 (function () {
     'use strict'
-    var DEBUG = false
+    var DEBUG = true
     const config = {
         isInstalled: GM_getValue('Installed', false),//第一次不加载~,
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
         delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
         userId: null,//当前登录id
         userName: null,
-        maxItem: GM_getValue('maxItem', "50"),//访问时显示最大的信息数量
-
+        maxItem: GM_getValue('maxItem', 50),//访问时显示最大的信息数量
+        saveDiscussions: GM_getValue('saveDiscussions', true)//可以不保存到本地,如保存到本地,未读每次都会弹出提示,反之保存在本地,未读只会弹出一次,除非有新回复,
     }
-
-
-    function setRefreshTime() {
+    const translate = (function () {
+        const userLang = location.pathname.split('/')[1]
+        const strings = {
+            'en': {
+                loadingquantity: 'Discussions loading quantity:',
+                popup: 'Pop-up time:',
+                Save: 'Save Discussions:',
+                Setoptions: 'Set  Options',
+                ScriptsDiscussions: 'ScriptsDiscussions',
+                Discussions: 'Discussions',
+                title: 'GreasyFork Discussion Watcher Settings',
+                saveBtn: 'Save',
+                cancelBtn: 'Cancel',
+            }, 'zh-CN': {
+                loadingquantity: '讨论加载数量：',
+                popup: '弹出时间：',
+                Save: '保存讨论：',
+                Setoptions: '设置选项',
+                ScriptsDiscussions: '脚本讨论',
+                Discussions: '讨论',
+                title: 'GreasyFork 通知助手设置',
+                saveBtn: '保存',
+                cancelBtn: '取消'
+            }, 'zh-TW': {
+                loadingquantity: '討論加載數量：',
+                popup: '彈出時間：',
+                Save: '保存討論：',
+                Setoptions: '設置選項',
+                ScriptsDiscussions: '腳本討論',
+                Discussions: '討論',
+                title: 'GreasyFork 通知助手設置',
+                saveBtn: '保存',
+                cancelBtn: '取消'
+            }, 'vi': {
+                loadingquantity: 'Số lượng thảo luận đang tải:',
+                popup: 'Thời gian pop-up:',
+                Save: 'Lưu thảo luận:',
+                Setoptions: 'Cài đặt tùy chọn',
+                ScriptsDiscussions: 'Thảo luận kịch bản',
+                Discussions: 'Thảo luận',
+                title: 'Cài đặt Trình giám sát Thảo luận GreasyFork',
+                saveBtn: 'Lưu',
+                cancelBtn: 'Hủy'
+            }, 'ko': {
+                loadingquantity: '토론 로딩 수량:',
+                popup: '팝업 시간:',
+                Save: '토론 저장:',
+                Setoptions: '옵션 설정',
+                ScriptsDiscussions: '스크립트 토론',
+                Discussions: '토론',
+                title: 'GreasyFork 토론 감시기 설정',
+                saveBtn: '저장',
+                cancelBtn: '취소'
+            }, 'ja': {
+                loadingquantity: 'ディスカッションの読み込み数量：',
+                popup: 'ポップアップ時間：',
+                Save: 'ディスカッションを保存：',
+                Setoptions: 'オプションを設定',
+                ScriptsDiscussions: 'スクリプトディスカッション',
+                Discussions: 'ディスカッション',
+                title: 'GreasyForkディスカッションウォッチャーの設定',
+                saveBtn: '保存',
+                cancelBtn: 'キャンセル'
+            },
+        }
+        return (id, lang = '') => {
+            const selectedLang = lang || userLang
+            return (strings[selectedLang] || strings.en)[id] || strings.en[id]
+        }
+        //  return id => (strings[userLang] || strings.en)[id] || strings.en[id];
+    }())
+    function setSettings() {
         const currentDelay = config.delay
-
-        Swal.fire({
-            title: 'Set refresh time',
-            input: 'text',
-            inputLabel: 'New refresh time (example: 1h30m1s, 1s0m30s,1h1s, 1m, 1s):',
-            inputValue: currentDelay,
-            showCancelButton: true,
-            inputValidator: (value) => {
-                if (!/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(value)) {
-                    return 'The input format is incorrect, please re-enter!'
-                }
-            }
-        }).then((result) => {
-            if (result.isConfirmed) {
-                GM_setValue('delay', result.value)
-                config.delay = result.value
-            }
-        })
-    }
-
-    function setMessageLimit() {
+        const currentSaveDiscussions = GM_getValue('saveDiscussions', true)
         const currentMax = config.maxItem
-
+        const content = `
+        <div style="text-align: left;">
+            <label>${translate('popup')}</label>
+            <input id="delay-input" type="text" value="${currentDelay}" placeholder="1h30m1s, 1s0m30s, 1h, 1m, 1s" style="width: 100%; margin-bottom: 10px;">
+            <br>
+            <label>${translate('loadingquantity')}</label>
+            <input id="max-input" type="number" value="${currentMax}" placeholder="Enter max count" style="width: 100%; margin-bottom: 10px;">
+                        <br>
+            <label>${translate('Save')}</label>
+            <input id="save-discussions" type="checkbox" ${currentSaveDiscussions ? 'checked' : ''}>
+        </div>
+    `
         Swal.fire({
-            title: 'Limit message count',
-            input: 'number',
-            inputLabel: 'New Count:',
-            inputValue: currentMax,
+            imageUrl: "https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png",
+            imageWidth: 96,
+            imageHeight: 96,
+            footer: '<div style="text-align: center;font-size: 1em;">Powered by <a href="https://www.github.com/ChinaGodMan">人民的勤务员</a></div>',
+            title: translate('title'),
+            html: content,
+            focusConfirm: false,
             showCancelButton: true,
-            inputValidator: (value) => {
-                if (!value || isNaN(value)) {
-                    return 'Please enter a valid number!'
-                }
-            }
+            confirmButtonText: translate('saveBtn'),
+            cancelButtonText: translate('cancelBtn')
         }).then((result) => {
             if (result.isConfirmed) {
-                GM_setValue('maxItem', result.value)
-                config.maxItem = result.value
+                const newDelay = document.getElementById('delay-input').value
+                const newSaveDiscussions = document.getElementById('save-discussions').checked
+                const newMaxItem = document.getElementById('max-input').value
+                if (/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(newDelay)) {
+                    GM_setValue('delay', newDelay)
+                    config.delay = newDelay
+                } else {
+                    Swal.fire('Error', 'The refresh time format is incorrect!', 'error')
+                    return
+                }
+                GM_setValue('saveDiscussions', newSaveDiscussions)
+                config.saveDiscussions = newSaveDiscussions
+                if (newMaxItem && !isNaN(newMaxItem)) {
+                    GM_setValue('maxItem', newMaxItem)
+                    config.maxItem = newMaxItem
+                } else {
+                    Swal.fire('Error', 'Please enter a valid number for max item count!', 'error')
+                    return
+                }
             }
         })
     }
-
-
-    GM_registerMenuCommand("Set refresh time", setRefreshTime)
-    GM_registerMenuCommand("Limit message count", setMessageLimit)
-
+    GM_registerMenuCommand(translate('Setoptions'), setSettings)
     function timeToSeconds(timeStr) {
         let hours = 0, minutes = 0, seconds = 0
         const hoursMatch = timeStr.match(/(\d+)h/)
@@ -169,7 +242,6 @@
         return totalSeconds
     }
     function isUpdate() {
-
         const now = Math.floor(new Date().getTime() / 1000)
         const lastUpdated = config.lastUpdated
         const secondsDifference = now - lastUpdated
@@ -178,17 +250,11 @@
             console.log(`时间超过${config.delay} 进行更新`)
             return true
         }
-
         return DEBUG
     }
     function fetchAndDisplayDiscussions(urls) {
-
-        if (DEBUG) {
-            GM_setValue('discussions', [])
-        }
-        if (!isUpdate()) {
-            return
-        }
+        if (DEBUG) GM_setValue('discussions', [])
+        if (!isUpdate()) return
         let discussions = GM_getValue('discussions', [])
         let fetchPromises = []
         let itemCount = 0
@@ -201,15 +267,12 @@
         </div>
     </div>
 </div>
-
-             
         `
         document.body.insertAdjacentHTML('beforeend', modalHTML)
         var discussionList = document.getElementById('discussion-list-a')
         var modalContent = document.getElementById('modal-content')
-        var a = false
+        var isFirst = false
         urls.forEach(([url, description]) => {
-
             fetchPromises.push(
                 fetch(url)
                     .then(response => response.text())
@@ -217,13 +280,8 @@
                         var parser = new DOMParser()
                         var doc = parser.parseFromString(data, 'text/html')
                         var elements = doc.querySelectorAll('.discussion-list > div > div')
-                        if (!a) {
-                            a = true
-                            discussionList.innerHTML += `<center><h5>${description}</h5></center>`
-                        } else {
-                            discussionList.innerHTML += `<center><h5><div class="discussion-list-item">${description}</div></h5></center>`
-                        }
-
+                        var discussionsHTML = ""
+                        var currentCount = 0
                         elements.forEach(function (element) {
                             var discussionTitle = element.querySelector('.discussion-title')
                             var relativeTimes = element.querySelectorAll('relative-time')
@@ -253,18 +311,22 @@
                                 return
                             }
                             var listItemHTML = '<div class="discussion-list-item">' + element.innerHTML + '</div>'
-                            discussionList.innerHTML += listItemHTML
+                            currentCount++
+                            discussionsHTML += listItemHTML
                             itemCount++
                         })
+                        if (currentCount > 0) {
+                            discussionsHTML = `<center><h5>${isFirst ? `<div class="discussion-list-item"><a href="${url}" target="_blank">${description} (${currentCount})</a></div>` : `<a href="${url}" target="_blank">${description} (${currentCount})`}</a></h5></center>` + discussionsHTML
+                            isFirst = true // 后续描述都以嵌套结构添加
+                        }
+                        discussionList.innerHTML += discussionsHTML
                     })
             )
         })
         Promise.all(fetchPromises).then(() => {
-            if (itemCount === 0) {
-                return
-            }
+            if (itemCount === 0) return
             // 将讨论信息保存到 GM_setValue
-            GM_setValue('discussions', discussions)
+            if (config.saveDiscussions) GM_setValue('discussions', discussions)
             if (!config.isInstalled) {
                 console.log('首次安装时,不弹出:')
                 GM_setValue('Installed', true)
@@ -293,7 +355,6 @@
         const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
-
             const match = href.match(/\/users\/(\d+)-/)
             if (match) {
                 const userId = match[1]
@@ -309,11 +370,10 @@
             return false
         }
     }
-
     if (getUserId()) {
         fetchAndDisplayDiscussions([
-            [`https://greasyfork.org/discussions?read=unread&user=${config.userId}&per_page=${config.maxItem}`, "Discussions"],
-            [`https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`, "Scripts Discussions"]//添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
+            [`https://greasyfork.org/discussions?user=${config.userId}&read=unread&per_page=${config.maxItem}`, translate('Discussions')],
+            [`https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`, translate('ScriptsDiscussions')]//添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
         ])
     } else {
         console.log("没有登录,放弃操作")
