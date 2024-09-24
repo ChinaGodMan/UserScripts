@@ -14,7 +14,7 @@ jobs:
           repo-token: ${{ secrets.MY_GITHUB_TOKEN }}
           stale-issue-message: "🕒 Discussion Activity Reminder 🕒\n\nThis Discussion has been labeled as dormant by an automated system for having no activity in the last 60 days. Please consider one the following actions:\n\n1️⃣ Close as Out of Date: If the topic is no longer relevant, close the Discussion as out of date at the bottom of the page.\n\n2️⃣ Provide More Information: Share additional details or context — or let the community know if you've found a solution on your own.\n\n3️⃣ Mark a Reply as Answer: If your question has been answered by a reply, mark the most helpful reply as the solution.\n\nNote: This dormant notification will only apply to Discussions with the Question label. To learn more, see our recent announcement.\n\nThank you for helping bring this Discussion to a resolution! 💬"
           stale-pr-message: "This pull request or issue has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs."
-          days-before-stale: 1  # 30天没有活动的 issue 会被标记为陈旧
+          days-before-stale: 0  # 30天没有活动的 issue 会被标记为陈旧
           days-before-close: 0  # 被标记为陈旧后再经过7天没有活动的 issue 会被自动关闭
           stale-issue-label: "stale"  # 标记陈旧 issue 的标签
           close-issue-label: "resolved"
