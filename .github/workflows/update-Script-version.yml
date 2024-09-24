@@ -1,4 +1,4 @@
-name: update-Script-version
+name: update-scripts-version
 
 on:
     #   schedule:
