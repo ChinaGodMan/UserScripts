@@ -54,6 +54,7 @@ jobs:
               id: get_commit_message
               run: |
                   commit_message="${{ github.event.head_commit.message }}"  # 获取触发时的提交信息
+                  commit_message=$(echo "$commit_message" | sed 's/"/\\"/g; s/'"'"'/\\'"'"'/g')  
                   echo "commit_message=$commit_message" >> $GITHUB_ENV
 
             - name: 根目录脚本__更新py
