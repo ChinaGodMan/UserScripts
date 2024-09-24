@@ -2,7 +2,7 @@
 // @name         外语终结者
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @version 1.4.0.0
-// @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则替换为中文
+// @description  识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
 // @license      MIT
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match        *://*/*
