@@ -31,14 +31,6 @@ def main():
                     '--check-file', 'pythonscr/update-shields/SHIELDS.md'
                 ]
                 subprocess.run(command)
-                command = [
-                    'python', 'pythonscr/writer.py',
-                    '--new-content', new_content,
-                    '--target-file', file_path,
-                    '--start-tag', start_tag,
-                    '--end-tag', end_tag,
-                ]
-                subprocess.run(command)
 
 
 if __name__ == '__main__':

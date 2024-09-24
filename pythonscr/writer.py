@@ -73,11 +73,54 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
     print(f"Processed {file_path}")
 
 
-def should_process_file(file_path, skip_time_check, writer_path, history_true):
+def is_md_empty(file_path, start_tag, end_tag):
+    """判断 md 文件中 start_tag 和 end_tag 之间是否有内容。
+
+    参数:
+        file_path: 要检查的文件路径
+        start_tag: 开始标签
+        end_tag: 结束标签
+
+    返回:
+        如果没有内容，返回 True；否则返回 False。
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # 使用 start_tag 和 end_tag 来查找内容
+        start_index = content.find(start_tag)
+        end_index = content.find(end_tag, start_index)
+
+        if start_index == -1 or end_index == -1:
+            # 如果找不到任一标签，认为没有内容
+            return True
+
+        # 获取 start_tag 和 end_tag 之间的内容
+        content_between_tags = content[start_index +
+                                       len(start_tag):end_index].strip()
+
+        # 判断内容是否为空
+        if not content_between_tags:
+            return True  # 没有内容
+        else:
+            return False  # 有内容
+
+    except FileNotFoundError:
+        print(f"文件未找到: {file_path}")
+        return True  # 如果文件不存在，返回 True，表示没有内容
+
+    except Exception as e:
+        print(f"发生错误: {e}")
+        return True  # 发生错误时返回 True
+
+
+def should_process_file(file_path, skip_time_check, writer_path, history_true, start_tag, end_tag):
     """判断文件是否需要处理
     file_path,需要检查的文件,update-shields和help遍历了所有md这里做个修复,
     因为他们传递进来的检查文件是SHIELDS.md,所以我们还要传递一下writer_path用于检查当前是否是更新日志.
-
+ history_true ,当前为更新日志,直接检查,放在顶端执行,防止在下面被跳过,
+ start_tag  end_tag 用来检查writer_path文件内标志之间是否是空白,如是空白内容直接添加.
     """
     # 获取当前时间
     # 获取文件的最后一次 Git 提交时间
@@ -89,7 +132,8 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true):
         # 如果提交时间大于 5 分钟，跳过处理
         if current_time - last_commit_time > timedelta(minutes=5):
 
-            print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
+            print(
+                f"\033[91m history_true文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
             return False
         else:
             return True  # 提交时间在 5 分钟以内，继续处理文件
@@ -104,7 +148,12 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true):
         return False
 
     if is_first_commit(writer_path):
+        print(f"\033[91m 首次提交,直接添加........。...\033[0m")
         return True
+
+    if is_md_empty(writer_path, start_tag, end_tag):
+        print(f"\033[91m 标志之间无内容直接添加.\033[0m")
+        return True  # 没有内容，返回 True
     # 如果指定了跳过时间检查，直接处理文件
     if skip_time_check:
         return True
@@ -141,7 +190,7 @@ def main():
     file_to_check = args.check_file if args.check_file else args.target_file
     history_true = args.history_true
     # 判断是否需要处理该文件
-    if os.path.isfile(args.target_file) and should_process_file(file_to_check, args.skip_time_check, args.target_file, history_true):
+    if os.path.isfile(args.target_file) and should_process_file(file_to_check, args.skip_time_check, args.target_file, history_true, args.start_tag, args.end_tag):
         process_file(args.target_file, args.new_content,
                      args.start_tag, args.end_tag, args.insert_position)
     else:
