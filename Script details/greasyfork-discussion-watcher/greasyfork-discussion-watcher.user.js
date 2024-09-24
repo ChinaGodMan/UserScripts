@@ -91,7 +91,7 @@
 // ==/UserScript==
 (function () {
     'use strict'
-    var DEBUG = true
+    var DEBUG = false
     const config = {
         isInstalled: GM_getValue('Installed', false),//第一次不加载~,
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
