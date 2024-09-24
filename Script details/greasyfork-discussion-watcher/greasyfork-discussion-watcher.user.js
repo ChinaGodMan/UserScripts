@@ -252,6 +252,9 @@
         }
         return DEBUG
     }
+    function isMobileDevice() {
+        return /Mobi|Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent)
+    }
     function fetchAndDisplayDiscussions(urls) {
         if (DEBUG) GM_setValue('discussions', [])
         if (!isUpdate()) return
@@ -260,8 +263,8 @@
         let itemCount = 0
         var modalHTML = `
 <div id="discussion-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); display: flex; visibility: hidden; align-items: center; justify-content: center; z-index: 1000;">
-    <div id="   " style="background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-height: 80vh; overflow-y: auto; width: 80%; max-width: 600px; padding: 20px; font-family: Arial, sans-serif; display: flex; flex-direction: column;">
-        <button id="close-button" style="align-self: flex-end; background-color: #ff5e5e; border: none; color: #fff; padding: 5px 5px; cursor: pointer; border-radius: 5px; font-family: Arial, sans-serif; font-size: 14px;">X</button>
+    <button id="close-button" style="align-self: flex-end; background-color: #ff5e5e; border: none; color: #fff; padding: 25px 25px; cursor: pointer; border-radius: 5px; font-family: Arial, sans-serif; font-size: 30px;">&times;</button>
+<div id="modal-content" style="background: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); max-height: 80vh; overflow-y: auto; width: 100%; max-width: 100%; padding: 20px; font-family: Arial, sans-serif; display: flex; flex-direction: column;">
         <div class="discussion-list" style="margin-top: 10px;">
             <ul id="discussion-list-a" style="list-style-type: none; padding: 0; margin: 0;"></ul>
         </div>
@@ -269,8 +272,14 @@
 </div>
         `
         document.body.insertAdjacentHTML('beforeend', modalHTML)
-        var discussionList = document.getElementById('discussion-list-a')
-        var modalContent = document.getElementById('modal-content')
+        const discussionList = document.getElementById('discussion-list-a')
+        const modalContent = document.getElementById('modal-content')
+        const closeButton = document.getElementById('close-button')
+        if (isMobileDevice()) {
+            modalContent.appendChild(closeButton)
+            closeButton.style.alignSelf = 'flex-end'
+            closeButton.style.padding = '5px 5px'
+        }
         var isFirst = false
         urls.forEach(([url, description]) => {
             fetchPromises.push(
@@ -333,17 +342,22 @@
                 return
             }
             // 计算关闭按钮的位置，并动态设置
-            var closeButton = document.getElementById('close-button')
             closeButton.style.position = 'absolute'
-            closeButton.style.top = `${discussionList.offsetTop - 50}px`
-            closeButton.style.left = `${discussionList.right}px`
+            var closeButtonRect = closeButton.getBoundingClientRect()
+            var modalContentRect = modalContent.getBoundingClientRect()
+            if (isMobileDevice()) {
+                closeButton.style.top = `${discussionList.offsetTop - closeButtonRect.height}px`
+                closeButton.style.left = `${discussionList.right}px`
+            } else {
+                closeButton.style.top = `${modalContentRect.top - closeButtonRect.height}px`
+                closeButton.style.left = `${modalContentRect.width / 2}px`
+            }
             document.getElementById('discussion-modal').style.visibility = 'visible'
             // 设置所有链接在新窗口中打开
             var links = discussionList.querySelectorAll('a')
             links.forEach(function (link) {
                 link.setAttribute('target', '_blank')
             })
-            // 添加关闭按钮事件
             closeButton.addEventListener('click', function () {
                 document.body.removeChild(document.getElementById('discussion-modal'))
             })
