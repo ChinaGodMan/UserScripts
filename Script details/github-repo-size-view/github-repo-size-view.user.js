@@ -110,7 +110,6 @@ const translate = (function () {
             renderWarning: 'WARNING: repo has not received an update in 1+ year(s)',
             renderCaution: 'Caution: repo has not received an update in 6+ months',
             confirm: 'You have not entered a Token, confirm to clear the GitHub Token?',
-
         }, 'zh-CN': {
             save: '保存',
             cancel: '取消',
@@ -176,7 +175,6 @@ const translate = (function () {
             renderCaution: '주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다',
             confirm: '토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?',
         },
-
     }
     // 返回翻译函数
     return (id, lang = '') => {
