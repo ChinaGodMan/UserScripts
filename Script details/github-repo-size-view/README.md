@@ -29,6 +29,28 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
+<strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
+<table>
+<thead>
+<tr>
+<th>一年以上无更新</th>
+<th>半年内无更新</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="years.png" src="https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png" /></td>
+<td><img alt="6months.png" src="https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
 <hr />
