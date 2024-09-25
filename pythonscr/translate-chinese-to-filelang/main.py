@@ -85,7 +85,9 @@ def translate_text_s(text, target_lang):  # 不操作
     try:
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
-        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        # translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        translated_text = ''.join(
+            item[0] for item in json.loads(data.replace("'", "\u2019"))[0])
         return translated_text
     except Exception as e:
         print(f"\033[31m翻译错误：{e}\033[0m")

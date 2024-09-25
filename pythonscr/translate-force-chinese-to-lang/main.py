@@ -9,6 +9,8 @@ from urllib.request import urlopen
 import urllib.parse
 import time
 import subprocess
+
+
 def is_file_updated_more_than(file_path, timeout_minutes):
     try:
         # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
@@ -30,22 +32,23 @@ def is_file_updated_more_than(file_path, timeout_minutes):
         print(f"错误: 无法获取提交时间 - {file_path}")
         return None
 
+
 # 正则表达式匹配中文字符
 chinese_pattern = re.compile(r'[\u4e00-\u9fff]+')
 
 # 全局翻译缓存字典
 translation_cache = {
     "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值
-    "问题": ("issues", False) ,
-    "所有脚本总安装数": ("issues", True) ,#需要翻译,且需要URL编码
-    "今日所有脚本安装数": ("issues", True) ,
-    "所有一般": ("issues", True) ,
-    "联系": ("issues", True) ,
-    "所有差评": ("issues", True) ,
-    "所有好评": ("issues", True) ,
-    "星标": ("issues", True) ,
-    "脚本数量": ("issues", True) ,
-    "代码质量": ("issues", True) ,
+    "问题": ("issues", False),
+    "所有脚本总安装数": ("issues", True),  # 需要翻译,且需要URL编码
+    "今日所有脚本安装数": ("issues", True),
+    "所有一般": ("issues", True),
+    "联系": ("issues", True),
+    "所有差评": ("issues", True),
+    "所有好评": ("issues", True),
+    "星标": ("issues", True),
+    "脚本数量": ("issues", True),
+    "代码质量": ("issues", True),
     # 可以继续添加其他常见的翻译
 }
 
@@ -65,11 +68,13 @@ json_data = {
 }
 
 # 翻译函数
+
+
 def translate_text_s(text, target_lang):
     if text in translation_cache:
         print(f"从缓存中获取翻译：{text} -> {translation_cache[text]}")
         return translation_cache[text]
-    
+
     api_url = 'https://translate.googleapis.com/translate_a/single'
     params = {
         'client': 'gtx',
@@ -82,18 +87,22 @@ def translate_text_s(text, target_lang):
     try:
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
-        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        # translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        translated_text = ''.join(
+            item[0] for item in json.loads(data.replace("'", "\u2019"))[0])
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
         return None
+
+
 def translate_text(text, target_lang):
     # 如果在缓存中，判断布尔值
     if text in translation_cache:
         cached_translation, needs_api_translation = translation_cache[text]
         # 如果缓存中的布尔值为 False，直接使用缓存翻译
         if not needs_api_translation:
-            #print(f"从缓存中获取翻译：{text} -> {cached_translation}")
+            # print(f"从缓存中获取翻译：{text} -> {cached_translation}")
             return cached_translation
         # 如果布尔值为 True，强制调用 API 翻译，不使用缓存的翻译
         else:
@@ -113,20 +122,22 @@ def translate_text(text, target_lang):
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
         translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        #print(f"API 翻译：{text} -> {translated_text}")
+        # print(f"API 翻译：{text} -> {translated_text}")
         # 如果缓存中该词条的布尔值为 True，进行 URL 编码
         if text in translation_cache and translation_cache[text][1]:
             translated_text = urllib.parse.quote(translated_text)
-            #print(f"URL 编码后的翻译：{translated_text}")
+            # print(f"URL 编码后的翻译：{translated_text}")
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
         return None
 # 读取文件并查找中文文本
+
+
 def read_file_to_memory(file_path, json_data):
     with open(file_path, 'r', encoding='utf-8') as f_in:
         content = f_in.read()
-    
+
     virtual_file = io.StringIO(content)
     updated_lines = []
     for line in virtual_file:
@@ -134,14 +145,17 @@ def read_file_to_memory(file_path, json_data):
             if encoded_value in line:
                 line = line.replace(encoded_value, chinese_text)
         updated_lines.append(line)
-    
+
     virtual_file.close()
     return updated_lines
+
 
 # 翻译锁，确保多个线程不会同时修改 translations
 translation_lock = threading.Lock()
 
 # 用于保存翻译结果的线程函数
+
+
 def translate_worker(chinese_texts, translations, lang):
     for idx, chinese_text in chinese_texts:
         translated_text = translate_text(chinese_text, lang)
@@ -151,13 +165,16 @@ def translate_worker(chinese_texts, translations, lang):
                 translations[(idx, chinese_text)] = translated_text
 
 # 翻译特定语言的函数（并行处理每种语言）
+
+
 def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
     translations = {}  # 每种语言有自己的翻译结果
     threads = []
     chunk_size = len(chinese_texts) // 5 or 1  # 假设5个线程，按块划分
     for i in range(0, len(chinese_texts), chunk_size):
         chunk = chinese_texts[i:i + chunk_size]
-        thread = threading.Thread(target=translate_worker, args=(chunk, translations, lang))
+        thread = threading.Thread(
+            target=translate_worker, args=(chunk, translations, lang))
         threads.append(thread)
         thread.start()
 
@@ -169,17 +186,18 @@ def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
     new_lines = lines[:]
     for line_number, chinese_text, translated_text in reversed(
             [(ln, ct, translations.get((ln, ct), None)) for ln, ct in chinese_texts if (ln, ct) in translations]):
-        new_lines[line_number] = new_lines[line_number].replace(chinese_text, translated_text, 1)
+        new_lines[line_number] = new_lines[line_number].replace(
+            chinese_text, translated_text, 1)
 
     # 设置保存路径：如果 foldpath 为空，使用 translatefile 的路径
     if not foldpath:
         output_dir = os.path.dirname(translatefile)
     else:
         output_dir = os.path.join(foldpath, 'docs')
-    
+
     # 创建保存目录（如果不存在）
     os.makedirs(output_dir, exist_ok=True)
-    
+
     # 保存翻译后的文件
     output_path = os.path.join(output_dir, f'README_{lang}.md')
     with open(output_path, 'w', encoding='utf-8') as f_out:
@@ -199,14 +217,15 @@ def translate_readme(data, json_data):
         foldpath = item['foldpath']
         translatefile = item['translatefile']
         translatedto = item['translatedto']
-        readme_path = os.path.join(foldpath, translatefile) if foldpath else translatefile
+        readme_path = os.path.join(
+            foldpath, translatefile) if foldpath else translatefile
 
         if not os.path.exists(readme_path):
             print(f'文件 {readme_path} 不存在，跳过翻译。')
             continue
         if is_file_updated_more_than(readme_path, 5):
-                     print(f"跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
-                     continue
+            print(f"跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
+            continue
         # 读取文件内容
         lines = read_file_to_memory(readme_path, json_data)
 
@@ -221,7 +240,8 @@ def translate_readme(data, json_data):
         # 为每种语言启动一个线程并行翻译
         language_threads = []
         for lang in translatedto:
-            thread = threading.Thread(target=translate_language, args=(lines, chinese_texts, lang, foldpath, translatefile))
+            thread = threading.Thread(target=translate_language, args=(
+                lines, chinese_texts, lang, foldpath, translatefile))
             language_threads.append(thread)
             thread.start()
 
