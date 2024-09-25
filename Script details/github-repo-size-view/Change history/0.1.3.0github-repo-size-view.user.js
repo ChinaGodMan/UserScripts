@@ -1,9 +1,7 @@
 // ==UserScript==
-// @name        Github Re备份po Size+
+// @name        Github Repo Size+
 // @name:zh-CN        Github 仓库大小
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
-// @name:zh        Github 仓库大小
-// @description:zh 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
 // @name:ar        Github حجم المستودع
 // @description:ar يخرج github أضف حجم المستودع بجوار اسم المستودع في صفحات البحث والمستودع
 // @name:bg        Github Размер на склада
@@ -78,11 +76,12 @@
 // @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @description Adds the repo size next to the repo name on github search and repo pages
-// @version 0.1.3.1
+// @version 0.1.3.0
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
-// @match       https://github.com/*
+// @match       *://github.com/search*
+// @match       *://github.com/*/*
+// @match       *://github.com/*?tab=repositories*
 // @grant       none
-// @run-at document-start
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant        GM_addStyle
@@ -92,130 +91,104 @@
 // @iconbak https://github.githubassets.com/pinned-octocat.svg
 // @license     MIT
 // @source     https://github.com/qinwuyuan-cn/UserScripts
-// @run-at                 document-start
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
-// @downloadURL https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js
-// @updateURL https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.meta.js
 // ==/UserScript==
 "use strict"
-const userLang =
-    (navigator.languages && navigator.languages[0]) ||
-    navigator.language ||
-    "en"
-const translations = {
-    en: {
-        save: "Save",
-        cancel: "Cancel",
-        modaltitle: "Set GitHub Token",
-        description:
-            'Enter your GitHub personal access token with "repo" scope.',
-        githubtokeninput: "Enter your GitHub personal access token",
-        newtoken: "Click here to create a new token",
-        warncheckbox: "  Inactive Development Warning",
-        menu: "Set GitHub Token",
-        renderWarning: "WARNING: repo has not received an update in 1+ year(s)",
-        renderCaution: "Caution: repo has not received an update in 6+ months",
-        confirm:
-            "You have not entered a Token, confirm to clear the GitHub Token?",
-    },
-    "zh-CN,zh,zh-SG": {
-        save: "保存",
-        cancel: "取消",
-        modaltitle: "设置 GitHub 令牌",
-        description: '请输入您的 GitHub 个人访问令牌，需具备 "repo" 权限。',
-        githubtokeninput: "请输入您的 GitHub 个人访问令牌",
-        newtoken: "点击此处创建新的令牌",
-        warncheckbox: " 非活跃开发警告",
-        menu: "设置 GitHub 令牌",
-        renderWarning: "警告：该仓库在 1 年以上未更新",
-        renderCaution: "注意：该仓库在 6 个月以上未更新",
-        confirm: "你没有输入Token,确认清空GitHub Token?",
-    },
-    "zh-TW,zh-HK,zh-MO": {
-        save: "保存",
-        cancel: "取消",
-        modaltitle: "設定 GitHub 令牌",
-        description: '請輸入您的 GitHub 個人訪問令牌，需具備 "repo" 權限。',
-        githubtokeninput: "請輸入您的 GitHub 個人訪問令牌",
-        newtoken: "點擊此處創建新的令牌",
-        warncheckbox: " 非活躍開發警告",
-        menu: "設定 GitHub 令牌",
-        renderWarning: "警告：該倉庫在 1 年以上未更新",
-        renderCaution: "注意：該倉庫在 6 個月以上未更新",
-        confirm: "你沒有輸入Token，確認清空GitHub Token?",
-    },
-    vi: {
-        save: "Lưu",
-        cancel: "Hủy",
-        modaltitle: "Đặt Token GitHub",
-        description:
-            'Nhập token truy cập cá nhân GitHub của bạn với phạm vi "repo".',
-        githubtokeninput: "Nhập token truy cập cá nhân GitHub của bạn",
-        newtoken: "Nhấn vào đây để tạo token mới",
-        warncheckbox: " Cảnh báo phát triển không hoạt động",
-        menu: "Đặt Token GitHub",
-        renderWarning:
-            "CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm",
-        renderCaution:
-            "Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng",
-        confirm: "Bạn chưa nhập Token, xác nhận xóa GitHub Token?",
-    },
-    ja: {
-        save: "保存",
-        cancel: "キャンセル",
-        modaltitle: "GitHubトークンの設定",
-        description:
-            "「repo」スコープを持つGitHub個人アクセストークンを入力してください。",
-        githubtokeninput: "GitHub個人アクセストークンを入力してください",
-        newtoken: "新しいトークンを作成するにはここをクリックしてください",
-        warncheckbox: " 非アクティブ開発警告",
-        menu: "GitHubトークンの設定",
-        renderWarning: "警告：リポジトリは1年以上更新されていません",
-        renderCaution: "注意：リポジトリは6ヶ月以上更新されていません",
-        confirm:
-            "トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?",
-    },
-    ko: {
-        save: "저장",
-        cancel: "취소",
-        modaltitle: "GitHub 토큰 설정",
-        description: "“repo” 범위를 가진 GitHub 개인 액세스 토큰을 입력하세요.",
-        githubtokeninput: "GitHub 개인 액세스 토큰을 입력하세요",
-        newtoken: "여기를 클릭하여 새 토큰을 만드세요",
-        warncheckbox: " 비활성 개발 경고",
-        menu: "GitHub 토큰 설정",
-        renderWarning: "경고: 이 저장소는 1년 이상 업데이트되지 않았습니다",
-        renderCaution: "주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다",
-        confirm: "토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?",
-    },
-}
-const getTranslations = (lang) => {
-    for (const key in translations) {
-        if (key === lang || key.split(",").includes(lang)) {
-            return translations[key]
-        }
+const translate = (function () {
+    const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
+    const translations = {
+        'en': {
+            save: 'Save',
+            cancel: 'Cancel',
+            modaltitle: 'Set GitHub Token',
+            description: 'Enter your GitHub personal access token with "repo" scope.',
+            githubtokeninput: 'Enter your GitHub personal access token',
+            newtoken: 'Click here to create a new token',
+            warncheckbox: '  Inactive Development Warning',
+            menu: 'Set GitHub Token',
+            renderWarning: 'WARNING: repo has not received an update in 1+ year(s)',
+            renderCaution: 'Caution: repo has not received an update in 6+ months',
+            confirm: 'You have not entered a Token, confirm to clear the GitHub Token?',
+        }, 'zh-CN': {
+            save: '保存',
+            cancel: '取消',
+            modaltitle: '设置 GitHub 令牌',
+            description: '请输入您的 GitHub 个人访问令牌，需具备 "repo" 权限。',
+            githubtokeninput: '请输入您的 GitHub 个人访问令牌',
+            newtoken: '点击此处创建新的令牌',
+            warncheckbox: ' 非活跃开发警告',
+            menu: '设置 GitHub 令牌',
+            renderWarning: '警告：该仓库在 1 年以上未更新',
+            renderCaution: '注意：该仓库在 6 个月以上未更新',
+            confirm: '你没有输入Token,确认清空GitHub Token?',
+        },
+        'zh-TW': {
+            save: '保存',
+            cancel: '取消',
+            modaltitle: '設定 GitHub 令牌',
+            description: '請輸入您的 GitHub 個人訪問令牌，需具備 "repo" 權限。',
+            githubtokeninput: '請輸入您的 GitHub 個人訪問令牌',
+            newtoken: '點擊此處創建新的令牌',
+            warncheckbox: ' 非活躍開發警告',
+            menu: '設定 GitHub 令牌',
+            renderWarning: '警告：該倉庫在 1 年以上未更新',
+            renderCaution: '注意：該倉庫在 6 個月以上未更新',
+            confirm: '你沒有輸入Token，確認清空GitHub Token?',
+        },
+        'vi': {
+            save: 'Lưu',
+            cancel: 'Hủy',
+            modaltitle: 'Đặt Token GitHub',
+            description: 'Nhập token truy cập cá nhân GitHub của bạn với phạm vi "repo".',
+            githubtokeninput: 'Nhập token truy cập cá nhân GitHub của bạn',
+            newtoken: 'Nhấn vào đây để tạo token mới',
+            warncheckbox: ' Cảnh báo phát triển không hoạt động',
+            menu: 'Đặt Token GitHub',
+            renderWarning: 'CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm',
+            renderCaution: 'Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng',
+            confirm: 'Bạn chưa nhập Token, xác nhận xóa GitHub Token?',
+        },
+        'ja': {
+            save: '保存',
+            cancel: 'キャンセル',
+            modaltitle: 'GitHubトークンの設定',
+            description: '「repo」スコープを持つGitHub個人アクセストークンを入力してください。',
+            githubtokeninput: 'GitHub個人アクセストークンを入力してください',
+            newtoken: '新しいトークンを作成するにはここをクリックしてください',
+            warncheckbox: ' 非アクティブ開発警告',
+            menu: 'GitHubトークンの設定',
+            renderWarning: '警告：リポジトリは1年以上更新されていません',
+            renderCaution: '注意：リポジトリは6ヶ月以上更新されていません',
+            confirm: 'トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?',
+        },
+        'ko': {
+            save: '저장',
+            cancel: '취소',
+            modaltitle: 'GitHub 토큰 설정',
+            description: '“repo” 범위를 가진 GitHub 개인 액세스 토큰을 입력하세요.',
+            githubtokeninput: 'GitHub 개인 액세스 토큰을 입력하세요',
+            newtoken: '여기를 클릭하여 새 토큰을 만드세요',
+            warncheckbox: ' 비활성 개발 경고',
+            menu: 'GitHub 토큰 설정',
+            renderWarning: '경고: 이 저장소는 1년 이상 업데이트되지 않았습니다',
+            renderCaution: '주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다',
+            confirm: '토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?',
+        },
     }
-    return translations["en"]
-}
-const translate = new Proxy(
-    function (key) {
-        const lang = userLang
-        const strings = getTranslations(lang)
-        return strings[key] || translations["en"][key]
-    },
-    {
+    const getTranslations = (lang) => translations[lang] || translations['en']
+    return new Proxy({}, {
         get(target, prop) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[prop] || translations["en"][prop]
-        },
-    }
-)
+            return strings[prop] || translations['en'][prop]
+        }
+    })
+}())
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
-let TOKEN = GM_getValue("githubToken", "")
-let WARNING = GM_getValue("warn", true)
+let TOKEN = GM_getValue('githubToken', "")
+let WARNING = GM_getValue('warn', true)
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -246,35 +219,33 @@ function createModal() {
             </div>
         </div>
     `
-    const modalContainer = document.createElement("div")
+    const modalContainer = document.createElement('div')
     modalContainer.innerHTML = modalHTML
     document.body.appendChild(modalContainer)
-    const input = document.getElementById("github-token-input")
-    const warn = document.getElementById("warn")
-    warn.checked = GM_getValue("warn", true)
-    input.value = GM_getValue("githubToken", "")
-    document.getElementById("save-token").addEventListener("click", () => {
+    const input = document.getElementById('github-token-input')
+    const warn = document.getElementById('warn')
+    warn.checked = GM_getValue('warn', true)
+    input.value = GM_getValue('githubToken', '')
+    document.getElementById('save-token').addEventListener('click', () => {
         const token = input.value.trim()
-        GM_setValue("warn", warn.checked)
+        GM_setValue('warn', warn.checked)
         WARNING = warn.checked
         if (token) {
-            GM_setValue("githubToken", token)
+            GM_setValue('githubToken', token)
             modalContainer.remove()
             TOKEN = token
         } else {
-            const userConfirmed = confirm(translate("confirm")) //提示是否删除
+            const userConfirmed = confirm(translate("confirm"))//提示是否删除
             if (userConfirmed) {
-                GM_setValue("githubToken", token)
+                GM_setValue('githubToken', token)
                 modalContainer.remove()
                 TOKEN = token
             }
         }
     })
-    document
-        .getElementById("cancel-token")
-        .addEventListener("click", () => modalContainer.remove())
+    document.getElementById('cancel-token').addEventListener('click', () => modalContainer.remove())
 }
-GM_registerMenuCommand(translate("menu"), function () {
+GM_registerMenuCommand(translate.menu, function () {
     createModal()
 })
 const getPageType = () => {
@@ -283,10 +254,8 @@ const getPageType = () => {
     const [, username, repo] = pathname.split("/")
     const q = params.get("q")?.toLocaleLowerCase()
     const type = params.get("type")?.toLocaleLowerCase()
-    if (window.location.pathname.split("/").pop() === "repositories")
-        return "list-view-container"
-    if (window.location.href.includes("?tab=repositories"))
-        return "user-repositories"
+    if (window.location.pathname.split('/').pop() === "repositories") return "list-view-container"
+    if (window.location.href.includes("?tab=repositories")) return "user-repositories"
     if (username && repo) return "repo"
     if (q && type === "code") return "code_search"
     if (q) return "search"
@@ -296,30 +265,26 @@ const addSizeToRepos = () => {
     // Get the repo selector based on the page type
     let repoSelector
     switch (pageType) {
-        case "repo": //仓库详情界面
+        case "repo"://仓库详情界面
             repoSelector = "#repository-container-header strong a"
             break
-        case "list-view-container": //ORG下的仓库列表
-            repoSelector =
-                'div[data-testid="list-view-item-title-container"] h4 a'
+        case "list-view-container"://ORG下的仓库列表
+            repoSelector = 'div[data-testid="list-view-item-title-container"] h4 a'
             break
-        case "user-repositories": //用户资料页面的仓库TAB
-            repoSelector = "#user-repositories-list h3 a"
+        case "user-repositories"://用户资料页面的仓库TAB
+            repoSelector = '#user-repositories-list h3 a'
             break
-        case "search": //搜索
+        case "search"://搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
-        case "code_search": //代码搜索
+        case "code_search"://代码搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
         default:
             return
     }
     function extractPath(input) {
-        const thirdSlashIndex = input.indexOf(
-            "/",
-            input.indexOf("/", input.indexOf("/") + 1) + 1
-        )
+        const thirdSlashIndex = input.indexOf('/', input.indexOf('/', input.indexOf('/') + 1) + 1)
         if (thirdSlashIndex !== -1) {
             return input.substring(0, thirdSlashIndex)
         }
@@ -331,17 +296,14 @@ const addSizeToRepos = () => {
         const tkn = TOKEN
         var href = elem.getAttribute("href")
         href = extractPath(href)
-        //  console.log(href, elem)
+        console.log(href)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
                 headers: headers,
             })
         ).json()
-        if (
-            repoSelector == "#repository-container-header strong a" &&
-            WARNING
-        ) {
+        if (repoSelector == "#repository-container-header strong a" && WARNING) {
             checkCommitDate(jsn.pushed_at)
         }
         // If JSON failed to load, skip
@@ -356,19 +318,11 @@ const addSizeToRepos = () => {
         if (sizeContainer === null) {
             sizeContainer = document.createElement("span")
             sizeContainer.id = "mshll-repo-size"
-            sizeContainer.classList.add(
-                "Label",
-                "Label--info",
-                "v-align-middle",
-                "ml-1"
-            )
+            sizeContainer.classList.add("Label", "Label--info", "v-align-middle", "ml-1")
             sizeContainer.setAttribute("title", "Repository size")
             sizeContainer.innerText = "-"
             // Create the size icon
-            let sizeSVG = document.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "svg"
-            )
+            let sizeSVG = document.createElementNS("http://www.w3.org/2000/svg", "svg")
             sizeSVG.setAttribute("aria-hidden", "true")
             sizeSVG.setAttribute("viewBox", "-4 -4 22 22")
             sizeSVG.setAttribute("width", "16")
@@ -376,28 +330,21 @@ const addSizeToRepos = () => {
             sizeSVG.setAttribute("fill", "currentColor")
             sizeSVG.setAttribute("data-view-component", "true")
             sizeSVG.classList.add("octicon", "octicon-file-directory", "mr-1")
-            let sizeSVGPath = document.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "path"
-            )
+            let sizeSVGPath = document.createElementNS("http://www.w3.org/2000/svg", "path")
             sizeSVGPath.setAttribute("fill-rule", "evenodd")
-            sizeSVGPath.setAttribute(
-                "d",
-                "M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"
-            )
+            sizeSVGPath.setAttribute("d", "M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z")
             sizeSVG.appendChild(sizeSVGPath)
             // Convert the size to human readable
             const sizes = ["B", "KB", "MB", "GB", "TB"]
             const size = jsn.size * 1024 // Github API returns size in KB so convert to bytes
             let i = parseInt(Math.floor(Math.log(size) / Math.log(1024)))
-            const humanReadableSize =
-                (size / Math.pow(1024, i)).toFixed(1) + " " + sizes[i]
+            const humanReadableSize = (size / Math.pow(1024, i)).toFixed(1) + " " + sizes[i]
             // Insert the size into the size container
             sizeContainer.innerHTML = `${humanReadableSize}`
             sizeContainer.prepend(sizeSVG)
             // Insert the size container into the DOM
             if (pageType === "code_search") {
-                parent.style.direction = "ltr"
+                parent.style.direction = 'ltr'
             }
             parent.appendChild(sizeContainer)
         }
@@ -405,55 +352,22 @@ const addSizeToRepos = () => {
 }
 window.addSizeToRepos = addSizeToRepos
 // Add the size to the repos on the page
+//addSizeToRepos()
 window.onload = function () {
-    //addSizeToRepos()
+    addSizeToRepos()
 }
-const selectors = [
-    "#repository-container-header strong a", // 仓库详情界面
-    'div[data-testid="list-view-item-title-container"] h4 a', // ORG下的仓库列表
-    "#user-repositories-list h3 a", // 用户资料页面的仓库TAB
-    'div[data-testid="results-list"] .search-title a', // 搜索
-    // 'div[data-testid="results-list"] .search-title a' // 代码搜索
-]
-document.addEventListener('DOMContentLoaded', () => {
-    main()
-})
-observeUrlChanges(main)
-function main(delay = 0) {
-    Promise.race(selectors.map((selector) => waitForElement(selector))).then(() => {
-        setTimeout(() => {
+// Watch for URL changes
+let lastUrl = location.href
+new MutationObserver(() => {
+    const url = location.href
+    if (url !== lastUrl) {
+        lastUrl = url
+        setTimeout(function () {
+            //NOTE - 此处增加延时了,就这样得了
             addSizeToRepos()
-        }, delay)
-    })
-}
-function observeUrlChanges(callback, delay = 10) {
-    let lastUrl = location.href
-    const observer = new MutationObserver(() => {
-        const url = location.href
-        if (url !== lastUrl) {
-            lastUrl = url
-            setTimeout(() => {
-                console.log("链接改变,,,,,")
-                callback()
-            }, delay)
-        }
-    })
-    observer.observe(document, { subtree: true, childList: true })
-    return observer
-}
-function waitForElement(selector) {
-    return new Promise((resolve) => {
-        const observer = new MutationObserver(() => {
-            if (document.querySelector(selector)) {
-                resolve()
-                observer.disconnect()
-            } else {
-                /*  */
-            }
-        })
-        observer.observe(document.body, { childList: true, subtree: true })
-    })
-}
+        }, 1500)
+    }
+}).observe(document, { subtree: true, childList: true })
 function displayMessage(el) {
     document
         .querySelector("#js-repo-pjax-container")
@@ -499,8 +413,7 @@ function renderCaution() {
 function checkCommitDate(datetimeString) {
     if (document.querySelector("#zh-banner-warning")) return
     const date = new Date(datetimeString)
-    const daysSinceLastCommit =
-        (Date.now() - date.getTime()) / 1000 / 60 / 60 / 24
+    const daysSinceLastCommit = (Date.now() - date.getTime()) / 1000 / 60 / 60 / 24
     if (daysSinceLastCommit > 365) {
         renderWarning()
     } else if (daysSinceLastCommit > 182.5) {
