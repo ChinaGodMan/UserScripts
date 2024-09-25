@@ -181,7 +181,7 @@ const translate = (function () {
         get(target, prop) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[prop] || strings['en'][prop]
+            return strings[prop] || translations['en'][prop]
         }
     })
 }())
