@@ -97,7 +97,7 @@
 "use strict"
 const translate = (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
-    const strings = {
+    const translations = {
         'en': {
             save: 'Save',
             cancel: 'Cancel',
@@ -176,11 +176,14 @@ const translate = (function () {
             confirm: '토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?',
         },
     }
-    // 返回翻译函数
-    return (id, lang = '') => {
-        const selectedLang = lang || userLang
-        return (strings[selectedLang] || strings.en)[id] || strings.en[id]
-    }
+    const getTranslations = (lang) => translations[lang] || translations['en']
+    return new Proxy({}, {
+        get(target, prop) {
+            const lang = userLang
+            const strings = getTranslations(lang)
+            return strings[prop] || strings['en'][prop]
+        }
+    })
 }())
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
@@ -200,19 +203,19 @@ function createModal() {
     const modalHTML = `
         <div class="modal-overlay">
             <div class="modal-content">
-                <h2 class="modal-title">${translate('modaltitle')}</h2>
+                <h2 class="modal-title">${translate.modaltitle}</h2>
                 <p class="modal-description">
-                    ${translate('description')}
+                    ${translate.description}
                     <a href="https://github.com/settings/tokens/new?description=GitHub%20Repo%20Size%20UserScript&scopes=repo" target="_blank" rel="noopener noreferrer">
-                        ${translate('newtoken')}
+                        ${translate.newtoken}
                     </a>
                 </p>
-                <input type="text" id="github-token-input" placeholder="${translate('githubtokeninput')}">
-                <label><input type="checkbox" id="warn">${translate('warncheckbox')}</label>
+                <input type="text" id="github-token-input" placeholder="${translate.githubtokeninput}">
+                <label><input type="checkbox" id="warn">${translate.warncheckbox}</label>
                 <br>
                 <hr>
-                <button id="save-token">${translate('save')}</button>
-                <button id="cancel-token" class="cancel">${translate('cancel')}</button>
+                <button id="save-token">${translate.save}</button>
+                <button id="cancel-token" class="cancel">${translate.cancel}</button>
             </div>
         </div>
     `
@@ -242,7 +245,7 @@ function createModal() {
     })
     document.getElementById('cancel-token').addEventListener('click', () => modalContainer.remove())
 }
-GM_registerMenuCommand(translate('menu'), function () {
+GM_registerMenuCommand(translate.menu, function () {
     createModal()
 })
 const getPageType = () => {
@@ -386,7 +389,7 @@ function renderWarning() {
     font-size: 36px;
   `
     )
-    banner.textContent = translate('renderWarning')
+    banner.textContent = translate.renderWarning
     displayMessage(banner)
 }
 function renderCaution() {
@@ -404,7 +407,7 @@ function renderCaution() {
     font-size: 24px;
   `
     )
-    banner.textContent = translate('renderCaution')
+    banner.textContent = translate.renderCaution
     displayMessage(banner)
 }
 function checkCommitDate(datetimeString) {
