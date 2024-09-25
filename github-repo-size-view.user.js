@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Github Re备份po Size+
+// @name        Github Repo Size+
 // @name:zh-CN        Github 仓库大小
 // @description:zh-CN 在 github 搜索和存储库页面上的存储库名称旁边添加存储库大小
 // @name:zh        Github 仓库大小
