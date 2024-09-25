@@ -54,8 +54,7 @@ jobs:
               id: get_commit_message
               run: |
                   commit_message="${{ github.event.head_commit.message }}"  # 获取触发时的提交信息
-                  commit_message=$(echo "$commit_message" | sed 's/[&/\]/\\&/g; s/"/\\"/g; s/'"'"'/\\'"'"'/g')
-                  echo "commit_message=$commit_message" >> $GITHUB_ENV
+                  echo "$commit_message" > commit_message.txt
 
             - name: 根目录脚本__更新py
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
@@ -71,8 +70,10 @@ jobs:
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
                   # 添加更改
+                  commit_message=$(cat commit_message.txt)
+                  rm commit_message.txt
                   git add .
-                  git commit -m "${{ env.commit_message }}" || echo "没有需要提交的更改"
+                  git commit -m "$commit_message" || echo "没有需要提交的更改"
                   git push origin ${{ env.branch }}
               env:
                   MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}

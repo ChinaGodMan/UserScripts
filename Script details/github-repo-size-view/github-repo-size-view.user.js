@@ -232,7 +232,7 @@ function createModal() {
             modalContainer.remove()
             TOKEN = token
         } else {
-            const userConfirmed = confirm(translate("confirm"))
+            const userConfirmed = confirm(translate("confirm"))//提示是否删除
             if (userConfirmed) {
                 GM_setValue('githubToken', token)
                 modalContainer.remove()
