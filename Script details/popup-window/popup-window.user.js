@@ -2,6 +2,8 @@
 // @name        Small Window Preview
 // @name:zh-CN    小窗预览
 // @description:zh-CN 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小.
+// @name:zh    小窗预览
+// @description:zh 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小.
 // @name:ar    معاينة نافذة صغيرة
 // @description:ar افتح الرابط في النافذة المنبثقة عند سحب الرابط，وتقديم معاينة قبل الافتتاح，يستخدم Edge تكنولوجيا ما قبل القراءة。وفي نفس الوقت، أضف تأثير الأكريليك خلف النافذة الصغيرة عند فتحها.。
 // @name:bg    Визуализация на малък прозорец
@@ -90,9 +92,10 @@
 // @iconbak https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license      MIT
 // ==/UserScript==
-const translate = (function () {
+
+(function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
-    const strings = {
+    const translations = {
         'en': {
             actionMode: 'Select Trigger Mode',
             actionMode1: 'Long Press',
@@ -114,7 +117,7 @@ const translate = (function () {
             showCountdowndrag: 'Show drag timeout progress bar',
             dragTimeOut: 'Drag timeout duration',
         },
-        'zh-CN': {
+        'zh-CN,zh,zh-SG': {
             actionMode: '选择触发方式',
             actionMode1: '长按',
             actionMode2: '拖拽',
@@ -135,7 +138,7 @@ const translate = (function () {
             showCountdowndrag: '显示拖拽超时进度条',
             dragTimeOut: '拖拽超时时间',
         },
-        'zh-TW': {
+        'zh-TW,zh-HK,zh-MO': {
             actionMode: '選擇觸發方式',
             actionMode1: '長按',
             actionMode2: '拖曳',
@@ -199,13 +202,28 @@ const translate = (function () {
             dragTimeOut: 'Thời gian quá hạn khi kéo thả',
         }
     }
-    // 返回翻译函数
-    return (id, lang = '') => {
-        const selectedLang = lang || userLang
-        return (strings[selectedLang] || strings.en)[id] || strings.en[id]
+    const getTranslations = (lang) => {
+        for (const key in translations) {
+            if (key === lang || key.split(",").includes(lang)) {
+                return translations[key]
+            }
+        }
+        return translations["en"]
     }
-}());
-(function () {
+    const translate = new Proxy(
+        function (key) {
+            const lang = userLang
+            const strings = getTranslations(lang)
+            return strings[key] || translations["en"][key]
+        },
+        {
+            get(target, prop) {
+                const lang = userLang
+                const strings = getTranslations(lang)
+                return strings[prop] || translations["en"][prop]
+            },
+        }
+    )
     'use strict'
     const state = {
         isDragging: false,
