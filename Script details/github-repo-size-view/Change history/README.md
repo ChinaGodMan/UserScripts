@@ -1,26 +1,43 @@
 # **🛠️ GitHub Repo Size+ 更新日志**
 
+### **📅 2024/9/25 10:06 - Ver 0.1.3.0**
+
+**新增**: [Github - Inactive Development Warning](https://greasyfork.org/zh-CN/scripts/419645) 在仓库页面显示不活跃开发提醒。<br>
+**i18n**: zh-CN,zh-TW,ja,ko,vi,en<br>
+
+| 一年以上无更新                                                   | 半年内无更新                                                       |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------ |
+|                                                                  |
+| ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png) | ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png) |
+
+---
+
 ### **📅 2024/8/20 05:28 - Ver 0.1.2.26**
+
 **新增**: [GitHub Repo Size Display](https://greasyfork.org/zh-CN/scripts/503821) 使用该脚本的设置界面。
 
 ---
 
 ### **📅 2024/8/13 00:19 - Ver 0.1.2.18**
+
 **新增**: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。
 
 ---
 
 ### **📅 2024/8/12 21:56 - Ver 0.1.2.17**
+
 **新增**: [#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059) 增加在用户资料仓库列表和组织列表显示仓库大小。
 
 ---
 
 ### **📅 2024/8/5 05:18 - Ver 0.1.2.8**
+
 **修复**: [#254059](https://greasyfork.org/zh-CN/scripts/502291/discussions/254059) 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。
 
 ---
 
 ### **📅 2024/8/1 03:43 - Ver 0.1.2**
+
 **修复**: 修复在搜索页面失效的问题。  
 **修复**: 修复查看其他仓库时不显示的问题（增加延时）。
 
