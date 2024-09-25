@@ -29,6 +29,10 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
+<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
+<strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
+<hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
