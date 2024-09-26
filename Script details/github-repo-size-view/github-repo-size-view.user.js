@@ -130,7 +130,7 @@ const translations = {
         renderWarning: "警告：该仓库在 1 年以上未更新",
         renderCaution: "注意：该仓库在 6 个月以上未更新",
         confirm: "你没有输入Token,确认清空GitHub Token?",
-        timediff: "最后一次提交距现在：{years}年{months}个月{days}天. ",
+        timediff: "最后一次提交距现在：{years}年{months}个月{days}天 ",
     },
     "zh-TW,zh-HK,zh-MO": {
         save: "保存",
