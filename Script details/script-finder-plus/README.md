@@ -26,7 +26,10 @@
     <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+   更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+ 更新日志</strong></h1>
+<h3><strong>📅 2024/9/26 10:43 - Ver 0.1.6.80</strong></h3>
+<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突导致放大字体</p>
+<hr />
 <h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
 <p><strong>新增</strong>: • 网页进入全屏，隐藏右下角按钮。</p>
 <hr />
