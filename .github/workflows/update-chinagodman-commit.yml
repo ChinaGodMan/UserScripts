@@ -49,7 +49,7 @@ jobs:
               run: |
                   git pull origin ${{ env.branch }}
 
-            - name: 获取触发时的提交信息
+            - name: 获取本次js文件变动提交信息
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
               id: get_commit_message
               run: |
