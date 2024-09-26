@@ -21,28 +21,28 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>github显示仓库大小</h1>
-    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 」</p>
+    <h1>githubShow warehouse size</h1>
+    <p>「 existGithubShow warehouse size when viewing and searching warehouses 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>优化</strong>: 优化小标签<br>
-<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
+<p><strong>optimization</strong>: Optimize small tags<br>
+<strong>New</strong>: The lower right corner of the inactive development banner displays the last<code>Push</code>How long since now<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
+<p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Show inactive development reminder on repository page。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>一年以上无更新</th>
-<th>半年内无更新</th>
+<th>No updates for more than a year</th>
+<th>No updates in half a year</th>
 </tr>
 </thead>
 <tbody>
@@ -58,20 +58,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
+<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
-<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
+<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
+<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
