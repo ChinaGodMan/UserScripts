@@ -443,7 +443,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-26 02:15:48</sub></td>
+            <td><sub>2024-09-26 02:19:38</sub></td>
              <td><sub>0.1.3.1</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -737,7 +737,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</td>
+            <td>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고서 토론，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -1003,7 +1003,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-17 10:18:50</sub></td>
+            <td><sub>2024-09-26 02:40:10</sub></td>
              <td><sub>2.5.1.2</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>

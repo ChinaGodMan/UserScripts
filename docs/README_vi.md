@@ -443,7 +443,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-26 02:15:48</sub></td>
+            <td><sub>2024-09-26 02:19:38</sub></td>
              <td><sub>0.1.3.1</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -541,7 +541,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -1003,7 +1003,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-17 10:18:50</sub></td>
+            <td><sub>2024-09-26 02:40:10</sub></td>
              <td><sub>2.5.1.2</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
