@@ -78,7 +78,7 @@
 // @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @description Adds the repo size next to the repo name on github search and repo pages
-// @version 0.1.3.1
+// @version 0.1.3.2
 // @author      mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match       https://github.com/*
 // @grant       none
@@ -108,16 +108,15 @@ const translations = {
         save: "Save",
         cancel: "Cancel",
         modaltitle: "Set GitHub Token",
-        description:
-            'Enter your GitHub personal access token with "repo" scope.',
+        description: 'Enter your GitHub personal access token with "repo" scope.',
         githubtokeninput: "Enter your GitHub personal access token",
         newtoken: "Click here to create a new token",
         warncheckbox: "  Inactive Development Warning",
         menu: "Set GitHub Token",
         renderWarning: "WARNING: repo has not received an update in 1+ year(s)",
         renderCaution: "Caution: repo has not received an update in 6+ months",
-        confirm:
-            "You have not entered a Token, confirm to clear the GitHub Token?",
+        confirm: "You have not entered a Token, confirm to clear the GitHub Token?",
+        timediff: "Last commit was: {years} years, {months} months, {days} days ago ",
     },
     "zh-CN,zh,zh-SG": {
         save: "保存",
@@ -131,6 +130,7 @@ const translations = {
         renderWarning: "警告：该仓库在 1 年以上未更新",
         renderCaution: "注意：该仓库在 6 个月以上未更新",
         confirm: "你没有输入Token,确认清空GitHub Token?",
+        timediff: "最后一次提交距现在：{years}年{months}个月{days}天 ",
     },
     "zh-TW,zh-HK,zh-MO": {
         save: "保存",
@@ -144,37 +144,35 @@ const translations = {
         renderWarning: "警告：該倉庫在 1 年以上未更新",
         renderCaution: "注意：該倉庫在 6 個月以上未更新",
         confirm: "你沒有輸入Token，確認清空GitHub Token?",
+        timediff: "最後一次提交距現在：{years}年{months}個月{days}天 ",
     },
     vi: {
         save: "Lưu",
         cancel: "Hủy",
         modaltitle: "Đặt Token GitHub",
-        description:
-            'Nhập token truy cập cá nhân GitHub của bạn với phạm vi "repo".',
+        description: 'Nhập token truy cập cá nhân GitHub của bạn với phạm vi "repo".',
         githubtokeninput: "Nhập token truy cập cá nhân GitHub của bạn",
         newtoken: "Nhấn vào đây để tạo token mới",
         warncheckbox: " Cảnh báo phát triển không hoạt động",
         menu: "Đặt Token GitHub",
-        renderWarning:
-            "CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm",
-        renderCaution:
-            "Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng",
+        renderWarning: "CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm",
+        renderCaution: "Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng",
         confirm: "Bạn chưa nhập Token, xác nhận xóa GitHub Token?",
+        timediff: "Lần commit cuối cách đây: {years} năm, {months} tháng, {days} ngày ",
     },
     ja: {
         save: "保存",
         cancel: "キャンセル",
         modaltitle: "GitHubトークンの設定",
-        description:
-            "「repo」スコープを持つGitHub個人アクセストークンを入力してください。",
+        description: "「repo」スコープを持つGitHub個人アクセストークンを入力してください。",
         githubtokeninput: "GitHub個人アクセストークンを入力してください",
         newtoken: "新しいトークンを作成するにはここをクリックしてください",
         warncheckbox: " 非アクティブ開発警告",
         menu: "GitHubトークンの設定",
         renderWarning: "警告：リポジトリは1年以上更新されていません",
         renderCaution: "注意：リポジトリは6ヶ月以上更新されていません",
-        confirm:
-            "トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?",
+        confirm: "トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?",
+        timediff: "最終コミットから現在まで：{years}年{months}ヶ月{days}日 ",
     },
     ko: {
         save: "저장",
@@ -188,6 +186,7 @@ const translations = {
         renderWarning: "경고: 이 저장소는 1년 이상 업데이트되지 않았습니다",
         renderCaution: "주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다",
         confirm: "토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?",
+        timediff: "마지막 커밋 이후 경과: {years}년 {months}개월 {days}일 ",
     },
 }
 const getTranslations = (lang) => {
@@ -399,6 +398,10 @@ const addSizeToRepos = () => {
             if (pageType === "code_search") {
                 parent.style.direction = "ltr"
             }
+            if (!size) {
+                sizeContainer.style.color = "red"
+                sizeContainer.style.border = "1px solid red"
+            }
             parent.appendChild(sizeContainer)
         }
     })
@@ -459,7 +462,7 @@ function displayMessage(el) {
         .querySelector("#js-repo-pjax-container")
         .insertAdjacentElement("beforebegin", el)
 }
-function renderWarning() {
+function renderWarning(timediff) {
     const banner = document.createElement("div")
     banner.id = "zh-banner-warning"
     banner.setAttribute(
@@ -473,12 +476,28 @@ function renderWarning() {
     align-items: center;
     color: white;
     font-size: 36px;
+    position: relative;
   `
     )
     banner.textContent = translate.renderWarning
+    const smallTag = document.createElement("div")
+    smallTag.setAttribute(
+        "style",
+        `
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+  `
+    )
+    smallTag.textContent = timediff
+    banner.appendChild(smallTag)
     displayMessage(banner)
 }
-function renderCaution() {
+
+function renderCaution(timediff) {
     const banner = document.createElement("div")
     banner.id = "zh-banner-warning"
     banner.setAttribute(
@@ -491,20 +510,61 @@ function renderCaution() {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    position: relative;
   `
     )
     banner.textContent = translate.renderCaution
+    const smallTag = document.createElement("div")
+    smallTag.setAttribute(
+        "style",
+        `
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+  `
+    )
+
+    smallTag.textContent = timediff
+    banner.appendChild(smallTag)
+
     displayMessage(banner)
 }
 function checkCommitDate(datetimeString) {
     if (document.querySelector("#zh-banner-warning")) return
     const date = new Date(datetimeString)
-    const daysSinceLastCommit =
-        (Date.now() - date.getTime()) / 1000 / 60 / 60 / 24
+    const now = new Date()
+    const yearsDiff = now.getFullYear() - date.getFullYear()
+    const monthsDiff = now.getMonth() - date.getMonth()
+    const daysDiff = now.getDate() - date.getDate()
+    let adjustedMonths = monthsDiff
+    let adjustedDays = daysDiff
+    if (adjustedDays < 0) {
+        adjustedMonths--
+        const lastMonth = new Date(now.getFullYear(), now.getMonth(), 0)
+        adjustedDays += lastMonth.getDate()
+    }
+    let finalYears = yearsDiff
+    if (adjustedMonths < 0) {
+        finalYears--
+        adjustedMonths += 12
+    }
+
+    let result = translate.timediff
+    if (finalYears === 0) {
+        result = result.replace(/{years}.*?(?={months})/, '')
+    }
+    result = result.replace('{years}', finalYears > 0 ? finalYears : '')
+    result = result.replace('{months}', adjustedMonths)
+    result = result.replace('{days}', adjustedDays)
+    console.log(result.trim())
+    const daysSinceLastCommit = (Date.now() - date.getTime()) / 1000 / 60 / 60 / 24
     if (daysSinceLastCommit > 365) {
-        renderWarning()
+        renderWarning(result)
     } else if (daysSinceLastCommit > 182.5) {
-        renderCaution()
+        renderCaution(result)
     } else {
         /* noop */
     }
