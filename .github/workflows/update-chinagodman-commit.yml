@@ -49,13 +49,14 @@ jobs:
               run: |
                   git pull origin ${{ env.branch }}
 
-            - name: 获取本次js文件变动提交信息
-              if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
-              id: get_commit_message
+            - name: Escape backticks in commit msg
+              env:
+                COMMIT_MSG: ${{ github.event.head_commit.message }}
               run: |
-                  commit_message="${{ github.event.head_commit.message }}"  # 获取触发时的提交信息
-                  echo "$commit_message" > commit_message.txt
-
+                 echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+                 echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+                 echo "EOF" >> $GITHUB_ENV
+          
             - name: 根目录脚本__更新py
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
@@ -70,10 +71,10 @@ jobs:
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
                   # 添加更改
-                  commit_message=$(cat commit_message.txt)
-                  rm commit_message.txt
+                  
+                  
                   git add .
-                  git commit -m "$commit_message" || echo "没有需要提交的更改"
+                  git commit -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
                   git push origin ${{ env.branch }}
               env:
                   MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
