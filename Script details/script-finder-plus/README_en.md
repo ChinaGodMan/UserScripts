@@ -21,31 +21,31 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Script Finder油猴脚本查找器</h1>
-    <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
+    <h1>Script FinderGrease Monkey Script Finder</h1>
+    <p>「 Script Finder is a user script（userscript），It helps you find and manage userscripts on any website 」</p>
     <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+ 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Script Finder+ Change log</strong></h1>
 <h3><strong>📅 2024/9/26 10:43 - Ver 0.1.6.80</strong></h3>
-<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突导致放大字体</p>
+<p><strong>repair</strong>: • CSS style with GreasyFork Conflict causes enlarged font</p>
 <hr />
 <h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
-<p><strong>新增</strong>: • 网页进入全屏，隐藏右下角按钮。</p>
+<p><strong>New</strong>: • Web page enters full screen，Hide bottom right button。</p>
 <hr />
 <h3><strong>📅 2024/8/26 07:32 - Ver 0.1.6.54</strong></h3>
-<p><strong>新增</strong>: • 增加语言支持。</p>
+<p><strong>New</strong>: • Add language support。</p>
 <hr />
 <h3><strong>📅 2024/8/4 14:32 - Ver 0.1.6.32</strong></h3>
-<p><strong>修复</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。<br />
-<strong>修复方式</strong>: • 更改按钮类名 <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
+<p><strong>repair</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> On SF official website CSS conflict，Causes the button in the lower right corner to become longer，across the bottom of the page。<br />
+<strong>How to fix it</strong>: • Change button class name <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/18 08:45 - Ver 0.1.6.9</strong></h3>
-<p><strong>优化</strong>: • 取消默认排序，改为按照更新时间排序。</p>
+<p><strong>optimization</strong>: • Cancel default sorting，Sort by update time instead。</p>
 <hr />
 <h3><strong>📅 2024/6/26 06:43 - Ver 0.1.6.1</strong></h3>
-<p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~<br />
-<strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
+<p><strong>New</strong>: • Add support for mobile devices，Can also be used on mobile phones~<br />
+<strong>Revise</strong>: • Cancel the operation of clearing the list when a search error occurs。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
 </div></center>
@@ -116,7 +116,7 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
@@ -154,15 +154,15 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -174,7 +174,7 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -194,7 +194,7 @@ The Script Finder userscript allows you to find and manage user scripts on any w
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
