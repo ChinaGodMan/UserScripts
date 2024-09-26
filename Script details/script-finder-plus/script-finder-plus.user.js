@@ -77,7 +77,7 @@
 // @description             Script Finder allows you to find userscripts from greasyfork on any website.
 
 // @namespace     https://github.com/ChinaGodMan/UserScripts
-// @version 0.1.6.79
+// @version 0.1.6.80
 // @author                  shiquda   &  人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
@@ -530,7 +530,7 @@ div.info-container {
         width: calc(90% - 10px); /* 自适应宽度，保持左右边距 */
         max-width: 100%; /* 确保不超出屏幕宽度 */
     }
-        a.script-link {
+        a.mscript-link {
             font-size: 16px !important;
         }
         p.script-description {
