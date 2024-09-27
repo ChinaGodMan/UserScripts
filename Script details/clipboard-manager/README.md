@@ -26,7 +26,10 @@
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p>初始版本.</p></details> 
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
+<h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
+<p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
+<hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
