@@ -3,7 +3,7 @@
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com> Sky,仰望星空
 // @description     管理网页剪贴板的写入行为 防止未经授权的自动复制 &禁用音视频内容预载及自动播放。
-// @version 1.2.3.0
+// @version 1.2.3.1
 // @include         *
 // @run-at          document-body
 // @license                  MIT
@@ -67,6 +67,7 @@
                 }, d * 1000)
             }, duration)
         }
+
         // 处理复制事件的函数
         function pc(e, selection = window.getSelection().toString(), C = false) {
             if (red) {
@@ -85,6 +86,10 @@
                     }
                     sw.style.visibility = "visible"
                     Toast('已阻止网页写入剪贴板', 500, 'rgba(255, 0, 0, 0.7)', 'rgb(255, 255, 255)')
+                }
+            } else {//NOTE  - 此处不为red时且来源于为 window.navigator.clipboard.writeText ,需要手动复制到剪辑版.
+                if (C) {
+                    GM_setClipboard(selection)
                 }
             }
             setTimeout(function () {
