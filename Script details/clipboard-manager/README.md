@@ -27,6 +27,10 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
+<h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
+<p><strong>修复</strong>: •复制函数 <code>pc</code> 不为 red 时且来源于为 <code>window.navigator.clipboard.writeText</code> ,需要手动复制到剪辑版.@90
+<strong>修复</strong>: •逻辑错误 ↠ 按下快捷键复制后只有指示器为 red 时候重置，为 green 不重置@161</p>
+<hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
 <hr /></details> 
