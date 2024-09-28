@@ -191,8 +191,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-27 14:45:27</sub></td>
-             <td><sub>1.2.3.0</sub></td>
+            <td><sub>2024-09-28 08:25:46</sub></td>
+             <td><sub>1.2.3.1</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -457,7 +457,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -597,7 +597,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -681,7 +681,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -730,7 +730,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -1101,7 +1101,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Đã sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
+            <td>Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
@@ -1166,7 +1166,7 @@
 > 
 > - _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > - _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 

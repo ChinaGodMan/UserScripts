@@ -191,8 +191,8 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-27 14:45:27</sub></td>
-             <td><sub>1.2.3.0</sub></td>
+            <td><sub>2024-09-28 08:25:46</sub></td>
+             <td><sub>1.2.3.1</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
     <tr>
@@ -681,7 +681,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 </td>
+            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
