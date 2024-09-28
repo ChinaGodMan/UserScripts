@@ -21,17 +21,17 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
-    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
+    <h1>ChatGPT Collapse self message and max width</h1>
+    <p>「 Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT Collapse self message and max width Change log</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
-<p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
+<p><strong>New</strong>: Compatible with new ChatGPT Official website,When setting the maximum width fails,Automatically re-add.</p>
 <hr />
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
-<p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
+<p><strong>New</strong>: Added the ability to send the Enter key on mobile devices。code from<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>

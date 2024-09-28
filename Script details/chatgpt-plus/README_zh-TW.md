@@ -21,17 +21,17 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
-    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
+    <h1>ChatGPT 折疊自己訊息和最大寬度</h1>
+    <p>「 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ ChatGPT 折疊自己訊息和最大寬度 更新日誌</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
-<p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
+<p><strong>新增</strong>: 相容新 ChatGPT 官網,設定最大寬度失敗時,自動重新新增.</p>
 <hr />
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
-<p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
+<p><strong>新增</strong>: 增加在行動裝置回車鍵發送。代碼來自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
@@ -134,7 +134,7 @@
 
 > ### 🔍你可能在找 GitHub相關腳本
 > - [**GitHub提交資訊顯示HTML**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
+> - [**GitHub 文件清單美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
 > - [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下
 > - [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
 > - [**GitHub資料夾下载**](https://greasyfork.org/scripts/505496): 新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。
