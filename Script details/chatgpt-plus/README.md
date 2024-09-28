@@ -27,7 +27,7 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
-<h3><strong>📅 2024/9/32 09:32 - Ver 0.3.0.0</strong></h3>
+<h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
 <p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
 <hr />
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
