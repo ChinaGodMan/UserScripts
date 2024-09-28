@@ -1,19 +1,19 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the script for the orderly<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the script for the orderly</a><br><a href="#:~:text=View all publish scripts">View the script of the orderly on the current page</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div></center>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20positive%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Code%20quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=star&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,You can light up the stars for encouragement</a>⭐</sub></div></center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -21,18 +21,18 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>网页写入剪辑版授权管理器</h1>
-    <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
+    <h1>Web page writing clip version authorization manager</h1>
+    <p>「 Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Web page writing clip version authorization manager Change log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
-<p><strong>修复</strong>: •复制函数 <code>pc</code> 不为 red 时且来源于为 <code>window.navigator.clipboard.writeText</code> ,需要手动复制到剪辑版.@90
-<strong>修复</strong>: •逻辑错误 ↠ 按下快捷键复制后只有指示器为 red 时候重置，为 green 不重置@161</p>
+<p><strong>repair</strong>: •copy function <code>pc</code> Not for red Sometimes it comes from <code>window.navigator.clipboard.writeText</code> ,Need to manually copy to the edited version.@90
+<strong>repair</strong>: •logic error ↠ 按下快捷键复制后只有指示器for red time to reset，为 green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
-<p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
+<p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
@@ -41,47 +41,47 @@
 
 ![1.png](https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png)
 
-在其他地方下载的脚本，作者不知道是谁很不错，防范牛皮癣。用 ChatGPT 修改了下，让脚本在 PC 端浏览时可以使用快捷键复制，专防网页后台复制各种口令。该脚本与复制限制解除类脚本可能不兼容！
-脚本生效时，会在网页右下角显示半透明小圆点，不同颜色对应不同状态，说明如下：
+Scripts downloaded elsewhere，I don’t know who the author is. Very good.，Prevent psoriasis。use ChatGPT Modified，Let the script be in PC You can use shortcut keys to copy when browsing，Specially prevents various passwords from being copied in the background of web pages。This script may be incompatible with copy restriction lifting scripts！
+When the script takes effect，A semi-transparent dot will be displayed in the lower right corner of the web page，Different colors correspond to different states，Instructions are as follows：
 
--   **红色** : 拦截所有复制行为，并弹窗通知是否授权。
--   **绿色** : 放行所有复制行为，等于脚本不运行。
--   **橙色** : 临时解除拦截，该状态仅出现在手动复制时，用户完成复制后自动变为红色，恢复拦截。
--   **红点默认不显示**，在检测到剪贴板写入行为后会显示 4s。这个时间你可以点击切换状态，选择是否放行这个网页的剪贴板写入行为。
+-   **red** : Block all copying behavior，And a pop-up window will notify you whether to authorize or not.。
+-   **green** : Allow all copying，It’s equal to the script not running。
+-   **orange color** : Temporarily unblock，This status only appears when copying manually，Automatically turns red after the user completes the copy，Restore interception。
+-   **The red dot is not displayed by default**，Displayed after detecting clipboard writing behavior 4s。At this time you can click to switch status，Choose whether to allow clipboard writing behavior for this web page。
 
-## 作者
+## author
 
--   **姓名**：人民的勤务员
--   **邮箱**：toniaiwanowskiskr47@gmail.com
+-   **Name**：人民的勤务员
+-   **Mail**：toniaiwanowskiskr47@gmail.com
 -   **GitHub**：[ChinaGodMan/UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
-## 许可证
+## license
 
-本项目采用 MIT 许可证。
+This project uses MIT license。
 
-## 问题反馈
+## Problem feedback
 
-如有任何问题，请通过 [GitHub Issues](https://github.com/ChinaGodMan/UserScripts/issues) 提交反馈。
+If you have any questions，Please pass [GitHub Issues](https://github.com/ChinaGodMan/UserScripts/issues) Submit feedback。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找网页相关脚本
+> ### 🔍 You may be looking for web related scripts
 >
-> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> -   [**解除 CSDN 登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
+> -   [**Lift CSDN LoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## Help
 
-推荐浏览器和脚本管理器：
+Recommended browsers and script managers：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -89,10 +89,10 @@
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
+<a href="#top">back to top↑</a></p>
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
@@ -100,87 +100,87 @@
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本
+### View all publish scripts
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 ChatGPT 相关脚本
+> ### 🔍 you may be looking for ChatGPT Related scripts
 >
-> -   [**ChatGPT 代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
-> -   [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
-> -   [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
-> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
+> -   [**ChatGPT Code font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
+> -   [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
+> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 网页相关脚本
+> ### 🔍 you may be looking for Web related scripts
 >
-> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> -   [**解除 CSDN 登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
+> -   [**Lift CSDN LoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 GitHub 相关脚本
+> ### 🔍 you may be looking for GitHub Related scripts
 >
-> -   [**GitHub 提交信息显示 HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在 GitHub 授权页面自动输入授权码与自动确认。
-> -   [**GitHub 文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> -   [**GitHub 下载单文件和复制文件 URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> -   [**github 显示仓库大小**](https://greasyfork.org/scripts/502291): 在 Github 查看仓库和搜索仓库时显示仓库大小
-> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> -   [**GitHub Submit information display HTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
+> -   [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
+> -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): exist GitHub Automatically enter the authorization code and confirm automatically on the authorization page。
+> -   [**GitHub folder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> -   [**GitHub Download single files and copy files URL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
+> -   [**github Show warehouse size**](https://greasyfork.org/scripts/502291): exist Github Show warehouse size when viewing and searching warehouses
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 Google 相关脚本
+> ### 🔍 you may be looking for Google Related scripts
 >
-> -   [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> -   [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
+> -   [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。
+> -   [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 GreasyFork 相关脚本
+> ### 🔍 you may be looking for GreasyFork Related scripts
 >
-> -   [**GreasyFork 适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
-> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用 Chart.js 获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> -   [**GreaysFork 增强 WebHook 同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
-> -   [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
-> -   [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本
-> -   [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强 greasyfork 导航栏,增加用户列表,用户控制台等
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 增强 greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
-> -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> -   [**Script Finder 油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
+> -   [**GreasyFork suitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
+> -   [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): use Chart.js Obtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+> -   [**GreaysFork Enhance WebHook Sync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
+> -   [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
+> -   [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script
+> -   [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强 greasyfork 导航栏,Add user list,User console etc.
+> -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): Enhance greasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
+> -   [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
+> -   [**Script Finder Grease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 相关脚本
+> ### 🔍 you may be looking for Related scripts
 >
-> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自 Greasyfork 用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3 秒内无滚动自动停止
+> -   [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
+> -   [**Highlight web text\_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
+> -   [**Small scroll button up and down**](https://greasyfork.org/scripts/497251): Add up and down scroll buttons on the right side of the page
+> -   [**One-touch top and bottom buttons**](https://greasyfork.org/scripts/500255): Modified from Greasyfork user script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3 Automatically stops if there is no scrolling within seconds
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 成人脚本
+> ### 🔍 you may be looking for adult script
 >
-> -   [**MiSSAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
-> -   [**MissAV 收藏管理器**](https://greasyfork.org/scripts/497682): miss 片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到 webdav
-> -   [**TissAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
-> -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
+> -   [**MiSSAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
+> -   [**MissAV Collection manager**](https://greasyfork.org/scripts/497682): miss Playlist backup，Support downloading pictures and saving video information.Export local web page Support export to webdav
+> -   [**TissAV Automatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
+> -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 自动翻译
+> ### 🔍 you may be looking for automatic translation
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问 google 的网络
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
+> -   [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessible google network
+> -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部 ↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>back to top ↑</strong></a></div></center>
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
