@@ -93,7 +93,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</td>
+            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -121,7 +121,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>添加一문자计数器到输入框，로 제한됨 32732 문자。（ChatGPT 한도는 32732 个字符。）</td>
+            <td>添加一캐릭터计数器到输入框，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -163,8 +163,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-17 10:18:39</sub></td>
-             <td><sub>0.2.0.1</sub></td>
+            <td><sub>2024-09-28 09:36:25</sub></td>
+             <td><sub>0.3.0.0</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -191,7 +191,7 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-28 08:25:46</sub></td>
+            <td><sub>2024-09-28 08:50:11</sub></td>
              <td><sub>1.2.3.1</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -345,7 +345,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</td>
+            <td>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -1129,7 +1129,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1160,7 +1160,7 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey  스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 - 양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
-- 만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+- 만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다.GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 
 > [!IMPORTANT]
 > 

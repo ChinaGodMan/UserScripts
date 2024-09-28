@@ -93,7 +93,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</td>
+            <td>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -163,8 +163,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-17 10:18:39</sub></td>
-             <td><sub>0.2.0.1</sub></td>
+            <td><sub>2024-09-28 09:36:25</sub></td>
+             <td><sub>0.3.0.0</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
     <tr>
@@ -177,7 +177,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -191,7 +191,7 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-28 08:25:46</sub></td>
+            <td><sub>2024-09-28 08:50:11</sub></td>
              <td><sub>1.2.3.1</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -289,7 +289,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
+            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -345,7 +345,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</td>
+            <td>existGitHubAutomatically enter the authorization code and confirm automatically on the authorization page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -485,7 +485,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
@@ -709,7 +709,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
