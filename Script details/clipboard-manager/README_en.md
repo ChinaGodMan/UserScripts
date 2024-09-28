@@ -69,7 +69,7 @@ If you have any questions，Please pass [GitHub Issues](https://github.com/China
 > ### 🔍 You may be looking for web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> -   [**Lift CSDN LoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Lift CSDN LoginCopy 限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -107,8 +107,8 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for ChatGPT Related scripts
 >
 > -   [**ChatGPT Code font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> -   [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
-> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> -   [**ChatGPT 聊天 Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
+> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一 characters 计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -116,7 +116,7 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for Web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> -   [**Lift CSDN LoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Lift CSDN LoginCopy 限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -129,7 +129,7 @@ Recommended browsers and script managers：
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > -   [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): exist GitHub Automatically enter the authorization code and confirm automatically on the authorization page。
-> -   [**GitHub folder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> -   [**GitHub folder 下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
 > -   [**GitHub Download single files and copy files URL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > -   [**github Show warehouse size**](https://greasyfork.org/scripts/502291): exist Github Show warehouse size when viewing and searching warehouses
 > -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -161,7 +161,7 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for Related scripts
 >
 > -   [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
-> -   [**Highlight web text\_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
+> -   [**Highlight web text_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
 > -   [**Small scroll button up and down**](https://greasyfork.org/scripts/497251): Add up and down scroll buttons on the right side of the page
 > -   [**One-touch top and bottom buttons**](https://greasyfork.org/scripts/500255): Modified from Greasyfork user script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3 Automatically stops if there is no scrolling within seconds
 
