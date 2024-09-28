@@ -179,7 +179,7 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for automatic translation
 >
 > -   [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessible google network
-> -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation
+> -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation.
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>back to top ↑</strong></a></div></center>
 
