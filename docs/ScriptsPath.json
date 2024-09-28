@@ -46,10 +46,10 @@
             "relatedscripts": "ChatGPT相关脚本",
             "path": "chatgpt-plus.user.js",
             "backuppath": "Script details/chatgpt-plus",
-            "version": "0.2.0.1",
+            "version": "0.3.0.0",
             "GreasyFork": "504901",
             "created_at": "2024-08-24 11:33:58",
-            "code_updated_at": "2024-09-17 10:18:39",
+            "code_updated_at": "2024-09-28 09:36:25",
             "local_created_at": "2024-08-24 11:09:34"
         },
         {
@@ -62,7 +62,7 @@
             "version": "1.2.3.1",
             "GreasyFork": "497403",
             "created_at": "2024-06-09 10:17:55",
-            "code_updated_at": "2024-09-28 08:25:46",
+            "code_updated_at": "2024-09-28 08:50:11",
             "local_created_at": "2024-07-27 20:54:00"
         },
         {
