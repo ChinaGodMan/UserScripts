@@ -208,6 +208,7 @@ const translate = (function () {
             'beautifycodetheme': 'Beautify Code Theme',
             'hiderrecentcomments': 'Hide Recent Comments',
             'hiderconversations': 'Hide Home Conversations',
+            'hideuserprofile': 'Hide homepage personal description',
             'personalhomepage': 'Personal Homepage',
             'showscriptsinforum': 'Show Script Count in Forum',
             'downgradeto': 'Downgrade to:',
@@ -323,6 +324,7 @@ const translate = (function () {
             'beautifycodetheme': '美化代码主题',
             'hiderrecentcomments': '隐藏近期评论',
             'hiderconversations': '隐藏主页私信',
+            'hideuserprofile': '隐藏主页个人说明',
             'personalhomepage': '个人主页',
             'showscriptsinforum': '显示在论坛的脚本数量',
             'downgradeto': '降级到：',
@@ -1031,6 +1033,7 @@ const translate = (function () {
         lockmode: { default: '0', comment: '高亮美化代码和代码片段锁定黑夜模式' },
         hideuserdiscussions: { default: false, comment: '隐藏主页评论' },
         hideuserconversations: { default: false, comment: '隐藏主页私信' },
+        hideuserprofile: { default: false, comment: '隐藏用户主页简介' },
         showresource: { default: false, comment: '代码页面显示引用的文件数量' },
         usereport: { default: true, comment: '讨论页面增加举报' },
         userlocalfav: { default: true, comment: '本地收藏' },
@@ -1347,6 +1350,9 @@ margin-bottom: 0;
     }
     if (hideuserconversations && isHomepage()) {
         document.querySelector("#user-conversations").style.display = 'none'
+    }
+    if (hideuserprofile && document.querySelector("#user-profile")) {
+        document.querySelector("#user-profile").style.display = 'none'
     }
     // STUB - 短链接复制
     const idPrefix = "" // 根据需要设置前缀
@@ -3274,6 +3280,7 @@ button:focus {
         { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: addedittohomepage, onchange: function () { updateAndSetValue('addedittohomepage', this.checked) } },
         { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: hideuserdiscussions, onchange: function () { updateAndSetValue('hideuserdiscussions', this.checked) } },
         { type: 'checkbox', id: 'hideuserconversations', label: translate('hiderconversations'), checked: hideuserconversations, onchange: function () { updateAndSetValue('hideuserconversations', this.checked) } },
+        { type: 'checkbox', id: 'hideuserprofile', label: translate('hideuserprofile'), checked: hideuserprofile, onchange: function () { updateAndSetValue('hideuserprofile', this.checked) } },
         { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { updateAndSetValue('shouwtotalonuserpage', this.checked) } },
     ], viewMode)
     createCategory('sl3', translate('beautifycontrols'), [
