@@ -99,7 +99,7 @@
 // @compatible     edge
 // @compatible     opera
 // @compatible     safari
-// @version 2.2.0.91
+// @version 2.2.0.92
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
 // @iconbak https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
@@ -207,6 +207,7 @@ const translate = (function () {
             'beautifycodeview': 'Beautify Code View',
             'beautifycodetheme': 'Beautify Code Theme',
             'hiderrecentcomments': 'Hide Recent Comments',
+            'hiderconversations': 'Hide Home Conversations',
             'personalhomepage': 'Personal Homepage',
             'showscriptsinforum': 'Show Script Count in Forum',
             'downgradeto': 'Downgrade to:',
@@ -321,6 +322,7 @@ const translate = (function () {
             'beautifycodeview': '美化查看代码',
             'beautifycodetheme': '美化代码主题',
             'hiderrecentcomments': '隐藏近期评论',
+            'hiderconversations': '隐藏主页私信',
             'personalhomepage': '个人主页',
             'showscriptsinforum': '显示在论坛的脚本数量',
             'downgradeto': '降级到：',
@@ -1028,6 +1030,7 @@ const translate = (function () {
         wightnav: { default: true, comment: '对齐导航栏' },
         lockmode: { default: '0', comment: '高亮美化代码和代码片段锁定黑夜模式' },
         hideuserdiscussions: { default: false, comment: '隐藏主页评论' },
+        hideuserconversations: { default: false, comment: '隐藏主页私信' },
         showresource: { default: false, comment: '代码页面显示引用的文件数量' },
         usereport: { default: true, comment: '讨论页面增加举报' },
         userlocalfav: { default: true, comment: '本地收藏' },
@@ -1341,6 +1344,9 @@ margin-bottom: 0;
     //STUB - 隐藏主页评论
     if (hideuserdiscussions && isHomepage()) {
         document.querySelector("#user-discussions").style.display = 'none'
+    }
+    if (hideuserconversations && isHomepage()) {
+        document.querySelector("#user-conversations").style.display = 'none'
     }
     // STUB - 短链接复制
     const idPrefix = "" // 根据需要设置前缀
@@ -3267,6 +3273,7 @@ button:focus {
         { type: 'text', id: 'clearhomepagedays', label: translate('cleanUpOld'), value: clearhomepagedays },
         { type: 'checkbox', id: 'addedittohomepage', label: translate('主页脚本添加操作'), checked: addedittohomepage, onchange: function () { updateAndSetValue('addedittohomepage', this.checked) } },
         { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: hideuserdiscussions, onchange: function () { updateAndSetValue('hideuserdiscussions', this.checked) } },
+        { type: 'checkbox', id: 'hideuserconversations', label: translate('hiderconversations'), checked: hideuserconversations, onchange: function () { updateAndSetValue('hideuserconversations', this.checked) } },
         { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { updateAndSetValue('shouwtotalonuserpage', this.checked) } },
     ], viewMode)
     createCategory('sl3', translate('beautifycontrols'), [
