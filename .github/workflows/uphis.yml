@@ -34,10 +34,10 @@ jobs:
 
 
 
-      - name: 运行更新
+      - name: Delete statshistory.png
         run: |
-          python 1.py
-        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+          find "Script details" -type f -path "*/preview/statshistory.png" -delete
+
 
       - name: 提交和推送更改
         run: |
@@ -47,7 +47,7 @@ jobs:
           
           # 添加更改
           git add .
-          git commit -m '刷新' || echo "没有需要提交的更改"
+          git commit -m '删除历史图片statshistory.png' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}  
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
