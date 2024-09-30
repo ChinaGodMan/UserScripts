@@ -116,6 +116,8 @@ def is_md_empty(file_path, start_tag, end_tag):
 
 
 def should_process_file(file_path, skip_time_check, writer_path, history_true, start_tag, end_tag):
+    if skip_time_check:
+        return True
     """判断文件是否需要处理
     file_path,需要检查的文件,update-shields和help遍历了所有md这里做个修复,
     因为他们传递进来的检查文件是SHIELDS.md,所以我们还要传递一下writer_path用于检查当前是否是更新日志.

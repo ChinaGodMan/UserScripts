@@ -24,6 +24,7 @@
     <h1>GitHub 自动确认设备授权</h1>
     <p>「 在GitHub授权页面自动输入授权码与自动确认。 」</p>
     <img src="https://views.whatilearened.today/views/github/508956/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508956">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 自动确认设备授权 更新日志</strong></h1>

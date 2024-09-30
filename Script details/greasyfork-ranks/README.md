@@ -24,6 +24,7 @@
     <h1>GreasyFork 显示脚本评分</h1>
     <p>「 脚本列表添加评价分数 」</p>
     <img src="https://views.whatilearened.today/views/github/501119/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-ranks.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501119">Greasy
             Fork</a></p> 

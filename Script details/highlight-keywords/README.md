@@ -24,6 +24,7 @@
     <h1>网页高亮关键字+(推荐)</h1>
     <p>「 对网页上的文字进行高亮显示 」</p>
     <img src="https://views.whatilearened.today/views/github/498906/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy
             Fork</a></p> 

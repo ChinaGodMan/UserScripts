@@ -21,17 +21,18 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHubFolder download</h1>
-    <p>「 Add a download button，Allows easy downloading of specific GitHub folder。 」</p>
+    <h1>GitHub文件夹下载</h1>
+    <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Folder download Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
-<p><strong>optimization</strong>: Remove the listener for detecting link changes in the original script，Add a new listener to support displaying buttons when jumping to directories on the warehouse homepage</p>
+<p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮</p>
 <hr />
 <h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
-<p><strong>repair</strong>: Replace broken selectors</p>
+<p><strong>修复</strong>: 替换失效的选择器</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>

@@ -24,6 +24,7 @@
     <h1>JableTV自动登录</h1>
     <p>「 检测 JableTV 状态，并且在未登录时自动登录 」</p>
     <img src="https://views.whatilearened.today/views/github/506730/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ JableTV自动登录  更新日志</strong></h1>

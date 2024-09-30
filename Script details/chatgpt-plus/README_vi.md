@@ -21,17 +21,18 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa</h1>
-    <p>「 Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。 」</p>
+    <h1>ChatGPT 折叠自己消息和最大宽度</h1>
+    <p>「 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>Cập nhật bản ghi</summary><h1><strong>🛠️ ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa Nhật ký thay đổi</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
-<p><strong>Mới</strong>: Tương thích với mới ChatGPT Trang web chính thức,Khi cài đặt chiều rộng tối đa không thành công,Tự động thêm lại.</p>
+<p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
 <hr />
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
-<p><strong>Mới</strong>: Đã thêm khả năng gửi phím Enter trên thiết bị di động。mã từ<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
+<p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>

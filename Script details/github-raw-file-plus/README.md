@@ -24,6 +24,7 @@
     <h1>GitHub下载单文件和复制文件URL</h1>
     <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>

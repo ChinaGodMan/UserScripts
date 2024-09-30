@@ -24,6 +24,7 @@
     <h1>GreasyFork 高级搜索</h1>
     <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本  」</p>
     <img src="https://views.whatilearened.today/views/github/505215/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
             Fork</a></p> 

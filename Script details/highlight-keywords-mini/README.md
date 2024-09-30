@@ -24,6 +24,7 @@
     <h1>高亮网页文本_迷你版</h1>
     <p>「 在网页上自定义关键词突出显示包括滚动时动态加载的内容 」</p>
     <img src="https://views.whatilearened.today/views/github/498905/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
             Fork</a></p> 

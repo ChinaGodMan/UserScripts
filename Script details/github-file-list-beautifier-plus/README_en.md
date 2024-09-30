@@ -21,14 +21,15 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub File list beautifier</h1>
-    <p>「 GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。 」</p>
+    <h1>GitHub 文件列表美化器</h1>
+    <p>「 GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。 」</p>
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508047">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub File list beautifier Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 文件列表美化器 更新日志</strong></h1>
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
-<p><strong>New</strong>: Added the ability to add icons to files,Added custom file colors and icons。</p>
+<p><strong>新增</strong>: 增加了对文件增加图标,增加了自定义文件颜色和图标。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508047.png">
 </div></center>

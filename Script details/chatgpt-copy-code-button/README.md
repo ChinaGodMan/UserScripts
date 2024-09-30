@@ -25,6 +25,7 @@
     <h1>ChatGPT 聊天复制代码按钮</h1>
     <p>「 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 聊天复制代码按钮 更新日志</strong></h1>

@@ -24,6 +24,7 @@
     <h1>GitHub 文件列表美化器</h1>
     <p>「 GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。 」</p>
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508047">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 文件列表美化器 更新日志</strong></h1>
