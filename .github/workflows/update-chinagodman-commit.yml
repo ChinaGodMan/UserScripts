@@ -13,6 +13,11 @@ concurrency:
 jobs:
     update-chinagodman-commit:
         runs-on: ubuntu-latest
+        env:
+          GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+          GIT_AUTHOR_EMAIL: ${{ github.event.commits[0].author.email }}
+          GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+          GIT_COMMITTER_EMAIL: qinwuyuan-sync-bot@users.noreply.github.com
 
         steps:
             - name: 检出代码
@@ -66,9 +71,8 @@ jobs:
             - name: 提交和推送更改
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
-                  # 配置 Git 用户
-                  git config --global user.name 'github-actions[bot]'
-                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  
+                 
 
                   # 添加更改
                   
