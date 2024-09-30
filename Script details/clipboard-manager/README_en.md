@@ -21,19 +21,19 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>网页写入剪辑版授权管理器</h1>
-    <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
+    <h1>Web page writing clip version authorization manager</h1>
+    <p>「 Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Web page writing clip version authorization manager Change log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
-<p><strong>修复</strong>: •复制函数 <code>pc</code> 不为 red 时且来源于为 <code>window.navigator.clipboard.writeText</code> ,需要手动复制到剪辑版.@90
-<strong>修复</strong>: •逻辑错误 ↠ 按下快捷键复制后只有指示器为 red 时候重置，为 green 不重置@161</p>
+<p><strong>repair</strong>: •copy function <code>pc</code> Not for red Sometimes it comes from <code>window.navigator.clipboard.writeText</code> ,Need to manually copy to the edited version.@90
+<strong>repair</strong>: •logic error ↠ 按下快捷键复制后只有指示器for red time to reset，为 green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
-<p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
+<p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
@@ -70,7 +70,7 @@ If you have any questions，Please pass [GitHub Issues](https://github.com/China
 > ### 🔍 You may be looking for web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> -   [**Lift CSDN LoginCopy 限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Lift CSDN LoginCopy limit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -108,8 +108,8 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for ChatGPT Related scripts
 >
 > -   [**ChatGPT Code font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> -   [**ChatGPT 聊天 Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
-> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一 characters 计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> -   [**ChatGPT chat Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> -   [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add one characters Counter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -117,7 +117,7 @@ Recommended browsers and script managers：
 > ### 🔍 you may be looking for Web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> -   [**Lift CSDN LoginCopy 限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> -   [**Lift CSDN LoginCopy limit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -130,7 +130,7 @@ Recommended browsers and script managers：
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > -   [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): exist GitHub Automatically enter the authorization code and confirm automatically on the authorization page。
-> -   [**GitHub folder 下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> -   [**GitHub folder download**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > -   [**GitHub Download single files and copy files URL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > -   [**github Show warehouse size**](https://greasyfork.org/scripts/502291): exist Github Show warehouse size when viewing and searching warehouses
 > -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -152,7 +152,7 @@ Recommended browsers and script managers：
 > -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > -   [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > -   [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script
-> -   [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强 greasyfork 导航栏,Add user list,User console etc.
+> -   [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): Enhance greasyfork Navigation bar,Add user list,User console etc.
 > -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): Enhance greasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > -   [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > -   [**Script Finder Grease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website

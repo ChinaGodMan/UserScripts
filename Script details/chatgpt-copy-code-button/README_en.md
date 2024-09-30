@@ -22,22 +22,22 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT 聊天复制代码按钮</h1>
-    <p>「 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮 」</p>
+    <h1>ChatGPT Chat copy code button</h1>
+    <p>「 exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 聊天复制代码按钮 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT Chat copy code button Change log</strong></h1>
 <h3><strong>📅 2024-09-23 08:58:07- Ver 1.2.0.0</strong></h3>
-<p><strong>修复</strong>: • 新发送内容也会错误添加按钮,改为添加时判断元素是否存在以下子元素<code>querySelector('div.flex.items-center.text-token-text-secondary')</code>
-<strong>修复</strong>: •导出代码检测代码类型出错的问题<code>var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')</code> →<code>var languageDiv = elem.querySelector('div.flex.items-center.text-token-text-secondary')</code></p>
+<p><strong>repair</strong>: • Newly sent content also incorrectly adds a button,Change to determine whether the element has the following sub-elements when adding<code>querySelector('div.flex.items-center.text-token-text-secondary')</code>
+<strong>repair</strong>: •Problem with export code detection code type error<code>var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')</code> →<code>var languageDiv = elem.querySelector('div.flex.items-center.text-token-text-secondary')</code></p>
 <hr />
 <h3><strong>📅 2024-09-22 10:44:07- Ver 1.1.0.0</strong></h3>
-<p><strong>新增</strong>: •增加一个导出代码的按钮,新增的代码来自脚本 →<a href="https://greasyfork.org/zh-CN/scripts/499627"><strong>ChatGPT Code Export Button</strong></a></p>
+<p><strong>New</strong>: •Add a button to export code,The added code comes from the script →<a href="https://greasyfork.org/zh-CN/scripts/499627"><strong>ChatGPT Code Export Button</strong></a></p>
 <hr />
 <h3><strong>📅 2024-09-22 07:06:07- Ver 1.0.0.0</strong></h3>
-<p><strong>新增</strong>: •兼容新版的 ChatGPT 官网</p>
+<p><strong>New</strong>: •Compatible with new version ChatGPT Official website</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/509598.png">
 </div></center>
@@ -98,8 +98,8 @@ The user script is [chatgpt.com](https://chatgpt.com) and [share.nezhagpt.cloud]
 
 > ### 🔍you may be looking forChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 
@@ -137,15 +137,15 @@ Recommended browsers and script managers：
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“复制代码”按钮
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
@@ -157,7 +157,7 @@ Recommended browsers and script managers：
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
 > - [**githubShow warehouse size**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
@@ -177,7 +177,7 @@ Recommended browsers and script managers：
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork superior script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
