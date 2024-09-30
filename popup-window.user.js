@@ -77,7 +77,7 @@
 // @name:fr-CA    Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version 2.5.1.2
+// @version 2.5.1.3
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -101,6 +101,8 @@
             actionMode1: 'Long Press',
             actionMode2: 'Drag',
             actionMode0: 'Both',
+            longPressEffective: 'Long press effective time',
+            setLongPressEffective: 'Enter the long press effective time (milliseconds):',
             longPressDuration: 'Long Press Duration',
             blurEnabled: 'Toggle Blur Effect',
             blurIntensity: 'Set Blur Intensity',
@@ -122,6 +124,8 @@
             actionMode1: '长按',
             actionMode2: '拖拽',
             actionMode0: '两者都用',
+            longPressEffective: '长按生效时间',
+            setLongPressEffective: '输入长按生效时间（毫秒）:',
             longPressDuration: '长按触发时间',
             blurEnabled: '模糊效果',
             blurIntensity: '设置模糊强度',
@@ -143,6 +147,8 @@
             actionMode1: '長按',
             actionMode2: '拖曳',
             actionMode0: '兩者都用',
+            longPressEffective: '长按生效时间',
+            setLongPressEffective: '输入长按生效时间（毫秒）:',
             longPressDuration: '長按觸發時間',
             blurEnabled: '切換模糊效果',
             blurIntensity: '設定模糊強度',
@@ -302,6 +308,7 @@
         blurEnabled: GM_getValue('blurEnabled', true),
         closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
         closeOnScroll: GM_getValue('closeOnScroll', true),
+        longPressEffective: GM_getValue('longPressEffective', 200), // 长按生效时长 （毫秒）//STUB - 也就是长按打开小窗口时间=longPressEffective+longPressDuration
         longPressDuration: GM_getValue('longPressDuration', 500), // 长按持续时间（毫秒）
         dragTimeOut: GM_getValue('dragTimeOut', 2000), // 拖拽超时时间（毫秒）
         actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
@@ -432,6 +439,15 @@
             updateMenuCommands()
         }
     }
+    function setLongPressEffective() {
+        const duration = prompt(translate('setLongPressEffective'), config.longPressEffective)
+        if (duration !== null) {
+            config.longPressEffective = duration
+            GM_setValue('longPressEffective', duration)
+            updateMenuCommands()
+        }
+    }
+
     function setdragTimeOut() {
         const duration = prompt(translate('dragTimeOut'), config.dragTimeOut)
         if (duration !== null) {
@@ -548,9 +564,10 @@
             updateMenuCommands()
         }
     }
-    function updateMenuCommands() {
+    function updateMenuCommands() {//LINK - 
         const menuCommands = [
             { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
+            { label: translate('longPressEffective') + ` (${config.longPressEffective}ms)`, action: setLongPressEffective },
             { label: translate('longPressDuration') + ` (${config.longPressDuration}ms)`, action: setLongPressDuration },
             { label: translate('dragTimeOut') + ` (${config.dragTimeOut}ms)`, action: setdragTimeOut },
             { label: translate('blurEnabled') + ` (${config.blurEnabled ? '✅' : '❌'})`, action: toggleBlurEffect },
@@ -688,11 +705,11 @@
             document.addEventListener('dragstart', onMouseMove, { once: true })
             document.addEventListener('mouseup', onMouseUp, { once: true })
             document.addEventListener('keydown', onMouseUp, { once: true })
-            setTimeout(() => { // 按下100ms后显示倒计时，避免点击就显示
+            setTimeout(() => {
                 if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
                     state.progressBar = createProgressBar()
                     if (state.progressBar) {
-                        const transitionDuration = Math.max(config.longPressDuration - 100, 0) + 'ms'
+                        const transitionDuration = Math.max(config.longPressDuration, 0) + 'ms'
                         state.progressBar.style.left = `${event.clientX}px`  // 设置进度条位置为鼠标下方
                         state.progressBar.style.top = `${event.clientY + 20}px`  // 偏移一点，避免挡住鼠标
                         state.progressBar.style.transition = `width ${transitionDuration} linear`
@@ -701,17 +718,25 @@
                         })
                     }
                 }
-            }, 100)
-            state.pressTimer = setTimeout(() => {
-                if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
-                    const link = linkElement.href
-                    state.linkToPreload = link
-                    preloadLink(state.linkToPreload, { importance: 'high' }).then(() => {
-                        openPopupWindow(state.linkToPreload)
-                    })
-                }
-                progressBarremove()
-            }, config.longPressDuration)
+                /* //NOTE - 鼠标按下的时间才会触发子函数计时,
+                长按触发打开预览窗口时长＝鼠标按下的时间+长按触发时间=打开小窗时间.
+                
+                */
+                onProgres()
+            }, config.longPressEffective)
+
+            function onProgres(params) {
+                state.pressTimer = setTimeout(() => {
+                    if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
+                        const link = linkElement.href
+                        state.linkToPreload = link
+                        preloadLink(state.linkToPreload, { importance: 'high' }).then(() => {
+                            openPopupWindow(state.linkToPreload)
+                        })
+                    }
+                    progressBarremove()
+                }, config.longPressDuration)
+            }
         }
     }
     function handleMouseUp() {
