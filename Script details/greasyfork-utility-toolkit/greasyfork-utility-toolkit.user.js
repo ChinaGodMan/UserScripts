@@ -1351,7 +1351,7 @@ margin-bottom: 0;
     if (hideuserconversations && isHomepage()) {
         document.querySelector("#user-conversations").style.display = 'none'
     }
-    if (hideuserprofile && document.querySelector("#user-profile")) {
+    if (hideuserprofile && document.querySelector("#user-profile") && isHomepage()) {
         document.querySelector("#user-profile").style.display = 'none'
     }
     // STUB - 短链接复制
@@ -4491,8 +4491,20 @@ cursor: pointer;
     }
     //是否为主页
     function isHomepage() {
-        // 判断 #about-user 元素是否存在
-        return !!document.querySelector("#about-user")
+
+        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
+        if (profileLinkElement) {
+            const href = profileLinkElement.getAttribute('href')
+            const match = href.match(/\/users\/(\d+)-/)
+            if (match) {
+                const userId = match[1]
+                const currentUrl = window.location.href
+                if (currentUrl.includes(`/users/${userId}`)) {
+                    return true
+                }
+            }
+        }
+        return false
     }
     //下载函数
     function downloadFile(url, filename, callback, maxRetries = 3, zipInstance) {
