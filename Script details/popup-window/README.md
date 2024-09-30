@@ -28,8 +28,12 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
+<h3><strong>📅 2024/9/30 11:56 - Ver 2.5.1.4</strong></h3>
+<p><strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
+<hr />
 <h3><strong>📅 2024/9/30 10:49 - Ver 2.5.1.3</strong></h3>
-<p><strong>优化</strong>: 添加<code>长按生效时间</code>,鼠标按下等于设置的生效时间后调用打开小窗前的<code>长按触发时间</code>.<br>打开小窗时间=<code>长按生效时间</code>+<code>长按触发时间</code></p>
+<p><strong>优化</strong>: 添加<code>长按生效时间</code>,鼠标按下等于设置的生效时间后调用打开小窗前的<code>长按触发时间</code>.<br>打开小窗时间=<code>长按生效时间</code>+<code>长按触发时间</code>
+<strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
 <hr />
 <h3><strong>📅 2024/9/10 11:05 - Ver 2.5.1.0</strong></h3>
 <p><strong>修复</strong>: 无法跨源读取弹出窗口大小位置的问题。<br />
