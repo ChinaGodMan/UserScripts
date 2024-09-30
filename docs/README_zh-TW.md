@@ -282,7 +282,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件清單美化器</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件列表美化器</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus" target="_blank">
@@ -681,7 +681,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 </td>
+            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -751,8 +751,8 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-17 10:18:46</sub></td>
-             <td><sub>2.2.0.91</sub></td>
+            <td><sub>2024-09-30 08:00:46</sub></td>
+             <td><sub>2.2.0.92</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
     <tr>
@@ -1003,8 +1003,8 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-26 02:40:10</sub></td>
-             <td><sub>2.5.1.2</sub></td>
+            <td><sub>2024-09-30 10:55:57</sub></td>
+             <td><sub>2.5.1.3</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
     <tr>
