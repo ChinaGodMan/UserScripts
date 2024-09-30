@@ -77,7 +77,7 @@
 // @name:fr-CA    Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version 2.5.1.3
+// @version 2.5.1.4
 // @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>  & hiisme
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
@@ -85,6 +85,7 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_info
+// @require           https://unpkg.com/sweetalert2@10.16.6/dist/sweetalert2.min.js
 // @namespace     https://github.com/ChinaGodMan/UserScripts
 // @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL   https://github.com/ChinaGodMan/UserScripts
@@ -92,7 +93,6 @@
 // @iconbak https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license      MIT
 // ==/UserScript==
-
 (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
     const translations = {
@@ -118,6 +118,9 @@
             saveWindowConfig: 'Record window position',
             showCountdowndrag: 'Show drag timeout progress bar',
             dragTimeOut: 'Drag timeout duration',
+            settings: '⚙️ Settings',
+            saveBtn: 'Save',
+            cancelBtn: 'Cancel',
         },
         'zh-CN,zh,zh-SG': {
             actionMode: '选择触发方式',
@@ -141,6 +144,9 @@
             saveWindowConfig: '记录窗口位置',
             showCountdowndrag: '显示拖拽超时进度条',
             dragTimeOut: '拖拽超时时间',
+            settings: '⚙️ 配置界面',
+            saveBtn: '保存',
+            cancelBtn: '取消'
         },
         'zh-TW,zh-HK,zh-MO': {
             actionMode: '選擇觸發方式',
@@ -299,24 +305,168 @@
             config.screenLeft = windowConfig.left,
             config.screenTop = windowConfig.top
     }
-    const config = {
-        windowWidth: 0,
-        windowHeight: 0,
-        screenLeft: 0,
-        screenTop: 0,
-        blurIntensity: GM_getValue('blurIntensity', 5),
-        blurEnabled: GM_getValue('blurEnabled', true),
-        closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
-        closeOnScroll: GM_getValue('closeOnScroll', true),
-        longPressEffective: GM_getValue('longPressEffective', 200), // 长按生效时长 （毫秒）//STUB - 也就是长按打开小窗口时间=longPressEffective+longPressDuration
-        longPressDuration: GM_getValue('longPressDuration', 500), // 长按持续时间（毫秒）
-        dragTimeOut: GM_getValue('dragTimeOut', 2000), // 拖拽超时时间（毫秒）
-        actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
-        showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
-        showCountdowndrag: GM_getValue('showCountdowndrag', true), // 是否显示拖拽倒计时进度条
-        saveWindowConfig: GM_getValue('saveWindowConfig', true)//记住窗口位置,没啥用 
+    let config = {
     }
+    function updateConfig() {
+        config = {
+            windowWidth: 0,
+            windowHeight: 0,
+            screenLeft: 0,
+            screenTop: 0,
+            blurIntensity: GM_getValue('blurIntensity', 5),
+            blurEnabled: GM_getValue('blurEnabled', true),
+            closeOnMouseClick: GM_getValue('closeOnMouseClick', true),
+            closeOnScroll: GM_getValue('closeOnScroll', true),
+            longPressEffective: GM_getValue('longPressEffective', 200), // 长按生效时长 （毫秒）//STUB - 也就是长按打开小窗口时间=longPressEffective+longPressDuration
+            longPressDuration: GM_getValue('longPressDuration', 500), // 长按持续时间（毫秒）
+            dragTimeOut: GM_getValue('dragTimeOut', 2000), // 拖拽超时时间（毫秒）
+            actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
+            showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
+            showCountdowndrag: GM_getValue('showCountdowndrag', true), // 是否显示拖拽倒计时进度条
+            saveWindowConfig: GM_getValue('saveWindowConfig', true)//记住窗口位置,没啥用 
+        }
+    }
+    updateConfig()
     reWindowConfig()
+    function openSettings() {
+        Swal.fire({
+            imageUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEYklEQVR4nO3VW0yTZxzH8QI9ACbb4g3J3OR2Zm64uaVXu/BChkMUhAotUlrKUQUqqLhDRnDJLnZQoLvYxRLneQSB0tLSw1ugnE9KC7y05QwFVDxBdt/fUhhb2dS97+sLvEv4J89NE5rP98mfpzze9mzP9rxwxNe84shLrjnRhQFfUHE/gov6EFzUg+Az3QhRdyGksAMhBe3g57eBn28H/3QL+KeaIThpgyCPgCDXCmGuGcIcE4TZjRBlGSDKbIBIpYdIVY/QDC1ClXUIVdQgLP0OwuTVCJNXITztN7ymrPJFFusXPv6uNYbHZMS3vOLQr5y+oHMDCDp7F5sdEH7iNsJTb+INxW3f/m9bxbQDdl92z/HOO7DVATtkNxBZpPPSDhB+OejjSsDr8ls+2gG8Eie4ErBDeh20/V+MLONzchkXyCWUDC+hZOgZzg89xbnBpzg7+ATFzicocjxeOWcGHkE98AiF9xZRcG8R+XcfIr//IU73P8Cpvgc42Xcfeb33kduzsHJyuueR3T2PrK45ZHbOQdXpharDi4yOWSjbZ6Fom0F62zTSW6chb51Cmn2KfgCX8CdaJukHrMc/21J8KpMArtx8asskZM0TDAI4hJcxCeASXto0Tj+AS/gUG4MALuGTbWP0A7iEP04wCOASXkKMMgvgCl5iZRDAJXySxUM/gEv4RCYBXMIfM7vpB3AJn8Ak4J/4vJ555HTOIrt9ZuVktU0js20aqtYpZNinoLRPQtkyCUXLBNLtk6zi400uBgGBN9+7ALlpCOKfDfjoJx32a1bPh5p6fFD599n35zlwlUCqhWQNH88kIHBtcrq8OHTTDoFaQ/kc+JVAWvM4K/ijjSP0A9btfPc8MppGEVVeSzlgX6UWqbYxVvBHjAwC/vUP2zUHhc2DqApqEVEVWsiIUVbwcUaSfsBzX5tOL+RWN/ZeqqEQUAcpMcoK/rCBQcDznkpV+yxkRgd2f3ODUkCK1cMKPtYwzCyAKd5/3i9fDWADH9swRD/gVfBrAckWNyv4z/QMAl4FvxpQi+NmNyv4Q/pB+gFreKnBgbcvXn8pdlfZNez5vnrdZ+9droXE7GIFH6NjEKBqn6F087vKriJB2w+JwYl3f7yzLiDJ5GIF/6nOST9AanD8TuXmj2n7ILWNQtY0DkmDA3t+qP7rdyDRNMIKPrreuURPn18hivj6yiJl/NpTSYwhUT+AT36xIK62F0kWNxt4HNQ6qqjjS0uF/EKNjsrarMMHvDZJFhckFg8r+Git43FMjfOtTcOztfMHtc5l/82ziheoK0280iuhgX+WQkxEJNvGSNr4hmHPEa3rTeqrsQH4wAiJ1UP+L/GBEYlmN7m5eB6Px1dr6v7jV9Xof5WofFccMRGRYHaRm4b3D1+tmWEDvzZxxGBEvMlFbgreP8KiyncEhZoFJmvzsoijjSPkhuNfHMEcvzYS0/DOw0byYqyBLIs2De/kbfQICsr3+teJX1hZS3dttnL+AHpvNumR+ceNAAAAAElFTkSuQmCC",
+            imageWidth: 48,
+            imageHeight: 48,
+            title: translate.settings,
+            showCancelButton: true,
+            confirmButtonText: translate('saveBtn'),
+            cancelButtonText: translate('cancelBtn'),
+            footer: '<div style="text-align: center;font-size: 1em;">Powered by <a href="https://www.github.com/ChinaGodMan">人民的勤务员</a></div>',
+            html:
+                `<style>
+    .swal2-html-container {
+        text-align: left;
+    }
+    .settings-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .settings-label {
+        flex: 1;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .settings-input {
+        flex: 2;
+    }
+    .icon-toggle {
+        font-size: 20px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .icon-checked {
+        color: green;
+    }
+    .icon-unchecked {
+        color: red;
+    }
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+</style>
+<div class="settings-row">
+    <label class="settings-label">${translate.actionMode}:</label>
+    <select class="settings-input" id="actionMode">
+        <option value="0" ${GM_getValue('actionMode', 0) == 0 ? 'selected' : ''}>${translate.actionMode0}</option>
+        <option value="1" ${GM_getValue('actionMode', 0) == 1 ? 'selected' : ''}>${translate.actionMode1}</option>
+        <option value="2" ${GM_getValue('actionMode', 0) == 2 ? 'selected' : ''}>${translate.actionMode2}</option>
+    </select>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.blurIntensity}</label>
+    <input type="number" class="settings-input" id="blurIntensity" value="${GM_getValue('blurIntensity', 5)}">
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.setLongPressEffective}</label>
+    <input type="number" class="settings-input" id="longPressEffective"
+        value="${GM_getValue('longPressEffective', 200)}">
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.setLongPressDuration}</label>
+    <input type="number" class="settings-input" id="longPressDuration" value="${GM_getValue('longPressDuration', 500)}">
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.dragTimeOut}:</label>
+    <input type="number" class="settings-input" id="dragTimeOut" value="${GM_getValue('dragTimeOut', 2000)}">
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.blurEnabled}</label>
+    <span class="icon-toggle" id="blurEnabled">${GM_getValue('blurEnabled', true) ? '✅' : '❌'}</span>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.closeOnMouseClick}</label>
+    <span class="icon-toggle" id="closeOnMouseClick">${GM_getValue('closeOnMouseClick', true) ? '✅' : '❌'}</span>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.closeOnScroll}</label>
+    <span class="icon-toggle" id="closeOnScroll">${GM_getValue('closeOnScroll', true) ? '✅' : '❌'}</span>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.showCountdown}</label>
+    <span class="icon-toggle" id="showCountdown">${GM_getValue('showCountdown', true) ? '✅' : '❌'}</span>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.showCountdowndrag}</label>
+    <span class="icon-toggle" id="showCountdowndrag">${GM_getValue('showCountdowndrag', true) ? '✅' : '❌'}</span>
+</div>
+<div class="settings-row">
+    <label class="settings-label">${translate.saveWindowConfig}:</label>
+    <span class="icon-toggle" id="saveWindowConfig">${GM_getValue('saveWindowConfig', true) ? '✅' : '❌'}</span>
+</div>
+`,
+            focusConfirm: false,
+            preConfirm: () => {
+                return {
+                    blurIntensity: document.getElementById('blurIntensity').value,
+                    longPressEffective: document.getElementById('longPressEffective').value,
+                    longPressDuration: document.getElementById('longPressDuration').value,
+                    dragTimeOut: document.getElementById('dragTimeOut').value,
+                    blurEnabled: document.getElementById('blurEnabled').textContent === '✅',
+                    closeOnMouseClick: document.getElementById('closeOnMouseClick').textContent === '✅',
+                    closeOnScroll: document.getElementById('closeOnScroll').textContent === '✅',
+                    showCountdown: document.getElementById('showCountdown').textContent === '✅',
+                    showCountdowndrag: document.getElementById('showCountdowndrag').textContent === '✅',
+                    saveWindowConfig: document.getElementById('saveWindowConfig').textContent === '✅',
+                    actionMode: document.getElementById('actionMode').value
+                }
+            }
+        }).then((result) => {
+            if (result.isConfirmed) {
+                GM_setValue('blurIntensity', parseInt(result.value.blurIntensity))
+                GM_setValue('longPressEffective', parseInt(result.value.longPressEffective))
+                GM_setValue('longPressDuration', parseInt(result.value.longPressDuration))
+                GM_setValue('dragTimeOut', parseInt(result.value.dragTimeOut))
+                GM_setValue('blurEnabled', result.value.blurEnabled)
+                GM_setValue('closeOnMouseClick', result.value.closeOnMouseClick)
+                GM_setValue('closeOnScroll', result.value.closeOnScroll)
+                GM_setValue('showCountdown', result.value.showCountdown)
+                GM_setValue('showCountdowndrag', result.value.showCountdowndrag)
+                GM_setValue('saveWindowConfig', result.value.saveWindowConfig)
+                GM_setValue('actionMode', parseInt(result.value.actionMode))
+                updateConfig()
+                updateMenuCommands()
+                Swal.fire('设置已保存!', '', 'success')
+            }
+        })
+        document.querySelectorAll('.icon-toggle').forEach(item => {
+            item.addEventListener('click', function () {
+                this.textContent = this.textContent === '✅' ? '❌' : '✅'
+                this.classList.toggle('icon-checked')
+                this.classList.toggle('icon-unchecked')
+            })
+        })
+    }
     function delay(ms) {
         return new Promise(resolve => setTimeout(resolve, ms))
     }
@@ -447,7 +597,6 @@
             updateMenuCommands()
         }
     }
-
     function setdragTimeOut() {
         const duration = prompt(translate('dragTimeOut'), config.dragTimeOut)
         if (duration !== null) {
@@ -503,11 +652,6 @@
         const menuCommandId = GM_registerMenuCommand(label, action)
         registeredMenuCommands[label] = menuCommandId
         return menuCommandId
-    }
-    function toggleshowCountdown() {
-        config.showCountdown = !config.showCountdown
-        GM_setValue('showCountdown', config.showCountdown)
-        updateMenuCommands()
     }
     function saveWindowConfig(width, height, left, top, HostName = window.location.hostname) {
         config.windowWidth = width
@@ -566,6 +710,7 @@
     }
     function updateMenuCommands() {//LINK - 
         const menuCommands = [
+            { label: translate('settings'), action: openSettings },
             { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
             { label: translate('longPressEffective') + ` (${config.longPressEffective}ms)`, action: setLongPressEffective },
             { label: translate('longPressDuration') + ` (${config.longPressDuration}ms)`, action: setLongPressDuration },
@@ -720,11 +865,9 @@
                 }
                 /* //NOTE - 鼠标按下的时间才会触发子函数计时,
                 长按触发打开预览窗口时长＝鼠标按下的时间+长按触发时间=打开小窗时间.
-                
                 */
                 onProgres()
             }, config.longPressEffective)
-
             function onProgres(params) {
                 state.pressTimer = setTimeout(() => {
                     if (!isDragging && isMouseDown) { // 确保没有拖拽并且鼠标仍按下
