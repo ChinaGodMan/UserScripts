@@ -33,8 +33,8 @@ jobs:
           if [ "$FOUND" = true ]; then
             echo "Sensitive info found, restoring to parent commit."
             git reset --hard HEAD^
-            git add .
-            git commit -m "Reverted commit due to sensitive information detected"
+           # git add .
+           # git commit -m "Reverted commit due to sensitive information detected"
             git push origin HEAD --force
             exit 1
           else
