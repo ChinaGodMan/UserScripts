@@ -27,10 +27,16 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar   更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
+<h3><strong>📅 2024-10-02 - Ver: 2.0.5</strong></h3>
+<p><strong>新增</strong>: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:<code>var translate = "en"</code></p>
+<p><img alt="tl.gif" src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif" /></p>
+<hr />
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
-<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a><br />
-- <code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></p>
+<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a></p>
+<ul>
+<li><code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></li>
+</ul>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
 </div></center>
