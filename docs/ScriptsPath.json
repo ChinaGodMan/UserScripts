@@ -267,10 +267,10 @@
             "relatedscripts": "GreasyFork相关脚本",
             "path": "greasyfork-markdown-toolbar.user.js",
             "backuppath": "Script details/greasyfork-markdown-toolbar",
-            "version": "2.0.4.24",
+            "version": "2.0.5",
             "GreasyFork": "505164",
             "created_at": "2024-08-26 02:12:29",
-            "code_updated_at": "2024-09-17 10:18:44",
+            "code_updated_at": "2024-10-02 06:11:39",
             "local_created_at": "2024-08-06 00:32:53"
         },
         {
@@ -440,10 +440,10 @@
             "relatedscripts": "网页相关脚本",
             "path": "popup-window.user.js",
             "backuppath": "Script details/popup-window",
-            "version": "2.5.1.3",
+            "version": "2.5.1.4",
             "GreasyFork": "504880",
             "created_at": "2024-08-24 06:51:35",
-            "code_updated_at": "2024-09-30 10:55:57",
+            "code_updated_at": "2024-09-30 11:57:51",
             "local_created_at": "2024-08-23 07:20:13"
         },
         {
