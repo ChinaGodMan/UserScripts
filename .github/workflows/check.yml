@@ -1,0 +1,30 @@
+name: Check for Sensitive Info
+
+on: [push, pull_request]
+
+jobs:
+  check_sensitive_info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - name: Check for email
+        run: |
+          FILES=$(git diff --name-only HEAD^ HEAD)
+          FOUND=false
+          for FILE in $FILES; do
+            if grep -q '123456@gmail.com' "$FILE"; then
+              echo "Sensitive info found in $FILE!"
+              FOUND=true
+            fi
+          done
+          if [ "$FOUND" = true ]; then
+            exit 1
+          else
+            echo "No sensitive info found."
+          fi
