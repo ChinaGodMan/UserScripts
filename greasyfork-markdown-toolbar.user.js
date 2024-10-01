@@ -80,6 +80,7 @@
 // @contributor       JixunMoe
 // @contributor       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @license           MIT
+// @grant        GM_xmlhttpRequest
 // @include           https://greasyfork.org/*discussions/*
 // @include           https://greasyfork.org/*scripts/*/versions/new*
 // @include           https://greasyfork.org/*scripts/*/feedback*
@@ -88,7 +89,7 @@
 // @include           https://greasyfork.org/*/users/edit
 // @grant             GM_addStyle
 // @run-at            document-start
-// @version 2.0.4.24
+// @version 2.0.5
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAQAAADgMuRfAAABWklEQVR4Ae3YJQIUYRxA8R8OESs4BXcOsHXqngDnFtglKFjEqVOwjtNxd3f547Duux/2Xhx7Y98ITLbHdZHA6/aYDLM9EAl9YB77RWIP8Vgk9hkhvaKp/yP+R5SyXdRxl1KipqV0ETHGGVHDM8YMLoKZHogKH5jJICPIRIUZg45giyhxCykihsnFd3PD0kQwzkUhXDGOVBEs9+azy0kZwZrPShFRf7MrBxfx0hK1WOLl4CLCReNqX6Z1NrFeM9a3HxFyleSibsQbBY0oeNNJRNiolI1NDvZd09Rjmruis4j3Mj/IvG8SEc4boxZjnBedRZQ+sqZ50NJld0gt9otuIsJJIz97suVrf6NKNopuI8L2z7ZzAxaVUhRdR3Qw3zML/WChZ2kiwkUTwUQXRaqIcNzIzx4RKSPC1s/+ia/8/yP+R/wmP0kOicQeYl76H2cw2X63RAJv2W8ynwCwbA7V/z22eQAAAABJRU5ErkJggg==
 // @iconbak https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
@@ -101,7 +102,7 @@
 // https://greasyfork.org/en/scripts/422445-github-watcher/feedback
 // https://greasyfork.org/en/users/2160-darkred/conversations/new
 // https://greasyfork.org/en/users/edit
-
+var translate = "en"
 var inForum = location.href.indexOf('/discussions') > 0
 var inPostNewScriptVer = location.href.indexOf('/versions/new') > 0
 
@@ -156,7 +157,8 @@ function addFeatures(n) {
     var form = n.closest('form')
 
     if (form.action.indexOf('/edit') < 0) {
-        n.click()
+        //NOTE - 取消自动点击
+        //  n.click()
     }
 
     if (inPostNewScriptVer) {
@@ -201,10 +203,11 @@ function addFeatures(n) {
             } catch (ex) { }
         }
     )
+
     btnMake(n, __('Image (https)'), __('Convert selected https://url to inline image'), '![' + __('image') + '](', ')')
-    if (inForum) {
-        btnMake(n, __('Table'), __('Insert table template'), __('\n| head1 | head2 |\n|-------|-------|\n| cell1 | cell2 |\n| cell3 | cell4 |\n'), '', true)
-    }
+    //  if (inForum) {
+    btnMake(n, __('Table'), __('Insert table template'), __('\n| head1 | head2 |\n|-------|-------|\n| cell1 | cell2 |\n| cell3 | cell4 |\n'), '', true)
+    //} 都添加表格
     btnMake(n, __('Code'), __('Apply CODE markdown to selected text'),
         function (e) {
             var ed = edInit(e.target)
@@ -219,7 +222,17 @@ function addFeatures(n) {
             }
         }
     )
+    btnMake(n, "谷歌翻译", "快速翻译选中的内容,",
+        function (e) {
+            const translatedzh = edInit(e.target)
+            translateText(translatedzh.sel).then(translatedText => {
 
+                edWrapInTag("", translatedText, translatedzh, true)
+            }).catch(error => {
+                alert(" GoogleTranslate ERROR!!! ")
+            })
+        }
+    )
     var allPreviewTabs = contains('.preview-tab', 'Preview')
     allPreviewTabs.forEach(element => {
         element.onclick = function (event) {
@@ -266,9 +279,14 @@ function edInit(btn) {
     return ed
 }
 
-function edWrapInTag(tag1, tag2, ed) {
-    ed.node.value = ed.text.substr(0, ed.sel1) + tag1 + ed.sel + (tag2 ? tag2 : tag1) + ed.text.substr(ed.sel2)
+function edWrapInTag(tag1, tag2, ed, rep = false) {
+    if (rep) {
+        ed.node.value = ed.text.substr(0, ed.sel1) + (tag2 ? tag2 : tag1) + ed.text.substr(ed.sel2)
+    } else {
+        ed.node.value = ed.text.substr(0, ed.sel1) + tag1 + ed.sel + (tag2 ? tag2 : tag1) + ed.text.substr(ed.sel2)
+    }
     ed.node.setSelectionRange(ed.sel1 + tag1.length, ed.sel1 + tag1.length + ed.sel.length)
+    if (rep) return//不选中,文本太长了,选中干啥,
     ed.node.focus()
 }
 
@@ -355,3 +373,39 @@ var __ = (function (l, langs) {
             '\n| En-tête 1 | En-tête 2 |\n|-------|-------|\n| cellule 1 | cellule 2 |\n| cellule 3 | cellule 4 |\n'
     }
 })
+function translateText(text) {
+    return new Promise((resolve, reject) => {
+        var api = 'https://translate.googleapis.com/translate_a/single'
+        var params = {
+            client: 'gtx',
+            dt: 't',
+            sl: 'auto',
+            tl: translate,
+            q: text
+        }
+
+        GM_xmlhttpRequest({
+            method: 'GET',
+            url: api + buildQueryString(params),
+            onload: function (response) {
+                try {
+                    var data = JSON.parse(response.responseText.replace("'", '\u2019'))
+                    var translatedText = data[0].reduce((acc, item) => acc + item[0], '')
+                    resolve(translatedText)
+                } catch (error) {
+                    console.error('翻译失败：', error)
+                    reject('翻译失败')
+                }
+            },
+            onerror: function (response) {
+                console.error('请求翻译失败：', response.statusText)
+                reject('请求翻译失败')
+            }
+        })
+    })
+}
+function buildQueryString(params) {
+    return '?' + Object.keys(params).map(function (key) {
+        return encodeURIComponent(key) + '=' + encodeURIComponent(params[key])
+    }).join('&')
+}
