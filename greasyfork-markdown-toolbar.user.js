@@ -233,6 +233,39 @@ function addFeatures(n) {
             })
         }
     )
+    const WeiWeiimages = [
+        ["npzhyrb4txdoegwl82bkapekufb5", "维维发问：你有眼界吗？"],
+        ["gkhj9p2qhtm62uza3qveshtooe2u", "维维被你震撼到了！"],
+        ["p0i0f5xubhln1wvph3ip70zhpzqq", "维维发问：什么叫做搬起石头砸自己的脚？"],
+        ["nahzae6vc3d3osq861cbt8uaopkk", "维维断言：这就是个国际笑话"],
+        ["kzpmox79idq4gmsbyoj0yyuhx13v", "维维发问：你怎么敢讲这种话的？"],
+    ]
+    const WeiWeiLoveYou = WeiWei(WeiWeiimages, true)
+    btnMake(n, "维维嘲讽", "来自爱国教授维维的五连问", __(`\n\n` + WeiWeiLoveYou + `\n\n
+`), '', true)
+    function WeiWei(images, WeiWeiSays) {
+        let html = `
+<div style="background-color: #FFF3E0;color: #FF5722;border: 1px solid #FF5722;"><center><h3 style="color: red;">爱国教授维维有话对你说</h3></center><p><br>
+ <center>`
+        images.forEach(([imgSrc, rtText]) => {
+            const WeiWeiImg = `https://greasyfork.s3.us-east-2.amazonaws.com/${imgSrc} `
+            if (WeiWeiSays) {
+                html += `
+                <ruby>
+                    <img src="${WeiWeiImg}" alt="">
+                    <rt>${rtText}</rt>
+                </ruby>`
+            } else {
+                html += `\n<img src="${WeiWeiImg}" alt="">`
+            }
+        })
+
+        html += `
+            </center>
+            </p>
+        </div>`
+        return html
+    }
     var allPreviewTabs = contains('.preview-tab', 'Preview')
     allPreviewTabs.forEach(element => {
         element.onclick = function (event) {
