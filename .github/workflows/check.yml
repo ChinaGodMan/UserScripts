@@ -5,6 +5,9 @@ on: [push, pull_request]
 jobs:
   check_sensitive_info:
     runs-on: ubuntu-latest
+    env:
+      GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+      GIT_COMMITTER_EMAIL: qinwuyuan-sync-bot@users.noreply.github.com
 
     steps:
       - name: Checkout code
