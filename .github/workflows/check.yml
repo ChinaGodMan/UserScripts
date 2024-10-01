@@ -21,6 +21,7 @@ jobs:
       - name: Check for email
         id: check_email
         run: |
+          git pull
           FILES=$(git diff --name-only HEAD^ HEAD)
           FOUND=false
           for FILE in $FILES; do
