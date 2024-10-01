@@ -24,8 +24,8 @@ jobs:
           GITHUB_URL: https://api.github.com
           GITHUB_GRAPHQL_URL: https://api.github.com/graphql
         run: |
-          chmod +x 1.sh  # 替换为您的脚本路径
-          1.sh \
+         # chmod +x 1.sh  # 替换为您的脚本路径
+          bash 1.sh \
             -T "$GITHUB_TOKEN" \
             -R "ChinaGodMan/disk" \  # 替换为您的仓库名称
             -B "main" \  # 替换为目标分支
