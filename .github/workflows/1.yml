@@ -1,0 +1,35 @@
+name: Commit New File
+
+on:
+  push:
+    branches:
+      - main  # 触发条件，可以根据需要修改
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up GitHub token
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: echo "Token is set."
+
+      - name: Commit new file using script
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_URL: https://api.github.com
+          GITHUB_GRAPHQL_URL: https://api.github.com/graphql
+        run: |
+          chmod +x 1.sh  # 替换为您的脚本路径
+          1.sh \
+            -T "$GITHUB_TOKEN" \
+            -R "ChinaGodMan/disk" \  # 替换为您的仓库名称
+            -B "main" \  # 替换为目标分支
+            -F "1.sh" \  # 替换为要提交的新文件路径
+            -D "" \  # 如果没有删除文件，留空即可
+            -h "提交标题" \  # 提交消息标题
+            -b "提交正文"  # 提交消息正文
