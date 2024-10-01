@@ -14,6 +14,7 @@ jobs:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - name: Check for email
+        id: check_email
         run: |
           FILES=$(git diff --name-only HEAD^ HEAD)
           FOUND=false
@@ -24,7 +25,14 @@ jobs:
             fi
           done
           if [ "$FOUND" = true ]; then
+            echo "Sensitive info found, restoring to parent commit."
+            git reset --hard HEAD^
+            git add .
+            git commit -m "Reverted commit due to sensitive information detected"
+            git push origin HEAD --force
             exit 1
           else
             echo "No sensitive info found."
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
