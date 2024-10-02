@@ -66,8 +66,11 @@ jobs:
             - name: 提交和推送更改
               run: |
                   # 配置 Git 用户
-                  git config --global user.name 'github-actions[bot]'
-                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+                  git config --global user.name 'qinwuyuan-sync-bot'
+                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+
                   git pull
 
                   # 添加更改
