@@ -65,7 +65,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn gvm00fjj krcsnxmq</td>
+            <td>cho phép ChatGPT Kích thước phông chữ mã trở nên nhỏ hơn</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -93,7 +93,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
+            <td>hiện hữu chatgpt.com Thêm hình động có hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -177,7 +177,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -289,7 +289,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
+            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -345,7 +345,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。</td>
+            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -541,7 +541,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -597,7 +597,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -681,7 +681,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -730,7 +730,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -779,7 +779,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-28 10:21:53</sub></td>
+            <td><sub>2024-10-02 22:48:16</sub></td>
              <td><sub>1.5.0.4</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
@@ -1166,7 +1166,7 @@
 > 
 > - _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > - _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
