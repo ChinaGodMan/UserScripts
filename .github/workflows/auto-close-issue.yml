@@ -2,8 +2,8 @@ name: auto-close-and-comment-issue
 
 on:
   push:  # 当有 push 事件时触发
-    branches:
-      - main  # 你可以指定其他分支
+     paths:
+         - "Script details/**/Change history/README.md"   # 你可以指定其他分支
 
 jobs:
   close_issue:
