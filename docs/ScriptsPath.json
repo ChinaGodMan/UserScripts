@@ -3,7 +3,7 @@
         {
             "isUpdated": true,
             "name": "ChatGPT代码字体缩小",
-            "description": "让 ChatGPT 代码字体变小 gvm00fjj krcsnxmq",
+            "description": "让 ChatGPT 代码字体变小",
             "relatedscripts": "ChatGPT相关脚本",
             "path": "chatgpt-code-styling.user.js",
             "backuppath": "Script details/chatgpt-code-styling",
