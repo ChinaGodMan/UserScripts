@@ -1,0 +1,35 @@
+name: Cleanup Actions Runs
+
+on:
+  workflow_dispatch:  # 允许手动触发
+  schedule:           # 可以定时触发，比如每周清理一次
+    - cron: "0 0 * * 0"  # 每周日00:00执行
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout 仓库代码
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # 设置 Python 环境
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    # 安装依赖
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    # 运行清理脚本
+    - name: Run cleanup script
+      env:
+        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 将 GITHUB_TOKEN 传递到脚本环境变量
+        REPO_OWNER: ${{ github.repository_owner }}  # 仓库所有者
+        REPO_NAME: ${{ github.event.repository.name }}  # 仓库名称
+      run: |
+        python cleanup_actions.py
