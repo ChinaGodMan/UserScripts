@@ -93,6 +93,8 @@
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAQAAADgMuRfAAABWklEQVR4Ae3YJQIUYRxA8R8OESs4BXcOsHXqngDnFtglKFjEqVOwjtNxd3f547Duux/2Xhx7Y98ITLbHdZHA6/aYDLM9EAl9YB77RWIP8Vgk9hkhvaKp/yP+R5SyXdRxl1KipqV0ETHGGVHDM8YMLoKZHogKH5jJICPIRIUZg45giyhxCykihsnFd3PD0kQwzkUhXDGOVBEs9+azy0kZwZrPShFRf7MrBxfx0hK1WOLl4CLCReNqX6Z1NrFeM9a3HxFyleSibsQbBY0oeNNJRNiolI1NDvZd09Rjmruis4j3Mj/IvG8SEc4boxZjnBedRZQ+sqZ50NJld0gt9otuIsJJIz97suVrf6NKNopuI8L2z7ZzAxaVUhRdR3Qw3zML/WChZ2kiwkUTwUQXRaqIcNzIzx4RKSPC1s/+ia/8/yP+R/wmP0kOicQeYl76H2cw2X63RAJv2W8ynwCwbA7V/z22eQAAAABJRU5ErkJggg==
 // @iconbak https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
+// @downloadURL https://update.greasyfork.org/scripts/505164/Markdown%20toolbar%20for%20GreasyFork.user.js
+// @updateURL https://update.greasyfork.org/scripts/505164/Markdown%20toolbar%20for%20GreasyFork.meta.js
 // ==/UserScript==
 
 // Example URLS to test:
@@ -188,14 +190,16 @@ function addFeatures(n) {
 
     // Add buttons
     btnMake(n, '<b>' + __('B') + '</b>', __('Bold'), '**')
-    btnMake(n, '#', __('Title'), '#', '  ')
-    btnMake(n, '-', __('List'), '-  ', ' ')
-
+    btnMake(n, __('#') , __('Title'), '#', '  ')
+    btnMake(n, '<li>' +__('-')+'</li>', __('List'), '-  ', ' ')
+    btnMake(n,  __( '>'), __('blockquote'), '<blockquote>', '</blockquote>')
+    btnMake(n, '<mark>'+__('标记')+'</mark>', __('高亮显示选中文本'), '<mark>', '</mark>')
     btnMake(n, '<i>' + __('I') + '</i>', __('Italic'), '*')
+    btnMake(n, '<center>' + __('居中') + '</center>', __('内容居中显示'), '<center>','</center>')
     btnMake(n, '<u>' + __('U') + '</u>', __('Underline'), '<u>', '</u>')
     btnMake(n, '<s>' + __('S') + '</s>', __('Strikethrough'), '<s>', '</s>')
     btnMake(n, '&lt;br&gt;', __('Force line break'), '<br>', '', true)
-    btnMake(n, '---', __('Horizontal line'), '\n\n---\n\n', '', true)
+    btnMake(n, __('---'), __('Horizontal line'), '\n\n---\n\n', '', true)
     btnMake(n, __('URL'), __('Add URL to selected text'),
         function (e) {
             try {
@@ -203,7 +207,6 @@ function addFeatures(n) {
             } catch (ex) { }
         }
     )
-
     btnMake(n, __('Image (https)'), __('Convert selected https://url to inline image'), '![' + __('image') + '](', ')')
     //  if (inForum) {
     btnMake(n, __('Table'), __('Insert table template'), __('\n| head1 | head2 |\n|-------|-------|\n| cell1 | cell2 |\n| cell3 | cell4 |\n'), '', true)
@@ -222,7 +225,7 @@ function addFeatures(n) {
             }
         }
     )
-    btnMake(n, "谷歌翻译", "快速翻译选中的内容,",
+    btnMake(n, __("谷歌翻译"), __("快速翻译选中的内容"),
         function (e) {
             const translatedzh = edInit(e.target)
             translateText(translatedzh.sel).then(translatedText => {
@@ -335,20 +338,29 @@ var __ = (function (l, langs) {
         : function (text) { return text } // No matching language, fallback to english
 })(location.pathname.match(/^\/(.+?)\//)[1], {
     'zh-CN': {
+        'B': '粗体',
+        'I': '斜体',
+        'U': '下划线',
+        'S': '删除线',
         'Bold': '粗体',
+        '-': '列表',
+        '#': '标题',
+        '>': '引用',
+        '---': '分割线',
         'Italic': '斜体',
         'Underline': '下划线',
         'Strikethrough': '删除线',
         'Force line break': '强制换行',
         'Horizontal line': '水平分割线',
         'URL': '链接',
-        'Title': '标题',
-        'List': '无序列表',
+        'Title': '正文标题H1',
+        'List': '无序列表，用作分类下的信息展示',
         'Add URL to selected text': '为所选文字添加链接',
         'Image (https)': '图片 (https)',
         'Convert selected https://url to inline image': '将所选地址转换为行内图片',
         'image': '图片描述', // Default image alt value
         'Table': '表格',
+        'blockquote': '引用文本',
         'Insert table template': '插入表格模板',
         'Code': '代码',
         'Apply CODE markdown to selected text': '将选中代码围起来',
