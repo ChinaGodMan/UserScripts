@@ -2,7 +2,7 @@
 
 ### **📅 2024-10-02 - Ver: 2.0.5**
 
-**新增**: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:`var translate = "en"`
+**新增**: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:`var translate = "en"`.
 
 ![tl.gif](https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif)
 
