@@ -65,7 +65,7 @@
                     <mark>详细</mark>
                 </a>
             </td>
-            <td>让 ChatGPT 代码字体变小 gvm00fjj krcsnxmq</td>
+            <td>让 ChatGPT 代码字体变小</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -779,7 +779,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-09-28 10:21:53</sub></td>
+            <td><sub>2024-10-02 22:48:16</sub></td>
              <td><sub>1.5.0.4</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
