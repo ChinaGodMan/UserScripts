@@ -65,7 +65,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>허락하다 ChatGPT 코드 글꼴 크기가 작아집니다.</td>
+            <td>허락하다 ChatGPT 코드 글꼴 크기가 작아집니다. gvm00fjj</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -93,7 +93,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</td>
+            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -317,7 +317,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다 “다른” 아래에</td>
+            <td>확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 대신 “다른” 아래에</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?style=social" alt="size">
@@ -345,7 +345,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</td>
+            <td>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -597,7 +597,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
+            <td>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -1129,7 +1129,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1166,7 +1166,7 @@
 > 
 > - _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > - _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
-> - _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
+> - _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
