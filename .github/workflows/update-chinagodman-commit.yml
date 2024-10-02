@@ -76,10 +76,13 @@ jobs:
 
                   # 添加更改
                   git pull
-                  
-                  
+                  gpg --batch --import <(echo "$GPG_PRIVATE_KEY")
+
+                  git config --global user.name 'qinwuyuan-sync-bot'
+                  git config --global user.email ${{ GPG_PRIVATE_EMAIL }}
+                  git config --global user.signingkey  ${{ GPG_PRIVATE_ID }}  # 配置 GPG 密钥
                   git add .
-                  git commit -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
+                  git commit  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
                   git push origin ${{ env.branch }}
               env:
                   MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
