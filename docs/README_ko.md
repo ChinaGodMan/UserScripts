@@ -65,7 +65,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>허락하다 ChatGPT 코드 글꼴 크기가 작아집니다. gvm00fjj</td>
+            <td>허락하다 ChatGPT 코드 글꼴 크기가 작아집니다. gvm00fjj krcsnxmq</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">

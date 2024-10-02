@@ -65,7 +65,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>let ChatGPT Code font size becomes smaller gvm00fjj</td>
+            <td>let ChatGPT Code font size becomes smaller gvm00fjj krcsnxmq</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -737,7 +737,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click report，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations</td>
+            <td>Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -1159,7 +1159,7 @@
 
 To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
+- Click on form **\[Install\]** Directly pop up the script manager installation interface。
 - if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
