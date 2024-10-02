@@ -2,7 +2,7 @@ name: translate-script-readme
 ##最后触发更新整个所有脚本的其他语言文档.
 on:
     workflow_run:
-        workflows: ["translate-repo-md"] # 指定 A 流程的名称
+        workflows: ["merge-change-history"] # 指定 A 流程的名称
         types:
             - completed # 在 A 流程完成后触发
     workflow_dispatch:
@@ -47,6 +47,7 @@ jobs:
                   # 配置 Git 用户
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  git pull
 
                   # 添加更改
                   git add .
