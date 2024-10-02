@@ -7,7 +7,7 @@ on:
     workflow_dispatch: # 允许手动触发工作流
 
 concurrency:
-    group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
+    group: u1pdate-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
     cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
@@ -75,6 +75,7 @@ jobs:
                  
 
                   # 添加更改
+                  git pull
                   
                   
                   git add .
