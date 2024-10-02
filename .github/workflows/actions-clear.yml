@@ -12,7 +12,7 @@ jobs:
     steps:
     # Checkout 仓库代码
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     # 设置 Python 环境
     - name: Setup Python
@@ -32,4 +32,4 @@ jobs:
         REPO_OWNER: ${{ github.repository_owner }}  # 仓库所有者
         REPO_NAME: ${{ github.event.repository.name }}  # 仓库名称
       run: |
-        python cleanup_actions.py
+        python pythonscr/cleanup_actions.py
