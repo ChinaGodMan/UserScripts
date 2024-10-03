@@ -2,7 +2,7 @@
 // @name        网页页面样式美化
 // @namespace   网页页面样式小美化
 // @description 指向文字加粗, 指向图片发光, 指向图片放大动画, 输入框美化, 去除下划线, 选择文字高亮颜色, 链接更改颜色, 图片圆角, 指向链接增加边框
-// @version     0.41
+// @version     0.41.
 // @match       *://*/*
 // @run-at       document-start
 // ==/UserScript==
