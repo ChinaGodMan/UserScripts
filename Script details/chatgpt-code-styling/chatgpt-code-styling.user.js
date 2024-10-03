@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name              ChatGPT Code Box Styling
-// @description       Change the font size and enable word wrap in ChatGPT code boxes
-// @name:zh-CN        ChatGPT代码字体缩小
+// @name           ChatGPT Code Box Styling
+// @description    Change the font size and enable word wrap in ChatGPT code boxes
+// @name:zh-CN     ChatGPT代码字体缩小
 // @description:zh-CN ChatGPT 让代码字体变小 并且自动折行
 // @name:ar           ChatGPT代码字体缩小
 // @description:ar    ChatGPT جعل خط التعليمات البرمجية أصغر والتفاف تلقائيا
@@ -96,7 +96,7 @@ function addCustomCSS() {
             overflow-x: auto !important; /* 允许水平滚动 */
         }
     `
-
+//123
     function applyStyles() {
         if (typeof GM_addStyle !== "undefined") {
             GM_addStyle(css)
