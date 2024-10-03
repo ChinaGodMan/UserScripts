@@ -1,33 +1,32 @@
 import json
 import os
 import re
-import sys
 
-# JSON 文件路径
-json_file_path = 'docs/ScriptsPath.json'
+# 读取 JSON 文件
+def read_json(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)
 
-# 读取 JSON 数据
-with open(json_file_path, 'r', encoding='utf-8') as file:
-    data = json.load(file)
-# 获取 scripts 成员的数量
-scripts_count = len(data.get('scripts', []))
-print(f"脚本数量: {scripts_count}")
-# 定义数量文件的名称
-script_dir = os.path.dirname(os.path.abspath(__file__))
-count_file = os.path.join(script_dir, f'{scripts_count}.txt')
+# 根据 relatedscripts 的 ID 找到对应的脚本
+def find_script_by_greasyfork_id(scripts, greasyfork_id):
+    for script in scripts:
+        if str(script.get('GreasyFork')) == str(greasyfork_id):
+            return script
+    return None
 
+# 生成描述信息，仅针对当前脚本的 relatedscripts
+def generate_description(all_scripts):
+    related_scripts_map = {}
+    for script in all_scripts:
+        relatedscript = script.get('relatedscripts')
+        if relatedscript not in related_scripts_map:
+            related_scripts_map[relatedscript] = []
+        related_scripts_map[relatedscript].append(script)
+    return related_scripts_map
 
-if os.path.exists(count_file):
-    print(f"文件 '{count_file}' 已存在，程序退出。")
-    #sys.exit()
-
-
- # 如果文件不存在，则创建文件
-#with open(count_file, 'w', encoding='utf-8') as file:
-#    file.write(f"脚本数量: {scripts_count}\n")
-#print(f"文件 '{count_file}' 已创建。")   
 # 生成 HTML 表格
-html_table = '''<table>
+def generate_html_table(scripts):
+    html_table = '''<table>
     <thead>
         <tr>
             <th>脚本名称</th>
@@ -41,11 +40,9 @@ html_table = '''<table>
         </tr>
     </thead>
     <tbody>
-'''
-
-# 遍历每个脚本条目并生成表格行
-for script in data.get('scripts', []):
-    html_table += f'''<tr>
+    '''
+    for script in scripts:
+        html_table += f'''<tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/{script.get("GreasyFork")}" target="_blank">{script.get("name")}</a><br>
@@ -70,30 +67,67 @@ for script in data.get('scripts', []):
             </td>
             <td><sub>{script.get("created_at")}</sub></td>
             <td><sub>{script.get("code_updated_at")}</sub></td>
-             <td><sub>{script.get("version")}</sub></td>
-              <td><sub>{script.get("local_created_at")}</sub></td>
+            <td><sub>{script.get("version")}</sub></td>
+            <td><sub>{script.get("local_created_at")}</sub></td>
         </tr>
-    '''
+        '''
+    html_table += '''</tbody>
+    </table>'''
+    return html_table
 
-html_table += '''</tbody>
-</table>'''
+# 处理指定文件，将新内容插入到标记之间
+def process_file(file_path, new_content, start_tag, end_tag, insert_position):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
 
-# 输出到 HTML 文件
-#html_file_path = '1.html'
-#with open(html_file_path, 'w', encoding='utf-8') as file:
-#   file.write(html_table)
-# print(f'HTML 表格已保存为 {html_file_path}')
-# 读取 README.md 文件
+    start_index = -1
+    end_index = -1
+
+    # 查找开始和结束标记的位置
+    for i, line in enumerate(lines):
+        if start_tag in line:
+            start_index = i
+        elif end_tag in line:
+            end_index = i
+            break
+
+    # 如果找到了这两个标记，删除中间的内容并插入新的内容
+    if start_index != -1 and end_index != -1 and start_index < end_index:
+        new_lines = lines[:start_index + 1]  # 保留开始标记之前的内容（包括开始标记）
+        new_lines.append(new_content + '\n')  # 添加新的内容
+        new_lines.extend(lines[end_index:])  # 保留结束标记之后的内容
+    else:
+        # 如果没有找到标记，根据参数选择插入到头部还是尾部
+        if insert_position == 'head':
+            new_lines = [f"{start_tag}\n", new_content + '\n', f"{end_tag}\n"] + lines
+        else:
+            new_lines = lines
+            if start_index == -1:  # 如果开始标记没有找到
+                new_lines.append(f"\n{start_tag}\n")
+            new_lines.append(new_content + '\n')
+            if end_index == -1:  # 如果结束标记没有找到
+                new_lines.append(f"{end_tag}\n")
+
+    # 将修改后的内容写回文件
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.writelines(new_lines)
+
+# 主程序
+json_file_path = 'docs/ScriptsPath.json'
+data = read_json(json_file_path)
+
+# 按 relatedscripts 分类脚本
+related_scripts_map = generate_description(data.get('scripts', []))
+
+# 生成每个分组的 HTML 表格
+html_output = ""
+for related_id, scripts in related_scripts_map.items():
+    html_output += f"<details><summary>{related_id}</summary>"
+    html_output += generate_html_table(scripts)
+    html_output += "</details>"
+
+# 读取 README.md 文件并替换表格
 readme_path = 'docs/README.md'
-with open(readme_path, 'r', encoding='utf-8') as file:
-    readme_content = file.read()
+process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
 
-# 替换 <table> 表格
-# 使用正则表达式查找并替换 <table> 部分
-new_readme_content = re.sub(r'<table>.*?</table>', html_table, readme_content, flags=re.DOTALL)
-
-# 写回 README.md 文件
-with open(readme_path, 'w', encoding='utf-8') as file:
-    file.write(new_readme_content.strip())
-
-print(f"执行完毕")   
+print("执行完毕")

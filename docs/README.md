@@ -36,12 +36,12 @@
 **脚本来自互联网广大网友，本人仅是做了些许改动.感谢网友**
 **如有侵权,联系必删**
 
-##  [<mark style="background-color: yellow; color: green;">浏览脚本目录查看详细</mark>](/Script%20details)   
-  
+## [<mark style="background-color: yellow; color: green;">浏览脚本目录查看详细</mark>](/Script%20details)
 
 ## 脚本列表
 
-<table>
+<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
+<details><summary>ChatGPT相关脚本</summary><table>
     <thead>
         <tr>
             <th>脚本名称</th>
@@ -55,7 +55,7 @@
         </tr>
     </thead>
     <tbody>
-<tr>
+    <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPT代码字体缩小</a><br>
@@ -80,10 +80,10 @@
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
             <td><sub>2024-10-03 21:11:11</sub></td>
-             <td><sub>0.1.1.0</sub></td>
-              <td><sub>2024-07-27 20:58:35</sub></td>
+            <td><sub>0.1.1.0</sub></td>
+            <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT 聊天复制代码按钮</a><br>
@@ -108,10 +108,10 @@
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
             <td><sub>2024-10-03 19:12:34</sub></td>
-             <td><sub>1.2.0.0</sub></td>
-              <td><sub>2024-09-22 07:06:07</sub></td>
+            <td><sub>1.2.0.0</sub></td>
+            <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT 字符计数器</a><br>
@@ -136,10 +136,10 @@
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
             <td><sub>2024-10-03 19:12:34</sub></td>
-             <td><sub>1.3.1.14</sub></td>
-              <td><sub>2024-09-01 09:45:50</sub></td>
+            <td><sub>1.3.1.14</sub></td>
+            <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/504901" target="_blank">ChatGPT 折叠自己消息和最大宽度</a><br>
@@ -164,9 +164,24 @@
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>0.3.0.0</sub></td>
-              <td><sub>2024-08-24 11:09:34</sub></td>
+            <td><sub>0.3.0.0</sub></td>
+            <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>网页相关脚本</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -192,10 +207,10 @@
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>1.2.3.1</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>1.2.3.1</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">解除CSDN登录复制限制</a><br>
@@ -220,10 +235,10 @@
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>1.0.0.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>1.0.0.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/507036" target="_blank">绚丽渐变美化网页表格</a><br>
@@ -248,9 +263,192 @@
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>1.0.0.9</sub></td>
-              <td><sub>2024-09-06 05:02:49</sub></td>
+            <td><sub>1.0.0.9</sub></td>
+            <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">网页高亮关键字+(推荐)</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>对网页上的文字进行高亮显示</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498906.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-06-26 07:05:05</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
+            <td><sub>1.1.2.72</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">高亮网页文本_迷你版</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498905.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-06-26 06:53:12</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
+            <td><sub>1.0.5.26</sub></td>
+            <td><sub>2024-08-24 06:02:07</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小窗口预览</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/504880.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-08-24 06:51:35</sub></td>
+            <td><sub>2024-10-03 19:12:45</sub></td>
+            <td><sub>2.5.1.4</sub></td>
+            <td><sub>2024-08-23 07:20:13</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">去除链接下划线</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>去除网页链接的下划线</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498625.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-06-23 11:35:07</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
+            <td><sub>1.2.0.63</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">上下滚动小按钮</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>页面右侧添加上下滚动按钮</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497251.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-06-07 08:33:17</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
+            <td><sub>1.0.0.26</sub></td>
+            <td><sub>2024-08-24 06:05:19</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">一键置顶和置底按钮</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
+                    <mark>详细</mark>
+                </a>
+            </td>
+            <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
+                    <br>安装
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/500255.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">
+                    <br>安装
+                </a>
+            </td>
+            <td><sub>2024-07-11 13:57:29</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
+            <td><sub>1.2.0.72</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
+        </tr>
+        </tbody>
+    </table></details><details><summary>GitHub相关脚本</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -276,10 +474,10 @@
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>1.0.0.19</sub></td>
-              <td><sub>2024-08-30 03:21:51</sub></td>
+            <td><sub>1.0.0.19</sub></td>
+            <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件列表美化器</a><br>
@@ -304,10 +502,10 @@
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>4.1.0.3</sub></td>
-              <td><sub>2024-9-12 10:39:51</sub></td>
+            <td><sub>4.1.0.3</sub></td>
+            <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github 代码语言列表显示全部</a><br>
@@ -332,10 +530,10 @@
             </td>
             <td><sub>2024-09-24 05:30:01</sub></td>
             <td><sub>2024-10-04 05:26:32</sub></td>
-             <td><sub>1.0.0.0</sub></td>
-              <td><sub>2024-09-24 04:33:03</sub></td>
+            <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub 自动确认设备授权</a><br>
@@ -360,10 +558,10 @@
             </td>
             <td><sub>2024-09-18 09:12:31</sub></td>
             <td><sub>2024-10-03 19:12:33</sub></td>
-             <td><sub>1.0.0.0</sub></td>
-              <td><sub>2024-09-18 08:50:32</sub></td>
+            <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-18 08:50:32</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHub文件夹下载</a><br>
@@ -388,10 +586,10 @@
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
             <td><sub>2024-10-03 19:12:37</sub></td>
-             <td><sub>0.7.0.23</sub></td>
-              <td><sub>2024-08-29 06:11:34</sub></td>
+            <td><sub>0.7.0.23</sub></td>
+            <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">GitHub下载单文件和复制文件URL</a><br>
@@ -416,10 +614,10 @@
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
             <td><sub>2024-10-03 19:12:37</sub></td>
-             <td><sub>2.2.0.22</sub></td>
-              <td><sub>2024-08-29 06:11:33</sub></td>
+            <td><sub>2.2.0.22</sub></td>
+            <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github显示仓库大小</a><br>
@@ -444,10 +642,10 @@
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
             <td><sub>2024-10-04 05:23:24</sub></td>
-             <td><sub>0.1.3.2</sub></td>
-              <td><sub>2024-08-01 00:53:59</sub></td>
+            <td><sub>0.1.3.2</sub></td>
+            <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505218" target="_blank">GitHub Sort by Date</a><br>
@@ -472,9 +670,24 @@
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
             <td><sub>2024-10-04 05:23:24</sub></td>
-             <td><sub>1.1.0.23</sub></td>
-              <td><sub>2024-08-06 01:28:58</sub></td>
+            <td><sub>1.1.0.23</sub></td>
+            <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>Google相关脚本</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -500,10 +713,10 @@
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
             <td><sub>2024-10-03 19:12:38</sub></td>
-             <td><sub>0.1.9.45</sub></td>
-              <td><sub>2024-08-06 00:32:20</sub></td>
+            <td><sub>0.1.9.45</sub></td>
+            <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/500262" target="_blank">Google 搜索屏蔽指定站点</a><br>
@@ -528,9 +741,24 @@
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>0.0.1.51</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>0.0.1.51</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>GreasyFork相关脚本</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -556,10 +784,10 @@
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>0.9.3.66</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>0.9.3.66</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork 用户发布的脚本数据可视化</a><br>
@@ -584,10 +812,10 @@
             </td>
             <td><sub>2024-09-18 11:41:12</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>1.1.1.1</sub></td>
-              <td><sub>2024-09-19 11:22:00</sub></td>
+            <td><sub>1.1.1.1</sub></td>
+            <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 增强 WebHook同步设置</a><br>
@@ -612,10 +840,10 @@
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
             <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.1.1.1</sub></td>
-              <td><sub>2024-09-04 12:08:47</sub></td>
+            <td><sub>1.1.1.1</sub></td>
+            <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505164" target="_blank">GreasyFork Markdown toobar</a><br>
@@ -640,10 +868,10 @@
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>2.0.5</sub></td>
-              <td><sub>2024-08-06 00:32:53</sub></td>
+            <td><sub>2.0.5</sub></td>
+            <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501119" target="_blank">GreasyFork 显示脚本评分</a><br>
@@ -668,10 +896,10 @@
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>1.3.3.63</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>1.3.3.63</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505215" target="_blank">GreasyFork 高级搜索</a><br>
@@ -696,10 +924,10 @@
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>0.6.5.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>0.6.5.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501880" target="_blank">GreasyFork 导航栏增强</a><br>
@@ -724,10 +952,10 @@
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>0.3.1.57</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>0.3.1.57</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">Greasyfork糊裱匠</a><br>
@@ -752,10 +980,10 @@
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>2.2.0.92</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>2.2.0.92</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork 通知助手</a><br>
@@ -780,65 +1008,52 @@
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>1.5.0.4</sub></td>
-              <td><sub>2024-09-02 12:34:55</sub></td>
+            <td><sub>1.5.0.4</sub></td>
+            <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">网页高亮关键字+(推荐)</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script Finder油猴脚本查找器</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
                     <mark>详细</mark>
                 </a>
             </td>
-            <td>对网页上的文字进行高亮显示</td>
+            <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
                     <br>安装
                 </a>
             </td>
             <td>
-                <a href="https://update.greasyfork.org/scripts/498906.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">
+                <a href="https://update.greasyfork.org/scripts/498904.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">
                     <br>安装
                 </a>
             </td>
-            <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.1.2.72</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>2024-06-26 06:43:47</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
+            <td><sub>0.1.6.80</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">高亮网页文本_迷你版</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>在网页上自定义关键词突出显示包括滚动时动态加载的内容</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498905.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.0.5.26</sub></td>
-              <td><sub>2024-08-24 06:02:07</sub></td>
+        </tbody>
+    </table></details><details><summary>成人脚本</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
         </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -864,10 +1079,10 @@
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.0.1.7</sub></td>
-              <td><sub>2024-08-27 02:45:07</sub></td>
+            <td><sub>1.0.1.7</sub></td>
+            <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497682" target="_blank">MissAV收藏管理器</a><br>
@@ -892,10 +1107,10 @@
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.2.3.73</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>1.2.3.73</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506528" target="_blank">TissAV自动登录</a><br>
@@ -920,10 +1135,10 @@
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
             <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.0.1.8</sub></td>
-              <td><sub>2024-09-03 08:52:46</sub></td>
+            <td><sub>1.0.1.8</sub></td>
+            <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506730" target="_blank">JableTV自动登录</a><br>
@@ -948,9 +1163,24 @@
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.0.0.10</sub></td>
-              <td><sub>2024-09-04 13:44:42</sub></td>
+            <td><sub>1.0.0.10</sub></td>
+            <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>自动翻译</summary><table>
+    <thead>
+        <tr>
+            <th>脚本名称</th>
+            <th>脚本说明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -976,150 +1206,10 @@
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
             <td><sub>2024-10-03 19:12:45</sub></td>
-             <td><sub>1.4.0.0</sub></td>
-              <td><sub>2024-07-27 20:58:35</sub></td>
+            <td><sub>1.4.0.0</sub></td>
+            <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小窗口预览</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/504880.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-10-03 19:12:45</sub></td>
-             <td><sub>2.5.1.4</sub></td>
-              <td><sub>2024-08-23 07:20:13</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">去除链接下划线</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>去除网页链接的下划线</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498625.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-10-03 19:12:46</sub></td>
-             <td><sub>1.2.0.63</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script Finder油猴脚本查找器</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498904.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-10-03 19:12:46</sub></td>
-             <td><sub>0.1.6.80</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">上下滚动小按钮</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>页面右侧添加上下滚动按钮</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/497251.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.0.0.26</sub></td>
-              <td><sub>2024-08-24 06:05:19</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">一键置顶和置底按钮</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
-                    <mark>详细</mark>
-                </a>
-            </td>
-            <td>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/500255.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.2.0.72</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
-        </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">网页翻译——自动翻译为中文</a><br>
@@ -1144,35 +1234,34 @@
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
             <td><sub>2024-10-03 19:12:48</sub></td>
-             <td><sub>0.31.0.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>0.31.0.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    </tbody>
-</table>
-
-
-
+        </tbody>
+    </table></details>
+<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ---
 
 ## 如何安装/使用脚本？
 
-要使用任何脚本，首先需要浏览器安装 **Tampermonkey  脚本管理器扩展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+要使用任何脚本，首先需要浏览器安装 **Tampermonkey 脚本管理器扩展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- 点击表格 **\[安装\]** 直接弹出脚本管理器安装界面。
-- 如果 Github 访问速度太慢，可以选择点击GreasyFork **\[安装\]** 后弹出扩展提示，再去点击 **\[安装\]** 即可。
+-   点击表格 **\[安装\]** 直接弹出脚本管理器安装界面。
+-   如果 Github 访问速度太慢，可以选择点击 GreasyFork **\[安装\]** 后弹出扩展提示，再去点击 **\[安装\]** 即可。
 
 > [!IMPORTANT]
-> 
-> - _其他基于 **Chromium** 内核的浏览器（如国内套皮浏览器）一般都可以使用 Chrome 扩展。_
-> - _请确保使用 **Tampermonkey 正式版** 扩展，其他的用户脚本管理器可能导致**无法正常使用**脚本。_
-> - _如果要重装脚本，请记得在 Tampermonkey 扩展的**回收站中彻底删除**脚本后再去重新安装脚本。_
+>
+> -   _其他基于 **Chromium** 内核的浏览器（如国内套皮浏览器）一般都可以使用 Chrome 扩展。_
+> -   _请确保使用 **Tampermonkey 正式版** 扩展，其他的用户脚本管理器可能导致**无法正常使用**脚本。_
+> -   _如果要重装脚本，请记得在 Tampermonkey 扩展的**回收站中彻底删除**脚本后再去重新安装脚本。_
 
 > _**不会离线安装 .crx 扩展？[Chrome、Edge 重新开启隐藏的 [拖入安装 .crx 扩展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 
 ## 贡献者
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员">
   <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
@@ -1184,51 +1273,51 @@
 
 ## 🌐 浏览器与脚本管理器
 
-|                               推荐浏览器                                |                                                          安装管理器                                                           | 安装浏览器                                                                      |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
-| <center> Chrome 或 基于 Chromium 内核的浏览器[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari 浏览器（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] 或 ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
-| <center>Firefox 或 基于 Gecko 内核的浏览器[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|         <center>          Opera 浏览器[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via 浏览器（Android）[![][via]][via_link]         |                              <center>                                               浏览器内自带                              | <center>[![][via]][via_link]                                                    |
-|           <center>      X浏览器（Android）  [![][x]][x_link]            |                               <center>                                             浏览器内自带                               | <center>[![][x]][x_link]                                                        |
-|       <center>       KIWI浏览器（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|         <center>       狐猴浏览器（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                         |                                                                                                                               |                                                                                 |
+|                               推荐浏览器                                |                                                         安装管理器                                                          | 安装浏览器                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+| <center> Chrome 或 基于 Chromium 内核的浏览器[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
+|  <center>Safari 浏览器（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 或 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+| <center>Firefox 或 基于 Gecko 内核的浏览器[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
+|              <center> Opera 浏览器[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via 浏览器（Android）[![][via]][via_link]            |                                                    <center> 浏览器内自带                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X 浏览器（Android） [![][x]][x_link]              |                                                    <center> 浏览器内自带                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI 浏览器（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> 狐猴浏览器（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]:http://tampermonkey.net/ "篡改猴"
-[Violentmonkey]:https://violentmonkey.github.io/ "暴力猴"
-[Macaque]:https://macaque.app/ "猕猴"
-[Macaquer]:https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
-[Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
-[stayr]:https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
-[opera]:https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png
-[opera_link]:https://www.opera.com "opera浏览器"
-[edge]:https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
-[edge_link]:https://www.microsoft.com/edge  "edge 浏览器"
+[Tampermonkey]: http://tampermonkey.net/ "篡改猴"
+[Violentmonkey]: https://violentmonkey.github.io/ "暴力猴"
+[Macaque]: https://macaque.app/ "猕猴"
+[Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
+[Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
+[stayr]: https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
+[opera]: https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png
+[opera_link]: https://www.opera.com "opera浏览器"
+[edge]: https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
+[edge_link]: https://www.microsoft.com/edge "edge 浏览器"
 [firefox]: https://img.xwyue.com/i/2024/08/02/66ac91cae7577.png
-[firefox_link]:https://www.firefox.com "Firefox浏览器"
+[firefox_link]: https://www.firefox.com "Firefox浏览器"
 [chrome]: https://img.xwyue.com/i/2024/08/02/66ac91cae814c.png
-[chrome_link]:https://gooogleweb.com/index.html "Chrome浏览器"
+[chrome_link]: https://gooogleweb.com/index.html "Chrome浏览器"
 [QQ]: https://img.xwyue.com/i/2024/08/02/66ac91cae9ff7.png
-[QQ_link]:https://browser.qq.com/ "QQ浏览器"
-[safari]:https://img.xwyue.com/i/2024/08/02/66ac91cb0a2ed.png
-[safari_link]:https://www.apple.com/vn/safari/ "Safari浏览器"
-[via]:https://img.xwyue.com/i/2024/08/02/66ac91cb15181.png
-[via_link]:https://viayoo.com/ "VIA浏览器"
-[x]:https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
-[x_link]:https://www.xbext.com/ "X浏览器"
+[QQ_link]: https://browser.qq.com/ "QQ浏览器"
+[safari]: https://img.xwyue.com/i/2024/08/02/66ac91cb0a2ed.png
+[safari_link]: https://www.apple.com/vn/safari/ "Safari浏览器"
+[via]: https://img.xwyue.com/i/2024/08/02/66ac91cb15181.png
+[via_link]: https://viayoo.com/ "VIA浏览器"
+[x]: https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
+[x_link]: https://www.xbext.com/ "X浏览器"
 [vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "暴力猴"
-[cat]:https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]:https://docs.scriptcat.org/ "脚本猫"
-[TM]:https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "篡改猴"
-[le]:https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]:https://lemurbrowser.com/ "狐猴浏览器"
-[kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
-[kiwi_link]:https://kiwibrowser.com/ "KIWI浏览器"
+[cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
+[cat_link]: https://docs.scriptcat.org/ "脚本猫"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "篡改猴"
+[le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
+[le_link]: https://lemurbrowser.com/ "狐猴浏览器"
+[kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
+[kiwi_link]: https://kiwibrowser.com/ "KIWI浏览器"
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
-
 
 ## License
 
