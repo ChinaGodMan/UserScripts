@@ -69,13 +69,13 @@ jobs:
                  echo "EOF" >> $GITHUB_ENV
           
             - name: 根目录脚本__更新py
-              if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
+              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
                   # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
                   python pythonscr/copy_js_files.py
 
             - name: 提交和推送更改
-              if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
+              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
                   
                  
