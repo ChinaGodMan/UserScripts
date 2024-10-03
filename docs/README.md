@@ -65,7 +65,7 @@
                     <mark>详细</mark>
                 </a>
             </td>
-            <td>让 ChatGPT 代码字体变小 dqfmar1u</td>
+            <td>让 ChatGPT 代码字体变小</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
