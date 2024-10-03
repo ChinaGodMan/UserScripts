@@ -2,7 +2,7 @@
 // @name         高亮隐藏
 // @namespace    https://www.gitlink.org.cn/sonichy
 // @version      1.2
-// @description  高亮含有关键字的链接，隐藏含有关键字的链接，并动态监测页面变化。
+// @description  高亮含有关键字的链接，隐藏含有关键字的链接，并动态监测页面变化。s
 // @author
 // @match        *://*/*
 // @grant        GM_registerMenuCommand
