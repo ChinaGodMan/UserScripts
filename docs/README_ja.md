@@ -19,7 +19,7 @@
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%90%88%E8%A8%88%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%82%AF%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E4%B8%80%E8%88%AC%E7%9A%84&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -79,7 +79,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-09-28 09:46:39</sub></td>
+            <td><sub>2024-10-03 19:12:34</sub></td>
              <td><sub>0.1.1.0</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -93,7 +93,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>存在する chatgpt.com 上部のコードブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</td>
+            <td>存在する chatgpt.com 上部のコード ブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -107,7 +107,7 @@
                 </a>
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
-            <td><sub>2024-09-23 09:25:35</sub></td>
+            <td><sub>2024-10-03 19:12:34</sub></td>
              <td><sub>1.2.0.0</sub></td>
               <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
@@ -135,7 +135,7 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-09-17 10:18:39</sub></td>
+            <td><sub>2024-10-03 19:12:34</sub></td>
              <td><sub>1.3.1.14</sub></td>
               <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
@@ -149,7 +149,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</td>
+            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定範囲を超えないようにする。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -163,7 +163,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
-            <td><sub>2024-09-28 09:36:25</sub></td>
+            <td><sub>2024-10-03 19:12:35</sub></td>
              <td><sub>0.3.0.0</sub></td>
               <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
@@ -191,7 +191,7 @@
                 </a>
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
-            <td><sub>2024-09-28 08:50:11</sub></td>
+            <td><sub>2024-10-03 19:12:35</sub></td>
              <td><sub>1.2.3.1</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -219,7 +219,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-09-17 10:18:40</sub></td>
+            <td><sub>2024-10-03 19:12:36</sub></td>
              <td><sub>1.0.0.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -247,7 +247,7 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-09-17 10:18:40</sub></td>
+            <td><sub>2024-10-03 19:12:35</sub></td>
              <td><sub>1.0.0.9</sub></td>
               <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
@@ -261,7 +261,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -275,7 +275,7 @@
                 </a>
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
-            <td><sub>2024-09-17 10:18:41</sub></td>
+            <td><sub>2024-10-03 19:12:36</sub></td>
              <td><sub>1.0.0.19</sub></td>
               <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
@@ -303,7 +303,7 @@
                 </a>
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
-            <td><sub>2024-09-17 10:18:41</sub></td>
+            <td><sub>2024-10-03 19:12:36</sub></td>
              <td><sub>4.1.0.3</sub></td>
               <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
@@ -331,7 +331,7 @@
                 </a>
             </td>
             <td><sub>2024-09-24 05:30:01</sub></td>
-            <td><sub>2024-09-24 06:05:47</sub></td>
+            <td><sub>2024-10-03 19:12:37</sub></td>
              <td><sub>1.0.0.0</sub></td>
               <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
@@ -345,7 +345,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>存在するGitHub認証ページでは、認証コードが自動的に入力され、自動的に確認されます。。</td>
+            <td>存在するGitHub認証コードを自動的に入力し、認証ページで自動的に確認します。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -359,7 +359,7 @@
                 </a>
             </td>
             <td><sub>2024-09-18 09:12:31</sub></td>
-            <td><sub>2024-09-18 09:16:03</sub></td>
+            <td><sub>2024-10-03 19:12:33</sub></td>
              <td><sub>1.0.0.0</sub></td>
               <td><sub>2024-09-18 08:50:32</sub></td>
         </tr>
@@ -387,7 +387,7 @@
                 </a>
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
-            <td><sub>2024-09-17 10:18:41</sub></td>
+            <td><sub>2024-10-03 19:12:37</sub></td>
              <td><sub>0.7.0.23</sub></td>
               <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
@@ -415,14 +415,14 @@
                 </a>
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
-            <td><sub>2024-09-17 10:18:42</sub></td>
+            <td><sub>2024-10-03 19:12:37</sub></td>
              <td><sub>2.2.0.22</sub></td>
               <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示する</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
@@ -443,7 +443,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-09-26 09:14:00</sub></td>
+            <td><sub>2024-10-03 19:12:38</sub></td>
              <td><sub>0.1.3.2</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -457,7 +457,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -471,7 +471,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-09-17 10:18:43</sub></td>
+            <td><sub>2024-10-03 19:12:38</sub></td>
              <td><sub>1.1.0.23</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
@@ -499,7 +499,7 @@
                 </a>
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
-            <td><sub>2024-09-17 10:18:43</sub></td>
+            <td><sub>2024-10-03 19:12:38</sub></td>
              <td><sub>0.1.9.45</sub></td>
               <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
@@ -527,7 +527,7 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-09-17 10:18:43</sub></td>
+            <td><sub>2024-10-03 19:12:39</sub></td>
              <td><sub>0.0.1.51</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -555,7 +555,7 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-09-17 10:18:44</sub></td>
+            <td><sub>2024-10-03 19:12:39</sub></td>
              <td><sub>0.9.3.66</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -583,7 +583,7 @@
                 </a>
             </td>
             <td><sub>2024-09-18 11:41:12</sub></td>
-            <td><sub>2024-09-20 07:56:49</sub></td>
+            <td><sub>2024-10-03 19:12:41</sub></td>
              <td><sub>1.1.1.1</sub></td>
               <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
@@ -611,7 +611,7 @@
                 </a>
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
-            <td><sub>2024-09-17 10:18:47</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
              <td><sub>1.1.1.1</sub></td>
               <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
@@ -639,7 +639,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
-            <td><sub>2024-10-02 19:49:09</sub></td>
+            <td><sub>2024-10-03 19:12:40</sub></td>
              <td><sub>2.0.5</sub></td>
               <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
@@ -667,7 +667,7 @@
                 </a>
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
-            <td><sub>2024-09-17 10:18:45</sub></td>
+            <td><sub>2024-10-03 19:12:40</sub></td>
              <td><sub>1.3.3.63</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -695,7 +695,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
-            <td><sub>2024-09-17 10:18:45</sub></td>
+            <td><sub>2024-10-03 19:12:40</sub></td>
              <td><sub>0.6.5.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -723,7 +723,7 @@
                 </a>
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
-            <td><sub>2024-09-17 10:18:46</sub></td>
+            <td><sub>2024-10-03 19:12:41</sub></td>
              <td><sub>0.3.1.57</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -737,7 +737,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -751,7 +751,7 @@
                 </a>
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
-            <td><sub>2024-09-30 08:00:46</sub></td>
+            <td><sub>2024-10-03 19:12:41</sub></td>
              <td><sub>2.2.0.92</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -779,7 +779,7 @@
                 </a>
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
-            <td><sub>2024-10-02 22:48:16</sub></td>
+            <td><sub>2024-10-03 19:12:39</sub></td>
              <td><sub>1.5.0.4</sub></td>
               <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
@@ -807,7 +807,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-09-17 10:18:48</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
              <td><sub>1.1.2.72</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -835,7 +835,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-09-17 10:18:48</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
              <td><sub>1.0.5.26</sub></td>
               <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
@@ -863,7 +863,7 @@
                 </a>
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
-            <td><sub>2024-09-17 10:18:49</sub></td>
+            <td><sub>2024-10-03 19:12:44</sub></td>
              <td><sub>1.0.1.7</sub></td>
               <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
@@ -891,7 +891,7 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-09-17 10:18:49</sub></td>
+            <td><sub>2024-10-03 19:12:44</sub></td>
              <td><sub>1.2.3.73</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -919,7 +919,7 @@
                 </a>
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
-            <td><sub>2024-09-17 10:18:52</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
              <td><sub>1.0.1.8</sub></td>
               <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
@@ -947,7 +947,7 @@
                 </a>
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
-            <td><sub>2024-09-17 10:18:48</sub></td>
+            <td><sub>2024-10-03 19:12:44</sub></td>
              <td><sub>1.0.0.10</sub></td>
               <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
@@ -975,7 +975,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-09-24 19:03:53</sub></td>
+            <td><sub>2024-10-03 19:12:45</sub></td>
              <td><sub>1.4.0.0</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -1003,7 +1003,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-09-30 11:57:51</sub></td>
+            <td><sub>2024-10-03 19:12:45</sub></td>
              <td><sub>2.5.1.4</sub></td>
               <td><sub>2024-08-23 07:20:13</sub></td>
         </tr>
@@ -1031,7 +1031,7 @@
                 </a>
             </td>
             <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-09-17 10:18:50</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
              <td><sub>1.2.0.63</sub></td>
               <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -1059,7 +1059,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-09-26 10:45:47</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
              <td><sub>0.1.6.80</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -1087,7 +1087,7 @@
                 </a>
             </td>
             <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-09-17 10:18:51</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
              <td><sub>1.0.0.26</sub></td>
               <td><sub>2024-08-24 06:05:19</sub></td>
         </tr>
@@ -1115,7 +1115,7 @@
                 </a>
             </td>
             <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-09-17 10:18:52</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
              <td><sub>1.2.0.72</sub></td>
               <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -1143,7 +1143,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-09-17 10:18:53</sub></td>
+            <td><sub>2024-10-03 19:12:48</sub></td>
              <td><sub>0.31.0.23</sub></td>
               <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -1159,16 +1159,16 @@
 
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
+- フォームをクリック **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
 - もし Github アクセス速度が遅すぎる，クリックするか選択できますGreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 
 > [!IMPORTANT]
 > 
 > - _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
 > - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
-> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 
