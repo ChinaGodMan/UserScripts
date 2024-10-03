@@ -1174,7 +1174,12 @@
 
 ## 贡献者
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
-
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
+  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
+</a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="人民的勤务员的勤务员">
+  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的勤务员的勤务员"/>
+</a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 ## 🌐 浏览器与脚本管理器
