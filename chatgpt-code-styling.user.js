@@ -73,7 +73,6 @@
 // @description:zh-HK ChatGPT 让程序码字体变小 并且自动折行
 // @name:fr-CA        ChatGPTTaille de la police du code réduite
 // @description:fr-CA ChatGPT Rendre la police du code plus petite et envelopper automatiquement
-
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.1.1.0
 // @author            人民的勤务员 <toniaiwanowskiskr47@gmail.com>
