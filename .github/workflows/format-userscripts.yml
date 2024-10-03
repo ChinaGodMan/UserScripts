@@ -1,4 +1,4 @@
-name: Format and Push JavaScript Files
+name: format-userscripts
 
 on:
     #   schedule:
@@ -15,11 +15,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          ref: bak  # 指定检出 bak 分支
           token: ${{ secrets.MY_GITHUB_TOKEN }} 
-        env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用 GitHub 提供的自动令牌
-
+        
       # Step 2: Set up Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -28,7 +25,7 @@ jobs:
 
       # Step 3: Run the custom formatting script (1.js)
       - name: Run format script
-        run: node 1.js
+        run: node utils/format-monkey-meta.js
 
       # Step 4: Commit and push changes back to the bak branch (if any)
       - name: Commit and push changes
@@ -37,9 +34,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Auto-format JavaScript files" || echo "No changes to commit"
-          # 使用 GITHUB_TOKEN 来进行身份验证和推送
-          #git remote set-url origin https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push origin bak  # 指定推送到 bak 分支
+          git commit -m "Auto-format UserScripts" || echo "No changes to commit"
+          
+           
+          git push   
         env:
             MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} 
