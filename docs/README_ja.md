@@ -36,12 +36,12 @@
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
 **違反があった場合,連絡先を削除する必要があります**
 
-##  [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)   
-  
+## [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)
 
 ## スクリプトリスト
 
-<table>
+<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
+<details><summary>ChatGPT関連するスクリプト</summary><table>
     <thead>
         <tr>
             <th>スクリプト名</th>
@@ -55,7 +55,7 @@
         </tr>
     </thead>
     <tbody>
-<tr>
+    <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPTコードのフォントサイズが小さくなりました</a><br>
@@ -80,10 +80,10 @@
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
             <td><sub>2024-10-03 21:11:11</sub></td>
-             <td><sub>0.1.1.0</sub></td>
-              <td><sub>2024-07-27 20:58:35</sub></td>
+            <td><sub>0.1.1.0</sub></td>
+            <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT チャットコードコピーボタン</a><br>
@@ -108,10 +108,10 @@
             </td>
             <td><sub>2024-09-22 07:35:20</sub></td>
             <td><sub>2024-10-03 19:12:34</sub></td>
-             <td><sub>1.2.0.0</sub></td>
-              <td><sub>2024-09-22 07:06:07</sub></td>
+            <td><sub>1.2.0.0</sub></td>
+            <td><sub>2024-09-22 07:06:07</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT 文字カウンター</a><br>
@@ -136,10 +136,10 @@
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
             <td><sub>2024-10-03 19:12:34</sub></td>
-             <td><sub>1.3.1.14</sub></td>
-              <td><sub>2024-09-01 09:45:50</sub></td>
+            <td><sub>1.3.1.14</sub></td>
+            <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/504901" target="_blank">ChatGPT セルフメッセージと最大幅を折りたたむ</a><br>
@@ -164,9 +164,24 @@
             </td>
             <td><sub>2024-08-24 11:33:58</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>0.3.0.0</sub></td>
-              <td><sub>2024-08-24 11:09:34</sub></td>
+            <td><sub>0.3.0.0</sub></td>
+            <td><sub>2024-08-24 11:09:34</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>Web関連のスクリプト</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -177,7 +192,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -192,10 +207,10 @@
             </td>
             <td><sub>2024-06-09 10:17:55</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>1.2.3.1</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>1.2.3.1</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">リフトCSDNログインコピーの制限</a><br>
@@ -220,10 +235,10 @@
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>1.0.0.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>1.0.0.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/507036" target="_blank">ゴージャスなグラデーションで Web フォームを美しくする</a><br>
@@ -248,9 +263,192 @@
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
             <td><sub>2024-10-03 19:12:35</sub></td>
-             <td><sub>1.0.0.9</sub></td>
-              <td><sub>2024-09-06 05:02:49</sub></td>
+            <td><sub>1.0.0.9</sub></td>
+            <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Web ページ上のキーワードを強調表示する+(推薦する)</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>Web ページ上のテキストを強調表示する</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498906.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-06-26 07:05:05</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
+            <td><sub>1.1.2.72</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Web テキストを強調表示する_ミニバージョン</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>スクロール時に動的に読み込まれるコンテンツを含む、Web ページ上のカスタム キーワードの強調表示</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498905.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-06-26 06:53:12</sub></td>
+            <td><sub>2024-10-03 19:12:43</sub></td>
+            <td><sub>1.0.5.26</sub></td>
+            <td><sub>2024-08-24 06:02:07</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小さなウィンドウでプレビュー</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/504880.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-08-24 06:51:35</sub></td>
+            <td><sub>2024-10-03 19:12:45</sub></td>
+            <td><sub>2.5.1.4</sub></td>
+            <td><sub>2024-08-23 07:20:13</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">リンクの下線を削除する</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>Web リンクから下線を削除する</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/498625.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-06-23 11:35:07</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
+            <td><sub>1.2.0.63</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">小さな上下スクロールボタン</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>ページの右側に上下のスクロール ボタンを追加します。</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/497251.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-06-07 08:33:17</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
+            <td><sub>1.0.0.26</sub></td>
+            <td><sub>2024-08-24 06:05:19</sub></td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
+                <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">ワンタッチの上下ボタン</a><br>
+                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
+                    <mark>詳しい</mark>
+                </a>
+            </td>
+            <td>から変更されましたGreasyforkユーザースクリプト Web ページに上部と下部のボタンを追加する，長いページの上部または下部への素早い移動を容易にします。。 下にスクロールしたときにボタンの色の変更を追加しました，3数秒以内にスクロールがない場合は自動的に停止します</td>
+            <td>
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
+                    <br>インストール
+                </a>
+            </td>
+            <td>
+                <a href="https://update.greasyfork.org/scripts/500255.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">
+                    <br>インストール
+                </a>
+            </td>
+            <td><sub>2024-07-11 13:57:29</sub></td>
+            <td><sub>2024-10-03 19:12:47</sub></td>
+            <td><sub>1.2.0.72</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
+        </tr>
+        </tbody>
+    </table></details><details><summary>GitHub関連するスクリプト</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -276,10 +474,10 @@
             </td>
             <td><sub>2024-08-30 10:13:44</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>1.0.0.19</sub></td>
-              <td><sub>2024-08-30 03:21:51</sub></td>
+            <td><sub>1.0.0.19</sub></td>
+            <td><sub>2024-08-30 03:21:51</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub ファイルリスト整形ツール</a><br>
@@ -304,10 +502,10 @@
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
             <td><sub>2024-10-03 19:12:36</sub></td>
-             <td><sub>4.1.0.3</sub></td>
-              <td><sub>2024-9-12 10:39:51</sub></td>
+            <td><sub>4.1.0.3</sub></td>
+            <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github コード言語のリストをすべて表示</a><br>
@@ -332,10 +530,10 @@
             </td>
             <td><sub>2024-09-24 05:30:01</sub></td>
             <td><sub>2024-10-04 05:26:32</sub></td>
-             <td><sub>1.0.0.0</sub></td>
-              <td><sub>2024-09-24 04:33:03</sub></td>
+            <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub デバイスの認証を自動的に確認する</a><br>
@@ -360,10 +558,10 @@
             </td>
             <td><sub>2024-09-18 09:12:31</sub></td>
             <td><sub>2024-10-03 19:12:33</sub></td>
-             <td><sub>1.0.0.0</sub></td>
-              <td><sub>2024-09-18 08:50:32</sub></td>
+            <td><sub>1.0.0.0</sub></td>
+            <td><sub>2024-09-18 08:50:32</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHubフォルダーのダウンロード</a><br>
@@ -388,10 +586,10 @@
             </td>
             <td><sub>2024-08-28 04:27:35</sub></td>
             <td><sub>2024-10-03 19:12:37</sub></td>
-             <td><sub>0.7.0.23</sub></td>
-              <td><sub>2024-08-29 06:11:34</sub></td>
+            <td><sub>0.7.0.23</sub></td>
+            <td><sub>2024-08-29 06:11:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">GitHub単一ファイルのダウンロードとファイルのコピーURL</a><br>
@@ -416,10 +614,10 @@
             </td>
             <td><sub>2024-08-28 05:20:14</sub></td>
             <td><sub>2024-10-03 19:12:37</sub></td>
-             <td><sub>2.2.0.22</sub></td>
-              <td><sub>2024-08-29 06:11:33</sub></td>
+            <td><sub>2.2.0.22</sub></td>
+            <td><sub>2024-08-29 06:11:33</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github倉庫のサイズを表示する</a><br>
@@ -444,10 +642,10 @@
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
             <td><sub>2024-10-04 05:23:24</sub></td>
-             <td><sub>0.1.3.2</sub></td>
-              <td><sub>2024-08-01 00:53:59</sub></td>
+            <td><sub>0.1.3.2</sub></td>
+            <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505218" target="_blank">GitHub Sort by Date</a><br>
@@ -472,9 +670,24 @@
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
             <td><sub>2024-10-04 05:23:24</sub></td>
-             <td><sub>1.1.0.23</sub></td>
-              <td><sub>2024-08-06 01:28:58</sub></td>
+            <td><sub>1.1.0.23</sub></td>
+            <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>Google関連するスクリプト</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -500,10 +713,10 @@
             </td>
             <td><sub>2024-08-05 10:28:20</sub></td>
             <td><sub>2024-10-03 19:12:38</sub></td>
-             <td><sub>0.1.9.45</sub></td>
-              <td><sub>2024-08-06 00:32:20</sub></td>
+            <td><sub>0.1.9.45</sub></td>
+            <td><sub>2024-08-06 00:32:20</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/500262" target="_blank">Google 特定のサイトを検索してブロックする</a><br>
@@ -528,9 +741,24 @@
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>0.0.1.51</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>0.0.1.51</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>GreasyFork関連するスクリプト</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -556,10 +784,10 @@
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>0.9.3.66</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>0.9.3.66</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork ユーザーが公開したスクリプト データの視覚化</a><br>
@@ -584,10 +812,10 @@
             </td>
             <td><sub>2024-09-18 11:41:12</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>1.1.1.1</sub></td>
-              <td><sub>2024-09-19 11:22:00</sub></td>
+            <td><sub>1.1.1.1</sub></td>
+            <td><sub>2024-09-19 11:22:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork 強化する WebHook同期設定</a><br>
@@ -612,10 +840,10 @@
             </td>
             <td><sub>2024-09-04 12:12:18</sub></td>
             <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.1.1.1</sub></td>
-              <td><sub>2024-09-04 12:08:47</sub></td>
+            <td><sub>1.1.1.1</sub></td>
+            <td><sub>2024-09-04 12:08:47</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505164" target="_blank">GreasyFork Markdown toobar</a><br>
@@ -640,10 +868,10 @@
             </td>
             <td><sub>2024-08-26 02:12:29</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>2.0.5</sub></td>
-              <td><sub>2024-08-06 00:32:53</sub></td>
+            <td><sub>2.0.5</sub></td>
+            <td><sub>2024-08-06 00:32:53</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501119" target="_blank">GreasyFork 脚本の評価を表示する</a><br>
@@ -668,10 +896,10 @@
             </td>
             <td><sub>2024-07-19 09:44:01</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>1.3.3.63</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
+            <td><sub>1.3.3.63</sub></td>
+            <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505215" target="_blank">GreasyFork 詳細検索</a><br>
@@ -696,10 +924,10 @@
             </td>
             <td><sub>2024-08-26 12:08:49</sub></td>
             <td><sub>2024-10-03 19:12:40</sub></td>
-             <td><sub>0.6.5.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>0.6.5.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501880" target="_blank">GreasyFork ナビゲーションバーの強化</a><br>
@@ -724,10 +952,10 @@
             </td>
             <td><sub>2024-07-27 09:34:43</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>0.3.1.57</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>0.3.1.57</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">Greasyfork糊裱匠</a><br>
@@ -752,10 +980,10 @@
             </td>
             <td><sub>2024-06-08 17:06:26</sub></td>
             <td><sub>2024-10-03 19:12:41</sub></td>
-             <td><sub>2.2.0.92</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>2.2.0.92</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork 通知アシスタント</a><br>
@@ -780,65 +1008,52 @@
             </td>
             <td><sub>2024-09-02 12:36:00</sub></td>
             <td><sub>2024-10-03 19:12:39</sub></td>
-             <td><sub>1.5.0.4</sub></td>
-              <td><sub>2024-09-02 12:34:55</sub></td>
+            <td><sub>1.5.0.4</sub></td>
+            <td><sub>2024-09-02 12:34:55</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Web ページ上のキーワードを強調表示する+(推薦する)</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script Finderグリース モンキー スクリプト ファインダー</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページ上のテキストを強調表示する</td>
+            <td>Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
                     <br>インストール
                 </a>
             </td>
             <td>
-                <a href="https://update.greasyfork.org/scripts/498906.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498906?color=%23990000&label=Installs">
+                <a href="https://update.greasyfork.org/scripts/498904.user.js">
+                    <img src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">
                     <br>インストール
                 </a>
             </td>
-            <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.1.2.72</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>2024-06-26 06:43:47</sub></td>
+            <td><sub>2024-10-03 19:12:46</sub></td>
+            <td><sub>0.1.6.80</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Web テキストを強調表示する_ミニバージョン</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>スクロール時に動的に読み込まれるコンテンツを含む、Web ページ上のカスタム キーワードの強調表示</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498905.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498905?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-10-03 19:12:43</sub></td>
-             <td><sub>1.0.5.26</sub></td>
-              <td><sub>2024-08-24 06:02:07</sub></td>
+        </tbody>
+    </table></details><details><summary>成人脚本</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
         </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -864,10 +1079,10 @@
             </td>
             <td><sub>2024-08-27 04:15:17</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.0.1.7</sub></td>
-              <td><sub>2024-08-27 02:45:07</sub></td>
+            <td><sub>1.0.1.7</sub></td>
+            <td><sub>2024-08-27 02:45:07</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497682" target="_blank">MissAVコレクションマネージャー</a><br>
@@ -892,10 +1107,10 @@
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.2.3.73</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
+            <td><sub>1.2.3.73</sub></td>
+            <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506528" target="_blank">TissAV自動ログイン</a><br>
@@ -920,10 +1135,10 @@
             </td>
             <td><sub>2024-09-03 08:50:59</sub></td>
             <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.0.1.8</sub></td>
-              <td><sub>2024-09-03 08:52:46</sub></td>
+            <td><sub>1.0.1.8</sub></td>
+            <td><sub>2024-09-03 08:52:46</sub></td>
         </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506730" target="_blank">JableTV自動ログイン</a><br>
@@ -948,9 +1163,24 @@
             </td>
             <td><sub>2024-09-04 13:43:00</sub></td>
             <td><sub>2024-10-03 19:12:44</sub></td>
-             <td><sub>1.0.0.10</sub></td>
-              <td><sub>2024-09-04 13:44:42</sub></td>
+            <td><sub>1.0.0.10</sub></td>
+            <td><sub>2024-09-04 13:44:42</sub></td>
         </tr>
+        </tbody>
+    </table></details><details><summary>自動翻訳</summary><table>
+    <thead>
+        <tr>
+            <th>スクリプト名</th>
+            <th>スクリプトの説明</th>
+            <th>GitHub</th>
+            <th>Greasyfork</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">リリース時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新時間</th>
+            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新バージョン</th>
+            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">初めて作成しました</th>
+        </tr>
+    </thead>
+    <tbody>
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -976,150 +1206,10 @@
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
             <td><sub>2024-10-03 19:12:45</sub></td>
-             <td><sub>1.4.0.0</sub></td>
-              <td><sub>2024-07-27 20:58:35</sub></td>
+            <td><sub>1.4.0.0</sub></td>
+            <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">小さなウィンドウでプレビュー</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/504880.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/504880?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-08-24 06:51:35</sub></td>
-            <td><sub>2024-10-03 19:12:45</sub></td>
-             <td><sub>2.5.1.4</sub></td>
-              <td><sub>2024-08-23 07:20:13</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">リンクの下線を削除する</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>Web リンクから下線を削除する</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498625.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498625?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-06-23 11:35:07</sub></td>
-            <td><sub>2024-10-03 19:12:46</sub></td>
-             <td><sub>1.2.0.63</sub></td>
-              <td><sub>2024-07-27 20:54:00</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script Finderグリース モンキー スクリプト ファインダー</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/498904.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/498904?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-06-26 06:43:47</sub></td>
-            <td><sub>2024-10-03 19:12:46</sub></td>
-             <td><sub>0.1.6.80</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">小さな上下スクロールボタン</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>ページの右側に上下のスクロール ボタンを追加します。</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/497251.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/497251?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-06-07 08:33:17</sub></td>
-            <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.0.0.26</sub></td>
-              <td><sub>2024-08-24 06:05:19</sub></td>
-        </tr>
-    <tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">ワンタッチの上下ボタン</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
-                    <mark>詳しい</mark>
-                </a>
-            </td>
-            <td>から変更されましたGreasyforkユーザースクリプト Web ページに上部と下部のボタンを追加する，長いページの上部または下部への素早い移動を容易にします。。 下にスクロールしたときにボタンの色の変更を追加しました，3数秒以内にスクロールがない場合は自動的に停止します</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
-                    <br>インストール
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/500255.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/500255?color=%23990000&label=Installs">
-                    <br>インストール
-                </a>
-            </td>
-            <td><sub>2024-07-11 13:57:29</sub></td>
-            <td><sub>2024-10-03 19:12:47</sub></td>
-             <td><sub>1.2.0.72</sub></td>
-              <td><sub>2024-07-27 20:54:01</sub></td>
-        </tr>
-    <tr>
+        <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">ウェブページの翻訳——自動的に中国語に翻訳されます</a><br>
@@ -1144,35 +1234,34 @@
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
             <td><sub>2024-10-03 19:12:48</sub></td>
-             <td><sub>0.31.0.23</sub></td>
-              <td><sub>2024-07-27 20:58:34</sub></td>
+            <td><sub>0.31.0.23</sub></td>
+            <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
-    </tbody>
-</table>
-
-
-
+        </tbody>
+    </table></details>
+<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ---
 
 ## インストール方法/スクリプトを使用する？
 
-任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey  スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
-- もし Github アクセス速度が遅すぎる，クリックするか選択できますGreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
+-   フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
+-   もし Github アクセス速度が遅すぎる，クリックするか選択できます GreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 
 > [!IMPORTANT]
-> 
-> - _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
-> - _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
-> - _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+>
+> -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
+> -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
+> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
 
 > _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
 
 ## 投稿者
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员">
   <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
@@ -1184,51 +1273,51 @@
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推奨ブラウザ                                |                                                          インストールマネージャー                                                           | ブラウザをインストールする                                                                      |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------- |
-| <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>  [![][chrome]][chrome_link]  [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                 <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                 | <center>[![][safari]][safari_link]                                              |
-| <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                            |
-|         <center>          Opera ブラウザ[![][opera]][opera_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                                |
-|         <center>      Via ブラウザ（Android）[![][via]][via_link]         |                              <center>                                               内蔵ブラウザ                              | <center>[![][via]][via_link]                                                    |
-|           <center>      Xブラウザ（Android）  [![][x]][x_link]            |                               <center>                                             内蔵ブラウザ                               | <center>[![][x]][x_link]                                                        |
-|       <center>       KIWIブラウザ（Android）[![][kiwi]][kiwi_link]        | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                  |
-|         <center>       キツネザルブラウザ（Android）[![][le]][le_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey]  ![.png][vm][Violentmonkey][Violentmonkey]  ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                      |
-|                                                                         |                                                                                                                               |                                                                                 |
+|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールする                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+| <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
+|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+| <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
+|              <center> Opera ブラウザ[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via ブラウザ（Android）[![][via]][via_link]            |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X ブラウザ（Android） [![][x]][x_link]              |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> キツネザルブラウザ（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]:http://tampermonkey.net/ "タンパーモンキー"
-[Violentmonkey]:https://violentmonkey.github.io/ "凶暴な猿"
-[Macaque]:https://macaque.app/ "サル"
-[Macaquer]:https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
-[Stay]:https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
-[stayr]:https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
-[opera]:https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png
-[opera_link]:https://www.opera.com "operaブラウザ"
-[edge]:https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
-[edge_link]:https://www.microsoft.com/edge  "edge ブラウザ"
+[Tampermonkey]: http://tampermonkey.net/ "タンパーモンキー"
+[Violentmonkey]: https://violentmonkey.github.io/ "凶暴な猿"
+[Macaque]: https://macaque.app/ "サル"
+[Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
+[Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
+[stayr]: https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
+[opera]: https://img.xwyue.com/i/2024/08/02/66ac91cad9499.png
+[opera_link]: https://www.opera.com "operaブラウザ"
+[edge]: https://img.xwyue.com/i/2024/08/02/66ac91cae4276.png
+[edge_link]: https://www.microsoft.com/edge "edge ブラウザ"
 [firefox]: https://img.xwyue.com/i/2024/08/02/66ac91cae7577.png
-[firefox_link]:https://www.firefox.com "Firefoxブラウザ"
+[firefox_link]: https://www.firefox.com "Firefoxブラウザ"
 [chrome]: https://img.xwyue.com/i/2024/08/02/66ac91cae814c.png
-[chrome_link]:https://gooogleweb.com/index.html "Chromeブラウザ"
+[chrome_link]: https://gooogleweb.com/index.html "Chromeブラウザ"
 [QQ]: https://img.xwyue.com/i/2024/08/02/66ac91cae9ff7.png
-[QQ_link]:https://browser.qq.com/ "QQブラウザ"
-[safari]:https://img.xwyue.com/i/2024/08/02/66ac91cb0a2ed.png
-[safari_link]:https://www.apple.com/vn/safari/ "Safariブラウザ"
-[via]:https://img.xwyue.com/i/2024/08/02/66ac91cb15181.png
-[via_link]:https://viayoo.com/ "VIAブラウザ"
-[x]:https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
-[x_link]:https://www.xbext.com/ "Xブラウザ"
+[QQ_link]: https://browser.qq.com/ "QQブラウザ"
+[safari]: https://img.xwyue.com/i/2024/08/02/66ac91cb0a2ed.png
+[safari_link]: https://www.apple.com/vn/safari/ "Safariブラウザ"
+[via]: https://img.xwyue.com/i/2024/08/02/66ac91cb15181.png
+[via_link]: https://viayoo.com/ "VIAブラウザ"
+[x]: https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
+[x_link]: https://www.xbext.com/ "Xブラウザ"
 [vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "凶暴な猿"
-[cat]:https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]:https://docs.scriptcat.org/ "脚本猫"
-[TM]:https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "タンパーモンキー"
-[le]:https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]:https://lemurbrowser.com/ "キツネザルブラウザ"
-[kiwi]:https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
-[kiwi_link]:https://kiwibrowser.com/ "KIWIブラウザ"
+[cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
+[cat_link]: https://docs.scriptcat.org/ "脚本猫"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "タンパーモンキー"
+[le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
+[le_link]: https://lemurbrowser.com/ "キツネザルブラウザ"
+[kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
+[kiwi_link]: https://kiwibrowser.com/ "KIWIブラウザ"
+
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
 <a href="#">トップに戻る↑</a></p>
-
 
 ## License
 
