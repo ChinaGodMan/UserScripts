@@ -22,17 +22,17 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Github List of code languages ​​show all</h1>
-    <p>「 Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down 」</p>
+    <h1>Github 代码语言列表显示全部</h1>
+    <p>「 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下 」</p>
     <img src="https://views.whatilearened.today/views/github/509889/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509889">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Github List of code languages ​​show all Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Github 代码语言列表显示全部 更新日志</strong></h1>
 <h3><strong>📅 2024-09-24 04:33:03- Ver 1.0.0.0</strong></h3>
-<p><strong>repair</strong>: •Fix element failure issue<br>
-<strong>New</strong>: •Allow setting Token Access your own private repository<br>
-<strong>New</strong>: •Allows jumping to other warehouses,Automatically add.<br></p>
+<p><strong>修复</strong>: •修复元素失效问题.<br>
+<strong>新增</strong>: •允许设置 Token 访问自己的私人仓库<br>
+<strong>新增</strong>: •允许在跳转其他仓库时,自动添加.<br></p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/509889.png">
 </div></center>

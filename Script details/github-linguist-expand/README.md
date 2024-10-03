@@ -30,7 +30,7 @@
             href="https://greasyfork.org/zh-CN/scripts/509889">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Github 代码语言列表显示全部 更新日志</strong></h1>
 <h3><strong>📅 2024-09-24 04:33:03- Ver 1.0.0.0</strong></h3>
-<p><strong>修复</strong>: •修复元素失效问题<br>
+<p><strong>修复</strong>: •修复元素失效问题.<br>
 <strong>新增</strong>: •允许设置 Token 访问自己的私人仓库<br>
 <strong>新增</strong>: •允许在跳转其他仓库时,自动添加.<br></p>
 <hr /></details> 
