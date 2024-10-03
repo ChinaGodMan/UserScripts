@@ -6,12 +6,23 @@ function formatMetadata(filePath) {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const lines = fileContent.split('\n');
 
+    // 首先找到最长的标签长度
+    let maxLabelLength = 0;
+    const metadataLines = lines.filter(line => line.startsWith('// @'));
+
+    metadataLines.forEach(line => {
+        const parts = line.split(/\s+/);
+        const label = parts[1].replace(/@/g, ''); // 获取标签，去掉 @
+        maxLabelLength = Math.max(maxLabelLength, label.length);
+    });
+
+    // 然后根据最长标签长度格式化
     const formattedLines = lines.map(line => {
         if (line.startsWith('// @')) {
             const parts = line.split(/\s+/);
-            const label = parts[1].replace(/@/g, ''); // e.g., 'name', 'version', etc.
+            const label = parts[1].replace(/@/g, ''); // 获取标签，去掉 @
             const value = parts.slice(2).join(' ');
-            return `// @${label.padEnd(15)} ${value}`;
+            return `// @${label.padEnd(maxLabelLength)} ${value}`; // 使用最长标签长度进行对齐
         }
         return line;
     });
