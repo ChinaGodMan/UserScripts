@@ -1,7 +1,7 @@
 // ==UserScript==
 //人民的勤务员授权
-// @name           ChatGPT Code Box Styling
-// @description      Change the font size and enable word wrap in ChatGPT code boxes
+// @name              ChatGPT Code Box Styling
+// @description       Change the font size and enable word wrap in ChatGPT code boxes
 // @name:zh-CN        ChatGPT代码字体缩小
 // @description:zh-CN ChatGPT 让代码字体变小 并且自动折行
 // @name:ar           ChatGPT代码字体缩小
