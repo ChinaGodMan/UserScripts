@@ -37,6 +37,11 @@ jobs:
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行 自己提交时触发此任务.用于更新触发更新仓库列表流程
               run: echo "提交者不是 github-actions[bot]，继续执行工作流。"
 
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                 node-version: '16'  
+          
             - name: 设置 Python 环境
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
               uses: actions/setup-python@v2
