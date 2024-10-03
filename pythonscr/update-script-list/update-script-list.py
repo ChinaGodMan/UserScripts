@@ -15,13 +15,16 @@ def find_script_by_greasyfork_id(scripts, greasyfork_id):
     return None
 
 # 生成描述信息，仅针对当前脚本的 relatedscripts
-def generate_description(all_scripts):
+def generate_description(all_scripts, single_group=False):
     related_scripts_map = {}
-    for script in all_scripts:
-        relatedscript = script.get('relatedscripts')
-        if relatedscript not in related_scripts_map:
-            related_scripts_map[relatedscript] = []
-        related_scripts_map[relatedscript].append(script)
+    if single_group:
+        related_scripts_map['所有脚本'] = all_scripts
+    else:
+        for script in all_scripts:
+            relatedscript = script.get('relatedscripts')
+            if relatedscript not in related_scripts_map:
+                related_scripts_map[relatedscript] = []
+            related_scripts_map[relatedscript].append(script)
     return related_scripts_map
 
 # 生成 HTML 表格
@@ -112,20 +115,27 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.writelines(new_lines)
 
+def generate_grouped_html(related_scripts_map, use_details=True):
+    html_output = ""
+    for related_id, scripts in related_scripts_map.items():
+        if use_details:
+            html_output += f"<details><summary>{related_id}</summary>"
+        else:
+            html_output += f"<h2>{related_id}</h2>"
+        
+        html_output += generate_html_table(scripts)
+        
+        if use_details:
+            html_output += "</details>"
+    
+    return html_output  
 # 主程序
 json_file_path = 'docs/ScriptsPath.json'
 data = read_json(json_file_path)
 
 # 按 relatedscripts 分类脚本
 related_scripts_map = generate_description(data.get('scripts', []))
-
-# 生成每个分组的 HTML 表格
-html_output = ""
-for related_id, scripts in related_scripts_map.items():
-    html_output += f"<details><summary>{related_id}</summary>"
-    html_output += generate_html_table(scripts)
-    html_output += "</details>"
-
+html_output = generate_grouped_html(related_scripts_map, True)
 # 读取 README.md 文件并替换表格
 readme_path = 'docs/README.md'
 process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
