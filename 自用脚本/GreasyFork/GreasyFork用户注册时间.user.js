@@ -1,32 +1,32 @@
 // ==UserScript==
-// @name         显示Greasyfork用户注册时间，识别恶意评论
-// @name:zh-CN   显示Greasyfork用户注册时间，识别恶意评论
-// @name:zh-TW   顯示Greasyfork用戶註冊時間，識別惡意評論
-// @name:en      Display GreasyFork user registration time (presumed)
-// @name:ja      GreasyForkのユーザー登録時刻を表示（推定）
-// @name:ru      Отображение времени регистрации пользователя GreasyFork (предположительно)
-// @name:kr      GreasyFork 사용자 등록 시간 표시(추정)
-// @namespace    yysk.org
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
-// @version      1.0.8
-// @author       yysk.org
-// @match        *://greasyfork.org/*
-// @match        *://sleazyfork.org/*
-// @match        http://127.0.0.1:5500/*
-// @require      https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        GM_xmlhttpRequest
-// @description        如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本根据greasyfork用户ID为连续自然数的特点，推测评论者的注册时间，帮你识别恶意评论，举报不要手软。
-// @description:zh-CN  如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本根据greasyfork用户ID为连续自然数的特点，推测评论者的注册时间，帮你识别恶意评论，举报不要手软。
-// @description:zh-TW  如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本根據greasyfork用戶ID爲連續自然數的特點，推測評論者的註冊時間，幫你識別惡意評論，舉報不要手軟。
-// @description:en     Display GreasyFork user registration time (presumed). This script predicts the registration time of the commenter according to the greasyfork user ID is a continuous natural number.
-// @description:ja     GreasyForkのユーザー登録時刻を表示（推定）. このスクリプトは greasyfork のユーザー ID が連続する自然数であることから、コメント投稿者の登録時間を予測します。
-// @description:ru     Отображение времени регистрации пользователя GreasyFork (предположительно). Этот скрипт предсказывает время регистрации комментатора по идентификатору пользователя greasyfork — непрерывное натуральное число.
-// @description:kr     GreasyFork 사용자 등록 시간 표시(추정). 이 스크립트는 greasyfork 사용자 ID가 연속적인 자연수에 따라 댓글 작성자의 등록 시간을 예측합니다.
-// @license      Copyright yysk.org
-// @downloadURL https://update.greasyfork.org/scripts/450603/%E6%98%BE%E7%A4%BAGreasyfork%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AF%86%E5%88%AB%E6%81%B6%E6%84%8F%E8%AF%84%E8%AE%BA.user.js
-// @updateURL https://update.greasyfork.org/scripts/450603/%E6%98%BE%E7%A4%BAGreasyfork%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AF%86%E5%88%AB%E6%81%B6%E6%84%8F%E8%AF%84%E8%AE%BA.meta.js
+// @name              显示Greasyfork用户注册时间，识别恶意评论
+// @name:zh-CN        显示Greasyfork用户注册时间，识别恶意评论
+// @name:zh-TW        顯示Greasyfork用戶註冊時間，識別惡意評論
+// @name:en           Display GreasyFork user registration time (presumed)
+// @name:ja           GreasyForkのユーザー登録時刻を表示（推定）
+// @name:ru           Отображение времени регистрации пользователя GreasyFork (предположительно)
+// @name:kr           GreasyFork 사용자 등록 시간 표시(추정)
+// @namespace         yysk.org
+// @icon              https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @version           1.0.8
+// @author            yysk.org
+// @match             *://greasyfork.org/*
+// @match             *://sleazyfork.org/*
+// @match             http://127.0.0.1:5500/*
+// @require           https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
+// @grant             GM_setValue
+// @grant             GM_getValue
+// @grant             GM_xmlhttpRequest
+// @description       如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本根据greasyfork用户ID为连续自然数的特点，推测评论者的注册时间，帮你识别恶意评论，举报不要手软。
+// @description:zh-CN 如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本根据greasyfork用户ID为连续自然数的特点，推测评论者的注册时间，帮你识别恶意评论，举报不要手软。
+// @description:zh-TW 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本根據greasyfork用戶ID爲連續自然數的特點，推測評論者的註冊時間，幫你識別惡意評論，舉報不要手軟。
+// @description:en    Display GreasyFork user registration time (presumed). This script predicts the registration time of the commenter according to the greasyfork user ID is a continuous natural number.
+// @description:ja    GreasyForkのユーザー登録時刻を表示（推定）. このスクリプトは greasyfork のユーザー ID が連続する自然数であることから、コメント投稿者の登録時間を予測します。
+// @description:ru    Отображение времени регистрации пользователя GreasyFork (предположительно). Этот скрипт предсказывает время регистрации комментатора по идентификатору пользователя greasyfork — непрерывное натуральное число.
+// @description:kr    GreasyFork 사용자 등록 시간 표시(추정). 이 스크립트는 greasyfork 사용자 ID가 연속적인 자연수에 따라 댓글 작성자의 등록 시간을 예측합니다.
+// @license           Copyright yysk.org
+// @downloadURL       https://update.greasyfork.org/scripts/450603/%E6%98%BE%E7%A4%BAGreasyfork%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AF%86%E5%88%AB%E6%81%B6%E6%84%8F%E8%AF%84%E8%AE%BA.user.js
+// @updateURL         https://update.greasyfork.org/scripts/450603/%E6%98%BE%E7%A4%BAGreasyfork%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E6%97%B6%E9%97%B4%EF%BC%8C%E8%AF%86%E5%88%AB%E6%81%B6%E6%84%8F%E8%AF%84%E8%AE%BA.meta.js
 // ==/UserScript==
 /* jslint esversion: 6 */
 /*globals jQuery,db2 */

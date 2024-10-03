@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Replace Text in Input
-// @namespace    http://tampermonkey.n
-// @version      1.0
-// @description  Replace "renmindeqinwuyuan" with "UserScript" in inputs containing "https"
-// @author       Your Name
-// @match        *://*/*
-// @grant        none
+// @name        Replace Text in Input
+// @namespace   http://tampermonkey.n
+// @version     1.0
+// @description Replace "renmindeqinwuyuan" with "UserScript" in inputs containing "https"
+// @author      Your Name
+// @match       *://*/*
+// @grant       none
 // ==/UserScript==
 
 (function () {

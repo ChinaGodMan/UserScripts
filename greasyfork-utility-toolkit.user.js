@@ -1,113 +1,113 @@
 // ==UserScript==
-// @name        Greasyfork Utility Toolkit
-// @name:zh-CN  Greasyfork 糊裱匠
+// @name              Greasyfork Utility Toolkit
+// @name:zh-CN        Greasyfork 糊裱匠
 // @description:zh-CN 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
-// @name:ar  Greasyfork حرفي الغراء
-// @description:ar ل Greasyfork توفير وظائف الاستخدام المختلفة，الوقت المطلق，شاشة ويب عريضة，تحسينات صفحة البرنامج النصي，تنزيل الامتداد，إصلاح اللوحة وسلسلة من العمليات
-// @name:bg  Greasyfork Майстор на лепило
-// @description:bg за Greasyfork Осигурете различни функции за използване，абсолютно време，Уеб широкоекранен，Подобрения на страницата със скриптове，Изтегляне на разширение，Ремонт на панел и серия от операции
-// @name:cs  Greasyfork Lepidlo řemeslník
-// @description:cs pro Greasyfork Poskytují různé uživatelské funkce，absolutní čas，Širokoúhlý web，Vylepšení stránky skriptu，Stáhnout rozšíření，Oprava panelu a řada operací
-// @name:da  Greasyfork Lim håndværker
-// @description:da for Greasyfork Giver forskellige brugsfunktioner，absolut tid，Web widescreen，Forbedringer af scriptside，Download udvidelse，Panelreparation og en række operationer
-// @name:de  Greasyfork Kleberhandwerker
-// @description:de für Greasyfork Stellen Sie verschiedene Nutzungsfunktionen bereit，absolute Zeit，Web-Breitbild，Verbesserungen der Skriptseite，Erweiterung herunterladen，Panel-Reparatur und eine Reihe von Operationen
-// @name:el  Greasyfork Τεχνίτης κόλλας
-// @description:el για Greasyfork Παρέχετε διάφορες λειτουργίες χρήσης，απόλυτος χρόνος，Web ευρεία οθόνη，Βελτιώσεις σελίδας σεναρίου，Λήψη επέκτασης，Επισκευή πίνακα και μια σειρά λειτουργιών
-// @name:en  Greasyfork Glue craftsman
-// @description:en for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
-// @name:eo  Greasyfork Glua metiisto
-// @description:eo por Greasyfork Provizu diversajn uzfunkciojn，absoluta tempo，Reteja larĝa ekrano，Plibonigoj pri skriptopaĝo，Elŝutu etendon，Riparo de paneloj kaj serio de operacioj
-// @name:es  Greasyfork Artesano del pegamento
-// @description:es para Greasyfork Proporcionar varias funciones de uso.，tiempo absoluto，pantalla ancha web，Mejoras en la página de script，Descargar extensión，Reparación de paneles y una serie de operaciones.
-// @name:fi  Greasyfork Liiman käsityöläinen
-// @description:fi varten Greasyfork Tarjoa erilaisia ​​käyttötoimintoja，absoluuttinen aika，Web laajakuva，Käsikirjoitussivun parannukset，Lataa laajennus，Paneelin korjaus ja sarja toimenpiteitä
-// @name:fr  Greasyfork Artisan de la colle
-// @description:fr pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
-// @name:he  Greasyfork אומן דבק
-// @description:he עֲבוּר Greasyfork לספק פונקציות שימוש שונות，זמן מוחלט，מסך רחב באינטרנט，שיפורי דפי סקריפט，הורד תוסף，תיקון לוח וסדרת פעולות
-// @name:hr  Greasyfork Majstor za ljepilo
-// @description:hr za Greasyfork Pružite različite funkcije korištenja，apsolutno vrijeme，Web široki zaslon，Poboljšanja stranice skripte，Proširenje za preuzimanje，Popravak panela i niz operacija
-// @name:hu  Greasyfork Ragasztó iparos
-// @description:hu számára Greasyfork Különféle használati funkciókat biztosít，abszolút idő，Web szélesvásznú，A szkriptoldal fejlesztései，Bővítmény letöltése，Paneljavítás és egy sor művelet
-// @name:id  Greasyfork Pengrajin lem
-// @description:id untuk Greasyfork Menyediakan berbagai fungsi penggunaan，waktu mutlak，Layar lebar web，Peningkatan halaman skrip，Unduh ekstensi，Perbaikan panel dan serangkaian operasi
-// @name:it  Greasyfork Artigiano della colla
-// @description:it per Greasyfork Fornire varie funzioni di utilizzo，tempo assoluto，Web widescreen，Miglioramenti alla pagina dello script，Scarica l’estensione，Riparazione del pannello e una serie di operazioni
-// @name:ja  Greasyfork 糊裱匠
-// @description:ja のために Greasyfork さまざまな利用機能を提供，絶対時間，ウェブワイドスクリーン，スクリプトページの機能強化，ダウンロード拡張機能，パネル修理と一連の作業
-// @name:ka  Greasyfork წებოს ხელოსანი
-// @description:ka ამისთვის Greasyfork უზრუნველყოს სხვადასხვა გამოყენების ფუნქციები，აბსოლუტური დრო，ვებ ფართოეკრანი，სკრიპტის გვერდის გაუმჯობესება，გაფართოების ჩამოტვირთვა，პანელის შეკეთება და ოპერაციების სერია
-// @name:ko  Greasyfork 糊裱匠
-// @description:ko ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
-// @name:nl  Greasyfork Lijm ambachtsman
-// @description:nl voor Greasyfork Bied verschillende gebruiksfuncties，absolute tijd，Web-breedbeeld，Verbeteringen van scriptpagina’s，Extensie downloaden，Paneelreparatie en een reeks bewerkingen
-// @name:nb  Greasyfork Lim håndverker
-// @description:nb til Greasyfork Tilby ulike bruksfunksjoner，absolutt tid，Web widescreen，Skriptsideforbedringer，Last ned utvidelse，Panelreparasjon og en rekke operasjoner
-// @name:pl  Greasyfork Mistrz klejenia
-// @description:pl Do Greasyfork Zapewnij różne funkcje użytkowe，czas absolutny，Internet panoramiczny，Ulepszenia strony skryptowej，Pobierz rozszerzenie，Naprawa panelu i szereg operacji
-// @name:pt-BR  Greasyfork Artesão de cola
+// @name:ar           Greasyfork حرفي الغراء
+// @description:ar    ل Greasyfork توفير وظائف الاستخدام المختلفة，الوقت المطلق，شاشة ويب عريضة，تحسينات صفحة البرنامج النصي，تنزيل الامتداد，إصلاح اللوحة وسلسلة من العمليات
+// @name:bg           Greasyfork Майстор на лепило
+// @description:bg    за Greasyfork Осигурете различни функции за използване，абсолютно време，Уеб широкоекранен，Подобрения на страницата със скриптове，Изтегляне на разширение，Ремонт на панел и серия от операции
+// @name:cs           Greasyfork Lepidlo řemeslník
+// @description:cs    pro Greasyfork Poskytují různé uživatelské funkce，absolutní čas，Širokoúhlý web，Vylepšení stránky skriptu，Stáhnout rozšíření，Oprava panelu a řada operací
+// @name:da           Greasyfork Lim håndværker
+// @description:da    for Greasyfork Giver forskellige brugsfunktioner，absolut tid，Web widescreen，Forbedringer af scriptside，Download udvidelse，Panelreparation og en række operationer
+// @name:de           Greasyfork Kleberhandwerker
+// @description:de    für Greasyfork Stellen Sie verschiedene Nutzungsfunktionen bereit，absolute Zeit，Web-Breitbild，Verbesserungen der Skriptseite，Erweiterung herunterladen，Panel-Reparatur und eine Reihe von Operationen
+// @name:el           Greasyfork Τεχνίτης κόλλας
+// @description:el    για Greasyfork Παρέχετε διάφορες λειτουργίες χρήσης，απόλυτος χρόνος，Web ευρεία οθόνη，Βελτιώσεις σελίδας σεναρίου，Λήψη επέκτασης，Επισκευή πίνακα και μια σειρά λειτουργιών
+// @name:en           Greasyfork Glue craftsman
+// @description:en    for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
+// @name:eo           Greasyfork Glua metiisto
+// @description:eo    por Greasyfork Provizu diversajn uzfunkciojn，absoluta tempo，Reteja larĝa ekrano，Plibonigoj pri skriptopaĝo，Elŝutu etendon，Riparo de paneloj kaj serio de operacioj
+// @name:es           Greasyfork Artesano del pegamento
+// @description:es    para Greasyfork Proporcionar varias funciones de uso.，tiempo absoluto，pantalla ancha web，Mejoras en la página de script，Descargar extensión，Reparación de paneles y una serie de operaciones.
+// @name:fi           Greasyfork Liiman käsityöläinen
+// @description:fi    varten Greasyfork Tarjoa erilaisia ​​käyttötoimintoja，absoluuttinen aika，Web laajakuva，Käsikirjoitussivun parannukset，Lataa laajennus，Paneelin korjaus ja sarja toimenpiteitä
+// @name:fr           Greasyfork Artisan de la colle
+// @description:fr    pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
+// @name:he           Greasyfork אומן דבק
+// @description:he    עֲבוּר Greasyfork לספק פונקציות שימוש שונות，זמן מוחלט，מסך רחב באינטרנט，שיפורי דפי סקריפט，הורד תוסף，תיקון לוח וסדרת פעולות
+// @name:hr           Greasyfork Majstor za ljepilo
+// @description:hr    za Greasyfork Pružite različite funkcije korištenja，apsolutno vrijeme，Web široki zaslon，Poboljšanja stranice skripte，Proširenje za preuzimanje，Popravak panela i niz operacija
+// @name:hu           Greasyfork Ragasztó iparos
+// @description:hu    számára Greasyfork Különféle használati funkciókat biztosít，abszolút idő，Web szélesvásznú，A szkriptoldal fejlesztései，Bővítmény letöltése，Paneljavítás és egy sor művelet
+// @name:id           Greasyfork Pengrajin lem
+// @description:id    untuk Greasyfork Menyediakan berbagai fungsi penggunaan，waktu mutlak，Layar lebar web，Peningkatan halaman skrip，Unduh ekstensi，Perbaikan panel dan serangkaian operasi
+// @name:it           Greasyfork Artigiano della colla
+// @description:it    per Greasyfork Fornire varie funzioni di utilizzo，tempo assoluto，Web widescreen，Miglioramenti alla pagina dello script，Scarica l’estensione，Riparazione del pannello e una serie di operazioni
+// @name:ja           Greasyfork 糊裱匠
+// @description:ja    のために Greasyfork さまざまな利用機能を提供，絶対時間，ウェブワイドスクリーン，スクリプトページの機能強化，ダウンロード拡張機能，パネル修理と一連の作業
+// @name:ka           Greasyfork წებოს ხელოსანი
+// @description:ka    ამისთვის Greasyfork უზრუნველყოს სხვადასხვა გამოყენების ფუნქციები，აბსოლუტური დრო，ვებ ფართოეკრანი，სკრიპტის გვერდის გაუმჯობესება，გაფართოების ჩამოტვირთვა，პანელის შეკეთება და ოპერაციების სერია
+// @name:ko           Greasyfork 糊裱匠
+// @description:ko    ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+// @name:nl           Greasyfork Lijm ambachtsman
+// @description:nl    voor Greasyfork Bied verschillende gebruiksfuncties，absolute tijd，Web-breedbeeld，Verbeteringen van scriptpagina’s，Extensie downloaden，Paneelreparatie en een reeks bewerkingen
+// @name:nb           Greasyfork Lim håndverker
+// @description:nb    til Greasyfork Tilby ulike bruksfunksjoner，absolutt tid，Web widescreen，Skriptsideforbedringer，Last ned utvidelse，Panelreparasjon og en rekke operasjoner
+// @name:pl           Greasyfork Mistrz klejenia
+// @description:pl    Do Greasyfork Zapewnij różne funkcje użytkowe，czas absolutny，Internet panoramiczny，Ulepszenia strony skryptowej，Pobierz rozszerzenie，Naprawa panelu i szereg operacji
+// @name:pt-BR        Greasyfork Artesão de cola
 // @description:pt-BR para Greasyfork Fornece várias funções de uso，tempo absoluto，Ecrã panorâmico da Web，Melhorias na página de script，Baixar extensão，Reparo do painel e uma série de operações
-// @name:ro  Greasyfork Meșter de lipici
-// @description:ro pentru Greasyfork Furnizați diverse funcții de utilizare，timp absolut，Ecran lat web，Îmbunătățiri ale paginii de script，Descărcați extensia，Reparatie panouri si o serie de operatii
-// @name:ru  Greasyfork Мастер по клею
-// @description:ru для Greasyfork Обеспечить различные функции использования，абсолютное время，Интернет широкоэкранный，Улучшения страницы скрипта，Скачать расширение，Ремонт панели и ряд операций
-// @name:sk  Greasyfork Lepidlo remeselník
-// @description:sk pre Greasyfork Poskytujte rôzne funkcie používania，absolútny čas，Web širokouhlý，Vylepšenia stránky skriptov，Stiahnite si rozšírenie，Oprava panelov a séria operácií
-// @name:sr  Greasyfork Мајстор лепка
-// @description:sr за Greasyfork Обезбедите различите функције коришћења，апсолутно време，Веб видесцреен，Побољшања странице скрипте，Преузмите екстензију，Поправка панела и низ операција
-// @name:sv  Greasyfork Limhantverkare
-// @description:sv för Greasyfork Tillhandahålla olika användningsfunktioner，absolut tid，Web widescreen，Förbättringar av skriptsidor，Ladda ner tillägg，Panelreparation och en rad operationer
-// @name:th  Greasyfork ช่างกาว
-// @description:th สำหรับ Greasyfork จัดให้มีฟังก์ชันการใช้งานต่างๆ，เวลาที่แน่นอน，เว็บไวด์สกรีน，การปรับปรุงหน้าสคริปต์，ดาวน์โหลดส่วนขยาย，การซ่อมแซมแผงและการดำเนินการต่างๆ
-// @name:tr  Greasyfork Tutkal ustası
-// @description:tr için Greasyfork Çeşitli kullanım fonksiyonları sağlayın，mutlak zaman，Web geniş ekranı，Komut dosyası sayfası geliştirmeleri，Uzantıyı indir，Panel onarımı ve bir dizi işlem
-// @name:ug  Greasyfork يېلىم ھۈنەرۋەن
-// @description:ug for Greasyfork ھەر خىل ئىشلىتىش ئىقتىدارلىرى بىلەن تەمىنلەڭ，مۇتلەق ۋاقىت，تور كەڭ ئېكران，قوليازما بېتىنى ياخشىلاش，كېڭەيتىلمىنى چۈشۈرۈڭ，تاختاينى رېمونت قىلىش ۋە بىر يۈرۈش مەشغۇلاتلار
-// @name:uk  Greasyfork Майстер з клею
-// @description:uk для Greasyfork Забезпечте різноманітні функції використання，абсолютний час，Веб широкоформатний，Покращення сторінки сценарію，Завантажте розширення，Ремонт панелей та ряд операцій
-// @name:vi  Greasyfork Thợ làm keo
-// @description:vi vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động
-// @name:zh-TW  Greasyfork 膠水工匠
+// @name:ro           Greasyfork Meșter de lipici
+// @description:ro    pentru Greasyfork Furnizați diverse funcții de utilizare，timp absolut，Ecran lat web，Îmbunătățiri ale paginii de script，Descărcați extensia，Reparatie panouri si o serie de operatii
+// @name:ru           Greasyfork Мастер по клею
+// @description:ru    для Greasyfork Обеспечить различные функции использования，абсолютное время，Интернет широкоэкранный，Улучшения страницы скрипта，Скачать расширение，Ремонт панели и ряд операций
+// @name:sk           Greasyfork Lepidlo remeselník
+// @description:sk    pre Greasyfork Poskytujte rôzne funkcie používania，absolútny čas，Web širokouhlý，Vylepšenia stránky skriptov，Stiahnite si rozšírenie，Oprava panelov a séria operácií
+// @name:sr           Greasyfork Мајстор лепка
+// @description:sr    за Greasyfork Обезбедите различите функције коришћења，апсолутно време，Веб видесцреен，Побољшања странице скрипте，Преузмите екстензију，Поправка панела и низ операција
+// @name:sv           Greasyfork Limhantverkare
+// @description:sv    för Greasyfork Tillhandahålla olika användningsfunktioner，absolut tid，Web widescreen，Förbättringar av skriptsidor，Ladda ner tillägg，Panelreparation och en rad operationer
+// @name:th           Greasyfork ช่างกาว
+// @description:th    สำหรับ Greasyfork จัดให้มีฟังก์ชันการใช้งานต่างๆ，เวลาที่แน่นอน，เว็บไวด์สกรีน，การปรับปรุงหน้าสคริปต์，ดาวน์โหลดส่วนขยาย，การซ่อมแซมแผงและการดำเนินการต่างๆ
+// @name:tr           Greasyfork Tutkal ustası
+// @description:tr    için Greasyfork Çeşitli kullanım fonksiyonları sağlayın，mutlak zaman，Web geniş ekranı，Komut dosyası sayfası geliştirmeleri，Uzantıyı indir，Panel onarımı ve bir dizi işlem
+// @name:ug           Greasyfork يېلىم ھۈنەرۋەن
+// @description:ug    for Greasyfork ھەر خىل ئىشلىتىش ئىقتىدارلىرى بىلەن تەمىنلەڭ，مۇتلەق ۋاقىت，تور كەڭ ئېكران，قوليازما بېتىنى ياخشىلاش，كېڭەيتىلمىنى چۈشۈرۈڭ，تاختاينى رېمونت قىلىش ۋە بىر يۈرۈش مەشغۇلاتلار
+// @name:uk           Greasyfork Майстер з клею
+// @description:uk    для Greasyfork Забезпечте різноманітні функції використання，абсолютний час，Веб широкоформатний，Покращення сторінки сценарію，Завантажте розширення，Ремонт панелей та ряд операцій
+// @name:vi           Greasyfork Thợ làm keo
+// @description:vi    vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động
+// @name:zh-TW        Greasyfork 膠水工匠
 // @description:zh-TW 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
-// @name:zh-HK  Greasyfork 膠水工匠
+// @name:zh-HK        Greasyfork 膠水工匠
 // @description:zh-HK 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
-// @name:fr-CA  Greasyfork Artisan de la colle
+// @name:fr-CA        Greasyfork Artisan de la colle
 // @description:fr-CA pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
-// @namespace     https://github.com/ChinaGodMan/UserScripts
-// @description Providing various features for Greasyfork, including absolute time, widescreen web pages, script page enhancements, download extensions, panel fixes, and more.
-// @require      https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
-// @require      https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
-// @require      https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
-// @resource    atom-one-dark.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.min.css
-// @resource    atom-one-light.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.min.css
-// @resource     nnfx-dark.min.css  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-dark.min.css
-// @resource     nnfx-light.min.css  https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-light.min.css
-// @require      https://update.greasyfork.org/scripts/447149/1065246/checkVersion.js
-// @require   https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js
-// @grant       GM_getResourceText
-// @grant        GM_registerMenuCommand
-// @grant        GM_registerMenuCommand
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        GM_addStyle
-// @grant        GM_setClipboard
-// @grant      GM_xmlhttpRequest
-// @compatible     chrome
-// @compatible     firefox
-// @compatible     edge
-// @compatible     opera
-// @compatible     safari
-// @version 2.2.0.92
-// @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
-// @iconbak https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
-// @author       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
-// @match        https://greasyfork.org/*
-// @match        https://sleazyfork.org/*
-// @license      MIT
-// @supportURL              https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL   https://github.com/ChinaGodMan/UserScripts
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @description       Providing various features for Greasyfork, including absolute time, widescreen web pages, script page enhancements, download extensions, panel fixes, and more.
+// @require           https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
+// @require           https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
+// @require           https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js
+// @require           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
+// @resource          atom-one-dark.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.min.css
+// @resource          atom-one-light.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.min.css
+// @resource          nnfx-dark.min.css https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-dark.min.css
+// @resource          nnfx-light.min.css https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-light.min.css
+// @require           https://update.greasyfork.org/scripts/447149/1065246/checkVersion.js
+// @require           https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js
+// @grant             GM_getResourceText
+// @grant             GM_registerMenuCommand
+// @grant             GM_registerMenuCommand
+// @grant             GM_setValue
+// @grant             GM_getValue
+// @grant             GM_addStyle
+// @grant             GM_setClipboard
+// @grant             GM_xmlhttpRequest
+// @compatible        chrome
+// @compatible        firefox
+// @compatible        edge
+// @compatible        opera
+// @compatible        safari
+// @version           2.2.0.92
+// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
+// @iconbak           https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
+// @author            人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @match             https://greasyfork.org/*
+// @match             https://sleazyfork.org/*
+// @license           MIT
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
 
 // ==/UserScript==
 const translate = (function () {

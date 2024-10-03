@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         Greasy Fork - 分析发布的脚本增强版本
-// @namespace    millle@foxmail.com
-// @version      9
-// @description  在任何用户资料页和搜索页面显示每种评分的总数、总安装数/每日安装数以及发布的脚本总数。
-// @author        hacker09
-// @match        https://greasyfork.org/*
-// @match        https://greasyfork.org/*/scripts?q=*
-// @match        https://greasyfork.org/*/scripts/by-site/*
-// @match        https://greasyfork.org/zh-CN/scripts?set=*
-// @icon         https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://greasyfork.org/&size=64
-// @require   https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js
+// @name        Greasy Fork - 分析发布的脚本增强版本
+// @namespace   millle@foxmail.com
+// @version     9
+// @description 在任何用户资料页和搜索页面显示每种评分的总数、总安装数/每日安装数以及发布的脚本总数。
+// @author      hacker09
+// @match       https://greasyfork.org/*
+// @match       https://greasyfork.org/*/scripts?q=*
+// @match       https://greasyfork.org/*/scripts/by-site/*
+// @match       https://greasyfork.org/zh-CN/scripts?set=*
+// @icon        https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://greasyfork.org/&size=64
+// @require     https://cdn.jsdelivr.net/npm/jszip@3.7.1/dist/jszip.min.js
 // ==/UserScript==
 
 (async function() {

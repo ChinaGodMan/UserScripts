@@ -1,16 +1,16 @@
 // ==UserScript==
-// @name         高亮隐藏
-// @namespace    https://www.gitlink.org.cn/sonichy
-// @version      1.22
-// @description  高亮含有关键字的链接，隐藏含有关键字的链接，并动态监测页面变化。s
-// @author
-// @match        *://*/*
-// @grant        GM_registerMenuCommand
-// @grant        GM_getValue
-// @grant        GM_setValue
-// @license      MIT
-// @downloadURL  https://update.greasyfork.org/scripts/498001/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.user.js
-// @updateURL    https://update.greasyfork.org/scripts/498001/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.meta.js
+// @name        高亮隐藏
+// @namespace   https://www.gitlink.org.cn/sonichy
+// @version     1.22
+// @description 高亮含有关键字的链接，隐藏含有关键字的链接，并动态监测页面变化。s
+// @author      
+// @match       *://*/*
+// @grant       GM_registerMenuCommand
+// @grant       GM_getValue
+// @grant       GM_setValue
+// @license     MIT
+// @downloadURL https://update.greasyfork.org/scripts/498001/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.user.js
+// @updateURL   https://update.greasyfork.org/scripts/498001/%E9%AB%98%E4%BA%AE%E9%9A%90%E8%97%8F.meta.js
 // ==/UserScript==
 
 (function () {

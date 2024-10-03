@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         Fix Sidebar Icon
-// @namespace    http://tampermonkey.net/
-// @version 1.1.2.6
-// @description  Fix the sidebar icon to the top right corner while scrolling and toggle sidebar visibility
-// @match        https://greasyfork.org/*/scripts/by-site/*
-// @match        https://greasyfork.org/*
-// @match        https://sleazyfork.org/*/scripts/by-site/*
-// @match        https://sleazyfork.org/*
-// @grant        none
+// @name        Fix Sidebar Icon
+// @namespace   http://tampermonkey.net/
+// @version     1.1.2.6
+// @description Fix the sidebar icon to the top right corner while scrolling and toggle sidebar visibility
+// @match       https://greasyfork.org/*/scripts/by-site/*
+// @match       https://greasyfork.org/*
+// @match       https://sleazyfork.org/*/scripts/by-site/*
+// @match       https://sleazyfork.org/*
+// @grant       none
 //66666621241DAD
 // ==/UserScript==
 (function () {

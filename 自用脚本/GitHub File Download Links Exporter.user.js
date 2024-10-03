@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         GitHub File Download Links Exporter
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Export file names and download links from a GitHub repository
-// @author       Your Name
-// @match        https://github.com/*/*
-// @grant        GM_addStyle
+// @name        GitHub File Download Links Exporter
+// @namespace   http://tampermonkey.net/
+// @version     1.0
+// @description Export file names and download links from a GitHub repository
+// @author      Your Name
+// @match       https://github.com/*/*
+// @grant       GM_addStyle
 // ==/UserScript==
 
 

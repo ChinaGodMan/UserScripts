@@ -1,22 +1,22 @@
 // ==UserScript==
-// @name         Greasy Fork Bookmark
-// @name:zh-CN      Greasy Fork 书签
-// @name:ja      Greasy Fork ブックマーク
-// @namespace    http://tampermonkey.net/
-// @version      2024-07-10 11：22
+// @name              Greasy Fork Bookmark
+// @name:zh-CN        Greasy Fork 书签
+// @name:ja           Greasy Fork ブックマーク
+// @namespace         http://tampermonkey.net/
+// @version           2024-07-10 11：22
 // @description       Bookmark the script easily
-// @description:zh-CN    Bookmark the script easily
+// @description:zh-CN Bookmark the script easily
 // @description:ja    Greasy Forkのブックマーク機能
-// @author       ぐらんぴ
-// @match        https://greasyfork.org/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
-// @grant        none
-// @license      MIT
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @grant        GM_addStyle
-// @downloadURL https://update.greasyfork.org/scripts/493406/Greasy%20Fork%20Bookmark.user.js
-// @updateURL https://update.greasyfork.org/scripts/493406/Greasy%20Fork%20Bookmark.meta.js
+// @author            ぐらんぴ
+// @match             https://greasyfork.org/*
+// @icon              https://www.google.com/s2/favicons?sz=64&domain=greasyfork.org
+// @grant             none
+// @license           MIT
+// @grant             GM_setValue
+// @grant             GM_getValue
+// @grant             GM_addStyle
+// @downloadURL       https://update.greasyfork.org/scripts/493406/Greasy%20Fork%20Bookmark.user.js
+// @updateURL         https://update.greasyfork.org/scripts/493406/Greasy%20Fork%20Bookmark.meta.js
 // ==/UserScript==
 
 (() => {
