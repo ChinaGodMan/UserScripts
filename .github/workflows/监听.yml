@@ -38,8 +38,5 @@ jobs:
           # 获取更改文件列表
           FILES=$(git diff --name-only HEAD^ HEAD)
           echo "changed_files=$FILES" >> $GITHUB_ENV
-        # 如果要输出文件路径到控制台：
-        - name: Print changed files
-          run: |
-            echo "Changed files:"
-            echo "${{ env.changed_files }}"
+          echo "${{ env.changed_files }}"
+            
