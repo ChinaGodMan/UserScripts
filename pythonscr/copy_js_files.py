@@ -16,7 +16,7 @@ for file in changed_files:
         file_path = os.path.join(os.getcwd(), file)
         if os.path.exists(file_path):
             target_path = os.path.join(target_dir, os.path.basename(file))
-            
+            subprocess.run(['node', 'utils/single-format-monkey-meta.js', file_path], check=True)
             # 复制文件
             shutil.copy(file_path, target_path)
             print(f'复制 {file_path} 到 {target_path}')
