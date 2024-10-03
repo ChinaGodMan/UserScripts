@@ -19,7 +19,7 @@
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20all%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20positive%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -79,7 +79,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-10-03 19:12:34</sub></td>
+            <td><sub>2024-10-03 21:11:11</sub></td>
              <td><sub>0.1.1.0</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -331,7 +331,7 @@
                 </a>
             </td>
             <td><sub>2024-09-24 05:30:01</sub></td>
-            <td><sub>2024-10-03 19:12:37</sub></td>
+            <td><sub>2024-10-04 05:26:32</sub></td>
              <td><sub>1.0.0.0</sub></td>
               <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
@@ -345,7 +345,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubAutomatically enter the authorization code and confirm automatically on the authorization page。</td>
+            <td>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -443,7 +443,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-03 19:12:38</sub></td>
+            <td><sub>2024-10-04 05:23:24</sub></td>
              <td><sub>0.1.3.2</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -471,7 +471,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-10-03 19:12:38</sub></td>
+            <td><sub>2024-10-04 05:23:24</sub></td>
              <td><sub>1.1.0.23</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
@@ -681,7 +681,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Search using Google GreasyFork and SleazyFork superior script </td>
+            <td>Search using Google GreasyFork and SleazyFork upper script </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -758,7 +758,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
@@ -1159,14 +1159,14 @@
 
 To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Click on form **\[Install\]** Directly pop up the script manager installation interface。
+- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
 - if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
 > 
 > - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
+> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 

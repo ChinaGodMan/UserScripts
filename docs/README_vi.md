@@ -19,7 +19,7 @@
 <h4><a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><ruby>人民的勤务员/UserScripts<rt>Github:@ChinaGodMan</rt></ruby></a></h4>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20l%C6%B0%E1%BB%A3t%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20c%C3%A0i%20%C4%91%E1%BA%B7t%20t%E1%BA%ADp%20l%E1%BB%87nh%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3t%20c%C3%A0i%20%C4%91%E1%BA%B7t%20t%E1%BA%ADp%20l%E1%BB%87nh%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%C3%ADch%20c%E1%BB%B1c&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -79,7 +79,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-10-03 19:12:34</sub></td>
+            <td><sub>2024-10-03 21:11:11</sub></td>
              <td><sub>0.1.1.0</sub></td>
               <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -177,7 +177,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -331,7 +331,7 @@
                 </a>
             </td>
             <td><sub>2024-09-24 05:30:01</sub></td>
-            <td><sub>2024-10-03 19:12:37</sub></td>
+            <td><sub>2024-10-04 05:26:32</sub></td>
              <td><sub>1.0.0.0</sub></td>
               <td><sub>2024-09-24 04:33:03</sub></td>
         </tr>
@@ -345,7 +345,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。</td>
+            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -443,7 +443,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-03 19:12:38</sub></td>
+            <td><sub>2024-10-04 05:23:24</sub></td>
              <td><sub>0.1.3.2</sub></td>
               <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -471,7 +471,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 12:30:53</sub></td>
-            <td><sub>2024-10-03 19:12:38</sub></td>
+            <td><sub>2024-10-04 05:23:24</sub></td>
              <td><sub>1.1.0.23</sub></td>
               <td><sub>2024-08-06 01:28:58</sub></td>
         </tr>
@@ -681,7 +681,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -730,7 +730,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -1166,7 +1166,7 @@
 > 
 > - _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > - _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> - _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
