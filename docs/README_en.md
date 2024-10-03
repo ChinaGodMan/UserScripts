@@ -65,7 +65,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>let ChatGPT Code font size becomes smaller dqfmar1u</td>
+            <td>let ChatGPT Code font size becomes smaller</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -93,7 +93,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</td>
+            <td>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -345,7 +345,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubAutomatically enter the authorization code and confirm automatically on the authorization page。</td>
+            <td>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -1159,18 +1159,29 @@
 
 To use any script，First you need to install the browser **Tampermonkey  Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
-- Click on form **\[Install\]** Directly pop up the script manager installation interface。
+- Click on the form **\[Install\]** Directly pop up the script manager installation interface。
 - if Github Access speed is too slow，You can choose to clickGreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 
 > [!IMPORTANT]
 > 
 > - _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > - _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
+> - _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
+## Contributor
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
+  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
+</a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="people’s servants servants">
+  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="people’s servants servants"/>
+</a>
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
 ## 🌐 Browser and Script Manager
 
 |                               Recommended browser                                |                                                          Installation manager                                                           | Install browser                                                                      |

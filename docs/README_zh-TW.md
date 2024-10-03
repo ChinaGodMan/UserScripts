@@ -65,7 +65,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>讓 ChatGPT 程式碼字體變小 dqfmar1u</td>
+            <td>讓 ChatGPT 程式碼字體變小</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
@@ -569,7 +569,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況</td>
+            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
@@ -1171,6 +1171,17 @@
 > _**不會離線安裝 .crx 擴充？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴充] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
+## 貢獻者
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
+  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
+</a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="人民的勤務員的勤務員">
+  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的勤務員的勤務員"/>
+</a>
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
 ## 🌐 瀏覽器與腳本管理器
 
 |                               推薦瀏覽器                                |                                                          安裝管理器                                                           | 安裝瀏覽器                                                                      |
