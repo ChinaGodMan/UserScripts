@@ -14,7 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2  # 确保获取足够的历史记录来做 git diff
+          fetch-depth: 0  # 确保获取足够的历史记录来做 git dif
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
 
       # Step 2: Set up Node.js environment (如果有需要，可以省略)
       - name: Set up Node.js
