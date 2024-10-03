@@ -40,4 +40,7 @@ jobs:
           FILES=$(git diff --name-only HEAD^ HEAD)
           echo "changed_files=$FILES" >> $GITHUB_ENV
           echo "${{ env.changed_files }}"
+          echo "Changed files: $FILES" # 输出到控制台
+
+
             
