@@ -1,0 +1,45 @@
+name: List Pushed Files
+
+on:
+  push:
+    branches:
+      - main  # 监听推送到 main 分支的事件（可以根据需要修改）
+
+jobs:
+  list-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2  # 确保获取足够的历史记录来做 git diff
+
+      # Step 2: Set up Node.js environment (如果有需要，可以省略)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      # Step 3: List modified files
+      - name: List modified files
+        run: |
+          # 获取当前推送与之前一次推送之间的文件变更
+          git diff --name-only HEAD^ HEAD
+          
+          # 如果想列出被修改的具体文件（包括新建、删除、修改），可以使用以下命令：
+          git diff --name-status HEAD^ HEAD
+
+      # Step 4: 如果需要将输出保存为环境变量
+      - name: Set output for changed files
+        id: changes
+        run: |
+          # 获取更改文件列表
+          FILES=$(git diff --name-only HEAD^ HEAD)
+          echo "changed_files=$FILES" >> $GITHUB_ENV
+        # 如果要输出文件路径到控制台：
+        - name: Print changed files
+          run: |
+            echo "Changed files:"
+            echo "${{ env.changed_files }}"
