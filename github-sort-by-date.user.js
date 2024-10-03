@@ -96,10 +96,8 @@
         button.style.top = '60px'
         button.style.right = '20px'
         button.style.zIndex = '9999'
-
         // Append the button to the body
         document.body.appendChild(button)
-
         // Add click event listener to the button
         button.addEventListener('click', performSortedAction)
     }

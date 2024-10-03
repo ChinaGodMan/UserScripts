@@ -551,7 +551,6 @@ function checkCommitDate(datetimeString) {
         finalYears--
         adjustedMonths += 12
     }
-
     let result = translate.timediff
     if (finalYears === 0) {
         result = result.replace(/{years}.*?(?={months})/, '')
