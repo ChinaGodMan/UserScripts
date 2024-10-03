@@ -23,6 +23,7 @@ jobs:
             - name: 检出代码
               uses: actions/checkout@v3
               with:
+                  fetch-depth: 0
                   token: ${{ secrets.MY_GITHUB_TOKEN }}
 
             - name: 获取提交者用户名
