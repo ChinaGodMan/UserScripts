@@ -329,7 +329,7 @@ function observeUrlChanges(callback, delay = 2000) {
         if (url !== lastUrl) {
             lastUrl = url
             setTimeout(() => {
-                console.log("页面发生变动,允许执行")
+                //  console.log("页面发生变动,允许执行")
                 callback()
             }, delay)
         }
