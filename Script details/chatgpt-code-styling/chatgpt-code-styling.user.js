@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name          ChatGPT Code Box Styling
-// @description  Change the font size and enable word wrap in ChatGPT code boxes
-// @name:zh-CN     ChatGPT代码字体缩小
+// @name              ChatGPT Code Box Styling
+// @description       Change the font size and enable word wrap in ChatGPT code boxes
+// @name:zh-CN        ChatGPT代码字体缩小
 // @description:zh-CN ChatGPT 让代码字体变小 并且自动折行
-// @name:ar        ChatGPT代码字体缩小
+// @name:ar           ChatGPT代码字体缩小
 // @description:ar    ChatGPT جعل خط التعليمات البرمجية أصغر والتفاف تلقائيا
-// @name:cs         ChatGPTVelikost písma kódu zmenšena
+// @name:cs           ChatGPTVelikost písma kódu zmenšena
 // @description:cs    ChatGPT Zmenšit písmo kódu a automaticky zabalit
 // @name:da           ChatGPTKodeskriftstørrelse reduceret
 // @description:da    ChatGPT Gør kodeskrifttypen mindre og automatisk indpakning
