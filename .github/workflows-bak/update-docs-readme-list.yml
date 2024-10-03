@@ -1,0 +1,70 @@
+name: update-docs-readme-list
+
+on:
+  workflow_run:
+    workflows: 
+      - "update-scripts-version"   #触发了自动更新.
+      - "merge-change-history"     #触发了合并历史记录,可能json文件被改变,
+    types:
+      - completed
+  workflow_dispatch:  # 允许手动触发工作流
+
+
+concurrency:
+  group: update-qinwuyuan-UserScripts-2  # 将所有运行中的实例放到同一个并发组中
+  cancel-in-progress: false  # 如果有正在执行的工作流，不取消，而是排队
+
+jobs:
+  update-script-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: 获取当前分支
+        id: get_branch
+        run: |
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+      - name: 拉取最新更改 就这样了,拉一下,防止同时运行多个流程
+        run: |
+          git pull origin ${{ env.branch }}  # 拉取最新的远程更改
+
+      - name: 读取 Load.txt 中的脚本名称
+        id: read-script
+        run: |
+          script_path="pythonscr/update-script-list/update-script-list.py"
+          echo "script_path=${script_path}" >> $GITHUB_ENV
+
+      - name: 执行README.md更新.刷新greasyfork数据
+        run: |
+          python pythonscr/update-script-list/upadate-greasyfork.py
+          python ${{ env.script_path }}
+        continue-on-error: true  # 让这个步骤即使出错也不会终止整个工作流
+      
+      - name: 提交和推送更改
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 添加更改
+          git add .
+          git commit -m '更新readme脚本列表[docs/ScriptsPath.json→/docs/README.md]' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
+      
+      

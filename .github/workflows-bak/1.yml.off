@@ -1,0 +1,16 @@
+name: Output All Matching Paths
+
+on:
+  workflow_dispatch:
+
+jobs:
+  output-paths:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Find and output all matching paths
+      run: |
+        find ./Script\ details/*/Change\ history/README.md

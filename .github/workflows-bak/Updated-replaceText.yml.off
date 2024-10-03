@@ -1,0 +1,40 @@
+name: Github 替换md文件字符串
+
+on:
+#  schedule:
+#    - cron: '*/6 * * * *'  # 每 6 分钟运行一次
+
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  find-and-replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: 检出代码
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用你创建的 Token
+
+      - name: 获取当前分支
+        id: get_branch
+        run: |
+          echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
+          echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
+
+      - name: 寻找并替换字符串
+        run: |
+          echo "遍历并替换 .md 文件中的字符串"
+          find . -name "*.md" -print0 | xargs -0 sed -i 's/qinwuyuan-cn/ChinaGodMan/g'
+
+      - name: 提交和推送更改
+        run: |
+          # 配置 Git 用户
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # 添加更改
+          git add .
+          git commit -m '更新 .md 文件中的字符串' || echo "没有需要提交的更改"
+          git push origin ${{ env.branch }}
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中
