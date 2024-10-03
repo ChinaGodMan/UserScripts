@@ -1171,6 +1171,12 @@
 > _**不会离线安装 .crx 扩展？[Chrome、Edge 重新开启隐藏的 [拖入安装 .crx 扩展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
+## 贡献者
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
+<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
 ## 🌐 浏览器与脚本管理器
 
 |                               推荐浏览器                                |                                                          安装管理器                                                           | 安装浏览器                                                                      |
