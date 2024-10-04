@@ -33,6 +33,27 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
+<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
+<table>
+<thead>
+<tr>
+<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
+<th>新增演示 仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><img alt="New.png" src="https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png" /></td>
+<td><img alt="1.gif" src="https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
 <p><strong>优化</strong>: 优化小标签<br>
 <strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
