@@ -695,6 +695,9 @@ function insertReposList(links) {
         </ul>
     </div>
 </details>`
+        document.querySelectorAll('#view-user-repos').forEach(function (element) {
+            element.remove()
+        })
         existingButton.insertAdjacentHTML('beforebegin', detailsHTML)
     } else {
     }
