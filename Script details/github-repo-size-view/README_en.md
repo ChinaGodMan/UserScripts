@@ -1,19 +1,19 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the script for the orderly<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the script for the orderly</a><br><a href="#:~:text=View all publish scripts">View the script of the orderly on the current page</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20positive%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Code%20quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=star&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,You can light up the stars for encouragement</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
 <a href="mailto:toniaiwanowskiskr47@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
@@ -26,26 +26,26 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠</h1>
-    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转. 」</p>
+    <h1>🤠 Github Enhance assistant Warehouse display size Inactive development warning Quickly jump to the user’s other warehouses within the warehouse 🤠</h1>
+    <p>「 existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse. 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
-<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
-<strong>修复</strong>：列表重复添加问题<br>
-<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>New</strong>: Add mouse hover to quick jump list<code>Title</code>Display basic warehouse information<br>
+<strong>optimization</strong>: All repositories of a user can now be displayed，But it is not recommended，Affect experience。<br> in script 343 line of code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>When parameter three is true, recursively obtain the user list<br>Parameter four limits the maximum number of recursive pages when parameter three is true.<br>
+<strong>repair</strong>：Duplicate question added to list<br>
+<strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
+<p><strong>New</strong>: GitHub Jumping to the warehouse in the sidebar is cumbersome,Add a warehouse to quickly jump to other warehouses of users<br></p>
 <table>
 <thead>
 <tr>
-<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
-<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
+<th><code>red</code> for public repository <code>green</code> For private warehouse <code>Fork</code> replica warehouse (Logged in user,Must type TOKEN)</th>
+<th>Add demo ~~Show only first page 30 warehouse,Exceeded will not be displayed,It’s enough for my own use now~~ <code>0.1.3.4</code>All supported</th>
 </tr>
 </thead>
 <tbody>
@@ -61,21 +61,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>优化</strong>: 优化小标签<br>
-<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
+<p><strong>optimization</strong>: Optimize small tags<br>
+<strong>New</strong>: The lower right corner of the inactive development banner displays the last<code>Push</code>How long since now<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
+<p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Show inactive development reminder on repository page。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>一年以上无更新</th>
-<th>半年内无更新</th>
+<th>No updates for more than a year</th>
+<th>No updates in half a year</th>
 </tr>
 </thead>
 <tbody>
@@ -91,20 +91,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
+<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
-<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
+<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
+<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
@@ -113,90 +113,90 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 预览
+## Preview
 
-1. **显示仓库大小：**  
+1. **Show warehouse size：**  
     ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
    ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
 
-2. **仓库内快捷跳转：**  
+2. **Quick jump within the warehouse：**  
     ![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png) ![info.png](https://s2.loli.net/2024/10/05/x3BTk2frW8eqFOa.png)
    ![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
 
-3. **不活跃开发警告：**  
+3. **Inactive development warning：**  
    ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png)
    ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png)
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 🤠 Github 增强小助手
+## 🤠 Github Enhance assistant
 
-**Github 增强小助手** 是一款旨在提升用户在 GitHub 上的使用体验的工具。以下是该工具的主要功能及特点：
+**Github Enhance assistant** is a tool designed to improve users’ GitHub Tools for user experience。The following are the main functions and features of this tool：
 
-1. **仓库显示大小**  
-   在 GitHub 的代码搜索、仓库搜索、议题页面、用户仓库列表和存储库页面上，仓库名称旁边会显示该仓库的大小，方便用户快速了解仓库的规模，优化选择。
+1. **Warehouse display size**  
+   exist GitHub code search、Warehouse search、issue page、On the user repository list and repository pages，The size of the warehouse is displayed next to the warehouse name，Convenient for users to quickly understand the size of the warehouse，Optimize selection。
 
-2. **不活跃开发警告**  
-   如果某个仓库在过去六个月内没有更新，系统将在仓库的顶部添加提示，提醒用户该仓库不活跃，并显示最后一次更新的时间。这有助于用户判断仓库的活跃程度和维护状况。
+2. **Inactive development warning**  
+   If a repository has not been updated in the past six months，The system will add a prompt at the top of the repository，Remind users that the repository is inactive，and displays the time of the last update。This helps users determine the activity and maintenance status of the warehouse。
 
-3. **仓库内快捷跳转**  
-   在浏览仓库时，用户可以方便地查看该用户的所有仓库列表，提供一个快速跳转到不同仓库的入口。用户可以快速找到和访问感兴趣的其他项目，提高工作效率。
+3. **Quick jump within the warehouse**  
+   While browsing the repository，Users can easily view the list of all warehouses of this user，Provide a quick jump to different warehouses。Users can quickly find and access other items of interest，Improve work efficiency。
 
-### 使用场景
+### Usage scenarios
 
--   **开发者**：可以通过显示仓库大小和活跃警告，快速筛选出合适的库进行开发，避免使用不再维护的项目。
--   **项目管理者**：通过快速跳转功能，便于管理和协调多个项目，提高工作效率。
+-   **Developer**：This can be done by displaying repository size and active warnings，Quickly select suitable libraries for development，Avoid using projects that are no longer maintained。
+-   **project manager**：via quick jump function，Easily manage and coordinate multiple projects，Improve work efficiency。
 
--   **学习者**：在学习新技术时，可以更方便地找到相关的开源项目，快速查看项目的活跃程度和规模。
+-   **learner**：When learning new technologies，Make it easier to find relevant open source projects，Quickly view project activity and size。
 
-## 安装
+## Install
 
-1. 安装 Tampermonkey 或您首选的用户脚本管理器。
-2. 从[此处](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js)安装脚本。
-3. （可选）如果您想查看私有存储库的大小，请参阅以下说明。
+1. Install Tampermonkey or your preferred userscript manager。
+2. from[here](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js)Installation script。
+3. （Optional）If you want to see the size of your private repository，Please see instructions below。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 查看私有仓库大小
+## View private repository size
 
-默认情况下，此脚本将仅显示公共存储库的大小。
-要显示私有存储库的大小，您需要生成一个具有“repo”范围的新个人访问令牌。
-该令牌将用于通过 Github API 进行身份验证。
+By default，This script will only display the size of public repositories。
+To display the size of a private repository，You need to generate a“repo”A new personal access token for the scope。
+This token will be used to pass Github API Authenticate。
 
-1. [此处](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
-2. 为令牌命名并检查`repo`范围。
-3. 单击 `Generate token` 按钮并复制令牌。
-4. 点击脚本菜单`Set GitHub Token`,填入刚刚生成的令牌。
+1. [here](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)Generate new token。
+2. Name the token and check`repo`scope。
+3. click `Generate token` button and copy the token。
+4. Click on the script menu`Set GitHub Token`,Fill in the token you just generated。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
-> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> - [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> - [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> ### 🔍you may be looking forGitHubRelated scripts
+> - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
+> - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
+> - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
+> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
+> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouse用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，仓库内快捷跳转.
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 感谢
+## grateful
 
-脚本修改自用户 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) 感谢原作者 **mshll** 的**勤劳**与**智慧**
+Script modified from user **[mshll](https://greasyfork.org/zh-CN/users/1010122)** of脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) Thanks to the original author **mshll** 的**Diligent**and**wisdom**
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## Help
 
-推荐浏览器和脚本管理器：
+Recommended browsers and script managers：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -204,10 +204,10 @@
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
+<a href="#top">back to top↑</a></p>
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
@@ -215,78 +215,78 @@
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> 
 
-### 查看所有发布脚本 
+### View all publish scripts 
 
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 ChatGPT相关脚本
-> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码字体变小
-> - [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
-> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
-> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
+> ### 🔍you may be looking for ChatGPTRelated scripts
+> - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
+> - [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“复制代码”按钮
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 网页相关脚本
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> - [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> - [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> - [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
+> ### 🔍you may be looking for Web related scripts
+> - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
+> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
+> - [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
+> - [**Highlight web text_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
+> - [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> - [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove underline from web links
+> - [**Small scroll button up and down**](https://greasyfork.org/scripts/497251): Add up and down scroll buttons on the right side of the page
+> - [**One-touch top and bottom buttons**](https://greasyfork.org/scripts/500255): Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GitHub相关脚本
-> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> - [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> - [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> ### 🔍you may be looking for GitHubRelated scripts
+> - [**GitHubSubmit information displayHTML**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
+> - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
+> - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
+> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
+> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouse用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，仓库内快捷跳转.
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 Google相关脚本
-> - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
+> ### 🔍you may be looking for GoogleRelated scripts
+> - [**Google Advanced search**](https://greasyfork.org/scripts/502652): This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。
+> - [**Google Search and block specific sites**](https://greasyfork.org/scripts/500262): Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GreasyFork相关脚本
-> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
-> - [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
-> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
-> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
-> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
+> ### 🔍you may be looking for GreasyForkRelated scripts
+> - [**GreasyForksuitable for enhancement**](https://greasyfork.org/scripts/497317): The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search
+> - [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+> - [**GreaysFork Enhance WebHookSync settings**](https://greasyfork.org/scripts/506717): This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
+> - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
+> - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
+> - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
+> - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 成人脚本
-> - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
-> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
-> - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
-> - [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
+> ### 🔍you may be looking for adult script
+> - [**MiSSAVAutomatic login**](https://greasyfork.org/scripts/505325): Detection MisssAV state，and automatically log in when not logged in
+> - [**MissAVCollection manager**](https://greasyfork.org/scripts/497682): missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav
+> - [**TissAVAutomatic login**](https://greasyfork.org/scripts/506528): Detection TissAV state，and automatically log in when not logged in
+> - [**JableTVAutomatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state，and automatically log in when not logged in
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 自动翻译
-> - [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络
-> - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
+> ### 🔍you may be looking for automatic translation
+> - [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessiblegooglenetwork
+> - [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>back to top↑</strong></a></div></center>
 
 
 <!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
