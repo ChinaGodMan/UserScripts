@@ -78,7 +78,7 @@
 // @description:fr-CA exister github Ajouter la taille du référentiel à côté du nom du référentiel sur les pages de recherche et du référentiel
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @description       Adds the repo size next to the repo name on github search and repo pages
-// @version           0.1.3.3
+// @version           0.1.3.4
 // @author            mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -137,7 +137,15 @@ const translations = {
         view: "查看[",
         allRepos: "]所有仓库",
         newTab: "快速查看仓库时新窗口打开",
-
+        repoSize: "仓库大小：",
+        repoDes: "仓库简介：",
+        repoLang: "主要语言：",
+        repoCreated: "初始创建时间：",
+        repoUpdated: "最后一次更新：",
+        repoPushed: "最后一次推送：",
+        repoPushed: "最后一次推送：",
+        repoForks: "复刻：",
+        repoStars: "星标：",
     },
     "zh-TW,zh-HK,zh-MO": {
         save: "保存",
@@ -362,7 +370,7 @@ const addSizeToRepos = () => {
         let parent = elem.parentElement
         if (pageType === "repo") {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url) ? 'https://api.github.com/user/repos' : jsn.owner.repos_url
-            getUserRepos(reposApi, headers)
+            getUserAllRepos(reposApi, headers)//getUserAllRepos(reposApi, headers, true, 1)
                 .then(data => {
                     const reposArray = data.map(repo => ({
                         name: repo.name,
@@ -371,12 +379,17 @@ const addSizeToRepos = () => {
                         fork: repo.fork,
                         description: repo.description,
                         stargazers_count: repo.stargazers_count,
-                        owner: repo.owner.login
+                        owner: repo.owner.login,
+                        forks_count: repo.forks_count,
+                        open_issues_count: repo.open_issues_count,
+                        language: repo.language,
+                        size: repo.size,
+                        created_at: systemTime(repo.created_at),
+                        updated_at: systemTime(repo.updated_at),
+                        pushed_at: systemTime(repo.pushed_at),
                     }))
-
+                    console.log(reposApi)
                     insertReposList(reposArray)
-
-
                 })
                 .catch(error => console.error('Error fetching data:', error))
             parent = elem.parentElement.parentElement
@@ -416,12 +429,8 @@ const addSizeToRepos = () => {
                 "M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"
             )
             sizeSVG.appendChild(sizeSVGPath)
-            // Convert the size to human readable
-            const sizes = ["B", "KB", "MB", "GB", "TB"]
-            const size = jsn.size * 1024 // Github API returns size in KB so convert to bytes
-            let i = parseInt(Math.floor(Math.log(size) / Math.log(1024)))
-            const humanReadableSize =
-                (size / Math.pow(1024, i)).toFixed(1) + " " + sizes[i]
+            const size = jsn.size * 1024
+            const humanReadableSize = getHumanReadableSize(jsn.size)
             // Insert the size into the size container
             sizeContainer.innerHTML = `${humanReadableSize}`
             sizeContainer.prepend(sizeSVG)
@@ -596,7 +605,6 @@ function checkCommitDate(datetimeString) {
     }
 }
 function insertReposList(links) {
-
     const gitHubStyle = `
 #view-user-repos {
   order: 10;
@@ -642,7 +650,6 @@ function insertReposList(links) {
             if (fillColor) return svg
             if (link.fork) return `<path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>`
         }
-
         let privateClassAdded = false
         let forkClassAdded = false
         const listItems = sortedLinks.map(link => {
@@ -657,7 +664,7 @@ function insertReposList(links) {
             }
             return `
         <li class="${liClass}">
-            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? 'target="_blank"' : ''} rel="noopener noreferrer">
+            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? 'target="_blank"' : ''} rel="noopener noreferrer" title="${(link.description) ? translate.repoDes + link.description : ''}\n${translate.repoStars}${link.stargazers_count} ${translate.repoForks}${link.forks_count} \n${translate.repoSize}${getHumanReadableSize(link.size)}\n${translate.repoLang}${link.language}\n${translate.repoCreated}${link.created_at}\n${translate.repoUpdated}${link.updated_at}\n${translate.repoPushed}${link.pushed_at}">
                 <span class="d-inline-flex mr-2">
                     <svg width="16" height="16" viewBox="0 0 16 16">
                         ${getIconPath(link)}
@@ -668,7 +675,6 @@ function insertReposList(links) {
         </li>
     `
         }).join('')
-
         const detailsHTML = `
 <details id="view-user-repos" class="details-overlay details-reset position-relative d-flex">
     <summary role="button" type="button" class="btn text-center">
@@ -689,7 +695,6 @@ function insertReposList(links) {
 </details>`
         existingButton.insertAdjacentHTML('beforebegin', detailsHTML)
     } else {
-
     }
 }
 function isLoggedInUser(avatar_url) {
@@ -714,4 +719,44 @@ async function getUserRepos(href, header = {}) {
         console.error('Fetch error:', error)
         throw error
     }
+}
+async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
+    try {
+        let allRepos = []
+        let page = 1
+        let perPage = 100
+        do {
+            const url = getAll ? `${href}?per_page=${perPage}&page=${page}` : href//NOTE - false时，就获取前30个就行了 ，够用了 仓库没那么多，列表太长也不好。
+            const response = await fetch(url, { headers: header })
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+
+
+            const repos = await response.json()
+            if (repos.length === 0) break
+
+
+            allRepos = allRepos.concat(repos)
+            page++
+            // 如果设定了最大页数并且已经达到了最大页数，结束战斗
+            if (maxPage !== 0 && page > maxPage) break
+
+
+        } while (getAll)
+        return allRepos
+    } catch (error) {
+        console.error('Fetch error:', error)
+        throw error
+    }
+}
+//LINK - 帮助小子程序
+function getHumanReadableSize(sizeInKB) {
+    const sizes = ["B", "KB", "MB", "GB", "TB"]
+    const size = sizeInKB * 1024
+    let i = parseInt(Math.floor(Math.log(size) / Math.log(1024)))
+    const humanReadableSize = (size / Math.pow(1024, i)).toFixed(1) + " " + sizes[i]
+    return humanReadableSize
+}
+function systemTime(isoString) {
+    const date = new Date(isoString)
+    return date.toLocaleString()
 }
