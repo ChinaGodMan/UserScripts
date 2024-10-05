@@ -753,7 +753,7 @@ async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
             allRepos = allRepos.concat(repos)
             page++
             // 如果设定了最大页数并且已经达到了最大页数，结束战斗
-            if (maxPage !== 0 && page == maxPage) break
+            if (maxPage !== 0 && page > maxPage) break
 
 
         } while (getAll)
