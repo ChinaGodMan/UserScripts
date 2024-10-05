@@ -667,11 +667,11 @@ function insertReposList(links) {
         const listItems = sortedLinks.map(link => {
             let liClass = ""
             if (link.private && !privateClassAdded) {
-                liClass += "d-none d-md-block border-top"
+                liClass += "border-top"
                 privateClassAdded = true
             }
             if (link.fork && !forkClassAdded) {
-                liClass += "d-none d-md-block border-top"
+                liClass += "border-top"
                 forkClassAdded = true
             }
             return `
