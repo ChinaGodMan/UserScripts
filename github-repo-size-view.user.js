@@ -370,28 +370,30 @@ const addSizeToRepos = () => {
         let parent = elem.parentElement
         if (pageType === "repo") {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url) ? 'https://api.github.com/user/repos' : jsn.owner.repos_url
-            getUserAllRepos(reposApi, headers)//getUserAllRepos(reposApi, headers, true, 1)
-                .then(data => {
-                    const reposArray = data.map(repo => ({
-                        name: repo.name,
-                        private: repo.private,
-                        html_url: repo.html_url,
-                        fork: repo.fork,
-                        description: repo.description,
-                        stargazers_count: repo.stargazers_count,
-                        owner: repo.owner.login,
-                        forks_count: repo.forks_count,
-                        open_issues_count: repo.open_issues_count,
-                        language: repo.language,
-                        size: repo.size,
-                        created_at: systemTime(repo.created_at),
-                        updated_at: systemTime(repo.updated_at),
-                        pushed_at: systemTime(repo.pushed_at),
-                    }))
-                    console.log(reposApi)
-                    insertReposList(reposArray)
-                })
-                .catch(error => console.error('Error fetching data:', error))
+            if (!document.querySelector('#view-user-repos')) {
+                getUserAllRepos(reposApi, headers)//getUserAllRepos(reposApi, headers, true, 1)
+                    .then(data => {
+                        const reposArray = data.map(repo => ({
+                            name: repo.name,
+                            private: repo.private,
+                            html_url: repo.html_url,
+                            fork: repo.fork,
+                            description: repo.description,
+                            stargazers_count: repo.stargazers_count,
+                            owner: repo.owner.login,
+                            forks_count: repo.forks_count,
+                            open_issues_count: repo.open_issues_count,
+                            language: repo.language,
+                            size: repo.size,
+                            created_at: systemTime(repo.created_at),
+                            updated_at: systemTime(repo.updated_at),
+                            pushed_at: systemTime(repo.pushed_at),
+                        }))
+                        console.log(reposApi)
+                        insertReposList(reposArray)
+                    })
+                    .catch(error => console.error('Error fetching data:', error))
+            }
             parent = elem.parentElement.parentElement
         }
         // Create the size container
@@ -738,7 +740,7 @@ async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
             allRepos = allRepos.concat(repos)
             page++
             // 如果设定了最大页数并且已经达到了最大页数，结束战斗
-            if (maxPage !== 0 && page > maxPage) break
+            if (maxPage !== 0 && page == maxPage) break
 
 
         } while (getAll)
