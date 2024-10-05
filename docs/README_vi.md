@@ -644,8 +644,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-05 07:34:15</sub></td>
-            <td><sub>0.1.3.3</sub></td>
+            <td><sub>2024-10-05 09:19:58</sub></td>
+            <td><sub>0.1.3.4</sub></td>
             <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
         <tr>
@@ -912,7 +912,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">

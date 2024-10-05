@@ -644,8 +644,8 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-05 07:34:15</sub></td>
-            <td><sub>0.1.3.3</sub></td>
+            <td><sub>2024-10-05 09:19:58</sub></td>
+            <td><sub>0.1.3.4</sub></td>
             <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
         <tr>
@@ -772,7 +772,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>スクリプトの詳細ページが追加され、リンクを追加するのに適しています。，Webページをコピーする,轮胎搜索</td>
+            <td>スクリプトの詳細ページが追加され、リンクを追加するのに適しています。，Webページをコピーする,タイヤ検索</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
