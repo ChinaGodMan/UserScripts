@@ -123,7 +123,7 @@
     ![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png) ![info.png](https://s2.loli.net/2024/10/05/x3BTk2frW8eqFOa.png)
    ![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
 
-3. **仓库内快捷跳转：**  
+3. **不活跃开发警告：**  
    ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png)
    ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png)
 
