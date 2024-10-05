@@ -4,6 +4,8 @@
 
 **新增**: 快捷跳转列表添加鼠标悬浮`Title`显示仓库基本信息。<br>
 **优化**: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码`getUserAllRepos(reposApi, headers, true, 1) ` <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
+**修复**：列表重复添加问题<br>
+**修复**：`if (maxPage !== 0 && page > maxPage) break` → `if (maxPage !== 0 && page == maxPage) break `
 
 ---
 
