@@ -115,23 +115,39 @@
 
 ## 预览
 
-![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
-![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
-![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png)
-![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
+1. **显示仓库大小：**  
+    ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
+   ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
+
+2. **仓库内快捷跳转：**  
+    ![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png) ![info.png](https://s2.loli.net/2024/10/05/x3BTk2frW8eqFOa.png)
+   ![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
+
+3. **仓库内快捷跳转：**  
+   ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png)
+   ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png)
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 先决条件
+## 🤠 Github 增强小助手
 
-要使用此脚本，您将需要一个用户脚本管理器。一些流行的选择是：
+**Github 增强小助手** 是一款旨在提升用户在 GitHub 上的使用体验的工具。以下是该工具的主要功能及特点：
 
--   [Tampermonkey](https://tampermonkey.net/)（Chrome、Firefox、Safari、Microsoft Edge、Opera Next）
--   [Violentmonkey](https://violentmonkey.github.io/)（Chrome、Firefox、Microsoft Edge）
--   [Greasemonkey](https://www.greasespot.net/) (Firefox)
--   [用户脚本](https://apps.apple.com/us/app/userscripts/id1463298887) (Safari)
+1. **仓库显示大小**  
+   在 GitHub 的代码搜索、仓库搜索、议题页面、用户仓库列表和存储库页面上，仓库名称旁边会显示该仓库的大小，方便用户快速了解仓库的规模，优化选择。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+2. **不活跃开发警告**  
+   如果某个仓库在过去六个月内没有更新，系统将在仓库的顶部添加提示，提醒用户该仓库不活跃，并显示最后一次更新的时间。这有助于用户判断仓库的活跃程度和维护状况。
+
+3. **仓库内快捷跳转**  
+   在浏览仓库时，用户可以方便地查看该用户的所有仓库列表，提供一个快速跳转到不同仓库的入口。用户可以快速找到和访问感兴趣的其他项目，提高工作效率。
+
+### 使用场景
+
+-   **开发者**：可以通过显示仓库大小和活跃警告，快速筛选出合适的库进行开发，避免使用不再维护的项目。
+-   **项目管理者**：通过快速跳转功能，便于管理和协调多个项目，提高工作效率。
+
+-   **学习者**：在学习新技术时，可以更方便地找到相关的开源项目，快速查看项目的活跃程度和规模。
 
 ## 安装
 
@@ -167,12 +183,6 @@
 > -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-## 用法
-
-该脚本将自动在 Github 搜索页面和存储库页面上运行，并将在存储库名称旁边显示存储库大小。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
