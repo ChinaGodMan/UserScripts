@@ -623,14 +623,14 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">github顯示倉庫大小</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">🤠 Github 增強助手 倉庫顯示大小 不活躍開發警告 倉庫內快速跳轉用戶其他倉庫 🤠</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>在Github查看倉庫和搜尋倉庫時顯示倉庫大小</td>
+            <td>在Github查看倉庫和搜尋倉庫時顯示倉庫大小 ，不活躍開發警告，倉庫內快捷跳轉.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
@@ -644,7 +644,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-05 09:19:58</sub></td>
+            <td><sub>2024-10-05 09:26:06</sub></td>
             <td><sub>0.1.3.4</sub></td>
             <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
