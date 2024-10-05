@@ -33,6 +33,9 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
+<p><strong>修复</strong>:CSS在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
 <p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
 <strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>

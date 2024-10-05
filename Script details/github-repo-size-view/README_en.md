@@ -26,26 +26,29 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>🤠 Github Enhance assistant Warehouse display size Inactive development warning Quickly jump to the user’s other warehouses within the warehouse 🤠</h1>
-    <p>「 existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse. 」</p>
+    <h1>🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠</h1>
+    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转. 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
+<p><strong>修复</strong>:CSS在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>New</strong>: Add mouse hover to quick jump list<code>Title</code>Display basic warehouse information<br>
-<strong>optimization</strong>: All repositories of a user can now be displayed，But it is not recommended，Affect experience。<br> in script 343 line of code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>When parameter three is true, recursively obtain the user list<br>Parameter four limits the maximum number of recursive pages when parameter three is true.<br>
-<strong>repair</strong>：Duplicate question added to list<br>
-<strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
+<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
+<strong>修复</strong>：列表重复添加问题<br>
+<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>New</strong>: GitHub Jumping to the warehouse in the sidebar is cumbersome,Add a warehouse to quickly jump to other warehouses of users<br></p>
+<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
 <table>
 <thead>
 <tr>
-<th><code>red</code> for public repository <code>green</code> For private warehouse <code>Fork</code> replica warehouse (Logged in user,Must type TOKEN)</th>
-<th>Add demo ~~Show only first page 30 warehouse,Exceeded will not be displayed,It’s enough for my own use now~~ <code>0.1.3.4</code>All supported</th>
+<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
+<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
 </tr>
 </thead>
 <tbody>
@@ -61,21 +64,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>optimization</strong>: Optimize small tags<br>
-<strong>New</strong>: The lower right corner of the inactive development banner displays the last<code>Push</code>How long since now<br></p>
+<p><strong>优化</strong>: 优化小标签<br>
+<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
+<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Show inactive development reminder on repository page。<br>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>No updates for more than a year</th>
-<th>No updates in half a year</th>
+<th>一年以上无更新</th>
+<th>半年内无更新</th>
 </tr>
 </thead>
 <tbody>
@@ -91,20 +94,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
+<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
-<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
+<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
+<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
