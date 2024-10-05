@@ -26,29 +26,29 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠</h1>
-    <p>「 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转. 」</p>
+    <h1>🤠 Github Enhance assistant Warehouse display size Inactive development warning Quickly jump to the user’s other warehouses within the warehouse 🤠</h1>
+    <p>「 existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse. 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Repo Size+ Change log</strong></h1>
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>修复</strong>:CSS在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>repair</strong>:CSSThe small divider is incorrectly hidden on mobile：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
-<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
-<strong>修复</strong>：列表重复添加问题<br>
-<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>New</strong>: Add mouse hover to quick jump list<code>Title</code>Display basic warehouse information<br>
+<strong>optimization</strong>: All repositories of a user can now be displayed，But it is not recommended，Affect experience。<br> in script 343 line of code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>When parameter three is true, recursively obtain the user list<br>Parameter four limits the maximum number of recursive pages when parameter three is true.<br>
+<strong>repair</strong>：Duplicate question added to list<br>
+<strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
+<p><strong>New</strong>: GitHub Jumping to the warehouse in the sidebar is cumbersome,Add a warehouse to quickly jump to other warehouses of users<br></p>
 <table>
 <thead>
 <tr>
-<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
-<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
+<th><code>red</code> for public repository <code>green</code> For private warehouse <code>Fork</code> replica warehouse (Logged in user,Must type TOKEN)</th>
+<th>Add demo ~~Show only first page 30 warehouse,Exceeded will not be displayed,It’s enough for my own use now~~ <code>0.1.3.4</code>All supported</th>
 </tr>
 </thead>
 <tbody>
@@ -64,21 +64,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>优化</strong>: 优化小标签<br>
-<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
+<p><strong>optimization</strong>: Optimize small tags<br>
+<strong>New</strong>: The lower right corner of the inactive development banner displays the last<code>Push</code>How long since now<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
+<p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Show inactive development reminder on repository page。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>一年以上无更新</th>
-<th>半年内无更新</th>
+<th>No updates for more than a year</th>
+<th>No updates in half a year</th>
 </tr>
 </thead>
 <tbody>
@@ -94,20 +94,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
+<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
-<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
+<p><strong>repair</strong>: Fix the problem of invalid search page。<br />
+<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
@@ -179,9 +179,9 @@ This token will be used to pass Github API Authenticate。
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouse用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，仓库内快捷跳转.
+> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouseUser’s other warehouses 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse.
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 
@@ -191,7 +191,7 @@ This token will be used to pass Github API Authenticate。
 
 ## grateful
 
-Script modified from user **[mshll](https://greasyfork.org/zh-CN/users/1010122)** of脚本 [Github Repo Size](https://greasyfork.org/scripts/458048) Thanks to the original author **mshll** 的**Diligent**and**wisdom**
+Script modified from user **[mshll](https://greasyfork.org/zh-CN/users/1010122)** ofScript [Github Repo Size](https://greasyfork.org/scripts/458048) Thanks to the original author **mshll** of**Diligent**and**wisdom**
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 
@@ -225,15 +225,15 @@ Recommended browsers and script managers：
 
 > ### 🔍you may be looking for ChatGPTRelated scripts
 > - [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): let ChatGPT Code font size becomes smaller
-> - [**ChatGPT 聊天Copy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“复制代码”按钮
-> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）
+> - [**ChatGPT chatCopy codebutton**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button
+> - [**ChatGPT character counter**](https://greasyfork.org/scripts/506166): add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > - [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍you may be looking for Web related scripts
 > - [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions
-> - [**LiftCSDNLoginCopy限制**](https://greasyfork.org/scripts/505207): fuck you CSDN 登录复制，Copy code box content without logging in
+> - [**LiftCSDNLoginCopylimit**](https://greasyfork.org/scripts/505207): fuck you CSDN LoginCopy，Copy code box content without logging in
 > - [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradient beautification to all columns of tables on web pages.
 > - [**Highlight keywords on web pages+(recommend)**](https://greasyfork.org/scripts/498906): Highlight text on web pages
 > - [**Highlight web text_mini version**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
@@ -249,9 +249,9 @@ Recommended browsers and script managers：
 > - [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 > - [**Github List of code languages ​​show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down
 > - [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
-> - [**GitHubfolder下载**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub 文件夹。
+> - [**GitHubfolderdownload**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
 > - [**GitHubDownload single files and copy filesURL**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouse用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，仓库内快捷跳转.
+> - [**🤠 Github Enhance assistant Warehouse display size Inactive development warning Quick jump within the warehouseUser’s other warehouses 🤠**](https://greasyfork.org/scripts/502291): existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse.
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -269,7 +269,7 @@ Recommended browsers and script managers：
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction
 > - [**GreasyFork Show script ratings**](https://greasyfork.org/scripts/501119): Add evaluation scores to script list
 > - [**GreasyFork Advanced search**](https://greasyfork.org/scripts/505215): Search using Google GreasyFork and SleazyFork upper script 
-> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,Add user list,User console etc.
+> - [**GreasyFork Navigation barEnhance**](https://greasyfork.org/scripts/501880): EnhancegreasyforkNavigation bar,Add user list,User console etc.
 > - [**GreasyforkGlue craftsman**](https://greasyfork.org/scripts/497346): Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations
 > - [**Greasyfork Notification assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > - [**Script FinderGrease Monkey Script Finder**](https://greasyfork.org/scripts/498904): Script Finder is a user script（userscript），It helps you find and manage userscripts on any website
