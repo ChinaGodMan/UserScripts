@@ -35,7 +35,9 @@
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
 <p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息。<br>
-<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br></p>
+<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
+<strong>修复</strong>：列表重复添加问题<br>
+<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
 <p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
