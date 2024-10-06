@@ -269,6 +269,7 @@ let TOKEN = GM_getValue("githubToken", "")
 let WARNING = GM_getValue("warn", true)
 let openInNewTab = GM_getValue("openInNewTab", false)
 let DELAY = GM_getValue("DELAY", "24h")
+let USETIP = GM_getValue("USETIP", false)//为真时使用GitHub自带的TIP提示而不是用网页title
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -433,7 +434,7 @@ const addSizeToRepos = () => {
                     const localTimeStamp = new Date(parsedData.timeStamp).getTime()
                     if (currentTime - localTimeStamp < timeToSeconds(DELAY) * 1000) {
                         console.log('本地缓存数据未过期，直接使用本地数据')
-                        insertReposList(parsedData.reposArray)
+                        insertReposList(parsedData.reposArray, USETIP)
                         return
                     }
                 }
@@ -461,7 +462,7 @@ const addSizeToRepos = () => {
                             timeStamp: timeStamp
                         }
                         localStorage.setItem(ownerKey, JSON.stringify(dataToStore))
-                        insertReposList(reposArray)
+                        insertReposList(reposArray, USETIP)
                     })
                     .catch(error => console.error('Error fetching data:', error))
             }
@@ -694,7 +695,7 @@ function checkCommitDate(datetimeString) {
         /* noop */
     }
 }
-function insertReposList(links) {
+function insertReposList(links, tip = false) {
     const gitHubStyle = `
 #view-user-repos {
   order: 10;
@@ -762,9 +763,22 @@ function insertReposList(links) {
                 liClass += "border-top"
                 forkClassAdded = true
             }
+            const starsAndForks = [
+                link.stargazers_count > 0 ? `${translate.repoStars}${link.stargazers_count}` : '',
+                link.forks_count > 0 ? `${translate.repoForks}${link.forks_count}` : ''
+            ].filter(Boolean).join(' ')
+            const repoInfo = [
+                (link.description ? `${translate.repoDes}${link.description}` : ''),
+                starsAndForks,
+                `${translate.repoSize}${getHumanReadableSize(link.size)}`,
+                link.language ? `${translate.repoLang}${link.language}` : '',
+                `${translate.repoCreated}${link.created_at}`,
+                `${translate.repoUpdated}${link.updated_at}`,
+                `${translate.repoPushed}${link.pushed_at}`
+            ].filter(Boolean).join('\n')
             return `
-        <li class="${liClass}">
-            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? 'target="_blank"' : ''} rel="noopener noreferrer" title="${(link.description) ? translate.repoDes + link.description : ''}\n${translate.repoStars}${link.stargazers_count} ${translate.repoForks}${link.forks_count} \n${translate.repoSize}${getHumanReadableSize(link.size)}\n${translate.repoLang}${link.language}\n${translate.repoCreated}${link.created_at}\n${translate.repoUpdated}${link.updated_at}\n${translate.repoPushed}${link.pushed_at}">
+        <li class="${liClass}${(tip) ? ` tooltipped tooltipped-s` : ''}"  aria-label="${repoInfo}">
+            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? `target="_blank"` : ''} rel="noopener noreferrer" ${(tip) ? '"' : ` title="${repoInfo}"`}>
                 <span class="d-inline-flex mr-2">
                     <svg width="16" height="16" viewBox="0 0 16 16">
                         ${getIconPath(link)}
