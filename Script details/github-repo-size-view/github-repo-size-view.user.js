@@ -342,15 +342,15 @@ const getPageType = () => {
     const [, username, repo] = pathname.split("/")
     const q = params.get("q")?.toLocaleLowerCase()
     const type = params.get("type")?.toLocaleLowerCase()
-    if (window.location.pathname.split("/").pop() === "repositories")
-        return "list-view-container"
-    if (window.location.href.includes("?tab=repositories"))
-        return "user-repositories"
+    if (window.location.pathname.split("/").pop() === "repositories") return "list-view-container"
+    if (window.location.href.includes("?tab=repositories")) return "user-repositories"
+    if (window.location.href.includes("?tab=stars")) return "user-starred-repos"
     if (username && repo) return "repo"
     if (q && type === "code") return "code_search"
     if (q) return "search"
 }
 const addSizeToRepos = () => {
+
     const pageType = getPageType()
     // Get the repo selector based on the page type
     let repoSelector
@@ -364,6 +364,9 @@ const addSizeToRepos = () => {
             break
         case "user-repositories": //用户资料页面的仓库TAB
             repoSelector = "#user-repositories-list h3 a"
+            break
+        case "user-starred-repos": //用户资料页面的已星标仓库
+            repoSelector = "#user-starred-repos h3 a"
             break
         case "search": //搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
@@ -398,11 +401,17 @@ const addSizeToRepos = () => {
         })
     }
     // Get all the repo links
+    let filterHref
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
         const tkn = TOKEN
         var href = elem.getAttribute("href")
         href = extractPath(href)
+        if (filterHref == href) {
+            return
+        } else {
+            filterHref = href
+        }
         if (pageType === "repo") {
             const parts = href.split('/')
             const owner = parts[1]
@@ -411,7 +420,7 @@ const addSizeToRepos = () => {
             insertOssInsightButton(owner, name, !isMobileDevice())
             if (isLoggedInUser_f()) insertDelBtn(owner, name, !isMobileDevice())
         }
-        //  console.log(href, elem)
+        console.log(href)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
@@ -425,7 +434,9 @@ const addSizeToRepos = () => {
         }
 
         if (pageType === "repo") {
-            const reposApi = isLoggedInUser(jsn.owner.avatar_url) ? 'https://api.github.com/user/repos' : jsn.owner.repos_url
+            const reposApi = isLoggedInUser(jsn.owner.avatar_url)
+                ? (TOKEN ? 'https://api.github.com/user/repos' : jsn.owner.repos_url)
+                : jsn.owner.repos_url
             function fetchReposWithCache(ownerKey, reposApi, headers) {
                 const localData = localStorage.getItem(ownerKey)
                 const currentTime = new Date().getTime()
@@ -539,6 +550,7 @@ const selectors = [
     "#repository-container-header strong a", // 仓库详情界面
     'div[data-testid="list-view-item-title-container"] h4 a', // ORG下的仓库列表
     "#user-repositories-list h3 a", // 用户资料页面的仓库TAB
+    "#user-starred-repos h3 a", // 用户资料页面的已星标仓库
     'div[data-testid="results-list"] .search-title a', // 搜索
     // 'div[data-testid="results-list"] .search-title a' // 代码搜索
 ]
@@ -713,7 +725,13 @@ function insertReposList(links, tip = false) {
         globalStyle.innerHTML = gitHubStyle
         document.head.appendChild(globalStyle)
     }
-    const existingButton = document.querySelector('button.types__StyledButton-sc-ws60qy-0.bmlmSe')
+    const selectors = [
+        '.jxTzTd', // Repo main page
+        '.faNtbn .d-flex.gap-2', // Repo files page
+        '.gwHaUx .d-flex.gap-2' // Commits page
+    ]
+    //document.querySelector(selectors.join(', '))
+    const existingButton = document.querySelector('.jxTzTd')
     if (existingButton) {
         const sortedLinks = links.sort((a, b) => {//!SECTION 排序
             // 首先比较 fork 下沉到数组的低端.
@@ -815,9 +833,7 @@ function insertReposList(links, tip = false) {
         </ul>
     </div>
 </details>`
-        document.querySelectorAll('#view-user-repos').forEach(function (element) {
-            element.remove()
-        })
+
         existingButton.insertAdjacentHTML('beforebegin', detailsHTML)
     } else {
     }
