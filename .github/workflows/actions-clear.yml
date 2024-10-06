@@ -5,9 +5,6 @@ on:
     schedule:
         - cron: "0 0 * * 0" # 每周日00:00执行
 
-permissions:
-    actions: write
-
 jobs:
     cleanup:
         runs-on: ubuntu-latest
@@ -22,7 +19,7 @@ jobs:
 
             - name: cleanup  UserScripts
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.DELETE_ACTIONS_RUNS }}
                   REPO_OWNER: ${{ github.repository_owner }}
                   REPO_NAME: ${{ github.event.repository.name }}
               run: |
@@ -30,7 +27,7 @@ jobs:
 
             - name: cleanup  UserScriptsHistory
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.DELETE_ACTIONS_RUNS }}
                   REPO_OWNER: ${{ github.repository_owner }}
                   REPO_NAME: "UserScriptsHistory"
               run: |

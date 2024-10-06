@@ -28,14 +28,9 @@ jobs:
             - name: 获取提交者用户名
               id: get_git_username
               run: |
-                  git_username=$(git log -1 --pretty=format:'%cn') 
-                  echo "git_username=$git_username" >> $GITHUB_ENV 
+                  git_username=$(git log -1 --pretty=format:'%cn')  
+                  echo "git_username=$git_username" >> $GITHUB_ENV  
                   echo "最新的提交者用户名是: $git_username"
-
-            - name: 检查提交者是否为 qinwuyuan-sync-bot
-              if: ${{ env.git_username == 'qinwuyuan-sync-bot' }}
-              run: |
-                  exit 0
 
             - name: Escape backticks in commit msg
               env:
@@ -53,6 +48,7 @@ jobs:
             - name: 提交和推送更改
               if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
               run: |
+                  # 添加更改
                   git pull
                   gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
                   git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  # 配置 GPG 密钥
