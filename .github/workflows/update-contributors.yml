@@ -1,62 +1,51 @@
 name: update-contributors-list
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:
+    push:
+        branches:
+            - main
+    pull_request:
+        branches:
+            - main
+    workflow_dispatch:
 
 jobs:
-  update-contributors:
-    runs-on: ubuntu-latest
-    steps:
-      # 1. 检出代码
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
+    update-contributors:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
 
-      # 2. 生成贡献者头像列表
-      - name: Generate Contributors Images
-        uses: jaywcjlove/github-action-contributors@v1.3.5
-        id: contributors
-        with:
-          filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
-          avatarSize: 42
+            - name: Generate Contributors Images
+              uses: jaywcjlove/github-action-contributors@v1.3.5
+              id: contributors
+              with:
+                  filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
+                  avatarSize: 42
 
-      # 3. 修改 docs/README.md 文件
-      - name: Modify docs/README.md
-        run: |
-          escapedHtmlList=$(echo -e '${{steps.contributors.outputs.htmlList}}' | sed ':a;N;$!ba;s/\n/\\n/g;s/\\n$//')
-          openDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
-          closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
-          sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
-          git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+            - name: Modify docs/README.md
+              run: |
+                  escapedHtmlList=$(echo -e '${{steps.contributors.outputs.htmlList}}' | sed ':a;N;$!ba;s/\n/\\n/g;s/\\n$//')
+                  openDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
+                  closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
+                  sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
+                  git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
 
-      # 4. 如果文件有改动，设置签名并提交
-      - name: Commit changes with GPG signature
-        if: env.CHANGES_DETECTED == 'true'
-        run: |
-          # 导入GPG密钥
-          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+            - name: Commit changes with GPG signature
+              if: env.CHANGES_DETECTED == 'true'
+              run: |
+                  # 导入GPG密钥
+                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
 
-          # 配置git用户名、邮箱和签名
-          git config --global user.name 'qinwuyuan-sync-bot'
-          git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
-          git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-          git pull
-
-          # 确保所有提交都使用GPG签名
-          git config --global commit.gpgSign true
-
-          # 添加文件并提交
-          git add docs/README.md
-          git commit -S -m "update contributors→[docs/README.md]"
-
-          # 推送更改
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+                  # 配置git用户名、邮箱和签名
+                  git config --global user.name 'qinwuyuan-sync-bot'
+                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+                  git pull
+                  # 确保所有提交都使用GPG签名
+                  git config --global commit.gpgSign true
+                  # 添加文件并提交
+                  git add docs/README.md
+                  git commit -S -m "update contributors→[docs/README.md]"
+                  # 推送更改
+                  git push

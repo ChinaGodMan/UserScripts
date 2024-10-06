@@ -57,12 +57,15 @@ jobs:
       - name: 提交和推送更改
         run: |
           # 配置 Git 用户
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global user.name 'qinwuyuan-sync-bot'
+          git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+          git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+
+          git pull
           # 添加更改
           git add .
-          git commit -m '更新readme脚本列表[docs/ScriptsPath.json→/docs/README.md]' || echo "没有需要提交的更改"
+          git commit -S -m '更新readme脚本列表[docs/ScriptsPath.json→/docs/README.md]' || echo "没有需要提交的更改"
           git push origin ${{ env.branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 传递 Token 到 Git 环境变量中

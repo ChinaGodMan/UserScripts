@@ -9,20 +9,8 @@ jobs:
     update-versions:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
               name: 检出代码
-              with:
-                  token: ${{ secrets.MY_GITHUB_TOKEN }} # 使用你创建的 Token
-
-            - name: 获取当前分支
-              id: get_branch
-              run: |
-                  echo "当前分支: $(git rev-parse --abbrev-ref HEAD)"
-                  echo "branch=$(git rev-parse --abbrev-ref HEAD)" >> $GITHUB_ENV
-
-            - name: 拉取最新更改
-              run: |
-                  git pull origin ${{ env.branch }}  # 拉取最新的远程更改
 
             - name: 调试 JSON 文件
               run: |
@@ -153,7 +141,4 @@ jobs:
                   commit_message="<b><img src='https://avatars.githubusercontent.com/in/15368?v=4%27&size=32'><a href='https://github.com/ChinaGodMan'><ruby>人民的勤务员<rt>Github:ChinaGodMan</rt></ruby></a><span>(UTC+8) $current_date Fix BUG</span></b>"
                   echo "提交信息: $commit_message"
                   git commit -m "FIX" || echo "没有需要提交的更改"
-
-                  git push origin ${{ env.branch }}  # 推送到当前分支
-              env:
-                  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }} # 传递 Token 到 Git 环境变量中
+                  git push

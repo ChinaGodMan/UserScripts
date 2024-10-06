@@ -66,12 +66,16 @@ jobs:
             - name: 提交和推送更改
               run: |
                   # 配置 Git 用户
-                  git config --global user.name 'github-actions[bot]'
-                  git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+                  git config --global user.name 'qinwuyuan-sync-bot'
+                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+
+                  git pull
 
                   # 添加更改
                   git add .
-                  git commit -m "集中修改脚本[*.md]文件" \
+                  git commit -S -m "集中修改脚本[*.md]文件" \
                               -m "合并日志→Script details/**/Change history/README.md → Script details/**/*.md" \
                               -m "刷新徽章→pythonscr/update-shields/SHIELDS.md → Script details/**/*.md" \
                               -m "刷新帮助→pythonscr/update-help/HELP.md → Script details/**/*.md" \

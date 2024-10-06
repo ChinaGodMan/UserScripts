@@ -1,9 +1,10 @@
 name: auto-close-and-comment-issue
 
 on:
-  push:  # 当有 push 事件时触发
-    branches:
-      - main  # 你可以指定其他分支
+    push:
+        paths:
+            - "Script details/**/*.js" #新的脚本被提交或者被修改了.
+    workflow_dispatch:    # 你可以指定其他分支
 
 jobs:
   close_issue:

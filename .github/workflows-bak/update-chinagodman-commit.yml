@@ -7,7 +7,7 @@ on:
     workflow_dispatch: # 允许手动触发工作流
 
 concurrency:
-    group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
+    group: u1pdate-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
     cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
@@ -17,12 +17,13 @@ jobs:
           GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
           GIT_AUTHOR_EMAIL: ${{ github.event.commits[0].author.email }}
           GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-          GIT_COMMITTER_EMAIL: qinwuyuan-sync-bot@users.noreply.github.com
+          GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
 
         steps:
             - name: 检出代码
               uses: actions/checkout@v3
               with:
+                  fetch-depth: 0
                   token: ${{ secrets.MY_GITHUB_TOKEN }}
 
             - name: 获取提交者用户名
@@ -36,6 +37,11 @@ jobs:
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行 自己提交时触发此任务.用于更新触发更新仓库列表流程
               run: echo "提交者不是 github-actions[bot]，继续执行工作流。"
 
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                 node-version: '16'  
+          
             - name: 设置 Python 环境
               if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
               uses: actions/setup-python@v2
@@ -63,22 +69,26 @@ jobs:
                  echo "EOF" >> $GITHUB_ENV
           
             - name: 根目录脚本__更新py
-              if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
+              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
                   # 复制 `Script details` 目录中的所有 .js 文件到根目录，强制覆盖
                   python pythonscr/copy_js_files.py
 
             - name: 提交和推送更改
-              if: ${{ env.git_username != 'github-actions[bot]' }} # 只有当提交者不是 github-actions[bot] 时才执行
+              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }} # 只有当提交者不是 github-actions[bot] 时才执行
               run: |
                   
                  
 
                   # 添加更改
+                  git pull
                   
+                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+
                   
+                  git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  # 配置 GPG 密钥
                   git add .
-                  git commit -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
+                  git commit  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
                   git push origin ${{ env.branch }}
               env:
                   MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
