@@ -138,7 +138,7 @@
                 </a>
             </td>
             <td><sub>2024-09-01 09:51:01</sub></td>
-            <td><sub>2024-10-03 19:12:34</sub></td>
+            <td><sub>2024-10-07 01:24:32</sub></td>
             <td><sub>1.3.1.14</sub></td>
             <td><sub>2024-09-01 09:45:50</sub></td>
         </tr>
@@ -483,7 +483,7 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件列表美化器</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件清單美化器</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus" target="_blank">
@@ -644,7 +644,7 @@
                 </a>
             </td>
             <td><sub>2024-08-01 03:43:19</sub></td>
-            <td><sub>2024-10-06 11:31:57</sub></td>
+            <td><sub>2024-10-07 02:50:18</sub></td>
             <td><sub>0.1.3.6</sub></td>
             <td><sub>2024-08-01 00:53:59</sub></td>
         </tr>
@@ -800,7 +800,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</td>
+            <td>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
@@ -912,7 +912,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 </td>
+            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
