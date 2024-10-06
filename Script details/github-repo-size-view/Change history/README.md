@@ -1,8 +1,18 @@
 # **🛠️ GitHub Repo Size+ 更新日志**
 
+### **📅 2024/10/06 05:17 - Ver 0.1.3.6**
+
+**新增**:已经获取的用户仓库列表保存在本地,`24h`刷新一次<br>
+**新增**: 合并[github-ossinsight](https://greasyfork.org/zh-CN/scripts/456878) 脚本功能 ，并支持移动设备，设置为动态监听<br>
+**新增**: 合并[Github 快捷查找活跃的 Forks 列表](https://greasyfork.org/zh-CN/scripts/494365) 脚本功能 并支持移动设备，设置为动态监听<br>
+**新增**: 合并[GitHub Delete Repositories](https://greasyfork.org/zh-CN/scripts/500173) 脚本功能 在个人仓库和`?tab=repositories`页面快速删除 并支持移动设备，设置为动态监听<br>
+**优化**: 检测器十秒找不到元素停止运行<br>
+
+---
+
 ### **📅 2024/10/05 13:16 - Ver 0.1.3.5**
 
-**修复**:CSS在移动端小分隔条被错误隐藏：`d-none d-md-block border-top`→`border-top`
+**修复**:CSS 在移动端小分隔条被错误隐藏：`d-none d-md-block border-top`→`border-top`
 
 ---
 

@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           0.1.3.5
+// @version           0.1.3.6
 // @author            mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -130,6 +130,20 @@ const translations = {
         repoPushed: "Last pushed:",
         repoForks: "Forks:",
         repoStars: "Stars:",
+        ossinsight: "OSS Insight analysis page for the repository",
+        activeforks: "Active forks list for the repository",
+        activeforks_: "Active forks",
+        publicRepos: "Public repositories: ",
+        privateRepos: "Private repositories: ",
+        forkRepos: "Forked repositories: ",
+        deleteRepo_i: "You are trying to delete the repository:",
+        deleteRepo: "ChinaGodMan reminds you:\nDeleting a repository is an extremely dangerous operation.\nOnce you delete a repository, it cannot be recovered.\nPlease think twice! Data is priceless, cherish it.",
+        deleteRepo_ask: "Are you sure you want to delete the repository? (Confirmed",
+        deleteRepo_pass: "Deletion successful!",
+        deleteRepo_failed: "Deletion failed!\nIt is recommended to check whether the GitHub token has permission to delete the repository!",
+        deleteRepo_failed_status: "Status code:",
+        deleteRepo_btn: "Delete repository",
+
     },
     "zh-CN,zh,zh-SG": {
         save: "保存",
@@ -144,8 +158,8 @@ const translations = {
         renderCaution: "注意：该仓库在 6 个月以上未更新",
         confirm: "你没有输入Token,确认清空GitHub Token?",
         timediff: "最后一次提交距现在：{years}年{months}个月{days}天 ",
-        view: "查看[",
-        allRepos: "]所有仓库",
+        view: "查看",
+        allRepos: "所有仓库",
         newTab: "快速查看仓库时新窗口打开",
         repoSize: "仓库大小：",
         repoDes: "仓库简介：",
@@ -156,6 +170,19 @@ const translations = {
         repoPushed: "最后一次推送：",
         repoForks: "复刻：",
         repoStars: "星标：",
+        ossinsight: "仓库对应的 OSS Insight 分析页面",
+        activeforks: "仓库对应的活跃复刻列表",
+        activeforks_: "活跃的复刻",
+        publicRepos: "公共仓库: ",
+        privateRepos: "私有仓库: ",
+        forkRepos: "分叉仓库: ",
+        deleteRepo_i: "你正在尝试删除仓库：",
+        deleteRepo: "人民的勤务员提醒你:\n删除仓库是一个极其危险的操作\n 你一旦删除仓库，将再也无法恢复。\n请三思而后行!  数据无价，且行且珍惜",
+        deleteRepo_ask: "你确定要删除仓库吗? (已确认",
+        deleteRepo_pass: " 删除成功!",
+        deleteRepo_failed: "删除失败!\n建议检查GitHub token 是否具有删除仓库的权限!",
+        deleteRepo_failed_status: "状态码:",
+        deleteRepo_btn: "删除仓库",
     },
     "zh-TW,zh-HK,zh-MO": {
         save: "保存",
@@ -241,6 +268,7 @@ const translate = new Proxy(
 let TOKEN = GM_getValue("githubToken", "")
 let WARNING = GM_getValue("warn", true)
 let openInNewTab = GM_getValue("openInNewTab", false)
+let DELAY = GM_getValue("DELAY", "24h")
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -355,12 +383,33 @@ const addSizeToRepos = () => {
         }
         return input
     }
+    if (pageType === "user-repositories") {
+        const repoItems = document.querySelectorAll('li[itemprop="owns"]')
+        repoItems.forEach(item => {
+            const repoName = item.querySelector('a[itemprop="name codeRepository"]').textContent.trim()
+            const ownerName = window.location.pathname.split('/')[1]
+            const deleteButton = document.createElement('button')
+            deleteButton.textContent = 'Delete'
+            deleteButton.classList.add('delete-repo-btn')
+            deleteButton.onclick = function () {
+            }
+            insertDelBtn(ownerName, repoName, false, 'dialog-show-repo-delete-user-repositories', item)
+        })
+    }
     // Get all the repo links
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
         const tkn = TOKEN
         var href = elem.getAttribute("href")
         href = extractPath(href)
+        if (pageType === "repo") {
+            const parts = href.split('/')
+            const owner = parts[1]
+            const name = parts[2]
+            insertActiveForks(owner, name, !isMobileDevice())
+            insertOssInsightButton(owner, name, !isMobileDevice())
+            if (isLoggedInUser_f()) insertDelBtn(owner, name, !isMobileDevice())
+        }
         //  console.log(href, elem)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
         const jsn = await (
@@ -368,20 +417,27 @@ const addSizeToRepos = () => {
                 headers: headers,
             })
         ).json()
-        if (
-            repoSelector == "#repository-container-header strong a" &&
-            WARNING
-        ) {
-            checkCommitDate(jsn.pushed_at)
-        }
         // If JSON failed to load, skip
         if (jsn.message) return
-        // Get parent element to append the size to
-        let parent = elem.parentElement
+        if (pageType === "repo" && WARNING) {
+            checkCommitDate(jsn.pushed_at)
+        }
+
         if (pageType === "repo") {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url) ? 'https://api.github.com/user/repos' : jsn.owner.repos_url
-            if (!document.querySelector('#view-user-repos')) {
-                getUserAllRepos(reposApi, headers)//getUserAllRepos(reposApi, headers, true, 1)
+            function fetchReposWithCache(ownerKey, reposApi, headers) {
+                const localData = localStorage.getItem(ownerKey)
+                const currentTime = new Date().getTime()
+                if (localData) {
+                    const parsedData = JSON.parse(localData)
+                    const localTimeStamp = new Date(parsedData.timeStamp).getTime()
+                    if (currentTime - localTimeStamp < timeToSeconds(DELAY) * 1000) {
+                        console.log('本地缓存数据未过期，直接使用本地数据')
+                        insertReposList(parsedData.reposArray)
+                        return
+                    }
+                }
+                getUserAllRepos(reposApi, headers)
                     .then(data => {
                         const reposArray = data.map(repo => ({
                             name: repo.name,
@@ -399,25 +455,39 @@ const addSizeToRepos = () => {
                             updated_at: systemTime(repo.updated_at),
                             pushed_at: systemTime(repo.pushed_at),
                         }))
-                        console.log(reposApi)
+                        const timeStamp = new Date().toISOString()
+                        const dataToStore = {
+                            reposArray: reposArray,
+                            timeStamp: timeStamp
+                        }
+                        localStorage.setItem(ownerKey, JSON.stringify(dataToStore))
                         insertReposList(reposArray)
                     })
                     .catch(error => console.error('Error fetching data:', error))
             }
-            parent = elem.parentElement.parentElement
+            if (!document.querySelector('#view-user-repos')) {
+
+                fetchReposWithCache(jsn.owner.login, reposApi, headers)
+            }
+
         }
+
+        // Get parent element to append the size to
+        let parent = elem.parentElement
+        if (pageType === "repo") parent = elem.parentElement.parentElement
         // Create the size container
         let sizeContainer = parent.querySelector(`#mshll-repo-size`)
         if (sizeContainer === null) {
             sizeContainer = document.createElement("span")
             sizeContainer.id = "mshll-repo-size"
+            sizeContainer.className = "tooltipped tooltipped-s"
             sizeContainer.classList.add(
                 "Label",
                 "Label--info",
                 "v-align-middle",
                 "ml-1"
             )
-            sizeContainer.setAttribute("title", "Repository size")
+            sizeContainer.setAttribute("aria-label", "Repository size")
             sizeContainer.innerText = "-"
             // Create the size icon
             let sizeSVG = document.createElementNS(
@@ -456,6 +526,7 @@ const addSizeToRepos = () => {
             }
             parent.appendChild(sizeContainer)
         }
+
     })
 }
 window.addSizeToRepos = addSizeToRepos
@@ -473,12 +544,17 @@ const selectors = [
 document.addEventListener('DOMContentLoaded', () => {
     main()
 })
+/* document.addEventListener('turbo:load', () => {
+    addSizeToRepos()
+}) */  //!SECTION-网络不顺畅时，加载太慢
 observeUrlChanges(main)
 function main(delay = 0) {
     Promise.race(selectors.map((selector) => waitForElement(selector))).then(() => {
         setTimeout(() => {
             addSizeToRepos()
         }, delay)
+    }).catch((error) => {
+        console.error(error.message)
     })
 }
 function observeUrlChanges(callback, delay = 10) {
@@ -488,7 +564,6 @@ function observeUrlChanges(callback, delay = 10) {
         if (url !== lastUrl) {
             lastUrl = url
             setTimeout(() => {
-                console.log("链接改变,,,,,")
                 callback()
             }, delay)
         }
@@ -497,18 +572,21 @@ function observeUrlChanges(callback, delay = 10) {
     return observer
 }
 function waitForElement(selector) {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
         const observer = new MutationObserver(() => {
             if (document.querySelector(selector)) {
                 resolve()
                 observer.disconnect()
-            } else {
-                /*  */
             }
         })
+        const timeout = setTimeout(() => {
+            observer.disconnect()
+            reject(new Error('超时：未找到指定元素'))
+        }, 10000)
         observer.observe(document.body, { childList: true, subtree: true })
     })
 }
+
 function displayMessage(el) {
     document
         .querySelector("#js-repo-pjax-container")
@@ -637,7 +715,7 @@ function insertReposList(links) {
     const existingButton = document.querySelector('button.types__StyledButton-sc-ws60qy-0.bmlmSe')
     if (existingButton) {
         const sortedLinks = links.sort((a, b) => {//!SECTION 排序
-            // 首先比较 fork
+            // 首先比较 fork 下沉到数组的低端.
             if (b.fork > 0 && a.fork <= 0) {
                 return -1 // a 在前
             } else if (a.fork > 0 && b.fork <= 0) {
@@ -664,7 +742,17 @@ function insertReposList(links) {
         }
         let privateClassAdded = false
         let forkClassAdded = false
+        const stats = {
+            privateTrue: 0,
+            privateFalse: 0,
+            forkTrue: 0,
+            forkFalse: 0,
+        }
         const listItems = sortedLinks.map(link => {
+            stats.privateTrue += (link.private && !link.fork) ? 1 : 0
+            stats.privateFalse += (link.private ? 0 : 1) && !link.fork ? 1 : 0
+            stats.forkTrue += link.fork ? 1 : 0
+            stats.forkFalse += link.fork ? 0 : 1
             let liClass = ""
             if (link.private && !privateClassAdded) {
                 liClass += "border-top"
@@ -687,11 +775,19 @@ function insertReposList(links) {
         </li>
     `
         }).join('')
+        const ariaLabel = [
+            ` ${translate.view}[${links[0].owner}]${translate.allRepos} `,
+            `${translate.allRepos} : ${sortedLinks.length}`,
+            stats.privateTrue > 0 ? `${translate.privateRepos} ${stats.privateTrue}` : '',
+            stats.privateFalse > 0 ? `${translate.publicRepos}  ${stats.privateFalse}` : '',
+            stats.forkTrue > 0 ? `${translate.forkRepos} ${stats.forkTrue}` : '',
+            //stats.forkFalse > 0 ? `非分叉仓库: ${stats.forkFalse}` : ''
+        ].filter(Boolean).join('\n')
         const detailsHTML = `
 <details id="view-user-repos" class="details-overlay details-reset position-relative d-flex">
     <summary role="button" type="button" class="btn text-center">
-        <span class="d-none d-xl-flex flex-items-center">
-             ${translate.view}<mark>${links[0].owner}</mark>${translate.allRepos}
+        <span class="d-none d-xl-flex flex-items-center tooltipped tooltipped-s" aria-label="${ariaLabel}">
+            ${translate.view}<mark>[${links[0].owner}]</mark>${translate.allRepos}
             <span class="dropdown-caret ml-2"></span>
         </span>
         <span class="d-inline-block d-xl-none">
@@ -712,7 +808,7 @@ function insertReposList(links) {
     } else {
     }
 }
-function isLoggedInUser(avatar_url) {
+function isLoggedInUser(avatar_url) {//从返回的json判断
     const imgElement = document.querySelector(".AppHeader-user button span span img")
     if (imgElement) {
         const imgSrc = imgElement.src
@@ -720,6 +816,24 @@ function isLoggedInUser(avatar_url) {
     } else {
         return false
     }
+}
+function isLoggedInUser_f() {//NOTE - 比较仓库头像和登录头像中的ID
+    const imgElement = document.querySelector(".AppHeader-user button span span img")
+    const repoImgElement = document.querySelector("#repo-title-component > img")
+    if (imgElement && repoImgElement) {
+        const imgSrc = imgElement.src
+        const repoImgSrc = repoImgElement.src
+
+        const userIdPattern = /\/u\/(\d+)/
+        const imgUserIdMatch = imgSrc.match(userIdPattern)
+        const repoUserIdMatch = repoImgSrc.match(userIdPattern)
+        if (imgUserIdMatch && repoUserIdMatch) {
+            const imgUserId = imgUserIdMatch[1]
+            const repoUserId = repoUserIdMatch[1]
+            return imgUserId === repoUserId
+        }
+    }
+    return false
 }
 async function getUserRepos(href, header = {}) {
     try {
@@ -744,24 +858,125 @@ async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
             const url = getAll ? `${href}?per_page=${perPage}&page=${page}` : href//NOTE - false时，就获取前30个就行了 ，够用了 仓库没那么多，列表太长也不好。
             const response = await fetch(url, { headers: header })
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
-
-
             const repos = await response.json()
             if (repos.length === 0) break
-
-
             allRepos = allRepos.concat(repos)
             page++
             // 如果设定了最大页数并且已经达到了最大页数，结束战斗
             if (maxPage !== 0 && page > maxPage) break
-
-
         } while (getAll)
         return allRepos
     } catch (error) {
         console.error('Fetch error:', error)
         throw error
     }
+}
+function insertOssInsightButton(owner, repo, usePageHeadActions) {
+    if (document.getElementById('github-ossinsight')) return
+    const svgStr = `<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="16px" height="15px" viewBox="0 0 128 80" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><linearGradient id="linearGradient3764" x1="1" x2="47" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-1,1,0,-1.5e-6,47.999998)"><stop stop-color="#8358b4" offset="0"/><stop stop-color="#8d65ba" offset="1"/></linearGradient></defs><path style="fill:#2a7fff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 124.3786,58.780229 c -1.27749,-1.795307 -2.68782,-3.48499 -4.11179,-5.150822 C 112.62916,44.68703 103.86053,36.715539 94.250452,30.927693 88.115128,27.228104 81.543761,24.247314 74.74074,22.809725 71.279616,22.090933 67.893432,21.719607 64.319891,21.705982 c -3.461128,0 -6.918848,0.384951 -10.37997,1.103743 -6.813243,1.437589 -13.360765,4.418379 -19.496087,8.117968 -9.606671,5.787846 -18.388938,13.762746 -26.0538323,22.701714 -1.4103405,1.662427 -2.7934283,3.352111 -4.0709103,5.150822 -1.7441892,2.394851 -1.7441892,5.21552 0,7.61037 3.9005794,5.467639 8.5574296,10.322066 13.2687846,14.784739 10.192606,9.569192 21.863688,17.578152 34.73049,20.811052 3.978932,0.99813 7.971493,1.47846 11.977677,1.47846 4.057286,0 8.022589,-0.48033 12.001521,-1.47846 12.866803,-3.2329 24.551506,-11.24526 34.757746,-20.811052 4.73861,-4.445654 9.38182,-9.313696 13.29263,-14.784739 1.71694,-2.39485 1.71694,-5.215519 0,-7.61037 m 0,0"/><path style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 95.010128,62.585414 c 0,16.927497 -13.728682,30.659556 -30.65958,30.659556 -16.927494,0 -30.659579,-13.728655 -30.659579,-30.659556 0,-16.927494 13.728682,-30.659582 30.659579,-30.659582 16.927497,0 30.65958,13.728679 30.65958,30.659582 m 0,0"/><path style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 81.383648,62.585414 c 0,9.395467 -7.624015,17.019479 -17.0331,17.019479 -9.409084,0 -17.033099,-7.624012 -17.033099,-17.019479 0,-9.409081 7.624015,-17.033104 17.033099,-17.033104 9.409085,0 17.0331,7.624023 17.0331,17.033104 m 0,0"/><path style="fill:#f9f9f9;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 65.581158,61.555935 a 5.1774597,4.889823 0 1 1 -10.35492,0 5.1774597,4.889823 0 1 1 10.35492,0 z" transform="translate(12.066285,-6.7626366)"/></svg>
+`
+    const targetUrl = `https://ossinsight.io/analyze/${owner}/${repo}`
+    const title = `${repo}  ${translate.ossinsight}`
+    const el = usePageHeadActions
+        ? document.querySelector('.pagehead-actions')
+        : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+    if (!el) {
+        console.log('github-ossinsight: 没有找到目标元素, 无法添加按钮')
+        return
+    }
+    const buttonHtml = `<a id="github-ossinsight" href="${targetUrl}" target="_blank" rel="noopener noreferrer" aria-label="${title}" class="btn btn-sm tooltipped tooltipped-s">${svgStr}</a>`
+    if (usePageHeadActions) {
+        el.insertAdjacentHTML('afterbegin', `<li>${buttonHtml}</li>`)
+    } else {
+        el.insertAdjacentHTML('afterbegin', buttonHtml)
+    }
+}
+function insertActiveForks(owner, repo, usePageHeadActions) {
+    if (document.getElementById('github-active-forks')) return
+    const svgStr = `<svg class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>`
+    const targetUrl = `https://ossinsight.io/analyze/${owner}/${repo}`
+    const title = `${repo}  ${translate.activeforks}`
+    const el = usePageHeadActions
+        ? document.querySelector('.pagehead-actions')
+        : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+    if (!el) {
+        console.log('github-Active Forks: 没有找到目标元素, 无法添加按钮')
+        return
+    }
+    const buttonHtml = `<details class="details-reset details-overlay f5 position-relative "><summary id="active-forks-button-repo" class="btn btn-sm tooltipped tooltipped-s" aria-label="${title}"><a id="github-active-forks" href="https://techgaun.github.io/active-forks/index.html#${owner}/${repo}" target="_blank" > ${svgStr}  ${usePageHeadActions ? translate.activeforks_ : ""}</a></details>`
+    if (usePageHeadActions) {
+        el.insertAdjacentHTML('afterbegin', `<li>${buttonHtml}</li>`)
+    } else {
+        el.insertAdjacentHTML('afterbegin', buttonHtml)
+    }
+}
+
+function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-repo-delete-home', element) {
+    const svgStr = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path d="M2 4h12v2H2V4zm1.33 3h9.34v10a1 1 0 0 1-1 1H4.33a1 1 0 0 1-1-1V7zm1-4h6.34v1H4.33V3zM6 8h1v6H6V8zm3 0h1v6H9V8z"/>
+</svg>`
+    const targetUrl = `https://ossinsight.io/analyze/${owner}/${repo}`
+    const title = `[${repo}]\n  ${translate.deleteRepo}`
+    if (element) {
+        var el = element
+    } else {
+        var el = usePageHeadActions
+            ? document.querySelector('.pagehead-actions')
+            : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+    }
+    if (!el) {
+        console.log('github-Active Forks: 没有找到目标元素, 无法添加按钮')
+        return
+    }
+    if (el.querySelector(`#${cusClass}`)) return
+    const buttonHtml = `<button id="${cusClass}" data-show-dialog-id="repo-delete-menu-dialog" type="button"
+  data-view-component="true"
+  class="js-repo-delete-button Button--danger Button--medium Button float-none float-sm-right ">
+  <span class="Button-content">
+    <span class="Button-label tooltipped tooltipped-s"  aria-label="${title}">${svgStr}${usePageHeadActions ? translate.deleteRepo_btn : ""}</span>
+  </span>
+</button>`
+    if (usePageHeadActions) {
+        el.insertAdjacentHTML('beforeend', `<li>${buttonHtml}</li>`)
+    } else {
+        el.insertAdjacentHTML('beforeend', buttonHtml)
+    }
+    el.querySelector(`#${cusClass}`).addEventListener('click', function () {
+        showDeleteConfirmations(owner, repo)
+    })
+}
+function showDeleteConfirmations(owner, repo, count = 3) {
+    const blacklist = ["ChinaGodMan/disk", "ChinaGodMan/LocalDev", "ChinaGodMan/Ebackup", "ChinaGodMan/portable-device", "ChinaGodMan/UserScripts"]
+    const repoIdentifier = `${owner}/${repo}`
+    if (blacklist.includes(repoIdentifier)) {
+        alert(`[${repoIdentifier}] 在黑名单中`)
+        return
+    }
+    for (let i = 0; i < count; i++) {
+        let confirmed = confirm(`${owner}:\n${translate.deleteRepo_i}[${repo}]\n${translate.deleteRepo}\n${translate.deleteRepo_ask}  ${i + 1}/${count})`)
+        if (!confirmed) return
+    }
+    deleteRepository(owner, repo)
+}
+function deleteRepository(owner, repo) {
+    fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+        method: 'DELETE',
+        headers: {
+            'Authorization': `token ${TOKEN}`,
+            'Accept': 'application/vnd.github.v3+json'
+        }
+    })
+        .then(response => {
+            if (response.status === 204) {
+                alert(`"${repo}" ${translate.deleteRepo_pass}`)
+                location.reload()
+            } else {
+                alert(`"[${repo}]"\n${translate.deleteRepo_failed} ${translate.deleteRepo_failed_status}${response.status}`)
+            }
+        })
+        .catch(error => {
+            alert(`An error occurred: ${error}`)
+        })
 }
 //LINK - 帮助小子程序
 function getHumanReadableSize(sizeInKB) {
@@ -774,4 +989,24 @@ function getHumanReadableSize(sizeInKB) {
 function systemTime(isoString) {
     const date = new Date(isoString)
     return date.toLocaleString()
+}
+function timeToSeconds(timeStr) {
+    let hours = 0, minutes = 0, seconds = 0
+    const hoursMatch = timeStr.match(/(\d+)h/)
+    const minutesMatch = timeStr.match(/(\d+)m/)
+    const secondsMatch = timeStr.match(/(\d+)s/)
+    if (hoursMatch) {
+        hours = parseInt(hoursMatch[1], 10)
+    }
+    if (minutesMatch) {
+        minutes = parseInt(minutesMatch[1], 10)
+    }
+    if (secondsMatch) {
+        seconds = parseInt(secondsMatch[1], 10)
+    }
+    let totalSeconds = (hours * 3600) + (minutes * 60) + seconds
+    return totalSeconds
+}
+function isMobileDevice() {
+    return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 }
