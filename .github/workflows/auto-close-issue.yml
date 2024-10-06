@@ -4,7 +4,7 @@ on:
     push:
         paths:
             - "Script details/**/*.js" #新的脚本被提交或者被修改了.
-    workflow_dispatch:
+    workflow_dispatch: # 你可以指定其他分支
 
 jobs:
     close_issue:
@@ -12,7 +12,7 @@ jobs:
 
         steps:
             - name: Check out the code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v3
 
             - name: Extract commit messages
               run: |
@@ -37,3 +37,5 @@ jobs:
                     gh issue comment $issue -b "This issue is being closed by commit: ${{ github.sha }}. Commit message: $(cat commit_message.txt)"
                     gh issue close $issue
                   done
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
