@@ -6,7 +6,7 @@ on:
         - cron: "0 0 * * 0" # 每周日00:00执行
 
 permissions:
-    workflows: write
+    actions: write
 
 jobs:
     cleanup:
