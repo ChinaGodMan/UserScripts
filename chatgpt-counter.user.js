@@ -5,7 +5,7 @@
 // @description:zh-CN 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
 // @name:ar           ChatGPT حد عداد الأحرف (CCCL)
 // @description:ar    إضافة عداد الأحرف إلى مربع الإدخال，يقتصر على 32732 الشخصيات。（ChatGPT الحد هو 32732 الشخصيات。）
-// @name:bg           ChatGPT Ограничение на брояча на знаци (CCCL)
+// @name:bg           ChatGPT Ограничение на брояча на знаци
 // @description:bg    Добавете брояч на символи към полето за въвеждане，ограничен до 32732 герои。（ChatGPT Ограничението е 32732 герои。）
 // @name:cs           ChatGPT Limit počítadla znaků (CCCL)
 // @description:cs    Do vstupního pole přidejte počítadlo znaků，omezena na 32732 postavy。（ChatGPT Limit je 32732 postavy。）
