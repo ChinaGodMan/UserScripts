@@ -1263,6 +1263,43 @@
 
 ---
 
+## 이 저장소의 자동 번역 및 Action 기능에 대해 특별히 감사드립니다.[Adam Lui 리우잔펑]훌륭한 아이디어
+
+<a href="https://github.com/adamlui" title="Adam Lui 리우잔펑">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/>
+</a>
+
+**인용됨 Action 내부 코드** 프로젝트 주소는: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
+
+```
+jobs:
+    update-chinagodman-commit:
+        runs-on: ubuntu-latest
+        env:
+            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
+            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
+
+            - name: Escape backticks in commit msg
+              env:
+                  COMMIT_MSG: ${{ github.event.head_commit.message }}
+              run: |
+                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+                  echo "EOF" >> $GITHUB_ENV
+
+```
+
+**인용됨 py 내부 코드** 프로젝트 주소는: [translate-en-messages.py](https://github.com/ChinaGodMan/python-utils/blob/main/translate-messages/translate-en-messages.py)
+
+```
+# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
+
+```
+
+**배지 아이콘을 제공한 Liu 형제에게 감사드립니다** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
+
 ## 기부자
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->

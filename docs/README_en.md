@@ -1263,6 +1263,43 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 
 ---
 
+## Automatic translation of this repository and Action Special thanks for the function[Adam Lui Liu Zhanpeng]excellent idea
+
+<a href="https://github.com/adamlui" title="Adam Lui Liu Zhanpeng">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/>
+</a>
+
+**quoted Action internal code** The project address is: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
+
+```
+jobs:
+    update-chinagodman-commit:
+        runs-on: ubuntu-latest
+        env:
+            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
+            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
+
+            - name: Escape backticks in commit msg
+              env:
+                  COMMIT_MSG: ${{ github.event.head_commit.message }}
+              run: |
+                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+                  echo "EOF" >> $GITHUB_ENV
+
+```
+
+**quoted py internal code** The project address is: [translate-en-messages.py](https://github.com/ChinaGodMan/python-utils/blob/main/translate-messages/translate-en-messages.py)
+
+```
+# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
+
+```
+
+**Thanks to Brother Liu for the badge icon** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
+
 ## Contributor
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->

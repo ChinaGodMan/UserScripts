@@ -1263,6 +1263,43 @@
 
 ---
 
+## 本倉庫的自動翻譯與 Action 功能特別感謝[Adam Lui 劉展鵬]出色的想法
+
+<a href="https://github.com/adamlui" title="Adam Lui 劉展鵬">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/>
+</a>
+
+**引用了 Action 內程式碼** 項目地址為: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
+
+```
+jobs:
+    update-chinagodman-commit:
+        runs-on: ubuntu-latest
+        env:
+            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
+            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
+
+            - name: Escape backticks in commit msg
+              env:
+                  COMMIT_MSG: ${{ github.event.head_commit.message }}
+              run: |
+                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+                  echo "EOF" >> $GITHUB_ENV
+
+```
+
+**引用了 py 內程式碼** 項目地址為: [translate-en-messages.py](https://github.com/ChinaGodMan/python-utils/blob/main/translate-messages/translate-en-messages.py)
+
+```
+# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
+
+```
+
+**感謝劉兄的徽章圖標** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
+
 ## 貢獻者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
