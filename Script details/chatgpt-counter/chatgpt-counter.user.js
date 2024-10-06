@@ -11,7 +11,7 @@
 // @description:cs    Do vstupního pole přidejte počítadlo znaků，omezena na 32732 postavy。（ChatGPT Limit je 32732 postavy。）
 // @name:da           ChatGPT Tegntællergrænse (CCCL)
 // @description:da    Tilføj en tegntæller til inputfeltet，begrænset til 32732 tegn。（ChatGPT Grænsen er 32732 tegn。）
-// @name:de  ChatGPT Zeichenzählerlimit
+// @name:de           ChatGPT Zeichenzählerlimit
 // @description:de    Fügen Sie dem Eingabefeld einen Zeichenzähler hinzu，beschränkt auf 32732 Charaktere。（ChatGPT Die Grenze ist 32732 Charaktere。）
 // @name:el           ChatGPT Όριο μετρητή χαρακτήρων (CCCL)
 // @description:el    Προσθέστε έναν μετρητή χαρακτήρων στο πλαίσιο εισαγωγής，περιορίζεται σε 32732 χαρακτήρες。（ChatGPT Το όριο είναι 32732 χαρακτήρες。）
