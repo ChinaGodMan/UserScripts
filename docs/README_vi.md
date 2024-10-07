@@ -1264,12 +1264,11 @@
 ---
 
 ## Đặc biệt cảm ơn nguồn mở
-> [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="đứa con của sa mạc"/></a> :+1:
->  - Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
->  - Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
->  - Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)nội dung`Cách cài đặt/Sử dụng tập lệnh？` `Trình quản lý trình duyệt và tập lệnh`
- 
+
+ > [!TIP]
+>  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+>  - Tệp readme kho lưu trữ này được sao chép[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)nội dung `Trình quản lý trình duyệt và tập lệnh`
+
 > [!TIP]
 >  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
 >  - Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
@@ -1279,6 +1278,11 @@
 >  - 仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
 >  - Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="đứa con của sa mạc"/></a> :+1:
+>  - Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
+>  - Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
+>  - Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)nội dung `Cách cài đặt/Sử dụng tập lệnh？`
  
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/></a> :+1:
@@ -1291,7 +1295,7 @@
 >  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Action mã nội bộ* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 >  -    *sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)dấu phân cách，Kiểu sắp chữ :trollface:
 >  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Python mã nội bộ* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
->  -   *Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)biểu tượng* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
+
 
 
 

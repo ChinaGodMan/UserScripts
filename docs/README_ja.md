@@ -1264,12 +1264,11 @@
 ---
 
 ## オープンソースに感謝します
-> [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="砂漠の息子"/></a> :+1:
->  - コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
->  - この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
->  - このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)コンテンツ`インストール方法/スクリプトを使用する？` `ブラウザとスクリプトマネージャー`
- 
+
+ > [!TIP]
+>  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+>  - このリポジトリの Readme ファイルがコピーされます[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)コンテンツ `ブラウザとスクリプトマネージャー`
+
 > [!TIP]
 >  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
 >  - 全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
@@ -1279,6 +1278,11 @@
 >  - 仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
 >  - この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="砂漠の息子"/></a> :+1:
+>  - コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
+>  - この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
+>  - このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)コンテンツ `インストール方法/スクリプトを使用する？`
  
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
@@ -1291,7 +1295,7 @@
 >  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Action 内部コード* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 >  -    *コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，写植スタイル :trollface:
 >  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Python 内部コード* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
->  -   *ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)エンブレム* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
+
 
 
 

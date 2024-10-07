@@ -1264,12 +1264,11 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 ---
 
 ## Special thanks to open source
-> [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="son of the desert"/></a> :+1:
->  - Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
->  - In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
->  - This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)content`How to install/Use script？` `Browser and Script Manager`
- 
+
+ > [!TIP]
+>  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+>  - This repository readme file is copied[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)content `Browser and Script Manager`
+
 > [!TIP]
 >  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
 >  - All in the warehouse`README.md`File badge copied[Hmjz100](https://github.com/hmjz100)warehouse[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)internal[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Document badge style
@@ -1279,6 +1278,11 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 >  - 仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
 >  - Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="son of the desert"/></a> :+1:
+>  - Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
+>  - In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
+>  - This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)content `How to install/Use script？`
  
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
@@ -1291,7 +1295,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 >  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action internal code* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 >  -    *copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimiter，Typesetting style :trollface:
 >  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python internal code* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
->  -   *Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)emblem* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
+
 
 
 

@@ -1264,12 +1264,11 @@
 ---
 
 ## 오픈소스 덕분에 특별히 감사드립니다
-> [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="사막의 아들"/></a> :+1:
->  - 복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
->  - 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
->  - 이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)콘텐츠`설치 방법/스크립트 사용？` `브라우저 및 스크립트 관리자`
- 
+
+ > [!TIP]
+>  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+>  - 이 저장소 추가 정보 파일이 복사되었습니다.[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)콘텐츠 `브라우저 및 스크립트 관리자`
+
 > [!TIP]
 >  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
 >  - 창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
@@ -1279,6 +1278,11 @@
 >  - 仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
 >  - 이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="사막의 아들"/></a> :+1:
+>  - 복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
+>  - 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+>  - 이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)콘텐츠 `설치 방법/스크립트 사용？`
  
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
@@ -1291,7 +1295,7 @@
 >  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 >  -    *복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
 >  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Python 내부 코드* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
->  -   *양키[Adam Lui 리우잔펑](https://github.com/adamlui)상징* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
+
 
 
 
