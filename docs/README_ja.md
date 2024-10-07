@@ -37,7 +37,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**侵害があった場合,連絡先を削除する必要があります**
+**違反があった場合,連絡先を削除する必要があります**
 
 ## [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)
 
@@ -195,7 +195,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>存在するGitHub認証コードを自動的に入力し、認証ページで自動的に確認します。</td>
+            <td>存在するGitHub認証ページでは、認証コードが自動的に入力され、自動的に確認されます。。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -658,7 +658,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -729,7 +729,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
+            <td>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
@@ -1262,11 +1262,34 @@
 > _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+## オープンソースに感謝します
+ <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="砂漠の息子"/></a>
+コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
 
-## このリポジトリの自動翻訳と Action 機能に感謝します[Adam Lui 劉禅鵬]素晴らしいアイデアとコード!
+ この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
 
-このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬]自己申告スタイル,
-スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬]自己申告スタイル
+このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)コンテンツ`インストール方法/スクリプトを使用する？` `ブラウザとスクリプトマネージャー`
+
+<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
+全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
+
+<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
+仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
+
+この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+
+## このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬]素晴らしいアイデアとコード!
+<a href="https://github.com/adamlui" title="Adam Lui 劉禅鵬">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/>
+</a>
+
+この倉庫のネーミングスタイルは、
+
+このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル
+
+スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル
+
+全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア
 
 ```
 <div align="right">
@@ -1291,9 +1314,7 @@
 
 ```
 
-<a href="https://github.com/adamlui" title="Adam Lui 劉禅鵬">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/>
-</a>
+
 
 **引用 Action 内部コード** プロジェクトのアドレスは、: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
 
@@ -1329,13 +1350,12 @@ jobs:
 ## 投稿者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
-<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
-  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
-</a>
-<a href="https://github.com/qinwuyuan-sync-bot" title="人々の奉仕者">
-  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人々の奉仕者"/>
-</a>
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="人々の奉仕者"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人々の奉仕者"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
+投稿者リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="弟の曲"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="弟の曲"/></a>
+
 
 ## 🌐 ブラウザとスクリプトマネージャー
 

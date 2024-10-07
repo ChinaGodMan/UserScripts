@@ -96,7 +96,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추</td>
+            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -124,7 +124,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>添加一문자计数器到输入框，로 제한됨 32732 문자。（ChatGPT 한도는 32732 个字符。）</td>
+            <td>添加一문자计数器到输入框，제한됨 32732 문자。（ChatGPT 한도는 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -152,7 +152,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>귀하가 보낸 긴 메시지를 자동으로 접습니다.，화면 공간 절약。채팅 창의 최대 너비를 설정할 수 있습니다.，긴 메시지가 지정된 범위를 초과하지 않도록 유지。</td>
+            <td>내가 보낸 긴 메시지를 자동으로 접습니다.，화면 공간 절약。채팅 창의 최대 너비를 설정할 수 있습니다.，긴 메시지가 지정된 범위를 초과하지 않도록 유지。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</td>
+            <td>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -1222,7 +1222,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1262,11 +1262,34 @@
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+## 오픈소스 덕분에 특별히 감사드립니다
+ <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="사막의 아들"/></a>
+복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
 
-## 이 저장소의 자동 번역 및 Action 기능에 대해 특별히 감사드립니다.[Adam Lui 리우잔펑]훌륭한 아이디어와 코드!
+ 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
 
-이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑]자기보고 스타일,
-스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑]자기보고 스타일
+이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)콘텐츠`설치 방법/스크립트 사용？` `브라우저 및 스크립트 관리자`
+
+<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
+창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
+
+<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
+仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
+
+이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+
+## 이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑]훌륭한 아이디어와 코드!
+<a href="https://github.com/adamlui" title="Adam Lui 리우잔펑">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/>
+</a>
+
+이 창고의 명명 스타일은 다음에서 영감을 받았습니다.
+
+이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일
+
+스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일
+
+이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어
 
 ```
 <div align="right">
@@ -1291,9 +1314,7 @@
 
 ```
 
-<a href="https://github.com/adamlui" title="Adam Lui 리우잔펑">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/>
-</a>
+
 
 **인용됨 Action 내부 코드** 프로젝트 주소는: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
 
@@ -1329,13 +1350,12 @@ jobs:
 ## 기부자
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
-<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
-  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
-</a>
-<a href="https://github.com/qinwuyuan-sync-bot" title="인민의 하인">
-  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="인민의 하인"/>
-</a>
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="인민의 하인"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="인민의 하인"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
+기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
+
 
 ## 🌐 브라우저 및 스크립트 관리자
 

@@ -96,7 +96,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
+            <td>hiện hữu chatgpt.com Thêm hình động có hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -195,7 +195,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -490,7 +490,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
+            <td>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。</td>
+            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -658,7 +658,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -772,7 +772,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết. Nhấp để mở trang web.，Sao chép trang web,tìm kiếm lốp xe</td>
+            <td>Trang chi tiết tập lệnh được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
@@ -828,7 +828,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -912,7 +912,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -961,7 +961,7 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ làm keo</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">GreasyforkThợ keo</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
@@ -1194,7 +1194,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -1257,16 +1257,39 @@
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > -   _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+## Đặc biệt cảm ơn nguồn mở
+ <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="đứa con của sa mạc"/></a>
+Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
 
-## Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt cho chức năng[Adam Lui Lưu Triển Bằng]Ý tưởng và mã tuyệt vời!
+ Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
 
-Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng]phong cách tự báo cáo,
-Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng]phong cách tự báo cáo
+Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)nội dung`Cách cài đặt/Sử dụng tập lệnh？` `Trình quản lý trình duyệt và tập lệnh`
+
+<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
+Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
+
+<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
+仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
+
+Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+
+## Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng]Ý tưởng và mã tuyệt vời!
+<a href="https://github.com/adamlui" title="Adam Lui Lưu Triển Bằng">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/>
+</a>
+
+Phong cách đặt tên của nhà kho này được lấy cảm hứng từ
+
+Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo
+
+Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo
+
+Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng
 
 ```
 <div align="right">
@@ -1291,9 +1314,7 @@ Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ
 
 ```
 
-<a href="https://github.com/adamlui" title="Adam Lui Lưu Triển Bằng">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/>
-</a>
+
 
 **trích dẫn Action mã nội bộ** Địa chỉ dự án là: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
 
@@ -1329,13 +1350,12 @@ jobs:
 ## Người đóng góp
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
-<a href="https://github.com/ChinaGodMan" title="人民的勤务员">
-  <img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/>
-</a>
-<a href="https://github.com/qinwuyuan-sync-bot" title="công chức tôi tớ nhân dân">
-  <img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="công chức tôi tớ nhân dân"/>
-</a>
+<a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="công chức tôi tớ nhân dân"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="công chức tôi tớ nhân dân"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
+
+Danh sách đóng góp của： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
+
 
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 
