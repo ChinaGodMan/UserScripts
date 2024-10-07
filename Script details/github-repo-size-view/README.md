@@ -34,7 +34,7 @@
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充_<br>
+<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证<br>
 <strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
 <strong>修复</strong>:用户主题不同,元素也不同,选择器更改为<code>document.querySelector('.jxTzTd')</code><br>
 <strong>修复</strong>:已登录用户如果<code>TOKEN</code>不为空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回错误代码<code>401</code><br>
