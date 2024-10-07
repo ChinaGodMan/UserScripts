@@ -580,8 +580,10 @@ document.addEventListener('DOMContentLoaded', () => {
         waitForElement('#app_totp', false)//
             .then(() => {
                 generateTOTP(SECRET).then(totp => {
-                    document.querySelector("#app_totp").value = totp
-                    document.querySelector("button[type='submit']").click()
+                    const totpInput = document.querySelector("#app_totp")
+                    const submitButton = totpInput.parentElement.querySelector("button[type='submit']")
+                    totpInput.value = totp
+                    submitButton.click()
                 })
             })
             .catch((error) => {
