@@ -1264,12 +1264,11 @@
 ---
 
 ## 特别感谢开源
-> [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="沙漠之子"/></a> :+1:
->  - 复制了 [沙漠之子](https://github.com/maboloshi)的仓库[github-chinese](https://github.com/maboloshi/github-chinese)内的代码<br>
->  - 本仓库内`writer.py` `update-contributors.yml` 复制使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)里面的代码
->  - 本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)内容`如何安装/使用脚本？` `浏览器与脚本管理器`
- 
+
+ > [!TIP]
+>  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+>  - 本仓库自述文件复制了[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)内容 `浏览器与脚本管理器`
+
 > [!TIP]
 >  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
 >  - 仓库内所有`README.md`文件徽章复制了[Hmjz100](https://github.com/hmjz100)的仓库[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章风格
@@ -1279,6 +1278,11 @@
 >  - 仓库内所有`README.md`文件头部简介与历史安装表格复制了[FengFeng](https://github.com/BonjourFeng)的仓库[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件内容
 >  - 本仓库的子仓库`UserScriptsHistory`自动更新安装历史表格图片代码也复制使用了[FengFeng](https://github.com/BonjourFeng)的仓库[Script-History](https://github.com/BonjourFeng/Script-History)内的代码[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
+>  - 复制了 [沙漠之子](https://github.com/maboloshi)的仓库[github-chinese](https://github.com/maboloshi/github-chinese)内的代码<br>
+>  - 本仓库内`writer.py` `update-contributors.yml` 复制使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)里面的代码
+>  - 本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)内容 `如何安装/使用脚本？`
  
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 刘展鹏"/></a> :+1:
@@ -1291,7 +1295,7 @@
 >  -  *复制了 美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)Action 内代码* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 >  -    *复制了美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版风格 :trollface:
 >  -  *复制了 美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)Python 内代码* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
->  -   *美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)的徽章* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
+
 
 
 
