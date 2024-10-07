@@ -2,7 +2,7 @@
 
 ### **📅 2024/10/07 01:53 - Ver 0.1.3.7**
 
-**新增**:双因素验证码自动填充功能`Two-factor authentication` 方便快速填充<br>
+**新增**:双因素验证码自动填充功能`Two-factor authentication` 方便快速填充.<br>
 **新增**:用户资料页面的已星标仓库也添加显示仓库大小,`?tab=stars`下执行<br>
 **修复**:用户主题不同,元素也不同,选择器更改为`document.querySelector('.jxTzTd')`<br>
 **修复**:已登录用户如果`TOKEN `不为空,使用自己的列表 API`https://api.github.com/user/repos`.防止返回错误代码`401`<br>

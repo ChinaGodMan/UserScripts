@@ -212,6 +212,7 @@
 
 ## 感谢
 
+GitHub: 作者 **[zvizvi](https://github.com/zvizvi)**  Chrome插件 [GitHub-Web-IDE](https://github.com/zvizvi/GitHub-Web-IDE)<br>
 作者 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 发布的脚本 [Github Repo Size](https://greasyfork.org/scripts/458048)<br>
 作者 **[a1pha](https://greasyfork.org/zh-CN/users/1298296)** 发布的脚本 [Github 快捷查找活跃的 Forks 列表](https://greasyfork.org/zh-CN/scripts/494365)<br>
 作者 **[lly-ke](https://greasyfork.org/zh-CN/users/902432)** 发布的脚本 [github-ossinsight](https://greasyfork.org/zh-CN/scripts/456878)<br>

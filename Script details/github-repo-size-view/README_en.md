@@ -210,7 +210,7 @@ This token will be used to pass Github API Authenticate。
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Thanks
-
+GitHub: Author **[zvizvi](https://github.com/zvizvi)**  Chrome extension  [GitHub-Web-IDE](https://github.com/zvizvi/GitHub-Web-IDE)<br>
 Author **[mshll](https://greasyfork.org/zh-CN/users/1010122)** Published Script [Github Repo Size](https://greasyfork.org/scripts/458048)<br>
 Author **[a1pha](https://greasyfork.org/zh-CN/users/1298296)** Published Script [Github Quickly find active Forks list](https://greasyfork.org/zh-CN/scripts/494365)<br>
 Author **[lly-ke](https://greasyfork.org/zh-CN/users/902432)** Published Script [github-ossinsight](https://greasyfork.org/zh-CN/scripts/456878)<br>
