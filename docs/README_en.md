@@ -19,7 +19,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the script for the orderly<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the script for the orderly</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20all%20script%20installations%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20positive%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -96,7 +96,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</td>
+            <td>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -195,7 +195,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
+            <td>Ban web pages from pooping on edited versions，green for release，red prohibition，orange temporary directions</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -462,7 +462,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>This script will GitHub The submission information on is converted into HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
+            <td>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</td>
+            <td>existGitHubAutomatically enter the authorization code and confirm automatically on the authorization page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -800,7 +800,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>useChart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况</td>
+            <td>useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
@@ -912,7 +912,7 @@
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>Search using Google GreasyFork and SleazyFork superior script </td>
+            <td>Search using Google GreasyFork and SleazyFork upper script </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -989,14 +989,14 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification Assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
                     <mark>detailed</mark>
                 </a>
             </td>
-            <td>When there is a new reply to your script or to a discussion you are participating in，The script will display the latest discussion content in a modal window on the web page。</td>
+            <td>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
@@ -1060,7 +1060,7 @@
     <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">MiSSAV自动登录</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">MiSSAVAutomatic login</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper" target="_blank">
@@ -1257,95 +1257,43 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > -   _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
+> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
 ## Special thanks to open source
- <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="son of the desert"/></a>
-Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="son of the desert"/></a> :+1:
+>  - Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
+>  - In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
+>  - This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)content`How to install/Use script？` `Browser and Script Manager`
+ 
+> [!TIP]
+>  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+>  - All in the warehouse`README.md`File badge copied[Hmjz100](https://github.com/hmjz100)warehouse[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)internal[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Document badge style
 
- In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
+> [!TIP]
+>  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+>  - 仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
+>  - Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
-This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)content`How to install/Use script？` `Browser and Script Manager`
-
-<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
-All in the warehouse`README.md`File badge copied[Hmjz100](https://github.com/hmjz100)warehouse[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)internal[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Document badge style
-
-<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
-仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
-
-Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
-
-## Automatic translation of this repository and Action Special thanks to Yankee[Adam Lui Liu Zhanpeng]Great ideas and code!
-<a href="https://github.com/adamlui" title="Adam Lui Liu Zhanpeng">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/>
-</a>
-
-The naming style of this warehouse is inspired by
-
-The readme file in this repository comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style
-
-The mutual redirection jump within the script comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style
-
-All in this warehouse`README.md`File copied and used from this Yankee repository`README.md`Document layout，delimiter，code，Ideas
-
-```
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
-            <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_zh-TW.md">Traditional Chinese</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">Japanese</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
-    </h6>
-</div>
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#">back to top↑</a></p>
-
-```
+ 
+> [!TIP]
+>  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
+>  - *Automatic translation of this repository and Action Special thanks to Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Great ideas and code!* :trollface:
+>  - *The naming style of this warehouse is inspired by the Yankees[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspire* :trollface:
+>  -  *The readme file in this repository comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style* :trollface:
+>  -  *The mutual redirection jump within the script comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style* :trollface:
+>  -  *All in this warehouse`README.md`File copied and used from this Yankee repository`README.md`Document layout，delimiter，code，Ideas* :trollface:
+>  -  *copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action internal code* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action internal code* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -    *copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimiter，Typesetting style :trollface:
+>  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python internal code* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+>  -   *Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)emblem* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
 
 
-
-**quoted Action internal code** The project address is: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
-
-```
-jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
-        env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-```
-
-**quoted py internal code** The project address is: [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py)
-
-```
-# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
-
-```
-
-**Thank you badge icon style** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
 
 ## Contributor
 
@@ -1354,7 +1302,7 @@ jobs:
 <a href="https://github.com/qinwuyuan-sync-bot" title="people’s servants servants"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="people’s servants servants"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-List of contributions by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Little brother tunes"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Little brother tunes"/></a>
+Contributions list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Little brother tunes"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Little brother tunes"/></a>
 
 
 ## 🌐 Browser and Script Manager

@@ -96,7 +96,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</td>
+            <td>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -124,7 +124,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>添加一캐릭터计数器到输入框，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</td>
+            <td>添加一캐릭터计数器到输入框，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
@@ -462,7 +462,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>이 스크립트는 GitHub 의 제출 정보가 다음으로 변환됩니다. HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
+            <td>이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</td>
+            <td>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -968,7 +968,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고서 토론，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</td>
+            <td>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -1222,7 +1222,7 @@
                     <mark>상세한</mark>
                 </a>
             </td>
-            <td>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
+            <td>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1255,97 +1255,45 @@
 
 > [!IMPORTANT]
 >
-> -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > -   _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
-> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
+> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
 ## 오픈소스 덕분에 특별히 감사드립니다
- <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="사막의 아들"/></a>
-복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="사막의 아들"/></a> :+1:
+>  - 복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
+>  - 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+>  - 이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)콘텐츠`설치 방법/스크립트 사용？` `브라우저 및 스크립트 관리자`
+ 
+> [!TIP]
+>  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+>  - 창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
 
- 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+> [!TIP]
+>  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+>  - 仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
+>  - 이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
-이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)콘텐츠`설치 방법/스크립트 사용？` `브라우저 및 스크립트 관리자`
-
-<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
-창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
-
-<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
-仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
-
-이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
-
-## 이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑]훌륭한 아이디어와 코드!
-<a href="https://github.com/adamlui" title="Adam Lui 리우잔펑">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/>
-</a>
-
-이 창고의 이름 지정 스타일은 다음에서 영감을 받았습니다.
-
-이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일
-
-스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일
-
-이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어
-
-```
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
-            <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_zh-TW.md">중국어 번체</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">일본어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
-    </h6>
-</div>
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#">맨 위로 돌아가기↑</a></p>
-
-```
+ 
+> [!TIP]
+>  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
+>  - *이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑](https://github.com/adamlui)훌륭한 아이디어와 코드!* :trollface:
+>  - *이 창고의 이름 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다* :trollface:
+>  -  *이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일* :trollface:
+>  -  *스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일* :trollface:
+>  -  *이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어* :trollface:
+>  -  *복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -    *복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
+>  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Python 내부 코드* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+>  -   *양키[Adam Lui 리우잔펑](https://github.com/adamlui)상징* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
 
 
-
-**인용됨 Action 내부 코드** 프로젝트 주소는: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
-
-```
-jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
-        env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-```
-
-**인용됨 py 내부 코드** 프로젝트 주소는: [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py)
-
-```
-# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
-
-```
-
-**감사합니다 배지 아이콘 스타일** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
 
 ## 기부자
 
@@ -1354,7 +1302,7 @@ jobs:
 <a href="https://github.com/qinwuyuan-sync-bot" title="인민의 하인"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="인민의 하인"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
+기여 목록:： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
 
 
 ## 🌐 브라우저 및 스크립트 관리자

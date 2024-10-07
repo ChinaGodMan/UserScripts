@@ -19,7 +19,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub秩序ある人々のスクリプトを見る<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork秩序ある人々のスクリプトを見る</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%90%88%E8%A8%88%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%82%AF%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E4%B8%80%E8%88%AC%E7%9A%84&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -37,7 +37,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**違反があった場合,連絡先を削除する必要があります**
+**侵害があった場合,連絡先を削除する必要があります**
 
 ## [<mark style="background-color: yellow; color: green;">詳細については、スクリプト ディレクトリを参照してください</mark>](/Script%20details)
 
@@ -96,7 +96,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>存在する chatgpt.com 上部のコードブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</td>
+            <td>存在する chatgpt.com 上部のコード ブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -152,7 +152,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定範囲を超えないようにする。</td>
+            <td>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
@@ -195,7 +195,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</td>
+            <td>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -462,7 +462,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>このスクリプトは、 GitHub の投稿情報が変換されます。 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
+            <td>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -490,7 +490,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルの種類のアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</td>
+            <td>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルタイプのアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>存在するGitHub認証ページでは、認証コードが自動的に入力され、自動的に確認されます。。</td>
+            <td>存在するGitHub認証コードを自動的に入力し、認証ページで自動的に確認します。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -658,7 +658,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</td>
+            <td>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -968,7 +968,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
+            <td>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -1222,7 +1222,7 @@
                     <mark>詳しい</mark>
                 </a>
             </td>
-            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
+            <td>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）を追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
@@ -1257,95 +1257,43 @@
 >
 > -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
 > -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
-> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
 ## オープンソースに感謝します
- <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="砂漠の息子"/></a>
-コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="砂漠の息子"/></a> :+1:
+>  - コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
+>  - この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
+>  - このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)コンテンツ`インストール方法/スクリプトを使用する？` `ブラウザとスクリプトマネージャー`
+ 
+> [!TIP]
+>  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+>  - 全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
 
- この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
+> [!TIP]
+>  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+>  - 仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
+>  - この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
-このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)コンテンツ`インストール方法/スクリプトを使用する？` `ブラウザとスクリプトマネージャー`
-
-<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
-全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
-
-<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
-仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
-
-この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
-
-## このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬]素晴らしいアイデアとコード!
-<a href="https://github.com/adamlui" title="Adam Lui 劉禅鵬">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/>
-</a>
-
-この倉庫のネーミングスタイルは、
-
-このリポジトリの Readme ファイルは次の場所から取得されます。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル
-
-スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル
-
-全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア
-
-```
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
-            <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_zh-TW.md">繁体字中国語</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">日本語</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
-    </h6>
-</div>
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#">トップに戻る↑</a></p>
-
-```
+ 
+> [!TIP]
+>  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
+>  - *このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!* :trollface:
+>  - *ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する* :trollface:
+>  -  *このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル* :trollface:
+>  -  *スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル* :trollface:
+>  -  *全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア* :trollface:
+>  -  *コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui) Action 内部コード* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Action 内部コード* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -    *コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，写植スタイル :trollface:
+>  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Python 内部コード* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+>  -   *ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)エンブレム* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
 
 
-
-**引用 Action 内部コード** プロジェクトのアドレスは、: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
-
-```
-jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
-        env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-```
-
-**引用 py 内部コード** プロジェクトのアドレスは、: [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py)
-
-```
-# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
-
-```
-
-**ありがとうバッジアイコンスタイル** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
 
 ## 投稿者
 

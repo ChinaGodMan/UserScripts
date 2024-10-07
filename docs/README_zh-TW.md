@@ -912,7 +912,7 @@
                     <mark>詳細</mark>
                 </a>
             </td>
-            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 </td>
+            <td>使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -1262,90 +1262,38 @@
 > _**不會離線安裝 .crx 擴充？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴充] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
 ## 特別感謝開源
- <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="沙漠之子"/></a>
-複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="沙漠之子"/></a> :+1:
+>  - 複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
+>  - 本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
+>  - 本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)內容`如何安裝/使用腳本？` `瀏覽器與腳本管理器`
+ 
+> [!TIP]
+>  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+>  - 倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)內部的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
 
- 本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
+> [!TIP]
+>  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+>  - 仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
+>  - 本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
-本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)內容`如何安裝/使用腳本？` `瀏覽器與腳本管理器`
-
-<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
-倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)內部的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
-
-<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
-仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
-
-本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
-
-## 本倉庫的自動翻譯與 Action 功能特別感謝美國佬[Adam Lui 劉展鵬]出色的想法與代碼!
-<a href="https://github.com/adamlui" title="Adam Lui 劉展鵬">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/>
-</a>
-
-本倉庫命名風格受啟發
-
-本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格
-
-腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格
-
-本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路
-
-```
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
-            <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_zh-TW.md">繁體中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">日本語</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
-    </h6>
-</div>
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
-<a href="#">回到頂部↑</a></p>
-
-```
+ 
+> [!TIP]
+>  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/></a> :+1:
+>  - *本倉庫的自動翻譯與 Action 功能特別感謝美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)出色的想法與代碼!* :trollface:
+>  - *本倉庫命名風格受美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)啟發* :trollface:
+>  -  *本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格* :trollface:
+>  -  *腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格* :trollface:
+>  -  *本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路* :trollface:
+>  -  *複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內程式碼* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -  *複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -    *複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
+>  -  *複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內程式碼* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+>  -   *美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)的徽章* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
 
 
-
-**引用了 Action 內程式碼** 項目地址為: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
-
-```
-jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
-        env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-```
-
-**引用了 py 內程式碼** 項目地址為: [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py)
-
-```
-# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
-
-```
-
-**感謝徽章圖示風格** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
 
 ## 貢獻者
 

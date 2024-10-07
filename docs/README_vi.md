@@ -19,7 +19,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản theo thứ tự<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản theo thứ tự</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20l%C6%B0%E1%BB%A3t%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3t%20c%C3%A0i%20%C4%91%E1%BA%B7t%20t%E1%BA%ADp%20l%E1%BB%87nh%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20c%C3%A0i%20%C4%91%E1%BA%B7t%20t%E1%BA%ADp%20l%E1%BB%87nh%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%C3%ADch%20c%E1%BB%B1c&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -96,7 +96,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữu chatgpt.com Thêm hình động có hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
+            <td>hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -195,7 +195,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</td>
+            <td>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
@@ -462,7 +462,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Kịch bản này sẽ GitHub Thông tin nộp bài trên được chuyển đổi thành HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
+            <td>Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
@@ -546,7 +546,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTrang ủy quyền sẽ tự động nhập mã ủy quyền và tự động xác nhận.。</td>
+            <td>hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
@@ -658,7 +658,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</td>
+            <td>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
@@ -828,7 +828,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -912,7 +912,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork kịch bản cao cấp </td>
+            <td>Tìm kiếm bằng Google GreasyFork Và SleazyFork chữ viết trên </td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
@@ -968,7 +968,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</td>
+            <td>Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
@@ -1194,7 +1194,7 @@
                     <mark>chi tiết</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
@@ -1257,95 +1257,43 @@
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > -   _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+
 ## Đặc biệt cảm ơn nguồn mở
- <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="đứa con của sa mạc"/></a>
-Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
+> [!TIP]
+>  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="đứa con của sa mạc"/></a> :+1:
+>  - Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
+>  - Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
+>  - Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)nội dung`Cách cài đặt/Sử dụng tập lệnh？` `Trình quản lý trình duyệt và tập lệnh`
+ 
+> [!TIP]
+>  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+>  - Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
 
- Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
+> [!TIP]
+>  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+>  - 仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
+>  - Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
-Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)nội dung`Cách cài đặt/Sử dụng tập lệnh？` `Trình quản lý trình duyệt và tập lệnh`
-
-<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
-Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
-
-<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
-仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
-
-本仓库的子仓库`UserScriptsHistory`自动更新安装历史表格图片代码也复制使用了[FengFeng](https://github.com/BonjourFeng)的仓库[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
-
-## Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng]Ý tưởng và mã tuyệt vời!
-<a href="https://github.com/adamlui" title="Adam Lui Lưu Triển Bằng">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/>
-</a>
-
-Phong cách đặt tên của nhà kho này được lấy cảm hứng từ
-
-Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo
-
-Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo
-
-Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng
-
-```
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
-            <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_zh-TW.md">Tiếng Trung phồn thể</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_en.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ja.md">tiếng Nhật</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_vi.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README_ko.md">대한민국</a>
-    </h6>
-</div>
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
-<a href="#">trở lại đầu trang↑</a></p>
-
-```
+ 
+> [!TIP]
+>  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/></a> :+1:
+>  - *Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Ý tưởng và mã tuyệt vời!* :trollface:
+>  - *Phong cách đặt tên của nhà kho này được lấy cảm hứng từ đội Yankees[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Truyền cảm hứng* :trollface:
+>  -  *Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
+>  -  *Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
+>  -  *Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng* :trollface:
+>  -  *sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui) Action mã nội bộ* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Action mã nội bộ* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+>  -    *sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)dấu phân cách，Kiểu sắp chữ :trollface:
+>  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Python mã nội bộ* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+>  -   *Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)biểu tượng* ![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)
 
 
-
-**trích dẫn Action mã nội bộ** Địa chỉ dự án là: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
-
-```
-jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
-        env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: toniaiwanowskiskr47@gmail.com
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-```
-
-**trích dẫn py mã nội bộ** Địa chỉ dự án là: [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py)
-
-```
-# target_langs = ['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh',  'zh-HK', 'zh-SG', 'zh-TW', 'zu']
-
-```
-
-**Cảm ơn phong cách biểu tượng huy hiệu** [![[CodeFactor grade]](https://img.shields.io/codefactor/grade/github/adamlui/chatgpt-apps?label=Code+Quality&logo=codefactor&logoColor=white&labelColor=464646&color=b3ff68&style=for-the-badge)](https://www.codefactor.io/repository/github/adamlui/chatgpt-apps)
 
 ## Người đóng góp
 
@@ -1354,7 +1302,7 @@ jobs:
 <a href="https://github.com/qinwuyuan-sync-bot" title="công chức tôi tớ nhân dân"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="công chức tôi tớ nhân dân"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Danh sách đóng góp của： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
+Danh sách đóng góp theo： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
 
 
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
