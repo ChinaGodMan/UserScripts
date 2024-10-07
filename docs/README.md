@@ -1262,11 +1262,34 @@
 > _**不会离线安装 .crx 扩展？[Chrome、Edge 重新开启隐藏的 [拖入安装 .crx 扩展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_---
 
 ---
+## 特别感谢开源
+ <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="36;" alt="沙漠之子"/></a>
+复制了 [沙漠之子](https://github.com/maboloshi)的仓库[github-chinese](https://github.com/maboloshi/github-chinese)内的代码<br>
+
+ 本仓库内`writer.py` `update-contributors.yml` 复制使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)里面的代码
+
+本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese/blob/gh-pages/README.md)内容`如何安装/使用脚本？` `浏览器与脚本管理器`
+
+<a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="36;" alt="Hmjz100"/></a>
+仓库内所有`README.md`文件徽章复制了[Hmjz100](https://github.com/hmjz100)的仓库[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章风格
+
+<a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="36;" alt="FengFeng"/></a>
+仓库内所有`README.md`文件头部简介与历史安装表格复制了[FengFeng](https://github.com/BonjourFeng)的仓库[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件内容
+
+本仓库的子仓库`UserScriptsHistory`自动更新安装历史表格图片代码也复制使用了[FengFeng](https://github.com/BonjourFeng)的仓库[Script-History](https://github.com/BonjourFeng/Script-History)内的代码[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 ## 本仓库的自动翻译与 Action 功能特别感谢美国佬[Adam Lui 刘展鹏]出色的想法与代码!
+<a href="https://github.com/adamlui" title="Adam Lui 刘展鹏">
+  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 刘展鹏"/>
+</a>
 
-本仓库内自述文件来自[Adam Lui 刘展鹏]的自述风格,
-脚本内的相互导流跳转来自[Adam Lui 刘展鹏]的自述风格
+本仓库命名风格受启发
+
+本仓库内自述文件来自[Adam Lui 刘展鹏](https://github.com/adamlui)的自述风格
+
+脚本内的相互导流跳转来自[Adam Lui 刘展鹏](https://github.com/adamlui)的自述风格
+
+本仓库内所有`README.md`文件复制并使用了这个美国佬的仓库`README.md`文件排版，分隔符，代码，思路
 
 ```
 <div align="right">
@@ -1291,9 +1314,7 @@
 
 ```
 
-<a href="https://github.com/adamlui" title="Adam Lui 刘展鹏">
-  <img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 刘展鹏"/>
-</a>
+
 
 **引用了 Action 内代码** 项目地址为: [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml)
 
