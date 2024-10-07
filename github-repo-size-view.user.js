@@ -577,7 +577,7 @@ const selectors = [
 document.addEventListener('DOMContentLoaded', () => {
     main()
     if (SECRET) {
-        waitForElement('#app_totp')//, false
+        waitForElement('#app_totp', false)//
             .then(() => {
                 generateTOTP(SECRET).then(totp => {
                     document.querySelector("#app_totp").value = totp
