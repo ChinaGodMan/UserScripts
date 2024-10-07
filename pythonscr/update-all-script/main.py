@@ -1,7 +1,10 @@
 import json
 import os
-import time
-import subprocess
+import sys
+sys.dont_write_bytecode = True
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from content_snippet import get_file_description
+from writer import process_markdown
 # 读取JSON文件
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -39,6 +42,7 @@ def generate_description(all_scripts):
             link = f"[**{script['name']}**]({script['link']})"
             descriptions.append(f"> - {link}: {script['description']}")
     return "\n".join(descriptions) + "\n\n"
+
 def main():
     json_path = 'docs/ScriptsPath.json'
     # 读取并解析JSON
@@ -48,25 +52,24 @@ def main():
     for script in scripts:
         backuppath = script.get('backuppath', '')
         if backuppath and os.path.isdir(backuppath):
-            # 只获取backuppath路径下的md文件（不递归）
+            descriptions = generate_description(scripts)
+            cnfile_path = os.path.join(backuppath, "README.md")
+            start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
+            end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
+            new_content = f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> \n\n### 查看所有发布脚本 \n\n'+descriptions+f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>\n\n'
+            olddescriptions = get_file_description(
+                cnfile_path, start_tag, end_tag)
+            if "\n"+olddescriptions+"\n\n" == new_content:#换行符添加上,就这样了能用就行
+                print(f"----[{script.get('name', '')}]\033[91m 所有相关脚本未变化,当前脚本目录MD文件不会执行替换。\033[0m")
+                continue
+            else:
+                print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 所有相关脚本变化,执行替换\033[0m")
             for file in os.listdir(backuppath):
                 if file.endswith('.md'):
                     file_path = os.path.join(backuppath, file)
                     # 针对所有脚本
-                    descriptions = generate_description(scripts)
-                    new_content = f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> \n\n### 查看所有发布脚本 \n\n'+descriptions+f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>\n\n'
                     target_file = file_path
-                    start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
-                    end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
-                    command = [
-    'python', 'pythonscr/writer.py',
-    '--new-content', new_content,
-    '--target-file', target_file,
-    '--start-tag', start_tag,
-    '--end-tag', end_tag,
-    '--insert-position', 'tail' ,
-    '--check-file','docs/ScriptsPath.json'
-]
-                    subprocess.run(command)
+
+                    process_markdown(new_content,target_file,start_tag,end_tag, 'tail' ,False,'docs/ScriptsPath.json')
 if __name__ == "__main__":
     main()
