@@ -34,7 +34,7 @@
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证<br>
+<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
 <strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
 <strong>修复</strong>:用户主题不同,元素也不同,选择器更改为<code>document.querySelector('.jxTzTd')</code><br>
 <strong>修复</strong>:已登录用户如果<code>TOKEN</code>不为空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回错误代码<code>401</code><br>
@@ -195,16 +195,16 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍 你可能在找 GitHub 相关脚本
->
-> -   [**GitHub 提交信息显示 HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在 GitHub 授权页面自动输入授权码与自动确认。
-> -   [**GitHub 文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> -   [**GitHub 下载单文件和复制文件 URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> -   [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在 Github 查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
-> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> ### 🔍你可能在找GitHub相关脚本
+> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
+> - [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
+> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
+> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> - [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
+> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 
