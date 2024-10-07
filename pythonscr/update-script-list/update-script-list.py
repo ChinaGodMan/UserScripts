@@ -76,16 +76,22 @@ def generate_html_table(scripts):
     html_table += '''</tbody>
     </table>'''
     return html_table
-def generate_grouped_html(related_scripts_map, use_details=True):
+def generate_grouped_html(related_scripts_map, use_details=True,center=False):
     html_output = ""
+    center_o=''
+    center_c=''
+    if center:
+        center_o='<div align="center">'
+        center_c='</div>'
     for related_id, scripts in related_scripts_map.items():
         if use_details:
-            html_output += f"<details><summary>{related_id}</summary>"
+            html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
             html_output += f"<h2>{related_id}</h2>"
         html_output += generate_html_table(scripts)
         if use_details:
-            html_output += "</details>"
+            print(center_c)
+            html_output += f"{center_c}</details>"
     return html_output  
 # 主程序
 json_file_path = 'docs/ScriptsPath.json'
