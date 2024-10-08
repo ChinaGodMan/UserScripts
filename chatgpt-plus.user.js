@@ -2,7 +2,7 @@
 // @name              ChatGPT Chat Fold Script & MAXWidth
 // @description       Fold long "You" messages in ChatGPT
 // @name:zh-CN        ChatGPT 折叠自己消息和最大宽度
-// @description:zh-CN 折叠ChatGPT中较长的“你”消息，并设置最大宽度
+// @description:zh-CN 折叠ChatGPT中较长的“你发送的信息”消息，并设置最大宽度
 // @name:ar           ChatGPT طي الرسالة الذاتية والحد الأقصى للعرض
 // @description:ar    طيةChatGPTمتوسطة وطويلة“أنت”معلومة，وتعيين الحد الأقصى للعرض
 // @name:bg           ChatGPT Свиване на собственото съобщение и максимална ширина
