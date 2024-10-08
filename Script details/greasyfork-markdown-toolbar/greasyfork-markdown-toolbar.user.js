@@ -87,7 +87,7 @@
 // @include           https://greasyfork.org/*script_versions/new*
 // @include           https://greasyfork.org/*/conversations/*
 // @include           https://greasyfork.org/*/users/edit
-// @include https://greasyfork.org/*/reports/new*
+// @include           https://greasyfork.org/*/reports/new*
 // @grant             GM_addStyle
 // @run-at            document-start
 // @version           2.0.5
