@@ -17,58 +17,66 @@ def find_script_by_greasyfork_id(scripts, greasyfork_id):
             return script
     return None
 # 生成描述信息，仅针对当前脚本的relatedscripts
-def generate_description(all_scripts):
-    related_scripts_map = {}
-    # 遍历所有脚本，收集相同 relatedscripts 的脚本信息
+def generate_description(current_script, all_scripts):
+    descriptions = []
+    # 获取当前脚本的 relatedscripts 值作为分类名
+    relatedscripts_category = current_script
+    # 如果没有 relatedscripts，返回空描述
+    if not relatedscripts_category:
+        return "无相关脚本。\n\n"
+    # 添加分类名到描述中
+    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{relatedscripts_category}')
+    # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
     for script in all_scripts:
-        relatedscripts_category = script.get('relatedscripts')
-        if relatedscripts_category:
-            if relatedscripts_category not in related_scripts_map:
-                related_scripts_map[relatedscripts_category] = []
+        script_relatedscripts = script.get('relatedscripts')
+        # 如果脚本的 relatedscripts 与当前脚本相同，就将其添加到描述中
+        if script_relatedscripts == relatedscripts_category:
             greasyfork_id = script.get('GreasyFork', '未知ID')
             name = script.get('name', '未知名称')
             description = script.get('description', '无描述')
-            # 存储相关脚本的信息
-            related_scripts_map[relatedscripts_category].append({
-                'name': name,
-                'description': description,
-                'link': f"https://greasyfork.org/scripts/{greasyfork_id}"
-            })
-    # 生成描述信息
-    descriptions = []
-    for category, scripts in related_scripts_map.items():
-        descriptions.append(
-            f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找 {category}')
-        for script in scripts:
-            link = f"[**{script['name']}**]({script['link']})"
-            descriptions.append(f"> - {link}: {script['description']}")
+            link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
+            descriptions.append(f"> - {link}: {description}")
     return "\n".join(descriptions) + "\n\n"
+def process_script(script, scripts, start_tag, end_tag,key):
+    backuppath = script.get('backuppath', '')
+    cnfile_path = os.path.join(backuppath, "README.md")
+    descriptions = generate_description(key, scripts)
+    olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
+    if olddescriptions is None:
+        olddescriptions = "ggg"
+    if olddescriptions + "\n\n" == descriptions:  # Adding the newline
+        # print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
+        return
+    else:
+        print(f"----\033[94m[{script.get('name', '')}--{key}]\033[0m\033[92m 内容变化,执行替换\033[0m")
+    
+    if backuppath and os.path.isdir(backuppath):
+        for file in os.listdir(backuppath):
+            if file.endswith('.md'):
+                file_path = os.path.join(backuppath, file)
+                # process_markdown(descriptions, file_path, start_tag, end_tag, 'tail', False, 'docs/ScriptsPath.json')
+                process_file(file_path, descriptions, start_tag, end_tag, "tail")
 
 def main():
     json_path = 'docs/ScriptsPath.json'
-    # 读取并解析JSON
     data = read_json(json_path)
     scripts = data.get('scripts', [])
-    descriptions = generate_description(scripts)
-    backuppath = scripts[0].get('backuppath', '')
-    cnfile_path = os.path.join(backuppath, "README.md")
-    start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
-    end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
-    new_content = f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> \n\n### 查看所有发布脚本 \n\n'+descriptions+f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>\n\n'
-    olddescriptions = get_file_description(
-                cnfile_path, start_tag, end_tag)
-    if "\n"+olddescriptions+"\n\n" == new_content:#换行符添加上,就这样了能用就行
-        print(f"\033[91m 所有相关脚本未变化,当前任务被结束\033[0m")
-        return
-    # 遍历每个脚本，处理它的backuppath
+    related_scripts_map = {}
     for script in scripts:
-        backuppath = script.get('backuppath', '')
-        if backuppath and os.path.isdir(backuppath):
-            print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 所有相关脚本变化,执行替换\033[0m")
-            for file in os.listdir(backuppath):
-                if file.endswith('.md'):
-                    file_path = os.path.join(backuppath, file)
-                    #process_markdown(new_content,file_path,start_tag,end_tag, 'tail' ,False,'docs/ScriptsPath.json')
-                    process_file(file_path, new_content, start_tag, end_tag, "head")
+        relatedscripts = script.get('relatedscripts') 
+        if relatedscripts:  
+        
+            if relatedscripts not in related_scripts_map:
+             related_scripts_map[relatedscripts] = []
+        
+        
+             related_scripts_map[relatedscripts].append(relatedscripts)
+    for script in scripts:
+        for key, value in related_scripts_map.items():
+                #print(f"{key}")
+                start_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-->"
+                end_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-END-->"
+                #print(end_tag)
+                process_script(script, scripts, start_tag, end_tag,key)
 if __name__ == "__main__":
     main()

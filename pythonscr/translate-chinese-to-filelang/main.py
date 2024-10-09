@@ -207,6 +207,9 @@ def process_file(root, file, lang_code):
     # 保存中文文本的位置信息，跳过黑名单
     chinese_texts = []
     for line_number, line in enumerate(lines):
+        if "<!--AUTO" in line:
+            #print("跳过标记点")
+            continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
             if chinese_text not in blacklist:
@@ -218,7 +221,7 @@ def process_file(root, file, lang_code):
 
 def process_files(base_dir):
     file_threads = []  # 存储处理文件的线程
-    max_threads = 1  # 设置最大同时处理的线程数
+    max_threads = 20  # 设置最大同时处理的线程数
     for root, dirs, files in os.walk(base_dir):
         # 遍历到第二级目录
         if root.count(os.sep) - base_dir.count(os.sep) == 1:
