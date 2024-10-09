@@ -25,7 +25,7 @@ def main():
         backuppath = script.get('backuppath', '')
         cnfile_path = os.path.join(backuppath, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
-        if  "\n"+olddescriptions+"\n" == new_content:#换行符添加上,就这样了能用就行
+        if  "\n"+olddescriptions== new_content:#换行符添加上,就这样了能用就行
                 #print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
                 continue
         else:
