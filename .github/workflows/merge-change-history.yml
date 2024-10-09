@@ -54,11 +54,11 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "集中修改脚本[*.md]文件" \
-                              -m "合并日志→Script details/**/Change history/README.md → Script details/**/*.md" \
-                              -m "刷新徽章→pythonscr/update-shields/SHIELDS.md → Script details/**/*.md" \
-                              -m "刷新帮助→pythonscr/update-help/HELP.md → Script details/**/*.md" \
-                              -m "作者推荐→docs/ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
-                              -m "作者所有脚本→docs/ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                  git commit -S -m "集中修改\`[Script details/*/*.md]\`文件" \
+                              -m "合并日志→Change history/README.md → Script details/**/*.md" \
+                              -m "刷新徽章→SHIELDS.md → Script details/**/*.md" \
+                              -m "刷新帮助→HELP.md → Script details/**/*.md" \
+                              -m "作者推荐→ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                              -m "作者所有脚本→ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
                   || echo "没有需要提交的更改"
                   git push

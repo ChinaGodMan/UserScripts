@@ -28,8 +28,5 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "仓库[README.md]更新" \
-                              -m "GoogleTranslate→[docs/README.md]↓" \
-                              -m "[docs/README_xx.md {vi,ko,en,jp,zh-TW}]" \
-                  || echo "没有需要提交的更改"
+                  git commit -S -m "\`[docs/README.md]\`谷歌翻译→\`[docs/{vi,ko,en,jp,zh-TW}.md]\`" 
                   git push
