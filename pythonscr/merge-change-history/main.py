@@ -55,7 +55,7 @@ for script in data['scripts']:
         backup_readme_path = os.path.join(backuppath, 'Change history/README.md')
         his= get_file_description(os.path.join(backuppath, "README.md"), start_tag, end_tag)
         if "\n"+his+"\n" == html_content:
-                print(f"----[{script.get('name', '')}]\033[91m 更新日志没有改变,拒绝写入!\033[0m")
+                #print(f"----[{script.get('name', '')}]\033[91m 更新日志没有改变,拒绝写入!\033[0m")
                 continue
         for file_name in os.listdir(backuppath):
             if file_name.lower().endswith('.md'):
