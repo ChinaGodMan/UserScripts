@@ -218,7 +218,7 @@ def process_file(root, file, lang_code):
 
 def process_files(base_dir):
     file_threads = []  # 存储处理文件的线程
-    max_threads = 1  # 设置最大同时处理的线程数
+    max_threads = 20  # 设置最大同时处理的线程数
     for root, dirs, files in os.walk(base_dir):
         # 遍历到第二级目录
         if root.count(os.sep) - base_dir.count(os.sep) == 1:
