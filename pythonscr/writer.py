@@ -120,16 +120,16 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true, s
             return True  # 提交时间在 5 分钟以内，继续处理文件
     # 检查文件名是否包含 "Change history"
     if "Change history" in file_path:
-        print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
+        #print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
         return False
     if "Change history" in writer_path:
-        print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
+        #print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
         return False
     if is_first_commit(writer_path):
-        print(f"\033[91m 首次提交,直接添加........。...\033[0m")
+        #print(f"\033[91m 首次提交,直接添加........。...\033[0m")
         return True
     if is_md_empty(writer_path, start_tag, end_tag):
-        print(f"\033[91m 标志之间无内容直接添加.\033[0m")
+        #print(f"\033[91m 标志之间无内容直接添加.\033[0m")
         return True  # 没有内容，返回 True
     # 如果指定了跳过时间检查，直接处理文件
     if skip_time_check:
@@ -138,7 +138,7 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true, s
         return True  # 如果无法获取提交时间，默认继续处理
     # 如果最后一次提交时间距离现在大于 5 分钟，跳过处理
     if current_time - last_commit_time > timedelta(minutes=5):
-        print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
+        #print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
         return False
     return True
 def process_markdown(new_content, target_file, start_tag, end_tag, insert_position='tail',  skip_time_check=False, check_file=None, history_true=False):
