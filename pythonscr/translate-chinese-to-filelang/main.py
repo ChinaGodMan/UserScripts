@@ -208,7 +208,7 @@ def process_file(root, file, lang_code):
     chinese_texts = []
     for line_number, line in enumerate(lines):
         if "<!--AUTO" in line:
-            print("跳过标记点")
+            #print("跳过标记点")
             continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
@@ -234,8 +234,8 @@ def process_files(base_dir):
                 if not match:
                     continue
                 lang_code = match.group(1)  # 提取语言代码
-                while threading.active_count() > max_threads:
-                    time.sleep(0.1)  # 短暂等待，避免 CPU 占用过高
+                """ while threading.active_count() > max_threads:
+                    time.sleep(0.1)  # 短暂等待，避免 CPU 占用过高 """
                 # 为每个文件启动一个线程处理
                 thread = threading.Thread(
                     target=process_file, args=(root, file, lang_code))
