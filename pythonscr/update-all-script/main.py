@@ -45,10 +45,10 @@ def process_script(script, scripts, start_tag, end_tag,key):
     if olddescriptions is None:
         olddescriptions = "ggg"
     if olddescriptions + "\n\n" == descriptions:  # Adding the newline
-        # print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
+        #print(f"----[\033[94m{script.get('name', '')}\033[0m--\033[95m{key}\033[0m]\033[92m 内容变化,执行替换\033[0m")
         return
     else:
-        print(f"----\033[94m[{script.get('name', '')}--{key}]\033[0m\033[92m 内容变化,执行替换\033[0m")
+        print(f"----[\033[94m{script.get('name', '')}\033[0m--\033[95m{key}\033[0m]\033[92m 内容变化,执行替换\033[0m")
     
     if backuppath and os.path.isdir(backuppath):
         for file in os.listdir(backuppath):
