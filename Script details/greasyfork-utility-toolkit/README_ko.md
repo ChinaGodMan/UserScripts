@@ -284,23 +284,23 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## 돕다
 
- 推荐浏览器和脚本管理器：
+ 권장 브라우저 및 스크립트 관리자：
 *   **Greasemonkey + Waterfox**
 *   **Tampermonkey/Violentmonkey + Firefox**
 *   **Tampermonkey/Violentmonkey + Chrome**
 *   **Userscripts + ios Safari**
 *  **Violentmonkey/KiWiBrowser + Android**
 
- **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+ **사용자 스크립트 설치 방법에 대해 더 알고 싶다면,[나를 클릭하세요](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)그래픽 교육 보기!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
+<a href="#top">맨 위로 돌아가기↑</a></p>
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本
+### 모든 게시 스크립트 보기
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
 
@@ -310,8 +310,8 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 > - [**ChatGPT코드 글꼴 크기 감소**](https://greasyfork.org/scripts/505209): 허락하다 ChatGPT 코드 상자의 글꼴 크기가 작아집니다.
-> - [**ChatGPT 聊天코드 복사단추**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“复制代码”按钮
-> - [**ChatGPT 캐릭터 카운터**](https://greasyfork.org/scripts/506166): 添加一캐릭터计数器到输入框，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）
+> - [**ChatGPT 채팅코드 복사단추**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추
+> - [**ChatGPT 캐릭터 카운터**](https://greasyfork.org/scripts/506166): 하나 추가캐릭터입력 상자에 대한 카운터，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 캐릭터。）
 > - [**ChatGPT 자체 메시지 및 최대 너비 축소**](https://greasyfork.org/scripts/504901): 귀하가 보낸 긴 메시지를 자동으로 접습니다.，화면 공간 절약。채팅 창의 최대 너비를 설정할 수 있습니다.，긴 메시지가 지정된 범위를 초과하지 않도록 유지。
 
 
@@ -322,7 +322,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 
 > ### 🔍웹 관련 스크립트를 찾고 있을 수도 있습니다.
 > - [**웹 페이지 작성 클립 버전 권한 관리자**](https://greasyfork.org/scripts/497403): 편집된 버전에서 웹페이지가 표시되는 것을 금지합니다.，출시용 녹색，빨간색 금지，주황색 임시 방향
-> - [**승강기CSDN로그인복사限制**](https://greasyfork.org/scripts/505207): 엿 먹어라 CSDN 登录复制，로그인하지 않고 코드 상자 내용 복사
+> - [**승강기CSDN로그인복사한계**](https://greasyfork.org/scripts/505207): 엿 먹어라 CSDN 로그인복사，로그인하지 않고 코드 상자 내용 복사
 > - [**화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요**](https://greasyfork.org/scripts/507036): 웹 페이지 테이블의 모든 열에 색상 그라데이션 미화를 자동으로 적용합니다..
 > - [**웹페이지에서 키워드 강조표시+(추천하다)**](https://greasyfork.org/scripts/498906): 웹페이지의 텍스트 강조표시
 > - [**웹 텍스트 강조 표시_미니 버전**](https://greasyfork.org/scripts/498905): 스크롤 시 동적으로 로드되는 콘텐츠를 포함하여 웹페이지에서 사용자 정의 키워드 강조 표시
@@ -342,9 +342,9 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 > - [**GitHub 파일 목록 미화자**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。
 > - [**Github 코드 언어 목록 모두 표시**](https://greasyfork.org/scripts/509889): 확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다 “다른” 아래에
 > - [**GitHub 장치 승인 자동 확인**](https://greasyfork.org/scripts/508956): 존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。
-> - [**GitHub접는 사람下载**](https://greasyfork.org/scripts/505496): 다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 文件夹。
+> - [**GitHub접는 사람다운로드**](https://greasyfork.org/scripts/505496): 다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。
 > - [**GitHub단일 파일 다운로드 및 파일 복사URL**](https://greasyfork.org/scripts/505501): 각 파일 줄 끝에 추가 버튼，원본 파일을 복사하려면 URL 그리고 파일 다운로드
-> - [**🤠 Github 어시스턴트 강화 창고 전시 크기 비활성 개발 경고 창고 내 빠른 점프用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 존재하다Github창고 보기 및 검색 시 창고 크기 표시 ，비활성 개발 경고，仓库内快捷跳转.
+> - [**🤠 Github 어시스턴트 강화 창고 전시 크기 비활성 개발 경고 창고 내 빠른 점프사용자의 다른 창고 🤠**](https://greasyfork.org/scripts/502291): 존재하다Github창고 보기 및 검색 시 창고 크기 표시 ，비활성 개발 경고，창고 내 빠른 점프.
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 창고 목록 파일 정렬 방식을 날짜 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。
 
 
@@ -370,7 +370,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 > - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 포럼에서 기본적으로 사용됨 Markdown 체재，형식 도움말 링크를 추가하고 Markdown 툴바 소개
 > - [**GreasyFork 스크립트 등급 표시**](https://greasyfork.org/scripts/501119): 스크립트 목록에 평가 점수 추가
 > - [**GreasyFork 고급 검색**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색 GreasyFork 그리고 SleazyFork 상적 각본 
-> - [**GreasyFork 네비게이션 바향상시키다**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,사용자 목록 추가,사용자 콘솔 등
+> - [**GreasyFork 네비게이션 바향상시키다**](https://greasyfork.org/scripts/501880): 향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등
 > - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동
 > - [**Greasyfork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > - [**Script Finder그리스 원숭이 스크립트 찾기**](https://greasyfork.org/scripts/498904): Script Finder 사용자 스크립트입니다（userscript），모든 웹사이트에서 사용자 스크립트를 찾고 관리하는 데 도움이 됩니다.
