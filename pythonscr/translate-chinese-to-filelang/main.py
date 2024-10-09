@@ -197,7 +197,7 @@ def translate_and_save(lines, chinese_texts, lang, file_path):
 def process_file(root, file, lang_code):
     file_path = os.path.join(root, file)
     if is_file_updated_more_than(file_path, 30):
-        print(f"翻译时跳过文件 {file_path}，因为文件在5分钟之内没有更新")
+        print(f"翻译时跳过文件 {file_path}，因为文件在30分钟之内没有更新")
         return  # 使用 return 结束当前函数的执行，而不是 continue
     print(f"开始处理文件: {file_path}，语言代码: {lang_code}")
     # 读取文件内容
@@ -208,7 +208,7 @@ def process_file(root, file, lang_code):
     chinese_texts = []
     for line_number, line in enumerate(lines):
         if "<!--AUTO" in line:
-            #print("跳过标记点")
+            print("跳过标记点")
             continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()

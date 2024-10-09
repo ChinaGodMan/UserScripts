@@ -85,8 +85,8 @@
 
 > ### 🔍你可能在找ChatGPT相關腳本
 > - [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼框內字體變小
-> - [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“复制代码”按钮
-> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 个字符。）
+> - [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕
+> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > - [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
 
 
@@ -111,24 +111,24 @@
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
-<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->
-
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> 
-
-### 查看所有發布腳本 
 
 
+<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 ChatGPT相關腳本
+> ### 🔍你可能在找ChatGPT相關腳本
 > - [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼框內字體變小
 > - [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“复制代码”按钮
 > - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 个字符。）
 > - [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
 
+
+<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 網頁相關腳本
+> ### 🔍你可能在找網頁相關腳本
 > - [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向
 > - [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登录复制，無需登入即可複製程式碼框內容
 > - [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為網頁上的表格所有欄位套用顏色漸層美化.
@@ -139,9 +139,13 @@
 > - [**上下滾動小按鈕**](https://greasyfork.org/scripts/497251): 頁面右側新增上下滾動按鈕
 > - [**一鍵置頂和置底按鈕**](https://greasyfork.org/scripts/500255): 修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止
 
+
+<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GitHub相關腳本
+> ### 🔍你可能在找GitHub相關腳本
 > - [**GitHub提交資訊顯示HTML**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
 > - [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下
@@ -151,15 +155,23 @@
 > - [**🤠 Github 增強助手 倉庫顯示大小 不活躍開發警告 倉庫內快捷跳轉用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看倉庫和搜尋倉庫時顯示倉庫大小 ，不活躍開發警告，仓库内快捷跳转.
 > - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 倉庫列表文件排序方式改為日期降序，方便查看最新更新的文件。
 
+
+<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 Google相關腳本
+> ### 🔍你可能在找Google相關腳本
 > - [**Google 進階搜尋**](https://greasyfork.org/scripts/502652): 這是一個為 Google 新增進階搜尋表單的使用者腳本。它能在頁面頂部添加一個可隱藏的高級搜尋表單，使您能夠更精確地搜尋訊息。
 > - [**Google 搜尋屏蔽指定站點**](https://greasyfork.org/scripts/500262): 在搜尋引擎結果中封鎖特定的站點，幫助用戶過濾掉不需要的搜尋結果。 自訂輸入屏蔽站點。格式-zhihu -baidu 用於封鎖谷歌搜尋內容
 
+
+<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 GreasyFork相關腳本
+> ### 🔍你可能在找GreasyFork相關腳本
 > - [**GreasyFork適用於增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋
 > - [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > - [**GreaysFork 增強 WebHook同步設定**](https://greasyfork.org/scripts/506717): 這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
@@ -171,22 +183,27 @@
 > - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
 > - [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
 
+
+<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 成人劇本
+> ### 🔍你可能在找成人腳本
 > - [**MiSSAV自動登入**](https://greasyfork.org/scripts/505325): 偵測 MisssAV 狀態，並且在未登入時自動登入
 > - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss單張備份，支援下載圖片保存影片訊息.導出本地網頁 支援導出到webdav
 > - [**TissAV自動登入**](https://greasyfork.org/scripts/506528): 偵測 TissAV 狀態，並且在未登入時自動登入
 > - [**JableTV自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態，並且在未登入時自動登入
 
+
+<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
+
+<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找 自動翻譯
+> ### 🔍你可能在找自動翻譯
 > - [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於 5 且翻譯文中不含中文，則替換為中文,需要可訪問google的網路
 > - [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個 google 翻譯圖示，此版本為中文翻譯版本，只把外文翻譯為中文，新增自動翻譯
 
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到頂部↑</strong></a></div></center>
-
-
-<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
