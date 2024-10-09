@@ -50,7 +50,7 @@ def main():
         descriptions = generate_description(script, scripts)
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         if olddescriptions+"\n\n" == descriptions:#换行符添加上,就这样了能用就行
-                print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
+                #print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
                 continue
         else:
                 print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 内容变化,执行替换\033[0m")
