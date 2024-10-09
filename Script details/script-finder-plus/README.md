@@ -132,6 +132,9 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
 
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### 查看所有发布脚本
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
 
