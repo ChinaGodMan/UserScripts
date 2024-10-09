@@ -13,6 +13,13 @@ def is_first_commit(file_path):
     except subprocess.CalledProcessError as e:
         print(f"错误: 无法获取提交次数 - {file_path}")
         return False
+def is_commit_recent(file_path, minutes):
+    last_commit_time = get_last_git_commit_time(file_path)
+    current_time = datetime.now()
+    if current_time - last_commit_time > timedelta(minutes=minutes):
+        return False
+    else:
+        return True
 def get_last_git_commit_time(file_path):
     """获取文件的最后一次 git 提交时间"""
     try:
