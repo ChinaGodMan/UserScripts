@@ -5,6 +5,7 @@ sys.dont_write_bytecode = True
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from content_snippet import get_file_description
 from writer import process_markdown
+from writer import process_file
 # 读取JSON文件
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -48,28 +49,26 @@ def main():
     # 读取并解析JSON
     data = read_json(json_path)
     scripts = data.get('scripts', [])
+    descriptions = generate_description(scripts)
+    backuppath = scripts[0].get('backuppath', '')
+    cnfile_path = os.path.join(backuppath, "README.md")
+    start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
+    end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
+    new_content = f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> \n\n### 查看所有发布脚本 \n\n'+descriptions+f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>\n\n'
+    olddescriptions = get_file_description(
+                cnfile_path, start_tag, end_tag)
+    if "\n"+olddescriptions+"\n\n" == new_content:#换行符添加上,就这样了能用就行
+        print(f"\033[91m 所有相关脚本未变化,当前任务被结束\033[0m")
+        return
     # 遍历每个脚本，处理它的backuppath
     for script in scripts:
         backuppath = script.get('backuppath', '')
         if backuppath and os.path.isdir(backuppath):
-            descriptions = generate_description(scripts)
-            cnfile_path = os.path.join(backuppath, "README.md")
-            start_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-->"
-            end_tag = "<!--AUTO_ALLSCRIPT_PLEASE_DONT_DELETE_IT-END-->"
-            new_content = f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"> \n\n### 查看所有发布脚本 \n\n'+descriptions+f'\n<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><center><div align="center"><a href="#top"><strong>回到顶部↑</strong></a></div></center>\n\n'
-            olddescriptions = get_file_description(
-                cnfile_path, start_tag, end_tag)
-            if "\n"+olddescriptions+"\n\n" == new_content:#换行符添加上,就这样了能用就行
-                print(f"----[{script.get('name', '')}]\033[91m 所有相关脚本未变化,当前脚本目录MD文件不会执行替换。\033[0m")
-                continue
-            else:
-                print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 所有相关脚本变化,执行替换\033[0m")
+            print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 所有相关脚本变化,执行替换\033[0m")
             for file in os.listdir(backuppath):
                 if file.endswith('.md'):
                     file_path = os.path.join(backuppath, file)
-                    # 针对所有脚本
-                    target_file = file_path
-
-                    process_markdown(new_content,target_file,start_tag,end_tag, 'tail' ,False,'docs/ScriptsPath.json')
+                    #process_markdown(new_content,file_path,start_tag,end_tag, 'tail' ,False,'docs/ScriptsPath.json')
+                    process_file(file_path, new_content, start_tag, end_tag, "head")
 if __name__ == "__main__":
     main()
