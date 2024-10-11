@@ -11,6 +11,11 @@ with open('docs/ScriptsPath.json', 'r', encoding='utf-8') as json_file:
 for file in changed_files:
     if file.endswith('.js'):
         file_path = os.path.join(os.getcwd(), file)
+        if "Script details" in file_path:
+            print(f"处理文件: {file_path}")
+        else:
+            print(f"跳过文件: {file_path}")
+            continue
         if os.path.exists(file_path):
             file_name = os.path.basename(file)
             found = any(script['path'] ==
