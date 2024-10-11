@@ -1,13 +1,5 @@
-
-
+qwy_*
 script_bak
 .vscode
-launch.json
-folder_tree.html
-pwshscr
-1.user.js
-CHANGE.TXT
-CHANGE.HTML
-GitHub commit
-1.txt
-read.md
+*.html
+*.txt
