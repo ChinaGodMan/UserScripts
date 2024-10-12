@@ -57,6 +57,8 @@ for script in data['scripts']:
         if "\n"+his+"\n" == html_content:
                 #print(f"----[{script.get('name', '')}]\033[91m 更新日志没有改变,拒绝写入!\033[0m")
                 continue
+        else:
+            print(f"----[\033[94m{script.get('name', '')}\033[0m]\033[92m 头部描述改变,执行替换!\033[0m")
         for file_name in os.listdir(backuppath):
             if file_name.lower().endswith('.md'):
                 file_path = os.path.join(backuppath, file_name)
