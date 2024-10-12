@@ -12,6 +12,8 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
+              with:
+                sparse-checkout: 'pythonscr/cleanup_actions.py'
 
             - name: Install dependencies
               run: |
