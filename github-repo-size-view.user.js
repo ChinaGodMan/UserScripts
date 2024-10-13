@@ -442,6 +442,7 @@ const addSizeToRepos = () => {
         }
         console.log(href)
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
+
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
                 headers: headers,
@@ -455,48 +456,10 @@ const addSizeToRepos = () => {
 
         if (pageType === "repo") {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url)
+
                 ? (TOKEN ? 'https://api.github.com/user/repos' : jsn.owner.repos_url)
                 : jsn.owner.repos_url
-            function fetchReposWithCache(ownerKey, reposApi, headers) {
-                const localData = localStorage.getItem(ownerKey)
-                const currentTime = new Date().getTime()
-                if (localData) {
-                    const parsedData = JSON.parse(localData)
-                    const localTimeStamp = new Date(parsedData.timeStamp).getTime()
-                    if (currentTime - localTimeStamp < timeToSeconds(DELAY) * 1000) {
-                        console.log('本地缓存数据未过期，直接使用本地数据')
-                        insertReposList(parsedData.reposArray, USETIP)
-                        return
-                    }
-                }
-                getUserAllRepos(reposApi, headers)
-                    .then(data => {
-                        const reposArray = data.map(repo => ({
-                            name: repo.name,
-                            private: repo.private,
-                            html_url: repo.html_url,
-                            fork: repo.fork,
-                            description: repo.description,
-                            stargazers_count: repo.stargazers_count,
-                            owner: repo.owner.login,
-                            forks_count: repo.forks_count,
-                            open_issues_count: repo.open_issues_count,
-                            language: repo.language,
-                            size: repo.size,
-                            created_at: systemTime(repo.created_at),
-                            updated_at: systemTime(repo.updated_at),
-                            pushed_at: systemTime(repo.pushed_at),
-                        }))
-                        const timeStamp = new Date().toISOString()
-                        const dataToStore = {
-                            reposArray: reposArray,
-                            timeStamp: timeStamp
-                        }
-                        localStorage.setItem(ownerKey, JSON.stringify(dataToStore))
-                        insertReposList(reposArray, USETIP)
-                    })
-                    .catch(error => console.error('Error fetching data:', error))
-            }
+
             if (!document.querySelector('#view-user-repos')) {
 
                 fetchReposWithCache(jsn.owner.login, reposApi, headers)
@@ -576,6 +539,7 @@ const selectors = [
 ]
 document.addEventListener('DOMContentLoaded', () => {
     main()
+
     if (SECRET) {
         waitForElement('#app_totp', false)//
             .then(() => {
@@ -590,12 +554,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.error(`totp发生了错误,找不到元素`)
             })
     }
+
 })
 /* document.addEventListener('turbo:load', () => {
     addSizeToRepos()
 }) */  //!SECTION-网络不顺畅时，加载太慢
 observeUrlChanges(main)
 function main(delay = 0) {
+    waitForElement('#global-create-menu-anchor', false)//
+        .then(() => {
+            if (!document.querySelector('#view-global-user-repos')) {
+                const headers = TOKEN ? { authorization: `token ${TOKEN}` } : {}
+                const metaElement = document.querySelector('meta[name="octolytics-actor-login"]')
+                const loginUserName = metaElement.getAttribute('content')
+                if (isMobileDevice()) {
+                    fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', '.AppHeader-search button')
+                } else {
+                    fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', '#global-create-menu-anchor')
+                }
+
+            }
+        })
+        .catch((error) => {
+            console.error(`添加用户所有仓库时发生了错误,找不到元素`)
+        })
     Promise.race(selectors.map((selector) => waitForElement(selector))).then(() => {
         setTimeout(() => {
             addSizeToRepos()
@@ -743,7 +725,7 @@ function checkCommitDate(datetimeString) {
         /* noop */
     }
 }
-function insertReposList(links, tip = false) {
+function insertReposList(links, tip = false, calssid, selectors = '.jxTzTd') {
     const gitHubStyle = `
 #view-user-repos {
   order: 10;
@@ -754,20 +736,33 @@ function insertReposList(links, tip = false) {
 }
 #view-user-repos .dropdown-menu .dropdown-item .d-inline-flex {
   vertical-align:sub;
-}`
+}
+  #view-global-user-repos {
+  order: 10;
+}
+#view-global-user-repos .dropdown-menu {
+  min-width: 170px;
+  width: auto;
+}
+#view-global-user-repos .dropdown-menu .dropdown-item .d-inline-flex {
+  vertical-align:sub;
+`
+    //
     if (!document.head.querySelector('style[data-id="view-user-repos-css"]')) {
         const globalStyle = document.createElement('style')
         globalStyle.dataset.id = 'view-user-repos-css'
         globalStyle.innerHTML = gitHubStyle
         document.head.appendChild(globalStyle)
     }
-    const selectors = [
-        '.jxTzTd', // Repo main page
-        '.faNtbn .d-flex.gap-2', // Repo files page
-        '.gwHaUx .d-flex.gap-2' // Commits page
-    ]
+    /*     const selectors = [
+            '.jxTzTd', // Repo main page
+            '.faNtbn .d-flex.gap-2', // Repo files page
+            '.gwHaUx .d-flex.gap-2' // Commits page
+        ] */
     //document.querySelector(selectors.join(', '))
-    const existingButton = document.querySelector('.jxTzTd')
+    const existingButton = document.querySelector(selectors)
+    existingButton.parentNode.style.display = "flex"
+
     if (existingButton) {
         const sortedLinks = links.sort((a, b) => {//!SECTION 排序
             // 首先比较 fork 下沉到数组的低端.
@@ -852,7 +847,7 @@ function insertReposList(links, tip = false) {
             //stats.forkFalse > 0 ? `非分叉仓库: ${stats.forkFalse}` : ''
         ].filter(Boolean).join('\n')
         const detailsHTML = `
-<details id="view-user-repos" class="details-overlay details-reset position-relative d-flex">
+<details id="${calssid}" class="details-overlay details-reset position-relative d-flex">
     <summary role="button" type="button" class="btn text-center">
         <span class="d-none d-xl-flex flex-items-center tooltipped tooltipped-s" aria-label="${ariaLabel}">
             ${translate.view}<mark>[${links[0].owner}]</mark>${translate.allRepos}
@@ -869,7 +864,6 @@ function insertReposList(links, tip = false) {
         </ul>
     </div>
 </details>`
-
         existingButton.insertAdjacentHTML('beforebegin', detailsHTML)
     } else {
     }
@@ -1008,6 +1002,46 @@ function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-r
     el.querySelector(`#${cusClass}`).addEventListener('click', function () {
         showDeleteConfirmations(owner, repo)
     })
+}
+function fetchReposWithCache(ownerKey, reposApi, headers, classId = 'view-user-repos', tar = ".jxTzTd") {
+    const localData = localStorage.getItem(ownerKey)
+    const currentTime = new Date().getTime()
+    if (localData) {
+        const parsedData = JSON.parse(localData)
+        const localTimeStamp = new Date(parsedData.timeStamp).getTime()
+        if (currentTime - localTimeStamp < timeToSeconds(DELAY) * 1000) {
+            console.log('本地缓存数据未过期，直接使用本地数据')
+            insertReposList(parsedData.reposArray, USETIP, classId, tar)
+            return
+        }
+    }
+    getUserAllRepos(reposApi, headers)
+        .then(data => {
+            const reposArray = data.map(repo => ({
+                name: repo.name,
+                private: repo.private,
+                html_url: repo.html_url,
+                fork: repo.fork,
+                description: repo.description,
+                stargazers_count: repo.stargazers_count,
+                owner: repo.owner.login,
+                forks_count: repo.forks_count,
+                open_issues_count: repo.open_issues_count,
+                language: repo.language,
+                size: repo.size,
+                created_at: systemTime(repo.created_at),
+                updated_at: systemTime(repo.updated_at),
+                pushed_at: systemTime(repo.pushed_at),
+            }))
+            const timeStamp = new Date().toISOString()
+            const dataToStore = {
+                reposArray: reposArray,
+                timeStamp: timeStamp
+            }
+            localStorage.setItem(ownerKey, JSON.stringify(dataToStore))
+            insertReposList(reposArray, USETIP, classId, tar)
+        })
+        .catch(error => console.error('Error fetching data:', error))
 }
 function showDeleteConfirmations(owner, repo, count = 3) {
     const blacklist = ["ChinaGodMan/disk", "ChinaGodMan/LocalDev", "ChinaGodMan/Ebackup", "ChinaGodMan/portable-device", "ChinaGodMan/UserScripts"]
