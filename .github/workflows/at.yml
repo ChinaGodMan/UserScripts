@@ -12,7 +12,9 @@ jobs:
 
     steps:
     - name: 检出代码
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: 运行 authors.sh
       run: bash utils/authors.sh
