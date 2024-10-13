@@ -1,0 +1,27 @@
+name: Update Authors
+
+on:
+  push:
+    branches:
+      - main  # 推送到 main 分支时触发
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-authors:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v2
+
+    - name: 运行 authors.sh
+      run: bash utils/authors.sh
+
+    - name: 提交更改
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        git add .  # 或者具体文件，比如 git add AUTHORS.md
+        git commit -m "Update authors file"
+        git push
+    
