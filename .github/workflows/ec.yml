@@ -1,0 +1,32 @@
+name: List Deleted Branches
+
+on:
+  workflow_dispatch:  # 仅手动触发
+
+jobs:
+  list-deleted-branches:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码并获取完整历史
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # 获取所有提交历史
+
+    - name: 列出所有远程分支
+      id: list-remote
+      run: |
+        git fetch --all
+        git branch -r > remote_branches.txt
+
+    - name: 列出所有本地历史分支
+      id: list-deleted
+      run: |
+        git reflog expire --expire=now --all
+        git fsck --full --unreachable --no-reflogs | grep "commit" | awk '{print $3}' > unreachable_commits.txt
+        echo "以下是可能被删除的分支："
+        git log --all --oneline --decorate | grep -f unreachable_commits.txt
+
+    - name: 输出删除分支信息
+      run: |
+        cat unreachable_commits.txt
