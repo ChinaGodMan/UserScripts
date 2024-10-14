@@ -77,7 +77,7 @@
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           1.2.0.63
 // @description       Remove underlines from all links on any website and dynamically handle new links
-// @author            人民的勤务员<toniaiwanowskiskr47@gmail.com>
+// @author            人民的勤务员<china.qinwuyuan@gmail.com>
 // @match             *://*/*
 // @run-at            document-body
 // @license           MIT
