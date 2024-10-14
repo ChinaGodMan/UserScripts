@@ -77,7 +77,7 @@
 // @description       To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.7.0.23
-// @author            EricKwok,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            EricKwok,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
 // @match             *://github.com/*

@@ -77,7 +77,7 @@
 // @description:fr-CA Appliquez automatiquement des dégradés de couleurs à toutes les colonnes du tableau pour l’embellir
 // @grant             none
 // @match             *://*/*
-// @author            Yearly,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            Yearly,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts

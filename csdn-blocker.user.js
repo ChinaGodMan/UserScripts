@@ -3,7 +3,7 @@
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @version     1.0.0.23
 // @description 去你妈的CSDN登录复制,无需登录即可复制
-// @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author      人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match       https://blog.csdn.net/*
 // @supportURL  https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL https://github.com/ChinaGodMan/UserScripts

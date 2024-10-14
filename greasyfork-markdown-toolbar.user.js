@@ -76,9 +76,9 @@
 // @description:fr-CA Le format par défaut utilisé dans le forum estMarkdown，Ajouter un lien d’aide au format et publier un nouveau script,Barre d’outils de temps de réponse avec édition rapide activée
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @description       Select Markdown format by default, add help links, add toolbar formatting buttons for markdown
-// @author            wOxxOm, darkred, 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            wOxxOm, darkred, 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @contributor       JixunMoe
-// @contributor       人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @contributor       人民的勤务员 <china.qinwuyuan@gmail.com>
 // @license           MIT
 // @grant             GM_xmlhttpRequest
 // @include           https://greasyfork.org/*discussions/*

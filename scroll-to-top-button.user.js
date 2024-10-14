@@ -77,6 +77,7 @@
 // @description       Generate two buttons on all pages, one for smoothly scrolling back to the top and one for continuous scrolling to the bottom. Click again to stop scrolling to the bottom.
 // @version           1.2.0.72
 // @run-at            document-end
+// @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             *://*/*
 // @license           MIT
 // @grant             GM_registerMenuCommand

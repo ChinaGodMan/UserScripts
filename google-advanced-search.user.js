@@ -77,7 +77,7 @@
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.1.9.45
 // @description       Add an advanced search form to the top of the page
-// @author            shiquda &人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            shiquda &人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             *://www.google.com/search*
 // @include           *://*google*/search*
 // @grant             GM_addStyle

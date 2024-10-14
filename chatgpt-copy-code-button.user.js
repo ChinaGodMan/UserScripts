@@ -79,7 +79,7 @@
 // @description:fr-CA exister chatgpt.com Ajoutez une animation dans le coin inférieur droit du bloc de code supérieur“Copier le code”bouton et un pour ChatGPT Le bloc de code en réponse ajoute un bouton d’exportation，Invite l’utilisateur à enregistrer le code dans un fichier basé sur le langage de programmation détecté par le nom de classe du bloc de code。
 // @match             https://chatgpt.com/*
 // @match             https://share.nezhagpt.cloud/*
-// @author            YodaBets,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            YodaBets,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
