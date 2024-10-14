@@ -77,7 +77,7 @@
 // @description:fr-CA Ajouter un compteur de caractères à la zone de saisie，limité à 32732 personnages。（ChatGPT La limite est 32732 personnages。）
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           1.3.1.14
-// @author            Emree.el on instagram ,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            Emree.el on instagram ,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://chatgpt.com/*
 // @grant             none
 // @license           MIT

@@ -77,7 +77,7 @@
 
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.1.1.0
-// @author            人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://chatgpt.com/*
 // @grant             none
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues

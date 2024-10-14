@@ -4,7 +4,7 @@
 // @version     0.0.1.51
 // @description 在google搜索屏蔽指定站点
 // @license     MIT
-// @author      人民的勤务员
+// @author      人民的勤务员 <china.qinwuyuan@gmail.com>
 // @include     /^https?://(www|cse)\.google(\.\w+)+/search\?.*$/
 // @run-at      document-start
 // @grant       GM_registerMenuCommand

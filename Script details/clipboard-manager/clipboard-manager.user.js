@@ -80,7 +80,7 @@
 // @name:fr-CA        Gestionnaire d’autorisation de version de clip d’écriture de page Web
 // @description:fr-CA Gérez le comportement d’écriture des pages Web dans le presse-papiers pour empêcher la copie automatique non autorisée et désactiver le préchargement et la lecture automatique du contenu audio et vidéo.
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @author            人民的勤务员 <toniaiwanowskiskr47@gmail.com> Sky,仰望星空
+// @author            人民的勤务员 <china.qinwuyuan@gmail.com> Sky,仰望星空
 // @version           1.2.3.1
 // @include           *
 // @run-at            document-body

@@ -78,7 +78,7 @@
 
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.1.6.80
-// @author            shiquda & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            shiquda & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
 // @match             *://*/*
