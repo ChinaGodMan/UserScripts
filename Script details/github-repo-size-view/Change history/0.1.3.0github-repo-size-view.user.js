@@ -77,7 +77,7 @@
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @description       Adds the repo size next to the repo name on github search and repo pages
 // @version           0.1.3.0
-// @author            mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             *://github.com/search*
 // @match             *://github.com/*/*
 // @match             *://github.com/*?tab=repositories*

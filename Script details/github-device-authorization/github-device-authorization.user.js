@@ -75,7 +75,7 @@
 // @description:zh-HK 在GitHub授權頁面自動輸入授權碼與自動確認。
 // @name:fr-CA        GitHub Confirmer automatiquement l’autorisation de l’appareil
 // @description:fr-CA existerGitHubLa page d’autorisation saisit automatiquement le code d’autorisation et le confirme automatiquement.。
-// @author            NingMengGuoRou .人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            NingMengGuoRou .人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts

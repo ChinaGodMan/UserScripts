@@ -4,7 +4,7 @@
 // @version     1.2.3.73
 // @description 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license     MIT
-// @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com> & ChatGPT
+// @author      人民的勤务员 <china.qinwuyuan@gmail.com> & ChatGPT
 // @match       https://missav.com/*
 // @grant       GM_setValue
 // @grant       GM_getValue

@@ -76,7 +76,7 @@
 // @name:fr-CA        Github Liste des langages de code afficher tout
 // @description:fr-CA Développer Github Liste des langues sur le référentiel，Afficher chaque langue，Au lieu de cacher de petites pièces“autre”Vers le bas
 // @match             https://github.com/*
-// @author            Davoleo,人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author            Davoleo,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
