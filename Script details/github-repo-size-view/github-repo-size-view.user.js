@@ -567,11 +567,8 @@ function main(delay = 0) {
                 const headers = TOKEN ? { authorization: `token ${TOKEN}` } : {}
                 const metaElement = document.querySelector('meta[name="octolytics-actor-login"]')
                 const loginUserName = metaElement.getAttribute('content')
-                if (isMobileDevice()) {
-                    fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', '.AppHeader-search button')
-                } else {
-                    fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', '#global-create-menu-anchor')
-                }
+                const targetSelector = isMobileDevice() ? '.AppHeader-search button' : '#global-create-menu-anchor'
+                fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', targetSelector)
 
             }
         })
