@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"  # 指定依赖类型为 GitHub Actions
+    directory: "/.github/workflows"      # 指定 GitHub Actions 工作流文件所在的目录
+    schedule:
+      interval: "weekly"                 # 检查频率，您可以选择 daily, weekly, 或 monthly
