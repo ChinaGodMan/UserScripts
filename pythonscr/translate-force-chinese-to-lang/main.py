@@ -97,6 +97,7 @@ def translate_text_s(text, target_lang):
 
 
 def translate_text(text, target_lang):
+
     # 如果在缓存中，判断布尔值
     if text in translation_cache:
         cached_translation, needs_api_translation = translation_cache[text]
@@ -199,7 +200,11 @@ def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
     os.makedirs(output_dir, exist_ok=True)
 
     # 保存翻译后的文件
-    output_path = os.path.join(output_dir, f'README_{lang}.md')
+    dir_with_lang = os.path.join(output_dir, lang)
+    if not os.path.exists(dir_with_lang):
+        os.makedirs(dir_with_lang)
+    # output_path = os.path.join(output_dir, f'README_{lang}.md')
+    output_path = os.path.join(dir_with_lang, 'README.md')
     with open(output_path, 'w', encoding='utf-8') as f_out:
         f_out.writelines(new_lines)
     print(f"翻译完成，已将 {lang} 语言的结果写入 '{output_path}'。")
