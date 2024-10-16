@@ -7,9 +7,9 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本语</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
