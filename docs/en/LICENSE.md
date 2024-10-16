@@ -5,7 +5,7 @@
             <img height=14 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         &nbsp;English |
-        <a href="../LICENSE.md">简体中文</a>
+        <a href=".../LICENSE.md">简体中文</a>
     </h6>
 </div>
 
