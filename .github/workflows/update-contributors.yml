@@ -14,7 +14,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Generate Contributors Images
-              uses: jaywcjlove/github-action-contributors@main
+              uses: jaywcjlove/github-action-contributors@2.0.3
               id: contributors
               with:
                   filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
@@ -31,18 +31,12 @@ jobs:
             - name: Commit changes with GPG signature
               if: env.CHANGES_DETECTED == 'true'
               run: |
-                  # 导入GPG密钥
+                  git pull
                   gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-
-                  # 配置git用户名、邮箱和签名
                   git config --global user.name 'qinwuyuan-sync-bot'
                   git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-                  git pull
-                  # 确保所有提交都使用GPG签名
                   git config --global commit.gpgSign true
-                  # 添加文件并提交
                   git add docs/README.md
                   git commit -S -m "update contributors→\`[docs/README.md]\`" || echo "没有需要提交的更改"
-                  # 推送更改
                   git push
