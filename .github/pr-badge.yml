@@ -1,0 +1,28 @@
+- label: "Waiting for"
+  message: "QA"
+  color: yellow
+  when: "$payload.pull_request.body.includes('- [ ] QA')"
+
+- label: "预览"
+  message: "PR-$prNumber"
+  color: "blue"
+  url: "https://pr-$prNumber.company.com"
+
+- label: "Passed"
+  message: "QA"
+  color: green
+  when: "$payload.pull_request.body.includes('- [x] QA')"
+
+- label: "PR Size"
+  message: "Large"
+  color: "red"
+  when: "$additions >= 500"
+
+- label: "PR Size"
+  message: "Medium"
+  color: "yellow"
+  when: "$additions > 200 && $additions < 500"
+
+- message: "Work in Progress"
+  color: "yellow"
+  when: "$payload.pull_request.title.includes('WIP')"

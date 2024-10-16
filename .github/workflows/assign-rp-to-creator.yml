@@ -1,0 +1,46 @@
+name: assign-pr-to-creator
+
+on:
+    pull_request:
+        types: [opened]
+
+jobs:
+    assign-pr:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 自动分配审查和受理至人民的勤务员
+              uses: actions/github-script@v6
+              with:
+                  github-token: ${{ secrets.BOT_TOKEN }}
+                  script: |
+                      const prOwner = context.repo.owner;
+                      const pullRequest = context.payload.pull_request;
+                      const pull_number = pullRequest.number;
+                      const prAuthor = pullRequest.user.login; 
+
+                      // 添加受理人
+                      await github.rest.issues.addAssignees({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: pull_number, 
+                        assignees: [prOwner]  
+                      });
+
+                      // 请求审阅
+                      if (prOwner !== prAuthor) {
+                        await github.rest.pulls.requestReviewers({
+                          owner: context.repo.owner,
+                          repo: context.repo.repo,
+                          pull_number: pull_number,
+                          reviewers: [prOwner] 
+                        });
+                      } else {
+                        console.log(`跳过请求审阅，因为 PR 的作者是 ${prAuthor}，也是仓库拥有者，无需审查!`);
+                      }
+
+                      await github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: pull_number,
+                        body: `@${prAuthor} 你好,人民的勤务员将尽快审查合并此次请求！🚀  [自动回复,请勿跟帖] `
+                      });

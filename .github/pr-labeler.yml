@@ -1,0 +1,88 @@
+# .github/pr-labeler.yml
+# The bot always updates the labels, add/remove as necessary [default: false]
+alwaysReplace: false
+# Treats the text and labels as case sensitive [default: true]
+caseSensitive: true
+# Array of labels to be applied to the PR [default: []]
+customLabels:
+    # Finds the `text` within the PR title and body and applies the `label`
+    - text: "#新增"
+      label: "新功能"
+    - text: "#feature"
+      label: "feature"
+
+    - text: "#修复"
+      label: "修复"
+    - text: "#fix"
+      label: "fix"
+
+    - text: "#优化"
+      label: "优化"
+    - text: "#improvement"
+      label: "improvement"
+
+    - text: "#重构"
+      label: "重构"
+    - text: "#refactor"
+      label: "refactor"
+
+    - text: "#文档"
+      label: "文档"
+    - text: "#docs"
+      label: "docs"
+
+    - text: "#测试"
+      label: "测试"
+    - text: "#test"
+      label: "test"
+
+    - text: "#弃用"
+      label: "弃用"
+    - text: "#deprecate"
+      label: "deprecate"
+
+    - text: "#安全"
+      label: "安全"
+    - text: "#security"
+      label: "security"
+
+    - text: "#性能"
+      label: "性能"
+    - text: "#performance"
+      label: "performance"
+
+    - text: "#CI"
+      label: "CI"
+    - text: "#ci"
+      label: "ci"
+
+    - text: "#杂项"
+      label: "杂项"
+    - text: "#chore"
+      label: "chore"
+
+    - text: "#回滚"
+      label: "回滚"
+    - text: "#rollback"
+      label: "rollback"
+
+    - text: "#依赖"
+      label: "依赖"
+    - text: "#dependencies"
+      label: "dependencies"
+
+    - text: "#样式"
+      label: "样式"
+    - text: "#style"
+      label: "style"
+    - text: "#日志"
+      label: "日志"
+    - text: "#log"
+      label: "log"
+
+# Search the body of the PR for the `text` [default: true]
+searchBody: true
+# Search the title of the PR for the `text` [default: true]
+searchTitle: true
+# Search for whole words only [default: false]
+wholeWords: false
