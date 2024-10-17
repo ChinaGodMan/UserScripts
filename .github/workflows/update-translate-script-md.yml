@@ -29,5 +29,5 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "脚本说明\`[Script details/**/README.md]\`翻译→\`[Script details/**/README{_xx}.md]\`"  || echo "没有需要提交的更改"
+                  git commit -S -m "Scr:谷歌翻译[\`Script details/**/README.md\`]→[\`Script details/**/README{_xx}.md\`]"  || echo "没有需要提交的更改"
                   git push
