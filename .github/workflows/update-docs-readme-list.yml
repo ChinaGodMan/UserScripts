@@ -38,5 +38,5 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m '更新`[/docs/README.md]`内脚本列表`[docs/ScriptsPath.json→/docs/README.md]`' || echo "没有需要提交的更改"
+                  git commit -S -m '更新脚本表格[`docs/ScriptsPath.json`]→[`/docs/README.md`]' || echo "没有需要提交的更改"
                   git push
