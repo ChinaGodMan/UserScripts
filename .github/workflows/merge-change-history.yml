@@ -8,7 +8,7 @@ on:
     workflow_dispatch:
 
 concurrency:
-    group: update-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
+    group: update-qinwuyuan-UserScripts
     cancel-in-progress: false
 
 jobs:
@@ -17,48 +17,44 @@ jobs:
         steps:
             - name: 检出代码
               uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
 
             - name: 安装依赖
               run: |
                   pip install markdown
 
-            - name: 更新相关脚本
+            - name: 相关脚本
               run: |
                   python pythonscr/update-about-script/main.py
 
-            - name: 更新小徽章
+            - name: 徽章信息
               run: |
                   python pythonscr/update-shields/main.py
 
-            - name: 更新帮助
+            - name: 帮助信息
               run: |
                   python pythonscr/update-help/main.py
 
-            - name: 所有脚本添加到readme
+            - name: 所有脚本
               run: |
                   python pythonscr/update-all-script/main.py
 
-            - name: 更新变更日志
+            - name: 变更日志
               run: |
                   python pythonscr/merge-change-history/main.py
-              continue-on-error: true # 让这个步骤即使出错也不会终止整个工作流
 
             - name: 提交和推送更改
               run: |
-                  # 配置 Git 用户
                   gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
                   git config --global user.name 'qinwuyuan-sync-bot'
                   git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "集中修改\`[Script details/*/*.md]\`文件" \
-                              -m "合并日志→Change history/README.md → Script details/**/*.md" \
-                              -m "刷新徽章→SHIELDS.md → Script details/**/*.md" \
-                              -m "刷新帮助→HELP.md → Script details/**/*.md" \
-                              -m "作者推荐→ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
-                              -m "作者所有脚本→ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                  git commit -S -m "集中更新[\`Script details/*/*.md\`]" \
+                              -m "合并日志:Change history/README.md → Script details/**/*.md" \
+                              -m "刷新徽章:SHIELDS.md → Script details/**/*.md" \
+                              -m "刷新帮助:HELP.md → Script details/**/*.md" \
+                              -m "相关脚本:ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
+                              -m "所有脚本:ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
                   || echo "没有需要提交的更改"
                   git push

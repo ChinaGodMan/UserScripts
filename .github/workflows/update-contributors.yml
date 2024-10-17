@@ -14,7 +14,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Generate Contributors Images
-              uses: jaywcjlove/github-action-contributors@2.0.3
+              uses: jaywcjlove/github-action-contributors@main
               id: contributors
               with:
                   filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
@@ -38,5 +38,5 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git config --global commit.gpgSign true
                   git add docs/README.md
-                  git commit -S -m "update contributors→\`[docs/README.md]\`" || echo "没有需要提交的更改"
+                  git commit -S -m "更新[\`docs/README.md\`]内贡献者列表" || echo "没有需要提交的更改"
                   git push

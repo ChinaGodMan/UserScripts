@@ -4,7 +4,7 @@ on:
     workflow_run:
         workflows: ["update-docs-readme-list"] # 更新了仓库自述文件,触发翻译
         types:
-            - completed # 在 A 流程完成后触发
+            - completed
     workflow_dispatch:
 
 jobs:
@@ -29,5 +29,5 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "\`[docs/README.md]\`谷歌翻译→\`[docs/{vi,ko,en,jp,zh-TW}/README.md]\`" || echo "没有需要提交的更改"
+                  git commit -S -m "Repo:谷歌翻译[\`docs/README.md\`]→[\`docs/{vi,ko,en,jp,zh-TW}/README.md\`]" || echo "没有需要提交的更改"
                   git push
