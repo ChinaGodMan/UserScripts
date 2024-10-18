@@ -1,8 +1,15 @@
 name: assign-pr-to-creator
 
 on:
-    pull_request:
+    pull_request_target:
         types: [opened]
+
+permissions:
+  pull-requests: write  
+  contents: read       
+  issues: read         
+  checks: read          
+  actions: read
 
 jobs:
     assign-pr:
@@ -11,7 +18,7 @@ jobs:
             - name: 自动分配审查和受理至人民的勤务员
               uses: actions/github-script@v7
               with:
-                  github-token: ${{ secrets.BOT_TOKEN }}
+                  #github-token: ${{ secrets.BO_TOKEN }}
                   script: |
                       const prOwner = context.repo.owner;
                       const pullRequest = context.payload.pull_request;
