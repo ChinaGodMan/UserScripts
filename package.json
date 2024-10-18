@@ -1,0 +1,14 @@
+{
+  "homepage": "https://github.com/adamlui/github-star-history",
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-plugin-json": "^4.0.1",
+    "husky": "^9.1.6"
+  },
+  "scripts": {
+    "lint": "eslint . --cache",
+    "lint:all": "eslint .",
+    "lint:fix": "eslint . --fix --cache",
+    "lint:fix-all": "eslint . --fix"
+  }
+}
