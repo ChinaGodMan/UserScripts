@@ -87,7 +87,7 @@
 // @compatible        edge
 // @compatible        opera
 // @compatible        safari
-// @version           1.0.0.0
+// @version           1.1.0.0
 // @require           https://unpkg.com/js-yaml@4.1.0/dist/js-yaml.min.js
 // @resource          languageColors https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml
 // @grant             GM_getResourceText
@@ -289,6 +289,7 @@ function buildLanguagesSection(owner, repo) {
 }
 //MAIN ENTRY POINT
 function insertCustomLangStats() {
+    if (document.querySelector('.Progress.mb-2')) return
     langPercentagesMap = {}
     langColorsMap = {}
     //Selects the box element that contains files and folders on the repo page
@@ -299,6 +300,7 @@ function insertCustomLangStats() {
     const originalLangBar = document.querySelector('div.Layout-sidebar span.Progress')
     //array that is generated from the tab URL, it's structured this way: ["", "<repo_owner>", "<repo_name>"]
     const ownerRepo = window.location.pathname.split('/')
+
     //only works against github.com/ABC/DEF links
     if (ownerRepo.length === 3) {
         //retrieves necessary information about the repository's languages
