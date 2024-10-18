@@ -22,20 +22,20 @@
     'use strict'
 
     // 初始化默认屏蔽站点
-    const DEFAULT_BLOCKED_SITES = "csdn"
+    const DEFAULT_BLOCKED_SITES = 'csdn'
 
     // 获取存储的屏蔽站点列表
     function getBlockedSites() {
-        return localStorage.getItem("blockedSites") || DEFAULT_BLOCKED_SITES
+        return localStorage.getItem('blockedSites') || DEFAULT_BLOCKED_SITES
     }
 
     // 设置屏蔽站点列表
     function setBlockedSites(sites) {
-        localStorage.setItem("blockedSites", sites)
+        localStorage.setItem('blockedSites', sites)
     }
 
     // 注册油猴菜单命令
-    GM_registerMenuCommand("❌编辑屏蔽站点", function () {
+    GM_registerMenuCommand('❌编辑屏蔽站点', function () {
         showEditDialog(getBlockedSites())
     })
 
@@ -64,7 +64,7 @@
         document.getElementById('saveBtn').addEventListener('click', function () {
             const newSites = document.getElementById('sitesInput').value
             setBlockedSites(newSites)
-            alert("屏蔽站点已更新，刷新页面以生效。")
+            alert('屏蔽站点已更新，刷新页面以生效。')
             closeEditDialog()
         })
 
@@ -84,15 +84,15 @@
 
     // 获取搜索参数
     var params = new URLSearchParams(location.search),
-        q = params.get("q")
+        q = params.get('q')
 
     // 获取当前屏蔽站点列表并格式化
-    const blockedSites = getBlockedSites().split(",").map(site => `-${site.trim()}`).join(" ")
+    const blockedSites = getBlockedSites().split(',').map(site => `-${site.trim()}`).join(' ')
 
     // 如果查询参数中没有屏蔽站点，则添加
-    if (q && !blockedSites.split(" ").some(site => q.includes(site))) {
-        params.set("q", q + " " + blockedSites)
-        location.search = "?" + params.toString()
+    if (q && !blockedSites.split(' ').some(site => q.includes(site))) {
+        params.set('q', q + ' ' + blockedSites)
+        location.search = '?' + params.toString()
     }
 
 })()

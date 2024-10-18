@@ -97,7 +97,7 @@
         reversal: GM_getValue('reversal', true),
         isInstalled: GM_getValue('Installed', false),//第一次不加载.
         lastUpdated: GM_getValue('lastUpdated', 0),//上次更新时间
-        delay: GM_getValue('delay', "30m"), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
+        delay: GM_getValue('delay', '30m'), // 格式如下: 1h1m1s, 1h1s, 1m, 1s, 1m1s
         userId: null,//当前登录id
         userName: null,
         maxItem: GM_getValue('maxItem', 50),//访问时显示最大的信息数量
@@ -116,7 +116,7 @@
                 Discussions: 'Discussions',
                 title: 'GreasyFork Discussion Watcher Settings',
                 saveBtn: 'Save',
-                cancelBtn: 'Cancel',
+                cancelBtn: 'Cancel'
             }, 'zh-CN': {
                 reversal: '反转通知信息：',
                 loadingquantity: '讨论加载数量：',
@@ -172,7 +172,7 @@
                 title: 'GreasyForkディスカッションウォッチャーの設定',
                 saveBtn: '保存',
                 cancelBtn: 'キャンセル'
-            },
+            }
         }
         return (id, lang = '') => {
             const selectedLang = lang || userLang
@@ -199,7 +199,7 @@
         </div>
     `
         Swal.fire({
-            imageUrl: "https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png",
+            imageUrl: 'https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png',
             imageWidth: 96,
             imageHeight: 96,
             footer: '<div style="text-align: center;font-size: 1em;">Powered by <a href="https://www.github.com/ChinaGodMan">人民的勤务员</a></div>',
@@ -302,7 +302,7 @@
                         var parser = new DOMParser()
                         var doc = parser.parseFromString(data, 'text/html')
                         var elements = doc.querySelectorAll('.discussion-list > div > div')
-                        var discussionsHTML = ""
+                        var discussionsHTML = ''
                         var currentCount = 0
                         elements.forEach(function (element) {
                             var discussionTitle = element.querySelector('.discussion-title')
@@ -329,7 +329,7 @@
                             }
                             if (discussionInfo.lastedID === config.userId || discussionInfo.lasteduserName === config.userName) {
                                 // 最新发言ID是自己，或用户名是自己，跳过
-                                console.log("skip ")
+                                console.log('skip ')
                                 return
                             }
                             var listItemHTML = '<div class="discussion-list-item">' + element.innerHTML + '</div>'
@@ -379,7 +379,7 @@
         })
     }
     function getUserId() {
-        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
+        const profileLinkElement = document.querySelector('#nav-user-info > span.user-profile-link > a')
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
             const match = href.match(/\/users\/(\d+)-/)
@@ -403,10 +403,10 @@
             [`https://greasyfork.org/discussions?me=script&read=unread&per_page=${config.maxItem}`, translate('ScriptsDiscussions')]//添加read=unread参数,只提取未读信息,此版本为最后版本,Greasyfork已经逐步支持站内通知.
         ])
     } else {
-        console.log("没有登录,放弃操作")
+        console.log('没有登录,放弃操作')
     }
 
-    const notificationList = document.querySelector(".notification-list")
+    const notificationList = document.querySelector('.notification-list')
     if (notificationList && config.reversal) {
         const items = Array.from(notificationList.children)
         items.reverse()

@@ -112,7 +112,7 @@ function observeAndAddLinks() {
                                 DownGit
                             </a>
                             <li class="d-block d-md-none dropdown-divider github-folder-download" role="none"></li>`
-                        ulElement.insertAdjacentHTML("beforeend", _html)
+                        ulElement.insertAdjacentHTML('beforeend', _html)
                     }
                     return
                 }
@@ -161,25 +161,25 @@ function injectDownloadFolderBtn() {
                     </ul >
                 </div >
             </detials>`
-        html.insertAdjacentHTML("beforebegin", _html)
+        html.insertAdjacentHTML('beforebegin', _html)
     } else {
         observeAndAddLinks()
     }
 }
 function removeAllInjectedElem() {
-    document.querySelectorAll(".github-folder-download").forEach(elem => elem.remove())
+    document.querySelectorAll('.github-folder-download').forEach(elem => elem.remove())
 }
 function detectFoldUnfold() {
     if (document.body.clientWidth <= 1200 && !isFold) {
-        console.log("收起" + document.body.clientWidth)
+        console.log('收起' + document.body.clientWidth)
         isFold = true
     } else if (document.body.clientWidth > 1200 && isFold) {
-        console.log("展开" + document.body.clientWidth)
+        console.log('展开' + document.body.clientWidth)
         isFold = false
     }
 }
 function reinject() {
-    if (document.querySelector(".octicon.octicon-copy")) {//复制路径的元素
+    if (document.querySelector('.octicon.octicon-copy')) {//复制路径的元素
         // 仅当处于文件夹内时注入按钮
         removeAllInjectedElem()
         injectDownloadFolderBtn()
@@ -205,7 +205,7 @@ function main() {
             if (url !== lastUrl) {
                 lastUrl = url
                 setTimeout(() => {
-                    console.log("页面发生变动,")
+                    console.log('页面发生变动,')
                     callback()
                 }, delay)
             }

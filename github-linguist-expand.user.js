@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name              Github List of code languages ​​show all
-// @description       Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in“other”Down
+// @name              Github List of code languages show all
+// @description       Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
 // @name:zh-CN        Github 代码语言列表显示全部
 // @description:zh-CN 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在“其他”下
 // @name:ar           Github قائمة لغات الكود إظهار الكل
@@ -15,8 +15,8 @@
 // @description:de    Expandieren Github Liste der Sprachen im Repository，Jede Sprache anzeigen，Anstatt kleine Teile darin zu verstecken“andere”Runter
 // @name:el           Github Η λίστα των γλωσσών κώδικα εμφανίζει όλα
 // @description:el    Διαστέλλω Github Λίστα γλωσσών στο αποθετήριο，Εμφάνιση κάθε γλώσσας，Αντί να κρύβεις μικρά κομμάτια“άλλος”Κάτω
-// @name:en           Github List of code languages ​​show all
-// @description:en    Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in“other”Down
+// @name:en           Github List of code languages show all
+// @description:en    Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
 // @name:eo           Github Listo de kodlingvoj montras ĉion
 // @description:eo    Vastigi Github Listo de lingvoj sur la deponejo，Montru ĉiun lingvon，Anstataŭ kaŝi malgrandajn partojn en“aliaj”Malsupren
 // @name:es           Github Lista de lenguajes de código mostrar todo
@@ -103,7 +103,7 @@
 // @Created           2024-09-24 04:33:03
 // @modified          2024-09-24 04:33:03
 // ==/UserScript==
-let TOKEN = GM_getValue('githubToken', "")
+let TOKEN = GM_getValue('githubToken', '')
 GM_addStyle(`
     .expand-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .expand-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -166,12 +166,12 @@ function request(url, options = {}) {
     return new Promise((resolve, reject) => {
         GM_xmlhttpRequest({
             url,
-            method: options.method || "GET",
+            method: options.method || 'GET',
             headers: options.headers || {
-                Accept: "application/json",
-                "Content-Type": "application/json"
+                Accept: 'application/json',
+                'Content-Type': 'application/json'
             },
-            responseType: options.responseType || "json",
+            responseType: options.responseType || 'json',
             data: options.body || options.data,
             onload: res => resolve(res.response),
             onerror: reject
@@ -188,7 +188,7 @@ async function retrieveLanguages(user, repo) {
     try {
         return await request(`https://api.github.com/repos/${user}/${repo}/languages`, {
             headers: {
-                Accept: "application/vnd.github.v3+json",
+                Accept: 'application/vnd.github.v3+json',
                 ...(TOKEN ? { authorization: `token ${TOKEN}` } : {})
             }
         })
@@ -213,10 +213,10 @@ function buildBarSegmentSpan(name, color, percentage) {
     //Make sure there's at least 1px of width in the bar segment (fixes width of 0.0% segments)
     //TODO: investigate a better way to do this
     segment.style.paddingLeft = '1px'
-    segment.setAttribute("itemprop", "keywords")
-    segment.setAttribute("aria-label", name + ' ' + percentage)
-    segment.setAttribute("data-view-component", "true")
-    segment.setAttribute("class", "Progress-item color-bg-success-inverse lingustexpand")
+    segment.setAttribute('itemprop', 'keywords')
+    segment.setAttribute('aria-label', name + ' ' + percentage)
+    segment.setAttribute('data-view-component', 'true')
+    segment.setAttribute('class', 'Progress-item color-bg-success-inverse lingustexpand')
     return segment
 }
 /**
@@ -265,16 +265,17 @@ function buildLanguageChip(owner, repo, name, color, percentage) {
  * @returns The full section with complete repository language stats
  */
 function buildLanguagesSection(owner, repo) {
-    const languageSection = document.createElement("div")
-    languageSection.classList.add("mb-3", "mt-1")
+    const languageSection = document.createElement('div')
+    languageSection.classList.add('mb-3', 'mt-1')
     const bar = document.createElement('span')
-    bar.classList.add("Progress", 'mb-2')
-    bar.setAttribute("data-view-component", "true")
+    bar.classList.add('Progress', 'mb-2')
+    bar.setAttribute('data-view-component', 'true')
     Object.keys(langColorsMap).forEach((lang, i) => {
         const segment = buildBarSegmentSpan(lang, langColorsMap[lang], langPercentagesMap[lang])
         //if (i !== 0) {
         //    segment.style.setProperty('margin-left', '1px');
         //}
+        console.log(`当前语言为第${i}个`)
         bar.appendChild(segment)
     })
     languageSection.append(bar)
@@ -291,11 +292,11 @@ function insertCustomLangStats() {
     langPercentagesMap = {}
     langColorsMap = {}
     //Selects the box element that contains files and folders on the repo page
-    const mainContent = document.querySelector(".Box-sc-g0xbh4-0.iNSVHo")
+    const mainContent = document.querySelector('.Box-sc-g0xbh4-0.iNSVHo')
     if (!mainContent)
-        throw Error("mainContent Hook Selector is dead!")
+        throw Error('mainContent Hook Selector is dead!')
     //The original language bar in the sidebar
-    const originalLangBar = document.querySelector("div.Layout-sidebar span.Progress")
+    const originalLangBar = document.querySelector('div.Layout-sidebar span.Progress')
     //array that is generated from the tab URL, it's structured this way: ["", "<repo_owner>", "<repo_name>"]
     const ownerRepo = window.location.pathname.split('/')
     //only works against github.com/ABC/DEF links
