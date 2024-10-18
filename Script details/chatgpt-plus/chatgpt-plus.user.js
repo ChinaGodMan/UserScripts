@@ -100,12 +100,12 @@
             max-width: 100%;
         }`
         function applyStyles() {
-            if (typeof GM_addStyle !== "undefined") {
+            if (typeof GM_addStyle !== 'undefined') {
                 GM_addStyle(css)
             } else {
-                let styleNode = document.createElement("style")
+                let styleNode = document.createElement('style')
                 styleNode.appendChild(document.createTextNode(css));
-                (document.querySelector("head") || document.documentElement).appendChild(styleNode)
+                (document.querySelector('head') || document.documentElement).appendChild(styleNode)
             }
         }
         applyStyles()

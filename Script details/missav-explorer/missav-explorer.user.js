@@ -81,7 +81,7 @@
             name = document.querySelector('meta[name="twitter:title"]').content
         } else {
             const twitterTitleContent = document.querySelector('meta[name="twitter:title"]').content
-            name = prompt("请输入自定义名称：", twitterTitleContent)
+            name = prompt('请输入自定义名称：', twitterTitleContent)
             if (name === null) {
                 name = twitterTitleContent
             }
@@ -136,17 +136,17 @@
     var allResults = [] // 存储所有的结果数据
     var zip = new JSZip() // 创建一个压缩文件实例
     var allzip = new JSZip() // 另一个可能的压缩文件实例
-    var imgFolder = zip.folder("img") // 在 zip 中创建一个名为 "img" 的文件夹，用于存储图片文件
-    var allimgFolder = allzip.folder("img") // 在 allzip 中创建一个名为 "img" 的文件夹，可能用于另一个压缩文件的图片存储
+    var imgFolder = zip.folder('img') // 在 zip 中创建一个名为 "img" 的文件夹，用于存储图片文件
+    var allimgFolder = allzip.folder('img') // 在 allzip 中创建一个名为 "img" 的文件夹，可能用于另一个压缩文件的图片存储
     var ALLfiledown = false // 标识是否所有文件已下载完毕的布尔变量
     var videos = [] // 存储视频文件或相关信息的数组
     var finalData = [] // 存储最终处理数据的数组
-    var inurl = "" // 当前下载地址的变量
+    var inurl = '' // 当前下载地址的变量
     var pendingRequests = 0 // 当前待处理的请求数量
     var delayTime // 延迟时间，以毫秒为单位，用于控制异步操作的时间间隔
     var currentPage = 1 // 当前处理的页数，可能用于分页处理或其他进度跟踪
     var currentUrlIndex = 0 // 当前处理的 urls 数组中的索引位置
-    var name = "" // 当前下载的名称
+    var name = '' // 当前下载的名称
     var urls = [] // 存储需要处理的网址数组
     var a = -1 // 循环中的计数或索引，初始值为 -1
     var allZipContents = [] // 存储所有压缩文件内容的数组
@@ -164,7 +164,7 @@
     var downloadLog = {}
     var errorLogs = {}
     var downloadLogFileA = false // 这里设置为 true 时载日志
-    var webdavfold = "missavsave"
+    var webdavfold = 'missavsave'
     //var   webdavfold="1111";
     var savetowebdav = false
     var webdavUrl = ''
@@ -176,20 +176,20 @@
         zip = new JSZip() // 重置为一个新的 JSZip 实例，用于创建新的压缩文件
         allzip = new JSZip() // 可能是另一个新的 JSZip 实例，用于其他用途的压缩文件
         if (saveImage) {
-            imgFolder = zip.folder("img") // 在 zip 中创建一个名为 "img" 的文件夹，用于存储图片文件
-            allimgFolder = allzip.folder("img") // 在 allzip 中创建一个名为 "img" 的文件夹，可能用于另一个压缩文件的图片存储
+            imgFolder = zip.folder('img') // 在 zip 中创建一个名为 "img" 的文件夹，用于存储图片文件
+            allimgFolder = allzip.folder('img') // 在 allzip 中创建一个名为 "img" 的文件夹，可能用于另一个压缩文件的图片存储
         }
         downloadLog = {}
         errorLogs = {}
         ALLfiledown = false // 重置为 false，表示所有文件未下载完毕
         videos = [] // 清空存储视频文件或相关信息的数组
         finalData = [] // 清空存储最终处理数据的数组
-        inurl = "" // 重置当前下载地址为空字符串
+        inurl = '' // 重置当前下载地址为空字符串
         pendingRequests = 0 // 重置待处理的请求数量为 0
 
         currentPage = 1 // 重置当前处理的页数为 1
         currentUrlIndex = 0 // 重置当前处理的 urls 数组索引为 0
-        name = "" // 重置当前下载的名称为空字符串
+        name = '' // 重置当前下载的名称为空字符串
         urls = [] // 清空存储需要处理的网址数组
         a = -1 // 重置循环中的计数或索引为 -1
         allZipContents = [] // 清空存储所有压缩文件内容的数组
@@ -207,14 +207,14 @@
         for (const url of urls) {
             a = a + 1 // 每次循环递增 a
             inurl = url
-            console.log("正在处理网址:", url, names[a])
-            window.addToLog("处理:" + url + names[a], 'info')
+            console.log('正在处理网址:', url, names[a])
+            window.addToLog('处理:' + url + names[a], 'info')
             name = names[a]
 
             try {
                 const totalPages = await getTotalPages(url) // 等待 getTotalPages 返回结果
-                console.log("Total pages for", url, ":", totalPages) // 显示总页数
-                window.addToLog(name + " 总页数:" + url + totalPages, 'info')
+                console.log('Total pages for', url, ':', totalPages) // 显示总页数
+                window.addToLog(name + ' 总页数:' + url + totalPages, 'info')
                 allpages = totalPages
                 start(totalPages) // 启动处理流程
 
@@ -225,7 +225,7 @@
 
                 completedTasks++ // 标记当前任务已完成
             } catch (error) {
-                console.error("Error processing URL:", url, error) // 处理错误信息
+                console.error('Error processing URL:', url, error) // 处理错误信息
                 allpages = 1
                 start(1) // 启动处理流程
                 while (pendingRequests > 0) {
@@ -278,19 +278,19 @@
                             // 调用 processUrls 函数处理 URLs
                         } else {
                             console.error('JSON 格式无效')
-                            showModal("JSON 格式无效", 2000)
+                            showModal('JSON 格式无效', 2000)
                         }
                     } catch (error) {
                         console.error('Error parsing JSON:', error)
-                        showModal("解析错误" + error, 2000)
+                        showModal('解析错误' + error, 2000)
                     }
                 } else {
                     console.error('Request failed with status:', response.status)
-                    showModal("解析错误", 2000)
+                    showModal('解析错误', 2000)
                 }
             },
             onerror: function (error) {
-                showModal("解析错误" + error, 2000)
+                showModal('解析错误' + error, 2000)
             }
         })
     }
@@ -316,11 +316,11 @@
     }
     function settime() {
         // 让用户输入延时时间
-        delayTime = prompt("请输入每页请求的延时时间（毫秒）：", "1000")
+        delayTime = prompt('请输入每页请求的延时时间（毫秒）：', '1000')
 
         // 检查用户是否取消输入
         if (delayTime === null) {
-            alert("输入取消")
+            alert('输入取消')
             return
         }
 
@@ -328,7 +328,7 @@
 
         // 检查输入的延时时间是否有效
         if (isNaN(delayTime) || delayTime <= 0) {
-            alert("请输入有效的延时时间（正整数）！")
+            alert('请输入有效的延时时间（正整数）！')
             return
         }
 
@@ -358,9 +358,9 @@
 
             // 发起 GM_xmlhttpRequest 请求获取页面内容
             GM_xmlhttpRequest({
-                method: "GET",
+                method: 'GET',
                 url: url,
-                headers: { "Cookie": document.cookie },
+                headers: { 'Cookie': document.cookie },
                 onload: function (response) {
                     // 处理响应
                     if (response.status === 200) {
@@ -424,9 +424,9 @@
             showModal(`正在获取 ${name} 第 ${pageNum} / ${allpages} 页`)
         }
         GM_xmlhttpRequest({
-            method: "GET",
+            method: 'GET',
             url: pageUrl,
-            headers: { "Cookie": document.cookie },
+            headers: { 'Cookie': document.cookie },
             onload: function (response) {
                 if (response.status === 200) {
                     processPageContent(response.responseText, pageNum, pages, callback)
@@ -623,7 +623,7 @@
                 videoUrl: div.querySelector('video').getAttribute('data-src'),
                 markContent: Array.from(div.querySelectorAll('span')).map(mark => mark.textContent).join(' '),
                 altText: div.querySelector('img').getAttribute('alt'),
-                jumpUrl: div.querySelector('a').getAttribute('href'),
+                jumpUrl: div.querySelector('a').getAttribute('href')
 
             }
 
@@ -639,7 +639,7 @@
             if (video.imgUrl && video.altText) {
                 videos.push(video)
                 if (saveImage) {
-                    window.addToLog(`保存` + video.imgUrl, 'info')
+                    window.addToLog('保存' + video.imgUrl, 'info')
                     pendingRequests++
                     GM_xmlhttpRequest({
                         method: 'GET',
@@ -649,10 +649,10 @@
                             if (response.status === 200) {
                                 if (saveImage) {
                                     if (singleFileDownload) {
-                                        console.log("这是单个文件下载")
+                                        console.log('这是单个文件下载')
                                         imgFolder.file(`${video.fileName}.jpg`, response.response, { binary: true })
                                     } else {
-                                        console.log("这是批量文件下载")
+                                        console.log('这是批量文件下载')
                                         allimgFolder.file(`${video.fileName}.jpg`, response.response, { binary: true })
                                     }
                                 }
@@ -739,14 +739,14 @@
 
             }
             if (singleFileDownload) {
-                showModal("获取完毕，正在生成单个文件...")
+                showModal('获取完毕，正在生成单个文件...')
 
                 finalData = {
                     info: additionalInfo,
                     video: videos
                 }
                 if (saveJson) {
-                    zip.file("data.json", JSON.stringify(finalData, null, 4))
+                    zip.file('data.json', JSON.stringify(finalData, null, 4))
                 }
                 if (savetowebdav) {
 
@@ -775,7 +775,7 @@
                     zip.file(`${sanitizeFileName(name)}.html`, jsonIndexContent)
 
                     // 生成并下载单个文件
-                    zip.generateAsync({ type: "blob" }, function updateCallback(metadata) {
+                    zip.generateAsync({ type: 'blob' }, function updateCallback(metadata) {
                         const progress = metadata.percent.toFixed(2)
                         showModal(`压缩进度: ${progress}%`)
                     }).then(content => {
@@ -816,7 +816,7 @@
     }
     function downloadAllZips() {
         if (singleFileDownload === false) {
-            showModal("获取完毕，正在生成压缩文件...")
+            showModal('获取完毕，正在生成压缩文件...')
 
             const numFiles = Object.keys(allzip.files).length // 获取压缩包中文件的数量
 
@@ -848,7 +848,7 @@
 
 
 
-            allzip.generateAsync({ type: "blob" }, function updateCallback(metadata) {
+            allzip.generateAsync({ type: 'blob' }, function updateCallback(metadata) {
                 const progress = metadata.percent.toFixed(2)
                 showModal(`压缩进度: ${progress}%`)
             }).then(content => {
@@ -1073,7 +1073,7 @@
                 row.appendChild(nameCell)
 
                 const urlCell = document.createElement('td')
-                const fullUrl = "https://missav.com/playlists/" + data[i].key
+                const fullUrl = 'https://missav.com/playlists/' + data[i].key
                 const link = document.createElement('a')
                 link.textContent = fullUrl
                 link.href = fullUrl
@@ -1190,7 +1190,7 @@
                         if (temporaryData[index]) {
                             // 将选中的名称和URL推送到全局变量
                             names.push(temporaryData[index].name)
-                            urls.push("https://missav.com/playlists/" + temporaryData[index].key)
+                            urls.push('https://missav.com/playlists/' + temporaryData[index].key)
                             anyCheckboxChecked = true
                         } else {
                             console.error(`temporaryData[${index}] is undefined or null.`)
@@ -1492,12 +1492,12 @@
                 if (loginResponse.status === 207) {
                     console.log('登录成功')
                     // 登录成功后，可以执行其他操作
-                    showModal("Webdav登录成功！", 1000)
+                    showModal('Webdav登录成功！', 1000)
                     return true // 返回登录成功标志
                 } else {
                     console.error('登录失败:', loginResponse.status)
                     if (retryCount === 1) {
-                        showModal("Webdav登录失败！" + loginResponse.status, 1000)
+                        showModal('Webdav登录失败！' + loginResponse.status, 1000)
                         return false // 返回登录失败标志
                     } else {
                         retryCount-- // 减少重试次数
@@ -1507,7 +1507,7 @@
 
             // 如果重试次数用尽仍未登录成功，执行其他操作（可根据实际情况添加代码）
             console.error('重试次数用尽，登录失败')
-            showModal("Webdav登录失败！重试次数用尽", 1000)
+            showModal('Webdav登录失败！重试次数用尽', 1000)
             return false
         }
 
@@ -1538,7 +1538,7 @@
 
                     let fileCount = 0
                     //let fileList = `<div class="custom-hr"></div>`;
-                    let fileList = ""
+                    let fileList = ''
 
                     for (let i = 0; i < responses.length; i++) {
                         const href = decodeURIComponent(responses[i].getElementsByTagNameNS('DAV:', 'href')[0].textContent.trim())
@@ -1727,7 +1727,7 @@
         async function deleteFileFromServer(folderName, fileName) {
             const DELETE = {
                 method: 'DELETE',
-                path: folderName + '/' + fileName,
+                path: folderName + '/' + fileName
             }
 
             return new Promise((resolve, reject) => {
@@ -2073,7 +2073,7 @@
                     { button: deleteSelectedButton, offsetHeight: true },
                     { button: downloadSelectedButton, offsetHeight: true },
                     { button: searchButton, offsetHeight: true },
-                    { button: closeXButton, offsetHeight: true },
+                    { button: closeXButton, offsetHeight: true }
 
 
                     // 添加更多按钮对象，如果有的话
@@ -2159,7 +2159,7 @@
                 // 更新文件数量标签内容
                 const fileCountLabel = document.getElementById('fileCountLabel')
                 if (fileCountLabel) {
-                    fileCountLabel.textContent = `搜索数量: `
+                    fileCountLabel.textContent = '搜索数量: '
                 }
 
                 // 更新包裹文件数量的元素内容

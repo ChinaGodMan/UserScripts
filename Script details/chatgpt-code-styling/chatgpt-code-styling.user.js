@@ -92,19 +92,18 @@ function addCustomCSS() {
             white-space: pre-wrap !important; /* 设置自动换行 */
             word-break: break-word !important; /* 设置单词断行 */
         }
- 
         pre {
             overflow-x: auto !important; /* 允许水平滚动 */
         }
     `
 
     function applyStyles() {
-        if (typeof GM_addStyle !== "undefined") {
+        if (typeof GM_addStyle !== 'undefined') {
             GM_addStyle(css)
         } else {
-            let styleNode = document.createElement("style")
+            let styleNode = document.createElement('style')
             styleNode.appendChild(document.createTextNode(css));
-            (document.querySelector("head") || document.documentElement).appendChild(styleNode)
+            (document.querySelector('head') || document.documentElement).appendChild(styleNode)
         }
     }
 

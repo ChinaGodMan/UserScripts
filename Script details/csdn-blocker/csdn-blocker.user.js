@@ -22,31 +22,31 @@
 
     timeoutAfterLoad(() => {
         // 修改复制按钮
-        document.querySelectorAll(".hljs-button").forEach((e) => {
-            e.setAttribute("data-title", "点击复制")
-            e.classList.remove("signin")
-            e.removeAttribute("onclick")
-            e.addEventListener("click", () => {
-                e.setAttribute("data-title", " ")
+        document.querySelectorAll('.hljs-button').forEach((e) => {
+            e.setAttribute('data-title', '点击复制')
+            e.classList.remove('signin')
+            e.removeAttribute('onclick')
+            e.addEventListener('click', () => {
+                e.setAttribute('data-title', ' ')
                 navigator.clipboard.writeText(e.parentNode.innerText)
-                e.setAttribute("data-title", "复制成功")
-                setTimeout(() => e.setAttribute("data-title", "点击复制"), 1200)
+                e.setAttribute('data-title', '复制成功')
+                setTimeout(() => e.setAttribute('data-title', '点击复制'), 1200)
             })
         })
 
         // 复制功能
-        document.querySelector(".blog-content-box").addEventListener(
-            "copy",
+        document.querySelector('.blog-content-box').addEventListener(
+            'copy',
             (e) => {
                 e.stopPropagation()
                 e.preventDefault()
 
                 navigator.clipboard.writeText(window.getSelection().toString())
             },
-            true,
+            true
         )
         document.addEventListener(
-            "keydown",
+            'keydown',
             (e) => {
                 if (e.ctrlKey && e.keyCode == 67) { // Ctrl+C
                     e.stopPropagation()
@@ -55,7 +55,7 @@
                     navigator.clipboard.writeText(window.getSelection().toString())
                 }
             },
-            true,
+            true
         )
 
         document.oncopy = null
