@@ -33,6 +33,8 @@
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509889">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Github 代码语言列表显示全部 更新日志</strong></h1>
+<h3><strong>📅 2024-10-19 07:36:03- Ver 1.1.0.0</strong></h3>
+<p><strong>修复</strong>: •同一个仓库切换<code>选项卡</code>导致<code>URL</code>变化,重复添加的问题<br></p>
 <h3><strong>📅 2024-09-24 04:33:03- Ver 1.0.0.0</strong></h3>
 <p><strong>修复</strong>: •修复元素失效问题<br>
 <strong>新增</strong>: •允许设置 Token 访问自己的私人仓库<br>
