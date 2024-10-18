@@ -52,5 +52,5 @@ jobs:
                   git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  
                   git pull
                   git add .
-                  git commit  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
+                  git commit -n  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
                   git push

@@ -50,7 +50,7 @@ jobs:
                   git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
                   git pull
                   git add .
-                  git commit -S -m "集中更新[\`Script details/*/*.md\`]" \
+                  git commit -n -S -m "集中更新[\`Script details/*/*.md\`]" \
                               -m "合并日志:Change history/README.md → Script details/**/*.md" \
                               -m "刷新徽章:SHIELDS.md → Script details/**/*.md" \
                               -m "刷新帮助:HELP.md → Script details/**/*.md" \
