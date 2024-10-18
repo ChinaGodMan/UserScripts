@@ -146,7 +146,7 @@
             break
         }
         if (!vaildResult) {
-            console.warn("The matrix is not symmetric.")
+            console.warn('The matrix is not symmetric.')
             return null
         }
         for (i = 0; i < n; i++) ev.push(a[i][i])
@@ -481,15 +481,15 @@ jStat.PCA = function PCA(X) {
             if (isGoogleSearch && value) {
                 let q = value.replace('g ', '')
 
-                let m = "-inurl%3A%22%2Fusers%2F%22+-inurl%3A%22%2Fdiscussions%22-inurl%3A%22%2Fstats%22+-inurl%3A%22%2Ffeedback%22+-inurl%3A%22%2Fcode%22+-inurl%3A%22q%3D%22+-inurl%3A%22%2Fby-site%2F%22+inurl%3A%22%2Fscripts%2F%22+site%3A"
+                let m = '-inurl%3A%22%2Fusers%2F%22+-inurl%3A%22%2Fdiscussions%22-inurl%3A%22%2Fstats%22+-inurl%3A%22%2Ffeedback%22+-inurl%3A%22%2Fcode%22+-inurl%3A%22q%3D%22+-inurl%3A%22%2Fby-site%2F%22+inurl%3A%22%2Fscripts%2F%22+site%3A'
                 var currentUrl = window.location.origin
-                var index1 = currentUrl.indexOf("sleazyfork")
-                var index2 = currentUrl.indexOf("greasyfork")//搜索
+                var index1 = currentUrl.indexOf('sleazyfork')
+                var index2 = currentUrl.indexOf('greasyfork')//搜索
                 if (index2 !== -1) {
-                    m = m + "greasyfork.org"
+                    m = m + 'greasyfork.org'
                 }
                 if (index1 !== -1) {
-                    m = m + "sleazyfork.org"
+                    m = m + 'sleazyfork.org'
                 }
                 let lr = useLang ? `&lr=lang_${useLang}` : ''
                 evt.preventDefault()
@@ -510,7 +510,7 @@ jStat.PCA = function PCA(X) {
                 copyAttr('action')
                 copyAttr('accept-charset')
                 copyAttr('method')
-                newForm.innerHTML = `<input name="q" type="hidden" value="" /><input name="site" type="hidden" /><input name="language" type="hidden" value="all" /><input name="sort" type="hidden" />`
+                newForm.innerHTML = '<input name="q" type="hidden" value="" /><input name="site" type="hidden" /><input name="language" type="hidden" value="all" /><input name="sort" type="hidden" />'
 
 
                 const nq = newForm.querySelector('input[name="q"]')
@@ -566,7 +566,7 @@ jStat.PCA = function PCA(X) {
                         for (const key of keys) {
                             let e = `.list-option:not(.list-current) a[href$="sort=${key}"]`
                             if (key === 'nil') {
-                                e = `.list-option:not(.list-current) a[href]:not([href*="sort="])`
+                                e = '.list-option:not(.list-current) a[href]:not([href*="sort="])'
                                 e = sorting.querySelector(e)
                             } else {
                                 e = sorting.querySelector(e)

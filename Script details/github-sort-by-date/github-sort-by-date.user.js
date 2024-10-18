@@ -117,7 +117,7 @@
         var files = document.querySelector('[aria-labelledby="folders-and-files"] tbody')
         var children = [...files.children]
         files.replaceChildren(
-            children[0], ...[...files.querySelectorAll('.react-directory-row')].sort((a, b) => new Date(a.querySelector('relative-time').datetime) < new Date(b.querySelector('relative-time').datetime) ? 1 : -1), children.at(-1),
+            children[0], ...[...files.querySelectorAll('.react-directory-row')].sort((a, b) => new Date(a.querySelector('relative-time').datetime) < new Date(b.querySelector('relative-time').datetime) ? 1 : -1), children.at(-1)
         )
         console.log('已按文件更新日期排序')
     }

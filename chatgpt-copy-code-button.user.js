@@ -38,13 +38,13 @@
 // @name:it           ChatGPT Chatta copia il codice ed esporta i pulsanti del codice
 // @description:it    esistere chatgpt.com Aggiungi un’animazione nell’angolo in basso a destra del blocco di codice superiore“Copia il codice”pulsante e un for ChatGPT Il blocco di codice in risposta aggiunge il pulsante di esportazione，Richiede all’utente di salvare il codice in un file in base al linguaggio di programmazione rilevato dal nome della classe del blocco di codice。
 // @name:ja           ChatGPT チャットのコードのコピー ボタンとコードのエクスポート ボタン
-// @description:ja    存在する chatgpt.com 上部のコード ブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタンと for ChatGPT 応答のコード ブロックはエクスポート ボタンを追加します，コード ブロックのクラス名によって検出されたプログラミング言語に基づいて、コードをファイルに保存するようにユーザーにプロンプ​​トを表示します。。
+// @description:ja    存在する chatgpt.com 上部のコード ブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタンと for ChatGPT 応答のコード ブロックはエクスポート ボタンを追加します，コード ブロックのクラス名によって検出されたプログラミング言語に基づいて、コードをファイルに保存するようにユーザーにプロンプトを表示します。。
 // @name:ka           ChatGPT ჩეთის კოპირების კოდის და ექსპორტის კოდის ღილაკები
 // @description:ka    არსებობს chatgpt.com დაამატეთ ანიმაცია ზედა კოდის ბლოკის ქვედა მარჯვენა კუთხეში“დააკოპირეთ კოდი”ღილაკი და ამისთვის ChatGPT კოდის ბლოკი პასუხად ამატებს ექსპორტის ღილაკს，სთხოვს მომხმარებელს შეინახოს კოდი ფაილში კოდის ბლოკის კლასის სახელით აღმოჩენილი პროგრამირების ენის საფუძველზე。
 // @name:ko           ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼
 // @description:ko    존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”버튼과 ChatGPT 응답으로 코드 블록에 내보내기 버튼이 추가됩니다.，코드 블록의 클래스 이름으로 감지된 프로그래밍 언어를 기반으로 파일에 코드를 저장하라는 메시지를 사용자에게 표시합니다.。
 // @name:nl           ChatGPT Chat kopieer code en exportcodeknoppen
-// @description:nl    bestaan chatgpt.com Voeg een animatie toe in de rechter benedenhoek van het bovenste codeblok“Kopieer code”knop en een voor ChatGPT Codeblok als reactie voegt een exportknop toe，Vraagt ​​de gebruiker om code op te slaan in een bestand op basis van de programmeertaal die wordt gedetecteerd door de klassenaam van het codeblok。
+// @description:nl    bestaan chatgpt.com Voeg een animatie toe in de rechter benedenhoek van het bovenste codeblok“Kopieer code”knop en een voor ChatGPT Codeblok als reactie voegt een exportknop toe，Vraagt de gebruiker om code op te slaan in een bestand op basis van de programmeertaal die wordt gedetecteerd door de klassenaam van het codeblok。
 // @name:nb           ChatGPT Chat kopier kode og eksport kode knapper
 // @description:nb    eksistere chatgpt.com Legg til en animasjon i nedre høyre hjørne av den øvre kodeblokken“Kopier koden”knapp og en for ChatGPT Kodeblokk som svar legger til eksportknapp，Ber brukeren om å lagre kode i en fil basert på programmeringsspråket oppdaget av kodeblokkens klassenavn。
 // @name:pl           ChatGPT Przyciski kopiowania kodu i eksportowania kodu na czacie
@@ -361,10 +361,10 @@
                         {
                             description: language,
                             accept: {
-                                [mimeType]: [fileExtension],
-                            },
-                        },
-                    ],
+                                [mimeType]: [fileExtension]
+                            }
+                        }
+                    ]
                 })
                 const writable = await fileHandle.createWritable()
                 await writable.write(blob)

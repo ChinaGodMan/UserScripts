@@ -120,7 +120,7 @@
             dragTimeOut: 'Drag timeout duration',
             settings: '⚙️ Settings',
             saveBtn: 'Save',
-            cancelBtn: 'Cancel',
+            cancelBtn: 'Cancel'
         },
         'zh-CN,zh,zh-SG': {
             actionMode: '选择触发方式',
@@ -169,7 +169,7 @@
             showCountdown: '顯示倒數計時進度條',
             saveWindowConfig: '記錄窗口位置',
             showCountdowndrag: '顯示拖曳逾時進度條',
-            dragTimeOut: '拖曳逾時時間',
+            dragTimeOut: '拖曳逾時時間'
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -190,7 +190,7 @@
             showCountdown: 'カウントダウン進行状況を表示',
             saveWindowConfig: 'ウィンドウの位置を記録',
             showCountdowndrag: 'ドラッグタイムアウトの進行状況バーを表示',
-            dragTimeOut: 'ドラッグタイムアウト時間',
+            dragTimeOut: 'ドラッグタイムアウト時間'
         },
         'vi': {
             actionMode: 'Chọn chế độ kích hoạt',
@@ -211,29 +211,29 @@
             showCountdown: 'Hiển thị thanh tiến trình đếm ngược',
             saveWindowConfig: 'Ghi lại vị trí cửa sổ',
             showCountdowndrag: 'Hiển thị thanh tiến trình quá hạn khi kéo thả',
-            dragTimeOut: 'Thời gian quá hạn khi kéo thả',
+            dragTimeOut: 'Thời gian quá hạn khi kéo thả'
         }
     }
     const getTranslations = (lang) => {
         for (const key in translations) {
-            if (key === lang || key.split(",").includes(lang)) {
+            if (key === lang || key.split(',').includes(lang)) {
                 return translations[key]
             }
         }
-        return translations["en"]
+        return translations['en']
     }
     const translate = new Proxy(
         function (key) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[key] || translations["en"][key]
+            return strings[key] || translations['en'][key]
         },
         {
             get(target, prop) {
                 const lang = userLang
                 const strings = getTranslations(lang)
-                return strings[prop] || translations["en"][prop]
-            },
+                return strings[prop] || translations['en'][prop]
+            }
         }
     )
     'use strict'
@@ -245,7 +245,7 @@
         progressBar: null,
         dragprogressBar: null,
         dragintervalId: null,
-        startTime: null,
+        startTime: null
     }
     function getWindowConfig() {
         const windowConfigs = GM_getValue('SitewindowConfigs', [
@@ -330,7 +330,7 @@
     reWindowConfig()
     function openSettings() {
         Swal.fire({
-            imageUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEYklEQVR4nO3VW0yTZxzH8QI9ACbb4g3J3OR2Zm64uaVXu/BChkMUhAotUlrKUQUqqLhDRnDJLnZQoLvYxRLneQSB0tLSw1ugnE9KC7y05QwFVDxBdt/fUhhb2dS97+sLvEv4J89NE5rP98mfpzze9mzP9rxwxNe84shLrjnRhQFfUHE/gov6EFzUg+Az3QhRdyGksAMhBe3g57eBn28H/3QL+KeaIThpgyCPgCDXCmGuGcIcE4TZjRBlGSDKbIBIpYdIVY/QDC1ClXUIVdQgLP0OwuTVCJNXITztN7ymrPJFFusXPv6uNYbHZMS3vOLQr5y+oHMDCDp7F5sdEH7iNsJTb+INxW3f/m9bxbQDdl92z/HOO7DVATtkNxBZpPPSDhB+OejjSsDr8ls+2gG8Eie4ErBDeh20/V+MLONzchkXyCWUDC+hZOgZzg89xbnBpzg7+ATFzicocjxeOWcGHkE98AiF9xZRcG8R+XcfIr//IU73P8Cpvgc42Xcfeb33kduzsHJyuueR3T2PrK45ZHbOQdXpharDi4yOWSjbZ6Fom0F62zTSW6chb51Cmn2KfgCX8CdaJukHrMc/21J8KpMArtx8asskZM0TDAI4hJcxCeASXto0Tj+AS/gUG4MALuGTbWP0A7iEP04wCOASXkKMMgvgCl5iZRDAJXySxUM/gEv4RCYBXMIfM7vpB3AJn8Ak4J/4vJ555HTOIrt9ZuVktU0js20aqtYpZNinoLRPQtkyCUXLBNLtk6zi400uBgGBN9+7ALlpCOKfDfjoJx32a1bPh5p6fFD599n35zlwlUCqhWQNH88kIHBtcrq8OHTTDoFaQ/kc+JVAWvM4K/ijjSP0A9btfPc8MppGEVVeSzlgX6UWqbYxVvBHjAwC/vUP2zUHhc2DqApqEVEVWsiIUVbwcUaSfsBzX5tOL+RWN/ZeqqEQUAcpMcoK/rCBQcDznkpV+yxkRgd2f3ODUkCK1cMKPtYwzCyAKd5/3i9fDWADH9swRD/gVfBrAckWNyv4z/QMAl4FvxpQi+NmNyv4Q/pB+gFreKnBgbcvXn8pdlfZNez5vnrdZ+9droXE7GIFH6NjEKBqn6F087vKriJB2w+JwYl3f7yzLiDJ5GIF/6nOST9AanD8TuXmj2n7ILWNQtY0DkmDA3t+qP7rdyDRNMIKPrreuURPn18hivj6yiJl/NpTSYwhUT+AT36xIK62F0kWNxt4HNQ6qqjjS0uF/EKNjsrarMMHvDZJFhckFg8r+Git43FMjfOtTcOztfMHtc5l/82ziheoK0280iuhgX+WQkxEJNvGSNr4hmHPEa3rTeqrsQH4wAiJ1UP+L/GBEYlmN7m5eB6Px1dr6v7jV9Xof5WofFccMRGRYHaRm4b3D1+tmWEDvzZxxGBEvMlFbgreP8KiyncEhZoFJmvzsoijjSPkhuNfHMEcvzYS0/DOw0byYqyBLIs2De/kbfQICsr3+teJX1hZS3dttnL+AHpvNumR+ceNAAAAAElFTkSuQmCC",
+            imageUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEYklEQVR4nO3VW0yTZxzH8QI9ACbb4g3J3OR2Zm64uaVXu/BChkMUhAotUlrKUQUqqLhDRnDJLnZQoLvYxRLneQSB0tLSw1ugnE9KC7y05QwFVDxBdt/fUhhb2dS97+sLvEv4J89NE5rP98mfpzze9mzP9rxwxNe84shLrjnRhQFfUHE/gov6EFzUg+Az3QhRdyGksAMhBe3g57eBn28H/3QL+KeaIThpgyCPgCDXCmGuGcIcE4TZjRBlGSDKbIBIpYdIVY/QDC1ClXUIVdQgLP0OwuTVCJNXITztN7ymrPJFFusXPv6uNYbHZMS3vOLQr5y+oHMDCDp7F5sdEH7iNsJTb+INxW3f/m9bxbQDdl92z/HOO7DVATtkNxBZpPPSDhB+OejjSsDr8ls+2gG8Eie4ErBDeh20/V+MLONzchkXyCWUDC+hZOgZzg89xbnBpzg7+ATFzicocjxeOWcGHkE98AiF9xZRcG8R+XcfIr//IU73P8Cpvgc42Xcfeb33kduzsHJyuueR3T2PrK45ZHbOQdXpharDi4yOWSjbZ6Fom0F62zTSW6chb51Cmn2KfgCX8CdaJukHrMc/21J8KpMArtx8asskZM0TDAI4hJcxCeASXto0Tj+AS/gUG4MALuGTbWP0A7iEP04wCOASXkKMMgvgCl5iZRDAJXySxUM/gEv4RCYBXMIfM7vpB3AJn8Ak4J/4vJ555HTOIrt9ZuVktU0js20aqtYpZNinoLRPQtkyCUXLBNLtk6zi400uBgGBN9+7ALlpCOKfDfjoJx32a1bPh5p6fFD599n35zlwlUCqhWQNH88kIHBtcrq8OHTTDoFaQ/kc+JVAWvM4K/ijjSP0A9btfPc8MppGEVVeSzlgX6UWqbYxVvBHjAwC/vUP2zUHhc2DqApqEVEVWsiIUVbwcUaSfsBzX5tOL+RWN/ZeqqEQUAcpMcoK/rCBQcDznkpV+yxkRgd2f3ODUkCK1cMKPtYwzCyAKd5/3i9fDWADH9swRD/gVfBrAckWNyv4z/QMAl4FvxpQi+NmNyv4Q/pB+gFreKnBgbcvXn8pdlfZNez5vnrdZ+9droXE7GIFH6NjEKBqn6F087vKriJB2w+JwYl3f7yzLiDJ5GIF/6nOST9AanD8TuXmj2n7ILWNQtY0DkmDA3t+qP7rdyDRNMIKPrreuURPn18hivj6yiJl/NpTSYwhUT+AT36xIK62F0kWNxt4HNQ6qqjjS0uF/EKNjsrarMMHvDZJFhckFg8r+Git43FMjfOtTcOztfMHtc5l/82ziheoK0280iuhgX+WQkxEJNvGSNr4hmHPEa3rTeqrsQH4wAiJ1UP+L/GBEYlmN7m5eB6Px1dr6v7jV9Xof5WofFccMRGRYHaRm4b3D1+tmWEDvzZxxGBEvMlFbgreP8KiyncEhZoFJmvzsoijjSPkhuNfHMEcvzYS0/DOw0byYqyBLIs2De/kbfQICsr3+teJX1hZS3dttnL+AHpvNumR+ceNAAAAAElFTkSuQmCC',
             imageWidth: 48,
             imageHeight: 48,
             title: translate.settings,
@@ -540,7 +540,7 @@
                         } catch (error) {
                             console.warn('访问跨源窗口属性失败,让弹出窗口自己设置窗口大小...:')
                             const message = {
-                                type: "qinwuyuan",
+                                type: 'qinwuyuan',
                                 hostname: window.location.hostname
                             }
                             state.popupWindow.postMessage(message, '*')
@@ -723,7 +723,7 @@
                 { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },//!SECTION -已无实际意义,脚本不会使用 */
             { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
             { label: translate('showCountdowndrag') + ` (${config.showCountdowndrag ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdowndrag') } },
-            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } },
+            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } }
         ]
         for (const label in registeredMenuCommands) {
             GM_unregisterMenuCommand(registeredMenuCommands[label])
@@ -826,7 +826,7 @@
             background: `linear-gradient(to right, ${colorStart}, ${colorEnd})`,
             borderRadius: '3px',
             boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
-            zIndex: '9999',
+            zIndex: '9999'
         })
         document.body.appendChild(progressBar)
         return progressBar

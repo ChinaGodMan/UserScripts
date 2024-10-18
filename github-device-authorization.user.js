@@ -114,7 +114,7 @@
             const userCode = await navigator.clipboard.readText()
             const codeParts = userCode.split('-')
             if (codeParts.length !== 2) {
-                console.error("Invalid user code format.")
+                console.error('Invalid user code format.')
                 return
             }
             for (let i = 0; i < codeParts[0].length; i++) {

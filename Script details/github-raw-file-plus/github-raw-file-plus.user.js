@@ -9,7 +9,7 @@
 // @name:cs           Github Zkopírujte původní soubor URL se staženými soubory
 // @description:cs    Tlačítko Přidat na konci každého řádku souboru，pro zkopírování původního souboru URL a stahovat soubory
 // @name:da           Github Kopiér den originale fil URL med download filer
-// @description:da    Tilføj knap i slutningen af ​​hver fillinje，for at kopiere den originale fil URL og download filer
+// @description:da    Tilføj knap i slutningen af hver fillinje，for at kopiere den originale fil URL og download filer
 // @name:de           Github Originaldatei kopieren URL mit Download-Dateien
 // @description:de    Schaltfläche „Hinzufügen“ am Ende jeder Dateizeile，um die Originaldatei zu kopieren URL und Dateien herunterladen
 // @name:el           Github Αντιγραφή αρχικού αρχείου URL με λήψη αρχείων
@@ -94,7 +94,7 @@ const scanInterval = 2
 
 
 const waitForFilelist = setInterval(() => {
-    let fileListContainer = document.querySelector("div.Box > div.js-details-container.Details div") || document.querySelector("table")
+    let fileListContainer = document.querySelector('div.Box > div.js-details-container.Details div') || document.querySelector('table')
     let fileList = []
     let isTable = false
 
@@ -112,18 +112,18 @@ const waitForFilelist = setInterval(() => {
 }, scanInterval * 1000)
 
 function appendButtons(fileList, isTable = false) {
-    let fileUrl = ""
-    let rawFileUrl = ""
+    let fileUrl = ''
+    let rawFileUrl = ''
     for (let i = 0; i < fileList.length; i++) {
         let file = fileList[i]
 
-        if (file.classList.contains("cp-btn-rdy")) continue
+        if (file.classList.contains('cp-btn-rdy')) continue
 
-        file.classList.add("cp-btn-rdy")
+        file.classList.add('cp-btn-rdy')
 
         if (!isTable) {
             if (
-                file.classList.contains("sr-only") ||
+                file.classList.contains('sr-only') ||
                 file.childElementCount !== 4
             ) continue
 
@@ -133,20 +133,20 @@ function appendButtons(fileList, isTable = false) {
             if (i === 0) continue
 
             if (
-                file.classList.contains("sr-only")
+                file.classList.contains('sr-only')
             ) continue
 
 
-            fileUrl = file.querySelector("a")
+            fileUrl = file.querySelector('a')
                 .href
-            file = file.querySelector("td:nth-child(4) > div")
+            file = file.querySelector('td:nth-child(4) > div')
         }
         //alert(fileUrl)
         // Dont add button if its a folder
-        if (!fileUrl.includes("/blob/")) continue
+        if (!fileUrl.includes('/blob/')) continue
 
         rawFileUrl = fileUrl.replace('/blob/', '/raw/')
-        file.style = "display: flex; justify-content: flex-end;"
+        file.style = 'display: flex; justify-content: flex-end;'
         file.append(creatyCopyButton(rawFileUrl))
         file.append(creatyDownButton(rawFileUrl))
     }
@@ -162,10 +162,10 @@ function creatyCopyButton(copyText) {
 
     const copyButton = document.createElement('div')
     copyButton.setAttribute('role', 'gridcell')
-    copyButton.style = "margin-left: 10px; display: inline;"
+    copyButton.style = 'margin-left: 10px; display: inline;'
     copyButton.innerHTML = copy2clipboard
     copyButton.children[0].value = copyText
-    copyButton.children[0].style = "cursor: pointer;"
+    copyButton.children[0].style = 'cursor: pointer;'
 
     return copyButton
 }
@@ -180,10 +180,10 @@ function creatyDownButton(copyText) {
 
     const copyButton = document.createElement('div')
     copyButton.setAttribute('role', 'gridcell')
-    copyButton.style = "margin-left: 10px; display: inline;"
+    copyButton.style = 'margin-left: 10px; display: inline;'
     copyButton.innerHTML = copy2clipboard
     copyButton.children[0].value = copyText
-    copyButton.children[0].style = "cursor: pointer;"
+    copyButton.children[0].style = 'cursor: pointer;'
     copyButton.addEventListener('click', () => {
         //    window.location.href = copyText;
         downloadFile(copyText, getFilenameFromUrl(copyText))

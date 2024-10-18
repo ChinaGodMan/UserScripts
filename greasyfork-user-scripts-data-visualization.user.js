@@ -148,7 +148,7 @@
                         backgroundColor: 'rgba(54, 162, 235, 0.2)',
                         borderColor: 'rgba(54, 162, 235, 1)',
                         borderWidth: 1,
-                        yAxisID: 'y-axis-1',// Associate this dataset with the first y-axis
+                        yAxisID: 'y-axis-1'// Associate this dataset with the first y-axis
                     },
                     {
                         label: 'Daily Installs',
@@ -156,7 +156,7 @@
                         backgroundColor: 'rgba(255, 99, 132, 0.2)',
                         borderColor: 'rgba(255, 99, 132, 1)',
                         borderWidth: 1,
-                        yAxisID: 'y-axis-2',// Associate this dataset with the second y-axis
+                        yAxisID: 'y-axis-2'// Associate this dataset with the second y-axis
                     }]
                 },
                 options: {
@@ -167,7 +167,7 @@
                             beginAtZero: true,
                             ticks: {
                                 color: 'rgba(54, 162, 235, 1)'
-                            },
+                            }
                         },
                         'y-axis-2': {
                             type: 'linear',
@@ -179,7 +179,7 @@
                         }, x: {
                             grid: {
                                 display: false
-                            },
+                            }
                             /*     ticks: {
                                     color: 'blue',
                                     maxRotation: 60,
@@ -231,7 +231,7 @@
                                     const extraInfo = `\n📅${toSystemTime(createds[index])}\n⏰${toSystemTime(updateds[index])}`
                                     return extraInfo
                                 }
-                            },
+                            }
                         }
                     }
                 }
@@ -292,10 +292,10 @@
             const links = Array.from(document.querySelectorAll(scriptTitle_selector)).map(el => el.href)
             if (!links.length) return
             const labels = Array.from(document.querySelectorAll(scriptTitle_selector)).map(el => el.text)
-            const updateds = Array.from(document.querySelectorAll("#user-script-list-section dd.script-list-updated-date > span"))
-                .map(span => span.querySelector("relative-time")?.getAttribute("datetime"))
-            const createds = Array.from(document.querySelectorAll("#user-script-list-section dd.script-list-created-date > span"))
-                .map(span => span.querySelector("relative-time")?.getAttribute("datetime"))
+            const updateds = Array.from(document.querySelectorAll('#user-script-list-section dd.script-list-updated-date > span'))
+                .map(span => span.querySelector('relative-time')?.getAttribute('datetime'))
+            const createds = Array.from(document.querySelectorAll('#user-script-list-section dd.script-list-created-date > span'))
+                .map(span => span.querySelector('relative-time')?.getAttribute('datetime'))
             const totalInstalls = Array.from(document.querySelectorAll(totalInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
             const dailyInstalls = Array.from(document.querySelectorAll(dailyInstalls_selector)).map(el => (parseInt(el.textContent.replace(/,/g, ''), 10) || 0))
             const totalDailyInstalls = dailyInstalls.reduce((sum, current) => sum + current, 0)

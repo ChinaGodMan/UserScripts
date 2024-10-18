@@ -250,7 +250,7 @@
 
     // 设置按钮
     function setting() {
-        document.getElementById(`i-hotkey`).value = '松开手指即可设置完成！'
+        document.getElementById('i-hotkey').value = '松开手指即可设置完成！'
         document.removeEventListener('keydown', clickHotkey)
         document.addEventListener('keyup', setHotkey)
     }
@@ -265,7 +265,7 @@
             hotkey.push(e.key)
             // 保存键值
             GM_setValue('hotkey', hotkey)
-            document.getElementById(`i-hotkey`).value = `${hotkey.join(' + ')}`
+            document.getElementById('i-hotkey').value = `${hotkey.join(' + ')}`
             // 设置完成移除事件
             document.removeEventListener('keyup', setHotkey)
         }
@@ -335,7 +335,7 @@
         title.className = 'hotkey-settings__title'
         title.textContent = '快捷键：'
         const input = document.createElement('input')
-        input.id = `i-hotkey`
+        input.id = 'i-hotkey'
         input.disabled = true
         input.className = 'hotkey-input'
         if (hotkey[0]) {
@@ -345,7 +345,7 @@
         }
         input.setAttribute('type', 'text')
         const button = document.createElement('button')
-        button.id = `b--hotkey`
+        button.id = 'b--hotkey'
         button.className = 'hotkey-button'
         button.textContent = '设置'
         button.addEventListener('click', e => setting())

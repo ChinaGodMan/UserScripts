@@ -193,13 +193,13 @@ const translate = (function () {
         var url = `https://greasyfork.org/scripts/by-site/${domain}?filter_locale=0&sort=updated&page=${page}`
 
         GM_xmlhttpRequest({
-            method: "GET",
+            method: 'GET',
             url: url,
             onload: (response) => {
                 // 解析结果
                 const parser = new DOMParser()
-                const doc = parser.parseFromString(response.responseText, "text/html")
-                const scripts = doc.querySelector("#browse-script-list")?.querySelectorAll('[data-script-id]')
+                const doc = parser.parseFromString(response.responseText, 'text/html')
+                const scripts = doc.querySelector('#browse-script-list')?.querySelectorAll('[data-script-id]')
                 let scriptsInfo = []
 
                 if (!scripts) {
@@ -227,11 +227,11 @@ const translate = (function () {
                 appendScriptsInfo(scriptsInfo)
                 updateMatches()
 
-                typeof (loadedPages) === 'number' ? loadedPages += 1 : loadedPages = loadedPages
+                loadedPages = typeof loadedPages === 'number' ? loadedPages + 1 : 0
                 // console.log(loadedPages)
             },
             onerror: () => {
-                console.log("Some error occurred!")
+                console.log('Some error occurred!')
                 if (loadedPages === 0) {
                     appendScriptsInfo(scriptsInfo)
                 }
@@ -246,8 +246,8 @@ const translate = (function () {
         return {
             id: script.getAttribute('data-script-id'),
             name: script.getAttribute('data-script-name'),
-            author: script.querySelector("dd.script-list-author").textContent,
-            description: script.querySelector(".script-description").textContent,
+            author: script.querySelector('dd.script-list-author').textContent,
+            description: script.querySelector('.script-description').textContent,
             version: script.getAttribute('data-script-version'),
             url: 'https://greasyfork.org/scripts/' + script.getAttribute('data-script-id'),
             createDate: script.getAttribute('data-script-created-date'),
@@ -629,12 +629,12 @@ div.info-container {
         button.addEventListener('click', function (event) {
             event.stopPropagation()
             if (collapsed) {
-                infoContainer.style.display = "block"
+                infoContainer.style.display = 'block'
                 infoContainer.style.opacity = 1
                 collapsed = false
             }
             else {
-                infoContainer.style.display = "none"
+                infoContainer.style.display = 'none'
                 infoContainer.style.opacity = 0
                 collapsed = true
             }
@@ -675,7 +675,7 @@ div.info-container {
             collapsed = true
             button.style.right = '-50px'
             infoContainer.style.opacity = 0
-            infoContainer.style.display = "none"
+            infoContainer.style.display = 'none'
         })
 
         document.body.appendChild(button)

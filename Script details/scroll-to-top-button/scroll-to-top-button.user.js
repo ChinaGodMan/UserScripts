@@ -92,10 +92,10 @@
 (function () {
     'use strict'
     let isScrollingToBottom = false
-    let buttonTopKey = GM_getValue("buttonTopKey", "")
-    let buttonBottomKey = GM_getValue("buttonBottomKey", "")
+    let buttonTopKey = GM_getValue('buttonTopKey', '')
+    let buttonBottomKey = GM_getValue('buttonBottomKey', '')
     var style = document.createElement('style')
-    GM_registerMenuCommand("SetHotkey", showHotkeyModal)
+    GM_registerMenuCommand('SetHotkey', showHotkeyModal)
     function showHotkeyModal() {
         let modalHtml = `
         <div id="hotkeyModal" style="position: fixed; z-index: 10000; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); top: 20%; left: 50%; transform: translate(-50%, -20%); max-width: 300px;">
@@ -116,36 +116,36 @@
         let modalDiv = document.createElement('div')
         modalDiv.innerHTML = modalHtml
         document.body.appendChild(modalDiv)
-        document.getElementById("hotkeyInput1").addEventListener("keydown", function (event) {
+        document.getElementById('hotkeyInput1').addEventListener('keydown', function (event) {
             event.preventDefault()
             buttonTopKey = event.key
             this.value = buttonTopKey
         })
-        document.getElementById("hotkeyInput2").addEventListener("keydown", function (event) {
+        document.getElementById('hotkeyInput2').addEventListener('keydown', function (event) {
             event.preventDefault()
             buttonBottomKey = event.key
             this.value = buttonBottomKey
         })
-        document.getElementById("saveHotkeys").addEventListener("click", function () {
-            GM_setValue("buttonTopKey", buttonTopKey)
-            GM_setValue("buttonBottomKey", buttonBottomKey)
+        document.getElementById('saveHotkeys').addEventListener('click', function () {
+            GM_setValue('buttonTopKey', buttonTopKey)
+            GM_setValue('buttonBottomKey', buttonBottomKey)
             closeModal()
         })
-        document.getElementById("closeModal").addEventListener("click", closeModal)
+        document.getElementById('closeModal').addEventListener('click', closeModal)
     }
     function closeModal() {
-        let modal = document.getElementById("hotkeyModal")
+        let modal = document.getElementById('hotkeyModal')
         if (modal) {
             modal.remove()
         }
     }
-    document.addEventListener("keydown", function (event) {
+    document.addEventListener('keydown', function (event) {
         if (event.target.matches('input, textarea, [contenteditable="true"]')) {
             return
         }
-        if (event.key === GM_getValue("buttonTopKey")) {
+        if (event.key === GM_getValue('buttonTopKey')) {
             goToTop()
-        } else if (event.key === GM_getValue("buttonBottomKey")) {
+        } else if (event.key === GM_getValue('buttonBottomKey')) {
             isScrollingToBottom = toggleScrolling(buttonBottom, isScrollingToBottom)
         }
     })

@@ -207,10 +207,10 @@
         syncUpdate(SyncScriptForm.value, global.inputModalDefault.value, global.adminUrl)
     }
     openSyncOnadminPage.addEventListener('click', () => {
-        openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), "", false)
+        openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), '', false)
     })
     //取消鲨臂按钮
-    addNavLink("Set sync", '#', false, false, "ScriptSyncLink")
+    addNavLink('Set sync', '#', false, false, 'ScriptSyncLink')
     var customClassName = 'ScriptSyncLink'
     var link = document.querySelector(`.${customClassName} > a`)
     if (link) {
@@ -219,208 +219,208 @@
             addAdminButtons()
         })
     }
-    if (window.location.pathname.includes("/admin")) {
+    if (window.location.pathname.includes('/admin')) {
         //  openSyncOnadminPage.style.display = "block"
-        const targetElement = document.querySelector("#script-content > section:nth-child(2) > h3")
+        const targetElement = document.querySelector('#script-content > section:nth-child(2) > h3')
         const newLink = document.createElement('a')
         newLink.href = '#'
         newLink.textContent = 'Set sync'
         newLink.addEventListener('click', function (event) {
             event.preventDefault()
-            openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), "", false)
+            openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), '', false)
         })
         targetElement.insertAdjacentElement('afterend', newLink)
     }
     async function syncUpdate(scriptSyncIdentifier, additionalInfoSyncIdentifier, postUrl) {
         const urls = global.inputModalTextArea.value.trim().split('\n')
         const translateTable = [
-            { "code": "aa", "value": "1" },
-            { "code": "ab", "value": "2" },
-            { "code": "ae", "value": "3" },
-            { "code": "af", "value": "4" },
-            { "code": "ak", "value": "5" },
-            { "code": "am", "value": "6" },
-            { "code": "as", "value": "8" },
-            { "code": "ast", "value": "9" },
-            { "code": "av", "value": "10" },
-            { "code": "ay", "value": "11" },
-            { "code": "az", "value": "12" },
-            { "code": "ba", "value": "13" },
-            { "code": "be", "value": "14" },
-            { "code": "bh", "value": "16" },
-            { "code": "bi", "value": "17" },
-            { "code": "bm", "value": "18" },
-            { "code": "bn", "value": "19" },
-            { "code": "bo", "value": "20" },
-            { "code": "br", "value": "21" },
-            { "code": "bs", "value": "22" },
-            { "code": "ca", "value": "23" },
-            { "code": "ce", "value": "24" },
-            { "code": "ceb", "value": "25" },
-            { "code": "ch", "value": "26" },
-            { "code": "chr", "value": "27" },
-            { "code": "co", "value": "28" },
-            { "code": "cr", "value": "29" },
-            { "code": "cs", "value": "30" },
-            { "code": "cu", "value": "31" },
-            { "code": "cv", "value": "32" },
-            { "code": "cy", "value": "33" },
-            { "code": "da", "value": "34" },
-            { "code": "de", "value": "35" },
-            { "code": "dv", "value": "36" },
-            { "code": "dz", "value": "37" },
-            { "code": "ee", "value": "38" },
-            { "code": "el", "value": "39" },
-            { "code": "en", "value": "40" },
-            { "code": "eo", "value": "41" },
-            { "code": "es", "value": "42" },
-            { "code": "et", "value": "43" },
-            { "code": "eu", "value": "44" },
-            { "code": "fa", "value": "45" },
-            { "code": "ff", "value": "46" },
-            { "code": "fi", "value": "47" },
-            { "code": "fil", "value": "48" },
-            { "code": "fj", "value": "49" },
-            { "code": "fo", "value": "50" },
-            { "code": "fr", "value": "51" },
-            { "code": "fy", "value": "52" },
-            { "code": "ga", "value": "53" },
-            { "code": "gd", "value": "54" },
-            { "code": "gl", "value": "55" },
-            { "code": "gn", "value": "56" },
-            { "code": "gsw-berne", "value": "57" },
-            { "code": "gu", "value": "58" },
-            { "code": "gv", "value": "59" },
-            { "code": "ha", "value": "60" },
-            { "code": "he", "value": "61" },
-            { "code": "hi", "value": "62" },
-            { "code": "hmn", "value": "63" },
-            { "code": "ho", "value": "64" },
-            { "code": "hr", "value": "65" },
-            { "code": "ht", "value": "66" },
-            { "code": "hu", "value": "67" },
-            { "code": "hy", "value": "68" },
-            { "code": "hz", "value": "69" },
-            { "code": "ia", "value": "70" },
-            { "code": "id", "value": "71" },
-            { "code": "ie", "value": "72" },
-            { "code": "ig", "value": "73" },
-            { "code": "ik", "value": "74" },
-            { "code": "is", "value": "75" },
-            { "code": "it", "value": "76" },
-            { "code": "iu", "value": "77" },
-            { "code": "ja", "value": "78" },
-            { "code": "jv", "value": "79" },
-            { "code": "ka", "value": "80" },
-            { "code": "kg", "value": "81" },
-            { "code": "ki", "value": "82" },
-            { "code": "kj", "value": "83" },
-            { "code": "kk", "value": "84" },
-            { "code": "kl", "value": "85" },
-            { "code": "km", "value": "86" },
-            { "code": "kn", "value": "87" },
-            { "code": "ko", "value": "88" },
-            { "code": "kr", "value": "89" },
-            { "code": "ks", "value": "90" },
-            { "code": "ku", "value": "91" },
-            { "code": "kv", "value": "92" },
-            { "code": "kw", "value": "93" },
-            { "code": "ky", "value": "94" },
-            { "code": "la", "value": "95" },
-            { "code": "lb", "value": "96" },
-            { "code": "lg", "value": "97" },
-            { "code": "lif", "value": "98" },
-            { "code": "ln", "value": "99" },
-            { "code": "lo", "value": "100" },
-            { "code": "lt", "value": "101" },
-            { "code": "lu", "value": "102" },
-            { "code": "lv", "value": "103" },
-            { "code": "mg", "value": "104" },
-            { "code": "mh", "value": "105" },
-            { "code": "mi", "value": "106" },
-            { "code": "mk", "value": "107" },
-            { "code": "ml", "value": "108" },
-            { "code": "mn", "value": "109" },
-            { "code": "mo", "value": "110" },
-            { "code": "mr", "value": "111" },
-            { "code": "ms", "value": "112" },
-            { "code": "mt", "value": "113" },
-            { "code": "my", "value": "114" },
-            { "code": "na", "value": "115" },
-            { "code": "nb", "value": "119" },
-            { "code": "nd", "value": "120" },
-            { "code": "ne", "value": "121" },
-            { "code": "ng", "value": "122" },
-            { "code": "nl", "value": "118" },
-            { "code": "nn", "value": "124" },
-            { "code": "no", "value": "125" },
-            { "code": "nr", "value": "126" },
-            { "code": "nv", "value": "127" },
-            { "code": "ny", "value": "128" },
-            { "code": "oc", "value": "129" },
-            { "code": "pa", "value": "131" },
-            { "code": "pi", "value": "132" },
-            { "code": "ps", "value": "133" },
-            { "code": "pt", "value": "134" },
-            { "code": "qu", "value": "135" },
-            { "code": "rm", "value": "136" },
-            { "code": "rn", "value": "137" },
-            { "code": "ro", "value": "138" },
-            { "code": "ru", "value": "139" },
-            { "code": "rw", "value": "140" },
-            { "code": "sa", "value": "141" },
-            { "code": "sc", "value": "142" },
-            { "code": "sd", "value": "143" },
-            { "code": "sg", "value": "144" },
-            { "code": "sh", "value": "145" },
-            { "code": "si", "value": "146" },
-            { "code": "sk", "value": "149" },
-            { "code": "sl", "value": "150" },
-            { "code": "sm", "value": "151" },
-            { "code": "sn", "value": "152" },
-            { "code": "so", "value": "153" },
-            { "code": "sq", "value": "154" },
-            { "code": "sr", "value": "155" },
-            { "code": "ss", "value": "156" },
-            { "code": "st", "value": "157" },
-            { "code": "su", "value": "158" },
-            { "code": "sv", "value": "159" },
-            { "code": "sw", "value": "160" },
-            { "code": "ta", "value": "161" },
-            { "code": "te", "value": "162" },
-            { "code": "tg", "value": "163" },
-            { "code": "th", "value": "165" },
-            { "code": "ti", "value": "166" },
-            { "code": "tk", "value": "167" },
-            { "code": "tl", "value": "168" },
-            { "code": "tn", "value": "169" },
-            { "code": "to", "value": "170" },
-            { "code": "tr", "value": "171" },
-            { "code": "ts", "value": "172" },
-            { "code": "tt", "value": "173" },
-            { "code": "tw", "value": "174" },
-            { "code": "ty", "value": "175" },
-            { "code": "ug", "value": "176" },
-            { "code": "uk", "value": "177" },
-            { "code": "ur", "value": "178" },
-            { "code": "uz", "value": "179" },
-            { "code": "ve", "value": "180" },
-            { "code": "vi", "value": "181" },
-            { "code": "vo", "value": "182" },
-            { "code": "wa", "value": "183" },
-            { "code": "wo", "value": "184" },
-            { "code": "xh", "value": "185" },
-            { "code": "yi", "value": "186" },
-            { "code": "zh-CN", "value": "187" },
-            { "code": "zh-TW", "value": "188" },
-            { "code": "zu", "value": "189" }
+            { 'code': 'aa', 'value': '1' },
+            { 'code': 'ab', 'value': '2' },
+            { 'code': 'ae', 'value': '3' },
+            { 'code': 'af', 'value': '4' },
+            { 'code': 'ak', 'value': '5' },
+            { 'code': 'am', 'value': '6' },
+            { 'code': 'as', 'value': '8' },
+            { 'code': 'ast', 'value': '9' },
+            { 'code': 'av', 'value': '10' },
+            { 'code': 'ay', 'value': '11' },
+            { 'code': 'az', 'value': '12' },
+            { 'code': 'ba', 'value': '13' },
+            { 'code': 'be', 'value': '14' },
+            { 'code': 'bh', 'value': '16' },
+            { 'code': 'bi', 'value': '17' },
+            { 'code': 'bm', 'value': '18' },
+            { 'code': 'bn', 'value': '19' },
+            { 'code': 'bo', 'value': '20' },
+            { 'code': 'br', 'value': '21' },
+            { 'code': 'bs', 'value': '22' },
+            { 'code': 'ca', 'value': '23' },
+            { 'code': 'ce', 'value': '24' },
+            { 'code': 'ceb', 'value': '25' },
+            { 'code': 'ch', 'value': '26' },
+            { 'code': 'chr', 'value': '27' },
+            { 'code': 'co', 'value': '28' },
+            { 'code': 'cr', 'value': '29' },
+            { 'code': 'cs', 'value': '30' },
+            { 'code': 'cu', 'value': '31' },
+            { 'code': 'cv', 'value': '32' },
+            { 'code': 'cy', 'value': '33' },
+            { 'code': 'da', 'value': '34' },
+            { 'code': 'de', 'value': '35' },
+            { 'code': 'dv', 'value': '36' },
+            { 'code': 'dz', 'value': '37' },
+            { 'code': 'ee', 'value': '38' },
+            { 'code': 'el', 'value': '39' },
+            { 'code': 'en', 'value': '40' },
+            { 'code': 'eo', 'value': '41' },
+            { 'code': 'es', 'value': '42' },
+            { 'code': 'et', 'value': '43' },
+            { 'code': 'eu', 'value': '44' },
+            { 'code': 'fa', 'value': '45' },
+            { 'code': 'ff', 'value': '46' },
+            { 'code': 'fi', 'value': '47' },
+            { 'code': 'fil', 'value': '48' },
+            { 'code': 'fj', 'value': '49' },
+            { 'code': 'fo', 'value': '50' },
+            { 'code': 'fr', 'value': '51' },
+            { 'code': 'fy', 'value': '52' },
+            { 'code': 'ga', 'value': '53' },
+            { 'code': 'gd', 'value': '54' },
+            { 'code': 'gl', 'value': '55' },
+            { 'code': 'gn', 'value': '56' },
+            { 'code': 'gsw-berne', 'value': '57' },
+            { 'code': 'gu', 'value': '58' },
+            { 'code': 'gv', 'value': '59' },
+            { 'code': 'ha', 'value': '60' },
+            { 'code': 'he', 'value': '61' },
+            { 'code': 'hi', 'value': '62' },
+            { 'code': 'hmn', 'value': '63' },
+            { 'code': 'ho', 'value': '64' },
+            { 'code': 'hr', 'value': '65' },
+            { 'code': 'ht', 'value': '66' },
+            { 'code': 'hu', 'value': '67' },
+            { 'code': 'hy', 'value': '68' },
+            { 'code': 'hz', 'value': '69' },
+            { 'code': 'ia', 'value': '70' },
+            { 'code': 'id', 'value': '71' },
+            { 'code': 'ie', 'value': '72' },
+            { 'code': 'ig', 'value': '73' },
+            { 'code': 'ik', 'value': '74' },
+            { 'code': 'is', 'value': '75' },
+            { 'code': 'it', 'value': '76' },
+            { 'code': 'iu', 'value': '77' },
+            { 'code': 'ja', 'value': '78' },
+            { 'code': 'jv', 'value': '79' },
+            { 'code': 'ka', 'value': '80' },
+            { 'code': 'kg', 'value': '81' },
+            { 'code': 'ki', 'value': '82' },
+            { 'code': 'kj', 'value': '83' },
+            { 'code': 'kk', 'value': '84' },
+            { 'code': 'kl', 'value': '85' },
+            { 'code': 'km', 'value': '86' },
+            { 'code': 'kn', 'value': '87' },
+            { 'code': 'ko', 'value': '88' },
+            { 'code': 'kr', 'value': '89' },
+            { 'code': 'ks', 'value': '90' },
+            { 'code': 'ku', 'value': '91' },
+            { 'code': 'kv', 'value': '92' },
+            { 'code': 'kw', 'value': '93' },
+            { 'code': 'ky', 'value': '94' },
+            { 'code': 'la', 'value': '95' },
+            { 'code': 'lb', 'value': '96' },
+            { 'code': 'lg', 'value': '97' },
+            { 'code': 'lif', 'value': '98' },
+            { 'code': 'ln', 'value': '99' },
+            { 'code': 'lo', 'value': '100' },
+            { 'code': 'lt', 'value': '101' },
+            { 'code': 'lu', 'value': '102' },
+            { 'code': 'lv', 'value': '103' },
+            { 'code': 'mg', 'value': '104' },
+            { 'code': 'mh', 'value': '105' },
+            { 'code': 'mi', 'value': '106' },
+            { 'code': 'mk', 'value': '107' },
+            { 'code': 'ml', 'value': '108' },
+            { 'code': 'mn', 'value': '109' },
+            { 'code': 'mo', 'value': '110' },
+            { 'code': 'mr', 'value': '111' },
+            { 'code': 'ms', 'value': '112' },
+            { 'code': 'mt', 'value': '113' },
+            { 'code': 'my', 'value': '114' },
+            { 'code': 'na', 'value': '115' },
+            { 'code': 'nb', 'value': '119' },
+            { 'code': 'nd', 'value': '120' },
+            { 'code': 'ne', 'value': '121' },
+            { 'code': 'ng', 'value': '122' },
+            { 'code': 'nl', 'value': '118' },
+            { 'code': 'nn', 'value': '124' },
+            { 'code': 'no', 'value': '125' },
+            { 'code': 'nr', 'value': '126' },
+            { 'code': 'nv', 'value': '127' },
+            { 'code': 'ny', 'value': '128' },
+            { 'code': 'oc', 'value': '129' },
+            { 'code': 'pa', 'value': '131' },
+            { 'code': 'pi', 'value': '132' },
+            { 'code': 'ps', 'value': '133' },
+            { 'code': 'pt', 'value': '134' },
+            { 'code': 'qu', 'value': '135' },
+            { 'code': 'rm', 'value': '136' },
+            { 'code': 'rn', 'value': '137' },
+            { 'code': 'ro', 'value': '138' },
+            { 'code': 'ru', 'value': '139' },
+            { 'code': 'rw', 'value': '140' },
+            { 'code': 'sa', 'value': '141' },
+            { 'code': 'sc', 'value': '142' },
+            { 'code': 'sd', 'value': '143' },
+            { 'code': 'sg', 'value': '144' },
+            { 'code': 'sh', 'value': '145' },
+            { 'code': 'si', 'value': '146' },
+            { 'code': 'sk', 'value': '149' },
+            { 'code': 'sl', 'value': '150' },
+            { 'code': 'sm', 'value': '151' },
+            { 'code': 'sn', 'value': '152' },
+            { 'code': 'so', 'value': '153' },
+            { 'code': 'sq', 'value': '154' },
+            { 'code': 'sr', 'value': '155' },
+            { 'code': 'ss', 'value': '156' },
+            { 'code': 'st', 'value': '157' },
+            { 'code': 'su', 'value': '158' },
+            { 'code': 'sv', 'value': '159' },
+            { 'code': 'sw', 'value': '160' },
+            { 'code': 'ta', 'value': '161' },
+            { 'code': 'te', 'value': '162' },
+            { 'code': 'tg', 'value': '163' },
+            { 'code': 'th', 'value': '165' },
+            { 'code': 'ti', 'value': '166' },
+            { 'code': 'tk', 'value': '167' },
+            { 'code': 'tl', 'value': '168' },
+            { 'code': 'tn', 'value': '169' },
+            { 'code': 'to', 'value': '170' },
+            { 'code': 'tr', 'value': '171' },
+            { 'code': 'ts', 'value': '172' },
+            { 'code': 'tt', 'value': '173' },
+            { 'code': 'tw', 'value': '174' },
+            { 'code': 'ty', 'value': '175' },
+            { 'code': 'ug', 'value': '176' },
+            { 'code': 'uk', 'value': '177' },
+            { 'code': 'ur', 'value': '178' },
+            { 'code': 'uz', 'value': '179' },
+            { 'code': 've', 'value': '180' },
+            { 'code': 'vi', 'value': '181' },
+            { 'code': 'vo', 'value': '182' },
+            { 'code': 'wa', 'value': '183' },
+            { 'code': 'wo', 'value': '184' },
+            { 'code': 'xh', 'value': '185' },
+            { 'code': 'yi', 'value': '186' },
+            { 'code': 'zh-CN', 'value': '187' },
+            { 'code': 'zh-TW', 'value': '188' },
+            { 'code': 'zu', 'value': '189' }
         ]
-        const csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
+        const csrfToken = document.querySelector('meta[name=\'csrf-token\']').getAttribute('content')
         const formDataObj = {
             _method: 'patch',
             authenticity_token: csrfToken,
             'script[sync_identifier]': scriptSyncIdentifier,
-            'script[sync_type]': 'webhook',
+            'script[sync_type]': 'webhook'
         }
         if (additionalInfoSyncIdentifier) {
             formDataObj['additional_info_sync[0][attribute_default]'] = 'true'
@@ -441,13 +441,13 @@
         console.log(formData.toString())
         const postResp = await fetch(postUrl + '/sync_update', {
             method: 'POST',
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: formData
         })
         const responseText = await postResp.text()
         const parser = new DOMParser()
         const doc = parser.parseFromString(responseText, 'text/html')
-        const specificElement = doc.querySelector("body > div.width-constraint > p")
+        const specificElement = doc.querySelector('body > div.width-constraint > p')
         // 创建并插入弹出框的 HTML
         document.body.insertAdjacentHTML('beforeend', `
   <div id="custom-popup" style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);padding:20px;background-color:#fff;border:1px solid #ccc;box-shadow:0 0 10px rgba(0,0,0,0.1);z-index:9999;">
@@ -496,7 +496,7 @@
     function openSuperAdmin(url, syncjs, isFetch = false) {
         global.adminUrl = url
         if (isFetch) {
-            updateWebHookInfo(url + "/admin")
+            updateWebHookInfo(url + '/admin')
         } else {
             updateWebHookInfo()
         }
@@ -504,8 +504,8 @@
         global.inputModalDefault.value = global.defaultAttribute
         global.inputModalTextArea.value = global.attribute_other
         global.inputModal.style.display = 'flex'
-        document.querySelector("h2 label[for='SyncScript']").textContent = global.scriptname + "←Source Syncing"
-        document.getElementById("ScriptName").textContent = global.scriptname
+        document.querySelector('h2 label[for=\'SyncScript\']').textContent = global.scriptname + '←Source Syncing'
+        document.getElementById('ScriptName').textContent = global.scriptname
     }
     function createModalWindow(linksData) {
         const modalHtml = `
@@ -553,10 +553,10 @@
         })
         window.addEventListener('click', (event) => {
             return//不关闭
-            if (event.target === modal) {
-                modal.style.display = 'none'
-                modal.remove()
-            }
+            /*           if (event.target === modal) {
+                          modal.style.display = 'none'
+                          modal.remove()
+                      } */
         })
     }
     function updateStateFromDOM(dom) {
@@ -564,19 +564,19 @@
         if (syncInputElement) {
             global.syncingfrom = syncInputElement.value
         } else {
-            console.warn("Input element with id 'script_sync_identifier' not found")
+            console.warn('Input element with id \'script_sync_identifier\' not found')
         }
         const defaultInputElement = dom.querySelector('input#script-version-additional-info-0.previewable')
         if (defaultInputElement) {
             global.defaultAttribute = defaultInputElement.value
         } else {
-            console.warn("Default input element not found")
+            console.warn('Default input element not found')
         }
         const inputElements = dom.querySelectorAll('input[id^="script-version-additional-info-"].previewable')
-        global.scriptname = dom.querySelector("#script-info > header > h2").textContent
+        global.scriptname = dom.querySelector('#script-info > header > h2').textContent
         global.attribute_other = ''
         inputElements.forEach((inputElement, index) => {
-            if (inputElement.id !== "script-version-additional-info-0") {
+            if (inputElement.id !== 'script-version-additional-info-0') {
                 if (global.attribute_other) {
                     global.attribute_other += '\n'
                 }
@@ -591,23 +591,23 @@
         if (url) {
             try {
                 const xhr = new XMLHttpRequest()
-                xhr.open("GET", url, false) // `false` 使请求同步
+                xhr.open('GET', url, false) // `false` 使请求同步
                 xhr.send(null)
                 if (xhr.status >= 200 && xhr.status < 300) {
                     const htmlText = xhr.responseText
                     const parser = new DOMParser()
                     const doc = parser.parseFromString(htmlText, 'text/html')
                     updateStateFromDOM(doc)
-                    console.log("Data fetched from URL and parsed:", global)
+                    console.log('Data fetched from URL and parsed:', global)
                 } else {
                     throw new Error(`Network response was not ok: ${xhr.statusText}`)
                 }
             } catch (error) {
-                console.error("Error fetching data from URL:", error)
+                console.error('Error fetching data from URL:', error)
             }
         } else {
             updateStateFromDOM(document)
-            console.log("Data fetched from current page:", global)
+            console.log('Data fetched from current page:', global)
         }
     }
     function addNavLink(link_text, linkurl, newtab, lastone, lclassname) {

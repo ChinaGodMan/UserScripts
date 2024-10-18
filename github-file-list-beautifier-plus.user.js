@@ -97,13 +97,13 @@
 
 // ==/UserScript==
 'use strict'
-let customColors = GM_getValue("fileTypesColors", {})
+let customColors = GM_getValue('fileTypesColors', {})
 var DEBUG = false
 var addIcon = true
 if (DEBUG) {
-    GM_setValue("fileTypesColors", {})
+    GM_setValue('fileTypesColors', {})
 }
-GM_setValue("fileTypesColors", {})
+GM_setValue('fileTypesColors', {})
 if (Object.keys(customColors).length === 0) {
     GM_xmlhttpRequest({
         method: 'GET',
@@ -112,7 +112,7 @@ if (Object.keys(customColors).length === 0) {
         onload: function (response) {
             try {
                 customColors = JSON.parse(response.responseText)
-                GM_setValue("fileTypesColors", customColors) // 保存到本地存储
+                GM_setValue('fileTypesColors', customColors) // 保存到本地存储
                 requestAnimationFrame(start)
             } catch (e) {
                 console.error('解析颜色配置失败:', e)
@@ -134,7 +134,7 @@ const config = Object.assign({},
         iconSize: 24,
         colorSeed1: 13,
         colorSeed2: 1299721,
-        colorSeed3: 179426453,
+        colorSeed3: 179426453
     }).map(([k, v]) => ({ [k]: +savedConfig[k] || v })))
 const IMG_CLS = 'wOxxOm-image-icon'
 const rxImages = /^(png|jpe?g|bmp|gif|cur|ico|svg)$/i
@@ -156,7 +156,7 @@ const { sheet } = document.documentElement.appendChild($create('style', {
     a[file-type=":folder"] {
       font-weight: bold;
     }
-    `.replace(/;/g, '!important;'),
+    `.replace(/;/g, '!important;')
 }))
 const filetypes = {}
 const ME = Symbol(GM_info.script.name)
@@ -199,9 +199,9 @@ function beautify() {
                 console.log(iconUrl)
             }
             const img = $create('img', {
-                className: "qinwuyuan-file-icon",
+                className: 'qinwuyuan-file-icon',
                 src: iconUrl,
-                alt: ext,
+                alt: ext
             })
             icon.replaceWith(img)
         } else if (rxImages.test(ext)) {
@@ -212,7 +212,7 @@ function beautify() {
             icon.replaceWith($create('img', {
                 [ME]: true,
                 className: IMG_CLS,
-                src: `https://raw.githubusercontent.com/${m[1]}${m[2]}`,
+                src: `https://raw.githubusercontent.com/${m[1]}${m[2]}`
             }))
         }
     }

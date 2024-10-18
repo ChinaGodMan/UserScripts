@@ -115,7 +115,7 @@
             showCountdown: 'Show countdown progress bar',
             saveWindowConfig: 'Record window position',
             showCountdowndrag: 'Show drag timeout progress bar',
-            dragTimeOut: 'Drag timeout duration',
+            dragTimeOut: 'Drag timeout duration'
         },
         'zh-CN,zh,zh-SG': {
             actionMode: '选择触发方式',
@@ -136,7 +136,7 @@
             showCountdown: '显示长按倒计时进度条',
             saveWindowConfig: '记录窗口位置',
             showCountdowndrag: '显示拖拽超时进度条',
-            dragTimeOut: '拖拽超时时间',
+            dragTimeOut: '拖拽超时时间'
         },
         'zh-TW,zh-HK,zh-MO': {
             actionMode: '選擇觸發方式',
@@ -157,7 +157,7 @@
             showCountdown: '顯示倒數計時進度條',
             saveWindowConfig: '記錄窗口位置',
             showCountdowndrag: '顯示拖曳逾時進度條',
-            dragTimeOut: '拖曳逾時時間',
+            dragTimeOut: '拖曳逾時時間'
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -178,7 +178,7 @@
             showCountdown: 'カウントダウン進行状況を表示',
             saveWindowConfig: 'ウィンドウの位置を記録',
             showCountdowndrag: 'ドラッグタイムアウトの進行状況バーを表示',
-            dragTimeOut: 'ドラッグタイムアウト時間',
+            dragTimeOut: 'ドラッグタイムアウト時間'
         },
         'vi': {
             actionMode: 'Chọn chế độ kích hoạt',
@@ -199,29 +199,29 @@
             showCountdown: 'Hiển thị thanh tiến trình đếm ngược',
             saveWindowConfig: 'Ghi lại vị trí cửa sổ',
             showCountdowndrag: 'Hiển thị thanh tiến trình quá hạn khi kéo thả',
-            dragTimeOut: 'Thời gian quá hạn khi kéo thả',
+            dragTimeOut: 'Thời gian quá hạn khi kéo thả'
         }
     }
     const getTranslations = (lang) => {
         for (const key in translations) {
-            if (key === lang || key.split(",").includes(lang)) {
+            if (key === lang || key.split(',').includes(lang)) {
                 return translations[key]
             }
         }
-        return translations["en"]
+        return translations['en']
     }
     const translate = new Proxy(
         function (key) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[key] || translations["en"][key]
+            return strings[key] || translations['en'][key]
         },
         {
             get(target, prop) {
                 const lang = userLang
                 const strings = getTranslations(lang)
-                return strings[prop] || translations["en"][prop]
-            },
+                return strings[prop] || translations['en'][prop]
+            }
         }
     )
     'use strict'
@@ -233,7 +233,7 @@
         progressBar: null,
         dragprogressBar: null,
         dragintervalId: null,
-        startTime: null,
+        startTime: null
     }
     function getWindowConfig() {
         const windowConfigs = GM_getValue('SitewindowConfigs', [
@@ -383,7 +383,7 @@
                         } catch (error) {
                             console.warn('访问跨源窗口属性失败,让弹出窗口自己设置窗口大小...:')
                             const message = {
-                                type: "qinwuyuan",
+                                type: 'qinwuyuan',
                                 hostname: window.location.hostname
                             }
                             state.popupWindow.postMessage(message, '*')
@@ -561,7 +561,7 @@
                 { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },//!SECTION -已无实际意义,脚本不会使用 */
             { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
             { label: translate('showCountdowndrag') + ` (${config.showCountdowndrag ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdowndrag') } },
-            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } },
+            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } }
         ]
         for (const label in registeredMenuCommands) {
             GM_unregisterMenuCommand(registeredMenuCommands[label])
@@ -664,7 +664,7 @@
             background: `linear-gradient(to right, ${colorStart}, ${colorEnd})`,
             borderRadius: '3px',
             boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
-            zIndex: '9999',
+            zIndex: '9999'
         })
         document.body.appendChild(progressBar)
         return progressBar

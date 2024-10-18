@@ -111,7 +111,7 @@ const translate = (function () {
             showCountdown: 'Show countdown progress bar',
             saveWindowConfig: 'Record window position',
             showCountdowndrag: 'Show drag timeout progress bar',
-            dragTimeOut: 'Drag timeout duration',
+            dragTimeOut: 'Drag timeout duration'
         },
         'zh-CN': {
             actionMode: '选择触发方式',
@@ -132,7 +132,7 @@ const translate = (function () {
             showCountdown: '显示长按倒计时进度条',
             saveWindowConfig: '记录窗口位置',
             showCountdowndrag: '显示拖拽超时进度条',
-            dragTimeOut: '拖拽超时时间',
+            dragTimeOut: '拖拽超时时间'
         },
         'zh-TW': {
             actionMode: '選擇觸發方式',
@@ -153,7 +153,7 @@ const translate = (function () {
             showCountdown: '顯示倒數計時進度條',
             saveWindowConfig: '記錄窗口位置',
             showCountdowndrag: '顯示拖曳逾時進度條',
-            dragTimeOut: '拖曳逾時時間',
+            dragTimeOut: '拖曳逾時時間'
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -174,7 +174,7 @@ const translate = (function () {
             showCountdown: 'カウントダウン進行状況を表示',
             saveWindowConfig: 'ウィンドウの位置を記録',
             showCountdowndrag: 'ドラッグタイムアウトの進行状況バーを表示',
-            dragTimeOut: 'ドラッグタイムアウト時間',
+            dragTimeOut: 'ドラッグタイムアウト時間'
         },
         'vi': {
             actionMode: 'Chọn chế độ kích hoạt',
@@ -195,7 +195,7 @@ const translate = (function () {
             showCountdown: 'Hiển thị thanh tiến trình đếm ngược',
             saveWindowConfig: 'Ghi lại vị trí cửa sổ',
             showCountdowndrag: 'Hiển thị thanh tiến trình quá hạn khi kéo thả',
-            dragTimeOut: 'Thời gian quá hạn khi kéo thả',
+            dragTimeOut: 'Thời gian quá hạn khi kéo thả'
         }
     }
     // 返回翻译函数
@@ -214,7 +214,7 @@ const translate = (function () {
         progressBar: null,
         dragprogressBar: null,
         dragintervalId: null,
-        startTime: null,
+        startTime: null
     }
     const windowConfigs = GM_getValue('SitewindowConfigs', [
     ])
@@ -515,7 +515,7 @@ const translate = (function () {
                 { label: translate('windowHeight') + ` (${config.windowHeight})`, action: () => { setWindowSize('height') } },//!SECTION -已无实际意义,脚本不会使用 */
             { label: translate('showCountdown') + ` (${config.showCountdown ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdown') } },
             { label: translate('showCountdowndrag') + ` (${config.showCountdowndrag ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdowndrag') } },
-            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } },
+            { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } }
         ]
         for (const label in registeredMenuCommands) {
             GM_unregisterMenuCommand(registeredMenuCommands[label])
@@ -618,7 +618,7 @@ const translate = (function () {
             background: `linear-gradient(to right, ${colorStart}, ${colorEnd})`,
             borderRadius: '3px',
             boxShadow: '0 2px 5px rgba(0, 0, 0, 0.3)',
-            zIndex: '9999',
+            zIndex: '9999'
         })
         document.body.appendChild(progressBar)
         return progressBar

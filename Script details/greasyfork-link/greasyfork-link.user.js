@@ -25,7 +25,7 @@
         duration = isNaN(duration) ? 3000 : duration
         var m = document.createElement('div')
         m.innerHTML = msg
-        m.style.cssText = "max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: black;line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: white;font-size: 16px;"
+        m.style.cssText = 'max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: black;line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: white;font-size: 16px;'
         document.body.appendChild(m)
         setTimeout(function () {
             var d = 0.5

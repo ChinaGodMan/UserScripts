@@ -27,7 +27,7 @@
 // @name:he           הסר קו תחתון של הקישור
 // @description:he    הסר קווי תחתון של קישורים בכל האתרים，ולטפל בקישורים חדשים באופן דינמי
 // @name:hr           Ukloni vezu podvučeno
-// @description:hr    Uklonite podcrtane veze na svim stranicama，i dinamički obrađivati ​​nove veze
+// @description:hr    Uklonite podcrtane veze na svim stranicama，i dinamički obrađivati nove veze
 // @name:hu           Távolítsa el a hivatkozás aláhúzását
 // @description:hu    Távolítsa el a hivatkozás aláhúzásokat az összes webhelyről，és dinamikusan kezeli az új hivatkozásokat
 // @name:id           Hapus tautan yang digarisbawahi

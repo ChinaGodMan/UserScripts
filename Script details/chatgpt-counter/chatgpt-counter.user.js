@@ -57,7 +57,7 @@
 // @description:sk    Do vstupného poľa pridajte počítadlo znakov，obmedzené na 32732 postavy。（ChatGPT Limit je 32732 postavy。）
 // @name:sr           ChatGPT Ограничење бројача знакова (CCCL)
 // @description:sr    Додајте бројач знакова у поље за унос，ограничен на 32732 ликова。（ChatGPT Граница је 32732 ликова。）
-// @name:sv           ChatGPT Gräns ​​för teckenräknare (CCCL)
+// @name:sv           ChatGPT Gräns för teckenräknare (CCCL)
 // @description:sv    Lägg till en teckenräknare i inmatningsrutan，begränsat till 32732 tecken。（ChatGPT Gränsen är 32732 tecken。）
 // @name:th           ChatGPT ขีดจำกัดตัวนับอักขระ (CCCL)
 // @description:th    เพิ่มตัวนับอักขระลงในกล่องอินพุต，จำกัดอยู่ที่ 32732 ตัวอักษร。（ChatGPT ขีดจำกัดคือ 32732 ตัวอักษร。）
@@ -132,7 +132,7 @@
         if (url !== lastUrl) {
             lastUrl = url
             addCharacterCounter()
-            console.log("change", url)
+            console.log('change', url)
         }
     }).observe(document, { subtree: true, childList: true })
     // Run the function after the page loads
