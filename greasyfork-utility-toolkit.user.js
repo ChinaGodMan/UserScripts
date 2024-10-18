@@ -21,7 +21,7 @@
 // @name:es           Greasyfork Artesano del pegamento
 // @description:es    para Greasyfork Proporcionar varias funciones de uso.，tiempo absoluto，pantalla ancha web，Mejoras en la página de script，Descargar extensión，Reparación de paneles y una serie de operaciones.
 // @name:fi           Greasyfork Liiman käsityöläinen
-// @description:fi    varten Greasyfork Tarjoa erilaisia ​​käyttötoimintoja，absoluuttinen aika，Web laajakuva，Käsikirjoitussivun parannukset，Lataa laajennus，Paneelin korjaus ja sarja toimenpiteitä
+// @description:fi    varten Greasyfork Tarjoa erilaisia käyttötoimintoja，absoluuttinen aika，Web laajakuva，Käsikirjoitussivun parannukset，Lataa laajennus，Paneelin korjaus ja sarja toimenpiteitä
 // @name:fr           Greasyfork Artisan de la colle
 // @description:fr    pour Greasyfork Fournir diverses fonctions d’utilisation，temps absolu，Web grand écran，Améliorations de la page de script，Télécharger l’extension，Réparation de panneaux et série d’opérations
 // @name:he           Greasyfork אומן דבק
@@ -145,14 +145,14 @@ const translate = (function () {
             'install': 'Install',
             'downloadFailed': 'Download failed',
             'dallScripts': 'All Released Scripts',
-            'JSScripts': "Number of JS Scripts:",
-            'CSSScripts': "Number of CSS Scripts:",
-            'DailyTotal': "Daily Installs:",
-            'TotalInstalls': "Total Installs:",
-            'bad': "Total Bad Reviews:",
-            'good': "Total Good Reviews:",
-            'ok': "Average:",
-            'loading': "Fetching, please wait.",
+            'JSScripts': 'Number of JS Scripts:',
+            'CSSScripts': 'Number of CSS Scripts:',
+            'DailyTotal': 'Daily Installs:',
+            'TotalInstalls': 'Total Installs:',
+            'bad': 'Total Bad Reviews:',
+            'good': 'Total Good Reviews:',
+            'ok': 'Average:',
+            'loading': 'Fetching, please wait.',
             'viewauthor': 'Author',
             'viewdaily_installs': 'Daily installs',
             'tviewotal_installs': 'Total installs',
@@ -227,7 +227,7 @@ const translate = (function () {
             'ScriptListdouble': 'ScriptListdouble',
             'beautifyTopNav': 'BeautifyNav',
             'fixElementoption': 'Fix Sidebar',
-            '1169082': 'Thank you for visiting the 勤务员’s homepage',
+            '1169082': 'Thank you for visiting the 勤务员’s homepage'
         },
         'zh-CN': {
             'newScript': '发布新脚本',
@@ -343,7 +343,7 @@ const translate = (function () {
             'ScriptListdouble': '双列显示',
             'beautifyTopNav': '美化导航栏',
             'fixElementoption': '侧边栏固定',
-            '1169082': '感谢光临勤务员的主页',
+            '1169082': '感谢光临勤务员的主页'
         },
         'zh-TW': {
             'newScript': '發布新腳本',
@@ -376,15 +376,15 @@ const translate = (function () {
             'errorNetwork': '下載失敗，網路錯誤或跨域問題',
             'install': '安裝',
             'downloadFailed': '下載失敗',
-            'dallScripts': "所有發布腳本",
-            'JSScripts': "JS腳本數量:",
-            'CSSScripts': "CSS腳本數量:",
-            'DailyTotal': "每日安裝:",
-            'TotalInstalls': "總安裝:",
-            'bad': "總差評:",
-            'good': "總好評:",
-            'ok': "一般:",
-            'loading': "正在獲取中，請耐心等待。",
+            'dallScripts': '所有發布腳本',
+            'JSScripts': 'JS腳本數量:',
+            'CSSScripts': 'CSS腳本數量:',
+            'DailyTotal': '每日安裝:',
+            'TotalInstalls': '總安裝:',
+            'bad': '總差評:',
+            'good': '總好評:',
+            'ok': '一般:',
+            'loading': '正在獲取中，請耐心等待。',
             'viewauthor': '作者',
             'viewdaily_installs': '日安裝量',
             'viewtotal_installs': '總安裝量',
@@ -456,7 +456,7 @@ const translate = (function () {
             'useroutlines': '側邊導航',
             'ScriptListdouble': '雙列顯示',
             'beautifyTopNav': '美化導覽列',
-            'fixElementoption': '側邊欄固定',
+            'fixElementoption': '側邊欄固定'
         },
         'ja': {
             'newScript': '新しいスクリプトを公開する',
@@ -489,84 +489,84 @@ const translate = (function () {
             'errorNetwork': 'ダウンロードに失敗しました、ネットワークエラーまたはクロスドメインの問題が発生しました',
             'install': 'インストール',
             'downloadFailed': 'ダウンロードに失敗しました',
-            'dallScripts': "すべてのリリースされたスクリプト",
-            'JSScripts': "JSスクリプトの数:",
-            'CSSScripts': "CSSスクリプトの数:",
-            'DailyTotal': "毎日のインストール:",
-            'TotalInstalls': "総インストール数:",
-            'bad': "総悪いレビュー:",
-            'good': "総良いレビュー:",
-            'ok': "平均:",
-            'loading': "取得中、お待ちください。",
-            "viewauthor": "作者",
-            "viewdaily_installs": "日ごとのインストール数",
-            "tviewotal_installs": "総インストール数",
-            "viewfan_score": "評価",
-            "viewversion": "バージョン",
-            "viewcreated_at": "作成日",
-            "viewcode_updated_at": "更新日",
-            "viewlicense": "ライセンス",
-            "viewlocale": "対応バージョン",
-            "copyto": "コードをコピー",
-            "htmlViewtotext": "ドキュメントビューを切り替え",
-            "texttohtmlView": "ウェブページビューを切り替え",
-            "Rememberme": "ログインページで「この情報を記憶する」を選択",
-            "locklang": "ウェブサイトの言語を切り替えます：",
-            "locklangset": "言語を選択後に設定をロック",
-            "openindoc": "ナビゲーションバーにこのページを追加",
-            "thisname": "Greasyfork 糊裱匠",
-            "脚本详情": "スクリプト詳細",
-            "导航栏": "ナビゲーションバー",
-            "website": "ウェブサイト",
-            "复制短链接": "短縮リンクをコピー",
-            "主页脚本添加操作": "ホームページのスクリプト追加操作",
-            "copylib": "ライブラリ宣言をコピー",
-            "barvertical": "ナビゲーションバーの配置",
-            "followsystem": "システムに従う",
-            "daymode": "デイモード",
-            "nightmode": "ナイトモード",
-            "cleariconcache": "アイコンキャッシュをクリア",
-            "expandmore": "「もっと見る」を展開",
-            "localbookmarks": "ブックマーク",
-            "scriptlist": "スクリプト一覧",
-            "oneclickreport": "ワンクリックで報告",
-            "hidereadcomments": "既読コメントを非表示",
-            "italicizereadcomments": "既読コメントを斜体にする",
-            "enableautologin": "自動ログインを有効にする",
-            "account": "アカウント",
-            "password": "パスワード",
-            "listdisplayinstallationdownload": "インストールとダウンロードを一覧表示",
-            "useoldversionlist": "旧バージョンのリストを使用",
-            "showscriptall": "すべての言語のスクリプトを表示",
-            "displaystatisticsonhomepage": "ホームページに統計を表示",
-            "beautifycontrols": "コントロールを美化",
-            "applyto": "対応バージョン",
-            "enableenhancements": "機能拡張を有効にする",
-            "openinnewwindow": "新しいウィンドウで開く",
-            "detailsapplytoopen": "詳細情報に適用して開く",
-            "forumsearch": "フォーラム検索",
-            "webpageopen": "ウェブページを開く",
-            "popupprompt": "ポップアップでの通知",
-            "displaycitationcount": "引用ファイル数を表示",
-            "beautifycodesnippets": "コードスニペットを美化",
-            "beautifycodeview": "コードの表示を美化",
-            "beautifycodetheme": "コードのテーマを美化",
-            "hiderrecentcomments": "最近のコメントを非表示",
-            "personalhomepage": "個人のホームページ",
-            "showscriptsinforum": "フォーラムでのスクリプト数を表示",
-            "downgradeto": "バージョンをダウングレードする：",
-            "reinstall": "再インストール",
-            "upgradeto": "バージョンをアップグレードする：",
-            "autologinredirect": "自動的にログインページにリダイレクトします...",
-            "nostoredaccount": "ローカルに保存されたアカウントがありません",
-            "nostoredpassword": "ローカルに保存されたパスワードがありません",
-            "getcsrftokenfailed": "CSRFトークンの取得に失敗しました",
-            "loginfailedconsole": "ログインに失敗しました。コンソールで原因を確認してください",
-            "loginsuccessredirect": "ログイン成功、1秒後に自動的にリダイレクトします",
-            "loginfailedelementnotfound": "ログインに失敗しました。要素が見つかりません",
-            "report": "報告",
-            "imageproxy": "ユーザーアップロード画像のプロキシ",
-            "useroutlines": "サイドナビゲーション",
+            'dallScripts': 'すべてのリリースされたスクリプト',
+            'JSScripts': 'JSスクリプトの数:',
+            'CSSScripts': 'CSSスクリプトの数:',
+            'DailyTotal': '毎日のインストール:',
+            'TotalInstalls': '総インストール数:',
+            'bad': '総悪いレビュー:',
+            'good': '総良いレビュー:',
+            'ok': '平均:',
+            'loading': '取得中、お待ちください。',
+            'viewauthor': '作者',
+            'viewdaily_installs': '日ごとのインストール数',
+            'tviewotal_installs': '総インストール数',
+            'viewfan_score': '評価',
+            'viewversion': 'バージョン',
+            'viewcreated_at': '作成日',
+            'viewcode_updated_at': '更新日',
+            'viewlicense': 'ライセンス',
+            'viewlocale': '対応バージョン',
+            'copyto': 'コードをコピー',
+            'htmlViewtotext': 'ドキュメントビューを切り替え',
+            'texttohtmlView': 'ウェブページビューを切り替え',
+            'Rememberme': 'ログインページで「この情報を記憶する」を選択',
+            'locklang': 'ウェブサイトの言語を切り替えます：',
+            'locklangset': '言語を選択後に設定をロック',
+            'openindoc': 'ナビゲーションバーにこのページを追加',
+            'thisname': 'Greasyfork 糊裱匠',
+            '脚本详情': 'スクリプト詳細',
+            '导航栏': 'ナビゲーションバー',
+            'website': 'ウェブサイト',
+            '复制短链接': '短縮リンクをコピー',
+            '主页脚本添加操作': 'ホームページのスクリプト追加操作',
+            'copylib': 'ライブラリ宣言をコピー',
+            'barvertical': 'ナビゲーションバーの配置',
+            'followsystem': 'システムに従う',
+            'daymode': 'デイモード',
+            'nightmode': 'ナイトモード',
+            'cleariconcache': 'アイコンキャッシュをクリア',
+            'expandmore': '「もっと見る」を展開',
+            'localbookmarks': 'ブックマーク',
+            'scriptlist': 'スクリプト一覧',
+            'oneclickreport': 'ワンクリックで報告',
+            'hidereadcomments': '既読コメントを非表示',
+            'italicizereadcomments': '既読コメントを斜体にする',
+            'enableautologin': '自動ログインを有効にする',
+            'account': 'アカウント',
+            'password': 'パスワード',
+            'listdisplayinstallationdownload': 'インストールとダウンロードを一覧表示',
+            'useoldversionlist': '旧バージョンのリストを使用',
+            'showscriptall': 'すべての言語のスクリプトを表示',
+            'displaystatisticsonhomepage': 'ホームページに統計を表示',
+            'beautifycontrols': 'コントロールを美化',
+            'applyto': '対応バージョン',
+            'enableenhancements': '機能拡張を有効にする',
+            'openinnewwindow': '新しいウィンドウで開く',
+            'detailsapplytoopen': '詳細情報に適用して開く',
+            'forumsearch': 'フォーラム検索',
+            'webpageopen': 'ウェブページを開く',
+            'popupprompt': 'ポップアップでの通知',
+            'displaycitationcount': '引用ファイル数を表示',
+            'beautifycodesnippets': 'コードスニペットを美化',
+            'beautifycodeview': 'コードの表示を美化',
+            'beautifycodetheme': 'コードのテーマを美化',
+            'hiderrecentcomments': '最近のコメントを非表示',
+            'personalhomepage': '個人のホームページ',
+            'showscriptsinforum': 'フォーラムでのスクリプト数を表示',
+            'downgradeto': 'バージョンをダウングレードする：',
+            'reinstall': '再インストール',
+            'upgradeto': 'バージョンをアップグレードする：',
+            'autologinredirect': '自動的にログインページにリダイレクトします...',
+            'nostoredaccount': 'ローカルに保存されたアカウントがありません',
+            'nostoredpassword': 'ローカルに保存されたパスワードがありません',
+            'getcsrftokenfailed': 'CSRFトークンの取得に失敗しました',
+            'loginfailedconsole': 'ログインに失敗しました。コンソールで原因を確認してください',
+            'loginsuccessredirect': 'ログイン成功、1秒後に自動的にリダイレクトします',
+            'loginfailedelementnotfound': 'ログインに失敗しました。要素が見つかりません',
+            'report': '報告',
+            'imageproxy': 'ユーザーアップロード画像のプロキシ',
+            'useroutlines': 'サイドナビゲーション'
         },
         'ko': {
             'newScript': '새 스크립트 게시',
@@ -599,15 +599,15 @@ const translate = (function () {
             'errorNetwork': '다운로드 실패, 네트워크 오류 또는 크로스도메인 문제',
             'install': '설치',
             'downloadFailed': '다운로드 실패',
-            'dallScripts': "모든 릴리스된 스크립트",
-            'JSScripts': "JS 스크립트 수:",
-            'CSSScripts': "CSS 스크립트 수:",
-            'DailyTotal': "일일 설치:",
-            'TotalInstalls': "총 설치:",
-            'bad': "총 나쁜 리뷰:",
-            'good': "총 좋은 리뷰:",
-            'ok': "보통:",
-            'loading': "가져오는 중, 잠시 기다려 주세요."
+            'dallScripts': '모든 릴리스된 스크립트',
+            'JSScripts': 'JS 스크립트 수:',
+            'CSSScripts': 'CSS 스크립트 수:',
+            'DailyTotal': '일일 설치:',
+            'TotalInstalls': '총 설치:',
+            'bad': '총 나쁜 리뷰:',
+            'good': '총 좋은 리뷰:',
+            'ok': '보통:',
+            'loading': '가져오는 중, 잠시 기다려 주세요.'
         },
         'ru': {
             'newScript': 'Опубликовать новый скрипт',
@@ -640,15 +640,15 @@ const translate = (function () {
             'errorNetwork': 'Сбой загрузки, сетевая ошибка или проблема с кросс-доменом',
             'install': 'Установить',
             'downloadFailed': 'Сбой загрузки',
-            'dallScripts': "Все выпущенные скрипты",
-            'JSScripts': "Количество JS скриптов:",
-            'CSSScripts': "Количество CSS скриптов:",
-            'DailyTotal': "Ежедневные установки:",
-            'TotalInstalls': "Всего установок:",
-            'bad': "Всего плохих отзывов:",
-            'good': "Всего хороших отзывов:",
-            'ok': "Средний:",
-            'loading': "Получение данных, пожалуйста, подождите."
+            'dallScripts': 'Все выпущенные скрипты',
+            'JSScripts': 'Количество JS скриптов:',
+            'CSSScripts': 'Количество CSS скриптов:',
+            'DailyTotal': 'Ежедневные установки:',
+            'TotalInstalls': 'Всего установок:',
+            'bad': 'Всего плохих отзывов:',
+            'good': 'Всего хороших отзывов:',
+            'ok': 'Средний:',
+            'loading': 'Получение данных, пожалуйста, подождите.'
         },
         'de': {
             'newScript': 'Neues Skript veröffentlichen',
@@ -681,15 +681,15 @@ const translate = (function () {
             'errorNetwork': 'Download fehlgeschlagen, Netzwerkfehler oder Cross-Domain-Probleme',
             'install': 'Installieren',
             'downloadFailed': 'Download fehlgeschlagen',
-            'dallScripts': "Alle veröffentlichten Skripte",
-            'JSScripts': "Anzahl der JS-Skripte:",
-            'CSSScripts': "Anzahl der CSS-Skripte:",
-            'DailyTotal': "Tägliche Installationen:",
-            'TotalInstalls': "Gesamtinstallationen:",
-            'bad': "Gesamtschlechte Bewertungen:",
-            'good': "Gesamtgute Bewertungen:",
-            'ok': "Durchschnitt:",
-            'loading': "Abrufen, bitte warten."
+            'dallScripts': 'Alle veröffentlichten Skripte',
+            'JSScripts': 'Anzahl der JS-Skripte:',
+            'CSSScripts': 'Anzahl der CSS-Skripte:',
+            'DailyTotal': 'Tägliche Installationen:',
+            'TotalInstalls': 'Gesamtinstallationen:',
+            'bad': 'Gesamtschlechte Bewertungen:',
+            'good': 'Gesamtgute Bewertungen:',
+            'ok': 'Durchschnitt:',
+            'loading': 'Abrufen, bitte warten.'
         },
         'fr': {
             'newScript': 'Publier un nouveau script',
@@ -722,15 +722,15 @@ const translate = (function () {
             'errorNetwork': 'Échec du téléchargement, erreur réseau ou problème de domaine croisé',
             'install': 'Installer',
             'downloadFailed': 'Échec du téléchargement',
-            'dallScripts': "Tous les scripts publiés",
-            'JSScripts': "Nombre de scripts JS:",
-            'CSSScripts': "Nombre de scripts CSS:",
-            'DailyTotal': "Installations quotidiennes:",
-            'TotalInstalls': "Total des installations:",
-            'bad': "Total des mauvais avis:",
-            'good': "Total des bons avis:",
-            'ok': "Moyenne:",
-            'loading': "Récupération en cours, veuillez patienter."
+            'dallScripts': 'Tous les scripts publiés',
+            'JSScripts': 'Nombre de scripts JS:',
+            'CSSScripts': 'Nombre de scripts CSS:',
+            'DailyTotal': 'Installations quotidiennes:',
+            'TotalInstalls': 'Total des installations:',
+            'bad': 'Total des mauvais avis:',
+            'good': 'Total des bons avis:',
+            'ok': 'Moyenne:',
+            'loading': 'Récupération en cours, veuillez patienter.'
         },
         'it': {
             'newScript': 'Pubblica nuovo script',
@@ -763,15 +763,15 @@ const translate = (function () {
             'errorNetwork': 'Download fallito, errore di rete o problema di dominio incrociato',
             'install': 'Installa',
             'downloadFailed': 'Download fallito',
-            'dallScripts': "Tutti gli script rilasciati",
-            'JSScripts': "Numero di script JS:",
-            'CSSScripts': "Numero di script CSS:",
-            'DailyTotal': "Installazioni giornaliere:",
-            'TotalInstalls': "Installazioni totali:",
-            'bad': "Totale recensioni negative:",
-            'good': "Totale recensioni positive:",
-            'ok': "Media:",
-            'loading': "Recupero in corso, attendere prego."
+            'dallScripts': 'Tutti gli script rilasciati',
+            'JSScripts': 'Numero di script JS:',
+            'CSSScripts': 'Numero di script CSS:',
+            'DailyTotal': 'Installazioni giornaliere:',
+            'TotalInstalls': 'Installazioni totali:',
+            'bad': 'Totale recensioni negative:',
+            'good': 'Totale recensioni positive:',
+            'ok': 'Media:',
+            'loading': 'Recupero in corso, attendere prego.'
         },
         'ar': {
             'newScript': 'نشر سكريبت جديد',
@@ -804,15 +804,15 @@ const translate = (function () {
             'errorNetwork': 'فشل التحميل، خطأ في الشبكة أو مشكلة في النطاق العابر',
             'install': 'تثبيت',
             'downloadFailed': 'فشل التحميل',
-            'dallScripts': "جميع البرامج النصية المنشورة",
-            'JSScripts': "عدد برامج JS النصية:",
-            'CSSScripts': "عدد برامج CSS النصية:",
-            'DailyTotal': "التثبيتات اليومية:",
-            'TotalInstalls': "إجمالي التثبيتات:",
-            'bad': "إجمالي التقييمات السلبية:",
-            'good': "إجمالي التقييمات الإيجابية:",
-            'ok': "متوسط:",
-            'loading': "جارٍ التحميل، يرجى الانتظار."
+            'dallScripts': 'جميع البرامج النصية المنشورة',
+            'JSScripts': 'عدد برامج JS النصية:',
+            'CSSScripts': 'عدد برامج CSS النصية:',
+            'DailyTotal': 'التثبيتات اليومية:',
+            'TotalInstalls': 'إجمالي التثبيتات:',
+            'bad': 'إجمالي التقييمات السلبية:',
+            'good': 'إجمالي التقييمات الإيجابية:',
+            'ok': 'متوسط:',
+            'loading': 'جارٍ التحميل، يرجى الانتظار.'
         },
         'he': {
             'newScript': 'פרסם סקריפט חדש',
@@ -845,15 +845,15 @@ const translate = (function () {
             'errorNetwork': 'הורדה נכשלה, בעיה ברשת או בקריאה חוצה דומיין',
             'install': 'התקן',
             'downloadFailed': 'הורדה נכשלה',
-            'dallScripts': "כל הסקריפטים שפורסמו",
-            'JSScripts': "מספר סקריפטים JS:",
-            'CSSScripts': "מספר סקריפטים CSS:",
-            'DailyTotal': "התקנות יומיות:",
-            'TotalInstalls': "סך ההתקנות:",
-            'bad': "סה\"כ ביקורות רעות:",
-            'good': "סה\"כ ביקורות טובות:",
-            'ok': "ממוצע:",
-            'loading': "טוען, נא להמתין."
+            'dallScripts': 'כל הסקריפטים שפורסמו',
+            'JSScripts': 'מספר סקריפטים JS:',
+            'CSSScripts': 'מספר סקריפטים CSS:',
+            'DailyTotal': 'התקנות יומיות:',
+            'TotalInstalls': 'סך ההתקנות:',
+            'bad': 'סה"כ ביקורות רעות:',
+            'good': 'סה"כ ביקורות טובות:',
+            'ok': 'ממוצע:',
+            'loading': 'טוען, נא להמתין.'
         },
         'vi': {
             'newScript': 'Đăng Kịch bản mới',
@@ -887,14 +887,14 @@ const translate = (function () {
             'install': 'Cài đặt',
             'downloadFailed': 'Tải xuống không thành công',
             'dallScripts': 'Tất cả Kịch bản đã Phát hành',
-            'JSScripts': "Số lượng Kịch bản JS:",
-            'CSSScripts': "Số lượng Kịch bản CSS:",
-            'DailyTotal': "Lượt Cài đặt Hàng ngày:",
-            'TotalInstalls': "Tổng số Lượt Cài đặt:",
-            'bad': "Tổng số Đánh giá Xấu:",
-            'good': "Tổng số Đánh giá Tốt:",
-            'ok': "Trung bình:",
-            'loading': "Đang tải, vui lòng đợi.",
+            'JSScripts': 'Số lượng Kịch bản JS:',
+            'CSSScripts': 'Số lượng Kịch bản CSS:',
+            'DailyTotal': 'Lượt Cài đặt Hàng ngày:',
+            'TotalInstalls': 'Tổng số Lượt Cài đặt:',
+            'bad': 'Tổng số Đánh giá Xấu:',
+            'good': 'Tổng số Đánh giá Tốt:',
+            'ok': 'Trung bình:',
+            'loading': 'Đang tải, vui lòng đợi.',
             'viewauthor': 'Tác giả',
             'viewdaily_installs': 'Lượt cài đặt hàng ngày',
             'tviewotal_installs': 'Tổng lượt cài đặt',
@@ -967,7 +967,7 @@ const translate = (function () {
             'ScriptListdouble': 'Danh sách Kịch bản kép',
             'beautifyTopNav': 'Làm đẹp Thanh điều hướng',
             'fixElementoption': 'Sửa Thanh bên',
-            '1169082': 'Cảm ơn bạn đã ghé thăm trang chủ của 勤务员',
+            '1169082': 'Cảm ơn bạn đã ghé thăm trang chủ của 勤务员'
         }
     }
     return (id, lang = '') => {
@@ -981,7 +981,7 @@ const translate = (function () {
     //FIXME - 基本配置
     var DEBUG = false // 控制是否启用调试模式
     function DEBUG11() {
-        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
+        const profileLinkElement = document.querySelector('#nav-user-info > span.user-profile-link > a')
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
             if (href && href.includes('1169082')) {
@@ -1055,10 +1055,10 @@ const translate = (function () {
     Object.keys(settings).forEach(key => {
         const setting = settings[key]
         window[key] = setting.parse ? setting.parse(GM_getValue(key, setting.default)) : GM_getValue(key, setting.default)
-        logMessage(`${key}: ${window[key]} // ${setting.comment}`, ` `, true)
+        logMessage(`${key}: ${window[key]} // ${setting.comment}`, ' ', true)
     })
     if (window.location.href.includes('users/1169082')) {
-        const targetElement = document.querySelector("#about-user > h2")
+        const targetElement = document.querySelector('#about-user > h2')
         if (targetElement) {
             targetElement.innerHTML += '<span class="badge badge-moderator">  ' + translate('1169082') + '</span>'
         }
@@ -1067,18 +1067,18 @@ const translate = (function () {
     if (Postlink) {
         const country_code = getCountryCode()
         setTimeout(function () {
-            addNavLink(translate('newScript'), "/" + country_code + '/script_versions/new', false)
+            addNavLink(translate('newScript'), '/' + country_code + '/script_versions/new', false)
         }, 100)
     }
-    if (remme && document.querySelector("#new_user > div:nth-child(4) > label")) {
+    if (remme && document.querySelector('#new_user > div:nth-child(4) > label')) {
         //STUB - 登录页面自动点击记住我
         function clickLabelsDirectly() {
             // 直接选中并点击第一个元素
-            document.querySelector("#new_user > div:nth-child(4) > label").click()
+            document.querySelector('#new_user > div:nth-child(4) > label').click()
             // 直接选中并点击第二个元素
-            document.querySelector("body > div.width-constraint > section > div > div > form > div.remember-me > label").click()
+            document.querySelector('body > div.width-constraint > section > div > div > form > div.remember-me > label').click()
         }
-        if (window.location.href.includes("users/sign_in")) {
+        if (window.location.href.includes('users/sign_in')) {
             clickLabelsDirectly()
         }
     }
@@ -1105,14 +1105,14 @@ const translate = (function () {
     }
     //STUB - 作者界面清理超过30天的评论
     if (clearhomepage) {
-        if (window.location.href.includes("users")) {
-            let items = document.querySelectorAll("#user-discussions-on-scripts-written > section > div")
+        if (window.location.href.includes('users')) {
+            let items = document.querySelectorAll('#user-discussions-on-scripts-written > section > div')
             let now = new Date()
             let num = 0
             for (let item of items) {
                 let item_time = item.querySelector('relative-time').date
                 if (now - new Date(item_time) > 24 * 3600 * 1000 * clearhomepagedays) {
-                    item.style.display = "none"
+                    item.style.display = 'none'
                     num += 1
                 }
             }
@@ -1120,47 +1120,47 @@ const translate = (function () {
     }
     //STUB - 修复导航栏不在中间
     if (wightnav) {
-        var e = document.getElementsByClassName("width-constraint")
-        e[0].style.maxWidth = "95%" //header
+        var e = document.getElementsByClassName('width-constraint')
+        e[0].style.maxWidth = '95%' //header
     }
     //STUB - 最大化使用
     if (greasymaxWidth) {
         try {
-            var e = document.getElementsByClassName("width-constraint")
-            e[0].style.maxWidth = "95%" //header
-            e[1].style.maxWidth = "95%" //content
+            var max = document.getElementsByClassName('width-constraint')
+            max[0].style.maxWidth = '95%' //header
+            max[1].style.maxWidth = '95%' //content
         } catch (exp) { }
         try {
-            document.getElementById("browse-script-list").style.width = "100%"
+            document.getElementById('browse-script-list').style.width = '100%'
         } catch (exp) { } //suchergebnisse;
         try {
-            document.getElementById("user-script-list").style.width = "100%"
+            document.getElementById('user-script-list').style.width = '100%'
         } catch (exp) { } //suchergebnisse;
         try {
-            document.getElementById("script-list-option-groups").style.width = "100%"
+            document.getElementById('script-list-option-groups').style.width = '100%'
         } catch (exp) { } //sidebar;
         try {
-            document.getElementById("carbonads").style.height = "0px"
+            document.getElementById('carbonads').style.height = '0px'
         } catch (exp) { } //carbon werbung
         //try{document.getElementsByClassName("adsbygoogle")[0].style.height = "0px";}catch(exp){} //google werbung
     }
     //STUB - 点击导航栏默认跳转创建日期
     if (scriptwithdata) {
-        var scriptslinks = document.getElementsByClassName("scripts-index-link")
+        var scriptslinks = document.getElementsByClassName('scripts-index-link')
         if (userhandleLocaleFilter) {
-            scriptslinks[0].firstChild.href = scriptslinks[0].firstChild.href.replace("/scripts", "/scripts?sort=created&filter_locale=0")
+            scriptslinks[0].firstChild.href = scriptslinks[0].firstChild.href.replace('/scripts', '/scripts?sort=created&filter_locale=0')
         } else {
-            scriptslinks[0].firstChild.href = scriptslinks[0].firstChild.href.replace("/scripts", "/scripts?sort=created")
+            scriptslinks[0].firstChild.href = scriptslinks[0].firstChild.href.replace('/scripts', '/scripts?sort=created')
         }
     }
     // STUB - 跳转大人
     if (jumpto) {
         var currentUrl = window.location.href
         const country_code = getCountryCode()
-        if (currentUrl.includes("greasyfork.org")) {
-            addNavLink("🔞", "https://sleazyfork.org/" + country_code + '/scripts')
-        } else if (currentUrl.includes("sleazyfork.org")) {
-            addNavLink("🍴", "https://greasyfork.org/" + country_code + '/scripts', false, false)
+        if (currentUrl.includes('greasyfork.org')) {
+            addNavLink('🔞', 'https://sleazyfork.org/' + country_code + '/scripts')
+        } else if (currentUrl.includes('sleazyfork.org')) {
+            addNavLink('🍴', 'https://greasyfork.org/' + country_code + '/scripts', false, false)
         }
     }
     //STUB - 本地收藏夹
@@ -1168,18 +1168,18 @@ const translate = (function () {
         favs = JSON.parse(GM_getValue('favs', '[]'))
     }
     if (userlocalfav) {
-        addNavLink(translate('localbookmarks'), "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks", true)
+        addNavLink(translate('localbookmarks'), 'https://greasyfork.org/' + getCountryCode() + '/404?Bookmarks', true)
     }
     function favPage() {
-        if (window.location.href == "https://greasyfork.org/" + getCountryCode() + "/404?Bookmarks") {
+        if (window.location.href == 'https://greasyfork.org/' + getCountryCode() + '/404?Bookmarks') {
             document.title = 'bookmarks'
             //  document.querySelector("body > div > section").remove()
             let scripts = JSON.parse(GM_getValue('favs', '[]'))
-            document.querySelector("body > div > section").innerHTML = `<ol id="browse-script-list" class="script-list ">`
+            document.querySelector('body > div > section').innerHTML = '<ol id="browse-script-list" class="script-list ">'
             const reverseOrder = true
             for (let script of (reverseOrder ? scripts.reverse() : scripts)) {
-                let elm = document.querySelector("#browse-script-list"),
-                    li = document.createElement("li")
+                let elm = document.querySelector('#browse-script-list'),
+                    li = document.createElement('li')
                 li.innerHTML = `
              <div class="parent-container">
             <a class="script-link" href="${script.href}">${script.title}</a>
@@ -1237,7 +1237,7 @@ const translate = (function () {
                 title: scriptTitle,
                 description: scriptDescription,
                 href: href,
-                timestamp: localTime,
+                timestamp: localTime
             }
             var index = -1,
                 val = scriptTitle,
@@ -1264,10 +1264,10 @@ const translate = (function () {
         })
     }
     function scriptPage() {
-        if (location.href.match('/scripts') && document.querySelector("#script-links")) {
-            let scriptLinks = document.querySelector("#script-links")
-            let scriptTitle = document.querySelector("#script-info > header > h2").innerText
-            let scriptDescription = document.querySelector(".script-description").innerText
+        if (location.href.match('/scripts') && document.querySelector('#script-links')) {
+            let scriptLinks = document.querySelector('#script-links')
+            let scriptTitle = document.querySelector('#script-info > header > h2').innerText
+            let scriptDescription = document.querySelector('.script-description').innerText
             let href = window.location.href
             handleScriptPage(scriptDescription, scriptTitle, scriptLinks, href)
         }
@@ -1338,7 +1338,7 @@ margin-bottom: 0;
                 addLink(link, 'Install', link.href + '/code/' + encodeURIComponent(link.innerText) + '.user.js', ' - ')
             }
             // Display number of userscripts
-            var scripts = document.querySelector("#user-script-list-section > header > h3")
+            var scripts = document.querySelector('#user-script-list-section > header > h3')
             if (scripts) {
                 scripts.innerText = `${scripts.innerText} (${items.length})`
             }
@@ -1346,25 +1346,25 @@ margin-bottom: 0;
     }
     //STUB - 隐藏主页评论
     if (hideuserdiscussions && isHomepage()) {
-        document.querySelector("#user-discussions").style.display = 'none'
+        document.querySelector('#user-discussions').style.display = 'none'
     }
     if (hideuserconversations && isHomepage()) {
-        document.querySelector("#user-conversations").style.display = 'none'
+        document.querySelector('#user-conversations').style.display = 'none'
     }
-    if (hideuserprofile && document.querySelector("#user-profile") && isHomepage()) {
-        document.querySelector("#user-profile").style.display = 'none'
+    if (hideuserprofile && document.querySelector('#user-profile') && isHomepage()) {
+        document.querySelector('#user-profile').style.display = 'none'
     }
     // STUB - 短链接复制
-    const idPrefix = "" // 根据需要设置前缀
-    if (copyshortlink && document.querySelector("#script-info")) {
+    const idPrefix = '' // 根据需要设置前缀
+    if (copyshortlink && document.querySelector('#script-info')) {
         shortLink()
     }
     function shortLink() {
-        const description = document.querySelector("div#script-content")
+        const description = document.querySelector('div#script-content')
         const url = window.location.href
         const scriptId = url.match(/\/scripts\/(\d+)/)?.[1]
         if (!scriptId || !description) return
-        const id = idPrefix + "short-link"
+        const id = idPrefix + 'short-link'
         const current = document.getElementById(id)
         const short = `https://greasyfork.org/scripts/${scriptId}`
         if (current) {
@@ -1374,23 +1374,23 @@ margin-bottom: 0;
         } else {
             logMessage('shortLink', '新增短链元素', true)
             // Add the short link element
-            const p = description.insertAdjacentElement("beforebegin", document.createElement("p"))
+            const p = description.insertAdjacentElement('beforebegin', document.createElement('p'))
             p.id = id
-            p.textContent = "Short link: "
-            const link = p.appendChild(document.createElement("a"))
+            p.textContent = 'Short link: '
+            const link = p.appendChild(document.createElement('a'))
             link.href = short
             link.textContent = short
-            const copy = p.appendChild(document.createElement("a"))
-            copy.textContent = "Copy"
-            copy.style.marginLeft = "1em"
-            copy.style.cursor = "pointer"
-            copy.title = "Copy short link to clipboard"
-            copy.addEventListener("click", () => {
-                if (copy.textContent === "Copied!") return
+            const copy = p.appendChild(document.createElement('a'))
+            copy.textContent = 'Copy'
+            copy.style.marginLeft = '1em'
+            copy.style.cursor = 'pointer'
+            copy.title = 'Copy short link to clipboard'
+            copy.addEventListener('click', () => {
+                if (copy.textContent === 'Copied!') return
                 navigator.clipboard.writeText(short).then(() => {
-                    copy.textContent = "Copied!"
+                    copy.textContent = 'Copied!'
                     window.setTimeout(() => {
-                        copy.textContent = "Copy"
+                        copy.textContent = 'Copy'
                     }, 1000)
                 })
             })
@@ -1399,11 +1399,11 @@ margin-bottom: 0;
     //webhoot
     // STUB - 导航栏增加打开设置
     if (setopenindoc) {
-        addNavLink(translate('thisname'), '#', false, false, "renminde")
+        addNavLink(translate('thisname'), '#', false, false, 'renminde')
         var customClassName = 'renminde' // 自定义类名
-        var link = document.querySelector(`.${customClassName} > a`)
-        if (link) {
-            link.addEventListener('click', event => {
+        var navlink = document.querySelector(`.${customClassName} > a`)
+        if (navlink) {
+            navlink.addEventListener('click', event => {
                 event.preventDefault()
                 showSettingsModal()
             })
@@ -1451,7 +1451,7 @@ margin-bottom: 0;
         return {
             lines: t.split('\n').length,
             chars: t.length,
-            filesize: size,
+            filesize: size
         }
     }
     function handle_code_page() {
@@ -1478,9 +1478,9 @@ margin-bottom: 0;
     }
     // 封装的复制代码函数
     function copyCode() {
-        let pre = document.querySelector(".code-container > pre")
+        let pre = document.querySelector('.code-container > pre')
         if (!pre) {
-            pre = document.querySelector("pre.uglyprint")
+            pre = document.querySelector('pre.uglyprint')
         }
         //  const pre = document.querySelector(".code-container > pre");
         const codeText = pre.innerText
@@ -1491,7 +1491,7 @@ margin-bottom: 0;
                 return line.replace(/^\d+/, '')
             })
             .join('\n')
-        GM_setClipboard(codeText, "text")
+        GM_setClipboard(codeText, 'text')
     }
     // STUB - 代码复制按钮
     function copycodelink() {
@@ -1506,7 +1506,7 @@ margin-bottom: 0;
             Toast('Copy successful', 3000, '#0000ff', '#ffffff', 'top')
         }
         if (isMobile()) {
-            var parentElement = document.querySelector("#script-content > div.code-container")
+            var parentElement = document.querySelector('#script-content > div.code-container')
             var referenceElement = parentElement.nextElementSibling
             parentElement.insertAdjacentElement('beforebegin', b)
         } else {
@@ -1516,10 +1516,10 @@ margin-bottom: 0;
     // STUB - 切换脚本简介greasyfork.org/scripts/471149
     let additionalInfoDiv = document.querySelector('#additional-info.user-content')
     if (sethtmlview && additionalInfoDiv) {
-        const htmlViewb = document.createElement("a")
-        htmlViewb.href = "#"
-        htmlViewb.className = "install-link htmlViewb"
-        htmlViewb.style.marginLeft = "0.5rem"
+        const htmlViewb = document.createElement('a')
+        htmlViewb.href = '#'
+        htmlViewb.className = 'install-link htmlViewb'
+        htmlViewb.style.marginLeft = '0.5rem'
         htmlViewb.textContent = translate('htmlViewtotext')
         htmlViewb.addEventListener('click', (event) => {
             event.preventDefault()
@@ -1542,16 +1542,16 @@ margin-bottom: 0;
         }
     }
     // STUB - 侧边栏脚本上移动
-    const findlis = document.getElementById("script-list-sort")
+    const findlis = document.getElementById('script-list-sort')
     if (scriptset && findlis) {
         var observer = new MutationObserver(function (mutationsList) {
             for (var mutation of mutationsList) {
                 if (mutation.type === 'childList') {
                     // 检查是否出现了 Script set 元素
-                    var setDiv = document.getElementById("script-list-set")
+                    var setDiv = document.getElementById('script-list-set')
                     if (setDiv) {
                         // 找到 script-list-sort 元素
-                        var sortDiv = document.getElementById("script-list-sort")
+                        var sortDiv = document.getElementById('script-list-sort')
                         // 将 setDiv 插入到 sortDiv 下面
                         sortDiv.parentNode.insertBefore(setDiv, sortDiv.nextSibling)
                         // 弹出提示
@@ -1590,7 +1590,7 @@ margin-bottom: 0;
     })
     function handleCheckboxChange() {
         if (this.checked) {
-            let input = prompt(translate('inputDaysToCleanUp'), "30")
+            let input = prompt(translate('inputDaysToCleanUp'), '30')
             let number = parseInt(input)
             if (isNaN(number)) {
                 number = 30
@@ -1756,7 +1756,7 @@ margin-bottom: 0;
                 })
                 // 将安装链接添加到 article 元素的底部
                 article.appendChild(installLink)
-                if (scriptlang === "js") {
+                if (scriptlang === 'js') {
                     checkVersionInfo(`https://greasyfork.org/scripts/${scriptid}.json`, installLink, scripver)
                 } else {
                     logMessage('addInstallAndDownloadLinks', `${scriptlang}文件暂未添加检测版本`, false)
@@ -1879,12 +1879,12 @@ margin-bottom: 0;
             mutations.forEach(mutation => {
                 if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
                     mutation.addedNodes.forEach(node => {
-                        if (node.nodeType === 1 && (node.id === "user-script-list-section" || node.id === "browse-script-list")) {
-                            if (node.id === "user-script-list-section") {
-                                node = node.querySelector("#user-script-list")
+                        if (node.nodeType === 1 && (node.id === 'user-script-list-section' || node.id === 'browse-script-list')) {
+                            if (node.id === 'user-script-list-section') {
+                                node = node.querySelector('#user-script-list')
                                 logMessage('用户列表', '元素', true, node)
                             }
-                            if (node.id === "browse-script-list") {
+                            if (node.id === 'browse-script-list') {
                                 logMessage('脚本列表', '元素', true, node)
                             }
                             Array.from(node.children).forEach(li => {
@@ -1967,12 +1967,12 @@ margin-bottom: 0;
         }
     }
 `
-        if (typeof GM_addStyle !== "undefined") {
+        if (typeof GM_addStyle !== 'undefined') {
             GM_addStyle(css)
         } else {
-            let styleNode = document.createElement("style")
+            let styleNode = document.createElement('style')
             styleNode.appendChild(document.createTextNode(css));
-            (document.querySelector("head") || document.documentElement).appendChild(styleNode)
+            (document.querySelector('head') || document.documentElement).appendChild(styleNode)
         }
     }
     //STUB -  显示绝对时间 https://update.greasyfork.org/scripts/470348/Absolute%20Time%20on%20GreasyFork.user.js
@@ -2043,7 +2043,7 @@ margin-bottom: 0;
   `
         async function fixRelativeTime(s) {
             psk = Date.now()
-            s.classList.add("absolute")
+            s.classList.add('absolute')
             s.format = 'datetime'
             await Promise.resolve().then()
             await getRafPromise().then()
@@ -2101,7 +2101,7 @@ margin-bottom: 0;
         function mountLibraryDownloadButton(suggestion, libraryRequire, libraryVersion) {
             let [
                 libraryHref,
-                libraryName,
+                libraryName
             ] = libraryRequire.innerText.match(
                 /\/\/ @require (https:\/\/.+\/scripts\/\d+\/\d+\/(.*)\.js)/
             ).slice(1)
@@ -2141,7 +2141,7 @@ margin-bottom: 0;
         function mountScriptDownloadButton(
             installBtn,
             installArea,
-            installHelpLink,
+            installHelpLink
         ) {
             if (!installBtn.href) throw new Error('script href is not found')
             const linkText = installBtn.textContent.trim()
@@ -2151,8 +2151,8 @@ margin-bottom: 0;
         </svg>
          ${linkText}`
             const downloadButton = document.createElement('a')
-            downloadButton.href = "#"
-            downloadButton.className = "install-link down-code-link"
+            downloadButton.href = '#'
+            downloadButton.className = 'install-link down-code-link'
             toggleDownloadIcon(downloadButton, false)
             downloadButton.style.marginLeft = '"0.5rem'
             // suggestion.appendChild(downloadButton);
@@ -2190,7 +2190,7 @@ margin-bottom: 0;
                 onload: function (r) {
                     var url = (r.responseText.match(/\n\s*\/\/\s+@icon(?:url)?\s+((?:https?:\/\/|data:image\/).+)|$/i)[1] || '').trim()
                     if (!url) {
-                        url = "https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/default.png"
+                        url = 'https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/default.png'
                         return __addIcon(url, h2Element, true)
                     }
                     if (!/^http:/.test(url))
@@ -2241,12 +2241,12 @@ margin-bottom: 0;
             img.src = url
             h2Element.insertAdjacentElement('afterbegin', img)
             if (!NoCache) {
-                logMessage("添加图标", "nocache,为false,进行缓存", true)
+                logMessage('添加图标', 'nocache,为false,进行缓存', true)
                 const scripts = JSON.parse(GM_getValue('scriptsIcon', '{}'))
                 scripts[scriptID] = url
                 GM_setValue('scriptsIcon', JSON.stringify(scripts))
             } else {
-                logMessage("添加图标", "nocache为true,不缓存", false)
+                logMessage('添加图标', 'nocache为true,不缓存', false)
             }
             // GM_setValue(scriptID, url);
         }
@@ -2255,10 +2255,10 @@ margin-bottom: 0;
     const beautifyMarkdownCSS = 'code {\r\n font-family: Menlo, Monaco, Consolas, "Courier New", monospace;\r\n font-size: 0.85em;\r\n  color: #000;\r\n  background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n padding: 0.2em 0;\r\n}\r\ntable {\r\n text-indent: initial;\r\n}\r\ntable {\r\n margin: 10px 0 15px 0;\r\n  border-collapse: collapse;\r\n  border-spacing: 0;\r\n  display: block;\r\n width: 100%;\r\n  overflow: auto;\r\n word-break: normal;\r\n word-break: keep-all;\r\n}\r\ncode,\r\npre {\r\n  color: #333;\r\n  background: 0 0;\r\n  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;\r\n  text-align: left;\r\n white-space: pre;\r\n word-spacing: normal;\r\n word-break: normal;\r\n word-wrap: normal;\r\n  line-height: 1.4;\r\n -moz-tab-size: 8;\r\n -o-tab-size: 8;\r\n tab-size: 8;\r\n  -webkit-hyphens: none;\r\n  -moz-hyphens: none;\r\n -ms-hyphens: none;\r\n  hyphens: none;\r\n}\r\npre {\r\n  padding: 0.8em;\r\n overflow: auto;\r\n border-radius: 3px;\r\n background: #f5f5f5;\r\n}\r\n:not(pre) > code {\r\n padding: 0.1em;\r\n border-radius: 0.3em;\r\n white-space: normal;\r\n  background: #f5f5f5;\r\n}\r\nhtml body {\r\n  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,\r\n    sans-serif;\r\n font-size: 16px;\r\n  line-height: 1.6;\r\n color: #333;\r\n  background-color: #fff;\r\n overflow: initial;\r\n  box-sizing: border-box;\r\n word-wrap: break-word;\r\n}\r\nhtml body > :first-child {\r\n margin-top: 0;\r\n}\r\nhtml body h1,\r\nhtml body h2,\r\nhtml body h3,\r\nhtml body h4,\r\nhtml body h5,\r\nhtml body h6 {\r\n  line-height: 1.2;\r\n margin-top: 1em;\r\n  margin-bottom: 16px;\r\n  color: #000;\r\n}\r\nhtml body h1 {\r\n font-size: 2.25em;\r\n  font-weight: 300;\r\n padding-bottom: 0.3em;\r\n}\r\nhtml body h2 {\r\n font-size: 1.75em;\r\n  font-weight: 400;\r\n padding-bottom: 0.3em;\r\n}\r\nhtml body h3 {\r\n font-size: 1.5em;\r\n font-weight: 500;\r\n}\r\nhtml body h4 {\r\n  font-size: 1.25em;\r\n  font-weight: 600;\r\n}\r\nhtml body h5 {\r\n  font-size: 1.1em;\r\n font-weight: 600;\r\n}\r\nhtml body h6 {\r\n  font-size: 1em;\r\n font-weight: 600;\r\n}\r\nhtml body h1,\r\nhtml body h2,\r\nhtml body h3,\r\nhtml body h4,\r\nhtml body h5 {\r\n  font-weight: 600;\r\n}\r\nhtml body h5 {\r\n  font-size: 1em;\r\n}\r\nhtml body h6 {\r\n  color: #5c5c5c;\r\n}\r\nhtml body strong {\r\n  color: #000;\r\n}\r\nhtml body del {\r\n  color: #5c5c5c;\r\n}\r\nhtml body a:not([href]) {\r\n color: inherit;\r\n}\r\nhtml body a {\r\n text-decoration: underline;\r\n text-underline-offset: 0.2rem;\r\n}\r\nhtml body a:hover {\r\n  color: #00a3f5;\r\n}\r\nhtml body img {\r\n max-width: 100%;\r\n}\r\nhtml body > p {\r\n  margin-top: 0;\r\n  margin-bottom: 16px;\r\n  word-wrap: break-word;\r\n}\r\nhtml body > ol,\r\nhtml body > ul {\r\n  margin-bottom: 16px;\r\n}\r\nhtml body ol,\r\nhtml body ul {\r\n  padding-left: 2em;\r\n}\r\nhtml body ol.no-list,\r\nhtml body ul.no-list {\r\n  padding: 0;\r\n list-style-type: none;\r\n}\r\nhtml body ol ol,\r\nhtml body ol ul,\r\nhtml body ul ol,\r\nhtml body ul ul {\r\n  margin-top: 0;\r\n  margin-bottom: 0;\r\n}\r\nhtml body li {\r\n  margin-bottom: 0;\r\n}\r\nhtml body li.task-list-item {\r\n list-style: none;\r\n}\r\nhtml body li > p {\r\n  margin-top: 0;\r\n  margin-bottom: 0;\r\n}\r\nhtml body .task-list-item-checkbox {\r\n  margin: 0 0.2em 0.25em -1.8em;\r\n  vertical-align: middle;\r\n}\r\nhtml body .task-list-item-checkbox:hover {\r\n  cursor: pointer;\r\n}\r\nhtml body blockquote {\r\n margin: 16px 0;\r\n font-size: inherit;\r\n padding: 0 15px;\r\n  color: #5c5c5c;\r\n background-color: #f0f0f0;\r\n  border-left: 4px solid #d6d6d6 !important;\r\n}\r\nhtml body blockquote > :first-child {\r\n  margin-top: 0;\r\n}\r\nhtml body blockquote > :last-child {\r\n margin-bottom: 0;\r\n}\r\nhtml body hr {\r\n  height: 4px;\r\n  margin: 32px 0;\r\n background-color: #d6d6d6;\r\n  border: 0 none;\r\n}\r\nhtml body table {\r\n margin: 10px 0 15px 0;\r\n  border-collapse: collapse;\r\n  border-spacing: 0;\r\n  display: block;\r\n width: 100%;\r\n  overflow: auto;\r\n word-break: normal;\r\n word-break: keep-all;\r\n}\r\nhtml body table th {\r\n  font-weight: 700;\r\n color: #000;\r\n}\r\nhtml body table td,\r\nhtml body table th {\r\n  border: 1px solid #d6d6d6;\r\n  padding: 6px 13px;\r\n}\r\nhtml body dl {\r\n padding: 0;\r\n}\r\nhtml body dl dt {\r\n padding: 0;\r\n margin-top: 16px;\r\n font-size: 1em;\r\n font-style: italic;\r\n font-weight: 700;\r\n}\r\nhtml body dl dd {\r\n padding: 0 16px;\r\n  margin-bottom: 16px;\r\n}\r\nhtml body code {\r\n font-family: Menlo, Monaco, Consolas, "Courier New", monospace;\r\n font-size: 0.85em;\r\n  color: #000;\r\n  background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n padding: 0.2em 0;\r\n}\r\nhtml body code::after,\r\nhtml body code::before {\r\n  letter-spacing: -0.2em;\r\n content: "\\00a0";\r\n}\r\nhtml body pre > code {\r\n padding: 0;\r\n margin: 0;\r\n  word-break: normal;\r\n white-space: pre;\r\n background: 0 0;\r\n  border: 0;\r\n}\r\nhtml body .highlight {\r\n margin-bottom: 16px;\r\n}\r\nhtml body .highlight pre,\r\nhtml body pre {\r\n padding: 1em;\r\n overflow: auto;\r\n line-height: 1.45;\r\n  border: #d6d6d6;\r\n  border-radius: 3px;\r\n}\r\nhtml body .highlight pre {\r\n  margin-bottom: 0;\r\n word-break: normal;\r\n}\r\nhtml body pre code,\r\nhtml body pre tt {\r\n display: inline;\r\n  max-width: initial;\r\n padding: 0;\r\n margin: 0;\r\n  overflow: initial;\r\n  line-height: inherit;\r\n word-wrap: normal;\r\n  background-color: transparent;\r\n  border: 0;\r\n}\r\nhtml body pre code:after,\r\nhtml body pre code:before,\r\nhtml body pre tt:after,\r\nhtml body pre tt:before {\r\n  content: normal;\r\n}\r\nhtml body blockquote,\r\nhtml body dl,\r\nhtml body ol,\r\nhtml body p,\r\nhtml body pre,\r\nhtml body ul {\r\n  margin-top: 0;\r\n  margin-bottom: 16px;\r\n}\r\nhtml body kbd {\r\n  color: #000;\r\n  border: 1px solid #d6d6d6;\r\n  border-bottom: 2px solid #c7c7c7;\r\n padding: 2px 4px;\r\n background-color: #f0f0f0;\r\n  border-radius: 3px;\r\n}\r\n@media print {\r\n  html body {\r\n   background-color: #fff;\r\n }\r\n html body h1,\r\n html body h2,\r\n html body h3,\r\n html body h4,\r\n html body h5,\r\n html body h6 {\r\n    color: #000;\r\n    page-break-after: avoid;\r\n  }\r\n html body blockquote {\r\n    color: #5c5c5c;\r\n }\r\n html body pre {\r\n   page-break-inside: avoid;\r\n }\r\n html body table {\r\n   display: table;\r\n }\r\n html body img {\r\n   display: block;\r\n   max-width: 100%;\r\n    max-height: 100%;\r\n }\r\n html body code,\r\n html body pre {\r\n   word-wrap: break-word;\r\n    white-space: pre;\r\n }\r\n}\r\n.scrollbar-style::-webkit-scrollbar {\r\n width: 8px;\r\n}\r\n.scrollbar-style::-webkit-scrollbar-track {\r\n border-radius: 10px;\r\n  background-color: transparent;\r\n}\r\n.scrollbar-style::-webkit-scrollbar-thumb {\r\n  border-radius: 5px;\r\n background-color: rgba(150, 150, 150, 0.66);\r\n  border: 4px solid rgba(150, 150, 150, 0.66);\r\n  background-clip: content-box;\r\n}\r\n'
     const beautifyButtonCSS = '/* 美化按钮 */\r\ninput[type="submit"],\r\nbutton {\r\n  display: inline-flex;\r\n justify-content: center;\r\n  align-items: center;\r\n  line-height: 1;\r\n height: 32px;\r\n white-space: nowrap;\r\n  cursor: pointer;\r\n  /* color: #606266; */\r\n text-align: center;\r\n box-sizing: border-box;\r\n outline: none;\r\n  transition: 0.1s;\r\n font-weight: 500;\r\n user-select: none;\r\n  vertical-align: middle;\r\n -webkit-appearance: none;\r\n background-color: #ffffff;\r\n  border: 1px solid #dcdfe6;\r\n  border-color: #dcdfe6;\r\n  padding: 8px 15px;\r\n  font-size: 14px;\r\n  border-radius: 4px;\r\n}\r\n\r\ninput[type="submit"]:hover,\r\ninput[type="submit"]:focus,\r\nbutton:hover,\r\nbutton:focus {\r\n color: #409eff;\r\n border-color: #c6e2ff;\r\n  background-color: #ecf5ff;\r\n  outline: none;\r\n}\r\n\r\ninput[type="url"] {\r\n  position: relative;\r\n font-size: 14px;\r\n  display: inline-flex;\r\n line-height: 32px;\r\n  box-sizing: border-box;\r\n vertical-align: middle;\r\n -webkit-appearance: none;\r\n /* color: #606266; */\r\n padding: 0;\r\n outline: none;\r\n  border: none;\r\n background: none;\r\n flex-grow: 1;\r\n align-items: center;\r\n  justify-content: center;\r\n  padding: 1px 11px;\r\n  background-color: #ffffff;\r\n  background-image: none;\r\n border-radius: 4px;\r\n cursor: text;\r\n transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\r\n transform: translateZ(0);\r\n box-shadow: 0 0 0 1px #dcdfe6 inset;\r\n\r\n  width: 100%;\r\n  width: -moz-available;\r\n  width: -webkit-fill-available;\r\n  width: fill-available;\r\n}\r\n\r\ninput[type="url"]::placeholder {\r\n color: #a8abb2;\r\n}\r\n\r\ninput[type="url"]:hover {\r\n box-shadow: 0 0 0 1px #c0c4cc inset;\r\n}\r\n\r\ninput[type="url"]:focus {\r\n  box-shadow: 0 0 0 1px #409eff inset;\r\n}\r\n'
     const beautifyRadioCSS = 'label.radio-label {\r\n font-weight: 500;\r\n position: relative;\r\n cursor: pointer;\r\n  display: inline-flex;\r\n align-items: center;\r\n  white-space: normal;\r\n  outline: none;\r\n  font-size: 14px;\r\n  user-select: none;\r\n  margin-right: 32px;\r\n height: 32px;\r\n padding: 4px;\r\n border-radius: 4px;\r\n box-sizing: border-box;\r\n}\r\nlabel:has(input[type="radio"]:checked),\r\nlabel:has(input[type="radio"]:checked) a {\r\n color: #409eff;\r\n}\r\nlabel.radio-label input[type="radio"] {\r\n margin-right: 4px;\r\n  width: 14px;\r\n  height: 14px;\r\n}\r\nlabel.radio-label input[type="radio"]:checked {\r\n -webkit-appearance: none;\r\n -moz-appearance: none;\r\n  appearance: none;\r\n border-radius: 50%;\r\n width: 14px;\r\n  height: 14px;\r\n outline: none;\r\n  border: 4px solid #409eff;\r\n  cursor: pointer;\r\n}\r\nlabel.radio-label input[type="radio"]:checked + span {\r\n color: #409eff;\r\n}\r\n'
-    const beautifyTextAreaCSS = "textarea {\r\n position: relative;\r\n display: inline-block;\r\n  width: 100%;\r\n  vertical-align: bottom;\r\n font-size: 14px;\r\n  position: relative;\r\n display: block;\r\n resize: vertical;\r\n padding: 5px 11px;\r\n  line-height: 1.5;\r\n box-sizing: border-box;\r\n width: 100%;\r\n  font-size: inherit;\r\n font-family: inherit;\r\n /* color: #606266; */\r\n background-color: #ffffff;\r\n  background-image: none;\r\n -webkit-appearance: none;\r\n box-shadow: 0 0 0 1px #dcdfe6 inset;\r\n  border-radius: 4px;\r\n transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\r\n border: none;\r\n}\r\ntextarea:focus {\r\n  outline: none;\r\n  box-shadow: 0 0 0 1px #409eff inset;\r\n}\r\n"
+    const beautifyTextAreaCSS = 'textarea {\r\n position: relative;\r\n display: inline-block;\r\n  width: 100%;\r\n  vertical-align: bottom;\r\n font-size: 14px;\r\n  position: relative;\r\n display: block;\r\n resize: vertical;\r\n padding: 5px 11px;\r\n  line-height: 1.5;\r\n box-sizing: border-box;\r\n width: 100%;\r\n  font-size: inherit;\r\n font-family: inherit;\r\n /* color: #606266; */\r\n background-color: #ffffff;\r\n  background-image: none;\r\n -webkit-appearance: none;\r\n box-shadow: 0 0 0 1px #dcdfe6 inset;\r\n  border-radius: 4px;\r\n transition: box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);\r\n border: none;\r\n}\r\ntextarea:focus {\r\n  outline: none;\r\n  box-shadow: 0 0 0 1px #409eff inset;\r\n}\r\n'
     const beautifyVersionsPageCSS = 'ul.history_versions,\r\nul.history_versions li {\r\n width: 100%;\r\n}\r\nul.history_versions li {\r\n display: flex;\r\n  flex-direction: column;\r\n margin: 25px 0px;\r\n}\r\n.diff-controls input[type="radio"]:nth-child(2) {\r\n margin-left: 5px;\r\n}\r\n.flex-align-item-center {\r\n display: flex;\r\n  align-items: center;\r\n}\r\n.script-tag {\r\n  margin-bottom: 8px;\r\n}\r\n.script-tag-version a {\r\n color: #656d76;\r\n fill: #656d76;\r\n  text-decoration: none;\r\n  width: fit-content;\r\n width: -moz-fit-content;\r\n}\r\n.script-tag-version a:hover svg {\r\n  color: #00a3f5;\r\n fill: #00a3f5;\r\n}\r\n.script-tag-version a > span {\r\n margin-left: 0.25rem;\r\n}\r\n.script-note-box-body {\r\n border-radius: 0.375rem;\r\n  border-style: solid;\r\n  border-width: max(1px, 0.0625rem);\r\n  border-color: #d0d7de;\r\n  color: #1f2328;\r\n padding: 16px;\r\n  overflow-wrap: anywhere;\r\n}\r\n.script-note-box-body p {\r\n  margin-bottom: unset;\r\n}\r\n'
     const beautifyUploadImageCSS = '/* 隐藏 添加： */\r\nlabel[for="discussion_comments_attributes_0_attachments"],\r\nlabel[for="comment_attachments"] {\r\n  display: none;\r\n}\r\ninput[type="file"] {\r\n width: 100%;\r\n  font-size: 20px;\r\n  background: #e2e2e2;\r\n  padding: 40px 0px;\r\n  border-radius: 10px;\r\n  text-align-last: center;\r\n}\r\n'
-    const compatibleBeautifyCSS = "#main-header {\r\n background-color: #670000 !important;\r\n background-image: linear-gradient(#670000, #990000) !important;\r\n}\r\n#site-nav-vue {\r\n flex-wrap: wrap;\r\n  justify-content: flex-end;\r\n}\r\n.open-sidebar {\r\n  border-width: 1px;\r\n  border-radius: 3px;\r\n margin-right: 0;\r\n}\r\ninput.search-submit {\r\n  transform: translateY(-5%) !important;\r\n  margin-left: 10px;\r\n}\r\n#script-content code {\r\n word-wrap: break-word;\r\n}\r\n.code-container ::selection {\r\n  background-color: #3d4556 !important;\r\n}\r\n"
+    const compatibleBeautifyCSS = '#main-header {\r\n background-color: #670000 !important;\r\n background-image: linear-gradient(#670000, #990000) !important;\r\n}\r\n#site-nav-vue {\r\n flex-wrap: wrap;\r\n  justify-content: flex-end;\r\n}\r\n.open-sidebar {\r\n  border-width: 1px;\r\n  border-radius: 3px;\r\n margin-right: 0;\r\n}\r\ninput.search-submit {\r\n  transform: translateY(-5%) !important;\r\n  margin-left: 10px;\r\n}\r\n#script-content code {\r\n word-wrap: break-word;\r\n}\r\n.code-container ::selection {\r\n  background-color: #3d4556 !important;\r\n}\r\n'
     if (usercssto) {
         GM_addStyle(`
 ${beautifyMarkdownCSS}
@@ -2273,7 +2273,7 @@ ${compatibleBeautifyCSS}
     }
     //STUB - 美化版本列表边框
     function beautifyChangelog() {
-        document.querySelectorAll(".version-changelog").forEach(element => {
+        document.querySelectorAll('.version-changelog').forEach(element => {
             element.style.cssText = `
             border: 2px solid #4CAF50; /* 绿色边框 */
             border-radius: 8px; /* 边框圆角 */
@@ -2336,7 +2336,7 @@ ${compatibleBeautifyCSS}
         }
     }
     function createHistoryLinks(jsonData) {
-        var ulElement = document.querySelector("#script-content > form > ul")
+        var ulElement = document.querySelector('#script-content > form > ul')
         if (ulElement) {
             logMessage('createHistoryLinks', 'Parent element found:', true, ulElement)
             // Iterate over each version in JSON data
@@ -2360,7 +2360,7 @@ ${compatibleBeautifyCSS}
                 container.appendChild(link)
                 container.appendChild(link2)
                 // Find corresponding .diff-controls element (assuming index corresponds to the order)
-                var diffControls = ulElement.querySelectorAll(".diff-controls")
+                var diffControls = ulElement.querySelectorAll('.diff-controls')
                 if (index < diffControls.length) {
                     var diffControl = diffControls[index]
                     diffControl.insertAdjacentElement('beforebegin', container)
@@ -2463,8 +2463,8 @@ ${compatibleBeautifyCSS}
     }
     function switchToAuthorScript() {
         let scriptDetail = [] //从脚本提取用户名称
-        var useridformlink = getUserIdFromAuthorLink("#script-stats > dd.script-show-author")
-        var textContents = getDtContents("#script-stats")
+        var useridformlink = getUserIdFromAuthorLink('#script-stats > dd.script-show-author')
+        var textContents = getDtContents('#script-stats')
         var jsonlink = null
         const currentUrl = window.location.href // 获取当前页面的 URL
         const match2 = currentUrl.match(/\/scripts\/(\d+)/)
@@ -2473,7 +2473,7 @@ ${compatibleBeautifyCSS}
             logMessage('switchToAuthorScript', '用户主页地址', false, userscripts)
             getUserJSON(userscripts)
                 .then(mergedData => {
-                    const scrName = document.querySelector("#script-stats > dd.script-show-author > span > a").textContent
+                    const scrName = document.querySelector('#script-stats > dd.script-show-author > span > a').textContent
                     insertUserScript(mergedData, { name: scrName }, textContents)
                 })
                 .catch(error => {
@@ -2590,7 +2590,7 @@ ${compatibleBeautifyCSS}
                 if (error) {
                     Toast(error.message, 3000, '#ff6347', '#ffffff', 'top')
                 } else {
-                    link.textContent = "下载"
+                    link.textContent = '下载'
                 }
             }, 2)
         })
@@ -3241,7 +3241,7 @@ button:focus {
         { type: 'checkbox', id: 'setopenindoc', label: translate('openindoc'), checked: setopenindoc, onchange: function () { updateAndSetValue('setopenindoc', this.checked) } },
         { type: 'checkbox', id: 'wightnav', label: translate('barvertical'), checked: wightnav, onchange: function () { updateAndSetValue('wightnav', this.checked) } },
         { type: 'checkbox', id: 'Expandsubmenu', label: translate('expandmore'), checked: Expandsubmenu, onchange: function () { updateAndSetValue('Expandsubmenu', this.checked) } },
-        { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: beautifyTopNav, onchange: function () { updateAndSetValue('beautifyTopNav', this.checked) } },
+        { type: 'checkbox', id: 'beautifyTopNav', label: translate('beautifyTopNav'), checked: beautifyTopNav, onchange: function () { updateAndSetValue('beautifyTopNav', this.checked) } }
     ]
     )
     createCategory('category3', translate('website'), [//网站设置
@@ -3256,12 +3256,12 @@ button:focus {
         { type: 'checkbox', id: 'italicdiscussionread', label: translate('italicizereadcomments'), checked: italicdiscussionread, onchange: function () { updateAndSetValue('italicdiscussionread', this.checked) } },
         { type: 'checkbox', id: 'useroutline', label: translate('useroutlines'), checked: useroutline, onchange: function () { updateAndSetValue('useroutline', this.checked) } },
         { type: 'checkbox', id: 'userimageproxy', label: translate('imageproxy'), checked: userimageproxy, onchange: function () { updateAndSetValue('userimageproxy', this.checked) } },
-        { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: fixElementoption, onchange: function () { updateAndSetValue('fixElementoption', this.checked) } },
+        { type: 'checkbox', id: 'fixElementoption', label: translate('fixElementoption'), checked: fixElementoption, onchange: function () { updateAndSetValue('fixElementoption', this.checked) } }
     ], viewMode)
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: userautologin, onchange: function () { updateAndSetValue('userautologin', this.checked) } },
         { type: 'text', id: 'useremail', label: translate('account'), value: useremail },
-        { type: 'text', id: 'userpassword', label: translate('password'), value: userpassword },
+        { type: 'text', id: 'userpassword', label: translate('password'), value: userpassword }
     ], 1)
     createCategory('sl', translate('scriptlist'), [
         { type: 'checkbox', id: 'showinstallbutton', label: translate('listdisplayinstallationdownload'), checked: showinstallbutton, onchange: function () { updateAndSetValue('showinstallbutton', this.checked) } },
@@ -3272,7 +3272,7 @@ button:focus {
         { type: 'checkbox', id: 'userhandleLocaleFilter', label: translate('showscriptall'), checked: userhandleLocaleFilter, onchange: function () { updateAndSetValue('userhandleLocaleFilter', this.checked) } },
         { type: 'checkbox', id: 'scriptset', label: translate('moveSidebar'), checked: scriptset, onchange: function () { updateAndSetValue('scriptset', this.checked) } },
         { type: 'checkbox', id: 'scriptwithdata', label: translate('ScriptListByCreat'), checked: scriptwithdata, onchange: function () { updateAndSetValue('scriptwithdata', this.checked) } },
-        { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: scriptlistdouble, onchange: function () { updateAndSetValue('scriptlistdouble', this.checked) } },
+        { type: 'checkbox', id: 'scriptlistdouble', label: translate('ScriptListdouble'), checked: scriptlistdouble, onchange: function () { updateAndSetValue('scriptlistdouble', this.checked) } }
     ], viewMode)
     createCategory('sl2', translate('personalhomepage'), [
         { type: 'checkbox', id: 'clearhomepage', label: translate('cleanUpOld'), checked: clearhomepage, onchange: function () { updateAndSetValue('clearhomepage', this.checked) } },
@@ -3281,11 +3281,11 @@ button:focus {
         { type: 'checkbox', id: 'hideuserdiscussions', label: translate('hiderrecentcomments'), checked: hideuserdiscussions, onchange: function () { updateAndSetValue('hideuserdiscussions', this.checked) } },
         { type: 'checkbox', id: 'hideuserconversations', label: translate('hiderconversations'), checked: hideuserconversations, onchange: function () { updateAndSetValue('hideuserconversations', this.checked) } },
         { type: 'checkbox', id: 'hideuserprofile', label: translate('hideuserprofile'), checked: hideuserprofile, onchange: function () { updateAndSetValue('hideuserprofile', this.checked) } },
-        { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { updateAndSetValue('shouwtotalonuserpage', this.checked) } },
+        { type: 'checkbox', id: 'shouwtotalonuserpage', label: translate('displaystatisticsonhomepage'), checked: shouwtotalonuserpage, onchange: function () { updateAndSetValue('shouwtotalonuserpage', this.checked) } }
     ], viewMode)
     createCategory('sl3', translate('beautifycontrols'), [
         { type: 'checkbox', id: 'usercssto', label: translate('beautifycontrols'), checked: usercssto, onchange: function () { updateAndSetValue('usercssto', this.checked) } },
-        { type: 'checkbox', id: 'modifyRadioLabels', label: translate('beautifyDis'), checked: modifyRadioLabels, onchange: function () { updateAndSetValue('modifyRadioLabels', this.checked) } },
+        { type: 'checkbox', id: 'modifyRadioLabels', label: translate('beautifyDis'), checked: modifyRadioLabels, onchange: function () { updateAndSetValue('modifyRadioLabels', this.checked) } }
     ], viewMode)
     createCategory('openabout', translate('applyto'), [
         { type: 'checkbox', id: 'usersearchingreasyfork', label: translate('enableenhancements'), checked: usersearchingreasyfork, onchange: function () { updateAndSetValue('usersearchingreasyfork', this.checked) } },
@@ -3310,7 +3310,7 @@ button:focus {
         { type: 'link', id: 'maximaleFensterbreite', text: 'maximale Fensterbreite auf nutzen', href: 'https://greasyfork.org/de/scripts/36037', target: '_blank' },
         { type: 'link', id: 'toggleHTMLView', text: 'Toggle HTML View', href: 'https://greasyfork.org/de/scripts/471149', target: '_blank' },
         { type: 'link', id: 'greasyforkHeaderStyleFix', text: 'GreasyFork Header Style Fix', href: 'https://greasyfork.org/zh-CN/scripts/473269', target: '_blank' },
-        { type: 'link', id: 'autoEnableSyntaxHighlightingSourceEditor', text: 'Auto Enable Syntax-Highlighting Source Editor', href: 'https://greasyfork.org/zh-CN/scripts/22223', target: '_blank' },
+        { type: 'link', id: 'autoEnableSyntaxHighlightingSourceEditor', text: 'Auto Enable Syntax-Highlighting Source Editor', href: 'https://greasyfork.org/zh-CN/scripts/22223', target: '_blank' }
     ]
     createCategory('category52', 'Thank You', controls2, 1)
     function thandleSelectChange(searchingValue) {
@@ -3337,12 +3337,12 @@ button:focus {
         }
     }
     //STUB - - 适用于网页增强
-    const ulElement = document.querySelector("#script-stats > dd.script-show-applies-to > ul")
+    const ulElement = document.querySelector('#script-stats > dd.script-show-applies-to > ul')
     if (ulElement && usersearchingreasyfork) {
-        const links = ulElement.querySelectorAll("a")
+        const links = ulElement.querySelectorAll('a')
         if (showlinktotal) {
             links.forEach(link => {
-                const titleText = link.getAttribute("title")
+                const titleText = link.getAttribute('title')
                 if (titleText) {
                     const numberMatch = titleText.match(/\d+/)
                     if (numberMatch) {
@@ -3546,7 +3546,7 @@ button:focus {
             if (document.readyState !== 'loading') {
                 r()
             } else {
-                window.addEventListener("DOMContentLoaded", r, false)
+                window.addEventListener('DOMContentLoaded', r, false)
             }
         }).then(() => {
             for (const elm of document.querySelectorAll('.text-content dd, .text-content dd textarea')) {
@@ -3561,7 +3561,7 @@ button:focus {
                     let s = elm.value
                     // Add a click event listener to the textarea
                     elm.addEventListener('click', function () {
-                        if (window.getSelection() + "" === "")
+                        if (window.getSelection() + '' === '')
                             this.select()
                     })
                     elm.addEventListener('drag', function (evt) {
@@ -3603,7 +3603,7 @@ button:focus {
         }
     }
     function addButtonToScipstsList() {
-        let linkTitle = ""
+        let linkTitle = ''
         const ScipstsList = document.querySelector('ul')
         if (ScipstsList) {
             const button = document.createElement('button')
@@ -3628,8 +3628,8 @@ button:focus {
         }
     }
     function updatePromotedScript(scriptId, promotedScriptUrl, linkTitle) {
-        let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
-        let authenticity_token = csrfTokenMeta ? csrfTokenMeta.getAttribute("content") : ''
+        let csrfTokenMeta = document.querySelector('meta[name=\'csrf-token\']')
+        let authenticity_token = csrfTokenMeta ? csrfTokenMeta.getAttribute('content') : ''
         console.log(authenticity_token)
         const url = `https://greasyfork.org/zh-CN/scripts/${scriptId}/update_promoted`
         const data = new URLSearchParams({
@@ -3641,7 +3641,7 @@ button:focus {
             method: 'POST',
             body: data,
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Type': 'application/x-www-form-urlencoded'
             }
         })
             .then(response => response.text()) // 先以文本方式读取响应
@@ -3650,7 +3650,7 @@ button:focus {
                 const parser = new DOMParser()
                 const doc = parser.parseFromString(text, 'text/html')
                 // 查找 <input> 元素并获取其 value 值
-                const inputElement = doc.querySelector("input#promoted_script_id")
+                const inputElement = doc.querySelector('input#promoted_script_id')
                 if (inputElement) {
                     const value = inputElement.value
                     console.log(`${linkTitle}${value}`)
@@ -3675,9 +3675,9 @@ button:focus {
     customizeWebhookInfoPage()
     customizeWebhookInfoPage2()
     function customizeWebhookInfoPage2() {
-        if (window.location.href.indexOf("https://greasyfork.org/zh-CN/users/webhook-info") != -1) //webhook
+        if (window.location.href.indexOf('https://greasyfork.org/zh-CN/users/webhook-info') != -1) //webhook
         {
-            $("h3").each(function () {
+            $('h3').each(function () {
                 if ($(this).text() == 'GitHub') {
                     $(this).html('<img src="https://github.githubassets.com/favicons/favicon.svg"> Github')
                 }
@@ -3689,12 +3689,12 @@ button:focus {
                 }
             })
             $('textarea').attr('cols', '130')
-            if (getCountryCode() === "zh-CN") {
-                $("input").each(function () {
-                    if ($(this).val() == "Generate")
-                        $(this).val("生成")
-                    if ($(this).val() == "Regenerate")
-                        $(this).val("重新生成")
+            if (getCountryCode() === 'zh-CN') {
+                $('input').each(function () {
+                    if ($(this).val() == 'Generate')
+                        $(this).val('生成')
+                    if ($(this).val() == 'Regenerate')
+                        $(this).val('重新生成')
                 })
             }
         }
@@ -3763,12 +3763,12 @@ button:focus {
             height: 20px;
         }
     `
-        if (typeof GM_addStyle !== "undefined") {
+        if (typeof GM_addStyle !== 'undefined') {
             GM_addStyle(css)
         } else {
-            let styleNode = document.createElement("style")
+            let styleNode = document.createElement('style')
             styleNode.appendChild(document.createTextNode(css));
-            (document.querySelector("head") || document.documentElement).appendChild(styleNode)
+            (document.querySelector('head') || document.documentElement).appendChild(styleNode)
         }
     }
     if (userapplyCustomStyles) {
@@ -3787,7 +3787,7 @@ button:focus {
         function highlightTextCode() {
             const selectors = [
                 'pre:not([class])', // 选择没有 class 属性的 <pre> 元素
-                'code',            // 选择所有 <code> 元素
+                'code'            // 选择所有 <code> 元素
             ]
             selectors.forEach(selector => {
                 document.querySelectorAll(selector).forEach(block => {
@@ -3933,10 +3933,10 @@ button:focus {
         const scriptInfoElement = document.querySelector('#script-info')
         // 检查元素是否存在
         if (scriptInfoElement) {
-            if (lockmode === "1") {
+            if (lockmode === '1') {
                 return true  // 锁定黑夜
             }
-            if (lockmode === "2") {
+            if (lockmode === '2') {
                 return false  // 锁定白天
             }
             // 获取元素的计算样式
@@ -4018,15 +4018,15 @@ button:focus {
     }
     //STUB - 选择器透明
     function fuckselector() {
-        const languageSelector = document.querySelector("#language-selector-locale")
+        const languageSelector = document.querySelector('#language-selector-locale')
         if (languageSelector) {
             // 设置默认背景颜色为透明
             languageSelector.style.backgroundColor = 'transparent'
             // 取消边框
             languageSelector.style.border = 'none'
             // 添加样式来控制下拉时和悬停时的背景颜色
-            const styleSheet = document.createElement("style")
-            styleSheet.type = "text/css"
+            const styleSheet = document.createElement('style')
+            styleSheet.type = 'text/css'
             styleSheet.innerText = `
               #language-selector-locale {
                 background-color: transparent !important; /* 默认状态下背景透明 */
@@ -4164,7 +4164,7 @@ button:focus {
             }
             // 当找到目标子串并停止遍历后，将收集到的网址传递给 createDetailsWithLinks 函数
             if (urls.length > 0) {
-                createDetailsWithLinks("#install-area", urls.map(url => [url, url]), '6666', `引用${urls.length}个文件`)
+                createDetailsWithLinks('#install-area', urls.map(url => [url, url]), '6666', `引用${urls.length}个文件`)
             } else {
                 logMessage('logUserScriptOccurrences', '没有找到 @require 或 @resource 相关的链接', true)
             }
@@ -4178,23 +4178,19 @@ button:focus {
  * @returns {Promise<string>} - 返回一个 Promise，解析为获取到的文本内容
  */
     async function fetchTextFromURL(url, json = false) {
-        try {
-            // 从指定的 URL 中获取文件内容
-            const response = await fetch(url)
-            if (!response.ok) throw new Error('网络响应失败')
-            if (json) {
-                // 如果 json 参数为 true，返回 JSON 数据
-                const jsonData = await response.json()
-                return jsonData
-            } else {
-                // 否则返回文本内容
-                const textContent = await response.text()
-                return textContent
-            }
-        } catch (error) {
-            throw error // 将错误抛出，以便调用者处理
+        // 从指定的 URL 中获取文件内容
+        const response = await fetch(url)
+        if (!response.ok) throw new Error('网络响应失败')
+
+        if (json) {
+            // 如果 json 参数为 true，返回 JSON 数据
+            return await response.json()
+        } else {
+            // 否则返回文本内容
+            return await response.text()
         }
     }
+
     if (isScriptCodePage() && showresource) {
         $(document).ready(function () {
             const number = getNumberFromURL()
@@ -4227,18 +4223,18 @@ button:focus {
     function createDetailsWithLinks(selector, URLs, detailsId, summaryText) {
         const description = document.querySelector(selector)
         if (description) {
-            const details = document.createElement("details")
-            const summary = document.createElement("summary")
-            summary.textContent = summaryText || "Links" // 如果未提供 summaryText，则默认为 "Links"
+            const details = document.createElement('details')
+            const summary = document.createElement('summary')
+            summary.textContent = summaryText || 'Links' // 如果未提供 summaryText，则默认为 "Links"
             details.appendChild(summary)
-            const list = document.createElement("ul")
+            const list = document.createElement('ul')
             for (const [url, text] of URLs) {
-                const listItem = document.createElement("li")
-                const link = document.createElement("a")
+                const listItem = document.createElement('li')
+                const link = document.createElement('a')
                 link.href = url
                 link.textContent = getFilenameFromUrl(url)
                 link.title = text
-                link.target = "_blank"
+                link.target = '_blank'
                 listItem.appendChild(link)
                 list.appendChild(listItem)
             }
@@ -4301,10 +4297,10 @@ button:focus {
                 }
             }, 100)
         } else if (iframe.contentDocument.querySelector('#open-report-:not(:empty)')) {
-            Toast("The spam report is already submitted for moderator's review. Action aborted.", 2000, '#FF0000', '#ffffff', 'top')
+            Toast('The spam report is already submitted for moderator\'s review. Action aborted.', 2000, '#FF0000', '#ffffff', 'top')
             onAbort()
         } else {
-            Toast("Cannot find the report[reason] radio button. Action aborted.", 2000, '#FF0000', '#ffffff', 'top')
+            Toast('Cannot find the report[reason] radio button. Action aborted.', 2000, '#FF0000', '#ffffff', 'top')
             onAbort()
         }
     }
@@ -4315,12 +4311,12 @@ button:focus {
         if (!url) return
         let discussionId = /id=(\d+)\b/.exec(url)
         if (discussionId) discussionId = discussionId[1]
-        let r = window.confirm(` ${translate('report')}#${discussionId || "------"} ?`)
+        let r = window.confirm(` ${translate('report')}#${discussionId || '------'} ?`)
         if (!r) return
         const iframe = document.createElement('iframe')
         skipMode = false
         iframe.addEventListener('load', onIframeLoad, false)
-        iframe.name = "u423323"
+        iframe.name = 'u423323'
         iframe.src = url
         Object.assign(iframe.style, {
             display: 'block',
@@ -4329,7 +4325,7 @@ button:focus {
             left: '0px',
             width: '300px',
             height: '300px',
-            'contain': 'strict',
+            'contain': 'strict'
         })
         document.body.appendChild(iframe)
     }
@@ -4492,7 +4488,7 @@ cursor: pointer;
     //是否为主页
     function isHomepage() {
 
-        const profileLinkElement = document.querySelector("#nav-user-info > span.user-profile-link > a")
+        const profileLinkElement = document.querySelector('#nav-user-info > span.user-profile-link > a')
         if (profileLinkElement) {
             const href = profileLinkElement.getAttribute('href')
             const match = href.match(/\/users\/(\d+)-/)
@@ -4686,7 +4682,7 @@ cursor: pointer;
         a.href = linkurl
         a.innerText = link_text
         if (newtab) {
-            a.target = "_blank" // 设置为新窗口打开
+            a.target = '_blank' // 设置为新窗口打开
         }
         // 将 <a> 元素添加到 <li> 中
         li.appendChild(a)
@@ -4706,9 +4702,9 @@ cursor: pointer;
     //--STUB - 增加本地中文汉化
     if (getCountryCode() === 'zh-CN') {
         const translatet = new Map()
-        translatet.set("Script Sets", "脚本收藏夹")
-        translatet.set("Edit", "编辑")
-        $("label, span, li, h3, a").each(function () {
+        translatet.set('Script Sets', '脚本收藏夹')
+        translatet.set('Edit', '编辑')
+        $('label, span, li, h3, a').each(function () {
             var currentText = $(this).text()
             if (translatet.has(currentText)) {
                 $(this).html(translatet.get(currentText))
@@ -4739,9 +4735,9 @@ cursor: pointer;
             display: none !important;
         }
     `)
-            let $siteNav = document.querySelector("#site-nav")
-            let $siteNavNav = $siteNav.querySelector("nav")
-            document.querySelectorAll(".with-submenu nav li").forEach(($ele) => {
+            let $siteNav = document.querySelector('#site-nav')
+            let $siteNavNav = $siteNav.querySelector('nav')
+            document.querySelectorAll('.with-submenu nav li').forEach(($ele) => {
                 $siteNavNav.appendChild($ele)
             })
         })
@@ -4749,7 +4745,7 @@ cursor: pointer;
     //STUB - 增加自动登录
     async function autoLogin() {
         // 等待登录链接出现
-        await waitForElement("span.sign-in-link a[rel=nofollow]")
+        await waitForElement('span.sign-in-link a[rel=nofollow]')
         let user = useremail
         let pwd = userpassword
         if (!user) {
@@ -4761,16 +4757,16 @@ cursor: pointer;
             return
         }
         Toast(translate('autologinredirect'), 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
-        let csrfTokenMeta = document.querySelector("meta[name='csrf-token']")
+        let csrfTokenMeta = document.querySelector('meta[name=\'csrf-token\']')
         if (!csrfTokenMeta) {
             Toast(translate('getcsrftokenfailed'), 1000, '#ff6347', '#ffffff', 'top')
             return
         }
-        let csrfToken = csrfTokenMeta.getAttribute("content")
-        let postResp = await fetch("https://greasyfork.org/zh-CN/users/sign_in", {
+        let csrfToken = csrfTokenMeta.getAttribute('content')
+        let postResp = await fetch('https://greasyfork.org/zh-CN/users/sign_in', {
             method: 'POST',
             headers: {
-                "Content-Type": "application/x-www-form-urlencoded"
+                'Content-Type': 'application/x-www-form-urlencoded'
             },
             body: new URLSearchParams({
                 authenticity_token: csrfToken,
@@ -4782,14 +4778,14 @@ cursor: pointer;
         })
         if (postResp.status !== 200) {
             Toast(translate('loginfailedconsole'), 1000, 'rgb(219, 27, 27)', '#ffffff', 'top')
-            logMessage("自动登录", "返回码错误", postResp.status, false)
+            logMessage('自动登录', '返回码错误', postResp.status, false)
             return
         }
         let respText = await postResp.text()
         let parser = new DOMParser()
         let parseLoginHTMLNode = parser.parseFromString(respText, 'text/html')
         if (parseLoginHTMLNode.querySelectorAll(
-            ".sign-out-link a[rel=nofollow][data-method='delete']"
+            '.sign-out-link a[rel=nofollow][data-method=\'delete\']'
         ).length) {
             Toast(translate('loginsuccessredirect'), 1000, 'rgb(18, 187, 2)', '#ffffff', 'top')
             setTimeout(() => {
@@ -4858,14 +4854,14 @@ cursor: pointer;
         const $$ = document.querySelectorAll.bind(document)
         function sanitify(s) {
             // Remove emojis (such a headache)
-            s = s.replaceAll(/([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2580-\u27BF]|\uD83E[\uDD10-\uDEFF]|\uFE0F)/g, "")
+            s = s.replaceAll(/([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2580-\u27BF]|\uD83E[\uDD10-\uDEFF]|\uFE0F)/g, '')
             // Trim spaces and newlines
             s = s.trim()
             // Replace spaces
-            s = s.replaceAll(" ", "-")
-            s = s.replaceAll("%20", "-")
+            s = s.replaceAll(' ', '-')
+            s = s.replaceAll('%20', '-')
             // No more multiple "-"
-            s = s.replaceAll(/-+/g, "-")
+            s = s.replaceAll(/-+/g, '-')
             return s
         }
         function process(node) { // Add anchor and assign id to given node; Add to outline. Return true if node is actually processed.
@@ -4878,15 +4874,15 @@ cursor: pointer;
             const anchor = node.appendChild(document.createElement('a'))
             anchor.className = 'anchor'
             anchor.href = '#' + node.id
-            const link = outline.appendChild(document.createElement("li"))
-                .appendChild(document.createElement("a"))
-            link.href = "#" + node.id
+            const link = outline.appendChild(document.createElement('li'))
+                .appendChild(document.createElement('a'))
+            link.href = '#' + node.id
             link.text = text
             return true
         }
         function injectCSS(css) {
-            const style = document.head.appendChild(document.createElement("style"))
-            style.id = "greasyfork-enhance-basic"
+            const style = document.head.appendChild(document.createElement('style'))
+            style.id = 'greasyfork-enhance-basic'
             style.textContent = css
         }
         // Basic css
@@ -4912,16 +4908,16 @@ cursor: pointer;
         const is_disccussion = /^\/[^\/]+\/discussions/
         const path = window.location.pathname
         if ((!is_script.test(path) && !is_disccussion.test(path)) || is_specific_script.test(path)) {
-            const panel = $("body").insertBefore(document.createElement("aside"), $("body > div.width-constraint"))
-            panel.className = "panel"
-            const reference_node = $("body > div.width-constraint > section")
-            outline = panel.appendChild(document.createElement("ul"))
-            outline.classList.add("outline")
-            outline.classList.add("dynamic-opacity")
-            outline.style.top = reference_node ? getComputedStyle(reference_node).marginTop : "1em"
+            const panel = $('body').insertBefore(document.createElement('aside'), $('body > div.width-constraint'))
+            panel.className = 'panel'
+            const reference_node = $('body > div.width-constraint > section')
+            outline = panel.appendChild(document.createElement('ul'))
+            outline.classList.add('outline')
+            outline.classList.add('dynamic-opacity')
+            outline.style.top = reference_node ? getComputedStyle(reference_node).marginTop : '1em'
             outline.style.marginTop = outline.style.top
             let flag = false
-            $$("body > div.width-constraint h1, h2, h3, h4, h5, h6").forEach((node) => {
+            $$('body > div.width-constraint h1, h2, h3, h4, h5, h6').forEach((node) => {
                 flag = process(node) || flag // Not `flag || process(node)`!
             })
             if (!flag) {
@@ -4932,8 +4928,8 @@ cursor: pointer;
     // STUB - 设置用户图片代理
     if (userimageproxy) {
         const $$ = document.querySelectorAll.bind(document)
-        const PROXY = "https://wsrv.nl/?url="
-        const images = $$("a[href^='/rails/active_storage/blobs/redirect/'] > img[src^='https://greasyfork.']")
+        const PROXY = 'https://wsrv.nl/?url='
+        const images = $$('a[href^=\'/rails/active_storage/blobs/redirect/\'] > img[src^=\'https://greasyfork.\']')
         for (const img of images) {
             img.src = PROXY + img.src
             const link = img.parentElement
@@ -4957,9 +4953,9 @@ cursor: pointer;
           `)
     }
     if (fixElementoption && isMobile() === false) {
-        let element = document.querySelector("#script-list-option-groups")
+        let element = document.querySelector('#script-list-option-groups')
         if (!element) {
-            element = document.querySelector("body > div.width-constraint > div > div.sidebar.collapsed")
+            element = document.querySelector('body > div.width-constraint > div > div.sidebar.collapsed')
         }
         if (element) {
             function fixElementInViewport() {
@@ -4968,14 +4964,14 @@ cursor: pointer;
                 const rect = element.getBoundingClientRect()
                 const elementWidth = rect.width
                 const elementHeight = rect.height
-                element.style.position = "fixed"
-                element.style.top = "60px"   // 固定在距离视口顶部 10 像素的位置
-                element.style.right = "10px" // 固定在距离视口右侧 10 像素的位置
-                element.style.zIndex = "1000"
-                element.style.backgroundColor = "#fff"
-                element.style.boxShadow = "0 2px 5px rgba(0,0,0,0.3)"
-                element.style.overflow = "auto" // 允许内容滚动
-                element.style.maxHeight = "800px" // 设置最大高度为视口高度减去顶部和底部的边距
+                element.style.position = 'fixed'
+                element.style.top = '60px'   // 固定在距离视口顶部 10 像素的位置
+                element.style.right = '10px' // 固定在距离视口右侧 10 像素的位置
+                element.style.zIndex = '1000'
+                element.style.backgroundColor = '#fff'
+                element.style.boxShadow = '0 2px 5px rgba(0,0,0,0.3)'
+                element.style.overflow = 'auto' // 允许内容滚动
+                element.style.maxHeight = '800px' // 设置最大高度为视口高度减去顶部和底部的边距
             }
             fixElementInViewport()
             window.addEventListener('resize', fixElementInViewport)
@@ -4988,7 +4984,7 @@ cursor: pointer;
     if (beautifyTopNav && isMobile() === false) {
         beautifyTopNavigationBar()
         function beautifyTopNavigationBar() {
-            const beautifyTopNavigationBarCSS = "#language-selector {\r\n	display: none;\r\n}\r\n@media screen and (min-width: 600px) {\r\n	body {\r\n		--header-height: 50px;\r\n		--el-gap: 20px;\r\n	}\r\n\r\n	header#main-header {\r\n		height: var(--header-height);\r\n		position: fixed;\r\n		top: 0;\r\n		width: 100%;\r\n		z-index: 55555;\r\n		padding: unset;\r\n		display: flex;\r\n		justify-content: space-around;\r\n	}\r\n\r\n	body > .width-constraint {\r\n		margin-top: calc(var(--header-height) + 35px);\r\n	}\r\n\r\n	header#main-header .width-constraint {\r\n		display: flex;\r\n		align-items: center;\r\n		gap: var(--el-gap);\r\n		padding: unset;\r\n		margin: unset;\r\n		max-width: unset;\r\n	}\r\n\r\n	header#main-header a {\r\n		text-decoration: none;\r\n		text-wrap: nowrap;\r\n	}\r\n\r\n	header#main-header .sign-out-link a {\r\n		text-decoration: underline;\r\n	}\r\n\r\n	header#main-header #site-name {\r\n		display: flex;\r\n		align-items: center;\r\n	}\r\n\r\n	header#main-header #site-name img {\r\n		width: calc(var(--header-height) - 5px);\r\n		height: calc(var(--header-height) - 5px);\r\n	}\r\n\r\n	/* 隐藏Greasyfork文字 */\r\n	header#main-header #site-name-text {\r\n		display: none;\r\n	}\r\n\r\n	header#main-header #site-nav {\r\n		display: flex;\r\n		flex-direction: row-reverse;\r\n		align-items: center;\r\n		flex: 1;\r\n		justify-content: space-between;\r\n		height: 100%;\r\n		gap: var(--el-gap);\r\n	}\r\n\r\n	header#main-header #site-nav nav li {\r\n		padding: 0 0.5em;\r\n		display: flex;\r\n		align-items: center;\r\n		height: var(--header-height);\r\n		min-width: 30px;\r\n		justify-content: center;\r\n	}\r\n\r\n	header#main-header #site-nav nav li:hover {\r\n		background: #5f0101;\r\n	}\r\n\r\n	header#main-header #nav-user-info {\r\n		max-width: 150px;\r\n	}\r\n\r\n	header#main-header #nav-user-info > span {\r\n		/*flex: 1;*/\r\n		flex: 1 0 auto;\r\n	}\r\n\r\n	header#main-header #nav-user-info,\r\n	header#main-header #nav-user-info + nav {\r\n		position: unset;\r\n		width: unset;\r\n		display: flex;\r\n		flex-wrap: nowrap;\r\n		align-items: center;\r\n	}\r\n}\r\n"
+            const beautifyTopNavigationBarCSS = '#language-selector {\r\n	display: none;\r\n}\r\n@media screen and (min-width: 600px) {\r\n	body {\r\n		--header-height: 50px;\r\n		--el-gap: 20px;\r\n	}\r\n\r\n	header#main-header {\r\n		height: var(--header-height);\r\n		position: fixed;\r\n		top: 0;\r\n		width: 100%;\r\n		z-index: 55555;\r\n		padding: unset;\r\n		display: flex;\r\n		justify-content: space-around;\r\n	}\r\n\r\n	body > .width-constraint {\r\n		margin-top: calc(var(--header-height) + 35px);\r\n	}\r\n\r\n	header#main-header .width-constraint {\r\n		display: flex;\r\n		align-items: center;\r\n		gap: var(--el-gap);\r\n		padding: unset;\r\n		margin: unset;\r\n		max-width: unset;\r\n	}\r\n\r\n	header#main-header a {\r\n		text-decoration: none;\r\n		text-wrap: nowrap;\r\n	}\r\n\r\n	header#main-header .sign-out-link a {\r\n		text-decoration: underline;\r\n	}\r\n\r\n	header#main-header #site-name {\r\n		display: flex;\r\n		align-items: center;\r\n	}\r\n\r\n	header#main-header #site-name img {\r\n		width: calc(var(--header-height) - 5px);\r\n		height: calc(var(--header-height) - 5px);\r\n	}\r\n\r\n	/* 隐藏Greasyfork文字 */\r\n	header#main-header #site-name-text {\r\n		display: none;\r\n	}\r\n\r\n	header#main-header #site-nav {\r\n		display: flex;\r\n		flex-direction: row-reverse;\r\n		align-items: center;\r\n		flex: 1;\r\n		justify-content: space-between;\r\n		height: 100%;\r\n		gap: var(--el-gap);\r\n	}\r\n\r\n	header#main-header #site-nav nav li {\r\n		padding: 0 0.5em;\r\n		display: flex;\r\n		align-items: center;\r\n		height: var(--header-height);\r\n		min-width: 30px;\r\n		justify-content: center;\r\n	}\r\n\r\n	header#main-header #site-nav nav li:hover {\r\n		background: #5f0101;\r\n	}\r\n\r\n	header#main-header #nav-user-info {\r\n		max-width: 150px;\r\n	}\r\n\r\n	header#main-header #nav-user-info > span {\r\n		/*flex: 1;*/\r\n		flex: 1 0 auto;\r\n	}\r\n\r\n	header#main-header #nav-user-info,\r\n	header#main-header #nav-user-info + nav {\r\n		position: unset;\r\n		width: unset;\r\n		display: flex;\r\n		flex-wrap: nowrap;\r\n		align-items: center;\r\n	}\r\n}\r\n'
 
             GM_addStyle(beautifyTopNavigationBarCSS)
         }

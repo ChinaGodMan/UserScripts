@@ -169,7 +169,7 @@
     }
 
     async function digestMessage(message) {
-        const encoder = new TextEncoder("utf-8")
+        const encoder = new TextEncoder('utf-8')
         const msgUint8 = encoder.encode(message)
         const hashBuffer = await crypto.subtle.digest('SHA-1', msgUint8)
         return bufferToHex(hashBuffer)
@@ -177,12 +177,12 @@
 
     async function fetchHTML(href) {
         let response = await fetch(href, {
-            method: "GET",
-            mode: "same-origin",
-            cache: "force-cache",
-            credentials: "same-origin",
-            redirect: "follow",
-            referrerPolicy: "no-referrer",
+            method: 'GET',
+            mode: 'same-origin',
+            cache: 'force-cache',
+            credentials: 'same-origin',
+            redirect: 'follow',
+            referrerPolicy: 'no-referrer'
         })
 
         return response.text()

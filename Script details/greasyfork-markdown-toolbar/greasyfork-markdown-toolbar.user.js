@@ -105,7 +105,7 @@
 // https://greasyfork.org/en/scripts/422445-github-watcher/feedback
 // https://greasyfork.org/en/users/2160-darkred/conversations/new
 // https://greasyfork.org/en/users/edit
-var translate = "en"
+var translate = 'en'
 var inForum = location.href.indexOf('/discussions') > 0
 var inPostNewScriptVer = location.href.indexOf('/versions/new') > 0
 
@@ -139,12 +139,13 @@ window.addEventListener('load', function (e) {
                 addFeatures(element.appendChild(document.createElement('br')))
             })
         } else { // every other page
-            if (nn = document.querySelectorAll('input[value="markdown"]')) {
+            var nn = document.querySelectorAll('input[value="markdown"]')
+            if (nn.length > 0) {
                 for (var n, i = 0; (i < nn.length) && (n = nn[i]); i++) {
-                    if (location.href.indexOf('/script_versions/')) {
+                    if (location.href.indexOf('/script_versions/') !== -1) {
                         n.click()
                     }
-                    n.click() // posting a new script
+                    n.click() // 继续点击
                     addFeatures(n.parentNode.appendChild(document.createElement('br')))
                 }
             }
@@ -191,12 +192,12 @@ function addFeatures(n) {
 
     // Add buttons
     btnMake(n, '<b>' + __('B') + '</b>', __('Bold'), '**')
-    btnMake(n, __('#') , __('Title'), '#', '  ')
-    btnMake(n, '<li>' +__('-')+'</li>', __('List'), '-  ', ' ')
-    btnMake(n,  __( '>'), __('blockquote'), '<blockquote>', '</blockquote>')
-    btnMake(n, '<mark>'+__('标记')+'</mark>', __('高亮显示选中文本'), '<mark>', '</mark>')
+    btnMake(n, __('#'), __('Title'), '#', '  ')
+    btnMake(n, '<li>' + __('-') + '</li>', __('List'), '-  ', ' ')
+    btnMake(n, __('>'), __('blockquote'), '<blockquote>', '</blockquote>')
+    btnMake(n, '<mark>' + __('标记') + '</mark>', __('高亮显示选中文本'), '<mark>', '</mark>')
     btnMake(n, '<i>' + __('I') + '</i>', __('Italic'), '*')
-    btnMake(n, '<center>' + __('居中') + '</center>', __('内容居中显示'), '<center>','</center>')
+    btnMake(n, '<center>' + __('居中') + '</center>', __('内容居中显示'), '<center>', '</center>')
     btnMake(n, '<u>' + __('U') + '</u>', __('Underline'), '<u>', '</u>')
     btnMake(n, '<s>' + __('S') + '</s>', __('Strikethrough'), '<s>', '</s>')
     btnMake(n, '&lt;br&gt;', __('Force line break'), '<br>', '', true)
@@ -226,26 +227,26 @@ function addFeatures(n) {
             }
         }
     )
-    btnMake(n, __("谷歌翻译"), __("快速翻译选中的内容"),
+    btnMake(n, __('谷歌翻译'), __('快速翻译选中的内容'),
         function (e) {
             const translatedzh = edInit(e.target)
             translateText(translatedzh.sel).then(translatedText => {
 
-                edWrapInTag("", translatedText, translatedzh, true)
+                edWrapInTag('', translatedText, translatedzh, true)
             }).catch(error => {
-                alert(" GoogleTranslate ERROR!!! ")
+                alert(' GoogleTranslate ERROR!!! ')
             })
         }
     )
     const WeiWeiimages = [
-        ["npzhyrb4txdoegwl82bkapekufb5", "维维发问：你有眼界吗？"],
-        ["gkhj9p2qhtm62uza3qveshtooe2u", "维维被你震撼到了！"],
-        ["p0i0f5xubhln1wvph3ip70zhpzqq", "维维发问：什么叫做搬起石头砸自己的脚？"],
-        ["nahzae6vc3d3osq861cbt8uaopkk", "维维断言：这就是个国际笑话"],
-        ["kzpmox79idq4gmsbyoj0yyuhx13v", "维维发问：你怎么敢讲这种话的？"],
+        ['npzhyrb4txdoegwl82bkapekufb5', '维维发问：你有眼界吗？'],
+        ['gkhj9p2qhtm62uza3qveshtooe2u', '维维被你震撼到了！'],
+        ['p0i0f5xubhln1wvph3ip70zhpzqq', '维维发问：什么叫做搬起石头砸自己的脚？'],
+        ['nahzae6vc3d3osq861cbt8uaopkk', '维维断言：这就是个国际笑话'],
+        ['kzpmox79idq4gmsbyoj0yyuhx13v', '维维发问：你怎么敢讲这种话的？']
     ]
     const WeiWeiLoveYou = WeiWei(WeiWeiimages, true)
-    btnMake(n, "维维嘲讽", "来自爱国教授维维的五连问", __(`\n\n` + WeiWeiLoveYou + `\n\n
+    btnMake(n, '维维嘲讽', '来自爱国教授维维的五连问', __('\n\n' + WeiWeiLoveYou + `\n\n
 `), '', true)
     function WeiWei(images, WeiWeiSays) {
         let html = `
@@ -435,7 +436,7 @@ function translateText(text) {
             url: api + buildQueryString(params),
             onload: function (response) {
                 try {
-                    var data = JSON.parse(response.responseText.replace("'", '\u2019'))
+                    var data = JSON.parse(response.responseText.replace('\'', '\u2019'))
                     var translatedText = data[0].reduce((acc, item) => acc + item[0], '')
                     resolve(translatedText)
                 } catch (error) {

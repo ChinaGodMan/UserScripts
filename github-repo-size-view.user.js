@@ -10,7 +10,7 @@
 // @name:cs           🤠 Velikost displeje vylepšeného asistenta ve skladu Github
 // @description:cs    🤠 Velikost zobrazení skladu: Na GitHubu pro vyhledávání kódu, hledání skladu, stránku výdeje, seznam skladů uživatelů a stránku úložiště se velikost skladu zobrazí vedle názvu skladu, což uživatelům umožňuje rychle pochopit rozsah skladu a optimalizovat výběr. Upozornění na neaktivní vývoj: Pokud úložiště nebylo aktualizováno v posledních šesti měsících, systém přidá výzvu v horní části úložiště, která uživatelům připomene, že úložiště je neaktivní, a zobrazí čas poslední aktualizace. To pomáhá uživatelům určit aktivitu a stav údržby skladu. Rychlý skok ve skladu: Při procházení skladu může uživatel snadno zobrazit seznam všech skladů uživatele, což poskytuje vstup pro rychlý skok do různých skladů. Uživatelé mohou rychle najít další zajímavé projekty a získat k nim přístup, což zvyšuje efektivitu práce. Scénáře použití: Vývojáři: Zobrazením velikosti skladu a aktivních varování můžete rychle odfiltrovat vhodné knihovny pro vývoj a vyhnout se používání projektů, které již nejsou udržovány. Project Manager: Díky funkci rychlého skoku je snadné spravovat a koordinovat více projektů a zlepšit efektivitu práce. Studenti: Když se učí nové technologie, mohou snadněji najít relevantní open source projekty a rychle zkontrolovat aktivitu a rozsah projektů. 🤠
 // @name:da           🤠 Github forbedret assistentlagerdisplaystørrelse
-// @description:da    🤠 Lagervisningsstørrelse: På GitHubs kodesøgning, lagersøgning, problemside, brugerlagerliste og lagerside vil størrelsen af ​​lageret blive vist ved siden af ​​lagernavnet, hvilket giver brugerne mulighed for hurtigt at forstå lagerets skala og optimere deres lager. udvælgelse. Advarsel om inaktiv udvikling: Hvis et lager ikke er blevet opdateret inden for de seneste seks måneder, vil systemet tilføje en prompt øverst i lageret for at minde brugerne om, at lageret er inaktivt og vise tidspunktet for den sidste opdatering. Dette hjælper brugerne med at bestemme aktiviteten og vedligeholdelsesstatus for lageret. Hurtigt hop inden for lageret: Når brugeren gennemser lageret, kan brugeren nemt se listen over alle varehuse for brugeren, hvilket giver en adgang til hurtigt at hoppe til forskellige varehuse. Brugere kan hurtigt finde og få adgang til andre projekter af interesse, hvilket forbedrer arbejdseffektiviteten. Brugsscenarier: Udviklere: Ved at vise lagerstørrelsen og aktive advarsler kan du hurtigt filtrere egnede biblioteker fra til udvikling og undgå at bruge projekter, der ikke længere vedligeholdes. Projektleder: Gennem quick jump-funktionen er det nemt at administrere og koordinere flere projekter og forbedre arbejdseffektiviteten. Elever: Når de lærer nye teknologier, kan de nemmere finde relevante open source-projekter og hurtigt tjekke projekternes aktivitet og omfang. 🤠
+// @description:da    🤠 Lagervisningsstørrelse: På GitHubs kodesøgning, lagersøgning, problemside, brugerlagerliste og lagerside vil størrelsen af lageret blive vist ved siden af lagernavnet, hvilket giver brugerne mulighed for hurtigt at forstå lagerets skala og optimere deres lager. udvælgelse. Advarsel om inaktiv udvikling: Hvis et lager ikke er blevet opdateret inden for de seneste seks måneder, vil systemet tilføje en prompt øverst i lageret for at minde brugerne om, at lageret er inaktivt og vise tidspunktet for den sidste opdatering. Dette hjælper brugerne med at bestemme aktiviteten og vedligeholdelsesstatus for lageret. Hurtigt hop inden for lageret: Når brugeren gennemser lageret, kan brugeren nemt se listen over alle varehuse for brugeren, hvilket giver en adgang til hurtigt at hoppe til forskellige varehuse. Brugere kan hurtigt finde og få adgang til andre projekter af interesse, hvilket forbedrer arbejdseffektiviteten. Brugsscenarier: Udviklere: Ved at vise lagerstørrelsen og aktive advarsler kan du hurtigt filtrere egnede biblioteker fra til udvikling og undgå at bruge projekter, der ikke længere vedligeholdes. Projektleder: Gennem quick jump-funktionen er det nemt at administrere og koordinere flere projekter og forbedre arbejdseffektiviteten. Elever: Når de lærer nye teknologier, kan de nemmere finde relevante open source-projekter og hurtigt tjekke projekternes aktivitet og omfang. 🤠
 // @name:de           🤠 Github hat die Anzeigegröße des Assistentenlagers verbessert
 // @description:de    🤠 Lageranzeigegröße: Auf GitHubs Codesuche, Lagersuche, Problemseite, Benutzerlagerliste und Repository-Seite wird die Größe des Lagers neben dem Lagernamen angezeigt, sodass Benutzer die Größe des Lagers schnell verstehen und optimieren können Auswahl. Warnung bei inaktiver Entwicklung: Wenn ein Repository in den letzten sechs Monaten nicht aktualisiert wurde, fügt das System oben im Repository eine Eingabeaufforderung hinzu, um Benutzer daran zu erinnern, dass das Repository inaktiv ist, und zeigt den Zeitpunkt der letzten Aktualisierung an. Dadurch können Benutzer den Aktivitäts- und Wartungsstatus des Lagers ermitteln. Schneller Sprung innerhalb des Lagers: Beim Durchsuchen des Lagers kann der Benutzer problemlos die Liste aller Lager des Benutzers anzeigen und so schnell zu verschiedenen Lagern springen. Benutzer können andere interessante Projekte schnell finden und darauf zugreifen und so die Arbeitseffizienz verbessern. Nutzungsszenarien: Entwickler: Durch die Anzeige der Warehouse-Größe und aktiver Warnungen können Sie schnell geeignete Bibliotheken für die Entwicklung herausfiltern und die Verwendung nicht mehr gepflegter Projekte vermeiden. Projektmanager: Durch die Schnellsprungfunktion ist es einfach, mehrere Projekte zu verwalten und zu koordinieren und die Arbeitseffizienz zu verbessern. Lernende: Beim Erlernen neuer Technologien können sie relevante Open-Source-Projekte leichter finden und die Aktivität und den Umfang der Projekte schneller überprüfen. 🤠
 // @name:el           🤠 Βελτιωμένο μέγεθος οθόνης αποθήκης βοηθού Github
@@ -36,13 +36,13 @@
 // @name:it           🤠 Github ha migliorato le dimensioni di visualizzazione del magazzino dell’assistente
 // @description:it    🤠 Dimensioni di visualizzazione del magazzino: nella ricerca del codice di GitHub, nella ricerca del magazzino, nella pagina dei problemi, nell’elenco dei magazzini degli utenti e nella pagina del repository, la dimensione del magazzino verrà visualizzata accanto al nome del magazzino, consentendo agli utenti di comprendere rapidamente le dimensioni del magazzino e ottimizzare la propria selezione. Avviso di sviluppo inattivo: se un repository non è stato aggiornato negli ultimi sei mesi, il sistema aggiungerà un messaggio nella parte superiore del repository per ricordare agli utenti che il repository è inattivo e visualizzerà l’ora dell’ultimo aggiornamento. Ciò aiuta gli utenti a determinare lo stato di attività e di manutenzione del magazzino. Salto rapido all’interno del magazzino: Durante la navigazione nel magazzino, l’utente può facilmente visualizzare l’elenco di tutti i magazzini dell’utente, fornendo un ingresso per passare rapidamente a diversi magazzini. Gli utenti possono trovare e accedere rapidamente ad altri progetti di interesse, migliorando l’efficienza del lavoro. Scenari di utilizzo: Sviluppatori: visualizzando le dimensioni del magazzino e gli avvisi attivi, è possibile filtrare rapidamente le librerie adatte per lo sviluppo ed evitare di utilizzare progetti che non vengono più gestiti. Project Manager: attraverso la funzione di salto rapido, è facile gestire e coordinare più progetti e migliorare l’efficienza del lavoro. Studenti: quando apprendono nuove tecnologie, possono trovare più facilmente progetti open source rilevanti e verificare rapidamente l’attività e la portata dei progetti. 🤠
 // @name:ja           🤠 Github の強化されたアシスタント ウェアハウスの表示サイズ
-// @description:ja    🤠 ウェアハウスの表示サイズ: GitHub のコード検索、ウェアハウス検索、問題ページ、ユーザー ウェアハウス リスト、およびリポジトリ ページでは、ウェアハウスのサイズがウェアハウス名の横に表示されるため、ユーザーはウェアハウスの規模をすぐに理解し、ウェアハウスの最適化を行うことができます。選択。非アクティブな開発の警告: 過去 6 か月間リポジトリが更新されていない場合、システムはリポジトリの上部にプロンプ​​トを追加して、リポジトリが非アクティブであることをユーザーに通知し、最終更新時刻を表示します。これは、ユーザーが倉庫のアクティビティとメンテナンスのステータスを判断するのに役立ちます。倉庫内でのクイック ジャンプ: 倉庫を閲覧するときに、ユーザーはユーザーのすべての倉庫のリストを簡単に表示でき、別の倉庫にすばやくジャンプするための入り口を提供します。ユーザーは興味のある他のプロジェクトをすぐに見つけてアクセスできるため、作業効率が向上します。使用シナリオ: 開発者: ウェアハウスのサイズとアクティブな警告を表示することで、開発に適したライブラリを迅速に除外し、維持されなくなったプロジェクトの使用を避けることができます。プロジェクトマネージャー: クイックジャンプ機能により、複数のプロジェクトの管理と調整が容易になり、作業効率が向上します。学習者: 新しいテクノロジーを学習するときに、関連するオープンソース プロジェクトをより簡単に見つけて、プロジェクトのアクティビティと規模をすばやく確認できるようになります。 🤠
+// @description:ja    🤠 ウェアハウスの表示サイズ: GitHub のコード検索、ウェアハウス検索、問題ページ、ユーザー ウェアハウス リスト、およびリポジトリ ページでは、ウェアハウスのサイズがウェアハウス名の横に表示されるため、ユーザーはウェアハウスの規模をすぐに理解し、ウェアハウスの最適化を行うことができます。選択。非アクティブな開発の警告: 過去 6 か月間リポジトリが更新されていない場合、システムはリポジトリの上部にプロンプトを追加して、リポジトリが非アクティブであることをユーザーに通知し、最終更新時刻を表示します。これは、ユーザーが倉庫のアクティビティとメンテナンスのステータスを判断するのに役立ちます。倉庫内でのクイック ジャンプ: 倉庫を閲覧するときに、ユーザーはユーザーのすべての倉庫のリストを簡単に表示でき、別の倉庫にすばやくジャンプするための入り口を提供します。ユーザーは興味のある他のプロジェクトをすぐに見つけてアクセスできるため、作業効率が向上します。使用シナリオ: 開発者: ウェアハウスのサイズとアクティブな警告を表示することで、開発に適したライブラリを迅速に除外し、維持されなくなったプロジェクトの使用を避けることができます。プロジェクトマネージャー: クイックジャンプ機能により、複数のプロジェクトの管理と調整が容易になり、作業効率が向上します。学習者: 新しいテクノロジーを学習するときに、関連するオープンソース プロジェクトをより簡単に見つけて、プロジェクトのアクティビティと規模をすばやく確認できるようになります。 🤠
 // @name:ka           🤠 Github გაუმჯობესებული ასისტენტის საწყობის ჩვენების ზომა
 // @description:ka    🤠 საწყობის ჩვენების ზომა: GitHub-ის კოდის ძიებაში, საწყობის ძიებაში, გამოშვების გვერდზე, მომხმარებელთა საწყობის სიაში და საცავის გვერდზე, საწყობის ზომა გამოჩნდება საწყობის სახელის გვერდით, რაც მომხმარებლებს საშუალებას მისცემს სწრაფად გაიგონ საწყობის მასშტაბები და ოპტიმიზაცია გაუკეთონ მათ. შერჩევა. არააქტიური განვითარების გაფრთხილება: თუ საცავი არ განახლებულა ბოლო ექვსი თვის განმავლობაში, სისტემა დაამატებს მოთხოვნას საცავის ზედა ნაწილში, რათა შეახსენოს მომხმარებლებს, რომ საცავი არააქტიურია და აჩვენებს ბოლო განახლების დროს. ეს ეხმარება მომხმარებლებს განსაზღვრონ საწყობის აქტივობა და ტექნიკური მდგომარეობა. სწრაფი გადახტომა საწყობში: საწყობის დათვალიერებისას მომხმარებელს შეუძლია ადვილად ნახოს მომხმარებლის ყველა საწყობის სია, რაც უზრუნველყოფს შესასვლელს სხვადასხვა საწყობში სწრაფად გადახტომისთვის. მომხმარებლებს შეუძლიათ სწრაფად იპოვონ და მიიღონ წვდომა სხვა საინტერესო პროექტებზე, რაც აუმჯობესებს მუშაობის ეფექტურობას. გამოყენების სცენარები: დეველოპერები: საწყობის ზომისა და აქტიური გაფრთხილებების ჩვენებით, შეგიძლიათ სწრაფად გაფილტროთ განვითარებისთვის შესაფერისი ბიბლიოთეკები და თავიდან აიცილოთ ისეთი პროექტების გამოყენება, რომლებიც აღარ არის შენახული. პროექტის მენეჯერი: სწრაფი ნახტომის ფუნქციის საშუალებით, ადვილია მრავალი პროექტის მართვა და კოორდინაცია და მუშაობის ეფექტურობის გაუმჯობესება. მოსწავლეები: ახალი ტექნოლოგიების შესწავლისას, მათ შეუძლიათ უფრო ადვილად იპოვონ შესაბამისი ღია კოდის პროექტები და სწრაფად შეამოწმონ პროექტების აქტივობა და მასშტაბები. 🤠
 // @name:ko           🤠 Github 향상된 보조 창고 디스플레이 크기
-// @description:ko    🤠 창고 표시 크기: GitHub의 코드 검색, 창고 검색, 이슈 페이지, 사용자 창고 목록 및 저장소 페이지에서 창고 이름 ​​옆에 창고 크기가 표시되어 사용자가 창고 규모를 빠르게 이해하고 최적화할 수 있습니다. 선택. 비활성 개발 경고: 저장소가 지난 6개월 동안 업데이트되지 않은 경우 시스템은 저장소 상단에 프롬프트를 추가하여 사용자에게 저장소가 비활성 상태임을 알리고 마지막 업데이트 시간을 표시합니다. 이를 통해 사용자는 창고의 활동 및 유지 관리 상태를 확인할 수 있습니다. 창고 내 빠른 점프 : 창고 탐색 시 자신의 모든 창고 목록을 쉽게 확인할 수 있어, 다른 창고로 빠르게 이동할 수 있는 입구를 제공합니다. 사용자는 관심 있는 다른 프로젝트를 빠르게 찾고 액세스할 수 있어 작업 효율성이 향상됩니다. 사용 시나리오: 개발자: 웨어하우스 크기와 활성 경고를 표시함으로써 개발에 적합한 라이브러리를 빠르게 필터링하고 더 이상 유지 관리되지 않는 프로젝트의 사용을 피할 수 있습니다. 프로젝트 관리자: 퀵 점프 기능을 통해 여러 프로젝트를 쉽게 관리 및 조정하고 업무 효율성을 높일 수 있습니다. 학습자: 새로운 기술을 배울 때 관련 오픈소스 프로젝트를 더 쉽게 찾을 수 있고 프로젝트의 활동과 규모를 빠르게 확인할 수 있습니다. 🤠
+// @description:ko    🤠 창고 표시 크기: GitHub의 코드 검색, 창고 검색, 이슈 페이지, 사용자 창고 목록 및 저장소 페이지에서 창고 이름 옆에 창고 크기가 표시되어 사용자가 창고 규모를 빠르게 이해하고 최적화할 수 있습니다. 선택. 비활성 개발 경고: 저장소가 지난 6개월 동안 업데이트되지 않은 경우 시스템은 저장소 상단에 프롬프트를 추가하여 사용자에게 저장소가 비활성 상태임을 알리고 마지막 업데이트 시간을 표시합니다. 이를 통해 사용자는 창고의 활동 및 유지 관리 상태를 확인할 수 있습니다. 창고 내 빠른 점프 : 창고 탐색 시 자신의 모든 창고 목록을 쉽게 확인할 수 있어, 다른 창고로 빠르게 이동할 수 있는 입구를 제공합니다. 사용자는 관심 있는 다른 프로젝트를 빠르게 찾고 액세스할 수 있어 작업 효율성이 향상됩니다. 사용 시나리오: 개발자: 웨어하우스 크기와 활성 경고를 표시함으로써 개발에 적합한 라이브러리를 빠르게 필터링하고 더 이상 유지 관리되지 않는 프로젝트의 사용을 피할 수 있습니다. 프로젝트 관리자: 퀵 점프 기능을 통해 여러 프로젝트를 쉽게 관리 및 조정하고 업무 효율성을 높일 수 있습니다. 학습자: 새로운 기술을 배울 때 관련 오픈소스 프로젝트를 더 쉽게 찾을 수 있고 프로젝트의 활동과 규모를 빠르게 확인할 수 있습니다. 🤠
 // @name:nl           🤠 Github verbeterde weergavegrootte assistent-magazijn
-// @description:nl    🤠 Weergavegrootte magazijn: op GitHub’s codezoekopdracht, magazijnzoekopdracht, probleempagina, gebruikersmagazijnlijst en repositorypagina wordt de grootte van het magazijn weergegeven naast de magazijnnaam, zodat gebruikers snel de schaal van het magazijn kunnen begrijpen en hun magazijn kunnen optimaliseren selectie. Waarschuwing voor inactieve ontwikkeling: Als een repository de afgelopen zes maanden niet is bijgewerkt, voegt het systeem een ​​prompt toe bovenaan de repository om gebruikers eraan te herinneren dat de repository inactief is en wordt het tijdstip van de laatste update weergegeven. Dit helpt gebruikers bij het bepalen van de activiteit en onderhoudsstatus van het magazijn. Snelle sprong binnen het magazijn: Tijdens het bladeren door het magazijn kan de gebruiker eenvoudig de lijst met alle magazijnen van de gebruiker bekijken, waardoor hij toegang krijgt om snel naar verschillende magazijnen te springen. Gebruikers kunnen snel andere interessante projecten vinden en openen, waardoor de werkefficiëntie wordt verbeterd. Gebruiksscenario’s: Ontwikkelaars: door de magazijngrootte en actieve waarschuwingen weer te geven, kunt u snel geschikte bibliotheken voor ontwikkeling filteren en voorkomen dat u projecten gebruikt die niet langer worden onderhouden. Projectmanager: Via de Quick Jump-functie is het eenvoudig om meerdere projecten te beheren en te coördineren en de werkefficiëntie te verbeteren. Leerlingen: wanneer ze nieuwe technologieën leren, kunnen ze gemakkelijker relevante open source-projecten vinden en snel de activiteit en schaal van de projecten controleren. 🤠
+// @description:nl    🤠 Weergavegrootte magazijn: op GitHub’s codezoekopdracht, magazijnzoekopdracht, probleempagina, gebruikersmagazijnlijst en repositorypagina wordt de grootte van het magazijn weergegeven naast de magazijnnaam, zodat gebruikers snel de schaal van het magazijn kunnen begrijpen en hun magazijn kunnen optimaliseren selectie. Waarschuwing voor inactieve ontwikkeling: Als een repository de afgelopen zes maanden niet is bijgewerkt, voegt het systeem een prompt toe bovenaan de repository om gebruikers eraan te herinneren dat de repository inactief is en wordt het tijdstip van de laatste update weergegeven. Dit helpt gebruikers bij het bepalen van de activiteit en onderhoudsstatus van het magazijn. Snelle sprong binnen het magazijn: Tijdens het bladeren door het magazijn kan de gebruiker eenvoudig de lijst met alle magazijnen van de gebruiker bekijken, waardoor hij toegang krijgt om snel naar verschillende magazijnen te springen. Gebruikers kunnen snel andere interessante projecten vinden en openen, waardoor de werkefficiëntie wordt verbeterd. Gebruiksscenario’s: Ontwikkelaars: door de magazijngrootte en actieve waarschuwingen weer te geven, kunt u snel geschikte bibliotheken voor ontwikkeling filteren en voorkomen dat u projecten gebruikt die niet langer worden onderhouden. Projectmanager: Via de Quick Jump-functie is het eenvoudig om meerdere projecten te beheren en te coördineren en de werkefficiëntie te verbeteren. Leerlingen: wanneer ze nieuwe technologieën leren, kunnen ze gemakkelijker relevante open source-projecten vinden en snel de activiteit en schaal van de projecten controleren. 🤠
 // @name:nb           🤠 Github forbedret assistentlagervisningsstørrelse
 // @description:nb    🤠 Lagervisningsstørrelse: På GitHubs kodesøk, lagersøk, problemside, brukerlagerliste og lagerside vil størrelsen på lageret vises ved siden av lagernavnet, slik at brukerne raskt kan forstå omfanget av lageret og optimere deres lager. utvalg. Advarsel om inaktiv utvikling: Hvis et depot ikke har blitt oppdatert i løpet av de siste seks månedene, vil systemet legge til en melding øverst i depotet for å minne brukere om at depotet er inaktivt og vise tidspunktet for siste oppdatering. Dette hjelper brukere med å bestemme aktiviteten og vedlikeholdsstatusen til lageret. Hurtighopp innenfor lageret: Når brukeren blar gjennom lageret, kan brukeren enkelt se listen over alle varehusene til brukeren, noe som gir en inngang for raskt å hoppe til forskjellige varehus. Brukere kan raskt finne og få tilgang til andre prosjekter av interesse, noe som forbedrer arbeidseffektiviteten. Bruksscenarier: Utviklere: Ved å vise lagerstørrelsen og aktive advarsler kan du raskt filtrere ut passende biblioteker for utvikling og unngå å bruke prosjekter som ikke lenger vedlikeholdes. Prosjektleder: Gjennom hurtighoppfunksjonen er det enkelt å administrere og koordinere flere prosjekter og forbedre arbeidseffektiviteten. Elever: Når de lærer nye teknologier, kan de lettere finne relevante åpen kildekode-prosjekter og raskt sjekke aktiviteten og omfanget av prosjektene. 🤠
 // @name:pl           🤠 Zwiększony rozmiar wyświetlacza magazynu asystenta Githuba
@@ -101,179 +101,178 @@
 // @downloadURL       https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js
 // @updateURL         https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.meta.js
 // ==/UserScript==
-"use strict"
+'use strict'
 const userLang =
     (navigator.languages && navigator.languages[0]) ||
     navigator.language ||
-    "en"
+    'en'
 const translations = {
     en: {
-        save: "Save",
-        cancel: "Cancel",
-        modaltitle: "Set GitHub Token",
+        save: 'Save',
+        cancel: 'Cancel',
+        modaltitle: 'Set GitHub Token',
         description: 'Enter your GitHub personal access token with "repo" scope.',
-        githubtokeninput: "Enter your GitHub personal access token",
-        newtoken: "Click here to create a new token",
-        warncheckbox: "  Inactive Development Warning",
-        menu: "Set GitHub Token",
-        renderWarning: "WARNING: repo has not received an update in 1+ year(s)",
-        renderCaution: "Caution: repo has not received an update in 6+ months",
-        confirm: "You have not entered a Token, confirm to clear the GitHub Token?",
-        timediff: "Last commit was: {years} years, {months} months, {days} days ago ",
-        view: "View[",
-        allRepos: "]All repositories",
-        newTab: "Open in a new tab when quickly viewing repositories",
-        repoSize: "Repository size:",
-        repoDes: "Repository description:",
-        repoLang: "Primary language:",
-        repoCreated: "Initial creation time:",
-        repoUpdated: "Last updated:",
-        repoPushed: "Last pushed:",
-        repoForks: "Forks:",
-        repoStars: "Stars:",
-        ossinsight: "OSS Insight analysis page for the repository",
-        activeforks: "Active forks list for the repository",
-        activeforks_: "Active forks",
-        publicRepos: "Public repositories: ",
-        privateRepos: "Private repositories: ",
-        forkRepos: "Forked repositories: ",
-        deleteRepo_i: "You are trying to delete the repository:",
-        deleteRepo: "ChinaGodMan reminds you:\nDeleting a repository is an extremely dangerous operation.\nOnce you delete a repository, it cannot be recovered.\nPlease think twice! Data is priceless, cherish it.",
-        deleteRepo_ask: "Are you sure you want to delete the repository? (Confirmed",
-        deleteRepo_pass: "Deletion successful!",
-        deleteRepo_failed: "Deletion failed!\nIt is recommended to check whether the GitHub token has permission to delete the repository!",
-        deleteRepo_failed_status: "Status code:",
-        deleteRepo_btn: "Delete repository",
-        secret: "[Optional:] Enter your two-factor key for automatic input during GitHub's two-step verification.",
+        githubtokeninput: 'Enter your GitHub personal access token',
+        newtoken: 'Click here to create a new token',
+        warncheckbox: '  Inactive Development Warning',
+        menu: 'Set GitHub Token',
+        renderWarning: 'WARNING: repo has not received an update in 1+ year(s)',
+        renderCaution: 'Caution: repo has not received an update in 6+ months',
+        confirm: 'You have not entered a Token, confirm to clear the GitHub Token?',
+        timediff: 'Last commit was: {years} years, {months} months, {days} days ago ',
+        view: 'View[',
+        allRepos: ']All repositories',
+        newTab: 'Open in a new tab when quickly viewing repositories',
+        repoSize: 'Repository size:',
+        repoDes: 'Repository description:',
+        repoLang: 'Primary language:',
+        repoCreated: 'Initial creation time:',
+        repoUpdated: 'Last updated:',
+        repoPushed: 'Last pushed:',
+        repoForks: 'Forks:',
+        repoStars: 'Stars:',
+        ossinsight: 'OSS Insight analysis page for the repository',
+        activeforks: 'Active forks list for the repository',
+        activeforks_: 'Active forks',
+        publicRepos: 'Public repositories: ',
+        privateRepos: 'Private repositories: ',
+        forkRepos: 'Forked repositories: ',
+        deleteRepo_i: 'You are trying to delete the repository:',
+        deleteRepo: 'ChinaGodMan reminds you:\nDeleting a repository is an extremely dangerous operation.\nOnce you delete a repository, it cannot be recovered.\nPlease think twice! Data is priceless, cherish it.',
+        deleteRepo_ask: 'Are you sure you want to delete the repository? (Confirmed',
+        deleteRepo_pass: 'Deletion successful!',
+        deleteRepo_failed: 'Deletion failed!\nIt is recommended to check whether the GitHub token has permission to delete the repository!',
+        deleteRepo_failed_status: 'Status code:',
+        deleteRepo_btn: 'Delete repository',
+        secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.'
 
     },
-    "zh-CN,zh,zh-SG": {
-        save: "保存",
-        cancel: "取消",
-        modaltitle: "设置 GitHub 令牌",
+    'zh-CN,zh,zh-SG': {
+        save: '保存',
+        cancel: '取消',
+        modaltitle: '设置 GitHub 令牌',
         description: '请输入您的 GitHub 个人访问令牌，需具备 "repo" 权限。',
-        githubtokeninput: "请输入您的 GitHub 个人访问令牌",
-        newtoken: "点击此处创建新的令牌",
-        warncheckbox: " 非活跃开发警告",
-        menu: "设置 GitHub 令牌",
-        renderWarning: "警告：该仓库在 1 年以上未更新",
-        renderCaution: "注意：该仓库在 6 个月以上未更新",
-        confirm: "你没有输入Token,确认清空GitHub Token?",
-        timediff: "最后一次提交距现在：{years}年{months}个月{days}天 ",
-        view: "查看",
-        allRepos: "所有仓库",
-        newTab: "快速查看仓库时新窗口打开",
-        repoSize: "仓库大小：",
-        repoDes: "仓库简介：",
-        repoLang: "主要语言：",
-        repoCreated: "初始创建时间：",
-        repoUpdated: "最后一次更新：",
-        repoPushed: "最后一次推送：",
-        repoPushed: "最后一次推送：",
-        repoForks: "复刻：",
-        repoStars: "星标：",
-        ossinsight: "仓库对应的 OSS Insight 分析页面",
-        activeforks: "仓库对应的活跃复刻列表",
-        activeforks_: "活跃的复刻",
-        publicRepos: "公共仓库: ",
-        privateRepos: "私有仓库: ",
-        forkRepos: "分叉仓库: ",
-        deleteRepo_i: "你正在尝试删除仓库：",
-        deleteRepo: "人民的勤务员提醒你:\n删除仓库是一个极其危险的操作\n 你一旦删除仓库，将再也无法恢复。\n请三思而后行!  数据无价，且行且珍惜",
-        deleteRepo_ask: "你确定要删除仓库吗? (已确认",
-        deleteRepo_pass: " 删除成功!",
-        deleteRepo_failed: "删除失败!\n建议检查GitHub token 是否具有删除仓库的权限!",
-        deleteRepo_failed_status: "状态码:",
-        deleteRepo_btn: "删除仓库",
-        secret: "[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入",
+        githubtokeninput: '请输入您的 GitHub 个人访问令牌',
+        newtoken: '点击此处创建新的令牌',
+        warncheckbox: ' 非活跃开发警告',
+        menu: '设置 GitHub 令牌',
+        renderWarning: '警告：该仓库在 1 年以上未更新',
+        renderCaution: '注意：该仓库在 6 个月以上未更新',
+        confirm: '你没有输入Token,确认清空GitHub Token?',
+        timediff: '最后一次提交距现在：{years}年{months}个月{days}天 ',
+        view: '查看',
+        allRepos: '所有仓库',
+        newTab: '快速查看仓库时新窗口打开',
+        repoSize: '仓库大小：',
+        repoDes: '仓库简介：',
+        repoLang: '主要语言：',
+        repoCreated: '初始创建时间：',
+        repoUpdated: '最后一次更新：',
+        repoPushed: '最后一次推送：',
+        repoForks: '复刻：',
+        repoStars: '星标：',
+        ossinsight: '仓库对应的 OSS Insight 分析页面',
+        activeforks: '仓库对应的活跃复刻列表',
+        activeforks_: '活跃的复刻',
+        publicRepos: '公共仓库: ',
+        privateRepos: '私有仓库: ',
+        forkRepos: '分叉仓库: ',
+        deleteRepo_i: '你正在尝试删除仓库：',
+        deleteRepo: '人民的勤务员提醒你:\n删除仓库是一个极其危险的操作\n 你一旦删除仓库，将再也无法恢复。\n请三思而后行!  数据无价，且行且珍惜',
+        deleteRepo_ask: '你确定要删除仓库吗? (已确认',
+        deleteRepo_pass: ' 删除成功!',
+        deleteRepo_failed: '删除失败!\n建议检查GitHub token 是否具有删除仓库的权限!',
+        deleteRepo_failed_status: '状态码:',
+        deleteRepo_btn: '删除仓库',
+        secret: '[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入'
     },
-    "zh-TW,zh-HK,zh-MO": {
-        save: "保存",
-        cancel: "取消",
-        modaltitle: "設定 GitHub 令牌",
+    'zh-TW,zh-HK,zh-MO': {
+        save: '保存',
+        cancel: '取消',
+        modaltitle: '設定 GitHub 令牌',
         description: '請輸入您的 GitHub 個人訪問令牌，需具備 "repo" 權限。',
-        githubtokeninput: "請輸入您的 GitHub 個人訪問令牌",
-        newtoken: "點擊此處創建新的令牌",
-        warncheckbox: " 非活躍開發警告",
-        menu: "設定 GitHub 令牌",
-        renderWarning: "警告：該倉庫在 1 年以上未更新",
-        renderCaution: "注意：該倉庫在 6 個月以上未更新",
-        confirm: "你沒有輸入Token，確認清空GitHub Token?",
-        timediff: "最後一次提交距現在：{years}年{months}個月{days}天 ",
+        githubtokeninput: '請輸入您的 GitHub 個人訪問令牌',
+        newtoken: '點擊此處創建新的令牌',
+        warncheckbox: ' 非活躍開發警告',
+        menu: '設定 GitHub 令牌',
+        renderWarning: '警告：該倉庫在 1 年以上未更新',
+        renderCaution: '注意：該倉庫在 6 個月以上未更新',
+        confirm: '你沒有輸入Token，確認清空GitHub Token?',
+        timediff: '最後一次提交距現在：{years}年{months}個月{days}天 '
     },
     vi: {
-        save: "Lưu",
-        cancel: "Hủy",
-        modaltitle: "Đặt Token GitHub",
+        save: 'Lưu',
+        cancel: 'Hủy',
+        modaltitle: 'Đặt Token GitHub',
         description: 'Nhập token truy cập cá nhân GitHub của bạn với phạm vi "repo".',
-        githubtokeninput: "Nhập token truy cập cá nhân GitHub của bạn",
-        newtoken: "Nhấn vào đây để tạo token mới",
-        warncheckbox: " Cảnh báo phát triển không hoạt động",
-        menu: "Đặt Token GitHub",
-        renderWarning: "CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm",
-        renderCaution: "Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng",
-        confirm: "Bạn chưa nhập Token, xác nhận xóa GitHub Token?",
-        timediff: "Lần commit cuối cách đây: {years} năm, {months} tháng, {days} ngày ",
+        githubtokeninput: 'Nhập token truy cập cá nhân GitHub của bạn',
+        newtoken: 'Nhấn vào đây để tạo token mới',
+        warncheckbox: ' Cảnh báo phát triển không hoạt động',
+        menu: 'Đặt Token GitHub',
+        renderWarning: 'CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm',
+        renderCaution: 'Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng',
+        confirm: 'Bạn chưa nhập Token, xác nhận xóa GitHub Token?',
+        timediff: 'Lần commit cuối cách đây: {years} năm, {months} tháng, {days} ngày '
     },
     ja: {
-        save: "保存",
-        cancel: "キャンセル",
-        modaltitle: "GitHubトークンの設定",
-        description: "「repo」スコープを持つGitHub個人アクセストークンを入力してください。",
-        githubtokeninput: "GitHub個人アクセストークンを入力してください",
-        newtoken: "新しいトークンを作成するにはここをクリックしてください",
-        warncheckbox: " 非アクティブ開発警告",
-        menu: "GitHubトークンの設定",
-        renderWarning: "警告：リポジトリは1年以上更新されていません",
-        renderCaution: "注意：リポジトリは6ヶ月以上更新されていません",
-        confirm: "トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?",
-        timediff: "最終コミットから現在まで：{years}年{months}ヶ月{days}日 ",
+        save: '保存',
+        cancel: 'キャンセル',
+        modaltitle: 'GitHubトークンの設定',
+        description: '「repo」スコープを持つGitHub個人アクセストークンを入力してください。',
+        githubtokeninput: 'GitHub個人アクセストークンを入力してください',
+        newtoken: '新しいトークンを作成するにはここをクリックしてください',
+        warncheckbox: ' 非アクティブ開発警告',
+        menu: 'GitHubトークンの設定',
+        renderWarning: '警告：リポジトリは1年以上更新されていません',
+        renderCaution: '注意：リポジトリは6ヶ月以上更新されていません',
+        confirm: 'トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?',
+        timediff: '最終コミットから現在まで：{years}年{months}ヶ月{days}日 '
     },
     ko: {
-        save: "저장",
-        cancel: "취소",
-        modaltitle: "GitHub 토큰 설정",
-        description: "“repo” 범위를 가진 GitHub 개인 액세스 토큰을 입력하세요.",
-        githubtokeninput: "GitHub 개인 액세스 토큰을 입력하세요",
-        newtoken: "여기를 클릭하여 새 토큰을 만드세요",
-        warncheckbox: " 비활성 개발 경고",
-        menu: "GitHub 토큰 설정",
-        renderWarning: "경고: 이 저장소는 1년 이상 업데이트되지 않았습니다",
-        renderCaution: "주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다",
-        confirm: "토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?",
-        timediff: "마지막 커밋 이후 경과: {years}년 {months}개월 {days}일 ",
-    },
+        save: '저장',
+        cancel: '취소',
+        modaltitle: 'GitHub 토큰 설정',
+        description: '“repo” 범위를 가진 GitHub 개인 액세스 토큰을 입력하세요.',
+        githubtokeninput: 'GitHub 개인 액세스 토큰을 입력하세요',
+        newtoken: '여기를 클릭하여 새 토큰을 만드세요',
+        warncheckbox: ' 비활성 개발 경고',
+        menu: 'GitHub 토큰 설정',
+        renderWarning: '경고: 이 저장소는 1년 이상 업데이트되지 않았습니다',
+        renderCaution: '주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다',
+        confirm: '토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?',
+        timediff: '마지막 커밋 이후 경과: {years}년 {months}개월 {days}일 '
+    }
 }
 const getTranslations = (lang) => {
     for (const key in translations) {
-        if (key === lang || key.split(",").includes(lang)) {
+        if (key === lang || key.split(',').includes(lang)) {
             return translations[key]
         }
     }
-    return translations["en"]
+    return translations['en']
 }
 const translate = new Proxy(
     function (key) {
         const lang = userLang
         const strings = getTranslations(lang)
-        return strings[key] || translations["en"][key]
+        return strings[key] || translations['en'][key]
     },
     {
         get(target, prop) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[prop] || translations["en"][prop]
-        },
+            return strings[prop] || translations['en'][prop]
+        }
     }
 )
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
-let TOKEN = GM_getValue("githubToken", "")
-let WARNING = GM_getValue("warn", true)
-let openInNewTab = GM_getValue("openInNewTab", false)
-let DELAY = GM_getValue("DELAY", "24h")
-let USETIP = GM_getValue("USETIP", false)//为真时使用GitHub自带的TIP提示而不是用网页title
-let SECRET = GM_getValue("SECRET", '')
+let TOKEN = GM_getValue('githubToken', '')
+let WARNING = GM_getValue('warn', true)
+let openInNewTab = GM_getValue('openInNewTab', false)
+let DELAY = GM_getValue('DELAY', '24h')
+let USETIP = GM_getValue('USETIP', false)//为真时使用GitHub自带的TIP提示而不是用网页title
+let SECRET = GM_getValue('SECRET', '')
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -313,61 +312,61 @@ function createModal() {
             </div>
         </div>
     `
-    const modalContainer = document.createElement("div")
+    const modalContainer = document.createElement('div')
     modalContainer.innerHTML = modalHTML
     document.body.appendChild(modalContainer)
     const elements = {
-        input: modalContainer.querySelector("#github-token-input"),
-        secretInput: modalContainer.querySelector("#two-factor-secret"),
-        warn: modalContainer.querySelector("#warn"),
-        newTab: modalContainer.querySelector("#openInNewTab"),
-        saveButton: modalContainer.querySelector("#save-token"),
-        cancelButton: modalContainer.querySelector("#cancel-token")
+        input: modalContainer.querySelector('#github-token-input'),
+        secretInput: modalContainer.querySelector('#two-factor-secret'),
+        warn: modalContainer.querySelector('#warn'),
+        newTab: modalContainer.querySelector('#openInNewTab'),
+        saveButton: modalContainer.querySelector('#save-token'),
+        cancelButton: modalContainer.querySelector('#cancel-token')
     }
-    elements.warn.checked = GM_getValue("warn", true)
-    elements.newTab.checked = GM_getValue("openInNewTab", false)
-    elements.input.value = GM_getValue("githubToken", "")
-    elements.secretInput.value = GM_getValue("SECRET", "")
-    elements.saveButton.addEventListener("click", () => {
+    elements.warn.checked = GM_getValue('warn', true)
+    elements.newTab.checked = GM_getValue('openInNewTab', false)
+    elements.input.value = GM_getValue('githubToken', '')
+    elements.secretInput.value = GM_getValue('SECRET', '')
+    elements.saveButton.addEventListener('click', () => {
         const token = elements.input.value.trim()
-        GM_setValue("warn", elements.warn.checked)
+        GM_setValue('warn', elements.warn.checked)
         WARNING = elements.warn.checked
-        GM_setValue("openInNewTab", elements.newTab.checked)
+        GM_setValue('openInNewTab', elements.newTab.checked)
         openInNewTab = elements.newTab.checked
-        GM_setValue("SECRET", elements.secretInput.value.trim())
+        GM_setValue('SECRET', elements.secretInput.value.trim())
 
         if (token) {
-            GM_setValue("githubToken", token)
+            GM_setValue('githubToken', token)
             modalContainer.remove()
             TOKEN = token
         } else {
-            const userConfirmed = confirm(translate("confirm")) //提示是否删除
+            const userConfirmed = confirm(translate('confirm')) //提示是否删除
             if (userConfirmed) {
-                GM_setValue("githubToken", token)
+                GM_setValue('githubToken', token)
                 modalContainer.remove()
                 TOKEN = token
             }
         }
     })
 
-    elements.cancelButton.addEventListener("click", () => modalContainer.remove())
+    elements.cancelButton.addEventListener('click', () => modalContainer.remove())
 }
 
-GM_registerMenuCommand(translate("menu"), function () {
+GM_registerMenuCommand(translate('menu'), function () {
     createModal()
 })
 const getPageType = () => {
     const { pathname, search } = window.location
     const params = new URLSearchParams(search)
-    const [, username, repo] = pathname.split("/")
-    const q = params.get("q")?.toLocaleLowerCase()
-    const type = params.get("type")?.toLocaleLowerCase()
-    if (window.location.pathname.split("/").pop() === "repositories") return "list-view-container"
-    if (window.location.href.includes("?tab=repositories")) return "user-repositories"
-    if (window.location.href.includes("?tab=stars")) return "user-starred-repos"
-    if (username && repo) return "repo"
-    if (q && type === "code") return "code_search"
-    if (q) return "search"
+    const [, username, repo] = pathname.split('/')
+    const q = params.get('q')?.toLocaleLowerCase()
+    const type = params.get('type')?.toLocaleLowerCase()
+    if (window.location.pathname.split('/').pop() === 'repositories') return 'list-view-container'
+    if (window.location.href.includes('?tab=repositories')) return 'user-repositories'
+    if (window.location.href.includes('?tab=stars')) return 'user-starred-repos'
+    if (username && repo) return 'repo'
+    if (q && type === 'code') return 'code_search'
+    if (q) return 'search'
 }
 const addSizeToRepos = () => {
 
@@ -375,23 +374,23 @@ const addSizeToRepos = () => {
     // Get the repo selector based on the page type
     let repoSelector
     switch (pageType) {
-        case "repo": //仓库详情界面
-            repoSelector = "#repository-container-header strong a"
+        case 'repo': //仓库详情界面
+            repoSelector = '#repository-container-header strong a'
             break
-        case "list-view-container": //ORG下的仓库列表
+        case 'list-view-container': //ORG下的仓库列表
             repoSelector =
                 'div[data-testid="list-view-item-title-container"] h4 a'
             break
-        case "user-repositories": //用户资料页面的仓库TAB
-            repoSelector = "#user-repositories-list h3 a"
+        case 'user-repositories': //用户资料页面的仓库TAB
+            repoSelector = '#user-repositories-list h3 a'
             break
-        case "user-starred-repos": //用户资料页面的已星标仓库
-            repoSelector = "#user-starred-repos h3 a"
+        case 'user-starred-repos': //用户资料页面的已星标仓库
+            repoSelector = '#user-starred-repos h3 a'
             break
-        case "search": //搜索
+        case 'search': //搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
-        case "code_search": //代码搜索
+        case 'code_search': //代码搜索
             repoSelector = 'div[data-testid="results-list"] .search-title a'
             break
         default:
@@ -399,15 +398,15 @@ const addSizeToRepos = () => {
     }
     function extractPath(input) {
         const thirdSlashIndex = input.indexOf(
-            "/",
-            input.indexOf("/", input.indexOf("/") + 1) + 1
+            '/',
+            input.indexOf('/', input.indexOf('/') + 1) + 1
         )
         if (thirdSlashIndex !== -1) {
             return input.substring(0, thirdSlashIndex)
         }
         return input
     }
-    if (pageType === "user-repositories") {
+    if (pageType === 'user-repositories') {
         const repoItems = document.querySelectorAll('li[itemprop="owns"]')
         repoItems.forEach(item => {
             const repoName = item.querySelector('a[itemprop="name codeRepository"]').textContent.trim()
@@ -425,14 +424,14 @@ const addSizeToRepos = () => {
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
         const tkn = TOKEN
-        var href = elem.getAttribute("href")
+        var href = elem.getAttribute('href')
         href = extractPath(href)
         if (filterHref == href) {
             return
         } else {
             filterHref = href
         }
-        if (pageType === "repo") {
+        if (pageType === 'repo') {
             const parts = href.split('/')
             const owner = parts[1]
             const name = parts[2]
@@ -444,16 +443,16 @@ const addSizeToRepos = () => {
         const headers = tkn ? { authorization: `token ${tkn}` } : {}
         const jsn = await (
             await fetch(`https://api.github.com/repos${href}`, {
-                headers: headers,
+                headers: headers
             })
         ).json()
         // If JSON failed to load, skip
         if (jsn.message) return
-        if (pageType === "repo" && WARNING) {
+        if (pageType === 'repo' && WARNING) {
             checkCommitDate(jsn.pushed_at)
         }
 
-        if (pageType === "repo") {
+        if (pageType === 'repo') {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url)
                 ? (TOKEN ? 'https://api.github.com/user/repos' : jsn.owner.repos_url)
                 : jsn.owner.repos_url
@@ -485,7 +484,7 @@ const addSizeToRepos = () => {
                             size: repo.size,
                             created_at: systemTime(repo.created_at),
                             updated_at: systemTime(repo.updated_at),
-                            pushed_at: systemTime(repo.pushed_at),
+                            pushed_at: systemTime(repo.pushed_at)
                         }))
                         const timeStamp = new Date().toISOString()
                         const dataToStore = {
@@ -506,41 +505,41 @@ const addSizeToRepos = () => {
 
         // Get parent element to append the size to
         let parent = elem.parentElement
-        if (pageType === "repo") parent = elem.parentElement.parentElement
+        if (pageType === 'repo') parent = elem.parentElement.parentElement
         // Create the size container
-        let sizeContainer = parent.querySelector(`#mshll-repo-size`)
+        let sizeContainer = parent.querySelector('#mshll-repo-size')
         if (sizeContainer === null) {
-            sizeContainer = document.createElement("span")
-            sizeContainer.id = "mshll-repo-size"
-            sizeContainer.className = "tooltipped tooltipped-s"
+            sizeContainer = document.createElement('span')
+            sizeContainer.id = 'mshll-repo-size'
+            sizeContainer.className = 'tooltipped tooltipped-s'
             sizeContainer.classList.add(
-                "Label",
-                "Label--info",
-                "v-align-middle",
-                "ml-1"
+                'Label',
+                'Label--info',
+                'v-align-middle',
+                'ml-1'
             )
-            sizeContainer.setAttribute("aria-label", "Repository size")
-            sizeContainer.innerText = "-"
+            sizeContainer.setAttribute('aria-label', 'Repository size')
+            sizeContainer.innerText = '-'
             // Create the size icon
             let sizeSVG = document.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "svg"
+                'http://www.w3.org/2000/svg',
+                'svg'
             )
-            sizeSVG.setAttribute("aria-hidden", "true")
-            sizeSVG.setAttribute("viewBox", "-4 -4 22 22")
-            sizeSVG.setAttribute("width", "16")
-            sizeSVG.setAttribute("height", "16")
-            sizeSVG.setAttribute("fill", "currentColor")
-            sizeSVG.setAttribute("data-view-component", "true")
-            sizeSVG.classList.add("octicon", "octicon-file-directory", "mr-1")
+            sizeSVG.setAttribute('aria-hidden', 'true')
+            sizeSVG.setAttribute('viewBox', '-4 -4 22 22')
+            sizeSVG.setAttribute('width', '16')
+            sizeSVG.setAttribute('height', '16')
+            sizeSVG.setAttribute('fill', 'currentColor')
+            sizeSVG.setAttribute('data-view-component', 'true')
+            sizeSVG.classList.add('octicon', 'octicon-file-directory', 'mr-1')
             let sizeSVGPath = document.createElementNS(
-                "http://www.w3.org/2000/svg",
-                "path"
+                'http://www.w3.org/2000/svg',
+                'path'
             )
-            sizeSVGPath.setAttribute("fill-rule", "evenodd")
+            sizeSVGPath.setAttribute('fill-rule', 'evenodd')
             sizeSVGPath.setAttribute(
-                "d",
-                "M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"
+                'd',
+                'M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z'
             )
             sizeSVG.appendChild(sizeSVGPath)
             const size = jsn.size * 1024
@@ -549,12 +548,12 @@ const addSizeToRepos = () => {
             sizeContainer.innerHTML = `${humanReadableSize}`
             sizeContainer.prepend(sizeSVG)
             // Insert the size container into the DOM
-            if (pageType === "code_search") {
-                parent.style.direction = "ltr"
+            if (pageType === 'code_search') {
+                parent.style.direction = 'ltr'
             }
             if (!size) {
-                sizeContainer.style.color = "red"
-                sizeContainer.style.border = "1px solid red"
+                sizeContainer.style.color = 'red'
+                sizeContainer.style.border = '1px solid red'
             }
             parent.appendChild(sizeContainer)
         }
@@ -567,11 +566,11 @@ window.onload = function () {
     //addSizeToRepos()
 }
 const selectors = [
-    "#repository-container-header strong a", // 仓库详情界面
+    '#repository-container-header strong a', // 仓库详情界面
     'div[data-testid="list-view-item-title-container"] h4 a', // ORG下的仓库列表
-    "#user-repositories-list h3 a", // 用户资料页面的仓库TAB
-    "#user-starred-repos h3 a", // 用户资料页面的已星标仓库
-    'div[data-testid="results-list"] .search-title a', // 搜索
+    '#user-repositories-list h3 a', // 用户资料页面的仓库TAB
+    '#user-starred-repos h3 a', // 用户资料页面的已星标仓库
+    'div[data-testid="results-list"] .search-title a' // 搜索
     // 'div[data-testid="results-list"] .search-title a' // 代码搜索
 ]
 document.addEventListener('DOMContentLoaded', () => {
@@ -580,14 +579,14 @@ document.addEventListener('DOMContentLoaded', () => {
         waitForElement('#app_totp', false)//
             .then(() => {
                 generateTOTP(SECRET).then(totp => {
-                    const totpInput = document.querySelector("#app_totp")
-                    const submitButton = totpInput.parentElement.querySelector("button[type='submit']")
+                    const totpInput = document.querySelector('#app_totp')
+                    const submitButton = totpInput.parentElement.querySelector('button[type=\'submit\']')
                     totpInput.value = totp
                     submitButton.click()
                 })
             })
             .catch((error) => {
-                console.error(`totp发生了错误,找不到元素`)
+                console.error('totp发生了错误,找不到元素')
             })
     }
 })
@@ -638,14 +637,14 @@ function waitForElement(selector, dis = true) {
 
 function displayMessage(el) {
     document
-        .querySelector("#js-repo-pjax-container")
-        .insertAdjacentElement("beforebegin", el)
+        .querySelector('#js-repo-pjax-container')
+        .insertAdjacentElement('beforebegin', el)
 }
 function renderWarning(timediff) {
-    const banner = document.createElement("div")
-    banner.id = "zh-banner-warning"
+    const banner = document.createElement('div')
+    banner.id = 'zh-banner-warning'
     banner.setAttribute(
-        "style",
+        'style',
         `
     background-color: red;
     height: 100px;
@@ -659,9 +658,9 @@ function renderWarning(timediff) {
   `
     )
     banner.textContent = translate.renderWarning
-    const smallTag = document.createElement("div")
+    const smallTag = document.createElement('div')
     smallTag.setAttribute(
-        "style",
+        'style',
         `
     position: absolute;
     bottom: 0;
@@ -676,10 +675,10 @@ function renderWarning(timediff) {
     displayMessage(banner)
 }
 function renderCaution(timediff) {
-    const banner = document.createElement("div")
-    banner.id = "zh-banner-warning"
+    const banner = document.createElement('div')
+    banner.id = 'zh-banner-warning'
     banner.setAttribute(
-        "style",
+        'style',
         `
     background-color: yellow;
     height: 50px;
@@ -692,9 +691,9 @@ function renderCaution(timediff) {
   `
     )
     banner.textContent = translate.renderCaution
-    const smallTag = document.createElement("div")
+    const smallTag = document.createElement('div')
     smallTag.setAttribute(
-        "style",
+        'style',
         `
     position: absolute;
     bottom: 0;
@@ -709,7 +708,7 @@ function renderCaution(timediff) {
     displayMessage(banner)
 }
 function checkCommitDate(datetimeString) {
-    if (document.querySelector("#zh-banner-warning")) return
+    if (document.querySelector('#zh-banner-warning')) return
     const date = new Date(datetimeString)
     const now = new Date()
     const yearsDiff = now.getFullYear() - date.getFullYear()
@@ -789,11 +788,11 @@ function insertReposList(links, tip = false) {
         })
         function getIconPath(link) {
             var fillColor = null
-            if (link.private) fillColor = "green"
-            if (!link.private && !link.fork) fillColor = "red"
+            if (link.private) fillColor = 'green'
+            if (!link.private && !link.fork) fillColor = 'red'
             var svg = `<path fill="${fillColor}" fill-rule="evenodd" d="M1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591Zm1.5 0c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 5.205 6.353 5.5 8 5.5c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55 0-.133-.058-.318-.282-.551-.227-.237-.591-.483-1.101-.707C11.102 1.795 9.647 1.5 8 1.5c-1.646 0-3.101.295-4.118.742-.508.224-.873.471-1.1.708-.224.232-.282.417-.282.55Zm0 4.5c0 .133.058.318.282.551.227.237.591.483 1.101.707C4.898 9.705 6.353 10 8 10c1.646 0 3.101-.295 4.118-.742.508-.224.873-.471 1.1-.708.224-.232.282-.417.282-.55V5.724c-.241.15-.503.286-.778.407C11.475 6.68 9.805 7 8 7c-1.805 0-3.475-.32-4.721-.869a6.15 6.15 0 0 1-.779-.407Zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.327 6.327 0 0 1-.779-.406Z"></path>`
             if (fillColor) return svg
-            if (link.fork) return `<path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>`
+            if (link.fork) return '<path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"></path>'
         }
         let privateClassAdded = false
         let forkClassAdded = false
@@ -801,20 +800,20 @@ function insertReposList(links, tip = false) {
             privateTrue: 0,
             privateFalse: 0,
             forkTrue: 0,
-            forkFalse: 0,
+            forkFalse: 0
         }
         const listItems = sortedLinks.map(link => {
             stats.privateTrue += (link.private && !link.fork) ? 1 : 0
             stats.privateFalse += (link.private ? 0 : 1) && !link.fork ? 1 : 0
             stats.forkTrue += link.fork ? 1 : 0
             stats.forkFalse += link.fork ? 0 : 1
-            let liClass = ""
+            let liClass = ''
             if (link.private && !privateClassAdded) {
-                liClass += "border-top"
+                liClass += 'border-top'
                 privateClassAdded = true
             }
             if (link.fork && !forkClassAdded) {
-                liClass += "border-top"
+                liClass += 'border-top'
                 forkClassAdded = true
             }
             const starsAndForks = [
@@ -831,8 +830,8 @@ function insertReposList(links, tip = false) {
                 `${translate.repoPushed}${link.pushed_at}`
             ].filter(Boolean).join('\n')
             return `
-        <li class="${liClass}${(tip) ? ` tooltipped tooltipped-s` : ''}"  aria-label="${repoInfo}">
-            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? `target="_blank"` : ''} rel="noopener noreferrer" ${(tip) ? '"' : ` title="${repoInfo}"`}>
+        <li class="${liClass}${(tip) ? ' tooltipped tooltipped-s' : ''}"  aria-label="${repoInfo}">
+            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? 'target="_blank"' : ''} rel="noopener noreferrer" ${(tip) ? '"' : ` title="${repoInfo}"`}>
                 <span class="d-inline-flex mr-2">
                     <svg width="16" height="16" viewBox="0 0 16 16">
                         ${getIconPath(link)}
@@ -848,7 +847,7 @@ function insertReposList(links, tip = false) {
             `${translate.allRepos} : ${sortedLinks.length}`,
             stats.privateTrue > 0 ? `${translate.privateRepos} ${stats.privateTrue}` : '',
             stats.privateFalse > 0 ? `${translate.publicRepos}  ${stats.privateFalse}` : '',
-            stats.forkTrue > 0 ? `${translate.forkRepos} ${stats.forkTrue}` : '',
+            stats.forkTrue > 0 ? `${translate.forkRepos} ${stats.forkTrue}` : ''
             //stats.forkFalse > 0 ? `非分叉仓库: ${stats.forkFalse}` : ''
         ].filter(Boolean).join('\n')
         const detailsHTML = `
@@ -875,7 +874,7 @@ function insertReposList(links, tip = false) {
     }
 }
 function isLoggedInUser(avatar_url) {//从返回的json判断
-    const imgElement = document.querySelector(".AppHeader-user button span span img")
+    const imgElement = document.querySelector('.AppHeader-user button span span img')
     if (imgElement) {
         const imgSrc = imgElement.src
         return imgSrc === avatar_url
@@ -884,8 +883,8 @@ function isLoggedInUser(avatar_url) {//从返回的json判断
     }
 }
 function isLoggedInUser_f() {//NOTE - 比较仓库头像和登录头像中的ID
-    const imgElement = document.querySelector(".AppHeader-user button span span img")
-    const repoImgElement = document.querySelector("#repo-title-component > img")
+    const imgElement = document.querySelector('.AppHeader-user button span span img')
+    const repoImgElement = document.querySelector('#repo-title-component > img')
     if (imgElement && repoImgElement) {
         const imgSrc = imgElement.src
         const repoImgSrc = repoImgElement.src
@@ -904,7 +903,7 @@ function isLoggedInUser_f() {//NOTE - 比较仓库头像和登录头像中的ID
 async function getUserRepos(href, header = {}) {
     try {
         const response = await fetch(`${href}`, {
-            headers: header,
+            headers: header
         })
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`)
@@ -959,7 +958,7 @@ function insertOssInsightButton(owner, repo, usePageHeadActions) {
 }
 function insertActiveForks(owner, repo, usePageHeadActions) {
     if (document.getElementById('github-active-forks')) return
-    const svgStr = `<svg class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>`
+    const svgStr = '<svg class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>'
     const targetUrl = `https://ossinsight.io/analyze/${owner}/${repo}`
     const title = `${repo}  ${translate.activeforks}`
     const el = usePageHeadActions
@@ -969,7 +968,7 @@ function insertActiveForks(owner, repo, usePageHeadActions) {
         console.log('github-Active Forks: 没有找到目标元素, 无法添加按钮')
         return
     }
-    const buttonHtml = `<details class="details-reset details-overlay f5 position-relative "><summary id="active-forks-button-repo" class="btn btn-sm tooltipped tooltipped-s" aria-label="${title}"><a id="github-active-forks" href="https://techgaun.github.io/active-forks/index.html#${owner}/${repo}" target="_blank" > ${svgStr}  ${usePageHeadActions ? translate.activeforks_ : ""}</a></details>`
+    const buttonHtml = `<details class="details-reset details-overlay f5 position-relative "><summary id="active-forks-button-repo" class="btn btn-sm tooltipped tooltipped-s" aria-label="${title}"><a id="github-active-forks" href="https://techgaun.github.io/active-forks/index.html#${owner}/${repo}" target="_blank" > ${svgStr}  ${usePageHeadActions ? translate.activeforks_ : ''}</a></details>`
     if (usePageHeadActions) {
         el.insertAdjacentHTML('afterbegin', `<li>${buttonHtml}</li>`)
     } else {
@@ -978,13 +977,14 @@ function insertActiveForks(owner, repo, usePageHeadActions) {
 }
 
 function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-repo-delete-home', element) {
-    const svgStr = `<div style="display: flex; justify-content: center; align-items: center;"><svg class="octicon octicon-trash color-fg-danger" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path></svg>`
+    const svgStr = '<div style="display: flex; justify-content: center; align-items: center;"><svg class="octicon octicon-trash color-fg-danger" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path></svg>'
     const targetUrl = `https://ossinsight.io/analyze/${owner}/${repo}`
     const title = `[${repo}]\n  ${translate.deleteRepo}`
+    var el = null
     if (element) {
-        var el = element
+        el = element
     } else {
-        var el = usePageHeadActions
+        el = usePageHeadActions
             ? document.querySelector('.pagehead-actions')
             : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
     }
@@ -997,7 +997,7 @@ function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-r
   data-view-component="true"
   class="js-repo-delete-button Button--danger Button--medium Button float-none float-sm-right ">
   <span class="Button-content">
-    <span class="Button-label tooltipped tooltipped-s"  aria-label="${title}">${svgStr}${usePageHeadActions ? translate.deleteRepo_btn : ""}</span>
+    <span class="Button-label tooltipped tooltipped-s"  aria-label="${title}">${svgStr}${usePageHeadActions ? translate.deleteRepo_btn : ''}</span>
   </span>
 </button>`
     if (usePageHeadActions) {
@@ -1010,7 +1010,7 @@ function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-r
     })
 }
 function showDeleteConfirmations(owner, repo, count = 3) {
-    const blacklist = ["ChinaGodMan/disk", "ChinaGodMan/LocalDev", "ChinaGodMan/Ebackup", "ChinaGodMan/portable-device", "ChinaGodMan/UserScripts"]
+    const blacklist = ['ChinaGodMan/disk', 'ChinaGodMan/LocalDev', 'ChinaGodMan/Ebackup', 'ChinaGodMan/portable-device', 'ChinaGodMan/UserScripts']
     const repoIdentifier = `${owner}/${repo}`
     if (blacklist.includes(repoIdentifier)) {
         alert(`[${repoIdentifier}] 在黑名单中`)
@@ -1044,10 +1044,10 @@ function deleteRepository(owner, repo) {
 }
 //LINK - 帮助小子程序
 function getHumanReadableSize(sizeInKB) {
-    const sizes = ["B", "KB", "MB", "GB", "TB"]
+    const sizes = ['B', 'KB', 'MB', 'GB', 'TB']
     const size = sizeInKB * 1024
     let i = parseInt(Math.floor(Math.log(size) / Math.log(1024)))
-    const humanReadableSize = (size / Math.pow(1024, i)).toFixed(1) + " " + sizes[i]
+    const humanReadableSize = (size / Math.pow(1024, i)).toFixed(1) + ' ' + sizes[i]
     return humanReadableSize
 }
 function systemTime(isoString) {

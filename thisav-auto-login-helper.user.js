@@ -97,31 +97,31 @@ const translate = (function () {
             Accountnull: 'Error: UserEmail or UserPassword is empty.',
             loginSuccess: 'Login successful, refreshing the page.',
             Networkfailed: 'Status code error.',
-            Loginfailed: 'Login failed, incorrect email or password. Check console for error details.',
+            Loginfailed: 'Login failed, incorrect email or password. Check console for error details.'
         },
         'zh-CN': {
             Accountnull: '邮箱或密码为空',
             loginSuccess: '登录成功，即将刷新页面。',
             Networkfailed: '状态码错误',
-            Loginfailed: '登录失败，邮箱或密码错误，可以在控制台查看错误信息。',
+            Loginfailed: '登录失败，邮箱或密码错误，可以在控制台查看错误信息。'
         },
         'zh-TW': {
             Accountnull: '郵箱或密碼為空',
             loginSuccess: '登錄成功，即將刷新頁面。',
             Networkfailed: '狀態碼錯誤',
-            Loginfailed: '登錄失敗，郵箱或密碼錯誤，可以在控制台查看錯誤信息。',
+            Loginfailed: '登錄失敗，郵箱或密碼錯誤，可以在控制台查看錯誤信息。'
         },
         'ja': {
             Accountnull: 'エラー：メールアドレスまたはパスワードが空です。',
             loginSuccess: 'ログイン成功、ページを更新します。',
             Networkfailed: 'ステータスコードエラー',
-            Loginfailed: 'ログインに失敗しました。メールアドレスまたはパスワードが間違っています。エラーの詳細はコンソールで確認できます。',
+            Loginfailed: 'ログインに失敗しました。メールアドレスまたはパスワードが間違っています。エラーの詳細はコンソールで確認できます。'
         },
         'vi': {
             Accountnull: 'Lỗi: Email hoặc mật khẩu trống.',
             loginSuccess: 'Đăng nhập thành công, đang làm mới trang.',
             Networkfailed: 'Lỗi mã trạng thái.',
-            Loginfailed: 'Đăng nhập không thành công, email hoặc mật khẩu không chính xác. Xem chi tiết lỗi trên bảng điều khiển.',
+            Loginfailed: 'Đăng nhập không thành công, email hoặc mật khẩu không chính xác. Xem chi tiết lỗi trên bảng điều khiển.'
         }
     }
 
@@ -132,10 +132,10 @@ const translate = (function () {
 }());
 (function () {
     'use strict'
-    let UserEmail = GM_getValue("UserEmail", "")
-    let UserPassword = GM_getValue("UserPassword", "")
+    let UserEmail = GM_getValue('UserEmail', '')
+    let UserPassword = GM_getValue('UserPassword', '')
     var style = document.createElement('style')
-    GM_registerMenuCommand("Set Account", showuserInfoModal)
+    GM_registerMenuCommand('Set Account', showuserInfoModal)
     function showuserInfoModal() {
         let modalHtml = `
         <div id="userInfoModal" style="position: fixed; z-index: 10000; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); top: 20%; left: 50%; transform: translate(-50%, -20%); max-width: 300px;">
@@ -156,17 +156,17 @@ const translate = (function () {
         let modalDiv = document.createElement('div')
         modalDiv.innerHTML = modalHtml
         document.body.appendChild(modalDiv)
-        document.getElementById("saveUserInfo").addEventListener("click", function () {
-            UserEmail = document.getElementById("UserEmail").value
-            UserPassword = document.getElementById("UserPassword").value
-            GM_setValue("UserEmail", UserEmail)
-            GM_setValue("UserPassword", UserPassword)
+        document.getElementById('saveUserInfo').addEventListener('click', function () {
+            UserEmail = document.getElementById('UserEmail').value
+            UserPassword = document.getElementById('UserPassword').value
+            GM_setValue('UserEmail', UserEmail)
+            GM_setValue('UserPassword', UserPassword)
             closeUserModal()
         })
-        document.getElementById("closeUserModal").addEventListener("click", closeUserModal)
+        document.getElementById('closeUserModal').addEventListener('click', closeUserModal)
     }
     function closeUserModal() {
-        let modal = document.getElementById("userInfoModal")
+        let modal = document.getElementById('userInfoModal')
         if (modal) {
             modal.remove()
         }
@@ -179,13 +179,13 @@ const translate = (function () {
         fetch('https://thisav.com/cn/api/login', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 email: email,
                 password: password,
-                remember: true,
-            }),
+                remember: true
+            })
         })
             .then(response => {
                 if (!response.ok) {
@@ -193,7 +193,7 @@ const translate = (function () {
                         console.error('Login error:', {
                             status: response.status,
                             statusText: response.statusText,
-                            responseText: text,
+                            responseText: text
                         })
                         Toast('Login failed: ' + text, 2000, '#FF0000', '#ffffff', 'top')
                         throw new Error(translate('Networkfailed'))
@@ -206,7 +206,7 @@ const translate = (function () {
                         console.error(translate('Loginfailed'), {
                             status: response.status,
                             statusText: response.statusText,
-                            responseText: text,
+                            responseText: text
                         })
                         Toast(translate('Loginfailed'), 2000, '#FF0000', '#ffffff', 'top')
                         throw new Error(translate('Loginfailed'))

@@ -95,60 +95,60 @@
     const userLang =
         (navigator.languages && navigator.languages[0]) ||
         navigator.language ||
-        "en"
+        'en'
     const translations = {
         en: {
-            ask: "Is it allowed for the webpage to copy the following content?",
-            cancel: "The webpage's clipboard writing has been blocked",
-            save: "The webpage has been allowed to write to the clipboard",
+            ask: 'Is it allowed for the webpage to copy the following content?',
+            cancel: 'The webpage\'s clipboard writing has been blocked',
+            save: 'The webpage has been allowed to write to the clipboard'
         },
-        "zh-CN,zh,zh-SG": {
-            ask: "允许网页复制以下内容吗？",
-            cancel: "已阻止网页写入剪贴板",
-            save: "已允许网页写入剪贴板",
+        'zh-CN,zh,zh-SG': {
+            ask: '允许网页复制以下内容吗？',
+            cancel: '已阻止网页写入剪贴板',
+            save: '已允许网页写入剪贴板'
         },
-        "zh-TW,zh-HK,zh-MO": {
-            ask: "允許網頁複製以下內容嗎？",
-            cancel: "已阻止網頁寫入剪貼板",
-            save: "已允許網頁寫入剪貼板",
+        'zh-TW,zh-HK,zh-MO': {
+            ask: '允許網頁複製以下內容嗎？',
+            cancel: '已阻止網頁寫入剪貼板',
+            save: '已允許網頁寫入剪貼板'
         },
         vi: {
-            ask: "Có cho phép trang web sao chép nội dung sau không?",
-            cancel: "Đã chặn trang web ghi vào clipboard",
-            save: "Trang web đã được phép ghi vào clipboard",
+            ask: 'Có cho phép trang web sao chép nội dung sau không?',
+            cancel: 'Đã chặn trang web ghi vào clipboard',
+            save: 'Trang web đã được phép ghi vào clipboard'
         },
         ja: {
-            ask: "ウェブページが以下の内容をコピーすることを許可しますか？",
-            cancel: "ウェブページによるクリップボードへの書き込みがブロックされました",
-            save: "ウェブページがクリップボードへの書き込みを許可されました",
+            ask: 'ウェブページが以下の内容をコピーすることを許可しますか？',
+            cancel: 'ウェブページによるクリップボードへの書き込みがブロックされました',
+            save: 'ウェブページがクリップボードへの書き込みを許可されました'
         },
         ko: {
-            ask: "웹페이지가 다음 내용을 복사하는 것을 허용하시겠습니까?",
-            cancel: "웹페이지의 클립보드 쓰기가 차단되었습니다",
-            save: "웹페이지가 클립보드에 쓰는 것을 허용했습니다",
-        },
+            ask: '웹페이지가 다음 내용을 복사하는 것을 허용하시겠습니까?',
+            cancel: '웹페이지의 클립보드 쓰기가 차단되었습니다',
+            save: '웹페이지가 클립보드에 쓰는 것을 허용했습니다'
+        }
     }
 
     const getTranslations = (lang) => {
         for (const key in translations) {
-            if (key === lang || key.split(",").includes(lang)) {
+            if (key === lang || key.split(',').includes(lang)) {
                 return translations[key]
             }
         }
-        return translations["en"]
+        return translations['en']
     }
     const translate = new Proxy(
         function (key) {
             const lang = userLang
             const strings = getTranslations(lang)
-            return strings[key] || translations["en"][key]
+            return strings[key] || translations['en'][key]
         },
         {
             get(target, prop) {
                 const lang = userLang
                 const strings = getTranslations(lang)
-                return strings[prop] || translations["en"][prop]
-            },
+                return strings[prop] || translations['en'][prop]
+            }
         }
     )
     // 定义唯一键，用于防止重复执行
@@ -163,24 +163,24 @@
         let green = false
         let orange = false
         // 获取页面中的所有视频元素
-        var videoTags = document.getElementsByTagName("video")
+        var videoTags = document.getElementsByTagName('video')
         // 创建开关按钮元素
-        const sw = document.createElement("div")
+        const sw = document.createElement('div')
         // 设置按钮样式
         sw.style = 'position:fixed!important;bottom:30%;right:10px;z-index:2147483647;width:18px;height:18px;opacity:0.4;border-radius:9px;background:red;visibility:hidden'
         // 将按钮添加到页面中
         document.body.appendChild(sw)
         // 对所有视频元素进行处理，禁用预加载和自动播放
         for (var i = 0; i < videoTags.length; i++) {
-            videoTags[i].setAttribute("preload", "metadata")
-            videoTags[i].removeAttribute("autoplay")
+            videoTags[i].setAttribute('preload', 'metadata')
+            videoTags[i].removeAttribute('autoplay')
         };
         // 获取页面中的所有音频元素
-        var audioTags = document.getElementsByTagName("audio")
+        var audioTags = document.getElementsByTagName('audio')
         // 对所有音频元素进行处理，禁用预加载和自动播放
-        for (var i = 0; i < audioTags.length; i++) {
-            audioTags[i].setAttribute("preload", "metadata")
-            audioTags[i].removeAttribute("autoplay")
+        for (var video = 0; video < audioTags.length; video++) {
+            audioTags[video].setAttribute('preload', 'metadata')
+            audioTags[video].removeAttribute('autoplay')
         };
         window.navigator.clipboard.writeText = function (text) {
             pc(null, text, true)
@@ -192,7 +192,7 @@
             textColor = textColor || 'rgb(255, 255, 255)'
             var m = document.createElement('div')
             m.innerHTML = msg
-            m.style.cssText = "max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: " + textColor + ";line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 95%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: " + backgroundColor + ";font-size: 16px;"
+            m.style.cssText = 'max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: ' + textColor + ';line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 95%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: ' + backgroundColor + ';font-size: 16px;'
             document.body.appendChild(m)
             setTimeout(function () {
                 var d = 0.5
@@ -218,7 +218,7 @@
                         e.preventDefault()
                         e.stopPropagation()
                     }
-                    sw.style.visibility = "visible"
+                    sw.style.visibility = 'visible'
                     Toast(translate.cancel, 500, 'rgba(255, 0, 0, 0.7)', 'rgb(255, 255, 255)')
                 }
             } else {//NOTE  - 此处不为red时且来源于为 window.navigator.clipboard.writeText ,需要手动复制到剪辑版.
@@ -227,7 +227,7 @@
                 }
             }
             setTimeout(function () {
-                sw.style.visibility = "hidden"
+                sw.style.visibility = 'hidden'
             }, 4000)
             if (C) {
                 return Promise.reject('.')
@@ -275,11 +275,11 @@
         // 右键菜单事件处理
         document.addEventListener('contextmenu', function (e) {
             if (!green) {
-                sw.style.visibility = "visible"
+                sw.style.visibility = 'visible'
                 sw.style.background = 'orange'
                 red = false
                 orange = true
-                setTimeout(function () { sw.style.visibility = "hidden" }, 4000)
+                setTimeout(function () { sw.style.visibility = 'hidden' }, 4000)
             }
         }, { 'passive': true })
         // 复制完成后的事件处理
@@ -288,13 +288,13 @@
                 sw.style.background = 'red'
                 red = true
                 orange = false
-                sw.style.visibility = "hidden"
+                sw.style.visibility = 'hidden'
             }
         }, { 'passive': true })
         // 添加键盘事件监听器，支持快捷键复制
         document.addEventListener('keydown', function (e) {
             if (e.ctrlKey && e.key === 'c') {
-                sw.style.visibility = "visible"
+                sw.style.visibility = 'visible'
                 if (red) {
                     sw.style.background = 'orange'
                     red = false

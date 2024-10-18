@@ -74,7 +74,6 @@
             location.reload()
         }
     }
-    var skipClasses = ['prettyprint', 'linenums', 'lang-js']
     function shouldSkipElement(element) {
         // 跳过类名包含 "prettyprint"、"linenums" 和 "lang-js" 的元素
         if (element.classList.contains('prettyprint') ||
@@ -199,8 +198,8 @@
             url: api + buildQueryString(params),
             onload: function (response) {
                 try {
-                    var data = JSON.parse(response.responseText.replace("'", '\u2019'))
-                    var translatedText = data[0].reduce((acc, item) => acc + item[0], '');
+                    var data = JSON.parse(response.responseText.replace('\'', '\u2019'))
+                    var translatedText = data[0].reduce((acc, item) => acc + item[0], '')
                     showTranslation(node, text, translatedText)
                     // 标记该节点已经翻译过
                     translatedNodes[node.textContent] = true
@@ -253,7 +252,7 @@
         textColor = textColor || 'rgb(255, 255, 255)'
         var m = document.createElement('div')
         m.innerHTML = msg
-        m.style.cssText = "max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: " + textColor + ";line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 95%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: " + backgroundColor + ";font-size: 16px;"
+        m.style.cssText = 'max-width:60%;min-width: 150px;padding:0 14px;height: 40px;color: ' + textColor + ';line-height: 40px;text-align: center;border-radius: 12px;position: fixed;top: 95%;left: 50%;transform: translate(-50%, -50%);z-index: 2147483647;background: ' + backgroundColor + ';font-size: 16px;'
         document.body.appendChild(m)
         setTimeout(function () {
             var d = 0.5

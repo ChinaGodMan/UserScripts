@@ -109,10 +109,10 @@ const selectors = {
     commitHeaderIsRun: false,
     commitHeaderFound: false,
     commitHeaderScreenIsRun: false,
-    commitHeaderScreenFound: false,
+    commitHeaderScreenFound: false
 }
-let LastCommitText = ""
-let LastCommitHref = ""
+let LastCommitText = ''
+let LastCommitHref = ''
 let wocaonima = null
 function updateCommitMessageInDetails(selector) {//详情页,
     const element = document.querySelector(selector)
@@ -134,9 +134,9 @@ function updateRepoHeaderExpandCommit(selector) {//头部展开
         const hrefValue = linkElement.getAttribute('href')
         if (containsHTML(textContent)) {
             if (!LastCommitHref || !LastCommitText) {
-                spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + `</a>`
+                spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + '</a>'
             } else {
-                spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + `</a>`
+                spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + '</a>'
             }
         }
     })
@@ -154,11 +154,11 @@ function updateRepoHeaderScreenCommit(selector) {
                 wocaonima = spanElement.innerHTML
             })
             if (!LastCommitHref || !LastCommitText) {
-                console.log("未通过点击跳转:", textContent)
-                spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + `</a>`
+                console.log('未通过点击跳转:', textContent)
+                spanElement.innerHTML = `<a href="${hrefValue}">` + textContent + '</a>'
             } else {
-                console.log("通过点击跳转", LastCommitText)
-                spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + `</a>`
+                console.log('通过点击跳转', LastCommitText)
+                spanElement.innerHTML = `<a href="${LastCommitHref}">` + LastCommitText + '</a>'
             }
         }
     })
@@ -170,8 +170,8 @@ function updateRepoListCommit(selector) {
         if (nextElement) (
             nextElement.remove()
         )
-        const titleContent = element.getAttribute("title")
-        const hrefValue = element.getAttribute("href")
+        const titleContent = element.getAttribute('title')
+        const hrefValue = element.getAttribute('href')
         if (titleContent) {
             if (containsHTML(titleContent)) {
                 element.addEventListener('click', () => {
@@ -204,8 +204,8 @@ function getLastTimeCommit(selector) {
         if (parentTd) {
             const previousTd = parentTd.previousElementSibling
             const linkElement = previousTd.querySelector(selectors.commitList.value)
-            LastCommitText = linkElement.getAttribute("title")
-            LastCommitHref = linkElement.getAttribute("href")
+            LastCommitText = linkElement.getAttribute('title')
+            LastCommitHref = linkElement.getAttribute('href')
             return { previousTd, linkElement }
         } else {
             return null
@@ -223,7 +223,7 @@ function containsHTML(str) {
  * @param {string} selector - 要匹配的选择器。
  * @param {function} callback - 找到匹配元素后的回调函数。
  */
-function observeForElement(selector, callback, disconnect = true, DEBUG = "操作", isElementFound) {
+function observeForElement(selector, callback, disconnect = true, DEBUG = '操作', isElementFound) {
     isElementFound = false
     const observer = new MutationObserver((mutationsList, observer) => {
         mutationsList.forEach(mutation => {
@@ -271,7 +271,7 @@ function observeForElement_______________________________(selector, callback) {
             if (mutation.type === 'childList' && !isElementFound) {
                 const element = document.querySelector(selector)
                 if (element) {
-                    console.log("成功找到仓库列表中的提交信息元素")
+                    console.log('成功找到仓库列表中的提交信息元素')
                     isElementFound = true
                     callback(element)//留着以后用
                     observer.disconnect()
@@ -287,8 +287,8 @@ function observeForElement_______________________________(selector, callback) {
 main()
 watchUpdate()
 function main() {
-    LastCommitText = ""
-    LastCommitHref = ""
+    LastCommitText = ''
+    LastCommitHref = ''
     observeForElement(selectors.commitList.value, function (element) {
         updateRepoListCommit(selectors.commitList.value)
     },
@@ -346,7 +346,7 @@ function watchUpdate() {//检查链接变化
         // 如果页面的 URL 发生变化
         if (currentURL !== getCurrentURL.previousURL) {
             getCurrentURL.previousURL = currentURL
-            console.log(`链接变化,正在启动监听器`)
+            console.log('链接变化,正在启动监听器')
             setTimeout(() => {
                 main()
             }, 500)
@@ -357,7 +357,7 @@ function watchUpdate() {//检查链接变化
         characterData: true,
         subtree: true,
         childList: true,
-        attributeFilter: ['value', 'placeholder', 'aria-label', 'data-confirm'], // 仅观察特定属性变化
+        attributeFilter: ['value', 'placeholder', 'aria-label', 'data-confirm'] // 仅观察特定属性变化
     }
     // 开始观察 document.body 的变化
     observer.observe(document.body, config)

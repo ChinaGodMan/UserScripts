@@ -23,50 +23,50 @@
     // 初始化
     function initialize() {
         let defaultWords = {
-            "key_123": {
-                limit: ["baidu"],
-                "info": "汉字测试",
-                "words": ["抖音", "快手", "网页", "平台", "的", "最", "一", "个", "多", "服务", "大"],
-                "color": "#85d228",
-                "textcolor": "#3467eb"
+            'key_123': {
+                limit: ['baidu'],
+                'info': '汉字测试',
+                'words': ['抖音', '快手', '网页', '平台', '的', '最', '一', '个', '多', '服务', '大'],
+                'color': '#85d228',
+                'textcolor': '#3467eb'
 
 
             },
-            "key_124": {
+            'key_124': {
                 limit: [],
-                "info": "数字测试",
-                "words": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
-                "color": "#48c790",
-                "textcolor": "#3467eb"
+                'info': '数字测试',
+                'words': ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
+                'color': '#48c790',
+                'textcolor': '#3467eb'
 
             },
-            "key_3379656389": {
+            'key_3379656389': {
                 limit: [],
-                "info": "字母测试",
-                "words": ["a", "b", "c", "d", "e", "f", "t", "y", "u", "i", "o", "k", "j", "h", "g", "s", "z", "x", "v", "n", "m"],
-                "color": "#e33544",
-                "textcolor": "#3467eb"
+                'info': '字母测试',
+                'words': ['a', 'b', 'c', 'd', 'e', 'f', 't', 'y', 'u', 'i', 'o', 'k', 'j', 'h', 'g', 's', 'z', 'x', 'v', 'n', 'm'],
+                'color': '#e33544',
+                'textcolor': '#3467eb'
             },
-            "key_4947181948": {
+            'key_4947181948': {
                 limit: [],
-                "info": "相同的字可以显示各个分组的标题",
-                "words": ["的", "最", "一", "个", "多", "服务", "大"],
-                "color": "#6e7bdd",
-                "textcolor": "#e33544"
+                'info': '相同的字可以显示各个分组的标题',
+                'words': ['的', '最', '一', '个', '多', '服务', '大'],
+                'color': '#6e7bdd',
+                'textcolor': '#e33544'
             }
         }
         // 设置关键字默认值
-        if (!GM_getValue("key")) { GM_setValue("key", defaultWords) }
-        if (Object.keys(GM_getValue("key")).length == 0) { GM_setValue("key", defaultWords) }
+        if (!GM_getValue('key')) { GM_setValue('key', defaultWords) }
+        if (Object.keys(GM_getValue('key')).length == 0) { GM_setValue('key', defaultWords) }
         // GM_setValue("key",this.defaultWords);
 
-        let cache = GM_getValue("key")
+        let cache = GM_getValue('key')
         Object.keys(cache).forEach(key => {
             let defult = {
                 limit: [],
-                info: "",
+                info: '',
                 words: [],
-                color: "#85d228"
+                color: '#85d228'
             }
             Object.keys(defult).forEach((key2) => {
                 if (!cache[key][key2]) {
@@ -76,7 +76,7 @@
             })
         })
 
-        GM_setValue("key", cache)
+        GM_setValue('key', cache)
     }
     /**
      * @description: 遍历找出所有文本节点
@@ -88,18 +88,18 @@
         let nodeMap = new Map()
 
         const walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, (textNode) => {
-            if (textNode.parentElement.nodeName === "SCRIPT" |
-                textNode.parentElement.nodeName === "script" |
-                textNode.parentElement.nodeName === "style" |
-                textNode.parentElement.nodeName === "STYLE" |
-                textNode.parentElement.className === "mt_highlight" |
-                document.querySelector("#mt_seting_box").contains(textNode)
+            if (textNode.parentElement.nodeName === 'SCRIPT' |
+                textNode.parentElement.nodeName === 'script' |
+                textNode.parentElement.nodeName === 'style' |
+                textNode.parentElement.nodeName === 'STYLE' |
+                textNode.parentElement.className === 'mt_highlight' |
+                document.querySelector('#mt_seting_box').contains(textNode)
             ) {
                 return NodeFilter.FILTER_SKIP
             }
 
             if (textNode.data.length < 20) {
-                return textNode.data.replace(/[\n \t]/g, "").length ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP
+                return textNode.data.replace(/[\n \t]/g, '').length ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP
             }
 
             return NodeFilter.FILTER_ACCEPT
@@ -144,27 +144,27 @@
 
             // 转换
             let newWords = new Map
-            Object.keys(GM_getValue("key")).forEach(classesKey => {
+            Object.keys(GM_getValue('key')).forEach(classesKey => {
 
-                let info = GM_getValue("key")[classesKey].info
-                let words = GM_getValue("key")[classesKey].words
-                let color = GM_getValue("key")[classesKey].color
-                let limit = GM_getValue("key")[classesKey].limit
-                let textcolor = GM_getValue("key")[classesKey].textcolor
+                let info = GM_getValue('key')[classesKey].info
+                let words = GM_getValue('key')[classesKey].words
+                let color = GM_getValue('key')[classesKey].color
+                let limit = GM_getValue('key')[classesKey].limit
+                let textcolor = GM_getValue('key')[classesKey].textcolor
 
 
                 words.forEach(word => {
                     let infoList = []
 
                     // 检测是否被多个类目包含，被多个类目包含的关键字会有对应类目的信息
-                    if (newWords.get(word + "")) {
-                        infoList = newWords.get(word + "").infoList
+                    if (newWords.get(word + '')) {
+                        infoList = newWords.get(word + '').infoList
                         infoList.push(info)
                     } else {
                         infoList = [info]
                     }
 
-                    newWords.set(word + "", {
+                    newWords.set(word + '', {
                         classesKey,
                         infoList: infoList,
                         textcolor,
@@ -185,7 +185,7 @@
             words.forEach((value, word) => {
                 // console.log(value.limit);
                 // 过滤不匹配的
-                if (value.limit.length == 0 || url.match(new RegExp(`${value.limit.join("|")}`, "g"))) {
+                if (value.limit.length == 0 || url.match(new RegExp(`${value.limit.join('|')}`, 'g'))) {
                     // 添加要筛选的关键字
                     wordsList.push(word)
                 }
@@ -194,7 +194,7 @@
             wordsList.length ? doIt = true : doIt = false
             // console.log(doIt,wordsList);
             return {
-                rule: new RegExp(`(${wordsList.join("|")})`, "g"),
+                rule: new RegExp(`(${wordsList.join('|')})`, 'g'),
                 doIt
             }
         }
@@ -235,16 +235,16 @@
                         // 返回新节点模板
                         // return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color};">${word}</span>`
 
-                        return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join("\n")}" style="background: ${color}; color:${textcolor};">${word}</span>`
+                        return `<span class="mt_highlight" classesKey="${classesKey}"  title="${infoList.join('\n')}" style="background: ${color}; color:${textcolor};">${word}</span>`
                     })
                     // 是否检测出了
                     if (value != newInnerHTML) {
                         // 节点替换
-                        let newNode = document.createElement("span")
+                        let newNode = document.createElement('span')
                         newNode.innerHTML = newInnerHTML
                         node.parentElement.replaceChild(newNode, node)
                         // 点击复制
-                        newNode.addEventListener("click", (e) => {
+                        newNode.addEventListener('click', (e) => {
                             navigator.clipboard.writeText(e.target.innerText)
                         })
                     }
@@ -611,22 +611,22 @@
         // 开发用
         static devCss() {
             GM_xmlhttpRequest({
-                method: "get",
-                url: "http://127.0.0.1:1145",
-                responseType: "blob",
+                method: 'get',
+                url: 'http://127.0.0.1:1145',
+                responseType: 'blob',
                 onload: (res) => {
                     // console.log(res.responseText);
                     GM_addStyle(res.responseText)
                 },
                 onerror: (error => {
-                    console.log("该页无法链接")
+                    console.log('该页无法链接')
                 })
             })
         }
 
         static create() {
             // 获取根节点
-            let seting_box = document.querySelector("#mt_seting_box")
+            let seting_box = document.querySelector('#mt_seting_box')
             seting_box.innerHTML = this.setingTemplate
 
 
@@ -636,11 +636,11 @@
 
             // 创建响应式ui
             const mt_Vue = new Vue({
-                el: "#mt_seting_box",
+                el: '#mt_seting_box',
                 data() {
                     return {
-                        rule: GM_getValue("key"),
-                        edit: this.addEdit(GM_getValue("key")),
+                        rule: GM_getValue('key'),
+                        edit: this.addEdit(GM_getValue('key')),
                         showSeting: false,
                         config_add: false
                     }
@@ -689,20 +689,20 @@
                             node.style.color = textcolor
                         })
                         // 保存到油猴中
-                        GM_setValue("key", this.rule)
+                        GM_setValue('key', this.rule)
                     },
 
                     // 更新规则
                     ruleUpdate(key) {
                         let newInfo = document.querySelector(`textarea[info_key=${key}]`).value
-                        let newWords = (document.querySelector(`textarea[words_key=${key}]`).value.split(" "))
-                        let newLimit = (document.querySelector(`textarea[limit_key=${key}]`).value.split(" "))
+                        let newWords = (document.querySelector(`textarea[words_key=${key}]`).value.split(' '))
+                        let newLimit = (document.querySelector(`textarea[limit_key=${key}]`).value.split(' '))
 
                         // 去除空格
                         newWords = Array.from(new Set(newWords))
-                            .filter(word => { return word != " " & word.length > 0 })
+                            .filter(word => { return word != ' ' & word.length > 0 })
                         newLimit = Array.from(new Set(newLimit))
-                            .filter(word => { return word != " " & word.length > 0 })
+                            .filter(word => { return word != ' ' & word.length > 0 })
                         // console.log(newInfo,newWords);
                         this.rule[key].info = newInfo
                         this.rule[key].words = newWords
@@ -711,40 +711,40 @@
                         this.editOff(key)
 
                         // 保存到油猴中
-                        GM_setValue("key", this.rule)
+                        GM_setValue('key', this.rule)
                     },
 
                     // 添加新规则
                     add_key() {
-                        let key = "key_" + Math.floor(Math.random() * 10000000000)
+                        let key = 'key_' + Math.floor(Math.random() * 10000000000)
                         this.$set(this.rule, key, {
-                            info: "",
+                            info: '',
                             words: [],
-                            color: "#dc6c75",
-                            textcolor: "#3467eb",
+                            color: '#dc6c75',
+                            textcolor: '#3467eb',
                             limit: []
                         })
 
                         this.$set(this.edit, key, false)
 
                         // 保存到油猴中
-                        GM_setValue("key", this.rule)
+                        GM_setValue('key', this.rule)
                         console.log(2233)
                     },
 
                     // 删除规则
                     del_key(key) {
-                        let ready = confirm("确认删除，该操作不可恢复")
+                        let ready = confirm('确认删除，该操作不可恢复')
 
                         if (ready && Object.keys(this.rule).length > 1) {
                             this.$delete(this.rule, key)
                             this.$delete(this.edit, key)
                         } else if (ready && Object.keys(this.rule).length < 2) {
-                            alert("至少保留一个")
+                            alert('至少保留一个')
                         }
 
                         // 保存到油猴中
-                        GM_setValue("key", this.rule)
+                        GM_setValue('key', this.rule)
                     },
 
                     // 复制到粘贴板
@@ -754,12 +754,12 @@
 
                     // 获取配置覆盖
                     config_in() {
-                        document.querySelector(".config_file").click()
+                        document.querySelector('.config_file').click()
                         this.config_add = false
                     },
                     // 获取配置添加
                     config_in_add() {
-                        document.querySelector(".config_file").click()
+                        document.querySelector('.config_file').click()
                         this.config_add = true
                     },
 
@@ -811,18 +811,18 @@
                             // 合并还是覆盖
                             if (this.config_add) {
                                 let cache = {}
-                                Object.keys(GM_getValue("key")).forEach(key => {
-                                    cache["key_" + Math.floor(Math.random() * 10000000000)] = GM_getValue("key")[key]
+                                Object.keys(GM_getValue('key')).forEach(key => {
+                                    cache['key_' + Math.floor(Math.random() * 10000000000)] = GM_getValue('key')[key]
                                 })
                                 cache = { ...cache, ...res }
                                 console.log(cache)
 
-                                GM_setValue("key", cache)
+                                GM_setValue('key', cache)
                             } else {
-                                GM_setValue("key", res)
+                                GM_setValue('key', res)
                             }
                             initialize()
-                            this.rule = GM_getValue("key")
+                            this.rule = GM_getValue('key')
                             this.edit = this.addEdit(res)
                         })
                     },
@@ -831,36 +831,36 @@
                     config_out() {
                         function exportJson(name, data) {
                             let blob = new Blob([data]) //  创建 blob 对象
-                            let link = document.createElement("a")
+                            let link = document.createElement('a')
                             link.href = URL.createObjectURL(blob) //  创建一个 URL 对象并传给 a 的 href
                             link.download = name //  设置下载的默认文件名
                             link.click()
                         }
 
-                        exportJson("mt_hight_light_config.json", JSON.stringify(this.rule))
+                        exportJson('mt_hight_light_config.json', JSON.stringify(this.rule))
 
                     },
 
                     // 刷新
                     refresh() {
                         location.reload()
-                    },
+                    }
 
                 },
 
                 mounted() {
-                    GM_registerMenuCommand("打开设置", this.open_seting)
+                    GM_registerMenuCommand('打开设置', this.open_seting)
                     // 点击其他区域关闭设置
-                    document.body.addEventListener("click", (e) => {
+                    document.body.addEventListener('click', (e) => {
                         // 检查是否是移动设备
                         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-                            if (!document.querySelector("#mt_seting_box").contains(e.target)) {
+                            if (!document.querySelector('#mt_seting_box').contains(e.target)) {
                                 this.close_seting()
                             }
                         }
                     })
 
-                },
+                }
             })
 
         }
@@ -869,15 +869,15 @@
 
     ///////////////////////////////////////////////////////////
     // vue根节点
-    let seting_box = document.createElement("div")  // 创建一个节点
-    seting_box.setAttribute("id", "mt_seting_box") // 设置一个属性
+    let seting_box = document.createElement('div')  // 创建一个节点
+    seting_box.setAttribute('id', 'mt_seting_box') // 设置一个属性
     document.body.appendChild(seting_box)
 
     GM_addStyle(HIGHTLIGHT.highlightStyle)
 
     // 初始化数据
     initialize()
-    console.log(GM_getValue("key"))
+    console.log(GM_getValue('key'))
 
     // 静态页面的检测
     let nodeMap = textMap(document.body)
