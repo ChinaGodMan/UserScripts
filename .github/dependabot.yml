@@ -1,6 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"  # 指定依赖类型为 GitHub Actions
-    directory: "/.github/workflows"      # 指定 GitHub Actions 工作流文件所在的目录
+  - package-ecosystem: "github-actions"  
+    directory: "/.github/workflows"     
     schedule:
-      interval: "monthly"                 # 检查频率，您可以选择 daily, weekly, 或 monthly
+      interval: "monthly"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
