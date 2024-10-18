@@ -3,3 +3,4 @@ script_bak
 .vscode
 *.html
 *.txt
+node_modules/
