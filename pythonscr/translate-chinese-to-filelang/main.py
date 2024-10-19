@@ -208,7 +208,7 @@ def process_file(root, file, lang_code):
     chinese_texts = []
     for line_number, line in enumerate(lines):
         if "<!--AUTO" in line:
-            #print("跳过标记点")
+            # print("跳过标记点")
             continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
@@ -219,12 +219,21 @@ def process_file(root, file, lang_code):
 # 主函数，遍历二级目录并处理 README_xx.md 文件
 
 
-def process_files(base_dir):
+def read_json(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+
+def process_files():
+    json_path = 'docs/ScriptsPath.json'
+    data = read_json(json_path)
+    scripts = data.get('scripts', [])
     file_threads = []  # 存储处理文件的线程
     max_threads = 20  # 设置最大同时处理的线程数
-    for root, dirs, files in os.walk(base_dir):
-        # 遍历到第二级目录
-        if root.count(os.sep) - base_dir.count(os.sep) == 1:
+
+    for script in scripts:
+        backuppath = script.get('backuppath', '')
+        for root, dirs, files in os.walk(backuppath):
             for file in files:
                 # 排除 README.md 文件，仅处理 README_xx.md 格式的文件
                 if file == 'README.md':
@@ -234,18 +243,17 @@ def process_files(base_dir):
                 if not match:
                     continue
                 lang_code = match.group(1)  # 提取语言代码
-                """ while threading.active_count() > max_threads:
-                    time.sleep(0.1)  # 短暂等待，避免 CPU 占用过高 """
+          #      while threading.active_count() > max_threads:
+         #           time.sleep(0.1)  # 短暂等待，避免 CPU 占用过高
                 # 为每个文件启动一个线程处理
                 thread = threading.Thread(
                     target=process_file, args=(root, file, lang_code))
                 file_threads.append(thread)
                 thread.start()
+
     # 等待所有文件处理完成
     for thread in file_threads:
         thread.join()
 
 
-# 示例：处理 base_dir 目录下的二级目录中的所有文件
-base_dir = "Script details"
-process_files(base_dir)
+process_files()
