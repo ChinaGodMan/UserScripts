@@ -38,7 +38,7 @@ def build_html(md_files,path):
     base_url = "https://github.com/ChinaGodMan/UserScripts/blob/main/"
     for file in md_files:
         match = re.match(r'README_([a-zA-Z\-]+)\.md', file)
-        if  match:
+        if match:
             lang_code = match.group(1)  
         else:
             lang_code="zh-CN"
