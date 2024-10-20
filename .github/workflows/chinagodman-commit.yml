@@ -12,6 +12,7 @@ concurrency:
 
 jobs:
   update-chinagodman-commit:
+    if: ${{ github.event.commits[0].committer.username != 'qinwuyuan-sync-bot' }}
     runs-on: ubuntu-latest
     env:
       GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
@@ -43,7 +44,7 @@ jobs:
       - name: 根目录脚本__更新py
         if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
         run: |
-          python pythonscr/copy_js_files.py
+          python utils/copy_js_files.py
 
       - name: 提交和推送更改
         if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}

@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          sparse-checkout: "pythonscr/cleanup_actions.py"
+          sparse-checkout: "utils/cleanup_actions.py"
 
       - name: Install dependencies
         run: |
@@ -25,7 +25,7 @@ jobs:
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
-          python pythonscr/cleanup_actions.py
+          python utils/cleanup_actions.py
 
       - name: cleanup  UserScriptsHistory
         env:
@@ -33,4 +33,4 @@ jobs:
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: "UserScriptsHistory"
         run: |
-          python pythonscr/cleanup_actions.py
+          python utils/cleanup_actions.py

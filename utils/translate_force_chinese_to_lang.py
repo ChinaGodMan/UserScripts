@@ -9,8 +9,6 @@ from urllib.request import urlopen
 import urllib.parse
 import time
 import subprocess
-
-
 def is_file_updated_more_than(file_path, timeout_minutes):
     try:
         # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
@@ -257,7 +255,7 @@ def translate_readme(data, json_data):
 
 # 示例 JSON 数据读取与处理
 script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'translate_readme.json')
+NEW_CONTENT_PATH = os.path.join(script_dir, 'docs/translate_readme.json')
 
 with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as f:
     data = json.load(f)

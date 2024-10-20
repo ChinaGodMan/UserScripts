@@ -3,7 +3,6 @@ import json
 import markdown  
 import sys
 sys.dont_write_bytecode = True
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from writer import process_markdown
 from writer import process_file
 from content_snippet import get_file_description

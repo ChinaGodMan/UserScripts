@@ -19,7 +19,7 @@ jobs:
 
       - name: 读取并翻译 README
         run: |
-          python pythonscr/translate-chinese-to-filelang/main.py
+          python utils/translate_chinese_to_filelang.py
 
       - name: 提交和推送更改
         run: |
@@ -29,5 +29,5 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
           git add .
-          git commit -n -S -m "Scr:谷歌翻译[\`README.md\`]→[\`README{_xx}.md\`]"  || echo "没有需要提交的更改"
+          git commit -n -S -m "docs: 谷歌翻译[\`README{_xx}.md\`]"  || echo "没有需要提交的更改"
           git push
