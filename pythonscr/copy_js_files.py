@@ -26,7 +26,7 @@ for file in changed_files:
             target_path = os.path.join(target_dir, file_name)
             subprocess.run(
                 ['node', 'utils/single-format-monkey-meta.js', file_path], check=True)
-            shutil.copy(file_path, target_path)
-            print(f'复制 {file_path} 到 {target_path}')
+            #shutil.copy(file_path, target_path)
+            #print(f'复制 {file_path} 到 {target_path}')
         else:
             print(f'文件 {file} 不存在，跳过')

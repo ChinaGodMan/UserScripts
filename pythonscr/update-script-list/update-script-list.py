@@ -44,20 +44,21 @@ def generate_html_table(scripts):
     <tbody>
     '''
     for script in scripts:
+        full_path=script.get("backuppath")+"/"+script.get("path")
         html_table += f'''<tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/{script.get("GreasyFork")}" target="_blank">{script.get("name")}</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/{script.get("path")}" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}" target="_blank">
-                    <mark>详细</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/{full_path}" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>{script.get("description")}</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/{script.get("path")}">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/{script.get("path")}?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/{full_path}">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/{full_path}?style=social" alt="size">
                     <br>安装
                 </a>
             </td>
