@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name:zh-CN        绚丽渐变美化网页表格 
 // @description:zh-CN 自动为表格所有列应用颜色渐变来美化 
-// @name   Beautify web forms with gorgeous gradients 
+// @name              Beautify web forms with gorgeous gradients 
 // @description       Automatically apply color gradients to all columns of the table to beautify it 
 // @name:ar           تجميل نماذج الويب بتدرجات رائعة 
 // @description:ar    تطبيق التدرجات اللونية تلقائيًا على كافة أعمدة الجدول لتجميله 
 // @name:bg           Разкрасете уеб формуляри с великолепни градиенти 
 // @description:bg    Автоматично прилагайте цветови градиенти към всички колони на таблицата, за да я разкрасите 
-// @name:cs  Zkrášlete webové formuláře nádhernými přechody 
+// @name:cs           Zkrášlete webové formuláře nádhernými přechody 
 // @description:cs    Automaticky aplikujte barevné přechody na všechny sloupce tabulky, abyste ji zkrášlili 
-// @name:da    Forskønne webformularer med smukke gradienter 
+// @name:da           Forskønne webformularer med smukke gradienter 
 // @description:da    Anvend automatisk farvegradienter til alle kolonner i tabellen for at forskønne den 
-// @name:de Verschönern Sie Webformulare mit wunderschönen Farbverläufen 
+// @name:de           Verschönern Sie Webformulare mit wunderschönen Farbverläufen 
 // @description:de    Wenden Sie automatisch Farbverläufe auf alle Spalten der Tabelle an, um diese zu verschönern 
 // @name:el           Ομορφύνετε φόρμες ιστού με υπέροχες διαβαθμίσεις 
 // @description:el    Εφαρμόστε αυτόματα διαβαθμίσεις χρώματος σε όλες τις στήλες του πίνακα για να τον ομορφύνετε 
