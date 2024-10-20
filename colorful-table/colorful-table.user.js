@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name:zh-CN        绚丽渐变美化网页表格
 // @description:zh-CN 自动为表格所有列应用颜色渐变来美化
-// @name              Beautify web forms with gorgeous gradients
+// @name    Beautify web forms with gorgeous gradients
 // @description       Automatically apply color gradients to all columns of the table to beautify it
 // @name:ar           تجميل نماذج الويب بتدرجات رائعة
 // @description:ar    تطبيق التدرجات اللونية تلقائيًا على كافة أعمدة الجدول لتجميله
