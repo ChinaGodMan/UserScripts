@@ -25,8 +25,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork 导航栏增强</h1>
-    <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
+    <h1>GreasyFork 탐색 표시줄 개선</h1>
+    <p>「 향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a

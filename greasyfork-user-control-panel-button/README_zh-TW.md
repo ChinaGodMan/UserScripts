@@ -25,8 +25,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork 导航栏增强</h1>
-    <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
+    <h1>GreasyFork 導覽列增強</h1>
+    <p>「 增強greasyfork導覽列,增加用戶列表,使用者控制台等 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
@@ -160,7 +160,7 @@
 
 > ### 🔍你可能在找GitHub相關腳本
 > - [**GitHub提交資訊顯示HTML**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
+> - [**GitHub 文件清單美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
 > - [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下
 > - [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
 > - [**GitHub資料夾下载**](https://greasyfork.org/scripts/505496): 新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。

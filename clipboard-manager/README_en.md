@@ -25,19 +25,19 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>网页写入剪辑版授权管理器</h1>
-    <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
+    <h1>Web page writing clip version authorization manager</h1>
+    <p>「 Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Web page writing clip version authorization manager Change log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
-<p><strong>修复</strong>: •复制函数 <code>pc</code> 不为 red 时且来源于为 <code>window.navigator.clipboard.writeText</code> ,需要手动复制到剪辑版.@90
-<strong>修复</strong>: •逻辑错误 ↠ 按下快捷键复制后只有指示器为 red 时候重置，为 green 不重置@161</p>
+<p><strong>repair</strong>: •copy function <code>pc</code> Not for red Sometimes it comes from <code>window.navigator.clipboard.writeText</code> ,Need to manually copy to the edited version.@90
+<strong>repair</strong>: •logic error ↠ 按下快捷键复制后只有指示器for red time to reset，为 green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
-<p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
+<p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>

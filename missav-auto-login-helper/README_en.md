@@ -25,8 +25,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>MiSSAV自动登录</h1>
-    <p>「 检测 MisssAV 状态，并且在未登录时自动登录 」</p>
+    <h1>MiSSAVAutomatic login</h1>
+    <p>「 Detection MisssAV state，and automatically log in when not logged in 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">Github</a> | ⭐<a

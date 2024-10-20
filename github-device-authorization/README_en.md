@@ -25,15 +25,15 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub 自动确认设备授权</h1>
-    <p>「 在GitHub授权页面自动输入授权码与自动确认。 」</p>
+    <h1>GitHub Automatically confirm device authorization</h1>
+    <p>「 existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。 」</p>
     <img src="https://views.whatilearened.today/views/github/508956/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508956">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 自动确认设备授权 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Automatically confirm device authorization Change log</strong></h1>
 <h3><strong>📅 2024-09-18 08:50:32- Ver 1.0.0.0</strong></h3>
-<p><strong>新增</strong>: •仅仅处理授权码行为,方便自用罢了.</p>
+<p><strong>New</strong>: •Only handle authorization code behavior,Just for personal use.</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508956.png">
 </div></center>
