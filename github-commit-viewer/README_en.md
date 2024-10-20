@@ -59,7 +59,7 @@
 
 ## Using PowerShell to Upload to a Remote Repository
 
-Click[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-commit-viewer/preview/qinwuyuan.ps1) to download the PowerShell script.
+Click[qinwuyuan.ps1](https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer/preview/qinwuyuan.ps1) to download the PowerShell script.
 
 <pre> param (
     [string]$qinwuyuan_messageFilePath
