@@ -1,56 +1,56 @@
 name: 人民的勤务员更新脚本
 
 on:
-    push:
-        paths:
-            - "**/*.js" #新的脚本被提交或者被修改了.
-    workflow_dispatch:
+  push:
+    paths:
+      - "**/*.js" #新的脚本被提交或者被修改了.
+  workflow_dispatch:
 
 concurrency:
-    group: u1pdate-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
-    cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
+  group: u1pdate-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
+  cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
 
 jobs:
-    update-chinagodman-commit:
-        runs-on: ubuntu-latest
+  update-chinagodman-commit:
+    runs-on: ubuntu-latest
+    env:
+      GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
+      GIT_AUTHOR_EMAIL: ${{ github.event.commits[0].author.email  }}
+      GIT_COMMITTER_NAME: qinwuyuan-sync-bot
+      GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 获取提交者用户名
+        id: get_git_username
+        run: |
+          git_username=$(git log -1 --pretty=format:'%cn')  
+          echo "git_username=$git_username" >> $GITHUB_ENV  
+          echo "最新的提交者用户名是: $git_username"
+
+      - name: Escape backticks in commit msg
         env:
-            GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
-            GIT_AUTHOR_EMAIL: ${{ github.event.commits[0].author.email  }}
-            GIT_COMMITTER_NAME: qinwuyuan-sync-bot
-            GIT_COMMITTER_EMAIL: "${{ secrets.GPG_PRIVATE_EMAIL }}"
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+          echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
-        steps:
-            - name: 检出代码
-              uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
+      - name: 根目录脚本__更新py
+        if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
+        run: |
+          python pythonscr/copy_js_files.py
 
-            - name: 获取提交者用户名
-              id: get_git_username
-              run: |
-                  git_username=$(git log -1 --pretty=format:'%cn')  
-                  echo "git_username=$git_username" >> $GITHUB_ENV  
-                  echo "最新的提交者用户名是: $git_username"
-
-            - name: Escape backticks in commit msg
-              env:
-                  COMMIT_MSG: ${{ github.event.head_commit.message }}
-              run: |
-                  echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
-                  echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
-                  echo "EOF" >> $GITHUB_ENV
-
-            - name: 根目录脚本__更新py
-              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
-              run: |
-                  python pythonscr/copy_js_files.py
-
-            - name: 提交和推送更改
-              if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
-              run: |
-                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-                  git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  
-                  git pull
-                  git add .
-                  git commit -n  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
-                  git push
+      - name: 提交和推送更改
+        if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
+        run: |
+          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  
+          git pull
+          git add .
+          git commit -n  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
+          git push

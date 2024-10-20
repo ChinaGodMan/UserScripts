@@ -1,6 +1,7 @@
 qwy_*
 script_bak
-.vscode
+launch.json
 *.html
 *.txt
 node_modules/
+.eslintcache
