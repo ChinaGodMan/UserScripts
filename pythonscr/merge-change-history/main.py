@@ -25,7 +25,7 @@ for script in data['scripts']:
     name = script.get('name', '')
     description = script.get('description', '')
     greasyfork_id = script.get('GreasyFork', '')
-    filepath = script.get('path', '')
+    filepath =script.get('backuppath', '')+"/"+ script.get('path', '')
     readme_path = os.path.join(backuppath, "Change history", "README.md")
     readme_html = ''
     if os.path.isfile(readme_path):
