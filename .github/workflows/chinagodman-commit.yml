@@ -23,15 +23,6 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: 获取提交者用户名
-        id: get_git_username
-        run: |
-          git_username=$(git log -1 --pretty=format:'%cn')  
-          echo "git_username=$git_username" >> $GITHUB_ENV  
-          echo "最新的提交者用户名是: $git_username"
 
       - name: Escape backticks in commit msg
         env:
@@ -42,12 +33,10 @@ jobs:
           echo "EOF" >> $GITHUB_ENV
 
       - name: 根目录脚本__更新py
-        if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
         run: |
           python utils/copy_js_files.py
 
       - name: 提交和推送更改
-        if: ${{ env.git_username != 'qinwuyuan-sync-bot' }}
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
           git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  
