@@ -98,13 +98,9 @@ function addCustomCSS() {
     `
 
     function applyStyles() {
-        if (typeof GM_addStyle !== 'undefined') {
-            GM_addStyle(css)
-        } else {
-            let styleNode = document.createElement('style')
-            styleNode.appendChild(document.createTextNode(css));
-            (document.querySelector('head') || document.documentElement).appendChild(styleNode)
-        }
+        let styleNode = document.createElement('style')
+        styleNode.appendChild(document.createTextNode(css));
+        (document.querySelector('head') || document.documentElement).appendChild(styleNode)
     }
 
     // 初次应用样式
