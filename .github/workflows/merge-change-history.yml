@@ -24,23 +24,23 @@ jobs:
 
       - name: 相关脚本
         run: |
-          python pythonscr/update-about-script/main.py
+          python utils/update_related_scripts.py
 
       - name: 徽章信息
         run: |
-          python pythonscr/update-shields/main.py
+          python utils/update_shields.py
 
       - name: 帮助信息
         run: |
-          python pythonscr/update-help/main.py
+          python utils/update_help.py
 
       - name: 所有脚本
         run: |
-          python pythonscr/update-all-script/main.py
+          python utils/update_related_all_scripts.py
 
       - name: 变更日志
         run: |
-          python pythonscr/merge-change-history/main.py
+          python utils/merge_change_history.py
 
       - name: 提交和推送更改
         run: |
@@ -50,7 +50,7 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
           git add .
-          git commit -n -S -m "集中更新[\`脚本自述\`]" \
+          git commit -n -S -m "docs: 更新[\`脚本自述\`]" \
                       -m "合并日志:Change history/README.md → **/*.md" \
                       -m "刷新徽章:SHIELDS.md → **/*.md" \
                       -m "刷新帮助:HELP.md → **/*.md" \

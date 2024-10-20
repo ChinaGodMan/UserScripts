@@ -7,7 +7,7 @@ from writer import process_markdown
 from writer import process_file
 from content_snippet import get_file_description
 script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'HELP.md')
+NEW_CONTENT_PATH = os.path.join(script_dir, 'docs/HELP.md')
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
