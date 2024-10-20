@@ -15,6 +15,12 @@
                 "tabWidth": 2,
                 "useTabs": false
             }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "singleQuote": true
+            }
         }
     ]
 }

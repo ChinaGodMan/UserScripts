@@ -2,7 +2,6 @@ import json
 import os
 import sys
 sys.dont_write_bytecode = True
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from writer import process_file
 # 读取 JSON 文件
 def read_json(file_path):
