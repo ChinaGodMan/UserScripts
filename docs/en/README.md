@@ -63,15 +63,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505209" target="_blank">ChatGPTCode font size reduced</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-code-styling" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/chatgpt-code-styling.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>let ChatGPT The font size in the code box becomes smaller</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-code-styling/chatgpt-code-styling.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling/chatgpt-code-styling.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -91,15 +91,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509598" target="_blank">ChatGPT Chat copy code button</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-copy-code-button" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
-            <td>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</td>
+            <td>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -119,15 +119,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506166" target="_blank">ChatGPT character counter</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-counter" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/chatgpt-counter.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-counter/chatgpt-counter.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter/chatgpt-counter.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -147,15 +147,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/504901" target="_blank">ChatGPT Collapse self message and max width</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/chatgpt-plus" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/chatgpt-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-plus/chatgpt-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -190,15 +190,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497403" target="_blank">Web page writing clip version authorization manager</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/clipboard-manager" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/clipboard-manager.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/clipboard-manager/clipboard-manager.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -218,15 +218,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505207" target="_blank">LiftCSDNLogin copy restrictions</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/csdn-blocker" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker/csdn-blocker.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>fuck you CSDN LoginCopy，Copy code box content without logging in</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker/csdn-blocker.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker/csdn-blocker.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -246,15 +246,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/507036" target="_blank">Beautify web forms with gorgeous gradients</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/colorful-table" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/colorful-table.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Automatically apply color gradient beautification to all columns of tables on web pages.</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/colorful-table.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/colorful-table/colorful-table.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table/colorful-table.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -274,15 +274,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/498906" target="_blank">Highlight keywords on web pages+(recommend)</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords/highlight-keywords.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Highlight text on web pages</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords/highlight-keywords.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords/highlight-keywords.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -302,15 +302,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Highlight web text_mini version</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/highlight-keywords-mini" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Custom keyword highlighting on web pages including dynamically loaded content on scroll</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/highlight-keywords-mini/highlight-keywords-mini.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini/highlight-keywords-mini.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -330,15 +330,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/504880" target="_blank">Small window preview</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/popup-window" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/popup-window.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/popup-window/popup-window.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -358,15 +358,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/498625" target="_blank">Remove link underline</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/remove-link-underlines" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines/remove-link-underlines.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Remove underline from web links</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/remove-link-underlines/remove-link-underlines.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/remove-link-underlines/remove-link-underlines.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -386,15 +386,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497251" target="_blank">Small scroll button up and down</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-button" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button/scroll-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Add up and down scroll buttons on the right side of the page</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-button/scroll-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button/scroll-button.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -414,15 +414,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/500255" target="_blank">One-touch top and bottom buttons</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/scroll-to-top-button" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/scroll-to-top-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button/scroll-to-top-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -457,15 +457,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505830" target="_blank">GitHubSubmit information displayHTML</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-commit-viewer" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer/github-commit-viewer.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer/github-commit-viewer.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer/github-commit-viewer.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -485,15 +485,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub File list beautifier</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-file-list-beautifier-plus" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -513,15 +513,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/509889" target="_blank">Github List of code languages ​​show all</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-linguist-expand" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand/github-linguist-expand.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-linguist-expand/github-linguist-expand.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand/github-linguist-expand.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -541,15 +541,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508956" target="_blank">GitHub Automatically confirm device authorization</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-device-authorization" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization/github-device-authorization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>existGitHubAutomatically enter the authorization code and confirm automatically on the authorization page。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization/github-device-authorization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -569,15 +569,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505496" target="_blank">GitHubFolder download</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-folder-downloader" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/github-folder-downloader.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Add a download button，Allows easy downloading of specific GitHub folder。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-folder-downloader/github-folder-downloader.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader/github-folder-downloader.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -597,15 +597,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505501" target="_blank">GitHubDownload single files and copy filesURL</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-raw-file-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-raw-file-plus" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-raw-file-plus/github-raw-file-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Add button at the end of each file line，to copy the original file URL and download files</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-raw-file-plus/github-raw-file-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus/github-raw-file-plus.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -625,15 +625,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/502291" target="_blank">🤠 Github Enhance assistant Warehouse display size Inactive development warning Quickly jump to the user’s other warehouses within the warehouse 🤠</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-repo-size-view" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/github-repo-size-view.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse.</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-repo-size-view/github-repo-size-view.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -653,15 +653,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505218" target="_blank">GitHub Sort by Date</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/github-sort-by-date" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/github-sort-by-date.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-sort-by-date/github-sort-by-date.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date/github-sort-by-date.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -696,15 +696,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/502652" target="_blank">Google Advanced search</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-advanced-search.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-advanced-search" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-advanced-search/google-advanced-search.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search/google-advanced-search.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search/google-advanced-search.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -724,15 +724,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/500262" target="_blank">Google Search and block specific sites</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-block-search-sites.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/google-block-search-sites" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-block-search-sites/google-block-search-sites.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Block specific sites from search engine results，Help users filter out unwanted search results。 Custom input blocking site。Format-zhihu -baidu Used to block Google search content</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-block-search-sites/google-block-search-sites.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites/google-block-search-sites.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -767,15 +767,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497317" target="_blank">GreasyForksuitable for enhancement</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-link" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/greasyfork-link.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-link/greasyfork-link.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link/greasyfork-link.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -795,15 +795,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/508968" target="_blank">GrreasyFork User-published script data visualization</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-scripts-data-visualization" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -823,15 +823,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506717" target="_blank">GreaysFork Enhance WebHookSync settings</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-webhook-sync-enhanced" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -851,15 +851,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505164" target="_blank">GreasyFork Markdown toobar</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-markdown-toolbar" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -879,15 +879,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501119" target="_blank">GreasyFork Show script ratings</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-ranks.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-ranks" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-ranks/greasyfork-ranks.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Add evaluation scores to script list</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-ranks.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-ranks.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-ranks/greasyfork-ranks.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-ranks/greasyfork-ranks.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -907,15 +907,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505215" target="_blank">GreasyFork Advanced search</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-search.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-search" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-search/greasyfork-search.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Search using Google GreasyFork and SleazyFork script on </td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search/greasyfork-search.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search/greasyfork-search.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -935,15 +935,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/501880" target="_blank">GreasyFork Navigation bar enhancement</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-user-control-panel-button" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -963,15 +963,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497346" target="_blank">Greasyforkframer</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-utility-toolkit" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -991,15 +991,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506345" target="_blank">Greasyfork Notification assistant</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/greasyfork-discussion-watcher" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1019,15 +1019,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/498904" target="_blank">Script FinderGrease Monkey Script Finder</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/script-finder-plus" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus/script-finder-plus.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Script Finder is a user script（userscript），It helps you find and manage userscripts on any website</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus/script-finder-plus.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus/script-finder-plus.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1062,15 +1062,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505325" target="_blank">MiSSAVAutomatic login</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-auto-login-helper" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/missav-auto-login-helper.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Detection MisssAV state，and automatically log in when not logged in</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1090,15 +1090,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/497682" target="_blank">MissAVCollection manager</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/missav-explorer" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer/missav-explorer.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/missav-explorer/missav-explorer.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer/missav-explorer.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1118,15 +1118,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506528" target="_blank">TissAVAutomatic login</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/thisav-auto-login-helper.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/thisav-auto-login-helper" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Detection TissAV state，and automatically log in when not logged in</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/thisav-auto-login-helper.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper/thisav-auto-login-helper.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1146,15 +1146,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/506730" target="_blank">JableTVAutomatic login</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/jable-auto-login-helper.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/jable-auto-login-helper" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/jable-auto-login-helper/jable-auto-login-helper.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Detection JableTV state，and automatically log in when not logged in</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper/jable-auto-login-helper.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1189,15 +1189,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/504890" target="_blank">foreign language terminator</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/no-zh-terminator.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/no-zh-terminator" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/no-zh-terminator/no-zh-terminator.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Recognize non-Chinese characters，If the length is greater than 5 And the translated text does not contain Chinese，then replace it with Chinese,Need to be accessiblegooglenetwork</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator/no-zh-terminator.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator/no-zh-terminator.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
@@ -1217,15 +1217,15 @@
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
                 <a href="https://greasyfork.org/zh-CN/scripts/505208" target="_blank">web page translation——Automatically translated into Chinese</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese.user.js" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/Script details/translate-only-chinese" target="_blank">
-                    <mark>detailed</mark>
+                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/translate-only-chinese.user.js" target="_blank">GitHub</a>
+                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese#readme" target="_blank">
+                    <mark>Readme</mark>
                 </a>
             </td>
             <td>Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add a google Translate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese，Add automatic translation</td>
             <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese.user.js">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese.user.js?style=social" alt="size">
+                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/translate-only-chinese/translate-only-chinese.user.js">
+                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese/translate-only-chinese.user.js?style=social" alt="size">
                     <br>Install
                 </a>
             </td>
