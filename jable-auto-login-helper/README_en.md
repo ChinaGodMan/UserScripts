@@ -25,15 +25,15 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>JableTV自动登录</h1>
-    <p>「 检测 JableTV 状态，并且在未登录时自动登录 」</p>
+    <h1>JableTVAutomatic login</h1>
+    <p>「 Detection JableTV state，and automatically log in when not logged in 」</p>
     <img src="https://views.whatilearened.today/views/github/506730/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper/jable-auto-login-helper.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ JableTV自动登录  更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ JableTVAutomatic login  Change log</strong></h1>
 <h3><strong>📅 2024/9/4 13:41 - Ver 1.0.0.0</strong></h3>
-<p><strong>初始版本</strong>: • 欢迎使用。</p>
+<p><strong>initial version</strong>: • Welcome。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506730.png">
 </div></center>

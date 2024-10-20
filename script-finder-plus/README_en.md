@@ -25,32 +25,32 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Script Finder油猴脚本查找器</h1>
-    <p>「 Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本 」</p>
+    <h1>Script FinderGrease Monkey Script Finder</h1>
+    <p>「 Script Finder is a user script（userscript），It helps you find and manage userscripts on any website 」</p>
     <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus/script-finder-plus.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+ 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Script Finder+ Change log</strong></h1>
 <h3><strong>📅 2024/9/26 10:43 - Ver 0.1.6.80</strong></h3>
-<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突导致放大字体</p>
+<p><strong>repair</strong>: • CSS style with GreasyFork Conflict causes enlarged font</p>
 <hr />
 <h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
-<p><strong>新增</strong>: • 网页进入全屏，隐藏右下角按钮。</p>
+<p><strong>New</strong>: • Web page enters full screen，Hide bottom right button。</p>
 <hr />
 <h3><strong>📅 2024/8/26 07:32 - Ver 0.1.6.54</strong></h3>
-<p><strong>新增</strong>: • 增加语言支持。</p>
+<p><strong>New</strong>: • Add language support。</p>
 <hr />
 <h3><strong>📅 2024/8/4 14:32 - Ver 0.1.6.32</strong></h3>
-<p><strong>修复</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。<br />
-<strong>修复方式</strong>: • 更改按钮类名 <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
+<p><strong>repair</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> On SF official website CSS conflict，Causes the button in the lower right corner to become longer，across the bottom of the page。<br />
+<strong>How to fix it</strong>: • Change button class name <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/18 08:45 - Ver 0.1.6.9</strong></h3>
-<p><strong>优化</strong>: • 取消默认排序，改为按照更新时间排序。</p>
+<p><strong>optimization</strong>: • Cancel default sorting，Sort by update time instead。</p>
 <hr />
 <h3><strong>📅 2024/6/26 06:43 - Ver 0.1.6.1</strong></h3>
-<p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~<br />
-<strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
+<p><strong>New</strong>: • Add support for mobile devices，Can also be used on mobile phones~<br />
+<strong>Revise</strong>: • Cancel the operation of clearing the list when a search error occurs。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
 </div></center>
