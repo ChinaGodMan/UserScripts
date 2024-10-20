@@ -26,7 +26,7 @@
 
 <center><div align="center">
     <h1>ChatGPT character counter</h1>
-    <p>「 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。） 」</p>
+    <p>「 add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter/chatgpt-counter.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">Github</a> | ⭐<a

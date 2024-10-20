@@ -34,7 +34,7 @@
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Web page writing clip version authorization manager Change log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>repair</strong>: •copy function <code>pc</code> Not for red Sometimes it comes from <code>window.navigator.clipboard.writeText</code> ,Need to manually copy to the edited version.@90
-<strong>repair</strong>: •logic error ↠ 按下快捷键复制后只有指示器for red time to reset，为 green No reset@161</p>
+<strong>repair</strong>: •logic error ↠ After pressing the shortcut key to copy, there is only an indicatorfor red time to reset，for green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>

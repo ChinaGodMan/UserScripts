@@ -46,7 +46,7 @@
 <p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork In-site notifications have been gradually supported,Scripts will lose their meaning.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your own newly opened discussion,并且在Match last speaker用户 ID on failure,匹配最后发言人.</p>
+<p><strong>New</strong>: Skip your own newly opened discussion,and inMatch last speakeruser ID on failure,Match last speaker.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
