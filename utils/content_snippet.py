@@ -16,12 +16,12 @@ def get_file_description(file_path, start_tag, end_tag):
         start_index = content.find(start_tag)
         end_index = content.find(end_tag, start_index)
         if start_index == -1 or end_index == -1:
-            return None
+            return "1"
         content_between_tags = content[start_index + len(start_tag):end_index].strip()
         return content_between_tags
     except FileNotFoundError:
         print(f"文件未找到: {file_path}")
-        return None
+        return "1"
     except Exception as e:
         print(f"发生错误: {e}")
-        return None
+        return "1"
