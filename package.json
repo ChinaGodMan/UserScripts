@@ -1,14 +1,14 @@
 {
-  "homepage": "https://github.com/ChinaGodMan/UserScripts",
-  "devDependencies": {
-    "eslint": "^9.12.0",
-    "eslint-plugin-json": "^4.0.1",
-    "husky": "^9.1.6"
-  },
-"scripts": {
-  "lint": "eslint \"Script details/**/*.{js,jsx,mjs}\"",
-  "lint:all": "eslint .",
-  "lint:fix": "eslint \"Script details/**/*.{js,jsx,mjs}\" --fix --cache",
-  "lint:fix-all": "eslint . --fix"
-}
+    "homepage": "https://github.com/ChinaGodMan/UserScripts",
+    "devDependencies": {
+        "eslint": "^9.12.0",
+        "eslint-plugin-json": "^4.0.1",
+        "husky": "^9.1.6"
+    },
+    "scripts": {
+        "lint": "eslint \"**/*.{js,jsx,mjs}\"",
+        "lint:all": "eslint .",
+        "lint:fix": "eslint \"**/*.{js,jsx,mjs}\" --fix --cache",
+        "lint:fix-all": "eslint . --fix"
+    }
 }
