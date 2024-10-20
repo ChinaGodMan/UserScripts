@@ -1,4 +1,20 @@
 {
-	"tabWidth": 4,
-	"useTabs": false
+    "tabWidth": 4,
+    "useTabs": false,
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "tabWidth": 2,
+                "useTabs": true
+            }
+        },
+        {
+            "files": "*.yml",
+            "options": {
+                "tabWidth": 2,
+                "useTabs": false
+            }
+        }
+    ]
 }

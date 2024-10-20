@@ -1,18 +1,18 @@
 name: add-reviewed-by
 on:
-    pull_request_review:
-        branches:
-            - main
-        types:
-            - submitted
+  pull_request_review:
+    branches:
+      - main
+    types:
+      - submitted
 
 jobs:
-    approved:
-        if: github.event.review.state == 'approved'
-        runs-on: ubuntu-latest
-        permissions:
-            pull-requests: write
-        steps:
-            - uses: ChinaGodMan/add-reviewed-by-action@main
-              with:
-                  github-token: ${{ secrets.BOT_TOKEN }}
+  approved:
+    if: github.event.review.state == 'approved'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: ChinaGodMan/add-reviewed-by-action@main
+        with:
+          github-token: ${{ secrets.BOT_TOKEN }}

@@ -1,60 +1,60 @@
 name: merge-change-history
 
 on:
-    push:
-        paths:
-            - "**/Change history/README.md" # 增加了新历史说明
-            #- 'docs/ScriptsPath.json'  # 也在 docs/ScriptsPath.json 文件发生变动时触发 修改了新说明.
-    workflow_dispatch:
+  push:
+    paths:
+      - "**/Change history/README.md" # 增加了新历史说明
+      #- 'docs/ScriptsPath.json'  # 也在 docs/ScriptsPath.json 文件发生变动时触发 修改了新说明.
+  workflow_dispatch:
 
 concurrency:
-    group: update-qinwuyuan-UserScripts
-    cancel-in-progress: false
+  group: update-qinwuyuan-UserScripts
+  cancel-in-progress: false
 
 jobs:
-    run-python:
-        runs-on: ubuntu-latest
-        steps:
-            - name: 检出代码
-              uses: actions/checkout@v4
+  run-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
 
-            - name: 安装依赖
-              run: |
-                  pip install markdown
+      - name: 安装依赖
+        run: |
+          pip install markdown
 
-            - name: 相关脚本
-              run: |
-                  python pythonscr/update-about-script/main.py
+      - name: 相关脚本
+        run: |
+          python pythonscr/update-about-script/main.py
 
-            - name: 徽章信息
-              run: |
-                  python pythonscr/update-shields/main.py
+      - name: 徽章信息
+        run: |
+          python pythonscr/update-shields/main.py
 
-            - name: 帮助信息
-              run: |
-                  python pythonscr/update-help/main.py
+      - name: 帮助信息
+        run: |
+          python pythonscr/update-help/main.py
 
-            - name: 所有脚本
-              run: |
-                  python pythonscr/update-all-script/main.py
+      - name: 所有脚本
+        run: |
+          python pythonscr/update-all-script/main.py
 
-            - name: 变更日志
-              run: |
-                  python pythonscr/merge-change-history/main.py
+      - name: 变更日志
+        run: |
+          python pythonscr/merge-change-history/main.py
 
-            - name: 提交和推送更改
-              run: |
-                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-                  git config --global user.name 'qinwuyuan-sync-bot'
-                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
-                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-                  git pull
-                  git add .
-                  git commit -n -S -m "集中更新[\`Script details/*/*.md\`]" \
-                              -m "合并日志:Change history/README.md → Script details/**/*.md" \
-                              -m "刷新徽章:SHIELDS.md → Script details/**/*.md" \
-                              -m "刷新帮助:HELP.md → Script details/**/*.md" \
-                              -m "相关脚本:ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
-                              -m "所有脚本:ScriptsPath.json[script.relatedscripts] → Script details/**/*.md" \
-                  || echo "没有需要提交的更改"
-                  git push
+      - name: 提交和推送更改
+        run: |
+          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global user.name 'qinwuyuan-sync-bot'
+          git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+          git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+          git pull
+          git add .
+          git commit -n -S -m "集中更新[\`脚本自述\`]" \
+                      -m "合并日志:Change history/README.md → **/*.md" \
+                      -m "刷新徽章:SHIELDS.md → **/*.md" \
+                      -m "刷新帮助:HELP.md → **/*.md" \
+                      -m "相关脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
+                      -m "所有脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
+          || echo "没有需要提交的更改"
+          git push

@@ -1,42 +1,42 @@
 name: update-contributors-list
 
 on:
-    pull_request:
-        branches:
-            - main
-    workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-    update-contributors:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
+  update-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: Generate Contributors Images
-              uses: jaywcjlove/github-action-contributors@main
-              id: contributors
-              with:
-                  filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
-                  avatarSize: 42
+      - name: Generate Contributors Images
+        uses: jaywcjlove/github-action-contributors@main
+        id: contributors
+        with:
+          filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
+          avatarSize: 42
 
-            - name: Modify docs/README.md
-              run: |
-                  escapedHtmlList=$(echo -e '${{steps.contributors.outputs.htmlList}}' | sed ':a;N;$!ba;s/\n/\\n/g;s/\\n$//')
-                  openDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
-                  closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
-                  sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
-                  git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+      - name: Modify docs/README.md
+        run: |
+          escapedHtmlList=$(echo -e '${{steps.contributors.outputs.htmlList}}' | sed ':a;N;$!ba;s/\n/\\n/g;s/\\n$//')
+          openDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
+          closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
+          sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
+          git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
 
-            - name: Commit changes with GPG signature
-              if: env.CHANGES_DETECTED == 'true'
-              run: |
-                  git pull
-                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-                  git config --global user.name 'qinwuyuan-sync-bot'
-                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
-                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-                  git config --global commit.gpgSign true
-                  git add docs/README.md
-                  git commit -n -S -m "更新[\`docs/README.md\`]内贡献者列表" || echo "没有需要提交的更改"
-                  git push
+      - name: Commit changes with GPG signature
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git pull
+          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global user.name 'qinwuyuan-sync-bot'
+          git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+          git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+          git config --global commit.gpgSign true
+          git add docs/README.md
+          git commit -n -S -m "更新[\`docs/README.md\`]内贡献者列表" || echo "没有需要提交的更改"
+          git push

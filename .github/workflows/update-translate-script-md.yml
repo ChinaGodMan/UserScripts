@@ -1,33 +1,33 @@
 name: translate-script-readme
 ##最后触发更新整个所有脚本的其他语言文档.
 on:
-    workflow_run:
-        workflows: ["merge-change-history"]
-        types:
-            - completed
-    workflow_dispatch:
+  workflow_run:
+    workflows: ["merge-change-history"]
+    types:
+      - completed
+  workflow_dispatch:
 
 jobs:
-    translate-script-readme:
-        if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.conclusion == 'success') }}
-        runs-on: ubuntu-latest
-        steps:
-            - name: 检出代码
-              uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
+  translate-script-readme:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.conclusion == 'success') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-            - name: 读取并翻译 README
-              run: |
-                  python pythonscr/translate-chinese-to-filelang/main.py
+      - name: 读取并翻译 README
+        run: |
+          python pythonscr/translate-chinese-to-filelang/main.py
 
-            - name: 提交和推送更改
-              run: |
-                  gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-                  git config --global user.name 'qinwuyuan-sync-bot'
-                  git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
-                  git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-                  git pull
-                  git add .
-                  git commit -n -S -m "Scr:谷歌翻译[\`**/README.md\`]→[\`**/README{_xx}.md\`]"  || echo "没有需要提交的更改"
-                  git push
+      - name: 提交和推送更改
+        run: |
+          gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global user.name 'qinwuyuan-sync-bot'
+          git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
+          git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+          git pull
+          git add .
+          git commit -n -S -m "Scr:谷歌翻译[\`README.md\`]→[\`README{_xx}.md\`]"  || echo "没有需要提交的更改"
+          git push
