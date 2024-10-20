@@ -1,3 +1,18 @@
+<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+
+<div align="right">
+    <h6>
+        <picture>
+            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+            <img height=14
+                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+        </picture>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker/README.md">简体中文</a>
+    </h6>
+</div>
+
+<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
