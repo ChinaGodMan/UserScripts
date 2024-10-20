@@ -76,7 +76,7 @@
 // @name:fr-CA        GitHub Embellisseur de liste de fichiers
 // @description:fr-CA GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel 
 // @license           MIT
-// @version           4.1.0.3
+// @version           4.1.0.4
 // @match             https://github.com/*
 // @grant             none
 // @run-at            document-start
@@ -107,7 +107,7 @@ GM_setValue('fileTypesColors', {})
 if (Object.keys(customColors).length === 0) {
     GM_xmlhttpRequest({
         method: 'GET',
-        url: 'https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/Script%20details/github-file-list-beautifier-plus/colors.json',
+        url: 'https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus/colors.json',
         //url: 'http://127.0.0.1:5500/UserScripts/Script%20details/github-file-list-beautifier-plus/colors.json',
         onload: function (response) {
             try {
