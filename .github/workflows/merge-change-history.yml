@@ -3,7 +3,7 @@ name: merge-change-history
 on:
     push:
         paths:
-            - "Script details/**/Change history/README.md" # 增加了新历史说明
+            - "**/Change history/README.md" # 增加了新历史说明
             #- 'docs/ScriptsPath.json'  # 也在 docs/ScriptsPath.json 文件发生变动时触发 修改了新说明.
     workflow_dispatch:
 
