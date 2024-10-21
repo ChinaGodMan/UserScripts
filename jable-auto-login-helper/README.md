@@ -47,7 +47,7 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/jable-auto-login-helper/jable-auto-login-helper.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506730">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ JableTV自动登录  更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ JableTV自动登录 更新日志</strong></h1>
 <h3><strong>📅 2024/9/4 13:41 - Ver 1.0.0.0</strong></h3>
 <p><strong>初始版本</strong>: • 欢迎使用。</p>
 <hr /></details> 
