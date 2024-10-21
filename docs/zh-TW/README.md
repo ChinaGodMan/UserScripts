@@ -39,7 +39,6 @@
 **劇本來自網路廣大網友，本人僅是做了些許改動.感謝網友**
 **如有侵權,聯繫必刪**
 
-
 ## 腳本列表
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
@@ -1247,7 +1246,6 @@
 
 ## 如何安裝/使用腳本？
 
-
 要使用任何腳本，首先需要瀏覽器安裝 **Tampermonkey 腳本管理器擴充（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   點擊表格 **\[安裝\]** 直接彈出腳本管理器安裝介面。
@@ -1266,49 +1264,52 @@
 
 ## 特別感謝開源
 
- > [!TIP]
->  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
->  - 本倉庫自述文件複製了[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)內容 `瀏覽器與腳本管理器`
+> [!TIP]
+>
+> -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+> -   本倉庫自述文件複製了[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)內容 `瀏覽器與腳本管理器`
 
 > [!TIP]
->  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
->  - 倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)內部的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
+>
+> -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+> -   倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)內部的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
 
 > [!TIP]
->  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
->  - 仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
->  - 本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+>
+> -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+> -   仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
+> -   本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
->  - 複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
->  - 本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
->  - 本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
- 
+>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
+> -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
+> -   本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
+> -   本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
+
 > [!TIP]
->  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/></a> :+1:
->  - *本倉庫的自動翻譯與 Action 功能特別感謝美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)出色的想法與代碼!* :trollface:
->  - *本倉庫命名風格受美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)啟發* :trollface:
->  -  *本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格* :trollface:
->  -  *腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格* :trollface:
->  -  *本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路* :trollface:
->  -  *複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內程式碼* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -  *複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -    *複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
->  -  *複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內程式碼* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
-
-
-
+>
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/></a> :+1:
+> -   _本倉庫的自動翻譯與 Action 功能特別感謝美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)出色的想法與代碼!_ :trollface:
+> -   _本倉庫命名風格受美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)啟發_ :trollface:
+> -   _本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
+> -   _腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
+> -   _本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路_ :trollface:
+> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
+> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內程式碼_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 ## 貢獻者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/qinwuyuan-sync-bot" title="人民的勤務員的勤務員"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的勤務員的勤務員"/></a>
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 貢獻列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="小弟調調"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟調調"/></a>
-
 
 ## 🌐 瀏覽器與腳本管理器
 

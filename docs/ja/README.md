@@ -39,7 +39,6 @@
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
 **違反があった場合,連絡先を削除する必要があります**
 
-
 ## スクリプトリスト
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
@@ -1247,7 +1246,6 @@
 
 ## インストール方法/スクリプトを使用する？
 
-
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
@@ -1266,63 +1264,66 @@
 
 ## オープンソースに感謝します
 
- > [!TIP]
->  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
->  - このリポジトリの Readme ファイルがコピーされます[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)コンテンツ `ブラウザとスクリプトマネージャー`
+> [!TIP]
+>
+> -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+> -   このリポジトリの Readme ファイルがコピーされます[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)コンテンツ `ブラウザとスクリプトマネージャー`
 
 > [!TIP]
->  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
->  - 全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
+>
+> -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+> -   全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
 
 > [!TIP]
->  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
->  - 仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
->  - この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+>
+> -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+> -   仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
+> -   この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="砂漠の息子"/></a> :+1:
->  - コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
->  - この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
->  - このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)コンテンツ `インストール方法/スクリプトを使用する？`
- 
+>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="砂漠の息子"/></a> :+1:
+> -   コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
+> -   この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
+> -   このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)コンテンツ `インストール方法/スクリプトを使用する？`
+
 > [!TIP]
->  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
->  - *このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!* :trollface:
->  - *ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する* :trollface:
->  -  *このリポジトリの Readme ファイルは次の場所から取得されます。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル* :trollface:
->  -  *スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル* :trollface:
->  -  *全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア* :trollface:
->  -  *コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui) Action 内部コード* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Action 内部コード* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -    *コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，写植スタイル :trollface:
->  -  *コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Python 内部コード* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
-
-
-
+>
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
+> -   _このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
+> -   _ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する_ :trollface:
+> -   _このリポジトリの Readme ファイルは次の場所から取得されます。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
+> -   _スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
+> -   _全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア_ :trollface:
+> -   _コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui) Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，写植スタイル :trollface:
+> -   _コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Python 内部コード_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 ## 投稿者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/qinwuyuan-sync-bot" title="人々の奉仕者"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人々の奉仕者"/></a>
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 投稿者リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="弟の曲"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="弟の曲"/></a>
 
-
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールする                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                                    推奨ブラウザ                                     |                                                  インストールマネージャー                                                   | ブラウザをインストールする                                                    |
+| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|       <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                              <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                              | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera ブラウザ[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via ブラウザ（Android）[![][via]][via_link]            |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X ブラウザ（Android） [![][x]][x_link]              |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> キツネザルブラウザ（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                   <center> Opera ブラウザ[![][opera]][opera_link]                   | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|                <center> Via ブラウザ（Android）[![][via]][via_link]                 |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
+|                   <center> X ブラウザ（Android） [![][x]][x_link]                   |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
+|               <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|              <center> キツネザルブラウザ（Android）[![][le]][le_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                                     |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "タンパーモンキー"
 [Violentmonkey]: https://violentmonkey.github.io/ "凶暴な猿"

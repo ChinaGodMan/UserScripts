@@ -39,7 +39,6 @@
 **The script comes from the vast number of netizens on the Internet，I just made some changes.Thanks netizens**
 **If there is any infringement,Contact must be deleted**
 
-
 ## script list
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
@@ -1247,7 +1246,6 @@
 
 ## How to install/Use script？
 
-
 To use any script，First you need to install the browser **Tampermonkey Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   Click on the form **\[Install\]** Directly pop up the script manager installation interface。
@@ -1266,63 +1264,66 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 
 ## Special thanks to open source
 
- > [!TIP]
->  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
->  - This repository readme file is copied[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)content `Browser and Script Manager`
+> [!TIP]
+>
+> -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+> -   This repository readme file is copied[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)content `Browser and Script Manager`
 
 > [!TIP]
->  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
->  - All in the warehouse`README.md`File badge copied[Hmjz100](https://github.com/hmjz100)warehouse[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)internal[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Document badge style
+>
+> -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+> -   All in the warehouse`README.md`File badge copied[Hmjz100](https://github.com/hmjz100)warehouse[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)internal[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Document badge style
 
 > [!TIP]
->  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
->  - 仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
->  - Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+>
+> -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+> -   仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
+> -   Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="son of the desert"/></a> :+1:
->  - Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
->  - In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
->  - This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)content `How to install/Use script？`
- 
+>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="son of the desert"/></a> :+1:
+> -   Copied [son of the desert](https://github.com/maboloshi)warehouse[github-chinese](https://github.com/maboloshi/github-chinese)code within<br>
+> -   In this warehouse`writer.py` `update-contributors.yml` Copied using[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)code inside
+> -   This repository readme file is copied[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)content `How to install/Use script？`
+
 > [!TIP]
->  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
->  - *Automatic translation of this repository and Action Special thanks to Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Great ideas and code!* :trollface:
->  - *The naming style of this warehouse is inspired by the Yankees[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspire* :trollface:
->  -  *The readme file in this repository comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style* :trollface:
->  -  *The mutual redirection jump within the script comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style* :trollface:
->  -  *All in this warehouse`README.md`File copied and used from this Yankee repository`README.md`Document layout，delimiter，code，Ideas* :trollface:
->  -  *copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action internal code* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action internal code* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -    *copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimiter，Typesetting style :trollface:
->  -  *Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python internal code* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
-
-
-
+>
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
+> -   _Automatic translation of this repository and Action Special thanks to Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Great ideas and code!_ :trollface:
+> -   _The naming style of this warehouse is inspired by the Yankees[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspire_ :trollface:
+> -   _The readme file in this repository comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style_ :trollface:
+> -   _The mutual redirection jump within the script comes from[Adam Lui Liu Zhanpeng](https://github.com/adamlui)self-report style_ :trollface:
+> -   _All in this warehouse`README.md`File copied and used from this Yankee repository`README.md`Document layout，delimiter，code，Ideas_ :trollface:
+> -   _copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action internal code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action internal code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _copied yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimiter，Typesetting style :trollface:
+> -   _Copied Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python internal code_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 ## Contributor
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/qinwuyuan-sync-bot" title="people’s servants servants"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="people’s servants servants"/></a>
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 Contributions list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Little brother tunes"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Little brother tunes"/></a>
 
-
 ## 🌐 Browser and Script Manager
 
-|                               Recommended browser                                |                                                         Installation manager                                                          | Install browser                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                              Recommended browser                              |                                                    Installation manager                                                     | Install browser                                                               |
+| :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome or based on Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|    <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera Browser[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via Browser（Android）[![][via]][via_link]            |                                                    <center> Built-in browser                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X Browser（Android） [![][x]][x_link]              |                                                    <center> Built-in browser                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> Lemur Browser（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                <center> Opera Browser[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|              <center> Via Browser（Android）[![][via]][via_link]              |                                                  <center> Built-in browser                                                  | <center>[![][via]][via_link]                                                  |
+|                <center> X Browser（Android） [![][x]][x_link]                 |                                                  <center> Built-in browser                                                  | <center>[![][x]][x_link]                                                      |
+|            <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|              <center> Lemur Browser（Android）[![][le]][le_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                               |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "tamper monkey"
 [Violentmonkey]: https://violentmonkey.github.io/ "violent monkey"

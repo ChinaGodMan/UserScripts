@@ -1,10 +1,9 @@
 ---
 name: 错误报告md
 about: 创建一个关于此项目的 Bug 报告
-title: ''
+title: ""
 labels: bug
-assignees: ''
-
+assignees: ""
 ---
 
 ## Bug 描述
@@ -36,10 +35,10 @@ assignees: ''
 
 请提供以下信息：
 
-- 操作系统：Windows 10 / macOS Catalina / Ubuntu 20.04
-- 浏览器：Chrome 91 / Firefox 89 / Safari 14
-- 应用版本：[例如 v1.2.3]
-- 其他相关信息：
+-   操作系统：Windows 10 / macOS Catalina / Ubuntu 20.04
+-   浏览器：Chrome 91 / Firefox 89 / Safari 14
+-   应用版本：[例如 v1.2.3]
+-   其他相关信息：
 
 ## 其他信息
 

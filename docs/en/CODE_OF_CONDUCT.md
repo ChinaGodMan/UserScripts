@@ -28,11 +28,11 @@ We expect all participants to maintain professionalism in the following areas:
 
 The following behaviors are considered unacceptable:
 
-- Harassment, threats, or attacks against others
-- Hate speech, discriminatory remarks, or other offensive content
-- Spreading false information or unfounded accusations
-- Disrupting the order of the project or interfering with others' participation
-- Engaging in sexual harassment or other inappropriate conduct
+-   Harassment, threats, or attacks against others
+-   Hate speech, discriminatory remarks, or other offensive content
+-   Spreading false information or unfounded accusations
+-   Disrupting the order of the project or interfering with others' participation
+-   Engaging in sexual harassment or other inappropriate conduct
 
 ## Reporting Misconduct
 
@@ -42,9 +42,9 @@ If you witness or experience any misconduct, please report it immediately to the
 
 Participants who violate this Code of Conduct may face the following consequences:
 
-- Verbal or written warning
-- Temporary or permanent ban from participating in the project
-- Other appropriate actions
+-   Verbal or written warning
+-   Temporary or permanent ban from participating in the project
+-   Other appropriate actions
 
 ## Conclusion
 

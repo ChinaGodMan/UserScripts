@@ -122,109 +122,111 @@
 ## 腳本功能
 
 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作。該腳本從網站收集而來。
->![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
-![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
-![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
-![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
-![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
-![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
+
+> ![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
+> ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
+> ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
+> ![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
+> ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
+> ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
   <p><a href="#:~:text=更新訊息">查看Greasyfork 糊裱匠的版本更新記錄</a></p>
 
 ---
 
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能介紹
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 腳本詳情
 
-- 切換文檔視圖與網頁視圖
-- 復製代碼
-- 顯示腳本圖標
-- 清空圖標緩存
-- 腳本歷史增加安裝
-- 增加下載按鈕
-- 腳本代碼顯示行數字數
-- 按創建日期排序腳本列表
-- 復製庫聲明
-- 顯示引用文件數
-- 復製短鏈接
-- 美化代碼片段
-- 美化查看代碼
+-   切換文檔視圖與網頁視圖
+-   復製代碼
+-   顯示腳本圖標
+-   清空圖標緩存
+-   腳本歷史增加安裝
+-   增加下載按鈕
+-   腳本代碼顯示行數字數
+-   按創建日期排序腳本列表
+-   復製庫聲明
+-   顯示引用文件數
+-   復製短鏈接
+-   美化代碼片段
+-   美化查看代碼
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 腳本列表
 
-- 列表顯示安裝下載
-- 鎖定語言設置
-- 顯示評分
-- 顯示源碼
-- 使用舊版列表
-- 顯示所有語言腳本
-- 移動側邊欄
-- 按創建日期排序腳本列表
+-   列表顯示安裝下載
+-   鎖定語言設置
+-   顯示評分
+-   顯示源碼
+-   使用舊版列表
+-   顯示所有語言腳本
+-   移動側邊欄
+-   按創建日期排序腳本列表
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 美化控件
 
-- 控制美化
-- 美化選擇框和單選框標簽
+-   控制美化
+-   美化選擇框和單選框標簽
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 適用於
 
-- 啟用增強
-- 新窗口打開
-- 顯示在論壇的腳本數量
-- 詳情適用於打開:
-  - 論壇搜索
-  - 網頁打開
-  - 彈出提示
+-   啟用增強
+-   新窗口打開
+-   顯示在論壇的腳本數量
+-   詳情適用於打開:
+    -   論壇搜索
+    -   網頁打開
+    -   彈出提示
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 個人主頁
 
-- 清理舊的主頁內容
-- 主頁清理的天數
-- 主頁腳本添加操作
-- 隱藏近期評論
-- 主頁顯示統計
+-   清理舊的主頁內容
+-   主頁清理的天數
+-   主頁腳本添加操作
+-   隱藏近期評論
+-   主頁顯示統計
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 導航欄
 
-- 增加發布新腳本選項
-- 跳轉成人腳本
-- 修復導航欄樣式
-- 在導航欄添加打開本界面
-- 導航欄對齊
+-   增加發布新腳本選項
+-   跳轉成人腳本
+-   修復導航欄樣式
+-   在導航欄添加打開本界面
+-   導航欄對齊
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 網站
 
-- 自動啟用代碼編輯框美化
-- 在新標簽頁中打開鏈接
-- 精確日期
-- 網站最大化瀏覽
-- 一鍵舉報
-- 本地代碼高亮
-- 隱藏圖標
-- 顯示圖標
-- 灰度已閱讀評論
-- 隱藏已閱讀評論
-- 側邊導航欄
-- 代理用戶圖片
+-   自動啟用代碼編輯框美化
+-   在新標簽頁中打開鏈接
+-   精確日期
+-   網站最大化瀏覽
+-   一鍵舉報
+-   本地代碼高亮
+-   隱藏圖標
+-   顯示圖標
+-   灰度已閱讀評論
+-   隱藏已閱讀評論
+-   側邊導航欄
+-   代理用戶圖片
 
 ---
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 🌐 瀏覽器與腳本管理器
@@ -241,8 +243,6 @@
 [Macaque]: https://macaque.app/ "獼猴"
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay"
 
-
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Thank you
@@ -251,27 +251,27 @@
 
 ### 引用腳本
 
-- [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
-- [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
-- [Greasyfork 優化](https://greasyfork.org/zh-CN/scripts/411837)
-- [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
-- [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
-- [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
-- [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
-- [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
-- [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
-- [折疊 greasyfork 過期討論](https://greasyfork.org/scripts/426549/)
-- [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
-- [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
-- [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
-- [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
-- [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
-- [Greasy Fork 增強](https://greasyfork.org/zh-CN/scripts/467078)
-- [Greasy Fork URL 腳本名稱清理](https://greasyfork.org/scripts/431940/)
-- [Greasyfork 優化](https://greasyfork.org/zh-CN/scripts/475722)
-- [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
-- [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
-- [GreasyFork 一鍵回報垃圾評論](https://greasyfork.org/scripts/474395)
+-   [Auto Enable Syntax-Highlighting Source Editor](https://greasyfork.org/zh-CN/scripts/22223)
+-   [Greasyfork in your language](https://greasyfork.org/zh-CN/scripts/6245)
+-   [Greasyfork 優化](https://greasyfork.org/zh-CN/scripts/411837)
+-   [GreasyFork Copy Code Snippet](https://greasyfork.org/zh-CN/scripts/423726)
+-   [Download Script Button](https://greasyfork.org/zh-CN/scripts/420872)
+-   [GreasyFork Script Icon](https://greasyfork.org/zh-CN/scripts/6861)
+-   [Add "Post a new script" Link](https://greasyfork.org/zh-CN/scripts/450357)
+-   [Open Scripts List Sorting for Creation Date by Default](https://greasyfork.org/zh-CN/scripts/495477)
+-   [Absolute Time on GreasyFork](https://greasyfork.org/zh-CN/scripts/470348)
+-   [折疊 greasyfork 過期討論](https://greasyfork.org/scripts/426549/)
+-   [maximale Fensterbreite auf nutzen](https://greasyfork.org/de/scripts/36037)
+-   [Toggle HTML View](https://greasyfork.org/de/scripts/471149)
+-   [GreasyFork Header Style Fix](https://greasyfork.org/zh-CN/scripts/473269)
+-   [Greasy Fork Dark Theme](https://greasyfork.org/zh-CN/scripts/436913)
+-   [Greasyfork 美化](https://greasyfork.org/zh-CN/scripts/446849)
+-   [Greasy Fork 增強](https://greasyfork.org/zh-CN/scripts/467078)
+-   [Greasy Fork URL 腳本名稱清理](https://greasyfork.org/scripts/431940/)
+-   [Greasyfork 優化](https://greasyfork.org/zh-CN/scripts/475722)
+-   [Greasy Fork: Mark Script Discussions as Read](https://greasyfork.org/scripts/438010)
+-   [Greasy Fork Bookmark](https://greasyfork.org/scripts/493406)
+-   [GreasyFork 一鍵回報垃圾評論](https://greasyfork.org/scripts/474395)
 
 ---
 
@@ -296,58 +296,56 @@
 
 ---
 
-
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GreasyFork相關腳本
-> - [**GreasyFork適用於增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋
-> - [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況
-> - [**GreaysFork 增強 WebHook同步設定**](https://greasyfork.org/scripts/506717): 這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
-> - [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
-> - [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字 
-> - [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
-> - [**Greasyfork膠水工匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
-> - [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
-
+>
+> -   [**GreasyFork適用於增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋
+> -   [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝狀況
+> -   [**GreaysFork 增強 WebHook同步設定**](https://greasyfork.org/scripts/506717): 這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
+> -   [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
+> -   [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上體文字
+> -   [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
+> -   [**Greasyfork膠水工匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
+> -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
+> -   [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用幫助
+## 使用帮助
 
- 推薦瀏覽器和腳本管理器：
-*   **Greasemonkey + Waterfox**
-*   **Tampermonkey/Violentmonkey + Firefox**
-*   **Tampermonkey/Violentmonkey + Chrome**
-*   **Userscripts + ios Safari**
-*  **Violentmonkey/KiWiBrowser + Android**
+推荐浏览器和脚本管理器：
 
- **如果你需要了解更多關於如何安裝使用者腳本,[點擊我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看圖文教學!**
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
-<a href="#top">回到頂部↑</a></p>
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有發布腳本
+### 查看所有发布脚本
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-
-
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找ChatGPT相關腳本
-> - [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼框內字體變小
-> - [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕
-> - [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
-> - [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
-
+>
+> -   [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼框內字體變小
+> -   [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕
+> -   [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
+> -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -355,16 +353,16 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找網頁相關腳本
-> - [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向
-> - [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登入複製，無需登入即可複製程式碼框內容
-> - [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為網頁上的表格所有欄位套用顏色漸層美化.
-> - [**網頁高亮關鍵字+(推薦)**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示
-> - [**高亮網頁文本_迷你版**](https://greasyfork.org/scripts/498905): 在網頁上自訂關鍵字突出顯示包括滾動時動態載入的內容
-> - [**小視窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
-> - [**去除連結下劃線**](https://greasyfork.org/scripts/498625): 去除網頁連結的下劃線
-> - [**上下滾動小按鈕**](https://greasyfork.org/scripts/497251): 頁面右側新增上下滾動按鈕
-> - [**一鍵置頂和置底按鈕**](https://greasyfork.org/scripts/500255): 修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止
-
+>
+> -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向
+> -   [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登入複製，無需登入即可複製程式碼框內容
+> -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為網頁上的表格所有欄位套用顏色漸層美化.
+> -   [**網頁高亮關鍵字+(推薦)**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示
+> -   [**高亮網頁文本\_迷你版**](https://greasyfork.org/scripts/498905): 在網頁上自訂關鍵字突出顯示包括滾動時動態載入的內容
+> -   [**小視窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
+> -   [**去除連結下劃線**](https://greasyfork.org/scripts/498625): 去除網頁連結的下劃線
+> -   [**上下滾動小按鈕**](https://greasyfork.org/scripts/497251): 頁面右側新增上下滾動按鈕
+> -   [**一鍵置頂和置底按鈕**](https://greasyfork.org/scripts/500255): 修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -372,15 +370,15 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GitHub相關腳本
-> - [**GitHub提交資訊顯示HTML**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
-> - [**GitHub 文件清單美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
-> - [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下
-> - [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
-> - [**GitHub資料夾下载**](https://greasyfork.org/scripts/505496): 新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。
-> - [**GitHub下載單一文件和複製文件URL**](https://greasyfork.org/scripts/505501): 在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件
-> - [**🤠 Github 增強助手 倉庫顯示大小 不活躍開發警告 倉庫內快捷跳轉用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看倉庫和搜尋倉庫時顯示倉庫大小 ，不活躍開發警告，倉庫內快捷跳轉.
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 倉庫列表文件排序方式改為日期降序，方便查看最新更新的文件。
-
+>
+> -   [**GitHub提交資訊顯示HTML**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
+> -   [**GitHub 文件清單美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。
+> -   [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下
+> -   [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
+> -   [**GitHub資料夾下载**](https://greasyfork.org/scripts/505496): 新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。
+> -   [**GitHub下載單一文件和複製文件URL**](https://greasyfork.org/scripts/505501): 在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件
+> -   [**🤠 Github 增強助手 倉庫顯示大小 不活躍開發警告 倉庫內快捷跳轉用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看倉庫和搜尋倉庫時顯示倉庫大小 ，不活躍開發警告，倉庫內快捷跳轉.
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 倉庫列表文件排序方式改為日期降序，方便查看最新更新的文件。
 
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -388,9 +386,9 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找Google相關腳本
-> - [**Google 進階搜尋**](https://greasyfork.org/scripts/502652): 這是一個為 Google 新增進階搜尋表單的使用者腳本。它能在頁面頂部添加一個可隱藏的高級搜尋表單，使您能夠更精確地搜尋訊息。
-> - [**Google 搜尋屏蔽指定站點**](https://greasyfork.org/scripts/500262): 在搜尋引擎結果中封鎖特定的站點，幫助用戶過濾掉不需要的搜尋結果。 自訂輸入屏蔽站點。格式-zhihu -baidu 用於封鎖谷歌搜尋內容
-
+>
+> -   [**Google 進階搜尋**](https://greasyfork.org/scripts/502652): 這是一個為 Google 新增進階搜尋表單的使用者腳本。它能在頁面頂部添加一個可隱藏的高級搜尋表單，使您能夠更精確地搜尋訊息。
+> -   [**Google 搜尋屏蔽指定站點**](https://greasyfork.org/scripts/500262): 在搜尋引擎結果中封鎖特定的站點，幫助用戶過濾掉不需要的搜尋結果。 自訂輸入屏蔽站點。格式-zhihu -baidu 用於封鎖谷歌搜尋內容
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -398,17 +396,17 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GreasyFork相關腳本
-> - [**GreasyFork適用於增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋
-> - [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
-> - [**GreaysFork 增強 WebHook同步設定**](https://greasyfork.org/scripts/506717): 這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
-> - [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
-> - [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本 
-> - [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
-> - [**Greasyfork膠水工匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
-> - [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
-
+>
+> -   [**GreasyFork適用於增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋
+> -   [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
+> -   [**GreaysFork 增強 WebHook同步設定**](https://greasyfork.org/scripts/506717): 這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
+> -   [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
+> -   [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上級腳本
+> -   [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
+> -   [**Greasyfork膠水工匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
+> -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
+> -   [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -416,11 +414,11 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找成人腳本
-> - [**MiSSAV自動登入**](https://greasyfork.org/scripts/505325): 偵測 MisssAV 狀態，並且在未登入時自動登入
-> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss單張備份，支援下載圖片保存影片訊息.導出本地網頁 支援導出到webdav
-> - [**TissAV自動登入**](https://greasyfork.org/scripts/506528): 偵測 TissAV 狀態，並且在未登入時自動登入
-> - [**JableTV自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態，並且在未登入時自動登入
-
+>
+> -   [**MiSSAV自動登入**](https://greasyfork.org/scripts/505325): 偵測 MisssAV 狀態，並且在未登入時自動登入
+> -   [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss單張備份，支援下載圖片保存影片訊息.導出本地網頁 支援導出到webdav
+> -   [**TissAV自動登入**](https://greasyfork.org/scripts/506528): 偵測 TissAV 狀態，並且在未登入時自動登入
+> -   [**JableTV自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態，並且在未登入時自動登入
 
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -428,8 +426,8 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找自動翻譯
-> - [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於 5 且翻譯文中不含中文，則替換為中文,需要可訪問google的網路
-> - [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個 google 翻譯圖示，此版本為中文翻譯版本，只把外文翻譯為中文，新增自動翻譯
-
+>
+> -   [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於 5 且翻譯文中不含中文，則替換為中文,需要可訪問google的網路
+> -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個 google 翻譯圖示，此版本為中文翻譯版本，只把外文翻譯為中文，新增自動翻譯
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->

@@ -21,11 +21,15 @@ def main():
     start_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->"
     end_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->"
     new_content = get_new_content()
+    with open('new_content.txt', 'w', encoding='utf-8') as file2:
+        file2.write(new_content + '\n')
     for script in scripts:
         backuppath = script.get('backuppath', '')
         cnfile_path = os.path.join(backuppath, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
-        if  "\n"+olddescriptions== new_content:#换行符添加上,就这样了能用就行
+        with open('olddescriptions.txt', 'w', encoding='utf-8') as file1:
+            file1.write(olddescriptions + '\n')
+        if  olddescriptions+"\n"== new_content:#换行符添加上,就这样了能用就行
                 #print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
                 continue
         else:

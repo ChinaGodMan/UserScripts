@@ -104,6 +104,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 功能介绍
+
 🔗 拖拽即开小窗 — 拖拽网页链接，便捷地在小窗口中打开并预览，使用 Edge 的预读技术。小窗口后方有亚克力效果，提升视觉体验。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -115,45 +116,57 @@
 ## 选项列表
 
 1. **操作模式 (actionMode)**
-   - **描述**：设置当前的操作模式，根据 `actionMode` 的值来确定使用哪个操作模式。
-     - **操作模式 1**：`1` - 在链接长按时触发预览窗口。
-     - **操作模式 2**：`2` - 在链接拖拽时触发预览窗口。
-     - **默认操作模式**：`0` - 默认启用以上两种操作模式。
+
+    - **描述**：设置当前的操作模式，根据 `actionMode` 的值来确定使用哪个操作模式。
+        - **操作模式 1**：`1` - 在链接长按时触发预览窗口。
+        - **操作模式 2**：`2` - 在链接拖拽时触发预览窗口。
+        - **默认操作模式**：`0` - 默认启用以上两种操作模式。
 
 2. **长按持续时间 (longPressDuration)**
-   - **描述**：设置长按操作的持续时间。
-   - **操作**：`setLongPressDuration`，用于修改长按持续时间，与 `操作模式 (actionMode)` 配合使用。
+
+    - **描述**：设置长按操作的持续时间。
+    - **操作**：`setLongPressDuration`，用于修改长按持续时间，与 `操作模式 (actionMode)` 配合使用。
 
 3. **模糊效果启用 (blurEnabled)**
-   - **描述**：启用或禁用背景模糊效果。
-   - **操作**：`toggleBlurEffect`，用于启用或禁用模糊效果。
+
+    - **描述**：启用或禁用背景模糊效果。
+    - **操作**：`toggleBlurEffect`，用于启用或禁用模糊效果。
 
 4. **模糊强度 (blurIntensity)**
-   - **描述**：设置背景模糊的强度。
+
+    - **描述**：设置背景模糊的强度。
 
 5. **点击鼠标时关闭 (closeOnMouseClick)**
-   - **描述**：在主窗口（预览窗口的父窗口）点击鼠标时关闭预览窗口。
-   - **操作**：`toggleCloseOnMouseClick`，用于启用或禁用点击鼠标时关闭预览窗口的设置。
+
+    - **描述**：在主窗口（预览窗口的父窗口）点击鼠标时关闭预览窗口。
+    - **操作**：`toggleCloseOnMouseClick`，用于启用或禁用点击鼠标时关闭预览窗口的设置。
 
 6. **滚动时关闭 (closeOnScroll)**
-   - **描述**：在主窗口（预览窗口的父窗口）滚动鼠标滑轮时关闭预览窗口。
-   - **操作**：`toggleCloseOnScroll`，用于启用或禁用滚动鼠标时关闭预览窗口的设置。
+
+    - **描述**：在主窗口（预览窗口的父窗口）滚动鼠标滑轮时关闭预览窗口。
+    - **操作**：`toggleCloseOnScroll`，用于启用或禁用滚动鼠标时关闭预览窗口的设置。
 
 7. **窗口宽度 (windowWidth)**
-   - **描述**：设置预览窗口的宽度，启用 `保存窗口配置` 时覆盖该配置。
+
+    - **描述**：设置预览窗口的宽度，启用 `保存窗口配置` 时覆盖该配置。
 
 8. **窗口高度 (windowHeight)**
-   - **描述**：设置预览窗口的高度，启用 `保存窗口配置` 时覆盖该配置。
+
+    - **描述**：设置预览窗口的高度，启用 `保存窗口配置` 时覆盖该配置。
 
 9. **显示倒计时 (showCountdown)**
-   - **描述**：当启用 `操作模式 (actionMode)=1` 长按时，在长按触发预览窗口前，在鼠标下方显示倒计时进度条，时间是 `长按持续时间 (longPressDuration)` 设定的时间。
-   - **操作**：用于启用或禁用倒计时进度条显示。
+
+    - **描述**：当启用 `操作模式 (actionMode)=1` 长按时，在长按触发预览窗口前，在鼠标下方显示倒计时进度条，时间是 `长按持续时间 (longPressDuration)` 设定的时间。
+    - **操作**：用于启用或禁用倒计时进度条显示。
 
 10. **显示拖拽超时 (showCountdowndrag)**
-   - **描述**：当启用时，在拖拽预览窗口前，在鼠标下方显示超时进度条，时间是 `拖拽超时时间 (dragTimeOut)` 设定的时间,时间耗尽,拖拽不会打开预览窗口,设定时间为0时为禁用显示以及禁用超时取消拖拽打开小窗预览。
-   - **操作**：用于启用或禁用超时进度条显示。
 
-11.  **保存窗口配置 (saveWindowConfig)**
+-   **描述**：当启用时，在拖拽预览窗口前，在鼠标下方显示超时进度条，时间是 `拖拽超时时间 (dragTimeOut)` 设定的时间,时间耗尽,拖拽不会打开预览窗口,设定时间为0时为禁用显示以及禁用超时取消拖拽打开小窗预览。
+-   **操作**：用于启用或禁用超时进度条显示。
+
+11. **保存窗口配置 (saveWindowConfig)**
+
+
     - **描述**：用于记忆保存窗口的大小与位置配置，会覆盖用户自己设定的预览窗口高度和宽度。
 
 **每个选项后面都有一个对应的操作函数，这些函数用于更新菜单的设置。通过点击选项，用户可以直接改变相关配置，并立即看到效果。**
@@ -161,22 +174,23 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 支持的网页
+
 🌐 全网页适用 — 支持所有网页，随时随地享受便捷的链接预览与打开功能。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找网页相关脚本
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> - [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> - [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> - [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
-
+>
+> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+> -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
+> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
+> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -192,19 +206,19 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 注意事项：
+
 点击或滚动页面时，可以自动关闭小窗口。
 立即体验！
 🚀 提升浏览效率 — 安装脚本，享受智能链接预览和美观小窗口！
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-
 ## ☭ 感谢
 
--  **[hiisme](https://greasyfork.org/zh-CN/users/217852)  [小窗预览](https://greasyfork.org/scripts/504567)** 是本脚本的创始人,他的想法与实际行动为互联网广大网友做出了巨大贡献
--  **[wxhzjm](https://greasyfork.org/zh-CN/users/1118488)** 
--  **[hmjz100](https://greasyfork.org/zh-CN/users/893941)**  
--  **[tony0809](https://greasyfork.org/zh-CN/users/20361)**  为脚本添加了自定义域名设置的代码
+-   **[hiisme](https://greasyfork.org/zh-CN/users/217852) [小窗预览](https://greasyfork.org/scripts/504567)** 是本脚本的创始人,他的想法与实际行动为互联网广大网友做出了巨大贡献
+-   **[wxhzjm](https://greasyfork.org/zh-CN/users/1118488)**
+-   **[hmjz100](https://greasyfork.org/zh-CN/users/893941)**
+-   **[tony0809](https://greasyfork.org/zh-CN/users/20361)** 为脚本添加了自定义域名设置的代码
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -223,21 +237,20 @@
 
 ![1.png](https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui)
 
-
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助
 
- 推荐浏览器和脚本管理器：
-*   **Greasemonkey + Waterfox**
-*   **Tampermonkey/Violentmonkey + Firefox**
-*   **Tampermonkey/Violentmonkey + Chrome**
-*   **Userscripts + ios Safari**
-*  **Violentmonkey/KiWiBrowser + Android**
+推荐浏览器和脚本管理器：
 
- **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
 
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#top">回到顶部↑</a></p>
@@ -245,19 +258,18 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 查看所有发布脚本
+
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-
-
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找ChatGPT相关脚本
-> - [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码框内字体变小
-> - [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
-> - [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
-> - [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
-
+>
+> -   [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码框内字体变小
+> -   [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
+> -   [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -265,16 +277,16 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找网页相关脚本
-> - [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> - [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> - [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> - [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> - [**高亮网页文本_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> - [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> - [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> - [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> - [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
-
+>
+> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+> -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
+> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
+> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -282,15 +294,15 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GitHub相关脚本
-> - [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> - [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> - [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> - [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> - [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> - [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> - [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
-> - [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
-
+>
+> -   [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
+> -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
+> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
+> -   [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
+> -   [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
+> -   [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
 
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -298,9 +310,9 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找Google相关脚本
-> - [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> - [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
-
+>
+> -   [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
+> -   [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -308,17 +320,17 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GreasyFork相关脚本
-> - [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
-> - [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> - [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> - [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
-> - [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
-> - [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 
-> - [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
-> - [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
-> - [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> - [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
-
+>
+> -   [**GreasyFork适用于增强**](https://greasyfork.org/scripts/497317): 脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索
+> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+> -   [**GreaysFork 增强 WebHook同步设置**](https://greasyfork.org/scripts/506717): 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+> -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍
+> -   [**GreasyFork 显示脚本评分**](https://greasyfork.org/scripts/501119): 脚本列表添加评价分数
+> -   [**GreasyFork 高级搜索**](https://greasyfork.org/scripts/505215): 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本
+> -   [**GreasyFork 导航栏增强**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用户列表,用户控制台等
+> -   [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作
+> -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+> -   [**Script Finder油猴脚本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -326,11 +338,11 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找成人脚本
-> - [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
-> - [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
-> - [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
-> - [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
-
+>
+> -   [**MiSSAV自动登录**](https://greasyfork.org/scripts/505325): 检测 MisssAV 状态，并且在未登录时自动登录
+> -   [**MissAV收藏管理器**](https://greasyfork.org/scripts/497682): miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav
+> -   [**TissAV自动登录**](https://greasyfork.org/scripts/506528): 检测 TissAV 状态，并且在未登录时自动登录
+> -   [**JableTV自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态，并且在未登录时自动登录
 
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
 
@@ -338,8 +350,8 @@
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找自动翻译
-> - [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络
-> - [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
-
+>
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
