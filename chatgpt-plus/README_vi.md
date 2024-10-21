@@ -8,10 +8,10 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README.md">Tiếng Trung giản thể</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">繁體中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">Tiếng Trung phồn thể</a>
     </h6>
 </div>
 
@@ -111,20 +111,20 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍có thể bạn đang tìm kiếmChatGPTTập lệnh liên quan
 >
-> -   [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码框内字体变小
-> -   [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
-> -   [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
-> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
+> -   [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): cho phép ChatGPT Cỡ chữ trong hộp mã trở nên nhỏ hơn
+> -   [**ChatGPT trò chuyệnSao chép mãcái nút**](https://greasyfork.org/scripts/509598): hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút
+> -   [**ChatGPT bộ đếm ký tự**](https://greasyfork.org/scripts/506166): thêm mộtnhân vậtBộ đếm vào hộp đầu vào，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
+> -   [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## Giúp đỡ
 
-推荐浏览器和脚本管理器：
+Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -132,14 +132,14 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+**Nếu bạn cần biết thêm về cách cài đặt userscript,[bấm vào tôi](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)Xem giảng dạy đồ họa!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
+<a href="#top">trở lại đầu trang↑</a></p>
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本
+### Xem tất cả các tập lệnh xuất bản
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
@@ -158,17 +158,17 @@ Nếu bạn có bất kỳ đề xuất hoặc tìm thấy một vấn đề，X
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
-> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> -   [**高亮网页文本-迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
+> -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam
+> -   [**Thang máyCSDNĐăng nhậpSao chépgiới hạn**](https://greasyfork.org/scripts/505207): chết tiệt bạn CSDN Đăng nhậpSao chép，Sao chép nội dung hộp mã mà không cần đăng nhập
+> -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng làm đẹp độ dốc màu cho tất cả các cột của bảng trên trang web.
+> -   [**Đánh dấu từ khóa trên các trang web+(gợi ý)**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên các trang web
+> -   [**Làm nổi bật văn bản web-phiên bản nhỏ**](https://greasyfork.org/scripts/498905): Làm nổi bật từ khóa tùy chỉnh trên các trang web bao gồm nội dung được tải động khi cuộn
+> -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
+> -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân khỏi liên kết web
+> -   [**Nút cuộn nhỏ lên xuống**](https://greasyfork.org/scripts/497251): Thêm nút cuộn lên xuống ở bên phải trang
+> -   [**Nút trên và dưới một chạm**](https://greasyfork.org/scripts/500255): Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 

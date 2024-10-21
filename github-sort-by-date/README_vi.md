@@ -8,7 +8,7 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README.md">Tiếng Trung giản thể</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_vi.md">Tiếng Việt</a>
@@ -91,24 +91,24 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
 >
-> -   [**GitHub提交信息显示HTML**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。
-> -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下
-> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> -   [**GitHub文件夹下载**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> -   [**GitHub下载单文件和复制文件URL**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> -   [**🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠**](https://greasyfork.org/scripts/502291): 在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.
-> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): 仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。
+> -   [**GitHubGửi hiển thị thông tinHTML**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
+> -   [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。
+> -   [**Github Danh sách ngôn ngữ mã hiển thị tất cả**](https://greasyfork.org/scripts/509889): Mở rộng Github Danh sách ngôn ngữ trên kho lưu trữ，Hiển thị từng ngôn ngữ，Thay vì giấu những phần nhỏ trong “khác” Xuống
+> -   [**GitHub Tự động xác nhận ủy quyền thiết bị**](https://greasyfork.org/scripts/508956): hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。
+> -   [**GitHubthư mụctải về**](https://greasyfork.org/scripts/505496): Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。
+> -   [**GitHubTải xuống các tập tin đơn lẻ và sao chép các tập tinURL**](https://greasyfork.org/scripts/505501): Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin
+> -   [**🤠 Github Tăng cường trợ lý Kích thước hiển thị kho Cảnh báo phát triển không hoạt động Nhảy nhanh vào khoKho khác của người dùng 🤠**](https://greasyfork.org/scripts/502291): hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho ，Cảnh báo phát triển không hoạt động，Nhảy nhanh vào kho.
+> -   [**GitHub Sort by Date**](https://greasyfork.org/scripts/505218): Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## Giúp đỡ
 
-推荐浏览器和脚本管理器：
+Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -116,14 +116,14 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+**Nếu bạn cần biết thêm về cách cài đặt userscript,[bấm vào tôi](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)Xem giảng dạy đồ họa!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
+<a href="#top">trở lại đầu trang↑</a></p>
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本
+### Xem tất cả các tập lệnh xuất bản
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
@@ -142,17 +142,17 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
-> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
-> -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
-> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
-> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> -   [**高亮网页文本-迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
-> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
-> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
-> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
+> -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam
+> -   [**Thang máyCSDNĐăng nhậpSao chépgiới hạn**](https://greasyfork.org/scripts/505207): chết tiệt bạn CSDN Đăng nhậpSao chép，Sao chép nội dung hộp mã mà không cần đăng nhập
+> -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng làm đẹp độ dốc màu cho tất cả các cột của bảng trên trang web.
+> -   [**Đánh dấu từ khóa trên các trang web+(gợi ý)**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên các trang web
+> -   [**Làm nổi bật văn bản web-phiên bản nhỏ**](https://greasyfork.org/scripts/498905): Làm nổi bật từ khóa tùy chỉnh trên các trang web bao gồm nội dung được tải động khi cuộn
+> -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
+> -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân khỏi liên kết web
+> -   [**Nút cuộn nhỏ lên xuống**](https://greasyfork.org/scripts/497251): Thêm nút cuộn lên xuống ở bên phải trang
+> -   [**Nút trên và dưới một chạm**](https://greasyfork.org/scripts/500255): Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
