@@ -80,7 +80,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:42:17</sub></td>
-            <td><sub>2024-10-19 05:36:23</sub></td>
+            <td><sub>2024-10-20 10:48:34</sub></td>
             <td><sub>0.1.1.0</sub></td>
             <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -94,7 +94,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</td>
+            <td>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?style=social" alt="size">
@@ -263,7 +263,7 @@
                 </a>
             </td>
             <td><sub>2024-09-06 06:08:08</sub></td>
-            <td><sub>2024-10-15 01:04:50</sub></td>
+            <td><sub>2024-10-20 09:01:50</sub></td>
             <td><sub>1.0.0.9</sub></td>
             <td><sub>2024-09-06 05:02:49</sub></td>
         </tr>
@@ -298,7 +298,7 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Highlight web text_mini version</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/498905" target="_blank">Highlight web text-mini version</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords-mini/highlight-keywords-mini.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini#readme" target="_blank">
@@ -460,7 +460,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
+            <td>This script will GitHub The submission information on is converted into HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-commit-viewer/github-commit-viewer.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer/github-commit-viewer.user.js?style=social" alt="size">
@@ -488,7 +488,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
+            <td>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js?style=social" alt="size">
@@ -502,8 +502,8 @@
                 </a>
             </td>
             <td><sub>2024-09-12 11:56:17</sub></td>
-            <td><sub>2024-10-19 05:36:26</sub></td>
-            <td><sub>4.1.0.3</sub></td>
+            <td><sub>2024-10-20 18:57:48</sub></td>
+            <td><sub>4.1.0.4</sub></td>
             <td><sub>2024-9-12 10:39:51</sub></td>
         </tr>
         <tr>
@@ -699,7 +699,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</td>
+            <td>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/google-advanced-search/google-advanced-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search/google-advanced-search.user.js?style=social" alt="size">
@@ -910,7 +910,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>Search using Google GreasyFork and SleazyFork script on </td>
+            <td>Search using Google GreasyFork and SleazyFork script on</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-search/greasyfork-search.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search/greasyfork-search.user.js?style=social" alt="size">
@@ -938,7 +938,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</td>
+            <td>EnhancegreasyforkNavigation bar,Add user list,User console etc.</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?style=social" alt="size">
@@ -1313,17 +1313,17 @@ Contributions list by： [contributors](https://github.com/jaywcjlove/github-act
 
 ## 🌐 Browser and Script Manager
 
-|                              Recommended browser                              |                                                    Installation manager                                                     | Install browser                                                               |
-| :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               Recommended browser                                |                                                         Installation manager                                                          | Install browser                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome or based on Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|    <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|                <center> Opera Browser[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|              <center> Via Browser（Android）[![][via]][via_link]              |                                                  <center> Built-in browser                                                  | <center>[![][via]][via_link]                                                  |
-|                <center> X Browser（Android） [![][x]][x_link]                 |                                                  <center> Built-in browser                                                  | <center>[![][x]][x_link]                                                      |
-|            <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|              <center> Lemur Browser（Android）[![][le]][le_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                               |                                                                                                                             |                                                                               |
+|              <center> Opera Browser[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via Browser（Android）[![][via]][via_link]            |                                                    <center> Built-in browser                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X Browser（Android） [![][x]][x_link]              |                                                    <center> Built-in browser                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> Lemur Browser（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "tamper monkey"
 [Violentmonkey]: https://violentmonkey.github.io/ "violent monkey"
