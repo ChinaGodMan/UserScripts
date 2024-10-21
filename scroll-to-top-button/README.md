@@ -47,10 +47,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮   更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮 更新日志</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
 <p><strong>请求</strong>:<br />
-• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。  </p>
+• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
 </div></center>

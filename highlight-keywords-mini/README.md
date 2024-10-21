@@ -1,3 +1,17 @@
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+
+<center><div align="center">
+    <h1>高亮网页文本-迷你版</h1>
+    <p>「 在网页上自定义关键词突出显示包括滚动时动态加载的内容 」</p>
+    <img src="https://views.whatilearened.today/views/github/498905/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini/highlight-keywords-mini.user.js?color=%23990000">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/498905">Greasy
+            Fork</a></p> 
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498905.png">
+</div></center>
+
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>

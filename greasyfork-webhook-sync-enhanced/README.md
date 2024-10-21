@@ -47,7 +47,7 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️  GreaysFork增强WebHook 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreaysFork增强WebHook 更新日志</strong></h1>
 <h3><strong>📅 2024/9/15 10:53 - Ver 1.1.1.0</strong></h3>
 <p><strong>修复</strong>: • 按钮<code>hover active focus</code>放入父类<code>.Sync-Modal</code></p>
 <h3><strong>📅 2024/9/5 04:29 - Ver 1.1.0.0</strong></h3>

@@ -41,16 +41,16 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>One-touch top and bottom buttons</h1>
-    <p>「 Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds 」</p>
+    <h1>一键置顶和置底按钮</h1>
+    <p>「 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止 」</p>
     <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ One-touch top and bottom buttons   Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮 更新日志</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
-<p><strong>ask</strong>:<br />
-• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> Add binding hotkey。  </p>
+<p><strong>请求</strong>:<br />
+• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
 </div></center>
