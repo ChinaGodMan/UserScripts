@@ -2,9 +2,7 @@ name: update-contributors-list
 
 on:
   pull_request:
-    branches:
-      - main
-  workflow_dispatch:
+
 
 jobs:
   update-contributors:
