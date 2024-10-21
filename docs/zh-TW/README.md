@@ -39,7 +39,6 @@
 **劇本來自網路廣大網友，本人僅是做了些許改動.感謝網友**
 **如有侵權,聯繫必刪**
 
-## [<mark style="background-color: yellow; color: green;">瀏覽腳本目錄查看詳細</mark>](/Script%20details)
 
 ## 腳本列表
 
@@ -483,7 +482,7 @@
         <tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件列表美化器</a><br>
+                <a href="https://greasyfork.org/zh-CN/scripts/508047" target="_blank">GitHub 文件清單美化器</a><br>
                 <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
                 <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js" target="_blank">GitHub</a>
                 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus#readme" target="_blank">

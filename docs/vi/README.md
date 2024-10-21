@@ -39,7 +39,6 @@
 **Kịch bản đến từ đông đảo cư dân mạng trên Internet，Tôi vừa thực hiện một số thay đổi.Cảm ơn cư dân mạng**
 **Nếu có sự vi phạm,Liên hệ phải được xóa**
 
-## [<mark style="background-color: yellow; color: green;">Duyệt thư mục tập lệnh để biết chi tiết</mark>](/Script%20details)
 
 ## danh sách kịch bản
 
@@ -419,7 +418,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>Đã sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
+            <td>Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/scroll-to-top-button/scroll-to-top-button.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?style=social" alt="size">
@@ -546,7 +545,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。</td>
+            <td>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-device-authorization/github-device-authorization.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?style=social" alt="size">
@@ -828,7 +827,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
+            <td>Tập lệnh này có thể giúp bạn nhanh chóng nhập thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js?style=social" alt="size">
@@ -1194,7 +1193,7 @@
                     <mark>Readme</mark>
                 </a>
             </td>
-            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần có thể truy cập đượcgooglemạng</td>
+            <td>Nhận biết các ký tự không phải tiếng Trung，Nếu chiều dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung Quốc，sau đó thay thế bằng tiếng Trung,Cần phải có thể truy cập đượcgooglemạng</td>
             <td>
                 <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/no-zh-terminator/no-zh-terminator.user.js">
                     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator/no-zh-terminator.user.js?style=social" alt="size">
@@ -1289,7 +1288,7 @@
 > [!TIP]
 >  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/></a> :+1:
 >  - *Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Ý tưởng và mã tuyệt vời!* :trollface:
->  - *Phong cách đặt tên của nhà kho này được lấy cảm hứng từ đội Yankees[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Truyền cảm hứng* :trollface:
+>  - *Cách đặt tên của nhà kho này được lấy cảm hứng từ đội Yankees[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Truyền cảm hứng* :trollface:
 >  -  *Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
 >  -  *Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
 >  -  *Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng* :trollface:
