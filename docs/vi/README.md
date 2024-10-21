@@ -39,7 +39,6 @@
 **Kịch bản đến từ đông đảo cư dân mạng trên Internet，Tôi vừa thực hiện một số thay đổi.Cảm ơn cư dân mạng**
 **Nếu có sự vi phạm,Liên hệ phải được xóa**
 
-
 ## danh sách kịch bản
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
@@ -1247,7 +1246,6 @@
 
 ## Cách cài đặt/Sử dụng tập lệnh？
 
-
 Để sử dụng bất kỳ tập lệnh nào，Đầu tiên bạn cần cài đặt trình duyệt **Tampermonkey Tiện ích mở rộng Trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   Bấm vào biểu mẫu **\[Cài đặt\]** Trực tiếp bật lên giao diện cài đặt trình quản lý tập lệnh。
@@ -1266,63 +1264,66 @@
 
 ## Đặc biệt cảm ơn nguồn mở
 
- > [!TIP]
->  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
->  - Tệp readme kho lưu trữ này được sao chép[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)nội dung `Trình quản lý trình duyệt và tập lệnh`
+> [!TIP]
+>
+> -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+> -   Tệp readme kho lưu trữ này được sao chép[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)nội dung `Trình quản lý trình duyệt và tập lệnh`
 
 > [!TIP]
->  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
->  - Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
+>
+> -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+> -   Tất cả đều có trong kho`README.md`Đã sao chép huy hiệu tệp[Hmjz100](https://github.com/hmjz100)kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Kiểu huy hiệu tài liệu
 
 > [!TIP]
->  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
->  - 仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
->  - Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+>
+> -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+> -   仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
+> -   Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="đứa con của sa mạc"/></a> :+1:
->  - Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
->  - Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
->  - Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)nội dung `Cách cài đặt/Sử dụng tập lệnh？`
- 
+>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="đứa con của sa mạc"/></a> :+1:
+> -   Đã sao chép [đứa con của sa mạc](https://github.com/maboloshi)kho[github-chinese](https://github.com/maboloshi/github-chinese)mã bên trong<br>
+> -   Trong kho này`writer.py` `update-contributors.yml` Sao chép bằng cách sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)mã bên trong
+> -   Tệp readme kho lưu trữ này được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)nội dung `Cách cài đặt/Sử dụng tập lệnh？`
+
 > [!TIP]
->  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/></a> :+1:
->  - *Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Ý tưởng và mã tuyệt vời!* :trollface:
->  - *Cách đặt tên của nhà kho này được lấy cảm hứng từ đội Yankees[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Truyền cảm hứng* :trollface:
->  -  *Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
->  -  *Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo* :trollface:
->  -  *Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng* :trollface:
->  -  *sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui) Action mã nội bộ* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Action mã nội bộ* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -    *sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)dấu phân cách，Kiểu sắp chữ :trollface:
->  -  *Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Python mã nội bộ* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
-
-
-
+>
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Lưu Triển Bằng"/></a> :+1:
+> -   _Dịch tự động kho lưu trữ này và Action Cảm ơn đặc biệt đến Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Ý tưởng và mã tuyệt vời!_ :trollface:
+> -   _Cách đặt tên của nhà kho này được lấy cảm hứng từ đội Yankees[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Truyền cảm hứng_ :trollface:
+> -   _Tệp readme trong kho lưu trữ này đến từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo_ :trollface:
+> -   _Bước nhảy chuyển hướng lẫn nhau trong tập lệnh xuất phát từ[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)phong cách tự báo cáo_ :trollface:
+> -   _Tất cả trong kho này`README.md`Tệp được sao chép và sử dụng từ kho lưu trữ Yankee này`README.md`Bố cục tài liệu，dấu phân cách，mã số，Ý tưởng_ :trollface:
+> -   _sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui) Action mã nội bộ_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Action mã nội bộ_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)dấu phân cách，Kiểu sắp chữ :trollface:
+> -   _Đã sao chép Yankee[Adam Lui Lưu Triển Bằng](https://github.com/adamlui)Python mã nội bộ_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 ## Người đóng góp
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/qinwuyuan-sync-bot" title="công chức tôi tớ nhân dân"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="công chức tôi tớ nhân dân"/></a>
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 Danh sách đóng góp theo： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
 
-
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 
-|                               Trình duyệt được đề xuất                                |                                                         Trình quản lý cài đặt                                                          | Cài đặt trình duyệt                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               Trình duyệt được đề xuất                                |                                                    Trình quản lý cài đặt                                                    | Cài đặt trình duyệt                                                           |
+| :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome hoặc dựa trên Chromium Trình duyệt hạt nhân[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|      <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                               <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox hoặc dựa trên Gecko Trình duyệt hạt nhân[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera Trình duyệt[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via Trình duyệt（Android）[![][via]][via_link]            |                                                    <center> Trình duyệt tích hợp                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X Trình duyệt（Android） [![][x]][x_link]              |                                                    <center> Trình duyệt tích hợp                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI Trình duyệt（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> Trình duyệt vượn cáo（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                  <center> Opera Trình duyệt[![][opera]][opera_link]                   | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|                <center> Via Trình duyệt（Android）[![][via]][via_link]                |                                                <center> Trình duyệt tích hợp                                                | <center>[![][via]][via_link]                                                  |
+|                  <center> X Trình duyệt（Android） [![][x]][x_link]                   |                                                <center> Trình duyệt tích hợp                                                | <center>[![][x]][x_link]                                                      |
+|              <center> KIWI Trình duyệt（Android）[![][kiwi]][kiwi_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|              <center> Trình duyệt vượn cáo（Android）[![][le]][le_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                                       |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "khỉ giả mạo"
 [Violentmonkey]: https://violentmonkey.github.io/ "khỉ hung bạo"

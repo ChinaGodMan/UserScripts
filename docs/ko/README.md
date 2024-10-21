@@ -39,7 +39,6 @@
 **해당 대본은 인터넷상의 수많은 네티즌들로부터 나온 것이다.，방금 몇 가지 사항을 변경했습니다..네티즌 여러분 감사합니다**
 **침해가 있는 경우,연락처를 삭제해야 합니다.**
 
-
 ## 스크립트 목록
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
@@ -1247,7 +1246,6 @@
 
 ## 설치 방법/스크립트 사용？
 
-
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
@@ -1266,63 +1264,66 @@
 
 ## 오픈소스 덕분에 특별히 감사드립니다
 
- > [!TIP]
->  -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
->  - 이 저장소 추가 정보 파일이 복사되었습니다.[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)콘텐츠 `브라우저 및 스크립트 관리자`
+> [!TIP]
+>
+> -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
+> -   이 저장소 추가 정보 파일이 복사되었습니다.[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)콘텐츠 `브라우저 및 스크립트 관리자`
 
 > [!TIP]
->  -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
->  - 창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
+>
+> -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
+> -   창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
 
 > [!TIP]
->  -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
->  - 仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
->  - 이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+>
+> -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
+> -   仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
+> -   이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
->  -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="사막의 아들"/></a> :+1:
->  - 복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
->  - 이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
->  - 이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)콘텐츠 `설치 방법/스크립트 사용？`
- 
+>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="사막의 아들"/></a> :+1:
+> -   복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
+> -   이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+> -   이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)콘텐츠 `설치 방법/스크립트 사용？`
+
 > [!TIP]
->  -  [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface:  <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
->  - *이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑](https://github.com/adamlui)훌륭한 아이디어와 코드!* :trollface:
->  - *이 창고의 명명 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다* :trollface:
->  -  *이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일* :trollface:
->  -  *스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일* :trollface:
->  -  *이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어* :trollface:
->  -  *복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드* [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
->  -    *복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)* [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
->  -  *복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Python 내부 코드* [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
-
-
-
+>
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
+> -   _이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑](https://github.com/adamlui)훌륭한 아이디어와 코드!_ :trollface:
+> -   _이 창고의 명명 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
+> -   _이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
+> -   _스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
+> -   _이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
+> -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
+> -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Python 내부 코드_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 ## 기부자
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
+
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/qinwuyuan-sync-bot" title="인민의 하인"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="인민의 하인"/></a>
+
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 기여 목록:： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
 
-
 ## 🌐 브라우저 및 스크립트 관리자
 
-|                               권장 브라우저                                |                                                         설치 관리자                                                          | 브라우저 설치                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                                 권장 브라우저                                  |                                                         설치 관리자                                                         | 브라우저 설치                                                                 |
+| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome 또는 기반으로 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|    <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                               <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox 또는 기반으로 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera 브라우저[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via 브라우저（Android）[![][via]][via_link]            |                                                    <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X 브라우저（Android） [![][x]][x_link]              |                                                    <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> 여우원숭이 브라우저（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                <center> Opera 브라우저[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|              <center> Via 브라우저（Android）[![][via]][via_link]              |                                                   <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
+|                <center> X 브라우저（Android） [![][x]][x_link]                 |                                                   <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
+|            <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|           <center> 여우원숭이 브라우저（Android）[![][le]][le_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                                |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "원숭이를 조작하다"
 [Violentmonkey]: https://violentmonkey.github.io/ "난폭한 원숭이"
