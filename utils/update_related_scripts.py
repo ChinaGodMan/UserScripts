@@ -35,7 +35,7 @@ def generate_description(current_script, all_scripts):
             description = script.get('description', '无描述')
             link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
             descriptions.append(f"> -   {link}: {description}")
-    return "\n".join(descriptions) + "\n"
+    return "\n".join(descriptions) +"\n"
 def main():
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
