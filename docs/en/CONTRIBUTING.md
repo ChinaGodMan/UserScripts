@@ -19,10 +19,10 @@ Thank you for your interest in contributing to this project! To help you get sta
 
 If you find a bug, need a new feature, or have improvement suggestions, please submit an issue via [Issues](https://github.com/ChinaGodMan/UserScripts/issues). Try to provide as much detail as possible, including:
 
-- A description of the problem
-- Steps to reproduce
-- Expected vs. actual results
-- System and environment information
+-   A description of the problem
+-   Steps to reproduce
+-   Expected vs. actual results
+-   System and environment information
 
 ### 2. Branching and Pull Request Workflow
 
@@ -42,19 +42,19 @@ If you find a bug, need a new feature, or have improvement suggestions, please s
 
 #### Pull Request Guidelines:
 
-- Ensure that your code is readable and clean. Avoid large-scale changes in a single commit.
-- Each Pull Request should focus on addressing a single issue or feature.
-- Reference the issue number in the description (if applicable).
-- We will review your Pull Request and provide feedback. Please be patient.
+-   Ensure that your code is readable and clean. Avoid large-scale changes in a single commit.
+-   Each Pull Request should focus on addressing a single issue or feature.
+-   Reference the issue number in the description (if applicable).
+-   We will review your Pull Request and provide feedback. Please be patient.
 
 ### 3. Code Style Guide
 
 To maintain consistency across the project, please follow these coding style guidelines:
 
-- Ensure your code is readable and concise.
-- Use meaningful variable and function names, and separate words with underscores (e.g., `my_function`).
-- Keep functions and methods short, adhering to the single responsibility principle.
-- Follow the formatting rules set by any tools in the project (such as `Prettier`, `ESLint`, etc.).
+-   Ensure your code is readable and concise.
+-   Use meaningful variable and function names, and separate words with underscores (e.g., `my_function`).
+-   Keep functions and methods short, adhering to the single responsibility principle.
+-   Follow the formatting rules set by any tools in the project (such as `Prettier`, `ESLint`, etc.).
 
 ### 4. Contributing to Documentation
 

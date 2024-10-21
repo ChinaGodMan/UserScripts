@@ -24,7 +24,7 @@ def generate_description(current_script, all_scripts):
     if not relatedscripts_category:
         return "无相关脚本。\n\n"
     # 添加分类名到描述中
-    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{relatedscripts_category}')
+    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{relatedscripts_category}\n>')
     # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
     for script in all_scripts:
         script_relatedscripts = script.get('relatedscripts')
@@ -34,8 +34,8 @@ def generate_description(current_script, all_scripts):
             name = script.get('name', '未知名称')
             description = script.get('description', '无描述')
             link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
-            descriptions.append(f"> - {link}: {description}")
-    return "\n".join(descriptions) + "\n\n"
+            descriptions.append(f"> -   {link}: {description}")
+    return "\n".join(descriptions) +"\n"
 def main():
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
@@ -48,7 +48,7 @@ def main():
         cnfile_path = os.path.join(backuppath, "README.md")
         descriptions = generate_description(script, scripts)
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
-        if olddescriptions+"\n\n" == descriptions:#换行符添加上,就这样了能用就行
+        if olddescriptions+"\n" == descriptions:#换行符添加上,就这样了能用就行
                 #print(f"----[{script.get('name', '')}]\033[91m 内容无变化,当前脚本目录MD文件不会执行替换。\033[0m")
                 continue
         else:
