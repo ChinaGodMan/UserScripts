@@ -103,12 +103,12 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相關腳本
+> ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): 讓 ChatGPT 程式碼框內字體變小
-> -   [**ChatGPT 聊天複製程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕
-> -   [**ChatGPT 字元計數器**](https://greasyfork.org/scripts/506166): 添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
-> -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。
+> -   [**ChatGPT代码字体缩小**](https://greasyfork.org/scripts/505209): 让 ChatGPT 代码框内字体变小
+> -   [**ChatGPT 聊天复制代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮
+> -   [**ChatGPT 字符计数器**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）
+> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
@@ -150,17 +150,17 @@
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找網頁相關腳本
+> ### 🔍你可能在找网页相关脚本
 >
-> -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向
-> -   [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登入複製，無需登入即可複製程式碼框內容
-> -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為網頁上的表格所有欄位套用顏色漸層美化.
-> -   [**網頁高亮關鍵字+(推薦)**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示
-> -   [**高亮網頁文本\_迷你版**](https://greasyfork.org/scripts/498905): 在網頁上自訂關鍵字突出顯示包括滾動時動態載入的內容
-> -   [**小視窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
-> -   [**去除連結下劃線**](https://greasyfork.org/scripts/498625): 去除網頁連結的下劃線
-> -   [**上下滾動小按鈕**](https://greasyfork.org/scripts/497251): 頁面右側新增上下滾動按鈕
-> -   [**一鍵置頂和置底按鈕**](https://greasyfork.org/scripts/500255): 修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止
+> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向
+> -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
+> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
+> -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
+> -   [**高亮网页文本-迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
+> -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
+> -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
+> -   [**一键置顶和置底按钮**](https://greasyfork.org/scripts/500255): 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 

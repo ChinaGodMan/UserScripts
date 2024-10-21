@@ -1,3 +1,35 @@
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## 使用帮助
+
+推荐浏览器和脚本管理器：
+
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### 查看所有发布脚本
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找Google相关脚本
+>
+> -   [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
+> -   [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
 
 <div align="right">
@@ -72,81 +104,6 @@
 
 -   在 Google 搜索页面顶部添加一个“高级搜索”按钮，点击按钮可显示高级搜索表单。
 -   高级搜索表单包含了以下搜索选项：
-    -   `以下所有字词`：搜索结果中必须包含所有指定的关键字。
-    -   `与以下字词完全匹配`：搜索结果中必须包含完全匹配指定字词的结果。
-    -   `以下任意字词`：搜索结果中必须包含指定的任意一个关键字。
-    -   `排除以下字词`：搜索结果中不包含指定的关键字。
-    -   `包含的数字范围`：搜索结果中包含指定范围内的数字。
-    -   `最后更新时间`：搜索结果中包含指定更新时间的结果。
-    -   `网站或域名`：搜索结果中包含指定网站或域名的结果。
-    -   `文件类型`：搜索结果中包含指定文件类型的结果。
--   可以保存以前的搜索选项，这样在打开新页面时会自动填充表单。
--   提供清空按钮，可以清除表单中的数据。
-
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-## 使用方法
-
-1. 安装一个用户脚本管理器，比如 Tampermonkey。
-2. 安装用户脚本并启用它。
-3. 在谷歌搜索页面打开后，您会在页面顶部看到一个名为“高级搜索”的按钮。
-4. 点击“高级搜索”按钮，高级搜索表单将显示出来。
-5. 在表单中填入您想要的高级搜索选项。
-6. 点击“搜索”按钮进行高级搜索，或点击“清空”按钮清除表单数据。
-
-注意：由于该脚本是针对谷歌搜索页面编写的，所以只能在谷歌搜索页面上使用。
-
-<h1 align="center">谷歌高级搜索助手 更新记录</h1> </p>
-
--   **2024/8/5 23:18 - Ver: 0.1.9.1**
-
-    -   _<mark>增加脚本图标</mark>_
-
--   **2024/8/5 10:26 - Ver: 0.1.9**
-    -   _<mark>问题: 移动设备无法显示高级搜索框</mark>_
-    -   _<mark>修复方式：下面代码仅在PC端生效</mark> `searchContainer.appendChild(toggleButton`_
-
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-## 感谢
-
-脚本修改自用户 **[shiquda](https://greasyfork.org/zh-CN/users/935206)** 的脚本 [ Google 高级搜索助手](https://greasyfork.org/scripts/474178) 感谢原作者 **shiquda** 的**勤劳**与**智慧**
-
-![mb.png](https://s2.loli.net/2024/08/05/DMIGuYrvTF1QRE9.png)
-![PC.png](https://s2.loli.net/2024/08/05/Yo1pmz3v8uINMnR.png)
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-> ### 🔍你可能在找Google相关脚本
->
-> -   [**Google 高级搜索**](https://greasyfork.org/scripts/502652): 这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。
-> -   [**Google 搜索屏蔽指定站点**](https://greasyfork.org/scripts/500262): 在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-## 使用帮助
-
-推荐浏览器和脚本管理器：
-
--   **Greasemonkey + Waterfox**
--   **Tampermonkey/Violentmonkey + Firefox**
--   **Tampermonkey/Violentmonkey + Chrome**
--   **Userscripts + ios Safari**
--   **Violentmonkey/KiWiBrowser + Android**
-
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
-
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-### 查看所有发布脚本
-
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -169,7 +126,7 @@
 > -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
 > -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 > -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**高亮网页文本-迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
 > -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
 > -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮

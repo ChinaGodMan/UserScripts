@@ -21,6 +21,12 @@
             "options": {
                 "singleQuote": true
             }
+        },
+        {
+            "files": "*.md",
+            "options": {
+                "endOfLine": "crlf"
+            }
         }
     ]
 }

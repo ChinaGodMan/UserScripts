@@ -289,7 +289,7 @@
     {
       "isUpdated": true,
       "name": "GreasyFork 高级搜索",
-      "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 ",
+      "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本",
       "relatedscripts": "GreasyFork相关脚本",
       "path": "greasyfork-search.user.js",
       "backuppath": "greasyfork-search",
@@ -353,7 +353,7 @@
     },
     {
       "isUpdated": true,
-      "name": "高亮网页文本_迷你版",
+      "name": "高亮网页文本-迷你版",
       "description": "在网页上自定义关键词突出显示包括滚动时动态加载的内容",
       "relatedscripts": "网页相关脚本",
       "path": "highlight-keywords-mini.user.js",

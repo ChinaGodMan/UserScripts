@@ -123,12 +123,7 @@
 
 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作。该脚本从网站收集而来。
 
-> ![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000)
-> ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs)
-> ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000)
-> ![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000)
-> ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000)
-> ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
+> ![size](https://img.shields.io/github/size/ChinaGodMan/UserScripts/Greasyfork%20Utility%20Toolkit.user.js?color=%23990000) > ![dt](https://img.shields.io/greasyfork/dt/497346?color=%23990000&label=Installs) > ![Greasy Fork Downloads](https://img.shields.io/greasyfork/dd/497346?color=%23990000) > ![Greasy Fork License](https://img.shields.io/greasyfork/l/497346?color=%23990000) > ![Greasy Fork Rating](https://img.shields.io/greasyfork/rating-count/497346?color=%23990000) > ![Greasy Fork Version](https://img.shields.io/greasyfork/v/497346?color=%23990000)
 
   <p><a href="#:~:text=更新信息">查看Greasyfork 糊裱匠的版本更新记录</a></p>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -304,7 +299,7 @@
 > -   [**解除CSDN登录复制限制**](https://greasyfork.org/scripts/505207): 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容
 > -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为网页上的表格所有列应用颜色渐变美化.
 > -   [**网页高亮关键字+(推荐)**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示
-> -   [**高亮网页文本\_迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**高亮网页文本-迷你版**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > -   [**小窗口预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。
 > -   [**去除链接下划线**](https://greasyfork.org/scripts/498625): 去除网页链接的下划线
 > -   [**上下滚动小按钮**](https://greasyfork.org/scripts/497251): 页面右侧添加上下滚动按钮
