@@ -302,7 +302,7 @@
 > -   [**GreasyFork Markdown toobar**](https://greasyfork.org/scripts/505164): 在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹
 > -   [**GreasyFork 顯示腳本評分**](https://greasyfork.org/scripts/501119): 腳本清單新增評價分數
 > -   [**GreasyFork 進階搜尋**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋 GreasyFork 和 SleazyFork 上的腳本
-> -   [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增强greasyfork导航栏,增加用戶列表,使用者控制台等
+> -   [**GreasyFork 導覽列增強**](https://greasyfork.org/scripts/501880): 增強greasyfork導覽列,增加用戶列表,使用者控制台等
 > -   [**Greasyfork糊裱匠**](https://greasyfork.org/scripts/497346): 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作
 > -   [**Greasyfork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
 > -   [**Script Finder油猴腳本查找器**](https://greasyfork.org/scripts/498904): Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本
@@ -350,7 +350,7 @@
 > ### 🔍你可能在找網頁相關腳本
 >
 > -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向
-> -   [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登录复制，無需登入即可複製程式碼框內容
+> -   [**解除CSDN登入複製限制**](https://greasyfork.org/scripts/505207): 去你媽的 CSDN 登入複製，無需登入即可複製程式碼框內容
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為網頁上的表格所有欄位套用顏色漸層美化.
 > -   [**網頁高亮關鍵字+(推薦)**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示
 > -   [**高亮網頁文本-迷你版**](https://greasyfork.org/scripts/498905): 在網頁上自訂關鍵字突出顯示包括滾動時動態載入的內容

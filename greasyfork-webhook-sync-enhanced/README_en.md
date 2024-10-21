@@ -41,20 +41,20 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreaysFork 增强 WebHook同步设置</h1>
-    <p>「 这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。 」</p>
+    <h1>GreaysFork Enhance WebHookSync settings</h1>
+    <p>「 This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。 」</p>
     <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreaysFork增强WebHook 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreaysForkEnhanceWebHook Change log</strong></h1>
 <h3><strong>📅 2024/9/15 10:53 - Ver 1.1.1.0</strong></h3>
-<p><strong>修复</strong>: • 按钮<code>hover active focus</code>放入父类<code>.Sync-Modal</code></p>
+<p><strong>repair</strong>: • button<code>hover active focus</code>Put in parent class<code>.Sync-Modal</code></p>
 <h3><strong>📅 2024/9/5 04:29 - Ver 1.1.0.0</strong></h3>
-<p><strong>新增</strong>: • 每次提交后返回 GreasyFork 同步提示。</p>
+<p><strong>New</strong>: • Return after each submission GreasyFork Sync tips。</p>
 <hr />
 <h3><strong>📅 2024/9/4 11:52 - Ver 1.0.0.0</strong></h3>
-<p><strong>初始版本</strong>: • 欢迎使用。</p>
+<p><strong>initial version</strong>: • Welcome。</p>
 <hr /></details> 
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506717.png">
 </div></center>
