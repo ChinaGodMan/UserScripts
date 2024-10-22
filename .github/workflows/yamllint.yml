@@ -1,6 +1,10 @@
 name: yamllint
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - .github/**
+  pull_request:
 
 jobs:
   yamllint:
