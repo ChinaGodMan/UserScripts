@@ -1,9 +1,12 @@
 import os
 import subprocess
 from datetime import datetime, timedelta
-
+import sys
+sys.dont_write_bytecode = True
 
 # 废弃此函数,越写越乱,
+
+
 def is_first_commit(file_path):
     try:
         # 获取文件的提交次数
