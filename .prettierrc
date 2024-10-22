@@ -6,8 +6,7 @@
             "files": "*.json",
             "options": {
                 "tabWidth": 2,
-                "useTabs": false,
-                "endOfLine": "lf"
+                "useTabs": false
             }
         },
         {
@@ -21,12 +20,6 @@
             "files": "*.js",
             "options": {
                 "singleQuote": true
-            }
-        },
-        {
-            "files": "*.md",
-            "options": {
-                "endOfLine": "crlf"
             }
         }
     ]
