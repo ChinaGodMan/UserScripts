@@ -19,4 +19,3 @@ jobs:
           stale-issue-label: "action-stale" # 标记陈旧 issue 的标签
           close-issue-label: "not-completed"
           exempt-issue-labels: "keep-open" # 带有这个标签的 issue 不会被标记为陈旧
-

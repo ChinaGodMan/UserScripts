@@ -23,14 +23,14 @@ jobs:
             const prOwner = context.repo.owner;
             const pullRequest = context.payload.pull_request;
             const pull_number = pullRequest.number;
-            const prAuthor = pullRequest.user.login; 
+            const prAuthor = pullRequest.user.login;
 
             // 添加受理人
             await github.rest.issues.addAssignees({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: pull_number, 
-              assignees: [prOwner]  
+              issue_number: pull_number,
+              assignees: [prOwner]
             });
 
             // 请求审阅
@@ -39,7 +39,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 pull_number: pull_number,
-                reviewers: [prOwner] 
+                reviewers: [prOwner]
               });
             } else {
               console.log(`跳过请求审阅，因为 PR 的作者是 ${prAuthor}，也是仓库拥有者，无需审查!`);

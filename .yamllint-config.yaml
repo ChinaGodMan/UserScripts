@@ -1,0 +1,8 @@
+extends: default
+
+rules:
+    comments: disable # allow any number of spaces before comments
+    document-start: disable # allow omission of '---' at document start
+    line-length: disable # allow any new line character
+    new-lines: disable # allow any length lines
+    truthy: disable # allow any value for keys yamllint often falsely detects as truthy
