@@ -1,9 +1,8 @@
 qwy_*
-script_bak
 launch.json
-*.html
 *.txt
 node_modules/
 .eslintcache
 .messages
 .codewait
+__pycache__/

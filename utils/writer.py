@@ -1,6 +1,12 @@
 import os
 import subprocess
 from datetime import datetime, timedelta
+import sys
+sys.dont_write_bytecode = True
+
+# 废弃此函数,越写越乱,
+
+
 def is_first_commit(file_path):
     try:
         # 获取文件的提交次数
@@ -11,8 +17,11 @@ def is_first_commit(file_path):
         commit_count = int(result.stdout.strip())
         return commit_count == 1
     except subprocess.CalledProcessError as e:
-        print(f"错误: 无法获取提交次数 - {file_path}")
+        print(f"错误: 无法获取提交次数 - {file_path} : {e}")
         return False
+
+
+# 废弃此函数,越写越乱,
 def is_commit_recent(file_path, minutes):
     last_commit_time = get_last_git_commit_time(file_path)
     current_time = datetime.now()
@@ -20,6 +29,9 @@ def is_commit_recent(file_path, minutes):
         return False
     else:
         return True
+
+
+# 废弃此函数,越写越乱,
 def get_last_git_commit_time(file_path):
     """获取文件的最后一次 git 提交时间"""
     try:
@@ -32,6 +44,8 @@ def get_last_git_commit_time(file_path):
     except subprocess.CalledProcessError:
         print(f"无法获取文件的 Git 提交时间: {file_path}")
         return None
+
+
 def process_file(file_path, new_content, start_tag, end_tag, insert_position):
     """处理指定文件，将新内容插入到标记之间"""
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -53,8 +67,7 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
     else:
         # 如果没有找到标记，根据参数选择插入到头部还是尾部
         if insert_position == 'head':
-            new_lines = [f"{start_tag}\n", new_content +
-                         '\n', f"{end_tag}\n"] + lines
+            new_lines = [f"{start_tag}\n", new_content + '\n', f"{end_tag}\n"] + lines
         else:
             new_lines = lines
             if start_index == -1:  # 如果开始标记没有找到
@@ -66,6 +79,9 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.writelines(new_lines)
     print(f"Processed {file_path}")
+
+
+# 废弃此函数,越写越乱,
 def is_md_empty(file_path, start_tag, end_tag):
     """判断 md 文件中 start_tag 和 end_tag 之间是否有内容。
     参数:
@@ -93,10 +109,13 @@ def is_md_empty(file_path, start_tag, end_tag):
             return False  # 有内容
     except FileNotFoundError:
         print(f"文件未找到: {file_path}")
-        return True  
+        return True
     except Exception as e:
         print(f"发生错误: {e}")
-        return True  
+        return True
+
+
+# 废弃此函数,越写越乱,
 def should_process_file(file_path, skip_time_check, writer_path, history_true, start_tag, end_tag):
     if skip_time_check:
         return True
@@ -111,25 +130,24 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true, s
     last_commit_time = get_last_git_commit_time(file_path)
     current_time = datetime.now()
     if history_true:
-        print(f"\033[93m history_true 为真，执行时间检查...\033[0m")
+        print(f"\033[93m 为{history_true}执行时间检查...\033[0m")
         if current_time - last_commit_time > timedelta(minutes=5):
-            print(
-                f"\033[91m history_true文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m",)
+            print(f"\033[91m history_true文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m",)
             return False
         else:
             return True  # 提交时间在 5 分钟以内，继续处理文件
     # 检查文件名是否包含 "Change history"
     if "Change history" in file_path:
-        #print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
+        # print(f"\033[91m 文件被跳过: {file_path}（包含 'Change history'）\033[0m")
         return False
     if "Change history" in writer_path:
-        #print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
+        # print(f"\033[91m 文件被跳过: {writer_path}（包含 'Change history'）\033[0m")
         return False
     if is_first_commit(writer_path):
-        #print(f"\033[91m 首次提交,直接添加........。...\033[0m")
+        # print(f"\033[91m 首次提交,直接添加........。...\033[0m")
         return True
     if is_md_empty(writer_path, start_tag, end_tag):
-        #print(f"\033[91m 标志之间无内容直接添加.\033[0m")
+        # print(f"\033[91m 标志之间无内容直接添加.\033[0m")
         return True  # 没有内容，返回 True
     # 如果指定了跳过时间检查，直接处理文件
     if skip_time_check:
@@ -138,10 +156,13 @@ def should_process_file(file_path, skip_time_check, writer_path, history_true, s
         return True  # 如果无法获取提交时间，默认继续处理
     # 如果最后一次提交时间距离现在大于 5 分钟，跳过处理
     if current_time - last_commit_time > timedelta(minutes=5):
-        #print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
+        # print(f"\033[91m 文件被跳过: {file_path}（最后一次提交时间大于5分钟）\033[0m")
         return False
     return True
-def process_markdown(new_content, target_file, start_tag, end_tag, insert_position='tail',  skip_time_check=False, check_file=None, history_true=False):
+
+
+# 废弃此函数,越写越乱,
+def process_markdown(new_content, target_file, start_tag, end_tag, insert_position='tail', skip_time_check=False, check_file=None, history_true=False):
     """
     修改 Markdown 文件内容模块。
     :param new_content: 要插入的内容字符串
