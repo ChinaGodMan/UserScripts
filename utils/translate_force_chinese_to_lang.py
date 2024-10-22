@@ -7,8 +7,9 @@ import threading
 from urllib.parse import urlencode
 from urllib.request import urlopen
 import urllib.parse
-import time
 import subprocess
+
+
 def is_file_updated_more_than(file_path, timeout_minutes):
     try:
         # 使用 git log 获取文件的最后提交时间（Unix 时间戳）
@@ -27,7 +28,7 @@ def is_file_updated_more_than(file_path, timeout_minutes):
         # 检查文件是否在超时时间之前被更新
         return time_diff_minutes > timeout_minutes
     except subprocess.CalledProcessError as e:
-        print(f"错误: 无法获取提交时间 - {file_path}")
+        print(f"错误: 无法获取提交时间 - {file_path} {e}")
         return None
 
 
@@ -65,34 +66,8 @@ json_data = {
     "代码质量": "%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F",
 }
 
+
 # 翻译函数
-
-
-def translate_text_s(text, target_lang):
-    if text in translation_cache:
-        print(f"从缓存中获取翻译：{text} -> {translation_cache[text]}")
-        return translation_cache[text]
-
-    api_url = 'https://translate.googleapis.com/translate_a/single'
-    params = {
-        'client': 'gtx',
-        'dt': 't',
-        'sl': 'auto',
-        'tl': target_lang,
-        'q': text
-    }
-    full_url = api_url + '?' + urlencode(params)
-    try:
-        response = urlopen(full_url)
-        data = response.read().decode('utf-8')
-        # translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
-        translated_text = ''.join(
-            item[0] for item in json.loads(data.replace("'", "\u2019"))[0])
-        return translated_text
-    except Exception as e:
-        print(f"翻译错误：{e}")
-        return None
-
 
 def translate_text(text, target_lang):
 
@@ -108,13 +83,7 @@ def translate_text(text, target_lang):
             print(f"{text} 在缓存中，但需要通过 API 翻译。")
     # 调用翻译 API 进行翻译
     api_url = 'https://translate.googleapis.com/translate_a/single'
-    params = {
-        'client': 'gtx',
-        'dt': 't',
-        'sl': 'auto',
-        'tl': target_lang,
-        'q': text
-    }
+    params = {'client': 'gtx', 'dt': 't', 'sl': 'auto', 'tl': target_lang, 'q': text}
     full_url = api_url + '?' + urlencode(params)
     try:
         # 调用 API 获取翻译
@@ -152,9 +121,8 @@ def read_file_to_memory(file_path, json_data):
 # 翻译锁，确保多个线程不会同时修改 translations
 translation_lock = threading.Lock()
 
+
 # 用于保存翻译结果的线程函数
-
-
 def translate_worker(chinese_texts, translations, lang):
     for idx, chinese_text in chinese_texts:
         translated_text = translate_text(chinese_text, lang)
@@ -163,9 +131,8 @@ def translate_worker(chinese_texts, translations, lang):
             with translation_lock:
                 translations[(idx, chinese_text)] = translated_text
 
+
 # 翻译特定语言的函数（并行处理每种语言）
-
-
 def translate_language(lines, chinese_texts, lang, foldpath, translatefile):
     translations = {}  # 每种语言有自己的翻译结果
     threads = []
@@ -220,14 +187,13 @@ def translate_readme(data, json_data):
         foldpath = item['foldpath']
         translatefile = item['translatefile']
         translatedto = item['translatedto']
-        readme_path = os.path.join(
-            foldpath, translatefile) if foldpath else translatefile
+        readme_path = os.path.join(foldpath, translatefile) if foldpath else translatefile
 
         if not os.path.exists(readme_path):
             print(f'文件 {readme_path} 不存在，跳过翻译。')
             continue
         if is_file_updated_more_than(readme_path, 5):
-            print(f"跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
+            print("跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
             continue
         # 读取文件内容
         lines = read_file_to_memory(readme_path, json_data)
@@ -253,12 +219,10 @@ def translate_readme(data, json_data):
             thread.join()
 
 
-# 示例 JSON 数据读取与处理
+#  JSON 数据读取与处理
 script_dir = os.path.dirname(os.path.abspath(__file__))
 NEW_CONTENT_PATH = os.path.join(script_dir, 'docs/translate_readme.json')
-
 with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as f:
     data = json.load(f)
-
 # 开始翻译
 translate_readme(data, json_data)

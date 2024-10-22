@@ -1,18 +1,23 @@
+from writer import process_file
 import json
-import os
 import sys
 sys.dont_write_bytecode = True
-from writer import process_file
+
+
 # 读取 JSON 文件
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
+
+
 # 根据 relatedscripts 的 ID 找到对应的脚本
 def find_script_by_greasyfork_id(scripts, greasyfork_id):
     for script in scripts:
         if str(script.get('GreasyFork')) == str(greasyfork_id):
             return script
     return None
+
+
 # 生成描述信息，仅针对当前脚本的 relatedscripts
 def generate_description(all_scripts, single_group=False):
     related_scripts_map = {}
@@ -25,6 +30,8 @@ def generate_description(all_scripts, single_group=False):
                 related_scripts_map[relatedscript] = []
             related_scripts_map[relatedscript].append(script)
     return related_scripts_map
+
+
 # 生成 HTML 表格
 def generate_html_table(scripts):
     html_table = '''<table>
@@ -43,7 +50,7 @@ def generate_html_table(scripts):
     <tbody>
     '''
     for script in scripts:
-        full_path=script.get("backuppath")+"/"+script.get("path")
+        full_path = script.get("backuppath") + "/" + script.get("path")
         html_table += f'''<tr>
             <td>
                 <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
@@ -76,13 +83,16 @@ def generate_html_table(scripts):
     html_table += '''</tbody>
     </table>'''
     return html_table
-def generate_grouped_html(related_scripts_map, use_details=True,center=False):
+
+
+# 生产集合,use_details为真收缩,center为真居中
+def generate_grouped_html(related_scripts_map, use_details=True, center=False):
     html_output = ""
-    center_o=''
-    center_c=''
+    center_o = ''
+    center_c = ''
     if center:
-        center_o='<div align="center">'
-        center_c='</div>'
+        center_o = '<div align="center">'
+        center_c = '</div>'
     for related_id, scripts in related_scripts_map.items():
         if use_details:
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
@@ -92,8 +102,9 @@ def generate_grouped_html(related_scripts_map, use_details=True,center=False):
         if use_details:
             print(center_c)
             html_output += f"{center_c}</details>"
-    return html_output  
-# 主程序
+    return html_output
+
+
 json_file_path = 'docs/ScriptsPath.json'
 data = read_json(json_file_path)
 # 按 relatedscripts 分类脚本
