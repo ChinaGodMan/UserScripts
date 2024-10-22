@@ -1,9 +1,6 @@
 name: update-contributors-list
 
 on:
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -38,5 +35,5 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git config --global commit.gpgSign true
           git add docs/README.md
-          git commit -n -S -m "更新[\`docs/README.md\`]内贡献者列表" || echo "没有需要提交的更改"
+          git commit -n -S -m "更新[\`README.md\`]内贡献者列表" || echo "没有需要提交的更改"
           git push
