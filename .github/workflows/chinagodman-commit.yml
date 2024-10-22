@@ -39,7 +39,7 @@ jobs:
       - name: 提交和推送更改
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-          git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"  
+          git config --global user.signingkey  "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
           git add .
           git commit -n  -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
