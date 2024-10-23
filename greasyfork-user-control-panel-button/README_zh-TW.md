@@ -43,8 +43,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork 导航栏增强</h1>
-    <p>「 增强greasyfork导航栏,增加用户列表,用户控制台等 」</p>
+    <h1>GreasyFork 導覽列增強</h1>
+    <p>「 增強greasyfork導覽列,增加用戶列表,使用者控制台等 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
@@ -98,9 +98,9 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍你可能在找GreasyFork相關腳本
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork腳本頁面適用於網址增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁適用於網址不預設跳轉搜尋 轉為可點擊的文字連結並彈出提示
 > -   [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
@@ -139,9 +139,9 @@
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍你可能在找ChatGPT相關腳本
 >
-> -   [**ChatGPT程序码字体缩小**](https://greasyfork.org/scripts/505209): ChatGPT 让程序码字体变小 并且自动折行
+> -   [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): ChatGPT 讓程式碼字體變小 並且自動折行
 > -   [**ChatGPT 聊天複製程式碼和匯出程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
 > -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
@@ -151,13 +151,13 @@
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍你可能在找網頁相關腳本
 >
 > -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 管理網頁對剪貼簿的寫入行為防止未經授權的自動複製和停用音視頻內容預載及自動播放。
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**解除CSDN登入複製**](https://greasyfork.org/scripts/505207): 去你媽的CSDN登入複製,無需登入即可複製
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為表格所有欄位套用色彩漸層來美化
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**網頁高亮關鍵字**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+> -   [**網頁關鍵字高亮顯示**](https://greasyfork.org/scripts/498905): 在網頁上自訂關鍵字突出顯示包括滾動時動態載入的內容
 > -   [**小窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
 > -   [**移除連結下劃線**](https://greasyfork.org/scripts/498625): 移除所有網站上的連結底線，並動態處理新鏈接
 > -   [**上下滾動按鈕**](https://greasyfork.org/scripts/497251): 在頁面右側產生兩個按鈕用於滾動頁面
@@ -168,7 +168,7 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標
@@ -184,19 +184,19 @@
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相关脚本
+> ### 🔍你可能在找Google相關腳本
 >
 > -   [**Google 高級搜尋助手**](https://greasyfork.org/scripts/502652): 在谷歌搜尋頁面頂部新增一個高級搜尋表單
-> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
+> -   [**封鎖谷歌搜尋站點**](https://greasyfork.org/scripts/500262): 在google搜尋屏蔽指定站點
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍你可能在找GreasyFork相關腳本
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork腳本頁面適用於網址增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁適用於網址不預設跳轉搜尋 轉為可點擊的文字連結並彈出提示
 > -   [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
@@ -212,10 +212,10 @@
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍你可能在找成人腳本
 >
 > -   [**MissAV 自動登入**](https://greasyfork.org/scripts/505325): 偵測 MissAV 狀態,並且在未登入時自動登入
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAv批量備份收藏視頻**](https://greasyfork.org/scripts/497682): 從目前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載產生的網頁文件
 > -   [**ThisAV 自動登入**](https://greasyfork.org/scripts/506528): 偵測 ThisAV 狀態,並且在未登入時自動登入
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 
@@ -224,9 +224,9 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍你可能在找自動翻譯
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於5且翻譯文中不含中文，則翻譯並且取代原始文字到中文
+> -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖示，此版本為中文翻譯版本，只把外文翻譯為中文,新增自動翻譯
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
