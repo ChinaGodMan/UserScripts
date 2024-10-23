@@ -41,61 +41,61 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>小窗口预览</h1>
-    <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
+    <h1>Small window preview</h1>
+    <p>「 Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Small Window Preview Change log</strong></h1>
 <h3><strong>📅 2024/9/30 11:56 - Ver 2.5.1.4</strong></h3>
-<p><strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
+<p><strong>optimization</strong>: Add to<code>GUISetting interface</code> The menu is too troublesome,Set up multiple points to point to and from.</p>
 <hr />
 <h3><strong>📅 2024/9/30 10:49 - Ver 2.5.1.3</strong></h3>
-<p><strong>优化</strong>: 添加<code>长按生效时间</code>,鼠标按下等于设置的生效时间后调用打开小窗前的<code>长按触发时间</code>.<br>打开小窗时间=<code>长按生效时间</code>+<code>长按触发时间</code>
-<strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
+<p><strong>optimization</strong>: Add to<code>Long press effective time</code>,After the mouse click is equal to the set effective time, the function before opening the small window is called.<code>Long press trigger time</code>.<br>Open small window time=<code>Long press effective time</code>+<code>Long press trigger time</code>
+<strong>optimization</strong>: Add to<code>GUISetting interface</code> The menu is too troublesome,Set up multiple points to point to and from.</p>
 <hr />
 <h3><strong>📅 2024/9/10 11:05 - Ver 2.5.1.0</strong></h3>
-<p><strong>修复</strong>: 无法跨源读取弹出窗口大小位置的问题。<br />
-<strong>新增</strong>: 当无法跨源读取到弹窗位置时，会发送信息给弹窗，允许弹窗自己设置大小和位置。</p>
+<p><strong>repair</strong>: The problem of not being able to read the size and position of the pop-up window across sources。<br />
+<strong>New</strong>: When the pop-up window location cannot be read across sources，Will send information to the pop-up window，Allow pop-ups to set their own size and position。</p>
 <hr />
 <h3><strong>📅 2024/9/10 09:24 - Ver 2.5.0.0</strong></h3>
-<p><strong>感谢</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> 的代码贡献。<br />
-<strong>新增</strong>:<br />
-• 开启 <code>记录窗口位置</code> 时，自动记录当前域名配置。<br />
-• 查找窗口配置逻辑：域名配置 → 自定义窗口配置 → 脚本自带配置。<br />
-• 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置<br />
-• 配置规则参考<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a><br />
-• 新增功能演示请参考下方视频。</p>
+<p><strong>grateful</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> code contributions。<br />
+<strong>New</strong>:<br />
+• turn on <code>Record window position</code> hour，Automatically record current domain name configuration。<br />
+• Find window configuration logic：Domain name configuration → Custom window configuration → Script comes with configuration。<br />
+• No manual editing required for configuration,The script automatically updates the domain configuration when you change the window size.Every time you change the window size it will be recorded in the global custom configuration<br />
+• Configuration rules reference<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a><br />
+• Please refer to the video below for a demonstration of the new features.。</p>
 <hr />
 <h3><strong>📅 2024/9/3 05:26 - Ver 2.4.0.20</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> 事件错误，修改为检查鼠标 <code>y</code> 轴 &lt; 1 时判断移动是否在浏览器标签页上。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> event error，Modified to check mouse <code>y</code> axis &lt; 1 Determine if the move is on a browser tab。</p>
 <hr />
 <h3><strong>📅 2024/9/2 05:34 - Ver 2.4.0.18</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
-• 长按鼠标模式下按下键盘不触发预览窗口。<br />
-• 拖拽模式下拖拽链接到新标签时不会触发预览窗口。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
+• Pressing the keyboard in long-press mouse mode does not trigger the preview window。<br />
+• When dragging a link to a new label in drag mode, the preview window will not be triggered.。</p>
 <hr />
 <h3><strong>📅 2024/8/29 08:39 - Ver 2.4.0.9</strong></h3>
-<p><strong>新增</strong>: 拖拽时增加超时显示进度条，时间耗尽时取消拖拽打开预览窗口。</p>
+<p><strong>New</strong>: Add timeout to display progress bar when dragging，Cancel drag and drop to open preview window when time runs out。</p>
 <hr />
 <h3><strong>📅 2024/8/29 06:28 - Ver 2.4.0.8</strong></h3>
-<p><strong>优化</strong>: 移除长按时监听鼠标移动的逻辑，改为监听鼠标进入拖拽状态时取消打开预览窗口。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
+<p><strong>optimization</strong>: Remove the logic for monitoring mouse movement when long-pressed，Change to monitor the mouse and cancel the opening of the preview window when it enters the dragging state.。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
 <hr />
 <h3><strong>📅 2024/8/27 00:33 - Ver 2.4.0.5</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> 反馈的 BUG：<br />
-• 修复在关闭预览窗后无法触发时间条打开预览窗的概率性问题。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> feedback BUG：<br />
+• Fixed the probability issue that the time bar cannot be triggered to open the preview window after closing the preview window.。</p>
 <hr />
 <h3><strong>📅 2024/8/25 04:59 - Ver 2.4.0.2</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
-• 添加长按时显示倒计时，增加记住窗口位置功能。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
+• Added display countdown when long press，Added function to remember window position。</p>
 <hr />
 <h3><strong>📅 2024/8/24 07:29 - Ver 2.4</strong></h3>
-<p><strong>优化</strong>: 添加语言包，优化脚本性能。</p>
+<p><strong>optimization</strong>: Add language pack，Optimize script performance。</p>
 <hr />
 <h3><strong>📅 2024/8/23 08:12 - Ver 2.4</strong></h3>
-<p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
-<strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details>
+<p><strong>optimization</strong>: compatible Chrome plug-in <code>Google Chrome super drag 0.9.9</code>。<br />
+<strong>repair</strong>: Fixed the problem that the acrylic layer does not close when clicking the close button of the small window。</p></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
@@ -208,13 +208,13 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍You may be looking for web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**LiftCSDNLoginCopy**](https://greasyfork.org/scripts/505207): fuck youCSDNLoginCopy,Copy without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Highlight keywords on web pages**](https://greasyfork.org/scripts/498906): Highlight text on web pages，if it helps you，Can be modified and used at will
+> -   [**Web page keyword highlighting**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
 > -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
@@ -248,7 +248,7 @@ Recommended browsers and script managers：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍you may be looking forChatGPTRelated scripts
 >
 > -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
 > -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
@@ -260,13 +260,13 @@ Recommended browsers and script managers：
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍You may be looking for web related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**LiftCSDNLoginCopy**](https://greasyfork.org/scripts/505207): fuck youCSDNLoginCopy,Copy without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Highlight keywords on web pages**](https://greasyfork.org/scripts/498906): Highlight text on web pages，if it helps you，Can be modified and used at will
+> -   [**Web page keyword highlighting**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamically loaded content on scroll
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
 > -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
@@ -277,7 +277,7 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍you may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
@@ -293,19 +293,19 @@ Recommended browsers and script managers：
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相关脚本
+> ### 🔍you may be looking forGoogleRelated scripts
 >
 > -   [**Google Advanced search assistant**](https://greasyfork.org/scripts/502652): Add an advanced search form to the top of your Google search page
-> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
+> -   [**Block Google search site**](https://greasyfork.org/scripts/500262): existgoogleSearch and block specific sites
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍you may be looking forGreasyForkRelated scripts
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): The script details page is suitable for URLs that do not jump to search by default. Convert to clickable text link and pop up prompt
 > -   [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
@@ -321,10 +321,10 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You may be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAvBatch backup of favorite videos**](https://greasyfork.org/scripts/497682): from currentmissavPage to obtain image files and video information，And after merging the results, the generated web page file is provided for download.
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
@@ -333,9 +333,9 @@ Recommended browsers and script managers：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍You may be looking for automatic translation
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**foreign language terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
+> -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add agoogleTranslate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese,Add automatic translation
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->

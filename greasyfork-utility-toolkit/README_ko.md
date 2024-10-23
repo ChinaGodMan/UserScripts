@@ -43,74 +43,74 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork糊裱匠</h1>
-    <p>「 增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作 」</p>
+    <h1>Greasyfork프레이머</h1>
+    <p>「 향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+            Fork</a></p><details><summary>기록 업데이트</summary><h1><strong>🛠️ Greasyfork 프레이머 변경 로그</strong></h1>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
-<p><strong>新增</strong>: • 个人主页添加 <code>隐藏私信</code>。</p>
+<p><strong>새로운</strong>: • 개인 홈페이지 추가 <code>비공개 메시지 숨기기</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
-<p><strong>新增</strong>: • 脚本详情页，所有脚本列表添加 <code>脚本评分</code>。</p>
+<p><strong>새로운</strong>: • 스크립트 세부정보 페이지，모든 스크립트 목록이 추가되었습니다. <code>스크립트 등급</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
-<p><strong>修复</strong>: • 修复兼容性问题。</p>
+<p><strong>수리하다</strong>: • 호환성 문제 수정。</p>
 <hr />
 <h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
-<p><strong>新增</strong>: • 在脚本列表顶部添加下载按钮，点击下载所有脚本。</p>
+<p><strong>새로운</strong>: • 스크립트 목록 상단에 다운로드 버튼 추가，모든 스크립트를 다운로드하려면 클릭하세요.。</p>
 <hr />
 <h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
-<p><strong>优化</strong>: • 优化脚本列表图标显示位置。</p>
+<p><strong>최적화</strong>: • 스크립트 목록 아이콘의 표시 위치 최적화。</p>
 <hr />
 <h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
-<p><strong>优化</strong>: • 优化设置界面代码。</p>
+<p><strong>최적화</strong>: • 설정 인터페이스 코드 최적화。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>修复</strong>: • 修正脚本设置界面在移动设备上显示错乱问题。</p>
+<p><strong>수리하다</strong>: • 모바일 장치에서 스크립트 설정 인터페이스가 잘못 표시되는 문제를 수정했습니다.。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
-<p><strong>新增</strong>: • 增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译。</p>
+<p><strong>새로운</strong>: • 베트남어 언어 팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다。</p>
 <hr />
 <h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
-<p><strong>新增</strong>: • 增加 WebHook 页快捷跳转脚本管理。</p>
+<p><strong>새로운</strong>: • 증가하다 WebHook 페이지 빠른 점프 스크립트 관리。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。<br />
-<strong>新增</strong>: • 监听规则增加：<code>user-script-list-section browse-script-list</code>。</p>
+<p><strong>수리하다</strong>: • 모니터링 규칙 변경으로 인한 동적 모니터링 실패 문제 수정。<br />
+<strong>새로운</strong>: • 모니터링 규칙이 추가되었습니다.：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
-<p><strong>优化</strong>: • 复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS。</p>
+<p><strong>최적화</strong>: • 복사 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 새로운 CSS。</p>
 <hr />
 <h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。<br />
-• 增加固定网站侧边操作栏。</p>
+<p><strong>새로운</strong>:<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 이중 열 디스플레이의 스크립트。<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 내비게이션 바를 아름답게。<br />
+• 고정된 웹사이트 사이드 액션 바 추가。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
-<p><strong>新增</strong>: • 完全的繁体语言支持。</p>
+<p><strong>새로운</strong>: • 완전한 전통적인 언어 지원。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加侧边导航栏开关。<br />
-• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。<br />
-<strong>修复</strong>:<br />
-• 修复在移动设备上浏览图片超出浏览器外的问题。<br />
-• 修改在编辑代码时自动勾选美化。</p>
+<p><strong>새로운</strong>:<br />
+• 측면 탐색 표시줄 스위치 추가。<br />
+• 이미지 프록시 추가（활성화되면 호환되지 않음 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 사진 찾아보기）。<br />
+<strong>수리하다</strong>:<br />
+• 모바일 기기에서 브라우저 외부에서 이미지가 보이는 문제 수정。<br />
+• 코드 편집 시 자동으로 미화를 확인하도록 수정。</p>
 <hr />
 <h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
-<p><strong>新增</strong>:<br />
-• 添加导航栏展开 "更多"。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>새로운</strong>:<br />
+• 네비게이션 바 확장 추가 "더"。<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 향상시키다</a> 측면 탐색 모음。<br />
+<strong>최적화</strong>: • 다국어 지원 개선。</p>
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
-<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。<br />
-<strong>修复</strong>: • 修复显示列表上的脚本安装状态。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>새로운</strong>: • 자동 로그인 추가 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a>。<br />
+<strong>수리하다</strong>: • 표시 목록의 스크립트 설치 상태 수정。<br />
+<strong>최적화</strong>: • 다국어 지원 개선。</p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -276,16 +276,16 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork스크립트 페이지는 URL 향상에 적합합니다.**](https://greasyfork.org/scripts/497317): 스크립트 세부정보 페이지는 기본적으로 검색으로 이동하지 않는 URL에 적합합니다. 클릭 가능한 텍스트 링크로 변환 및 팝업 프롬프트
 > -   [**GrreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
 > -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
 > -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
 > -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**Greasyfork 프레이머**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
 > -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 
@@ -317,7 +317,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
 > -   [**ChatGPT코드 글꼴 크기 감소**](https://greasyfork.org/scripts/505209): ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 > -   [**ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”버튼과 ChatGPT 응답으로 코드 블록에 내보내기 버튼이 추가됩니다.，코드 블록의 클래스 이름으로 감지된 프로그래밍 언어를 기반으로 파일에 코드를 저장하라는 메시지를 사용자에게 표시합니다.。
@@ -329,13 +329,13 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍웹 관련 스크립트를 찾고 있을 수도 있습니다.
 >
 > -   [**웹 페이지 작성 클립 버전 권한 관리자**](https://greasyfork.org/scripts/497403): 웹페이지의 클립보드 쓰기 동작을 관리하여 무단 자동 복사를 방지하고 오디오 및 비디오 콘텐츠 사전 로드 및 자동 재생을 비활성화합니다.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**승강기CSDN로그인복사**](https://greasyfork.org/scripts/505207): 엿 먹어라CSDN로그인복사,로그인하지 않고 복사
 > -   [**화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요**](https://greasyfork.org/scripts/507036): 테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**웹페이지에서 키워드 강조표시**](https://greasyfork.org/scripts/498906): 웹페이지의 텍스트 강조표시，그것이 당신에게 도움이 된다면，마음대로 수정하여 사용할 수 있습니다.
+> -   [**웹페이지 키워드 강조**](https://greasyfork.org/scripts/498905): 스크롤 시 동적으로 로드되는 콘텐츠를 포함하여 웹페이지에서 사용자 정의 키워드 강조 표시
 > -   [**작은 창 미리보기**](https://greasyfork.org/scripts/504880): 링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。
 > -   [**링크 밑줄 제거**](https://greasyfork.org/scripts/498625): 모든 사이트의 링크 밑줄 제거，새 링크를 동적으로 처리합니다.
 > -   [**스크롤 버튼**](https://greasyfork.org/scripts/497251): 페이지 스크롤을 위해 페이지 오른쪽에 두 개의 버튼을 생성합니다.
@@ -346,7 +346,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub 파일 목록 미화자**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。유형별로 파일에 색상 및 아이콘 추가，저장소 소스 트리의 파일 유형 아이콘 대신 작은 이미지 표시
@@ -362,26 +362,26 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
 > -   [**Google 고급 검색 도우미**](https://greasyfork.org/scripts/502652): Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
-> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
+> -   [**Google 검색 사이트 차단**](https://greasyfork.org/scripts/500262): 존재하다google특정 사이트 검색 및 차단
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork스크립트 페이지는 URL 향상에 적합합니다.**](https://greasyfork.org/scripts/497317): 스크립트 세부정보 페이지는 기본적으로 검색으로 이동하지 않는 URL에 적합합니다. 클릭 가능한 텍스트 링크로 변환 및 팝업 프롬프트
 > -   [**GrreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
 > -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
 > -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
 > -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**Greasyfork 프레이머**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
 > -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 
@@ -390,10 +390,10 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍성인용 스크립트를 찾고 있을 수도 있습니다.
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAv즐겨찾는 동영상 일괄 백업**](https://greasyfork.org/scripts/497682): 현재부터missav이미지 파일 및 비디오 정보를 얻는 페이지，그리고 그 결과를 병합한 후 생성된 웹페이지 파일을 다운로드할 수 있도록 제공합니다.
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
@@ -402,9 +402,9 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍자동 번역을 찾고 계실 수도 있습니다
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**외국어 터미네이터**](https://greasyfork.org/scripts/504890): 중국어가 아닌 문자 인식，길이가 그 이상인 경우5그리고 번역된 텍스트에는 중국어가 포함되어 있지 않습니다.，그런 다음 원본 텍스트를 중국어로 번역하고 바꿉니다.
+> -   [**웹페이지 번역——중국어로 자동 번역됨**](https://greasyfork.org/scripts/505208): 중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다google번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요,자동 번역 추가
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
