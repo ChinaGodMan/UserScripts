@@ -3,6 +3,8 @@
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @version     1.4.0.0
 // @description 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+// @name:zh-CN        外语终结者
+// @description:zh-CN 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
 // @license     MIT
 // @author      人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match       *://*/*

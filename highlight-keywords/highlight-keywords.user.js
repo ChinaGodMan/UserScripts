@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name        网页高亮关键字
+// @name:zh-CN        网页高亮关键字
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @version     1.1.2.72
 // @description 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:zh-CN 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 // @author      ma bangde,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @include     *
 // @grant       GM_addStyle

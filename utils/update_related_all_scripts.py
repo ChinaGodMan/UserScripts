@@ -1,5 +1,7 @@
 from writer import process_file
 from content_snippet import get_file_description
+from searcher import search_in_file
+import re
 import json
 import os
 import sys
@@ -21,7 +23,7 @@ def find_script_by_greasyfork_id(scripts, greasyfork_id):
 
 
 # 生成描述信息，仅针对当前脚本的relatedscripts
-def generate_description(current_script, all_scripts):
+def generate_description(current_script, all_scripts, code):
     descriptions = []
     # 获取当前脚本的 relatedscripts 值作为分类名
     relatedscripts_category = current_script
@@ -36,17 +38,22 @@ def generate_description(current_script, all_scripts):
         # 如果脚本的 relatedscripts 与当前脚本相同，就将其添加到描述中
         if script_relatedscripts == relatedscripts_category:
             greasyfork_id = script.get('GreasyFork', '未知ID')
-            name = script.get('name', '未知名称')
-            description = script.get('description', '无描述')
+            full_path = script.get("backuppath") + "/" + script.get("path")
+            results = search_in_file(full_path, code)
+            name = "\n".join(results.name_matches)
+            description = "\n".join(results.description_matches)
             link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
             descriptions.append(f"> -   {link}: {description}")
+
     return "\n".join(descriptions) + "\n"
 
 
 def process_script(script, scripts, start_tag, end_tag, key):
     backuppath = script.get('backuppath', '')
     cnfile_path = os.path.join(backuppath, "README.md")
-    descriptions = generate_description(key, scripts)
+
+    descriptions = generate_description(key, scripts, "zh-CN")
+
     olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
     if olddescriptions is None:
         olddescriptions = "ggg"
@@ -59,6 +66,13 @@ def process_script(script, scripts, start_tag, end_tag, key):
         for file in os.listdir(backuppath):
             if file.endswith('.md'):
                 file_path = os.path.join(backuppath, file)
+                match = re.match(r'README_([a-zA-Z\-]+)\.md', file)
+                if match:
+                    lang_code = match.group(1)
+                else:
+                    lang_code = "zh-CN"
+                descriptions = generate_description(key, scripts, lang_code)
+                print(descriptions)
                 process_file(file_path, descriptions, start_tag, end_tag, "tail")
 
 

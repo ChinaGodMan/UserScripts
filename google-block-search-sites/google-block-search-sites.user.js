@@ -3,6 +3,8 @@
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @version     0.0.1.51
 // @description 在google搜索屏蔽指定站点
+// @description:zh-CN 在google搜索屏蔽指定站点
+// @name:zh-CN        屏蔽谷歌搜索站点
 // @license     MIT
 // @author      人民的勤务员 <china.qinwuyuan@gmail.com>
 // @include     /^https?://(www|cse)\.google(\.\w+)+/search\?.*$/
