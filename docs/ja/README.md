@@ -235,7 +235,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-10-19 05:36:25</sub></td>
+            <td><sub>2024-10-23 08:45:01</sub></td>
             <td><sub>1.0.0.23</sub></td>
             <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -291,7 +291,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-10-19 05:36:33</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>1.1.2.72</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -319,7 +319,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-10-15 01:04:58</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>1.0.5.26</sub></td>
             <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
@@ -741,7 +741,7 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-10-19 05:36:28</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>0.0.1.51</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -784,7 +784,7 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-10-19 05:36:29</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>0.9.3.66</sub></td>
             <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -1107,7 +1107,7 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-10-19 05:36:34</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>1.2.3.73</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -1206,7 +1206,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-10-19 05:36:34</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>1.4.0.0</sub></td>
             <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -1234,7 +1234,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-10-19 05:36:37</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>0.31.0.23</sub></td>
             <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -1313,17 +1313,17 @@
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                                    推奨ブラウザ                                     |                                                  インストールマネージャー                                                   | ブラウザをインストールする                                                    |
-| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールする                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|       <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                              <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                              | <center>[![][safari]][safari_link]                                            |
+|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|                   <center> Opera ブラウザ[![][opera]][opera_link]                   | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|                <center> Via ブラウザ（Android）[![][via]][via_link]                 |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
-|                   <center> X ブラウザ（Android） [![][x]][x_link]                   |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
-|               <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|              <center> キツネザルブラウザ（Android）[![][le]][le_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                                     |                                                                                                                             |                                                                               |
+|              <center> Opera ブラウザ[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via ブラウザ（Android）[![][via]][via_link]            |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X ブラウザ（Android） [![][x]][x_link]              |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> キツネザルブラウザ（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "タンパーモンキー"
 [Violentmonkey]: https://violentmonkey.github.io/ "凶暴な猿"

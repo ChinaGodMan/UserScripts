@@ -235,7 +235,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:22</sub></td>
-            <td><sub>2024-10-19 05:36:25</sub></td>
+            <td><sub>2024-10-23 08:45:01</sub></td>
             <td><sub>1.0.0.23</sub></td>
             <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -291,7 +291,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 07:05:05</sub></td>
-            <td><sub>2024-10-19 05:36:33</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>1.1.2.72</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -319,7 +319,7 @@
                 </a>
             </td>
             <td><sub>2024-06-26 06:53:12</sub></td>
-            <td><sub>2024-10-15 01:04:58</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>1.0.5.26</sub></td>
             <td><sub>2024-08-24 06:02:07</sub></td>
         </tr>
@@ -741,7 +741,7 @@
                 </a>
             </td>
             <td><sub>2024-07-11 14:21:02</sub></td>
-            <td><sub>2024-10-19 05:36:28</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>0.0.1.51</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -784,7 +784,7 @@
                 </a>
             </td>
             <td><sub>2024-06-08 05:36:47</sub></td>
-            <td><sub>2024-10-19 05:36:29</sub></td>
+            <td><sub>2024-10-23 08:45:02</sub></td>
             <td><sub>0.9.3.66</sub></td>
             <td><sub>2024-07-27 20:54:00</sub></td>
         </tr>
@@ -1107,7 +1107,7 @@
                 </a>
             </td>
             <td><sub>2024-06-12 10:58:39</sub></td>
-            <td><sub>2024-10-19 05:36:34</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>1.2.3.73</sub></td>
             <td><sub>2024-07-27 20:54:01</sub></td>
         </tr>
@@ -1206,7 +1206,7 @@
                 </a>
             </td>
             <td><sub>2024-08-24 10:37:08</sub></td>
-            <td><sub>2024-10-19 05:36:34</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>1.4.0.0</sub></td>
             <td><sub>2024-07-27 20:58:35</sub></td>
         </tr>
@@ -1234,7 +1234,7 @@
                 </a>
             </td>
             <td><sub>2024-08-26 11:37:23</sub></td>
-            <td><sub>2024-10-19 05:36:37</sub></td>
+            <td><sub>2024-10-23 08:45:03</sub></td>
             <td><sub>0.31.0.23</sub></td>
             <td><sub>2024-07-27 20:58:34</sub></td>
         </tr>
@@ -1313,17 +1313,17 @@
 
 ## 🌐 브라우저 및 스크립트 관리자
 
-|                                 권장 브라우저                                  |                                                         설치 관리자                                                         | 브라우저 설치                                                                 |
-| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               권장 브라우저                                |                                                         설치 관리자                                                          | 브라우저 설치                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome 또는 기반으로 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|    <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                               <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                            |
+|  <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox 또는 기반으로 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|                <center> Opera 브라우저[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|              <center> Via 브라우저（Android）[![][via]][via_link]              |                                                   <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
-|                <center> X 브라우저（Android） [![][x]][x_link]                 |                                                   <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
-|            <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|           <center> 여우원숭이 브라우저（Android）[![][le]][le_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                                |                                                                                                                             |                                                                               |
+|              <center> Opera 브라우저[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via 브라우저（Android）[![][via]][via_link]            |                                                    <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X 브라우저（Android） [![][x]][x_link]              |                                                    <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> 여우원숭이 브라우저（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "원숭이를 조작하다"
 [Violentmonkey]: https://violentmonkey.github.io/ "난폭한 원숭이"
