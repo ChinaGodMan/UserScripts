@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name        解除CSDN登录复制
-// @namespace   https://github.com/ChinaGodMan/UserScripts
-// @version     1.0.0.23
+// @name              解除CSDN登录复制
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @version           1.0.0.23
 // @name:zh-CN        解除CSDN登录复制
-// @description:zh-CN             去你妈的CSDN登录复制,无需登录即可复制
-// @description                 去你妈的CSDN登录复制,无需登录即可复制
-// @author      人民的勤务员 <china.qinwuyuan@gmail.com>
-// @match       https://blog.csdn.net/*
-// @supportURL  https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL https://github.com/ChinaGodMan/UserScripts
-// @grant       none
-// @license     MIT
-// @icon        data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTAuNSwxMUM4LDExIDYsMTMgNiwxNS41QzYsMTggOCwyMCAxMC41LDIwQzEzLDIwIDE1LDE4IDE1LDE1LjVDMTUsMTMgMTMsMTEgMTAuNSwxMU0xMC41LDEyLjVBMywzIDAgMCwxIDEzLjUsMTUuNUMxMy41LDE2LjA2IDEzLjM1LDE2LjU4IDEzLjA4LDE3TDksMTIuOTJDOS40MiwxMi42NSA5Ljk0LDEyLjUgMTAuNSwxMi41TTcuNSwxNS41QzcuNSwxNC45NCA3LjY1LDE0LjQyIDcuOTIsMTRMMTIsMTguMDhDMTEuNTgsMTguMzUgMTEuMDYsMTguNSAxMC41LDE4LjVBMywzIDAgMCwxIDcuNSwxNS41WiIgZmlsbD0iI2NjMDAwMCIgLz48L3N2Zz4=
+// @description:zh-CN 去你妈的CSDN登录复制,无需登录即可复制
+// @description       去你妈的CSDN登录复制,无需登录即可复制
+// @author            人民的勤务员 <china.qinwuyuan@gmail.com>
+// @match             https://blog.csdn.net/*
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
+// @grant             none
+// @license           MIT
+// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEzLDlIMTguNUwxMywzLjVWOU02LDJIMTRMMjAsOFYyMEEyLDIgMCAwLDEgMTgsMjJINkM0Ljg5LDIyIDQsMjEuMSA0LDIwVjRDNCwyLjg5IDQuODksMiA2LDJNMTAuNSwxMUM4LDExIDYsMTMgNiwxNS41QzYsMTggOCwyMCAxMC41LDIwQzEzLDIwIDE1LDE4IDE1LDE1LjVDMTUsMTMgMTMsMTEgMTAuNSwxMU0xMC41LDEyLjVBMywzIDAgMCwxIDEzLjUsMTUuNUMxMy41LDE2LjA2IDEzLjM1LDE2LjU4IDEzLjA4LDE3TDksMTIuOTJDOS40MiwxMi42NSA5Ljk0LDEyLjUgMTAuNSwxMi41TTcuNSwxNS41QzcuNSwxNC45NCA3LjY1LDE0LjQyIDcuOTIsMTRMMTIsMTguMDhDMTEuNTgsMTguMzUgMTEuMDYsMTguNSAxMC41LDE4LjVBMywzIDAgMCwxIDcuNSwxNS41WiIgZmlsbD0iI2NjMDAwMCIgLz48L3N2Zz4=
 
 
 // ==/UserScript==

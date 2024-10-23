@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name              网页关键词高亮显示
-// @name:zh-CN              网页关键词高亮显示
+// @name:zh-CN        网页关键词高亮显示
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           1.0.5.26
 // @description       在网页上自定义关键词突出显示包括滚动时动态加载的内容
