@@ -3,6 +3,8 @@
 // @author      Kaiter-Plus & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @description 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @name:zh-CN        网页翻译——自动翻译为中文
+// @description:zh-CN 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 // @version     0.31.0.23
 // @license     MIT
 // @include     *://*
