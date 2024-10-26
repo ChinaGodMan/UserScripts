@@ -1,35 +1,3 @@
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-## 使用帮助
-
-推荐浏览器和脚本管理器：
-
--   **Greasemonkey + Waterfox**
--   **Tampermonkey/Violentmonkey + Firefox**
--   **Tampermonkey/Violentmonkey + Chrome**
--   **Userscripts + ios Safari**
--   **Violentmonkey/KiWiBrowser + Android**
-
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
-
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-### 查看所有发布脚本
-
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-> ### 🔍你可能在找Google相关脚本
->
-> -   [**Google 高级搜索助手**](https://greasyfork.org/scripts/502652): 在谷歌搜索页面顶部添加一个高级搜索表单
-> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
 
 <div align="right">
@@ -104,6 +72,46 @@
 
 -   在 Google 搜索页面顶部添加一个“高级搜索”按钮，点击按钮可显示高级搜索表单。
 -   高级搜索表单包含了以下搜索选项：
+
+## 感谢
+
+脚本修改自 **[shiquda](https://greasyfork.org/users/935206)** 发布的脚本 [Google Advanced Search Assistant](https://greasyfork.org/scripts/474178) 
+
+![mb_en.png](https://s2.loli.net/2024/08/05/VcqI6pXs3AaOW1C.png)
+![PC_en.png](https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png)
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找Google相关脚本
+>
+> -   [**Google 高级搜索助手**](https://greasyfork.org/scripts/502652): 在谷歌搜索页面顶部添加一个高级搜索表单
+> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## 使用帮助
+
+推荐浏览器和脚本管理器：
+
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
+<a href="#top">回到顶部↑</a></p>
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### 查看所有发布脚本
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
