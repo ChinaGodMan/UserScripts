@@ -1,3 +1,23 @@
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Help
+
+Recommended browsers and script managers：
+
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### View all publish scripts
+
+<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
 
 <div align="right">
@@ -18,7 +38,7 @@
 
 <center><div align="center">
     <h1>ChatGPT character counter</h1>
-    <p>「 添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。） 」</p>
+    <p>「 add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter/chatgpt-counter.user.js?color=%23990000">
     <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">Github</a> | ⭐<a
@@ -137,3 +157,10 @@
 > -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add agoogleTranslate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese,Add automatic translation
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">back to top↑</a></p></div></center>
+
+<!--FOOTER--END-->

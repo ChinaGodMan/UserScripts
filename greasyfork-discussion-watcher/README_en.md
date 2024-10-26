@@ -62,7 +62,7 @@
 <p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork In-site notifications have been gradually supported,Scripts will lose their meaning.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your own newly opened discussion,并且在Match last speaker用户 ID on failure,匹配最后发言人.</p>
+<p><strong>New</strong>: Skip your own newly opened discussion,and inMatch last speakeruser ID on failure,Match last speaker.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
@@ -151,9 +151,6 @@ Recommended browsers and script managers：
 -   **Violentmonkey/KiWiBrowser + Android**
 
 **If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
-
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /
-<a href="#top">back to top↑</a></p>
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -255,3 +252,10 @@ Recommended browsers and script managers：
 > -   [**web page translation——Automatically translated to Chinese**](https://greasyfork.org/scripts/505208): Give the lower right corner of each non-Chinese web page（Can be adjusted to the lower left corner）add agoogleTranslate icon，This version is a Chinese translation version，Only translate foreign languages ​​into Chinese,Add automatic translation
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">back to top↑</a></p></div></center>
+
+<!--FOOTER--END-->

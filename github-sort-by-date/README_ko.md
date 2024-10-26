@@ -118,9 +118,6 @@
 
 **사용자 스크립트 설치 방법에 대해 더 알고 싶다면,[나를 클릭하세요](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)그래픽 교육 보기!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /
-<a href="#top">맨 위로↑</a></p>
-
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 모든 게시 스크립트 보기
@@ -221,3 +218,10 @@
 > -   [**웹페이지 번역——중국어로 자동 번역됨**](https://greasyfork.org/scripts/505208): 중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다google번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요,자동 번역 추가
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">맨 위로 돌아가기↑</a></p></div></center>
+
+<!--FOOTER--END-->
