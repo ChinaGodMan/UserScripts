@@ -118,9 +118,6 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 **Nếu bạn cần biết thêm về cách cài đặt userscript,[bấm vào tôi](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)Xem giảng dạy đồ họa!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /
-<a href="#top">trở lại đầu trang↑</a></p>
-
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### Xem tất cả các tập lệnh xuất bản
@@ -221,3 +218,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**dịch trang web——Tự động dịch sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp góc dưới bên phải của mỗi trang web không phải tiếng Trung Quốc（Có thể điều chỉnh ở góc dưới bên trái）thêm mộtgoogleBiểu tượng dịch，Phiên bản này là phiên bản dịch tiếng Trung，Chỉ dịch tiếng nước ngoài sang tiếng Trung,Thêm bản dịch tự động
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /<a href="#top">trở lại đầu trang↑</a></p></div></center>
+
+<!--FOOTER--END-->

@@ -323,9 +323,6 @@
 
 **如果你需要了解更多關於如何安裝使用者腳本,[點擊我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看圖文教學!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /
-<a href="#top">回到頂部↑</a></p>
-
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 查看所有發布腳本
@@ -426,3 +423,10 @@
 > -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖示，此版本為中文翻譯版本，只把外文翻譯為中文,新增自動翻譯
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /<a href="#top">回到頂部↑</a></p></div></center>
+
+<!--FOOTER--END-->

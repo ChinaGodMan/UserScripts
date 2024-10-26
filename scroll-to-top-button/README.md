@@ -100,9 +100,6 @@
 
 **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#top">回到顶部↑</a></p>
-
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ### 查看所有发布脚本
@@ -203,3 +200,10 @@
 > -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+
+<!--FOOTER-->
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
+
+<!--FOOTER--END-->

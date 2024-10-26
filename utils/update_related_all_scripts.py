@@ -1,4 +1,4 @@
-from writer import process_file
+from writer import process_file_plus
 from content_snippet import get_file_description
 from searcher import search_in_file
 import re
@@ -73,7 +73,7 @@ def process_script(script, scripts, start_tag, end_tag, key):
                     lang_code = "zh-CN"
                 descriptions = generate_description(key, scripts, lang_code)
                 print(descriptions)
-                process_file(file_path, descriptions, start_tag, end_tag, "tail")
+                process_file_plus(file_path, descriptions, start_tag, end_tag, "<!--FOOTER-->")
 
 
 def main():
