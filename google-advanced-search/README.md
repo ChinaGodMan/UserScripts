@@ -70,12 +70,22 @@
 
 ## 功能
 
--   在 Google 搜索页面顶部添加一个“高级搜索”按钮，点击按钮可显示高级搜索表单。
+-   在 Google 搜索页面顶部添加一个 “高级搜索” 按钮，点击按钮可显示高级搜索表单。
 -   高级搜索表单包含了以下搜索选项：
+    -   `以下所有字词`：搜索结果中必须包含所有指定的关键字。
+    -   `与以下字词完全匹配`：搜索结果中必须包含完全匹配指定字词的结果。
+    -   `以下任意字词`：搜索结果中必须包含指定的任意一个关键字。
+    -   `排除以下字词`：搜索结果中不包含指定的关键字。
+    -   `包含的数字范围`：搜索结果中包含指定范围内的数字。
+    -   `最后更新时间`：搜索结果中包含指定更新时间的结果。
+    -   `网站或域名`：搜索结果中包含指定网站或域名的结果。
+    -   `文件类型`：搜索结果中包含指定文件类型的结果。
+-   可以保存以前的搜索选项，这样在打开新页面时会自动填充表单。
+-   提供清空按钮，可以清除表单中的数据。
 
 ## 感谢
 
-脚本修改自 **[shiquda](https://greasyfork.org/users/935206)** 发布的脚本 [Google Advanced Search Assistant](https://greasyfork.org/scripts/474178) 
+脚本修改自 **[shiquda](https://greasyfork.org/users/935206)** 发布的脚本 [Google Advanced Search Assistant](https://greasyfork.org/scripts/474178)
 
 ![mb_en.png](https://s2.loli.net/2024/08/05/VcqI6pXs3AaOW1C.png)
 ![PC_en.png](https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png)

@@ -1,27 +1,19 @@
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
 
-<center><div align="center">
-    <h1>GreasyFork Markdown toobar</h1>
-    <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
-    <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
-    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
-<h3><strong>📅 2024-10-02 - Ver: 2.0.5</strong></h3>
-<p><strong>新增</strong>: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:<code>var translate = "en"</code>.</p>
-<p><img alt="tl.gif" src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif" /></p>
-<hr />
-<h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
-<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a></p>
-<ul>
-<li><code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></li>
-</ul>
-<hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
-</div></center>
+<div align="right">
+    <h6>
+        <picture>
+            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+            <img height=14
+                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+        </picture>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar/README_en.md">English</a>
+    </h6>
+</div>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
@@ -46,6 +38,86 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+
+<center><div align="center">
+    <h1>GreasyFork Markdown toobar</h1>
+    <p>「 在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍 」</p>
+    <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
+    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
+<h3><strong>📅 2024-10-02 - Ver: 2.0.5</strong></h3>
+<p><strong>新增</strong>: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:<code>var translate = "en"</code>.</p>
+<p><img alt="tl.gif" src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif" /></p>
+<hr />
+<h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>
+<p><strong>修改</strong>: <a href="https://greasyfork.org/zh-CN/scripts/422887">GreasyFork markdown</a></p>
+<ul>
+<li><code>DOMContentLoaded</code> 有时会与其他脚本冲突，导致监听失败。已更改为 <code>load</code></li>
+</ul>
+<hr /></details>
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505164.png">
+</div></center>
+
+<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+
+该脚本是[此脚本](https://greasyfork.org/en/scripts/6779-markdown-toolbar-for-gf-and-uso/code?version=179573)的分支，由 wOxxOm 编写，适用于新的 GreasyFork 布局。  
+感谢他制作了如此重要的脚本。
+
+-   常用格式按钮（仅 Markdown）
+-   (论坛) HTML 和 Markdown 格式帮助链接
+-   CODE 按钮：在选中文本前后添加 `` 或 ```（多行文本时）
+-   新评论默认使用 MARKDOWN 格式 - 也可以在您的个人资料设置中进行更改。
+
+该脚本在 Tampermonkey 和 Violentmonkey 上测试通过。  
+不支持任何版本的 Greasemonkey（脚本可能会运行，但未测试）。
+
+**注意事项：**
+
+-   如果您遇到脚本问题，请在[仓库](https://github.com/darkred/Userscripts/issues)报告，始终欢迎 PR。
+-   请注意，我不是脚本的原作者：  
+    我的目标是让该脚本在新的 GF 布局上恢复功能。这就是全部。
+-   `.markup_choice` 单选按钮是网站的元素，而不是脚本的！  
+    ![markup_choice](https://i.imgur.com/fUkqf9I.jpg)
+-   已知问题：
+    -   目前用于切换到预览标签时隐藏工具栏的方法有缺陷：  
+        有时工具栏可能不会隐藏，也可能在切换回时无法恢复。  
+        工具栏的隐藏时间也早于预期：在点击预览时立即隐藏，而不是在预览标签获得焦点时。
+
+**修改内容：**
+[GreasyFork markdown](https://greasyfork.org/scripts/422887)
+
+-   2024-08-04T08:59:11 `DOMContentLoaded` 有时与其他脚本冲突，导致监听器失效。更改为 `load`。
+
+**截图：**（见附件）
+
+如果您有任何 bug、修复建议或想法，请在我的 [GitHub 仓库](https://github.com/darkred/Userscripts)报告
+
+![tl.gif](https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif)  
+![截图1](https://greasyfork.s3.us-east-2.amazonaws.com/mjjezdy220vguyllvmpsgpfjqpz8)  
+![截图2](https://greasyfork.s3.us-east-2.amazonaws.com/asth9x7akm7goqddr5u0f7uia92k)  
+![截图3](https://greasyfork.s3.us-east-2.amazonaws.com/0imd0nxmpd0jztoqhgionebw4jfi)  
+![截图4](https://greasyfork.s3.us-east-2.amazonaws.com/u3fgy6vyn01419tqb3zvd9h96bue)
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找GreasyFork相关脚本
+>
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+> -   [**GreaysFork 增强WebHook同步设置**](https://greasyfork.org/scripts/506717): GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
+> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏
+> -   [**Greasyfork 脚本显示评分**](https://greasyfork.org/scripts/501119): 在浏览脚本列表时在脚本名称后面添加脚本评分
+> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): 使用谷歌搜索GreasyFork和SleazyFork上的脚本
+> -   [**GreasyFork: 导航栏增强**](https://greasyfork.org/scripts/501880): 在导航栏上添加用户列表,控制台,收藏等..
+> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
+> -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
+> -   [**Script Finder 油猴脚本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何网站上找到适用于该网站的 油猴脚本。
+
+<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -69,24 +141,6 @@
 ### 查看所有发布脚本
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-> ### 🔍你可能在找GreasyFork相关脚本
->
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> -   [**GreaysFork 增强WebHook同步设置**](https://greasyfork.org/scripts/506717): GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏
-> -   [**Greasyfork 脚本显示评分**](https://greasyfork.org/scripts/501119): 在浏览脚本列表时在脚本名称后面添加脚本评分
-> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): 使用谷歌搜索GreasyFork和SleazyFork上的脚本
-> -   [**GreasyFork: 导航栏增强**](https://greasyfork.org/scripts/501880): 在导航栏上添加用户列表,控制台,收藏等..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
-> -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> -   [**Script Finder 油猴脚本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何网站上找到适用于该网站的 油猴脚本。
-
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

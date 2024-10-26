@@ -8,10 +8,10 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README.md">Simplified Chinese</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_zh-TW.md">Traditional Chinese</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_zh-TW.md">繁體中文</a>
     </h6>
 </div>
 
