@@ -8,10 +8,10 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README.md">Simplified Chinese</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">Traditional Chinese</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">繁體中文</a>
     </h6>
 </div>
 
