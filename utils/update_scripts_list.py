@@ -34,54 +34,42 @@ def generate_description(all_scripts, single_group=False):
 
 # 生成 HTML 表格
 def generate_html_table(scripts):
-    html_table = '''<table>
-    <thead>
-        <tr>
-            <th>脚本名称</th>
-            <th>脚本说明</th>
-            <th>GitHub</th>
-            <th>Greasyfork</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">发布时间</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">更新时间</th>
-            <th><img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">最新版本</th>
-            <th><img src="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/docs/icon/icons8-project-management-48.png" width="16" height="16">首次创建</th>
-        </tr>
-    </thead>
-    <tbody>
-    '''
+    html_table = ''''''
     for script in scripts:
         full_path = script.get("backuppath") + "/" + script.get("path")
-        html_table += f'''<tr>
-            <td>
-                <img src="https://greasyfork.org/vite/assets/blacklogo96-CxYTSM_T.png" width="16" height="16">
-                <a href="https://greasyfork.org/zh-CN/scripts/{script.get("GreasyFork")}" target="_blank">{script.get("name")}</a><br>
-                <img src="https://github.githubassets.com/favicons/favicon.svg" width="16" height="16">
-                <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/{full_path}" target="_blank">GitHub</a>
-                <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}#readme" target="_blank">
-                    <mark>Readme</mark>
-                </a>
-            </td>
-            <td>{script.get("description")}</td>
-            <td>
-                <a href="https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/{full_path}">
-                    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/{full_path}?style=social" alt="size">
-                    <br>安装
-                </a>
-            </td>
-            <td>
-                <a href="https://update.greasyfork.org/scripts/{script.get("GreasyFork")}.user.js">
-                    <img src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?color=%23990000&label=Installs">
-                    <br>安装
-                </a>
-            </td>
-            <td><sub>{script.get("created_at")}</sub></td>
-            <td><sub>{script.get("code_updated_at")}</sub></td>
-            <td><sub>{script.get("version")}</sub></td>
-            <td><sub>{script.get("local_created_at")}</sub></td>
-        </tr>
+        placeholder_image = "https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"
+        img_tag = f'<img width=511 height=500 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
+        html_table += f'''<h3>
+    <a href="../{script.get("backuppath")}">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+    <a href="../{script.get("backuppath")}">{script.get("name")}</a>&nbsp;
+    <a href="../{script.get("backuppath")}">
+        <img height=20 src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
+</h3>
+
+<details>
+    <summary>{script.get("description")}</summary>
+    <br><blockquote>
+        <a href="../{script.get("backuppath")}">
+           {img_tag}</a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/{script.get("GreasyFork")}">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/{script.get("GreasyFork")}">
+        Greasemonkey</a> /
+    <a href="../{script.get("backuppath")}/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../{script.get("backuppath")}/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a>
+</blockquote>
         '''
-    html_table += '''</tbody>
-    </table>'''
+
     return html_table
 
 
@@ -97,7 +85,7 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
         if use_details:
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
-            html_output += f"<h2>{related_id}</h2>"
+            html_output += f"<h1>{related_id}</h1>"
         html_output += generate_html_table(scripts)
         if use_details:
             print(center_c)
@@ -109,7 +97,7 @@ json_file_path = 'docs/ScriptsPath.json'
 data = read_json(json_file_path)
 # 按 relatedscripts 分类脚本
 related_scripts_map = generate_description(data.get('scripts', []))
-html_output = generate_grouped_html(related_scripts_map, True)
+html_output = generate_grouped_html(related_scripts_map, False)
 # 读取 README.md 文件并替换表格
 readme_path = 'docs/README.md'
 process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
