@@ -40,6 +40,7 @@ translation_cache = {
     "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值
     "问题": ("issues", False),
     "所有脚本总安装数": ("issues", True),  # 需要翻译,且需要URL编码
+    "用户数量": ("issues", True),  # 需要翻译,且需要URL编码
     "今日所有脚本安装数": ("issues", True),
     "所有一般": ("issues", True),
     "联系": ("issues", True),
@@ -64,6 +65,7 @@ json_data = {
     "问题": "%E9%97%AE%E9%A2%98",
     "联系": "%E8%81%94%E7%B3%BB",
     "代码质量": "%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F",
+    "用户数量": "%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F",
 }
 
 

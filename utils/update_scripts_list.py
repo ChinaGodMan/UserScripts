@@ -45,7 +45,7 @@ def generate_html_table(scripts):
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
     <a href="../{script.get("backuppath")}">{script.get("name")}</a>&nbsp;
     <a href="../{script.get("backuppath")}">
-        <img height=20 src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
+        <img height=24 src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
