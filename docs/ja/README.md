@@ -37,7 +37,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**違反があった場合,連絡先を削除する必要があります**
+**侵害があった場合,連絡先を削除する必要があります**
 
 ## スクリプトリスト
 
@@ -46,14 +46,14 @@
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <h1>ChatGPT関連するスクリプト</h1><h3>
     <a href="../chatgpt-code-styling">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../chatgpt-code-styling">ChatGPTコードのフォントサイズが小さくなりました</a>&nbsp;
     <a href="../chatgpt-code-styling">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>させて ChatGPT コードボックスのフォントサイズが小さくなる</summary>
+    <summary>させて ChatGPT コードボックスのフォントサイズが小さくなります</summary>
     <br><blockquote>
         <a href="../chatgpt-code-styling">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -75,7 +75,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-copy-code-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../chatgpt-copy-code-button">ChatGPT チャットコードコピーボタン</a>&nbsp;
     <a href="../chatgpt-copy-code-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -104,7 +104,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-counter">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../chatgpt-counter">ChatGPT 文字カウンター</a>&nbsp;
     <a href="../chatgpt-counter">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -133,7 +133,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../chatgpt-plus">ChatGPT セルフメッセージと最大幅を折りたたむ</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -162,14 +162,14 @@
 </blockquote>
         <h1>Web関連のスクリプト</h1><h3>
     <a href="../clipboard-manager">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../clipboard-manager">Web ページ書き込みクリップ バージョン認証マネージャー</a>&nbsp;
     <a href="../clipboard-manager">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</summary>
+    <summary>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
            <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -191,7 +191,7 @@
 </blockquote>
         <h3>
     <a href="../csdn-blocker">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../csdn-blocker">リフトCSDNログインコピーの制限</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -220,7 +220,7 @@
 </blockquote>
         <h3>
     <a href="../colorful-table">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../colorful-table">ゴージャスなグラデーションで Web フォームを美しくする</a>&nbsp;
     <a href="../colorful-table">
         <img height=20 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -249,8 +249,8 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
-    <a href="../highlight-keywords">网页高亮关键字+(推薦する)</a>&nbsp;
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
+    <a href="../highlight-keywords">Web ページ上のキーワードを強調表示する+(推薦する)</a>&nbsp;
     <a href="../highlight-keywords">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
@@ -278,7 +278,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords-mini">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../highlight-keywords-mini">Web テキストを強調表示する-ミニバージョン</a>&nbsp;
     <a href="../highlight-keywords-mini">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -307,7 +307,7 @@
 </blockquote>
         <h3>
     <a href="../popup-window">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../popup-window">小さなウィンドウでプレビュー</a>&nbsp;
     <a href="../popup-window">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -336,7 +336,7 @@
 </blockquote>
         <h3>
     <a href="../remove-link-underlines">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../remove-link-underlines">リンクの下線を削除する</a>&nbsp;
     <a href="../remove-link-underlines">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -365,7 +365,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../scroll-button">小さな上下スクロールボタン</a>&nbsp;
     <a href="../scroll-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -394,7 +394,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-to-top-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../scroll-to-top-button">ワンタッチの上下ボタン</a>&nbsp;
     <a href="../scroll-to-top-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -423,7 +423,7 @@
 </blockquote>
         <h1>GitHub関連するスクリプト</h1><h3>
     <a href="../github-commit-viewer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-commit-viewer">GitHub送信情報表示HTML</a>&nbsp;
     <a href="../github-commit-viewer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -452,7 +452,7 @@
 </blockquote>
         <h3>
     <a href="../github-file-list-beautifier-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub ファイルリスト整形ツール</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -481,7 +481,7 @@
 </blockquote>
         <h3>
     <a href="../github-linguist-expand">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../github-linguist-expand">Github コード言語のリストをすべて表示</a>&nbsp;
     <a href="../github-linguist-expand">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -510,7 +510,7 @@
 </blockquote>
         <h3>
     <a href="../github-device-authorization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../github-device-authorization">GitHub デバイスの認証を自動的に確認する</a>&nbsp;
     <a href="../github-device-authorization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -539,7 +539,7 @@
 </blockquote>
         <h3>
     <a href="../github-folder-downloader">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../github-folder-downloader">GitHubフォルダーのダウンロード</a>&nbsp;
     <a href="../github-folder-downloader">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -568,7 +568,7 @@
 </blockquote>
         <h3>
     <a href="../github-raw-file-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../github-raw-file-plus">GitHub単一ファイルのダウンロードとファイルのコピーURL</a>&nbsp;
     <a href="../github-raw-file-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -597,7 +597,7 @@
 </blockquote>
         <h3>
     <a href="../github-repo-size-view">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github 強化アシスタント 倉庫のディスプレイサイズ 非アクティブな開発に関する警告 倉庫内のユーザーの他の倉庫に素早くジャンプします 🤠</a>&nbsp;
     <a href="../github-repo-size-view">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -626,7 +626,7 @@
 </blockquote>
         <h3>
     <a href="../github-sort-by-date">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../github-sort-by-date">GitHub Sort by Date</a>&nbsp;
     <a href="../github-sort-by-date">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -655,7 +655,7 @@
 </blockquote>
         <h1>Google関連するスクリプト</h1><h3>
     <a href="../google-advanced-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../google-advanced-search">Google 詳細検索</a>&nbsp;
     <a href="../google-advanced-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -684,14 +684,14 @@
 </blockquote>
         <h3>
     <a href="../google-block-search-sites">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../google-block-search-sites">Google 特定のサイトを検索してブロックする</a>&nbsp;
     <a href="../google-block-search-sites">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</summary>
+    <summary>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</summary>
     <br><blockquote>
         <a href="../google-block-search-sites">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -713,7 +713,7 @@
 </blockquote>
         <h1>GreasyFork関連するスクリプト</h1><h3>
     <a href="../greasyfork-link">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../greasyfork-link">GreasyFork強化に適した</a>&nbsp;
     <a href="../greasyfork-link">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -742,7 +742,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-scripts-data-visualization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork ユーザーが公開したスクリプト データの視覚化</a>&nbsp;
     <a href="../greasyfork-user-scripts-data-visualization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -771,7 +771,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-webhook-sync-enhanced">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../greasyfork-webhook-sync-enhanced">GreaysFork 強化する WebHook同期設定</a>&nbsp;
     <a href="../greasyfork-webhook-sync-enhanced">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -800,7 +800,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-markdown-toolbar">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../greasyfork-markdown-toolbar">GreasyFork Markdown toobar</a>&nbsp;
     <a href="../greasyfork-markdown-toolbar">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -829,7 +829,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-ranks">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../greasyfork-ranks">GreasyFork 脚本の評価を表示する</a>&nbsp;
     <a href="../greasyfork-ranks">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -858,7 +858,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../greasyfork-search">GreasyFork 詳細検索</a>&nbsp;
     <a href="../greasyfork-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -887,7 +887,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-control-panel-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../greasyfork-user-control-panel-button">GreasyFork ナビゲーションバーの強化</a>&nbsp;
     <a href="../greasyfork-user-control-panel-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -916,7 +916,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-utility-toolkit">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../greasyfork-utility-toolkit">Greasyforkフレーマ</a>&nbsp;
     <a href="../greasyfork-utility-toolkit">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -945,7 +945,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-discussion-watcher">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../greasyfork-discussion-watcher">Greasyfork 通知アシスタント</a>&nbsp;
     <a href="../greasyfork-discussion-watcher">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -974,7 +974,7 @@
 </blockquote>
         <h3>
     <a href="../script-finder-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../script-finder-plus">Script Finderグリース モンキー スクリプト ファインダー</a>&nbsp;
     <a href="../script-finder-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1003,7 +1003,7 @@
 </blockquote>
         <h1>大人向けの脚本</h1><h3>
     <a href="../missav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../missav-auto-login-helper">MiSSAV自動ログイン</a>&nbsp;
     <a href="../missav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1032,7 +1032,7 @@
 </blockquote>
         <h3>
     <a href="../missav-explorer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAVコレクションマネージャー</a>&nbsp;
     <a href="../missav-explorer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1061,7 +1061,7 @@
 </blockquote>
         <h3>
     <a href="../thisav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../thisav-auto-login-helper">TissAV自動ログイン</a>&nbsp;
     <a href="../thisav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1090,7 +1090,7 @@
 </blockquote>
         <h3>
     <a href="../jable-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../jable-auto-login-helper">JableTV自動ログイン</a>&nbsp;
     <a href="../jable-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1119,7 +1119,7 @@
 </blockquote>
         <h1>自動翻訳</h1><h3>
     <a href="../no-zh-terminator">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../no-zh-terminator">外国語ターミネータ</a>&nbsp;
     <a href="../no-zh-terminator">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1148,7 +1148,7 @@
 </blockquote>
         <h3>
     <a href="../translate-only-chinese">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../translate-only-chinese">ウェブページの翻訳——自動的に中国語に翻訳されます</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1194,7 +1194,7 @@
 > -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
 > -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 ---
 
