@@ -46,7 +46,7 @@
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <h1>ChatGPTRelated scripts</h1><h3>
     <a href="../chatgpt-code-styling">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../chatgpt-code-styling">ChatGPTCode font size reduced</a>&nbsp;
     <a href="../chatgpt-code-styling">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -75,14 +75,14 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-copy-code-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../chatgpt-copy-code-button">ChatGPT Chat copy code button</a>&nbsp;
     <a href="../chatgpt-copy-code-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button</summary>
+    <summary>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
            <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -104,7 +104,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-counter">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../chatgpt-counter">ChatGPT character counter</a>&nbsp;
     <a href="../chatgpt-counter">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -133,7 +133,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../chatgpt-plus">ChatGPT Collapse self message and max width</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -162,7 +162,7 @@
 </blockquote>
         <h1>Web related scripts</h1><h3>
     <a href="../clipboard-manager">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../clipboard-manager">Web page writing clip version authorization manager</a>&nbsp;
     <a href="../clipboard-manager">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -191,7 +191,7 @@
 </blockquote>
         <h3>
     <a href="../csdn-blocker">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../csdn-blocker">LiftCSDNLogin copy restrictions</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -220,7 +220,7 @@
 </blockquote>
         <h3>
     <a href="../colorful-table">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../colorful-table">Beautify web forms with gorgeous gradients</a>&nbsp;
     <a href="../colorful-table">
         <img height=20 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -249,7 +249,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
     <a href="../highlight-keywords">Highlight keywords on web pages+(recommend)</a>&nbsp;
     <a href="../highlight-keywords">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -278,7 +278,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords-mini">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../highlight-keywords-mini">Highlight web text-mini version</a>&nbsp;
     <a href="../highlight-keywords-mini">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -307,7 +307,7 @@
 </blockquote>
         <h3>
     <a href="../popup-window">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../popup-window">Small window preview</a>&nbsp;
     <a href="../popup-window">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -336,7 +336,7 @@
 </blockquote>
         <h3>
     <a href="../remove-link-underlines">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../remove-link-underlines">Remove link underline</a>&nbsp;
     <a href="../remove-link-underlines">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -365,7 +365,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../scroll-button">Small scroll button up and down</a>&nbsp;
     <a href="../scroll-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -394,7 +394,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-to-top-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../scroll-to-top-button">One-touch top and bottom buttons</a>&nbsp;
     <a href="../scroll-to-top-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -423,7 +423,7 @@
 </blockquote>
         <h1>GitHubRelated scripts</h1><h3>
     <a href="../github-commit-viewer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-commit-viewer">GitHubSubmit information displayHTML</a>&nbsp;
     <a href="../github-commit-viewer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -452,7 +452,7 @@
 </blockquote>
         <h3>
     <a href="../github-file-list-beautifier-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub File list beautifier</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -481,7 +481,7 @@
 </blockquote>
         <h3>
     <a href="../github-linguist-expand">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../github-linguist-expand">Github List of code languages ​​show all</a>&nbsp;
     <a href="../github-linguist-expand">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -510,7 +510,7 @@
 </blockquote>
         <h3>
     <a href="../github-device-authorization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../github-device-authorization">GitHub Automatically confirm device authorization</a>&nbsp;
     <a href="../github-device-authorization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -539,7 +539,7 @@
 </blockquote>
         <h3>
     <a href="../github-folder-downloader">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../github-folder-downloader">GitHubFolder download</a>&nbsp;
     <a href="../github-folder-downloader">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -568,7 +568,7 @@
 </blockquote>
         <h3>
     <a href="../github-raw-file-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../github-raw-file-plus">GitHubDownload single files and copy filesURL</a>&nbsp;
     <a href="../github-raw-file-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -597,7 +597,7 @@
 </blockquote>
         <h3>
     <a href="../github-repo-size-view">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github Enhance assistant Warehouse display size Inactive development warning Quickly jump to the user’s other warehouses within the warehouse 🤠</a>&nbsp;
     <a href="../github-repo-size-view">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -626,7 +626,7 @@
 </blockquote>
         <h3>
     <a href="../github-sort-by-date">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../github-sort-by-date">GitHub Sort by Date</a>&nbsp;
     <a href="../github-sort-by-date">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -655,14 +655,14 @@
 </blockquote>
         <h1>GoogleRelated scripts</h1><h3>
     <a href="../google-advanced-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../google-advanced-search">Google Advanced search</a>&nbsp;
     <a href="../google-advanced-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</summary>
+    <summary>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
            <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -684,7 +684,7 @@
 </blockquote>
         <h3>
     <a href="../google-block-search-sites">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../google-block-search-sites">Google Search and block specific sites</a>&nbsp;
     <a href="../google-block-search-sites">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -713,7 +713,7 @@
 </blockquote>
         <h1>GreasyForkRelated scripts</h1><h3>
     <a href="../greasyfork-link">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../greasyfork-link">GreasyForksuitable for enhancement</a>&nbsp;
     <a href="../greasyfork-link">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -742,7 +742,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-scripts-data-visualization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork User-published script data visualization</a>&nbsp;
     <a href="../greasyfork-user-scripts-data-visualization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -771,7 +771,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-webhook-sync-enhanced">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../greasyfork-webhook-sync-enhanced">GreaysFork Enhance WebHookSync settings</a>&nbsp;
     <a href="../greasyfork-webhook-sync-enhanced">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -800,7 +800,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-markdown-toolbar">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../greasyfork-markdown-toolbar">GreasyFork Markdown toobar</a>&nbsp;
     <a href="../greasyfork-markdown-toolbar">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -829,7 +829,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-ranks">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../greasyfork-ranks">GreasyFork Show script ratings</a>&nbsp;
     <a href="../greasyfork-ranks">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -858,7 +858,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../greasyfork-search">GreasyFork Advanced search</a>&nbsp;
     <a href="../greasyfork-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -887,14 +887,14 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-control-panel-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../greasyfork-user-control-panel-button">GreasyFork Navigation bar enhancement</a>&nbsp;
     <a href="../greasyfork-user-control-panel-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>EnhancegreasyforkNavigation bar,Add user list,User console, etc.</summary>
+    <summary>EnhancegreasyforkNavigation bar,Add user list,User console etc.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
            <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -916,7 +916,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-utility-toolkit">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../greasyfork-utility-toolkit">Greasyforkframer</a>&nbsp;
     <a href="../greasyfork-utility-toolkit">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -945,7 +945,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-discussion-watcher">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../greasyfork-discussion-watcher">Greasyfork Notification Assistant</a>&nbsp;
     <a href="../greasyfork-discussion-watcher">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -974,7 +974,7 @@
 </blockquote>
         <h3>
     <a href="../script-finder-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../script-finder-plus">Script FinderGrease Monkey Script Finder</a>&nbsp;
     <a href="../script-finder-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1003,7 +1003,7 @@
 </blockquote>
         <h1>adult script</h1><h3>
     <a href="../missav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../missav-auto-login-helper">MiSSAVAutomatic login</a>&nbsp;
     <a href="../missav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1032,7 +1032,7 @@
 </blockquote>
         <h3>
     <a href="../missav-explorer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAVCollection manager</a>&nbsp;
     <a href="../missav-explorer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1061,7 +1061,7 @@
 </blockquote>
         <h3>
     <a href="../thisav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../thisav-auto-login-helper">TissAVAutomatic login</a>&nbsp;
     <a href="../thisav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1090,7 +1090,7 @@
 </blockquote>
         <h3>
     <a href="../jable-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../jable-auto-login-helper">JableTVAutomatic login</a>&nbsp;
     <a href="../jable-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1119,7 +1119,7 @@
 </blockquote>
         <h1>automatic translation</h1><h3>
     <a href="../no-zh-terminator">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../no-zh-terminator">foreign language terminator</a>&nbsp;
     <a href="../no-zh-terminator">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1148,7 +1148,7 @@
 </blockquote>
         <h3>
     <a href="../translate-only-chinese">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../translate-only-chinese">web page translation——Automatically translated to Chinese</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>

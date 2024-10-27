@@ -46,7 +46,7 @@
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <h1>ChatGPT관련 스크립트</h1><h3>
     <a href="../chatgpt-code-styling">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../chatgpt-code-styling">ChatGPT코드 글꼴 크기 감소</a>&nbsp;
     <a href="../chatgpt-code-styling">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -75,7 +75,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-copy-code-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../chatgpt-copy-code-button">ChatGPT 채팅 코드 복사 버튼</a>&nbsp;
     <a href="../chatgpt-copy-code-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -104,7 +104,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-counter">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../chatgpt-counter">ChatGPT 캐릭터 카운터</a>&nbsp;
     <a href="../chatgpt-counter">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -133,7 +133,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../chatgpt-plus">ChatGPT 자체 메시지 및 최대 너비 축소</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -162,7 +162,7 @@
 </blockquote>
         <h1>웹 관련 스크립트</h1><h3>
     <a href="../clipboard-manager">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../clipboard-manager">웹 페이지 작성 클립 버전 권한 관리자</a>&nbsp;
     <a href="../clipboard-manager">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -191,7 +191,7 @@
 </blockquote>
         <h3>
     <a href="../csdn-blocker">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../csdn-blocker">승강기CSDN로그인 복사 제한</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -220,7 +220,7 @@
 </blockquote>
         <h3>
     <a href="../colorful-table">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../colorful-table">화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요</a>&nbsp;
     <a href="../colorful-table">
         <img height=20 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -249,8 +249,8 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
-    <a href="../highlight-keywords">网页高亮关键字+(추천하다)</a>&nbsp;
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
+    <a href="../highlight-keywords">웹페이지에서 키워드 강조표시+(추천하다)</a>&nbsp;
     <a href="../highlight-keywords">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
@@ -278,7 +278,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords-mini">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../highlight-keywords-mini">웹 텍스트 강조 표시-미니 버전</a>&nbsp;
     <a href="../highlight-keywords-mini">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -307,7 +307,7 @@
 </blockquote>
         <h3>
     <a href="../popup-window">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../popup-window">작은 창 미리보기</a>&nbsp;
     <a href="../popup-window">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -336,7 +336,7 @@
 </blockquote>
         <h3>
     <a href="../remove-link-underlines">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../remove-link-underlines">링크 밑줄 제거</a>&nbsp;
     <a href="../remove-link-underlines">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -365,7 +365,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../scroll-button">위아래로 작은 스크롤 버튼</a>&nbsp;
     <a href="../scroll-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -394,7 +394,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-to-top-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../scroll-to-top-button">원터치 상하 버튼</a>&nbsp;
     <a href="../scroll-to-top-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -423,7 +423,7 @@
 </blockquote>
         <h1>GitHub관련 스크립트</h1><h3>
     <a href="../github-commit-viewer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-commit-viewer">GitHub정보 표시 제출HTML</a>&nbsp;
     <a href="../github-commit-viewer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -452,7 +452,7 @@
 </blockquote>
         <h3>
     <a href="../github-file-list-beautifier-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub 파일 목록 미화자</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -481,7 +481,7 @@
 </blockquote>
         <h3>
     <a href="../github-linguist-expand">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../github-linguist-expand">Github 코드 언어 목록 모두 표시</a>&nbsp;
     <a href="../github-linguist-expand">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -510,14 +510,14 @@
 </blockquote>
         <h3>
     <a href="../github-device-authorization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../github-device-authorization">GitHub 장치 승인 자동 확인</a>&nbsp;
     <a href="../github-device-authorization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</summary>
+    <summary>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</summary>
     <br><blockquote>
         <a href="../github-device-authorization">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -539,7 +539,7 @@
 </blockquote>
         <h3>
     <a href="../github-folder-downloader">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../github-folder-downloader">GitHub폴더 다운로드</a>&nbsp;
     <a href="../github-folder-downloader">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -568,7 +568,7 @@
 </blockquote>
         <h3>
     <a href="../github-raw-file-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../github-raw-file-plus">GitHub단일 파일 다운로드 및 파일 복사URL</a>&nbsp;
     <a href="../github-raw-file-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -597,7 +597,7 @@
 </blockquote>
         <h3>
     <a href="../github-repo-size-view">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github 어시스턴트 강화 창고 전시 크기 비활성 개발 경고 창고 내 사용자의 다른 창고로 빠르게 이동 🤠</a>&nbsp;
     <a href="../github-repo-size-view">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -626,7 +626,7 @@
 </blockquote>
         <h3>
     <a href="../github-sort-by-date">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../github-sort-by-date">GitHub Sort by Date</a>&nbsp;
     <a href="../github-sort-by-date">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -655,7 +655,7 @@
 </blockquote>
         <h1>Google관련 스크립트</h1><h3>
     <a href="../google-advanced-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../google-advanced-search">Google 고급 검색</a>&nbsp;
     <a href="../google-advanced-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -684,7 +684,7 @@
 </blockquote>
         <h3>
     <a href="../google-block-search-sites">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../google-block-search-sites">Google 특정 사이트 검색 및 차단</a>&nbsp;
     <a href="../google-block-search-sites">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -713,7 +713,7 @@
 </blockquote>
         <h1>GreasyFork관련 스크립트</h1><h3>
     <a href="../greasyfork-link">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../greasyfork-link">GreasyFork향상에 적합</a>&nbsp;
     <a href="../greasyfork-link">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -742,7 +742,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-scripts-data-visualization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork 사용자 게시 스크립트 데이터 시각화</a>&nbsp;
     <a href="../greasyfork-user-scripts-data-visualization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -771,7 +771,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-webhook-sync-enhanced">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../greasyfork-webhook-sync-enhanced">GreaysFork 향상시키다 WebHook동기화 설정</a>&nbsp;
     <a href="../greasyfork-webhook-sync-enhanced">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -800,7 +800,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-markdown-toolbar">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../greasyfork-markdown-toolbar">GreasyFork Markdown toobar</a>&nbsp;
     <a href="../greasyfork-markdown-toolbar">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -829,7 +829,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-ranks">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../greasyfork-ranks">GreasyFork 스크립트 등급 표시</a>&nbsp;
     <a href="../greasyfork-ranks">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -858,7 +858,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../greasyfork-search">GreasyFork 고급 검색</a>&nbsp;
     <a href="../greasyfork-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -887,7 +887,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-control-panel-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../greasyfork-user-control-panel-button">GreasyFork 탐색 표시줄 개선</a>&nbsp;
     <a href="../greasyfork-user-control-panel-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -916,7 +916,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-utility-toolkit">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../greasyfork-utility-toolkit">Greasyfork프레이머</a>&nbsp;
     <a href="../greasyfork-utility-toolkit">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -945,7 +945,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-discussion-watcher">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../greasyfork-discussion-watcher">Greasyfork 알림 도우미</a>&nbsp;
     <a href="../greasyfork-discussion-watcher">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -974,7 +974,7 @@
 </blockquote>
         <h3>
     <a href="../script-finder-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../script-finder-plus">Script Finder그리스 원숭이 스크립트 찾기</a>&nbsp;
     <a href="../script-finder-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1003,7 +1003,7 @@
 </blockquote>
         <h1>성인용 대본</h1><h3>
     <a href="../missav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../missav-auto-login-helper">MiSSAV자동 로그인</a>&nbsp;
     <a href="../missav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1032,7 +1032,7 @@
 </blockquote>
         <h3>
     <a href="../missav-explorer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAV컬렉션 관리자</a>&nbsp;
     <a href="../missav-explorer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1061,7 +1061,7 @@
 </blockquote>
         <h3>
     <a href="../thisav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../thisav-auto-login-helper">TissAV자동 로그인</a>&nbsp;
     <a href="../thisav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1090,7 +1090,7 @@
 </blockquote>
         <h3>
     <a href="../jable-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../jable-auto-login-helper">JableTV자동 로그인</a>&nbsp;
     <a href="../jable-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1119,7 +1119,7 @@
 </blockquote>
         <h1>자동 번역</h1><h3>
     <a href="../no-zh-terminator">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../no-zh-terminator">외국어 터미네이터</a>&nbsp;
     <a href="../no-zh-terminator">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1148,14 +1148,14 @@
 </blockquote>
         <h3>
     <a href="../translate-only-chinese">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../translate-only-chinese">웹페이지 번역——중국어로 자동 번역됨</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>중국어가 아닌 웹페이지의 오른쪽 하단 모서리를 제공합니다.（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</summary>
+    <summary>중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다 google 번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요，자동 번역 추가</summary>
     <br><blockquote>
         <a href="../translate-only-chinese">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1230,7 +1230,7 @@
 > -   _이 창고의 이름 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
 > -   _이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
 > -   _스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
-> -   _이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
+> -   _이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:

@@ -46,7 +46,7 @@
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <h1>ChatGPTTập lệnh liên quan</h1><h3>
     <a href="../chatgpt-code-styling">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../chatgpt-code-styling">ChatGPTKích thước phông chữ mã giảm</a>&nbsp;
     <a href="../chatgpt-code-styling">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -75,14 +75,14 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-copy-code-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../chatgpt-copy-code-button">ChatGPT Nút sao chép mã trò chuyện</a>&nbsp;
     <a href="../chatgpt-copy-code-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>hiện hữu chatgpt.com Thêm hình động có hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</summary>
+    <summary>hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
            <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -104,7 +104,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-counter">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../chatgpt-counter">ChatGPT bộ đếm ký tự</a>&nbsp;
     <a href="../chatgpt-counter">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -133,7 +133,7 @@
 </blockquote>
         <h3>
     <a href="../chatgpt-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../chatgpt-plus">ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -162,14 +162,14 @@
 </blockquote>
         <h1>Các tập lệnh liên quan đến web</h1><h3>
     <a href="../clipboard-manager">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../clipboard-manager">Trình quản lý ủy quyền phiên bản clip viết trang web</a>&nbsp;
     <a href="../clipboard-manager">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</summary>
+    <summary>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm màu đỏ，hướng dẫn tạm thời màu cam</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
            <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -191,7 +191,7 @@
 </blockquote>
         <h3>
     <a href="../csdn-blocker">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../csdn-blocker">Thang máyCSDNHạn chế sao chép đăng nhập</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -220,7 +220,7 @@
 </blockquote>
         <h3>
     <a href="../colorful-table">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../colorful-table">Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp</a>&nbsp;
     <a href="../colorful-table">
         <img height=20 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -249,7 +249,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
     <a href="../highlight-keywords">Đánh dấu từ khóa trên các trang web+(gợi ý)</a>&nbsp;
     <a href="../highlight-keywords">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -278,7 +278,7 @@
 </blockquote>
         <h3>
     <a href="../highlight-keywords-mini">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../highlight-keywords-mini">Làm nổi bật văn bản web-phiên bản nhỏ</a>&nbsp;
     <a href="../highlight-keywords-mini">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -307,7 +307,7 @@
 </blockquote>
         <h3>
     <a href="../popup-window">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../popup-window">Xem trước cửa sổ nhỏ</a>&nbsp;
     <a href="../popup-window">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -336,7 +336,7 @@
 </blockquote>
         <h3>
     <a href="../remove-link-underlines">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../remove-link-underlines">Xóa gạch chân liên kết</a>&nbsp;
     <a href="../remove-link-underlines">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -365,7 +365,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../scroll-button">Nút cuộn nhỏ lên xuống</a>&nbsp;
     <a href="../scroll-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -394,7 +394,7 @@
 </blockquote>
         <h3>
     <a href="../scroll-to-top-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../scroll-to-top-button">Nút trên và dưới một chạm</a>&nbsp;
     <a href="../scroll-to-top-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -423,7 +423,7 @@
 </blockquote>
         <h1>GitHubTập lệnh liên quan</h1><h3>
     <a href="../github-commit-viewer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-commit-viewer">GitHubGửi hiển thị thông tinHTML</a>&nbsp;
     <a href="../github-commit-viewer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -452,7 +452,7 @@
 </blockquote>
         <h3>
     <a href="../github-file-list-beautifier-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub Trình làm đẹp danh sách tập tin</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -481,7 +481,7 @@
 </blockquote>
         <h3>
     <a href="../github-linguist-expand">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../github-linguist-expand">Github Danh sách ngôn ngữ mã hiển thị tất cả</a>&nbsp;
     <a href="../github-linguist-expand">
         <img height=20 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -510,7 +510,7 @@
 </blockquote>
         <h3>
     <a href="../github-device-authorization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../github-device-authorization">GitHub Tự động xác nhận ủy quyền thiết bị</a>&nbsp;
     <a href="../github-device-authorization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -539,7 +539,7 @@
 </blockquote>
         <h3>
     <a href="../github-folder-downloader">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../github-folder-downloader">GitHubTải xuống thư mục</a>&nbsp;
     <a href="../github-folder-downloader">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -568,7 +568,7 @@
 </blockquote>
         <h3>
     <a href="../github-raw-file-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../github-raw-file-plus">GitHubTải xuống các tập tin đơn lẻ và sao chép các tập tinURL</a>&nbsp;
     <a href="../github-raw-file-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -597,7 +597,7 @@
 </blockquote>
         <h3>
     <a href="../github-repo-size-view">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github Tăng cường trợ lý Kích thước hiển thị kho Cảnh báo phát triển không hoạt động Nhanh chóng chuyển đến các kho khác của người dùng trong kho 🤠</a>&nbsp;
     <a href="../github-repo-size-view">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -626,14 +626,14 @@
 </blockquote>
         <h3>
     <a href="../github-sort-by-date">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../github-sort-by-date">GitHub Sort by Date</a>&nbsp;
     <a href="../github-sort-by-date">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
 </h3>
 
 <details>
-    <summary>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</summary>
+    <summary>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Thuận tiện xem các tập tin cập nhật mới nhất。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
            <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
@@ -655,7 +655,7 @@
 </blockquote>
         <h1>GoogleTập lệnh liên quan</h1><h3>
     <a href="../google-advanced-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../google-advanced-search">Google Tìm kiếm nâng cao</a>&nbsp;
     <a href="../google-advanced-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -684,7 +684,7 @@
 </blockquote>
         <h3>
     <a href="../google-block-search-sites">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../google-block-search-sites">Google Tìm kiếm và chặn các trang web cụ thể</a>&nbsp;
     <a href="../google-block-search-sites">
         <img height=20 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -713,7 +713,7 @@
 </blockquote>
         <h1>GreasyForkTập lệnh liên quan</h1><h3>
     <a href="../greasyfork-link">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../greasyfork-link">GreasyForkthích hợp để nâng cao</a>&nbsp;
     <a href="../greasyfork-link">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -742,7 +742,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-scripts-data-visualization">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản</a>&nbsp;
     <a href="../greasyfork-user-scripts-data-visualization">
         <img height=20 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -771,7 +771,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-webhook-sync-enhanced">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../greasyfork-webhook-sync-enhanced">GreaysFork Nâng cao WebHookĐồng bộ hóa cài đặt</a>&nbsp;
     <a href="../greasyfork-webhook-sync-enhanced">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -800,7 +800,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-markdown-toolbar">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../greasyfork-markdown-toolbar">GreasyFork Markdown toobar</a>&nbsp;
     <a href="../greasyfork-markdown-toolbar">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -829,7 +829,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-ranks">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../greasyfork-ranks">GreasyFork Hiển thị xếp hạng kịch bản</a>&nbsp;
     <a href="../greasyfork-ranks">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -858,7 +858,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-search">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../greasyfork-search">GreasyFork Tìm kiếm nâng cao</a>&nbsp;
     <a href="../greasyfork-search">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -887,7 +887,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-user-control-panel-button">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../greasyfork-user-control-panel-button">GreasyFork Cải tiến thanh điều hướng</a>&nbsp;
     <a href="../greasyfork-user-control-panel-button">
         <img height=20 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -916,7 +916,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-utility-toolkit">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../greasyfork-utility-toolkit">Greasyforkngười đóng khung</a>&nbsp;
     <a href="../greasyfork-utility-toolkit">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -945,7 +945,7 @@
 </blockquote>
         <h3>
     <a href="../greasyfork-discussion-watcher">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../greasyfork-discussion-watcher">Greasyfork Trợ lý thông báo</a>&nbsp;
     <a href="../greasyfork-discussion-watcher">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -974,7 +974,7 @@
 </blockquote>
         <h3>
     <a href="../script-finder-plus">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../script-finder-plus">Script FinderCông cụ tìm tập lệnh Grease Monkey</a>&nbsp;
     <a href="../script-finder-plus">
         <img height=20 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1003,7 +1003,7 @@
 </blockquote>
         <h1>kịch bản người lớn</h1><h3>
     <a href="../missav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../missav-auto-login-helper">MiSSAVĐăng nhập tự động</a>&nbsp;
     <a href="../missav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1032,7 +1032,7 @@
 </blockquote>
         <h3>
     <a href="../missav-explorer">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAVNgười quản lý bộ sưu tập</a>&nbsp;
     <a href="../missav-explorer">
         <img height=20 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1061,7 +1061,7 @@
 </blockquote>
         <h3>
     <a href="../thisav-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../thisav-auto-login-helper">TissAVĐăng nhập tự động</a>&nbsp;
     <a href="../thisav-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1090,7 +1090,7 @@
 </blockquote>
         <h3>
     <a href="../jable-auto-login-helper">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../jable-auto-login-helper">JableTVĐăng nhập tự động</a>&nbsp;
     <a href="../jable-auto-login-helper">
         <img height=20 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1119,7 +1119,7 @@
 </blockquote>
         <h1>dịch tự động</h1><h3>
     <a href="../no-zh-terminator">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../no-zh-terminator">đầu cuối ngoại ngữ</a>&nbsp;
     <a href="../no-zh-terminator">
         <img height=20 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1148,7 +1148,7 @@
 </blockquote>
         <h3>
     <a href="../translate-only-chinese">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../translate-only-chinese">dịch trang web——Tự động dịch sang tiếng Trung</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=20 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
@@ -1245,7 +1245,7 @@
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Danh sách đóng góp của： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
+Danh sách đóng góp theo： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
 
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 

@@ -37,11 +37,12 @@ def generate_html_table(scripts):
     html_table = ''''''
     for script in scripts:
         full_path = script.get("backuppath") + "/" + script.get("path")
+
         placeholder_image = "https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"
         img_tag = f'<img width=511 height=500 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
         html_table += f'''<h3>
     <a href="../{script.get("backuppath")}">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/white/icon48.png"><img width=18 src="https://amazongpt.kudoai.com/assets/images/icons/amazongpt/black-gold-teal/icon48.png" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
     <a href="../{script.get("backuppath")}">{script.get("name")}</a>&nbsp;
     <a href="../{script.get("backuppath")}">
         <img height=20 src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge"></a>
