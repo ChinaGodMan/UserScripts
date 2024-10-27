@@ -54,6 +54,8 @@ def build_html(md_files, path):
         html += f'        <a href="{base_url}{path}/{file}">{title}</a> | \n'
     html = html.rstrip(' | \n')
     html += """
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 """
