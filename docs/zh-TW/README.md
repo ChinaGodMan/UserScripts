@@ -85,7 +85,7 @@
     <summary>在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一個字元计数器到输入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -172,7 +172,7 @@
     <summary>禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>自動為網頁上的表格所有欄位套用顏色漸層美化.</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>對網頁上的文字進行高亮顯示</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>頁面右側新增上下滾動按鈕</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -404,7 +404,7 @@
     <summary>修改自Greasyfork使用者腳本 為網頁新增置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -453,7 +453,7 @@
         <h3>
     <a href="../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
-    <a href="../github-file-list-beautifier-plus">GitHub 文件清單美化器</a>&nbsp;
+    <a href="../github-file-list-beautifier-plus">GitHub 文件列表美化器</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
 </h3>
@@ -462,7 +462,7 @@
     <summary>GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -549,7 +549,7 @@
     <summary>新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -575,10 +575,10 @@
 </h3>
 
 <details>
-    <summary>在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下载文件</summary>
+    <summary>在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>在Github查看倉庫和搜尋倉庫時顯示倉庫大小 ，不活躍開發警告，倉庫內快捷跳轉.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -636,7 +636,7 @@
     <summary>倉庫列表文件排序方式改為日期降序，方便查看最新更新的文件。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -665,7 +665,7 @@
     <summary>這是一個為 Google 新增進階搜尋表單的使用者腳本。它能在頁面頂部添加一個可隱藏的高級搜尋表單，使您能夠更精確地搜尋訊息。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -723,7 +723,7 @@
     <summary>腳本詳情頁增加適用於連結增加點擊開啟網頁，複製網頁,輪胎搜尋</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>這個腳本可以幫助你快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>在論壇預設使用 Markdown 格式，添加格式幫助連結及 Markdown 工具列紹</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>腳本清單新增評價分數</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>增強greasyfork導覽列,增加用戶列表,使用者控制台等</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -926,7 +926,7 @@
     <summary>增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -955,7 +955,7 @@
     <summary>當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder 是一個使用者腳本（userscript），它可以幫助你在任何網站上尋找和管理使用者腳本</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>miss單張備份，支援下載圖片保存影片訊息.導出本地網頁 支援導出到webdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1219,7 +1219,7 @@
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
-> -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
+> -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内的代码<br>
 > -   本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
 > -   本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
 

@@ -85,7 +85,7 @@
     <summary>hiện hữu chatgpt.com Thêm hình động có hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”cái nút</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一nhân vật计数器到输入框，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -172,7 +172,7 @@
     <summary>Cấm các trang web ị trên các phiên bản đã chỉnh sửa，màu xanh lá cây để phát hành，lệnh cấm đỏ，hướng dẫn tạm thời màu cam</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>Tự động áp dụng làm đẹp độ dốc màu cho tất cả các cột của bảng trên trang web.</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>Đánh dấu văn bản trên các trang web</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>Thêm nút cuộn lên xuống ở bên phải trang</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -387,7 +387,7 @@
     <a href="../scroll-button/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../scroll-button/#readme">
-        tập tin readme</a> /
+        自述文件</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
@@ -404,7 +404,7 @@
     <summary>Được sửa đổi từGreasyforktập lệnh người dùng Thêm nút trên và dưới vào trang web，Tạo điều kiện di chuyển nhanh lên đầu hoặc cuối trang dài。 Đã thêm thay đổi màu nút khi cuộn xuống，3Tự động dừng nếu không cuộn trong vài giây</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -462,7 +462,7 @@
     <summary>GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>Mở rộng Github Danh sách ngôn ngữ trên kho lưu trữ，Hiển thị từng ngôn ngữ，Thay vì giấu những phần nhỏ trong “khác” Xuống</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -517,7 +517,7 @@
 </h3>
 
 <details>
-    <summary>hiện hữuGitHubTrang ủy quyền sẽ tự động nhập mã ủy quyền và tự động xác nhận.。</summary>
+    <summary>hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。</summary>
     <br><blockquote>
         <a href="../github-device-authorization">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -549,7 +549,7 @@
     <summary>Thêm nút tải xuống，Cho phép dễ dàng tải xuống cụ thể GitHub thư mục。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -575,10 +575,10 @@
 </h3>
 
 <details>
-    <summary>Nút thêm vào cuối mỗi dòng tập tin，để sao chép tập tin gốc URL và tải về các tập tin</summary>
+    <summary>Nút thêm vào cuối mỗi dòng file，để sao chép tập tin gốc URL và tải về các tập tin</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>hiện hữuGithubHiển thị kích thước kho khi xem và tìm kiếm kho ，Cảnh báo phát triển không hoạt động，Nhảy nhanh vào kho.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -636,7 +636,7 @@
     <summary>Thay đổi cách sắp xếp file danh sách kho theo thứ tự ngày giảm dần，Xem thuận tiện các tập tin cập nhật mới nhất。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -665,7 +665,7 @@
     <summary>Đây là một cho Google Thêm tập lệnh người dùng cho biểu mẫu tìm kiếm nâng cao。Nó thêm một biểu mẫu tìm kiếm nâng cao có thể ẩn ở đầu trang，Giúp bạn tìm kiếm thông tin chính xác hơn。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -723,7 +723,7 @@
     <summary>Trang chi tiết script đã được thêm vào. Nó phù hợp để thêm các liên kết.，Sao chép trang web,tìm kiếm lốp xe</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>Tập lệnh này có thể giúp bạn nhập nhanh thông tin đồng bộ hóa tập lệnh，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi đến URL tương ứng。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>Được sử dụng theo mặc định trong diễn đàn Markdown Định dạng，Thêm liên kết trợ giúp định dạng và Markdown Giới thiệu thanh công cụ</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>Thêm điểm đánh giá vào danh sách tập lệnh</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -923,10 +923,10 @@
 </h3>
 
 <details>
-    <summary>Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo bằng một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</summary>
+    <summary>Nâng caogreasyfork,Sao chép mã，Tải xuống tập lệnh，Thời gian chính xác đến từng giây，Dọn dẹp trang chủ，Thảo luận về báo cáo một cú nhấp chuột，Đã thêm mã nhảy danh sách tập lệnh tải xuống Làm đẹp mã xem và hiển thị các tệp tham chiếu mã，hiển thị biểu tượng tập lệnh，Chuyển đến tập lệnh dành cho người lớn và các thao tác khác</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -955,7 +955,7 @@
     <summary>Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Kịch bản sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder là một tập lệnh người dùng（userscript），Nó giúp bạn tìm và quản lý mô tả người dùng trên bất kỳ trang web nào</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>missSao lưu danh sách phát，Hỗ trợ tải hình ảnh và lưu thông tin video.Xuất trang web địa phương Hỗ trợ xuất khẩu sangwebdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1245,7 +1245,7 @@
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Danh sách đóng góp của： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
+Danh sách đóng góp theo： [contributors](https://github.com/jaywcjlove/github-action-contributors). Được tạo tự động <a href="https://github.com/jaywcjlove" title="Giai điệu của em trai"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Giai điệu của em trai"/></a>
 
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 

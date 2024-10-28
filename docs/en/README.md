@@ -85,7 +85,7 @@
     <summary>exist chatgpt.com Add an animation with animation in the lower right corner of the upper code block“Copy code”button</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一characters计数器到输入框，limited to 32732 characters。（ChatGPT The limit is 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>Automatically collapse long messages sent by you，Save screen space。Allows you to set the maximum width of the chat window，Keep long messages from exceeding the specified range。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -172,7 +172,7 @@
     <summary>Ban web pages from pooping on edited versions，green for release，red ban，orange temporary directions</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>Automatically apply color gradient beautification to all columns of tables on web pages.</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>Highlight text on web pages</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>Add up and down scroll buttons on the right side of the page</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -404,7 +404,7 @@
     <summary>Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -462,7 +462,7 @@
     <summary>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -517,7 +517,7 @@
 </h3>
 
 <details>
-    <summary>existGitHubThe authorization page automatically enters the authorization code and confirms it automatically.。</summary>
+    <summary>existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。</summary>
     <br><blockquote>
         <a href="../github-device-authorization">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -549,7 +549,7 @@
     <summary>Add a download button，Allows easy downloading of specific GitHub folder。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -578,7 +578,7 @@
     <summary>Add button at the end of each file line，to copy the original file URL and download files</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump within the warehouse.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -636,7 +636,7 @@
     <summary>Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -662,10 +662,10 @@
 </h3>
 
 <details>
-    <summary>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enables you to search for information more precisely。</summary>
+    <summary>This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -723,7 +723,7 @@
     <summary>The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>This script can help you quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>Add evaluation scores to script list</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>EnhancegreasyforkNavigation bar,Add user list,User console etc.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -926,7 +926,7 @@
     <summary>Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -946,16 +946,16 @@
         <h3>
     <a href="../greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
-    <a href="../greasyfork-discussion-watcher">Greasyfork Notification Assistant</a>&nbsp;
+    <a href="../greasyfork-discussion-watcher">Greasyfork Notification assistant</a>&nbsp;
     <a href="../greasyfork-discussion-watcher">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=number%20of%20users"></a>
 </h3>
 
 <details>
-    <summary>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</summary>
+    <summary>When there are new replies to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder is a user script（userscript），It helps you find and manage userscripts on any website</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>missPlaylist backup，Support downloading pictures and saving video information.Export local web page Support export towebdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1149,7 +1149,7 @@
         <h3>
     <a href="../translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="../translate-only-chinese">web page translation——Automatically translated to Chinese</a>&nbsp;
+    <a href="../translate-only-chinese">web page translation——Automatically translated into Chinese</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=number%20of%20users"></a>
 </h3>
@@ -1184,7 +1184,7 @@
 
 To use any script，First you need to install the browser **Tampermonkey Script Manager Extension（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   Click on form **\[Install\]** Directly pop up the script manager installation interface。
+-   Click on the form **\[Install\]** Directly pop up the script manager installation interface。
 -   if Github Access speed is too slow，You can choose to click GreasyFork **\[Install\]** Extension prompt pops up after，Click again **\[Install\]** That’s it。
 -   [View detailed tutorial](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
@@ -1245,7 +1245,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-List of contributions by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Little brother tunes"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Little brother tunes"/></a>
+Contributions list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Little brother tunes"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Little brother tunes"/></a>
 
 ## 🌐 Browser and Script Manager
 

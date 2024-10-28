@@ -85,7 +85,7 @@
     <summary>在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -172,7 +172,7 @@
     <summary>禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>自动为网页上的表格所有列应用颜色渐变美化.</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>对网页上的文字进行高亮显示</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>页面右侧添加上下滚动按钮</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -404,7 +404,7 @@
     <summary>修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -462,7 +462,7 @@
     <summary>GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -549,7 +549,7 @@
     <summary>添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -578,7 +578,7 @@
     <summary>在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -636,7 +636,7 @@
     <summary>仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -665,7 +665,7 @@
     <summary>这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -723,7 +723,7 @@
     <summary>脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>脚本列表添加评价分数</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>增强greasyfork导航栏,增加用户列表,用户控制台等</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -926,7 +926,7 @@
     <summary>增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -955,7 +955,7 @@
     <summary>当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
