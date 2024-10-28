@@ -39,7 +39,7 @@ def generate_html_table(scripts):
         full_path = script.get("backuppath") + "/" + script.get("path")
 
         placeholder_image = "https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"
-        img_tag = f'<img width=511 height=500 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
+        img_tag = f'<img width=511 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
         html_table += f'''<h3>
     <a href="../{script.get("backuppath")}">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>

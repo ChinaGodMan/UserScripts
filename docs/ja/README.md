@@ -37,7 +37,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**違反があった場合,連絡先を削除する必要があります**
+**侵害があった場合,連絡先を削除する必要があります**
 
 ## スクリプトリスト
 
@@ -53,7 +53,7 @@
 </h3>
 
 <details>
-    <summary>させて ChatGPT コードボックスのフォントサイズが小さくなります</summary>
+    <summary>させて ChatGPT コードボックスのフォントサイズが小さくなる</summary>
     <br><blockquote>
         <a href="../chatgpt-code-styling">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -82,10 +82,10 @@
 </h3>
 
 <details>
-    <summary>存在する chatgpt.com 上部のコード ブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</summary>
+    <summary>存在する chatgpt.com 上部のコードブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一キャラクター计数器到输入框，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定された範囲を超えないようにする。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -169,10 +169,10 @@
 </h3>
 
 <details>
-    <summary>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，赤の禁止，オレンジ色の臨時ルート</summary>
+    <summary>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>Web ページ上の表のすべての列にカラー グラデーション美化を自動的に適用します。.</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>Web ページ上のテキストを強調表示する</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>ページの右側に上下のスクロール ボタンを追加します。</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -404,7 +404,7 @@
     <summary>から変更されましたGreasyforkユーザースクリプト Web ページに上部と下部のボタンを追加する，長いページの上部または下部への素早い移動を容易にします。。 下にスクロールしたときにボタンの色の変更を追加しました，3数秒以内にスクロールがない場合は自動的に停止します</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より優れた視覚効果とユーザーエクスペリエンスを提供する。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -462,7 +462,7 @@
     <summary>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルの種類のアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>拡大する Github リポジトリ上の言語のリスト，各言語を表示，小さな部品を隠すのではなく、 “他の” 下</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -549,7 +549,7 @@
     <summary>ダウンロードボタンを追加する，特定のファイルを簡単にダウンロードできます GitHub フォルダ。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -578,7 +578,7 @@
     <summary>各ファイル行の末尾にある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>存在するGithub倉庫の表示および検索時に倉庫のサイズを表示する ，非アクティブな開発に関する警告，倉庫内で素早くジャンプ.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -633,10 +633,10 @@
 </h3>
 
 <details>
-    <summary>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</summary>
+    <summary>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新ファイルを簡単に表示。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -665,7 +665,7 @@
     <summary>これは、 Google 詳細検索フォームのユーザー スクリプトを追加する。ページの上部に非表示可能な高度な検索フォームを追加します，より正確に情報を検索できるようになります。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -691,7 +691,7 @@
 </h3>
 
 <details>
-    <summary>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</summary>
+    <summary>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるように支援する。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</summary>
     <br><blockquote>
         <a href="../google-block-search-sites">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -723,7 +723,7 @@
     <summary>スクリプトの詳細ページが追加され、クリックすると Web ページが開きます。，Webページをコピーする,タイヤ検索</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>使用Chart.jsユーザースクリプトデータの取得と可視化，また、ユーザーの個人ホームページ上にグラフを生成し、以下の詳細なインストール状況を表示します。</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>フォーラムでデフォルトで使用されます Markdown 形式，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>評価スコアをスクリプトリストに追加</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -923,10 +923,10 @@
 </h3>
 
 <details>
-    <summary>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒単位の正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</summary>
+    <summary>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -952,10 +952,10 @@
 </h3>
 
 <details>
-    <summary>スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。</summary>
+    <summary>あなたのスクリプトまたはあなたが参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>missプレイリストのバックアップ，写真のダウンロードとビデオ情報の保存をサポート.ローカル Web ページをエクスポートする へのエクスポートをサポートwebdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1126,7 +1126,7 @@
 </h3>
 
 <details>
-    <summary>中国語以外の文字を認識する，長さがそれより大きい場合 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</summary>
+    <summary>中国語以外の文字を認識する，長さがそれより長い場合は、 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</summary>
     <br><blockquote>
         <a href="../no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1184,14 +1184,14 @@
 
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   フォームをクリック **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
+-   フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
 -   もし Github アクセス速度が遅すぎる，クリックするか選択できます GreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
 -   [詳細なチュートリアルを表示する](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
 > -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
-> -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正しく動作しない**脚本。_
+> -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正常に動作しない**脚本。_
 > -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
 
 > _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
@@ -1228,7 +1228,7 @@
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
 > -   _このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
 > -   _ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する_ :trollface:
-> -   _このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
+> -   _このリポジトリの Readme ファイルは次の場所から取得されます。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
 > -   _スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
 > -   _全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア_ :trollface:
 > -   _コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui) Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:

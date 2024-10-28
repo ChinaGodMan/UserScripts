@@ -82,10 +82,10 @@
 </h3>
 
 <details>
-    <summary>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”단추</summary>
+    <summary>존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션이 포함된 애니메이션을 추가합니다.“코드 복사”단추</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -114,7 +114,7 @@
     <summary>添加一캐릭터计数器到输入框，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -143,7 +143,7 @@
     <summary>귀하가 보낸 긴 메시지를 자동으로 접습니다.，화면 공간 절약。채팅 창의 최대 너비를 설정할 수 있습니다.，긴 메시지가 지정된 범위를 초과하지 않도록 유지。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -172,7 +172,7 @@
     <summary>편집된 버전에서 웹페이지가 표시되는 것을 금지합니다.，출시용 녹색，빨간색 금지，주황색 임시 방향</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -230,7 +230,7 @@
     <summary>웹 페이지 테이블의 모든 열에 색상 그라데이션 미화를 자동으로 적용합니다..</summary>
     <br><blockquote>
         <a href="../colorful-table">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -259,7 +259,7 @@
     <summary>웹페이지의 텍스트 강조표시</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -317,7 +317,7 @@
     <summary>링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。</summary>
     <br><blockquote>
         <a href="../popup-window">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -375,7 +375,7 @@
     <summary>페이지 오른쪽에 상하 스크롤 버튼 추가</summary>
     <br><blockquote>
         <a href="../scroll-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -404,7 +404,7 @@
     <summary>다음에서 수정됨Greasyfork사용자 스크립트 웹 페이지에 상단 및 하단 버튼 추가，긴 페이지의 상단 또는 하단으로 빠르게 이동할 수 있습니다.。 아래로 스크롤할 때 버튼 색상 변경 추가，3몇 초 내에 스크롤이 없으면 자동으로 중지됩니다.</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -433,7 +433,7 @@
     <summary>이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -462,7 +462,7 @@
     <summary>GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -491,7 +491,7 @@
     <summary>확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다 “다른” 아래에</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -517,7 +517,7 @@
 </h3>
 
 <details>
-    <summary>존재하다GitHub인증코드를 자동으로 입력하고 인증 페이지에서 자동으로 확인하세요.。</summary>
+    <summary>존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。</summary>
     <br><blockquote>
         <a href="../github-device-authorization">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -549,7 +549,7 @@
     <summary>다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -578,7 +578,7 @@
     <summary>각 파일 줄 끝에 추가 버튼，원본 파일을 복사하려면 URL 그리고 파일 다운로드</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -607,7 +607,7 @@
     <summary>존재하다Github창고 보기 및 검색 시 창고 크기 표시 ，비활성 개발 경고，창고 내 빠른 점프.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -636,7 +636,7 @@
     <summary>창고 목록 파일 정렬 방식을 날짜 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -665,7 +665,7 @@
     <summary>이것은 Google 고급 검색 양식에 대한 사용자 스크립트 추가。페이지 상단에 숨길 수 있는 고급 검색 양식을 추가합니다.，보다 정확하게 정보를 검색할 수 있습니다.。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -723,7 +723,7 @@
     <summary>추가할 링크에 적합한 스크립트 세부정보 페이지가 추가됩니다.，웹페이지 복사,타이어 검색</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -752,7 +752,7 @@
     <summary>사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -781,7 +781,7 @@
     <summary>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -810,7 +810,7 @@
     <summary>포럼에서 기본적으로 사용됨 Markdown 체재，형식 도움말 링크를 추가하고 Markdown 툴바 소개</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
-           <img width=511 height=500 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -839,7 +839,7 @@
     <summary>스크립트 목록에 평가 점수 추가</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -897,7 +897,7 @@
     <summary>향상시키다greasyfork네비게이션 바,사용자 목록 추가,사용자 콘솔 등</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -923,10 +923,10 @@
 </h3>
 
 <details>
-    <summary>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</summary>
+    <summary>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고서 토론，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -952,10 +952,10 @@
 </h3>
 
 <details>
-    <summary>귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。</summary>
+    <summary>스크립트나 참여 중인 토론에 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
-           <img width=511 height=500 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -984,7 +984,7 @@
     <summary>Script Finder 사용자 스크립트입니다（userscript），모든 웹사이트에서 사용자 스크립트를 찾고 관리하는 데 도움이 됩니다.</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
-           <img width=511 height=500 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1042,7 +1042,7 @@
     <summary>miss재생목록 백업，사진 다운로드 및 비디오 정보 저장 지원.로컬 웹페이지 내보내기 수출 지원webdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
-           <img width=511 height=500 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1185,14 +1185,14 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
--   만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다. GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+-   만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다. GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 -   [자세한 튜토리얼 보기](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
 > -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > -   _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
-> -   _스크립트를 다시 설치하려는 경우，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
+> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -1245,7 +1245,7 @@
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
+기여 목록:： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
 
 ## 🌐 브라우저 및 스크립트 관리자
 
