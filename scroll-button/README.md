@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-button/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -40,11 +42,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>上下滚动小按钮</h1>
-    <p>「 页面右侧添加上下滚动按钮 」</p>
+    <h1>上下滚动按钮</h1>
+    <p>「 在页面右侧生成两个按钮用于滚动页面 」</p>
     <img src="https://views.whatilearened.today/views/github/497251/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-button/scroll-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497251">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497251.png">

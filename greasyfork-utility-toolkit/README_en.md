@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyforkframer</h1>
-    <p>「 Enhancegreasyfork,Copy code，Script download，Precise time to seconds，Home page cleanup，Discuss one-click reporting，Script list jump code added download Beautify view code and display code reference files，show script icon，Jump to adult scripts and other operations 」</p>
+    <h1>Greasyfork Glue craftsman</h1>
+    <p>「 for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork framer Change log</strong></h1>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>

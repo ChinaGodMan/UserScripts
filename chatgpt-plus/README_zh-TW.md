@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
     </h6>
 </div>
 
@@ -44,10 +46,10 @@
 
 <center><div align="center">
     <h1>ChatGPT 折疊自己訊息和最大寬度</h1>
-    <p>「 自動折疊由你發送的長訊息，節省螢幕空間。允許你設定聊天視窗的最大寬度，使得長訊息不會超出指定範圍。 」</p>
+    <p>「 折疊ChatGPT中較長的“你”訊息，並設定最大寬度 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ ChatGPT 折疊自己訊息和最大寬度 更新日誌</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>

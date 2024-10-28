@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork Navigation bar enhancement</h1>
-    <p>「 EnhancegreasyforkNavigation bar,Add user list,User console etc. 」</p>
+    <h1>GreasyFork: Navigation bar enhancement</h1>
+    <p>「 Add user list on navigation bar,console,Collection etc... 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png">

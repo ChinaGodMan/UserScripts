@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork 通知助手</h1>
+    <h1>GreasyFork 通知助手</h1>
     <p>「 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>

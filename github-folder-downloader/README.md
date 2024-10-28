@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub文件夹下载</h1>
+    <h1>GitHub 文件夹下载器</h1>
     <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader/github-folder-downloader.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>

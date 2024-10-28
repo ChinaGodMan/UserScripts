@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️입장GitHub 더 나은 경험을 위한 앱의 Readme 파일。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork프레이머</h1>
-    <p>「 향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동 」</p>
+    <h1>Greasyfork 프레이머</h1>
+    <p>「 ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>기록 업데이트</summary><h1><strong>🛠️ Greasyfork 프레이머 변경 로그</strong></h1>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
@@ -72,7 +74,7 @@
 <p><strong>수리하다</strong>: • 모바일 장치에서 스크립트 설정 인터페이스가 잘못 표시되는 문제를 수정했습니다.。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
-<p><strong>새로운</strong>: • 베트남어 언어 팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다。</p>
+<p><strong>새로운</strong>: • 베트남어 언어팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다。</p>
 <hr />
 <h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
 <p><strong>새로운</strong>: • 증가하다 WebHook 페이지 빠른 점프 스크립트 관리。</p>

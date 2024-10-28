@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-control-panel-button/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork 導覽列增強</h1>
-    <p>「 增強greasyfork導覽列,增加用戶列表,使用者控制台等 」</p>
+    <h1>GreasyFork: 導覽列增強</h1>
+    <p>「 在導覽列上新增使用者列表,主機,收藏等.. 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/501880">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/501880.png">

@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/highlight-keywords/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -40,11 +42,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>网页高亮关键字+(推荐)</h1>
-    <p>「 对网页上的文字进行高亮显示 」</p>
+    <h1>网页高亮关键字</h1>
+    <p>「 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用 」</p>
     <img src="https://views.whatilearened.today/views/github/498906/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords/highlight-keywords.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498906">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/498906.png">

@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -42,10 +44,10 @@
 
 <center><div align="center">
     <h1>网页写入剪辑版授权管理器</h1>
-    <p>「 禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向 」</p>
+    <p>「 管理网页对剪贴板的写入行为防止未经授权的自动复制和禁用音视频内容预载及自动播放。 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>

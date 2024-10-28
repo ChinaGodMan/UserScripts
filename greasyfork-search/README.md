@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-search/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-search/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork 高级搜索</h1>
-    <p>「 使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本 」</p>
+    <h1>GreasyFork Search</h1>
+    <p>「 使用谷歌搜索GreasyFork和SleazyFork上的脚本 」</p>
     <img src="https://views.whatilearened.today/views/github/505215/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-search/greasyfork-search.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505215">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505215.png">

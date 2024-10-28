@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -42,14 +44,14 @@
 
 <center><div align="center">
     <h1>GitHub File list beautifier</h1>
-    <p>「 GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。 」</p>
+    <p>「 GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree 」</p>
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508047">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub File list beautifier Change log</strong></h1>
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
-<p><strong>New</strong>: Added the ability to add icons to files,Added custom file colors and icons。</p>
+<p><strong>New</strong>: Added icons for files,Added custom file colors and icons。</p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508047.png">
 </div></center>

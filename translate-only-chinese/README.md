@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,10 +43,10 @@
 
 <center><div align="center">
     <h1>网页翻译——自动翻译为中文</h1>
-    <p>「 给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译 」</p>
+    <p>「 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译 」</p>
     <img src="https://views.whatilearened.today/views/github/505208/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese/translate-only-chinese.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505208">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505208.png">

@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️truy cậpGitHub Tập tin Readme trên ứng dụng để có trải nghiệm tốt hơn。</sub></em>
     </h6>
 </div>
 
@@ -44,10 +46,10 @@
 
 <center><div align="center">
     <h1>ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa</h1>
-    <p>「 Tự động thu gọn các tin nhắn dài do bạn gửi，Tiết kiệm không gian màn hình。Cho phép bạn đặt độ rộng tối đa của cửa sổ trò chuyện，Giữ tin nhắn dài không vượt quá phạm vi được chỉ định。 」</p>
+    <p>「 nếp gấpChatGPTtrung bình và dài“Bạn”thông tin，và đặt chiều rộng tối đa 」</p>
     <img src="https://views.whatilearened.today/views/github/504901/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
             Fork</a></p><details><summary>Cập nhật bản ghi</summary><h1><strong>🛠️ ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa Nhật ký thay đổi</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>

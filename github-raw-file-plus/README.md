@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-raw-file-plus/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-raw-file-plus/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub下载单文件和复制文件URL</h1>
+    <h1>Github 复制原始文件 URL 与下载文件</h1>
     <p>「 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件 」</p>
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus/github-raw-file-plus.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505501">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub下载单文件和复制文件URL 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 05:09 - Ver 2.2</strong></h3>

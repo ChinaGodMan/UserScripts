@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/thisav-auto-login-helper/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/thisav-auto-login-helper/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>TissAV自动登录</h1>
-    <p>「 检测 TissAV 状态，并且在未登录时自动登录 」</p>
+    <h1>ThisAV 自动登录</h1>
+    <p>「 检测 ThisAV 状态,并且在未登录时自动登录 」</p>
     <img src="https://views.whatilearened.today/views/github/506528/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/thisav-auto-login-helper/thisav-auto-login-helper.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506528">Greasy
             Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506528.png">

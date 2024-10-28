@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -40,11 +42,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>MissAV收藏管理器</h1>
-    <p>「 miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav 」</p>
+    <h1>MissAv批量备份收藏视频</h1>
+    <p>「 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件 」</p>
     <img src="https://views.whatilearened.today/views/github/497682/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer/missav-explorer.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">

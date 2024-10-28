@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHubFolder download</h1>
+    <h1>GitHub folder downloader</h1>
     <p>「 Add a download button，Allows easy downloading of specific GitHub folder。 」</p>
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader/github-folder-downloader.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Folder download Change log</strong></h1>
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>

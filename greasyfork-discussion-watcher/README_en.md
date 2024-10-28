@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -41,13 +43,13 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork Notification Assistant</h1>
+    <h1>GreasyFork Notification Assistant</h1>
     <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification Assistant Change log</strong></h1>
+            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification assistant Change log</strong></h1>
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
 <p><strong>New</strong>: <code>https://greasyfork.org/users/*/notifications</code>reverse sort,Have the latest information appear at the top,instead of the bottom.</p>
 <hr />
@@ -62,7 +64,7 @@
 <p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork In-site notifications have been gradually supported,Scripts will lose their meaning.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your own newly opened discussion,and inMatch last speakeruser ID on failure,Match last speaker.</p>
+<p><strong>New</strong>: Skip your own newly opened discussion,并且在Match last speaker用户 ID on failure,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>

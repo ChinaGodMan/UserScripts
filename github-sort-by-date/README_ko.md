@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_vi.md">Tiếng Việt</a>
+    <br>
+    <em><sub>👆️입장GitHub 더 나은 경험을 위한 앱의 Readme 파일。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub Sort by Date</h1>
-    <p>「 창고 목록 파일 정렬 방식을 날짜 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。 」</p>
+    <h1>GitHub 날짜순으로 정렬</h1>
+    <p>「 파일 정렬을 날짜별 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。 」</p>
     <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date/github-sort-by-date.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">

@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -42,11 +44,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT 聊天复制代码按钮</h1>
-    <p>「 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮 」</p>
+    <h1>ChatGPT 聊天复制代码和导出代码按钮</h1>
+    <p>「 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮和一个为 ChatGPT 响应中的代码块添加导出按钮，提示用户根据代码块的类名检测到的编程语言将代码保存为文件。 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 聊天复制代码按钮 更新日志</strong></h1>
 <h3><strong>📅 2024-09-23 08:58:07- Ver 1.2.0.0</strong></h3>

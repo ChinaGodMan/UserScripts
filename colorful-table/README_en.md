@@ -8,8 +8,10 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -42,10 +44,10 @@
 
 <center><div align="center">
     <h1>Beautify web forms with gorgeous gradients</h1>
-    <p>「 Automatically apply color gradient beautification to all columns of tables on web pages. 」</p>
+    <p>「 Automatically apply color gradients to all columns of the table to beautify it 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table/colorful-table.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Beautify web forms with gorgeous gradients Change log</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>

@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>小窗口预览</h1>
-    <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。 」</p>
+    <h1>小窗预览</h1>
+    <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小. 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
 <h3><strong>📅 2024/9/30 11:56 - Ver 2.5.1.4</strong></h3>

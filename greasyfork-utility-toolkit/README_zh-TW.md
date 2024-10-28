@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork糊裱匠</h1>
-    <p>「 增強greasyfork,複製程式碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本清單跳轉代碼添加下載 美化查看程式碼顯示程式碼引用文件，顯示腳本圖示，跳轉成人腳本等等一些操作 」</p>
+    <h1>Greasyfork 膠水工匠</h1>
+    <p>「 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日誌</strong></h1>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>

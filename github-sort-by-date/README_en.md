@@ -12,6 +12,8 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_en.md">English</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_vi.md">Tiếng Việt</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -43,11 +45,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GitHub Sort by Date</h1>
-    <p>「 Change the sorting method of warehouse list files to descending date order，Conveniently view the latest updated files。 」</p>
+    <h1>GitHub Sort by date</h1>
+    <p>「 Change file sorting to descending by date，Conveniently view the latest updated files。 」</p>
     <img src="https://views.whatilearened.today/views/github/505218/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-sort-by-date/github-sort-by-date.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">

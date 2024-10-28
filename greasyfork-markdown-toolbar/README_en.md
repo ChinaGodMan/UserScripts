@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-markdown-toolbar/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -41,15 +43,15 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>GreasyFork Markdown toobar</h1>
-    <p>「 Used by default in forums Markdown Format，Add format help link and Markdown Toolbar introduction 」</p>
+    <h1>GreasyFork markdown</h1>
+    <p>「 The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GreasyFork Markdown Toobar Change log</strong></h1>
 <h3><strong>📅 2024-10-02 - Ver: 2.0.5</strong></h3>
-<p><strong>New</strong>: Quickly translate selected text from Google to Inglis<br>You can set the translation to language in the script:<code>var translate = "en"</code>.</p>
+<p><strong>New</strong>: Google quickly translates selected text to Inglis<br>You can set the translation to language in the script:<code>var translate = "en"</code>.</p>
 <p><img alt="tl.gif" src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif" /></p>
 <hr />
 <h3><strong>📅 2024-08-04 - Ver: 2.0.4</strong></h3>

@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -45,14 +47,14 @@
     <p>「 Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Small Window Preview Change log</strong></h1>
 <h3><strong>📅 2024/9/30 11:56 - Ver 2.5.1.4</strong></h3>
 <p><strong>optimization</strong>: Add to<code>GUISetting interface</code> The menu is too troublesome,Set up multiple points to point to and from.</p>
 <hr />
 <h3><strong>📅 2024/9/30 10:49 - Ver 2.5.1.3</strong></h3>
-<p><strong>optimization</strong>: Add to<code>Long press effective time</code>,After the mouse click is equal to the set effective time, the function before opening the small window is called.<code>Long press trigger time</code>.<br>Open small window time=<code>Long press effective time</code>+<code>Long press trigger time</code>
+<p><strong>optimization</strong>: Add to<code>Long press effective time</code>,After the mouse is pressed equal to the set effective time, the function before opening the small window is called.<code>Long press trigger time</code>.<br>Open small window time=<code>Long press effective time</code>+<code>Long press trigger time</code>
 <strong>optimization</strong>: Add to<code>GUISetting interface</code> The menu is too troublesome,Set up multiple points to point to and from.</p>
 <hr />
 <h3><strong>📅 2024/9/10 11:05 - Ver 2.5.1.0</strong></h3>

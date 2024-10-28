@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-linguist-expand/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -42,11 +44,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Github List of code languages ​​show all</h1>
-    <p>「 Expand Github List of languages ​​on the repository，Show each language，Instead of hiding small parts in “other” Down 」</p>
+    <h1>Github List of code languages show all</h1>
+    <p>「 Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down 」</p>
     <img src="https://views.whatilearened.today/views/github/509889/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand/github-linguist-expand.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509889">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Github List of code languages ​​show all Change log</strong></h1>
 <h3><strong>📅 2024-10-19 07:36:03- Ver 1.1.0.0</strong></h3>
@@ -54,7 +56,7 @@
 <h3><strong>📅 2024-09-24 04:33:03- Ver 1.0.0.0</strong></h3>
 <p><strong>repair</strong>: •Fix element failure issue<br>
 <strong>New</strong>: •Allow setting Token Access your own private repository<br>
-<strong>New</strong>: •Allowed when jumping to other warehouses,automatically added.<br></p>
+<strong>New</strong>: •Allows jumping to other warehouses,Automatically add.<br></p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/509889.png">
 </div></center>

@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/no-zh-terminator/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,10 +43,10 @@
 
 <center><div align="center">
     <h1>外语终结者</h1>
-    <p>「 识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络 」</p>
+    <p>「 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文 」</p>
     <img src="https://views.whatilearened.today/views/github/504890/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator/no-zh-terminator.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504890">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 外语终结者 更新日志</strong></h1>
 <h3><strong>📅 2024/9/24 18:59 - Ver 1.4.0.0</strong></h3>

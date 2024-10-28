@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_en.md">English</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>一键置顶和置底按钮</h1>
-    <p>「 修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止 」</p>
+    <h1>置顶和置底按钮</h1>
+    <p>「 在所有页面生成两个按钮，一个用于顺滑回到顶部，一个用于持续滚动到底部，再次点击取消滚动到底部 」</p>
     <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮 更新日志</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>

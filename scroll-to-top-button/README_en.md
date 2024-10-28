@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>One-touch top and bottom buttons</h1>
-    <p>「 Modified fromGreasyforkuser script Add top and bottom buttons to web pages，Facilitates quick movement to the top or bottom of long pages。 Added button color change when scrolling down，3Automatically stops if there is no scrolling within seconds 」</p>
+    <h1>Pin to top and bottom buttons</h1>
+    <p>「 Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom 」</p>
     <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ One-touch top and bottom buttons Change log</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
