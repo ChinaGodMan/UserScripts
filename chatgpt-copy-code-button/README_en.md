@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -42,11 +44,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT Chat copy code button</h1>
-    <p>「 exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button 」</p>
+    <h1>ChatGPT Chat copy code and export code buttons</h1>
+    <p>「 exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT Chat copy code button Change log</strong></h1>
 <h3><strong>📅 2024-09-23 08:58:07- Ver 1.2.0.0</strong></h3>

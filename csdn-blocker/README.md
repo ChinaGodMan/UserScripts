@@ -9,6 +9,8 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/csdn-blocker/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -40,11 +42,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>解除CSDN登录复制限制</h1>
-    <p>「 去你妈的 CSDN 登录复制，无需登录即可复制代码框内容 」</p>
+    <h1>解除CSDN登录复制</h1>
+    <p>「 去你妈的CSDN登录复制,无需登录即可复制 」</p>
     <img src="https://views.whatilearened.today/views/github/505207/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/csdn-blocker/csdn-blocker.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505207">Greasy
             Fork</a></p>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">

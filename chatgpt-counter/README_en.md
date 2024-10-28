@@ -30,6 +30,8 @@ Recommended browsers and script managers：
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -37,11 +39,11 @@ Recommended browsers and script managers：
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT character counter</h1>
-    <p>「 add onecharactersCounter to input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
+    <h1>ChatGPT Character counter limit (CCCL)</h1>
+    <p>「 Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。） 」</p>
     <img src="https://views.whatilearened.today/views/github/506166/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-counter/chatgpt-counter.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506166">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ ChatGPT character counter Change log</strong></h1>
 <h3><strong>📅 2024/9/1 09:37 - Ver 1.3.1</strong></h3>

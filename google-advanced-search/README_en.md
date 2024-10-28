@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-advanced-search/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/google-advanced-search/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -41,11 +43,11 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Google Advanced search</h1>
-    <p>「 This is a for Google Add user script for advanced search form。It adds a hideable advanced search form at the top of the page，Enable you to search for information more precisely。 」</p>
+    <h1>Google Advanced search assistant</h1>
+    <p>「 Add an advanced search form to the top of your Google search page 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search/google-advanced-search.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Google Advanced search Change log</strong></h1>
 <h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
@@ -53,7 +55,7 @@
 <hr />
 <h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
 <p><strong>issues</strong>: Advanced search box cannot be displayed on mobile devices。<br />
-<strong>repair</strong>: The code below is only PC Effective on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<strong>repair</strong>: The code below is only PC Valid on the terminal <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>

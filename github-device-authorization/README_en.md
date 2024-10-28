@@ -10,6 +10,8 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization/README_en.md">English</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on the app for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -45,7 +47,7 @@
     <p>「 existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。 」</p>
     <img src="https://views.whatilearened.today/views/github/508956/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508956">Greasy
             Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ GitHub Automatically confirm device authorization Change log</strong></h1>
 <h3><strong>📅 2024-09-18 08:50:32- Ver 1.0.0.0</strong></h3>

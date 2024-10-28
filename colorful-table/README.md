@@ -8,8 +8,10 @@
             <img height=14
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a>
+    <br>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -42,10 +44,10 @@
 
 <center><div align="center">
     <h1>绚丽渐变美化网页表格</h1>
-    <p>「 自动为网页上的表格所有列应用颜色渐变美化. 」</p>
+    <p>「 自动为表格所有列应用颜色渐变来美化 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table/colorful-table.user.js?color=%23990000">
-    <p>Download：<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 绚丽渐变美化网页表格 更新日志</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
