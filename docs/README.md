@@ -451,6 +451,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a>
 </blockquote>
         <h3>
+    <a href="../github-repository-navigator">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-repository-navigator">GitHub 快速跳转助手</a>&nbsp;
+    <a href="../github-repository-navigator">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+</h3>
+
+<details>
+    <summary>GitHub 快速跳转助手是一款专为帮助用户快速访问自己在 GitHub 上的仓库而设计。它可以大幅提高开发者在使用 GitHub 时的效率。</summary>
+    <br><blockquote>
+        <a href="../github-repository-navigator">
+           <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/515205">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/515205">
+        Greasemonkey</a> /
+    <a href="../github-repository-navigator/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-repository-navigator/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a>
+</blockquote>
+        <h3>
     <a href="../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub 文件列表美化器</a>&nbsp;
