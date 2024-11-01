@@ -167,9 +167,10 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
+> -   [****](https://greasyfork.org/scripts/515205): 
 > -   [**GitHub 파일 목록 미화자**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。유형별로 파일에 색상 및 아이콘 추가，저장소 소스 트리의 파일 유형 아이콘 대신 작은 이미지 표시
 > -   [**Github 코드 언어 목록 모두 표시**](https://greasyfork.org/scripts/509889): 확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다“다른”아래에
 > -   [**GitHub 장치 승인 자동 확인**](https://greasyfork.org/scripts/508956): 존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。

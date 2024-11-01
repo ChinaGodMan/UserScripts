@@ -153,9 +153,10 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍you may be looking forGitHubRelated scripts
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> -   [****](https://greasyfork.org/scripts/515205): 
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
 > -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
