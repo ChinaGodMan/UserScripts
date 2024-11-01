@@ -111,7 +111,7 @@
 </h3>
 
 <details>
-    <summary>添加一캐릭터计数器到输入框，제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</summary>
+    <summary>添加一캐릭터计数器到输入框，로 제한됨 32732 캐릭터。（ChatGPT 한도는 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
            <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
@@ -451,6 +451,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
 </blockquote>
         <h3>
+    <a href="../github-repository-navigator">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-repository-navigator">GitHub 빠른 점프 도우미</a>&nbsp;
+    <a href="../github-repository-navigator">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+</h3>
+
+<details>
+    <summary>GitHub Quick Jump Assistant는 사용자가 GitHub 창고용으로 설계됨。개발자의 사용 능력을 크게 향상시킬 수 있습니다. GitHub 시간 효율성。</summary>
+    <br><blockquote>
+        <a href="../github-repository-navigator">
+           <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/515205">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/515205">
+        Greasemonkey</a> /
+    <a href="../github-repository-navigator/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-repository-navigator/#readme">
+        읽어보기 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
+</blockquote>
+        <h3>
     <a href="../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub 파일 목록 미화자</a>&nbsp;
@@ -720,7 +749,7 @@
 </h3>
 
 <details>
-    <summary>추가할 링크에 적합한 스크립트 세부정보 페이지가 추가됩니다.，웹페이지 복사,타이어 검색</summary>
+    <summary>스크립트 세부정보 페이지가 추가되어 링크 추가에 적합합니다. 클릭하면 웹페이지가 열립니다.，웹페이지 복사,타이어 검색</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -778,7 +807,7 @@
 </h3>
 
 <details>
-    <summary>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가하세요.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</summary>
+    <summary>이 스크립트를 사용하면 스크립트 동기화 정보를 빠르게 입력할 수 있습니다.，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
            <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
@@ -923,7 +952,7 @@
 </h3>
 
 <details>
-    <summary>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고서 토론，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</summary>
+    <summary>향상시키다greasyfork,코드 복사，스크립트 다운로드，초 단위의 정확한 시간，홈페이지 정리，원클릭 보고에 대해 논의，스크립트 목록 점프 코드 추가 다운로드 코드 보기 및 코드 참조 파일 표시，스크립트 아이콘 표시，성인용 스크립트 및 기타 작업으로 이동</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
            <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
@@ -952,7 +981,7 @@
 </h3>
 
 <details>
-    <summary>스크립트나 참여 중인 토론에 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。</summary>
+    <summary>귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
@@ -1185,7 +1214,7 @@
 스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
--   만약에 Github 액세스 속도가 너무 느립니다.，클릭하여 선택할 수 있습니다. GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+-   만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다. GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
 -   [자세한 튜토리얼 보기](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
@@ -1227,10 +1256,10 @@
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
 > -   _이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑](https://github.com/adamlui)훌륭한 아이디어와 코드!_ :trollface:
-> -   _이 창고의 이름 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
+> -   _이 창고의 명명 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
 > -   _이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
 > -   _스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
-> -   _이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
+> -   _이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:

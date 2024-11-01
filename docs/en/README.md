@@ -451,6 +451,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
 </blockquote>
         <h3>
+    <a href="../github-repository-navigator">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-repository-navigator">GitHub Quick jump assistant</a>&nbsp;
+    <a href="../github-repository-navigator">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=number%20of%20users"></a>
+</h3>
+
+<details>
+    <summary>GitHub Quick Jump Assistant is a tool designed to help users quickly access their GitHub Designed for warehouses。It can greatly improve developers’ ability to use GitHub time efficiency。</summary>
+    <br><blockquote>
+        <a href="../github-repository-navigator">
+           <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/515205">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/515205">
+        Greasemonkey</a> /
+    <a href="../github-repository-navigator/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-repository-navigator/#readme">
+        readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+</blockquote>
+        <h3>
     <a href="../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../github-file-list-beautifier-plus">GitHub File list beautifier</a>&nbsp;
@@ -459,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add color to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</summary>
+    <summary>GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
@@ -720,7 +749,7 @@
 </h3>
 
 <details>
-    <summary>The script details page is added. It is suitable for links to be added. Click to open the web page.，Copy web page,tire search</summary>
+    <summary>The script details page is added. It is suitable for adding links. Click to open the web page.，Copy web page,tire search</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -952,7 +981,7 @@
 </h3>
 
 <details>
-    <summary>When there are new replies to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</summary>
+    <summary>When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
