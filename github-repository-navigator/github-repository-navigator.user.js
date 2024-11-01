@@ -115,7 +115,37 @@ const translations = {
         githubtokeninput: 'Enter your GitHub personal access token',
         newtoken: 'Click here to create a new token',
         warncheckbox: '  Inactive Development Warning',
-        menu: 'Set GitHub Token'
+        menu: 'Set GitHub Token',
+        renderWarning: 'WARNING: repo has not received an update in 1+ year(s)',
+        renderCaution: 'Caution: repo has not received an update in 6+ months',
+        confirm: 'You have not entered a Token, confirm to clear the GitHub Token?',
+        timediff: 'Last commit was: {years} years, {months} months, {days} days ago ',
+        view: 'View[',
+        allRepos: ']All repositories',
+        newTab: 'Open in a new tab when quickly viewing repositories',
+        repoSize: 'Repository size:',
+        repoDes: 'Repository description:',
+        repoLang: 'Primary language:',
+        repoCreated: 'Initial creation time:',
+        repoUpdated: 'Last updated:',
+        repoPushed: 'Last pushed:',
+        repoForks: 'Forks:',
+        repoStars: 'Stars:',
+        ossinsight: 'OSS Insight analysis page for the repository',
+        activeforks: 'Active forks list for the repository',
+        activeforks_: 'Active forks',
+        publicRepos: 'Public repositories: ',
+        privateRepos: 'Private repositories: ',
+        forkRepos: 'Forked repositories: ',
+        deleteRepo_i: 'You are trying to delete the repository:',
+        deleteRepo: 'ChinaGodMan reminds you:\nDeleting a repository is an extremely dangerous operation.\nOnce you delete a repository, it cannot be recovered.\nPlease think twice! Data is priceless, cherish it.',
+        deleteRepo_ask: 'Are you sure you want to delete the repository? (Confirmed',
+        deleteRepo_pass: 'Deletion successful!',
+        deleteRepo_failed: 'Deletion failed!\nIt is recommended to check whether the GitHub token has permission to delete the repository!',
+        deleteRepo_failed_status: 'Status code:',
+        deleteRepo_btn: 'Delete repository',
+        secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.'
+
     },
     'zh-CN,zh,zh-SG': {
         save: '保存',
@@ -124,7 +154,37 @@ const translations = {
         description: '请输入您的 GitHub 个人访问令牌，需具备 "repo" 权限。',
         githubtokeninput: '请输入您的 GitHub 个人访问令牌',
         newtoken: '点击此处创建新的令牌',
-        menu: '设置 GitHub 令牌'
+        warncheckbox: ' 非活跃开发警告',
+        menu: '设置 GitHub 令牌',
+        renderWarning: '警告：该仓库在 1 年以上未更新',
+        renderCaution: '注意：该仓库在 6 个月以上未更新',
+        confirm: '你没有输入Token,确认清空GitHub Token?',
+        timediff: '最后一次提交距现在：{years}年{months}个月{days}天 ',
+        view: '查看',
+        allRepos: '所有仓库',
+        newTab: '快速查看仓库时新窗口打开',
+        repoSize: '仓库大小：',
+        repoDes: '仓库简介：',
+        repoLang: '主要语言：',
+        repoCreated: '初始创建时间：',
+        repoUpdated: '最后一次更新：',
+        repoPushed: '最后一次推送：',
+        repoForks: '复刻：',
+        repoStars: '星标：',
+        ossinsight: '仓库对应的 OSS Insight 分析页面',
+        activeforks: '仓库对应的活跃复刻列表',
+        activeforks_: '活跃的复刻',
+        publicRepos: '公共仓库: ',
+        privateRepos: '私有仓库: ',
+        forkRepos: '分叉仓库: ',
+        deleteRepo_i: '你正在尝试删除仓库：',
+        deleteRepo: '人民的勤务员提醒你:\n删除仓库是一个极其危险的操作\n 你一旦删除仓库，将再也无法恢复。\n请三思而后行!  数据无价，且行且珍惜',
+        deleteRepo_ask: '你确定要删除仓库吗? (已确认',
+        deleteRepo_pass: ' 删除成功!',
+        deleteRepo_failed: '删除失败!\n建议检查GitHub token 是否具有删除仓库的权限!',
+        deleteRepo_failed_status: '状态码:',
+        deleteRepo_btn: '删除仓库',
+        secret: '[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入'
     },
     'zh-TW,zh-HK,zh-MO': {
         save: '保存',
@@ -134,7 +194,11 @@ const translations = {
         githubtokeninput: '請輸入您的 GitHub 個人訪問令牌',
         newtoken: '點擊此處創建新的令牌',
         warncheckbox: ' 非活躍開發警告',
-        menu: '設定 GitHub 令牌'
+        menu: '設定 GitHub 令牌',
+        renderWarning: '警告：該倉庫在 1 年以上未更新',
+        renderCaution: '注意：該倉庫在 6 個月以上未更新',
+        confirm: '你沒有輸入Token，確認清空GitHub Token?',
+        timediff: '最後一次提交距現在：{years}年{months}個月{days}天 '
     },
     vi: {
         save: 'Lưu',
@@ -144,7 +208,11 @@ const translations = {
         githubtokeninput: 'Nhập token truy cập cá nhân GitHub của bạn',
         newtoken: 'Nhấn vào đây để tạo token mới',
         warncheckbox: ' Cảnh báo phát triển không hoạt động',
-        menu: 'Đặt Token GitHub'
+        menu: 'Đặt Token GitHub',
+        renderWarning: 'CẢNH BÁO: kho lưu trữ đã không nhận được cập nhật trong hơn 1 năm',
+        renderCaution: 'Cảnh báo: kho lưu trữ đã không nhận được cập nhật trong hơn 6 tháng',
+        confirm: 'Bạn chưa nhập Token, xác nhận xóa GitHub Token?',
+        timediff: 'Lần commit cuối cách đây: {years} năm, {months} tháng, {days} ngày '
     },
     ja: {
         save: '保存',
@@ -154,7 +222,11 @@ const translations = {
         githubtokeninput: 'GitHub個人アクセストークンを入力してください',
         newtoken: '新しいトークンを作成するにはここをクリックしてください',
         warncheckbox: ' 非アクティブ開発警告',
-        menu: 'GitHubトークンの設定'
+        menu: 'GitHubトークンの設定',
+        renderWarning: '警告：リポジトリは1年以上更新されていません',
+        renderCaution: '注意：リポジトリは6ヶ月以上更新されていません',
+        confirm: 'トークンが入力されていません。GitHubトークンをクリアしてもよろしいですか?',
+        timediff: '最終コミットから現在まで：{years}年{months}ヶ月{days}日 '
     },
     ko: {
         save: '저장',
@@ -164,7 +236,11 @@ const translations = {
         githubtokeninput: 'GitHub 개인 액세스 토큰을 입력하세요',
         newtoken: '여기를 클릭하여 새 토큰을 만드세요',
         warncheckbox: ' 비활성 개발 경고',
-        menu: 'GitHub 토큰 설정'
+        menu: 'GitHub 토큰 설정',
+        renderWarning: '경고: 이 저장소는 1년 이상 업데이트되지 않았습니다',
+        renderCaution: '주의: 이 저장소는 6개월 이상 업데이트되지 않았습니다',
+        confirm: '토큰을 입력하지 않았습니다. GitHub 토큰을 지우시겠습니까?',
+        timediff: '마지막 커밋 이후 경과: {years}년 {months}개월 {days}일 '
     }
 }
 const getTranslations = (lang) => {
