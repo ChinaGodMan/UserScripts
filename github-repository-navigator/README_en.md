@@ -27,13 +27,13 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1></h1>
-    <p>「  」</p>
+    <h1>GitHub warehouse quick jump assistant</h1>
+    <p>「 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu. 」</p>
     <img src="https://views.whatilearened.today/views/github/515205/hmjz100.svg" alt="Views">
-    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repository-navigator/github-repository-navigator?color=%23990000">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repository-navigator/github-repository-navigator.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/515205">Greasy
-            Fork</a></p><details><summary>Update record</summary><p>initial version,Welcome</p></details>
+            Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/515205.png">
 </div></center>
 
@@ -72,7 +72,7 @@ GitHub Quick Jump Assistant is a tool designed to help users quickly access thei
 > ### 🔍you may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> -   [****](https://greasyfork.org/scripts/515205): 
+> -   [\*\*\*\*](https://greasyfork.org/scripts/515205):
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
 > -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
@@ -135,7 +135,7 @@ Recommended browsers and script managers：
 > ### 🔍you may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> -   [****](https://greasyfork.org/scripts/515205): 
+> -   [\*\*\*\*](https://greasyfork.org/scripts/515205):
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
 > -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
