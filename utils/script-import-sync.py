@@ -168,11 +168,11 @@ class GreasyFork:
 
 
 if __name__ == "__main__":
-    user_email = '100001@qq.com'
-    user_password = 'abcdefghijklmnopqrstuvwxyz'
+    user_email = ''
+    p = ''
     GF = GreasyFork()
     # 登录
-    GF.login(user_email, user_password)
+    GF.login(user_email, p)
     # 进行导入操作 ,此处仅为测试使用,批量更新需后续增加代码.666
     sync_urls = 'https://github.com/ChinaGodMan/UserScripts/raw/main/translate-only-chinese/translate-only-chinese.user.js'
     result = GF.import_scripts(sync_urls)
