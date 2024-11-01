@@ -93,10 +93,10 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
-> -   [****](https://greasyfork.org/scripts/515205): 
+> -   [**Trợ lý nhảy nhanh kho GitHub**](https://greasyfork.org/scripts/515205): 🤠 Trợ lý nhảy nhanh kho GitHub, được thiết kế đặc biệt để giúp người dùng truy cập nhanh vào kho của họ trên GitHub. Nó tạo ra một nút ở đầu thanh điều hướng. Nhấp để mở rộng tất cả các kho lưu trữ của bạn và dễ dàng chuyển đến trang kho lưu trữ GitHub của riêng bạn mà không cần sử dụng menu phụ của GitHub.
 > -   [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。Thêm màu sắc và biểu tượng vào tệp theo loại，Hiển thị hình ảnh nhỏ thay cho biểu tượng loại tệp trong cây nguồn kho lưu trữ
 > -   [**Github Danh sách ngôn ngữ mã hiển thị tất cả**](https://greasyfork.org/scripts/509889): Mở rộng Github Danh sách ngôn ngữ trên kho lưu trữ，Hiển thị từng ngôn ngữ，Thay vì giấu những phần nhỏ trong“khác”Xuống
 > -   [**GitHub Tự động xác nhận ủy quyền thiết bị**](https://greasyfork.org/scripts/508956): hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。
@@ -159,10 +159,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
-> -   [****](https://greasyfork.org/scripts/515205): 
+> -   [**Trợ lý nhảy nhanh kho GitHub**](https://greasyfork.org/scripts/515205): 🤠 Trợ lý nhảy nhanh kho GitHub, được thiết kế đặc biệt để giúp người dùng truy cập nhanh vào kho của họ trên GitHub. Nó tạo ra một nút ở đầu thanh điều hướng. Nhấp để mở rộng tất cả các kho lưu trữ của bạn và dễ dàng chuyển đến trang kho lưu trữ GitHub của riêng bạn mà không cần sử dụng menu phụ của GitHub.
 > -   [**GitHub Trình làm đẹp danh sách tập tin**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。Thêm màu sắc và biểu tượng vào tệp theo loại，Hiển thị hình ảnh nhỏ thay cho biểu tượng loại tệp trong cây nguồn kho lưu trữ
 > -   [**Github Danh sách ngôn ngữ mã hiển thị tất cả**](https://greasyfork.org/scripts/509889): Mở rộng Github Danh sách ngôn ngữ trên kho lưu trữ，Hiển thị từng ngôn ngữ，Thay vì giấu những phần nhỏ trong“khác”Xuống
 > -   [**GitHub Tự động xác nhận ủy quyền thiết bị**](https://greasyfork.org/scripts/508956): hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。
