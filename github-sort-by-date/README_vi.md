@@ -93,7 +93,7 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [****](https://greasyfork.org/scripts/515205): 
@@ -159,7 +159,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍có thể bạn đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [****](https://greasyfork.org/scripts/515205): 
