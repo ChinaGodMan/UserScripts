@@ -2,15 +2,44 @@ import requests
 import re
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
+from searcher import search_in_file
+import json
+import shutil
+import os
 '''
-Script:       自动添加脚步并更新附加信息
-Version:            2024.11.1.1
-Description:     当docs/ScriptsPath.json有新的脚本目录被加入,但没有有对应的脚本ID时.自动创建脚本并且同步附加信息
+名称:       自动添加脚步并更新附加信息
+版本:            2024.11.2.21:26:26
+介绍:     当docs/ScriptsPath.json有新的脚本目录被加入,但没有有对应的脚本ID时.自动创建脚本并且同步附加信息
                         或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
-Author:            人民的勤务员
-Homepage:     https://github.com/ChinaGodMan/UserScripts
+作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
+主页:     https://github.com/ChinaGodMan/UserScripts
 '''
-# 暂时没完成,仅做了核心导入更新代码,未增加判断docs/ScriptsPath.json内容
+人民勤务员的仓库链接 = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/"
+
+
+# 构建同步文档地址
+def build_urls(directory):
+    urls = []
+    for filename in os.listdir(directory):
+        if filename.endswith('.md') and filename != 'README_en.md':
+            '''
+        可以将readme_en.md也包括在urls当中
+        gf会自动将en的语言设置成默认的语言
+        但是会导致脚本管理页面的元素发生变化
+        导致油猴脚本 [506717-GreaysFork增强WebHook同步设置]无法获取到元素.
+        不想改那个脚本,就兼容下得了.
+            '''
+            if filename == 'README.md':  # 仓库的默认介绍语言一律是中文,需要手动设置
+                urls.append(人民勤务员的仓库链接 + directory + "/" + filename + "##zh-CN")
+            else:
+                urls.append(人民勤务员的仓库链接 + directory + "/" + filename)
+    return urls
+
+
+# 读取json文件
+def read_json(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)
 
 
 # 和谐url，去除特殊字符
@@ -19,11 +48,19 @@ def extract_locale_key(url):
         match = re.search(r'##[^\(]*\(([^)]*)\)$', url) or re.search(r'##([^#]*)$', url)
     else:
         match = re.search(r'README_(.*?)\.md', url)
-
     return match.group(1) if match else None
 
 
-# 操作类
+# 复制多语言文档罢了
+def copy_readme(source_path, suffixes):
+    readme_file = os.path.join(source_path, 'README.md')
+    for suffix in suffixes:
+        new_file_name = f'README_{suffix}.md'
+        new_file_path = os.path.join(source_path, new_file_name)
+        shutil.copy(readme_file, new_file_path)
+
+
+# GreasyFork API类
 class GreasyFork:
     def __init__(self):
         self.session = requests.Session()
@@ -90,7 +127,7 @@ class GreasyFork:
 
         # 导入脚步
     def import_scripts(self, sync_urls):
-        """ 
+        """
         导入脚步并提取脚步ID
         """
         # 刷新 CSRF Token,历史代码.无需调用.
@@ -123,7 +160,7 @@ class GreasyFork:
                         script_id = match.group(1)  # ID
                         description = unquote(match.group(2))  # 名称
                         results.append([script_id, description])
-                        return results
+                        return script_id
             else:
                 return "脚步返回的元素未找到,需要手动检查脚本是否被导入了."
         else:
@@ -168,22 +205,33 @@ class GreasyFork:
 
 
 if __name__ == "__main__":
-    user_email = ''
-    p = ''
+    user_email = os.getenv('GFU')
+    p = os.getenv('GFP')
     GF = GreasyFork()
-    # 登录
     GF.login(user_email, p)
-    # 进行导入操作 ,此处仅为测试使用,批量更新需后续增加代码.666
-    sync_urls = 'https://github.com/ChinaGodMan/UserScripts/raw/main/translate-only-chinese/translate-only-chinese.user.js'
-    result = GF.import_scripts(sync_urls)
-    print(result)
-    # 同步脚本,,此处仅为测试使用,批量更新需后续增加获取仓库名称和直接判断目录下的js文件和md文件,拼接字符串后批量更新
-    script_url = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker/csdn-blocker.user.js"
-    defaultfile = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker/README.md"
-    script_id = "505207"
-    urls = [
-        "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker/README.md##zh-TW",
-        "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/csdn-blocker/README.md##ja",
-    ]
-    result = GF.sync_update(script_url, defaultfile, script_id, urls)
-    print(result)
+    json_path = 'docs/ScriptsPath.json'
+    data = read_json(json_path)
+    scripts = data.get('scripts', [])
+    for script in scripts:
+        if script.get('GreasyFork') == "":
+            # 先更新json内的脚本信息与名称
+            full_path = script.get('backuppath') + "/" + script.get('path')
+            results = search_in_file(full_path, "zh-CN")
+            name = "\n".join(results.name_matches)
+            description = "\n".join(results.description_matches)
+            script['name'] = name
+            script['description'] = description
+            # 复制多语言文档,用于之后的翻译
+            copy_readme(script.get('backuppath'), ['zh-TW', 'vi', 'en', 'ko'])
+            # 导入脚本,用于之后的同步附加信息
+            sync_urls = 人民勤务员的仓库链接 + full_path
+            import_script_id = GF.import_scripts(sync_urls)
+            script['GreasyFork'] = import_script_id
+            # 同步附加信息
+            urls = build_urls(script.get('backuppath'))
+            defaultfile = 人民勤务员的仓库链接 + script.get('backuppath') + "README_en.md"
+            result = GF.sync_update(sync_urls, defaultfile, import_script_id, urls)
+            # 更新json
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+            print(f"----\033[94m[{full_path}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
