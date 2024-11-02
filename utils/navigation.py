@@ -73,7 +73,7 @@ def main():
         end_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->"
         cnfile_path = os.path.join(backuppath, "README.md")
         c = Path(backuppath)
-        md_files = [file.name for file in c.glob('*.md')]
+        md_files = sorted([file.name for file in c.glob('*.md')])
         descriptions = build_html(md_files, backuppath)
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         olddescriptions = olddescriptions if olddescriptions is not None else "1"
