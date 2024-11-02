@@ -16,7 +16,7 @@ Homepage:     https://github.com/ChinaGodMan/UserScripts
 # 和谐url，去除特殊字符
 def extract_locale_key(url):
     if '##' in url:
-        match = re.search(r'##.*\((.*?)\)$', url) or re.search(r'##(.*?)$', url)
+        match = re.search(r'##[^\(]*\(([^)]*)\)$', url) or re.search(r'##([^#]*)$', url)
     else:
         match = re.search(r'README_(.*?)\.md', url)
 
