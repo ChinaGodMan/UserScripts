@@ -229,7 +229,7 @@ if __name__ == "__main__":
             script['GreasyFork'] = import_script_id
             # 同步附加信息
             urls = build_urls(script.get('backuppath'))
-            defaultfile = 人民勤务员的仓库链接 + script.get('backuppath') + "README_en.md"
+            defaultfile = 人民勤务员的仓库链接 + script.get('backuppath') + "/README_en.md"
             result = GF.sync_update(sync_urls, defaultfile, import_script_id, urls)
             # 更新json
             with open(json_path, 'w', encoding='utf-8') as f:
