@@ -21,10 +21,11 @@ jobs:
       - name: 安装依赖
         run: |
           pip install markdown
+          pip install beautifulsoup4
 
       - name: 检查新脚本
         run: |
-          python utils/update_scripts_info.py
+          python utils/script-import-sync.py
         env:
           GFU: ${{ secrets.GFU }}
           GFP: ${{ secrets.GFP }}
