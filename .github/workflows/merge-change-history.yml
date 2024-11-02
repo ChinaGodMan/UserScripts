@@ -26,6 +26,10 @@ jobs:
         run: |
           python utils/update_related_scripts.py
 
+      - name: 导航栏
+        run: |
+          python utils/navigation.py
+
       - name: 徽章信息
         run: |
           python utils/update_shields.py
@@ -56,5 +60,6 @@ jobs:
                       -m "刷新帮助:HELP.md → **/*.md" \
                       -m "相关脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
                       -m "所有脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
+                      -m "语言导航:**/*.md → xx|xx" \
           || echo "没有需要提交的更改"
           git push
