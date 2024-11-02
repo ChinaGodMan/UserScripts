@@ -526,24 +526,39 @@ async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
     try {
         let allRepos = []
         let page = 1
-        let perPage = 100
-        do {
-            const url = getAll ? `${href}?per_page=${perPage}&page=${page}` : href//NOTE - false时，就获取前30个就行了 ，够用了 仓库没那么多，列表太长也不好。
+        const perPage = 100
+
+        if (!getAll) {
+
+            const url = `${href}?per_page=${perPage}&page=1`//如果不需要获取所有仓库，直接请求第一页数据
             const response = await fetch(url, { headers: header })
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
             const repos = await response.json()
-            if (repos.length === 0) break
+            return repos.length > 0 ? repos : allRepos // 返回第一页数据
+        }
+
+        while (true) {
+            const url = `${href}?per_page=${perPage}&page=${page}`
+            const response = await fetch(url, { headers: header })
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
+            const repos = await response.json()
+
+            if (repos.length === 0) break // 如果没有更多数据，退出循环
+
             allRepos = allRepos.concat(repos)
-            page++
-            // 如果设定了最大页数并且已经达到了最大页数，结束战斗
+            page++ // 增加页数
+
+            // 如果设定了最大页数并且已经达到了最大页数，结束循环
             if (maxPage !== 0 && page > maxPage) break
-        } while (getAll)
+        }
+
         return allRepos
     } catch (error) {
         console.error('Fetch error:', error)
         throw error
     }
 }
+
 function fetchReposWithCache(ownerKey, reposApi, headers) {
     const localData = localStorage.getItem(ownerKey)
     const currentTime = new Date().getTime()
