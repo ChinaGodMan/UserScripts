@@ -338,7 +338,7 @@ function main(delay = 0) {
                 const metaElement = document.querySelector('meta[name="octolytics-actor-login"]')
                 const loginUserName = metaElement.getAttribute('content')
                 const targetSelector = isMobileDevice() ? '.AppHeader-search button' : '#global-create-menu-anchor'
-                fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers, 'view-global-user-repos', targetSelector)
+                fetchReposWithCache(loginUserName, 'https://api.github.com/user/repos', headers)
             }
         })
 }
