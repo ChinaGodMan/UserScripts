@@ -598,9 +598,9 @@ function systemTime(isoString) {
 }
 function timeToSeconds(timeStr) {
     let hours = 0, minutes = 0, seconds = 0
-    const hoursMatch = timeStr.match(/(\d+)h/)
-    const minutesMatch = timeStr.match(/(\d+)m/)
-    const secondsMatch = timeStr.match(/(\d+)s/)
+    const hoursMatch = timeStr.match(/(\d{1,2})h/)
+    const minutesMatch = timeStr.match(/(\d{1,2})m/)
+    const secondsMatch = timeStr.match(/(\d{1,2})s/)
     if (hoursMatch) {
         hours = parseInt(hoursMatch[1], 10)
     }
