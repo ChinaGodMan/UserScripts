@@ -1324,6 +1324,16 @@
 <p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
 <a href="#">回到顶部↑</a></p>
 
-## License
+## 开源许可协议
 
-The MIT License.
+<a href="../LICENSE.md"><strong>MIT许可证</strong></a>
+
+### 星标历史
+
+<a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
+  </picture>
+</a>
