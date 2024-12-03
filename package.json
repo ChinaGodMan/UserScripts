@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/ChinaGodMan/UserScripts",
   "devDependencies": {
-    "eslint": "^9.15.0",
+    "eslint": "^9.16.0",
     "eslint-plugin-json": "^4.0.1",
     "husky": "^9.1.7",
     "prettier": "^3.4.1"
