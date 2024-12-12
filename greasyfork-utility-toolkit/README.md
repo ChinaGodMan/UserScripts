@@ -52,6 +52,8 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+<h3><strong>📅 2024.12.12.2116</strong></h3>
+<p><strong>优化</strong>: • 优化越南语言包，感谢<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> 翻译。</p>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
 <p><strong>新增</strong>: • 个人主页添加 <code>隐藏私信</code>。</p>
 <hr />
