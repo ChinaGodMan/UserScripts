@@ -45,76 +45,76 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Greasyfork 糊裱匠</h1>
+    <h1>Greasyfork 프레이머</h1>
     <p>「 ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+            Fork</a></p><details><summary>기록 업데이트</summary><h1><strong>🛠️ Greasyfork 프레이머 변경 로그</strong></h1>
 <h3><strong>📅 2024.12.12.2116</strong></h3>
-<p><strong>优化</strong>: • 优化越南语言包，感谢<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> 翻译。</p>
+<p><strong>최적화</strong>: • 베트남어 언어 팩 최적화，고마워하는<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> 번역하다。</p>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
-<p><strong>新增</strong>: • 个人主页添加 <code>隐藏私信</code>。</p>
+<p><strong>새로운</strong>: • 개인 홈페이지 추가 <code>비공개 메시지 숨기기</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
-<p><strong>新增</strong>: • 脚本详情页，所有脚本列表添加 <code>脚本评分</code>。</p>
+<p><strong>새로운</strong>: • 스크립트 세부정보 페이지，모든 스크립트 목록이 추가되었습니다. <code>스크립트 등급</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
-<p><strong>修复</strong>: • 修复兼容性问题。</p>
+<p><strong>수리하다</strong>: • 호환성 문제 수정。</p>
 <hr />
 <h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
-<p><strong>新增</strong>: • 在脚本列表顶部添加下载按钮，点击下载所有脚本。</p>
+<p><strong>새로운</strong>: • 스크립트 목록 상단에 다운로드 버튼 추가，모든 스크립트를 다운로드하려면 클릭하세요.。</p>
 <hr />
 <h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
-<p><strong>优化</strong>: • 优化脚本列表图标显示位置。</p>
+<p><strong>최적화</strong>: • 스크립트 목록 아이콘의 표시 위치 최적화。</p>
 <hr />
 <h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
-<p><strong>优化</strong>: • 优化设置界面代码。</p>
+<p><strong>최적화</strong>: • 설정 인터페이스 코드 최적화。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>修复</strong>: • 修正脚本设置界面在移动设备上显示错乱问题。</p>
+<p><strong>수리하다</strong>: • 모바일 장치에서 스크립트 설정 인터페이스가 잘못 표시되는 문제를 수정했습니다.。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
-<p><strong>新增</strong>: • 增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译。</p>
+<p><strong>새로운</strong>: • 베트남어 언어 팩 추가，네티즌 여러분 감사합니다 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다。</p>
 <hr />
 <h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
-<p><strong>新增</strong>: • 增加 WebHook 页快捷跳转脚本管理。</p>
+<p><strong>새로운</strong>: • 증가하다 WebHook 페이지 빠른 점프 스크립트 관리。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。<br />
-<strong>新增</strong>: • 监听规则增加：<code>user-script-list-section browse-script-list</code>。</p>
+<p><strong>수리하다</strong>: • 모니터링 규칙 변경으로 인한 동적 모니터링 실패 문제 수정。<br />
+<strong>새로운</strong>: • 모니터링 규칙이 추가되었습니다.：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
-<p><strong>优化</strong>: • 复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS。</p>
+<p><strong>최적화</strong>: • 복사 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 새로운 CSS。</p>
 <hr />
 <h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。<br />
-• 增加固定网站侧边操作栏。</p>
+<p><strong>새로운</strong>:<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 이중 열 디스플레이의 스크립트。<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 내비게이션 바를 아름답게。<br />
+• 고정된 웹사이트 사이드 액션 바 추가。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
-<p><strong>新增</strong>: • 完全的繁体语言支持。</p>
+<p><strong>새로운</strong>: • 완전한 전통적인 언어 지원。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加侧边导航栏开关。<br />
-• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。<br />
-<strong>修复</strong>:<br />
-• 修复在移动设备上浏览图片超出浏览器外的问题。<br />
-• 修改在编辑代码时自动勾选美化。</p>
+<p><strong>새로운</strong>:<br />
+• 측면 탐색 표시줄 스위치 추가。<br />
+• 이미지 프록시 추가（활성화되면 호환되지 않음 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a> 사진 찾아보기）。<br />
+<strong>수리하다</strong>:<br />
+• 모바일 기기에서 브라우저 외부에서 이미지가 보이는 문제 수정。<br />
+• 코드 편집 시 자동으로 미화를 확인하도록 수정。</p>
 <hr />
 <h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
-<p><strong>新增</strong>:<br />
-• 添加导航栏展开 "更多"。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>새로운</strong>:<br />
+• 네비게이션 바 확장 추가 "더"。<br />
+• 증가하다 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 향상시키다</a> 측면 탐색 모음。<br />
+<strong>최적화</strong>: • 다국어 지원 개선。</p>
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
-<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。<br />
-<strong>修复</strong>: • 修复显示列表上的脚本安装状态。<br />
-<strong>优化</strong>: • 完善对多语言的支持。</p>
+<p><strong>새로운</strong>: • 자동 로그인 추가 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 최적화</a>。<br />
+<strong>수리하다</strong>: • 표시 목록의 스크립트 설치 상태 수정。<br />
+<strong>최적화</strong>: • 다국어 지원 개선。</p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
@@ -347,7 +347,7 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub 창고 빠른 점프 도우미**](https://greasyfork.org/scripts/515205): 🤠 GitHub 창고 빠른 점프 도우미는 사용자가 GitHub에서 자신의 창고에 빠르게 액세스할 수 있도록 특별히 설계되었습니다. 탐색 모음 상단에 버튼이 생성됩니다. 클릭하면 모든 저장소가 확장되고 GitHub의 보조 메뉴를 사용하지 않고도 자신의 GitHub 저장소 페이지로 쉽게 이동할 수 있습니다.
