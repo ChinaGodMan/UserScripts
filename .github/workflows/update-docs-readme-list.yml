@@ -27,7 +27,6 @@ jobs:
 
       - name: 执行README.md更新.刷新greasyfork数据
         run: |
-          python utils/upadate_greasyfork.py
           python utils/update_scripts_list.py
 
       - name: 提交和推送更改
