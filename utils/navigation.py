@@ -5,8 +5,6 @@ import json
 import os
 import sys
 import re
-sys.dont_write_bytecode = True
-
 
 # 读取JSON文件
 def read_json(file_path):
@@ -66,11 +64,11 @@ def main():
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
     scripts = data.get('scripts', [])
+    # 定义开始和结束标签
+    start_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->"
+    end_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->"
     for script in scripts:
         backuppath = script.get('backuppath', '')
-        # 定义开始和结束标签
-        start_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->"
-        end_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->"
         cnfile_path = os.path.join(backuppath, "README.md")
         c = Path(backuppath)
         md_files = sorted([file.name for file in c.glob('*.md')])
