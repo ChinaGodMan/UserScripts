@@ -91,8 +91,6 @@
 // @compatible        opera
 // @compatible        safari
 // @version           1.2.0.0
-// @Created           2024-09-22 07:06:07
-// @modified          2024-09-22 07:06:07
 // ==/UserScript==
 (function () {
     'use strict'
