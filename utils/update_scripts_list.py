@@ -21,6 +21,7 @@ def find_script_by_greasyfork_id(scripts, greasyfork_id):
 # 生成描述信息，仅针对当前脚本的 relatedscripts
 def generate_description(all_scripts, single_group=False):
     related_scripts_map = {}
+    # single_group为True时，脚本归入“所有脚本”组,不进行分类
     if single_group:
         related_scripts_map['所有脚本'] = all_scripts
     else:
@@ -74,15 +75,17 @@ def generate_html_table(scripts):
     return html_table
 
 
-# 生产集合,use_details为真收缩,center为真居中
+# 生成分组后的HTML
 def generate_grouped_html(related_scripts_map, use_details=True, center=False):
     html_output = ""
     center_o = ''
     center_c = ''
+    # 居中显示
     if center:
         center_o = '<div align="center">'
         center_c = '</div>'
     for related_id, scripts in related_scripts_map.items():
+        # 分组下的内容收缩
         if use_details:
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
