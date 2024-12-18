@@ -80,7 +80,7 @@
 // @name:fr-CA        Assistant de saut rapide de l’entrepôt GitHub 
 // @description:fr-CA 🤠 Assistant de saut rapide d’entrepôt GitHub, spécialement conçu pour aider les utilisateurs à accéder rapidement à leurs propres entrepôts sur GitHub. Il génère un bouton en haut de la barre de navigation. 
 // @namespace         https://github.com/ChinaGodMan/UserScripts 
-// @version           2024.11.6.21 
+// @version           2024.12.18.1956
 // @author            mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com> 
 // @match             https://github.com/* 
 // @grant             none 
@@ -388,7 +388,7 @@ vertical-align:sub;
     //
     if (!document.head.querySelector('style[data-id="view-global-user-repos-css"]')) {
         const globalStyle = document.createElement('style')
-        globalStyle.dataset.id = 'view-user-repos-css'
+        globalStyle.dataset.id = 'view-global-repos-css'
         globalStyle.innerHTML = gitHubStyle
         document.head.appendChild(globalStyle)
     }
