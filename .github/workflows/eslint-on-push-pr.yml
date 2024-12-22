@@ -3,7 +3,8 @@ name: Lint pushes/PRs
 on: [push, pull_request]
 
 jobs:
-  eslint:
+  js-json-md-yaml-lint:
+    name: JavaScript + JSON + Markdown + YAML
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository code
