@@ -207,7 +207,7 @@
         syncUpdate(SyncScriptForm.value, global.inputModalDefault.value, global.adminUrl)
     }
     openSyncOnadminPage.addEventListener('click', () => {
-        openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), '', false)
+        openSuperAdmin(window.location.href.replace(/\/[^/]*$/, ''), '', false)
     })
     //取消鲨臂按钮
     addNavLink('Set sync', '#', false, false, 'ScriptSyncLink')
@@ -227,7 +227,7 @@
         newLink.textContent = 'Set sync'
         newLink.addEventListener('click', function (event) {
             event.preventDefault()
-            openSuperAdmin(window.location.href.replace(/\/[^\/]*$/, ''), '', false)
+            openSuperAdmin(window.location.href.replace(/\/[^/]*$/, ''), '', false)
         })
         targetElement.insertAdjacentElement('afterend', newLink)
     }
@@ -468,7 +468,7 @@
         //alert((postResp.ok || postResp.status === 302) ? global.scriptname + ' Sync Successful!' : 'Synchronization failed, please check the input.')
     }
     function extractLocaleKey(url) {
-        let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)
+        let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*)$/) : url.match(/README_(.*?)\.md/)
         return localeKey ? localeKey[1] : null
     }
     //----设置主窗口

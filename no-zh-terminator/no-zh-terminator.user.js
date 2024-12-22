@@ -170,11 +170,11 @@
     }
     // 检查字符串是否含有数字
     function containsNumbers(str) {
-        return /^\s*[a-zA-Z\u4E00-\u9FA5\s]+\s*$/.test(str)
+        return /^[a-z\u4E00-\u9FA5\s]+$/i.test(str)
     }
     // 检查字符串是否为网址
     function isURL(str) {
-        return /((https?:\/\/|www\.)[\x21-\x7e]+[\w\/=]|\w([\w._-])+@\w[\w\._-]+\.(com|cn|org|net|info|tv|cc|gov|edu)|(\w[\w._-]+\.(com|cn|org|net|info|tv|cc|gov|edu))(\/[\x21-\x7e]*[\w\/])?|ed2k:\/\/[\x21-\x7e]+\|\/|thunder:\/\/[\x21-\x7e]+=)/gi.test(str)
+        return /((https?:\/\/|www\.)[\x21-\x7e]+[\w/=]|\w([\w.\-])+@\w[\w.\-]+\.(com|cn|org|net|info|tv|cc|gov|edu)|(\w[\w.\-]+\.(com|cn|org|net|info|tv|cc|gov|edu))(\/[\x21-\x7e]*[\w/])?|ed2k:\/\/[\x21-\x7e]+\|\/|thunder:\/\/[\x21-\x7e]+=)/i.test(str)
     }
     // 检查是否应该翻译该节点
     function shouldTranslateNode(node) {

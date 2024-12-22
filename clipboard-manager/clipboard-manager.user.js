@@ -174,14 +174,14 @@
         for (var i = 0; i < videoTags.length; i++) {
             videoTags[i].setAttribute('preload', 'metadata')
             videoTags[i].removeAttribute('autoplay')
-        };
+        }
         // 获取页面中的所有音频元素
         var audioTags = document.getElementsByTagName('audio')
         // 对所有音频元素进行处理，禁用预加载和自动播放
         for (var video = 0; video < audioTags.length; video++) {
             audioTags[video].setAttribute('preload', 'metadata')
             audioTags[video].removeAttribute('autoplay')
-        };
+        }
         window.navigator.clipboard.writeText = function (text) {
             pc(null, text, true)
         }
