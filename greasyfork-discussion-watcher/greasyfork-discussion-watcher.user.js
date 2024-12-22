@@ -215,7 +215,7 @@
                 const newSaveDiscussions = document.getElementById('save-discussions').checked
                 const reversalNotifications = document.getElementById('reversal-notifications').checked
                 const newMaxItem = document.getElementById('max-input').value
-                if (/^\d+(h|m|s)?(\d+(h|m|s)?)*$/.test(newDelay)) {
+                if (/^\d+([hms])?(\d+([hms])?)*$/.test(newDelay)) {
                     GM_setValue('delay', newDelay)
                     config.delay = newDelay
                 } else {
@@ -386,7 +386,7 @@
             if (match) {
                 const userId = match[1]
                 config.userId = userId
-                const nameMatch = href.match(/\/users\/\d+-([^\/]+)$/)
+                const nameMatch = href.match(/\/users\/\d+-([^/]+)$/)
                 config.userName = nameMatch ? decodeURIComponent(nameMatch[1]) : ''
                 return true
             } else {
