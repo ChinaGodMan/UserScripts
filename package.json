@@ -1,10 +1,15 @@
 {
   "homepage": "https://github.com/ChinaGodMan/UserScripts",
   "devDependencies": {
+    "@eslint/json": "^0.9.0",
+    "@eslint/markdown": "^6.2.1",
+    "@stylistic/eslint-plugin-js": "^2.12.1",
     "eslint": "^9.17.0",
-    "eslint-plugin-json": "^4.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-regexp": "^2.7.0",
+    "eslint-plugin-yml": "^1.16.0",
     "husky": "^9.1.7",
-    "prettier": "^3.4.2"
+    "ssri": "^12.0.0"
   },
   "scripts": {
     "lint": "eslint \"**/*.{js,jsx,mjs}\"",
