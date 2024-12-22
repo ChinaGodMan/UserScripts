@@ -634,7 +634,7 @@
                 //showBanner(`正在获取 ${video.fileName} 信息`);
                 window.addToLog(`正在获取 ${video.fileName} 信息`, 'info')
                 console.log()
-            };
+            }
 
 
 
@@ -729,7 +729,7 @@
 
 
     function sanitizeFileName(name) {
-        return name.replace(/[\\\/:*?"<>|]/g, '_')
+        return name.replace(/[\\/:*?"<>|]/g, '_')
     }
 
     function checkIfComplete(callback) {
@@ -806,7 +806,7 @@
                     WebDAVManager.uploadFile(webdavfold, `${sanitizeFileName(name)}.json`, JSON.stringify(finalData, null, 4))
                 }
 
-                const jsonIndexContent = generateJsonIndexContent(finalData);;
+                const jsonIndexContent = generateJsonIndexContent(finalData);
                 allzip.file(`${sanitizeFileName(name)}.html`, jsonIndexContent)
                 finalData = []
 

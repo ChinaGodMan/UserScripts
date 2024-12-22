@@ -41,7 +41,7 @@
 // @grant             GM_unregisterMenuCommand
 // ==/UserScript==
 
-; (function () {
+ (function () {
     'use strict'
 
     const supportApplet =
@@ -721,7 +721,7 @@
             '.mathjax-tex'
         ]
         noTranslateArray.forEach(selectorName => {
-            ;[...document.querySelectorAll(selectorName)].forEach(node => {
+            [...document.querySelectorAll(selectorName)].forEach(node => {
                 if (node.className.indexOf('notranslate') === -1) {
                     node.classList.add('notranslate')
                 }

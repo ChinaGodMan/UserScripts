@@ -2187,7 +2187,7 @@ margin-bottom: 0;
         } else {
             GM_xmlhttpRequest({
                 method: 'GET',
-                url: location.pathname.replace(/(scripts\/\d+[^/]+)(\/.*)?$/, '$1/code/1.user.js'),
+                url: location.pathname.replace(/(scripts\/\d[^/]+)(\/.*)?$/, '$1/code/1.user.js'),
                 timeout: 10000,
                 onload: function (r) {
                     var url = (r.responseText.match(/\n\s*\/\/\s+@icon(?:url)?\s+((?:https?:\/\/|data:image\/).+)|$/i)[1] || '').trim()
@@ -2322,7 +2322,7 @@ ${compatibleBeautifyCSS}
         var jsonLink = document.querySelector('link[href$=".json"]')
         var currentUrl = window.location.href
         // 在 `versions` 后面添加 `.json`
-        var jsonUrl = currentUrl.replace(/(\/versions)([^\/]*)$/, '$1.json$2')
+        var jsonUrl = currentUrl.replace(/(\/versions)([^/]*)$/, '$1.json$2')
         if (jsonUrl) {
             fetch(jsonUrl)
                 .then(response => response.json())
@@ -2429,7 +2429,7 @@ ${compatibleBeautifyCSS}
             switchToAuthorScript() // 调用 switchToAuthorScript 函数
         })
     }
-    if (/\/scripts\/\d+[^\s\/\\]*\/?/.test(location.href)) {
+    if (/\/scripts\/\d[^\s/\\]*\/?/.test(location.href)) {
         createAuthorScriptsLink()
     }
     async function getUserJSON(urls) {
@@ -3555,7 +3555,7 @@ button:focus {
                 if (elm.nodeName !== 'TEXTAREA' && elm.firstElementChild === null) {
                     let s = elm.textContent
                     if (s && typeof s === 'string' && s.includes('/users/') && s.includes('/webhook') && s.includes('https://')) {
-                        let t = s.replace(/\/users\/(\d+)\-[^\/]+\//, '/users/$1/')
+                        let t = s.replace(/\/users\/(\d+)-[^/]+\//, '/users/$1/')
                         t = t.replace(/https:\/\/greasyfork\.org\/[-\w]+\/users\//, 'https://greasyfork.org/en/users/')
                         elm.textContent = t
                     }
@@ -3576,7 +3576,7 @@ button:focus {
                         evt.preventDefault()
                     })
                     if (s && typeof s === 'string' && s.includes('/users/') && s.includes('/webhook') && s.includes('https://')) {
-                        let t = s.replace(/\/users\/(\d+)\-[^\/]+\//, '/users/$1/')
+                        let t = s.replace(/\/users\/(\d+)-[^/]+\//, '/users/$1/')
                         t = t.replace(/https:\/\/greasyfork\.org\/[-\w]+\/users\//, 'https://greasyfork.org/en/users/')
                         elm.value = t
                     }
@@ -3879,7 +3879,7 @@ button:focus {
         GM_addStyle(themeCSS)
         let lockmode1 = GM_getValue('lockmode')
         // 检查 lockmode1 是否是一个字符串，并且是否包含英文字母
-        if (typeof lockmode1 === 'string' && /[a-zA-Z]/.test(lockmode1)) {
+        if (typeof lockmode1 === 'string' && /[a-z]/i.test(lockmode1)) {
             //下面的CSS代码不允许添加，防止控件超出范围
             return
         }
@@ -3970,7 +3970,7 @@ button:focus {
     if (useHighlighttocode && window.location.href.includes('/code')) {
         let lockmode1 = GM_getValue('lockmode')
         // 检查 lockmode1 是否是一个字符串，并且是否包含英文字母
-        if (typeof lockmode1 === 'string' && /[a-zA-Z]/.test(lockmode1)) {
+        if (typeof lockmode1 === 'string' && /[a-z]/i.test(lockmode1)) {
             // 执行不等于 0、1、2 时的逻辑
             const type = lockmode1
             const css = getCssRules(type)
@@ -4030,18 +4030,18 @@ button:focus {
             const styleSheet = document.createElement('style')
             styleSheet.type = 'text/css'
             styleSheet.innerText = `
-              #language-selector-locale {
+            #language-selector-locale {
                 background-color: transparent !important; /* 默认状态下背景透明 */
                 border: none !important; /* 取消边框 */
-              }
-              #language-selector-locale:focus {
+            }
+            #language-selector-locale:focus {
                 background-color: #fff !important; /* 下拉时的背景颜色 */
                 border: none !important; /* 取消边框 */
-              }
-              #language-selector-locale:hover {
+            }
+            #language-selector-locale:hover {
                 background-color: #f0f0f0 !important; /* 鼠标悬停时的背景颜色 */
                 border: none !important; /* 取消边框 */
-              }
+            }
             `
             document.head.appendChild(styleSheet)
             // 监听焦点和失去焦点事件以调试背景颜色
@@ -4143,7 +4143,7 @@ button:focus {
     applyDiscussionReadStyles(hidediscussionread, italicdiscussionread)
     //STUB - 在代码页面增加引用库数量显示
     function logUserScriptOccurrences(textContent) {
-        const urlPattern = /(https?:\/\/[^\s]+)/g  // 匹配网址的正则表达式
+        const urlPattern = /(https?:\/\/\S+)/g  // 匹配网址的正则表达式
         const scriptPattern = /(@require|@resource)/  // 查找 @require 或 @resource 的正则表达式
         const targetSubstring = '==/UserScript==' // 目标匹配子串
         const urls = []  // 用于存储匹配的网址
@@ -4856,7 +4856,7 @@ cursor: pointer;
         const $$ = document.querySelectorAll.bind(document)
         function sanitify(s) {
             // Remove emojis (such a headache)
-            s = s.replaceAll(/([\uE000-\uF8FF]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|[\u2580-\u27BF]|\uD83E[\uDD10-\uDEFF]|\uFE0F)/g, '')
+            s = s.replaceAll(/([\uE000-\uF8FF\u2580-\u27BF\uFE0F]|\uD83C[\uDC00-\uDFFF]|\uD83D[\uDC00-\uDFFF]|\uD83E[\uDD10-\uDEFF])/g, '')
             // Trim spaces and newlines
             s = s.trim()
             // Replace spaces
@@ -4905,9 +4905,9 @@ cursor: pointer;
     }
 `)
         let outline
-        const is_script = /^\/[^\/]+\/scripts/
-        const is_specific_script = /^\/[^\/]+\/scripts\/\d+/
-        const is_disccussion = /^\/[^\/]+\/discussions/
+        const is_script = /^\/[^/]+\/scripts/
+        const is_specific_script = /^\/[^/]+\/scripts\/\d+/
+        const is_disccussion = /^\/[^/]+\/discussions/
         const path = window.location.pathname
         if ((!is_script.test(path) && !is_disccussion.test(path)) || is_specific_script.test(path)) {
             const panel = $('body').insertBefore(document.createElement('aside'), $('body > div.width-constraint'))

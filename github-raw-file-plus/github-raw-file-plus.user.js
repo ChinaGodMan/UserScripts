@@ -150,7 +150,7 @@ function appendButtons(fileList, isTable = false) {
         file.append(creatyCopyButton(rawFileUrl))
         file.append(creatyDownButton(rawFileUrl))
     }
-};
+}
 
 function creatyCopyButton(copyText) {
     const copy2clipboard = `
