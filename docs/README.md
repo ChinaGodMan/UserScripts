@@ -1276,6 +1276,26 @@
 
 贡献列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自动生成 <a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a>
 
+## 🏛️ 开源许可协议
+
+本项目采用 <a href="../LICENSE.md"><strong>MIT 许可证</strong></a> 授权。
+MIT 许可证是一种宽松的开源许可协议，详细内容请参阅 <a href="../LICENSE.md">许可证全文</a>。
+
+## 🤝 行为准则
+
+为了确保一个友好、尊重和包容的开发环境，我们制定了以下<a href="./CODE_OF_CONDUCT.md"><strong>行为准则</strong></a>。请每位贡献者遵循这些指导原则。
+
+## 🛡️ 安全政策
+
+如果您发现漏洞，请打开一个[安全建议草案](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+
+也欢迎拉取请求，但出于安全原因，请发送电子邮件至 <china.qinwuyuan@gmail.com> 并在公开之前等待回复。
+详细内容请参阅 <a href="./SECURITY.md"><strong>安全政策</strong></a>
+
+## 💖 贡献指南
+
+感谢您对本项目的兴趣！我们制定了以下<a href="../CONTRIBUTING.md"><strong>贡献指南</strong></a>。为了帮助您顺利贡献代码或文档，请在提交代码或问题前，仔细阅读内容。
+
 ## 🌐 浏览器与脚本管理器
 
 |                               推荐浏览器                                |                                                         安装管理器                                                          | 安装浏览器                                                                    |
@@ -1321,12 +1341,7 @@
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWI浏览器"
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /
-<a href="#">回到顶部↑</a></p>
-
-## 开源许可协议
-
-<a href="../LICENSE.md"><strong>MIT许可证</strong></a>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#">回到顶部↑</a></p>
 
 ### 星标历史
 
