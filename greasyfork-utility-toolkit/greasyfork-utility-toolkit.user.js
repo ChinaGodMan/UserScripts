@@ -2192,7 +2192,7 @@ margin-bottom: 0;
                 onload: function (r) {
                     var url = (r.responseText.match(/\n\s*\/\/\s+@icon(?:url)?\s+((?:https?:\/\/|data:image\/).+)|$/i)[1] || '').trim()
                     if (!url) {
-                        url = 'https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/default.png'
+                        url = 'https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/default.png'
                         return __addIcon(url, h2Element, true)
                     }
                     if (!/^http:/.test(url))
