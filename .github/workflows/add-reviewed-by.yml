@@ -1,8 +1,6 @@
 name: add-reviewed-by
 on:
   pull_request_review:
-    branches:
-      - main
     types:
       - submitted
 
