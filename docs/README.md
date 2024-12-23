@@ -7,9 +7,9 @@
                 src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁体中文</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本语</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
@@ -1353,7 +1353,3 @@ MIT 许可证是一种宽松的开源许可协议，详细内容请参阅 <a hre
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
   </picture>
 </a>
-
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FChinaGodMan%2FUserScripts.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FChinaGodMan%2FUserScripts?ref=badge_large)
