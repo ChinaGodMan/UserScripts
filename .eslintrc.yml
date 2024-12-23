@@ -1,0 +1,84 @@
+root: true
+ignorePatterns:
+  - .history/*
+  - '**/package-lock.json'
+
+overrides:
+  - files: ["**/*.js", "**/*.mjs"]
+    languageOptions:
+      ecmaVersion: latest
+      sourceType: module
+      globals:
+        browser: true
+        greasemonkey: true
+        node: true
+        chatgpt: readonly
+        chrome: readonly
+        config: writable
+        CryptoJS: readonly
+        dom: readonly
+        GM_cookie: readonly
+        hljs: readonly
+        icons: writable
+        ipv4: readonly
+        marked: readonly
+        modals: writable
+        renderMathInElement: readonly
+        settings: writable
+        toggles: writable
+    plugins:
+      - import
+      - eslint-plugin-regexp
+      - "@stylistic/eslint-plugin-js"
+    rules:
+      indent: off
+      no-unexpected-multiline: off
+      "key-spacing": off
+      "js-styles/no-trailing-spaces": off
+      "js-styles/max-len":
+        - error
+        - code: 180
+          ignoreComments: true
+          ignoreStrings: true
+          ignoreTemplateLiterals: true
+          ignoreRegExpLiterals: true
+      "regexp/no-unused-capturing-group": off
+      "regexp/no-empty-group": off
+      "regexp/no-super-linear-backtracking": off
+      "regexp/no-empty-capturing-group": off
+      "regexp/no-useless-flag": off
+      "js-styles/no-extra-semi": error
+      quotes:
+        - error
+        - single
+          allowTemplateLiterals: true
+      comma-dangle:
+        - error
+        - never
+      no-async-promise-executor: off
+      no-constant-condition: off
+      no-empty: off
+      no-inner-declarations: off
+      no-useless-escape: off
+      no-unused-vars: off
+      no-undef: off
+      no-irregular-whitespace: error
+      no-misleading-character-class: off
+      no-redeclare: off
+
+  - files: ["**/*.json"]
+    language: json/json
+    extends:
+      - plugin:json/recommended
+
+  - files: ["**/*.md"]
+    plugins:
+      - markdown
+    rules:
+      markdown/heading-increment: off
+      markdown/fenced-code-language: off
+      markdown/no-missing-label-refs: off
+
+  - files: ["**/*.yaml", "**/*.yml"]
+    extends:
+      - plugin:yml/standard
