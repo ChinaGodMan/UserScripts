@@ -54,15 +54,16 @@ export default [
         }
     },
     { files: ['**/*.mjs'], languageOptions: { sourceType: 'module' } },
-    { files: ['**/*.json'], ignores: ['**/package-lock.json'], language: 'json/json', ...json.configs.recommended },
+    { files: ['**/*.json'], ignores: ['**/package-lock.json', '.history/*'], language: 'json/json', ...json.configs.recommended },
     {
-        files: ['**/*.md'], language: 'markdown/commonmark', plugins: { markdown },
+        files: ['**/*.md'], ignores: ['.history/*'], language: 'markdown/commonmark', plugins: { markdown },
         rules: {
             ...markdown.configs.recommended[0].rules,
             'markdown/heading-increment': 'off', // allow headings to skip levels
             'markdown/fenced-code-language': 'off', // allow code blocks w/ no language specified
-            'markdown/no-missing-label-refs': 'off' // allow missing label references
+            'markdown/no-missing-label-refs': 'off', // allow missing label references
+            'markdown/no-empty-links': 'off' // allow empty links
         }
     },
-    { files: ['**/*.yaml, **/*.yml'], ...yml.configs['flat/standard'][1] }
+    { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] }
 ]
