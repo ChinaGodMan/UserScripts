@@ -1,5 +1,21 @@
 {
+  "author": {
+    "name": "ChinaGodMan",
+    "email": "china.qinwuyuan@gmail.com",
+    "url": "https://github.com/ChinaGodMan"
+  },
   "homepage": "https://github.com/ChinaGodMan/UserScripts",
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "github",
+      "url": "http://github.com/sponsors/ChinaGodMan"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/ChinaGodMan"
+    }
+  ],
   "devDependencies": {
     "@eslint/json": "^0.9.0",
     "@eslint/markdown": "^6.2.1",
@@ -12,9 +28,9 @@
     "ssri": "^12.0.0"
   },
   "scripts": {
-    "lint": "eslint \"**/*.{js,jsx,mjs}\"",
+    "lint": "eslint . --cache",
     "lint:all": "eslint .",
-    "lint:fix": "eslint \"**/*.{js,jsx,mjs}\" --fix --cache",
+    "lint:fix": "eslint . --fix --cache",
     "lint:fix-all": "eslint . --fix"
   }
 }
