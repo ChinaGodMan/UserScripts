@@ -23,7 +23,7 @@ jobs:
           openDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->'
           closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
           sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
-          git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> "$GITHUB_ENV"
 
       - name: Commit changes with GPG signature
         if: env.CHANGES_DETECTED == 'true'
