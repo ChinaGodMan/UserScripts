@@ -7,7 +7,7 @@ import json
 import shutil
 import os
 '''
-名称:       自动添加脚步并更新附加信息
+名称:       自动添加脚本并更新附加信息
 版本:            2024.11.2.21:26:26
 介绍:     当docs/ScriptsPath.json有新的脚本目录被加入,但没有有对应的脚本ID时.自动创建脚本并且同步附加信息
                         或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
@@ -128,7 +128,7 @@ class GreasyFork:
         # 导入脚步
     def import_scripts(self, sync_urls):
         """
-        导入脚步并提取脚步ID
+        导入脚步并提取脚本ID
         """
         # 刷新 CSRF Token,历史代码.无需调用.
         self.fetch_csrf_token()
@@ -144,7 +144,7 @@ class GreasyFork:
         }
         response = self.session.post(import_url, headers=headers, data=data)
 
-        # 解析返回的脚步ID信息
+        # 解析返回的脚本ID信息
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             # 提取返回的脚步列表
@@ -162,7 +162,7 @@ class GreasyFork:
                         results.append([script_id, description])
                         return script_id
             else:
-                return "脚步返回的元素未找到,需要手动检查脚本是否被导入了."
+                return "脚本返回的元素未找到,需要手动检查脚本是否被导入了."
         else:
             raise Exception(
                 f"导入被拒绝,状态码: {response.status_code}\n{response.text}")
