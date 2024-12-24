@@ -31,6 +31,16 @@
     "lint": "eslint . --cache",
     "lint:all": "eslint .",
     "lint:fix": "eslint . --fix --cache",
-    "lint:fix-all": "eslint . --fix"
+    "lint:fix-all": "eslint . --fix",
+    "docs:update-relatedscripts": "python utils/update_related_scripts.py",
+    "docs:update-relatedscripts:all": "python utils/update_related_all_scripts.py",
+    "docs:update-scripts:help": "python utils/update_help.py",
+    "docs:update-scripts:shields": "python utils/update_shields.py",
+    "docs:update-scripts:navigation": "python utils/navigation.py",
+    "docs:update-scripts:history": "python utils/merge_change_history.py",
+    "docs:update-repo:translate": "python utils/translate_force_chinese_to_lang.py",
+    "docs:update-scripts:translate": "python utils/translate_chinese_to_filelang.py",
+    "json:update-greasyfork-scripts:time": "python utils/upadate_greasyfork.py",
+    "format:script": "python utils/copy_js_files.py"
   }
 }
