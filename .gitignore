@@ -7,3 +7,4 @@ node_modules/
 .codewait
 __pycache__/
 .history/
+changelog.config.js
