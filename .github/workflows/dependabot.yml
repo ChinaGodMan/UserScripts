@@ -1,29 +1,36 @@
-name: Dependabot auto-merge
+name: dependabot-auto-merge
 on:
-    pull_request:
-        types: [opened, reopened]
-    workflow_call:
-
-permissions:
-    contents: write
-    pull-requests: write
+  pull_request:
+    types:
+      - opened
+      - reopened
 
 jobs:
-    dependabot:
-        runs-on: ubuntu-latest
-        if: ${{ github.actor == 'dependabot[bot]' }}
-        steps:
-            - name: Dependabot metadata
-              id: metadata
-              uses: dependabot/fetch-metadata@dbb049abf0d677abbd7f7eee0375145b417fdd34
-              with:
-                  github-token: "${{ secrets.GITHUB_TOKEN }}"
-            - name: install GH CLI
-              uses: sersoft-gmbh/setup-gh-cli-action@2d02c06e284b7d55e954d6d6406e7a886f45a818
-              with:
-                  version: stable
-            - name: Enable auto-merge for Dependabot PRs
-              run: gh pr merge --auto --rebase "$PR_URL"
-              env:
-                  PR_URL: ${{github.event.pull_request.html_url}}
-                  GITHUB_TOKEN: ${{secrets.QWY_SYNC_BOT_TOKEN}}
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 👋
+        uses: actions/checkout@v4
+      - name: Check and merge ⛙
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
+          script: |
+            const { repo: { owner, repo } } = context;
+            const pr = context.payload.pull_request;
+
+            if (pr.user.login !== 'ChinaGodMan') {
+              console.log('Not Dependabot pull request');
+              return;
+            }
+
+            console.log(`Merging pull request: ${pr.html_url}`);
+            await github.rest.pulls.merge({
+              owner, repo,
+              pull_number: pr.number,
+              merge_method: "squash",
+            });
+            await github.rest.git.deleteRef({
+                owner,
+                repo,
+                ref: `heads/${pr.head.ref}`, 
