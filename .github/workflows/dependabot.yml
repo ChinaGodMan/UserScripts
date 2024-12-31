@@ -19,7 +19,7 @@ jobs:
             const { repo: { owner, repo } } = context;
             const pr = context.payload.pull_request;
 
-            if (pr.user.login !== 'ChinaGodMan') {
+            if (pr.user.login !== 'dependabot[bot]') {
               console.log('Not Dependabot pull request');
               return;
             }
