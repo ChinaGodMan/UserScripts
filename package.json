@@ -17,7 +17,7 @@
     }
   ],
   "devDependencies": {
-    "@eslint/json": "^0.9.1",
+    "@eslint/json": "^0.10.0",
     "@eslint/markdown": "^6.2.2",
     "@stylistic/eslint-plugin-js": "^2.13.0",
     "eslint": "^9.19.0",
