@@ -2,9 +2,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
@@ -1220,7 +1220,7 @@
 > [!IMPORTANT]
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
-> -   _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
+> -   _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户 Kịch bản 管理器可能导致**Không hoạt động đúng cách**脚本。_
 > -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
@@ -1242,7 +1242,7 @@
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库Bên trong所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
+> -   仓库 Bên trong 所有`README.md`Đã sao chép phần giới thiệu tiêu đề tệp và bảng cài đặt lịch sử[FengFeng](https://github.com/BonjourFeng)kho[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Nội dung tập tin
 > -   Kho phụ của kho này`UserScriptsHistory`Mã hình ảnh bảng lịch sử cài đặt cập nhật tự động cũng được sao chép và sử dụng.[FengFeng](https://github.com/BonjourFeng)kho[Script-History](https://github.com/BonjourFeng/Script-History)mã bên trong[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
@@ -1278,17 +1278,17 @@ Danh sách đóng góp theo： [contributors](https://github.com/jaywcjlove/gith
 
 ## 🌐 Trình quản lý trình duyệt và tập lệnh
 
-|                               Trình duyệt được đề xuất                                |                                                         Trình quản lý cài đặt                                                          | Cài đặt trình duyệt                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               Trình duyệt được đề xuất                                |                                                    Trình quản lý cài đặt                                                    | Cài đặt trình duyệt                                                           |
+| :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome hoặc dựa trên Chromium Trình duyệt hạt nhân[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|      <center>Safari Trình duyệt（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                               <center>![][Macaquer] [Macaque][Macaque] hoặc ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox hoặc dựa trên Gecko Trình duyệt hạt nhân[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera Trình duyệt[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via Trình duyệt（Android）[![][via]][via_link]            |                                                    <center> Trình duyệt tích hợp                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X Trình duyệt（Android） [![][x]][x_link]              |                                                    <center> Trình duyệt tích hợp                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI Trình duyệt（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> Trình duyệt vượn cáo（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                  <center> Opera Trình duyệt[![][opera]][opera_link]                   | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|                <center> Via Trình duyệt（Android）[![][via]][via_link]                |                                                <center> Trình duyệt tích hợp                                                | <center>[![][via]][via_link]                                                  |
+|                  <center> X Trình duyệt（Android） [![][x]][x_link]                   |                                                <center> Trình duyệt tích hợp                                                | <center>[![][x]][x_link]                                                      |
+|              <center> KIWI Trình duyệt（Android）[![][kiwi]][kiwi_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|              <center> Trình duyệt vượn cáo（Android）[![][le]][le_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                                       |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "khỉ giả mạo"
 [Violentmonkey]: https://violentmonkey.github.io/ "khỉ hung bạo"

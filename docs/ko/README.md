@@ -2,9 +2,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
@@ -1278,17 +1278,17 @@
 
 ## 🌐 브라우저 및 스크립트 관리자
 
-|                               권장 브라우저                                |                                                         설치 관리자                                                          | 브라우저 설치                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                                 권장 브라우저                                  |                                                         설치 관리자                                                         | 브라우저 설치                                                                 |
+| :----------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome 또는 기반으로 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|    <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                               <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                               | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox 또는 기반으로 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera 브라우저[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via 브라우저（Android）[![][via]][via_link]            |                                                    <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X 브라우저（Android） [![][x]][x_link]              |                                                    <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> 여우원숭이 브라우저（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                <center> Opera 브라우저[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|              <center> Via 브라우저（Android）[![][via]][via_link]              |                                                   <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
+|                <center> X 브라우저（Android） [![][x]][x_link]                 |                                                   <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
+|            <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|           <center> 여우원숭이 브라우저（Android）[![][le]][le_link]            | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                                |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "원숭이를 조작하다"
 [Violentmonkey]: https://violentmonkey.github.io/ "난폭한 원숭이"

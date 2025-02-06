@@ -7,6 +7,8 @@ import sys
 import re
 
 # 读取JSON文件
+
+
 def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
@@ -36,9 +38,9 @@ def build_html(md_files, path):
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
 """
     base_url = "https://github.com/ChinaGodMan/UserScripts/blob/main/"
