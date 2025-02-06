@@ -4,9 +4,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/script-finder-plus/README_en.md">English</a>

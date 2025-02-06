@@ -2,9 +2,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README_zh-TW.md">繁體中文</a>|
@@ -75,7 +75,7 @@ Linux
 
 ![](https://pic.rmb.bdstatic.com/bjh/1f8c55cc8c410979414290118979c4659140.png)
 
-▲ Tampermonkeyインストール済み
+▲ Tampermonkey インストール済み
 
 ### [#](#_2-インストールするアシスタントを選択してください) 2. インストールするアシスタントを選択してください
 

@@ -2,9 +2,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-white-icon32.svg">
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://raw.githubusercontent.com/KudoAI/chatgpt.js/main/media/images/icons/earth-americas-icon32.svg">
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
@@ -1220,7 +1220,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 > [!IMPORTANT]
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
-> -   _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
+> -   _Please make sure to use **Tampermonkey Official version** Expand，其他的用户 Script 管理器可能导致**Not working properly**脚本。_
 > -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
@@ -1242,7 +1242,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库Inside所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
+> -   仓库 Inside 所有`README.md`File header introduction and historical installation table copied[FengFeng](https://github.com/BonjourFeng)warehouse[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)File content
 > -   Sub-warehouses of this warehouse`UserScriptsHistory`The automatic update installation history table image code is also copied and used.[FengFeng](https://github.com/BonjourFeng)warehouse[Script-History](https://github.com/BonjourFeng/Script-History)code within[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
@@ -1278,17 +1278,17 @@ Contributions list by： [contributors](https://github.com/jaywcjlove/github-act
 
 ## 🌐 Browser and Script Manager
 
-|                               Recommended browser                                |                                                         Installation manager                                                          | Install browser                                                                    |
-| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                              Recommended browser                              |                                                    Installation manager                                                     | Install browser                                                               |
+| :---------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome or based on Chromium Kernel browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
+|    <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]     |                                <center>![][Macaquer] [Macaque][Macaque] or ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox or based on Gecko Kernel browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|              <center> Opera Browser[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via Browser（Android）[![][via]][via_link]            |                                                    <center> Built-in browser                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X Browser（Android） [![][x]][x_link]              |                                                    <center> Built-in browser                                                    | <center>[![][x]][x_link]                                                      |
-|          <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> Lemur Browser（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                         |                                                                                                                             |                                                                               |
+|                <center> Opera Browser[![][opera]][opera_link]                 | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|              <center> Via Browser（Android）[![][via]][via_link]              |                                                  <center> Built-in browser                                                  | <center>[![][via]][via_link]                                                  |
+|                <center> X Browser（Android） [![][x]][x_link]                 |                                                  <center> Built-in browser                                                  | <center>[![][x]][x_link]                                                      |
+|            <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|              <center> Lemur Browser（Android）[![][le]][le_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                               |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "tamper monkey"
 [Violentmonkey]: https://violentmonkey.github.io/ "violent monkey"
