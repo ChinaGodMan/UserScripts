@@ -7,7 +7,7 @@
 // @description:zh-CN 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license           MIT
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com> & ChatGPT
-// @match             https://missav.com/*
+// @match             https://missav.ws/*
 // @grant             GM_setValue
 // @grant             GM_getValue
 // @grant             GM_xmlhttpRequest
@@ -261,7 +261,7 @@
         console.log('Current page cookies:', cookies)
 
         // 构建 API URL
-        const apiUrl = 'https://missav.com/api/playlists/dfe-057'
+        const apiUrl = 'https://missav.ws/api/playlists/dfe-057'
 
         // 发送带有 cookies 的请求
         GM_xmlhttpRequest({
@@ -806,7 +806,7 @@
                     WebDAVManager.uploadFile(webdavfold, `${sanitizeFileName(name)}.json`, JSON.stringify(finalData, null, 4))
                 }
 
-                const jsonIndexContent = generateJsonIndexContent(finalData);
+                const jsonIndexContent = generateJsonIndexContent(finalData)
                 allzip.file(`${sanitizeFileName(name)}.html`, jsonIndexContent)
                 finalData = []
 

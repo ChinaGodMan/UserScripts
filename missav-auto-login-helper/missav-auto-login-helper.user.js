@@ -77,7 +77,7 @@
 // @description       Detection MissAV state,and automatically log in when not logged in
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
-// @match             https://missav.com/*
+// @match             https://missav.ws/*
 // @grant             GM_registerMenuCommand
 // @grant             GM_setValue
 // @grant             GM_getValue
@@ -176,7 +176,7 @@ const translate = (function () {
             Toast(translate('Accountnull'), 2000, '#FF0000', '#ffffff', 'top')
             return
         }
-        fetch('https://missav.com/cn/api/login', {
+        fetch('https://missav.ws/cn/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -223,7 +223,7 @@ const translate = (function () {
             })
     }
     function check() {
-        const url = 'https://missav.com/api/actresses/1016525/view'
+        const url = 'https://missav.ws/api/actresses/1016525/view'
         fetch(url, {
             method: 'GET'
         })
