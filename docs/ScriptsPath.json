@@ -17,6 +17,22 @@
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"
         },
         {
+          "isUpdated": true,
+          "name": "ChatGPT 代码高亮",
+          "description": "为 ChatGPT 添加所有语言代码高亮（使用 highlight.js）",
+          "relatedscripts": "ChatGPT相关脚本",
+          "path": "chatgpt-code-hightlight.user.js",
+          "backuppath": "chatgpt-code-hightlight",
+          "version": "2025.02.18.0403",
+          "GreasyFork": "",
+          "created_at": "2025-02-18 04:03",
+          "code_updated_at": "2025-02-18 04:03",
+          "local_created_at": "2025-02-18 04:03",
+          "top_tip": "",
+          "img": "https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png",
+          "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"
+        },
+        {
             "isUpdated": true,
             "name": "ChatGPT 聊天复制代码按钮",
             "description": "在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮",
