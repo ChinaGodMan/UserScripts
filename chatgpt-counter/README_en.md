@@ -56,9 +56,10 @@ Recommended browsers and script managers：
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍you may be looking forChatGPTRelated scripts
+> ### 🔍你可能在找ChatGPT相关脚本
 >
 > -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
+> -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
 > -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
 > -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
@@ -85,9 +86,10 @@ Recommended browsers and script managers：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍you may be looking forChatGPTRelated scripts
+> ### 🔍你可能在找ChatGPT相关脚本
 >
 > -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
+> -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
 > -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
 > -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
@@ -124,10 +126,10 @@ Recommended browsers and script managers：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍you may be looking forGreasyForkRelated scripts
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): The script details page is suitable for URLs that do not jump to search by default. Convert to clickable text link and pop up prompt
-> -   [**GrreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
 > -   [**Greasyfork Script to display ratings**](https://greasyfork.org/scripts/501119): Add script rating after script name when browsing script list

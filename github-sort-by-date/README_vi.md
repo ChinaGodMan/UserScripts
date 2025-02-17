@@ -130,9 +130,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmChatGPTTập lệnh liên quan
+> ### 🔍你可能在找ChatGPT相关脚本
 >
 > -   [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
+> -   [**Mã chatgpt được tô sáng**](https://greasyfork.org/scripts/527255): Thêm tất cả các mã làm nổi bật mã ngôn ngữ cho Chatgpt (sử dụng điểm nổi bật)
 > -   [**ChatGPT Nút trò chuyện sao chép mã và xuất mã**](https://greasyfork.org/scripts/509598): hiện hữu chatgpt.com Thêm hình động ở góc dưới bên phải của khối mã phía trên“Sao chép mã”nút và một cho ChatGPT Khối mã phản hồi thêm nút xuất，Nhắc người dùng lưu mã vào tệp dựa trên ngôn ngữ lập trình được phát hiện bởi tên lớp của khối mã。
 > -   [**ChatGPT Giới hạn bộ đếm ký tự (CCCL)**](https://greasyfork.org/scripts/506166): Thêm bộ đếm ký tự vào hộp nhập liệu，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
 > -   [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): nếp gấpChatGPTtrung bình và dài“Bạn”thông tin，và đặt chiều rộng tối đa
@@ -186,10 +187,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍có thể bạn đang tìm kiếmGreasyForkTập lệnh liên quan
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkCác trang tập lệnh phù hợp để nâng cao URL**](https://greasyfork.org/scripts/497317): Trang chi tiết tập lệnh phù hợp với các URL không chuyển sang tìm kiếm theo mặc định. Chuyển đổi thành liên kết văn bản có thể nhấp và lời nhắc bật lên
-> -   [**GrreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
 > -   [**GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh
 > -   [**Greasyfork Script hiển thị xếp hạng**](https://greasyfork.org/scripts/501119): Thêm xếp hạng tập lệnh sau tên tập lệnh khi duyệt danh sách tập lệnh
