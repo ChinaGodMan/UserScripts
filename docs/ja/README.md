@@ -16,19 +16,19 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub秩序ある人々のスクリプトを見る<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork秩序ある人々のスクリプトを見る</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubサービスマンのスクリプトを表示します<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkサービスマンのスクリプトを表示します</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%90%88%E8%A8%88%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%81%AE%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%AE%E7%B7%8F%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%82%AF%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E4%B8%80%E8%88%AC%E7%9A%84&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%89%AF%E3%81%84%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%90%A6%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E5%93%81%E8%B3%AA&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E3%82%B3%E3%83%BC%E3%83%89%E5%93%81%E8%B3%AA&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%AF&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">スクリプトがお役に立てば,星を照らして励ますことができます</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">スクリプトが役立つ場合,励まして星を照らすことができます</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
 <a href="mailto:toniaiwanowskiskr47@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
@@ -36,24 +36,24 @@
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-**この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン**
-**侵害があった場合,連絡先を削除する必要があります**
+**スクリプトは、インターネットネチズンから来ています，いくつかの変更を加えたばかりです.ネチズンに感謝します**
+**侵害がある場合,お問い合わせください削除する必要があります**
 
 ## スクリプトリスト
 
-💡 **Tip:** _プレビューのスクリーンショットを表示するには，拡張機能名の下をクリックします ▸ または説明します。_
+💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <h1>ChatGPT関連するスクリプト</h1><h3>
     <a href="../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../chatgpt-code-styling">ChatGPTコードのフォントサイズが小さくなりました</a>&nbsp;
+    <a href="../chatgpt-code-styling">ChatGPTコードフォント削減</a>&nbsp;
     <a href="../chatgpt-code-styling">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>させて ChatGPT コードボックスのフォントサイズが小さくなる</summary>
+    <summary>させて ChatGPT コードボックスのフォントは小さくなります</summary>
     <br><blockquote>
         <a href="../chatgpt-code-styling">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -66,23 +66,52 @@
     <a href="https://greasyfork.org/scripts/505209">
         Greasemonkey</a> /
     <a href="../chatgpt-code-styling/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../chatgpt-code-styling/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
+</blockquote>
+        <h3>
+    <a href="../chatgpt-code-hightlight">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
+    <a href="../chatgpt-code-hightlight">ChatGPT ハイライトされたコード</a>&nbsp;
+    <a href="../chatgpt-code-hightlight">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+</h3>
+
+<details>
+    <summary>のために ChatGPT すべての言語コードを追加して強調表示します（使用 highlight.js）</summary>
+    <br><blockquote>
+        <a href="../chatgpt-code-hightlight">
+           <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/527255">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/527255">
+        Greasemonkey</a> /
+    <a href="../chatgpt-code-hightlight/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../chatgpt-code-hightlight/#readme">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
-    <a href="../chatgpt-copy-code-button">ChatGPT チャットコードコピーボタン</a>&nbsp;
+    <a href="../chatgpt-copy-code-button">ChatGPT チャットコードコードボタン</a>&nbsp;
     <a href="../chatgpt-copy-code-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>存在する chatgpt.com 上部のコードブロックの右下隅にアニメーションを追加します。“コードをコピーする”ボタン</summary>
+    <summary>存在する chatgpt.com コードブロックの右下隅にアニメーションを追加する“コードをコピーします”ボタン</summary>
     <br><blockquote>
         <a href="../chatgpt-copy-code-button">
            <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -95,11 +124,11 @@
     <a href="https://greasyfork.org/scripts/509598">
         Greasemonkey</a> /
     <a href="../chatgpt-copy-code-button/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../chatgpt-copy-code-button/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -111,7 +140,7 @@
 </h3>
 
 <details>
-    <summary>添加一キャラクター计数器到输入框，に限定される 32732 キャラクター。（ChatGPT 限界は 32732 个字符。）</summary>
+    <summary>添加一文字计数器到输入框，に制限されています 32732 文字。（ChatGPT 制限はです 32732 个字符。）</summary>
     <br><blockquote>
         <a href="../chatgpt-counter">
            <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
@@ -124,23 +153,23 @@
     <a href="https://greasyfork.org/scripts/506166">
         Greasemonkey</a> /
     <a href="../chatgpt-counter/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../chatgpt-counter/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-plus">ChatGPT セルフメッセージと最大幅を折りたたむ</a>&nbsp;
+    <a href="../chatgpt-plus">ChatGPT 独自のメッセージと最大幅を崩壊させます</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>自分が送信した長いメッセージを自動的に折りたたむ，画面スペースを節約する。チャットウィンドウの最大幅を設定できます。，長いメッセージが指定範囲を超えないようにする。</summary>
+    <summary>あなたから送られた長いメッセージを自動的に崩壊させます，画面スペースを保存します。チャットウィンドウの最大幅を設定できます，指定された範囲を超えない長いメッセージを作成します。</summary>
     <br><blockquote>
         <a href="../chatgpt-plus">
            <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
@@ -153,23 +182,23 @@
     <a href="https://greasyfork.org/scripts/504901">
         Greasemonkey</a> /
     <a href="../chatgpt-plus/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../chatgpt-plus/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
-        <h1>Web関連のスクリプト</h1><h3>
+        <h1>Webページ関連のスクリプト</h1><h3>
     <a href="../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
-    <a href="../clipboard-manager">Web ページ書き込みクリップ バージョン認証マネージャー</a>&nbsp;
+    <a href="../clipboard-manager">Webページライティングクリップバージョン認証マネージャー</a>&nbsp;
     <a href="../clipboard-manager">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Web ページが編集されたバージョンを公開することを禁止する，緑はリリース用，レッドバン，オレンジ色の臨時ルート</summary>
+    <summary>編集されたバージョンでうんちを禁じられています，グリーンはリリース用です，赤は禁止されています，オレンジ色の一時的な方向</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -182,23 +211,23 @@
     <a href="https://greasyfork.org/scripts/497403">
         Greasemonkey</a> /
     <a href="../clipboard-manager/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../clipboard-manager/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="../csdn-blocker">リフトCSDNログインコピーの制限</a>&nbsp;
+    <a href="../csdn-blocker">リリースCSDNログインレプリケーション制限</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>ファックユー CSDN ログインコピー，ログインせずにコードボックスの内容をコピーする</summary>
+    <summary>あなたをファックしに行きなさい CSDN ログインしてコピーします，ログインせずにコードボックスコンテンツをコピーします</summary>
     <br><blockquote>
         <a href="../csdn-blocker">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -211,23 +240,23 @@
     <a href="https://greasyfork.org/scripts/505207">
         Greasemonkey</a> /
     <a href="../csdn-blocker/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../csdn-blocker/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
-    <a href="../colorful-table">ゴージャスなグラデーションで Web フォームを美しくする</a>&nbsp;
+    <a href="../colorful-table">ゴージャスなグラデーションビューディー化Webページテーブル</a>&nbsp;
     <a href="../colorful-table">
         <img height=24 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Web ページ上の表のすべての列にカラー グラデーション美化を自動的に適用します。.</summary>
+    <summary>Webページのテーブルのすべての列にカラーグラデーションの美化を自動的に適用する.</summary>
     <br><blockquote>
         <a href="../colorful-table">
            <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
@@ -240,23 +269,23 @@
     <a href="https://greasyfork.org/scripts/507036">
         Greasemonkey</a> /
     <a href="../colorful-table/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../colorful-table/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../highlight-keywords">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
-    <a href="../highlight-keywords">Web ページ上のキーワードを強調表示する+(推薦する)</a>&nbsp;
+    <a href="../highlight-keywords">Web上のキーワードを強調表示します+(推薦する)</a>&nbsp;
     <a href="../highlight-keywords">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Web ページ上のテキストを強調表示する</summary>
+    <summary>Webページでテキストを強調表示します</summary>
     <br><blockquote>
         <a href="../highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -269,23 +298,23 @@
     <a href="https://greasyfork.org/scripts/498906">
         Greasemonkey</a> /
     <a href="../highlight-keywords/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../highlight-keywords/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../highlight-keywords-mini">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
-    <a href="../highlight-keywords-mini">Web テキストを強調表示する-ミニバージョン</a>&nbsp;
+    <a href="../highlight-keywords-mini">Webテキストを強調表示します-ミニバージョン</a>&nbsp;
     <a href="../highlight-keywords-mini">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>スクロール時に動的に読み込まれるコンテンツを含む、Web ページ上のカスタム キーワードの強調表示</summary>
+    <summary>スクロール時に動的読み込みを含むWebページで強調表示されるカスタムキーワード</summary>
     <br><blockquote>
         <a href="../highlight-keywords-mini">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -298,23 +327,23 @@
     <a href="https://greasyfork.org/scripts/498905">
         Greasemonkey</a> /
     <a href="../highlight-keywords-mini/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../highlight-keywords-mini/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../popup-window">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
-    <a href="../popup-window">小さなウィンドウでプレビュー</a>&nbsp;
+    <a href="../popup-window">小さなウィンドウプレビュー</a>&nbsp;
     <a href="../popup-window">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>リンクをドラッグするとポップアップ ウィンドウでリンクが開きます，開く前にプレビューを提供します，使用 Edge 先読み技術。同時に、開いたときの小窓の後ろにアクリル効果を追加します。。</summary>
+    <summary>ドラッグしてドロップするときにポップアップウィンドウにリンクを開きます，開く前にプレビューを提供します，使用 Edge 読書テクノロジー。同時に、小さな窓が開いたときに背面の後ろにアクリル効果を追加します。</summary>
     <br><blockquote>
         <a href="../popup-window">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
@@ -327,23 +356,23 @@
     <a href="https://greasyfork.org/scripts/504880">
         Greasemonkey</a> /
     <a href="../popup-window/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../popup-window/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../remove-link-underlines">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
-    <a href="../remove-link-underlines">リンクの下線を削除する</a>&nbsp;
+    <a href="../remove-link-underlines">下線を削除します</a>&nbsp;
     <a href="../remove-link-underlines">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Web リンクから下線を削除する</summary>
+    <summary>Webリンクの下線を削除します</summary>
     <br><blockquote>
         <a href="../remove-link-underlines">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -356,23 +385,23 @@
     <a href="https://greasyfork.org/scripts/498625">
         Greasemonkey</a> /
     <a href="../remove-link-underlines/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../remove-link-underlines/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
-    <a href="../scroll-button">小さな上下スクロールボタン</a>&nbsp;
+    <a href="../scroll-button">小さなボタンを上下にスクロールします</a>&nbsp;
     <a href="../scroll-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>ページの右側に上下のスクロール ボタンを追加します。</summary>
+    <summary>ページの右側にボタンを上下に加算します</summary>
     <br><blockquote>
         <a href="../scroll-button">
            <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
@@ -385,23 +414,23 @@
     <a href="https://greasyfork.org/scripts/497251">
         Greasemonkey</a> /
     <a href="../scroll-button/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../scroll-button/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../scroll-to-top-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
-    <a href="../scroll-to-top-button">ワンタッチの上下ボタン</a>&nbsp;
+    <a href="../scroll-to-top-button">ワンクリックトップボタンとボトムボタン</a>&nbsp;
     <a href="../scroll-to-top-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>から変更されましたGreasyforkユーザースクリプト Web ページに上部と下部のボタンを追加する，長いページの上部または下部への素早い移動を容易にします。。 下にスクロールしたときにボタンの色の変更を追加しました，3数秒以内にスクロールがない場合は自動的に停止します</summary>
+    <summary>から変更されましたGreasyforkユーザースクリプト Webページの上部と下のボタンを追加します，長いページで上部または下部にすばやく移動するのに便利です。 ボタンを追加して、下にスクロールするときに色を変更します，3数秒以内のスクロールは自動的に停止しません</summary>
     <br><blockquote>
         <a href="../scroll-to-top-button">
            <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
@@ -414,23 +443,23 @@
     <a href="https://greasyfork.org/scripts/500255">
         Greasemonkey</a> /
     <a href="../scroll-to-top-button/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../scroll-to-top-button/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h1>GitHub関連するスクリプト</h1><h3>
     <a href="../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-commit-viewer">GitHub送信情報表示HTML</a>&nbsp;
+    <a href="../github-commit-viewer">GitHub情報表示を送信しますHTML</a>&nbsp;
     <a href="../github-commit-viewer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>このスクリプトは、 GitHub 投稿情報は、 HTML ビュー，提出物の詳細をより明確に確認するには。情報リストを自動的に送信します、コミットヘッダーと最新のコミット情報が変換されます。 HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供する。</summary>
+    <summary>スクリプトはそうします GitHub それに関する提出情報はに変換されます HTML ビュー，提出の詳細をより明確に表示します。送信情報が自動的にリストされます、ヘッダーを送信し、最新の提出情報が変換されます HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供します。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -443,11 +472,11 @@
     <a href="https://greasyfork.org/scripts/505830">
         Greasemonkey</a> /
     <a href="../github-commit-viewer/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-commit-viewer/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -459,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>GitHub クイック ジャンプ アシスタントは、ユーザーがすばやくアクセスできるように設計されたツールです。 GitHub 倉庫向けに設計。開発者の使用能力を大幅に向上させることができます GitHub 時間効率。</summary>
+    <summary>GitHub クイックジャンプアシスタントは、ユーザーがすぐに自分自身にアクセスできるように特別に設計されています GitHub 倉庫で設計されています。開発者の使用を大幅に改善できます GitHub 現時点での効率。</summary>
     <br><blockquote>
         <a href="../github-repository-navigator">
            <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
@@ -472,23 +501,23 @@
     <a href="https://greasyfork.org/scripts/515205">
         Greasemonkey</a> /
     <a href="../github-repository-navigator/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-repository-navigator/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
-    <a href="../github-file-list-beautifier-plus">GitHub ファイルリスト整形ツール</a>&nbsp;
+    <a href="../github-file-list-beautifier-plus">GitHub ファイルリストビューティエ</a>&nbsp;
     <a href="../github-file-list-beautifier-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>GitHub File List Beautifier はユーザースクリプトです，強化するために使用される GitHub 倉庫内のファイルの表示効果。ファイルやフォルダーに色を追加できます，ファイルタイプのアイコンを小さな画像に置き換えます，コードベースの参照と管理が容易になります。。</summary>
+    <summary>GitHub ファイルリストビューティファイアはユーザースクリプトです，強化用 GitHub 倉庫のファイル表示効果。ファイルとフォルダーに色を追加できます，ファイルタイプアイコンを小さな画像に置き換えます，コードベースの閲覧と管理が容易になります。</summary>
     <br><blockquote>
         <a href="../github-file-list-beautifier-plus">
            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
@@ -501,23 +530,23 @@
     <a href="https://greasyfork.org/scripts/508047">
         Greasemonkey</a> /
     <a href="../github-file-list-beautifier-plus/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-file-list-beautifier-plus/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-linguist-expand">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
-    <a href="../github-linguist-expand">Github コード言語のリストをすべて表示</a>&nbsp;
+    <a href="../github-linguist-expand">Github コード言語リストはすべて表示されます</a>&nbsp;
     <a href="../github-linguist-expand">
         <img height=24 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>拡大する Github リポジトリ上の言語のリスト，各言語を表示，小さな部品を隠すのではなく、 “他の” 下</summary>
+    <summary>拡張 Github リポジトリの言語リスト，各言語を表示します，小さな部分を隠す代わりに “他の” 下</summary>
     <br><blockquote>
         <a href="../github-linguist-expand">
            <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
@@ -530,23 +559,23 @@
     <a href="https://greasyfork.org/scripts/509889">
         Greasemonkey</a> /
     <a href="../github-linguist-expand/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-linguist-expand/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-device-authorization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
-    <a href="../github-device-authorization">GitHub デバイスの認証を自動的に確認する</a>&nbsp;
+    <a href="../github-device-authorization">GitHub デバイスの承認を自動的に確認します</a>&nbsp;
     <a href="../github-device-authorization">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>存在するGitHub認証ページでは、認証コードが自動的に入力され、自動的に確認されます。。</summary>
+    <summary>存在するGitHub承認コードと自動確認ページに自動的に入力します。</summary>
     <br><blockquote>
         <a href="../github-device-authorization">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -559,23 +588,23 @@
     <a href="https://greasyfork.org/scripts/508956">
         Greasemonkey</a> /
     <a href="../github-device-authorization/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-device-authorization/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="../github-folder-downloader">GitHubフォルダーのダウンロード</a>&nbsp;
+    <a href="../github-folder-downloader">GitHubフォルダーをダウンロードします</a>&nbsp;
     <a href="../github-folder-downloader">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>ダウンロードボタンを追加する，特定のファイルを簡単にダウンロードできます GitHub フォルダ。</summary>
+    <summary>ダウンロードボタンを追加します，特定のダウンロードを簡単にすることができます GitHub フォルダー。</summary>
     <br><blockquote>
         <a href="../github-folder-downloader">
            <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
@@ -588,23 +617,23 @@
     <a href="https://greasyfork.org/scripts/505496">
         Greasemonkey</a> /
     <a href="../github-folder-downloader/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-folder-downloader/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-raw-file-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
-    <a href="../github-raw-file-plus">GitHub単一ファイルのダウンロードとファイルのコピーURL</a>&nbsp;
+    <a href="../github-raw-file-plus">GitHub単一のファイルをダウンロードしてファイルをコピーしますURL</a>&nbsp;
     <a href="../github-raw-file-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>各ファイル行の末尾にある「追加」ボタン，元のファイルをコピーするには URL そしてファイルをダウンロードする</summary>
+    <summary>各ファイル行の最後にボタンを追加します，元のファイルをコピーします URL ファイルをダウンロードします</summary>
     <br><blockquote>
         <a href="../github-raw-file-plus">
            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
@@ -617,23 +646,23 @@
     <a href="https://greasyfork.org/scripts/505501">
         Greasemonkey</a> /
     <a href="../github-raw-file-plus/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-raw-file-plus/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
-    <a href="../github-repo-size-view">🤠 Github 強化アシスタント 倉庫のディスプレイサイズ 非アクティブな開発に関する警告 倉庫内のユーザーの他の倉庫に素早くジャンプします 🤠</a>&nbsp;
+    <a href="../github-repo-size-view">🤠 Github 強化されたアシスタント 倉庫ディスプレイサイズ 非アクティブな開発警告 倉庫の他の倉庫にすばやくジャンプします 🤠</a>&nbsp;
     <a href="../github-repo-size-view">
         <img height=24 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>存在するGithub倉庫の表示および検索時に倉庫のサイズを表示する ，非アクティブな開発に関する警告，倉庫内で素早くジャンプ.</summary>
+    <summary>存在するGithub倉庫を表示および検索するときに倉庫のサイズを表示します ，非アクティブな開発警告，倉庫でのクイックジャンプ.</summary>
     <br><blockquote>
         <a href="../github-repo-size-view">
            <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
@@ -646,11 +675,11 @@
     <a href="https://greasyfork.org/scripts/502291">
         Greasemonkey</a> /
     <a href="../github-repo-size-view/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-repo-size-view/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -662,7 +691,7 @@
 </h3>
 
 <details>
-    <summary>倉庫リストファイルのソート方法を日付の降順に変更する，最新の更新されたファイルを簡単に表示できます。</summary>
+    <summary>これまでの倉庫リストファイルの順序を変更する，最新の更新されたファイルを簡単に表示できます。</summary>
     <br><blockquote>
         <a href="../github-sort-by-date">
            <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
@@ -675,23 +704,23 @@
     <a href="https://greasyfork.org/scripts/505218">
         Greasemonkey</a> /
     <a href="../github-sort-by-date/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../github-sort-by-date/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h1>Google関連するスクリプト</h1><h3>
     <a href="../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
-    <a href="../google-advanced-search">Google 詳細検索</a>&nbsp;
+    <a href="../google-advanced-search">Google 高度な検索</a>&nbsp;
     <a href="../google-advanced-search">
         <img height=24 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>これは、 Google 詳細検索フォームのユーザー スクリプトを追加する。ページの上部に非表示可能な高度な検索フォームを追加します，より正確に情報を検索できるようになります。</summary>
+    <summary>これはのためです Google 高度な検索フォームを追加するユーザースクリプト。ページの上部に隠された高度な検索フォームを追加できます，より正確に情報を検索できます。</summary>
     <br><blockquote>
         <a href="../google-advanced-search">
            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -704,23 +733,23 @@
     <a href="https://greasyfork.org/scripts/502652">
         Greasemonkey</a> /
     <a href="../google-advanced-search/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../google-advanced-search/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
-    <a href="../google-block-search-sites">Google 特定のサイトを検索してブロックする</a>&nbsp;
+    <a href="../google-block-search-sites">Google 指定されたサイトを検索します</a>&nbsp;
     <a href="../google-block-search-sites">
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>検索エンジンの結果から特定のサイトをブロックする，ユーザーが不要な検索結果を除外できるようにする。 カスタム入力ブロック サイト。形式-zhihu -baidu Google 検索コンテンツをブロックするために使用されます</summary>
+    <summary>検索エンジンの結果の特定のサイトをブロックします，ユーザーが不要な検索結果を除外するのを助けます。 カスタム入力ブロッキングサイト。形式-zhihu -baidu Google検索コンテンツをブロックするために使用されます</summary>
     <br><blockquote>
         <a href="../google-block-search-sites">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -733,23 +762,23 @@
     <a href="https://greasyfork.org/scripts/500262">
         Greasemonkey</a> /
     <a href="../google-block-search-sites/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../google-block-search-sites/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h1>GreasyFork関連するスクリプト</h1><h3>
     <a href="../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="../greasyfork-link">GreasyFork強化に適した</a>&nbsp;
+    <a href="../greasyfork-link">GreasyFork強化に適しています</a>&nbsp;
     <a href="../greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>スクリプトの詳細ページが追加され、リンクを追加するのに適しています。，Webページをコピーする,タイヤ検索</summary>
+    <summary>Webページを開くリンクを追加するためのスクリプトの詳細ページを追加するページ，Webページをコピーします,タイヤ検索</summary>
     <br><blockquote>
         <a href="../greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -762,23 +791,23 @@
     <a href="https://greasyfork.org/scripts/497317">
         Greasemonkey</a> /
     <a href="../greasyfork-link/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-link/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../greasyfork-user-scripts-data-visualization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
-    <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork ユーザーが公開したスクリプト データの視覚化</a>&nbsp;
+    <a href="../greasyfork-user-scripts-data-visualization">GrreasyFork ユーザーが公開したスクリプトデータの視覚化</a>&nbsp;
     <a href="../greasyfork-user-scripts-data-visualization">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>使用Chart.jsユーザースクリプトデータの取得と可視化，また、ユーザーの個人ホームページ上にグラフを生成し、以下の詳細なインストール状況を表示します。</summary>
+    <summary>使用Chart.jsユーザースクリプトデータを取得して視覚化します，ユーザーの個人用ホームページにチャートを生成して、以下に詳細なインストールステータスを表示します</summary>
     <br><blockquote>
         <a href="../greasyfork-user-scripts-data-visualization">
            <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
@@ -791,23 +820,23 @@
     <a href="https://greasyfork.org/scripts/508968">
         Greasemonkey</a> /
     <a href="../greasyfork-user-scripts-data-visualization/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-user-scripts-data-visualization/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../greasyfork-webhook-sync-enhanced">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="../greasyfork-webhook-sync-enhanced">GreaysFork 強化する WebHook同期設定</a>&nbsp;
+    <a href="../greasyfork-webhook-sync-enhanced">GreaysFork 強化 WebHook同期設定</a>&nbsp;
     <a href="../greasyfork-webhook-sync-enhanced">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>このスクリプトは、スクリプト同期情報を迅速に入力するのに役立ちます。，複数の国の言語コードをバッチで追加します，選択ボックスを 1 つずつクリックして対応する URL に移動するのではなく、。</summary>
+    <summary>このスクリプトは、スクリプトの同期情報をすばやく入力するのに役立ちます，バッチの複数の国に言語コードを追加します，選択ボックスを1つずつクリックしてから、対応するURLに移動する代わりに。</summary>
     <br><blockquote>
         <a href="../greasyfork-webhook-sync-enhanced">
            <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
@@ -820,11 +849,11 @@
     <a href="https://greasyfork.org/scripts/506717">
         Greasemonkey</a> /
     <a href="../greasyfork-webhook-sync-enhanced/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-webhook-sync-enhanced/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -836,7 +865,7 @@
 </h3>
 
 <details>
-    <summary>フォーラムでデフォルトで使用されます Markdown 形式，フォーマットのヘルプリンクを追加し、 Markdown ツールバーの紹介</summary>
+    <summary>フォーラムでデフォルトで使用されます Markdown 形式，フォーマットヘルプリンクを追加します Markdown ツールバー</summary>
     <br><blockquote>
         <a href="../greasyfork-markdown-toolbar">
            <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
@@ -849,23 +878,23 @@
     <a href="https://greasyfork.org/scripts/505164">
         Greasemonkey</a> /
     <a href="../greasyfork-markdown-toolbar/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-markdown-toolbar/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../greasyfork-ranks">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
-    <a href="../greasyfork-ranks">GreasyFork 脚本の評価を表示する</a>&nbsp;
+    <a href="../greasyfork-ranks">GreasyFork スクリプトの評価を表示します</a>&nbsp;
     <a href="../greasyfork-ranks">
         <img height=24 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>評価スコアをスクリプトリストに追加</summary>
+    <summary>スクリプトリストに評価スコアを追加します</summary>
     <br><blockquote>
         <a href="../greasyfork-ranks">
            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
@@ -878,23 +907,23 @@
     <a href="https://greasyfork.org/scripts/501119">
         Greasemonkey</a> /
     <a href="../greasyfork-ranks/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-ranks/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../greasyfork-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
-    <a href="../greasyfork-search">GreasyFork 詳細検索</a>&nbsp;
+    <a href="../greasyfork-search">GreasyFork 高度な検索</a>&nbsp;
     <a href="../greasyfork-search">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Googleを使って検索する GreasyFork そして SleazyFork スクリプトオン</summary>
+    <summary>Googleを使用して検索します GreasyFork そして SleazyFork スクリプト</summary>
     <br><blockquote>
         <a href="../greasyfork-search">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -907,11 +936,11 @@
     <a href="https://greasyfork.org/scripts/505215">
         Greasemonkey</a> /
     <a href="../greasyfork-search/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-search/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -923,7 +952,7 @@
 </h3>
 
 <details>
-    <summary>強化するgreasyforkナビゲーションバー,ユーザーリストを追加,ユーザーコンソールなど</summary>
+    <summary>強化greasyforkナビゲーションバー,ユーザーリストを追加します,ユーザーコンソールなど</summary>
     <br><blockquote>
         <a href="../greasyfork-user-control-panel-button">
            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -936,23 +965,23 @@
     <a href="https://greasyfork.org/scripts/501880">
         Greasemonkey</a> /
     <a href="../greasyfork-user-control-panel-button/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-user-control-panel-button/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="../greasyfork-utility-toolkit">Greasyforkフレーマ</a>&nbsp;
+    <a href="../greasyfork-utility-toolkit">Greasyforkリギングメーカーを貼り付けます</a>&nbsp;
     <a href="../greasyfork-utility-toolkit">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>強化するgreasyfork,コードをコピーする，スクリプトのダウンロード，秒までの正確な時間，ホームページのクリーンアップ，ワンクリックレポートについて話し合う，スクリプトリストジャンプコード追加ダウンロード コードの表示とコード参照ファイルの表示を美しくする，スクリプトアイコンを表示，アダルト スクリプトやその他の操作にジャンプします</summary>
+    <summary>強化greasyfork,コードをコピーします，スクリプトのダウンロード，正確な時間から秒，ホームページのクリーニング，ディスカッションとレポート，スクリプトリストジャンプコードの追加ダウンロード ビューディー表示コード表示コード参照ファイルを表示します，スクリプトアイコンを表示します，大人のスクリプトやその他の操作をジャンプします</summary>
     <br><blockquote>
         <a href="../greasyfork-utility-toolkit">
            <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
@@ -965,11 +994,11 @@
     <a href="https://greasyfork.org/scripts/497346">
         Greasemonkey</a> /
     <a href="../greasyfork-utility-toolkit/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-utility-toolkit/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -981,7 +1010,7 @@
 </h3>
 
 <details>
-    <summary>スクリプトまたは参加しているディスカッションに対して新しい返信があったとき，スクリプトは、Web ページ上のモーダル ウィンドウに最新のディスカッション コンテンツを表示します。。</summary>
+    <summary>スクリプトやディスカッションへの新しい返信がある場合，スクリプトは、Webページのモーダルウィンドウに最新のディスカッションコンテンツを表示します。</summary>
     <br><blockquote>
         <a href="../greasyfork-discussion-watcher">
            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
@@ -994,23 +1023,23 @@
     <a href="https://greasyfork.org/scripts/506345">
         Greasemonkey</a> /
     <a href="../greasyfork-discussion-watcher/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../greasyfork-discussion-watcher/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../script-finder-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
-    <a href="../script-finder-plus">Script Finderグリース モンキー スクリプト ファインダー</a>&nbsp;
+    <a href="../script-finder-plus">Script Finderオイルモンキースクリプトファインダー</a>&nbsp;
     <a href="../script-finder-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Script Finder ユーザースクリプトです（userscript），あらゆる Web サイト上のユーザースクリプトの検索と管理に役立ちます</summary>
+    <summary>Script Finder それはユーザースクリプトです（userscript），任意のWebサイトでユーザースクリプトを見つけて管理するのに役立ちます</summary>
     <br><blockquote>
         <a href="../script-finder-plus">
            <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
@@ -1023,14 +1052,14 @@
     <a href="https://greasyfork.org/scripts/498904">
         Greasemonkey</a> /
     <a href="../script-finder-plus/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../script-finder-plus/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
-        <h1>大人向けの脚本</h1><h3>
+        <h1>大人のスクリプト</h1><h3>
     <a href="../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../missav-auto-login-helper">MiSSAV自動ログイン</a>&nbsp;
@@ -1039,7 +1068,7 @@
 </h3>
 
 <details>
-    <summary>検出 MisssAV 州，ログインしていない場合は自動的にログインします</summary>
+    <summary>テスト MisssAV 州，ログインしないと自動的にログインします</summary>
     <br><blockquote>
         <a href="../missav-auto-login-helper">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1052,11 +1081,11 @@
     <a href="https://greasyfork.org/scripts/505325">
         Greasemonkey</a> /
     <a href="../missav-auto-login-helper/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../missav-auto-login-helper/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -1068,7 +1097,7 @@
 </h3>
 
 <details>
-    <summary>missプレイリストのバックアップ，写真のダウンロードとビデオ情報の保存をサポート.ローカル Web ページをエクスポートする へのエクスポートをサポートwebdav</summary>
+    <summary>miss映画の注文バックアップ，写真のダウンロードとビデオ情報の保存をサポートします.ローカルWebページをエクスポートします サポートエクスポートwebdav</summary>
     <br><blockquote>
         <a href="../missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1081,11 +1110,11 @@
     <a href="https://greasyfork.org/scripts/497682">
         Greasemonkey</a> /
     <a href="../missav-explorer/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../missav-explorer/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -1097,7 +1126,7 @@
 </h3>
 
 <details>
-    <summary>検出 TissAV 州，ログインしていない場合は自動的にログインします</summary>
+    <summary>テスト TissAV 州，ログインしないと自動的にログインします</summary>
     <br><blockquote>
         <a href="../thisav-auto-login-helper">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1110,11 +1139,11 @@
     <a href="https://greasyfork.org/scripts/506528">
         Greasemonkey</a> /
     <a href="../thisav-auto-login-helper/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../thisav-auto-login-helper/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
@@ -1126,7 +1155,7 @@
 </h3>
 
 <details>
-    <summary>検出 JableTV 州，ログインしていない場合は自動的にログインします</summary>
+    <summary>テスト JableTV 州，ログインしないと自動的にログインします</summary>
     <br><blockquote>
         <a href="../jable-auto-login-helper">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1139,23 +1168,23 @@
     <a href="https://greasyfork.org/scripts/506730">
         Greasemonkey</a> /
     <a href="../jable-auto-login-helper/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../jable-auto-login-helper/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h1>自動翻訳</h1><h3>
     <a href="../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
-    <a href="../no-zh-terminator">外国語ターミネータ</a>&nbsp;
+    <a href="../no-zh-terminator">外国語ターミネーター</a>&nbsp;
     <a href="../no-zh-terminator">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>中国語以外の文字を認識する，長さがそれより長い場合は、 5 翻訳されたテキストには中国語が含まれていません，それを中国語に置き換えます,アクセスできる必要があるgoogleネットワーク</summary>
+    <summary>中国人以外のキャラクターを認識します，長さがより大きい場合 5 翻訳されたテキストには中国語が含まれていません，中国語に置き換えてください,アクセスできる必要がありますgoogleネットワーク</summary>
     <br><blockquote>
         <a href="../no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1168,23 +1197,23 @@
     <a href="https://greasyfork.org/scripts/504890">
         Greasemonkey</a> /
     <a href="../no-zh-terminator/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../no-zh-terminator/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
     <a href="../translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="../translate-only-chinese">ウェブページの翻訳——自動的に中国語に翻訳されます</a>&nbsp;
+    <a href="../translate-only-chinese">Web翻訳——中国人への自動翻訳</a>&nbsp;
     <a href="../translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>中国語以外の各 Web ページの右下隅に記入してください（左下隅に調整可能）追加します google 翻訳アイコン，このバージョンは中国語翻訳版です，外国語のみを中国語に翻訳する，自動翻訳を追加する</summary>
+    <summary>各中国人以外のWebページに右下隅を渡します（左下隅に調整できます）追加します google 翻訳アイコン，このバージョンは中国語の翻訳です，外国語のみを中国語に翻訳します，自動翻訳を追加します</summary>
     <br><blockquote>
         <a href="../translate-only-chinese">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1197,11 +1226,11 @@
     <a href="https://greasyfork.org/scripts/505208">
         Greasemonkey</a> /
     <a href="../translate-only-chinese/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/white.svg"><img height=13 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/paper-sheet/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../translate-only-chinese/#readme">
-        Readmeファイル</a> /
+        readmeファイル</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://cdn.jsdelivr.net/gh/adamlui/ai-web-extensions/images/icons/speech-bubble-square/black.svg"></picture></a>
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         
@@ -1209,90 +1238,110 @@
 
 ---
 
-## インストール方法/スクリプトを使用する？
+## インストール方法/スクリプトを使用します？
 
-任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+任意のスクリプトを使用します，まず、ブラウザのインス​​トールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
--   もし Github アクセス速度が遅すぎる，クリックするか選択できます GreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
--   [詳細なチュートリアルを表示する](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
+-   フォームをクリックします **\[インストール\]** Script Managerインストールインターフェイスを直接ポップアップします。
+-   もし Github アクセス速度が遅すぎます，クリックすることを選択できます GreasyFork **\[インストール\]** 拡張プロンプトがポップアップします，行って、もう一度クリックします **\[インストール\]** ただ。
+-   [詳細なチュートリアルをご覧ください](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
-> -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正常に動作しない**脚本。_
-> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+> -   _その他に基づいています **Chromium** カーネルブラウザ（国内ブラウザなど）一般的に利用可能です Chrome 拡張。_
+> -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
+> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示のまま再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 ---
 
-## オープンソースに感謝します
+## Kaiyuanに感謝します
 
 > [!TIP]
 >
 > -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
-> -   このリポジトリの Readme ファイルがコピーされます[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)コンテンツ `ブラウザとスクリプトマネージャー`
+> -   このリポジトリREADMEファイルがコピーされました[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)コンテンツ `ブラウザとスクリプトマネージャー`
 
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   全部倉庫の中`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ドキュメントバッジのスタイル
+> -   すべて倉庫にあります`README.md`ファイルバッジがコピーされました[Hmjz100](https://github.com/hmjz100)倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)ファイルバッジスタイル
 
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库内部所有`README.md`ファイルヘッダーの紹介とインストール履歴テーブルがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルの内容
-> -   この倉庫のサブ倉庫`UserScriptsHistory`自動更新インストール履歴テーブルのイメージコードもコピーして使用します。[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+> -   仓库内部所有`README.md`ファイルヘッダーの紹介と履歴インストールフォームがコピーされました[FengFeng](https://github.com/BonjourFeng)倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)ファイルコンテンツ
+> -   この倉庫のサブウェアハウス`UserScriptsHistory`インストール履歴テーブル画像コードの自動更新もコピーされて使用されています[FengFeng](https://github.com/BonjourFeng)倉庫[Script-History](https://github.com/BonjourFeng/Script-History)内部のコード[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="砂漠の息子"/></a> :+1:
-> -   コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
-> -   この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
-> -   このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)コンテンツ `インストール方法/スクリプトを使用する？`
+> -   コピー [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内部のコード<br>
+> -   この倉庫で`writer.py` `update-contributors.yml` 使用するコピー[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
+> -   このリポジトリREADMEファイルがコピーされました[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)コンテンツ `インストール方法/スクリプトを使用します？`
 
 > [!TIP]
 >
-> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
-> -   _このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
-> -   _ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する_ :trollface:
-> -   _このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
-> -   _スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
-> -   _全てはこの倉庫にある`README.md`この Yankee リポジトリからコピーして使用されたファイル`README.md`ドキュメントのレイアウト，デリミタ，コード，アイデア_ :trollface:
-> -   _コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui) Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _コピーされたヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，写植スタイル :trollface:
-> -   _コピーされました ヤンキー[Adam Lui 劉禅鵬](https://github.com/adamlui)Python 内部コード_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
+> -   _この倉庫の自動翻訳と Action アメリカ人に感謝します[Adam Lui Liu Zhanpeng](https://github.com/adamlui)優れたアイデアとコード!_ :trollface:
+> -   _この倉庫はアメリカで命名されています[Adam Lui Liu Zhanpeng](https://github.com/adamlui)鼓舞する_ :trollface:
+> -   _この倉庫のreadmeファイルはからです[Adam Lui Liu Zhanpeng](https://github.com/adamlui)自己報告スタイル_ :trollface:
+> -   _スクリプトの相互変換のジャンプはどこから来ていますか[Adam Lui Liu Zhanpeng](https://github.com/adamlui)自己報告スタイル_ :trollface:
+> -   _すべてこの倉庫にあります`README.md`ファイルはコピーされ、このアメリカのリポジトリによって使用されました`README.md`ファイルレイアウト，デリミタ，コード，アイデア_ :trollface:
+> -   _アメリカ人をコピーします[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _コピー アメリカ人[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _アメリカ人をコピーします[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，タイプのレイアウトスタイルを発行します :trollface:
+> -   _コピー アメリカ人[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python 内部コード_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## 投稿者
+## 貢献者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
-<a href="https://github.com/qinwuyuan-sync-bot" title="人々の奉仕者"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人々の奉仕者"/></a>
+<a href="https://github.com/qinwuyuan-sync-bot" title="人々のサービススタッフ"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人々のサービススタッフ"/></a>
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-投稿者リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="弟の曲"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="弟の曲"/></a>
+貢献リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動的に生成されます <a href="https://github.com/jaywcjlove" title="チューン"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="チューン"/></a>
+
+## 🏛️ オープンソースライセンス契約
+
+このプロジェクトは採用されています <a href="../LICENSE.md"><strong>MIT ライセンス</strong></a> 許可。
+MIT ライセンスは、ゆるいオープンソースライセンス契約です，詳細については、参照してください <a href="../LICENSE.md">ライセンスの全文</a>。
+
+## 🤝 行動規範
+
+フレンドリーを確保するために、敬意と包括的な開発環境，以下を策定しました<a href="./CODE_OF_CONDUCT.md"><strong>行動規範</strong></a>。各貢献者のガイドラインに従ってください。
+
+## 🛡️ セキュリティポリシー
+
+脆弱性を見つけた場合，開いてください[安全性の推奨事項を作成します](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+
+プルリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
+詳細については、参照してください <a href="./SECURITY.md"><strong>セキュリティポリシー</strong></a>
+
+## 💖 貢献ガイド
+
+このプロジェクトに興味を持っていただきありがとうございます！以下を策定しました<a href="../CONTRIBUTING.md"><strong>貢献ガイド</strong></a>。コードやドキュメントをスムーズに提供するのに役立ちます，コードまたは質問を送信する前に，コンテンツを注意深く読んでください。
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                                    推奨ブラウザ                                     |                                                  インストールマネージャー                                                   | ブラウザをインストールする                                                    |
-| :---------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
+|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールします                                                                    |
+| :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
-|       <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]       |                              <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                              | <center>[![][safari]][safari_link]                                            |
+|  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox または に基づく Gecko カーネルブラウザ[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
-|                   <center> Opera ブラウザ[![][opera]][opera_link]                   | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|                <center> Via ブラウザ（Android）[![][via]][via_link]                 |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][via]][via_link]                                                  |
-|                   <center> X ブラウザ（Android） [![][x]][x_link]                   |                                                    <center> 内蔵ブラウザ                                                    | <center>[![][x]][x_link]                                                      |
-|               <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|              <center> キツネザルブラウザ（Android）[![][le]][le_link]               | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
-|                                                                                     |                                                                                                                             |                                                                               |
+|              <center> Opera ブラウザ[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
+|           <center> Via ブラウザ（Android）[![][via]][via_link]            |                                                    <center> ブラウザに入っています                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X ブラウザ（Android） [![][x]][x_link]              |                                                    <center> ブラウザに入っています                                                    | <center>[![][x]][x_link]                                                      |
+|          <center> KIWI ブラウザ（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
+|            <center> LEMURブラウザ（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]: http://tampermonkey.net/ "タンパーモンキー"
-[Violentmonkey]: https://violentmonkey.github.io/ "凶暴な猿"
-[Macaque]: https://macaque.app/ "サル"
+[Tampermonkey]: http://tampermonkey.net/ "猿を改ざんします"
+[Violentmonkey]: https://violentmonkey.github.io/ "暴力的な猿"
+[Macaque]: https://macaque.app/ "マカク"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
 [stayr]: https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
@@ -1312,18 +1361,23 @@
 [via_link]: https://viayoo.com/ "VIAブラウザ"
 [x]: https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
 [x_link]: https://www.xbext.com/ "Xブラウザ"
-[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "凶暴な猿"
+[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "暴力的な猿"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
 [cat_link]: https://docs.scriptcat.org/ "脚本猫"
-[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "タンパーモンキー"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "猿を改ざんします"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]: https://lemurbrowser.com/ "キツネザルブラウザ"
+[le_link]: https://lemurbrowser.com/ "LEMURブラウザ"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWIブラウザ"
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>さらなるユーザースクリプト</strong></a> /
-<a href="#">トップに戻る↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>より多くのユーザースクリプト</strong></a> /<a href="#">トップに戻ります↑</a></p>
 
-## License
+### 星の歴史
 
-The MIT License.
+<a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
+  </picture>
+</a>
