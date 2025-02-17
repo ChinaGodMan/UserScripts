@@ -46,8 +46,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT code highlighted</h1>
-    <p>「 Add all language code highlighting for ChatGPT (using highlight.js) 」</p>
+    <h1>chatgpt 코드가 강조되었습니다</h1>
+    <p>「 ChatGpt에 대한 모든 언어 코드 추가 」</p>
     <img src="https://views.whatilearened.today/views/github/527255/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">Github</a> | ⭐<a
@@ -91,11 +91,11 @@
 
 > ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
-> -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
-> -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
-> -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
-> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
+> -   [**ChatGPT코드 글꼴 크기 감소**](https://greasyfork.org/scripts/505209): ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
+> -   [**chatgpt 코드가 강조되었습니다**](https://greasyfork.org/scripts/527255): ChatGpt에 대한 모든 언어 코드 추가
+> -   [**ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”버튼과 ChatGPT 응답으로 코드 블록에 내보내기 버튼이 추가됩니다.，코드 블록의 클래스 이름으로 감지된 프로그래밍 언어를 기반으로 파일에 코드를 저장하라는 메시지를 사용자에게 표시합니다.。
+> -   [**ChatGPT 문자 카운터 제한 (CCCL)**](https://greasyfork.org/scripts/506166): 입력 상자에 문자 카운터 추가，로 제한됨 32732 문자。（ChatGPT 한도는 32732 문자。）
+> -   [**ChatGPT 자체 메시지 및 최대 너비 축소**](https://greasyfork.org/scripts/504901): 겹ChatGPT중간 및 긴“너”정보，그리고 최대 너비를 설정하세요
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
@@ -123,11 +123,11 @@
 
 > ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
-> -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
-> -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
-> -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
-> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
+> -   [**ChatGPT코드 글꼴 크기 감소**](https://greasyfork.org/scripts/505209): ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
+> -   [**chatgpt 코드가 강조되었습니다**](https://greasyfork.org/scripts/527255): ChatGpt에 대한 모든 언어 코드 추가
+> -   [**ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”버튼과 ChatGPT 응답으로 코드 블록에 내보내기 버튼이 추가됩니다.，코드 블록의 클래스 이름으로 감지된 프로그래밍 언어를 기반으로 파일에 코드를 저장하라는 메시지를 사용자에게 표시합니다.。
+> -   [**ChatGPT 문자 카운터 제한 (CCCL)**](https://greasyfork.org/scripts/506166): 입력 상자에 문자 카운터 추가，로 제한됨 32732 문자。（ChatGPT 한도는 32732 문자。）
+> -   [**ChatGPT 자체 메시지 및 최대 너비 축소**](https://greasyfork.org/scripts/504901): 겹ChatGPT중간 및 긴“너”정보，그리고 최대 너비를 설정하세요
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -135,15 +135,15 @@
 
 > ### 🔍你可能在找网页相关脚本
 >
-> -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
+> -   [**웹 페이지 작성 클립 버전 권한 관리자**](https://greasyfork.org/scripts/497403): 웹페이지의 클립보드 쓰기 동작을 관리하여 무단 자동 복사를 방지하고 오디오 및 비디오 콘텐츠 사전 로드 및 자동 재생을 비활성화합니다.
 > -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
-> -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
+> -   [**화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요**](https://greasyfork.org/scripts/507036): 테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
 > -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 > -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
-> -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
-> -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
-> -   [**Pin to top and bottom buttons**](https://greasyfork.org/scripts/500255): Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom
+> -   [**작은 창 미리보기**](https://greasyfork.org/scripts/504880): 링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。
+> -   [**링크 밑줄 제거**](https://greasyfork.org/scripts/498625): 모든 사이트의 링크 밑줄 제거，새 링크를 동적으로 처리합니다.
+> -   [**스크롤 버튼**](https://greasyfork.org/scripts/497251): 페이지 스크롤을 위해 페이지 오른쪽에 두 개의 버튼을 생성합니다.
+> -   [**상단 및 하단 버튼에 고정**](https://greasyfork.org/scripts/500255): 모든 페이지에 두 개의 버튼 생성，하나는 위쪽으로 부드럽게 하기 위한 것입니다.，하나는 아래쪽으로 계속 스크롤하기 위한 것입니다.，취소하려면 다시 클릭하세요. 맨 아래로 스크롤
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -151,15 +151,15 @@
 
 > ### 🔍你可能在找GitHub相关脚本
 >
-> -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
-> -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
-> -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
-> -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
-> -   [**GitHub folder downloader**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
-> -   [**Github Copy original file URL with download files**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
-> -   [**🤠 Github enhanced assistant warehouse display size**](https://greasyfork.org/scripts/502291): 🤠 Warehouse display size: On GitHub’s code search, warehouse search, issue page, user warehouse list and repository page, the size of the warehouse will be displayed next to the warehouse name, allowing users to quickly understand the scale of the warehouse and optimize their selection. Inactive development warning: If a repository has not been updated in the past six months, the system will add a prompt at the top of the repository to remind users that the repository is inactive and display the time of the last update. This helps users determine the activity and maintenance status of the warehouse. Quick jump within the warehouse: When browsing the warehouse, the user can easily view the list of all warehouses of the user, providing an entrance to quickly jump to different warehouses. Users can quickly find and access other projects of interest, improving work efficiency. Usage scenarios: Developers: By displaying the warehouse size and active warnings, you can quickly filter out suitable libraries for development and avoid using projects that are no longer maintained. Project Manager: Through the quick jump function, it is easy to manage and coordinate multiple projects and improve work efficiency. Learners: When learning new technologies, they can more easily find relevant open source projects and quickly check the activity and scale of the projects. 🤠
-> -   [**GitHub Sort by date**](https://greasyfork.org/scripts/505218): Change file sorting to descending by date，Conveniently view the latest updated files。
+> -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
+> -   [**GitHub 창고 빠른 점프 도우미**](https://greasyfork.org/scripts/515205): 🤠 GitHub 창고 빠른 점프 도우미는 사용자가 GitHub에서 자신의 창고에 빠르게 액세스할 수 있도록 특별히 설계되었습니다. 탐색 모음 상단에 버튼이 생성됩니다. 클릭하면 모든 저장소가 확장되고 GitHub의 보조 메뉴를 사용하지 않고도 자신의 GitHub 저장소 페이지로 쉽게 이동할 수 있습니다.
+> -   [**GitHub 파일 목록 미화자**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。유형별로 파일에 색상 및 아이콘 추가，저장소 소스 트리의 파일 유형 아이콘 대신 작은 이미지 표시
+> -   [**Github 코드 언어 목록 모두 표시**](https://greasyfork.org/scripts/509889): 확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다“다른”아래에
+> -   [**GitHub 장치 승인 자동 확인**](https://greasyfork.org/scripts/508956): 존재하다GitHub인증 페이지에서는 자동으로 인증 코드를 입력하고 자동으로 확인합니다.。
+> -   [**GitHub 폴더 다운로더**](https://greasyfork.org/scripts/505496): 다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。
+> -   [**Github 원본 파일 복사 URL 다운로드 파일 포함**](https://greasyfork.org/scripts/505501): 각 파일 줄 끝에 추가 버튼，원본 파일을 복사하려면 URL 그리고 파일 다운로드
+> -   [**🤠 Github 향상된 보조 창고 디스플레이 크기**](https://greasyfork.org/scripts/502291): 🤠 창고 표시 크기: GitHub의 코드 검색, 창고 검색, 이슈 페이지, 사용자 창고 목록 및 저장소 페이지에서 창고 이름 옆에 창고 크기가 표시되어 사용자가 창고 규모를 빠르게 이해하고 최적화할 수 있습니다. 선택. 비활성 개발 경고: 저장소가 지난 6개월 동안 업데이트되지 않은 경우 시스템은 저장소 상단에 프롬프트를 추가하여 사용자에게 저장소가 비활성 상태임을 알리고 마지막 업데이트 시간을 표시합니다. 이를 통해 사용자는 창고의 활동 및 유지 관리 상태를 확인할 수 있습니다. 창고 내 빠른 점프 : 창고 탐색 시 자신의 모든 창고 목록을 쉽게 확인할 수 있어, 다른 창고로 빠르게 이동할 수 있는 입구를 제공합니다. 사용자는 관심 있는 다른 프로젝트를 빠르게 찾고 액세스할 수 있어 작업 효율성이 향상됩니다. 사용 시나리오: 개발자: 웨어하우스 크기와 활성 경고를 표시함으로써 개발에 적합한 라이브러리를 빠르게 필터링하고 더 이상 유지 관리되지 않는 프로젝트의 사용을 피할 수 있습니다. 프로젝트 관리자: 퀵 점프 기능을 통해 여러 프로젝트를 쉽게 관리 및 조정하고 업무 효율성을 높일 수 있습니다. 학습자: 새로운 기술을 배울 때 관련 오픈소스 프로젝트를 더 쉽게 찾을 수 있고 프로젝트의 활동과 규모를 빠르게 확인할 수 있습니다. 🤠
+> -   [**GitHub 날짜순으로 정렬**](https://greasyfork.org/scripts/505218): 파일 정렬을 날짜별 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。
 
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -167,7 +167,7 @@
 
 > ### 🔍你可能在找Google相关脚本
 >
-> -   [**Google Advanced search assistant**](https://greasyfork.org/scripts/502652): Add an advanced search form to the top of your Google search page
+> -   [**Google 고급 검색 도우미**](https://greasyfork.org/scripts/502652): Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
 > -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
@@ -177,15 +177,15 @@
 > ### 🔍你可能在找GreasyFork相关脚本
 >
 > -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-> -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
-> -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
-> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
-> -   [**Greasyfork Script to display ratings**](https://greasyfork.org/scripts/501119): Add script rating after script name when browsing script list
-> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Search using GoogleGreasyForkandSleazyForkupper script
-> -   [**GreasyFork: Navigation bar enhancement**](https://greasyfork.org/scripts/501880): Add user list on navigation bar,console,Collection etc...
-> -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
-> -   [**GreasyFork Notification Assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
-> -   [**Script Finder GreasyFork Script Lookup**](https://greasyfork.org/scripts/498904): Script Finder Find on any website that applies to that website GreasyFork Script。
+> -   [**GreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
+> -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
+> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
+> -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
+> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
+> -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
+> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
+> -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
@@ -193,10 +193,10 @@
 
 > ### 🔍你可能在找成人脚本
 >
-> -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
-> -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
-> -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
+> -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
+> -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->

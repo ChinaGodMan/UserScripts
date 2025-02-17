@@ -105,9 +105,10 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相關腳本
+> ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): ChatGPT 讓程式碼字體變小 並且自動折行
+> -   [**ChatGPT程序码字体缩小**](https://greasyfork.org/scripts/505209): ChatGPT 让程序码字体变小 并且自动折行
+> -   [**ChatGPT 代碼高亮**](https://greasyfork.org/scripts/527255): 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js）
 > -   [**ChatGPT 聊天複製程式碼和匯出程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
 > -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
@@ -137,9 +138,10 @@
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相關腳本
+> ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPT程式碼字體縮小**](https://greasyfork.org/scripts/505209): ChatGPT 讓程式碼字體變小 並且自動折行
+> -   [**ChatGPT程序码字体缩小**](https://greasyfork.org/scripts/505209): ChatGPT 让程序码字体变小 并且自动折行
+> -   [**ChatGPT 代碼高亮**](https://greasyfork.org/scripts/527255): 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js）
 > -   [**ChatGPT 聊天複製程式碼和匯出程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
 > -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
@@ -193,10 +195,10 @@
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相關腳本
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy fork腳本頁面適用於網址增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁適用於網址不預設跳轉搜尋 轉為可點擊的文字連結並彈出提示
-> -   [**GrreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**GreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
 > -   [**Greasyfork 腳本顯示評分**](https://greasyfork.org/scripts/501119): 在瀏覽腳本清單時在腳本名稱後面新增腳本評分

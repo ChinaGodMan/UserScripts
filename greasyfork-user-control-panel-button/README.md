@@ -78,7 +78,7 @@
 > ### 🔍你可能在找GreasyFork相关脚本
 >
 > -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+> -   [**GreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
 > -   [**GreaysFork 增强WebHook同步设置**](https://greasyfork.org/scripts/506717): GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏
 > -   [**Greasyfork 脚本显示评分**](https://greasyfork.org/scripts/501119): 在浏览脚本列表时在脚本名称后面添加脚本评分
@@ -135,6 +135,7 @@
 > ### 🔍你可能在找ChatGPT相关脚本
 >
 > -   [**ChatGPT代码字体缩小.**](https://greasyfork.org/scripts/505209): ChatGPT 让代码字体变小 并且自动折行
+> -   [**ChatGPT 代码高亮**](https://greasyfork.org/scripts/527255): 为 ChatGPT 添加所有语言代码高亮（使用 highlight.js）
 > -   [**ChatGPT 聊天复制代码和导出代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮和一个为 ChatGPT 响应中的代码块添加导出按钮，提示用户根据代码块的类名检测到的编程语言将代码保存为文件。
 > -   [**ChatGPT 字符计数器限制**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。.）
 > -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPT中较长的“你”消息，并设置最大宽度
@@ -191,7 +192,7 @@
 > ### 🔍你可能在找GreasyFork相关脚本
 >
 > -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-> -   [**GrreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+> -   [**GreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
 > -   [**GreaysFork 增强WebHook同步设置**](https://greasyfork.org/scripts/506717): GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏
 > -   [**Greasyfork 脚本显示评分**](https://greasyfork.org/scripts/501119): 在浏览脚本列表时在脚本名称后面添加脚本评分
