@@ -11,7 +11,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -49,14 +49,14 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GrreasyFork User script data visualization Update log</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
-<p><strong>新增</strong>: •增加自己使用的一些小功能.<code>表格显示创建与更新日期</code> <code>Y轴数值高亮</code> <code>点击柱状图跳转对应脚本</code> 脚本中的<code>OPENLINK</code> 为<code>0</code>不跳转,<code>1</code>跳转前有提示,<code>2</code>直接跳转</p>
+<p><strong>New</strong>: •Add some small functions to use.<code>Table displays creation and update dates</code> <code>YThe axis value is highlighted</code> <code>Click the bar chart to jump to the corresponding script</code> In the script<code>OPENLINK</code> for<code>0</code>Don’t jump,<code>1</code>There are tips before jumping,<code>2</code>Jump directly</p>
 <table>
 <thead>
 <tr>
-<th>新增</th>
-<th>新增演示</th>
+<th>New</th>
+<th>Added a demo</th>
 </tr>
 </thead>
 <tbody>
@@ -66,21 +66,21 @@
 </tr>
 <tr>
 <td><img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /></td>
-<td><img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
+<td><img alt="Jump.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
-<p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
+<p><strong>Revise</strong>: •Revise<code>chart.js</code>For the first load,Save it after loading<code>localStorage</code>No need for repeated loading</p>
 <hr />
 <h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
-<p><strong>修复</strong>: • 修复图表一些问题.<br></p>
+<p><strong>repair</strong>: • Fix some problems with the chart.<br></p>
 <table>
 <thead>
 <tr>
-<th>修改前</th>
-<th>修改后</th>
+<th>Before modification</th>
+<th>After modification</th>
 </tr>
 </thead>
 <tbody>
@@ -89,21 +89,21 @@
 <td></td>
 </tr>
 <tr>
-<td><img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
-<td><img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
+<td><img alt="Before modification.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
+<td><img alt="After modification.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
 </tr>
 <tr>
-<td><img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
-<td><img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
+<td><img alt="Before modification.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
+<td><img alt="After modification.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h3><strong>📅 2024-09-18 11:01:32- Ver 1.0.0.0</strong></h3>
-<p><strong>增加</strong>: •增加了原作者<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>另外脚本<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>里面的从当前网页获取用户数据,可以在脚本内或者脚本菜单中设置从JSON数据获取还是从当前页面获取脚本数据默认向GreasyFrok下载用户数据<br>
-<strong>修改</strong>: •~~修改<code>chart.js</code>为@require 加载,无需每次重复加载~~Greasyfork不允许使用未经批准的外部脚本<br>
-<strong>修改</strong>: •修改从网络获取用户数据时,按照总安装量由高到低排序<br>
-<strong>修改</strong>: •修改寻找用户ID的表达式为<code>/(\d+)/</code>,兼容<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork 糊裱匠</a><code>清除链接无用字符功能</code><br></p>
+<p><strong>Increase</strong>: •Added original author<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>Additional script<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>Get user data from the current web page,You can set it in the script or in the script menuJSONData acquisition or script data from the current page default toGreasyFrokDownload user data<br>
+<strong>Revise</strong>: •~~Revise<code>chart.js</code>for@require load,No need for repeated loading~~GreasyforkUnauthorized external scripts are not allowed<br>
+<strong>Revise</strong>: •Modify when obtaining user data from the network,Sort from high to low according to total installation volume<br>
+<strong>Revise</strong>: •Modify to find usersIDThe expression is<code>/(\d+)/</code>,compatible<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork Paste the rigging maker</a><code>Clear link useless character function</code><br></p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508968.png">
 </div></center>
@@ -180,9 +180,9 @@ The script follows MIT license。For more information，Please check [LICENSE](h
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍You may be looking forGreasyForkRelated scripts
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt
 > -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
@@ -219,7 +219,7 @@ Recommended browsers and script managers：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍You may be looking forChatGPTRelated scripts
 >
 > -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
 > -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
@@ -249,7 +249,7 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
@@ -276,9 +276,9 @@ Recommended browsers and script managers：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍You may be looking forGreasyForkRelated scripts
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt
 > -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
