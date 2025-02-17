@@ -13,7 +13,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-sort-by-date/README_vi.md">Tiếng Việt</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️truy cậpGitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
     </h6>
 </div>
 
@@ -93,7 +93,7 @@ tác giả[androidcn](https://greasyfork.org/zh-CN/users/18158)kịch bản[Gith
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Trợ lý nhảy nhanh kho GitHub**](https://greasyfork.org/scripts/515205): 🤠 Trợ lý nhảy nhanh kho GitHub, được thiết kế đặc biệt để giúp người dùng truy cập nhanh vào kho của họ trên GitHub. Nó tạo ra một nút ở đầu thanh điều hướng. Nhấp để mở rộng tất cả các kho lưu trữ của bạn và dễ dàng chuyển đến trang kho lưu trữ GitHub của riêng bạn mà không cần sử dụng menu phụ của GitHub.
@@ -130,7 +130,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmChatGPTTập lệnh liên quan
 >
 > -   [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
 > -   [**Mã chatgpt được tô sáng**](https://greasyfork.org/scripts/527255): Thêm tất cả các mã làm nổi bật mã ngôn ngữ cho Chatgpt (sử dụng điểm nổi bật)
@@ -160,7 +160,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Trợ lý nhảy nhanh kho GitHub**](https://greasyfork.org/scripts/515205): 🤠 Trợ lý nhảy nhanh kho GitHub, được thiết kế đặc biệt để giúp người dùng truy cập nhanh vào kho của họ trên GitHub. Nó tạo ra một nút ở đầu thanh điều hướng. Nhấp để mở rộng tất cả các kho lưu trữ của bạn và dễ dàng chuyển đến trang kho lưu trữ GitHub của riêng bạn mà không cần sử dụng menu phụ của GitHub.
@@ -187,9 +187,9 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy forkTrang kịch bản phù hợp để tăng cường URL**](https://greasyfork.org/scripts/497317): Trang chi tiết tập lệnh phù hợp cho các tìm kiếm mà không cần chuyển hướng mặc định Chuyển sang liên kết văn bản có thể nhấp và bật lên lời nhắc
 > -   [**GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
 > -   [**GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh

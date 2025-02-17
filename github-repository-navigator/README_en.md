@@ -11,7 +11,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_en.md">English</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -49,7 +49,7 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repository-navigator/github-repository-navigator.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/515205">Greasy
-            Fork</a></p><details><summary>更新记录</summary><p>初始版本,欢迎使用</p></details>
+            Fork</a></p><details><summary>Update records</summary><p>Initial version,Welcome</p></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/515205.png">
 </div></center>
 
@@ -85,7 +85,7 @@ GitHub Quick Jump Assistant is a tool designed to help users quickly access thei
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
@@ -121,7 +121,7 @@ Recommended browsers and script managers：
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍You may be looking forChatGPTRelated scripts
 >
 > -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
 > -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
@@ -149,7 +149,7 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
@@ -174,9 +174,9 @@ Recommended browsers and script managers：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍You may be looking forGreasyForkRelated scripts
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt
 > -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
