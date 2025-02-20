@@ -62,7 +62,7 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
           git add .
-          git commit -n -S -m "docs: 更新[\`脚本自述\`]" \
+          git commit -n -S -m "docs(ci): 📝 更新[\`脚本自述\`]" \
                       -m "合并日志:Change history/README.md → **/*.md" \
                       -m "刷新徽章:SHIELDS.md → **/*.md" \
                       -m "刷新帮助:HELP.md → **/*.md" \
