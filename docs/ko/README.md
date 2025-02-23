@@ -480,6 +480,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
 </blockquote>
         <h3>
+    <a href="../github-jsdelivr-link">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
+    <a href="../github-jsdelivr-link">존재하다Github열기jsDelivr링크</a>&nbsp;
+    <a href="../github-jsdelivr-link">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+</h3>
+
+<details>
+    <summary>열려 있는jsDelivr~에GitHub링크,파일을 신속하게 다운로드하는 데 사용됩니다</summary>
+    <br><blockquote>
+        <a href="../github-jsdelivr-link">
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/None">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/None">
+        Greasemonkey</a> /
+    <a href="../github-jsdelivr-link/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-jsdelivr-link/#readme">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
+</blockquote>
+        <h3>
     <a href="../github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-repository-navigator">GitHub 빠른 점프 어시스턴트</a>&nbsp;
@@ -1184,7 +1213,7 @@
 </h3>
 
 <details>
-    <summary>비 중국어 캐릭터를 인식하십시오，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
+    <summary>비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
     <br><blockquote>
         <a href="../no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1318,7 +1347,7 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 취약성을 찾으면，a[초안 안전 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-풀 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
+플러그 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
 자세한 내용은 참조하십시오 <a href="./SECURITY.md"><strong>보안 정책</strong></a>
 
 ## 💖 기여 가이드
