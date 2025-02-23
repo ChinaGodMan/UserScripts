@@ -169,6 +169,7 @@
 > ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交信息显示网页视图**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
+> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/None): 打开jsDelivr上的GitHub链接,用于快速下载文件
 > -   [**GitHub 仓库快速跳转助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 仓库快速跳转助手，专为帮助用户快速访问自己在 GitHub 上的仓库而设计 。它在导航栏顶部生成一个按钮,点击展开自己的所有仓库，轻松跳转到自己的 GitHub 仓库页面，而无需使用 GitHub 的二级菜单
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。按类型为文件添加颜色和图标，在存储库源树中显示小图像以代替文件类型图标
 > -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在“其他”下

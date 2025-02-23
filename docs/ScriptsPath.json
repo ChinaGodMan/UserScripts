@@ -143,7 +143,8 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
-        },{
+        },
+        {
             "isUpdated": true,
             "name": "在Github上打开jsDelivr链接",
             "description": "打开jsDelivr上的GitHub链接,用于快速下载文件",
@@ -151,7 +152,7 @@
             "path": "github-jsdelivr-link.user.js",
             "backuppath": "github-jsdelivr-link",
             "version": null,
-            "GreasyFork": "",
+            "GreasyFork": null,
             "created_at": null,
             "code_updated_at": null,
             "local_created_at": null,
