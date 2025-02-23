@@ -168,9 +168,10 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相關腳本
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
+> -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/None): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標
 > -   [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在“其他”下
