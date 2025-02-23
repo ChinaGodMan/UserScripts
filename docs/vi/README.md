@@ -480,6 +480,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
 </blockquote>
         <h3>
+    <a href="../github-jsdelivr-link">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
+    <a href="../github-jsdelivr-link">hiện hữuGithubMở trênjsDelivrLiên kết</a>&nbsp;
+    <a href="../github-jsdelivr-link">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+</h3>
+
+<details>
+    <summary>MởjsDelivrTRÊNGitHubLiên kết,Được sử dụng để nhanh chóng tải xuống các tệp</summary>
+    <br><blockquote>
+        <a href="../github-jsdelivr-link">
+           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/None">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/None">
+        Greasemonkey</a> /
+    <a href="../github-jsdelivr-link/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-jsdelivr-link/#readme">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
+</blockquote>
+        <h3>
     <a href="../github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-repository-navigator">GitHub Trợ lý nhảy nhanh</a>&nbsp;
@@ -1318,7 +1347,7 @@ MIT Giấy phép là một thỏa thuận cấp phép nguồn mở lỏng lẻo�
 
 Nếu bạn tìm thấy một lỗ hổng，Vui lòng mở a[Dự thảo khuyến nghị an toàn](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Yêu cầu kéo cũng được hoan nghênh，Nhưng vì lý do an toàn，Vui lòng gửi email đến <china.qinwuyuan@gmail.com> Và chờ trả lời trước khi nó được công khai。
+Yêu cầu cắm cũng được chào đón，Nhưng vì lý do an toàn，Vui lòng gửi email đến <china.qinwuyuan@gmail.com> và chờ trả lời trước khi nó được công khai。
 Để biết chi tiết, vui lòng tham khảo <a href="./SECURITY.md"><strong>Chính sách bảo mật</strong></a>
 
 ## 💖 Hướng dẫn đóng góp
