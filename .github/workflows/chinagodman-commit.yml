@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   update-chinagodman-commit:
-    if: ${{ github.event.commits[0].committer.username != 'qinwuyuan-sync-bot' }}
+    if: ${{ github.event.commits[0].committer.username != 'ChinaGodBot' }}
     runs-on: ubuntu-latest
     env:
       GIT_AUTHOR_NAME: ${{ github.event.commits[0].author.name }}
