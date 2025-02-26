@@ -163,7 +163,7 @@
         <h3>
     <a href="../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-plus">ChatGPT Sụp đổ thông điệp của riêng bạn và chiều rộng tối đa</a>&nbsp;
+    <a href="../chatgpt-plus">ChatGPT Thu gọn thông điệp của riêng bạn và chiều rộng tối đa</a>&nbsp;
     <a href="../chatgpt-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
@@ -198,7 +198,7 @@
 </h3>
 
 <details>
-    <summary>Cấm bị ị trên phiên bản đã chỉnh sửa，Màu xanh lá cây được phát hành，Đỏ bị cấm，Hướng dẫn tạm thời màu cam</summary>
+    <summary>Cấm bỏ qua phiên bản chỉnh sửa，Màu xanh lá cây được phát hành，Đỏ bị cấm，Hướng dẫn tạm thời màu cam</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -221,7 +221,7 @@
         <h3>
     <a href="../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="../csdn-blocker">Giải phóngCSDNHạn chế sao chép đăng nhập</a>&nbsp;
+    <a href="../csdn-blocker">Loại bỏCSDNHạn chế sao chép đăng nhập</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
@@ -250,7 +250,7 @@
         <h3>
     <a href="../colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
-    <a href="../colorful-table">Bàn trang web đẹp gradient tuyệt đẹp</a>&nbsp;
+    <a href="../colorful-table">Gradient tuyệt đẹp làm đẹp bảng trang web</a>&nbsp;
     <a href="../colorful-table">
         <img height=24 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
@@ -459,7 +459,7 @@
 </h3>
 
 <details>
-    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Gửi tiêu đề và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
+    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Tiêu đề gửi và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -484,7 +484,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
     <a href="../github-jsdelivr-link">hiện hữuGithubMở trênjsDelivrLiên kết</a>&nbsp;
     <a href="../github-jsdelivr-link">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+        <img height=24 src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
 <details>
@@ -496,9 +496,9 @@
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/527870">
         <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/527870">
         Greasemonkey</a> /
     <a href="../github-jsdelivr-link/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1118,6 +1118,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
 </blockquote>
         <h3>
+    <a href="../missav-m3u8-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
+    <a href="../missav-m3u8-finder">MissAVCông cụ tải xuống video</a>&nbsp;
+    <a href="../missav-m3u8-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+</h3>
+
+<details>
+    <summary>Từ hiện tạimissavPhát trang để đánh hơi địa chỉ tải xuống thực của video và tải xuống</summary>
+    <br><blockquote>
+        <a href="../missav-m3u8-finder">
+           <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/None">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/None">
+        Greasemonkey</a> /
+    <a href="../missav-m3u8-finder/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../missav-m3u8-finder/#readme">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
+</blockquote>
+        <h3>
     <a href="../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAVQuản lý bộ sưu tập</a>&nbsp;
@@ -1279,7 +1308,7 @@
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt kernel（Chẳng hạn như trình duyệt trong nước）Nói chung có sẵn Chrome Mở rộng。_
 > -   _Vui lòng đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không thể sử dụng bình thường**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh được cài đặt lại。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh kết thúc, hãy cài đặt lại tập lệnh。_
 
 > _**Sẽ không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge RE-re-beable ẩn [Kéo vào cài đặt .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
 
