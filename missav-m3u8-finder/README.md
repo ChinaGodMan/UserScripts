@@ -48,15 +48,15 @@
 <center><div align="center">
     <h1>MissAV视频下载工具</h1>
     <p>「 从当前missav播放页面嗅探视频的真实下载地址并下载 」</p>
-    <img src="https://views.whatilearened.today/views/github/None/hmjz100.svg" alt="Views">
+    <img src="https://views.whatilearened.today/views/github/528160/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-m3u8-finder/missav-m3u8-finder.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/None">Greasy
+            href="https://greasyfork.org/zh-CN/scripts/528160">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
 <h3><strong>📅 2025-02-26 23:55:34- Ver 2025.02.26.2355</strong></h3>
-<p><strong>新增</strong>: •修改了部分代码，优化了程序性能</p>
+<p><strong>新增</strong>: •修改了部分代码，优化了程序性能.</p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/None.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/528160.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -76,7 +76,7 @@
 > ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
-> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/None): 从当前missav播放页面嗅探视频的真实下载地址并下载
+> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/528160): 从当前missav播放页面嗅探视频的真实下载地址并下载
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
 > -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
@@ -179,7 +179,7 @@
 > ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
-> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/None): 从当前missav播放页面嗅探视频的真实下载地址并下载
+> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/528160): 从当前missav播放页面嗅探视频的真实下载地址并下载
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
 > -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
