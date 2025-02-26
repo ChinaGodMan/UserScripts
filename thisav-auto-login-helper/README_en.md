@@ -89,10 +89,11 @@ This script is used for managing user accounts on ThisAV. It provides functional
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking for adult scripts
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
-> -   [**MissAvBatch backup of favorite videos**](https://greasyfork.org/scripts/497682): from currentmissavPage to obtain image files and video information，And after merging the results, the generated web page file is provided for download.
+> -   [**MissAV video download tool**](https://greasyfork.org/scripts/None): Sniff the real download address of the video from the current missav playback page and download it
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
@@ -151,10 +152,10 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking forGitHubRelated scripts
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
-> -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/None): Open the GitHub link on jsDelivr to quickly download files
+> -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
 > -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
 > -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
 > -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
@@ -197,10 +198,11 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking for adult scripts
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
-> -   [**MissAvBatch backup of favorite videos**](https://greasyfork.org/scripts/497682): from currentmissavPage to obtain image files and video information，And after merging the results, the generated web page file is provided for download.
+> -   [**MissAV video download tool**](https://greasyfork.org/scripts/None): Sniff the real download address of the video from the current missav playback page and download it
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 

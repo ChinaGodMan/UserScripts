@@ -348,10 +348,10 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
-> -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/None): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
+> -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
 > -   [**GitHub 창고 빠른 점프 도우미**](https://greasyfork.org/scripts/515205): 🤠 GitHub 창고 빠른 점프 도우미는 사용자가 GitHub에서 자신의 창고에 빠르게 액세스할 수 있도록 특별히 설계되었습니다. 탐색 모음 상단에 버튼이 생성됩니다. 클릭하면 모든 저장소가 확장되고 GitHub의 보조 메뉴를 사용하지 않고도 자신의 GitHub 저장소 페이지로 쉽게 이동할 수 있습니다.
 > -   [**GitHub 파일 목록 미화자**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier는 사용자 스크립트입니다.，향상시키는 데 사용됨 GitHub 창고 내 파일 표시 효과。파일과 폴더에 색상을 추가할 수 있습니다.，파일 형식 아이콘을 작은 이미지로 바꿉니다.，코드 베이스를 더 쉽게 찾아보고 관리할 수 있습니다.。유형별로 파일에 색상 및 아이콘 추가，저장소 소스 트리의 파일 유형 아이콘 대신 작은 이미지 표시
 > -   [**Github 코드 언어 목록 모두 표시**](https://greasyfork.org/scripts/509889): 확장하다 Github 저장소의 언어 목록，각 언어 표시，작은 부품을 숨기는 것보다“다른”아래에
@@ -394,10 +394,11 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍성인용 스크립트를 찾고 있을 수도 있습니다.
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
-> -   [**MissAv즐겨찾는 동영상 일괄 백업**](https://greasyfork.org/scripts/497682): 현재부터missav이미지 파일 및 비디오 정보를 얻는 페이지，그리고 그 결과를 병합한 후 생성된 웹페이지 파일을 다운로드할 수 있도록 제공합니다.
+> -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/None): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
