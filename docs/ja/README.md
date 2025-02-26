@@ -198,7 +198,7 @@
 </h3>
 
 <details>
-    <summary>編集されたバージョンでうんちを禁じられています，グリーンはリリース用です，赤は禁止されています，オレンジ色の一時的な方向</summary>
+    <summary>編集されたバージョンでたわごとを禁じられています，グリーンはリリース用です，赤は禁止されています，オレンジ色の一時的な方向</summary>
     <br><blockquote>
         <a href="../clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -221,7 +221,7 @@
         <h3>
     <a href="../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="../csdn-blocker">リリースCSDNログインレプリケーション制限</a>&nbsp;
+    <a href="../csdn-blocker">除去CSDNログインレプリケーション制限</a>&nbsp;
     <a href="../csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
@@ -459,7 +459,7 @@
 </h3>
 
 <details>
-    <summary>スクリプトはそうします GitHub それに関する提出情報はに変換されます HTML ビュー，提出の詳細をより明確に表示します。送信情報が自動的にリストされます、ヘッダーを送信し、最新の提出情報が変換されます HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供します。</summary>
+    <summary>スクリプトはそうします GitHub それに関する提出情報はに変換されます HTML ビュー，提出の詳細をより明確に表示します。送信情報が自動的にリストされます、提出ヘッダーと最新の提出情報は HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供します。</summary>
     <br><blockquote>
         <a href="../github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -484,7 +484,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
     <a href="../github-jsdelivr-link">存在するGithubオンになりますjsDelivrリンク</a>&nbsp;
     <a href="../github-jsdelivr-link">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+        <img height=24 src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
@@ -496,9 +496,9 @@
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/527870">
         <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/527870">
         Greasemonkey</a> /
     <a href="../github-jsdelivr-link/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1118,6 +1118,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
 </blockquote>
         <h3>
+    <a href="../missav-m3u8-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
+    <a href="../missav-m3u8-finder">MissAVビデオダウンロードツール</a>&nbsp;
+    <a href="../missav-m3u8-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+</h3>
+
+<details>
+    <summary>電流からmissavページを再生して、ビデオの実際のダウンロードアドレスを嗅ぎ、ダウンロードしてください</summary>
+    <br><blockquote>
+        <a href="../missav-m3u8-finder">
+           <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/None">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/None">
+        Greasemonkey</a> /
+    <a href="../missav-m3u8-finder/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../missav-m3u8-finder/#readme">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a>
+</blockquote>
+        <h3>
     <a href="../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../missav-explorer">MissAVコレクションマネージャー</a>&nbsp;
@@ -1279,7 +1308,7 @@
 >
 > -   _その他に基づいています **Chromium** カーネルブラウザ（国内ブラウザなど）一般的に利用可能です Chrome 拡張。_
 > -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
-> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
+> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが終了したら、スクリプトを再インストールします。_
 
 > _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
