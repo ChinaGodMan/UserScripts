@@ -32,7 +32,7 @@ jobs:
       - name: 提交和推送更改
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
-          git config --global user.name 'qinwuyuan-sync-bot'
+          git config --global user.name 'ChinaGodBot'
           git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
