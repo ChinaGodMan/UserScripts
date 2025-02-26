@@ -42,17 +42,17 @@ def generate_html_table(scripts):
         placeholder_image = "https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"
         img_tag = f'<img width=511 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
         html_table += f'''<h3>
-    <a href="../{script.get("backuppath")}">
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
-    <a href="../{script.get("backuppath")}">{script.get("name")}</a>&nbsp;
-    <a href="../{script.get("backuppath")}">
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}">{script.get("name")}</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}">
         <img height=24 src="https://img.shields.io/greasyfork/dt/{script.get("GreasyFork")}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
     <summary>{script.get("description")}</summary>
     <br><blockquote>
-        <a href="../{script.get("backuppath")}">
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}">
            {img_tag}</a>
     </blockquote>
 </details>
@@ -62,9 +62,9 @@ def generate_html_table(scripts):
         <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
     <a href="https://greasyfork.org/scripts/{script.get("GreasyFork")}">
         Greasemonkey</a> /
-    <a href="../{script.get("backuppath")}/#readme">
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../{script.get("backuppath")}/#readme">
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get("backuppath")}/#readme">
         自述文件</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
