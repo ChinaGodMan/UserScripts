@@ -512,7 +512,8 @@
             "top_tip": "",
             "img": "",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"
-        },{
+        },
+        {
             "isUpdated": true,
             "isSleazy": true,
             "name": "MissAV视频下载工具",
@@ -521,7 +522,7 @@
             "path": "missav-m3u8-finder.user.js",
             "backuppath": "missav-m3u8-finder",
             "version": "2025.02.26.2355",
-            "GreasyFork": "",
+            "GreasyFork": null,
             "created_at": null,
             "code_updated_at": null,
             "local_created_at": null,

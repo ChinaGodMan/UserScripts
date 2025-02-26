@@ -1,6 +1,84 @@
 // ==UserScript==
+// @name              MissAV video download tool
+// @name:ar           أداة تنزيل الفيديو Missav
+// @name:bg           Инструмент за изтегляне на видео Missav
+// @name:cs           Nástroj ke stažení videa Missav
+// @name:da           Missav Video Download Tool
+// @name:de           Missav Video Download Tool
+// @name:el           Εργαλείο λήψης βίντεο Missav Video
+// @name:en           MissAV video download tool
+// @name:eo           Missav Video Elŝuti ilon
+// @name:es           Herramienta de descarga de video de Missav
+// @name:fi           Missav Video Lataa työkalu
+// @name:fr           Outil de téléchargement vidéo Missav
+// @name:fr-CA        Outil de téléchargement vidéo Missav
+// @name:he           כלי הורדת וידאו של Missav
+// @name:hr           Alat za preuzimanje videozapisa Missav
+// @name:hu           Missav videó letöltési eszköz
+// @name:id           Alat Unduh Video Missav
+// @name:it           Strumento di download video MISSAV
+// @name:ja           Missavビデオダウンロードツール
+// @name:ka           Missav Video ჩამოტვირთვის ინსტრუმენტი
+// @name:ko           Missav 비디오 다운로드 도구
+// @name:nb           Missav Video Download Tool
+// @name:nl           Missav Video Download Tool
+// @name:pl           Narzędzie do pobierania wideo MissAV
+// @name:pt-BR        Ferramenta de download de vídeo missav
+// @name:ro           Instrument de descărcare video MissAv
+// @name:ru           Инструмент загрузки видео Missav
+// @name:sk           Nástroj na stiahnutie videa Missav
+// @name:sr           Алат за преузимање видео записа Мисав
+// @name:sv           Missav video nedladdningsverktyg
+// @name:th           เครื่องมือดาวน์โหลดวิดีโอ Missav
+// @name:tr           Missav Video İndir Aracı
+// @name:ug           Missava video download
+// @name:uk           Інструмент завантаження відео Missav
+// @name:vi           Công cụ tải xuống video missav
+// @name:zh           MissAV视频下载工具
 // @name:zh-CN        MissAV视频下载工具
+// @name:zh-HK        MissAV視頻下載工具
+// @name:zh-SG        MissAV视频下载工具
+// @name:zh-TW        MissAV視頻下載工具
+// @description       Sniff the real download address of the video from the current missav playback page and download it
+// @description:ar    استنشق عنوان التنزيل الحقيقي للفيديو من صفحة تشغيل Missav الحالية وقم بتنزيله
+// @description:bg    Поздравете истинския адрес за изтегляне на видеото от текущата страница за възпроизвеждане на Missav и го изтеглете
+// @description:cs    Sniff Skutečná adresa stahování videa z aktuální stránky přehrávání slečna a stáhněte si ji
+// @description:da    Sniff den rigtige download -adresse på videoen fra den aktuelle Missav -afspilningsside og download den
+// @description:de    Schnuppern Sie die echte Download -Adresse des Videos von der aktuellen MISSAV -Wiedergabeseite und laden Sie es herunter
+// @description:el    Σπρώξτε την πραγματική διεύθυνση λήψης του βίντεο από την τρέχουσα σελίδα αναπαραγωγής missav και κατεβάστε το
+// @description:en    Sniff the real download address of the video from the current missav playback page and download it
+// @description:eo    Snufu la veran elŝutan adreson de la video de la aktuala Missav -reprodukta paĝo kaj elŝutu ĝin
+// @description:es    Oflifique la dirección de descarga real del video de la página actual de reproducción de Missav y descargándolo
+// @description:fi    Nuuskaa videon todellinen latausosoite nykyiseltä Missav -toistosivulta ja lataa se
+// @description:fr    Sniffez l’adresse de téléchargement réelle de la vidéo de la page de lecture Missav actuelle et téléchargez-la
+// @description:fr-CA Sniffez l’adresse de téléchargement réelle de la vidéo de la page de lecture Missav actuelle et téléchargez-la
+// @description:he    לרחרח את כתובת ההורדה האמיתית של הסרטון מדף ההשמעה הנוכחי של מיסב והורד אותו
+// @description:hr    Njuškajte stvarnu adresu za preuzimanje videozapisa s trenutne stranice za reprodukciju Missava i preuzmite je
+// @description:hu    Szippantja a videó valódi letöltési címét az aktuális Missav lejátszási oldalról, és töltse le
+// @description:id    Mengendus alamat unduhan nyata dari video dari halaman pemutaran misiv saat ini dan mengunduhnya
+// @description:it    Annusare l’indirizzo di download reale del video dalla pagina di riproduzione di MISSAV corrente e scaricarlo
+// @description:ja    現在のMissav再生ページからビデオの実際のダウンロードアドレスを嗅ぎ、ダウンロードしてください
+// @description:ka    Sniff ვიდეოს ნამდვილი ჩამოტვირთვა მისამართი Missav– ის მიმდინარე გვერდიდან და გადმოწერეთ
+// @description:ko    현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
+// @description:nb    Sniff den virkelige nedlastingsadressen til videoen fra den nåværende Missav -avspillingssiden og last ned den
+// @description:nl    Snuif het echte downloadadres van de video van de huidige Missav -afspeelpagina en download deze
+// @description:pl    Wąchaj prawdziwy adres pobierania wideo z bieżącej strony odtwarzania Missav i pobierz go
+// @description:pt-BR Sniff o endereço de download real do vídeo da página atual de reprodução do Missav e faça o download
+// @description:ro    Sniff the Real Descărcare Adresa videoclipului din pagina de redare MissAv actuală și descărcați -o
+// @description:ru    Обнюхивать настоящий адрес загрузки видео со текущей страницы воспроизведения Missav и загрузите его
+// @description:sk    Sniff the Skutočná adresa na stiahnutie videa z aktuálnej stránky prehrávania Missav a stiahnuť ju
+// @description:sr    Њушкајте реалну адресу за преузимање видеа са тренутне странице репродукције Мисав и преузмите га
+// @description:sv    Sniff den riktiga nedladdningsadressen för videon från den aktuella Missav -uppspelningssidan och ladda ner den
+// @description:th    สูดดมที่อยู่ดาวน์โหลดจริงของวิดีโอจากหน้าการเล่น Missav ปัจจุบันและดาวน์โหลด
+// @description:tr    Mevcut Missav oynatma sayfasından videonun gerçek indir adresini koklayın ve indirin
+// @description:ug    نۆۋەتتىكى Missavack Playback Play بېتىنىڭ ھەقىقىي چۈشۈرۈش ئادرېسىنى پۇرايدۇ ۋە چۈشۈرۈڭ
+// @description:uk    Нюмуйте справжню адресу завантаження відео на поточній сторінці відтворення Місва та завантажте його
+// @description:vi    Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
+// @description:zh    从当前missav播放页面嗅探视频的真实下载地址并下载
 // @description:zh-CN 从当前missav播放页面嗅探视频的真实下载地址并下载
+// @description:zh-HK 從當前missav播放頁面嗅探視頻的真實下載地址並下載
+// @description:zh-SG 从当前missav播放页面嗅探视频的真实下载地址并下载
+// @description:zh-TW 從當前missav播放頁面嗅探視頻的真實下載地址並下載
 // @author            Luuuucus,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues

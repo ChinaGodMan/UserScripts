@@ -48,15 +48,15 @@
 <center><div align="center">
     <h1>在Github上打开jsDelivr链接</h1>
     <p>「 打开jsDelivr上的GitHub链接,用于快速下载文件 」</p>
-    <img src="https://views.whatilearened.today/views/github/None/hmjz100.svg" alt="Views">
+    <img src="https://views.whatilearened.today/views/github/527870/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-jsdelivr-link/github-jsdelivr-link.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/None">Greasy
+            href="https://greasyfork.org/zh-CN/scripts/527870">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
 <h3><strong>📅 2025-02-24 06:00:00- Ver 2025.02.24.06.00</strong></h3>
 <p><strong>修复</strong>: •<em>人民的勤务员修复失效代码</em></p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/None.png">
+    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/527870.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -73,7 +73,7 @@ _人民的勤务员修复失效代码_
 > ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交信息显示网页视图**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/None): 打开jsDelivr上的GitHub链接,用于快速下载文件
+> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/527870): 打开jsDelivr上的GitHub链接,用于快速下载文件
 > -   [**GitHub 仓库快速跳转助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 仓库快速跳转助手，专为帮助用户快速访问自己在 GitHub 上的仓库而设计 。它在导航栏顶部生成一个按钮,点击展开自己的所有仓库，轻松跳转到自己的 GitHub 仓库页面，而无需使用 GitHub 的二级菜单
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。按类型为文件添加颜色和图标，在存储库源树中显示小图像以代替文件类型图标
 > -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在“其他”下
@@ -138,7 +138,7 @@ _人民的勤务员修复失效代码_
 > ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交信息显示网页视图**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/None): 打开jsDelivr上的GitHub链接,用于快速下载文件
+> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/527870): 打开jsDelivr上的GitHub链接,用于快速下载文件
 > -   [**GitHub 仓库快速跳转助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 仓库快速跳转助手，专为帮助用户快速访问自己在 GitHub 上的仓库而设计 。它在导航栏顶部生成一个按钮,点击展开自己的所有仓库，轻松跳转到自己的 GitHub 仓库页面，而无需使用 GitHub 的二级菜单
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。按类型为文件添加颜色和图标，在存储库源树中显示小图像以代替文件类型图标
 > -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在“其他”下
@@ -181,6 +181,7 @@ _人民的勤务员修复失效代码_
 > ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
+> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/None): 从当前missav播放页面嗅探视频的真实下载地址并下载
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
 > -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
