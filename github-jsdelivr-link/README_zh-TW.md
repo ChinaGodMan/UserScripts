@@ -52,9 +52,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-jsdelivr-link/github-jsdelivr-link.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/527870">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ XXXXX 更新日誌</strong></h1>
 <h3><strong>📅 2025-02-24 06:00:00- Ver 2025.02.24.06.00</strong></h3>
-<p><strong>修复</strong>: •<em>人民的勤务员修复失效代码</em></p>
+<p><strong>修復</strong>: •<em>人民的勤務員修復失效代碼</em></p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/527870.png">
 </div></center>
@@ -70,7 +70,7 @@ _人民的勤務員修復失效代碼_
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -135,7 +135,7 @@ _人民的勤務員修復失效代碼_
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -178,11 +178,11 @@ _人民的勤務員修復失效代碼_
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍你可能在找成人腳本
 >
 > -   [**MissAV 自動登入**](https://greasyfork.org/scripts/505325): 偵測 MissAV 狀態,並且在未登入時自動登入
 > -   [**MissAV視頻下載工具**](https://greasyfork.org/scripts/None): 從當前missav播放頁面嗅探視頻的真實下載地址並下載
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAv批量備份收藏視頻**](https://greasyfork.org/scripts/497682): 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
 > -   [**ThisAV 自動登入**](https://greasyfork.org/scripts/506528): 偵測 ThisAV 狀態,並且在未登入時自動登入
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 

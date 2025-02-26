@@ -170,7 +170,7 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
@@ -216,11 +216,11 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/None): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 

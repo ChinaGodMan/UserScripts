@@ -52,9 +52,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-jsdelivr-link/github-jsdelivr-link.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/527870">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
+            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ XXXXX 로그 업데이트</strong></h1>
 <h3><strong>📅 2025-02-24 06:00:00- Ver 2025.02.24.06.00</strong></h3>
-<p><strong>修复</strong>: •<em>人民的勤务员修复失效代码</em></p>
+<p><strong>수리하다</strong>: •<em>사람들의 군인은 잘못된 코드를 수정합니다</em></p>
 <hr /></details>
     <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/527870.png">
 </div></center>
@@ -70,7 +70,7 @@ _사람들의 군인은 잘못된 코드를 수정합니다_
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
@@ -135,7 +135,7 @@ _사람들의 군인은 잘못된 코드를 수정합니다_
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
@@ -178,11 +178,11 @@ _사람들의 군인은 잘못된 코드를 수정합니다_
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/None): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
