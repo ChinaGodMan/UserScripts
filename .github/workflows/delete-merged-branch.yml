@@ -7,16 +7,23 @@ jobs:
   delete-branch:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出代码
+      - name: checkout
         uses: actions/checkout@v4
 
-      - name: 删除分之
+      - name: set_env
         run: |
-          echo "PR事件分支：${{ github.event.pull_request.head.ref }}"
-          echo "PR是否已合并：${{ github.event.pull_request.merged }}"
+          echo "BRANCH_NAME=${{ github.event.pull_request.head.ref }}" >> $GITHUB_ENV
+          echo "PR_MERGED=${{ github.event.pull_request.merged }}" >> $GITHUB_ENV
+
+      - name: delete_branch
+        run: |
+          echo "PR事件分支：$BRANCH_NAME"
+          echo "PR是否已合并：$PR_MERGED"
+
           # 如果PR已合并，则删除分支
-          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
-            git push origin --delete ${{ github.event.pull_request.head.ref }} || true
+          if [ "$PR_MERGED" = "true" ]; then
+            echo "正在删除分支 $BRANCH_NAME..."
+            git push origin --delete $BRANCH_NAME || true
           else
             echo "PR未合并，跳过删除分支操作。"
           fi
