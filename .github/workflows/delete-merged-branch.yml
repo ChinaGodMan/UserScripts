@@ -1,0 +1,22 @@
+name: delete branch on close pr
+on: 
+  pull_request:
+    types: [closed]
+  
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 删除分之
+        run: |
+          echo "PR事件分支：${{ github.event.pull_request.head.ref }}"
+          echo "PR是否已合并：${{ github.event.pull_request.merged }}"
+          # 如果PR已合并，则删除分支
+          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
+            git push origin --delete ${{ github.event.pull_request.head.ref }} || true
+          else
+            echo "PR未合并，跳过删除分支操作。"
+          fi
