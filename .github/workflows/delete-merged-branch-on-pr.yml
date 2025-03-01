@@ -17,7 +17,11 @@ jobs:
           script: |
             const { repo: { owner, repo } } = context;
             const pr = context.payload.pull_request;
-
+            // 跳过 Dependabot 提交的 PR,因为这些PR会被其他流程(dependabot.yml)删除
+            if (pr.user.login === 'dependabot[bot]') {
+              console.log('是 Dependabot 提交的 PR，跳过处理');
+              return;
+            }
             if (!pr.merged) {
               console.log('PR 未合并，不删除分支');
               return;
