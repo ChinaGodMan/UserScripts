@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: ChinaGodMan/add-reviewed-by-action@main
         with:
-          github-token: ${{ secrets.BOT_TOKEN }}
+          github-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
