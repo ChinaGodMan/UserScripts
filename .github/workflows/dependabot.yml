@@ -34,3 +34,4 @@ jobs:
                 owner,
                 repo,
                 ref: `heads/${pr.head.ref}`, 
+            });
