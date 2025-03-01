@@ -1,9 +1,10 @@
 name: dependabot-auto-merge
+
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
-      - reopened
+      - synchronize
 
 jobs:
   check:
@@ -11,6 +12,7 @@ jobs:
     steps:
       - name: Checkout code 👋
         uses: actions/checkout@v4
+
       - name: Check and merge ⛙
         uses: actions/github-script@v7
         with:
@@ -19,19 +21,74 @@ jobs:
             const { repo: { owner, repo } } = context;
             const pr = context.payload.pull_request;
 
-            if (pr.user.login !== 'dependabot[bot]') {
-              console.log('Not Dependabot pull request');
+            // 1. 仅处理 Dependabot 提交的 PR
+            if (pr.user.login !== 'ChinaGodMan') {
+              console.log('不是 Dependabot 提交的 PR，跳过处理');
               return;
             }
 
-            console.log(`Merging pull request: ${pr.html_url}`);
-            await github.rest.pulls.merge({
-              owner, repo,
-              pull_number: pr.number,
-              merge_method: "squash",
-            });
-            await github.rest.git.deleteRef({
+            // 2. 尝试合并 PR
+            try {
+              console.log(`尝试合并 PR: ${pr.html_url}`);
+              const commitTitle= `${pr.title} (#${pr.number})`;
+              await github.rest.pulls.merge({
                 owner,
                 repo,
-                ref: `heads/${pr.head.ref}`, 
-            });
+                pull_number: pr.number,
+                merge_method: "squash",  // 挤压合并
+                commit_title: commitTitle,
+              });
+
+              // 合并成功后删除分支
+              console.log(`PR 合并成功，删除分支: ${pr.head.ref}`);
+              await github.rest.git.deleteRef({
+                owner,
+                repo,
+                ref: `heads/${pr.head.ref}`,
+              });
+
+            } catch (error) {
+              // 3. 合并失败时，可能存在冲突.重新关闭和打开PR,让Dependabot处理冲突.
+              console.log(`合并失败: ${error.message}`);
+
+              // 检查 PR 是否已有 "MERGE-FAILED" 标签
+              const labels = await github.rest.issues.listLabelsOnIssue({
+                owner,
+                repo,
+                issue_number: pr.number,
+              });
+
+              const hasMergeFailedLabel = labels.data.some(label => label.name === "MERGE-FAILED");
+
+              if (hasMergeFailedLabel) {
+                console.log(`PR 已经有 "MERGE-FAILED" 标签，跳过进一步操作`);
+                return;
+              }
+
+              // 如果没有标签，则添加 "MERGE-FAILED" 标签
+              console.log(`添加 "MERGE-FAILED" 标签到 PR: ${pr.html_url}`);
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: pr.number,
+                labels: ["MERGE-FAILED"],
+              });
+
+              // 关闭 PR
+              console.log(`关闭 PR: ${pr.html_url}`);
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: pr.number,
+                state: 'closed',
+              });
+
+              // 重新打开 PR
+              console.log(`重新打开 PR: ${pr.html_url}`);
+              await github.rest.pulls.update({
+                owner,
+                repo,
+                pull_number: pr.number,
+                state: 'open',
+              });
+            }
