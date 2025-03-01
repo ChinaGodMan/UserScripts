@@ -1,0 +1,32 @@
+name: delete-merged-branch
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 👋
+        uses: actions/checkout@v4
+      - name: Delete merged branch ⛙
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
+          script: |
+            const { repo: { owner, repo } } = context;
+            const pr = context.payload.pull_request;
+
+            if (!pr.merged) {
+              console.log('PR 未合并，不删除分支');
+              return;
+            }
+
+            const branch = pr.head.ref;
+            console.log(`PR 已合并，正在删除分支: ${branch}`);
+            await github.rest.git.deleteRef({
+              owner,
+              repo,
+              ref: `heads/${branch}`,
+            });
