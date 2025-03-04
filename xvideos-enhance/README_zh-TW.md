@@ -48,15 +48,15 @@
 <center><div align="center">
     <h1>xvideos推送下載</h1>
     <p>「 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖 」</p>
-    <img src="https://views.whatilearened.today/views/github/None/hmjz100.svg" alt="Views">
+    <img src="https://views.whatilearened.today/views/github/528798/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xvideos-enhance/xvideos-enhance.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/None">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ xvideos-enhance 更新日誌</strong></h1>
+            href="https://greasyfork.org/zh-CN/scripts/528798">Greasy
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ xvideos 推送下載 更新日志</strong></h1>
 <h3><strong>📅 2025.03.05.0127</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/None.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/528798.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -84,13 +84,13 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人腳本
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自動登入**](https://greasyfork.org/scripts/505325): 偵測 MissAV 狀態,並且在未登入時自動登入
-> -   [**xvideos推送下載**](https://greasyfork.org/scripts/None): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
-> -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/None): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
+> -   [**xvideos推送下載**](https://greasyfork.org/scripts/528798): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
+> -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/528800): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
 > -   [**MissAV視頻下載工具**](https://greasyfork.org/scripts/528160): 從當前missav播放頁面嗅探視頻的真實下載地址並下載
-> -   [**MissAv批量備份收藏視頻**](https://greasyfork.org/scripts/497682): 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自動登入**](https://greasyfork.org/scripts/506528): 偵測 ThisAV 狀態,並且在未登入時自動登入
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 
@@ -189,13 +189,13 @@
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人腳本
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自動登入**](https://greasyfork.org/scripts/505325): 偵測 MissAV 狀態,並且在未登入時自動登入
-> -   [**xvideos推送下載**](https://greasyfork.org/scripts/None): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
-> -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/None): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
+> -   [**xvideos推送下載**](https://greasyfork.org/scripts/528798): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
+> -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/528800): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
 > -   [**MissAV視頻下載工具**](https://greasyfork.org/scripts/528160): 從當前missav播放頁面嗅探視頻的真實下載地址並下載
-> -   [**MissAv批量備份收藏視頻**](https://greasyfork.org/scripts/497682): 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自動登入**](https://greasyfork.org/scripts/506528): 偵測 ThisAV 狀態,並且在未登入時自動登入
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 

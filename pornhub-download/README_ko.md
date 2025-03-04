@@ -48,15 +48,15 @@
 <center><div align="center">
     <h1>한 번의 클릭으로 Pornhub 비디오 다운로드</h1>
     <p>「 Pornhub는 한 번의 클릭으로 다운로드하십시오 」</p>
-    <img src="https://views.whatilearened.today/views/github/None/hmjz100.svg" alt="Views">
+    <img src="https://views.whatilearened.today/views/github/528800/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/pornhub-download/pornhub-download.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/None">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ pornhub-download 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/zh-CN/scripts/528800">Greasy
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Pornhub 视频一键下载 更新日志</strong></h1>
 <h3><strong>📅 2025.03.05.0145</strong></h3>
-<p><strong>새로운</strong>: •초기 버전</p>
+<p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/None.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/528800.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -83,13 +83,13 @@ _링크 텍스트를 표시하고 아래 비디오를 복사하십시오/다운�
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍성인 스크립트를 찾고있을 수 있습니다
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
-> -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/None): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
-> -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/None): Pornhub는 한 번의 클릭으로 다운로드하십시오
+> -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/528798): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
+> -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/528800): Pornhub는 한 번의 클릭으로 다운로드하십시오
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
@@ -188,13 +188,13 @@ _링크 텍스트를 표시하고 아래 비디오를 복사하십시오/다운�
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍성인 스크립트를 찾고있을 수 있습니다
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
-> -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/None): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
-> -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/None): Pornhub는 한 번의 클릭으로 다운로드하십시오
+> -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/528798): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
+> -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/528800): Pornhub는 한 번의 클릭으로 다운로드하십시오
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 

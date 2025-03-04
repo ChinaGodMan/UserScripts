@@ -73,13 +73,13 @@ Tăng màn hình tiến trình tải xuống。Đừng hỏi。Hỏi nó rất n
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
-> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/None): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
-> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/None): Tải xuống Video của Pornhub với một lần nhấp chuột |
+> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/528798): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
+> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/528800): Tải xuống Video của Pornhub với một lần nhấp chuột |
 > -   [**Công cụ tải xuống video missav**](https://greasyfork.org/scripts/528160): Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
-> -   [**MissAvBộ sưu tập video sao lưu hàng loạt**](https://greasyfork.org/scripts/497682): Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Đăng nhập tự động**](https://greasyfork.org/scripts/506528): Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 
@@ -178,13 +178,13 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
-> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/None): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
-> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/None): Tải xuống Video của Pornhub với một lần nhấp chuột |
+> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/528798): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
+> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/528800): Tải xuống Video của Pornhub với một lần nhấp chuột |
 > -   [**Công cụ tải xuống video missav**](https://greasyfork.org/scripts/528160): Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
-> -   [**MissAvBộ sưu tập video sao lưu hàng loạt**](https://greasyfork.org/scripts/497682): Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Đăng nhập tự động**](https://greasyfork.org/scripts/506528): Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 
