@@ -49,10 +49,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 一键置顶和置底按钮 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ One-click top and bottom buttons Update log</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
-<p><strong>请求</strong>:<br />
-• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> 添加绑定热键。</p>
+<p><strong>ask</strong>:<br />
+• <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> Add binding hotkeys。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/500255.png">
 </div></center>
@@ -187,13 +187,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
 > -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
