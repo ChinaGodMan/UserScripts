@@ -627,7 +627,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHub폴더를 다운로드하십시오</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHub폴더 다운로드</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
@@ -1122,7 +1122,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.xvideos.com/favicon-32x32.png"><img width=18 src="https://www.xvideos.com/favicon-32x32.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">xvideos푸시 다운로드</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+        <img height=24 src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
 <details>
@@ -1134,9 +1134,9 @@
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/528798">
         <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/528798">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1151,7 +1151,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub 한 클릭 비디오 다운로드</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/None?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+        <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
 <details>
@@ -1163,9 +1163,9 @@
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/528800">
         <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
-    <a href="https://greasyfork.org/scripts/None">
+    <a href="https://greasyfork.org/scripts/528800">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1300,7 +1300,7 @@
 </h3>
 
 <details>
-    <summary>비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
+    <summary>비 중국어 캐릭터를 인식하십시오，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
