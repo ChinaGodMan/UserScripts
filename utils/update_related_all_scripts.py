@@ -48,6 +48,53 @@ def generate_description(current_script, all_scripts, code):
     return "\n".join(descriptions) + "\n"
 
 
+# 获取readme文件中相关脚本分组
+def check_related_readme(file_path, related_scripts_map):
+    not_in_scriptspath = []
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+        # 匹配 <!--AUTO_{key}_PLEASE_DONT_DELETE_IT--> 标签
+        matches = re.findall(r'<!--AUTO_([a-zA-Z0-9\-一-龥]+)_PLEASE_DONT_DELETE_IT-->', content)
+        if matches:
+            for key in matches:
+                # 分组必须包含中文字符串,老代码了,早知道就换个格式了,妈的.
+                if re.search(r'[\u4e00-\u9fa5]', key):
+                    if key not in related_scripts_map:
+                        not_in_scriptspath.append(key)
+    except Exception as e:
+        print(f"读取文件 {file_path} 时出错: {e}")
+    return not_in_scriptspath
+
+
+# 删除readme文件中不存在的相关脚本分组
+def delete_related_readme(directory_path, not_in_map):
+    for file in os.listdir(directory_path):
+        if file.endswith('.md') and os.path.isfile(os.path.join(directory_path, file)):
+            file_path = os.path.join(directory_path, file)
+            print(f"清理文件中的失效分组: {file_path}")
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            is_modified = False
+
+            # 删除对应标签和内容
+            for key in not_in_map:
+                start_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-->"
+                end_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-END-->"
+
+                # 获得匹配出来的字符串
+                pattern = re.compile(re.escape(start_tag) + r'.*?' + re.escape(end_tag), re.DOTALL)
+                if re.search(pattern, content):
+                    content = re.sub(pattern, '', content)
+                    is_modified = True
+            if is_modified:
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f" {file_path} 中的失效分组已被删除。")
+            else:
+                print(f" {file_path} 中未找到失效的分组.")
+
+
 def process_script(script, scripts, start_tag, end_tag, key):
     backuppath = script.get('backuppath', '')
     cnfile_path = os.path.join(backuppath, "README.md")
@@ -82,12 +129,19 @@ def main():
     scripts = data.get('scripts', [])
     related_scripts_map = {}
     for script in scripts:
+        # 构建`相关脚本`分组
         relatedscripts = script.get('relatedscripts')
         if relatedscripts:
             if relatedscripts not in related_scripts_map:
                 related_scripts_map[relatedscripts] = []
                 related_scripts_map[relatedscripts].append(relatedscripts)
     for script in scripts:
+        # 列出`readme`文本中的相关脚本分钟
+        cnfile_path = os.path.join(script.get('backuppath', ''), "README.md")
+        not_in_map = check_related_readme(cnfile_path, related_scripts_map)
+        # 如果有不存在的`相关脚本`,就删除不存在的`相关脚本`分组
+        if len(not_in_map) > 0:
+            delete_related_readme(script.get('backuppath', ''), not_in_map)
         for key, value in related_scripts_map.items():
             start_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-->"
             end_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-END-->"
