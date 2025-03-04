@@ -98,7 +98,7 @@
 <h3><strong>📅 2024/8/23 08:12 - Ver 2.4</strong></h3>
 <p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
 <strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -341,6 +341,8 @@
 > ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
+> -   [**xvideos推送下载**](https://greasyfork.org/scripts/None): 1.自动播放 2.自动宽屏 3.高画质播放 4.点击推送下片 5.下载缩略图
+> -   [**Pornhub 视频一键下载**](https://greasyfork.org/scripts/None): Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率
 > -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/528160): 从当前missav播放页面嗅探视频的真实下载地址并下载
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录

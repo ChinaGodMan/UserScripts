@@ -49,37 +49,37 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Greasyfork Notification assistant Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
-<p><strong>New</strong>: <code>https://greasyfork.org/users/*/notifications</code>reverse sort,Have the latest information appear at the top,instead of the bottom.</p>
+<p><strong>新增</strong>: <code>https://greasyfork.org/users/*/notifications</code>反转排序,让最新的信息显示在顶部,而不是底部.</p>
 <hr />
 <h3><strong>📅 2024/9/24 08:32 - Ver 1.5.0.3</strong></h3>
-<p><strong>optimization</strong>: 🙄 The window displays the number of new messages,when a<code>discussions</code>When there are no unread messages,Category titles will not be added. <br>
-<strong>New</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
+<p><strong>优化</strong>: 🙄 窗口显示新消息数量,当一个<code>discussions</code>没有未读信息时,不会添加分类标题. <br>
+<strong>新增</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
 <hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>New</strong>: 🙄 add<code>sweetalert.js</code>Third-party libraries,Convenient for yourself KIWi Just use it on the browser</p>
+<p><strong>新增</strong>: 🙄 增加个<code>sweetalert.js</code>第三方库,方便自己在 KIWi 浏览器上使用罢了</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork In-site notifications have been gradually supported,Scripts will lose their meaning.</p>
+<p><strong>新增</strong>: 添加<code>read=unread</code>参数,只提取未读信息,此版本为最终版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已经逐步支持站内通知,脚本将失去存在的意义.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your own newly opened discussion,and inMatch last speakeruser ID on failure,Match last speaker.</p>
+<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最后发言人用户 ID 失败时,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
+<p><strong>改进</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>New</strong>: Added grease monkey menu for setting the maximum number of messages。<br />
-<strong>New</strong>: Added skip last speaker is <code>Own</code> options。</p>
+<p><strong>新增</strong>: 增加设置最大消息数量的油猴菜单。<br />
+<strong>新增</strong>: 增加跳过最后发言人是 <code>自己</code> 的选项。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>New</strong>: Added oil monkey menu to set refresh time。</p>
+<p><strong>新增</strong>: 增加设置刷新时间的油猴菜单。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
-<p><strong>initial</strong>: initial version，Welcome。</p>
+<p><strong>初始</strong>: 初始版本，欢迎使用。</p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -239,11 +239,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for adult scripts
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
+> -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 

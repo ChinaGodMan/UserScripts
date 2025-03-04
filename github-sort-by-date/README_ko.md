@@ -52,7 +52,7 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505218">Greasy
             Fork</a></p>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505218.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -207,11 +207,13 @@
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍성인 스크립트를 찾고있을 수 있습니다
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
+> -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/None): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
+> -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/None): Pornhub는 한 번의 클릭으로 다운로드하십시오
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 
