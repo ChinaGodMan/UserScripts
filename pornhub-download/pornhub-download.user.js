@@ -86,7 +86,7 @@
 // @match             *://*.pornhub.com/view_video.php?viewkey=*
 // @match             *://*.pornhubpremium.com/view_video.php?viewkey=*
 // @require           https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
-// @require           https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js
+// @require           https://code.jquery.com/jquery-3.7.1.min.js
 // @author            liuwanlin,heckles,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
