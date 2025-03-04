@@ -31,7 +31,7 @@ def generate_html_content(nation, path, greasyfork_id, filepath, backuppath, rea
     results = search_in_file(path, nation)
     name = "\n".join(results.name_matches)
     description = "\n".join(results.description_matches)
-    img_tag = f'<img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
+    img_tag = f'<img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
     html_content = f"""
 <center><div align="center">
     <h1>{name}</h1>
