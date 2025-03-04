@@ -49,14 +49,14 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GrreasyFork User script data visualization Update log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GrreasyFork 用户脚本数据可视化 更新日志</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
-<p><strong>New</strong>: •Add some small functions to use.<code>Table displays creation and update dates</code> <code>YThe axis value is highlighted</code> <code>Click the bar chart to jump to the corresponding script</code> In the script<code>OPENLINK</code> for<code>0</code>Don’t jump,<code>1</code>There are tips before jumping,<code>2</code>Jump directly</p>
+<p><strong>新增</strong>: •增加自己使用的一些小功能.<code>表格显示创建与更新日期</code> <code>Y轴数值高亮</code> <code>点击柱状图跳转对应脚本</code> 脚本中的<code>OPENLINK</code> 为<code>0</code>不跳转,<code>1</code>跳转前有提示,<code>2</code>直接跳转</p>
 <table>
 <thead>
 <tr>
-<th>New</th>
-<th>Added a demo</th>
+<th>新增</th>
+<th>新增演示</th>
 </tr>
 </thead>
 <tbody>
@@ -66,21 +66,21 @@
 </tr>
 <tr>
 <td><img alt="New.png" src="https://s2.loli.net/2024/09/20/Pm6UA5KHy3VYcSr.png" /></td>
-<td><img alt="Jump.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
+<td><img alt="跳转.gif" src="https://s2.loli.net/2024/09/20/n1H26dzVfuBx7bN.gif" /></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h3><strong>📅 2024-09-19 12:56:19- Ver 1.1.1.0</strong></h3>
-<p><strong>Revise</strong>: •Revise<code>chart.js</code>For the first load,Save it after loading<code>localStorage</code>No need for repeated loading</p>
+<p><strong>修改</strong>: •修改<code>chart.js</code>为首次加载,加载完成后保存在<code>localStorage</code>无需每次重复加载</p>
 <hr />
 <h3><strong>📅 2024-09-19 08:25:19- Ver 1.1.0.0</strong></h3>
-<p><strong>repair</strong>: • Fix some problems with the chart.<br></p>
+<p><strong>修复</strong>: • 修复图表一些问题.<br></p>
 <table>
 <thead>
 <tr>
-<th>Before modification</th>
-<th>After modification</th>
+<th>修改前</th>
+<th>修改后</th>
 </tr>
 </thead>
 <tbody>
@@ -89,23 +89,23 @@
 <td></td>
 </tr>
 <tr>
-<td><img alt="Before modification.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
-<td><img alt="After modification.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
+<td><img alt="修改前.png" src="https://s2.loli.net/2024/09/19/A6KoYdv5nbRkMCF.png" /></td>
+<td><img alt="修改后.png" src="https://s2.loli.net/2024/09/19/2UCM18tuWXirgxB.png" /></td>
 </tr>
 <tr>
-<td><img alt="Before modification.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
-<td><img alt="After modification.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
+<td><img alt="修改前.gif" src="https://s2.loli.net/2024/09/19/khLXwEFQI58qjdZ.gif" /></td>
+<td><img alt="修改后.gif" src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif" /></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h3><strong>📅 2024-09-18 11:01:32- Ver 1.0.0.0</strong></h3>
-<p><strong>Increase</strong>: •Added original author<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>Additional script<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>Get user data from the current web page,You can set it in the script or in the script menuJSONData acquisition or script data from the current page default toGreasyFrokDownload user data<br>
-<strong>Revise</strong>: •~~Revise<code>chart.js</code>for@require load,No need for repeated loading~~GreasyforkUnauthorized external scripts are not allowed<br>
-<strong>Revise</strong>: •Modify when obtaining user data from the network,Sort from high to low according to total installation volume<br>
-<strong>Revise</strong>: •Modify to find usersIDThe expression is<code>/(\d+)/</code>,compatible<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork Paste the rigging maker</a><code>Clear link useless character function</code><br></p>
+<p><strong>增加</strong>: •增加了原作者<a href="https://greasyfork.org/zh-CN/users/1177387">138 Aspen</a>另外脚本<a href="https://greasyfork.org/zh-CN/scripts/482623">Displays the number of scripts published by the user, the total number of installations</a>里面的从当前网页获取用户数据,可以在脚本内或者脚本菜单中设置从JSON数据获取还是从当前页面获取脚本数据默认向GreasyFrok下载用户数据<br>
+<strong>修改</strong>: •~~修改<code>chart.js</code>为@require 加载,无需每次重复加载~~Greasyfork不允许使用未经批准的外部脚本<br>
+<strong>修改</strong>: •修改从网络获取用户数据时,按照总安装量由高到低排序<br>
+<strong>修改</strong>: •修改寻找用户ID的表达式为<code>/(\d+)/</code>,兼容<a href="https://greasyfork.org/zh-CN/scripts/497346">Greasyfork 糊裱匠</a><code>清除链接无用字符功能</code><br></p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/508968.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/508968.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -295,11 +295,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for adult scripts
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
+> -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 

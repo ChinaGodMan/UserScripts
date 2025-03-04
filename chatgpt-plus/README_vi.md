@@ -51,14 +51,14 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>Cập nhật bản ghi</summary><h1><strong>🛠️ ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa Nhật ký thay đổi</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
-<p><strong>Mới</strong>: Tương thích với mới ChatGPT Trang web chính thức,Khi cài đặt chiều rộng tối đa không thành công,Tự động thêm lại.</p>
+<p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
 <hr />
 <h3><strong>📅 2024/9/15 11:13 - Ver 0.2.0.0</strong></h3>
-<p><strong>Mới</strong>: Đã thêm khả năng gửi phím Enter trên thiết bị di động。mã từ<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
+<p><strong>新增</strong>: 增加在移动设备回车键发送。代码来自<a href="https://greasyfork.org/scripts/498559">ChatGPT.com Mobile Layout Enter Key Fix</a></p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/504901.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -222,11 +222,13 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
+> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/None): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
+> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/None): Tải xuống Video của Pornhub với một lần nhấp chuột |
 > -   [**Công cụ tải xuống video missav**](https://greasyfork.org/scripts/528160): Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
-> -   [**MissAvBộ sưu tập video sao lưu hàng loạt**](https://greasyfork.org/scripts/497682): Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Đăng nhập tự động**](https://greasyfork.org/scripts/506528): Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 

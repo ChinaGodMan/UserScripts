@@ -46,8 +46,8 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Pornhub 视频一键下载</h1>
-    <p>「 Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率 」</p>
+    <h1>Pornhub video download with one click</h1>
+    <p>「 Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions 」</p>
     <img src="https://views.whatilearened.today/views/github/None/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/pornhub-download/pornhub-download.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
@@ -85,13 +85,13 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找成人脚本
 >
-> -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
-> -   [**xvideos推送下载**](https://greasyfork.org/scripts/None): 1.自动播放 2.自动宽屏 3.高画质播放 4.点击推送下片 5.下载缩略图
-> -   [**Pornhub 视频一键下载**](https://greasyfork.org/scripts/None): Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率
-> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/528160): 从当前missav播放页面嗅探视频的真实下载地址并下载
+> -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
+> -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
+> -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
-> -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
-> -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
+> -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
+> -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
@@ -119,11 +119,11 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPT代码字体缩小.**](https://greasyfork.org/scripts/505209): ChatGPT 让代码字体变小 并且自动折行
-> -   [**ChatGPT 代码高亮**](https://greasyfork.org/scripts/527255): 为 ChatGPT 添加所有语言代码高亮（使用 highlight.js）
-> -   [**ChatGPT 聊天复制代码和导出代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮和一个为 ChatGPT 响应中的代码块添加导出按钮，提示用户根据代码块的类名检测到的编程语言将代码保存为文件。
-> -   [**ChatGPT 字符计数器限制**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。.）
-> -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPT中较长的“你”消息，并设置最大宽度
+> -   [**ChatGPTCode font size reduced**](https://greasyfork.org/scripts/505209): ChatGPT Make code font smaller and automatically wrap
+> -   [**ChatGPT code highlighted**](https://greasyfork.org/scripts/527255): Add all language code highlighting for ChatGPT (using highlight.js)
+> -   [**ChatGPT Chat copy code and export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation in the lower right corner of the upper code block“Copy code”button and a for ChatGPT Code block in response adds export button，Prompts the user to save code to a file based on the programming language detected by the code block’s class name。
+> -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
+> -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
 
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -131,15 +131,15 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找网页相关脚本
 >
-> -   [**网页写入剪辑版授权管理器**](https://greasyfork.org/scripts/497403): 管理网页对剪贴板的写入行为防止未经授权的自动复制和禁用音视频内容预载及自动播放。
+> -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
 > -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
-> -   [**绚丽渐变美化网页表格**](https://greasyfork.org/scripts/507036): 自动为表格所有列应用颜色渐变来美化
+> -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
 > -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 > -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
-> -   [**小窗预览**](https://greasyfork.org/scripts/504880): 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小.
-> -   [**移除链接下划线**](https://greasyfork.org/scripts/498625): 移除所有网站上的链接下划线，并动态处理新链接
-> -   [**上下滚动按钮**](https://greasyfork.org/scripts/497251): 在页面右侧生成两个按钮用于滚动页面
-> -   [**置顶和置底按钮**](https://greasyfork.org/scripts/500255): 在所有页面生成两个按钮，一个用于顺滑回到顶部，一个用于持续滚动到底部，再次点击取消滚动到底部
+> -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
+> -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
+> -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
+> -   [**Pin to top and bottom buttons**](https://greasyfork.org/scripts/500255): Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -147,16 +147,16 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找GitHub相关脚本
 >
-> -   [**GitHub 提交信息显示网页视图**](https://greasyfork.org/scripts/505830): 该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。
-> -   [**在Github上打开jsDelivr链接**](https://greasyfork.org/scripts/527870): 打开jsDelivr上的GitHub链接,用于快速下载文件
-> -   [**GitHub 仓库快速跳转助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 仓库快速跳转助手，专为帮助用户快速访问自己在 GitHub 上的仓库而设计 。它在导航栏顶部生成一个按钮,点击展开自己的所有仓库，轻松跳转到自己的 GitHub 仓库页面，而无需使用 GitHub 的二级菜单
-> -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。按类型为文件添加颜色和图标，在存储库源树中显示小图像以代替文件类型图标
-> -   [**Github 代码语言列表显示全部**](https://greasyfork.org/scripts/509889): 扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在“其他”下
-> -   [**GitHub 自动确认设备授权**](https://greasyfork.org/scripts/508956): 在GitHub授权页面自动输入授权码与自动确认。
-> -   [**GitHub 文件夹下载器**](https://greasyfork.org/scripts/505496): 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。
-> -   [**Github 复制原始文件 URL 与下载文件**](https://greasyfork.org/scripts/505501): 在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件
-> -   [**🤠 Github 增强小助手 仓库显示大小**](https://greasyfork.org/scripts/502291): 🤠 仓库显示大小：在 GitHub 的代码搜索、仓库搜索、议题页面、用户仓库列表和存储库页面上，仓库名称旁边会显示该仓库的大小，方便用户快速了解仓库的规模，优化选择。不活跃开发警告：如果某个仓库在过去六个月内没有更新，系统将在仓库的顶部添加提示，提醒用户该仓库不活跃，并显示最后一次更新的时间。这有助于用户判断仓库的活跃程度和维护状况。仓库内快捷跳转：在浏览仓库时，用户可以方便地查看该用户的所有仓库列表，提供一个快速跳转到不同仓库的入口。用户可以快速找到和访问感兴趣的其他项目，提高工作效率。使用场景：开发者：可以通过显示仓库大小和活跃警告，快速筛选出合适的库进行开发，避免使用不再维护的项目。项目管理者：通过快速跳转功能，便于管理和协调多个项目，提高工作效率。学习者：在学习新技术时，可以更方便地找到相关的开源项目，快速查看项目的活跃程度和规模。🤠
-> -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 将文件排序方式改为日期降序，方便查看最新更新的文件。
+> -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
+> -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
+> -   [**GitHub warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu.
+> -   [**GitHub File list beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。Add colors and icons to files by type，Display small images in place of file type icons in repository source tree
+> -   [**Github List of code languages show all**](https://greasyfork.org/scripts/509889): Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down
+> -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。
+> -   [**GitHub folder downloader**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy downloading of specific GitHub folder。
+> -   [**Github Copy original file URL with download files**](https://greasyfork.org/scripts/505501): Add button at the end of each file line，to copy the original file URL and download files
+> -   [**🤠 Github enhanced assistant warehouse display size**](https://greasyfork.org/scripts/502291): 🤠 Warehouse display size: On GitHub’s code search, warehouse search, issue page, user warehouse list and repository page, the size of the warehouse will be displayed next to the warehouse name, allowing users to quickly understand the scale of the warehouse and optimize their selection. Inactive development warning: If a repository has not been updated in the past six months, the system will add a prompt at the top of the repository to remind users that the repository is inactive and display the time of the last update. This helps users determine the activity and maintenance status of the warehouse. Quick jump within the warehouse: When browsing the warehouse, the user can easily view the list of all warehouses of the user, providing an entrance to quickly jump to different warehouses. Users can quickly find and access other projects of interest, improving work efficiency. Usage scenarios: Developers: By displaying the warehouse size and active warnings, you can quickly filter out suitable libraries for development and avoid using projects that are no longer maintained. Project Manager: Through the quick jump function, it is easy to manage and coordinate multiple projects and improve work efficiency. Learners: When learning new technologies, they can more easily find relevant open source projects and quickly check the activity and scale of the projects. 🤠
+> -   [**GitHub Sort by date**](https://greasyfork.org/scripts/505218): Change file sorting to descending by date，Conveniently view the latest updated files。
 
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -164,7 +164,7 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找Google相关脚本
 >
-> -   [**Google 高级搜索助手**](https://greasyfork.org/scripts/502652): 在谷歌搜索页面顶部添加一个高级搜索表单
+> -   [**Google Advanced search assistant**](https://greasyfork.org/scripts/502652): Add an advanced search form to the top of your Google search page
 > -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
@@ -174,15 +174,15 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 > ### 🔍你可能在找GreasyFork相关脚本
 >
 > -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-> -   [**GreasyFork 用户发布的脚本数据可视化**](https://greasyfork.org/scripts/508968): 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-> -   [**GreaysFork 增强WebHook同步设置**](https://greasyfork.org/scripts/506717): GreaysFork 快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。
-> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏
-> -   [**Greasyfork 脚本显示评分**](https://greasyfork.org/scripts/501119): 在浏览脚本列表时在脚本名称后面添加脚本评分
-> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): 使用谷歌搜索GreasyFork和SleazyFork上的脚本
-> -   [**GreasyFork: 导航栏增强**](https://greasyfork.org/scripts/501880): 在导航栏上添加用户列表,控制台,收藏等..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
-> -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
-> -   [**Script Finder 油猴脚本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何网站上找到适用于该网站的 油猴脚本。
+> -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+> -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
+> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
+> -   [**Greasyfork Script to display ratings**](https://greasyfork.org/scripts/501119): Add script rating after script name when browsing script list
+> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Search using GoogleGreasyForkandSleazyForkupper script
+> -   [**GreasyFork: Navigation bar enhancement**](https://greasyfork.org/scripts/501880): Add user list on navigation bar,console,Collection etc...
+> -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
+> -   [**GreasyFork Notification Assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
+> -   [**Script Finder GreasyFork Script Lookup**](https://greasyfork.org/scripts/498904): Script Finder Find on any website that applies to that website GreasyFork Script。
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
@@ -190,13 +190,13 @@ _在影片下方显示链接的文本和复制/下载按钮，点击即可下载
 
 > ### 🔍你可能在找成人脚本
 >
-> -   [**MissAV 自动登录**](https://greasyfork.org/scripts/505325): 检测 MissAV 状态,并且在未登录时自动登录
-> -   [**xvideos推送下载**](https://greasyfork.org/scripts/None): 1.自动播放 2.自动宽屏 3.高画质播放 4.点击推送下片 5.下载缩略图
-> -   [**Pornhub 视频一键下载**](https://greasyfork.org/scripts/None): Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率
-> -   [**MissAV视频下载工具**](https://greasyfork.org/scripts/528160): 从当前missav播放页面嗅探视频的真实下载地址并下载
+> -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
+> -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
+> -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
-> -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
-> -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
+> -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
+> -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->

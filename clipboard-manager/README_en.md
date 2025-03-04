@@ -49,15 +49,15 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>Update record</summary><h1><strong>🛠️ Web page writing clip version authorization manager Change log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ 网页写入剪辑版授权管理器 更新日志</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
-<p><strong>repair</strong>: •copy function <code>pc</code> Not for red Sometimes it comes from <code>window.navigator.clipboard.writeText</code> ,Need to manually copy to the edited version.@90
-<strong>repair</strong>: •logic error ↠ After pressing the shortcut key to copy, there is only an indicatorfor red time to reset，for green No reset@161</p>
+<p><strong>修复</strong>: •复制函数 <code>pc</code> 不为 red 时且来源于为 <code>window.navigator.clipboard.writeText</code> ,需要手动复制到剪辑版.@90
+<strong>修复</strong>: •逻辑错误 ↠ 按下快捷键复制后只有指示器为 red 时候重置，为 green 不重置@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
-<p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>
+<p><strong>新增</strong>: •监听<code>clipboard.writeText</code>事件</p>
 <hr /></details>
-    <img src="https://raw.gitmirror.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497403.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
@@ -202,11 +202,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for adult scripts
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
+> -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
+> -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
