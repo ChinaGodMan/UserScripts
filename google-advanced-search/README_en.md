@@ -49,13 +49,13 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search/google-advanced-search.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502652">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Google 高级搜索 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Google Advanced Search Update log</strong></h1>
 <h3><strong>📅 2024/8/5 23:18 - Ver 0.1.9.1</strong></h3>
-<p><strong>新增</strong>: 增加脚本图标</p>
+<p><strong>New</strong>: Add script icon</p>
 <hr />
 <h3><strong>📅 2024/8/5 10:26 - Ver 0.1.9</strong></h3>
-<p><strong>问题</strong>: 移动设备无法显示高级搜索框。<br />
-<strong>修复</strong>: 下面代码仅在 PC 端生效 <code>searchContainer.appendChild(toggleButton)</code>。</p>
+<p><strong>issues</strong>: Mobile device cannot display advanced search box。<br />
+<strong>repair</strong>: The following code is only PC Effective end <code>searchContainer.appendChild(toggleButton)</code>。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502652.png">
 </div></center>
@@ -216,13 +216,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
 > -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 

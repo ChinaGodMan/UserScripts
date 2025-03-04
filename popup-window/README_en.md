@@ -49,55 +49,55 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Small Window Preview Update log</strong></h1>
 <h3><strong>📅 2024/9/30 11:56 - Ver 2.5.1.4</strong></h3>
-<p><strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
+<p><strong>optimization</strong>: Add to<code>GUISettings interface</code> The menu is too troublesome,Set multiple points to go.</p>
 <hr />
 <h3><strong>📅 2024/9/30 10:49 - Ver 2.5.1.3</strong></h3>
-<p><strong>优化</strong>: 添加<code>长按生效时间</code>,鼠标按下等于设置的生效时间后调用打开小窗前的<code>长按触发时间</code>.<br>打开小窗时间=<code>长按生效时间</code>+<code>长按触发时间</code>
-<strong>优化</strong>: 添加<code>GUI设置界面</code> 菜单太麻烦,设置多个点来点去的.</p>
+<p><strong>optimization</strong>: Add to<code>Long press to take effect time</code>,After pressing the mouse to the set effective time, call the window to open<code>Long press to trigger time</code>.<br>Open window time=<code>Long press to take effect time</code>+<code>Long press to trigger time</code>
+<strong>optimization</strong>: Add to<code>GUISettings interface</code> The menu is too troublesome,Set multiple points to go.</p>
 <hr />
 <h3><strong>📅 2024/9/10 11:05 - Ver 2.5.1.0</strong></h3>
-<p><strong>修复</strong>: 无法跨源读取弹出窗口大小位置的问题。<br />
-<strong>新增</strong>: 当无法跨源读取到弹窗位置时，会发送信息给弹窗，允许弹窗自己设置大小和位置。</p>
+<p><strong>repair</strong>: Issues that the popup size position cannot be read across the source。<br />
+<strong>New</strong>: When cross-original reading to pop-up position cannot be done，Will send a message to pop-up window，Allow pop-up windows to set their own size and position。</p>
 <hr />
 <h3><strong>📅 2024/9/10 09:24 - Ver 2.5.0.0</strong></h3>
-<p><strong>感谢</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> 的代码贡献。<br />
-<strong>新增</strong>:<br />
-• 开启 <code>记录窗口位置</code> 时，自动记录当前域名配置。<br />
-• 查找窗口配置逻辑：域名配置 → 自定义窗口配置 → 脚本自带配置。<br />
-• 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置<br />
-• 配置规则参考<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a><br />
-• 新增功能演示请参考下方视频。</p>
+<p><strong>grateful</strong>: <a href="https://greasyfork.org/zh-CN/users/20361">tony0809</a> Code contributions。<br />
+<strong>New</strong>:<br />
+• Open <code>Record window location</code> hour，Automatically record the current domain name configuration。<br />
+• Find window configuration logic：Domain name configuration → Customize window configuration → Scripts come with configuration。<br />
+• No manual editing required for configuration,The script will automatically update the domain name configuration when you change the window size.Each time you change the window size will be recorded to the global custom configuration<br />
+• Configuration Rule Reference<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654">#529654</a><br />
+• Please refer to the video below for new functions demonstration。</p>
 <hr />
 <h3><strong>📅 2024/9/3 05:26 - Ver 2.4.0.20</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> 事件错误，修改为检查鼠标 <code>y</code> 轴 &lt; 1 时判断移动是否在浏览器标签页上。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527837">#527837</a> Event error，Modify to check the mouse <code>y</code> axis &lt; 1 When determining whether the mobile is on the browser tab。</p>
 <hr />
 <h3><strong>📅 2024/9/2 05:34 - Ver 2.4.0.18</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
-• 长按鼠标模式下按下键盘不触发预览窗口。<br />
-• 拖拽模式下拖拽链接到新标签时不会触发预览窗口。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625">#527625</a><br />
+• Press the keyboard in mouse mode for a long time and do not trigger the preview window。<br />
+• Drag and drop links to new tabs in drag mode will not trigger the preview window。</p>
 <hr />
 <h3><strong>📅 2024/8/29 08:39 - Ver 2.4.0.9</strong></h3>
-<p><strong>新增</strong>: 拖拽时增加超时显示进度条，时间耗尽时取消拖拽打开预览窗口。</p>
+<p><strong>New</strong>: Add timeout to display progress bar when dragging，Cancel drag and drop when time runs out to open the preview window。</p>
 <hr />
 <h3><strong>📅 2024/8/29 06:28 - Ver 2.4.0.8</strong></h3>
-<p><strong>优化</strong>: 移除长按时监听鼠标移动的逻辑，改为监听鼠标进入拖拽状态时取消打开预览窗口。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
+<p><strong>optimization</strong>: Remove the logic of listening to mouse movement when pressing for a long time，Instead, listen to the mouse to enter the drag state and cancel the preview window.。<a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526172">#526172</a></p>
 <hr />
 <h3><strong>📅 2024/8/27 00:33 - Ver 2.4.0.5</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> 反馈的 BUG：<br />
-• 修复在关闭预览窗后无法触发时间条打开预览窗的概率性问题。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054">#526054</a> Feedback BUG：<br />
+• Fixed the probability of not being able to trigger the time bar to open the preview window after closing the preview window。</p>
 <hr />
 <h3><strong>📅 2024/8/25 04:59 - Ver 2.4.0.2</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
-• 添加长按时显示倒计时，增加记住窗口位置功能。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/504880/discussions/257270">#257270</a><br />
+• Add a long press to display the countdown，Added the function of remembering window position。</p>
 <hr />
 <h3><strong>📅 2024/8/24 07:29 - Ver 2.4</strong></h3>
-<p><strong>优化</strong>: 添加语言包，优化脚本性能。</p>
+<p><strong>optimization</strong>: Add language pack，Optimize script performance。</p>
 <hr />
 <h3><strong>📅 2024/8/23 08:12 - Ver 2.4</strong></h3>
-<p><strong>优化</strong>: 兼容 Chrome 插件 <code>Google Chrome 的超级拖拽 0.9.9</code>。<br />
-<strong>修复</strong>: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。</p></details>
+<p><strong>optimization</strong>: compatible Chrome Plugin <code>Google Chrome Super drag 0.9.9</code>。<br />
+<strong>repair</strong>: Fixed the issue where the acrylic layer does not close when clicking the small window close button。</p></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/504880.png">
 </div></center>
 
@@ -323,13 +323,13 @@ Recommended browsers and script managers：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**xvideos push download**](https://greasyfork.org/scripts/None): 1. Automatic playback 2. Automatic widescreen 3. High-quality playback 4. Click to push the next movie 5. Download thumbnails
 > -   [**Pornhub video download with one click**](https://greasyfork.org/scripts/None): Pornhub video download with one click | pornhub.com | Download directly without login | Download free to watch paid videos | Download videos that are prohibited | Download all viewable resolutions
 > -   [**MissAV video download tool**](https://greasyfork.org/scripts/528160): Sniff the real download address of the video from the current missav playback page and download it
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAvBatch backup collection of videos**](https://greasyfork.org/scripts/497682): From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file
 > -   [**ThisAV Automatic login**](https://greasyfork.org/scripts/506528): Detection ThisAV state,and automatically log in when not logged in
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 
