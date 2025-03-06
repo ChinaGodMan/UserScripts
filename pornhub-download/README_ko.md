@@ -65,20 +65,35 @@
 
 人民的勤务员 스크립트에서 수정하십시오 [fork&mod】Pornhub 한 클릭 비디오 다운로드](https://greasyfork.org/zh-CN/scripts/491329) | [【mod】phowndowloader](https://greasyfork.org/zh-CN/scripts/491333)
 
-이 스크립트는 시청 효과 및 비디오 다운로드 경험을 향상시키는 데 중점을 둡니다.，집에서 필수 아이템。
+1. 이 스크립트는 시청 효과 및 비디오 다운로드 경험을 향상시키는 데 중점을 둡니다.，집에서 필수 아이템。
+2. 이 스크립트는 간단하면서도 강력한 `PornHub` 동영상 다운로드 플러그인입니다!
+
 
 ## 기능
 
--   ✅ 비디오를 직접 다운로드하려면 클릭하십시오
+-   ✅ 클릭으로 바로 영상 다운로드
+-   ✅ 로그인 없이 다운로드 가능
+-   ✅ 모든 시청 가능한 해상도 다운로드 가능
+-   ✅ 무료 시청 가능한 모든 해상도 영상 다운로드 가능
+-   ✅ 다운로드 금지된 모든 해상도 영상 다운로드 가능
 -   ⛔ 자동 재생
--   ⛔ 자동 와이드 스크린
--   ⛔ 기본 가장 높은 이미지 품질 재생
+-   ⛔ 자동 와이드스크린
+-   ⛔ 기본 최고 화질로 재생
 
-## 사용
+## 사용법
 
-_링크 텍스트를 표시하고 아래 비디오를 복사하십시오/다운로드 버튼，다운로드하려면 클릭하십시오。_
+-   이 스크립트는 공식 재생 주소를 가져오며, 브라우저에서 바로 열어 재생하거나 다운로드할 수 있습니다 (ctrl+s 또는 마우스 우클릭 -> 동영상 저장)
+-   `IDM`과 같은 다른 다운로드 도구도 사용할 수 있습니다.
+-   _영상 하단에 링크 텍스트와 복사/다운로드 버튼이 표시되며, 클릭하면 다운로드됩니다._
+
+## 이미지 미리보기
 
 ![pr.png](https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/vrudd6y5hf2uajp60jw4u2zbnsfv)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/2s92w3al2dkiviat7knkifvu0d8b)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/ekvnnglp08sc4cciiunnmwor3cef)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/xl7sqh5acft7a6fd2wu3ird3f1dw)
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

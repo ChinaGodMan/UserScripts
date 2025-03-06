@@ -65,21 +65,33 @@
 
 人民的勤务员 修改自脚本 [fork&mod】Pornhub 视频一键下载](https://greasyfork.org/zh-CN/scripts/491329) | [【mod】phowndowloader](https://greasyfork.org/zh-CN/scripts/491333)
 
-本脚本注重提升观影效果和影片下载体验，堪称居家必备之好物。
+1. 本脚本注重提升观影效果和影片下载体验，堪称居家必备之好物。
+2. 本脚本是一款简单而又强大的 `PornHub` 视频下载插件！
 
 ## 功能
 
 -   ✅ 点击直接下载影片
+-   ✅ 无需登录直接下载
+-   ✅ 可下载所有可观看分辨率
+-   ✅ 可下载免费观看的所有分辨率视频
+    ✅ 可下载已禁止下载的所有分辨率视频
 -   ⛔ 自动播放
 -   ⛔ 自动宽屏
 -   ⛔ 默认最高画质播放
 
 ## 使用
 
-_在影片下方显示链接的文本和复制/下载按钮，点击即可下载。_
+-   本脚本获取的都是官方的播放地址，可用浏览器直接打开播放或者下载（ctrl+s 或者 右键->保存视频）
+-   也可以用其他下载工具下载，如`IDM`等
+-   _在影片下方显示链接的文本和复制/下载按钮，点击即可下载。_
+
+## 图片预览
 
 ![pr.png](https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png)
-
+![](https://greasyfork.s3.us-east-2.amazonaws.com/vrudd6y5hf2uajp60jw4u2zbnsfv)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/2s92w3al2dkiviat7knkifvu0d8b)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/ekvnnglp08sc4cciiunnmwor3cef)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/xl7sqh5acft7a6fd2wu3ird3f1dw)
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

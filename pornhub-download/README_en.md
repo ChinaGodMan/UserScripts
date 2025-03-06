@@ -65,20 +65,35 @@
 
 人民的勤务员 Modify from script [fork&mod】Pornhub One-click video download](https://greasyfork.org/zh-CN/scripts/491329) | [【mod】phowndowloader](https://greasyfork.org/zh-CN/scripts/491333)
 
-This script focuses on improving the viewing effect and video download experience，A must-have item at home。
+1. This script focuses on improving the viewing effect and video download experience，A must-have item at home。
+2. This script is a simple yet powerful `PornHub` video download plugin!
 
-## Function
 
--   ✅ Click to download the video directly
--   ⛔ Automatic playback
--   ⛔ Automatic wide screen
--   ⛔ The default highest quality playback
+## Features
 
-## use
+-   ✅ Click to directly download videos
+-   ✅ No login required for downloading
+-   ✅ Download all available resolutions
+-   ✅ Download all resolutions for free-to-watch videos
+-   ✅ Download all resolutions even for restricted videos
+-   ⛔ Auto-play
+-   ⛔ Auto widescreen
+-   ⛔ Default playback in highest quality
 
-_Show link text and copy below video/Download button，Click to download。_
+## Usage
+
+-   The script retrieves official video URLs, which can be directly opened in a browser for playback or downloading (ctrl+s or right-click -> save video)
+-   You can also use other download tools like `IDM`
+-   _Displays link text and copy/download buttons below the video, click to download._
+
+## Image Preview
 
 ![pr.png](https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/vrudd6y5hf2uajp60jw4u2zbnsfv)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/2s92w3al2dkiviat7knkifvu0d8b)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/ekvnnglp08sc4cciiunnmwor3cef)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/xl7sqh5acft7a6fd2wu3ird3f1dw)
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
