@@ -65,20 +65,35 @@
 
 人民的勤务员 修改自腳本 [fork&mod】Pornhub 視頻一鍵下載](https://greasyfork.org/zh-CN/scripts/491329) | [【mod】phowndowloader](https://greasyfork.org/zh-CN/scripts/491333)
 
-本腳本注重提升觀影效果和影片下載體驗，堪稱居家必備之好物。
+1. 本腳本注重提升觀影效果和影片下載體驗，堪稱居家必備之好物。
+2. 本腳本是一款簡單而又強大的 `PornHub` 視頻下載插件！
+
 
 ## 功能
 
 -   ✅ 點擊直接下載影片
+-   ✅ 無需登入直接下載
+-   ✅ 可下載所有可觀看解析度
+-   ✅ 可下載免費觀看的所有解析度影片
+-   ✅ 可下載已禁止下載的所有解析度影片
 -   ⛔ 自動播放
 -   ⛔ 自動寬屏
--   ⛔ 默認最高畫質播放
+-   ⛔ 預設最高畫質播放
 
 ## 使用
 
-_在影片下方顯示鏈接的文本和復制/下載按鈕，點擊即可下載。_
+-   本腳本獲取的都是官方的播放地址，可用瀏覽器直接打開播放或者下載（ctrl+s 或者 右鍵->保存視頻）
+-   也可以用其他下載工具下載，如`IDM`等
+-   _在影片下方顯示連結的文本和複製/下載按鈕，點擊即可下載。_
+
+## 圖片預覽
 
 ![pr.png](https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/vrudd6y5hf2uajp60jw4u2zbnsfv)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/2s92w3al2dkiviat7knkifvu0d8b)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/ekvnnglp08sc4cciiunnmwor3cef)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/xl7sqh5acft7a6fd2wu3ird3f1dw)
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -65,20 +65,34 @@
 
 人民的勤务员 Sửa đổi từ tập lệnh [fork&mod】Pornhub Tải xuống video một lần nhấp](https://greasyfork.org/zh-CN/scripts/491329) | [【mod】phowndowloader](https://greasyfork.org/zh-CN/scripts/491333)
 
-Kịch bản này tập trung vào việc cải thiện hiệu ứng xem và trải nghiệm tải xuống video，Một vật phẩm phải có ở nhà。
+1. Kịch bản này tập trung vào việc cải thiện hiệu ứng xem và trải nghiệm tải xuống video，Một vật phẩm phải có ở nhà。
+2. Tập lệnh này là một tiện ích tải xuống video `PornHub` đơn giản nhưng mạnh mẽ!
 
 ## Chức năng
 
--   ✅ Bấm để tải xuống video trực tiếp
--   ⛔ Tự động phát lại
--   ⛔ Màn hình rộng tự động
--   ⛔ Phát lại chất lượng hình ảnh cao nhất mặc định
+-   ✅ Nhấp để tải xuống video trực tiếp
+-   ✅ Không cần đăng nhập để tải xuống
+-   ✅ Tải xuống tất cả các độ phân giải có thể xem
+-   ✅ Tải xuống tất cả các video miễn phí ở mọi độ phân giải
+-   ✅ Tải xuống tất cả các video bị hạn chế tải ở mọi độ phân giải
+-   ⛔ Tự động phát
+-   ⛔ Tự động toàn màn hình
+-   ⛔ Mặc định phát ở chất lượng cao nhất
 
-## sử dụng
+## Sử dụng
 
-_Hiển thị văn bản liên kết và sao chép video bên dưới/Tải xuống nút，Bấm để tải xuống。_
+-   Tập lệnh này lấy liên kết phát chính thức, có thể mở trực tiếp trong trình duyệt để phát hoặc tải xuống (ctrl+s hoặc chuột phải -> lưu video)
+-   Bạn cũng có thể sử dụng các công cụ tải xuống khác như `IDM`.
+-   _Hiển thị văn bản liên kết và nút sao chép/tải xuống bên dưới video, nhấp để tải về._
+
+## Xem trước hình ảnh
 
 ![pr.png](https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/vrudd6y5hf2uajp60jw4u2zbnsfv)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/2s92w3al2dkiviat7knkifvu0d8b)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/ekvnnglp08sc4cciiunnmwor3cef)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/xl7sqh5acft7a6fd2wu3ird3f1dw)
+
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
