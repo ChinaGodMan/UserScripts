@@ -42,5 +42,8 @@
     "docs:update-scripts:translate": "python utils/translate_chinese_to_filelang.py",
     "json:update-greasyfork-scripts:time": "python utils/upadate_greasyfork.py",
     "format:script": "python utils/copy_js_files.py"
+  },
+  "dependencies": {
+    "cz-git": "^1.11.1"
   }
 }
