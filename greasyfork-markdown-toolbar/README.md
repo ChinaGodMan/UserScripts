@@ -230,6 +230,7 @@
 > -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自动登录**](https://greasyfork.org/scripts/506528): 检测 ThisAV 状态,并且在未登录时自动登录
 > -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
+> -   [**MissAV 增强小助手**](https://greasyfork.org/scripts/529125): 去除广告|后台播放|自动播放|自定义快进时间|完整标题|更多功能...
 
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
 
