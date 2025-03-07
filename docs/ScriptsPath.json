@@ -760,6 +760,22 @@
             "top_tip": "",
             "img": "",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"
+        },
+        {
+            "isUpdated": true,
+            "name": "",
+            "description": "",
+            "relatedscripts": "成人脚本",
+            "path": "missav-enhancer.user.js",
+            "backuppath": "missav-enhancer",
+            "version": "2025.03.07.2114",
+            "GreasyFork": "",
+            "created_at": "2025-03-07 21:14:34",
+            "code_updated_at": "2025-03-07 21:14:34",
+            "local_created_at": "2025-03-07 21:14:34",
+            "top_tip": "",
+            "img": "https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"
         }
     ]
 }
