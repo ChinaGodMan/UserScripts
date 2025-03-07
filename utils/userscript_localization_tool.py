@@ -1,5 +1,4 @@
 import argparse
-import os
 import json
 import re
 import threading
@@ -171,8 +170,9 @@ def translate_and_collect(lines, chinese_texts, lang):
                 translation_output += f'// @name    {translated_text}\n'
         else:
             translation_output += f'// @description:{lang}    {translated_text}'
-            if lang == 'en':
-                translation_output += f'\n// @description    {translated_text}'
+            # NOTE -  - 此处无需添加英文翻译,因为在本地已被翻译
+            """ if lang == 'en':
+                translation_output += f'\n// @description    {translated_text}' """
     return translation_output
 
 

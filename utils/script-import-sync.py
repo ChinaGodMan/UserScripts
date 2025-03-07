@@ -144,13 +144,14 @@ class GreasyFork:
             'commit': '导入'
         }
         response = self.session.post(import_url, headers=headers, data=data)
-
+        print(response.text)
         # 解析返回的脚本ID信息
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             # 提取返回的脚步列表
             results = []  # 用于存储解析后的数组
             ul_element = soup.select_one("body > div.width-constraint > section > ul")
+            print(ul_element)
             if ul_element:
                 li_elements = ul_element.find_all("li")  # 获取所有<li>元素
                 for li in li_elements:
@@ -237,4 +238,4 @@ if __name__ == "__main__":
             # 更新json
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
-            print(f"----\033[94m[{full_path}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
+            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('path')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
