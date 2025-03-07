@@ -1,8 +1,85 @@
 // ==UserScript==
 // @name              xhamster One-Click Video Downloader
-// @description       xhamster One-Click Download | xhamster.com | Download without login | Supports all available resolutions
+// @name:ar           Xhamster فيديو بنقرة واحدة تنزيل مساعد
+// @name:bg           Xhamster Video с едно щракване Изтеглете асистент
+// @name              xhamster video one-click download assistant
+// @name:cs           Xhamster Video One-Click Download Assistant
+// @name:da           Xhamster Video One-Click Download Assistant
+// @name:de           Xhamster Video One-Click-Download-Assistent
+// @name:el           Xhamster Video με ένα κλικ στο Λήψη Βοηθού Λήψη
+// @name:en           xhamster video one-click download assistant
+// @name:eo           XHamster Video One-alklaku Elŝuti Asistanton
+// @name:es           Video de Xhamster Asistente de descarga de un solo clic
+// @name:fi           xhamster-video Yhden napsautuksen lataa avustaja
+// @name:fr           Assistant de téléchargement en un clic vidéo xhamster
+// @name:fr-CA        Assistant de téléchargement en un clic vidéo xhamster
+// @name:he           סרטון Xhamster עוזר להורדה בלחיצה אחת
+// @name:hr           Xhamster Video Assistant One Click Preuzimanje
+// @name:hu           Xhamster Video One kattintson a letöltési asszisztens
+// @name:id           Video Xhamster Asisten Unduh One-Klik
+// @name:it           Xhamster Video Click Download Assistente
+// @name:ja           xhamsterビデオワンクリックダウンロードアシスタント
+// @name:ka           xhamster ვიდეო ერთი დაწკაპუნებით ჩამოტვირთვა ასისტენტი
+// @name:ko           Xhamster 비디오 원 클릭 다운로드 어시스턴트
+// @name:nb           XHamster Video One-Click Download Assistant
+// @name:nl           XHAMSTER VIDEO One Click Download Assistant
+// @name:pl           Xhamster Video One Click Asystent pobierania
+// @name:pt-BR        Vídeo Xhamster One-Click Download Assistant
+// @name:ro           Video Xhamster un singur clic Descărcați Asistent
+// @name:ru           Xhamster Video One Click Download Assistant
+// @name:sk           Xhamster Video jedným kliknutím asistenta na stiahnutie
+// @name:sr           кХамстер Видео Оне-Цлицк Довнлоад Асистент
+// @name:sv           Xhamster Video One-Click Download Assistant
+// @name:th           Xhamster Video Assistant ดาวน์โหลดหนึ่งคลิกคลิก
+// @name:tr           XHamster Video Tek tıklayın Asistan
+// @name:ug           xhmster سىننى بىر چېكىپ چۈشۈرۈش ياردەمچى
+// @name:uk           xhamster Video One-Click Assistant
+// @name:vi           Xamster Video một cú nhấp chuột Trợ lý tải xuống
+// @name:zh           xhamster 视频一键下载助手
 // @name:zh-CN        xhamster 视频一键下载助手
+// @name:zh-HK        xhamster 視頻一鍵下載助手
+// @name:zh-SG        xhamster 视频一键下载助手
+// @name:zh-TW        xhamster 視頻一鍵下載助手
+// @description       xhamster One-Click Download | xhamster.com | Download without login | Supports all available resolutions
+// @description:ar    تحميل الفيديو Xhamster مع نقرة واحدة |
+// @description:bg    Изтегляне на видеоклип с едно щракване |
+// @description:cs    Stahování videa Xhamster |
+// @description:da    Xhamster Video Download med et klik |
+// @description:de    Xhamster Video Download mit einem Klick | xhamster.com |
+// @description:el    Το Xhamster Video Download με ένα κλικ | xhamster.com |
+// @description:en    xhamster video download with one click | xhamster.com | Download directly without login | All viewable resolutions can be downloaded
+// @description:eo    XHamster Video Elŝuti kun unu klako |
+// @description:es    XHAMSTER Video Descargar con un clic |
+// @description:fi    Xhamster -videoiden lataus yhdellä napsautuksella
+// @description:fr    Téléchargement de la vidéo xhamster en un clic |
+// @description:fr-CA Téléchargement de la vidéo xhamster en un clic |
+// @description:he    הורדת וידאו Xhamster עם לחיצה אחת |
+// @description:hr    Xhamster Download s jednim klikom |
+// @description:hu    Xhamster Video Letöltés Egy kattintással |
+// @description:id    Unduh video xhamster dengan satu klik |
+// @description:it    Download video Xhamster con un clic |
+// @description:ja    Xhamster Vidayダウンロード| xhamster.com |
+// @description:ka    Xhamster ვიდეო ჩამოტვირთვა ერთი დაჭერით |
+// @description:ko    xhamster.com으로 직접 다운로드하십시오
+// @description:nb    Xhamster Video Last ned med ett klikk |
+// @description:nl    XHAMSTER VIDEO DOWNLOAD met één klik | Xhamster.com | Download direct zonder inloggen |
+// @description:pl    Pobieranie filmu Xhamster z jednym kliknięciem |
+// @description:pt-BR Xhamster Download com um clique | xhamster.com |
+// @description:ro    Descărcare video Xhamster cu un singur clic |
+// @description:ru    XHAMSTER Скачать с одним щелчком
+// @description:sk    Stiahnutie videa Xhamster s jedným kliknutím |
+// @description:sr    КСХамстер Видео Довнлоад са једним кликом | кХамстер.цом | Преузмите директно без пријаве | све видљиве резолуције могу се преузети
+// @description:sv    Xhamster Video Nedladdning med ett klick |
+// @description:th    ดาวน์โหลดวิดีโอ xhamster ด้วยการคลิกหนึ่งครั้ง |
+// @description:tr    XHAMSTER Video İndir Xhamster.com |
+// @description:ug    xhamster سىن چۈشۈرۈشنى بىر چېكىش ئارقىلىق | Xhamster.com | بىۋاسىتە كىرىشسىز چۈشۈرۈش | ھەممىسى كۆرۈپ باقتىلىغىلى بولىدىغان قارارنى چۈشۈرگىلى بولىدۇ
+// @description:uk    Завантажити xHamster One Click |
+// @description:vi    Tải xuống video Xhamster với một cú nhấp chuột |
+// @description:zh    xhamster 视频一键下载 | xhamster.com | 无需登录直接下载 | 可下载所有可观看分辨率
 // @description:zh-CN xhamster 视频一键下载 | xhamster.com | 无需登录直接下载 | 可下载所有可观看分辨率
+// @description:zh-HK xhamster 視頻一鍵下載 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
+// @description:zh-SG xhamster 视频一键下载 | xhamster.com | 无需登录直接下载 | 可下载所有可观看分辨率
+// @description:zh-TW xhamster 視頻一鍵下載 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
 // @author            Cyru55,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
