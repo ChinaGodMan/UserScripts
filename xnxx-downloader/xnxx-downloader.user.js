@@ -1,8 +1,85 @@
 // ==UserScript==
 // @name              XnxxVideos One-Click Video Downloader
-// @description       XnxxVideos One-Click Download | xnxx.com | Download without login | Supports all available resolutions
+// @name:ar           Xnxxvideos فيديو نقرة واحدة تنزيل
+// @name:bg           Xnxxvideos видео с едно щракване Изтегляне на асистент
+// @name              XnxxVideos Video One-click Download Assistant
+// @name:cs           XnxxVideos Video One-Click Stahování Asistent
+// @name:da           XNXXVIDEOS VIDEO ONE-KLIK DOWNLOAD ASSISTANT
+// @name:de           Xnxxvideos Video Ein-Klick-Download-Assistent
+// @name:el           Xnxxvideos βίντεο
+// @name:en           XnxxVideos Video One-click Download Assistant
+// @name:eo           XNXXVIDEOS-video unu-klaka elŝuta asistanto
+// @name:es           XNXXVIDEOS Video One-Click Descargar Asistente
+// @name:fi           XNXXVIDEOS VIDEO YKSI-napsautuksen lataus Assistant
+// @name:fr           XNXXVIDEOS VIDEO
+// @name:fr-CA        XNXXVIDEOS VIDEO
+// @name:he           Xnxxvideos וידאו עוזר להורדה בלחיצה אחת
+// @name:hr           Xnxxvideos video asistent s jednim klikom
+// @name:hu           Xnxxvideos videó egy kattintással letölthető asszisztens
+// @name:id           XNXXVIDEOS VIDEO One-Click Download Assistant
+// @name:it           XNXXVIDEOS Video Download Assistant
+// @name:ja           xnxxvideosビデオワンクリックダウンロードアシスタント
+// @name:ka           Xnxxvideos ვიდეო ერთი დაწკაპუნებით ჩამოტვირთვა ასისტენტი
+// @name:ko           xnxxvideos 비디오 1 클릭 다운로드 어시스턴트
+// @name:nb           XNXXVIDEOS Video One-Click Download Assistant
+// @name:nl           Xnxxvideos video One Click Download Assistant
+// @name:pl           Xnxxvideos wideo jeden kliknięcie asystenta pobierania
+// @name:pt-BR        XNXXXVIDEOS VÍDEO ONE-Click Download Assistant
+// @name:ro           Xnxxvideos video cu un singur clic ASSISTANT
+// @name:ru           Xnxxvideos видео один клик скачать помощник
+// @name:sk           Xnxxvideos video jedným kliknutím asistenta na stiahnutie
+// @name:sr           Кнкквидеос Видео Оне-Цлицк Довнлоад Асистент
+// @name:sv           Xnxxvideos Video One-Click Download Assistant
+// @name:th           วิดีโอ XNXXVIDEOS ผู้ช่วยดาวน์โหลดหนึ่งคลิกคลิก
+// @name:tr           Xnxxvideos video tek tıklamalı indir asistan
+// @name:ug           Xnxxvideoss سىنلىرى بىر-بىرىنى چۈشۈرۈش ياردەمچى
+// @name:uk           Xnxxvideos video One-Click Assistant
+// @name:vi           Trợ lý tải xuống video xnxxvideos
+// @name:zh           XnxxVideos 视频一键下载助手
 // @name:zh-CN        XnxxVideos 视频一键下载助手
+// @name:zh-HK        XnxxVideos 視頻一鍵下載助手
+// @name:zh-SG        XnxxVideos 视频一键下载助手
+// @name:zh-TW        XnxxVideos 視頻一鍵下載助手
+// @description       XnxxVideos One-Click Download | xnxx.com | Download without login | Supports all available resolutions
+// @description:ar    Xnxxvideos تنزيل مع نقرة واحدة |
+// @description:bg    XNXXVIDEOS VIDEUT Изтегляне с едно щракване |
+// @description:cs    Stáhnout XNXXVideos s jedním kliknutím |
+// @description:da    XNXXVIDEOS VIDEO Download med et klik |
+// @description:de    XNXXVIDEOS VIDEO DOWNALT mit einem Klick | xnxx.com |
+// @description:el    Xnxxvideos Βίντεο λήψη με ένα κλικ | xnxx.com |
+// @description:en    XnxxVideos Video download with one click | xnxx.com | Download directly without login | All viewable resolutions can be downloaded
+// @description:eo    XNXXVideos Video Elŝuti kun unu klako | XNXX.com | Elŝutu rekte sen ensaluto |
+// @description:es    XNXXVIDEOS Descarga con un clic |
+// @description:fi    XNXXVIDEOS
+// @description:fr    Téléchargement de la vidéo xnxxvideos en un clic |
+// @description:fr-CA Téléchargement de la vidéo xnxxvideos en un clic |
+// @description:he    XNXXVIDEOS הורדה עם לחיצה אחת |
+// @description:hr    XnxxVideOS Preuzmi s jednim klikom |
+// @description:hu    XNXXVIDEOS VIDEÓ Letöltés egy kattintással |
+// @description:id    Unduh video xnxxvideos dengan satu klik |
+// @description:it    XNXXVIDEOS Video Scarica con un clic XNXX.com |
+// @description:ja    XNXXVIDEOSビデオダウンロードxnxx.com |
+// @description:ka    Xnxxvideos ვიდეო ჩამოტვირთვა ერთი დაჭერით |
+// @description:ko    xnxvideos는 한 번의 클릭으로 다운로드 |
+// @description:nb    Xnxxvideos video nedlasting med ett klikk |
+// @description:nl    XNXXVIDEOS Video Download met één klik | XNXX.com | Download direct zonder inloggen |
+// @description:pl    Pobieranie wideo xnxvideos za pomocą jednego kliknięcia |
+// @description:pt-BR Xnxxvideos Download com um clique | xnxx.com |
+// @description:ro    Descărcare video XNXXVIDEOS cu un singur clic |
+// @description:ru    Xnxxvideos видео скачать с одним кликом |
+// @description:sk    Stiahnutie videa XnxxVideos s jedným kliknutím |
+// @description:sr    Кнкквидеос Видео Довнлоад са једним кликом | кнкк.цом | Преузмите директно без пријаве | све видљиве резолуције могу се преузети
+// @description:sv    XNXXVIDEOS VIDEO Ladda ner med ett klick |
+// @description:th    ดาวน์โหลดวิดีโอ XNXXVIDEOS ด้วยการคลิกเดียว | xnxx.com |
+// @description:tr    Xnxxvideos tek tıklamayla indirin |
+// @description:ug    Xnxxwidess سىن چۈشۈرۈش | XNXX..com | بىۋاسىتە كىرمەي چۈشۈرۈڭ | ھەممىسى كۆرۈنىكىلى بولىدىغان قارارنى چۈشۈرگىلى بولىدۇ
+// @description:uk    XNXXVIDEOS Завантажити одним клацанням |
+// @description:vi    Tải xuống video XNXXVIDEOS với một lần nhấp vào |
+// @description:zh    XnxxVideos 视频一键下载 | xnxx.com | 无需登录直接下载 | 可下载所有可观看分辨率
 // @description:zh-CN XnxxVideos 视频一键下载 | xnxx.com | 无需登录直接下载 | 可下载所有可观看分辨率
+// @description:zh-HK XnxxVideos 視頻一鍵下載 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
+// @description:zh-SG XnxxVideos 视频一键下载 | xnxx.com | 无需登录直接下载 | 可下载所有可观看分辨率
+// @description:zh-TW XnxxVideos 視頻一鍵下載 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
 // @author            GrandScriptMasterSupreme,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
