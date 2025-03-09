@@ -1,4 +1,10 @@
-# **🛠️ xnxx-downloader 更新日志**
+# **🛠️ XNXX Videos 视频一键下载助手 更新日志**
+
+### **📅 2025.03.08.0828**
+
+**新增**: 自动播放 [XNXX Plus](https://greasyfork.org/scripts/383564) <br>
+
+---
 
 ### **📅 2025.03.07.0821**
 
