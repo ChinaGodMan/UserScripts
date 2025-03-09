@@ -13,6 +13,8 @@
 # Copyright © 2024 - 2025 ChinaGodMan
 ###
 
+import os
+import sys
 import requests
 import json
 import argparse
@@ -61,8 +63,6 @@ def process_script_ids(input_file):
                     print(f"成功处理脚本编号 {greasyfork_id}")
                 else:
                     print(f"失败：无法获取脚本编号 {greasyfork_id}")
-
-        # 返回所有结果作为一个长字符串
         return '<br>\n'.join(result_text)
     except FileNotFoundError:
         print(f"错误：找不到输入文件 {input_file}")
@@ -78,11 +78,11 @@ def main():
     )
 
     args = parser.parse_args()
-
     input_file = args.input
-
-    # 调用处理函数
-    result_text = '## 💖 脚本参考或使用了以下脚本:\n' + process_script_ids(input_file + '/OriginalAuthor.md')
+    if not os.path.exists(input_file):
+        print(f"文件 {input_file} 不存在！")
+        sys.exit()
+    result_text = '## 💖 脚本参考或使用了以下脚本:\n' + process_script_ids(input_file + '/authors.md')
     print(result_text)
     process_file(input_file + '/README.md', result_text, '<!--AUTHORS-->', '<!--AUTHORS-END-->', "head")
 
