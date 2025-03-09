@@ -218,6 +218,8 @@ if __name__ == "__main__":
         if script.get('GreasyFork') == "":
             # 先更新json内的脚本信息与名称
             full_path = script.get('backuppath') + "/" + script.get('path')
+            #  更新引用信息
+            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('backuppath')], check=True)
             # 更新下区域化声明罢了
             subprocess.run(['python', 'utils/userscript_localization_tool.py', full_path], check=True)
             results = search_in_file(full_path, "zh-CN")
