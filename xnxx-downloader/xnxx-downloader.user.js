@@ -80,6 +80,7 @@
 // @description:zh-HK XnxxVideos 視頻一鍵下載 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
 // @description:zh-SG XnxxVideos 视频一键下载 | xnxx.com | 无需登录直接下载 | 可下载所有可观看分辨率
 // @description:zh-TW XnxxVideos 視頻一鍵下載 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
+// @run-at      document-start
 // @author            GrandScriptMasterSupreme,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
@@ -94,43 +95,74 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.07.0821
+// @version           2025.03.08.0828
 // @created           2025-03-07 08:21:29
-// @modified          2025-03-07 08:21:29
+// @modified          2025-03-07 08:28:40
 // ==/UserScript==
+/**
+ * original scripts:
+ * https://greasyfork.org/scripts/37263/
+ * https://greasyfork.org/scripts/383564/
+ * -----
+ * File: xnxx-downloader.user.js
+ * Project: UserScripts
+ * File Created: 2025/03/08,Saturday 20:37:30
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/09,Sunday 08:28:40
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
 
-//https://sleazyfork.org/scripts/37263/
-
-if (document.getElementById('player')) {
-    var h = document.getElementById('player')
-    var hh = h.getElementsByTagName('embed')[0].getAttribute('flashvars')
-    var dlink = unescape(hh.split('flv_url=')[1].split('&')[0])
-
-    var c = document.createElement('div')
-    c.style = 'display: block; z-index:10001 !important; font-size:108%; line-height:108%; color: #ffffff; background-color: #222222; border: 2px solid #7f7ebe; margin-left: auto; margin-right:auto; text-align:center; font-weight:bold;'
-    c.innerHTML = '<a href=\'' + dlink + '\' style=\'margin-right:auto; margin-left:auto; align:center;\'>Download Video</a>'
-    document.body.insertBefore(c, document.body.firstChild)
-} else {
-    var links = {}
-    var S = document.getElementsByTagName('script')
-    for (var s in S) {
-        if (S[s].innerHTML && S[s].innerHTML.indexOf('setVideoUrlLow') != -1) {
-            links.low = S[s].innerHTML.split('html5player.setVideoUrlLow(\'')[1].split('\');')[0]
-            links.high = S[s].innerHTML.split('html5player.setVideoUrlHigh(\'')[1].split('\');')[0]
-            links.hld = S[s].innerHTML.split('html5player.setVideoHLS(\'')[1].split('\');')[0]
-        }
-    }
-
-    for (var x in links) {
-        if (!document.getElementById(x)) {
-            var c = document.createElement('div')
-            c.id = x
-            c.style = 'display: block; z-index:10001 !important; font-size:108%; line-height:108%; color: #ffffff; background-color: #222222; border: 2px solid #7f7ebe; margin-left: auto; margin-right:auto; text-align:center; font-weight:bold;'
-            if (links[x].endsWith('.m3u8')) {
-                links[x] = 'https://tools.thatwind.com/tool/m3u8downloader#m3u8=' + links[x]
-            }
-            c.innerHTML = '<a href=\'' + links[x] + '\' target=\'_blank\' style=\'margin-right:auto; margin-left:auto; align:center;\'>Download ' + x.toString() + ' Video</a>'
-            document.body.insertBefore(c, document.body.firstChild)
-        }
-    }
+const OPTIONS = {
+    autoplay: true,// 自动播放功能
+    cinemaMode: true
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+    const video = document.querySelector('#html5video video')
+    if (video && OPTIONS.autoplay) {
+        video.addEventListener('canplay', function onCanPlay() {
+            document.querySelector('.big-buttons .play').dispatchEvent(new MouseEvent('click'))
+
+            // Only run once
+            video.removeEventListener('canplay', onCanPlay, false)
+        })
+
+    }
+    if (document.getElementById('player')) {
+        var h = document.getElementById('player')
+        var hh = h.getElementsByTagName('embed')[0].getAttribute('flashvars')
+        var dlink = unescape(hh.split('flv_url=')[1].split('&')[0])
+
+        var c = document.createElement('div')
+        c.style = 'display: block; z-index:10001 !important; font-size:108%; line-height:108%; color: #ffffff; background-color: #222222; border: 2px solid #7f7ebe; margin-left: auto; margin-right:auto; text-align:center; font-weight:bold;'
+        c.innerHTML = '<a href=\'' + dlink + '\' style=\'margin-right:auto; margin-left:auto; align:center;\'>Download Video</a>'
+        document.body.insertBefore(c, document.body.firstChild)
+    } else {
+        var links = {}
+        var S = document.getElementsByTagName('script')
+        for (var s in S) {
+            if (S[s].innerHTML && S[s].innerHTML.indexOf('setVideoUrlLow') != -1) {
+                links.low = S[s].innerHTML.split('html5player.setVideoUrlLow(\'')[1].split('\');')[0]
+                links.high = S[s].innerHTML.split('html5player.setVideoUrlHigh(\'')[1].split('\');')[0]
+                links.hld = S[s].innerHTML.split('html5player.setVideoHLS(\'')[1].split('\');')[0]
+            }
+        }
+
+        for (var x in links) {
+            if (!document.getElementById(x)) {
+                var c = document.createElement('div')
+                c.id = x
+                c.style = 'display: block; z-index:10001 !important; font-size:108%; line-height:108%; color: #ffffff; background-color: #222222; border: 2px solid #7f7ebe; margin-left: auto; margin-right:auto; text-align:center; font-weight:bold;'
+                if (links[x].endsWith('.m3u8')) {
+                    links[x] = 'https://tools.thatwind.com/tool/m3u8downloader#m3u8=' + links[x]
+                }
+                c.innerHTML = '<a href=\'' + links[x] + '\' target=\'_blank\' style=\'margin-right:auto; margin-left:auto; align:center;\'>Download ' + x.toString() + ' Video</a>'
+                document.body.insertBefore(c, document.body.firstChild)
+            }
+        }
+    }
+})
