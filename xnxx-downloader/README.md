@@ -52,7 +52,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xnxx-downloader/xnxx-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529044">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ xnxx-downloader 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XNXX Videos 视频一键下载助手 更新日志</strong></h1>
+<h3><strong>📅 2025.03.08.0828</strong></h3>
+<p><strong>新增</strong>: 自动播放 <a href="https://greasyfork.org/scripts/383564">XNXX Plus</a> <br></p>
+<hr />
 <h3><strong>📅 2025.03.07.0821</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
