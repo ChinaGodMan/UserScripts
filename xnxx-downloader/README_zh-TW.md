@@ -195,9 +195,9 @@
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相關腳本
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy fork腳本頁面適用於網址增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
@@ -207,6 +207,7 @@
 > -   [**Greasyfork 膠水工匠**](https://greasyfork.org/scripts/497346): 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
 > -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
 > -   [**Script Finder 油猴腳本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何網站上找到適用於該網站的 油猴腳本。
+> -   [**顯示Greasyfork用戶註冊時間，識別惡意評論**](https://greasyfork.org/scripts/529359): 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->

@@ -8,13 +8,14 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-hightlight/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-hightlight/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-hightlight/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-hightlight/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-hightlight/README_zh-TW.md">繁體中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/authors.md">简体中文</a>
     <br>
-    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -22,19 +23,19 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤務員的腳本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤務員的腳本</a><br><a href="#:~:text=查看所有發布腳本">當前頁面查看勤務員的腳本</a></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%85%B3%E6%9C%AC%E7%B8%BD%E5%AE%89%E8%A3%9D%E6%95%B8&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%85%B3%E6%9C%AC%E5%AE%89%E8%A3%9D%E6%95%B8&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%85%B3%E6%9C%AC%E6%95%B8%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%A9%95&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%A9%95&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A2%BC%E8%B3%AA%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A8%99&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果腳本對你有幫助,可以點亮星星以資鼓勵</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
@@ -46,64 +47,124 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>ChatGPT 代碼高亮</h1>
-    <p>「 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js） 」</p>
-    <img src="https://views.whatilearened.today/views/github/527255/hmjz100.svg" alt="Views">
-    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js?color=%23990000">
-    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/527255">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ XXXXX 更新日誌</strong></h1>
-<h3><strong>📅 2025-02-18 04:03:10- Ver 1.0.0.0</strong></h3>
-<p><strong>修復</strong>: •修復無法高亮問題( 如果是數組,直接獲取,然後添加一個類名)</p>
+    <h1>顯示Greasyfork用戶註冊時間，識別惡意評論</h1>
+    <p>「 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。 」</p>
+    <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ greasyfork-user-registration-time 更新日志</strong></h1>
+<h3><strong>📅 2025.03.10.0959</strong></h3>
+<p><strong>新增</strong>: 从<code>GreasyFork</code>直接获取用户的注册时间 ..</p>
 <hr /></details>
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/527255.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529359.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--正文区域-->
 
-# ChatGPTCodeHighlight
+# 显示 Greasyfork 用户注册时间，识别恶意评论
 
-## **人民的勤务员**修復無法高亮代碼的問題
+## 功能介绍
 
-為 ChatGPT 編寫的所有語言代碼增加高亮顯示。
-支持 [Highlight.js](https://highlightjs.org/) 所有的 192 種語言，與 ChatGPT 主題保持一致。
+该脚本用于在 GreasyFork 或 SleazyFork 上显示用户的**注册时间**，帮助识别**恶意注册**的账户。恶意注册的账户通常会在**注册后不久**给予差评，且**账号活动较少**。通过显示用户的注册时间，可以推测用户的可信度。如果注册时间显示为**未来的时间**，则该用户很可能是**恶意注册**的。
+这个脚本在 greasyfork 的各种评论、留言相关页面显示发言者的注册时间。如果你是开发者，可以帮你分辨恶意评论的小号；如果你不是开发者，也可以帮你辨认发言者是老用户还是新用户。
 
-![preview](https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png)
+## 功能亮点：
 
-## GitHub
+-   **显示用户注册时间**：脚本会自动获取用户的注册时间，并将其显示在用户名旁边，帮助区分新用户与长期活跃用户。
+-   **推测注册时间**：通过访问 GreasyFork 提供的 API，脚本推测并显示每个用户的注册时间。
+-   **识别恶意账户**：注册时间若为未来时间，表示该用户可能是恶意注册的账号，警示用户注意。
 
--   地址：[https://github.com/Dreace/ChatGPTCodeHighlight](https://github.com/Dreace/ChatGPTCodeHighlight)
+## 支持的语言：
 
-## 安裝
+-   English
+-   简体中文
+-   繁体中文
+-   日本語
+-   Русский
+-   한국어
 
--   Chrome 推薦使用擴展：「[Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)」
--   Firefox 推薦使用擴展：「[Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)」
--   腳本地址：[https://greasyfork.org/zh-CN/scripts/496646-chatgpt-code-highlight](https://greasyfork.org/zh-CN/scripts/496646-chatgpt-code-highlight)
+## 使用方式：
 
-## 使用
+1. 💯 安装该脚本后，它会在你浏览 GreasyFork 或 SleazyFork 网站时自动加载。
+2. 👍 当页面加载完成后，脚本会在用户信息旁边显示该用户的注册时间。
+3. ⏲️ 如果页面上已有该用户的注册时间，脚本会直接显示；如果没有，会显示一个按钮，点击后可以获取并显示该时间。(脚本直接通过`GreasyFork`提供的 API 获取注册时间，为了防止被屏蔽,所以添加按钮手动获取)
+4. 🇹🇱 默认显示的时间格式为`YYYY-MM-DD HH:mm:ss`。脚本变量`absoluteTime`改为`relative-time`使用网站的时间显示.
 
-1. 使用「安裝」中提到的任意一個插件安裝腳本
-2. 打開 [https://chatgpt.com/](https://chatgpt.com/) 進行對話
-3. 查看代碼高亮效果
+## 适用环境：
+
+-   💯 支持 Chrome、Firefox、Edge、Opera、Safari、Kiwi 等浏览器。
+
+## 联系方式：
+
+-   👨‍🦰 **作者**: 人民的勤务员@ChinaGodMan
+-   📧 **邮箱**: china.qinwuyuan@gmail.com
+-   🕸️ **项目主页**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
+
+<!--AUTHORS-->
+## 💖 脚本参考或使用了以下脚本:
+[@yysk.org](https://greasyfork.org/users/922552) ---- [显示Greasyfork用户注册时间，识别恶意评论](https://greasyfork.org/scripts/450603)
+<!--AUTHORS-END-->
+<!--SCREENSHOT-->
+
+## 截图预览:
+
+1. _匹配评论列表页面：[https://greasyfork.org/zh-CN/scripts/\\d+/feedback](https://greasyfork.org/zh-CN/scripts/\d+/feedback)_
+
+![](https://s3.bmp.ovh/imgs/2022/09/02/42c32b26a20c4b01.png)
+
+2. _匹配评论页面：[https://greasyfork.org/zh-CN/scripts/\\d+/discussions/\\d](https://greasyfork.org/zh-CN/scripts/\d+/discussions/\d)+_
+
+3. ![](https://s3.bmp.ovh/imgs/2022/09/02/9d5924d4f8412416.png)
+
+4. _匹配用户讨论页面：[https://greasyfork.org/zh-CN/discussions?user=\\d](https://greasyfork.org/zh-CN/discussions?user=\d)+_
+
+![](https://s3.bmp.ovh/imgs/2022/09/02/993a3ac7ec9fd2ab.png)
+
+5._匹配讨论列表页：[https://greasyfork.org/zh-CN/discussions](https://greasyfork.org/zh-CN/discussions)_
+
+![](https://s3.bmp.ovh/imgs/2022/09/02/9a7ff6eddf3a74bb.png)
+
+6. _匹配各类页面上的脚本作者链接_
+
+![](https://s3.bmp.ovh/imgs/2022/09/02/94b38eda3fb69948.png)
+
+7. _匹配用户列表页 [https://greasyfork.org/zh-CN/users](https://greasyfork.org/zh-CN/users)_
+
+![](https://s3.bmp.ovh/imgs/2022/09/03/aa2e429f08ddc797.png)
+
+8. _匹配脚本表页：[https://greasyfork.org/zh-CN/scripts](https://greasyfork.org/zh-CN/discscriptsussions)_
+
+![111.png](https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png)
+
+<!--SCREENSHOT-END-->
+<!--正文区域-END-->
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相關腳本
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**ChatGPT程序碼字體縮小**](https://greasyfork.org/scripts/505209): ChatGPT 讓程序碼字體變小 並且自動折行
-> -   [**ChatGPT 代碼高亮**](https://greasyfork.org/scripts/527255): 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js）
-> -   [**ChatGPT 聊天複製程式碼和匯出程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
-> -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
-> -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**GreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
+> -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
+> -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列
+> -   [**Greasyfork 腳本顯示評分**](https://greasyfork.org/scripts/501119): 在瀏覽腳本清單時在腳本名稱後面新增腳本評分
+> -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): 使用谷歌搜尋GreasyFork和SleazyFork上體文字
+> -   [**GreasyFork: 導覽列增強**](https://greasyfork.org/scripts/501880): 在導覽列上新增使用者列表,主機,收藏等..
+> -   [**Greasyfork 膠水工匠**](https://greasyfork.org/scripts/497346): 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作
+> -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。
+> -   [**Script Finder 油猴腳本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何網站上找到適用於該網站的 油猴腳本。
+> -   [**顯示Greasyfork用戶註冊時間，識別惡意評論**](https://greasyfork.org/scripts/529359): 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用幫助
+## 使用帮助
 
-推薦瀏覽器和腳本管理器：
+推荐浏览器和脚本管理器：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -111,19 +172,19 @@
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多關於如何安裝用戶腳本,[點擊我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看圖文教學!**
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有發布腳本
+### 查看所有发布脚本
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相關腳本
+> ### 🔍你可能在找ChatGPT相关脚本
 >
-> -   [**ChatGPT程序碼字體縮小**](https://greasyfork.org/scripts/505209): ChatGPT 讓程序碼字體變小 並且自動折行
+> -   [**ChatGPT程序码字体缩小**](https://greasyfork.org/scripts/505209): ChatGPT 让程序码字体变小 并且自动折行
 > -   [**ChatGPT 代碼高亮**](https://greasyfork.org/scripts/527255): 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js）
 > -   [**ChatGPT 聊天複製程式碼和匯出程式碼按鈕**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。
 > -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
@@ -133,13 +194,13 @@
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找網頁相關腳本
+> ### 🔍你可能在找网页相关脚本
 >
 > -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 管理網頁對剪貼簿的寫入行為防止未經授權的自動複製和停用音視頻內容預載及自動播放。
-> -   [**解除CSDN登錄複製**](https://greasyfork.org/scripts/505207): 去你媽的CSDN登錄複製,無需登錄即可複制
+> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為表格所有欄位套用色彩漸層來美化
-> -   [**網頁高亮關鍵字**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
-> -   [**網頁關鍵詞高亮顯示**](https://greasyfork.org/scripts/498905): 在網頁上自定義關鍵詞突出顯示包括滾動時動態加載的內容
+> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > -   [**小窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
 > -   [**移除連結下劃線**](https://greasyfork.org/scripts/498625): 移除所有網站上的連結底線，並動態處理新鏈接
 > -   [**上下滾動按鈕**](https://greasyfork.org/scripts/497251): 在頁面右側產生兩個按鈕用於滾動頁面
@@ -149,7 +210,7 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相關腳本
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -166,10 +227,10 @@
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相關腳本
+> ### 🔍你可能在找Google相关脚本
 >
 > -   [**Google 高級搜尋助手**](https://greasyfork.org/scripts/502652): 在谷歌搜尋頁面頂部新增一個高級搜尋表單
-> -   [**屏蔽谷歌搜索站點**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站點
+> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -193,7 +254,7 @@
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人腳本
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV 自動登入**](https://greasyfork.org/scripts/505325): 偵測 MissAV 狀態,並且在未登入時自動登入
 > -   [**xhamster 視頻一鍵下載助手**](https://greasyfork.org/scripts/529043): xhamster 視頻一鍵下載 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
@@ -201,7 +262,7 @@
 > -   [**xvideos推送下載**](https://greasyfork.org/scripts/528798): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
 > -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/528800): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
 > -   [**MissAV視頻下載工具**](https://greasyfork.org/scripts/528160): 從當前missav播放頁面嗅探視頻的真實下載地址並下載
-> -   [**MissAv批量備份收藏視頻**](https://greasyfork.org/scripts/497682): 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV 自動登入**](https://greasyfork.org/scripts/506528): 偵測 ThisAV 狀態,並且在未登入時自動登入
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 > -   [**MissAV 增強小助手**](https://greasyfork.org/scripts/529125): 去除廣告|後台播放|自動播放|自定義快進時間|完整標題|更多功能...
@@ -210,15 +271,15 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自動翻譯
+> ### 🔍你可能在找自动翻译
 >
-> -   [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於5且翻譯文本中不含中文，則翻譯並且替換原始文本到中文
-> -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /<a href="#top">回到頂部↑</a></p></div></center>
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
 
 <!--FOOTER--END-->

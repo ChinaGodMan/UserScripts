@@ -161,9 +161,9 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkTrang kịch bản phù hợp để tăng cường URL**](https://greasyfork.org/scripts/497317): Trang chi tiết tập lệnh phù hợp cho tìm kiếm mà không cần chuyển hướng URL mặc định Chuyển sang liên kết văn bản có thể nhấp và bật lên lời nhắc
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
 > -   [**GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh
@@ -173,6 +173,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Greasyfork Thợ làm keo**](https://greasyfork.org/scripts/497346): vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động
 > -   [**GreasyFork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Tập lệnh sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
 > -   [**Script Finder Tra cứu tập lệnh GreasyFork**](https://greasyfork.org/scripts/498904): Script Finder Tìm trên bất kỳ trang web nào áp dụng cho trang web đó Kịch bản khỉ mỡ。
+> -   [**Hiển thị thời gian đăng ký của người dùng Greasyfork và xác định nhận xét độc hại**](https://greasyfork.org/scripts/529359): Nếu kịch bản của bạn can thiệp vào lợi ích của một số người, không có gì đáng ngạc nhiên khi nhận được các đánh giá tiêu cực độc hại. Có hai đặc điểm của các đánh giá tiêu cực độc hại: Một là tài khoản thường được đăng ký mới và một đặc điểm khác là các đánh giá tiêu cực sẽ được đưa ra ngay sau khi đăng ký và về cơ bản sẽ không có hoạt động tiếp theo. Kịch bản này có thời gian đăng ký của người dùng Greasyfork và được hiển thị bên cạnh tên người dùng. Nếu thời gian hiển thị bên cạnh tên người dùng là thời gian trong tương lai, thì người dùng có thể sẽ là một tài khoản độc hại được đăng ký.
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->

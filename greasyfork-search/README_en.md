@@ -101,9 +101,9 @@ The author [𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking forGreasyForkRelated scripts
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
@@ -113,6 +113,7 @@ The author [𝖢𝖸 𝖥𝗎𝗇𝗀](https://greasyfork.org/zh-CN/users/371179
 > -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
 > -   [**GreasyFork Notification Assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > -   [**Script Finder GreasyFork Script Lookup**](https://greasyfork.org/scripts/498904): Script Finder Find on any website that applies to that website GreasyFork Script。
+> -   [**Display the registration time of Greasyfork user and identify malicious comments**](https://greasyfork.org/scripts/529359): If your script interferes with the interests of some people, it is not surprising to receive malicious negative reviews. There are two characteristics of malicious negative reviews: one is that the account is usually newly registered, and the other is that the negative reviews will be given shortly after registration, and there will be basically no follow-up activities. This script gets the registration time of the greasyfork user and is displayed next to the user name. If the time displayed next to the user name is the future time, then the user is likely to be a malicious account registered.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
@@ -197,9 +198,9 @@ Recommended browsers and script managers：
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking forGreasyForkRelated scripts
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkScript pages are suitable for URL enhancement**](https://greasyfork.org/scripts/497317): Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork User-published script data visualization**](https://greasyfork.org/scripts/508968): useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
 > -   [**GreaysFork EnhanceWebHookSync settings**](https://greasyfork.org/scripts/506717): GreaysFork Quickly enter script synchronization information，And add language codes for multiple countries in batches，Instead of clicking the selection boxes one by one and going to the corresponding URL。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled
@@ -209,6 +210,7 @@ Recommended browsers and script managers：
 > -   [**Greasyfork Glue craftsman**](https://greasyfork.org/scripts/497346): for Greasyfork Provide various usage functions，absolute time，Web widescreen，Script page enhancements，Download extension，Panel repair and a series of operations
 > -   [**GreasyFork Notification Assistant**](https://greasyfork.org/scripts/506345): When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。
 > -   [**Script Finder GreasyFork Script Lookup**](https://greasyfork.org/scripts/498904): Script Finder Find on any website that applies to that website GreasyFork Script。
+> -   [**Display the registration time of Greasyfork user and identify malicious comments**](https://greasyfork.org/scripts/529359): If your script interferes with the interests of some people, it is not surprising to receive malicious negative reviews. There are two characteristics of malicious negative reviews: one is that the account is usually newly registered, and the other is that the negative reviews will be given shortly after registration, and there will be basically no follow-up activities. This script gets the registration time of the greasyfork user and is displayed next to the user name. If the time displayed next to the user name is the future time, then the user is likely to be a malicious account registered.
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 

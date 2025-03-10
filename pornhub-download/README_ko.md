@@ -189,18 +189,19 @@
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy fork스크립트 페이지는 URL 향상에 적합합니다**](https://greasyfork.org/scripts/497317): 스크립트 세부 정보 페이지는 기본 URL 리디렉션없이 검색에 적합합니다. 클릭 가능한 텍스트 링크로 돌아가 팝업하십시오
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
 > -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
 > -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
 > -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
-> -   [**Greasyfork 리깅 메이커를 붙여 넣으십시오**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
 > -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
+> -   [**GreasyFork 사용자의 등록 시간을 표시하고 악의적 인 의견을 식별하십시오.**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다.
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->

@@ -173,6 +173,7 @@ _人民的勤务员修复失效代码_
 > -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作
 > -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。
 > -   [**Script Finder 油猴脚本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何网站上找到适用于该网站的 油猴脚本。
+> -   [**显示Greasyfork用户注册时间，识别恶意评论**](https://greasyfork.org/scripts/529359): 如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本获取greasyfork用户注册时间，并显示在用户名旁边。如果用户名旁边显示的时间是未来的时间，那么这个用户很可能是恶意注册的账号。
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
