@@ -166,8 +166,9 @@ def translate_and_collect(lines, chinese_texts, lang):
     for line_number, chinese_text, translated_text in [(ln, ct, translations.get((ln, ct), None)) for ln, ct in chinese_texts if (ln, ct) in translations]:
         if line_number == 0:  # 假设第一行是标题
             translation_output += f'// @name:{lang}    {translated_text}\n'
-            if lang == 'en':
-                translation_output += f'// @name    {translated_text}\n'
+            # NOTE -  - 此处无需添加英文翻译,因为在本地已被翻译
+            """ if lang == 'en':
+                translation_output += f'// @name    {translated_text}\n' """
         else:
             translation_output += f'// @description:{lang}    {translated_text}'
             # NOTE -  - 此处无需添加英文翻译,因为在本地已被翻译
