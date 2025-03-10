@@ -193,9 +193,9 @@
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍你可能在找GreasyFork相關腳本
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork腳本頁面適用於網址增強**](https://greasyfork.org/scripts/497317): 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示
 > -   [**GreasyFork 用戶發布的腳本資料視覺化**](https://greasyfork.org/scripts/508968): 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
 > -   [**GreaysFork 增強WebHook同步設定**](https://greasyfork.org/scripts/506717): GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列

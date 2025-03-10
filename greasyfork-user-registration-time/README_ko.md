@@ -15,7 +15,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/authors.md">简体中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️입장GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
     </h6>
 </div>
 
@@ -23,19 +23,19 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub군인의 대본을보십시오<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork군인의 대본을보십시오</a><br><a href="#:~:text=모든 게시 스크립트를보십시오">현재 페이지에서 군인의 스크립트를 봅니다</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%20%EC%84%A4%EC%B9%98%EB%90%9C%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9E%A5%EA%B5%B0&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=%EB%AA%A8%EB%93%A0%20%EB%B6%80%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%EC%8A%A4%ED%83%80%20%EB%A7%88%ED%81%AC&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">스크립트가 도움이된다면,별을 밝히고 격려 할 수 있습니다</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
@@ -53,107 +53,107 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ greasyfork-user-registration-time 更新日志</strong></h1>
+            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ greasyfork-user-registration-time 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.03.10.0959</strong></h3>
-<p><strong>新增</strong>: 从<code>GreasyFork</code>直接获取用户的注册时间 ..</p>
+<p><strong>새로운</strong>: ~에서<code>GreasyFork</code>사용자의 등록 시간을 직접 받으십시오 ..</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529359.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--正文区域-->
+<!--텍스트 영역-->
 
-# 显示 Greasyfork 用户注册时间，识别恶意评论
+# 보여주다 Greasyfork 사용자 등록 시간，악의적 인 의견을 식별하십시오
 
-## 功能介绍
+## 기능적 소개
 
-该脚本用于在 GreasyFork 或 SleazyFork 上显示用户的**注册时间**，帮助识别**恶意注册**的账户。恶意注册的账户通常会在**注册后不久**给予差评，且**账号活动较少**。通过显示用户的注册时间，可以推测用户的可信度。如果注册时间显示为**未来的时间**，则该用户很可能是**恶意注册**的。
-这个脚本在 greasyfork 的各种评论、留言相关页面显示发言者的注册时间。如果你是开发者，可以帮你分辨恶意评论的小号；如果你不是开发者，也可以帮你辨认发言者是老用户还是新用户。
+이 스크립트는 사용됩니다 GreasyFork 또는 SleazyFork 上显示用户~의**등록 시간**，식별하는 데 도움이됩니다**악의적 인 등록**계정。악의적으로 등록 된 계정은 일반적으로입니다**등록 직후**부정적인 리뷰를 제공하십시오，그리고**적은 계정 활동**。사용자의 등록 시간을 표시합니다，사용자의 신뢰성을 추측하는 데 사용될 수 있습니다.。등록 시간이 표시되는 경우**미래 시간**，그렇다면 사용자는 가능성이 높습니다**악의적 인 등록**的。
+이 스크립트입니다 greasyfork 다양한 의견、메시지와 관련된 페이지는 화자의 등록 시간을 보여줍니다.。당신이 개발자라면，악의적 인 의견을 구별하는 데 도움이되는 작은 계정；당신이 개발자가 아니라면，또한 스피커가 이전 사용자인지 새 사용자인지 식별하는 데 도움이 될 수 있습니다.。
 
-## 功能亮点：
+## 기능 하이라이트：
 
--   **显示用户注册时间**：脚本会自动获取用户的注册时间，并将其显示在用户名旁边，帮助区分新用户与长期活跃用户。
--   **推测注册时间**：通过访问 GreasyFork 提供的 API，脚本推测并显示每个用户的注册时间。
--   **识别恶意账户**：注册时间若为未来时间，表示该用户可能是恶意注册的账号，警示用户注意。
+-   **사용자 등록 시간을 보여줍니다**：스크립트는 사용자의 등록 시간을 자동으로 얻습니다，사용자 이름 옆에 표시하십시오，새로운 사용자를 장기적인 활성 사용자와 구별하는 데 도움이됩니다。
+-   **예측 된 등록 시간**：액세스에 의해 GreasyFork 제공 API，스크립트는 각 사용자의 등록 시간을 추측하고 표시합니다.。
+-   **악의적 인 계정을 식별합니다**：등록 시간이 미래의 시간 인 경우，그것은 사용자가 악성 계정을 등록했을 수 있음을 의미합니다.，사용자가주의를 기울 이도록 경고합니다。
 
-## 支持的语言：
+## 지원되는 언어：
 
 -   English
 -   简体中文
--   繁体中文
+-   전통적인 중국어
 -   日本語
 -   Русский
 -   한국어
 
-## 使用方式：
+## 사용 방법：
 
-1. 💯 安装该脚本后，它会在你浏览 GreasyFork 或 SleazyFork 网站时自动加载。
-2. 👍 当页面加载完成后，脚本会在用户信息旁边显示该用户的注册时间。
-3. ⏲️ 如果页面上已有该用户的注册时间，脚本会直接显示；如果没有，会显示一个按钮，点击后可以获取并显示该时间。(脚本直接通过`GreasyFork`提供的 API 获取注册时间，为了防止被屏蔽,所以添加按钮手动获取)
-4. 🇹🇱 默认显示的时间格式为`YYYY-MM-DD HH:mm:ss`。脚本变量`absoluteTime`改为`relative-time`使用网站的时间显示.
+1. 💯 스크립트를 설치 한 후，당신의 탐색이 될 것입니다 GreasyFork 또는 SleazyFork 웹 사이트에 자동로드。
+2. 👍 페이지가로드 된 경우，스크립트에는 사용자의 정보 옆에 사용자의 등록 시간이 표시됩니다.。
+3. ⏲️ 사용자의 등록 시간이 이미 페이지에있는 경우，스크립트는 직접 표시됩니다；그렇지 않다면，버튼이 표시됩니다，클릭하여 시간을 표시하고 표시합니다。(스크립트는 직접 전달됩니다`GreasyFork`제공 API 등록 시간을 얻으십시오，차단을 방지합니다,따라서 버튼을 추가하여 수동으로 가져옵니다)
+4. 🇹🇱 기본 시간 형식은입니다`YYYY-MM-DD HH:mm:ss`。스크립트 변수`absoluteTime`변경`relative-time`웹 사이트 사용 시간 표시.
 
-## 适用环境：
+## 적용 가능한 환경：
 
--   💯 支持 Chrome、Firefox、Edge、Opera、Safari、Kiwi 等浏览器。
+-   💯 지원하다 Chrome、Firefox、Edge、Opera、Safari、Kiwi 브라우저를 기다리십시오。
 
-## 联系方式：
+## 연락처 정보：
 
--   👨‍🦰 **作者**: 人民的勤务员@ChinaGodMan
--   📧 **邮箱**: china.qinwuyuan@gmail.com
--   🕸️ **项目主页**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
+-   👨‍🦰 **작가**: 人民的勤务员@ChinaGodMan
+-   📧 **우편**: china.qinwuyuan@gmail.com
+-   🕸️ **프로젝트 홈페이지**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
-[@yysk.org](https://greasyfork.org/users/922552) ---- [显示Greasyfork用户注册时间，识别恶意评论](https://greasyfork.org/scripts/450603)
+## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
+[@yysk.org](https://greasyfork.org/users/922552) ---- [보여주다Greasyfork사용자 등록 시간，악의적 인 의견을 식별하십시오](https://greasyfork.org/scripts/450603)
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
-## 截图预览:
+## 스크린 샷 미리보기:
 
-1. _匹配评论列表页面：[https://greasyfork.org/zh-CN/scripts/\\d+/feedback](https://greasyfork.org/zh-CN/scripts/\d+/feedback)_
+1. _주석 목록 페이지를 일치시킵니다：[https://greasyfork.org/zh-CN/scripts/\\d+/feedback](https://greasyfork.org/zh-CN/scripts/\d+/feedback)_
 
 ![](https://s3.bmp.ovh/imgs/2022/09/02/42c32b26a20c4b01.png)
 
-2. _匹配评论页面：[https://greasyfork.org/zh-CN/scripts/\\d+/discussions/\\d](https://greasyfork.org/zh-CN/scripts/\d+/discussions/\d)+_
+2. _댓글 페이지를 일치시킵니다：[https://greasyfork.org/zh-CN/scripts/\\d+/discussions/\\d](https://greasyfork.org/zh-CN/scripts/\d+/discussions/\d)+_
 
 3. ![](https://s3.bmp.ovh/imgs/2022/09/02/9d5924d4f8412416.png)
 
-4. _匹配用户讨论页面：[https://greasyfork.org/zh-CN/discussions?user=\\d](https://greasyfork.org/zh-CN/discussions?user=\d)+_
+4. _사용자 토론 페이지를 일치시킵니다：[https://greasyfork.org/zh-CN/discussions?user=\\d](https://greasyfork.org/zh-CN/discussions?user=\d)+_
 
 ![](https://s3.bmp.ovh/imgs/2022/09/02/993a3ac7ec9fd2ab.png)
 
-5._匹配讨论列表页：[https://greasyfork.org/zh-CN/discussions](https://greasyfork.org/zh-CN/discussions)_
+5._일치 토론 목록 페이지：[https://greasyfork.org/zh-CN/discussions](https://greasyfork.org/zh-CN/discussions)_
 
 ![](https://s3.bmp.ovh/imgs/2022/09/02/9a7ff6eddf3a74bb.png)
 
-6. _匹配各类页面上的脚本作者链接_
+6. _다양한 페이지에서 스크립트 작성자 링크를 일치시킵니다_
 
 ![](https://s3.bmp.ovh/imgs/2022/09/02/94b38eda3fb69948.png)
 
-7. _匹配用户列表页 [https://greasyfork.org/zh-CN/users](https://greasyfork.org/zh-CN/users)_
+7. _사용자 목록 페이지를 일치시킵니다 [https://greasyfork.org/zh-CN/users](https://greasyfork.org/zh-CN/users)_
 
 ![](https://s3.bmp.ovh/imgs/2022/09/03/aa2e429f08ddc797.png)
 
-8. _匹配脚本表页：[https://greasyfork.org/zh-CN/scripts](https://greasyfork.org/zh-CN/discscriptsussions)_
+8. _스크립트 테이블 페이지를 일치시킵니다：[https://greasyfork.org/zh-CN/scripts](https://greasyfork.org/zh-CN/discscriptsussions)_
 
 ![111.png](https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png)
 
 <!--SCREENSHOT-END-->
-<!--正文区域-END-->
+<!--텍스트 영역-END-->
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork스크립트 페이지는 URL 향상에 적합합니다**](https://greasyfork.org/scripts/497317): 스크립트 세부 정보 페이지는 기본 URL 리디렉션없이 검색에 적합합니다. 클릭 가능한 텍스트 링크로 돌아가 팝업하십시오
 > -   [**GreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
 > -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
 > -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
 > -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**Greasyfork 리깅 메이커를 붙여 넣으십시오**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
 > -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 > -   [**GreasyFork 사용자의 등록 시간을 표시하고 악의적 인 의견을 식별하십시오.**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다.
@@ -162,9 +162,9 @@
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 使用帮助
+## 돕다
 
-推荐浏览器和脚本管理器：
+권장 브라우저 및 스크립트 관리자：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -172,17 +172,17 @@
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
+**사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)그림과 텍스트의 가르침을보십시오!**
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### 查看所有发布脚本
+### 모든 게시 스크립트를보십시오
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找ChatGPT相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
 > -   [**ChatGPT코드 글꼴 크기 감소**](https://greasyfork.org/scripts/505209): ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 > -   [**chatgpt 코드가 강조되었습니다**](https://greasyfork.org/scripts/527255): ChatGpt에 대한 모든 언어 코드 추가
@@ -194,13 +194,13 @@
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
 > -   [**웹 페이지 작성 클립 버전 권한 관리자**](https://greasyfork.org/scripts/497403): 웹페이지의 클립보드 쓰기 동작을 관리하여 무단 자동 복사를 방지하고 오디오 및 비디오 콘텐츠 사전 로드 및 자동 재생을 비활성화합니다.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**제거CSDN복사하려면 로그인하십시오**](https://greasyfork.org/scripts/505207): 가서 엿 먹어라CSDN복사하려면 로그인하십시오,로그인하지 않고 복사하십시오
 > -   [**화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요**](https://greasyfork.org/scripts/507036): 테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**웹에서 키워드를 강조 표시합니다**](https://greasyfork.org/scripts/498906): 웹 페이지에서 텍스트를 강조 표시합니다，그것이 당신을 도울 경우，마음대로 수정 및 사용할 수 있습니다
+> -   [**웹 키워드를 강조 표시합니다**](https://greasyfork.org/scripts/498905): 스크롤 할 때 동적로드를 포함한 웹 페이지에서 사용자 정의 키워드 강조 표시
 > -   [**작은 창 미리보기**](https://greasyfork.org/scripts/504880): 링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。
 > -   [**링크 밑줄 제거**](https://greasyfork.org/scripts/498625): 모든 사이트의 링크 밑줄 제거，새 링크를 동적으로 처리합니다.
 > -   [**스크롤 버튼**](https://greasyfork.org/scripts/497251): 페이지 스크롤을 위해 페이지 오른쪽에 두 개의 버튼을 생성합니다.
@@ -210,7 +210,7 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
@@ -227,25 +227,25 @@
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找Google相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
 > -   [**Google 고급 검색 도우미**](https://greasyfork.org/scripts/502652): Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
-> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
+> -   [**Google 검색 사이트를 차단하십시오**](https://greasyfork.org/scripts/500262): 존재하다google검색 지정된 사이트를 차단합니다
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GreasyFork相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
-> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+> -   [**Greasy fork스크립트 페이지는 URL 향상에 적합합니다**](https://greasyfork.org/scripts/497317): 스크립트 세부 정보 페이지는 기본 URL 리디렉션없이 검색에 적합합니다. 클릭 가능한 텍스트 링크로 돌아가 팝업하십시오
 > -   [**GreasyFork 사용자 게시 스크립트 데이터 시각화**](https://greasyfork.org/scripts/508968): 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
 > -   [**GreaysFork 향상시키다WebHook동기화 설정**](https://greasyfork.org/scripts/506717): GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): 포럼에서 사용되는 기본 형식은 다음과 같습니다.Markdown，형식 도움말 링크 추가 및 새 스크립트 게시,빠른 편집이 활성화된 응답 시간 도구 모음
 > -   [**Greasyfork 평점을 표시하는 스크립트**](https://greasyfork.org/scripts/501119): 스크립트 목록 탐색 시 스크립트 이름 뒤에 스크립트 등급 추가
 > -   [**GreasyFork Search**](https://greasyfork.org/scripts/505215): Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   [**GreasyFork: 탐색 표시줄 개선**](https://greasyfork.org/scripts/501880): 탐색 표시줄에 사용자 목록 추가,콘솔,수집 등..
-> -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
+> -   [**Greasyfork 리깅 메이커를 붙여 넣으십시오**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능 제공，절대 시간，웹 와이드스크린，스크립트 페이지 개선 사항，확장 프로그램 다운로드，패널 수리 및 일련의 작업
 > -   [**GreasyFork 알림 도우미**](https://greasyfork.org/scripts/506345): 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 > -   [**GreasyFork 사용자의 등록 시간을 표시하고 악의적 인 의견을 식별하십시오.**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다.
@@ -254,7 +254,7 @@
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**Xhamster 비디오 원 클릭 다운로드 어시스턴트**](https://greasyfork.org/scripts/529043): xhamster.com으로 직접 다운로드하십시오
@@ -262,7 +262,7 @@
 > -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/528798): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
 > -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/528800): Pornhub는 한 번의 클릭으로 다운로드하십시오
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**Missav 강조 보조원**](https://greasyfork.org/scripts/529125): 광고를 제거합니다.
@@ -271,15 +271,15 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍자동 번역을 찾고있을 수 있습니다
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**외국어 터미네이터**](https://greasyfork.org/scripts/504890): 비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우5번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，그런 다음 원본 텍스트를 중국어로 번역하고 교체하십시오
+> -   [**웹 번역——중국어로의 자동 번역**](https://greasyfork.org/scripts/505208): 각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p></div></center>
 
 <!--FOOTER--END-->
