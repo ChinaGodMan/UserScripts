@@ -1,39 +1,39 @@
 // ==UserScript==
 // @name              Display GreasyFork user registration time
-// @name:ar           عرض وقت التسجيل لمستخدم GreasyFork وحدد التعليقات الضارة
-// @name:bg           Показване на времето за регистрация на потребителя на мазнини и идентифицирайте злонамерени коментари
-// @name:cs           Zobrazit dobu registrace uživatele Greasyfork a identifikujte škodlivé komentáře
-// @name:da           Vis registreringstiden for GeasyFork -bruger og identificer ondsindede kommentarer
-// @name:de           Zeigen Sie die Registrierungszeit des FreasyFork -Benutzers an und identifizieren Sie böswillige Kommentare
-// @name:el           Εμφάνιση του χρόνου εγγραφής του χρήστη Greasyfork και προσδιορίστε κακόβουλα σχόλια
-// @name:en           Display the registration time of Greasyfork user and identify malicious comments
-// @name:eo           Montru la registran tempon de uzanto de GreasyFork kaj identigu malicajn komentojn
-// @name:es           Muestra el tiempo de registro del usuario de GreasyFork e identifica comentarios maliciosos
-// @name:fi           Näytä rasvaisen käyttäjän rekisteröintiaika ja tunnista haitalliset kommentit
-// @name:fr           Afficher le temps d’inscription de l’utilisateur gras et identifier les commentaires malveillants
-// @name:fr-CA        Afficher le temps d’inscription de l’utilisateur gras et identifier les commentaires malveillants
-// @name:he           הצג את זמן ההרשמה של משתמש Greasyfork ומזהה הערות זדוניות
-// @name:hr           Prikažite vrijeme registracije korisnika GASYFORK -a i identificirati zlonamjerne komentare
-// @name:hu           Jelenítse meg a GreasyFork felhasználó regisztrációs idejét, és azonosítsa a rosszindulatú megjegyzéseket
-// @name:id           Tampilkan waktu pendaftaran pengguna greasyfork dan identifikasi komentar jahat
-// @name:it           Visualizza il tempo di registrazione dell’utente Greasyfork e identifica i commenti dannosi
-// @name:ja           Greasyforkユーザーの登録時間を表示し、悪意のあるコメントを特定する
-// @name:ka           აჩვენეთ Grasyfork მომხმარებლის რეგისტრაციის დრო და დაადგინეთ მავნე კომენტარები
-// @name:ko           GreasyFork 사용자의 등록 시간을 표시하고 악의적 인 의견을 식별하십시오.
-// @name:nb           Vis registreringstiden til Feasyfork -brukeren og identifiser ondsinnede kommentarer
-// @name:nl           Geef de registratietijd van Greasyfork -gebruiker weer en identificeer kwaadaardige opmerkingen
-// @name:pl           Wyświetl czas rejestracji użytkownika GreasyFork i zidentyfikuj złośliwe komentarze
-// @name:pt-BR        Exibir o tempo de registro do usuário Greasyfork e identifique comentários maliciosos
-// @name:ro           Afișați timpul de înregistrare al utilizatorului Greasyfork și identificați comentarii rău intenționate
-// @name:ru           Показать время регистрации пользователя Geasyfork и определить вредоносные комментарии
-// @name:sk           Zobraziť čas registrácie používateľa Greasyfork a identifikujte škodlivé komentáre
-// @name:sr           Прикажите време регистрације корисника Греасифорк и идентификујте злонамерне коментаре
-// @name:sv           Visa registreringstiden för Greasyfork -användare och identifiera skadliga kommentarer
-// @name:th           แสดงเวลาลงทะเบียนของผู้ใช้ Greasyfork และระบุความคิดเห็นที่เป็นอันตราย
-// @name:tr           Greasyfork kullanıcısının kayıt süresini görüntüleyin ve kötü niyetli yorumları belirleyin
-// @name:ug           Greasyfork ئىشلەتكۈچىنىڭ تىزىملىكىنى كۆرسىتىش ۋە يامان غەرەزلىك باھالىرىنى ئېنىقلاڭ
-// @name:uk           Відобразити час реєстрації користувача Greasyfork та визначити шкідливі коментарі
-// @name:vi           Hiển thị thời gian đăng ký của người dùng Greasyfork và xác định nhận xét độc hại
+// @name:ar           Greasyfork  عرض وقت تسجيل المستخدم
+// @name:bg           GreasyforkПоказване на времето за регистрация
+// @name:cs           Greasyfork Zobrazit dobu registrace
+// @name:da           Greasyfork Vis registreringstid
+// @name:de           Greasyfork Zeigen Sie Registrierungszeit
+// @name:el           Greasyfork Εμφάνιση χρόνου εγγραφής
+// @name:en           Greasyfork Display registration time
+// @name:eo           Greasyfork Montru registran tempon
+// @name:es           Greasyfork Muestra tiempo de registro
+// @name:fi           Greasyfork Näytä rekisteröintiaika
+// @name:fr           Greasyfork Afficher temps d’inscription
+// @name:fr-CA        Greasyfork Afficher temps d’inscription
+// @name:he           Greasyfork הצג זמן הרשמה
+// @name:hr           Greasyfork Prikažite vrijeme registracije
+// @name:hu           Greasyfork Jelenítse meg regisztrációs időt
+// @name:id           Greasyfork Tampilkan waktu pendaftaran
+// @name:it           Greasyfork Visualizza tempo di registrazione
+// @name:ja           Greasyfork 登録時間を表示
+// @name:ka           Greasyforkაჩვენეთ რეგისტრაციის დრო
+// @name:ko           Greasyfork등록 시간을 표시
+// @name:nb           Greasyfork Vis registreringstid
+// @name:nl           Greasyfork Geef registratietijd weer
+// @name:pl           Greasyfork Wyświetl czas rejestracji
+// @name:pt-BR        Greasyfork Exibir tempo de registro
+// @name:ro           Greasyfork Afișați timpul de înregistrare
+// @name:ru           Greasyfork Показать время регистрации
+// @name:sk           Greasyfork Zobraziť čas registrácie
+// @name:sr           Greasyfork Прикажите време регистрације
+// @name:sv           Greasyfork Visa registreringstid
+// @name:th           Greasyfork แสดงเวลาลงทะเบียน
+// @name:tr           Greasyfork Görüntüle kayıt süresi
+// @name:ug           Greasyfork تىزىملىتىش ۋاقتىنى كۆرستۈڭ
+// @name:uk           Greasyfork Відобразити час реєстрації
+// @name:vi           Greasyfork Hiển thị thời gian đăng ký
 // @name:zh           显示Greasyfork用户注册时间，识别恶意评论
 // @name:zh-CN        显示Greasyfork用户注册时间，识别恶意评论
 // @name:zh-HK        顯示Greasyfork用戶註冊時間，識別惡意評論
@@ -107,7 +107,7 @@
  * File Created: 2025/03/10,Monday 09:59:36
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/10,Monday 12:34:06
+ * Last Modified: 2025/03/10,Monday 12:44:30
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
