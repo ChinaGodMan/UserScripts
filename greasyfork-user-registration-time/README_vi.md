@@ -8,12 +8,11 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/authors.md">简体中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cậpGitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
     </h6>
@@ -67,7 +66,7 @@
 
 ## Giới thiệu chức năng
 
-Kịch bản này được sử dụng trong GreasyFork hoặc SleazyFork 上显示用户của**Thời gian đăng ký**，Giúp xác định**Đăng ký độc hại**Tài khoản。Tài khoản đã đăng ký độc hại thường là**Ngay sau khi đăng ký**Đưa ra đánh giá tiêu cực，Và**Ít hoạt động tài khoản**。Bằng cách hiển thị thời gian đăng ký của người dùng，Nó có thể được sử dụng để đoán độ tin cậy của người dùng。Nếu thời gian đăng ký được hiển thị là**Thời gian tương lai**，Sau đó, người dùng có thể sẽ**Đăng ký độc hại**的。
+Kịch bản này được sử dụng trong GreasyFork hoặc SleazyFork 上显示用户 của**Thời gian đăng ký**，Giúp xác định**Đăng ký độc hại**Tài khoản。Tài khoản đã đăng ký độc hại thường là**Ngay sau khi đăng ký**Đưa ra đánh giá tiêu cực，Và**Ít hoạt động tài khoản**。Bằng cách hiển thị thời gian đăng ký của người dùng，Nó có thể được sử dụng để đoán độ tin cậy của người dùng。Nếu thời gian đăng ký được hiển thị là**Thời gian tương lai**，Sau đó, người dùng có thể sẽ**Đăng ký độc hại**的。
 Kịch bản này là greasyfork Ý kiến ​​khác nhau、Trang liên quan đến tin nhắn cho thấy thời gian đăng ký của người nói。Nếu bạn là nhà phát triển，Một tài khoản nhỏ có thể giúp bạn phân biệt các bình luận độc hại；Nếu bạn không phải là nhà phát triển，Nó cũng có thể giúp bạn xác định xem loa là người dùng cũ hay người dùng mới。
 
 ## Tính năng nổi bật：
@@ -103,8 +102,11 @@ Kịch bản này là greasyfork Ý kiến ​​khác nhau、Trang liên quan �
 -   🕸️ **Trang chủ dự án**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 <!--AUTHORS-->
+
 ## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
+
 [@yysk.org](https://greasyfork.org/users/922552) ---- [trình diễnGreasyforkThời gian đăng ký người dùng，Xác định ý kiến ​​độc hại](https://greasyfork.org/scripts/450603)
+
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 

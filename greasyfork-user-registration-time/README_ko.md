@@ -8,12 +8,11 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/authors.md">简体中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
     </h6>
@@ -103,8 +102,11 @@
 -   🕸️ **프로젝트 홈페이지**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 <!--AUTHORS-->
+
 ## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
+
 [@yysk.org](https://greasyfork.org/users/922552) ---- [보여주다Greasyfork사용자 등록 시간，악의적 인 의견을 식별하십시오](https://greasyfork.org/scripts/450603)
+
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 

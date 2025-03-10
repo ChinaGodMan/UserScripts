@@ -8,12 +8,11 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/authors.md">简体中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
     </h6>
@@ -67,7 +66,7 @@
 
 ## Functional introduction
 
-This script is used in GreasyFork or SleazyFork 上显示用户of**Registration time**，Help identify**Malicious registration**Account。Maliciously registered accounts are usually**Shortly after registration**Give negative reviews，and**Less account activity**。By displaying the user’s registration time，It can be used to guess the credibility of the user。If the registration time is displayed as**The future time**，Then the user is likely to be**Malicious registration**的。
+This script is used in GreasyFork or SleazyFork 上显示用户 of**Registration time**，Help identify**Malicious registration**Account。Maliciously registered accounts are usually**Shortly after registration**Give negative reviews，and**Less account activity**。By displaying the user’s registration time，It can be used to guess the credibility of the user。If the registration time is displayed as**The future time**，Then the user is likely to be**Malicious registration**的。
 This script is greasyfork Various comments、The page related to the message shows the speaker’s registration time。If you are a developer，A small account that can help you distinguish malicious comments；If you are not a developer，It can also help you identify whether the speaker is an old user or a new user。
 
 ## Feature Highlights：
@@ -103,8 +102,11 @@ This script is greasyfork Various comments、The page related to the message sho
 -   🕸️ **Project Home Page**: [UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 <!--AUTHORS-->
+
 ## 💖 The script referenced or used the following script:
+
 [@yysk.org](https://greasyfork.org/users/922552) ---- [showGreasyforkUser registration time，Identify malicious comments](https://greasyfork.org/scripts/450603)
+
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
