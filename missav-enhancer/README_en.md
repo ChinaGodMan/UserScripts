@@ -95,6 +95,7 @@ _The following can be set in the script_
 
 ## Use effect
 
+![missav.png](https://s2.loli.net/2025/03/11/i4R6aDeNUSwuABK.png)
 ![missav.png](https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png)
 
 <!--PREVIEW-END-->

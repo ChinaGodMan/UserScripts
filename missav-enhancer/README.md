@@ -95,6 +95,7 @@ _以下可在脚本内设置_
 
 ## 使用效果
 
+![missav.png](https://s2.loli.net/2025/03/11/i4R6aDeNUSwuABK.png)
 ![missav.png](https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png)
 
 <!--PREVIEW-END-->

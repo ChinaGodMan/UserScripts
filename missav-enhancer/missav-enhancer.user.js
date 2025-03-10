@@ -100,16 +100,27 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.07.2114
+// @version           2025.03.11.0544
 // @created           2025-03-07 21:14:34
 // @modified          2025-03-07 21:14:34
 // ==/UserScript==
-
-/* 脚本来自：
-https://greasyfork.org/scripts/493932 MISSAV视频控制条增强 @iSwfe
-https://greasyfork.org/scripts/488770/  missav修改页面 @mrhydra
-https://greasyfork.org/scripts/499213 missav永远播放+不弹广告 @track no
-https://greasyfork.org/scripts/470539 MissAV 迷你加強包 @DonkeyBear
+/**
+ * File: missav-enhancer.user.js
+ * Project: UserScripts
+ * File Created: 2025/03/07 21:14:34
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/11,Tuesday 05:44:43
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ * -----
+ * 脚本来自：
+ * https://greasyfork.org/scripts/493932 MISSAV视频控制条增强 @iSwfe
+ * https://greasyfork.org/scripts/488770/  missav修改页面 @mrhydra
+ * https://greasyfork.org/scripts/499213 missav永远播放+不弹广告 @track no
+ * https://greasyfork.org/scripts/470539 MissAV 迷你加強包 @DonkeyBear
 */
 const url = window.location.href
 if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
@@ -212,7 +223,70 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
             rightBtn.onclick = () => { player.currentTime += videoSettings.maxDuration }
             rightBtn.innerHTML = rightBtn.innerHTML.replace('10m', `${minute}m`)
         }
+        const links = document.querySelectorAll('.space-y-2 > div:nth-child(4) a')
 
+        links.forEach(link => {
+            // 获取当前 link 的地址
+            const actressesLink = link.href
+
+            fetch(actressesLink)
+                .then(response => response.text())
+                .then(html => {
+                    const parser = new DOMParser()
+                    const doc = parser.parseFromString(html, 'text/html')
+                    const imgElement = doc.querySelector('.bg-norddark img')
+                    const profile = doc.querySelector('.font-medium.text-lg.leading-6')
+                    // 收藏按钮
+                    const saveBtn = profile.querySelector('div.hero-pattern button')
+                    //直接删除按钮,不然会直接保存当前页面的影片
+                    saveBtn.remove()
+                    //名字转链接.
+                    profile.querySelector('h4').innerHTML = `<a href="${actressesLink}">${profile.querySelector('h4').textContent}</a>`
+                    const profileDiv = document.createElement('div')
+                    profileDiv.classList.add('font-medium', 'text-lg', 'leading-6', 'ChinaGodMan')
+                    profileDiv.style.display = 'none'
+                    profileDiv.style.position = 'absolute'
+                    profileDiv.style.backgroundColor = 'rgba(0, 0, 0, 0.7)'
+                    profileDiv.style.color = '#fff'
+                    profileDiv.style.padding = '10px'
+                    profileDiv.style.borderRadius = '5px'
+                    profileDiv.style.zIndex = '1000'
+                    profileDiv.style.whiteSpace = 'nowrap'
+                    // 如果女优的图片存在
+                    if (imgElement) {
+                        //显示大图片
+                        profileDiv.innerHTML = `<img src="${imgElement.src.replace('-t', '')}" alt="I AM YOUR FATHER" class="object-cover object-top w-full h-full">`
+                        //显示小图片
+                        link.innerHTML = `<img src="${imgElement.src}" width="20" height="20" style="display: inline-block; vertical-align: middle;">` + link.innerHTML
+                    } else {
+                        console.log('🔍 ~ 未找到图片,不添加这个女优.')
+                    }
+                    saveBtn.remove()
+                    profileDiv.appendChild(profile)
+                    link.parentElement.appendChild(profileDiv)
+                    link.addEventListener('mouseenter', () => {
+                        document.querySelectorAll('.ChinaGodMan').forEach(element => {
+                            element.style.display = 'none'
+                        })
+                        profileDiv.style.display = 'block'
+                        const rect = link.getBoundingClientRect()
+                        profileDiv.style.top = `${rect.top + window.scrollY + rect.height - 20}px`
+                        profileDiv.style.left = `${rect.left + window.scrollX}px`
+
+                    })
+                    saveBtn.addEventListener('click', () => {
+                        alert('尚未完成添加操作,敬请期待')
+                    })
+
+                    profileDiv.addEventListener('mouseleave', () => {
+                        profileDiv.style.display = 'none'
+                    })
+
+                })
+                .catch(error => {
+                    console.error('🔍 ~ 获取页面失败:', error)
+                })
+        })
 
         console.log('【视频控制条增强】完成。')
     }
