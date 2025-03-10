@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/09,Sunday 08:03:32
+# Last Modified: 2025/03/10,Monday 13:07:34
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -81,7 +81,7 @@ def main():
     if not os.path.exists(input_file):
         print(f"文件 {input_file} 不存在！")
         sys.exit()
-    result_text = '## 💖 脚本参考或使用了以下脚本:\n' + process_script_ids(input_file + '/authors.md')
+    result_text = '## 💖 脚本参考或使用了以下脚本:\n' + process_script_ids(input_file + '/authors')
     print(result_text)
     process_file(input_file + '/README.md', result_text, '<!--AUTHORS-->', '<!--AUTHORS-END-->', "head")
 
