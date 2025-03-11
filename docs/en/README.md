@@ -662,7 +662,7 @@
 </h3>
 
 <details>
-    <summary>Add buttons at the end of each file line，To copy the original file URL and download files</summary>
+    <summary>Add button at the end of each file line，To copy the original file URL and download files</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
@@ -691,7 +691,7 @@
 </h3>
 
 <details>
-    <summary>existGithubShow warehouse size when viewing and searching for warehouses ，Inactive development warning，Quick jump in the warehouse.</summary>
+    <summary>existGithubShow warehouse size when viewing and searching warehouses ，Inactive development warning，Quick jump in the warehouse.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
            <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
@@ -1460,6 +1460,64 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+</blockquote>
+        <h1>Social Media Scripts</h1><h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Twitter/X Hide reposted posts</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
+</h3>
+
+<details>
+    <summary>Automatically hide forwarding and forwarding content,And hide forwarded content when first loading,Remove annoying ads</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+           <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529450">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529450">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/#readme">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+</blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Twitter Media Download</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
+</h3>
+
+<details>
+    <summary>Download video with one click/picture | And automatically packaged into one when downloaded in batchesZIPFile download</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+           <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529453">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529453">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/#readme">
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
