@@ -37,7 +37,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 **스크립트는 인터넷 네티즌에서 나옵니다，방금 몇 가지 변경을했습니다.네티즌 덕분에**
-**침해가있는 경우,문의해야합니다**
+**침해가있는 경우,저희에게 연락해야합니다**
 
 ## 스크립트 목록
 
@@ -1460,6 +1460,64 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
+</blockquote>
+        <h1>소셜 미디어 스크립트</h1><h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Twitter/X 다시 게시 된 게시물을 숨기십시오</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+</h3>
+
+<details>
+    <summary>전달 및 전달 컨텐츠를 자동으로 숨 깁니다,처음 로딩 할 때 전달 된 내용을 숨 깁니다,성가신 광고를 제거하십시오</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
+           <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529450">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529450">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/#readme">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
+</blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Twitter 미디어 다운로드</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+</h3>
+
+<details>
+    <summary>한 번의 클릭으로 비디오를 다운로드하십시오/그림 | 배치로 다운로드 할 때 자동으로 포장됩니다ZIP파일 다운로드</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
+           <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529453">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529453">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/#readme">
         readme 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
