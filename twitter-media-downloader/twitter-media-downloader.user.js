@@ -1,31 +1,107 @@
 // ==UserScript==
-// @name Twitter/X Media Downloader
-// @name:zh-CN Twitter 媒体下载
-// @description    Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
-// @description:zh-CN  一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
-// @author             天音,Tiande,人民的勤务员 <china.qinwuyuan@gmail.com>
-// @namespace    https://github.com/ChinaGodMan/UserScripts
-// @supportURL    https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL   https://github.com/ChinaGodMan/UserScripts
-// @license      MIT
-// @icon https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg
-// @compatible     chrome
-// @compatible     firefox
-// @compatible     edge
-// @compatible     opera
-// @compatible     safari
-// @compatible     kiwi
-// @compatible     qq
-// @compatible     via
-// @compatible      brave
-// @match		https://x.com/*
-// @match		https://twitter.com/*
-// @version         2025.03.11.0811
-// @created         2025-03-11 08:11:29
-// @modified        2025-03-11 08:11:29
-// @require https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
-// @downloadURL https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
-// @downloadURL https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
+// @name              Twitter/X Media Downloader
+// @name:ar           تنزيل وسائل الإعلام على Twitter
+// @name:bg           Изтегляне на медии в Twitter
+// @name:cs           Stahování médií na Twitteru
+// @name:da           Twitter Media Download
+// @name:de           Twitter Media Download
+// @name:el           Λήψη μέσων Twitter
+// @name:en           Twitter Media Download
+// @name:eo           Twitter amaskomunikila elŝuto
+// @name:es           Descarga de medios de Twitter
+// @name:fi           Twitter Media Download
+// @name:fr           Téléchargement des médias Twitter
+// @name:fr-CA        Téléchargement des médias Twitter
+// @name:he           הורדת מדיה בטוויטר
+// @name:hr           Twitter Media Download
+// @name:hu           Twitter média letöltése
+// @name:id           Unduh Media Twitter
+// @name:it           Download dei media di Twitter
+// @name:ja           Twitterメディアのダウンロード
+// @name:ka           Twitter Media ჩამოტვირთვა
+// @name:ko           트위터 미디어 다운로드
+// @name:nb           Twitter media nedlasting
+// @name:nl           Twitter -media downloaden
+// @name:pl           Pobieranie mediów na Twitterze
+// @name:pt-BR        Download da mídia do Twitter
+// @name:ro           Descărcare media Twitter
+// @name:ru           Скачать Twitter Media
+// @name:sk           Stiahnutie médií Twitter
+// @name:sr           Твиттер Медиа Довнлоад
+// @name:sv           Twitter media nedladdning
+// @name:th           ดาวน์โหลดสื่อ Twitter
+// @name:tr           Twitter Media İndir
+// @name:ug           Twitter تاراتقۇلىرى چۈشۈرۈش
+// @name:uk           Завантажити медіа Twitter
+// @name:vi           Tải xuống phương tiện truyền thông Twitter
+// @name:zh           Twitter 媒体下载
+// @name:zh-CN        Twitter 媒体下载
+// @name:zh-HK        Twitter 媒體下載
+// @name:zh-SG        Twitter 媒体下载
+// @name:zh-TW        Twitter 媒體下載
+// @description       Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
+// @description:ar    قم بتنزيل مقاطع الفيديو/الصور بنقرة واحدة
+// @description:bg    Изтеглете видеоклипове/снимки с едно щракване | и автоматично ги пакетирайте като Zip файл, за да изтеглите по време на изтегляне на партида
+// @description:cs    Stáhněte si videa/obrázky s jedním kliknutím |
+// @description:da    Download videoer/billeder med et klik |
+// @description:de    Laden Sie Videos/Bilder mit einem Klick herunter und verpacken Sie sie automatisch als ZIP -Datei zum Herunterladen
+// @description:el    Κατεβάστε βίντεο/εικόνες με ένα κλικ | και αυτόματα συσκευαστείτε ως αρχείο zip για λήψη κατά τη διάρκεια της λήψης παρτίδας
+// @description:en    Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
+// @description:eo    Elŝutu filmetojn/bildojn per unu klako | kaj aŭtomate paku ilin kiel zip -dosieron por elŝuti dum Batch Download
+// @description:es    Descargue videos/imágenes con un clic |
+// @description:fi    Lataa videoita/kuvia yhdellä napsautuksella
+// @description:fr    Télécharger des vidéos / photos en un clic | et les emballer automatiquement en tant que fichier zip à télécharger pendant le téléchargement par lots
+// @description:fr-CA Télécharger des vidéos / photos en un clic | et les emballer automatiquement en tant que fichier zip à télécharger pendant le téléchargement par lots
+// @description:he    הורד סרטונים/תמונות בלחיצה אחת
+// @description:hr    Preuzmite video/slike jednim klikom | i automatski ih pakirajte kao zip datoteku za preuzimanje tijekom
+// @description:hu    Töltse le a videókat/képeket egy kattintással
+// @description:id    Unduh video/gambar dengan satu klik | dan secara otomatis mengemasnya sebagai file zip untuk diunduh selama batch
+// @description:it    Scarica video/immagini con un clic | e confezionarli automaticamente come file zip da scaricare durante il download batch
+// @description:ja    ワンクリックでビデオ/写真をダウンロードし、バッチダウンロード中にダウンロードするzipファイルとして自動的にパッケージ化します
+// @description:ka    ჩამოტვირთეთ ვიდეო/სურათები ერთი დაჭერით |
+// @description:ko    한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 중에 자동으로 포장하십시오.
+// @description:nb    Last ned videoer/bilder med ett klikk |
+// @description:nl    Download video’s/afbeeldingen met één klik | en verpakking ze automatisch als een zip -bestand om te downloaden tijdens de batch -download
+// @description:pl    Pobierz filmy/zdjęcia jednym kliknięciem |
+// @description:pt-BR Faça o download de vídeos/fotos com um clique | e o embalam automaticamente como um arquivo zip para download durante o download do lote
+// @description:ro    Descărcați videoclipuri/imagini cu un singur clic |
+// @description:ru    Скачать видео/изображения с одним щелчком
+// @description:sk    Stiahnite si videá/obrázky jedným kliknutím |
+// @description:sr    Преузмите видео записе / слике једним кликом | и аутоматски их паковати као зип датотеку за преузимање током серије
+// @description:sv    Ladda ner videor/bilder med ett klick | och paketera dem automatiskt som en zip -fil för att ladda ner under nedladdning
+// @description:th    ดาวน์โหลดวิดีโอ/รูปภาพด้วยคลิกเดียว |
+// @description:tr    Videoları/resimleri tek tıklamayla indirin ve bunları toplu olarak indirmek için bir zip dosyası olarak paketleyin
+// @description:ug    بىر چېكىش ئارقىلىق سىن / رەسىملەرنى چۈشۈرۈش | ۋە تۈركۈم چۈشۈرۈش جەريانىدا چۈشۈرۈش ئۈچۈن ئۇلارنى يۈكلەڭ
+// @description:uk    Завантажте відео/зображення одним натисканням |
+// @description:vi    Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
+// @description:zh    一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+// @description:zh-CN 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+// @description:zh-HK 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
+// @description:zh-SG 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+// @description:zh-TW 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
+// @author            天音,Tiande,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
+// @license           MIT
+// @icon              https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg
+// @compatible        chrome
+// @compatible        firefox
+// @compatible        edge
+// @compatible        opera
+// @compatible        safari
+// @compatible        kiwi
+// @compatible        qq
+// @compatible        via
+// @compatible        brave
+// @match             https://x.com/*
+// @match             https://twitter.com/*
+// @version           2025.03.11.0811
+// @created           2025-03-11 08:11:29
+// @modified          2025-03-11 08:11:29
+// @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
 // ==/UserScript==
 /**
  * File: twitter-media-downloader.user.js

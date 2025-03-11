@@ -236,6 +236,15 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找社交媒体脚本
+>
+> -   [**Twitter/x ẩn các bài viết chuyển tiếp**](https://greasyfork.org/scripts/529450): Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu
+> -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
+
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
