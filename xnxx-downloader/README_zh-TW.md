@@ -169,7 +169,7 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相關腳本
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -181,6 +181,7 @@
 > -   [**Github 複製原始文件 URL 與下載文件**](https://greasyfork.org/scripts/505501): 在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件
 > -   [**🤠 Github 增強小助手 倉庫顯示大小**](https://greasyfork.org/scripts/502291): 🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠
 > -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 將文件排序方式改為日期降序，方便查看最新更新的文件。
+> -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
 
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
