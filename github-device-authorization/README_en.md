@@ -106,7 +106,7 @@ Thanks to [LemonPupl](https://greasyfork.org/zh-CN/users/1274376) for the script
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
@@ -176,7 +176,7 @@ Recommended browsers and script managers：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files

@@ -65,13 +65,13 @@
 # Twitter/X Media Downloader
 
 ## Introduction
-This script helps you download quickly Twitter/X Pictures and videos on the platform，支持一键下载单个document，It can also be automatically packaged as ZIP 文件，Convenient management and storage。
+This script helps you download quickly Twitter/X Pictures and videos on the platform，Supports one-click downloaddocument，It can also be automatically packaged as ZIP document，Convenient management and storage。
 
 ---
 
 ## Function
 - **Click to download**：Download pictures and videos easily，No third-party tools required。
-- **Bulk packaging**：When downloading in batches，自动将document打包为一个 ZIP 文件。
+- **Bulk packaging**：When downloading in batches，AutomaticallydocumentPackage into one ZIP document。
 - **Custom file naming**：The file name format is `twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}`，Easy to classify。
 - **Supports privacy content**：Can set whether to display and download sensitive content。
 
@@ -126,7 +126,7 @@ This script helps you download quickly Twitter/X Pictures and videos on the plat
 
 ## Technical details
 - use `jszip` Library conduct ZIP File Packaging。
-- 文件命名规则包括user名、用户 ID、Release time、state ID and file types。
+- 文件命name规则包括user名、user ID、Release time、state ID and file types。
 
 ---
 
@@ -222,7 +222,7 @@ Recommended browser and script manager：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
