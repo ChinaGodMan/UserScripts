@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name: Twitter/X Media Downloader
+// @name Twitter/X Media Downloader
 // @name:zh-CN Twitter 媒体下载
 // @description    Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
 // @description:zh-CN  一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
