@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name: Hide Reposts on Twitter/X
+// @name Hide Reposts on Twitter/X
 // @description	Automatically hide forwarded content and hide forwarded content when first loaded
 // @name:zh-CN Twitter/X 隐藏转发的帖子
 // @description:zh-CN 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告
