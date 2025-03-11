@@ -18,6 +18,8 @@
 // @compatible     qq
 // @compatible     via
 // @compatible      brave
+// @match		https://x.com/*
+// @match		https://twitter.com/*
 // @version         2025.03.11.0811
 // @created         2025-03-11 08:11:29
 // @modified        2025-03-11 08:11:29
