@@ -792,6 +792,38 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"
+        },
+        {
+          "isUpdated": true,
+          "name": "",
+          "description": "",
+          "relatedscripts": "社交媒体脚本",
+          "path": "twitter-hide-reposts.user.js",
+          "backuppath": "twitter-hide-reposts",
+          "version": "2025.03.11.0654",
+          "GreasyFork": "",
+          "created_at": "2025-03-11 06:54:32",
+          "code_updated_at": "2025-03-11 06:54:32",
+          "local_created_at": "2025-03-11 06:54:32",
+          "top_tip": "",
+          "img": "https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg",
+          "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"
+        },
+        {
+          "isUpdated": true,
+          "name": "",
+          "description": "",
+          "relatedscripts": "社交媒体脚本",
+          "path": "twitter-media-downloader.user.js",
+          "backuppath": "twitter-media-downloader",
+          "version": "2025.03.11.0811",
+          "GreasyFork": "",
+          "created_at": "2025-03-11 08:11:29",
+          "code_updated_at": "2025-03-11 08:11:29",
+          "local_created_at": "2025-03-11 08:11:29",
+          "top_tip": "",
+          "img": "https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png",
+          "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"
         }
     ]
 }
