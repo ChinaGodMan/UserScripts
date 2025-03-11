@@ -94,6 +94,10 @@
 // @compatible        qq
 // @compatible        via
 // @compatible        brave
+// @grant             GM_registerMenuCommand
+// @grant             GM_setValue
+// @grant             GM_getValue
+// @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
 // @version           2025.03.11.0811
