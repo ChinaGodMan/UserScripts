@@ -236,6 +236,15 @@
 > -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找社交媒体脚本
+>
+> -   [**Twitter/X 隐藏转发的帖子**](https://greasyfork.org/scripts/529450): 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告
+> -   [**Twitter 媒体下载**](https://greasyfork.org/scripts/529453): 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

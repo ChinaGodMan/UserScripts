@@ -229,6 +229,15 @@ Recommended browsers and script managers：
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找社交媒体脚本
+>
+> -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
+> -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
+
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

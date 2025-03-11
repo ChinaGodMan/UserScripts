@@ -276,6 +276,15 @@
 > -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+> ### 🔍你可能在找社交媒体脚本
+>
+> -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
+> -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
+
+<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
