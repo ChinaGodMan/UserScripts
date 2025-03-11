@@ -65,13 +65,13 @@
 # Twitter/X Trình tải xuống phương tiện
 
 ## Giới thiệu
-Kịch bản này giúp bạn tải xuống nhanh chóng Twitter/X Hình ảnh và video trên nền tảng，支持一键下载单个tài liệu，Nó cũng có thể được đóng gói tự động như ZIP 文件，Quản lý và lưu trữ thuận tiện。
+Kịch bản này giúp bạn tải xuống nhanh chóng Twitter/X Hình ảnh và video trên nền tảng，Hỗ trợ tải xuống một cú nhấp chuộttài liệu，Nó cũng có thể được đóng gói tự động như ZIP tài liệu，Quản lý và lưu trữ thuận tiện。
 
 ---
 
 ## Chức năng
 - **Bấm để tải xuống**：Tải xuống hình ảnh và video một cách dễ dàng，Không cần công cụ của bên thứ ba。
-- **Bao bì số lượng lớn**：Khi tải xuống theo đợt，自动将tài liệu打包为一个 ZIP 文件。
+- **Bao bì số lượng lớn**：Khi tải xuống theo đợt，Tự độngtài liệuGói vào một ZIP tài liệu。
 - **Đặt tên tập tin tùy chỉnh**：Định dạng tên tệp là `twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}`，Dễ dàng phân loại。
 - **Hỗ trợ nội dung quyền riêng tư**：Có thể đặt xem có hiển thị và tải xuống nội dung nhạy cảm。
 
@@ -126,7 +126,7 @@ Kịch bản này giúp bạn tải xuống nhanh chóng Twitter/X Hình ảnh v
 
 ## Chi tiết kỹ thuật
 - sử dụng `jszip` Hành vi thư viện ZIP Bao bì tập tin。
-- 文件命名规则包括người dùng名、用户 ID、Thời gian phát hành、tình trạng ID và các loại tệp。
+- 文件命tên规则包括người dùng名、người dùng ID、Thời gian phát hành、tình trạng ID và các loại tệp。
 
 ---
 
@@ -222,7 +222,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Mở liên kết JSDELIVR trên GitHub**](https://greasyfork.org/scripts/527870): Mở liên kết GitHub trên JSDELIVR để nhanh chóng tải xuống các tệp

@@ -103,7 +103,7 @@
 ---
 
 ## 自定義菜單
-- **設定**：通過腳本菜單可進入設置頁面，修改語言或是否顯示敏感內容。
+- **環境**：通過腳本菜單可進入設置頁面，修改語言或是否顯示敏感內容。
 
 ---
 
@@ -126,7 +126,7 @@
 
 ## 技術細節
 - 使用 `jszip` 庫進行 ZIP 文件打包。
-- 文件命名规则包括用戶名、用户 ID、發佈時間、狀態 ID 和文件類型。
+- 文件命名规则包括用戶名、用戶 ID、發佈時間、狀態 ID 和文件類型。
 
 ---
 
@@ -154,7 +154,7 @@
 
 ![x_d_zip.png](https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png)
 
-3. 設定:
+3. 環境:
 
 ![1](https://greasyfork.s3.us-east-2.amazonaws.com/quh7eyz8drq9cu82pjx0i4s7n374)
 ![2](https://greasyfork.s3.us-east-2.amazonaws.com/k9pemkya1jkp1ocx38lypw6ucakz)
@@ -222,7 +222,7 @@
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件

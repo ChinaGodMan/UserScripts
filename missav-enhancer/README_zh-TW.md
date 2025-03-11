@@ -170,7 +170,7 @@ _以下可在腳本內設置_
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
