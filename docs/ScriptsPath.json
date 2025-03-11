@@ -824,6 +824,22 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"
+        },
+        {
+            "isUpdated": true,
+            "name": "",
+            "description": "",
+            "relatedscripts": "GitHub相关脚本",
+            "path": "github-gist-copier.user.js",
+            "backuppath": "github-gist-copier",
+            "version": "2025.03.12.0022",
+            "GreasyFork": "",
+            "created_at": "2025-03-12 00:22:40",
+            "code_updated_at": "2025-03-12 00:22:40",
+            "local_created_at": "2025-03-12 00:22:40",
+            "top_tip": "",
+            "img": "https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
         }
     ]
 }
