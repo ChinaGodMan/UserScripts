@@ -66,7 +66,7 @@
 
 ## Functional introduction
 
-This script is used in GreasyFork or SleazyFork 上显示用户 of**Registration time**，Help identify**Malicious registration**Account。Maliciously registered accounts are usually**Shortly after registration**Give negative reviews，and**Less account activity**。By displaying the user’s registration time，It can be used to guess the credibility of the user。If the registration time is displayed as**The future time**，Then the user is likely to be**Malicious registration**的。
+This script is used in GreasyFork or SleazyFork Show user on of**Registration time**，Help identify**Malicious registration**Account。Maliciously registered accounts are usually**Shortly after registration**Give negative reviews，and**Less account activity**。By displaying the user’s registration time，It can be used to guess the credibility of the user。If the registration time is displayed as**The future time**，Then the user is likely to be**Malicious registration**of。
 This script is greasyfork Various comments、The page related to the message shows the speaker’s registration time。If you are a developer，A small account that can help you distinguish malicious comments；If you are not a developer，It can also help you identify whether the speaker is an old user or a new user。
 
 ## Feature Highlights：
@@ -282,7 +282,7 @@ Recommended browser and script manager：
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍You might be looking for social media scripts
 >
 > -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
 > -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
