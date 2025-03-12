@@ -52,16 +52,16 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
-<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" />) <br>
-<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
+<p><strong>Mới</strong>: • Hỗ trợ tải xuống các video và hình ảnh tweet được chuyển tiếp<br>
+<strong>Địa chỉ kiểm tra</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>Ảnh chụp màn hình thử nghiệm</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" />) <br>
+<strong>Mới</strong>: Xem trước ảnh chụp màn hình được hiển thị trong các bài đăng có liên kết không được tải xuống,Và thêm một lời nhắc <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>Mới</strong>: Khi tệp phương tiện được trích xuất để trống,Báo cáo trực tiếp lỗi.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
+<p><strong>Mới</strong>: • Khi tải xuống theo đợt,Gói vào một zip tài liệu</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
@@ -133,7 +133,7 @@ Kịch bản này giúp bạn tải xuống nhanh chóng Twitter/X Hình ảnh v
 
 ## Chi tiết kỹ thuật
 - sử dụng `jszip` Hành vi thư viện ZIP Bao bì tập tin。
-- 文件命tên规则包括người dùng名、người dùng ID、Thời gian phát hành、tình trạng ID và các loại tệp。
+- Cuộc sống tập tintênCác quy tắc bao gồmngười dùngtên、người dùng ID、Thời gian phát hành、tình trạng ID và các loại tệp。
 
 ---
 
