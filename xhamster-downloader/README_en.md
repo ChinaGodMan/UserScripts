@@ -76,9 +76,9 @@
 -   ✅ All viewable resolutions available for download
 -   ✅ Download all resolution videos that can be viewed for free
     ✅ All resolution videos that have been banned from downloading can be downloaded
--   ⛔ Automatic playback
--   ⛔ Automatic wide screen
--   ⛔ The default highest quality playback
+-   ✅ Automatic playback
+-   ✅ Automatic wide screen
+-   ✅ The default highest quality playback
 
 ## How to use
 

@@ -100,7 +100,7 @@
 // @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
-// @version           2025.03.11.0811
+// @version           2025.03.13.0246
 // @created           2025-03-11 08:11:29
 // @modified          2025-03-11 08:11:29
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -113,7 +113,7 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/11,Tuesday 08:25:04
+ * Last Modified: 2025/03/13,Thursday 02:56:39
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -225,7 +225,9 @@ const TMD = (function () {
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
-            let tweet = json.legacy
+            let tweet = json.quoted_status_result?.result?.legacy?.media//此媒体存在,属于引用推文
+                || json.quoted_status_result?.result?.legacy
+                || json.legacy
             let user = json.core.user_results.result.legacy
             let invalid_chars = { '\\': '＼', '\/': '／', '\|': '｜', '<': '＜', '>': '＞', ':': '：', '*': '＊', '?': '？', '"': '＂', '\u200b': '', '\u200c': '', '\u200d': '', '\u2060': '', '\ufeff': '', '🔞': '' }
             let datetime = out.match(/\{date-time(-local)?:[^{}]+\}/) ? out.match(/\{date-time(?:-local)?:([^{}]+)\}/)[1].replace(/[\\/|<>*?:"]/g, v => invalid_chars[v]) : 'YYYYMMDD-hhmmss'
@@ -237,6 +239,14 @@ const TMD = (function () {
             info['date-time-local'] = this.formatDate(tweet.created_at, datetime, true)
             info['full-text'] = tweet.full_text.split('\n').join(' ').replace(/\s*https:\/\/t\.co\/\w+/g, '').replace(/[\\/|<>*?:"\u200b-\u200d\u2060\ufeff]/g, v => invalid_chars[v])
             let medias = tweet.extended_entities && tweet.extended_entities.media
+            if (json?.card) {
+                this.status(btn, 'failed', 'This tweet contains a link, which is not supported by this script.')
+                return
+            }
+            if (!Array.isArray(medias)) {
+                this.status(btn, 'failed', 'MEDIA_NOT_FOUND')
+                return
+            }
             if (index) medias = [medias[index - 1]]
             if (medias.length > 0) {
                 let tasks = medias.map((media, i) => {
@@ -269,7 +279,7 @@ const TMD = (function () {
                                         zip.generateAsync({ type: 'blob' }).then(content => {
                                             let a = document.createElement('a')
                                             a.href = URL.createObjectURL(content)
-                                            a.download = `${taskList[0].name.split('-')[0]}.zip`
+                                            a.download = `${taskList[0].name}.zip`
                                             a.click()
                                             this.status(btn, 'completed', lang.completed)
                                             if (save_history && !is_exist) {

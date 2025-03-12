@@ -76,9 +76,9 @@
 -   ✅ Tất cả các độ phân giải có thể xem được để tải xuống
 -   ✅ Tải xuống tất cả các video độ phân giải có thể được xem miễn phí
     ✅ Tất cả các video giải quyết đã bị cấm tải xuống có thể được tải xuống
--   ⛔ Tự động phát lại
--   ⛔ Màn hình rộng tự động
--   ⛔ Phát lại chất lượng cao nhất mặc định
+-   ✅ Tự động phát lại
+-   ✅ Màn hình rộng tự động
+-   ✅ Phát lại chất lượng cao nhất mặc định
 
 ## Cách sử dụng
 

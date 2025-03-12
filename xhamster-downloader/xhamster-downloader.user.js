@@ -95,17 +95,72 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.07.0739
+// @version           2025.03.13.0330
 // @created           2025-03-07 07:39:31
 // @modified          2025-03-07 07:39:31
 // ==/UserScript==
+/**
+ * File: xhamster-downloader.user.js
+ * Project: UserScripts
+ * File Created: 2025/03/11,Tuesday 00:41:57
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/13,Thursday 03:32:54
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
 
 //https://greasyfork.org/scripts/524702/
+//https://greasyfork.org/scripts/428258/
+
+const autoMaxWidth = true
+const autoPlay = true
+const autoMaxQuality = true
 
 if (initials && document.location.pathname.indexOf('/videos/') !== -1) {
     let mp4 = initials?.videoModel?.sources?.mp4 ?? initials?.xplayerSettings?.sources?.standard?.h264
-    console.log(mp4)
     addDownloadButton(mp4)
+}
+autoMaxPlayer(autoMaxWidth, autoPlay)
+if (autoMaxQuality) {
+    const interval = setInterval(() => {
+        const qualityEl = document.querySelector('#player-container > div:nth-child(14) > span:nth-child(2) > span')
+        if (qualityEl) {
+            const highestQuality = qualityEl.querySelector('span:nth-child(2)')
+            if (highestQuality) {
+                highestQuality.click()
+                clearInterval(interval)
+            }
+        }
+    }, 500)
+}
+function autoMaxPlayer(isMax, isAutoPlay) {
+    const interval = setInterval(() => {
+        const player = document.querySelector('#player-container')
+        if (player && isMax) {
+            const style = document.createElement('style')
+            style.type = 'text/css'
+            style.innerHTML = 'div.xplayer-large-mode { height: 850px !important; }'
+            document.head.appendChild(style)
+            const largeModeButton = document.querySelector('div.large-mode')
+            if (largeModeButton) {
+                isMax = false
+                largeModeButton.click()
+            }
+        }
+        if (player && isAutoPlay) {
+            const playButton = document.querySelector('div.control-bar > a > div')
+            if (playButton) {
+                playButton.click()
+                isAutoPlay = false
+            }
+        }
+        if (!isMax && !isAutoPlay) {
+            clearInterval(interval)
+        }
+    }, 500)
 }
 function addDownloadButton(links) {
     const controls = document.querySelector(isMobileDevice() ? '[data-role="video-controls"]' : '.controls')
