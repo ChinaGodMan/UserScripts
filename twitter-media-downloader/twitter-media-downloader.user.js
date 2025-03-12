@@ -100,7 +100,7 @@
 // @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
-// @version           2025.03.13.0246
+// @version           2025.03.13.0544
 // @created           2025-03-11 08:11:29
 // @modified          2025-03-11 08:11:29
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -113,7 +113,7 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/13,Thursday 02:56:39
+ * Last Modified: 2025/03/13,Thursday 05:44:14
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -123,7 +123,7 @@
 
 
 /* jshint esversion: 8 */
-
+let enable_packaging = GM_getValue('enable_packaging', true)
 const filename = 'twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}'
 const TMD = (function () {
     let lang, host, history, show_sensitive, is_tweetdeck
@@ -222,6 +222,7 @@ const TMD = (function () {
         click: async function (btn, status_id, is_exist, index) {
             if (btn.classList.contains('loading')) return
             this.status(btn, 'loading')
+            enable_packaging = await GM_getValue('enable_packaging', true)
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
@@ -267,46 +268,95 @@ const TMD = (function () {
             return {
                 add: function (taskList, btn, save_history, is_exist, status_id) {
                     if (taskList.length > 1) {
-                        let zip = new JSZip()
-                        let tasks_result = []
-                        taskList.forEach((task, i) => {
-                            fetch(task.url)
-                                .then(response => response.blob())
-                                .then(blob => {
-                                    zip.file(task.name, blob)
-                                    tasks_result.push((i + 1) + ': ' + lang.completed)
-                                    if (tasks_result.length === taskList.length) {
-                                        zip.generateAsync({ type: 'blob' }).then(content => {
-                                            let a = document.createElement('a')
-                                            a.href = URL.createObjectURL(content)
-                                            a.download = `${taskList[0].name}.zip`
-                                            a.click()
-                                            this.status(btn, 'completed', lang.completed)
-                                            if (save_history && !is_exist) {
-                                                history.push(status_id)
-                                                this.storage(status_id)
-                                            }
-                                        })
+                        tasks.push(...taskList)
+                        this.update()
+                        if (enable_packaging) {
+                            let zip = new JSZip()
+                            let completedCount = 0
+                            taskList.forEach((task, i) => {
+                                thread++
+                                this.update()
+                                fetch(task.url)
+                                    .then(response => response.blob())
+                                    .then(blob => {
+                                        zip.file(task.name, blob)
+                                        tasks = tasks.filter(t => t.url !== task.url)
+                                        thread--
+                                        this.update()
+                                        completedCount++
+                                        if (completedCount === taskList.length) {
+                                            zip.generateAsync({ type: 'blob' }).then(content => {
+                                                let a = document.createElement('a')
+                                                a.href = URL.createObjectURL(content)
+                                                a.download = `${taskList[0].name}.zip`
+                                                a.click()
+                                                this.status(btn, 'completed', lang.completed)
+                                                if (save_history && !is_exist) {
+                                                    history.push(status_id)
+                                                    this.storage(status_id)
+                                                }
+                                            })
+                                        }
+                                    })
+                                    .catch(error => {
+                                        failed++
+                                        tasks = tasks.filter(t => t.url !== task.url)
+                                        this.status(btn, 'failed', error.message)
+                                        this.update()
+                                    })
+                            })
+                        } else {
+                            taskList.forEach((task) => {
+                                thread++
+                                this.update()
+
+                                GM_download({
+                                    url: task.url,
+                                    name: task.name,
+                                    onload: () => {
+                                        thread--
+                                        tasks = tasks.filter(t => t.url !== task.url)
+                                        this.status(btn, 'completed', lang.completed)
+                                        if (save_history && !is_exist) {
+                                            history.push(status_id)
+                                            this.storage(status_id)
+                                        }
+                                        this.update()
+                                    },
+                                    onerror: result => {
+                                        thread--
+                                        failed++
+                                        tasks = tasks.filter(t => t.url !== task.url)
+                                        this.status(btn, 'failed', result.details.current)
+                                        this.update()
                                     }
                                 })
-                                .catch(error => {
-                                    tasks_result.push((i + 1) + ': ' + error.message)
-                                    this.status(btn, 'failed', tasks_result.sort().join('\n'))
-                                })
-                        })
+                            })
+                        }
                     } else {
+                        tasks.push(taskList[0])
+                        thread++
+                        this.update()
                         GM_download({
                             url: taskList[0].url,
                             name: taskList[0].name,
                             onload: () => {
+                                thread--
+                                tasks = tasks.filter(t => t.url !== taskList[0].url)
                                 this.status(btn, 'completed', lang.completed)
+
                                 if (save_history && !is_exist) {
                                     history.push(status_id)
                                     this.storage(status_id)
                                 }
+                                this.update()
                             },
                             onerror: result => {
+                                thread--
+                                failed++
+                                tasks = tasks.filter(t => t.url !== taskList[0].url)
                                 this.status(btn, 'failed', result.details.current)
+                                this.update()
                             }
                         })
                     }
@@ -349,7 +399,7 @@ const TMD = (function () {
                         }
                     }
                     notifier.firstChild.innerText = thread
-                    notifier.firstChild.nextElementSibling.innerText = tasks.length
+                    notifier.firstChild.nextElementSibling.innerText = tasks.length - thread - failed
                     if (failed > 0) notifier.lastChild.innerText = failed
                     if (thread > 0 || tasks.length > 0 || failed > 0) notifier.classList.add('running')
                     else notifier.classList.remove('running')
@@ -408,6 +458,12 @@ const TMD = (function () {
             show_sensitive_input.onchange = () => {
                 show_sensitive = show_sensitive_input.checked
                 GM_setValue('show_sensitive', show_sensitive)
+            }
+            let enable_packaging = $element(options, 'label', 'display: block; margin: 10px;', lang.enable_packaging)
+            let enable_packaging_input = $element(enable_packaging, 'input', 'float: left;', 'checkbox')
+            enable_packaging_input.checked = await GM_getValue('enable_packaging', false)
+            enable_packaging_input.onchange = () => {
+                GM_setValue('enable_packaging', enable_packaging_input.checked)
             }
             let filename_div = $element(dialog, 'div', 'margin: 10px; border: 1px solid #ccc; border-radius: 5px;')
             let filename_label = $element(filename_div, 'label', 'display: block; margin: 10px 15px;', lang.dialog.pattern)
@@ -529,10 +585,10 @@ const TMD = (function () {
         },
 
         language: {
-            en: { download: 'Download', completed: 'Download Completed', settings: 'Settings', dialog: { title: 'Download Settings', save: 'Save', save_history: 'Remember download history', clear_history: '(Clear)', clear_confirm: 'Clear download history?', show_sensitive: 'Always show sensitive content', pattern: 'File Name Pattern' } },
-            ja: { download: 'ダウンロード', completed: 'ダウンロード完了', settings: '設定', dialog: { title: 'ダウンロード設定', save: '保存', save_history: 'ダウンロード履歴を保存する', clear_history: '(クリア)', clear_confirm: 'ダウンロード履歴を削除する？', show_sensitive: 'センシティブな内容を常に表示する', pattern: 'ファイル名パターン' } },
-            zh: { download: '下载', completed: '下载完成', settings: '设置', dialog: { title: '下载设置', save: '保存', save_history: '保存下载记录', clear_history: '(清除)', clear_confirm: '确认要清除下载记录？', show_sensitive: '自动显示敏感的内容', pattern: '文件名格式' } },
-            'zh-Hant': { download: '下載', completed: '下載完成', settings: '設置', dialog: { title: '下載設置', save: '保存', save_history: '保存下載記錄', clear_history: '(清除)', clear_confirm: '確認要清除下載記錄？', show_sensitive: '自動顯示敏感的内容', pattern: '文件名規則' } }
+            en: { download: 'Download', completed: 'Download Completed', settings: 'Settings', dialog: { title: 'Download Settings', save: 'Save', save_history: 'Remember download history', clear_history: '(Clear)', clear_confirm: 'Clear download history?', show_sensitive: 'Always show sensitive content', pattern: 'File Name Pattern' }, enable_packaging: 'Package multiple files into a ZIP' },
+            ja: { download: 'ダウンロード', completed: 'ダウンロード完了', settings: '設定', dialog: { title: 'ダウンロード設定', save: '保存', save_history: 'ダウンロード履歴を保存する', clear_history: '(クリア)', clear_confirm: 'ダウンロード履歴を削除する？', show_sensitive: 'センシティブな内容を常に表示する', pattern: 'ファイル名パターン' }, enable_packaging: '複数ファイルを ZIP にパッケージ化する' },
+            zh: { download: '下载', completed: '下载完成', settings: '设置', dialog: { title: '下载设置', save: '保存', save_history: '保存下载记录', clear_history: '(清除)', clear_confirm: '确认要清除下载记录？', show_sensitive: '自动显示敏感的内容', pattern: '文件名格式' }, enable_packaging: '多文件打包成 ZIP' },
+            'zh-Hant': { download: '下載', completed: '下載完成', settings: '設置', dialog: { title: '下載設置', save: '保存', save_history: '保存下載記錄', clear_history: '(清除)', clear_confirm: '確認要清除下載記錄？', show_sensitive: '自動顯示敏感的内容', pattern: '文件名規則' }, enable_packaging: '多文件打包成 ZIP' }
         },
         css: `
 .tmd-down {margin-left: 12px; order: 99;}
