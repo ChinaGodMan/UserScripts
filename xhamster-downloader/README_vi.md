@@ -52,16 +52,16 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xhamster-downloader/xhamster-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529043">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Xhamster 视频一键下载助手 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ Xhamster Trợ lý tải xuống video một lần Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.13.0330</strong></h3>
-<p><strong>新增</strong>: •自动播放<br>
-<strong>新增</strong>: •自动宽屏<br>
-<strong>新增</strong>: •自动最高画质播放<br>
-<strong>设置</strong>: •<code>autoMax = true</code> <strong>自动宽屏</strong><br>
-<strong>设置</strong>: • <code>autoPlay = true</code> <strong>自动播放</strong><br>
-<strong>设置</strong>: •<code>autoMaxQuality</code> <strong>自动最高画质播放</strong><br></p>
+<p><strong>Mới</strong>: •Tự động phát lại<br>
+<strong>Mới</strong>: •Màn hình rộng tự động<br>
+<strong>Mới</strong>: •Phát lại chất lượng hình ảnh cao nhất tự động<br>
+<strong>cài đặt</strong>: •<code>autoMax = true</code> <strong>Màn hình rộng tự động</strong><br>
+<strong>cài đặt</strong>: • <code>autoPlay = true</code> <strong>Tự động phát lại</strong><br>
+<strong>cài đặt</strong>: •<code>autoMaxQuality</code> <strong>Phát lại chất lượng hình ảnh cao nhất tự động</strong><br></p>
 <h3><strong>📅 2025.03.07.0739</strong></h3>
-<p><strong>新增</strong>: •初始版本</p>
+<p><strong>Mới</strong>: •Phiên bản ban đầu</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529043.png">
 </div></center>
