@@ -52,9 +52,16 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️tTwitter 媒體下載 更新日誌</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.03.13.0246</strong></h3>
+<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
+<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" />) <br>
+<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
+<hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>新增</strong>: • 批量下載時,打包為一個 zip 文件</p>
+<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
