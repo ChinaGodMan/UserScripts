@@ -57,9 +57,9 @@
 <p><strong>新增</strong>: •自動播放<br>
 <strong>新增</strong>: •自動寬屏<br>
 <strong>新增</strong>: •自動最高畫質播放<br>
-<strong>設定</strong>: •<code>autoMax = true</code> <strong>自動寬屏</strong><br>
-<strong>設定</strong>: • <code>autoPlay = true</code> <strong>自動播放</strong><br>
-<strong>設定</strong>: •<code>autoMaxQuality</code> <strong>自動最高畫質播放</strong><br></p>
+<strong>環境</strong>: •<code>autoMax = true</code> <strong>自動寬屏</strong><br>
+<strong>環境</strong>: • <code>autoPlay = true</code> <strong>自動播放</strong><br>
+<strong>環境</strong>: •<code>autoMaxQuality</code> <strong>自動最高畫質播放</strong><br></p>
 <h3><strong>📅 2025.03.07.0739</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
@@ -245,7 +245,7 @@
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
 > -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
