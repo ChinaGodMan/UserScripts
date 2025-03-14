@@ -1,31 +1,107 @@
 // ==UserScript==
-// @name         YouTube  Helper
-// @name:zh-CN   YouTube 小助手
-// @description  YouTube  1.Loop playback of YouTube videos 2.screenshot download 3.themed progress bar.
+// @name              YouTube Helper
+// @name:ar           مساعد يوتيوب
+// @name:bg           YouTube асистент
+// @name:cs           Asistent YouTube
+// @name:da           YouTube -assistent
+// @name:de           YouTube -Assistent
+// @name:el           Βοηθός του YouTube
+// @name:en           YouTube Assistant
+// @name:eo           YouTube -Asistanto
+// @name:es           Asistente de YouTube
+// @name:fi           YouTube -avustaja
+// @name:fr           Assistant YouTube
+// @name:fr-CA        Assistant YouTube
+// @name:he           עוזר YouTube
+// @name:hr           YouTube pomoćnik
+// @name:hu           YouTube asszisztens
+// @name:id           Asisten YouTube
+// @name:it           Assistente YouTube
+// @name:ja           YouTubeアシスタント
+// @name:ka           YouTube ასისტენტი
+// @name:ko           YouTube Assistant
+// @name:nb           YouTube -assistent
+// @name:nl           YouTube -assistent
+// @name:pl           Asystent YouTube
+// @name:pt-BR        Assistente do YouTube
+// @name:ro           Asistent YouTube
+// @name:ru           YouTube Assistant
+// @name:sk           Asistent YouTube
+// @name:sr           ИоуТубе асистент
+// @name:sv           YouTube Assistant
+// @name:th           ผู้ช่วย YouTube
+// @name:tr           YouTube Assistant
+// @name:ug           YouTube ياردەمچىسى
+// @name:uk           Асистент YouTube
+// @name:vi           Trợ lý YouTube
+// @name:zh           YouTube 小助手
+// @name:zh-CN        YouTube 小助手
+// @name:zh-HK        YouTube 小助手
+// @name:zh-SG        YouTube 小助手
+// @name:zh-TW        YouTube 小助手
+// @description       YouTube 1.Loop playback of YouTube videos 2.screenshot download 3.themed progress bar.
+// @description:ar    YouTube 1. تشغيل حلقة الفيديو 2. تنزيل لقطة الشاشة 3.
+// @description:bg    YouTube 1. Възпроизвеждане на видео контур 2. Изтегляне на екранна снимка 3. Бар за напредък на темата
+// @description:cs    YouTube 1.. Přehrávání video smyčky 2.
+// @description:da    YouTube 1. Video Loop Playback 2.. Skærmbillede Download 3. Tema -statuslinje
+// @description:de    YouTube 1. Video Loop -Wiedergabe 2. Screenshot Download 3. Thema Fortschrittsleiste
+// @description:el    YouTube 1. Αναπαραγωγή βρόχου βίντεο 2. ΠΕΡΙΕΧΟΜΕΝΟ ΣΤΟΙΧΕΙΑ 3.
+// @description:en    YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar
+// @description:eo    YouTube 1. Video Loop Playback 2.
+// @description:es    YouTube 1. Video Loop Playback 2. Descarga de captura de pantalla 3. Barra de progreso del tema
+// @description:fi    YouTube 1.
+// @description:fr    YouTube 1. Playback de boucle vidéo 2. Capture d’écran Télécharger 3. Bar de progression du thème
+// @description:fr-CA YouTube 1. Playback de boucle vidéo 2. Capture d’écran Télécharger 3. Bar de progression du thème
+// @description:he    YouTube 1. השמעת לולאת וידאו 2. הורדת צילום מסך 3. סרגל התקדמות נושא
+// @description:hr    YouTube 1. Video petlja reprodukcija 2. Snimka zaslona Preuzmite 3.
+// @description:hu    YouTube 1. Video hurok lejátszása 2. képernyőkép letöltése 3. Téma előrehaladási sáv
+// @description:id    YouTube 1. Video Loop Playback 2. Screenshot Unduh 3. Tema Kemajuan Bilah
+// @description:it    YouTube 1. Riproduzione del loop video 2. Screenshot Download 3. Barra di avanzamento del tema
+// @description:ja    YouTube1。ビデオループ再生2。スクリーンショットダウンロード3。テーマの進行状況バー
+// @description:ka    YouTube 1. ვიდეო მარყუჟის დაკვრა 2. სკრინშოტის ჩამოტვირთვა 3. თემის პროგრესის ბარი
+// @description:ko    YouTube 1. 비디오 루프 재생 2. 스크린 샷 다운로드 3. 테마 진행률 바
+// @description:nb    YouTube 1. Video Loop Playback 2. Skjermbilde nedlasting 3. Tema Progress Bar
+// @description:nl    YouTube 1. Video Loop Playback 2. Screenshot Download 3. Theme voortgangsbalk
+// @description:pl    YouTube 1. Pętla wideo odtwarzanie 2. Pobierz zrzut ekranu 3.
+// @description:pt-BR YouTube 1. Playback de loop de vídeo.
+// @description:ro    YouTube 1. Redarea buclelor video 2. Descărcare de ecran 3. Tema Progress Bar
+// @description:ru    YouTube 1. Playback Video Playback 2. Скачать экрана 3.
+// @description:sk    YouTube 1. Prehrávanie video slučky 2. Screenshot Stiahnutie 3.
+// @description:sr    ИоуТубе 1. Репродукција видео петље 2. Сцреенсхот Довнлоад 3. Тхеме Топресс Бар
+// @description:sv    YouTube 1. Video Loop Playback 2. Skärmdump nedladdning 3. Theme Progress Bar
+// @description:th    YouTube 1. การเล่นวิดีโอลูป 2. การดาวน์โหลดภาพหน้าจอ 3. ธีมความคืบหน้าแถบ
+// @description:tr    YouTube 1. Video Döngüsü Oynatma 2. Ekran Görüntüsü İndir 3. Tema İlerleme Çubuğu
+// @description:ug    YouTube 1. سىن ئايلانما قويۇش 2. ئېكران رەسىمى 3 نى چۈشۈرۈڭ. باشتېمىنى ئىلگىرى سۈرۈش بالدىقى
+// @description:uk    YouTube 1. Відеокласник відеокліту
+// @description:vi    YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề
+// @description:zh    YouTube 1.视频循环播放 2.截图下载 3.主题进度条
 // @description:zh-CN YouTube 1.视频循环播放 2.截图下载 3.主题进度条
-// @author       Carokahn,bernzrdo,FunnyMonkey,人民的勤务员 <china.qinwuyuan@gmail.com>
-// @namespace    https://github.com/ChinaGodMan/UserScripts
-// @supportURL   https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL  https://github.com/ChinaGodMan/UserScripts
-// @license      MIT
-// @icon         https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png
-// @match       https://www.youtube.com/*
-// @match       https://m.youtube.com/*
-// @compatible   chrome
-// @compatible   firefox
-// @compatible   edge
-// @compatible   opera
-// @compatible   safari
-// @compatible   kiwi
-// @compatible   qq
-// @compatible   via
-// @compatible   brave
-// @version      2025.03.15.0436
-// @grant        GM_addStyle
-// @created      2025-03-14 20:36:01
-// @modified     2025-03-14 20:36:01
-// @downloadURL  https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
-// @updateURL    https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
+// @description:zh-HK YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
+// @description:zh-SG YouTube 1.视频循环播放 2.截图下载 3.主题进度条
+// @description:zh-TW YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
+// @author            Carokahn,bernzrdo,FunnyMonkey,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
+// @license           MIT
+// @icon              https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png
+// @match             https://www.youtube.com/*
+// @match             https://m.youtube.com/*
+// @compatible        chrome
+// @compatible        firefox
+// @compatible        edge
+// @compatible        opera
+// @compatible        safari
+// @compatible        kiwi
+// @compatible        qq
+// @compatible        via
+// @compatible        brave
+// @version           2025.03.15.0436
+// @grant             GM_addStyle
+// @created           2025-03-14 20:36:01
+// @modified          2025-03-14 20:36:01
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
+// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
 // ==/UserScript==
 /**
  * File: youtube-helper.user.js
