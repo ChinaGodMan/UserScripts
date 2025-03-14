@@ -459,7 +459,7 @@
 </h3>
 
 <details>
-    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Gửi tiêu đề và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
+    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Tiêu đề gửi và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -1552,6 +1552,35 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
 </blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">YouTube Trợ lý nhỏ</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+</h3>
+
+<details>
+    <summary>YouTube 1.Video vòng phát lại 2.Tải xuống ảnh chụp màn hình 3.Thanh tiến trình chủ đề</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+           <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529845">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529845">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/#readme">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
+</blockquote>
         
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
@@ -1569,7 +1598,7 @@
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt kernel（Chẳng hạn như trình duyệt trong nước）Nói chung có sẵn Chrome Mở rộng。_
 > -   _Vui lòng đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không thể sử dụng bình thường**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh được cài đặt lại。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh kết thúc, hãy cài đặt lại tập lệnh。_
 
 > _**Sẽ không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge RE-re-beable ẩn [Kéo vào cài đặt .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -1585,7 +1614,7 @@
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   Tất cả trong kho`README.md`Huy hiệu tập tin sao chép[Hmjz100](https://github.com/hmjz100)Kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)Nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Tệp Huy hiệu kiểu
+> -   Tất cả trong kho`README.md`Huy hiệu tập tin sao chép[Hmjz100](https://github.com/hmjz100)Kho[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)Nội bộ[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Phong hiệu Hadge File
 
 > [!TIP]
 >
