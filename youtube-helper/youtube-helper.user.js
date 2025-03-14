@@ -1,0 +1,141 @@
+// ==UserScript==
+// @name         YouTube  Helper
+// @name:zh-CN   YouTube 小助手
+// @description  YouTube  1.Loop playback of YouTube videos 2.screenshot download 3.themed progress bar.
+// @description:zh-CN YouTube 1.视频循环播放 2.截图下载 3.主题进度条
+// @author       Carokahn,bernzrdo,FunnyMonkey,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace    https://github.com/ChinaGodMan/UserScripts
+// @supportURL   https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL  https://github.com/ChinaGodMan/UserScripts
+// @license      MIT
+// @icon         https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png
+// @match       https://www.youtube.com/*
+// @match       https://m.youtube.com/*
+// @compatible   chrome
+// @compatible   firefox
+// @compatible   edge
+// @compatible   opera
+// @compatible   safari
+// @compatible   kiwi
+// @compatible   qq
+// @compatible   via
+// @compatible   brave
+// @version      2025.03.15.0436
+// @grant        GM_addStyle
+// @created      2025-03-14 20:36:01
+// @modified     2025-03-14 20:36:01
+// @downloadURL  https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
+// @updateURL    https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/youtube-helper/youtube-helper.user.js
+// ==/UserScript==
+/**
+ * File: youtube-helper.user.js
+ * Project: UserScripts
+ * File Created: 2025/03/15,Saturday 04:36:02
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/15,Saturday 05:57:23
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+const directDownload = true
+const infiniteLool = true
+
+
+
+
+
+const loopVideo = () => {
+    const video = document.querySelector('video')
+    if (video && !video.loop) {
+        video.loop = true
+    }
+}
+const ThemeProgressbar = () => {
+    const css_248z = '.html5-play-progress,.ytp-play-progress{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUNCQzIyREQ0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUNCQzIyREU0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0JDMjJEQjRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQ0JDMjJEQzRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PovDFgYAAAAmSURBVHjaYvjPwMAAxjMZmBhA9H8INv4P4TPM/A+m04zBNECAAQBCWQv9SUQpVgAAAABJRU5ErkJggg==") repeat-x!important;background:linear-gradient(180deg,red 0,red 16.5%,#f90 0,#f90 33%,#ff0 0,#ff0 50%,#3f0 0,#3f0 66%,#09f 0,#09f 83.5%,#63f 0,#63f)!important;background:-webkit-linear-gradient(top,red,red 16.5%,#f90 0,#f90 33%,#ff0 0,#ff0 50%,#3f0 0,#3f0 66%,#09f 0,#09f 83.5%,#63f 0,#63f)!important;background:-moz-linear-gradient(top,red 0,red 16.5%,#f90 16.5%,#f90 33%,#ff0 33%,#ff0 50%,#3f0 50%,#3f0 66%,#09f 66%,#09f 83.5%,#63f 83.5%,#63f 100%)!important}.html5-load-progress,.ytp-load-progress{background:url("data:image/gif;base64,R0lGODlhMAAMAIAAAAxBd////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQECgAAACwAAAAAMAAMAAACJYSPqcvtD6MKstpLr24Z9A2GYvJ544mhXQmxoesElIyCcB3dRgEAIfkEBAoAAAAsAQACAC0ACgAAAiGEj6nLHG0enNQdWbPefOHYhSLydVhJoSYXPO04qrAmJwUAIfkEBAoAAAAsBQABACkACwAAAiGEj6nLwQ8jcC5ViW3evHt1GaE0flxpphn6BNTEqvI8dQUAIfkEBAoAAAAsAQABACoACwAAAiGEj6nLwQ+jcU5VidPNvPtvad0GfmSJeicUUECbxnK0RgUAIfkEBAoAAAAsAAAAACcADAAAAiCEj6mbwQ+ji5QGd6t+c/v2hZzYiVpXmuoKIikLm6hXAAAh+QQECgAAACwAAAAALQAMAAACI4SPqQvBD6NysloTXL480g4uX0iW1Wg21oem7ismLUy/LFwAACH5BAQKAAAALAkAAAAkAAwAAAIghI8Joe0Po0yBWTaz3g/z7UXhMX7kYmplmo0rC8cyUgAAIfkEBAoAAAAsBQAAACUACgAAAh2Ejwmh7Q+jbIFZNrPeEXPudU74IVa5kSiYqOtRAAAh+QQECgAAACwEAAAAIgAKAAACHISPELfpD6OcqTGKs4bWRp+B36YFi0mGaVmtWQEAIfkEBAoAAAAsAAAAACMACgAAAh2EjxC36Q+jnK8xirOW1kavgd+2BYtJhmnpiGtUAAAh+QQECgAAACwAAAAALgALAAACIYSPqcvtD+MKicqLn82c7e6BIhZQ5jem6oVKbfdqQLzKBQAh+QQECgAAACwCAAIALAAJAAACHQx+hsvtD2OStDplKc68r2CEm0eW5uSN6aqe1lgAADs=")!important}.html5-scrubber-button,.ytp-scrubber-button{background:url("data:image/gif;base64,R0lGODlhIgAVAKIHAL3/9/+Zmf8zmf/MmZmZmf+Z/wAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMkJBNjY5RTU1NEJFMzExOUM4QUM2MDAwNDQzRERBQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCREIzOEIzMzRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCREIzOEIzMjRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1QkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMyQkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8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")!important;border:none!important;height:21px!important;margin-left:-18px!important;margin-top:0!important;transform:scale(.8);-webkit-transform:scale(.8);-moz-transform:scale(.8);-ms-transform:scale(.8);width:34px!important}.ytp-progress-bar-container:hover .ytp-load-progress,.ytp-progress-bar-container:hover .ytp-scrubber-button{image-rendering:pixelated}.html5-progress-bar-container,.ytp-progress-bar-container{height:12px!important}.html5-progress-bar,.ytp-progress-bar{margin-top:12px!important}.html5-progress-list,.video-ads .html5-progress-list.html5-ad-progress-list,.video-ads .ytp-progress-list.ytp-ad-progress-list,.ytp-progress-list{height:12px!important}.ytp-volume-slider-track{background:#0c4177!important}'
+    GM_addStyle(css_248z)
+}
+
+let escapeHTMLPolicy = 'trustedTypes' in window
+    ? trustedTypes.createPolicy('forceInner', { createHTML: html => html })
+    : { createHTML: html => html }
+function screenBtnUpdate() {
+    let $miniplayerBtn = document.querySelector('button.ytp-miniplayer-button')
+    if ($miniplayerBtn && !document.getElementById('ytp-screenshot-button')) {
+        const $btn = document.createElement('button')
+        $btn.id = 'ytp-screenshot-button'
+        $btn.classList.add('ytp-screenshot-button', 'ytp-button')
+        $btn.dataset.priority = '5'
+        $btn.dataset.tooltipTargetId = 'ytp-screenshot-button'
+        $btn.dataset.titleNoTooltip = 'Screenshot'
+        $btn.ariaLabel = 'Screenshot'
+        $btn.title = 'Screenshot'
+        $btn.innerHTML = escapeHTMLPolicy.createHTML(`<svg height="100%" version="1.1" viewBox="-300 -1260 1560 1560" width="100%">
+            <use class="ytp-svg-shadow" xlink:href="#ytp-id-screenshot-svg"></use>
+            <path
+                d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm40-80h480L570-480 450-320l-90-120-120 160Zm-40 80v-560 560Z"
+                fill="#fff" id="ytp-id-screenshot-svg"></path>
+        </svg>`)
+        $btn.addEventListener('click', screenshot)
+
+        insertBefore($btn, $miniplayerBtn)
+    }
+
+    requestAnimationFrame(screenBtnUpdate)
+}
+function insertBefore($element, $sibling) {
+    $sibling.parentElement.insertBefore($element, $sibling)
+}
+function screenshot() {
+
+    const $video = document.querySelector('#player video')
+    if (!$video) {
+        console.error('No video found to screenshot!')
+        return
+    }
+
+    let wasPlaying = !$video.paused
+    if (wasPlaying) $video.pause()
+
+    const $canvas = document.createElement('canvas')
+    $canvas.width = $video.videoWidth
+    $canvas.height = $video.videoHeight
+
+    let oldCss = $video.style.cssText
+    $video.style.width = $video.videoWidth + 'px'
+    $video.style.height = $video.videoHeight + 'px'
+
+    const ctx = $canvas.getContext('2d')
+    ctx.drawImage($video, 0, 0, $video.videoWidth, $video.videoHeight)
+
+    $canvas.toBlob(blob => {
+
+        if (directDownload) {
+            const a = document.createElement('a')
+            a.href = URL.createObjectURL(blob)
+            a.download = `${getFileName()}.png`
+            a.click()
+        } else {
+            const item = new ClipboardItem({ 'image/png': blob })
+            navigator.clipboard.write([item])
+        }
+
+        $video.style.cssText = oldCss
+        $canvas.remove()
+        if (wasPlaying) $video.play()
+
+    })
+
+}
+function getFileName() {
+    const safeFileName = document.title.replace(/[\\/:*?"<>|]/g, '').replace(' - YouTube', '')
+    return safeFileName
+}
+if (infiniteLool) {
+    const observer = new MutationObserver(loopVideo)
+    observer.observe(document.body, { childList: true, subtree: true })
+}
+
+requestAnimationFrame(screenBtnUpdate)
+ThemeProgressbar()

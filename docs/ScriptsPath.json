@@ -840,6 +840,22 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
+        },
+        {
+            "isUpdated": true,
+            "name": "YouTube 小助手",
+            "description": "",
+            "relatedscripts": "社交媒体脚本",
+            "path": "youtube-helper.user.js",
+            "backuppath": "youtube-helper",
+            "version": "2025.03.15.0436",
+            "GreasyFork": "",
+            "created_at": "",
+            "code_updated_at": "",
+            "local_created_at": "",
+            "top_tip": "",
+            "img": "https://pparker1930.github.io/youtube-theme-progressbar.gif",
+            "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"
         }
     ]
 }
