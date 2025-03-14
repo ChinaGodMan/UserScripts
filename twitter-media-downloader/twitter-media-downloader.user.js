@@ -100,7 +100,7 @@
 // @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
-// @version           2025.03.13.0544
+// @version           2025.03.15.0012
 // @created           2025-03-11 08:11:29
 // @modified          2025-03-11 08:11:29
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -113,7 +113,7 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/13,Thursday 05:44:14
+ * Last Modified: 2025/03/15,Saturday 00:12:32
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -123,7 +123,6 @@
 
 
 /* jshint esversion: 8 */
-let enable_packaging = GM_getValue('enable_packaging', true)
 const filename = 'twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}'
 const TMD = (function () {
     let lang, host, history, show_sensitive, is_tweetdeck
@@ -222,7 +221,6 @@ const TMD = (function () {
         click: async function (btn, status_id, is_exist, index) {
             if (btn.classList.contains('loading')) return
             this.status(btn, 'loading')
-            enable_packaging = await GM_getValue('enable_packaging', true)
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
@@ -259,14 +257,14 @@ const TMD = (function () {
                     info.out = (out.replace(/\.?\{file-ext\}/, '') + ((medias.length > 1 || index) && !out.match('{file-name}') ? '-' + (index ? index - 1 : i) : '') + '.{file-ext}').replace(/\{([^{}:]+)(:[^{}]+)?\}/g, (match, name) => info[name])
                     return { url: info.url, name: info.out }
                 })
-                this.downloader.add(tasks, btn, save_history, is_exist, status_id)
+                this.downloader.add(tasks, btn, save_history, is_exist, status_id, GM_getValue('enable_packaging', true))
             } else {
                 this.status(btn, 'failed', 'MEDIA_NOT_FOUND')
             }
         }, downloader: (function () {
             let tasks = [], thread = 0, failed = 0, notifier, has_failed = false
             return {
-                add: function (taskList, btn, save_history, is_exist, status_id) {
+                add: function (taskList, btn, save_history, is_exist, status_id, enable_packaging) {
                     if (taskList.length > 1) {
                         tasks.push(...taskList)
                         this.update()
@@ -459,11 +457,11 @@ const TMD = (function () {
                 show_sensitive = show_sensitive_input.checked
                 GM_setValue('show_sensitive', show_sensitive)
             }
-            let enable_packaging = $element(options, 'label', 'display: block; margin: 10px;', lang.enable_packaging)
-            let enable_packaging_input = $element(enable_packaging, 'input', 'float: left;', 'checkbox')
-            enable_packaging_input.checked = await GM_getValue('enable_packaging', false)
-            enable_packaging_input.onchange = () => {
-                GM_setValue('enable_packaging', enable_packaging_input.checked)
+            let show_enable_packaging = $element(options, 'label', 'display: block; margin: 10px;', lang.enable_packaging)
+            let show_enable_packaging_input = $element(show_enable_packaging, 'input', 'float: left;', 'checkbox')
+            show_enable_packaging_input.checked = await GM_getValue('enable_packaging', true)
+            show_enable_packaging_input.onchange = () => {
+                GM_setValue('enable_packaging', show_enable_packaging_input.checked)
             }
             let filename_div = $element(dialog, 'div', 'margin: 10px; border: 1px solid #ccc; border-radius: 5px;')
             let filename_label = $element(filename_div, 'label', 'display: block; margin: 10px 15px;', lang.dialog.pattern)
