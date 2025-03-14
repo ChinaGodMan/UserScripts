@@ -77,15 +77,17 @@
 // @name:fr-CA        Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description       Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version           2.5.1.4
-// @author            hiisme & 人民的勤务员 <china.qinwuyuan@gmail.com>
+// @version           2025.3.14.1108
+// @author            hiisme,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             *://*/*
 // @grant             GM_registerMenuCommand
 // @grant             GM_unregisterMenuCommand
 // @grant             GM_getValue
 // @grant             GM_setValue
 // @grant             GM_info
+// @grant             GM_getResourceText
 // @require           https://unpkg.com/sweetalert2@10.16.6/dist/sweetalert2.min.js
+// @resource          swalStyle https://unpkg.com/sweetalert2@10.16.6/dist/sweetalert2.min.css
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
@@ -93,6 +95,21 @@
 // @iconbak           https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license           MIT
 // ==/UserScript==
+/**
+ * File: popup-window.user.js
+ * Project: UserScripts
+ * File Created: 2024/11/24,Sunday 12:38:59
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/14,Friday 11:09:20
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+
+
+
 (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
     const translations = {
@@ -120,7 +137,8 @@
             dragTimeOut: 'Drag timeout duration',
             settings: '⚙️ Settings',
             saveBtn: 'Save',
-            cancelBtn: 'Cancel'
+            cancelBtn: 'Cancel',
+            onemenu: 'Show GUI menu only'
         },
         'zh-CN,zh,zh-SG': {
             actionMode: '选择触发方式',
@@ -146,7 +164,8 @@
             dragTimeOut: '拖拽超时时间',
             settings: '⚙️ 配置界面',
             saveBtn: '保存',
-            cancelBtn: '取消'
+            cancelBtn: '取消',
+            onemenu: '只显示GUI菜单'
         },
         'zh-TW,zh-HK,zh-MO': {
             actionMode: '選擇觸發方式',
@@ -169,7 +188,11 @@
             showCountdown: '顯示倒數計時進度條',
             saveWindowConfig: '記錄窗口位置',
             showCountdowndrag: '顯示拖曳逾時進度條',
-            dragTimeOut: '拖曳逾時時間'
+            dragTimeOut: '拖曳逾時時間',
+            settings: '⚙️ 配置界面',
+            saveBtn: '保存',
+            cancelBtn: '取消',
+            onemenu: '僅顯示 GUI 選單'
         },
         'ja': {
             actionMode: 'トリガーモードの選択',
@@ -323,12 +346,21 @@
             actionMode: GM_getValue('actionMode', 0), // 0: 两者都用, 1: 长按, 2: 拖拽
             showCountdown: GM_getValue('showCountdown', true), // 是否显示倒计时进度条
             showCountdowndrag: GM_getValue('showCountdowndrag', true), // 是否显示拖拽倒计时进度条
-            saveWindowConfig: GM_getValue('saveWindowConfig', true)//记住窗口位置,没啥用 
+            saveWindowConfig: GM_getValue('saveWindowConfig', true),//记住窗口位置,没啥用
+            streamlinedmenu: GM_getValue('streamlinedmenu', false) // 简洁菜单
         }
     }
+
     updateConfig()
     reWindowConfig()
     function openSettings() {
+        if (!document.getElementById('swalStyle')) {
+            const swalStyle = GM_getResourceText('swalStyle')
+            const styleElement = document.createElement('style')
+            styleElement.id = 'swalStyle'
+            styleElement.textContent = swalStyle
+            document.head.appendChild(styleElement)
+        }
         Swal.fire({
             imageUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEYklEQVR4nO3VW0yTZxzH8QI9ACbb4g3J3OR2Zm64uaVXu/BChkMUhAotUlrKUQUqqLhDRnDJLnZQoLvYxRLneQSB0tLSw1ugnE9KC7y05QwFVDxBdt/fUhhb2dS97+sLvEv4J89NE5rP98mfpzze9mzP9rxwxNe84shLrjnRhQFfUHE/gov6EFzUg+Az3QhRdyGksAMhBe3g57eBn28H/3QL+KeaIThpgyCPgCDXCmGuGcIcE4TZjRBlGSDKbIBIpYdIVY/QDC1ClXUIVdQgLP0OwuTVCJNXITztN7ymrPJFFusXPv6uNYbHZMS3vOLQr5y+oHMDCDp7F5sdEH7iNsJTb+INxW3f/m9bxbQDdl92z/HOO7DVATtkNxBZpPPSDhB+OejjSsDr8ls+2gG8Eie4ErBDeh20/V+MLONzchkXyCWUDC+hZOgZzg89xbnBpzg7+ATFzicocjxeOWcGHkE98AiF9xZRcG8R+XcfIr//IU73P8Cpvgc42Xcfeb33kduzsHJyuueR3T2PrK45ZHbOQdXpharDi4yOWSjbZ6Fom0F62zTSW6chb51Cmn2KfgCX8CdaJukHrMc/21J8KpMArtx8asskZM0TDAI4hJcxCeASXto0Tj+AS/gUG4MALuGTbWP0A7iEP04wCOASXkKMMgvgCl5iZRDAJXySxUM/gEv4RCYBXMIfM7vpB3AJn8Ak4J/4vJ555HTOIrt9ZuVktU0js20aqtYpZNinoLRPQtkyCUXLBNLtk6zi400uBgGBN9+7ALlpCOKfDfjoJx32a1bPh5p6fFD599n35zlwlUCqhWQNH88kIHBtcrq8OHTTDoFaQ/kc+JVAWvM4K/ijjSP0A9btfPc8MppGEVVeSzlgX6UWqbYxVvBHjAwC/vUP2zUHhc2DqApqEVEVWsiIUVbwcUaSfsBzX5tOL+RWN/ZeqqEQUAcpMcoK/rCBQcDznkpV+yxkRgd2f3ODUkCK1cMKPtYwzCyAKd5/3i9fDWADH9swRD/gVfBrAckWNyv4z/QMAl4FvxpQi+NmNyv4Q/pB+gFreKnBgbcvXn8pdlfZNez5vnrdZ+9droXE7GIFH6NjEKBqn6F087vKriJB2w+JwYl3f7yzLiDJ5GIF/6nOST9AanD8TuXmj2n7ILWNQtY0DkmDA3t+qP7rdyDRNMIKPrreuURPn18hivj6yiJl/NpTSYwhUT+AT36xIK62F0kWNxt4HNQ6qqjjS0uF/EKNjsrarMMHvDZJFhckFg8r+Git43FMjfOtTcOztfMHtc5l/82ziheoK0280iuhgX+WQkxEJNvGSNr4hmHPEa3rTeqrsQH4wAiJ1UP+L/GBEYlmN7m5eB6Px1dr6v7jV9Xof5WofFccMRGRYHaRm4b3D1+tmWEDvzZxxGBEvMlFbgreP8KiyncEhZoFJmvzsoijjSPkhuNfHMEcvzYS0/DOw0byYqyBLIs2De/kbfQICsr3+teJX1hZS3dttnL+AHpvNumR+ceNAAAAAElFTkSuQmCC',
             imageWidth: 48,
@@ -424,6 +456,10 @@
     <label class="settings-label">${translate.saveWindowConfig}:</label>
     <span class="icon-toggle" id="saveWindowConfig">${GM_getValue('saveWindowConfig', true) ? '✅' : '❌'}</span>
 </div>
+<div class="settings-row">
+    <label class="settings-label">${translate.onemenu}:</label>
+    <span class="icon-toggle" id="streamlinedmenu">${GM_getValue('streamlinedmenu', false) ? '✅' : '❌'}</span>
+</div>
 `,
             focusConfirm: false,
             preConfirm: () => {
@@ -438,6 +474,7 @@
                     showCountdown: document.getElementById('showCountdown').textContent === '✅',
                     showCountdowndrag: document.getElementById('showCountdowndrag').textContent === '✅',
                     saveWindowConfig: document.getElementById('saveWindowConfig').textContent === '✅',
+                    streamlinedmenu: document.getElementById('streamlinedmenu').textContent === '✅',
                     actionMode: document.getElementById('actionMode').value
                 }
             }
@@ -453,6 +490,7 @@
                 GM_setValue('showCountdown', result.value.showCountdown)
                 GM_setValue('showCountdowndrag', result.value.showCountdowndrag)
                 GM_setValue('saveWindowConfig', result.value.saveWindowConfig)
+                GM_setValue('streamlinedmenu', result.value.streamlinedmenu)
                 GM_setValue('actionMode', parseInt(result.value.actionMode))
                 updateConfig()
                 updateMenuCommands()
@@ -708,8 +746,8 @@
             updateMenuCommands()
         }
     }
-    function updateMenuCommands() {//LINK - 
-        const menuCommands = [
+    function updateMenuCommands() {//LINK -
+        let menuCommands = [
             { label: translate('settings'), action: openSettings },
             { label: translate('actionMode') + ` (${config.actionMode === 1 ? translate('actionMode1') : config.actionMode === 2 ? translate('actionMode2') : translate('actionMode0')})`, action: toggleActionMode },
             { label: translate('longPressEffective') + ` (${config.longPressEffective}ms)`, action: setLongPressEffective },
@@ -725,6 +763,10 @@
             { label: translate('showCountdowndrag') + ` (${config.showCountdowndrag ? '✅' : '❌'})`, action: () => { toggleSwitch('showCountdowndrag') } },
             { label: translate('saveWindowConfig') + ` (${config.saveWindowConfig ? '✅' : '❌'})`, action: () => { toggleSwitch('saveWindowConfig') } }
         ]
+        if (config.streamlinedmenu) {
+            menuCommands = [
+                { label: translate('settings'), action: openSettings }]
+        }
         for (const label in registeredMenuCommands) {
             GM_unregisterMenuCommand(registeredMenuCommands[label])
         }
