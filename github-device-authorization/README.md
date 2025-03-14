@@ -268,6 +268,7 @@
 >
 > -   [**Twitter/X 隐藏转发的帖子**](https://greasyfork.org/scripts/529450): 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告
 > -   [**Twitter 媒体下载**](https://greasyfork.org/scripts/529453): 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+> -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.视频循环播放 2.截图下载 3.主题进度条
 
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--FOOTER-->
