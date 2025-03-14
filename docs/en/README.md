@@ -459,7 +459,7 @@
 </h3>
 
 <details>
-    <summary>The script will GitHub The submission information on it is converted into HTML view，View submission details more clearly。It will automatically list the submission information、Submit header and latest submission information are converted into HTML Format，Provide better visual effects and user experience。</summary>
+    <summary>The script will GitHub The submission information on it is converted into HTML view，View submission details more clearly。It will automatically list the submission information、The submission header and the latest submission information are converted into HTML Format，Provide better visual effects and user experience。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -627,7 +627,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHubFolder download</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHubDownload folder</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
@@ -1552,6 +1552,35 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
 </blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">YouTube Little assistant</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
+</h3>
+
+<details>
+    <summary>YouTube 1.Video loop playback 2.Screenshot download 3.Theme progress bar</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
+           <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/529845">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/529845">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/#readme">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+</blockquote>
         
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
@@ -1569,7 +1598,7 @@ To use any script，First, you need a browser installation **Tampermonkey Script
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic browser）Generally available Chrome Extended。_
 > -   _Please make sure to use **Tampermonkey Official version** Extended，其他的用户Script管理器可能导致**Cannot use normally**脚本。_
-> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is reinstalled。_
+> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is finished, reinstall the script。_
 
 > _**Will not install offline .crx Extended？[Chrome、Edge Re-enable hidden [Drag into installation .crx Extended] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
 
