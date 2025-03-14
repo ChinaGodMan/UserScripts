@@ -1,5 +1,11 @@
 # **🛠️ Small Window Preview 更新日志**
 
+### **📅 2025.3.14.1108**
+
+**优化**: [#102](https://github.com/ChinaGodMan/UserScripts/issues/102)添加`仅显示GUI` 菜单选项,允许在油猴中仅显示一个菜单选项,不显示多余的菜单.<br>
+**截图**: ![image.png](https://s2.loli.net/2025/03/14/1tViJL5msKOgCPR.png) <br>
+**修复**: 修复弹出`sweetalert`没有 css 的导致界面错乱. <br>
+
 ### **📅 2024/9/30 11:56 - Ver 2.5.1.4**
 
 **优化**: 添加`GUI设置界面` 菜单太麻烦,设置多个点来点去的.
@@ -15,19 +21,19 @@
 
 ### **📅 2024/9/10 11:05 - Ver 2.5.1.0**
 
-**修复**: 无法跨源读取弹出窗口大小位置的问题。  
+**修复**: 无法跨源读取弹出窗口大小位置的问题。
 **新增**: 当无法跨源读取到弹窗位置时，会发送信息给弹窗，允许弹窗自己设置大小和位置。
 
 ---
 
 ### **📅 2024/9/10 09:24 - Ver 2.5.0.0**
 
-**感谢**: [tony0809](https://greasyfork.org/zh-CN/users/20361) 的代码贡献。  
-**新增**:  
-• 开启 `记录窗口位置` 时，自动记录当前域名配置。  
-• 查找窗口配置逻辑：域名配置 → 自定义窗口配置 → 脚本自带配置。  
-• 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置  
-• 配置规则参考[#529654](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654)  
+**感谢**: [tony0809](https://greasyfork.org/zh-CN/users/20361) 的代码贡献。
+**新增**:
+• 开启 `记录窗口位置` 时，自动记录当前域名配置。
+• 查找窗口配置逻辑：域名配置 → 自定义窗口配置 → 脚本自带配置。
+• 配置无需手动编辑,脚本会自动在你更改窗口大小时更新域名配置.每次你改变的窗口大小会记录到全局自定义配置
+• 配置规则参考[#529654](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258907#comment-529654)
 • 新增功能演示请参考下方视频。
 
 ---
@@ -40,8 +46,8 @@
 
 ### **📅 2024/9/2 05:34 - Ver 2.4.0.18**
 
-**新增**: [#527625](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625)  
-• 长按鼠标模式下按下键盘不触发预览窗口。  
+**新增**: [#527625](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/258301#comment-527625)
+• 长按鼠标模式下按下键盘不触发预览窗口。
 • 拖拽模式下拖拽链接到新标签时不会触发预览窗口。
 
 ---
@@ -60,14 +66,14 @@
 
 ### **📅 2024/8/27 00:33 - Ver 2.4.0.5**
 
-**修复**: [#526054](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054) 反馈的 BUG：  
+**修复**: [#526054](https://greasyfork.org/zh-CN/scripts/504880-small-window-preview/discussions/257270#comment-526054) 反馈的 BUG：
 • 修复在关闭预览窗后无法触发时间条打开预览窗的概率性问题。
 
 ---
 
 ### **📅 2024/8/25 04:59 - Ver 2.4.0.2**
 
-**新增**: [#257270](https://greasyfork.org/zh-CN/scripts/504880/discussions/257270)  
+**新增**: [#257270](https://greasyfork.org/zh-CN/scripts/504880/discussions/257270)
 • 添加长按时显示倒计时，增加记住窗口位置功能。
 
 ---
@@ -80,5 +86,5 @@
 
 ### **📅 2024/8/23 08:12 - Ver 2.4**
 
-**优化**: 兼容 Chrome 插件 `Google Chrome 的超级拖拽 0.9.9`。  
+**优化**: 兼容 Chrome 插件 `Google Chrome 的超级拖拽 0.9.9`。
 **修复**: 修复点击小窗口关闭按钮时亚克力图层不关闭的问题。
