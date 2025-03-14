@@ -245,7 +245,7 @@
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
 > -   [**Twitter/x는 리트 윗 된 게시물을 숨 깁니다**](https://greasyfork.org/scripts/529450): 성가신 광고를 제거하기 위해 첫 번째로드시 전달 된 컨텐츠를 자동으로 숨기고 전달 된 컨텐츠를 숨 깁니다.
 > -   [**트위터 미디어 다운로드**](https://greasyfork.org/scripts/529453): 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 중에 자동으로 포장하십시오.
