@@ -144,14 +144,12 @@ class GreasyFork:
             'commit': '导入'
         }
         response = self.session.post(import_url, headers=headers, data=data)
-        print(response.text)
         # 解析返回的脚本ID信息
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             # 提取返回的脚步列表
             results = []  # 用于存储解析后的数组
             ul_element = soup.select_one("body > div.width-constraint > section > ul")
-            print(ul_element)
             if ul_element:
                 li_elements = ul_element.find_all("li")  # 获取所有<li>元素
                 for li in li_elements:
