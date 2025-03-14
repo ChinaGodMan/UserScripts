@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/10,Monday 13:07:34
+# Last Modified: 2025/03/15,Saturday 06:31:55
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -34,11 +34,11 @@ def fetch_script_json(greasyfork_id, is_sleazy=False):
         users = data.get("users", [])
         base_site_url = 'https://sleazyfork.org' if is_sleazy else 'https://greasyfork.org'
         user_links = [
-            f"[@{user.get('name')}]({base_site_url}/users/{user.get('id')})"
+            f"[🧑‍💻 **@{user.get('name')}**]({base_site_url}/users/{user.get('id')})"
             for user in users
         ]
         script_link = f"[{script_name}]({base_site_url}/scripts/{greasyfork_id})"
-        return f"{', '.join(user_links)} ---- {script_link}"
+        return f"{', '.join(user_links)} ⇒ 📜 _{script_link}_"
     except requests.exceptions.RequestException as e:
         print(f"{url} 失败: {e}")
     except json.JSONDecodeError as e:
