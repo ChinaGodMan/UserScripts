@@ -59,6 +59,10 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--AUTHORS-->
+## 💖 脚本参考或使用了以下脚本:
+[🧑‍💻 **@Owyn**](https://greasyfork.org/users/47) ⇒ 📜 _[Hide Reposts on Twitter](https://greasyfork.org/scripts/487531)_
+<!--END AUTHORS-->
 <!--텍스트 영역-->
 
 # Twitter/X 다시 게시 된 게시물을 숨기십시오
