@@ -51,6 +51,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 更新日志</strong></h1>
+<h3><strong>📅 2025.03.16.0506</strong></h3>
+<p><strong>新增</strong>:GitHub 全局导航栏固定 代码来自<a href="https://greasyfork.org/scripts/529862">GitHub 增强套件</a><br>
+<strong>截图</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
 <p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
 <strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
@@ -138,7 +141,7 @@
 <p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修复</strong>: 修复在搜索页面失效的问题。<br />
+<p><strong>修复</strong>: 修复在搜索页面失效的问题。
 <strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
