@@ -60,7 +60,7 @@
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
+## 💖 The script referenced or used the following script:
 [🧑‍💻 **@Owyn**](https://greasyfork.org/users/47) ⇒ 📜 _[Hide Reposts on Twitter](https://greasyfork.org/scripts/487531)_
 <!--END AUTHORS-->
 <!--Text area-->

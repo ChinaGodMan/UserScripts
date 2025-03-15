@@ -66,7 +66,7 @@
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
+## 💖 The script referenced or used the following script:
 [🧑‍💻 **@afkarxyz**](https://greasyfork.org/users/1376410) ⇒ 📜 _[GitHub Gist Copier](https://greasyfork.org/scripts/528091)_<br>
 [🧑‍💻 **@AhmedMohamedAbdelaty**](https://greasyfork.org/users/1279827) ⇒ 📜 _[Gist Downloader Plus](https://greasyfork.org/scripts/490952)_
 <!--END AUTHORS-->
