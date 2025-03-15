@@ -1,3 +1,4 @@
+import subprocess
 from content_snippet import get_file_description
 from writer import process_file
 from searcher import search_in_file
@@ -54,6 +55,10 @@ for script in data['scripts']:
     description = script.get('description', '')
     greasyfork_id = script.get('GreasyFork', '')
     filepath = script.get('backuppath', '') + "/" + script.get('path', '')
+
+    # 每次更新抄袭来的脚本原作者信息
+    subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('backuppath')], check=True)
+
     readme_path = os.path.join(backuppath, "Change history", "README.md")
     readme_html = ''
     if os.path.isfile(readme_path):

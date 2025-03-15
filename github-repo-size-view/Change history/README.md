@@ -1,4 +1,4 @@
-# **🛠️ GitHub Repo Size+ 更新日志**
+# **🛠️ GitHub Repo Size+ 升级日志**
 
 ### **📅 2025.03.16.0506**
 
