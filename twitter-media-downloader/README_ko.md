@@ -73,9 +73,9 @@
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
+## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
 [🧑‍💻 **@Tiande**](https://greasyfork.org/users/24324) ⇒ 📜 _[Twitter/X Media Downloader](https://greasyfork.org/scripts/495368)_<br>
-[🧑‍💻 **@天音**](https://greasyfork.org/users/164321) ⇒ 📜 _[Twitter Media Downloader](https://greasyfork.org/scripts/423001)_
+[🧑‍💻 **@Tianyin**](https://greasyfork.org/users/164321) ⇒ 📜 _[Twitter Media Downloader](https://greasyfork.org/scripts/423001)_
 <!--END AUTHORS-->
 <!--텍스트 영역-->
 
