@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           0.1.3.7
+// @version           2025.03.16.0506
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -101,6 +101,19 @@
 // @downloadURL       https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js
 // @updateURL         https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.meta.js
 // ==/UserScript==
+/**
+ * File: github-repo-size-view.user.js
+ * Project: UserScripts
+ * File Created: 2024/11/24,Sunday 12:38:48
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/16,Sunday 05:10:46
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+//! https://greasyfork.org/scripts/529862 固定头来自于此
 'use strict'
 const userLang =
     (navigator.languages && navigator.languages[0]) ||
@@ -273,6 +286,7 @@ let openInNewTab = GM_getValue('openInNewTab', false)
 let DELAY = GM_getValue('DELAY', '24h')
 let USETIP = GM_getValue('USETIP', false)//为真时使用GitHub自带的TIP提示而不是用网页title
 let SECRET = GM_getValue('SECRET', '')
+let FIXED = GM_getValue('FIXED', true)
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -564,6 +578,10 @@ window.addSizeToRepos = addSizeToRepos
 // Add the size to the repos on the page
 window.onload = function () {
     //addSizeToRepos()
+    if (FIXED) {
+        fixPageHeader()
+    }
+
 }
 const selectors = [
     '#repository-container-header strong a', // 仓库详情界面
@@ -858,7 +876,7 @@ function insertReposList(links, tip = false) {
             <span class="dropdown-caret ml-2"></span>
         </span>
         <span class="d-inline-block d-xl-none">
-            ${links[0].owner} 
+            ${links[0].owner}
             <span class="dropdown-caret d-none d-sm-inline-block d-md-none d-lg-inline-block"></span>
         </span>
     </summary>
@@ -1073,4 +1091,26 @@ function timeToSeconds(timeStr) {
 }
 function isMobileDevice() {
     return /Mobi|Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+}
+function fixPageHeader() {
+    const header = document.querySelector('.AppHeader, header[role="banner"]')
+    if (!header) { return }
+    // 注入固定样式的 CSS
+
+    const css = document.createElement('style')
+    css.id = 'fixed-header-style' // 添加 ID 以便后续更新
+    css.innerHTML = `
+        .AppHeader, header[role="banner"] {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            z-index: 10000 !important; /* 高优先级，避免被覆盖 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加阴影，提升视觉效果 */
+        }
+        body {
+            padding-top: ${header.offsetHeight}px !important; /* 根据头部高度调整内容偏移 */
+        }
+    `
+    document.head.appendChild(css)
 }
