@@ -52,14 +52,14 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-gist-copier/github-gist-copier.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529534">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Gist 代码片段复制与下载器 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GitHub Gist Code snippet copy and downloader Update log</strong></h1>
 <h3><strong>📅 2025.03.12.0530</strong></h3>
-<p><strong>修复</strong>: 复制按钮的类名改回<code>octicon octicon-copy</code><br>
-<strong>新增</strong>: 如果下载的文件是<code>user.js</code>用户脚本,直接安装.不进行下载<br></p>
+<p><strong>repair</strong>: Change the class name of the copy button<code>octicon octicon-copy</code><br>
+<strong>New</strong>: If the downloaded file is<code>user.js</code>User scripts,Install directly.No downloading<br></p>
 <hr />
 <h3><strong>📅 2025.03.12.0022</strong></h3>
-<p><strong>修复</strong>: •修复无法复制的问题<br>
-<strong>新增</strong>: •新增下载文件到本地的功能<br></p>
+<p><strong>repair</strong>: •Fixed the issue that could not be copied<br>
+<strong>New</strong>: •Added the function of downloading files to local<br></p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529534.png">
 </div></center>
