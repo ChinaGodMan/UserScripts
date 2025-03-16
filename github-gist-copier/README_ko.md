@@ -65,11 +65,7 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTHORS-->
-## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
-[🧑‍💻 **@afkarxyz**](https://greasyfork.org/users/1376410) ⇒ 📜 _[GitHub Gist Copier](https://greasyfork.org/scripts/528091)_<br>
-[🧑‍💻 **@AhmedMohamedAbdelaty**](https://greasyfork.org/users/1279827) ⇒ 📜 _[Gist Downloader Plus](https://greasyfork.org/scripts/490952)_
-<!--END AUTHORS-->
+
 <!--텍스트 영역-->
 
 # GitHub Gist Copier & Downloader

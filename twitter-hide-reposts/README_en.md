@@ -59,10 +59,7 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTHORS-->
-## 💖 The script referenced or used the following script:
-[🧑‍💻 **@Owyn**](https://greasyfork.org/users/47) ⇒ 📜 _[Hide Reposts on Twitter](https://greasyfork.org/scripts/487531)_
-<!--END AUTHORS-->
+
 <!--Text area-->
 
 # Twitter/X Hide reposted posts

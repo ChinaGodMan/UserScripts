@@ -72,11 +72,7 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTHORS-->
-## 💖 The script referenced or used the following script:
-[🧑‍💻 **@Tiande**](https://greasyfork.org/users/24324) ⇒ 📜 _[Twitter/X Media Downloader](https://greasyfork.org/scripts/495368)_<br>
-[🧑‍💻 **@Tianyin**](https://greasyfork.org/users/164321) ⇒ 📜 _[Twitter Media Downloader](https://greasyfork.org/scripts/423001)_
-<!--END AUTHORS-->
+
 <!--Text area-->
 
 # Twitter/X Media Downloader
