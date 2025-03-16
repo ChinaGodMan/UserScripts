@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/16,Sunday 06:50:44
+# Last Modified: 2025/03/16,Sunday 19:09:18
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -103,7 +103,7 @@ def main():
         "-i", "--input", required=True, help="输入文件路径，每行一个脚本编号"
     )
     start_tag = "<!--AUTHORS-->"
-    end_tag = "<!--END AUTHORS-->"
+    end_tag = "<!--AUTHORS-END-->"
     args = parser.parse_args()
     input_file = args.input
 
