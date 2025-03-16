@@ -59,10 +59,7 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTHORS-->
-## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
-[🧑‍💻 **@Owyn**](https://greasyfork.org/users/47) ⇒ 📜 _[Hide Reposts on Twitter](https://greasyfork.org/scripts/487531)_
-<!--END AUTHORS-->
+
 <!--Khu vực văn bản-->
 
 # Twitter/X Ẩn các bài viết đăng lại

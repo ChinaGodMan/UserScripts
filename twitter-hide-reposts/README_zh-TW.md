@@ -59,10 +59,7 @@
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTHORS-->
-## 💖 腳本參考或使用了以下腳本:
-[🧑‍💻 **@Owyn**](https://greasyfork.org/users/47) ⇒ 📜 _[Hide Reposts on Twitter](https://greasyfork.org/scripts/487531)_
-<!--END AUTHORS-->
+
 <!--正文區域-->
 
 # Twitter/X 隱藏轉發的帖子
