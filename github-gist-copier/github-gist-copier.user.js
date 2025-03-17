@@ -99,7 +99,7 @@
 // @compatible        qq
 // @compatible        via
 // @compatible        brave
-// @version           2025.03.16.0530
+// @version           2025.03.18.0659
 // @created           2025-03-12 00:22:40
 // @modified          2025-03-12 00:22:40
 // @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-gist-copier/github-gist-copier.user.js
@@ -111,7 +111,7 @@
  * File Created: 2025/03/12,Wednesday 00:22:50
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/16,Sunday 05:32:26
+ * Last Modified: 2025/03/18,Tuesday 06:59:14
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -119,6 +119,7 @@
  */
 (function () {
     'use strict'
+    const compactGist = true
     function noop() { }
     function debounce(f, delay) {
         let timeoutId = null
@@ -296,7 +297,26 @@
             window.addEventListener('urlchange', debounce(tryCreateCopyButtons, 16))
         }
     }
-
+    function compactView() {
+        //! https://greasyfork.org/es/scripts/529737
+        GM_addStyle(`
+            /* main container */
+            .gist-snippet {margin-bottom: 2px !important;}
+            /* icon */
+            .gist-snippet-meta .d-lg-inline-block.d-none.v-align-top.mt-1 > a {display: none !important;}
+            /* code */
+            .gist-snippet .js-gist-file-update-container {display: none;}
+            /* links */
+            .gist-snippet-meta .px-lg-2.px-0 > span:nth-child(1) {display: none;}
+            /* date */
+            .gist-snippet-meta .px-lg-2.px-0 > div {display: none;}
+            /* font size */
+            .gist-snippet-meta .color-fg-muted {font-size: 14px !important;}
+        `)
+    }
+    if (compactGist) {
+        compactView()
+    }
     runGist()
 
 })()
