@@ -52,14 +52,17 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-gist-copier/github-gist-copier.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529534">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ GitHub Gist 代碼片段複製與下載器 更新日誌</strong></h1>
-<h3><strong>📅 2025.03.12.0530</strong></h3>
-<p><strong>修復</strong>: 複製按鈕的類名改回<code>octicon octicon-copy</code><br>
-<strong>新增</strong>: 如果下載的文件是<code>user.js</code>用戶腳本,直接安裝.不進行下載<br></p>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Gist 代码片段复制与下载器 更新日志</strong></h1>
+<h3><strong>📅 2025.03.18.0659</strong></h3>
+<p><strong>新增</strong>: 添加紧凑视图 <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
+<strong>截图</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>
+<h3><strong>📅 22025.03.16.0530</strong></h3>
+<p><strong>修复</strong>: 复制按钮的类名改回<code>octicon octicon-copy</code><br>
+<strong>新增</strong>: 如果下载的文件是<code>user.js</code>用户脚本,直接安装.不进行下载<br></p>
 <hr />
 <h3><strong>📅 2025.03.12.0022</strong></h3>
-<p><strong>修復</strong>: •修復無法複製的問題<br>
-<strong>新增</strong>: •新增下載文件到本地的功能<br></p>
+<p><strong>修复</strong>: •修复无法复制的问题<br>
+<strong>新增</strong>: •新增下载文件到本地的功能<br></p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529534.png">
 </div></center>
@@ -84,9 +87,10 @@
 -   🎱 點擊下載按鈕，文件內容會被下載到本地，並顯示一個成功的提示圖標。
 
 <!--AUTHORS-->
-## 💖 腳本參考或使用了以下腳本:
-[@afkarxyz](https://greasyfork.org/users/1376410) ---- [GitHub Gist Copier](https://greasyfork.org/scripts/528091)<br>
-[@AhmedMohamedAbdelaty](https://greasyfork.org/users/1279827) ---- [Gist Downloader Plus](https://greasyfork.org/scripts/490952)
+## 💖 脚本参考或使用了以下脚本:
+[🧑‍💻 **@afkarxyz**](https://greasyfork.org/users/1376410) ⇒ 📜 _[GitHub Gist Copier](https://greasyfork.org/scripts/528091)_<br>
+[🧑‍💻 **@AhmedMohamedAbdelaty**](https://greasyfork.org/users/1279827) ⇒ 📜 _[Gist Downloader Plus](https://greasyfork.org/scripts/490952)_<br>
+[🧑‍💻 **@Sergi0**](https://greasyfork.org/users/1319027) ⇒ 📜 _[Github Gist Compact View (With Private Gists)](https://greasyfork.org/scripts/529737)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
