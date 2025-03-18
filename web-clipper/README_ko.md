@@ -93,11 +93,12 @@
 5.  선택 후，왼쪽에서 변환 할 수 있습니다 Markdown 편집을위한 코드，오른쪽에 미리보기。
 6.  텍스트를 사용할 수 있습니다`GitHub`창고`Issues`영구적으로 저장하십시오.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
 7.  할 수 있다 Markdown 클립 보드에 복사하십시오，당신은 그것을 다운로드 할 수도 있습니다 .md 문서，또는 가져 오기를 구성하십시오 Obsidian（사용 [늦은 흑요석 URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
-    <!--AUTHORS-->
+
+<!--AUTHORS-->
 ## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
 [🧑‍💻 **@shiquda**](https://greasyfork.org/users/935206) ⇒ 📜 _[Easy Web Page to Markdown](https://greasyfork.org/scripts/486888)_
-    <!--AUTHORS-END-->
-    <!--SCREENSHOT-->
+<!--AUTHORS-END-->
+<!--SCREENSHOT-->
 
 <!--SCREENSHOT-END-->
 <!--TEXT-END-->

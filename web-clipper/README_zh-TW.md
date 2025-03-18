@@ -93,11 +93,12 @@
 5.  選擇後，可以在左側對轉換後的 Markdown 代碼進行編輯，右側為其預覽。
 6.  可以將文本作為`GitHub`倉庫的`Issues`永久保存.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
 7.  可以將 Markdown 複製到剪貼板，也可以將其下載為 .md 文件，或者在代碼中配置導入到 Obsidian（使用 [黑曜石晚期 URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
-    <!--AUTHORS-->
+
+<!--AUTHORS-->
 ## 💖 腳本參考或使用了以下腳本:
 [🧑‍💻 **@shiquda**](https://greasyfork.org/users/935206) ⇒ 📜 _[Easy Web Page to Markdown](https://greasyfork.org/scripts/486888)_
-    <!--AUTHORS-END-->
-    <!--SCREENSHOT-->
+<!--AUTHORS-END-->
+<!--SCREENSHOT-->
 
 <!--SCREENSHOT-END-->
 <!--TEXT-END-->
