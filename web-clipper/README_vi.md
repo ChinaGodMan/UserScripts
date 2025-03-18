@@ -52,13 +52,13 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown 云剪笔记 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ Markdown Ghi chú Clip Clip Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.19.0450</strong></h3>
-<p><strong>新增</strong>:Github 添加可视化界面<br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
+<p><strong>Mới</strong>:Github Thêm giao diện trực quan<br>
+<strong>Ảnh chụp màn hình</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
+<strong>Ảnh chụp màn hình</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>Mới</strong>: •Thêm vào<code>Markdown</code>Lưu tệp vào<code>GitHub</code>Chức năng.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -84,10 +84,10 @@ Và có thể được tải lên`GitHub`Trong kho`Issues`Tiết kiệm vĩnh vi
 
 **Lời khuyên quan trọng：Dòng văn bản đầu tiên ở bên trái sẽ được sử dụng làm tiêu đề！！**
 ![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
-**你必须在脚本菜单中设置你的 GitHub 信息。**
-此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
+**Bạn phải đặt GitHub thông tin。**
+Tạo ra của bạn ở đây`Token`： [Nhấp vào tôi](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png) <br>
-创建成功可以跳转查看： <br>
+Bạn có thể nhảy để xem nó sau khi sáng tạo： <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png) <br>
 
 

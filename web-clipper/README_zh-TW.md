@@ -52,13 +52,13 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown 云剪笔记 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ Markdown 雲剪筆記 更新日誌</strong></h1>
 <h3><strong>📅 2025.03.19.0450</strong></h3>
-<p><strong>新增</strong>:Github 添加可视化界面<br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
+<p><strong>新增</strong>:Github 添加可視化界面<br>
+<strong>截圖</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
+<strong>截圖</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>新增</strong>: •添加將<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -84,10 +84,10 @@
 
 **重要提示：左側的第一行文字將作為標題！！**
 ![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
-**你必须在脚本菜单中设置你的 GitHub 信息。**
-此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
+**你必須在腳本菜單中設置你的 GitHub 資訊。**
+此處生成你的`Token`： [點擊我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png) <br>
-创建成功可以跳转查看： <br>
+創建成功可以跳轉查看： <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png) <br>
 
 
