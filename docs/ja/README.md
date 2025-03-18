@@ -453,7 +453,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">MarkDown クラウドクリップノート</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>スクリプトはそうします GitHub それに関する提出情報はに変換されます HTML ビュー，提出の詳細をより明確に表示します。送信情報が自動的にリストされます、提出ヘッダーと最新の提出情報は HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供します。</summary>
+    <summary>スクリプトはそうします GitHub それに関する提出情報はに変換されます HTML ビュー，提出の詳細をより明確に表示します。送信情報が自動的にリストされます、ヘッダーを送信し、最新の提出情報が変換されます HTML 形式，より良い視覚効果とユーザーエクスペリエンスを提供します。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>

@@ -453,7 +453,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">MarkDown Ghi chú Clip Clip</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Tiêu đề gửi và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
+    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Gửi tiêu đề và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
