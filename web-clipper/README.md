@@ -80,9 +80,11 @@
 
 **重要提示：左侧的第一行文字将作为标题！！**
 ![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
-**你必须在脚本的顶部设置你的 GitHub 信息。**
-此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo)
-![2025.03.18](https://s2.loli.net/2025/03/18/k4yHdajY1Wr9LVw.png)
+**你必须在脚本菜单中设置你的 GitHub 信息。**
+此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
+![2025.03.19](https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png) <br>
+创建成功可以跳转查看： <br>
+![2025.03.19](https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png) <br>
 
 ### 使用方法
 

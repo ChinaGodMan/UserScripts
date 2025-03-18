@@ -105,7 +105,7 @@
 // @compatible        qq
 // @compatible        via
 // @compatible        brave
-// @version           2025.03.18.0713
+// @version           2025.03.19.0450
 // @created           2025-03-18 07:13:13
 // @modified          2025-03-18 07:13:13
 // @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
@@ -117,7 +117,7 @@
  * File Created: 2025/03/18,Tuesday 07:13:13
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/18,Tuesday 09:38:14
+ * Last Modified: 2025/03/19,Wednesday 04:50:15
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -126,16 +126,6 @@
 //! https://greasyfork.org/zh-CN/scripts/486888
 (function () {
     'use strict'
-    // GitHub 信息设置, GitHub settings
-
-    // 替换为你的GitHub令牌,Replace with your GitHub Token
-    const github_token = ''
-
-    // 替换为你的GitHub仓库所有者,Replace with your GitHub repository owner
-    const github_owner = '' // 比如 ChinaGodMan,Example: ChinaGodMan
-
-    // 替换为你的GitHub仓库名称,Replace with your GitHub repository name
-    const github_repo = '' // 比如 UserScripts,Example: UserScripts
 
     // User Config
     // Short cut
@@ -173,6 +163,13 @@
             github_success: 'Creation succeeded:',
             configure: 'Please configure your GitHub information first',
             menu: 'Convert to Markdown',
+            gui_title: 'Set Up GitHub',
+            gui_tokeninput: 'Please enter your GitHub Personal Access Token',
+            gui_github_repo: 'Please enter your GitHub repository name',
+            gui_github_generate: 'Generate',
+            gui_github_owner: 'Please enter your GitHub username',
+            gui_save: 'Save',
+            gui_cancel: 'Cancel',
             guide: `
 - Use **arrow keys** to select elements:
     - Up: Select parent element
@@ -194,8 +191,15 @@
             send_to_obsidian: '发送到Obsidian',
             github_failed: '创建失败:',
             github_success: '创建成功:',
-            configure: '请先配置你的GitHub 信息',
+            configure: '请先配置你的GitHub信息',
             menu: '转换为Markdown',
+            gui_title: '设置 GitHub',
+            gui_tokeninput: '请输入您的GitHub个人访问令牌',
+            gui_github_repo: '请输入您的GitHub仓库名称',
+            gui_github_generate: '生成',
+            gui_github_owner: '请输入您的GitHub用户名',
+            gui_save: '保存',
+            gui_cancel: '取消',
             guide: `
 - 使用**方向键**选择元素
     - 上:选择父元素
@@ -416,7 +420,79 @@
     } else if (storedObsidianConfig) {
         obsidianConfig = JSON.parse(storedObsidianConfig)
     }
-
+    GM_addStyle(`
+        .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:10000;}
+        .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
+        .modal-title{margin:0 0 10px 0;font-size:20px;}
+        .modal-description{margin-bottom:20px;font-size:14px;color:#666;}
+        .modal-description a{color:#007bff;text-decoration:underline;}
+        .modal-close-btn {position: absolute;top: 10px;right: 10px;background-color: red;color: white;border: none;border-radius: 50%;width: 24px;height: 24px;font-size: 16px;cursor: pointer;display: flex;justify-content: center;align-items: center;line-height: 1;}
+        .modal-close-btn:hover {background-color: darkred;}
+        .gui-input{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;margin-bottom:20px;font-size:14px;}
+        #save-token{background-color:#28a745;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;margin-right:10px;}
+        #cancel-token{background-color:#dc3545;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;}
+    `)
+    function showConfig() {
+        const modalHTML = `
+            <div class="modal-overlay">
+                <div class="modal-content">
+                    <h3 class="modal-title">${translate.gui_title}</h3>
+                    <p class="modal-description">${translate.gui_tokeninput}
+                        <a href="https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo" target="_blank" rel="noopener noreferrer">${translate.gui_github_generate}</a>
+                    </p>
+                    <input type="text" id="github-token-input" class="gui-input" placeholder="${translate.gui_tokeninput}">
+                    <p class="modal-description">${translate.gui_github_owner}</p>
+                    <input type="text" id="github-owner-input" class="gui-input" placeholder="${translate.gui_github_owner}">
+                    <p class="modal-description">${translate.gui_github_repo}</p>
+                    <input type="text" id="github-repo-input" class="gui-input" placeholder="${translate.gui_github_repo}">
+                    <button id="save-token">${translate.gui_save}</button>
+                    <button id="cancel-token" class="cancel">${translate.gui_cancel}</button>
+                </div>
+            </div>
+        `
+        const modalContainer = document.createElement('div')
+        modalContainer.innerHTML = modalHTML
+        document.body.appendChild(modalContainer)
+        const elements = {
+            token: modalContainer.querySelector('#github-token-input'),
+            owner: modalContainer.querySelector('#github-owner-input'),
+            repo: modalContainer.querySelector('#github-repo-input'),
+            saveButton: modalContainer.querySelector('#save-token'),
+            cancelButton: modalContainer.querySelector('#cancel-token')
+        }
+        elements.token.value = GM_getValue('github_token', '')
+        elements.owner.value = GM_getValue('OWNER', '')
+        elements.repo.value = GM_getValue('REPO', '')
+        elements.saveButton.addEventListener('click', () => {
+            if (elements.token.value && elements.owner.value && elements.repo.value) {
+                GM_setValue('github_token', elements.token.value)
+                GM_setValue('OWNER', elements.owner.value)
+                GM_setValue('REPO', elements.repo.value)
+                modalContainer.remove()
+            } else {
+                alert(`${translate.configure}`)
+            }
+        })
+        elements.cancelButton.addEventListener('click', () => modalContainer.remove())
+    }
+    function showDialog(info, link) {
+        const modalHTML = `
+            <div class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close-btn" id="cancel-token" >×</button>
+        <h3 class="modal-title">${info}</h3>
+        <p class="modal-description">
+            ${info}
+            <a href="${link}" target="_blank" rel="noopener noreferrer">${link}</a>
+        </p>
+            </div>
+        </div>
+        `
+        const modalContainer = document.createElement('div')
+        modalContainer.innerHTML = modalHTML
+        document.body.appendChild(modalContainer)
+        modalContainer.querySelector('#cancel-token').addEventListener('click', () => modalContainer.remove())
+    }
     // HTML2Markdown
     function convertToMarkdown(element) {
         var html = element.outerHTML
@@ -477,8 +553,12 @@
             }, 1000)
         })
         $modal.find('.h2m-github').on('click', function () {
+            const github_token = GM_getValue('github_token', '')
+            const github_owner = GM_getValue('OWNER', '')
+            const github_repo = GM_getValue('REPO', '')
+
             if (!github_token || !github_owner || !github_repo) {
-                alert(`${translate.configure}`)
+                showConfig()
                 return
             }
             const labels = ['web-clipper']//标签,可多项
@@ -734,6 +814,9 @@
     GM_registerMenuCommand(`${translate.menu}`, function () {
         startSelecting()
     })
+    GM_registerMenuCommand(`${translate.gui_title}`, function () {
+        showConfig()
+    })
 
     $(document).on('mouseover', function (e) { // 开始选择
         if (isSelecting) {
@@ -828,7 +911,7 @@
             if (xhr.readyState === 4) {
                 if (xhr.status >= 200 && xhr.status < 300) {
                     const response = JSON.parse(xhr.responseText)
-                    alert(`${translate.github_success}\n ${response.html_url}`)
+                    showDialog(translate.github_success, response.html_url)
 
                 } else {
                     alert(`${translate.github_failed}\n ${xhr.status}\n ${xhr.statusText}\n ${xhr.responseText}`)
