@@ -8,13 +8,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_zh-TW.md">繁體中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_ko.md">한국어</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️truy cậpGitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -22,19 +22,19 @@
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản của người phục vụ<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản của người phục vụ</a><br><a href="#:~:text=Xem tất cả các tập lệnh xuất bản">Xem tập lệnh của người phục vụ trên trang hiện tại</a></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh%20%C4%91%C6%B0%E1%BB%A3c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20k%E1%BB%8Bch%20b%E1%BA%A3n&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%E1%BB%91t&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20ti%C3%AAu%20c%E1%BB%B1c&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Ch%E1%BA%A5t%20l%C6%B0%E1%BB%A3ng%20m%C3%A3&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=STAR%20Mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Nếu kịch bản giúp bạn,Có thể thắp sáng các vì sao để khuyến khích</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果脚本对你有帮助,可以点亮星星以资鼓励</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
@@ -46,53 +46,85 @@
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
 
 <center><div align="center">
-    <h1>Công cụ tải xuống video missav</h1>
-    <p>「 Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống 」</p>
-    <img src="https://views.whatilearened.today/views/github/528160/hmjz100.svg" alt="Views">
-    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-m3u8-finder/missav-m3u8-finder.user.js?color=%23990000">
-    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/528160">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ XXXXX Cập nhật nhật ký</strong></h1>
-<h3><strong>📅 2025-02-26 23:55:34- Ver 2025.02.26.2355</strong></h3>
-<p><strong>Mới</strong>: •Sửa đổi một số mã，Hiệu suất chương trình tối ưu hóa.</p>
+    <h1></h1>
+    <p>「 Một công cụ chuyển đổi nội dung web thành định dạng đánh dấu, hỗ trợ các tính năng như sao chép, tải xuống và gửi đến GitHub và Obsidian. 」</p>
+    <img src="https://views.whatilearened.today/views/github/530139/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
+            href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown Web Clipper 更新日志</strong></h1>
+<h3><strong>📅 2025.03.18.0713</strong></h3>
+<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能</p>
 <hr /></details>
-    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/528160.png">
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
 
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--TEXT-->
 
-人民的勤务员 Sửa đổi từ: [MissAv m3u8 finder](https://greasyfork.org/zh-CN/scripts/502821)
+`Markdown Web Clipper` 是一个用户脚本，允许你将任何网页上选定的 HTML 转换为 Markdown 格式。这对于开发人员、内容创作者或经常需要将 HTML 内容转换为 Markdown 的任何人来说都非常有用.
+并且可以上传到`GitHub`仓库中的`Issues`永久保存,实乃是对网页中的内容进行永久保存的利器!
 
-# missav m3u8 Người xem
+### 特性
 
-Bạn có thể xem video trên trang phát lại video m3u8 Địa chỉ
-Có sẵn [m3u8 Người tải xuống](https://github.com/nilaoda/N_m3u8DL-RE)Tải xuống để xem
-Đã thêm chức năng tải xuống，Tải xuống không đồng bộ nhiều luồng。Không có màn hình tiến trình，Vui lòng chờ~
-Tăng màn hình tiến trình tải xuống。Đừng hỏi。Hỏi nó rất nhanh để cập nhật
+-   **框选工具**：只需使用鼠标选择你想转换的 HTML 元素。 ![框选工具](https://github.com/shiquda/shiquda_UserScript/raw/main/General/Clip_2024-02-08_15-13-03.png)
+-   **Markdown 预览**：转换后，将出现一个模态框，显示你选定的网页元素的 Markdown 转换结果。同时可以编辑 Markdown 并查看实时预览。
+-   **复制到剪贴板**：只需点击一下，你就可以将转换后的 Markdown 复制到你的剪贴板。
+-   **下载为 Markdown 文件**：可以将转换后的 Markdown 下载为 .md 文件。 ![2025.03.18](https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png)
+-   **保存到 GitHub Issues**：可以将转换后的 Markdown 保存到 GitHub 仓库中的 Issues。
+    **保存到 Obsidian**：可以将转换后的 Markdown 保存到 Obsidian。
+-   **支持多种浏览器**：可以在 Chrome、Firefox、Edge 等主流浏览器中使用。
+-   **支持多种语言**：支持中文简体、中文繁体、英文、韩文、日文、法语、德语、越南文登多种语言。
+
+### GitHub Issues 保存
+
+**重要提示：左侧的第一行文字将作为标题！！**
+![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
+**你必须在脚本的顶部设置你的 GitHub 信息。**
+此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo)
+![2025.03.18](https://s2.loli.net/2025/03/18/k4yHdajY1Wr9LVw.png)
+
+### 使用方法
+
+1.  安装用户脚本管理器，如 Tampermonkey 或 Greasemonkey。
+2.  将此脚本添加到你的用户脚本管理器。
+3.  在任何网页，按 `Ctrl + m` ，或者在脚本管理器的菜单打开功能，开始选择 HTML 元素。
+4.  选择时，根据提示信息，使用鼠标滚轮或者方向键来选择元素。
+5.  选择后，可以在左侧对转换后的 Markdown 代码进行编辑，右侧为其预览。
+6.  可以将文本作为`GitHub`仓库的`Issues`永久保存.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
+7.  可以将 Markdown 复制到剪贴板，也可以将其下载为 .md 文件，或者在代码中配置导入到 Obsidian（使用 [黑曜石晚期 URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
+    <!--AUTHORS-->
+## 💖 脚本参考或使用了以下脚本:
+[🧑‍💻 **@shiquda**](https://greasyfork.org/users/935206) ⇒ 📜 _[Easy Web Page to Markdown](https://greasyfork.org/scripts/486888)_
+    <!--AUTHORS-END-->
+    <!--SCREENSHOT-->
+
+<!--SCREENSHOT-END-->
+<!--TEXT-END-->
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
+> ### 🔍你可能在找网页相关脚本
 >
-> -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
-> -   [**Xamster Video một cú nhấp chuột Trợ lý tải xuống**](https://greasyfork.org/scripts/529043): Tải xuống video Xhamster với một cú nhấp chuột |
-> -   [**Trợ lý tải xuống video xnxxvideos**](https://greasyfork.org/scripts/529044): Tải xuống video XNXXVIDEOS với một lần nhấp vào |
-> -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/528798): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
-> -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/528800): Tải xuống Video của Pornhub với một lần nhấp chuột |
-> -   [**Công cụ tải xuống video missav**](https://greasyfork.org/scripts/528160): Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
-> -   [**MissAvBộ sưu tập video sao lưu hàng loạt**](https://greasyfork.org/scripts/497682): Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống
-> -   [**ThisAV Đăng nhập tự động**](https://greasyfork.org/scripts/506528): Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
-> -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
-> -   [**Trợ lý nâng cao Missav**](https://greasyfork.org/scripts/529125): Xóa quảng cáo |.
+> -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Quản lý hành vi ghi của các trang web vào bảng nhớ tạm để ngăn chặn việc sao chép tự động trái phép, đồng thời tắt tính năng tải trước nội dung âm thanh và video cũng như tự động phát lại.
+> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
+> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
+> -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân liên kết trên tất cả các trang web，và xử lý các liên kết mới một cách linh hoạt
+> -   [**nút cuộn**](https://greasyfork.org/scripts/497251): Tạo hai nút ở bên phải trang để cuộn trang
+> -   [**Ghim vào nút trên và dưới**](https://greasyfork.org/scripts/500255): Tạo hai nút trên tất cả các trang，Một để làm mịn trở lại đầu trang，Một để cuộn liên tục xuống phía dưới，Bấm lần nữa để hủy cuộn xuống dưới cùng
+> -   [****](https://greasyfork.org/scripts/530139): Một công cụ chuyển đổi nội dung web thành định dạng đánh dấu, hỗ trợ các tính năng như sao chép, tải xuống và gửi đến GitHub và Obsidian.
 
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Giúp đỡ
+## 使用帮助
 
-Trình duyệt và trình quản lý tập lệnh được đề xuất：
+推荐浏览器和脚本管理器：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -100,17 +132,17 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**Nếu bạn cần tìm hiểu thêm về cách cài đặt tập lệnh người dùng,[Nhấp vào tôi](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)Xem việc dạy hình ảnh và văn bản!**
+**如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)查看图文教学!**
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-### Xem tất cả các tập lệnh xuất bản
+### 查看所有发布脚本
 
 <!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmChatGPTTập lệnh liên quan
+> ### 🔍你可能在找ChatGPT相关脚本
 >
 > -   [**ChatGPTKích thước phông chữ mã giảm**](https://greasyfork.org/scripts/505209): ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
 > -   [**Mã chatgpt được tô sáng**](https://greasyfork.org/scripts/527255): Thêm tất cả các mã làm nổi bật mã ngôn ngữ cho Chatgpt (sử dụng điểm nổi bật)
@@ -139,7 +171,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Mở liên kết JSDELIVR trên GitHub**](https://greasyfork.org/scripts/527870): Mở liên kết GitHub trên JSDELIVR để nhanh chóng tải xuống các tệp
@@ -157,18 +189,18 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGoogleTập lệnh liên quan
+> ### 🔍你可能在找Google相关脚本
 >
 > -   [**Google Trợ lý tìm kiếm nâng cao**](https://greasyfork.org/scripts/502652): Thêm biểu mẫu tìm kiếm nâng cao vào đầu trang tìm kiếm Google của bạn
-> -   [**Chặn các trang web tìm kiếm google**](https://greasyfork.org/scripts/500262): hiện hữugoogleKhối tìm kiếm trang web được chỉ định
+> -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
+> ### 🔍你可能在找GreasyFork相关脚本
 >
-> -   [**Greasy forkTrang kịch bản phù hợp để tăng cường URL**](https://greasyfork.org/scripts/497317): Trang chi tiết tập lệnh phù hợp cho các tìm kiếm mà không cần chuyển hướng mặc định Chuyển sang liên kết văn bản có thể nhấp và bật lên
+> -   [**Greasy fork脚本页面适用于网址增强**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 > -   [**GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
 > -   [**GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh
@@ -178,13 +210,13 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Greasyfork Thợ làm keo**](https://greasyfork.org/scripts/497346): vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động
 > -   [**GreasyFork Trợ lý thông báo**](https://greasyfork.org/scripts/506345): Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Tập lệnh sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。
 > -   [**Script Finder Tra cứu tập lệnh GreasyFork**](https://greasyfork.org/scripts/498904): Script Finder Tìm trên bất kỳ trang web nào áp dụng cho trang web đó Kịch bản khỉ mỡ。
-> -   [**Hiển thị thời gian đăng ký của người dùng Greasyfork và xác định nhận xét độc hại**](https://greasyfork.org/scripts/529359): Nếu kịch bản của bạn can thiệp vào lợi ích của một số người, không có gì đáng ngạc nhiên khi nhận được các đánh giá tiêu cực độc hại. Có hai đặc điểm của các đánh giá tiêu cực độc hại: Một là tài khoản thường được đăng ký mới và một đặc điểm khác là các đánh giá tiêu cực sẽ được đưa ra ngay sau khi đăng ký và về cơ bản sẽ không có hoạt động tiếp theo. Kịch bản này có thời gian đăng ký của người dùng Greasyfork và được hiển thị bên cạnh tên người dùng. Nếu thời gian hiển thị bên cạnh tên người dùng là thời gian trong tương lai, thì người dùng có thể sẽ là một tài khoản độc hại được đăng ký.
+> -   [**Greasyfork Hiển thị thời gian đăng ký**](https://greasyfork.org/scripts/529359): Nếu kịch bản của bạn can thiệp vào lợi ích của một số người, không có gì đáng ngạc nhiên khi nhận được các đánh giá tiêu cực độc hại. Có hai đặc điểm của các đánh giá tiêu cực độc hại: Một là tài khoản thường được đăng ký mới và một đặc điểm khác là các đánh giá tiêu cực sẽ được đưa ra ngay sau khi đăng ký và về cơ bản sẽ không có hoạt động tiếp theo. Kịch bản này có thời gian đăng ký của người dùng Greasyfork và được hiển thị bên cạnh tên người dùng. Nếu thời gian hiển thị bên cạnh tên người dùng là thời gian trong tương lai, thì người dùng có thể sẽ là một tài khoản độc hại được đăng ký.
 
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
+> ### 🔍你可能在找成人脚本
 >
 > -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**Xamster Video một cú nhấp chuột Trợ lý tải xuống**](https://greasyfork.org/scripts/529043): Tải xuống video Xhamster với một cú nhấp chuột |
@@ -192,7 +224,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**XVIDEOS Đẩy tải xuống**](https://greasyfork.org/scripts/528798): 1. Phát lại tự động 2. Tự động màn hình rộng 3. Phát lại chất lượng cao 4. Nhấp để đẩy bộ phim tiếp theo 5. Tải xuống hình thu nhỏ
 > -   [**Tải xuống video pornhub chỉ bằng một cú nhấp chuột**](https://greasyfork.org/scripts/528800): Tải xuống Video của Pornhub với một lần nhấp chuột |
 > -   [**Công cụ tải xuống video missav**](https://greasyfork.org/scripts/528160): Đánh hơi địa chỉ tải xuống thực của video từ trang phát lại Missav hiện tại và tải xuống
-> -   [**MissAvBộ sưu tập video sao lưu hàng loạt**](https://greasyfork.org/scripts/497682): Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống
+> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 > -   [**ThisAV Đăng nhập tự động**](https://greasyfork.org/scripts/506528): Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**Trợ lý nâng cao Missav**](https://greasyfork.org/scripts/529125): Xóa quảng cáo |.
@@ -201,16 +233,16 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
+> ### 🔍你可能在找自动翻译
 >
-> -   [**Terminator ngoại ngữ**](https://greasyfork.org/scripts/504890): Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Sau đó dịch và thay thế văn bản gốc thành tiếng Trung
-> -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/x ẩn các bài viết chuyển tiếp**](https://greasyfork.org/scripts/529450): Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu
 > -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
@@ -220,6 +252,6 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /<a href="#top">Quay lại đầu↑</a></p></div></center>
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
 
 <!--FOOTER--END-->

@@ -146,17 +146,18 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
+> ### 🔍你可能在找网页相关脚本
 >
 > -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Quản lý hành vi ghi của các trang web vào bảng nhớ tạm để ngăn chặn việc sao chép tự động trái phép, đồng thời tắt tính năng tải trước nội dung âm thanh và video cũng như tự động phát lại.
-> -   [**Loại bỏCSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
+> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
 > -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
-> -   [**Đánh dấu các từ khóa trên web**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn
-> -   [**Làm nổi bật các từ khóa web**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
+> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 > -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân liên kết trên tất cả các trang web，và xử lý các liên kết mới một cách linh hoạt
 > -   [**nút cuộn**](https://greasyfork.org/scripts/497251): Tạo hai nút ở bên phải trang để cuộn trang
 > -   [**Ghim vào nút trên và dưới**](https://greasyfork.org/scripts/500255): Tạo hai nút trên tất cả các trang，Một để làm mịn trở lại đầu trang，Một để cuộn liên tục xuống phía dưới，Bấm lần nữa để hủy cuộn xuống dưới cùng
+> -   [****](https://greasyfork.org/scripts/530139): Một công cụ chuyển đổi nội dung web thành định dạng đánh dấu, hỗ trợ các tính năng như sao chép, tải xuống và gửi đến GitHub và Obsidian.
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->

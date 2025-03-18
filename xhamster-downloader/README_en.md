@@ -158,17 +158,18 @@ Recommended browser and script manager：
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking for web-related scripts
+> ### 🔍你可能在找网页相关脚本
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
-> -   [**RemovalCSDNLog in to copy**](https://greasyfork.org/scripts/505207): Go fuck youCSDNLog in to copy,Copy without logging in
+> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
-> -   [**Highlight keywords on the web**](https://greasyfork.org/scripts/498906): Highlight text on the web page，If it helps you，Can be modified and used at will
-> -   [**Highlight web keywords**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamic loading when scrolling
+> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
 > -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
 > -   [**Pin to top and bottom buttons**](https://greasyfork.org/scripts/500255): Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom
+> -   [****](https://greasyfork.org/scripts/530139): A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian.
 
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
