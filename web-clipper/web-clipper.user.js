@@ -1,6 +1,45 @@
 // ==UserScript==
-// @name              Markdown Web Clipper
-// @description       A tool to convert web content into Markdown format, supporting features like copy, download, and sending to GitHub and Obsidian.
+// @name              MarkDown Cloud Cut Notes
+// @name:ar           ملاحظات قطع السحابة المتولد
+// @name:bg           Бележки за изрязване на облак от Маркдаун
+// @name:cs           Poznámky k cloudovému řezu Markdown
+// @name:da           Markdown Cloud Cut Notes
+// @name:de           Markdown Cloud Cut -Notizen
+// @name:el           Σημειώσεις κοπής σύννεφων Markdown
+// @name:en           MarkDown Cloud Cut Notes
+// @name:eo           Markdown Cloud Cut Notes
+// @name:es           Notas de corte de nube de markdown
+// @name:fi           Markdown Cloud Cut Notes
+// @name:fr           Notes de coupe de cloud de Markdown
+// @name:fr-CA        Notes de coupe de cloud de Markdown
+// @name:he           הערות Culd Cloud Markdown
+// @name:hr           Markdown Cloud Cut Notes
+// @name:hu           Markdown Cloud Cut jegyzetek
+// @name:id           Markdown Cloud Cut Notes
+// @name:it           Markdown Cloud Cut Notes
+// @name:ja           マークダウンクラウドカットノート
+// @name:ka           Markdown Cloud Cut Notes
+// @name:ko           마크 다운 클라우드 컷 메모
+// @name:nb           Markdown Cloud Cut Notes
+// @name:nl           Markdown Cloud Cut Notes
+// @name:pl           Notatki z Cloud Cloud Cloud
+// @name:pt-BR        Notas de corte na nuvem de marcação
+// @name:ro           Note de tăiere a norului markdown
+// @name:ru           Примечания к облаку отметки
+// @name:sk           Poznámky k mraku cloudu
+// @name:sr           Напомена Цлоуд Цлоуд Сцрет Нотес
+// @name:sv           Markdown Cloud Cut -anteckningar
+// @name:th           MARKDOWN Cloud Cut Notes
+// @name:tr           Markdown bulut kesim notları
+// @name:ug           ماركېل بۇلۇت ئۈزۈلۈپ قالدى
+// @name:uk           Нотатки з вирізанням Cloud Cloud
+// @name:vi           Markdown Cloud Cut Ghi chú
+// @name:zh           MarkDown 云剪笔记
+// @name:zh-CN        MarkDown 云剪笔记
+// @name:zh-HK        MarkDown 雲剪筆記
+// @name:zh-SG        MarkDown 云剪笔记
+// @name:zh-TW        MarkDown 雲剪筆記
+// @description       A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian.
 // @description:ar    تقوم أداة بتحويل محتوى الويب إلى تنسيق Markdown ، ويدعم ميزات مثل نسخ وتنزيل وإرسال Github و Obsidian.
 // @description:bg    Инструмент, който преобразува уеб съдържание във формат за маркиране, поддържа функции като копиране, изтегляне и изпращане на GitHub и Obsidian.
 // @description:cs    Nástroj, který převádí webový obsah do formátu označení, podporuje funkce, jako je kopírování, stahování a odesílání do GitHubu a obsidiánu.
@@ -78,7 +117,7 @@
  * File Created: 2025/03/18,Tuesday 07:13:13
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/18,Tuesday 08:48:06
+ * Last Modified: 2025/03/18,Tuesday 09:38:14
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
