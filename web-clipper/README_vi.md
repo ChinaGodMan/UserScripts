@@ -25,7 +25,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản của người phục vụ<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản của người phục vụ</a><br><a href="#:~:text=Xem tất cả các tập lệnh xuất bản">Xem tập lệnh của người phục vụ trên trang hiện tại</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=今日所有脚本安装数&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh%20%C4%91%C6%B0%E1%BB%A3c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20k%E1%BB%8Bch%20b%E1%BA%A3n&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%E1%BB%91t&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
@@ -52,9 +52,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown Web Clipper 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ Markdown Web Clipper Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>Mới</strong>: •Thêm vào<code>Markdown</code>Lưu tệp vào<code>GitHub</code>Chức năng.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -68,7 +68,7 @@ Và có thể được tải lên`GitHub`Trong kho`Issues`Tiết kiệm vĩnh vi
 ### đặc tính
 
 -   **Công cụ chọn hộp**：Chỉ cần sử dụng chuột để chọn cái bạn muốn chuyển đổi HTML yếu tố。 ![Công cụ chọn hộp](https://github.com/shiquda/shiquda_UserScript/raw/main/General/Clip_2024-02-08_15-13-03.png)
--   **Markdown Xem trước**：Sau khi chuyển đổi，Một hộp phương thức sẽ xuất hiện，显示你选定的网页元素的 Markdown Chuyển đổi kết quả。Có thể chỉnh sửa nó cùng một lúc Markdown Và xem bản xem trước trực tiếp。
+-   **Markdown Xem trước**：Sau khi chuyển đổi，Một hộp phương thức sẽ xuất hiện，Hiển thị phần tử trang web bạn đã chọn Markdown Chuyển đổi kết quả。Có thể chỉnh sửa nó cùng một lúc Markdown Và xem bản xem trước trực tiếp。
 -   **Sao chép vào bảng tạm**：Chỉ cần nhấp vào，Bạn có thể chuyển đổi Markdown Sao chép vào bảng tạm của bạn。
 -   **Tải xuống như Markdown tài liệu**：Có thể chuyển đổi được chuyển đổi Markdown Tải xuống như .md tài liệu。 ![2025.03.18](https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png)
 -   **Lưu đến GitHub Issues**：Có thể chuyển đổi được chuyển đổi Markdown Lưu đến GitHub Trong kho Issues。
@@ -81,7 +81,7 @@ Và có thể được tải lên`GitHub`Trong kho`Issues`Tiết kiệm vĩnh vi
 **Lời khuyên quan trọng：Dòng văn bản đầu tiên ở bên trái sẽ được sử dụng làm tiêu đề！！**
 ![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
 **Bạn phải đặt của bạn ở đầu tập lệnh GitHub thông tin。**
-Tạo ra của bạn ở đây`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo)
+Tạo ra của bạn ở đây`Token`： [Nhấp vào tôi](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo)
 ![2025.03.18](https://s2.loli.net/2025/03/18/k4yHdajY1Wr9LVw.png)
 
 ### Cách sử dụng
@@ -105,13 +105,13 @@ Tạo ra của bạn ở đây`Token`： [点击我](https://github.com/settings
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
 > -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Quản lý hành vi ghi của các trang web vào bảng nhớ tạm để ngăn chặn việc sao chép tự động trái phép, đồng thời tắt tính năng tải trước nội dung âm thanh và video cũng như tự động phát lại.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**Loại bỏCSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
 > -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Đánh dấu các từ khóa trên web**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn
+> -   [**Làm nổi bật các từ khóa web**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
 > -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 > -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân liên kết trên tất cả các trang web，và xử lý các liên kết mới một cách linh hoạt
 > -   [**nút cuộn**](https://greasyfork.org/scripts/497251): Tạo hai nút ở bên phải trang để cuộn trang
@@ -124,7 +124,7 @@ Tạo ra của bạn ở đây`Token`： [点击我](https://github.com/settings
 
 ## Giúp đỡ
 
-推荐浏览器和脚本管理器：
+Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 -   **Greasemonkey + Waterfox**
 -   **Tampermonkey/Violentmonkey + Firefox**
@@ -154,13 +154,13 @@ Tạo ra của bạn ở đây`Token`： [点击我](https://github.com/settings
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
 > -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Quản lý hành vi ghi của các trang web vào bảng nhớ tạm để ngăn chặn việc sao chép tự động trái phép, đồng thời tắt tính năng tải trước nội dung âm thanh và video cũng như tự động phát lại.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**Loại bỏCSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
 > -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Đánh dấu các từ khóa trên web**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn
+> -   [**Làm nổi bật các từ khóa web**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
 > -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 > -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân liên kết trên tất cả các trang web，và xử lý các liên kết mới một cách linh hoạt
 > -   [**nút cuộn**](https://greasyfork.org/scripts/497251): Tạo hai nút ở bên phải trang để cuộn trang
@@ -200,7 +200,7 @@ Tạo ra của bạn ở đây`Token`： [点击我](https://github.com/settings
 
 > ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
 >
-> -   [**Greasy forkTrang kịch bản phù hợp để tăng cường URL**](https://greasyfork.org/scripts/497317): 脚本详情页适用于网址不默认跳转搜索 Chuyển sang liên kết văn bản có thể nhấp và bật lên
+> -   [**Greasy forkTrang kịch bản phù hợp để tăng cường URL**](https://greasyfork.org/scripts/497317): Trang chi tiết tập lệnh phù hợp cho các tìm kiếm mà không cần chuyển hướng mặc định Chuyển sang liên kết văn bản có thể nhấp và bật lên
 > -   [**GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản**](https://greasyfork.org/scripts/508968): sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
 > -   [**GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt**](https://greasyfork.org/scripts/506717): GreaysFork Nhập nhanh thông tin đồng bộ script，Và thêm mã ngôn ngữ cho nhiều quốc gia theo đợt，Thay vì nhấp vào từng hộp lựa chọn và đi tới URL tương ứng。
 > -   [**GreasyFork markdown**](https://greasyfork.org/scripts/505164): Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh

@@ -52,9 +52,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown Web Clipper 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ Markdown Web Clipper 更新日誌</strong></h1>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>新增</strong>: •添加將<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -70,7 +70,7 @@
 -   **框選工具**：只需使用鼠標選擇你想轉換的 HTML 元素。 ![框選工具](https://github.com/shiquda/shiquda_UserScript/raw/main/General/Clip_2024-02-08_15-13-03.png)
 -   **Markdown 預覽**：轉換後，將出現一個模態框，顯示你選定的網頁元素的 Markdown 轉換結果。同時可以編輯 Markdown 並查看實時預覽。
 -   **複製到剪貼板**：只需點擊一下，你就可以將轉換後的 Markdown 複製到你的剪貼板。
--   **下載為 Markdown 文件**：可以将转换后的 Markdown 下載為 .md 文件。 ![2025.03.18](https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png)
+-   **下載為 Markdown 文件**：可以將轉換後的 Markdown 下載為 .md 文件。 ![2025.03.18](https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png)
 -   **保存到 GitHub Issues**：可以將轉換後的 Markdown 保存到 GitHub 倉庫中的 Issues。
     **保存到 Obsidian**：可以將轉換後的 Markdown 保存到 Obsidian。
 -   **支持多種瀏覽器**：可以在 Chrome、Firefox、Edge 等主流瀏覽器中使用。
@@ -105,13 +105,13 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍你可能在找網頁相關腳本
 >
 > -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 管理網頁對剪貼簿的寫入行為防止未經授權的自動複製和停用音視頻內容預載及自動播放。
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**解除CSDN登錄複製**](https://greasyfork.org/scripts/505207): 去你媽的CSDN登錄複製,無需登錄即可複制
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為表格所有欄位套用色彩漸層來美化
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**網頁高亮關鍵字**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+> -   [**網頁關鍵詞高亮顯示**](https://greasyfork.org/scripts/498905): 在網頁上自定義關鍵詞突出顯示包括滾動時動態加載的內容
 > -   [**小窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
 > -   [**移除連結下劃線**](https://greasyfork.org/scripts/498625): 移除所有網站上的連結底線，並動態處理新鏈接
 > -   [**上下滾動按鈕**](https://greasyfork.org/scripts/497251): 在頁面右側產生兩個按鈕用於滾動頁面
@@ -154,13 +154,13 @@
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍你可能在找網頁相關腳本
 >
 > -   [**網頁寫入剪輯版授權管理員**](https://greasyfork.org/scripts/497403): 管理網頁對剪貼簿的寫入行為防止未經授權的自動複製和停用音視頻內容預載及自動播放。
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**解除CSDN登錄複製**](https://greasyfork.org/scripts/505207): 去你媽的CSDN登錄複製,無需登錄即可複制
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為表格所有欄位套用色彩漸層來美化
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**網頁高亮關鍵字**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+> -   [**網頁關鍵詞高亮顯示**](https://greasyfork.org/scripts/498905): 在網頁上自定義關鍵詞突出顯示包括滾動時動態加載的內容
 > -   [**小窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
 > -   [**移除連結下劃線**](https://greasyfork.org/scripts/498625): 移除所有網站上的連結底線，並動態處理新鏈接
 > -   [**上下滾動按鈕**](https://greasyfork.org/scripts/497251): 在頁面右側產生兩個按鈕用於滾動頁面
