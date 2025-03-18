@@ -52,9 +52,13 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Markdown Web Clipper Update log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown 云剪笔记 更新日志</strong></h1>
+<h3><strong>📅 2025.03.19.0450</strong></h3>
+<p><strong>新增</strong>:Github 添加可视化界面<br>
+<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
+<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>New</strong>: •Add<code>Markdown</code>Save the file to<code>GitHub</code>Functions.</p>
+<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
