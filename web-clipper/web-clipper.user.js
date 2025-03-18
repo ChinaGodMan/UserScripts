@@ -1,39 +1,76 @@
 // ==UserScript==
-// @name         Markdown Web Clipper
-// @name:zh-CN   Markdown Web Clipper
-// @description  A tool to convert web content into Markdown format, supporting features like copy, download, and sending to GitHub and Obsidian.
+// @name              Markdown Web Clipper
+// @description       A tool to convert web content into Markdown format, supporting features like copy, download, and sending to GitHub and Obsidian.
+// @description:ar    تقوم أداة بتحويل محتوى الويب إلى تنسيق Markdown ، ويدعم ميزات مثل نسخ وتنزيل وإرسال Github و Obsidian.
+// @description:bg    Инструмент, който преобразува уеб съдържание във формат за маркиране, поддържа функции като копиране, изтегляне и изпращане на GitHub и Obsidian.
+// @description:cs    Nástroj, který převádí webový obsah do formátu označení, podporuje funkce, jako je kopírování, stahování a odesílání do GitHubu a obsidiánu.
+// @description:da    Et værktøj, der konverterer webindhold til Markdown -format, understøtter funktioner såsom kopiering, download og sender til GitHub og Obsidian.
+// @description:de    Ein Tool, das Webinhalte in Markdown -Format umwandelt, unterstützt Funktionen wie das Kopieren, Herunterladen und Senden an GitHub und Obsidian.
+// @description:el    Ένα εργαλείο που μετατρέπει το περιεχόμενο ιστού σε μορφή Markdown, υποστηρίζει χαρακτηριστικά όπως η αντιγραφή, η λήψη και η αποστολή στο GitHub και ο Obsidian.
+// @description:en    A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian.
+// @description:eo    Ilo, kiu konvertas retan enhavon al Markdown -formato, subtenas funkciojn kiel kopii, elŝuti kaj sendi al Github kaj Obsidian.
+// @description:es    Una herramienta que convierte el contenido web en formato de Markdown, admite características como copiar, descargar y enviar a Github y Obsidian.
+// @description:fi    Työkalu, joka muuntaa verkkosisällön merkinnän muotoon, tukee ominaisuuksia, kuten kopiointia, lataamista ja lähettämistä GitHubille ja Obsidianille.
+// @description:fr    Un outil qui convertit le contenu Web au format Markdown, prend en charge des fonctionnalités telles que la copie, le téléchargement et l’envoi à GitHub et Obsidian.
+// @description:fr-CA Un outil qui convertit le contenu Web au format Markdown, prend en charge des fonctionnalités telles que la copie, le téléchargement et l’envoi à GitHub et Obsidian.
+// @description:he    כלי שממיר תוכן אינטרנט לפורמט Markdown, תומך בתכונות כמו העתקה, הורדה ושליחה ל- Github ו- Obsidian.
+// @description:hr    Alat koji pretvara web sadržaj u Markdown format, podržava značajke poput kopiranja, preuzimanja i slanja GitHub i Obsidian.
+// @description:hu    Egy olyan eszköz, amely a webtartalmat Markdown formátumra konvertálja, támogatja azokat a funkciókat, mint például a másolást, a letöltést és a Github -nak és az Obsidian -nak küldését.
+// @description:id    Alat yang mengonversi konten web ke format penurunan harga, mendukung fitur seperti menyalin, mengunduh, dan mengirim ke GitHub dan Obsidian.
+// @description:it    Uno strumento che converte i contenuti Web in formato markdown, supporta funzionalità come la copia, il download e l’invio a Github e Obsidian.
+// @description:ja    WebコンテンツをMarkdown形式に変換するツールは、GithubやObsidianへのコピー、ダウンロード、送信などの機能をサポートします。
+// @description:ka    ინსტრუმენტი, რომელიც გარდაქმნის ვებ შინაარსს MarkDown ფორმატში, მხარს უჭერს ისეთ ფუნქციებს, როგორიცაა კოპირება, ჩამოტვირთვა და გაგზავნა Github და Obsidian.
+// @description:ko    웹 컨텐츠를 Markdown 형식으로 변환하는 도구는 복사, 다운로드 및 Github 및 Obsidian으로 전송과 같은 기능을 지원합니다.
+// @description:nb    Et verktøy som konverterer nettinnhold til Markdown -format, støtter funksjoner som kopiering, nedlasting og sending til Github og Obsidian.
+// @description:nl    Een tool die webinhoud converteert naar Markdown -indeling, ondersteunt functies zoals kopiëren, downloaden en verzenden naar GitHub en Obsidian.
+// @description:pl    Narzędzie, które konwertuje treść sieci w formacie Markdown, obsługuje takie funkcje, jak kopiowanie, pobieranie i wysyłanie do Github i Obsidian.
+// @description:pt-BR Uma ferramenta que converte o conteúdo da Web em formato de marcação, suporta recursos como cópia, download e envio para o Github e Obsidian.
+// @description:ro    Un instrument care convertește conținutul web în format markdown, acceptă funcții precum copierea, descărcarea și trimiterea către Github și Obsidian.
+// @description:ru    Инструмент, который преобразует веб -контент в формат разметки, поддерживает такие функции, как копирование, загрузка и отправка в Github и Obsidian.
+// @description:sk    Nástroj, ktorý prevádza webový obsah na formát Markdown, podporuje funkcie, ako je kopírovanie, sťahovanie a odosielanie spoločnosti GitHub a Obsidian.
+// @description:sr    Алат који претвара Веб садржај у ознаку формата, подржава функције као што су копирање, преузимање и слање Гитхуб-а и Обсидијан.
+// @description:sv    Ett verktyg som konverterar webbinnehåll till Markdown -format, stöder funktioner som kopiering, nedladdning och skickning till GitHub och Obsidian.
+// @description:th    เครื่องมือที่แปลงเนื้อหาเว็บเป็นรูปแบบ Markdown รองรับคุณสมบัติต่าง ๆ เช่นการคัดลอกการดาวน์โหลดและการส่งไปยัง GitHub และ Obsidian
+// @description:tr    Web içeriğini işaretleme biçimine dönüştüren bir araç, GitHub ve Obsidian’a kopyalama, indirme ve gönderme gibi özellikleri destekler.
+// @description:ug    تور مەزمۇنىنى بەلگە قىلىپ بەلگە قىلالايدىغان بىر قورال گاتسىيە ۋە Obstidiation غا توپلاش ۋە ئەۋەتىش قاتارلىق ئىقتىدارلارنى قوللايدىغان ئىقتىدارلارنى قوللايدۇ.
+// @description:uk    Інструмент, який перетворює веб -вміст у формат Markdown, підтримує такі функції, як копіювання, завантаження та надсилання в Github та Обсидіан.
+// @description:vi    Một công cụ chuyển đổi nội dung web thành định dạng đánh dấu, hỗ trợ các tính năng như sao chép, tải xuống và gửi đến GitHub và Obsidian.
+// @description:zh    将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。
 // @description:zh-CN 将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。
-// @author       shiquda,人民的勤务员 <china.qinwuyuan@gmail.com>
-// @namespace    https://github.com/ChinaGodMan/UserScripts
-// @supportURL   https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL  https://github.com/ChinaGodMan/UserScripts
-// @license      MIT
-// @grant        GM_addStyle
-// @grant        GM_registerMenuCommand
-// @grant        GM_setClipboard
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @require      https://code.jquery.com/jquery-3.6.0.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
-// @require      https://unpkg.com/turndown/dist/turndown.js
-// @require      https://unpkg.com/@guyplusplus/turndown-plugin-gfm/dist/turndown-plugin-gfm.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js
-// @match        *://*/*
-// @icon        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAABBdJREFUaIHtmluIVlUUx39pMup4Q1FrRi1CrMAaREUS75KlBhKKSGAKzkPRQ0lBPngjkIZeBMWHAccH8VIKJQTSIAgWVBQKglco7YYiitrYjONtjg/7G2bPPmt/nvOdtc8ndn5wQM/+77X+i73PnrPP/qCgoKCg4P/Bi8CGAHFfAj4JEDcTc4GodM1Ujt1aintcOW4mTtFT8GnFuAusuBGwSjF2xdQCdwlj7LwTt1kpbiYGAh30NtauEHe1EzMCtivEVeEEcXObM8bsFGIuyxhTjY3EzUXA4ArjNQmxHmSIp86zwH3iJvdWEGuoECcC9qs4VWQ3stGXU8b52hNnoppTJcYjG/05RYxJnhiHVZ0qcgjZ8OKE/X/x9J+t7lQJ3wj9lqDvUk/fNDOkKhxDNv5+mT5PAb97+r0d0qwG9nu1fV3DvKRIrPX0+SOwVzVOIxfQJGgHA20e/eocvKrwFnIBETDa0W716P7Ny6wWl5AL+cLS1Hs0EfBpnmY1eId4EfeBkZbmsKCJgHu5OlXkBr0Lsb+ITME/uo352tTjA3qKuATUWG1nkYv9M2ePqvSjZwV+17q/HP/ozsvZozpbgAvOvevIxR7N11oYRgLTrP+vxz+6r+TuLjBDkffNEdBSRV/B2IVcbCe9/1w9ETTgn8obq+grGEeQi70MPF1FX0FYiH90V5Y09Zht4hPBGeRi7VOKc8CM/K3pswb/6L7maB6r86NK6APcIl7oAWB6SdMPuGK1rcjfpg79MdNUGlmbz4X2N0OZ0lgkhmCOSF8FxgF1mDPdCR79JuCz0r/7Yz791Aq6m5gp/jdm43EO+J4qbi4WAD/ifz6lqwMY4MRpThnjH2Ad5lHIhT7Alx4zt/FvDHwvGGMw50aSvgv5UK278IYA9cU4KCQ/CyzBTOfhwPOY00Nb04aZ/hLuKF8HFgEvAGMxq/leIe8N4t/IVJkjJD3k0W5zdJvLxB2H+axj6/sKusVC/j3pSkjHN06yyx5dnaO7hdkplWMnyQr50NHdIdAo12CeGzvZex7tt44uyRfIsZhn1u5X79G6W8zXE1WQkjriC4hkaKqjuYZZ6JLgjnKrR/edo/soYfxUPEd8BKRpetzRrE2R4xmnb0TP66fNV47m4xQ5EjMC8zJgJ5ruaJY47TcryNPixDgmaH51NOUO6ipmIPHThIOOxv2ZUZrR7WY48VF+w2qvFdqDvYoeFZLNKrU1Ovc7MuRxPwWdsNpanbYuzIIXhFXEC76D2d795dzPspAME/I0In8T+yFDnkdS7uDavm4r5NqRII873YMwHv/7bfc1VynX1UfkCfHrXZFBwD7BQAfmtxpajAJOCnkuAPMrCZh1P1wDTMZsCv4DfsLsfLSZiNlItGOKvRggR0FBQcHjx0Ng/VhKUt8K3AAAAABJRU5ErkJggg==
-// @compatible   chrome
-// @compatible   firefox
-// @compatible   edge
-// @compatible   opera
-// @compatible   safari
-// @compatible   kiwi
-// @compatible   qq
-// @compatible   via
-// @compatible   brave
-// @version      2025.03.18.0713
-// @created      2025-03-18 07:13:13
-// @modified     2025-03-18 07:13:13
-// @downloadURL  https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
-// @updateURL    https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
+// @description:zh-HK 將網頁內容轉換為 Markdown 格式的工具，支持複製、下載、發送到 GitHub 和 Obsidian 等功能。
+// @description:zh-SG 将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。
+// @description:zh-TW 將網頁內容轉換為 Markdown 格式的工具，支持複製、下載、發送到 GitHub 和 Obsidian 等功能。
+// @author            shiquda,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
+// @license           MIT
+// @grant             GM_addStyle
+// @grant             GM_registerMenuCommand
+// @grant             GM_setClipboard
+// @grant             GM_setValue
+// @grant             GM_getValue
+// @require           https://code.jquery.com/jquery-3.6.0.min.js
+// @require           https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
+// @require           https://unpkg.com/turndown/dist/turndown.js
+// @require           https://unpkg.com/@guyplusplus/turndown-plugin-gfm/dist/turndown-plugin-gfm.js
+// @require           https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js
+// @match             *://*/*
+// @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAABBdJREFUaIHtmluIVlUUx39pMup4Q1FrRi1CrMAaREUS75KlBhKKSGAKzkPRQ0lBPngjkIZeBMWHAccH8VIKJQTSIAgWVBQKglco7YYiitrYjONtjg/7G2bPPmt/nvOdtc8ndn5wQM/+77X+i73PnrPP/qCgoKCg4P/Bi8CGAHFfAj4JEDcTc4GodM1Ujt1aintcOW4mTtFT8GnFuAusuBGwSjF2xdQCdwlj7LwTt1kpbiYGAh30NtauEHe1EzMCtivEVeEEcXObM8bsFGIuyxhTjY3EzUXA4ArjNQmxHmSIp86zwH3iJvdWEGuoECcC9qs4VWQ3stGXU8b52hNnoppTJcYjG/05RYxJnhiHVZ0qcgjZ8OKE/X/x9J+t7lQJ3wj9lqDvUk/fNDOkKhxDNv5+mT5PAb97+r0d0qwG9nu1fV3DvKRIrPX0+SOwVzVOIxfQJGgHA20e/eocvKrwFnIBETDa0W716P7Ny6wWl5AL+cLS1Hs0EfBpnmY1eId4EfeBkZbmsKCJgHu5OlXkBr0Lsb+ITME/uo352tTjA3qKuATUWG1nkYv9M2ePqvSjZwV+17q/HP/ozsvZozpbgAvOvevIxR7N11oYRgLTrP+vxz+6r+TuLjBDkffNEdBSRV/B2IVcbCe9/1w9ETTgn8obq+grGEeQi70MPF1FX0FYiH90V5Y09Zht4hPBGeRi7VOKc8CM/K3pswb/6L7maB6r86NK6APcIl7oAWB6SdMPuGK1rcjfpg79MdNUGlmbz4X2N0OZ0lgkhmCOSF8FxgF1mDPdCR79JuCz0r/7Yz791Aq6m5gp/jdm43EO+J4qbi4WAD/ifz6lqwMY4MRpThnjH2Ad5lHIhT7Alx4zt/FvDHwvGGMw50aSvgv5UK278IYA9cU4KCQ/CyzBTOfhwPOY00Nb04aZ/hLuKF8HFgEvAGMxq/leIe8N4t/IVJkjJD3k0W5zdJvLxB2H+axj6/sKusVC/j3pSkjHN06yyx5dnaO7hdkplWMnyQr50NHdIdAo12CeGzvZex7tt44uyRfIsZhn1u5X79G6W8zXE1WQkjriC4hkaKqjuYZZ6JLgjnKrR/edo/soYfxUPEd8BKRpetzRrE2R4xmnb0TP66fNV47m4xQ5EjMC8zJgJ5ruaJY47TcryNPixDgmaH51NOUO6ipmIPHThIOOxv2ZUZrR7WY48VF+w2qvFdqDvYoeFZLNKrU1Ovc7MuRxPwWdsNpanbYuzIIXhFXEC76D2d795dzPspAME/I0In8T+yFDnkdS7uDavm4r5NqRII873YMwHv/7bfc1VynX1UfkCfHrXZFBwD7BQAfmtxpajAJOCnkuAPMrCZh1P1wDTMZsCv4DfsLsfLSZiNlItGOKvRggR0FBQcHjx0Ng/VhKUt8K3AAAAABJRU5ErkJggg==
+// @compatible        chrome
+// @compatible        firefox
+// @compatible        edge
+// @compatible        opera
+// @compatible        safari
+// @compatible        kiwi
+// @compatible        qq
+// @compatible        via
+// @compatible        brave
+// @version           2025.03.18.0713
+// @created           2025-03-18 07:13:13
+// @modified          2025-03-18 07:13:13
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
+// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
 // ==/UserScript==
 /**
  * File: web-clipper.user.js
