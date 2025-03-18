@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20good%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=所有差评&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Code%20quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=Star%20mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
@@ -52,9 +52,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown Web Clipper 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Markdown Web Clipper Update log</strong></h1>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>New</strong>: •Add<code>Markdown</code>Save the file to<code>GitHub</code>Functions.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -69,7 +69,7 @@ And can be uploaded to`GitHub`In the warehouse`Issues`Save permanently,It is a p
 
 -   **Box Selection Tool**：Just use the mouse to select the one you want to convert HTML element。 ![Box Selection Tool](https://github.com/shiquda/shiquda_UserScript/raw/main/General/Clip_2024-02-08_15-13-03.png)
 -   **Markdown Preview**：After conversion，A modal box will appear，Shows the web page element you selected Markdown Convert result。Can edit it at the same time Markdown And view the live preview。
--   **复制到剪贴板**：Just click，You can convert the Markdown Copy to your clipboard。
+-   **Copy to clipboard**：Just click，You can convert the Markdown Copy to your clipboard。
 -   **Download as Markdown document**：Can convert the converted Markdown Download as .md document。 ![2025.03.18](https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png)
 -   **Save to GitHub Issues**：Can convert the converted Markdown Save to GitHub In the warehouse Issues。
     **Save to Obsidian**：Can convert the converted Markdown Save to Obsidian。
@@ -88,7 +88,7 @@ Generate yours here`Token`： [Click me](https://github.com/settings/tokens/new?
 
 1.  Install the User Script Manager，like Tampermonkey or Greasemonkey。
 2.  Add this script to your user script manager。
-3.  On any web page，按 `Ctrl + m` ，Or open the function in the script manager menu，Start Selection HTML element。
+3.  On any web page，according to `Ctrl + m` ，Or open the function in the script manager menu，Start Selection HTML element。
 4.  When selecting，According to the prompt information，Use the mouse wheel or arrow keys to select elements。
 5.  After selection，You can convert it on the left side Markdown Code for editing，Preview of it on the right。
 6.  You can use text as`GitHub`Warehouse`Issues`Save permanently.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
@@ -105,13 +105,13 @@ Generate yours here`Token`： [Click me](https://github.com/settings/tokens/new?
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍You may be looking for web-related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**RemovalCSDNLog in to copy**](https://greasyfork.org/scripts/505207): Go fuck youCSDNLog in to copy,Copy without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Highlight keywords on the web**](https://greasyfork.org/scripts/498906): Highlight text on the web page，If it helps you，Can be modified and used at will
+> -   [**Highlight web keywords**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamic loading when scrolling
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
 > -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
@@ -154,13 +154,13 @@ Recommended browser and script manager：
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍You may be looking for web-related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
-> -   [**解除CSDN登录复制**](https://greasyfork.org/scripts/505207): 去你妈的CSDN登录复制,无需登录即可复制
+> -   [**RemovalCSDNLog in to copy**](https://greasyfork.org/scripts/505207): Go fuck youCSDNLog in to copy,Copy without logging in
 > -   [**Beautify web forms with gorgeous gradients**](https://greasyfork.org/scripts/507036): Automatically apply color gradients to all columns of the table to beautify it
-> -   [**网页高亮关键字**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**Highlight keywords on the web**](https://greasyfork.org/scripts/498906): Highlight text on the web page，If it helps you，Can be modified and used at will
+> -   [**Highlight web keywords**](https://greasyfork.org/scripts/498905): Custom keyword highlighting on web pages including dynamic loading when scrolling
 > -   [**Small window preview**](https://greasyfork.org/scripts/504880): Open link in popup window when dragging link，and provide a preview before opening，use Edge pre-reading technology。At the same time, add an acrylic effect behind the small window when it is opened.。
 > -   [**Remove link underline**](https://greasyfork.org/scripts/498625): Remove link underlines on all sites，and handle new links dynamically
 > -   [**scroll button**](https://greasyfork.org/scripts/497251): Generate two buttons on the right side of the page for scrolling the page
@@ -216,7 +216,7 @@ Recommended browser and script manager：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**xhamster video one-click download assistant**](https://greasyfork.org/scripts/529043): xhamster video download with one click | xhamster.com | Download directly without login | All viewable resolutions can be downloaded
