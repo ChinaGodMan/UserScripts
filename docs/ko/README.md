@@ -453,7 +453,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">MarkDown 클라우드 클립 노트</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、제출 헤더 및 최신 제출 정보가 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
+    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、헤더 제출 및 최신 제출 정보가 변환됩니다 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -1474,7 +1474,7 @@
 </h3>
 
 <details>
-    <summary>비 중국어 캐릭터를 인식하십시오，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
+    <summary>비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우 5 번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，중국어로 교체하십시오,접근 할 수 있어야합니다google네트워크</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>

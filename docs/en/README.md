@@ -453,7 +453,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">MarkDown Cloud clip notes</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>The script will GitHub The submission information on it is converted into HTML view，View submission details more clearly。It will automatically list the submission information、The submission header and the latest submission information are converted into HTML Format，Provide better visual effects and user experience。</summary>
+    <summary>The script will GitHub The submission information on it is converted into HTML view，View submission details more clearly。It will automatically list the submission information、Submit header and latest submission information are converted into HTML Format，Provide better visual effects and user experience。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
