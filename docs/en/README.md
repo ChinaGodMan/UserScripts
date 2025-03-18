@@ -450,6 +450,35 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
 </blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
+</h3>
+
+<details>
+    <summary>Convert web content to Markdown Format tools，Support for replication、download、Send to GitHub and Obsidian Other functions。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+           <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/530139">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/530139">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/#readme">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+</blockquote>
         <h1>GitHubRelated scripts</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
@@ -1598,7 +1627,7 @@ To use any script，First, you need a browser installation **Tampermonkey Script
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic browser）Generally available Chrome Extended。_
 > -   _Please make sure to use **Tampermonkey Official version** Extended，其他的用户Script管理器可能导致**Cannot use normally**脚本。_
-> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is finished, reinstall the script。_
+> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is reinstalled。_
 
 > _**Will not install offline .crx Extended？[Chrome、Edge Re-enable hidden [Drag into installation .crx Extended] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
 

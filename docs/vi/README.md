@@ -450,6 +450,35 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
 </blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper"></a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+</h3>
+
+<details>
+    <summary>Chuyển đổi nội dung web thành Markdown Công cụ định dạng，Hỗ trợ nhân rộng、Tải xuống、Gửi đến GitHub Và Obsidian Các chức năng khác。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
+           <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/530139">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/530139">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/#readme">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
+</blockquote>
         <h1>GitHubTập lệnh liên quan</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
@@ -1598,7 +1627,7 @@
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt kernel（Chẳng hạn như trình duyệt trong nước）Nói chung có sẵn Chrome Mở rộng。_
 > -   _Vui lòng đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không thể sử dụng bình thường**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh kết thúc, hãy cài đặt lại tập lệnh。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin nhớ Tampermonkey Mở rộng**Hoàn toàn bị xóa trong thùng tái chế**Sau khi tập lệnh được cài đặt lại。_
 
 > _**Sẽ không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge RE-re-beable ẩn [Kéo vào cài đặt .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
 
