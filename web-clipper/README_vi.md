@@ -93,11 +93,12 @@ Tạo ra của bạn ở đây`Token`： [Nhấp vào tôi](https://github.com/s
 5.  Sau khi lựa chọn，Bạn có thể chuyển đổi nó ở phía bên trái Markdown Mã để chỉnh sửa，Xem trước nó ở bên phải。
 6.  Bạn có thể sử dụng văn bản như`GitHub`Kho`Issues`Tiết kiệm vĩnh viễn.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
 7.  Có thể Markdown Sao chép vào bảng tạm，Bạn cũng có thể tải xuống nó dưới dạng .md tài liệu，Hoặc định cấu hình nhập vào Obsidian（sử dụng [OBSIDIAN quá cố URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
-    <!--AUTHORS-->
+
+<!--AUTHORS-->
 ## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
 [🧑‍💻 **@shiquda**](https://greasyfork.org/users/935206) ⇒ 📜 _[Easy Web Page to Markdown](https://greasyfork.org/scripts/486888)_
-    <!--AUTHORS-END-->
-    <!--SCREENSHOT-->
+<!--AUTHORS-END-->
+<!--SCREENSHOT-->
 
 <!--SCREENSHOT-END-->
 <!--TEXT-END-->

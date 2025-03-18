@@ -93,11 +93,12 @@ Generate yours here`Token`： [Click me](https://github.com/settings/tokens/new?
 5.  After selection，You can convert it on the left side Markdown Code for editing，Preview of it on the right。
 6.  You can use text as`GitHub`Warehouse`Issues`Save permanently.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
 7.  Can Markdown Copy to clipboard，You can also download it as .md document，Or configure the import into Obsidian（use [Late Obsidian URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
-    <!--AUTHORS-->
+
+<!--AUTHORS-->
 ## 💖 The script referenced or used the following script:
 [🧑‍💻 **@shiquda**](https://greasyfork.org/users/935206) ⇒ 📜 _[Easy Web Page to Markdown](https://greasyfork.org/scripts/486888)_
-    <!--AUTHORS-END-->
-    <!--SCREENSHOT-->
+<!--AUTHORS-END-->
+<!--SCREENSHOT-->
 
 <!--SCREENSHOT-END-->
 <!--TEXT-END-->
