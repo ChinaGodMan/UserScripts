@@ -52,13 +52,13 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Markdown 云剪笔记 更新日志</strong></h1>
+            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ Markdown 클라우드 클립 노트 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.03.19.0450</strong></h3>
-<p><strong>新增</strong>:Github 添加可视化界面<br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
-<strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
+<p><strong>새로운</strong>:Github 시각적 인터페이스를 추가하십시오<br>
+<strong>스크린 샷</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
+<strong>스크린 샷</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>新增</strong>: •添加将<code>Markdown</code>文件保存到<code>GitHub</code>的功能.</p>
+<p><strong>새로운</strong>: •추가하다<code>Markdown</code>파일을 저장하십시오<code>GitHub</code>기능.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>
@@ -84,10 +84,10 @@
 
 **중요한 팁：왼쪽의 첫 번째 텍스트 줄은 제목으로 사용됩니다.！！**
 ![2025.03.18](https://s2.loli.net/2025/03/18/Q9pFIcRsPwHgSot.png)
-**你必须在脚本菜单中设置你的 GitHub 信息。**
-此处生成你的`Token`： [点击我](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
+**당신은 당신을 설정해야합니다 GitHub 정보。**
+여기서 당신의 것을 생성하십시오`Token`： [나를 클릭하십시오](https://github.com/settings/tokens/new?description=Web%20Clipper%20Token%20UserScript&scopes=repo) <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png) <br>
-创建成功可以跳转查看： <br>
+창조 후에 볼 수 있습니다： <br>
 ![2025.03.19](https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png) <br>
 
 
