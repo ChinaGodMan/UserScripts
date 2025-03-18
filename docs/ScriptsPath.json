@@ -859,7 +859,7 @@
         },
         {
             "isUpdated": true,
-            "name": "",
+            "name": "MarkDown 云剪笔记",
             "description": "将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。",
             "relatedscripts": "网页相关脚本",
             "path": "web-clipper.user.js",
