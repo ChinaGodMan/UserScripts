@@ -872,6 +872,22 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"
+        },
+        {
+            "isUpdated": true,
+            "name": "github-comment-translate",
+            "description": "",
+            "relatedscripts": "GitHub相关脚本",
+            "path": "github-comment-translate.user.js",
+            "backuppath": "github-comment-translate",
+            "version": "2025.03.20.0728",
+            "GreasyFork": "",
+            "created_at": "2025-03-20 07:28:08",
+            "code_updated_at": "2025-03-20 07:28:08",
+            "local_created_at": "2025-03-20 07:28:08",
+            "top_tip": "",
+            "img": "https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
         }
     ]
 }
