@@ -70,7 +70,7 @@ _人民的勤務員修復失效代碼_
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -127,7 +127,7 @@ _人民的勤務員修復失效代碼_
 > -   [**解除CSDN登錄複製**](https://greasyfork.org/scripts/505207): 去你媽的CSDN登錄複製,無需登錄即可複制
 > -   [**絢麗漸層美化網頁表格**](https://greasyfork.org/scripts/507036): 自動為表格所有欄位套用色彩漸層來美化
 > -   [**網頁高亮關鍵字**](https://greasyfork.org/scripts/498906): 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): 在网页上自定义关键词突出显示包括滚动时动态加载的内容
+> -   [**網頁關鍵詞高亮顯示**](https://greasyfork.org/scripts/498905): 在網頁上自定義關鍵詞突出顯示包括滾動時動態加載的內容
 > -   [**小窗預覽**](https://greasyfork.org/scripts/504880): 拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。
 > -   [**移除連結下劃線**](https://greasyfork.org/scripts/498625): 移除所有網站上的連結底線，並動態處理新鏈接
 > -   [**上下滾動按鈕**](https://greasyfork.org/scripts/497251): 在頁面右側產生兩個按鈕用於滾動頁面
@@ -138,7 +138,7 @@ _人民的勤務員修復失效代碼_
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍你可能在找GitHub相關腳本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
