@@ -1,84 +1,84 @@
 // ==UserScript==
 // @name              GitHub Quick Translate
-// @description       Listen to the keyboard shortcut Ctrl + Q to translate text and replace the original text in the input field with the translation. Supports Issue and Pull Request pages.
-// @name:fr-CA        Assistant de traduction de la clé de raccourci Github
-// @description:fr-CA Écoutez le raccourci clavier Ctrl + Q, qui met en œuvre la fonction de traduction du texte et de remplacement des résultats de traduction par la zone de texte d’origine.
-// @name:zh-CN        GitHub 快捷键翻译助手
-// @description:zh-CN 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
-// @name:zh-HK        GitHub 快捷鍵翻譯助手
-// @description:zh-HK 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
-// @name:zh-TW        GitHub 快捷鍵翻譯助手
-// @description:zh-TW 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
-// @name:zh           GitHub 快捷键翻译助手
-// @description:zh    监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
-// @name:zh-SG        GitHub 快捷键翻译助手
-// @description:zh-SG 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
-// @name:vi           Trợ lý bản dịch phím tắt GitHub
-// @description:vi    Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
-// @name:uk           Асистент перекладу ключа ярликів Github
-// @description:uk    Слухайте ярлик клавіатури Ctrl + Q, який реалізує функцію перекладу тексту та заміну результатів перекладу на оригінальне текстове поле.
-// @name:ug           GitHub تېزلەتمە تەرجىمە ياردەمچىسى
-// @description:ug    كۇنۇپكا تاختىسى تېزلەتتى ۋە Ctrl + Q نى ئاڭلاڭ, ھەر ۋاقىت تېكىستنى تەرجىمە قىلىش ئىقتىدارىنى ئەسلى تېكىست رامكىسى بىلەن ئالدىراق.
-// @name:tr           Github kısayol Anahtar Çeviri Asistanı
-// @description:tr    Metni çevirme ve çeviri sonuçlarını orijinal metin kutusu ile değiştirme işlevini uygulayan klavye kısayolu CTRL + Q.
-// @name:th           ผู้ช่วยแปลคีย์คีย์ GitHub
-// @description:th    ฟังคีย์บอร์ดลัด Ctrl + Q ซึ่งใช้ฟังก์ชั่นการแปลข้อความและแทนที่ผลลัพธ์การแปลด้วยกล่องข้อความต้นฉบับ รองรับปัญหาและดึงหน้าคำขอ
-// @name:sv           Github genvägsnyckelöversättningassistent
-// @description:sv    Lyssna på kortkommando Ctrl + Q, som implementerar funktionen att översätta text och ersätta översättningsresultaten med den ursprungliga textrutan.
-// @name:sr           ГитХуб пречице Кључни асистент за превођење
-// @description:sr    Слушајте пречицу тастатуре Цтрл + К, који проводи функцију превођења текста и замењујући резултате превођења са оригиналним текстуалним пољем. Подржава издавање и повуче странице.
-// @name:sk           Asistent prekladu skratky github
-// @description:sk    Vypočujte si klávesovú skratku CTRL + Q, ktorá implementuje funkciu prekladu textu a nahradí výsledky prekladu pôvodným textovým políčkom.
-// @name:ru           GitHub
-// @description:ru    Слушайте сочетание клавиш CTRL + Q, который реализует функцию перевода текста и замены результатов перевода на исходное текстовое поле.
-// @name:ro           Asistent de traducere cu cheie Github Shortcut
-// @description:ro    Ascultați comanda rapidă a tastaturii Ctrl + Q, care implementează funcția de a traduce text și de a înlocui rezultatele traducerii cu caseta de text originală.
-// @name:pt-BR        Assistente de Tradução de Chave de Atalho do Github
-// @description:pt-BR Ouça o atalho do teclado Ctrl + Q, que implementa a função de traduzir o texto e a substituição dos resultados da tradução pela caixa de texto original.
-// @name:pl           Github Kluczowy asystent tłumaczenia
-// @description:pl    Słuchaj skrótu klawiatury Ctrl + Q, która implementuje funkcję tłumaczenia tekstu i zastępowania wyników tłumaczenia oryginalnym pola tekstowym.
-// @name:nb           GitHub snarvei -nøkkeloversettelsesassistent
-// @description:nb    Lytt til keyboard -snarvei Ctrl + Q, som implementerer funksjonen til å oversette tekst og erstatte oversettelsesresultatene med den originale tekstboksen.
-// @name:nl           GitHub sneltoetsleutel vertaalassistent
-// @description:nl    Luister naar sneltoets Ctrl + Q, die de functie implementeert van het vertalen van tekst en het vervangen van de vertaalresultaten door het oorspronkelijke tekstvak.
-// @name:ko           Github 바로 가기 키 번역 보조원
-// @description:ko    키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
-// @name:ka           Github მალსახმობების გასაღების ასისტენტი
-// @description:ka    მოუსმინეთ კლავიშების მალსახმობას Ctrl + Q, რომელიც ახორციელებს ტექსტის თარგმანის ფუნქციას და თარგმანის შედეგების შეცვლას ორიგინალური ტექსტის ყუთში.
-// @name:ja           GitHubショートカットキー翻訳アシスタント
-// @description:ja    キーボードショートカットCtrl + Qを聞いてください。これは、テキストを翻訳し、翻訳の結果を元のテキストボックスに置き換える機能を実装しています。
-// @name:it           Assistente di traduzione chiave di scelta rapida GitHub
-// @description:it    Ascolta la tastiera Shortcut CTRL + Q, che implementa la funzione di traduzione del testo e la sostituzione dei risultati della traduzione con la casella di testo originale.
-// @name:id           Asisten terjemahan kunci pintasan gitub
-// @description:id    Dengarkan Keyboard Shortcut Ctrl + Q, yang mengimplementasikan fungsi menerjemahkan teks dan mengganti hasil terjemahan dengan kotak teks asli.
-// @name:hu           Github gyorsbillentyűzet -fordító asszisztens
-// @description:hu    Hallgassa meg a Ctrl + Q billentyűzetet, amely végrehajtja a szöveg fordítása és a fordítási eredmények cseréje az eredeti szövegmezővel.
-// @name:hr           GitHub prečac za prijevod
-// @description:hr    Poslušajte CTRL + Q na tipkovnici, koji implementira funkciju prevođenja teksta i zamjenu rezultata prijevoda s originalnim tekstnim okvirom.
-// @name:he           עוזר תרגום מפתח קיצור דרך Github
-// @description:he    האזנו ל- Ctrl + Q קיצור מקשים, אשר מיישם את הפונקציה של תרגום טקסט והחלפת תוצאות התרגום בתיבת הטקסט המקורית תומכת בדפי הבקשה ומשיכה.
-// @name:fr           Assistant de traduction de la clé de raccourci Github
-// @description:fr    Écoutez le raccourci clavier Ctrl + Q, qui met en œuvre la fonction de traduction du texte et de remplacement des résultats de traduction par la zone de texte d’origine.
-// @name:fi           GitHub -pikakuvake avaimen käännös -avustaja
-// @description:fi    Kuuntele pikanäppäin Ctrl + Q, joka toteuttaa tekstin kääntämisen ja käännöstulosten korvaamisen alkuperäisellä tekstikenttään. Tukee ongelma- ja vedä pyyntösivuja.
-// @name:es           Asistente de traducción de clave de acceso directo de GitHub
-// @description:es    Escuche el atajo de teclado CTRL + Q, que implementa la función de traducir el texto y reemplazar los resultados de la traducción con el cuadro de texto original.
-// @name:eo           GitHub -ŝparvojo Ŝlosila Traduko -Asistanto
-// @description:eo    Aŭskultu klavaron ŝparvojo Ctrl + Q, kiu efektivigas la funkcion traduki tekston kaj anstataŭigi la tradukajn rezultojn per la originala tekstujo. Subtenas paĝojn pri eldono kaj tirado.
-// @name:en           GitHub shortcut key translation assistant
-// @description:en    Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
-// @name:el           Βοηθός μετάφρασης GitHub Shortcut Key
-// @description:el    Ακούστε τη συντόμευση πληκτρολογίου Ctrl + Q, η οποία εφαρμόζει τη λειτουργία της μετάφρασης κειμένου και την αντικατάσταση των αποτελεσμάτων μετάφρασης με το αρχικό πλαίσιο κειμένου.
-// @name:de           GitHub Shortcut Key Übersetzungsassistent
-// @description:de    Hören Sie sich die Tastaturverknüpfung an, die die Funktion der Übersetzung des Textes implementiert und die Übersetzungsergebnisse durch das Originaltextfeld ersetzt.
-// @name:da           GitHub genvej nøgleoversættelsesassistent
-// @description:da    Lyt til tastaturgenvej Ctrl + Q, der implementerer funktionen af ​​at oversætte tekst og udskifte oversættelsesresultaterne med det originale tekstfelt.
-// @name:cs           Asistent překladu klíče GitHub
-// @description:cs    Poslouchejte klávesovou zkratku Ctrl + Q, která implementuje funkci překladu textu a nahrazení výsledků překladu původním textem.
-// @name:bg           Асистент за превод на превод на Github
-// @description:bg    Слушайте клавиатурата за пряк път Ctrl + Q, която реализира функцията за превод на текст и подмяна на резултатите от превода с оригиналната текстова кутия.
 // @name:ar           جيثب اختصار مساعد الترجمة الرئيسي
+// @name:bg           Асистент за превод на превод на Github
+// @name:cs           Asistent překladu klíče GitHub
+// @name:da           GitHub genvej nøgleoversættelsesassistent
+// @name:de           GitHub Shortcut Key Übersetzungsassistent
+// @name:el           Βοηθός μετάφρασης GitHub Shortcut Key
+// @name:en           GitHub shortcut key translation assistant
+// @name:eo           GitHub -ŝparvojo Ŝlosila Traduko -Asistanto
+// @name:es           Asistente de traducción de clave de acceso directo de GitHub
+// @name:fi           GitHub -pikakuvake avaimen käännös -avustaja
+// @name:fr           Assistant de traduction de la clé de raccourci Github
+// @name:fr-CA        Assistant de traduction de la clé de raccourci Github
+// @name:he           עוזר תרגום מפתח קיצור דרך Github
+// @name:hr           GitHub prečac za prijevod
+// @name:hu           Github gyorsbillentyűzet -fordító asszisztens
+// @name:id           Asisten terjemahan kunci pintasan gitub
+// @name:it           Assistente di traduzione chiave di scelta rapida GitHub
+// @name:ja           GitHubショートカットキー翻訳アシスタント
+// @name:ka           Github მალსახმობების გასაღების ასისტენტი
+// @name:ko           Github 바로 가기 키 번역 보조원
+// @name:nb           GitHub snarvei -nøkkeloversettelsesassistent
+// @name:nl           GitHub sneltoetsleutel vertaalassistent
+// @name:pl           Github Kluczowy asystent tłumaczenia
+// @name:pt-BR        Assistente de Tradução de Chave de Atalho do Github
+// @name:ro           Asistent de traducere cu cheie Github Shortcut
+// @name:ru           GitHub
+// @name:sk           Asistent prekladu skratky github
+// @name:sr           ГитХуб пречице Кључни асистент за превођење
+// @name:sv           Github genvägsnyckelöversättningassistent
+// @name:th           ผู้ช่วยแปลคีย์คีย์ GitHub
+// @name:tr           Github kısayol Anahtar Çeviri Asistanı
+// @name:ug           GitHub تېزلەتمە تەرجىمە ياردەمچىسى
+// @name:uk           Асистент перекладу ключа ярликів Github
+// @name:vi           Trợ lý bản dịch phím tắt GitHub
+// @name:zh           GitHub 快捷键翻译助手
+// @name:zh-CN        GitHub 快捷键翻译助手
+// @name:zh-HK        GitHub 快捷鍵翻譯助手
+// @name:zh-SG        GitHub 快捷键翻译助手
+// @name:zh-TW        GitHub 快捷鍵翻譯助手
+// @description       Listen to the keyboard shortcut Ctrl + Q to translate text and replace the original text in the input field with the translation. Supports Issue and Pull Request pages.
 // @description:ar    استمع إلى اختصار لوحة المفاتيح Ctrl + Q ، والذي ينفذ وظيفة ترجمة النص واستبدال نتائج الترجمة بمربع النص الأصلي.
+// @description:bg    Слушайте клавиатурата за пряк път Ctrl + Q, която реализира функцията за превод на текст и подмяна на резултатите от превода с оригиналната текстова кутия.
+// @description:cs    Poslouchejte klávesovou zkratku Ctrl + Q, která implementuje funkci překladu textu a nahrazení výsledků překladu původním textem.
+// @description:da    Lyt til tastaturgenvej Ctrl + Q, der implementerer funktionen af at oversætte tekst og udskifte oversættelsesresultaterne med det originale tekstfelt.
+// @description:de    Hören Sie sich die Tastaturverknüpfung an, die die Funktion der Übersetzung des Textes implementiert und die Übersetzungsergebnisse durch das Originaltextfeld ersetzt.
+// @description:el    Ακούστε τη συντόμευση πληκτρολογίου Ctrl + Q, η οποία εφαρμόζει τη λειτουργία της μετάφρασης κειμένου και την αντικατάσταση των αποτελεσμάτων μετάφρασης με το αρχικό πλαίσιο κειμένου.
+// @description:en    Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
+// @description:eo    Aŭskultu klavaron ŝparvojo Ctrl + Q, kiu efektivigas la funkcion traduki tekston kaj anstataŭigi la tradukajn rezultojn per la originala tekstujo. Subtenas paĝojn pri eldono kaj tirado.
+// @description:es    Escuche el atajo de teclado CTRL + Q, que implementa la función de traducir el texto y reemplazar los resultados de la traducción con el cuadro de texto original.
+// @description:fi    Kuuntele pikanäppäin Ctrl + Q, joka toteuttaa tekstin kääntämisen ja käännöstulosten korvaamisen alkuperäisellä tekstikenttään. Tukee ongelma- ja vedä pyyntösivuja.
+// @description:fr    Écoutez le raccourci clavier Ctrl + Q, qui met en œuvre la fonction de traduction du texte et de remplacement des résultats de traduction par la zone de texte d’origine.
+// @description:fr-CA Écoutez le raccourci clavier Ctrl + Q, qui met en œuvre la fonction de traduction du texte et de remplacement des résultats de traduction par la zone de texte d’origine.
+// @description:he    האזנו ל- Ctrl + Q קיצור מקשים, אשר מיישם את הפונקציה של תרגום טקסט והחלפת תוצאות התרגום בתיבת הטקסט המקורית תומכת בדפי הבקשה ומשיכה.
+// @description:hr    Poslušajte CTRL + Q na tipkovnici, koji implementira funkciju prevođenja teksta i zamjenu rezultata prijevoda s originalnim tekstnim okvirom.
+// @description:hu    Hallgassa meg a Ctrl + Q billentyűzetet, amely végrehajtja a szöveg fordítása és a fordítási eredmények cseréje az eredeti szövegmezővel.
+// @description:id    Dengarkan Keyboard Shortcut Ctrl + Q, yang mengimplementasikan fungsi menerjemahkan teks dan mengganti hasil terjemahan dengan kotak teks asli.
+// @description:it    Ascolta la tastiera Shortcut CTRL + Q, che implementa la funzione di traduzione del testo e la sostituzione dei risultati della traduzione con la casella di testo originale.
+// @description:ja    キーボードショートカットCtrl + Qを聞いてください。これは、テキストを翻訳し、翻訳の結果を元のテキストボックスに置き換える機能を実装しています。
+// @description:ka    მოუსმინეთ კლავიშების მალსახმობას Ctrl + Q, რომელიც ახორციელებს ტექსტის თარგმანის ფუნქციას და თარგმანის შედეგების შეცვლას ორიგინალური ტექსტის ყუთში.
+// @description:ko    키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
+// @description:nb    Lytt til keyboard -snarvei Ctrl + Q, som implementerer funksjonen til å oversette tekst og erstatte oversettelsesresultatene med den originale tekstboksen.
+// @description:nl    Luister naar sneltoets Ctrl + Q, die de functie implementeert van het vertalen van tekst en het vervangen van de vertaalresultaten door het oorspronkelijke tekstvak.
+// @description:pl    Słuchaj skrótu klawiatury Ctrl + Q, która implementuje funkcję tłumaczenia tekstu i zastępowania wyników tłumaczenia oryginalnym pola tekstowym.
+// @description:pt-BR Ouça o atalho do teclado Ctrl + Q, que implementa a função de traduzir o texto e a substituição dos resultados da tradução pela caixa de texto original.
+// @description:ro    Ascultați comanda rapidă a tastaturii Ctrl + Q, care implementează funcția de a traduce text și de a înlocui rezultatele traducerii cu caseta de text originală.
+// @description:ru    Слушайте сочетание клавиш CTRL + Q, который реализует функцию перевода текста и замены результатов перевода на исходное текстовое поле.
+// @description:sk    Vypočujte si klávesovú skratku CTRL + Q, ktorá implementuje funkciu prekladu textu a nahradí výsledky prekladu pôvodným textovým políčkom.
+// @description:sr    Слушајте пречицу тастатуре Цтрл + К, који проводи функцију превођења текста и замењујући резултате превођења са оригиналним текстуалним пољем. Подржава издавање и повуче странице.
+// @description:sv    Lyssna på kortkommando Ctrl + Q, som implementerar funktionen att översätta text och ersätta översättningsresultaten med den ursprungliga textrutan.
+// @description:th    ฟังคีย์บอร์ดลัด Ctrl + Q ซึ่งใช้ฟังก์ชั่นการแปลข้อความและแทนที่ผลลัพธ์การแปลด้วยกล่องข้อความต้นฉบับ รองรับปัญหาและดึงหน้าคำขอ
+// @description:tr    Metni çevirme ve çeviri sonuçlarını orijinal metin kutusu ile değiştirme işlevini uygulayan klavye kısayolu CTRL + Q.
+// @description:ug    كۇنۇپكا تاختىسى تېزلەتتى ۋە Ctrl + Q نى ئاڭلاڭ, ھەر ۋاقىت تېكىستنى تەرجىمە قىلىش ئىقتىدارىنى ئەسلى تېكىست رامكىسى بىلەن ئالدىراق.
+// @description:uk    Слухайте ярлик клавіатури Ctrl + Q, який реалізує функцію перекладу тексту та заміну результатів перекладу на оригінальне текстове поле.
+// @description:vi    Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
+// @description:zh    监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
+// @description:zh-CN 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
+// @description:zh-HK 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+// @description:zh-SG 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
+// @description:zh-TW 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
@@ -108,7 +108,7 @@
  * File Created: 2025/03/20,Thursday 07:28:12
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/20,Thursday 09:02:35
+ * Last Modified: 2025/03/20,Thursday 21:53:03
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
