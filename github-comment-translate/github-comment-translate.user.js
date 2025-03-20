@@ -1,4 +1,6 @@
-
+// ==UserScript==
+// @name              GitHub Quick Translate
+// @description       Listen to the keyboard shortcut Ctrl + Q to translate text and replace the original text in the input field with the translation. Supports Issue and Pull Request pages.
 // @name:fr-CA        Assistant de traduction de la clé de raccourci Github
 // @description:fr-CA Écoutez le raccourci clavier Ctrl + Q, qui met en œuvre la fonction de traduction du texte et de remplacement des résultats de traduction par la zone de texte d’origine.
 // @name:zh-CN        GitHub 快捷键翻译助手
@@ -77,10 +79,6 @@
 // @description:bg    Слушайте клавиатурата за пряк път Ctrl + Q, която реализира функцията за превод на текст и подмяна на резултатите от превода с оригиналната текстова кутия.
 // @name:ar           جيثب اختصار مساعد الترجمة الرئيسي
 // @description:ar    استمع إلى اختصار لوحة المفاتيح Ctrl + Q ، والذي ينفذ وظيفة ترجمة النص واستبدال نتائج الترجمة بمربع النص الأصلي.
-
-// ==UserScript==
-// @name              GitHub Quick Translate
-// @description       Listen to the keyboard shortcut Ctrl + Q to translate text and replace the original text in the input field with the translation. Supports Issue and Pull Request pages.
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
