@@ -26,8 +26,8 @@
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%20%EC%84%A4%EC%B9%98%EB%90%9C%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=脚本数量&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=所有好评&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9E%A5%EA%B5%B0&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%EB%AA%A8%EB%93%A0%20%EB%B6%80%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
@@ -72,7 +72,7 @@
 
 **단순한：**텍스트 만 선택하십시오，딸깍 하는 소리 Ctrl 번역 할 핵심 (기본 영어)，그렇게 간단합니다～ ✅
 
-**빠른：**选가운데文本，해당 숫자 버튼을 눌러 해당 언어를 번역하십시오.(1: 中，2: 영국，3: 낮，4: 한국，5: 법...옵션 상자에 해당합니다。)
+**빠른：**선택하다가운데텍스트，해당 숫자 버튼을 눌러 해당 언어를 번역하십시오.(1: 가운데，2: 영국，3: 낮，4: 한국，5: 법...옵션 상자에 해당합니다。)
 
 ### 💡 작은 기능[](#작은 기능)
 
@@ -85,10 +85,10 @@
 
 😊 앞으로 불규칙한 최적화가있을 것입니다~
 
-# 📮 电子邮件：[shing0727@foxmail.com](shing0727@foxmail.com)[](#Email：shing0727@foxmail.com)
+# 📮 이메일：[shing0727@foxmail.com](shing0727@foxmail.com)[](#Email：shing0727@foxmail.com)
 
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
+## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
 [🧑‍💻 **@hdshing**](https://greasyfork.org/users/1288991) ⇒ 📜 _[번역 기기 | 모든 언어의 원 클릭 번역 | 선택된 번역 | 원래 번역 비교를 확장 할 수 있습니다 | 간단하고 효과적입니다](https://greasyfork.org/scripts/495393)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
@@ -146,7 +146,7 @@
 > -   [**웹 페이지 작성 클립 버전 권한 관리자**](https://greasyfork.org/scripts/497403): 웹페이지의 클립보드 쓰기 동작을 관리하여 무단 자동 복사를 방지하고 오디오 및 비디오 콘텐츠 사전 로드 및 자동 재생을 비활성화합니다.
 > -   [**제거CSDN복사하려면 로그인하십시오**](https://greasyfork.org/scripts/505207): 가서 엿 먹어라CSDN복사하려면 로그인하십시오,로그인하지 않고 복사하십시오
 > -   [**화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요**](https://greasyfork.org/scripts/507036): 테이블의 모든 열에 색상 그라디언트를 자동으로 적용하여 아름답게 만듭니다.
-> -   [**웹에서 키워드를 강조 표시합니다**](https://greasyfork.org/scripts/498906): 对网页上的文字进行高亮显示，그것이 당신을 도울 경우，마음대로 수정 및 사용할 수 있습니다
+> -   [**웹에서 키워드를 강조 표시합니다**](https://greasyfork.org/scripts/498906): 웹 페이지에서 텍스트를 강조 표시합니다，그것이 당신을 도울 경우，마음대로 수정 및 사용할 수 있습니다
 > -   [**웹 키워드를 강조 표시합니다**](https://greasyfork.org/scripts/498905): 스크롤 할 때 동적로드를 포함한 웹 페이지에서 사용자 정의 키워드 강조 표시
 > -   [**작은 창 미리보기**](https://greasyfork.org/scripts/504880): 링크 드래그 시 팝업창에서 링크 열기，열기 전에 미리보기를 제공하세요.，사용 Edge 미리 읽는 기술。동시에 작은 창을 열 때 뒤에 아크릴 효과를 추가합니다.。
 > -   [**링크 밑줄 제거**](https://greasyfork.org/scripts/498625): 모든 사이트의 링크 밑줄 제거，새 링크를 동적으로 처리합니다.
@@ -212,7 +212,7 @@
 > -   [**xvideos 푸시 다운로드**](https://greasyfork.org/scripts/528798): 1. 자동 재생 2. 자동 와이드 스크린 3. 고품질 재생 4. 다음 영화를 푸시하려면 클릭하십시오. 다운로드 썸네일 다운로드
 > -   [**한 번의 클릭으로 Pornhub 비디오 다운로드**](https://greasyfork.org/scripts/528800): Pornhub는 한 번의 클릭으로 다운로드하십시오
 > -   [**Missav 비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재 Missav 재생 페이지에서 비디오의 실제 다운로드 주소를 스니핑하고 다운로드하십시오.
-> -   [**MissAv批量备份收藏视频**](https://greasyfork.org/scripts/497682): 从当前missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
+> -   [**MissAv비디오 배치 백업 컬렉션**](https://greasyfork.org/scripts/497682): 현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.
 > -   [**ThisAV 자동 로그인**](https://greasyfork.org/scripts/506528): 발각 ThisAV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**Missav 강조 보조원**](https://greasyfork.org/scripts/529125): 광고를 제거합니다.

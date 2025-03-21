@@ -52,7 +52,7 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/smart-translator-tool/smart-translator-tool.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/530406">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Translation gadget | 翻译任何语言 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Translation gadget | Translate any language Update log</strong></h1>
 <h3><strong>📅 2025.03.21.1227</strong></h3>
 <p><strong>repair</strong>: Use Google Translate to use free API</p>
 <hr /></details>
@@ -70,9 +70,9 @@
 
 ### 💡🎇 Translation gadget（Floating page，Click the back quotes twice(\`\`)Can be summoned or hidden）[](<#Translation gadget（Floating page，Click the back quotes twice(``)Can be summoned or hidden）>)
 
-**Simple：**Just select the text，Click Ctrl Key to translate (Default English)，就是这么简单～ ✅
+**Simple：**Just select the text，Click Ctrl Key to translate (Default English)，It’s that simple～ ✅
 
-**Quick：**选middle文本，按对应数字按键即可翻译对应语言(1: 中，2: Britain，3: day，4: Korea，5: Law...Corresponding to the option box。)
+**Quick：**selectmiddletext，Press the corresponding number button to translate the corresponding language(1: middle，2: Britain，3: day，4: Korea，5: Law...Corresponding to the option box。)
 
 ### 💡 Small functions[](#Small functions)
 
@@ -99,9 +99,9 @@
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍You may be looking for automatic translation
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
+> -   [**Foreign Language Terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
 > -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
 > -   [**Translation widget | Translate any language**](https://greasyfork.org/scripts/530406): Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
 
@@ -158,7 +158,7 @@ Recommended browser and script manager：
 <!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHubRelated scripts
+> ### 🔍You may be looking forGitHubRelated scripts
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
@@ -177,7 +177,7 @@ Recommended browser and script manager：
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GoogleRelated scripts
+> ### 🔍You may be looking forGoogleRelated scripts
 >
 > -   [**Google Advanced search assistant**](https://greasyfork.org/scripts/502652): Add an advanced search form to the top of your Google search page
 > -   [**Block Google search sites**](https://greasyfork.org/scripts/500262): existgoogleSearch block the specified site
@@ -224,7 +224,7 @@ Recommended browser and script manager：
 > ### 🔍You may be looking for automatic translation
 >
 > -   [**Foreign Language Terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
-> -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，该版本为中文翻译版本，只把外语翻译为中文,Add automatic translation
+> -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
 > -   [**Translation widget | Translate any language**](https://greasyfork.org/scripts/530406): Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
