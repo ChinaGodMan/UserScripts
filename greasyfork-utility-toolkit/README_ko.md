@@ -417,10 +417,11 @@ Greasyfork에 다양한 사용 기능을 제공하는 스크립트입니다. 절
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍자동 번역을 찾고 계실 수도 있습니다
+> ### 🔍你可能在找自动翻译
 >
-> -   [**외국어 터미네이터**](https://greasyfork.org/scripts/504890): 중국어가 아닌 문자 인식，길이가 그 이상인 경우5그리고 번역된 텍스트에는 중국어가 포함되어 있지 않습니다.，그런 다음 원본 텍스트를 중국어로 번역하고 바꿉니다.
-> -   [**웹페이지 번역——중국어로 자동 번역됨**](https://greasyfork.org/scripts/505208): 중국어가 아닌 웹페이지의 오른쪽 하단에 표시（왼쪽 하단으로 조정 가능）추가하다google번역 아이콘，이 버전은 중국어 번역 버전입니다.，외국어만 중국어로 번역하세요,자동 번역 추가
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**번역 위젯 |. 모든 언어 번역**](https://greasyfork.org/scripts/530406): 모든 언어의 번역은 원하는 텍스트를 선택하십시오
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 

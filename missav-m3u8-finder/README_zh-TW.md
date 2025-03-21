@@ -202,10 +202,11 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自動翻譯
+> ### 🔍你可能在找自动翻译
 >
-> -   [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於5且翻譯文本中不含中文，則翻譯並且替換原始文本到中文
-> -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**翻譯小工具 | 翻譯任何語言**](https://greasyfork.org/scripts/530406): 任何語言翻譯及快捷一鍵翻譯想要語言 | 頁面翻譯 | 選中文字（ 按Ctrl ）| 提供快捷方式，只需按一個鍵即可快速翻譯想要語言 |英文學習 | 翻譯文可設置，支持全球多數通用語言 | 有什麼問題都可以反饋
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->

@@ -202,10 +202,11 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
+> ### 🔍你可能在找自动翻译
 >
-> -   [**Terminator ngoại ngữ**](https://greasyfork.org/scripts/504890): Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Sau đó dịch và thay thế văn bản gốc thành tiếng Trung
-> -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**Tiện ích dịch |**](https://greasyfork.org/scripts/530406): Bản dịch của bất kỳ ngôn ngữ nào của Ngôn ngữ bạn muốn |
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
