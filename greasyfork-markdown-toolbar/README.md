@@ -50,6 +50,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
+<h3><strong>📅 2025.03.21.1309</strong></h3>
+<p><strong>新增</strong>: <kbd>Ctrl</kbd>+<kbd>Q</kbd>快速翻译选中文本<br></p>
+<hr />
 <h3><strong>📅 2024-10-02 - Ver: 2.0.5</strong></h3>
 <p><strong>新增</strong>: 谷歌快速翻译选中的文本到英格里斯<br>可在脚本设置翻译到语言:<code>var translate = "en"</code>.</p>
 <p><img alt="tl.gif" src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif" /></p>
