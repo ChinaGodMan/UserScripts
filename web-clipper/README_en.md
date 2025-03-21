@@ -242,10 +242,10 @@ Recommended browser and script manager：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍You may be looking for automatic translation
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**Foreign Language Terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
+> -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
 > -   [**Translation widget | Translate any language**](https://greasyfork.org/scripts/530406): Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->

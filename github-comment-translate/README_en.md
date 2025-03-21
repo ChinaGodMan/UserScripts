@@ -31,7 +31,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Code%20quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=星标&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=Star%20mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,Can light up the stars to encourage</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
@@ -70,7 +70,7 @@ This script listens to keyboard shortcuts `Ctrl + Q`，Implement the function of
 
 1. **Shortcut key trigger**：Press `Ctrl + Q` When the translation function is triggered。
 2. **Select text translation**：Automatically detect selected text in the text box，and translate it into the target language。
-3. **翻译结果替换**：Replace the translated text to the selected position in the original text box。
+3. **Translation result replacement**：Replace the translated text to the selected position in the original text box。
 4. Support GitHub On`issues`and`pull`Page`markdown`Translate information。
 5. You can customize the translation language you need in the script,Translated by default in English。`const translate = 'en'`
 
@@ -146,7 +146,7 @@ Recommended browser and script manager：
 <!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找网页相关脚本
+> ### 🔍You may be looking for web-related scripts
 >
 > -   [**Web page writing clip version authorization manager**](https://greasyfork.org/scripts/497403): Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback.
 > -   [**RemovalCSDNLog in to copy**](https://greasyfork.org/scripts/505207): Go fuck youCSDNLog in to copy,Copy without logging in
@@ -209,7 +209,7 @@ Recommended browser and script manager：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Detection MissAV state,and automatically log in when not logged in
 > -   [**xhamster video one-click download assistant**](https://greasyfork.org/scripts/529043): xhamster video download with one click | xhamster.com | Download directly without login | All viewable resolutions can be downloaded
@@ -226,10 +226,10 @@ Recommended browser and script manager：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍You may be looking for automatic translation
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**Foreign Language Terminator**](https://greasyfork.org/scripts/504890): Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
+> -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
 > -   [**Translation widget | Translate any language**](https://greasyfork.org/scripts/530406): Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->

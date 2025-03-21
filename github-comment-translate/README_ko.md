@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9E%A5%EA%B5%B0&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=所有差评&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=%EB%AA%A8%EB%93%A0%20%EB%B6%80%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%EC%8A%A4%ED%83%80%20%EB%A7%88%ED%81%AC&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
@@ -69,7 +69,7 @@
 ## 기능 설명
 
 1. **바로 가기 키 트리거**：누르다 `Ctrl + Q` 번역 함수가 트리거 될 때。
-2. **텍스트 번역을 선택하십시오**：텍스트 상자에서 선택한 텍스트를 자동으로 감지합니다，并将其翻译为目标语言。
+2. **텍스트 번역을 선택하십시오**：텍스트 상자에서 선택한 텍스트를 자동으로 감지합니다，대상 언어로 번역하십시오。
 3. **번역 결과 교체**：번역 된 텍스트를 원본 텍스트 상자에서 선택한 위치로 바꾸십시오.。
 4. 지원하다 GitHub ~에`issues`그리고`pull`페이지`markdown`정보를 번역하십시오。
 5. 스크립트에서 필요한 번역 언어를 사용자 정의 할 수 있습니다.,기본적으로 영어로 번역됩니다。`const translate = 'en'`
@@ -124,7 +124,7 @@
 -   **Userscripts + ios Safari**
 -   **Violentmonkey/KiWiBrowser + Android**
 
-**如果你需要了解更多关于如何安装用户脚本,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)그림과 텍스트의 가르침을보십시오!**
+**사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)그림과 텍스트의 가르침을보십시오!**
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -185,7 +185,7 @@
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
 > -   [**Google 고급 검색 도우미**](https://greasyfork.org/scripts/502652): Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
-> -   [**Google 검색 사이트를 차단하십시오**](https://greasyfork.org/scripts/500262): 在google검색 지정된 사이트를 차단합니다
+> -   [**Google 검색 사이트를 차단하십시오**](https://greasyfork.org/scripts/500262): 존재하다google검색 지정된 사이트를 차단합니다
 
 <!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
@@ -226,10 +226,10 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍자동 번역을 찾고있을 수 있습니다
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**외국어 터미네이터**](https://greasyfork.org/scripts/504890): 비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우5번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，그런 다음 원본 텍스트를 중국어로 번역하고 교체하십시오
+> -   [**웹 번역——중국어로의 자동 번역**](https://greasyfork.org/scripts/505208): 각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오
 > -   [**번역 위젯 |. 모든 언어 번역**](https://greasyfork.org/scripts/530406): 모든 언어의 번역은 원하는 텍스트를 선택하십시오
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
