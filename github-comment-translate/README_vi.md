@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20k%E1%BB%8Bch%20b%E1%BA%A3n&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%E1%BB%91t&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=所有差评&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20ti%C3%AAu%20c%E1%BB%B1c&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Ch%E1%BA%A5t%20l%C6%B0%E1%BB%A3ng%20m%C3%A3&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=STAR%20Mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
@@ -68,7 +68,7 @@ Tập lệnh này lắng nghe các phím tắt bàn phím `Ctrl + Q`，Thực hi
 
 ## Mô tả chức năng
 
-1. **Kích hoạt phím phím tắt**：Nhấn `Ctrl + Q` 时触发翻译功能。
+1. **Kích hoạt phím phím tắt**：Nhấn `Ctrl + Q` Khi hàm dịch được kích hoạt。
 2. **Chọn bản dịch văn bản**：Tự động phát hiện văn bản đã chọn trong hộp văn bản，và dịch nó sang ngôn ngữ đích。
 3. **Kết quả dịch thay thế**：Thay thế văn bản được dịch thành vị trí đã chọn trong hộp văn bản gốc。
 4. Ủng hộ GitHub TRÊN`issues`Và`pull`Trang`markdown`Dịch thông tin。
@@ -95,7 +95,7 @@ Tập lệnh này lắng nghe các phím tắt bàn phím `Ctrl + Q`，Thực hi
 <!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGitHub相关脚本
+> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Mở liên kết JSDELIVR trên GitHub**](https://greasyfork.org/scripts/527870): Mở liên kết GitHub trên JSDELIVR để nhanh chóng tải xuống các tệp
@@ -152,7 +152,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Loại bỏCSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
 > -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
 > -   [**Đánh dấu các từ khóa trên web**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn
-> -   [**网页关键词高亮显示**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
+> -   [**Làm nổi bật các từ khóa web**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
 > -   [**Xem trước cửa sổ nhỏ**](https://greasyfork.org/scripts/504880): Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。
 > -   [**Xóa gạch chân liên kết**](https://greasyfork.org/scripts/498625): Xóa gạch chân liên kết trên tất cả các trang web，và xử lý các liên kết mới một cách linh hoạt
 > -   [**nút cuộn**](https://greasyfork.org/scripts/497251): Tạo hai nút ở bên phải trang để cuộn trang
@@ -226,10 +226,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
 >
-> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
-> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**Terminator ngoại ngữ**](https://greasyfork.org/scripts/504890): Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Sau đó dịch và thay thế văn bản gốc thành tiếng Trung
+> -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
 > -   [**Tiện ích dịch |**](https://greasyfork.org/scripts/530406): Bản dịch của bất kỳ ngôn ngữ nào của Ngôn ngữ bạn muốn |
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
