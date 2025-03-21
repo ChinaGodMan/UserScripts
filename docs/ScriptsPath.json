@@ -888,6 +888,22 @@
             "top_tip": "",
             "img": "https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
+        },
+        {
+            "isUpdated": true,
+            "name": "smart-translator-tool",
+            "description": "",
+            "relatedscripts": "自动翻译",
+            "path": "smart-translator-tool.user.js",
+            "backuppath": "smart-translator-tool",
+            "version": "2025.03.21.1227",
+            "GreasyFork": "",
+            "created_at": "2025-03-21 12:27:54",
+            "code_updated_at": "2025-03-21 12:27:54",
+            "local_created_at": "2025-03-21 12:27:54",
+            "top_tip": "",
+            "img": "https://img.xwyue.com/i/2024/06/25/667a850940f98.webp",
+            "icon": "https://s21.ax1x.com/2024/05/17/pkuVzUH.png"
         }
     ]
 }
