@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Gửi tiêu đề và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
+    <summary>Kịch bản sẽ GitHub Thông tin gửi về nó được chuyển đổi thành HTML xem，Xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động liệt kê thông tin gửi、Tiêu đề gửi và thông tin gửi mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh tốt hơn và trải nghiệm người dùng。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -1547,6 +1547,35 @@
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a>
+</blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">Tiện ích dịch | Dịch bất kỳ ngôn ngữ</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+</h3>
+
+<details>
+    <summary>Bất kỳ bản dịch ngôn ngữ và bản dịch một lần nhấp nhanh. | Trang dịch trang | Chọn văn bản（ TheoCtrl ）| Cung cấp phím tắt，Chỉ cần nhấn phím để nhanh chóng dịch ngôn ngữ mong muốn của bạn |Học tiếng Anh | Văn bản dịch có thể được đặt，Hỗ trợ hầu hết các ngôn ngữ phổ biến trên khắp thế giới | Bất kỳ câu hỏi nào cũng có thể được báo cáo</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+           <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/530406">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/530406">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/#readme">
         README FILE</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>

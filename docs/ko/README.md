@@ -488,7 +488,7 @@
 </h3>
 
 <details>
-    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、헤더 제출 및 최신 제출 정보가 변환됩니다 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
+    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、제출 헤더 및 최신 제출 정보가 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -1552,6 +1552,35 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
 </blockquote>
+        <h3>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">번역 기기 | 모든 언어를 번역하십시오</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+</h3>
+
+<details>
+    <summary>모든 언어 번역 및 빠른 원 클릭 번역. | 페이지 번역 | 텍스트를 선택하십시오（ ~에 따르면Ctrl ）| 바로 가기를 제공하십시오，원하는 언어를 빠르게 번역하려면 키를 누르십시오. |영어를 배우십시오 | 번역 텍스트를 설정할 수 있습니다，전 세계에서 가장 일반적인 언어를 지원합니다 | 모든 질문을보고 할 수 있습니다</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
+           <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/530406">
+        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"></a>
+    <a href="https://greasyfork.org/scripts/530406">
+        Greasemonkey</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/#readme">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a>
+</blockquote>
         <h1>소셜 미디어 스크립트</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
@@ -1672,7 +1701,7 @@
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   창고에 모두`README.md`파일 배지를 복사했습니다[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)파일 배지 스타일
+> -   창고에 모두`README.md`파일 배지를 복사했습니다[Hmjz100](https://github.com/hmjz100)的仓库[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章风格
 
 > [!TIP]
 >
