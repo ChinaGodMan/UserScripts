@@ -276,10 +276,11 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍자동 번역을 찾고있을 수 있습니다
+> ### 🔍你可能在找自动翻译
 >
-> -   [**외국어 터미네이터**](https://greasyfork.org/scripts/504890): 비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우5번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，그런 다음 원본 텍스트를 중국어로 번역하고 교체하십시오
-> -   [**웹 번역——중국어로의 자동 번역**](https://greasyfork.org/scripts/505208): 각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오
+> -   [**外语终结者**](https://greasyfork.org/scripts/504890): 识别非中文字符，如果长度大于5且翻译文本中不含中文，则翻译并且替换原始文本到中文
+> -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+> -   [**번역 위젯 |. 모든 언어 번역**](https://greasyfork.org/scripts/530406): 모든 언어의 번역은 원하는 텍스트를 선택하십시오
 
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->

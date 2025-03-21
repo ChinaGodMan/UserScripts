@@ -1,32 +1,108 @@
 // ==UserScript==
-// @name         Smart Translator Tool
-// @name:zh-CN   翻译小工具 | 翻译任何语言
-// @description      Translate any language and quickly translate the desired language with one key | Page translation | Select text (Press Ctrl) | Provides shortcuts, allowing quick translation of the desired language with just one key | English learning | Translation settings available, supporting most common languages worldwide | Feel free to provide feedback for any issues
+// @name              Smart Translator Tool
+// @name:ar           أداة الترجمة |
+// @name:bg           Превод на джаджа |
+// @name:cs           Překlad Widget |
+// @name:da           Oversættelseswidget |
+// @name:de           Übersetzungs -Widget |
+// @name:el           Μεταφραστικό widget | Μεταφράστε οποιαδήποτε γλώσσα
+// @name:en           Translation widget | Translate any language
+// @name:eo           Traduko -fenestraĵo |
+// @name:es           Widget de traducción |
+// @name:fi           Käännöswidget | Käännä kaikki kielet
+// @name:fr           Widget de traduction | Traduire n’importe quelle langue
+// @name:fr-CA        Widget de traduction | Traduire n’importe quelle langue
+// @name:he           יישומון תרגום |
+// @name:hr           Prijevod Widget |
+// @name:hu           A Widget fordítása |
+// @name:id           Widget Terjemahan | Menerjemahkan bahasa apa pun
+// @name:it           Widget di traduzione |
+// @name:ja           翻訳ウィジェット|
+// @name:ka           თარგმანის ვიჯეტი | თარგმნეთ ნებისმიერი ენა
+// @name:ko           번역 위젯 |. 모든 언어 번역
+// @name:nb           Oversettelseswidget |
+// @name:nl           Vertaalwidget |
+// @name:pl           Widżet tłumaczenia |
+// @name:pt-BR        Widget de tradução |
+// @name:ro           Widget de traducere |
+// @name:ru           Перевод виджет |
+// @name:sk           Preklad miniaplikácie
+// @name:sr           Превод Видгет | Преведи било који језик
+// @name:sv           Översätt widget | Översätt något språk
+// @name:th           วิดเจ็ตแปล
+// @name:tr           Çeviri widget’ı |
+// @name:ug           تەرجىمە كىچىك قورالى | ھەر قانداق تىلنى تەرجىمە قىلىڭ
+// @name:uk           Віджет перекладу | Перекладіть будь -яку мову
+// @name:vi           Tiện ích dịch |
+// @name:zh           翻译小工具 | 翻译任何语言
+// @name:zh-CN        翻译小工具 | 翻译任何语言
+// @name:zh-HK        翻譯小工具 | 翻譯任何語言
+// @name:zh-SG        翻译小工具 | 翻译任何语言
+// @name:zh-TW        翻譯小工具 | 翻譯任何語言
+// @description       Translate any language and quickly translate the desired language with one key | Page translation | Select text (Press Ctrl) | Provides shortcuts, allowing quick translation of the desired language with just one key | English learning | Translation settings available, supporting most common languages worldwide | Feel free to provide feedback for any issues
+// @description:ar    ترجمة أي لغة واختصار للترجمة |
+// @description:bg    Превод на всеки език и пряк път с едно щракване превод на езика, който искате | Превод на страница | Изберете текст (натиснете Ctrl) | Осигурете преки пътища, просто натиснете един клавиш, за да преведете бързо желания език | Английско обучение | Преводът може да бъде зададен и поддържа най -често срещаните езици по света | Обратна връзка, ако имате въпроси
+// @description:cs    Překlad jazyka a překladu jazyka, který chcete, překlad |
+// @description:da    Oversættelse af ethvert sprog og genvej med et-klik på det sprog, du ønsker |
+// @description:de    Übersetzung von Sprach- und Verknüpfungsverknüpfungen Ein-Klick-Übersetzung der gewünschten Sprache | Seitenübersetzung | Text auswählen (drücken Sie Strg) | Stellen Sie Verknüpfungen an, drücken Sie einfach eine Taste, um schnell die gewünschte Sprache zu übersetzen | Englisches Lernen | Die Übersetzung kann festgelegt werden und unterstützt die häufigsten Sprachen auf der ganzen Welt | Feedback, wenn Sie Fragen haben
+// @description:el    Μετάφραση οποιασδήποτε γλώσσας και συντόμευσης με ένα κλικ της γλώσσας που θέλετε |
+// @description:en    Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
+// @description:eo    Traduko de iu ajn lingvo kaj ŝparvojo unu-klaka traduko de la lingvo, kiun vi volas
+// @description:es    Traducción de cualquier idioma y atajo Traducción del idioma que desee |
+// @description:fi    Minkä tahansa kielen käännös ja pikakuvake yhden napsautuksen käännös haluamastasi kielestä | Sivun käännös | Valitse teksti (paina Ctrl) | Tarjoa pikakuvakkeita, painamalla vain yhtä näppäintä kääntääksesi haluamasi kielen nopeasti | Englannin oppiminen | Käännös voidaan asettaa ja tukee yleisimpiä kieliä ympäri maailmaa | Palautetta, jos sinulla on kysyttävää
+// @description:fr    Traduction de toute langue et de la traduction en un seul clic de la langue que vous voulez |
+// @description:fr-CA Traduction de toute langue et de la traduction en un seul clic de la langue que vous voulez |
+// @description:he    תרגום של כל שפה וקיצור של לחיצה אחת על השפה שאתה רוצה |
+// @description:hr    Prijevod i prečac prijevoda jezika koji želite prijevod |
+// @description:hu    Bármely nyelv és a parancsikon a kívánt nyelv fordítása |
+// @description:id    Terjemahan dari bahasa apa pun yang Anda inginkan |
+// @description:it    Traduzione di qualsiasi linguaggio e premi per la traduzione della lingua |
+// @description:ja    任意のショートカットのページ翻訳|
+// @description:ka    ნებისმიერი ენის თარგმანი და მალსახმობი ერთ-
+// @description:ko    모든 언어의 번역은 원하는 텍스트를 선택하십시오
+// @description:nb    Oversettelse av noe språk og snarvei enklikk på oversettelsen av språket du vil ha | Sideoversettelse |.
+// @description:nl    Vertaling van elke taal- en snelkoppelingsklikvertaling van de taal die u wilt | Pagina-vertaling | Selecteer tekst (druk op CTRL) |
+// @description:pl    Tłumaczenie dowolnego języka i skrót tłumaczenie jednego kliknięcia języka, który chcesz | Tłumaczenie strony | Wybierz tekst (naciśnij Ctrl) | Podaj skróty, wystarczy nacisnąć jeden klawisz, aby szybko przetłumaczyć żądany język | Uczenie się angielskiego | Tłumaczenie może być ustawione i obsługuje najczęstsze języki na całym świecie | Informacje zwrotne, jeśli masz jakieś pytania
+// @description:pt-BR Tradução de qualquer idioma e atalho com um clique de tradução do idioma que você deseja | Tradução da página | Selecione Texto (pressione Ctrl) | Forneça atalhos, basta pressionar uma tecla para traduzir rapidamente o idioma que deseja | Aprendizagem de inglês | A tradução pode ser definida e suporta idiomas mais comuns em todo o mundo | Feedback se você tiver alguma dúvida
+// @description:ro    Traducere a oricărei limbi și scurte de traducere cu un singur clic pe un singur clip
+// @description:ru    Перевод любого языка и ярлык.
+// @description:sk    Preklad akéhokoľvek jazyka a skratkou prekladu, ktorý chcete, preklad s jedným kliknutím |
+// @description:sr    Превод било којег језика и пречице Превод једног клика Један превод језика | Изаберите текст (Притисните ЦТРЛ) | Обезбедите пречице, само притисните један тастер да бисте брзо превели језик у којем се можете подесити и подржати најчешћи језици широм света | ако имате било каква питања.
+// @description:sv    Översättning av alla språk och genvägar en klick översättning av det språk du vill ha |
+// @description:th    การแปลภาษาใด ๆ และการแปลภาษาหนึ่งคลิกของภาษาที่คุณต้องการ
+// @description:tr    Herhangi bir dil ve kısayol, metin seçin |
+// @description:ug    سىز تاللىغان تىل ۋە «قىسقا ئۇچۇرنى تاللاش تەرجىمىسى | قىسقا ئۇچۇر بىلەن تەمىنلەڭ | پەقەت بىر ئاچقۇچنى باسسىڭىز بىر ئاچقۇچنى باسسىڭىز بولىدۇ | ئىنگلىزچە ئۆگىنىشنى | سوئاللىرىڭىز بولسا تەكلىپ-پىكىرلەرنى تىزىڭ ۋە قوللايدۇ
+// @description:uk    Переклад будь-якої мови та ярлика клацання перекладу мови, яку ви хочете | Переклад сторінки | Виберіть текст (натисніть Ctrl) | Надайте ярлики, просто натисніть одну клавішу, щоб швидко перекласти потрібну мову | Англійське навчання | Переклад може бути встановлений та підтримує найпоширеніші мови у всьому світі | Відгук Якщо у вас є якісь питання
+// @description:vi    Bản dịch của bất kỳ ngôn ngữ nào của Ngôn ngữ bạn muốn |
+// @description:zh    任何语言翻译及快捷一键翻译想要语言 | 页面翻译 | 选中文字（ 按Ctrl ）| 提供快捷方式，只需按一个键即可快速翻译想要语言 |英文学习 | 翻译文可设置，支持全球多数通用语言 | 有什么问题都可以反馈
 // @description:zh-CN 任何语言翻译及快捷一键翻译想要语言 | 页面翻译 | 选中文字（ 按Ctrl ）| 提供快捷方式，只需按一个键即可快速翻译想要语言 |英文学习 | 翻译文可设置，支持全球多数通用语言 | 有什么问题都可以反馈
-// @author       shing0727@foxmail.com,人民的勤务员 <china.qinwuyuan@gmail.com>
-// @namespace    https://github.com/ChinaGodMan/UserScripts
-// @supportURL   https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL  https://github.com/ChinaGodMan/UserScripts
-// @license      MIT
-// @match        *://*/*
-// @icon         https://s21.ax1x.com/2024/05/17/pkuVzUH.png
-// @require      https://code.jquery.com/jquery-3.6.0.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
-// @compatible   chrome
-// @compatible   firefox
-// @compatible   edge
-// @compatible   opera
-// @compatible   safari
-// @compatible   kiwi
-// @compatible   qq
-// @compatible   via
-// @compatible   brave
-// @version      2025.03.21.1227
-// @grant        GM_xmlhttpRequest
-// @created      2025-03-21 12:27:54
-// @modified     2025-03-21 12:27:54
-// @downloadURL  https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/smart-translator-tool/smart-translator-tool.user.js
-// @updateURL    https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/smart-translator-tool/smart-translator-tool.user.js
+// @description:zh-HK 任何語言翻譯及快捷一鍵翻譯想要語言 | 頁面翻譯 | 選中文字（ 按Ctrl ）| 提供快捷方式，只需按一個鍵即可快速翻譯想要語言 |英文學習 | 翻譯文可設置，支持全球多數通用語言 | 有什麼問題都可以反饋
+// @description:zh-SG 任何语言翻译及快捷一键翻译想要语言 | 页面翻译 | 选中文字（ 按Ctrl ）| 提供快捷方式，只需按一个键即可快速翻译想要语言 |英文学习 | 翻译文可设置，支持全球多数通用语言 | 有什么问题都可以反馈
+// @description:zh-TW 任何語言翻譯及快捷一鍵翻譯想要語言 | 頁面翻譯 | 選中文字（ 按Ctrl ）| 提供快捷方式，只需按一個鍵即可快速翻譯想要語言 |英文學習 | 翻譯文可設置，支持全球多數通用語言 | 有什麼問題都可以反饋
+// @author            shing0727@foxmail.com,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace         https://github.com/ChinaGodMan/UserScripts
+// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL       https://github.com/ChinaGodMan/UserScripts
+// @license           MIT
+// @match             *://*/*
+// @icon              https://s21.ax1x.com/2024/05/17/pkuVzUH.png
+// @require           https://code.jquery.com/jquery-3.6.0.min.js
+// @require           https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+// @compatible        chrome
+// @compatible        firefox
+// @compatible        edge
+// @compatible        opera
+// @compatible        safari
+// @compatible        kiwi
+// @compatible        qq
+// @compatible        via
+// @compatible        brave
+// @version           2025.03.21.1227
+// @grant             GM_xmlhttpRequest
+// @created           2025-03-21 12:27:54
+// @modified          2025-03-21 12:27:54
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/smart-translator-tool/smart-translator-tool.user.js
+// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/smart-translator-tool/smart-translator-tool.user.js
 // ==/UserScript==
 
 // 百度logo
