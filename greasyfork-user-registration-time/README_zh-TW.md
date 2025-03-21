@@ -273,7 +273,7 @@
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍你可能在找自動翻譯
 >
 > -   [**外語終結者**](https://greasyfork.org/scripts/504890): 識別非中文字符，如果長度大於5且翻譯文本中不含中文，則翻譯並且替換原始文本到中文
 > -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯

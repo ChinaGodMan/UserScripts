@@ -27,11 +27,11 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh%20%C4%91%C6%B0%E1%BB%A3c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20k%E1%BB%8Bch%20b%E1%BA%A3n&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=所有好评&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%E1%BB%91t&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20ti%C3%AAu%20c%E1%BB%B1c&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Ch%E1%BA%A5t%20l%C6%B0%E1%BB%A3ng%20m%C3%A3&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=星标&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=STAR%20Mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Nếu kịch bản giúp bạn,Có thể thắp sáng các vì sao để khuyến khích</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
@@ -72,7 +72,7 @@
 
 **Đơn giản：**Chỉ cần chọn văn bản，Nhấp Ctrl Chìa khóa để dịch (Tiếng Anh mặc định)，Nó đơn giản～ ✅
 
-**Nhanh：**选ở giữa文本，Nhấn nút Số tương ứng để dịch ngôn ngữ tương ứng(1: 中，2: Anh，3: ngày，4: Hàn Quốc，5: Pháp luật...Tương ứng với hộp tùy chọn。)
+**Nhanh：**lựa chọnở giữachữ，Nhấn nút Số tương ứng để dịch ngôn ngữ tương ứng(1: ở giữa，2: Anh，3: ngày，4: Hàn Quốc，5: Pháp luật...Tương ứng với hộp tùy chọn。)
 
 ### 💡 Các chức năng nhỏ[](#Các chức năng nhỏ)
 
@@ -88,8 +88,8 @@
 # 📮 e-mail：[shing0727@foxmail.com](shing0727@foxmail.com)[](#Email：shing0727@foxmail.com)
 
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
-[🧑‍💻 **@hdshing**](https://greasyfork.org/users/1288991) ⇒ 📜 _[Tiện ích dịch | 一键翻译任何语言 | Được chọn dịch | Bạn có thể mở rộng so sánh bản dịch ban đầu | Đơn giản và hiệu quả](https://greasyfork.org/scripts/495393)_
+## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
+[🧑‍💻 **@hdshing**](https://greasyfork.org/users/1288991) ⇒ 📜 _[Tiện ích dịch | Bản dịch một cú nhấp chuột của bất kỳ ngôn ngữ nào | Được chọn dịch | Bạn có thể mở rộng so sánh bản dịch ban đầu | Đơn giản và hiệu quả](https://greasyfork.org/scripts/495393)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
@@ -144,7 +144,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
 > -   [**Trình quản lý ủy quyền phiên bản clip viết trang web**](https://greasyfork.org/scripts/497403): Quản lý hành vi ghi của các trang web vào bảng nhớ tạm để ngăn chặn việc sao chép tự động trái phép, đồng thời tắt tính năng tải trước nội dung âm thanh và video cũng như tự động phát lại.
-> -   [**解除CSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
+> -   [**Loại bỏCSDNĐăng nhập để sao chép**](https://greasyfork.org/scripts/505207): Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
 > -   [**Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp**](https://greasyfork.org/scripts/507036): Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó
 > -   [**Đánh dấu các từ khóa trên web**](https://greasyfork.org/scripts/498906): Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn
 > -   [**Làm nổi bật các từ khóa web**](https://greasyfork.org/scripts/498905): Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn
@@ -204,7 +204,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找成人脚本
+> ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
 >
 > -   [**MissAV Đăng nhập tự động**](https://greasyfork.org/scripts/505325): Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**Xamster Video một cú nhấp chuột Trợ lý tải xuống**](https://greasyfork.org/scripts/529043): Tải xuống video Xhamster với một cú nhấp chuột |
@@ -221,7 +221,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找自动翻译
+> ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
 >
 > -   [**Terminator ngoại ngữ**](https://greasyfork.org/scripts/504890): Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Sau đó dịch và thay thế văn bản gốc thành tiếng Trung
 > -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
