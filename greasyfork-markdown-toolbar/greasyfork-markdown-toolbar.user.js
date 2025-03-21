@@ -90,13 +90,25 @@
 // @include           https://greasyfork.org/*/reports/new*
 // @grant             GM_addStyle
 // @run-at            document-start
-// @version           2.0.5
+// @version           2025.03.21.1309
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAoCAQAAADgMuRfAAABWklEQVR4Ae3YJQIUYRxA8R8OESs4BXcOsHXqngDnFtglKFjEqVOwjtNxd3f547Duux/2Xhx7Y98ITLbHdZHA6/aYDLM9EAl9YB77RWIP8Vgk9hkhvaKp/yP+R5SyXdRxl1KipqV0ETHGGVHDM8YMLoKZHogKH5jJICPIRIUZg45giyhxCykihsnFd3PD0kQwzkUhXDGOVBEs9+azy0kZwZrPShFRf7MrBxfx0hK1WOLl4CLCReNqX6Z1NrFeM9a3HxFyleSibsQbBY0oeNNJRNiolI1NDvZd09Rjmruis4j3Mj/IvG8SEc4boxZjnBedRZQ+sqZ50NJld0gt9otuIsJJIz97suVrf6NKNopuI8L2z7ZzAxaVUhRdR3Qw3zML/WChZ2kiwkUTwUQXRaqIcNzIzx4RKSPC1s/+ia/8/yP+R/wmP0kOicQeYl76H2cw2X63RAJv2W8ynwCwbA7V/z22eQAAAABJRU5ErkJggg==
 // @iconbak           https://raw.githubusercontent.com/dcurtis/markdown-mark/master/png/66x40-solid.png
 // @supportURL        https://github.com/darkred/Userscripts/issues
-// @downloadURL       https://update.greasyfork.org/scripts/505164/Markdown%20toolbar%20for%20GreasyFork.user.js
-// @updateURL         https://update.greasyfork.org/scripts/505164/Markdown%20toolbar%20for%20GreasyFork.meta.js
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js
+// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js
 // ==/UserScript==
+/**
+ * File: greasyfork-markdown-toolbar.user.js
+ * Project: UserScripts
+ * File Created: 2024/11/24,Sunday 12:38:51
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/21,Friday 13:09:50
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
 
 // Example URLS to test:
 // https://greasyfork.org/en/discussions/new
@@ -125,7 +137,6 @@ window.addEventListener('load', function (e) {
         label[for="user_profile"] + .label-note,
         form > .label-note
     `)
-
 
     if (inForum) {
         refElements.forEach(element => {
@@ -227,7 +238,7 @@ function addFeatures(n) {
             }
         }
     )
-    btnMake(n, __('谷歌翻译'), __('快速翻译选中的内容'),
+    g = btnMake(n, __('谷歌翻译'), __('快速翻译选中的内容'),
         function (e) {
             const translatedzh = edInit(e.target)
             translateText(translatedzh.sel).then(translatedText => {
@@ -238,6 +249,11 @@ function addFeatures(n) {
             })
         }
     )
+    document.addEventListener('keydown', function (event) {
+        if (event.ctrlKey && event.key === 'q') {
+            g.click()
+        }
+    })
     const WeiWeiimages = [
         ['npzhyrb4txdoegwl82bkapekufb5', '维维发问：你有眼界吗？'],
         ['gkhj9p2qhtm62uza3qveshtooe2u', '维维被你震撼到了！'],
@@ -306,6 +322,7 @@ function btnMake(afterNode, label, title, tag1_or_cb, tag2, noWrap) {
     inForum ? nparent = afterNode : nparent = afterNode.parentNode
     a.textAreaNode = nparent.textAreaNode || nparent.parentNode.querySelector('textArea')
     nparent.appendChild(a)
+    return a
 }
 
 function edInit(btn) {
