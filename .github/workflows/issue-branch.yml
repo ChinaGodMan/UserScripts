@@ -1,0 +1,39 @@
+name: create branch when issue opened
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const issueTitle = issue.title.replace(/[^a-zA-Z0-9]/g, '_');
+            const issueNumber = issue.number;
+            const issuett = issue.title;
+            const username = issue.user.login;
+            const branchName = `${username}_${issuett}_${issueNumber}`;
+            console.log(`Branch ${issuett} created successfully!`);
+            // 获取主分支的 SHA
+            const { data: refData } = await github.rest.git.getRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'heads/main', // 基于主分支创建新分支
+            });
+
+            // 创建新分支
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/heads/${branchName}`,
+              sha: refData.object.sha,
+            });
+            console.log(`Branch ${branchName} created successfully!`);
