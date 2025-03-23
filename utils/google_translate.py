@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/23,Sunday 10:37:08
+# Last Modified: 2025/03/23,Sunday 12:02:41
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -85,8 +85,19 @@ def extract_chinese_texts(lines):
 
 # 调用谷歌API进行翻译
 def translate_text(text, target_lang):
+    # 整个字符串为黑名单中文本,直接返回
     if text in blacklist:
         return text
+
+    # 对文本中含有黑名单的部分进行替换,并临时替换
+    forbiddens = []
+    c = 0
+    for forbidden in blacklist:
+        if forbidden in text:
+            c += 1
+            replacement = f'2025323_{c}'
+            forbiddens.append((forbidden, replacement))
+            text = text.replace(forbidden, replacement)
     # 如果在缓存中，判断布尔值
     if text in translation_cache:
         cached_translation, needs_api_translation = translation_cache[text]
@@ -105,11 +116,18 @@ def translate_text(text, target_lang):
         # 调用 API 获取翻译
         response = urlopen(full_url)
         data = response.read().decode('utf-8')
-        translated_text = json.loads(data.replace("'", "\u2019"))[0][0][0]
+        parsed_data = json.loads(data.replace("'", "\u2019"))
+        translations = []
+        for segment in parsed_data[0]:
+            if len(segment) > 0:
+                translations.append(segment[0])
+        translated_text = " ".join(translations)
         # 如果缓存中该词条的布尔值为 True，进行 URL 编码
         if text in translation_cache and translation_cache[text][1]:
             translated_text = urllib.parse.quote(translated_text)
-            # print(f"URL 编码后的翻译：{translated_text}")
+        # 包含黑名单的字符串,需要替换为原来的未翻译结果
+        for forbidden, replacement in forbiddens:
+            translated_text = translated_text.replace(replacement, forbidden)
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
