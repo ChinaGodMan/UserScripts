@@ -41,6 +41,14 @@
 </center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center">
+    <strong>推荐使用：</strong><br>
+<img src="https://img.shields.io/badge/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/%E6%8E%A8%E8%8D%90%E6%B5%8F%E8%A7%88%E5%99%A8-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+💡 <strong>Tip:</strong> 以上已列出的脚本管理器和浏览器不代表全部
+    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center>
 
 <!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
 <!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
@@ -52,7 +60,7 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/527255">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ ChatGPT 代码高亮 更新日志</strong></h1>
 <h3><strong>📅 2025-02-18 04:03:10- Ver 1.0.0.0</strong></h3>
 <p><strong>修复</strong>: •修复无法高亮问题( 如果是数组,直接获取,然后添加一个类名)</p>
 <hr /></details>
