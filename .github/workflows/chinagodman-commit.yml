@@ -35,7 +35,7 @@ jobs:
 
       - name: 根目录脚本__更新py
         run: |
-          python utils/copy_js_files.py
+          python utils/format-changed-scripts.py
 
       - name: 提交和推送更改
         run: |
