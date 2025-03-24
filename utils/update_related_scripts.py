@@ -53,8 +53,8 @@ def main():
     scripts = data.get('scripts', [])
     for script in scripts:
         backuppath = script.get('backuppath', '')
-        start_tag = "<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->"
-        end_tag = "<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->"
+        start_tag = "<!--RELATED-->"
+        end_tag = "<!--RELATED-END-->"
         cnfile_path = os.path.join(backuppath, "README.md")
         descriptions = generate_description(script, scripts, "zh-CN")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)

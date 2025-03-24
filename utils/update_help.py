@@ -22,8 +22,8 @@ def main():
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
     scripts = data.get('scripts', [])
-    start_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->"
-    end_tag = "<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->"
+    start_tag = "<!--HELP-->"
+    end_tag = "<!--HELP-END-->"
     new_content = get_new_content()
     for script in scripts:
         backuppath = script.get('backuppath', '')
