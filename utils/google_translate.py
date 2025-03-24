@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/23,Sunday 12:02:41
+# Last Modified: 2025/03/25,Tuesday 01:01:37
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -39,7 +39,7 @@ json_data = {
 }
 # 黑名单：不需要翻译的中文文本
 blacklist = ["人民的勤务员", "简体中文", "繁體中文", "日本語"]
-# 翻译缓存表
+# 翻译缓存表,用于url编码的中文是需要翻译还是直接使用缓存
 translation_cache = {
     "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值,并且不需要url编码
     "问题": ("issues", False),
@@ -56,6 +56,33 @@ translation_cache = {
     "推荐浏览器": ("issues", True),
     "脚本管理器": ("issues", True),
 }
+
+
+class TranslationCaching:
+    def __init__(self):
+        self.cache = []
+
+    def add_translation(self, lang, key, value):
+        for lang_obj in self.cache:
+            if lang_obj["language"] == lang:
+                lang_obj["entry"][key] = value
+                return
+        self.cache.append({
+            "language": lang,
+            "entry": {key: value}
+        })
+
+    def check_translation(self, lang, key):
+        for lang_obj in self.cache:
+            if lang_obj["language"] == lang:
+                return key in lang_obj["entry"]
+        return False
+
+    def get_translation(self, lang, key):
+        for lang_obj in self.cache:
+            if lang_obj["language"] == lang:
+                return lang_obj["entry"].get(key, key)
+        return key
 
 
 # 将编码后的中文字符替换成可阅读的中文字符
@@ -75,7 +102,7 @@ def extract_chinese_texts(lines):
     chinese_texts = []
 
     for line_number, line in enumerate(lines):
-        if "<!--AUTO" in line:
+        if "<!--" in line:
             continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
@@ -83,12 +110,17 @@ def extract_chinese_texts(lines):
     return chinese_texts
 
 
+cache_manager = TranslationCaching()
+
+
 # 调用谷歌API进行翻译
 def translate_text(text, target_lang):
     # 整个字符串为黑名单中文本,直接返回
     if text in blacklist:
         return text
-
+    if cache_manager.check_translation(target_lang, text):
+        cache_text = cache_manager.get_translation(target_lang, text)
+        return cache_text
     # 对文本中含有黑名单的部分进行替换,并临时替换
     forbiddens = []
     c = 0
@@ -128,6 +160,8 @@ def translate_text(text, target_lang):
         # 包含黑名单的字符串,需要替换为原来的未翻译结果
         for forbidden, replacement in forbiddens:
             translated_text = translated_text.replace(replacement, forbidden)
+        if not cache_manager.check_translation(target_lang, text):
+            cache_manager.add_translation(target_lang, text, translated_text)
         return translated_text
     except Exception as e:
         print(f"翻译错误：{e}")
