@@ -1,4 +1,4 @@
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-->
 
 <div align="right">
     <h6>
@@ -18,8 +18,8 @@
     </h6>
 </div>
 
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-END-->
+<!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản của người phục vụ<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản của người phục vụ</a><br><a href="#:~:text=Xem tất cả các tập lệnh xuất bản">Xem tập lệnh của người phục vụ trên trang hiện tại</a></h5>
@@ -50,8 +50,8 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--SHIELDS-END-->
+<!--HISTORY-->
 
 <center><div align="center">
     <h1>Xamster Video một cú nhấp chuột Trợ lý tải xuống</h1>
@@ -74,7 +74,7 @@
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529043.png">
 </div></center>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--HISTORY-END-->
 <!--Khu vực văn bản-->
 
 # xhamster Trợ lý tải xuống video một lần
@@ -114,7 +114,7 @@
 ![pc.png](https://s2.loli.net/2025/03/07/xt2KFmcavHnCuVZ.png)
 
 <!--Khu vực văn bản-END-->
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
@@ -130,8 +130,8 @@
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**Trợ lý nâng cao Missav**](https://greasyfork.org/scripts/529125): Xóa quảng cáo |.
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-END-->
+<!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Giúp đỡ
@@ -150,8 +150,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 ### Xem tất cả các tập lệnh xuất bản
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--HELP-END-->
+<!--RELATED-ChatGPT相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếmChatGPTTập lệnh liên quan
@@ -162,8 +162,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**ChatGPT Giới hạn bộ đếm ký tự (CCCL)**](https://greasyfork.org/scripts/506166): Thêm bộ đếm ký tự vào hộp nhập liệu，giới hạn ở 32732 nhân vật。（ChatGPT Giới hạn là 32732 nhân vật。）
 > -   [**ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa**](https://greasyfork.org/scripts/504901): nếp gấpChatGPTtrung bình và dài“Bạn”thông tin，và đặt chiều rộng tối đa
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-ChatGPT相关脚本-END-->
+<!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
@@ -179,8 +179,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Ghim vào nút trên và dưới**](https://greasyfork.org/scripts/500255): Tạo hai nút trên tất cả các trang，Một để làm mịn trở lại đầu trang，Một để cuộn liên tục xuống phía dưới，Bấm lần nữa để hủy cuộn xuống dưới cùng
 > -   [**Markdown Cloud Cut Ghi chú**](https://greasyfork.org/scripts/530139): Một công cụ chuyển đổi nội dung web thành định dạng đánh dấu, hỗ trợ các tính năng như sao chép, tải xuống và gửi đến GitHub và Obsidian.
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-网页相关脚本-END-->
+<!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
@@ -198,8 +198,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Github Gist Code Snippet Sao chép và tải xuống**](https://greasyfork.org/scripts/529534): Thêm một nút sao chép vào tệp GIST để dễ dàng sao chép mã. |
 > -   [**Trợ lý bản dịch phím tắt GitHub**](https://greasyfork.org/scripts/530312): Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GitHub相关脚本-END-->
+<!--RELATED-Google相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếmGoogleTập lệnh liên quan
@@ -207,8 +207,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Google Trợ lý tìm kiếm nâng cao**](https://greasyfork.org/scripts/502652): Thêm biểu mẫu tìm kiếm nâng cao vào đầu trang tìm kiếm Google của bạn
 > -   [**Chặn các trang web tìm kiếm google**](https://greasyfork.org/scripts/500262): hiện hữugoogleKhối tìm kiếm trang web được chỉ định
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-Google相关脚本-END-->
+<!--RELATED-GreasyFork相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
@@ -225,8 +225,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Script Finder Tra cứu tập lệnh GreasyFork**](https://greasyfork.org/scripts/498904): Script Finder Tìm trên bất kỳ trang web nào áp dụng cho trang web đó Kịch bản khỉ mỡ。
 > -   [**Hiển thị thời gian đăng ký của người dùng Greasyfork và xác định nhận xét độc hại**](https://greasyfork.org/scripts/529359): Nếu kịch bản của bạn can thiệp vào lợi ích của một số người, không có gì đáng ngạc nhiên khi nhận được các đánh giá tiêu cực độc hại. Có hai đặc điểm của các đánh giá tiêu cực độc hại: Một là tài khoản thường được đăng ký mới và một đặc điểm khác là các đánh giá tiêu cực sẽ được đưa ra ngay sau khi đăng ký và về cơ bản sẽ không có hoạt động tiếp theo. Kịch bản này có thời gian đăng ký của người dùng Greasyfork và được hiển thị bên cạnh tên người dùng. Nếu thời gian hiển thị bên cạnh tên người dùng là thời gian trong tương lai, thì người dùng có thể sẽ là một tài khoản độc hại được đăng ký.
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GreasyFork相关脚本-END-->
+<!--RELATED-成人脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
@@ -242,8 +242,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**JableTV Đăng nhập tự động**](https://greasyfork.org/scripts/506730): Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 > -   [**Trợ lý nâng cao Missav**](https://greasyfork.org/scripts/529125): Xóa quảng cáo |.
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-成人脚本-END-->
+<!--RELATED-自动翻译-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
@@ -252,8 +252,8 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Dịch web——Bản dịch tự động sang tiếng Trung**](https://greasyfork.org/scripts/505208): Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
 > -   [**Tiện ích dịch |**](https://greasyfork.org/scripts/530406): Bản dịch của bất kỳ ngôn ngữ nào của Ngôn ngữ bạn muốn |
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-自动翻译-END-->
+<!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
@@ -262,7 +262,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
 > -   [**Trợ lý YouTube**](https://greasyfork.org/scripts/529845): YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

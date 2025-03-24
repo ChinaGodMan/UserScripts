@@ -23,8 +23,8 @@ def main():
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     new_content = get_new_content()
-    start_tag = "<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->"
-    end_tag = "<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->"
+    start_tag = "<!--SHIELDS-->"
+    end_tag = "<!--SHIELDS-END-->"
     for script in scripts:
         backuppath = script.get('backuppath', '')
         cnfile_path = os.path.join(backuppath, "README.md")

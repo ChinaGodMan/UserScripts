@@ -1,4 +1,4 @@
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-->
 
 <div align="right">
     <h6>
@@ -18,8 +18,8 @@
     </h6>
 </div>
 
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-END-->
+<!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the serviceman’s script<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the serviceman’s script</a><br><a href="#:~:text=View all publish scripts">View the serviceman’s script on the current page</a></h5>
@@ -50,8 +50,8 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--SHIELDS-END-->
+<!--HISTORY-->
 
 <center><div align="center">
     <h1>MissAV Enhanced Assistant</h1>
@@ -70,7 +70,7 @@
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529125.png">
 </div></center>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--HISTORY-END-->
 <!--Text area-->
 
 # 🔞 MissAV Enhanced Assistant
@@ -110,7 +110,7 @@ _The following can be set in the script_
 ![missav.png](https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png)
 
 <!--PREVIEW-END-->
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You might be looking for adult scripts
@@ -126,8 +126,8 @@ _The following can be set in the script_
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 > -   [**MissAV Enhanced Assistant**](https://greasyfork.org/scripts/529125): Remove ads | Backstage play | Autoplay | Custom fast forward time | Full title | More features...
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-END-->
+<!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## Help
@@ -146,8 +146,8 @@ Recommended browser and script manager：
 
 ### View all publish scripts
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--HELP-END-->
+<!--RELATED-ChatGPT相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking forChatGPTRelated scripts
@@ -158,8 +158,8 @@ Recommended browser and script manager：
 > -   [**ChatGPT Character counter limit (CCCL)**](https://greasyfork.org/scripts/506166): Add a character counter to the input box，limited to 32732 characters。（ChatGPT The limit is 32732 characters。）
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-ChatGPT相关脚本-END-->
+<!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking for web-related scripts
@@ -175,8 +175,8 @@ Recommended browser and script manager：
 > -   [**Pin to top and bottom buttons**](https://greasyfork.org/scripts/500255): Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom
 > -   [**MarkDown Cloud Cut Notes**](https://greasyfork.org/scripts/530139): A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian.
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-网页相关脚本-END-->
+<!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking forGitHubRelated scripts
@@ -194,8 +194,8 @@ Recommended browser and script manager：
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GitHub相关脚本-END-->
+<!--RELATED-Google相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking forGoogleRelated scripts
@@ -203,8 +203,8 @@ Recommended browser and script manager：
 > -   [**Google Advanced search assistant**](https://greasyfork.org/scripts/502652): Add an advanced search form to the top of your Google search page
 > -   [**Block Google search sites**](https://greasyfork.org/scripts/500262): existgoogleSearch block the specified site
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-Google相关脚本-END-->
+<!--RELATED-GreasyFork相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
@@ -221,8 +221,8 @@ Recommended browser and script manager：
 > -   [**Script Finder GreasyFork Script Lookup**](https://greasyfork.org/scripts/498904): Script Finder Find on any website that applies to that website GreasyFork Script。
 > -   [**Display the registration time of Greasyfork user and identify malicious comments**](https://greasyfork.org/scripts/529359): If your script interferes with the interests of some people, it is not surprising to receive malicious negative reviews. There are two characteristics of malicious negative reviews: one is that the account is usually newly registered, and the other is that the negative reviews will be given shortly after registration, and there will be basically no follow-up activities. This script gets the registration time of the greasyfork user and is displayed next to the user name. If the time displayed next to the user name is the future time, then the user is likely to be a malicious account registered.
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GreasyFork相关脚本-END-->
+<!--RELATED-成人脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You might be looking for adult scripts
@@ -238,8 +238,8 @@ Recommended browser and script manager：
 > -   [**JableTV Automatic login**](https://greasyfork.org/scripts/506730): Detection JableTV state,and automatically log in when not logged in
 > -   [**MissAV Enhanced Assistant**](https://greasyfork.org/scripts/529125): Remove ads | Backstage play | Autoplay | Custom fast forward time | Full title | More features...
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-成人脚本-END-->
+<!--RELATED-自动翻译-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You may be looking for automatic translation
@@ -248,8 +248,8 @@ Recommended browser and script manager：
 > -   [**Web Translation——Automatic translation into Chinese**](https://greasyfork.org/scripts/505208): Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
 > -   [**Translation widget | Translate any language**](https://greasyfork.org/scripts/530406): Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages ​​around the world | Feedback if you have any questions
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-自动翻译-END-->
+<!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍You might be looking for social media scripts
@@ -258,7 +258,7 @@ Recommended browser and script manager：
 > -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
 > -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
