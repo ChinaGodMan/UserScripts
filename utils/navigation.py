@@ -3,7 +3,6 @@ from writer import process_file
 from content_snippet import get_file_description
 import json
 import os
-import sys
 import re
 
 # 读取JSON文件
@@ -67,8 +66,8 @@ def main():
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     # 定义开始和结束标签
-    start_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->"
-    end_tag = "<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->"
+    start_tag = "<!--NAVIGATION-->"
+    end_tag = "<!--NAVIGATION-END-->"
     for script in scripts:
         backuppath = script.get('backuppath', '')
         cnfile_path = os.path.join(backuppath, "README.md")

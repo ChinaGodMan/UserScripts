@@ -1,4 +1,4 @@
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-->
 
 <div align="right">
     <h6>
@@ -15,8 +15,8 @@
     </h6>
 </div>
 
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-END-->
+<!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤务员的脚本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤务员的脚本</a><br><a href="#:~:text=查看所有发布脚本">当前页面查看勤务员的脚本</a></h5>
@@ -47,8 +47,8 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--SHIELDS-END-->
+<!--HISTORY-->
 
 <center><div align="center">
     <h1>GitHub 提交信息显示网页视图</h1>
@@ -61,7 +61,7 @@
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505830.png">
 </div></center>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--HISTORY-END-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -137,7 +137,7 @@ if ($LASTEXITCODE -ne 0) {
 Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFilePath -Force
 </pre>
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GitHub相关脚本
@@ -155,7 +155,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**GitHub Gist 代码片段复制与下载器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-END-->
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -175,7 +175,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <b>使用前:</b>
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助
@@ -194,9 +194,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 ### 查看所有发布脚本
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
+<!--HELP-END-->
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-ChatGPT相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找ChatGPT相关脚本
@@ -207,9 +207,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**ChatGPT 字符计数器限制**](https://greasyfork.org/scripts/506166): 添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。.）
 > -   [**ChatGPT 折叠自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPT中较长的“你”消息，并设置最大宽度
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-ChatGPT相关脚本-END-->
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找网页相关脚本
@@ -225,9 +225,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**置顶和置底按钮**](https://greasyfork.org/scripts/500255): 在所有页面生成两个按钮，一个用于顺滑回到顶部，一个用于持续滚动到底部，再次点击取消滚动到底部
 > -   [**MarkDown 云剪笔记**](https://greasyfork.org/scripts/530139): 将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-网页相关脚本-END-->
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GitHub相关脚本
@@ -245,9 +245,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**GitHub Gist 代码片段复制与下载器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-GitHub相关脚本-END-->
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-Google相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找Google相关脚本
@@ -255,9 +255,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**Google 高级搜索助手**](https://greasyfork.org/scripts/502652): 在谷歌搜索页面顶部添加一个高级搜索表单
 > -   [**屏蔽谷歌搜索站点**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站点
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-Google相关脚本-END-->
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GreasyFork相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GreasyFork相关脚本
@@ -274,9 +274,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**Script Finder 油猴脚本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何网站上找到适用于该网站的 油猴脚本。
 > -   [**显示Greasyfork用户注册时间，识别恶意评论**](https://greasyfork.org/scripts/529359): 如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本获取greasyfork用户注册时间，并显示在用户名旁边。如果用户名旁边显示的时间是未来的时间，那么这个用户很可能是恶意注册的账号。
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-GreasyFork相关脚本-END-->
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-成人脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找成人脚本
@@ -292,9 +292,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**JableTV 自动登录**](https://greasyfork.org/scripts/506730): 检测 JableTV 状态,并且在未登录时自动登录
 > -   [**MissAV 增强小助手**](https://greasyfork.org/scripts/529125): 去除广告|后台播放|自动播放|自定义快进时间|完整标题|更多功能...
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-成人脚本-END-->
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-自动翻译-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找自动翻译
@@ -303,9 +303,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**网页翻译——自动翻译为中文**](https://greasyfork.org/scripts/505208): 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
 > -   [**翻译小工具 | 翻译任何语言**](https://greasyfork.org/scripts/530406): 任何语言翻译及快捷一键翻译想要语言 | 页面翻译 | 选中文字（ 按Ctrl ）| 提供快捷方式，只需按一个键即可快速翻译想要语言 |英文学习 | 翻译文可设置，支持全球多数通用语言 | 有什么问题都可以反馈
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-自动翻译-END-->
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找社交媒体脚本
@@ -314,7 +314,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**Twitter 媒体下载**](https://greasyfork.org/scripts/529453): 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.视频循环播放 2.截图下载 3.主题进度条
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

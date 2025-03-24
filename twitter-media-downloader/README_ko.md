@@ -1,4 +1,4 @@
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-->
 
 <div align="right">
     <h6>
@@ -18,8 +18,8 @@
     </h6>
 </div>
 
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-END-->
+<!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub군인의 대본을보십시오<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork군인의 대본을보십시오</a><br><a href="#:~:text=모든 게시 스크립트를보십시오">현재 페이지에서 군인의 스크립트를 봅니다</a></h5>
@@ -50,8 +50,8 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--SHIELDS-END-->
+<!--HISTORY-->
 
 <center><div align="center">
     <h1>트위터 미디어 다운로드</h1>
@@ -79,7 +79,7 @@
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--HISTORY-END-->
 
 <!--텍스트 영역-->
 
@@ -183,7 +183,7 @@
 <!--SCREENSHOT-END-->
 <!--텍스트 영역-END-->
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
@@ -192,8 +192,8 @@
 > -   [**트위터 미디어 다운로드**](https://greasyfork.org/scripts/529453): 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 중에 자동으로 포장하십시오.
 > -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. 비디오 루프 재생 2. 스크린 샷 다운로드 3. 테마 진행률 바
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-END-->
+<!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 돕다
@@ -212,8 +212,8 @@
 
 ### 모든 게시 스크립트를보십시오
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--HELP-END-->
+<!--RELATED-ChatGPT相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
@@ -224,8 +224,8 @@
 > -   [**ChatGPT 문자 카운터 제한 (CCCL)**](https://greasyfork.org/scripts/506166): 입력 상자에 문자 카운터 추가，로 제한됨 32732 문자。（ChatGPT 한도는 32732 문자。）
 > -   [**ChatGPT 자체 메시지 및 최대 너비 축소**](https://greasyfork.org/scripts/504901): 겹ChatGPT중간 및 긴“너”정보，그리고 최대 너비를 설정하세요
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-ChatGPT相关脚本-END-->
+<!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
@@ -241,8 +241,8 @@
 > -   [**상단 및 하단 버튼에 고정**](https://greasyfork.org/scripts/500255): 모든 페이지에 두 개의 버튼 생성，하나는 위쪽으로 부드럽게 하기 위한 것입니다.，하나는 아래쪽으로 계속 스크롤하기 위한 것입니다.，취소하려면 다시 클릭하세요. 맨 아래로 스크롤
 > -   [**마크 다운 클라우드 컷 메모**](https://greasyfork.org/scripts/530139): 웹 컨텐츠를 Markdown 형식으로 변환하는 도구는 복사, 다운로드 및 Github 및 Obsidian으로 전송과 같은 기능을 지원합니다.
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-网页相关脚本-END-->
+<!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
@@ -260,8 +260,8 @@
 > -   [**github gist 코드 스 니펫 복사 및 다운로더**](https://greasyfork.org/scripts/529534): 코드를 쉽게 복사하기 위해 GIST 파일에 복사 버튼을 추가하십시오. |. 코드를 쉽게 다운로드하려면 GIST 파일에 다운로드 버튼을 추가하십시오.
 > -   [**Github 바로 가기 키 번역 보조원**](https://greasyfork.org/scripts/530312): 키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GitHub相关脚本-END-->
+<!--RELATED-Google相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
@@ -269,8 +269,8 @@
 > -   [**Google 고급 검색 도우미**](https://greasyfork.org/scripts/502652): Google 검색 페이지 상단에 고급 검색 양식을 추가하세요.
 > -   [**Google 검색 사이트를 차단하십시오**](https://greasyfork.org/scripts/500262): 존재하다google검색 지정된 사이트를 차단합니다
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-Google相关脚本-END-->
+<!--RELATED-GreasyFork相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
@@ -287,8 +287,8 @@
 > -   [**Script Finder 그리스 원숭이 스크립트 조회**](https://greasyfork.org/scripts/498904): Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。
 > -   [**Greasyfork등록 시간을 표시**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다.
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GreasyFork相关脚本-END-->
+<!--RELATED-成人脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
@@ -304,8 +304,8 @@
 > -   [**JableTV 자동 로그인**](https://greasyfork.org/scripts/506730): 발각 JableTV 상태,로그인하지 않으면 자동으로 로그인됩니다.
 > -   [**Missav 강조 보조원**](https://greasyfork.org/scripts/529125): 광고를 제거합니다.
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-成人脚本-END-->
+<!--RELATED-自动翻译-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍자동 번역을 찾고있을 수 있습니다
@@ -314,8 +314,8 @@
 > -   [**웹 번역——중국어로의 자동 번역**](https://greasyfork.org/scripts/505208): 각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오
 > -   [**번역 위젯 |. 모든 언어 번역**](https://greasyfork.org/scripts/530406): 모든 언어의 번역은 원하는 텍스트를 선택하십시오
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-自动翻译-END-->
+<!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
@@ -324,7 +324,7 @@
 > -   [**트위터 미디어 다운로드**](https://greasyfork.org/scripts/529453): 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 중에 자동으로 포장하십시오.
 > -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. 비디오 루프 재생 2. 스크린 샷 다운로드 3. 테마 진행률 바
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

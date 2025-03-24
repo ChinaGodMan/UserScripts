@@ -67,8 +67,8 @@ for script in data['scripts']:
     html_content = generate_html_content("zh-CN", filepath, greasyfork_id, filepath, backuppath, readme_html)
     # 检查 backuppath 是否存在
     if backuppath and os.path.exists(backuppath):
-        start_tag = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->"
-        end_tag = "<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->"
+        start_tag = "<!--HISTORY-->"
+        end_tag = "<!--HISTORY-END-->"
         backup_readme_path = os.path.join(backuppath, 'Change history/README.md')
         his = get_file_description(os.path.join(backuppath, "README.md"), start_tag, end_tag)
         if "\n" + his + "\n" == html_content:
