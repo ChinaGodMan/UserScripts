@@ -55,7 +55,7 @@ def check_related_readme(file_path, related_scripts_map):
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
         # 匹配 <!--AUTO_{key}_PLEASE_DONT_DELETE_IT--> 标签
-        matches = re.findall(r'<!--AUTO_([a-zA-Z0-9\-一-龥]+)_PLEASE_DONT_DELETE_IT-->', content)
+        matches = re.findall(r'<!--RELATED-([a-zA-Z0-9\-一-龥]+)-END-->', content)
         if matches:
             for key in matches:
                 # 分组必须包含中文字符串,老代码了,早知道就换个格式了,妈的.
@@ -72,27 +72,22 @@ def delete_related_readme(directory_path, not_in_map):
     for file in os.listdir(directory_path):
         if file.endswith('.md') and os.path.isfile(os.path.join(directory_path, file)):
             file_path = os.path.join(directory_path, file)
-            print(f"清理文件中的失效分组: {file_path}")
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
             is_modified = False
 
             # 删除对应标签和内容
             for key in not_in_map:
-                start_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-->"
-                end_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-END-->"
-
-                # 获得匹配出来的字符串
+                start_tag = f"<!--RELATED-{key}-->"
+                end_tag = f"<!--RELATED-{key}-END-->"
                 pattern = re.compile(re.escape(start_tag) + r'.*?' + re.escape(end_tag), re.DOTALL)
                 if re.search(pattern, content):
                     content = re.sub(pattern, '', content)
+                    print(f" {file_path} 中的失效分组[\033[31m{key}\033[0m]已被删除。")
                     is_modified = True
             if is_modified:
                 with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(content)
-                print(f" {file_path} 中的失效分组已被删除。")
-            else:
-                print(f" {file_path} 中未找到失效的分组.")
 
 
 def process_script(script, scripts, start_tag, end_tag, key):
@@ -119,7 +114,6 @@ def process_script(script, scripts, start_tag, end_tag, key):
                 else:
                     lang_code = "zh-CN"
                 descriptions = generate_description(key, scripts, lang_code)
-                print(descriptions)
                 process_file_plus(file_path, descriptions, start_tag, end_tag, "<!--FOOTER-->")
 
 
@@ -143,8 +137,8 @@ def main():
         if len(not_in_map) > 0:
             delete_related_readme(script.get('backuppath', ''), not_in_map)
         for key, value in related_scripts_map.items():
-            start_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-->"
-            end_tag = f"<!--AUTO_{key}_PLEASE_DONT_DELETE_IT-END-->"
+            start_tag = f"<!--RELATED-{key}-->"
+            end_tag = f"<!--RELATED-{key}-END-->"
             process_script(script, scripts, start_tag, end_tag, key)
 
 
