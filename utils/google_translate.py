@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/23,Sunday 12:02:41
+# Last Modified: 2025/03/25,Tuesday 00:10:34
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -75,7 +75,7 @@ def extract_chinese_texts(lines):
     chinese_texts = []
 
     for line_number, line in enumerate(lines):
-        if "<!--AUTO" in line:
+        if "<!--" in line:
             continue
         for match in chinese_pattern.finditer(line):
             chinese_text = match.group()
