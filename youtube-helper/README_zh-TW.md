@@ -1,4 +1,4 @@
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-->
 
 <div align="right">
     <h6>
@@ -18,8 +18,8 @@
     </h6>
 </div>
 
-<!--AUTO_NAVIGATION_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-->
+<!--NAVIGATION-END-->
+<!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤務員的腳本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤務員的腳本</a><br><a href="#:~:text=查看所有發布腳本">當前頁面查看勤務員的腳本</a></h5>
@@ -50,8 +50,8 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-<!--AUTO_SHIELDS_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-->
+<!--SHIELDS-END-->
+<!--HISTORY-->
 
 <center><div align="center">
     <h1>YouTube 小助手</h1>
@@ -67,7 +67,7 @@
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529845.png">
 </div></center>
 
-<!--AUTO_HISTORY_PLEASE_DONT_DELETE_IT-END-->
+<!--HISTORY-END-->
 
 <!--正文區域-->
 
@@ -98,7 +98,7 @@
 <!--SCREENSHOT-END-->
 <!--正文區域-END-->
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找社交媒體腳本
@@ -107,8 +107,8 @@
 > -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
-<!--AUTO_ABOUT_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-END-->
+<!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用幫助
@@ -127,8 +127,8 @@
 
 ### 查看所有發布腳本
 
-<!--AUTO_HELP_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--HELP-END-->
+<!--RELATED-ChatGPT相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找ChatGPT相關腳本
@@ -139,8 +139,8 @@
 > -   [**ChatGPT 字元計數器限制 (CCCL)**](https://greasyfork.org/scripts/506166): 新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）
 > -   [**ChatGPT 折疊自己訊息和最大寬度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”訊息，並設定最大寬度
 
-<!--AUTO_ChatGPT相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-ChatGPT相关脚本-END-->
+<!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找網頁相關腳本
@@ -156,8 +156,8 @@
 > -   [**置頂和置底按鈕**](https://greasyfork.org/scripts/500255): 在所有頁面產生兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消捲動到底部
 > -   [**MarkDown 雲剪筆記**](https://greasyfork.org/scripts/530139): 將網頁內容轉換為 Markdown 格式的工具，支持複製、下載、發送到 GitHub 和 Obsidian 等功能。
 
-<!--AUTO_网页相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-网页相关脚本-END-->
+<!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GitHub相關腳本
@@ -175,8 +175,8 @@
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
 > -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
 
-<!--AUTO_GitHub相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GitHub相关脚本-END-->
+<!--RELATED-Google相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找Google相關腳本
@@ -184,8 +184,8 @@
 > -   [**Google 高級搜尋助手**](https://greasyfork.org/scripts/502652): 在谷歌搜尋頁面頂部新增一個高級搜尋表單
 > -   [**屏蔽谷歌搜索站點**](https://greasyfork.org/scripts/500262): 在google搜索屏蔽指定站點
 
-<!--AUTO_Google相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-Google相关脚本-END-->
+<!--RELATED-GreasyFork相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找GreasyFork相關腳本
@@ -202,8 +202,8 @@
 > -   [**Script Finder 油猴腳本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何網站上找到適用於該網站的 油猴腳本。
 > -   [**顯示Greasyfork用戶註冊時間，識別惡意評論**](https://greasyfork.org/scripts/529359): 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。
 
-<!--AUTO_GreasyFork相关脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-GreasyFork相关脚本-END-->
+<!--RELATED-成人脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找成人腳本
@@ -219,8 +219,8 @@
 > -   [**JableTV 自動登入**](https://greasyfork.org/scripts/506730): 偵測 JableTV 狀態,並且在未登入時自動登入
 > -   [**MissAV 增強小助手**](https://greasyfork.org/scripts/529125): 去除廣告|後台播放|自動播放|自定義快進時間|完整標題|更多功能...
 
-<!--AUTO_成人脚本_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-成人脚本-END-->
+<!--RELATED-自动翻译-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找自動翻譯
@@ -229,8 +229,8 @@
 > -   [**網頁翻譯——自動翻譯為中文**](https://greasyfork.org/scripts/505208): 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
 > -   [**翻譯小工具 | 翻譯任何語言**](https://greasyfork.org/scripts/530406): 任何語言翻譯及快捷一鍵翻譯想要語言 | 頁面翻譯 | 選中文字（ 按Ctrl ）| 提供快捷方式，只需按一個鍵即可快速翻譯想要語言 |英文學習 | 翻譯文可設置，支持全球多數通用語言 | 有什麼問題都可以反饋
 
-<!--AUTO_自动翻译_PLEASE_DONT_DELETE_IT-END-->
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-->
+<!--RELATED-自动翻译-END-->
+<!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 > ### 🔍你可能在找社交媒體腳本
@@ -239,7 +239,7 @@
 > -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
-<!--AUTO_社交媒体脚本_PLEASE_DONT_DELETE_IT-END-->
+<!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
