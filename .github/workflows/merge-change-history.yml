@@ -62,12 +62,12 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
           git pull
           git add .
-          git commit -n -S -m "docs(ci): 📝 更新[\`脚本自述\`]" \
-                      -m "合并日志:Change history/README.md → **/*.md" \
-                      -m "刷新徽章:SHIELDS.md → **/*.md" \
-                      -m "刷新帮助:HELP.md → **/*.md" \
-                      -m "相关脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
-                      -m "所有脚本:ScriptsPath.json[script.relatedscripts] → **/*.md" \
-                      -m "语言导航:**/*.md → xx|xx" \
+          git commit -n -S -m "docs(ci): 📝 更新[\`脚本自述==>README_[lang].md\`]" \
+                      -m "合并日志:/Change history/README.md → README_[lang].md" \
+                      -m "刷新徽章:utils/docs/SHIELDS.md → README_[lang].md" \
+                      -m "刷新帮助:utils/docs/HELP.md → README_[lang].md" \
+                      -m "相关脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
+                      -m "所有脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
+                      -m "语言导航: → README_[lang].md" \
           || echo "没有需要提交的更改"
           git push
