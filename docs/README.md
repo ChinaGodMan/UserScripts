@@ -6,8 +6,8 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
