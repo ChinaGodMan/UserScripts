@@ -14,7 +14,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-device-authorization/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 

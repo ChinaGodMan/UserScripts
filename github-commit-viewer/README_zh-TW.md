@@ -14,7 +14,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-commit-viewer/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
     </h6>
 </div>
 
@@ -145,13 +145,13 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 > ### 🔍你可能在找GitHub相關腳本
 >
-> -   [**GitHub 提交信息显示网页視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交信息轉化為 HTML 视图，以更清晰地查看提交詳情。它會自動將提交信息列表、提交頭部和最新提交信息轉化為 HTML 格式，提供更佳的視覺效果和用戶體驗。
-> -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打开jsDelivr上的GitHub鏈接,用於快速下載文件
+> -   [**GitHub 提交信息显示网页視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交信息轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交信息列表、提交頭部和最新提交信息轉化為 HTML 格式，提供更佳的視覺效果和用戶體驗。
+> -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速訪問自己在 GitHub 上的倉庫而設計 。它在導航欄頂部生成一個按鈕,點擊展開自己的所有倉庫，輕鬆跳轉到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級菜單
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一個用戶腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和文件夾添加顏色，並將文件類型圖標替換為小圖像，使得代碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在存儲庫源樹中顯示小圖像以代替文件類型圖標
 > -   [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴展 Github 存儲庫上的語言列表，顯示每種語言，而不是將小部分隱藏在“其他”下
 > -   [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
-> -   [**GitHub 文件夾下载器**](https://greasyfork.org/scripts/505496): 添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夹。
+> -   [**GitHub 文件夾下载器**](https://greasyfork.org/scripts/505496): 添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夾。
 > -   [**Github 複製原始文件 URL 與下載文件**](https://greasyfork.org/scripts/505501): 在每個文件行的末尾添加按鈕，以復制原始文件 URL 和下載文件
 > -   [**🤠 Github 增強小助手 倉庫顯示大小**](https://greasyfork.org/scripts/502291): 🤠 倉庫顯示大小：在 GitHub 的代碼搜索、倉庫搜索、議題頁面、用戶倉庫列表和存儲庫頁面上，倉庫名稱旁邊會顯示該倉庫的大小，方便用戶快速了解倉庫的規模，優化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統將在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於用戶判斷倉庫的活躍程度和維護狀況。倉庫內快捷跳轉：在瀏覽倉庫時，用戶可以方便地查看該用戶的所有倉庫列表，提供一個快速跳轉到不同倉庫的入口。用戶可以快速找到和訪問感興趣的其他項目，提高工作效率。使用場景：開發者：可以通過顯示倉庫大小和活躍警告，快速篩選出合適的庫進行開發，避免使用不再維護的項目。項目管理者：通過快速跳轉功能，便於管理和協調多個項目，提高工作效率。學習者：在學習新技術時，可以更方便地找到相關的開源項目，快速查看項目的活躍程度和規模。🤠
 > -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 將文件排序方式改為日期降序，方便查看最新更新的文件。
@@ -206,9 +206,9 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 >
 > -   [**ChatGPT代碼字體縮小.**](https://greasyfork.org/scripts/505209): ChatGPT 讓代碼字體變小 並且自動折行
 > -   [**ChatGPT 代碼高亮**](https://greasyfork.org/scripts/527255): 為 ChatGPT 添加所有語言代碼高亮（使用 highlight.js）
-> -   [**ChatGPT 聊天複製代碼和导出代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼塊的右下角添加一個帶有動畫的“复制代码”按鈕和一個為 ChatGPT 響應中的代碼塊添加導出按鈕，提示用戶根據代碼塊的類名檢測到的編程語言將代碼保存為文件。
-> -   [**ChatGPT 字符計數器限制**](https://greasyfork.org/scripts/506166): 添加一個字符计数器到输入框，限制為 32732 個字符。（ChatGPT 的限制是 32732 个字符。.）
-> -   [**ChatGPT 折疊自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPT中較長的“你”消息，並設置最大寬度
+> -   [**ChatGPT 聊天複製代碼和导出代码按钮**](https://greasyfork.org/scripts/509598): 在 chatgpt.com 上代碼塊的右下角添加一個帶有動畫的“複製代碼”按鈕和一個為 ChatGPT 響應中的代碼塊添加導出按鈕，提示用戶根據代碼塊的類名檢測到的編程語言將代碼保存為文件。
+> -   [**ChatGPT 字符計數器限制**](https://greasyfork.org/scripts/506166): 添加一個字符计数器到输入框，限制為 32732 個字符。（ChatGPT 的限制是 32732 個字符。.）
+> -   [**ChatGPT 折疊自己消息和最大宽度**](https://greasyfork.org/scripts/504901): 折疊ChatGPT中較長的“你”消息，並設置最大寬度
 
 <!--RELATED-ChatGPT相关脚本-END-->
 
@@ -235,13 +235,13 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 > ### 🔍你可能在找GitHub相關腳本
 >
-> -   [**GitHub 提交信息显示网页視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交信息轉化為 HTML 视图，以更清晰地查看提交詳情。它會自動將提交信息列表、提交頭部和最新提交信息轉化為 HTML 格式，提供更佳的視覺效果和用戶體驗。
-> -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打开jsDelivr上的GitHub鏈接,用於快速下載文件
+> -   [**GitHub 提交信息显示网页視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交信息轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交信息列表、提交頭部和最新提交信息轉化為 HTML 格式，提供更佳的視覺效果和用戶體驗。
+> -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速訪問自己在 GitHub 上的倉庫而設計 。它在導航欄頂部生成一個按鈕,點擊展開自己的所有倉庫，輕鬆跳轉到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級菜單
 > -   [**GitHub 文件列表美化器**](https://greasyfork.org/scripts/508047): GitHub 文件列表美化器是一個用戶腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和文件夾添加顏色，並將文件類型圖標替換為小圖像，使得代碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在存儲庫源樹中顯示小圖像以代替文件類型圖標
 > -   [**Github 代碼語言列表顯示全部**](https://greasyfork.org/scripts/509889): 擴展 Github 存儲庫上的語言列表，顯示每種語言，而不是將小部分隱藏在“其他”下
 > -   [**GitHub 自動確認設備授權**](https://greasyfork.org/scripts/508956): 在GitHub授權頁面自動輸入授權碼與自動確認。
-> -   [**GitHub 文件夾下载器**](https://greasyfork.org/scripts/505496): 添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夹。
+> -   [**GitHub 文件夾下载器**](https://greasyfork.org/scripts/505496): 添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夾。
 > -   [**Github 複製原始文件 URL 與下載文件**](https://greasyfork.org/scripts/505501): 在每個文件行的末尾添加按鈕，以復制原始文件 URL 和下載文件
 > -   [**🤠 Github 增強小助手 倉庫顯示大小**](https://greasyfork.org/scripts/502291): 🤠 倉庫顯示大小：在 GitHub 的代碼搜索、倉庫搜索、議題頁面、用戶倉庫列表和存儲庫頁面上，倉庫名稱旁邊會顯示該倉庫的大小，方便用戶快速了解倉庫的規模，優化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統將在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於用戶判斷倉庫的活躍程度和維護狀況。倉庫內快捷跳轉：在瀏覽倉庫時，用戶可以方便地查看該用戶的所有倉庫列表，提供一個快速跳轉到不同倉庫的入口。用戶可以快速找到和訪問感興趣的其他項目，提高工作效率。使用場景：開發者：可以通過顯示倉庫大小和活躍警告，快速篩選出合適的庫進行開發，避免使用不再維護的項目。項目管理者：通過快速跳轉功能，便於管理和協調多個項目，提高工作效率。學習者：在學習新技術時，可以更方便地找到相關的開源項目，快速查看項目的活躍程度和規模。🤠
 > -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 將文件排序方式改為日期降序，方便查看最新更新的文件。
@@ -274,7 +274,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > -   [**GreasyFork: 導航欄增強**](https://greasyfork.org/scripts/501880): 在導航欄上添加用戶列表,控制台,收藏等..
 > -   [**Greasyfork 糊裱匠**](https://greasyfork.org/scripts/497346): 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬屏，腳本頁增強，下載拓展，面板修復等一系列操作
 > -   [**GreasyFork 通知助手**](https://greasyfork.org/scripts/506345): 當你的腳本或你參與的討論有新回复時，腳本會在網頁上以模態窗口顯示最新的討論內容。
-> -   [**Script Finder 油猴腳本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何網站上找到適用於該網站的 油猴脚本。
+> -   [**Script Finder 油猴腳本查找**](https://greasyfork.org/scripts/498904): Script Finder 在任何網站上找到適用於該網站的 油猴腳本。
 > -   [**顯示Greasyfork用戶註冊時間，識別惡意評論**](https://greasyfork.org/scripts/529359): 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。
 
 <!--RELATED-GreasyFork相关脚本-END-->
@@ -285,8 +285,8 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 > ### 🔍你可能在找成人腳本
 >
 > -   [**MissAV 自動登錄**](https://greasyfork.org/scripts/505325): 檢測 MissAV 狀態,並且在未登錄時自動登錄
-> -   [**xhamster 視頻一鍵下載助手**](https://greasyfork.org/scripts/529043): xhamster 视频一键下载 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
-> -   [**XnxxVideos 視頻一鍵下載助手**](https://greasyfork.org/scripts/529044): XnxxVideos 视频一键下载 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
+> -   [**xhamster 視頻一鍵下載助手**](https://greasyfork.org/scripts/529043): xhamster 視頻一鍵下載 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
+> -   [**XnxxVideos 視頻一鍵下載助手**](https://greasyfork.org/scripts/529044): XnxxVideos 視頻一鍵下載 | xnxx.com | 無需登錄直接下載 | 可下載所有可觀看分辨率
 > -   [**xvideos推送下載**](https://greasyfork.org/scripts/528798): 1.自動播放 2.自動寬屏 3.高畫質播放 4.點擊推送下片 5.下載縮略圖
 > -   [**Pornhub 視頻一鍵下載**](https://greasyfork.org/scripts/528800): Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率
 > -   [**MissAV視頻下載工具**](https://greasyfork.org/scripts/528160): 從當前missav播放頁面嗅探視頻的真實下載地址並下載

@@ -14,7 +14,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/remove-link-underlines/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -191,9 +191,9 @@ Recommended browser and script manager：
 >
 > -   [**ChatGPTCode font reduction.**](https://greasyfork.org/scripts/505209): ChatGPT Make the code font smaller And automatically fold
 > -   [**ChatGPT Code highlighted**](https://greasyfork.org/scripts/527255): for ChatGPT Add all language codes to highlight（use highlight.js）
-> -   [**ChatGPT 聊天Copy the code和导出代码按钮**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation on the lower right corner of the code block“复制代码”Button and one for ChatGPT Add export button in the code block in the response，Prompt the user to save the code as a file based on the programming language detected by the code block’s class name。
-> -   [**ChatGPT Character Counter Limit**](https://greasyfork.org/scripts/506166): 添加一Characters计数器到输入框，Limited to 32732 Characters。（ChatGPT The limitation is 32732 个字符。.）
-> -   [**ChatGPT fold自己information和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPTThe longer“you”消息，and set the maximum width
+> -   [**ChatGPT chatCopy the codeand export code buttons**](https://greasyfork.org/scripts/509598): exist chatgpt.com Add an animation on the lower right corner of the code block“Copy the code”Button and one for ChatGPT Add export button in the code block in the response，Prompt the user to save the code as a file based on the programming language detected by the code block’s class name。
+> -   [**ChatGPT Character Counter Limit**](https://greasyfork.org/scripts/506166): Add oneCharactersCounter to input box，Limited to 32732 Characters。（ChatGPT The limitation is 32732 Characters。.）
+> -   [**ChatGPT foldOwninformationand maximum width**](https://greasyfork.org/scripts/504901): foldChatGPTThe longer“you”information，and set the maximum width
 
 <!--RELATED-ChatGPT相关脚本-END-->
 
@@ -220,13 +220,13 @@ Recommended browser and script manager：
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
-> -   [**GitHub 提交信息显示网页view**](https://greasyfork.org/scripts/505830): The script will GitHub The submission information on it is converted into HTML 视图，View submission details more clearly。It will automatically list the submission information、Submit header and latest submission information are converted into HTML Format，Provide better visual effects and user experience。
-> -   [**existGithub上OpenjsDelivrLink**](https://greasyfork.org/scripts/527870): 打开jsDelivrOnGitHubLink,Used to quickly download files
+> -   [**GitHub Submit information to display the web pageview**](https://greasyfork.org/scripts/505830): The script will GitHub The submission information on it is converted into HTML view，View submission details more clearly。It will automatically list the submission information、Submit header and latest submission information are converted into HTML Format，Provide better visual effects and user experience。
+> -   [**existGithubsuperiorOpenjsDelivrLink**](https://greasyfork.org/scripts/527870): OpenjsDelivrOnGitHubLink,Used to quickly download files
 > -   [**GitHub Warehouse quick jump assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub Warehouse quick jump assistant，Designed to help users quickly access themselves GitHub Designed on the warehouse 。It generates a button at the top of the navigation bar,Click to expand all your warehouses，Jump to your own easily GitHub Warehouse page，Without using GitHub Secondary menu
 > -   [**GitHub File List Beautifier**](https://greasyfork.org/scripts/508047): GitHub File List Beautifier is a user script，For enhancement GitHub File display effect in the warehouse。It can add colors to files and folders，and replace the file type icon with a small image，Making the code base easier to browse and manage。Add colors and icons to files by type，Show small images in the repository source tree instead of file type icon
 > -   [**Github Code language list displays all**](https://greasyfork.org/scripts/509889): Extended Github Language list on the repository，Show each language，Instead of hiding small parts in“other”Down
 > -   [**GitHub Automatically confirm device authorization**](https://greasyfork.org/scripts/508956): existGitHubAutomatically enter the authorization code and automatic confirmation on the authorization page。
-> -   [**GitHub Folders下载器**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy download of specific GitHub 文件夹。
+> -   [**GitHub FoldersDownloader**](https://greasyfork.org/scripts/505496): Add a download button，Allows easy download of specific GitHub Folders。
 > -   [**Github Copy the original file URL With download files**](https://greasyfork.org/scripts/505501): Add buttons at the end of each file line，To copy the original file URL and download files
 > -   [**🤠 Github Enhanced Assistant Warehouse display size**](https://greasyfork.org/scripts/502291): 🤠 Warehouse display size：exist GitHub Code search、Warehouse search、Agenda page、User repository list and repository page，The size of the warehouse will be displayed next to the warehouse name，It is convenient for users to quickly understand the size of the warehouse，Optimized selection。Inactive development warning：If a repository has not been updated in the past six months，The system will add a prompt at the top of the repository，Remind users that the repository is not active，and display the last update time。This helps users judge the activity level and maintenance status of the warehouse。Quick jump in the warehouse：While browsing the warehouse，Users can easily view all repositories of this user，Provides an entrance to a quick jump to different warehouses。Users can quickly find and access other projects of interest，Improve work efficiency。Use scenarios：Developer：Can be displayed by displaying warehouse size and active warnings，Quickly filter out the right libraries for development，Avoid using projects that are no longer maintained。Project Manager：Through the quick jump function，Easily manage and coordinate multiple projects，Improve work efficiency。learner：While learning new technologies，It is easier to find relevant open source projects，Quickly view the activity level and scale of the project。🤠
 > -   [**GitHub Sort by date**](https://greasyfork.org/scripts/505218): Change file sorting to date descending，Easy to view the latest updated files。
@@ -259,7 +259,7 @@ Recommended browser and script manager：
 > -   [**GreasyFork: Navigation bar enhancement**](https://greasyfork.org/scripts/501880): Add a user list on the navigation bar,Console,Collection, etc...
 > -   [**Greasyfork Paste the rigging maker**](https://greasyfork.org/scripts/497346): for Greasyfork Provide various usage functions，Absolute time，Wide screen of web page，Script page enhancement，Download Expansion，A series of operations such as panel repair
 > -   [**GreasyFork Notification Assistant**](https://greasyfork.org/scripts/506345): When there are new replies to your script or discussion you are involved in，The script will display the latest discussion content in a modal window on the web page。
-> -   [**Script Finder Oil Monkey Script查找**](https://greasyfork.org/scripts/498904): Script Finder Find available on any website 油猴脚本。
+> -   [**Script Finder Oil Monkey ScriptFind**](https://greasyfork.org/scripts/498904): Script Finder Find available on any website Oil Monkey Script。
 > -   [**showGreasyforkUser registration time，Identify malicious comments**](https://greasyfork.org/scripts/529359): If your script interferes with the interests of some people，It’s not surprising to receive malicious negative reviews。Malicious negative reviews have two characteristics，First, the account is usually newly registered，Second, you will give a bad review soon after registration，There will be basically no follow-up activities。This script getsgreasyforkUser registration time，and displayed next to the username。If the time displayed next to the username is the future time，Then this user is likely to have a malicious account registered。
 
 <!--RELATED-GreasyFork相关脚本-END-->
@@ -270,8 +270,8 @@ Recommended browser and script manager：
 > ### 🔍You might be looking for adult scripts
 >
 > -   [**MissAV Automatic login**](https://greasyfork.org/scripts/505325): Test MissAV state,And automatically log in when not logged in
-> -   [**xhamster Download video with one click助手**](https://greasyfork.org/scripts/529043): xhamster 视频一键下载 | xhamster.com | Download directly without logging in | All viewable resolutions available for download
-> -   [**XnxxVideos Download video with one click助手**](https://greasyfork.org/scripts/529044): XnxxVideos 视频一键下载 | xnxx.com | Download directly without logging in | All viewable resolutions available for download
+> -   [**xhamster Download video with one clickassistant**](https://greasyfork.org/scripts/529043): xhamster One-click video download | xhamster.com | Download directly without logging in | All viewable resolutions available for download
+> -   [**XnxxVideos Download video with one clickassistant**](https://greasyfork.org/scripts/529044): XnxxVideos One-click video download | xnxx.com | Download directly without logging in | All viewable resolutions available for download
 > -   [**xvideosPush download**](https://greasyfork.org/scripts/528798): 1.Automatic playback 2.Automatic wide screen 3.High-quality playback 4.Click to push the next movie 5.Download thumbnails
 > -   [**Pornhub Download video with one click**](https://greasyfork.org/scripts/528800): Pornhub Download video with one click | pornhub.com | Download directly without logging in | You can download it directly for free to watch paid download videos | Can download videos that have been banned | All viewable resolutions available for download
 > -   [**MissAVVideo download tool**](https://greasyfork.org/scripts/528160): From the currentmissavPlay the page to sniff the real download address of the video and download it

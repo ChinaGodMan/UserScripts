@@ -14,7 +14,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️입장GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
     </h6>
 </div>
 
@@ -155,9 +155,9 @@
 >
 > -   [**ChatGPT코드 글꼴 감소.**](https://greasyfork.org/scripts/505209): ChatGPT 코드를 더 작게 만듭니다 자동으로 접습니다
 > -   [**ChatGPT 강조된 코드**](https://greasyfork.org/scripts/527255): ~을 위한 ChatGPT 강조 할 모든 언어 코드를 추가하십시오（사용 highlight.js）
-> -   [**ChatGPT 聊天코드를 복사하십시오和导出代码按钮**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 코드 블록의 오른쪽 하단에 애니메이션 추가“复制代码”버튼과 하나 ChatGPT 응답의 코드 블록에 내보내기 버튼 추가，사용자에게 코드 블록의 클래스 이름에서 감지 된 프로그래밍 언어를 기반으로 코드를 파일로 저장하라는 메시지가 표시됩니다.。
-> -   [**ChatGPT 캐릭터 카운터 제한**](https://greasyfork.org/scripts/506166): 添加一캐릭터计数器到输入框，제한 32732 캐릭터。（ChatGPT 한계는입니다 32732 个字符。.）
-> -   [**ChatGPT 겹自己정보和最大宽度**](https://greasyfork.org/scripts/504901): 折叠ChatGPT더 길다“너”消息，최대 너비를 설정하십시오
+> -   [**ChatGPT 채팅코드를 복사하십시오코드 버튼을 내보내십시오**](https://greasyfork.org/scripts/509598): 존재하다 chatgpt.com 코드 블록의 오른쪽 하단에 애니메이션 추가“코드를 복사하십시오”버튼과 하나 ChatGPT 응답의 코드 블록에 내보내기 버튼 추가，사용자에게 코드 블록의 클래스 이름에서 감지 된 프로그래밍 언어를 기반으로 코드를 파일로 저장하라는 메시지가 표시됩니다.。
+> -   [**ChatGPT 캐릭터 카운터 제한**](https://greasyfork.org/scripts/506166): 하나를 추가하십시오캐릭터입력 상자에 대응합니다，제한 32732 캐릭터。（ChatGPT 한계는입니다 32732 캐릭터。.）
+> -   [**ChatGPT 겹소유하다정보최대 너비**](https://greasyfork.org/scripts/504901): 겹ChatGPT더 길다“너”정보，최대 너비를 설정하십시오
 
 <!--RELATED-ChatGPT相关脚本-END-->
 
@@ -184,13 +184,13 @@
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
-> -   [**GitHub 提交信息显示网页보다**](https://greasyfork.org/scripts/505830): 스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 视图，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、헤더 제출 및 최신 제출 정보가 변환됩니다 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。
-> -   [**존재하다Github上열려 있는jsDelivr링크**](https://greasyfork.org/scripts/527870): 打开jsDelivr~에GitHub링크,파일을 신속하게 다운로드하는 데 사용됩니다
+> -   [**GitHub 웹 페이지를 표시하려면 정보를 제출하십시오보다**](https://greasyfork.org/scripts/505830): 스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、헤더 제출 및 최신 제출 정보가 변환됩니다 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。
+> -   [**존재하다Github우수한열려 있는jsDelivr링크**](https://greasyfork.org/scripts/527870): 열려 있는jsDelivr~에GitHub링크,파일을 신속하게 다운로드하는 데 사용됩니다
 > -   [**GitHub 창고 Quick Jump Assistant**](https://greasyfork.org/scripts/515205): 🤠 GitHub 창고 Quick Jump Assistant，사용자가 빠르게 액세스 할 수 있도록 설계되었습니다 GitHub 창고에서 설계되었습니다 。내비게이션 바 상단에 버튼이 생성됩니다.,모든 창고를 확장하려면 클릭하십시오，쉽게 자신을 점프하십시오 GitHub 창고 페이지，사용하지 않고 GitHub 보조 메뉴
 > -   [**GitHub 파일 목록 Beautifier**](https://greasyfork.org/scripts/508047): GitHub 파일 목록 Beautifier는 사용자 스크립트입니다，향상을 위해 GitHub 창고의 파일 표시 효과。파일과 폴더에 색상을 추가 할 수 있습니다，파일 유형 아이콘을 작은 이미지로 바꾸십시오.，코드 기반을 쉽게 탐색하고 관리 할 수 ​​있도록합니다。유형별 파일에 색상과 아이콘을 추가하십시오，파일 유형 아이콘 대신 저장소 소스 트리에 작은 이미지 표시
 > -   [**Github 코드 언어 목록이 모두 표시됩니다**](https://greasyfork.org/scripts/509889): 펼친 Github 저장소의 언어 목록，각 언어를 보여줍니다，작은 부품을 숨기는 대신“다른”아래에
 > -   [**GitHub 장치 승인을 자동으로 확인합니다**](https://greasyfork.org/scripts/508956): 존재하다GitHub권한 부여 페이지에 권한 부여 코드 및 자동 확인을 자동으로 입력하십시오.。
-> -   [**GitHub 폴더下载器**](https://greasyfork.org/scripts/505496): 다운로드 버튼을 추가하십시오，특정의 쉽게 다운로드 할 수 있습니다 GitHub 文件夹。
+> -   [**GitHub 폴더다운로더**](https://greasyfork.org/scripts/505496): 다운로드 버튼을 추가하십시오，특정의 쉽게 다운로드 할 수 있습니다 GitHub 폴더。
 > -   [**Github 원본 파일을 복사하십시오 URL 다운로드 파일로**](https://greasyfork.org/scripts/505501): 각 파일 줄 끝에 버튼을 추가하십시오，원본 파일을 복사합니다 URL 파일 다운로드
 > -   [**🤠 Github 강화 된 비서 창고 디스플레이 크기**](https://greasyfork.org/scripts/502291): 🤠 창고 디스플레이 크기：존재하다 GitHub 코드 검색、창고 검색、의제 페이지、사용자 저장소 목록 및 저장소 페이지，창고의 크기는 창고 이름 ​​옆에 표시됩니다.，사용자가 창고의 크기를 빠르게 이해하는 것이 편리합니다.，최적화 된 선택。비활성 개발 경고：지난 6 개월 동안 저장소가 업데이트되지 않은 경우，시스템은 저장소 상단에 프롬프트를 추가합니다.，리포지토리가 활성화되지 않았 음을 사용자에게 상기시킵니다，마지막 업데이트 시간을 표시합니다。이를 통해 사용자는 창고의 활동 수준 및 유지 보수 상태를 판단하는 데 도움이됩니다.。창고에서 빠른 점프：창고를 탐색하는 동안，사용자는이 사용자의 모든 저장소를 쉽게 볼 수 있습니다，다른 창고로 빠르게 점프 할 수있는 입구를 제공합니다.。사용자는 다른 관심있는 다른 프로젝트를 신속하게 찾고 액세스 할 수 있습니다.，업무 효율성을 향상시킵니다。시나리오를 사용하십시오：개발자：창고 크기 및 활성 경고를 표시하여 표시 할 수 있습니다.，개발에 적합한 라이브러리를 신속하게 필터링하십시오，더 이상 유지되지 않는 프로젝트를 사용하지 마십시오。프로젝트 관리자：빠른 점프 기능을 통해，여러 프로젝트를 쉽게 관리하고 조정합니다，업무 효율성을 향상시킵니다。학습자：새로운 기술을 배우는 동안，관련 오픈 소스 프로젝트를 찾는 것이 더 쉽습니다，프로젝트의 활동 수준과 규모를 빠르게보십시오.。🤠
 > -   [**GitHub 날짜별로 정렬하십시오**](https://greasyfork.org/scripts/505218): 내림차순으로 파일 정렬을 변경합니다，최신 업데이트 된 파일을 쉽게 볼 수 있습니다。
@@ -223,7 +223,7 @@
 > -   [**GreasyFork: 내비게이션 바 향상**](https://greasyfork.org/scripts/501880): 탐색 표시 줄에 사용자 목록을 추가하십시오,콘솔,컬렉션 등..
 > -   [**Greasyfork 리깅 메이커를 붙여 넣으십시오**](https://greasyfork.org/scripts/497346): ~을 위한 Greasyfork 다양한 사용 기능을 제공합니다，절대 시간，웹 페이지의 와이드 스크린，스크립트 페이지 향상，확장을 다운로드하십시오，패널 수리와 같은 일련의 작업
 > -   [**GreasyFork 알림 어시스턴트**](https://greasyfork.org/scripts/506345): 스크립트 또는 토론에 새로운 답장이 있으면，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。
-> -   [**Script Finder 오일 원숭이 스크립트查找**](https://greasyfork.org/scripts/498904): Script Finder 모든 웹 사이트에서 찾을 수 있습니다 油猴脚本。
+> -   [**Script Finder 오일 원숭이 스크립트찾다**](https://greasyfork.org/scripts/498904): Script Finder 모든 웹 사이트에서 찾을 수 있습니다 오일 원숭이 스크립트。
 > -   [**보여주다Greasyfork사용자 등록 시간，악의적 인 의견을 식별하십시오**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해하는 경우，악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다。악의적 인 부정적인 리뷰에는 두 가지 특성이 있습니다，첫째, 계정은 일반적으로 새로 등록됩니다，둘째, 등록 후 곧 나쁜 검토를 할 것입니다.，기본적으로 후속 활동은 없습니다。이 스크립트가됩니다greasyfork사용자 등록 시간，사용자 이름 옆에 표시됩니다。사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우，그러면이 사용자는 악성 계정이 등록 될 가능성이 높습니다.。
 
 <!--RELATED-GreasyFork相关脚本-END-->
@@ -234,8 +234,8 @@
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
 > -   [**MissAV 자동 로그인**](https://greasyfork.org/scripts/505325): 시험 MissAV 상태,로그인하지 않으면 자동으로 로그인합니다
-> -   [**xhamster 한 번의 클릭으로 비디오를 다운로드하십시오助手**](https://greasyfork.org/scripts/529043): xhamster 视频一键下载 | xhamster.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도
-> -   [**XnxxVideos 한 번의 클릭으로 비디오를 다운로드하십시오助手**](https://greasyfork.org/scripts/529044): XnxxVideos 视频一键下载 | xnxx.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도
+> -   [**xhamster 한 번의 클릭으로 비디오를 다운로드하십시오어시스턴트**](https://greasyfork.org/scripts/529043): xhamster 한 클릭 비디오 다운로드 | xhamster.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도
+> -   [**XnxxVideos 한 번의 클릭으로 비디오를 다운로드하십시오어시스턴트**](https://greasyfork.org/scripts/529044): XnxxVideos 한 클릭 비디오 다운로드 | xnxx.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도
 > -   [**xvideos푸시 다운로드**](https://greasyfork.org/scripts/528798): 1.자동 재생 2.자동 와이드 스크린 3.고품질 재생 4.다음 영화를 푸시하려면 클릭하십시오 5.축소판을 다운로드하십시오
 > -   [**Pornhub 한 번의 클릭으로 비디오를 다운로드하십시오**](https://greasyfork.org/scripts/528800): Pornhub 한 번의 클릭으로 비디오를 다운로드하십시오 | pornhub.com | 로그인하지 않고 직접 다운로드하십시오 | 유료 다운로드 비디오를 시청하기 위해 무료로 직접 다운로드 할 수 있습니다. | 금지 된 비디오를 다운로드 할 수 있습니다 | 다운로드 할 수있는 모든 시청 가능한 해상도
 > -   [**MissAV비디오 다운로드 도구**](https://greasyfork.org/scripts/528160): 현재에서missav비디오의 실제 다운로드 주소를 스니핑하려면 페이지를 재생하고 다운로드하십시오.

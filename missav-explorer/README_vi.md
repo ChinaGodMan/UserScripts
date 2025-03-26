@@ -14,7 +14,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-explorer/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️truy cậpGitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
     </h6>
 </div>
 
