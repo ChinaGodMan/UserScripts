@@ -23,7 +23,7 @@ def translate_readme(data):
             continue
         if is_file_updated_more_than(readme_path, 5):
             print("跳过文件 ，因为需要翻译的文件在五分钟之内没有新提交。")
-            # continue
+            continue
         # 读取文件内容
         lines = read_file_to_memory(readme_path)
         lines = replace_encoded_with_utf8(lines)
