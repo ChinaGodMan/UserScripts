@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/25,Tuesday 01:01:37
+# Last Modified: 2025/03/26,Wednesday 09:40:34
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -186,7 +186,7 @@ def translate_worker(chinese_texts, translations, lang):
 def translate_and_save(lines, chinese_texts, lang, shrink, file_path):
     translations = {}  # 每种语言有自己的翻译结果
     threads = []
-    chunk_size = len(chinese_texts) // 5 or 1  # 假设5个线程，按块划分
+    chunk_size = len(chinese_texts) // 50 or 1  # 加大数量
     for i in range(0, len(chinese_texts), chunk_size):
         chunk = chinese_texts[i:i + chunk_size]
         thread = threading.Thread(target=translate_worker, args=(chunk, translations, lang))
