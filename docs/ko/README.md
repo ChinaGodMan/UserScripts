@@ -11,6 +11,12 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/it/README.md">Italiano</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ru/README.md">Русский</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/de/README.md">Deutsch</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/es/README.md">Español</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/pt/README.md">Portuguese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/fr/README.md">Français</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
 </div>
@@ -38,7 +44,7 @@
 
 <center><div align="center">
     <strong>스크립트는 인터넷 네티즌에서 나옵니다，방금 몇 가지 변경을했습니다.네티즌 덕분에</strong><br>
-    <strong>如有侵权,联系必删</strong><br>
+    <strong>침해가있는 경우,문의해야합니다</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>권장 사용：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -51,9 +57,9 @@
 
 
 
-## 脚本列表
+## 스크립트 목록
 
-💡 **Tip:** _미리보기 스크린 샷을 표시합니다，请点击扩展名称下方的 ▸ 또는 설명。_
+💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPT관련 스크립트</h1><h3>
@@ -500,7 +506,7 @@
 </h3>
 
 <details>
-    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
+    <summary>스크립트가 될 것입니다 GitHub 그것에 대한 제출 정보가 변환됩니다 HTML 보다，제출 세부 사항을보다 명확하게보십시오。제출 정보를 자동으로 나열합니다、헤더 제출 및 최신 제출 정보가 변환됩니다 HTML 체재，더 나은 시각 효과와 사용자 경험을 제공하십시오。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -523,7 +529,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">존재하다Github上打开jsDelivr링크</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">존재하다Github열기jsDelivr링크</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -993,7 +999,7 @@
 </h3>
 
 <details>
-    <summary>在论坛默认使用 Markdown 체재，添加格式帮助链接及 Markdown 工具栏绍</summary>
+    <summary>포럼에서 기본적으로 사용됩니다 Markdown 체재，형식 도움말 링크를 추가하십시오 Markdown 도구 모음</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
            <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
@@ -1022,7 +1028,7 @@
 </h3>
 
 <details>
-    <summary>脚本列表添加评价分数</summary>
+    <summary>스크립트 목록에 평가 점수를 추가하십시오</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
@@ -1254,7 +1260,7 @@
 </h3>
 
 <details>
-    <summary>xhamster 한 클릭 비디오 다운로드 | xhamster.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
+    <summary>xhamster 한 번의 클릭으로 비디오를 다운로드하십시오 | xhamster.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
@@ -1283,7 +1289,7 @@
 </h3>
 
 <details>
-    <summary>XnxxVideos 한 클릭 비디오 다운로드 | xnxx.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
+    <summary>XnxxVideos 한 번의 클릭으로 비디오를 다운로드하십시오 | xnxx.com | 로그인하지 않고 직접 다운로드하십시오 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
@@ -1335,13 +1341,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub 한 클릭 비디오 다운로드</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub 한 번의 클릭으로 비디오를 다운로드하십시오</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>Pornhub 한 클릭 비디오 다운로드 | pornhub.com | 로그인하지 않고 직접 다운로드하십시오 | 유료 다운로드 비디오를 시청하기 위해 무료로 직접 다운로드 할 수 있습니다. | 금지 된 비디오를 다운로드 할 수 있습니다 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
+    <summary>Pornhub 한 번의 클릭으로 비디오를 다운로드하십시오 | pornhub.com | 로그인하지 않고 직접 다운로드하십시오 | 유료 다운로드 비디오를 시청하기 위해 무료로 직접 다운로드 할 수 있습니다. | 금지 된 비디오를 다운로드 할 수 있습니다 | 다운로드 할 수있는 모든 시청 가능한 해상도</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
@@ -1486,7 +1492,7 @@
 </h3>
 
 <details>
-    <summary>광고를 제거하십시오|무대 뒤에서 재생|자동 재생|自定义快进时间|完整标题|更多功能...</summary>
+    <summary>광고를 제거하십시오|무대 뒤에서 재생|자동 재생|사용자 정의 빠른 전달 시간|전체 제목|더 많은 기능...</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">
            <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
@@ -1509,7 +1515,7 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>자동 번역</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">外语终结者</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">외국어 터미네이터</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -1725,17 +1731,17 @@
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="사막의 아들"/></a> :+1:
 > -   복사 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내부 코드<br>
-> -   이 창고에서`writer.py` `update-contributors.yml` 사용 된 복사[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)里面的代码
-> -   本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B4%80%EB%A6%AC%EC%9E%90)콘텐츠 `如何安装/스크립트 사용？`
+> -   이 창고에서`writer.py` `update-contributors.yml` 사용 된 복사[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+> -   이 저장소 readme 파일이 복사되었습니다[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B4%80%EB%A6%AC%EC%9E%90)콘텐츠 `설치 방법/스크립트 사용？`
 
 > [!TIP]
 >
-> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 刘展鹏"/></a> :+1:
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
 > -   _이 창고의 자동 번역 Action 미국인들에게 특별한 감사를드립니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)훌륭한 아이디어와 코드!_ :trollface:
 > -   _이 창고는 미국인으로 지명되었습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)고무하다_ :trollface:
 > -   _이 창고의 README 파일은 출신입니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
 > -   _스크립트의 상호 전환 점프는 왔습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
-> -   _이 창고에서 모두`README.md`이 파일은이 미국 저장소에 의해 복사되어 사용되었습니다.`README.md`파일 레이아웃，구분기，암호，아이디어_ :trollface:
+> -   _이 창고에서 모두`README.md`이 미국 저장소에서 파일을 복사하여 사용했습니다.`README.md`파일 레이아웃，구분기，암호，아이디어_ :trollface:
 > -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사 미국 사람[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분기，문제 유형 레이아웃 스타일 :trollface:

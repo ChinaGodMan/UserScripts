@@ -11,6 +11,12 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/it/README.md">Italiano</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ru/README.md">Русский</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/de/README.md">Deutsch</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/es/README.md">Español</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/pt/README.md">Portuguese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/fr/README.md">Français</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
 </div>
@@ -53,7 +59,7 @@
 
 ## Danh sách tập lệnh
 
-💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Vui lòng nhấp vào tên mở rộng bên dưới ▸ 或描述。_
+💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Vui lòng nhấp vào tên mở rộng bên dưới ▸ Hoặc mô tả。_
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTTập lệnh liên quan</h1><h3>
@@ -117,13 +123,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">ChatGPT 聊天复制代码按钮</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">ChatGPT Nút mã sao chép trò chuyện</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>hiện hữu chatgpt.com Thêm một hình ảnh động ở góc dưới bên phải của khối mã“复制代码”Cái nút</summary>
+    <summary>hiện hữu chatgpt.com Thêm một hình ảnh động ở góc dưới bên phải của khối mã“Sao chép mã”Cái nút</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
            <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -146,7 +152,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">ChatGPT 字符计数器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">ChatGPT Bộ đếm nhân vật</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -210,7 +216,7 @@
 </h3>
 
 <details>
-    <summary>Cấm bỏ qua phiên bản chỉnh sửa，Màu xanh lá cây được phát hành，Đỏ bị cấm，Hướng dẫn tạm thời màu cam</summary>
+    <summary>Cấm bị ị trên phiên bản đã chỉnh sửa，Màu xanh lá cây được phát hành，Đỏ bị cấm，Hướng dẫn tạm thời màu cam</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -523,7 +529,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">hiện hữuGithub上打开jsDelivrLiên kết</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">hiện hữuGithubMở trênjsDelivrLiên kết</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -558,7 +564,7 @@
 </h3>
 
 <details>
-    <summary>GitHub Trợ lý nhảy nhanh là một người được thiết kế đặc biệt để giúp người dùng nhanh chóng truy cập GitHub 上的仓库而设计。Nó có thể cải thiện đáng kể việc sử dụng các nhà phát triển GitHub 时的效率。</summary>
+    <summary>GitHub Trợ lý nhảy nhanh là một người được thiết kế đặc biệt để giúp người dùng nhanh chóng truy cập GitHub Được thiết kế trên kho。Nó có thể cải thiện đáng kể việc sử dụng các nhà phát triển GitHub Hiệu quả tại thời điểm này。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
            <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
@@ -581,13 +587,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">GitHub 文件列表美化器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">GitHub Danh sách tập tin làm đẹp</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>GitHub 文件列表美化器是一个用户脚本，Để tăng cường GitHub Hiệu ứng hiển thị tệp trong kho。Nó có thể thêm màu sắc vào các tệp và thư mục，và thay thế biểu tượng loại tệp bằng một hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng hơn để duyệt và quản lý。</summary>
+    <summary>GitHub Danh sách tệp làm đẹp là một tập lệnh người dùng，Để tăng cường GitHub Hiệu ứng hiển thị tệp trong kho。Nó có thể thêm màu sắc vào các tệp và thư mục，và thay thế biểu tượng loại tệp bằng một hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng hơn để duyệt và quản lý。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
@@ -1022,7 +1028,7 @@
 </h3>
 
 <details>
-    <summary>脚本列表添加评价分数</summary>
+    <summary>Thêm điểm đánh giá vào danh sách tập lệnh</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
@@ -1074,13 +1080,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">GreasyFork 导航栏增强</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">GreasyFork Tăng cường thanh điều hướng</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>Nâng caogreasyforkThanh điều hướng,增加用户列表,用户控制台等</summary>
+    <summary>Nâng caogreasyforkThanh điều hướng,Thêm danh sách người dùng,Bảng điều khiển người dùng, v.v.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -1254,7 +1260,7 @@
 </h3>
 
 <details>
-    <summary>xhamster Tải xuống video một lần nhấp | xhamster.com | Tải xuống trực tiếp mà không cần đăng nhập | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
+    <summary>xhamster Tải xuống video chỉ bằng một cú nhấp chuột | xhamster.com | Tải xuống trực tiếp mà không cần đăng nhập | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
@@ -1283,7 +1289,7 @@
 </h3>
 
 <details>
-    <summary>XnxxVideos Tải xuống video một lần nhấp | xnxx.com | Tải xuống trực tiếp mà không cần đăng nhập | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
+    <summary>XnxxVideos Tải xuống video chỉ bằng một cú nhấp chuột | xnxx.com | Tải xuống trực tiếp mà không cần đăng nhập | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
@@ -1335,13 +1341,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub Tải xuống video một lần nhấp</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub Tải xuống video chỉ bằng một cú nhấp chuột</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>Pornhub Tải xuống video một lần nhấp | pornhub.com | Tải xuống trực tiếp mà không cần đăng nhập | Bạn có thể tải xuống trực tiếp để xem video tải xuống trả phí | Có thể tải xuống các video đã bị cấm | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
+    <summary>Pornhub Tải xuống video chỉ bằng một cú nhấp chuột | pornhub.com | Tải xuống trực tiếp mà không cần đăng nhập | Bạn có thể tải xuống trực tiếp để xem video tải xuống trả phí | Có thể tải xuống các video đã bị cấm | Tất cả các độ phân giải có thể xem được để tải xuống</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
@@ -1515,7 +1521,7 @@
 </h3>
 
 <details>
-    <summary>识别非中文字符，Nếu độ dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung，Thay thế nó bằng tiếng Trung,需要可访问googleMạng</summary>
+    <summary>Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn 5 Và văn bản dịch không chứa tiếng Trung，Thay thế nó bằng tiếng Trung,Cần phải truy cậpgoogleMạng</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
            <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
@@ -1538,7 +1544,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">网页翻译——自动翻译为中文</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Dịch web——Bản dịch tự động sang tiếng Trung</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -1726,14 +1732,14 @@
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="Con trai của sa mạc"/></a> :+1:
 > -   Sao chép [Con trai của sa mạc](https://github.com/maboloshi)Kho[github-chinese](https://github.com/maboloshi/github-chinese)Mã bên trong<br>
 > -   Trong kho này`writer.py` `update-contributors.yml` Sao chép được sử dụng[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Mã bên trong
-> -   Tệp readme kho lưu trữ này đã được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8ETr%C3%ACnh%20qu%E1%BA%A3n%20l%C3%BD%20t%E1%BA%ADp%20l%E1%BB%87nh)nội dung `Cách cài đặt/使用脚本？`
+> -   Tệp readme kho lưu trữ này đã được sao chép[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8ETr%C3%ACnh%20qu%E1%BA%A3n%20l%C3%BD%20t%E1%BA%ADp%20l%E1%BB%87nh)nội dung `Cách cài đặt/Sử dụng tập lệnh？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
-> -   _Dịch tự động của kho này và Action Đặc biệt cảm ơn người Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)出色的想法与代码!_ :trollface:
+> -   _Dịch tự động của kho này và Action Đặc biệt cảm ơn người Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ý tưởng và mã tuyệt vời!_ :trollface:
 > -   _Kho này được đặt tên bằng tiếng Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Truyền cảm hứng_ :trollface:
-> -   _本仓库内自述文件来自[Adam Lui Liu Zhanpeng](https://github.com/adamlui)的自述风格_ :trollface:
+> -   _Các tệp readme trong kho này là từ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Phong cách tự báo cáo_ :trollface:
 > -   _Sự chuyển hướng lẫn nhau nhảy vào kịch bản đến từ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Phong cách tự báo cáo_ :trollface:
 > -   _Tất cả trong kho này`README.md`Tệp đã được sao chép và sử dụng bởi kho lưu trữ Mỹ này`README.md`Bố cục tập tin，Phân định，Mã số，Ý tưởng_ :trollface:
 > -   _Sao chép người Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action Mã nội bộ_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:

@@ -11,6 +11,12 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/it/README.md">Italiano</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ru/README.md">Русский</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/de/README.md">Deutsch</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/es/README.md">Español</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/pt/README.md">Portuguese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/fr/README.md">Français</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
 </div>
@@ -210,7 +216,7 @@
 </h3>
 
 <details>
-    <summary>編集されたバージョンでたわごとを禁じられています，グリーンはリリース用です，赤は禁止されています，オレンジ色の一時的な方向</summary>
+    <summary>編集されたバージョンでうんちを禁じられています，グリーンはリリース用です，赤は禁止されています，オレンジ色の一時的な方向</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -1254,7 +1260,7 @@
 </h3>
 
 <details>
-    <summary>xhamster ワンクリックビデオダウンロード | xhamster.com | ログインせずに直接ダウンロードしてください | ダウンロードに利用できるすべての表示可能な解像度</summary>
+    <summary>xhamster ワンクリックでビデオをダウンロードします | xhamster.com | ログインせずに直接ダウンロードしてください | ダウンロードに利用できるすべての表示可能な解像度</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
@@ -1283,7 +1289,7 @@
 </h3>
 
 <details>
-    <summary>XnxxVideos ワンクリックビデオダウンロード | xnxx.com | ログインせずに直接ダウンロードしてください | ダウンロードに利用できるすべての表示可能な解像度</summary>
+    <summary>XnxxVideos ワンクリックでビデオをダウンロードします | xnxx.com | ログインせずに直接ダウンロードしてください | ダウンロードに利用できるすべての表示可能な解像度</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
@@ -1335,13 +1341,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub ワンクリックビデオダウンロード</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub ワンクリックでビデオをダウンロードします</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>Pornhub ワンクリックビデオダウンロード | pornhub.com | ログインせずに直接ダウンロードしてください | あなたはそれを無料で直接ダウンロードして有料ダウンロードビデオを見ることができます | 禁止されているビデオをダウンロードできます | ダウンロードに利用できるすべての表示可能な解像度</summary>
+    <summary>Pornhub ワンクリックでビデオをダウンロードします | pornhub.com | ログインせずに直接ダウンロードしてください | あなたはそれを無料で直接ダウンロードして有料ダウンロードビデオを見ることができます | 禁止されているビデオをダウンロードできます | ダウンロードに利用できるすべての表示可能な解像度</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>

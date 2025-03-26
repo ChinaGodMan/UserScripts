@@ -11,6 +11,12 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/it/README.md">Italiano</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ru/README.md">Русский</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/de/README.md">Deutsch</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/es/README.md">Español</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/pt/README.md">Portuguese</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/fr/README.md">Français</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ko/README.md">대한민국</a>
     </h6>
 </div>
