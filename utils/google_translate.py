@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/26,Wednesday 09:40:34
+# Last Modified: 2025/03/26,Wednesday 23:24:23
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -56,6 +56,7 @@ translation_cache = {
     "操作系统": ("issues", True),
     "推荐浏览器": ("issues", True),
     "脚本管理器": ("issues", True),
+    "用户数量": ("issues", True),
 }
 
 
