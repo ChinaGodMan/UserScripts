@@ -62,7 +62,7 @@
             href="https://greasyfork.org/zh-CN/scripts/529845">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ youtube-helper 更新日志</strong></h1>
 <h3><strong>📅 2025.03.15.0436</strong></h3>
-<p><strong>新增</strong>: •初始版本</p>
+<p><strong>新增</strong>: •初始版本.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529845.png">
 </div></center>

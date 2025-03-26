@@ -8,9 +8,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README.md">简体中文</a>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_ko.md">한국어</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
+    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 

@@ -10,6 +10,7 @@
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README.md">简体中文</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_ko.md">한국어</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_vi.md">Tiếng Việt</a> | 
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-plus/README_zh-TW.md">繁體中文</a>
     <br>
