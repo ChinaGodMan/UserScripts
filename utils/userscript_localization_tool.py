@@ -1,39 +1,39 @@
 import subprocess
 import argparse
 import threading
+from concurrent.futures import ThreadPoolExecutor
 from google_translate import translate_text
 from google_translate import translation_lock
 from searcher import search_in_file
 from helper import sort_userscript_section
+import re
 
 
-def insert_into_meta(file_path, content):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-    if len(lines) < 1:
-        lines.append("\n")
-    lines.insert(1, content + "\n")
+# 清理不规则的文本
+def clean_text(text):
+    # 替换多个空格或特殊空白字符为单个空格
+    text = re.sub(r"[\u200b\u00a0\t]+", " ", text)
+    # 替换多余的连续空格为单个空格
+    text = re.sub(r" +", " ", text)
+    # 去除行尾空格
+    text = re.sub(r"\s+$", "", text)
+    return text
 
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.writelines(lines)
-    print(f"\033[34m区域化已插入 '{file_path}' 的元数据下\033[0m")
 
-
-# 删除中文头部描述,也可以在默认语言中删除zh-CN
-def remove_zh_cn_lines(file_path):
-    try:
+# 在meta中插入翻译的区域化
+def insert_into_meta(file_path, content, file_lock):
+    with file_lock:
         with open(file_path, 'r', encoding='utf-8') as file:
             lines = file.readlines()
-        filtered_lines = [
-            line for line in lines
-            if not line.strip().startswith("// @name:zh-CN") and not line.strip().startswith("// @description:zh-CN")
-        ]
+        for i, line in enumerate(lines):
+            if "==UserScript==" in line:
+                lines.insert(i + 1, content + "\n")
+                break
+        else:
+            return
         with open(file_path, 'w', encoding='utf-8') as file:
-            file.writelines(filtered_lines)
-    except FileNotFoundError:
-        print("文件未找到，请检查文件路径。")
-    except Exception as e:
-        print(f"发生错误: {e}")
+            file.writelines(lines)
+    print(f"\033[34m内容已插入到 '{file_path}' 中 \033[0m")
 
 
 # 读取文件并查找中文简介
@@ -47,7 +47,6 @@ def read_file_to_memory(file_path):
     for description_match in search_results.description_matches:
         lines.append(description_match)
         chinese_texts.append((len(lines) - 1, description_match))
-    remove_zh_cn_lines(file_path)
     return chinese_texts
 
 
@@ -64,7 +63,7 @@ def translate_worker(chinese_texts, translations, lang):
 def translate_and_collect(chinese_texts, lang):
     translations = {}
     threads = []
-    chunk_size = len(chinese_texts) // 5 or 1
+    chunk_size = len(chinese_texts) // 5 or 1  # 每次访问api为5个.
     for i in range(0, len(chinese_texts), chunk_size):
         chunk = chinese_texts[i:i + chunk_size]
         thread = threading.Thread(target=translate_worker, args=(chunk, translations, lang))
@@ -75,6 +74,7 @@ def translate_and_collect(chinese_texts, lang):
         thread.join()
     translation_output = ""
     for line_number, chinese_text, translated_text in [(ln, ct, translations.get((ln, ct), None)) for ln, ct in chinese_texts if (ln, ct) in translations]:
+        translated_text = clean_text(translated_text)
         if line_number == 0:  # 第一行永远是标题
             translation_output += f'// @name:{lang}    {translated_text}\n'
         else:
@@ -82,22 +82,30 @@ def translate_and_collect(chinese_texts, lang):
     return translation_output
 
 
-# 循环翻译
-def translate_localized(readme_path, target_langs):
-    # 获取元的中文名称和简介
-    chinese_texts = read_file_to_memory(readme_path)
-    # 遍历 target_langs 中的语言
-    for lang_code in target_langs:
-        print(f"\033[32m开始翻译语言=>[{lang_code}]\033[0m")
-        translation_output = translate_and_collect(chinese_texts, lang_code)
-        insert_into_meta(readme_path, translation_output)
+def translate_task(file_path, lang, chinese_texts, file_lock):
+    print(f"\033[32m开始翻译语言=>[{lang}]\033[0m")
+    translation_output = translate_and_collect(chinese_texts, lang)
+    insert_into_meta(file_path, translation_output, file_lock)
+
+
+def translate_localized(file_path, target_langs):
+    chinese_texts = read_file_to_memory(file_path)
+    file_lock = threading.Lock()
+    max_threads = 5
+    with ThreadPoolExecutor(max_threads) as executor:
+        futures = [
+            executor.submit(translate_task, file_path, lang, chinese_texts, file_lock)
+            for lang in target_langs
+        ]
+        for future in futures:
+            future.result()
 
 
 def main():
     # 创建命令行参数解析器
     parser = argparse.ArgumentParser(description="UserScript 多语言自动化翻译与优化工具")
     parser.add_argument("file_path", type=str, help="需要处理的 UserScript 文件路径")
-    parser.add_argument("--langs", nargs="+", default=['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'kab', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh', 'zh-HK', 'zh-SG', 'zh-TW', 'zu'],
+    parser.add_argument("--langs", nargs="+", default=['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'ckb', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh', 'zh-MY', 'zh-MO', 'zh-HK', 'zh-SG', 'zh-TW', 'zu'],
                         help="目标翻译语言列表，默认包含 所有语言")
     args = parser.parse_args()
     file_path = args.file_path
