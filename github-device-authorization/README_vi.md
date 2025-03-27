@@ -60,12 +60,12 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508956">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 自动确认设备授权 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ GitHub Tự động xác nhận ủy quyền thiết bị Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.27.1144</strong></h3>
-<p><strong>新增</strong>: •处理<code>https://github.com/login/oauth</code>页面的按钮,只在多账户选择测试过.</p>
+<p><strong>Mới</strong>: •đối phó với<code>https://github.com/login/oauth</code>Nút trang,Chỉ được kiểm tra trong nhiều tài khoản.</p>
 <hr />
 <h3><strong>📅 2024-09-18 08:50:32- Ver 1.0.0.0</strong></h3>
-<p><strong>新增</strong>: •仅仅处理授权码行为,方便自用罢了.</p>
+<p><strong>Mới</strong>: •Chỉ xử lý hành vi mã ủy quyền,Chỉ để sử dụng cho bạn.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/508956.png">
 </div></center>
