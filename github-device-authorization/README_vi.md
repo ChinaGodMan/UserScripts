@@ -55,14 +55,17 @@
 
 <center><div align="center">
     <h1>GitHub Tự động xác nhận ủy quyền thiết bị</h1>
-    <p>「 hiện hữuGitHubTự động nhập mã ủy quyền và xác nhận tự động trên trang ủy quyền。 」</p>
+    <p>「 hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và tự động xác nhận.。 」</p>
     <img src="https://views.whatilearened.today/views/github/508956/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/508956">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ GitHub Tự động xác nhận ủy quyền thiết bị Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 自动确认设备授权 更新日志</strong></h1>
+<h3><strong>📅 2025.03.27.1144</strong></h3>
+<p><strong>新增</strong>: •处理<code>https://github.com/login/oauth</code>页面的按钮,只在多账户选择测试过.</p>
+<hr />
 <h3><strong>📅 2024-09-18 08:50:32- Ver 1.0.0.0</strong></h3>
-<p><strong>Mới</strong>: •Chỉ xử lý hành vi mã ủy quyền,Chỉ để sử dụng cho bạn.</p>
+<p><strong>新增</strong>: •仅仅处理授权码行为,方便自用罢了.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/508956.png">
 </div></center>
