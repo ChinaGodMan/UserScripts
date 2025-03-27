@@ -86,11 +86,25 @@
 // @compatible        edge
 // @compatible        opera
 // @compatible        safari
-// @version           1.0.0.0
+// @version           2025.03.27.1144
 // @match             https://github.com/login/device*
+// @match             https://github.com/login/oauth*
 // @Created           2024-09-18 08:50:32
 // @modified          2024-09-18 08:50:32
 // ==/UserScript==
+/**
+ * File: github-device-authorization.user.js
+ * Project: UserScripts
+ * File Created: 2024/11/24,Sunday 12:38:44
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/03/27,Thursday 11:44:57
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+
 (function () {
     'use strict'
     function waitForElement(selector, delay = 50, maxAttempts = 20) {
@@ -145,5 +159,9 @@
     }
     if (window.location.pathname.includes('/login/device/confirmation')) {
         autoSubmitFormOnConfirmation()
+    }
+    // 2025-03-27 @ 11:43:37 Thursday +0800 选中本地服务器验证
+    if (window.location.pathname.includes('/login/oauth')) {
+        document.querySelector('form > input.btn-primary').click()
     }
 })()
