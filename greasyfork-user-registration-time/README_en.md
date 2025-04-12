@@ -60,12 +60,12 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ greasyfork-user-registration-time 更新日志</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ greasyfork-user-registration-time Update log</strong></h1>
 <h3><strong>📅 22025.04.12.1109</strong></h3>
-<p><strong>修复</strong>: 添加<code>fr</code> 和 <code>fr-CA</code>语言的支持,以显示法国时间格式<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
-<strong>截图</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>
+<p><strong>repair</strong>: Add to<code>fr</code> and <code>fr-CA</code>Language support,In French time format<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
+<strong>screenshot</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>
 <h3><strong>📅 2025.03.10.0959</strong></h3>
-<p><strong>新增</strong>: 从<code>GreasyFork</code>直接获取用户的注册时间 ..</p>
+<p><strong>New</strong>: from<code>GreasyFork</code>Get the user’s registration time directly ..</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529359.png">
 </div></center>
