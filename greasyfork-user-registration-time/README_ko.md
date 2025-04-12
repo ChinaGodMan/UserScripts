@@ -54,15 +54,18 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>GreasyFork 사용자의 등록 시간을 표시하고 악의적 인 의견을 식별하십시오.</h1>
+    <h1>Greasyfork등록 시간을 표시</h1>
     <p>「 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ greasyfork-user-registration-time 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ greasyfork-user-registration-time 更新日志</strong></h1>
+<h3><strong>📅 22025.04.12.1109</strong></h3>
+<p><strong>修复</strong>: 添加<code>fr</code> 和 <code>fr-CA</code>语言的支持,以显示法国时间格式<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
+<strong>截图</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>
 <h3><strong>📅 2025.03.10.0959</strong></h3>
-<p><strong>새로운</strong>: ~에서<code>GreasyFork</code>사용자의 등록 시간을 직접 받으십시오 ..</p>
+<p><strong>新增</strong>: 从<code>GreasyFork</code>直接获取用户的注册时间 ..</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529359.png">
 </div></center>

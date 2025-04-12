@@ -54,15 +54,18 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Hiển thị thời gian đăng ký của người dùng Greasyfork và xác định nhận xét độc hại</h1>
+    <h1>Greasyfork Hiển thị thời gian đăng ký</h1>
     <p>「 Nếu kịch bản của bạn can thiệp vào lợi ích của một số người, không có gì đáng ngạc nhiên khi nhận được các đánh giá tiêu cực độc hại. Có hai đặc điểm của các đánh giá tiêu cực độc hại: Một là tài khoản thường được đăng ký mới và một đặc điểm khác là các đánh giá tiêu cực sẽ được đưa ra ngay sau khi đăng ký và về cơ bản sẽ không có hoạt động tiếp theo. Kịch bản này có thời gian đăng ký của người dùng Greasyfork và được hiển thị bên cạnh tên người dùng. Nếu thời gian hiển thị bên cạnh tên người dùng là thời gian trong tương lai, thì người dùng có thể sẽ là một tài khoản độc hại được đăng ký. 」</p>
     <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ greasyfork-user-registration-time Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ greasyfork-user-registration-time 更新日志</strong></h1>
+<h3><strong>📅 22025.04.12.1109</strong></h3>
+<p><strong>修复</strong>: 添加<code>fr</code> 和 <code>fr-CA</code>语言的支持,以显示法国时间格式<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
+<strong>截图</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>
 <h3><strong>📅 2025.03.10.0959</strong></h3>
-<p><strong>Mới</strong>: từ<code>GreasyFork</code>Nhận thời gian đăng ký của người dùng trực tiếp ..</p>
+<p><strong>新增</strong>: 从<code>GreasyFork</code>直接获取用户的注册时间 ..</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529359.png">
 </div></center>
