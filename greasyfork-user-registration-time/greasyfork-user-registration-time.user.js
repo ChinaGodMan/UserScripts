@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name              Display GreasyFork user registration time
-// @name:ar           Greasyfork  عرض وقت تسجيل المستخدم
+// @name:ar           Greasyfork عرض وقت تسجيل المستخدم
 // @name:bg           GreasyforkПоказване на времето за регистрация
 // @name:cs           Greasyfork Zobrazit dobu registrace
 // @name:da           Greasyfork Vis registreringstid
