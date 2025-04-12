@@ -97,7 +97,7 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.10.0959
+// @version           2025.04.12.1109
 // @created           2025-03-10 09:59:11
 // @modified          2025-03-10 09:59:11
 // ==/UserScript==
@@ -107,21 +107,19 @@
  * File Created: 2025/03/10,Monday 09:59:36
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/10,Monday 12:44:30
+ * Last Modified: 2025/04/12,Saturday 11:09:21
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
  */
 
-
 (function () {
     'use strict'
     const interval = 3000
     const absoluteTime = 'relative-time1'//随便修改个类名,显示精确时间.比如relative-time1
     var lang = document.querySelector('html').lang.toLowerCase() || navigator.language.toLowerCase()
-
-    if (!['en', 'zh-cn', 'zh-tw', 'ja', 'ru', 'kr'].includes(lang)) lang = 'en'
+    if (!['en', 'zh-cn', 'zh-tw', 'ja', 'ru', 'kr', 'fr', 'fr-CA'].includes(lang)) lang = 'en'
     const i18n = {
         en: {
             title: 'Registration time',
@@ -146,6 +144,14 @@
         kr: {
             title: '등록 시간',
             prefix: 'R'
+        },
+        fr: {
+            title: 'Heure d\'inscription',
+            prefix: 'R'
+        },
+        'fr-CA': {
+            title: 'Heure d\'inscription',
+            prefix: 'Heure d\'inscription'
         }
     }
     const title = i18n[lang].title
@@ -171,8 +177,6 @@
 
         return formatFn(dt)
     }
-
-
 
     async function genregtime(uid) {
         if (GM_getValue(uid) !== undefined && GM_getValue(uid) !== null) {
