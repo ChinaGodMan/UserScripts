@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.03.16.0506
+// @version           2025.04.15.1536
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -88,6 +88,7 @@
 // @grant             GM_getValue
 // @grant             GM_setValue
 // @grant             GM_addStyle
+// @grant             GM_xmlhttpRequest
 // @grant             GM_registerMenuCommand
 // @grant             none
 // @require           https://update.greasyfork.org/scripts/511697/1460281/TOTP%20Generator.js
@@ -107,7 +108,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/16,Sunday 05:10:46
+ * Last Modified: 2025/04/15,Tuesday 15:36:47
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -157,6 +158,10 @@ const translations = {
         deleteRepo_failed: 'Deletion failed!\nIt is recommended to check whether the GitHub token has permission to delete the repository!',
         deleteRepo_failed_status: 'Status code:',
         deleteRepo_btn: 'Delete repository',
+        repoLicense: 'License:',
+        repoPage: 'HomePage:',
+        repoTotal: 'Statistics:',
+        repoWatcher: 'Watchers:',
         secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.'
 
     },
@@ -179,11 +184,15 @@ const translations = {
         repoSize: '仓库大小：',
         repoDes: '仓库简介：',
         repoLang: '主要语言：',
+        repoPage: '主页：',
+        repoTotal: '统计：',
+        repoLicense: '开源协议：',
         repoCreated: '初始创建时间：',
         repoUpdated: '最后一次更新：',
         repoPushed: '最后一次推送：',
         repoForks: '复刻：',
         repoStars: '星标：',
+        repoWatcher: '关注者：',
         ossinsight: '仓库对应的 OSS Insight 分析页面',
         activeforks: '仓库对应的活跃复刻列表',
         activeforks_: '活跃的复刻',
@@ -381,6 +390,7 @@ const getPageType = () => {
     if (username && repo) return 'repo'
     if (q && type === 'code') return 'code_search'
     if (q) return 'search'
+    if (window.location.href.includes('github.com/notifications')) return 'notification'
 }
 const addSizeToRepos = () => {
 
@@ -588,7 +598,8 @@ const selectors = [
     'div[data-testid="list-view-item-title-container"] h4 a', // ORG下的仓库列表
     '#user-repositories-list h3 a', // 用户资料页面的仓库TAB
     '#user-starred-repos h3 a', // 用户资料页面的已星标仓库
-    'div[data-testid="results-list"] .search-title a' // 搜索
+    'div[data-testid="results-list"] .search-title a',// 搜索
+    '.notifications-list'// 通知页面
     // 'div[data-testid="results-list"] .search-title a' // 代码搜索
 ]
 document.addEventListener('DOMContentLoaded', () => {
@@ -616,6 +627,7 @@ function main(delay = 0) {
     Promise.race(selectors.map((selector) => waitForElement(selector))).then(() => {
         setTimeout(() => {
             addSizeToRepos()
+            handleUrlChange()
         }, delay)
     }).catch((error) => {
         console.error(error.message)
@@ -1113,4 +1125,145 @@ function fixPageHeader() {
         }
     `
     document.head.appendChild(css)
+}
+function updateProjectInfo(data) {
+    let infoDiv = document.getElementById('github-project-info')
+    if (!infoDiv) {
+        infoDiv = createInfoElement()
+        const notificationsList = document.querySelector('.notifications-list')
+        if (notificationsList) {
+            notificationsList.parentNode.insertBefore(infoDiv, notificationsList)
+        }
+    }
+    const content = `
+        <h3 style="margin-top: 0; grid-column: 1 / -1; margin-bottom: 15px;">📊
+    <a href="https://github.com/${data.full_name}" target="_blank">${data.full_name}</a>
+</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+                <div class="info-column" style="border-right: 1px solid #e1e4e8; padding-right: 16px;">
+                    <p style="margin-top: 0;"><strong>${translate.repoDes}</strong> ${data.description || 'None'}</p>
+                    <p><strong>${translate.repoTotal}</strong>
+                        <div style="margin-left: 20px;">
+                            ⭐ ${translate.repoStars} ${data.stargazers_count.toLocaleString()}<br>
+                            🍴${translate.repoForks}  ${data.forks_count.toLocaleString()}<br>
+                            👀 ${translate.repoWatcher} ${data.watchers_count.toLocaleString()}
+                        </div>
+                    </p>
+                </div>
+                <div class="info-column" style="padding-left: 16px;">
+                    <p style="margin-top: 0;"><strong>${translate.repoLang}</strong> ${data.language || 'None'}</p>
+                    <p><strong>${translate.repoUpdated}</strong> ${new Date(data.updated_at).toLocaleString()}</p>
+                    <p><strong>${translate.repoLicense}</strong> ${data.license ? data.license.name : 'None'}</p>
+                    ${data.homepage ? `<p><strong>${translate.repoPage}</strong> <a href="${data.homepage}" target="_blank">${data.homepage}</a></p>` : ''}
+                </div>
+            </div>
+        `
+
+    infoDiv.innerHTML = content
+
+    // 添加响应式样式
+    const style = document.createElement('style')
+    style.textContent = `
+            @media (max-width: 768px) {
+                #github-project-info > div {
+                    grid-template-columns: 1fr !important;
+                }
+                #github-project-info .info-column {
+                    border-right: none !important;
+                    padding: 0 !important;
+                }
+                #github-project-info .info-column:first-child {
+                    border-bottom: 1px solid #e1e4e8;
+                    padding-bottom: 16px !important;
+                }
+                #github-project-info .info-column:last-child {
+                    padding-top: 16px !important;
+                }
+            }
+        `
+    document.head.appendChild(style)
+}
+function fetchProjectInfo(owner, repo) {
+    GM_xmlhttpRequest({
+        method: 'GET',
+        url: `https://api.github.com/repos/${owner}/${repo}`,
+        headers: {
+            'Authorization': `token ${TOKEN}`,
+            'Accept': 'application/vnd.github.v3+json'
+        },
+        onload: function (response) {
+            try {
+                const data = JSON.parse(response.responseText)
+                updateProjectInfo(data)
+            } catch (e) {
+                console.error('解析项目信息失败:', e)
+            }
+        },
+        onerror: function (response) {
+            console.error('获取项目信息失败:', response)
+        }
+    })
+}
+function handleUrlChange() {
+    const repoInfo = getPageType()
+    if (repoInfo === 'notification') {
+        const notificationsList = document.querySelector('.notifications-list')
+        if (notificationsList) {
+            if (!notificationsList.hasAttribute('data-mouseover-listener')) {
+                let lastOwner
+                let lastName
+                notificationsList.addEventListener('mouseover', (event) => {
+                    const li = event.target.closest('li')
+                    if (li && notificationsList.contains(li)) {
+                        if (li.classList.contains('notifications-list-item')) {
+                            const link = li.querySelector('.js-navigation-open')
+                            if (link) {
+                                const result = extractRepoInfo(link.href)
+                                if (result) {
+                                    if (result.owner !== lastOwner || result.name !== lastName) {
+                                        console.log('🔍 获取→→', result)
+                                        lastOwner = result.owner
+                                        lastName = result.name
+                                        fetchProjectInfo(result.owner, result.name)
+                                    } else {
+                                        console.log('🔍禁止重复获取')
+                                    }
+                                }
+                            }
+                        }
+                    }
+                })
+                notificationsList.setAttribute('data-mouseover-listener', 'true')
+            } else {
+                console.log('禁止重复创建.')
+            }
+        }
+    } else {
+        // 如果没有找到仓库信息，移除已有的信息显示
+        const infoDiv = document.getElementById('github-project-info')
+        if (infoDiv) {
+            infoDiv.remove()
+        }
+    }
+}
+
+function createInfoElement() {
+    const infoDiv = document.createElement('div')
+    infoDiv.id = 'github-project-info'
+    infoDiv.style.padding = '15px'
+    infoDiv.style.margin = '10px 0'
+    infoDiv.style.backgroundColor = '#f6f8fa'
+    infoDiv.style.border = '1px solid #e1e4e8'
+    infoDiv.style.borderRadius = '6px'
+    return infoDiv
+}
+function extractRepoInfo(url) {
+    const urlObj = new URL(url)
+    const parts = urlObj.pathname.split('/')
+    if (parts.length >= 3) {
+        const owner = parts[1]
+        const name = parts[2]
+        return { owner, name }
+    }
+    return null
 }

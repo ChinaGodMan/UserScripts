@@ -166,6 +166,7 @@
 [🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 增强套件](https://greasyfork.org/scripts/529862)_
 <!--AUTHORS-END-->
 
+🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -263,6 +264,7 @@ GitHub: 作者 **[zvizvi](https://github.com/zvizvi)** Chrome插件 [GitHub-Web-
 作者 **[chen gang](https://greasyfork.org/zh-CN/users/720983)** 发布的脚本 [GitHub Delete Repositories](https://greasyfork.org/zh-CN/scripts/500173)
 
 <!--HELP-->
+
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 ## 使用帮助

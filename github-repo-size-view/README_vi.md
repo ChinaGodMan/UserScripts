@@ -166,6 +166,8 @@
 [🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub Bộ nâng cao](https://greasyfork.org/scripts/529862)_
 <!--AUTHORS-END-->
 
+🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)
+
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 

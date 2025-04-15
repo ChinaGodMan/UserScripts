@@ -1,5 +1,10 @@
 # **🛠️ GitHub Repo Size+ 升级日志**
 
+### **📅 2025.04.15.1536**
+
+**新增**:[通知页面](https://github.com/notifications)显示仓库信息<br>感谢:[qbmiller](https://github.com/qbmiller) 的脚本代码,[github_enhance](https://github.com/qbmiller/UserScripts) <br>Issue:[#111](https://github.com/ChinaGodMan/UserScripts/issues/111)<br>
+**截图**:![2025.04.15](https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif)<br>
+
 ### **📅 2025.03.16.0506**
 
 **新增**:GitHub 全局导航栏固定 代码来自[GitHub 增强套件](https://greasyfork.org/scripts/529862)<br>
