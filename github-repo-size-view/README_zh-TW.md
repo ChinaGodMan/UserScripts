@@ -61,43 +61,43 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>显示仓库信息<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>截图</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>顯示倉庫信息<br>感謝:<a href="https://github.com/qbmiller">qbmiller</a> 的腳本代碼,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>截圖</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>新增</strong>:GitHub 全局导航栏固定 代码来自<a href="https://greasyfork.org/scripts/529862">GitHub 增强套件</a><br>
-<strong>截图</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<p><strong>新增</strong>:GitHub 全局導航欄固定 代碼來自<a href="https://greasyfork.org/scripts/529862">GitHub 增強套件</a><br>
+<strong>截圖</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
-<strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
-<strong>修复</strong>:用户主题不同,元素也不同,选择器更改为<code>document.querySelector('.jxTzTd')</code><br>
-<strong>修复</strong>:已登录用户如果<code>TOKEN</code>不为空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回错误代码<code>401</code><br>
-<strong>修复</strong>:修复<code>代码搜索和仓库代码搜索</code>下会重复对一个仓库进行两次获取大小<br></p>
+<p><strong>新增</strong>:雙因素驗證碼自動填充功能<code>Two-factor authentication</code> 方便快速填充,持續監聽,直到觸發驗證....<br>
+<strong>新增</strong>:用戶資料頁面的已星標倉庫也添加顯示倉庫大小,<code>?tab=stars</code>下執行<br>
+<strong>修復</strong>:用戶主題不同,元素也不同,選擇器更改為<code>document.querySelector('.jxTzTd')</code><br>
+<strong>修復</strong>:已登錄用戶如果<code>TOKEN</code>不為空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回錯誤代碼<code>401</code><br>
+<strong>修復</strong>:修復<code>代碼搜索和倉庫代碼搜索</code>下會重複對一個倉庫進行兩次獲取大小<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>新增</strong>:已经获取的用户仓库列表保存在本地,<code>24h</code>刷新一次<br>
-<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 脚本功能 ，并支持移动设备，设置为动态监听<br>
-<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快捷查找活跃的 Forks 列表</a> 脚本功能 并支持移动设备，设置为动态监听<br>
-<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 脚本功能 在个人仓库和<code>?tab=repositories</code>页面快速删除 并支持移动设备，设置为动态监听<br>
-<strong>优化</strong>: 检测器十秒找不到元素停止运行<br></p>
+<p><strong>新增</strong>:已經獲取的用戶倉庫列表保存在本地,<code>24h</code>刷新一次<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 腳本功能 ，並支持移動設備，設置為動態監聽<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快捷查找活躍的 Forks 列表</a> 腳本功能 並支持移動設備，設置為動態監聽<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 腳本功能 在個人倉庫和<code>?tab=repositories</code>頁面快速刪除 並支持移動設備，設置為動態監聽<br>
+<strong>最佳化</strong>: 檢測器十秒找不到元素停止運行<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>修复</strong>:CSS 在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>修復</strong>:CSS 在移動端小分隔條被錯誤隱藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
-<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
-<strong>修复</strong>：列表重复添加问题<br>
-<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>新增</strong>: 快捷跳轉列表添加鼠標懸浮<code>Title</code>顯示倉庫基本信息<br>
+<strong>最佳化</strong>: 現在可以顯示用戶的全部倉庫，但不建議這麼做，影響體驗。<br> 在腳本的 343 行使用代碼<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>參數三為真時遞歸獲取用戶列表<br>參數四限制參數三為真時遞歸最大頁數<br>
+<strong>修復</strong>：列表重複添加問題<br>
+<strong>修復</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
+<p><strong>新增</strong>: GitHub 側邊欄跳轉倉庫比較繁瑣,增加一個在倉庫內快捷跳轉用戶的其他倉庫<br></p>
 <table>
 <thead>
 <tr>
-<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
-<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
+<th><code>紅色</code> 為公開倉庫 <code>綠色</code> 為私人倉庫 <code>Fork</code> 復刻的倉庫 (登錄的用戶,必須鍵入 TOKEN)</th>
+<th>新增演示 ~~僅顯示第一頁 30 個倉庫,超出不會顯示,目前夠我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
 </tr>
 </thead>
 <tbody>
@@ -113,21 +113,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>优化</strong>: 优化小标签<br>
-<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
+<p><strong>最佳化</strong>: 優化小標籤<br>
+<strong>新增</strong>: 不活躍開發橫幅右下角顯示最後一次<code>Push</code>距現在多久<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
+<p><strong>最佳化</strong>: 優化執行效率,提升加載速度<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在倉庫頁面顯示不活躍開發提醒。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>一年以上无更新</th>
-<th>半年内无更新</th>
+<th>一年以上無更新</th>
+<th>半年內無更新</th>
 </tr>
 </thead>
 <tbody>
@@ -143,20 +143,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用該腳本的設置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
+<p><strong>新增</strong>: 增加腳本菜單 → 設定 GitHub Token 介面，無需在代碼內修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用戶資料倉庫列表和組織列表顯示倉庫大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
+<p><strong>修復</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效導致無法訪問公共倉庫。修復方式：刪除原作者令牌，GitHub 生成的公共令牌總是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修复</strong>: 修复在搜索页面失效的问题。
-<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
+<p><strong>修復</strong>: 修復在搜索頁面失效的問題。
+<strong>修復</strong>: 修復查看其他倉庫時不顯示的問題（增加延時）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
