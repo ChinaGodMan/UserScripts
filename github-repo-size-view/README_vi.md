@@ -55,46 +55,49 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>🤠 Github Trợ lý nâng cao Kích thước hiển thị kho</h1>
-    <p>「 🤠 Kích thước hiển thị kho：hiện hữu GitHub Tìm kiếm mã、Tìm kiếm kho、Trang chương trình nghị sự、Danh sách kho lưu trữ người dùng và trang Kho lưu trữ，Kích thước của kho sẽ được hiển thị bên cạnh tên kho，Thật thuận tiện cho người dùng để nhanh chóng hiểu được kích thước của kho，Lựa chọn tối ưu hóa。Cảnh báo phát triển không hoạt động：Nếu một kho lưu trữ chưa được cập nhật trong sáu tháng qua，Hệ thống sẽ thêm một lời nhắc ở đầu kho lưu trữ，Nhắc nhở người dùng rằng kho lưu trữ không hoạt động，và hiển thị thời gian cập nhật cuối cùng。Điều này giúp người dùng đánh giá mức độ hoạt động và trạng thái bảo trì của kho。Nhảy nhanh vào kho：Trong khi duyệt kho，Người dùng có thể dễ dàng xem tất cả các kho lưu trữ của người dùng này，Cung cấp một lối vào một bước nhảy nhanh đến các kho khác nhau。Người dùng có thể nhanh chóng tìm thấy và truy cập các dự án quan tâm khác，Cải thiện hiệu quả làm việc。Sử dụng kịch bản：Nhà phát triển：Có thể được hiển thị bằng cách hiển thị kích thước kho và cảnh báo hoạt động，Nhanh chóng lọc đúng thư viện để phát triển，Tránh sử dụng các dự án không còn được duy trì。Quản lý dự án：Thông qua chức năng nhảy nhanh，Dễ dàng quản lý và phối hợp nhiều dự án，Cải thiện hiệu quả làm việc。người học：Trong khi học các công nghệ mới，Dễ dàng tìm thấy các dự án nguồn mở có liên quan，Nhanh chóng xem mức độ hoạt động và quy mô của dự án。🤠 」</p>
+    <h1>🤠 Kích thước hiển thị kho trợ lý nâng cao của Github</h1>
+    <p>「 🤠 Kích thước hiển thị kho: Trên mã tìm kiếm, tìm kiếm kho, trang vấn đề, danh sách kho của người dùng và trang kho, kích thước của kho sẽ được hiển thị bên cạnh tên kho, giúp người dùng nhanh chóng hiểu được quy mô của kho và tối ưu hóa quy mô kho của mình. lựa chọn. Cảnh báo phát triển không hoạt động: Nếu kho lưu trữ không được cập nhật trong sáu tháng qua, hệ thống sẽ thêm lời nhắc ở đầu kho lưu trữ để nhắc nhở người dùng rằng kho lưu trữ không hoạt động và hiển thị thời gian cập nhật lần cuối. Điều này giúp người dùng xác định được tình trạng hoạt động và bảo trì của kho. Nhảy nhanh trong kho: Khi duyệt kho, người dùng có thể dễ dàng xem danh sách tất cả các kho của người dùng, cung cấp lối vào để nhanh chóng chuyển đến các kho khác nhau. Người dùng có thể nhanh chóng tìm và truy cập các dự án khác mà họ quan tâm, nâng cao hiệu quả công việc. Tình huống sử dụng: Nhà phát triển: Bằng cách hiển thị quy mô kho và cảnh báo đang hoạt động, bạn có thể nhanh chóng lọc ra các thư viện phù hợp để phát triển và tránh sử dụng các dự án không còn được bảo trì. Quản lý dự án: Thông qua chức năng nhảy nhanh, bạn có thể dễ dàng quản lý và điều phối nhiều dự án, đồng thời nâng cao hiệu quả công việc. Người học: Khi học các công nghệ mới, họ có thể dễ dàng tìm thấy các dự án nguồn mở có liên quan hơn và nhanh chóng kiểm tra hoạt động cũng như quy mô của dự án. 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.04.15.1536</strong></h3>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>显示仓库信息<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>截图</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>Mới</strong>:GitHub Thanh điều hướng toàn cầu đã cố định Mã từ<a href="https://greasyfork.org/scripts/529862">GitHub Bộ nâng cao</a><br>
-<strong>Ảnh chụp màn hình</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<p><strong>新增</strong>:GitHub 全局导航栏固定 代码来自<a href="https://greasyfork.org/scripts/529862">GitHub 增强套件</a><br>
+<strong>截图</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>Mới</strong>:Mã xác minh hai yếu tố tự động làm đầy<code>Two-factor authentication</code> Làm đầy nhanh chóng và nhanh chóng,Giám sát liên tục,Cho đến khi xác minh được kích hoạt....<br>
-<strong>Mới</strong>:Kho được sao chép trên trang hồ sơ người dùng cũng thêm kích thước kho hiển thị,<code>?tab=stars</code>Thực hiện bên dưới<br>
-<strong>Sửa chữa</strong>:Chủ đề người dùng khác nhau,Các yếu tố khác nhau,Thay đổi bộ chọn thành<code>document.querySelector('.jxTzTd')</code><br>
-<strong>Sửa chữa</strong>:Đăng nhập người dùng nếu<code>TOKEN</code>Không trống,Sử dụng danh sách của riêng bạn API<code>https://api.github.com/user/repos</code>.Ngăn mã lỗi được trả về<code>401</code><br>
-<strong>Sửa chữa</strong>:Sửa chữa<code>Tìm kiếm mã và tìm kiếm mã kho lưu trữ</code>Kích thước của một nhà kho sẽ được lấy lại hai lần.<br></p>
+<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
+<strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
+<strong>修复</strong>:用户主题不同,元素也不同,选择器更改为<code>document.querySelector('.jxTzTd')</code><br>
+<strong>修复</strong>:已登录用户如果<code>TOKEN</code>不为空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回错误代码<code>401</code><br>
+<strong>修复</strong>:修复<code>代码搜索和仓库代码搜索</code>下会重复对一个仓库进行两次获取大小<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>Mới</strong>:Danh sách kho lưu trữ người dùng đã được lưu cục bộ,<code>24h</code>Làm mới một lần<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Chức năng kịch bản ，Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Nhanh chóng tìm thấy hoạt động Forks Danh sách</a> Chức năng kịch bản Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Chức năng kịch bản Trong kho cá nhân và<code>?tab=repositories</code>Xóa trang nhanh Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>tối ưu hóa</strong>: Máy dò không thể tìm thấy phần tử trong mười giây và dừng chạy<br></p>
+<p><strong>新增</strong>:已经获取的用户仓库列表保存在本地,<code>24h</code>刷新一次<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 脚本功能 ，并支持移动设备，设置为动态监听<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快捷查找活跃的 Forks 列表</a> 脚本功能 并支持移动设备，设置为动态监听<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 脚本功能 在个人仓库和<code>?tab=repositories</code>页面快速删除 并支持移动设备，设置为动态监听<br>
+<strong>优化</strong>: 检测器十秒找不到元素停止运行<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>Sửa chữa</strong>:CSS Các thanh phân vùng nhỏ bị ẩn bởi các lỗi trên thiết bị di động：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>修复</strong>:CSS 在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>Mới</strong>: Danh sách nhảy nhanh để thêm bay chuột<code>Title</code>Hiển thị thông tin kho cơ bản<br>
-<strong>tối ưu hóa</strong>: Tất cả các kho lưu trữ của người dùng hiện có thể được hiển thị，Nhưng không nên làm điều này，Ảnh hưởng kinh nghiệm。<br> Trong kịch bản 343 Mã sử ​​dụng mã<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>Có được danh sách người dùng khi tham số ba là đúng<br>Tham số 4 Giới hạn Tham số 3 là số lượng đệ quy tối đa thực sự<br>
-<strong>Sửa chữa</strong>：Danh sách lặp đi lặp lại các câu hỏi bổ sung<br>
-<strong>Sửa chữa</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
+<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
+<strong>修复</strong>：列表重复添加问题<br>
+<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>Mới</strong>: GitHub Thanh bên nhảy đến kho phức tạp hơn,Thêm một kho khác để nhanh chóng nhảy người dùng vào kho<br></p>
+<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
 <table>
 <thead>
 <tr>
-<th><code>màu đỏ</code> Đối với kho mở <code>màu xanh lá</code> Cho kho tư nhân <code>Fork</code> Kho lưu trữ (Đăng nhập người dùng,Phải được gõ TOKEN)</th>
-<th>Đã thêm một bản demo ~~Chỉ hiển thị trang đầu tiên 30 Một nhà kho,Vượt quá sẽ không hiển thị,Tôi đủ để sử dụng bản thân mình bây giờ~~ <code>0.1.3.4</code>Tất cả được hỗ trợ</th>
+<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
+<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
 </tr>
 </thead>
 <tbody>
@@ -110,21 +113,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>tối ưu hóa</strong>: Tối ưu hóa các thẻ nhỏ<br>
-<strong>Mới</strong>: Biểu ngữ phát triển không hoạt động lần trước được hiển thị ở góc dưới bên phải<code>Push</code>Bây giờ đã bao lâu rồi<br></p>
+<p><strong>优化</strong>: 优化小标签<br>
+<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>tối ưu hóa</strong>: Tối ưu hóa hiệu quả thực thi,Cải thiện tốc độ tải<br>
+<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Hiển thị lời nhắc phát triển không hoạt động trên trang kho。<br>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>Không có bản cập nhật nào trong quá một năm</th>
-<th>Không có bản cập nhật trong vòng nửa năm</th>
+<th>一年以上无更新</th>
+<th>半年内无更新</th>
 </tr>
 </thead>
 <tbody>
@@ -140,20 +143,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Sử dụng giao diện thiết lập của tập lệnh này。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>Mới</strong>: Thêm menu tập lệnh → cài đặt GitHub Token giao diện，Không cần sửa đổi nó trong mã。</p>
+<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Thêm kích thước kho hiển thị trong danh sách tổ chức và danh sách tổ chức hồ sơ người dùng。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>Sửa chữa</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Mã thông báo ban đầu của tác giả không truy cập được kho lưu trữ công khai。Cách sửa nó：Xóa mã thông báo tác giả ban đầu，GitHub Mã thông báo công khai được tạo luôn được xóa，Do đó không còn nữa。</p>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>Sửa chữa</strong>: Đã sửa lỗi làm mất hiệu lực trang tìm kiếm。
-<strong>Sửa chữa</strong>: Đã khắc phục sự cố không hiển thị khi xem các kho lưu trữ khác（Tăng độ trễ）。</p>
+<p><strong>修复</strong>: 修复在搜索页面失效的问题。
+<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
