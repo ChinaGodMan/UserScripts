@@ -61,43 +61,46 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.04.16.1439</strong></h3>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>点击左侧仓库,直接显示指定仓库的信息<br>兼容<code>2025.04.15</code>版本在所有通知信息上悬浮的功能.<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>截图</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>New</strong>:<a href="https://github.com/notifications">Notification page</a>Display warehouse information<br>grateful:<a href="https://github.com/qbmiller">qbmiller</a> script code,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>screenshot</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>显示仓库信息<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>截图</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>New</strong>:GitHub Global navigation bar fixed Code from<a href="https://greasyfork.org/scripts/529862">GitHub Enhancement Kit</a><br>
-<strong>screenshot</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<p><strong>新增</strong>:GitHub 全局导航栏固定 代码来自<a href="https://greasyfork.org/scripts/529862">GitHub 增强套件</a><br>
+<strong>截图</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>New</strong>:Two-factor verification code automatic filling function<code>Two-factor authentication</code> Convenient and quick filling,Continuous monitoring,Until verification is triggered....<br>
-<strong>New</strong>:The starred warehouse on the user profile page also adds the display warehouse size,<code>?tab=stars</code>Execute below<br>
-<strong>repair</strong>:Different user topics,The elements are different,Change the selector to<code>document.querySelector('.jxTzTd')</code><br>
-<strong>repair</strong>:Logged in user if<code>TOKEN</code>Not empty,Use your own list API<code>https://api.github.com/user/repos</code>.Prevent error codes from being returned<code>401</code><br>
-<strong>repair</strong>:repair<code>Code Search and Repository Code Search</code>The size of a warehouse will be retrieved twice.<br></p>
+<p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
+<strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
+<strong>修复</strong>:用户主题不同,元素也不同,选择器更改为<code>document.querySelector('.jxTzTd')</code><br>
+<strong>修复</strong>:已登录用户如果<code>TOKEN</code>不为空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回错误代码<code>401</code><br>
+<strong>修复</strong>:修复<code>代码搜索和仓库代码搜索</code>下会重复对一个仓库进行两次获取大小<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>New</strong>:The user repository list has been saved locally,<code>24h</code>Refresh once<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Scripting functions ，And support mobile devices，Set as dynamic monitoring<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Quickly find active Forks List</a> Scripting functions And support mobile devices，Set as dynamic monitoring<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Scripting functions In personal warehouses and<code>?tab=repositories</code>Quick page deletion And support mobile devices，Set as dynamic monitoring<br>
-<strong>optimization</strong>: The detector cannot find the element in ten seconds and stops running<br></p>
+<p><strong>新增</strong>:已经获取的用户仓库列表保存在本地,<code>24h</code>刷新一次<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 脚本功能 ，并支持移动设备，设置为动态监听<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快捷查找活跃的 Forks 列表</a> 脚本功能 并支持移动设备，设置为动态监听<br>
+<strong>新增</strong>: 合并<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 脚本功能 在个人仓库和<code>?tab=repositories</code>页面快速删除 并支持移动设备，设置为动态监听<br>
+<strong>优化</strong>: 检测器十秒找不到元素停止运行<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>repair</strong>:CSS Small partition bars are hidden by errors on mobile：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>修复</strong>:CSS 在移动端小分隔条被错误隐藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>New</strong>: Quick jump list to add mouse levitation<code>Title</code>Display basic warehouse information<br>
-<strong>optimization</strong>: All repositories of users can now be displayed，But it is not recommended to do this，Influence experience。<br> In the script 343 Line usage code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>Recursively obtain user list when parameter three is true<br>Parameter 4 limits parameter 3 is true maximum recursive page count<br>
-<strong>repair</strong>：Repeated list addition questions<br>
-<strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
+<p><strong>新增</strong>: 快捷跳转列表添加鼠标悬浮<code>Title</code>显示仓库基本信息<br>
+<strong>优化</strong>: 现在可以显示用户的全部仓库，但不建议这么做，影响体验。<br> 在脚本的 343 行使用代码<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>参数三为真时递归获取用户列表<br>参数四限制参数三为真时递归最大页数<br>
+<strong>修复</strong>：列表重复添加问题<br>
+<strong>修复</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>New</strong>: GitHub Sidebar jump to warehouse is more complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
+<p><strong>新增</strong>: GitHub 侧边栏跳转仓库比较繁琐,增加一个在仓库内快捷跳转用户的其他仓库<br></p>
 <table>
 <thead>
 <tr>
-<th><code>red</code> For the open warehouse <code>green</code> For private warehouses <code>Fork</code> Replica warehouse (Logged in user,Must be typed TOKEN)</th>
-<th>Added a demo ~~Show only the first page 30 A warehouse,Exceed will not display,It’s enough for me to use myself now~~ <code>0.1.3.4</code>All supported</th>
+<th><code>红色</code> 为公开仓库 <code>绿色</code> 为私人仓库 <code>复刻</code> 复刻的仓库 (登录的用户,必须键入 TOKEN)</th>
+<th>新增演示 ~~仅显示第一页 30 个仓库,超出不会显示,目前够我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
 </tr>
 </thead>
 <tbody>
@@ -113,21 +116,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>optimization</strong>: Optimize small tags<br>
-<strong>New</strong>: Inactive development banner last time is displayed in the lower right corner<code>Push</code>How long has it been now<br></p>
+<p><strong>优化</strong>: 优化小标签<br>
+<strong>新增</strong>: 不活跃开发横幅右下角显示最后一次<code>Push</code>距现在多久<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
+<p><strong>优化</strong>: 优化执行效率,提升加载速度<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Display inactive development reminder on the warehouse page。<br>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 在仓库页面显示不活跃开发提醒。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>No updates for more than one year</th>
-<th>No updates within half a year</th>
+<th>一年以上无更新</th>
+<th>半年内无更新</th>
 </tr>
 </thead>
 <tbody>
@@ -143,20 +146,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用该脚本的设置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify it in the code。</p>
+<p><strong>新增</strong>: 增加脚本菜单 → 设置 GitHub Token 界面，无需在代码内修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Add the display warehouse size in the user profile warehouse list and organization list。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用户资料仓库列表和组织列表显示仓库大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author token fails to access the public repository。How to fix it：Delete the original author token，GitHub The generated public token is always cleared，Therefore no more。</p>
+<p><strong>修复</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效导致无法访问公共仓库。修复方式：删除原作者令牌，GitHub 生成的公共令牌总是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>repair</strong>: Fixed the issue of invalidating the search page。
-<strong>repair</strong>: Fixed the issue that did not display when viewing other repositories（Increase delay）。</p>
+<p><strong>修复</strong>: 修复在搜索页面失效的问题。
+<strong>修复</strong>: 修复查看其他仓库时不显示的问题（增加延时）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>

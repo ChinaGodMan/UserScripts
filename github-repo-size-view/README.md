@@ -62,6 +62,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.04.16.1439</strong></h3>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>点击左侧仓库,直接显示指定仓库的信息<br>兼容<code>2025.04.15</code>版本在所有通知信息上悬浮的功能.<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>截图</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <h3><strong>📅 2025.04.15.1536</strong></h3>
 <p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>显示仓库信息<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>截图</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
