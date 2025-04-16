@@ -1,5 +1,10 @@
 # **🛠️ GitHub Repo Size+ 升级日志**
 
+### **📅 2025.04.16.2350**
+
+**新增**:[通知页面](https://github.com/notifications)支持系统`浅色模式`和`深色模式`<br>
+**截图**:![2025.04.16](https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif)<br>
+
 ### **📅 2025.04.16.1439**
 
 **新增**:[通知页面](https://github.com/notifications)点击左侧仓库,直接显示指定仓库的信息<br>兼容`2025.04.15`版本在所有通知信息上悬浮的功能.<br>感谢:[qbmiller](https://github.com/qbmiller) 的脚本代码,[github_enhance](https://github.com/qbmiller/UserScripts) <br>Issue:[#111](https://github.com/ChinaGodMan/UserScripts/issues/111)<br>
