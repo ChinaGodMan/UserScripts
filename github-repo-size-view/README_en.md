@@ -176,40 +176,40 @@
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## 预览
+## Preview
 
-1. **显示仓库大小：**  
+1. **Show warehouse size：**  
     ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
    ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-2. **仓库内快捷跳转：**  
+2. **Quick jump in the warehouse：**  
     ![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png) ![info.png](https://s2.loli.net/2024/10/05/x3BTk2frW8eqFOa.png)
    ![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-3. **不活跃开发警告：**  
+3. **Inactive development warning：**  
    ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png)
    ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png)
    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-4. **仓库便捷功能：**
+4. **Warehouse convenient function：**
    ![he.png](https://s2.loli.net/2024/10/06/DBytY8Qx6qWRoPH.png)
    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 
-5. **快速删除自己的仓库：**
+5. **Quickly delete your own repository：**
   ![delonpro.png](https://s2.loli.net/2024/10/06/l9538YRreGaktx6.png)
   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 
 
-6. **[通知页面](https://github.com/notifications)点击显示项目信息，感谢:[qbmiller](https://github.com/qbmiller) 的脚本[github_enhance](https://github.com/qbmiller/UserScripts) 代码 [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
+6. **[Notification page](https://github.com/notifications)Click to display project information，grateful:[qbmiller](https://github.com/qbmiller) Scripts[github_enhance](https://github.com/qbmiller/UserScripts) Code [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
    !![Image](https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe)
    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 
-7. **[通知页面](https://github.com/notifications)悬浮显示项目信息，感谢:[qbmiller](https://github.com/qbmiller) 的脚本[github_enhance](https://github.com/qbmiller/UserScripts) 代码 [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
+7. **[Notification page](https://github.com/notifications)Suspended display project information，grateful:[qbmiller](https://github.com/qbmiller) Scripts[github_enhance](https://github.com/qbmiller/UserScripts) Code [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
   ![2025.04.15](https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif)
   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
