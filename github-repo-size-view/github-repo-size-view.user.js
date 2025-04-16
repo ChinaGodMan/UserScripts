@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.04.15.1536
+// @version           2025.04.16.1439
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -108,7 +108,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/15,Tuesday 15:36:47
+ * Last Modified: 2025/04/16,Wednesday 14:39:45
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -627,7 +627,7 @@ function main(delay = 0) {
     Promise.race(selectors.map((selector) => waitForElement(selector))).then(() => {
         setTimeout(() => {
             addSizeToRepos()
-            handleUrlChange()
+            notificationRepo()
         }, delay)
     }).catch((error) => {
         console.error(error.message)
@@ -1204,8 +1204,32 @@ function fetchProjectInfo(owner, repo) {
         }
     })
 }
-function handleUrlChange() {
+function getRepoFromUrl() {
+    const urlParams = new URLSearchParams(window.location.search)
+    const repoQuery = urlParams.get('query')
+    if (!repoQuery) return null
+    // 匹配 repo:owner/repo 格式
+    const repoMatch = repoQuery.match(/repo:([^/]+)\/([^/\s]+)/)
+    if (repoMatch) {
+        return {
+            owner: repoMatch[1],
+            repo: repoMatch[2]
+        }
+    }
+    return null
+}
+function notificationRepo() {
+    const chooseRepoInfo = getRepoFromUrl()
     const repoInfo = getPageType()
+    if (!repoInfo && !chooseRepoInfo) {
+        // 如果没有找到仓库信息，移除已有的信息显示
+        const infoDiv = document.getElementById('github-project-info')
+        if (infoDiv) { infoDiv.remove() }
+    }
+    if (chooseRepoInfo) {
+        fetchProjectInfo(chooseRepoInfo.owner, chooseRepoInfo.repo)
+        return //! 精确选择的仓库直接使用URL内的信息
+    }
     if (repoInfo === 'notification') {
         const notificationsList = document.querySelector('.notifications-list')
         if (notificationsList) {
@@ -1237,12 +1261,6 @@ function handleUrlChange() {
             } else {
                 console.log('禁止重复创建.')
             }
-        }
-    } else {
-        // 如果没有找到仓库信息，移除已有的信息显示
-        const infoDiv = document.getElementById('github-project-info')
-        if (infoDiv) {
-            infoDiv.remove()
         }
     }
 }
