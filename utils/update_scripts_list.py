@@ -37,10 +37,18 @@ def generate_description(all_scripts, single_group=False):
 def generate_html_table(scripts):
     html_table = ''''''
     for script in scripts:
-        placeholder_image = "https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"
-        img_tag = f'<img width=511 src="{script.get("img")}">' if script.get("img") else f'<img width=511 height=300 src="{placeholder_image}">'
+        img_tag = f'<img width=511 src="{script.get("img")}">' if script.get("img") else ""
         script_id = script.get("GreasyFork")
         script_fold = script.get("backuppath")
+        # ! 对没有预览截图的脚本,只显示介绍就行了
+        screenshot_block = f'''<details>
+    <summary>{script.get("description")}</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
+           {img_tag}</a>
+    </blockquote>
+</details>''' if img_tag else script.get("description")
+
         html_table += f'''<h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
@@ -49,13 +57,7 @@ def generate_html_table(scripts):
         <img height=24 src="https://img.shields.io/greasyfork/dt/{script_id}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
-<details>
-    <summary>{script.get("description")}</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
-           {img_tag}</a>
-    </blockquote>
-</details>
+{screenshot_block}
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/{script_id}">
