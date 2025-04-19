@@ -70,17 +70,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>dejar ChatGPT La fuente en el cuadro de código se vuelve más pequeña</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+dejar ChatGPT La fuente en el cuadro de código se vuelve más pequeña
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505209">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505209">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling/#readme">
@@ -109,7 +103,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/527255">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/527255">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/#readme">
@@ -138,7 +132,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/509598">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/509598">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/#readme">
@@ -167,7 +161,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506166">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506166">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter/#readme">
@@ -196,7 +190,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504901">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504901">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/#readme">
@@ -216,7 +210,7 @@
 </h3>
 
 <details>
-    <summary>Prohibido para la mierda en la versión editada，El verde es para su lanzamiento，Prohibido，Dirección temporal naranja</summary>
+    <summary>Prohibido para hacer caca en la versión editada，El verde es para su lanzamiento，Prohibido，Dirección temporal naranja</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -225,7 +219,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/497403">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497403">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/#readme">
@@ -239,22 +233,16 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">EliminaciónCSDNRestricciones de replicación de inicio de sesión</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">LiberarCSDNRestricciones de replicación de inicio de sesión</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Vete a la mierda CSDN Iniciar sesión para copiar，Copie el contenido del cuadro de código sin iniciar sesión</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Vete a la mierda CSDN Iniciar sesión para copiar，Copie el contenido del cuadro de código sin iniciar sesión
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505207">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/#readme">
@@ -283,7 +271,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/507036">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/507036">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/#readme">
@@ -312,7 +300,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498906">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498906">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords/#readme">
@@ -331,17 +319,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Destacado de palabras clave personalizadas en páginas web que incluyen la carga dinámica al desplazarse</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Destacado de palabras clave personalizadas en páginas web que incluyen la carga dinámica al desplazarse
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498905">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498905">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini/#readme">
@@ -361,7 +343,7 @@
 </h3>
 
 <details>
-    <summary>Abra un enlace en una ventana emergente al arrastrar y soltar，y proporcionar una vista previa antes de abrir，usar Edge 的预读技术。Al mismo tiempo, agregue el efecto acrílico detrás de la parte posterior cuando se abra la pequeña ventana。</summary>
+    <summary>Abra un enlace en una ventana emergente al arrastrar y soltar，y proporcionar una vista previa antes de abrir，usar Edge Tecnología de lectura。Al mismo tiempo, agregue el efecto acrílico detrás de la parte posterior cuando se abra la pequeña ventana。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
@@ -370,7 +352,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504880">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504880">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/#readme">
@@ -389,17 +371,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Eliminar el subrayado de los enlaces web</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Eliminar el subrayado de los enlaces web
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498625">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498625">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines/#readme">
@@ -428,7 +404,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/497251">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497251">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button/#readme">
@@ -457,7 +433,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500255">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/500255">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/#readme">
@@ -486,7 +462,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/530139">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530139">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/#readme">
@@ -506,7 +482,7 @@
 </h3>
 
 <details>
-    <summary>El guión GitHub La información de envío sobre ella se convierte en HTML vista，Ver detalles de envío más claramente。Enumerará automáticamente la información de envío、El encabezado de envío y la última información de envío se convierten en HTML Formato，Proporcionar mejores efectos visuales y experiencia del usuario。</summary>
+    <summary>El guión GitHub La información de envío sobre ella se convierte en HTML vista，Ver detalles de envío más claramente。Enumerará automáticamente la información de envío、Enviar encabezado y la última información de envío se convierte en HTML Formato，Proporcionar mejores efectos visuales y experiencia del usuario。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -515,7 +491,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505830">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505830">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer/#readme">
@@ -544,7 +520,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/527870">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/527870">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/#readme">
@@ -573,7 +549,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/515205">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/515205">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator/#readme">
@@ -602,7 +578,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/508047">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508047">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/#readme">
@@ -631,7 +607,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/509889">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/509889">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand/#readme">
@@ -650,17 +626,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>existirGitHubIngrese automáticamente el código de autorización y la confirmación automática en la página de autorización。</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+existirGitHubIngrese automáticamente el código de autorización y la confirmación automática en la página de autorización。
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/508956">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508956">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization/#readme">
@@ -689,7 +659,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505496">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505496">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/#readme">
@@ -709,7 +679,7 @@
 </h3>
 
 <details>
-    <summary>Agregar botón al final de cada línea de archivo，Para copiar el archivo original URL y descargar archivos</summary>
+    <summary>Agregar botones al final de cada línea de archivo，Para copiar el archivo original URL y descargar archivos</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
@@ -718,7 +688,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505501">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505501">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus/#readme">
@@ -747,7 +717,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/502291">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/502291">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/#readme">
@@ -776,7 +746,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505218">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505218">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date/#readme">
@@ -805,7 +775,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529534">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529534">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/#readme">
@@ -834,7 +804,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/530312">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530312">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate/#readme">
@@ -863,7 +833,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/502652">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/502652">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/#readme">
@@ -882,17 +852,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Bloquear sitios específicos en los resultados del motor de búsqueda，Ayudar a los usuarios a filtrar resultados de búsqueda no deseados。 Sitio de bloqueo de entrada personalizado。Formato-zhihu -baidu Se usa para bloquear el contenido de búsqueda de Google</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Bloquear sitios específicos en los resultados del motor de búsqueda，Ayudar a los usuarios a filtrar resultados de búsqueda no deseados。 Sitio de bloqueo de entrada personalizado。Formato-zhihu -baidu Se usa para bloquear el contenido de búsqueda de Google
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/500262">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites/#readme">
@@ -921,7 +885,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/497317">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497317">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link/#readme">
@@ -950,7 +914,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/508968">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508968">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/#readme">
@@ -979,7 +943,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506717">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506717">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/#readme">
@@ -1008,7 +972,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505164">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505164">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/#readme">
@@ -1037,7 +1001,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/501119">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/501119">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks/#readme">
@@ -1056,17 +1020,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Buscar usando Google GreasyFork y SleazyFork Guión sobre</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Buscar usando Google GreasyFork y SleazyFork Guión sobre
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505215">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505215">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search/#readme">
@@ -1095,7 +1053,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/501880">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/501880">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button/#readme">
@@ -1124,7 +1082,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/497346">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497346">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/#readme">
@@ -1153,7 +1111,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506345">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506345">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/#readme">
@@ -1182,7 +1140,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498904">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498904">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/#readme">
@@ -1211,7 +1169,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529359">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529359">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/#readme">
@@ -1230,17 +1188,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Prueba MisssAV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Prueba MisssAV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505325">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505325">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/#readme">
@@ -1260,7 +1212,7 @@
 </h3>
 
 <details>
-    <summary>xhamster Descarga de video de un solo clic | xhamster.com | Descargar directamente sin iniciar sesión | Todas las resoluciones visibles disponibles para descargar</summary>
+    <summary>xhamster Descargar video con un solo clic | xhamster.com | Descargar directamente sin iniciar sesión | Todas las resoluciones visibles disponibles para descargar</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
@@ -1269,7 +1221,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529043">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529043">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/#readme">
@@ -1289,7 +1241,7 @@
 </h3>
 
 <details>
-    <summary>XnxxVideos Descarga de video de un solo clic | xnxx.com | Descargar directamente sin iniciar sesión | Todas las resoluciones visibles disponibles para descargar</summary>
+    <summary>XnxxVideos Descargar video con un solo clic | xnxx.com | Descargar directamente sin iniciar sesión | Todas las resoluciones visibles disponibles para descargar</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
@@ -1298,7 +1250,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529044">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529044">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader/#readme">
@@ -1327,7 +1279,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/528798">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/528798">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/#readme">
@@ -1341,13 +1293,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub Descarga de video de un solo clic</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Pornhub Descargar video con un solo clic</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
         <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
 <details>
-    <summary>Pornhub Descarga de video de un solo clic | pornhub.com | Descargar directamente sin iniciar sesión | Puede descargarlo directamente de forma gratuita para ver videos de descarga pagada | Puede descargar videos que han sido prohibidos | Todas las resoluciones visibles disponibles para descargar</summary>
+    <summary>Pornhub Descargar video con un solo clic | pornhub.com | Descargar directamente sin iniciar sesión | Puede descargarlo directamente de forma gratuita para ver videos de descarga pagada | Puede descargar videos que han sido prohibidos | Todas las resoluciones visibles disponibles para descargar</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
@@ -1356,7 +1308,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/528800">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/528800">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/#readme">
@@ -1385,7 +1337,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/528160">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/528160">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/#readme">
@@ -1414,7 +1366,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/497682">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497682">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer/#readme">
@@ -1433,17 +1385,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Prueba TissAV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Prueba TissAV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506528">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506528">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/#readme">
@@ -1462,17 +1408,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Prueba JableTV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Prueba JableTV estado，E iniciar sesión automáticamente cuando no haya iniciado sesión
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506730">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506730">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper/#readme">
@@ -1501,7 +1441,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529125">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529125">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/#readme">
@@ -1520,17 +1460,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Reconocer personajes no chinos，Si la longitud es mayor que 5 Y el texto traducido no contiene chino，Reemplazarlo con chino,Necesita ser accesiblegoogleLa red</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Reconocer personajes no chinos，Si la longitud es mayor que 5 Y el texto traducido no contiene chino，Reemplazarlo con chino,Necesita ser accesiblegoogleLa red
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504890">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/#readme">
@@ -1549,17 +1483,11 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-<details>
-    <summary>Dé a cada página web no china la esquina inferior derecha（Se puede ajustar a la esquina inferior izquierda）Agregar uno google Icono de traducción，Esta versión es una traducción china，Traducir solo idiomas extranjeros al chino，Agregar traducción automática</summary>
-    <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
-           <img width=511 height=300 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/20241026_03380458.png"></a>
-    </blockquote>
-</details>
+Dé a cada página web no china la esquina inferior derecha（Se puede ajustar a la esquina inferior izquierda）Agregar uno google Icono de traducción，Esta versión es una traducción china，Traducir solo idiomas extranjeros al chino，Agregar traducción automática
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505208">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/#readme">
@@ -1579,7 +1507,7 @@
 </h3>
 
 <details>
-    <summary>Cualquier traducción del idioma y traducción rápida de un solo clic. | Traducción de la página | Seleccione el texto（ de acuerdo aCtrl ）| Proporcionar atajos，Simplemente presione una tecla para traducir rápidamente su idioma deseado |Aprender inglés | 翻译文可设置，Apoya los idiomas más comunes en todo el mundo | Se puede informar cualquier pregunta</summary>
+    <summary>Cualquier traducción del idioma y traducción rápida de un solo clic. | Traducción de la página | Seleccione el texto（ de acuerdo aCtrl ）| Proporcionar atajos，Simplemente presione una tecla para traducir rápidamente su idioma deseado |Aprender inglés | Se puede establecer el texto de traducción，Apoya los idiomas más comunes en todo el mundo | Se puede informar cualquier pregunta</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
            <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
@@ -1588,7 +1516,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/530406">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530406">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/#readme">
@@ -1617,7 +1545,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529450">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529450">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/#readme">
@@ -1646,7 +1574,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529453">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529453">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/#readme">
@@ -1675,7 +1603,7 @@
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/529845">
-        <img height=13 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://amazongpt.kudoai.com/assets/images/icons/platforms/violentmonkey/icon25.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/scriptcat/icon16.png"><img height=13 src="https://assets.aiwebextensions.com/images/icons/platforms/orangemonkey/icon16.png"></a>
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529845">
         Greasemonkey</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/#readme">
