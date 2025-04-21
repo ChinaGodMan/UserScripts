@@ -245,7 +245,7 @@
 <!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相關腳本
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 提交資料顯示網頁視圖**](https://greasyfork.org/scripts/505830): 該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
@@ -259,6 +259,7 @@
 > -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 將文件排序方式改為日期降序，方便查看最新更新的文件。
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
 > -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

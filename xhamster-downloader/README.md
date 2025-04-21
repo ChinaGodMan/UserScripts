@@ -197,6 +197,7 @@
 > -   [**GitHub 按日期排序**](https://greasyfork.org/scripts/505218): 将文件排序方式改为日期降序，方便查看最新更新的文件。
 > -   [**GitHub Gist 代码片段复制与下载器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
+> -   [**GitHub 星标仓库备注助手**](https://greasyfork.org/scripts/533511): 曾经 Star 过的仓库是不是忘记了它们的用途? 这是一个可以给你收藏过的仓库添加备注的的脚本,并且你备注的信息可以上传下载到 GitHub Gist
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

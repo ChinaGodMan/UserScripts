@@ -171,7 +171,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Gửi thông tin hiển thị xem web**](https://greasyfork.org/scripts/505830): Kịch bản này sẽ GitHub Thông tin nộp hồ sơ trên HTML xem，để xem chi tiết gửi rõ ràng hơn。Nó sẽ tự động gửi danh sách thông tin、Tiêu đề cam kết và thông tin cam kết mới nhất được chuyển đổi thành HTML Định dạng，Cung cấp hiệu ứng hình ảnh và trải nghiệm người dùng tốt hơn。
 > -   [**Mở liên kết JSDELIVR trên GitHub**](https://greasyfork.org/scripts/527870): Mở liên kết GitHub trên JSDELIVR để nhanh chóng tải xuống các tệp
@@ -185,6 +185,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**GitHub Sắp xếp theo ngày**](https://greasyfork.org/scripts/505218): Thay đổi cách sắp xếp tệp thành giảm dần theo ngày，Thuận tiện xem các tập tin cập nhật mới nhất。
 > -   [**Github Gist Code Snippet Sao chép và tải xuống**](https://greasyfork.org/scripts/529534): Thêm một nút sao chép vào tệp GIST để dễ dàng sao chép mã. |
 > -   [**Trợ lý bản dịch phím tắt GitHub**](https://greasyfork.org/scripts/530312): Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
+> -   [**Github Star Warehouse Ghi chú Trợ lý**](https://greasyfork.org/scripts/533511): Bạn đã quên mục đích của kho sao? Đây là một tập lệnh có thể thêm ghi chú vào kho lưu trữ yêu thích của bạn và thông tin bạn nhận xét có thể được tải lên và tải xuống
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

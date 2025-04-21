@@ -172,7 +172,7 @@ Recommended browser and script manager：
 <!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You may be looking forGitHubRelated scripts
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub Submit information display web view**](https://greasyfork.org/scripts/505830): This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。
 > -   [**Open jsDelivr link on Github**](https://greasyfork.org/scripts/527870): Open the GitHub link on jsDelivr to quickly download files
@@ -186,6 +186,9 @@ Recommended browser and script manager：
 > -   [**GitHub Sort by date**](https://greasyfork.org/scripts/505218): Change file sorting to descending by date，Conveniently view the latest updated files。
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
+> -   [**GitHub Star Warehouse Notes Assistant
+-GB        GitHub Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
+-GB Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

@@ -172,7 +172,7 @@
 <!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
+> ### 🔍你可能在找GitHub相关脚本
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
@@ -186,6 +186,7 @@
 > -   [**GitHub 날짜순으로 정렬**](https://greasyfork.org/scripts/505218): 파일 정렬을 날짜별 내림차순으로 변경，최신 업데이트 파일을 편리하게 확인하세요。
 > -   [**github gist 코드 스 니펫 복사 및 다운로더**](https://greasyfork.org/scripts/529534): 코드를 쉽게 복사하기 위해 GIST 파일에 복사 버튼을 추가하십시오. |. 코드를 쉽게 다운로드하려면 GIST 파일에 다운로드 버튼을 추가하십시오.
 > -   [**Github 바로 가기 키 번역 보조원**](https://greasyfork.org/scripts/530312): 키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
+> -   [**Github Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): 스타 저장소의 목적을 잊었습니까? 이것은 좋아하는 저장소에 메모를 추가 할 수있는 스크립트이며, 귀하가 댓글을 달아 Github Gist에 업로드하여 다운로드 할 수 있습니다.
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->
