@@ -904,6 +904,22 @@
             "top_tip": "",
             "img": "https://img.xwyue.com/i/2024/06/25/667a850940f98.webp",
             "icon": "https://s21.ax1x.com/2024/05/17/pkuVzUH.png"
+        },
+        {
+            "isUpdated": true,
+            "name": "github-starred-repo-note",
+            "description": "",
+            "relatedscripts": "GitHub相关脚本",
+            "path": "github-starred-repo-note.user.js",
+            "backuppath": "github-starred-repo-note",
+            "version": "2025.04.21.1652",
+            "GreasyFork": "",
+            "created_at": "2025-04-21 16:52:52",
+            "code_updated_at": "2025-04-21 16:52:52",
+            "local_created_at": "2025-04-21 16:52:52",
+            "top_tip": "",
+            "img": "https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"
         }
     ]
 }
