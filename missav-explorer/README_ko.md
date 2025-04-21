@@ -199,7 +199,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-GitHub相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找GitHub相关脚本
+> ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
 > -   [**GitHub 정보 표시 웹뷰 제출**](https://greasyfork.org/scripts/505830): 이 스크립트는 GitHub 제출정보는 HTML 보다，제출 세부정보를 더 명확하게 보려면。정보 목록이 자동으로 제출됩니다.、커밋 헤더와 최신 커밋 정보는 다음과 같이 변환됩니다. HTML 체재，더 나은 시각 효과와 사용자 경험 제공。
 > -   [**GitHub에서 JSDELIVR 링크를 엽니 다**](https://greasyfork.org/scripts/527870): jsdelivr에서 github 링크를 열려면 파일을 신속하게 다운로드하십시오.
