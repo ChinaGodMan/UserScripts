@@ -30,8 +30,9 @@ jobs:
         env:
           COMMIT_MSG: ${{ github.event.head_commit.message }}
         run: |
-          ESCAPED_MSG="$COMMIT_MSG"
-          echo "ESCAPED_MSG=$ESCAPED_MSG" >> "$GITHUB_ENV"
+          echo "ESCAPED_MSG<<EOF" >> $GITHUB_ENV
+          echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: 根目录脚本__更新py
         run: |
