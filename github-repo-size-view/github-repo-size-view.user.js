@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.04.16.2350
+// @version           2025.04.22.1116
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -108,7 +108,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/16,Wednesday 23:50:44
+ * Last Modified: 2025/04/22,Tuesday 11:16:33
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -162,7 +162,13 @@ const translations = {
         repoPage: 'HomePage:',
         repoTotal: 'Statistics:',
         repoWatcher: 'Watchers:',
-        secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.'
+        secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.',
+        get_more_repos: 'Quickly jump  customize to obtain user repositories',
+        get_more_repos_maxpage: 'Quickly jump  the maximum number of pages to obtain the repositories, the default is 1 page',
+        get_more_repos_perpage: 'Quickly jump to the repositories below to get the number displayed per page',
+        fixed_head: 'Fixed page navigation bar',
+        fixed_head_on_mobile: 'Fixed page navigation bar on mobile devices',
+        refresh_time: 'Enter the refresh time of the local cache (Format 1: 1s1m1s Format 2: 10h Format 3: 10s etc...)'
 
     },
     'zh-CN,zh,zh-SG': {
@@ -206,7 +212,13 @@ const translations = {
         deleteRepo_failed: '删除失败!\n建议检查GitHub token 是否具有删除仓库的权限!',
         deleteRepo_failed_status: '状态码:',
         deleteRepo_btn: '删除仓库',
-        secret: '[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入'
+        secret: '[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入',
+        get_more_repos: '快捷跳转仓库-自定义获取用户仓库',
+        get_more_repos_maxpage: '快捷跳转仓库-下方输入获取仓库最大页数,默认为1页',
+        get_more_repos_perpage: '快捷跳转仓库-下方输入获取每页显示的数量',
+        fixed_head: '固定页面导航栏',
+        fixed_head_on_mobile: '移动设备上固定页面导航栏',
+        refresh_time: '输入本地缓存的刷新时间(格式1:1s1m1s 格式2:10h 格式3:10s 等等...)'
     },
     'zh-TW,zh-HK,zh-MO': {
         save: '保存',
@@ -289,13 +301,17 @@ const translate = new Proxy(
 )
 //! Generate a new public access token from https://github.com/settings/tokens and insert it here
 //*Note: to be able to see the size of your private repos, you need to select the `repo` scope when generating the token
-let TOKEN = GM_getValue('githubToken', '')
-let WARNING = GM_getValue('warn', true)
-let openInNewTab = GM_getValue('openInNewTab', false)
-let DELAY = GM_getValue('DELAY', '24h')
+let PAT_GITHUB_TOKEN = GM_getValue('githubToken', '')
+let GET_USER_MORE_REPOS = GM_getValue('GET_USER_MORE_REPOS', false) //默认不获取所有仓库
+let GET_USER_MORE_REPOS_PERPAGE = GM_getValue('GET_USER_MORE_REPOS_PERPAGE', 100) //请求的api返回仓库的数量,默认为100
+let GET_USER_MORE_REPOS_MAXPAGE = GM_getValue('GET_USER_MORE_REPOS_MAXPAGE', 0) //GET_USER_MORE_REPOS=true时限制请求页数,此参数在GET_USER_MORE_REPOS为false无效
+let WARNING = GM_getValue('warn', true)//默认显示仓库不活跃警告
+let OPEN_IN_NEW_TAB = GM_getValue('openInNewTab', false)//默认不在新标签页打开仓库链接
+let CACHE_REFRESH_TIME = GM_getValue('DELAY', '24h')//默认24小时刷新一次仓库列表
 let USETIP = GM_getValue('USETIP', false)//为真时使用GitHub自带的TIP提示而不是用网页title
-let SECRET = GM_getValue('SECRET', '')
-let FIXED = GM_getValue('FIXED', true)
+let TWO_FACTOR_SECRET = GM_getValue('SECRET', '')
+let FIXED = GM_getValue('FIX_PAGE_HEADER', true)//默认固定页面导航栏
+let FIXED_ON_MOBILE = GM_getValue('FIX_PAGE_HEADER_ON_MOBILE', false)//默认不在移动设备上固定导航栏
 GM_addStyle(`
     .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:1000;}
     .modal-content{background:white;padding:20px;border-radius:8px;width:400px;box-shadow:0 4px 15px rgba(0,0,0,0.2);position:relative;}
@@ -327,8 +343,19 @@ function createModal() {
                 </p>
                 <input type="text" id="two-factor-secret" class="github-token-input" placeholder="${translate.secret}">
                 <label><input type="checkbox" id="warn">${translate.warncheckbox}</label><br>
-                <label><input type="checkbox" id="openInNewTab">    ${translate.newTab}</label>
-                <br>
+                <label><input type="checkbox" id="openInNewTab">    ${translate.newTab}</label><br>
+                <li role="presentation" aria-hidden="true" data-view-component="true" class="ActionList-sectionDivider"></li>
+                <label><input type="checkbox" id="getMoreRepos">    ${translate.get_more_repos}</label><br>
+                <p class="modal-description">${translate.get_more_repos_maxpage}</p>
+                <input type="text" id="getMoreReposMaxPage" class="github-token-input" placeholder="${translate.get_more_repos_maxpage}">
+                <p class="modal-description">${translate.get_more_repos_perpage}</p>
+                <input type="text" id="get_more_repos_perpage" class="github-token-input" placeholder="${translate.get_more_repos_perpage}">
+                <li role="presentation" aria-hidden="true" data-view-component="true" class="ActionList-sectionDivider"></li>
+                <label><input type="checkbox" id="fixed_head">    ${translate.fixed_head}</label><br>
+                <label><input type="checkbox" id="fixed_head_on_mobile">    ${translate.fixed_head_on_mobile}</label><br>
+                <li role="presentation" aria-hidden="true" data-view-component="true" class="ActionList-sectionDivider"></li>
+                <p class="modal-description">${translate.refresh_time}</p>
+                <input type="text" id="refresh_time" class="github-token-input" placeholder="${translate.refresh_time}"><br>
                 <li role="presentation" aria-hidden="true" data-view-component="true" class="ActionList-sectionDivider"></li>
                 <button id="save-token">${translate.save}</button>
                 <button id="cancel-token" class="cancel">${translate.cancel}</button>
@@ -344,30 +371,53 @@ function createModal() {
         warn: modalContainer.querySelector('#warn'),
         newTab: modalContainer.querySelector('#openInNewTab'),
         saveButton: modalContainer.querySelector('#save-token'),
-        cancelButton: modalContainer.querySelector('#cancel-token')
+        cancelButton: modalContainer.querySelector('#cancel-token'),
+        getMoreRepos: modalContainer.querySelector('#getMoreRepos'),
+        getMoreReposMaxPage: modalContainer.querySelector('#getMoreReposMaxPage'),
+        get_more_repos_perpage: modalContainer.querySelector('#get_more_repos_perpage'),
+        fixed_head: modalContainer.querySelector('#fixed_head'),
+        fixed_head_on_mobile: modalContainer.querySelector('#fixed_head_on_mobile'),
+        refresh_time: modalContainer.querySelector('#refresh_time')
     }
-    elements.warn.checked = GM_getValue('warn', true)
-    elements.newTab.checked = GM_getValue('openInNewTab', false)
-    elements.input.value = GM_getValue('githubToken', '')
-    elements.secretInput.value = GM_getValue('SECRET', '')
+    elements.warn.checked = WARNING
+    elements.newTab.checked = OPEN_IN_NEW_TAB
+    elements.input.value = PAT_GITHUB_TOKEN
+    elements.secretInput.value = TWO_FACTOR_SECRET
+    elements.getMoreRepos.checked = GET_USER_MORE_REPOS
+    elements.getMoreReposMaxPage.value = GET_USER_MORE_REPOS_MAXPAGE
+    elements.fixed_head.checked = FIXED
+    elements.refresh_time.value = CACHE_REFRESH_TIME
+    elements.get_more_repos_perpage.value = GET_USER_MORE_REPOS_PERPAGE
+    elements.fixed_head_on_mobile.checked = FIXED_ON_MOBILE
     elements.saveButton.addEventListener('click', () => {
-        const token = elements.input.value.trim()
         GM_setValue('warn', elements.warn.checked)
         WARNING = elements.warn.checked
         GM_setValue('openInNewTab', elements.newTab.checked)
-        openInNewTab = elements.newTab.checked
+        OPEN_IN_NEW_TAB = elements.newTab.checked
         GM_setValue('SECRET', elements.secretInput.value.trim())
-
+        GET_USER_MORE_REPOS = elements.getMoreRepos.checked
+        GM_setValue('GET_USER_MORE_REPOS', elements.getMoreRepos.checked)
+        GET_USER_MORE_REPOS_MAXPAGE = parseInt(elements.getMoreReposMaxPage.value.trim(), 10)
+        GM_setValue('GET_USER_MORE_REPOS_MAXPAGE', GET_USER_MORE_REPOS_MAXPAGE)
+        GET_USER_MORE_REPOS_PERPAGE = parseInt(elements.get_more_repos_perpage.value.trim(), 10)
+        GM_setValue('GET_USER_MORE_REPOS_PERPAGE', GET_USER_MORE_REPOS_PERPAGE)
+        FIXED = elements.fixed_head.checked
+        GM_setValue('FIX_PAGE_HEADER', FIXED)
+        FIXED_ON_MOBILE = elements.fixed_head_on_mobile.checked
+        GM_setValue('FIX_PAGE_HEADER_ON_MOBILE', FIXED_ON_MOBILE)
+        CACHE_REFRESH_TIME = elements.refresh_time.value.trim()
+        GM_setValue('DELAY', CACHE_REFRESH_TIME)
+        const token = elements.input.value.trim()
         if (token) {
             GM_setValue('githubToken', token)
             modalContainer.remove()
-            TOKEN = token
+            PAT_GITHUB_TOKEN = token
         } else {
             const userConfirmed = confirm(translate('confirm')) //提示是否删除
             if (userConfirmed) {
                 GM_setValue('githubToken', token)
                 modalContainer.remove()
-                TOKEN = token
+                PAT_GITHUB_TOKEN = token
             }
         }
     })
@@ -447,7 +497,7 @@ const addSizeToRepos = () => {
     let filterHref
     document.querySelectorAll(repoSelector).forEach(async (elem) => {
         // Get json data from github api to extract the size
-        const tkn = TOKEN
+        const tkn = PAT_GITHUB_TOKEN
         var href = elem.getAttribute('href')
         href = extractPath(href)
         if (filterHref == href) {
@@ -478,7 +528,7 @@ const addSizeToRepos = () => {
 
         if (pageType === 'repo') {
             const reposApi = isLoggedInUser(jsn.owner.avatar_url)
-                ? (TOKEN ? 'https://api.github.com/user/repos' : jsn.owner.repos_url)
+                ? (PAT_GITHUB_TOKEN ? 'https://api.github.com/user/repos' : jsn.owner.repos_url)
                 : jsn.owner.repos_url
             function fetchReposWithCache(ownerKey, reposApi, headers) {
                 const localData = localStorage.getItem(ownerKey)
@@ -486,13 +536,13 @@ const addSizeToRepos = () => {
                 if (localData) {
                     const parsedData = JSON.parse(localData)
                     const localTimeStamp = new Date(parsedData.timeStamp).getTime()
-                    if (currentTime - localTimeStamp < timeToSeconds(DELAY) * 1000) {
+                    if (currentTime - localTimeStamp < timeToSeconds(CACHE_REFRESH_TIME) * 1000) {
                         console.log('本地缓存数据未过期，直接使用本地数据')
                         insertReposList(parsedData.reposArray, USETIP)
                         return
                     }
                 }
-                getUserAllRepos(reposApi, headers)
+                getUserAllRepos(reposApi, headers, GET_USER_MORE_REPOS, GET_USER_MORE_REPOS_MAXPAGE, GET_USER_MORE_REPOS_PERPAGE)
                     .then(data => {
                         const reposArray = data.map(repo => ({
                             name: repo.name,
@@ -588,9 +638,8 @@ window.addSizeToRepos = addSizeToRepos
 // Add the size to the repos on the page
 window.onload = function () {
     //addSizeToRepos()
-    if (FIXED) {
-        fixPageHeader()
-    }
+    if (!FIXED_ON_MOBILE && isMobileDevice()) { return }// 移动端未开启固定
+    if (FIXED) { fixPageHeader() }
 
 }
 const selectors = [
@@ -604,10 +653,10 @@ const selectors = [
 ]
 document.addEventListener('DOMContentLoaded', () => {
     main()
-    if (SECRET) {
+    if (TWO_FACTOR_SECRET) {
         waitForElement('#app_totp', false)//
             .then(() => {
-                generateTOTP(SECRET).then(totp => {
+                generateTOTP(TWO_FACTOR_SECRET).then(totp => {
                     const totpInput = document.querySelector('#app_totp')
                     const submitButton = totpInput.parentElement.querySelector('button[type=\'submit\']')
                     totpInput.value = totp
@@ -861,7 +910,7 @@ function insertReposList(links, tip = false) {
             ].filter(Boolean).join('\n')
             return `
         <li class="${liClass}${(tip) ? ' tooltipped tooltipped-s' : ''}"  aria-label="${repoInfo}">
-            <a href="${link.html_url}" class="dropdown-item" ${(openInNewTab) ? 'target="_blank"' : ''} rel="noopener noreferrer" ${(tip) ? '"' : ` title="${repoInfo}"`}>
+            <a href="${link.html_url}" class="dropdown-item" ${(OPEN_IN_NEW_TAB) ? 'target="_blank"' : ''} rel="noopener noreferrer" ${(tip) ? '"' : ` title="${repoInfo}"`}>
                 <span class="d-inline-flex mr-2">
                     <svg width="16" height="16" viewBox="0 0 16 16">
                         ${getIconPath(link)}
@@ -944,13 +993,30 @@ async function getUserRepos(href, header = {}) {
         throw error
     }
 }
-async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
+/**
+ * getUserAllRepos - [获取用户所有仓库信息]
+ * @param {string} href - [API 的基础 URL，用于获取仓库信息,此处为 <https://api.github.com/users/{username}/repos>或者为<https://api.github.com/user/repos>提取登录用户的仓库]
+ * @param {object} header - [认证信息，例如 Authorization]
+ * @param {boolean} getMore - [是否获取所有仓库，true 表示获取所有页数据，false 表示仅获取第一页（最多 30 个）,此参数为true时,maxPage为0,获取所有仓库]
+ * @param {number} maxPage - [最大页数限制，0 表示不限制页数；如果设置具体值，则最多请求指定页数]
+ * @return {Promise<Array>} - [返回包含所有仓库信息的数组]
+ */
+
+async function getUserAllRepos(href, header = {}, getMore = false, maxPage = 0, perPage = 100) {
     try {
         let allRepos = []
         let page = 1
-        let perPage = 100
         do {
-            const url = getAll ? `${href}?per_page=${perPage}&page=${page}` : href//NOTE - false时，就获取前30个就行了 ，够用了 仓库没那么多，列表太长也不好。
+            /*
+            ? href:https://api.github.com/users/microsoft/repos 只获取前30个
+            ? href:https://api.github.com/users/microsoft/repos?per_page=100&page=1 获取第1页的100个
+            ? href:https://api.github.com/user/repos 提取登录用户的仓库前30个
+            ? href:https://api.github.com/user/repos?per_page=100&page=1 获取第1页的100个
+            ! getMore = false, maxPage = 0 只获取前30个
+            ! getMore = true, maxPage = 0,无限制获取
+            ! getMore = true, maxPage = 1，只获取前100个仓库
+            */
+            const url = getMore ? `${href}?per_page=${perPage}&page=${page}` : href//NOTE - false时，就获取前30个就行了 ，够用了 仓库没那么多，列表太长也不好。
             const response = await fetch(url, { headers: header })
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
             const repos = await response.json()
@@ -958,8 +1024,9 @@ async function getUserAllRepos(href, header = {}, getAll = false, maxPage = 0) {
             allRepos = allRepos.concat(repos)
             page++
             // 如果设定了最大页数并且已经达到了最大页数，结束战斗
+            //!注意:当getMore为true时,如果maxPage为0,则不限制页数,否则限制页数
             if (maxPage !== 0 && page > maxPage) break
-        } while (getAll)
+        } while (getMore)
         return allRepos
     } catch (error) {
         console.error('Fetch error:', error)
@@ -1056,7 +1123,7 @@ function deleteRepository(owner, repo) {
     fetch(`https://api.github.com/repos/${owner}/${repo}`, {
         method: 'DELETE',
         headers: {
-            'Authorization': `token ${TOKEN}`,
+            'Authorization': `token ${PAT_GITHUB_TOKEN}`,
             'Accept': 'application/vnd.github.v3+json'
         }
     })
@@ -1197,7 +1264,7 @@ function fetchProjectInfo(owner, repo) {
         method: 'GET',
         url: `https://api.github.com/repos/${owner}/${repo}`,
         headers: {
-            'Authorization': `token ${TOKEN}`,
+            'Authorization': `token ${PAT_GITHUB_TOKEN}`,
             'Accept': 'application/vnd.github.v3+json'
         },
         onload: function (response) {
