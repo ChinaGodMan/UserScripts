@@ -62,6 +62,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.04.22.1003</strong></h3>
+<p><strong>新增</strong>:快捷跳转:自定义获取用户仓库数量和每页显示数量<br>
+<strong>新增</strong>:固定头部导航栏:自定义启用<br>
+<strong>新增</strong>:本地缓存:允许自定义刷新缓存的时间<br></p>
 <h3><strong>📅 2025.04.16.2350</strong></h3>
 <p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>支持系统<code>浅色模式</code>和<code>深色模式</code><br>
 <strong>截图</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
