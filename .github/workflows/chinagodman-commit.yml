@@ -45,4 +45,4 @@ jobs:
           git pull
           git add .
           git commit -n -S -m "$ESCAPED_MSG" || echo "没有需要提交的更改"
-          git push
+          git push || git pull --rebase && git push

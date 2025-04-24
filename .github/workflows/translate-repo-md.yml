@@ -30,4 +30,4 @@ jobs:
           git pull
           git add .
           git commit -n -S -m "docs(ci): 📝 强制翻译[\`docs/README.md\`]→[\`[vi,ko,en,jp,zh-TW]/README.md\`],以保持仓库自述同步" || echo "没有需要提交的更改"
-          git push
+          git push || git pull --rebase && git push
