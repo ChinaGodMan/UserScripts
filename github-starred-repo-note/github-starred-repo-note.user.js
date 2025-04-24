@@ -237,13 +237,14 @@
 // @compatible        qq
 // @compatible        via
 // @compatible        brave
-// @version           2025.04.21.1652
+// @version           2025.04.24.1933
 // @grant             GM_setValue
 // @grant             GM_getValue
 // @grant             GM_deleteValue
 // @grant             GM_addStyle
 // @grant             GM_xmlhttpRequest
 // @grant             GM_registerMenuCommand
+// @require           https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
 // @created           2025-04-21 16:52:52
 // @modified          2025-04-21 16:52:52
 // @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-starred-repo-note/github-starred-repo-note.user.js
@@ -255,7 +256,7 @@
  * File Created: 2025/04/21,Monday 16:52:52
  * Author: malagebidi<https://greasyfork.org/zh-CN/users/314803>,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/21,Monday 18:32:01
+ * Last Modified: 2025/04/24,Thursday 19:33:34
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -520,6 +521,7 @@
         downloadGistAsJson: function (filename) {
             this.findGistByDescription((gistId) => {
                 if (!gistId) {
+                    Toast(translate.DOWNLOAD_GIST_FAILURE, 3000, '#ff6347', '#ffffff', 'top')
                     console.error('未找到匹配的 Gist')
                     return
                 }
@@ -538,10 +540,10 @@
                             const fileContent = gistData.files[filename].content
                             const parsedJson = JSON.parse(fileContent)
                             GM_setValue('starred_notes', parsedJson)
-                            alert(translate.DOWNLOAD_GIST_SUCCESS)
+                            Toast(translate.DOWNLOAD_GIST_SUCCESS, 2000, '#00FF00', '#ffffff', 'top')
                         } else {
-                            alert(translate.DOWNLOAD_GIST_FAILURE)
-                            console.error('下载 Gist 失败:', response.responseText)
+                            Toast(translate.DOWNLOAD_GIST_FAILURE, 3000, '#ff6347', '#ffffff', 'top')
+                            console.error(translate.DOWNLOAD_GIST_FAILURE, response.responseText)
                         }
                     }
                 })
@@ -568,10 +570,10 @@
                 data: JSON.stringify(data),
                 onload: function (response) {
                     if (response.status === 200) {
-                        alert(translate.UPLOAD_GIST_SUCCESS)
+                        Toast(translate.UPLOAD_GIST_SUCCESS, 2000, '#00FF00', '#ffffff', 'top')
                     } else {
-                        alert(translate.UPLOAD_GIST_FAILURE)
-                        console.error('Gist 更新失败:', response.responseText)
+                        Toast(translate.UPLOAD_GIST_FAILURE, 3000, '#ff6347', '#ffffff', 'top')
+                        console.error(translate.UPLOAD_GIST_FAILURE, response.responseText)
                     }
                 }
             })
