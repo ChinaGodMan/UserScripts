@@ -62,9 +62,12 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-starred-repo-note/github-starred-repo-note.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/533511">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GitHub Star warehouse notes assistant Update log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 星标仓库备注助手 更新日志</strong></h1>
+<h3><strong>📅 2025.04.24.1933</strong></h3>
+<p><strong>t 优化</strong>:去除<code>alert</code> 改为 <code>toast</code></p>
+<hr />
 <h3><strong>📅 2025.04.21.1652</strong></h3>
-<p><strong>New</strong>: •Initial version</p>
+<p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/533511.png">
 </div></center>

@@ -61,6 +61,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/533511">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub 星标仓库备注助手 更新日志</strong></h1>
+<h3><strong>📅 2025.04.24.1933</strong></h3>
+<p><strong>t 优化</strong>:去除<code>alert</code> 改为 <code>toast</code></p>
+<hr />
 <h3><strong>📅 2025.04.21.1652</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
