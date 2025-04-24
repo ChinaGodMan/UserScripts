@@ -53,21 +53,23 @@ jobs:
       - name: 变更日志
         run: |
           python utils/merge_change_history.py
-
-      - name: 提交和推送更改
+      - name: 设置机器人提交
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global commit.gpgsign true
           git config --global user.name 'ChinaGodBot'
           git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+      - name: 提交和推送更改
+        run: |
           git pull
           git add .
-          git commit -n -S -m "docs(ci): 📝 更新[\`脚本自述==>README_[lang].md\`]" \
+          git commit -n -m "docs(ci): 📝 更新[\`脚本自述==>README_[lang].md\`]" \
                       -m "合并日志:/Change history/README.md → README_[lang].md" \
                       -m "刷新徽章:utils/docs/SHIELDS.md → README_[lang].md" \
                       -m "刷新帮助:utils/docs/HELP.md → README_[lang].md" \
                       -m "相关脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
                       -m "所有脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
                       -m "语言导航: → README_[lang].md" \
-          || echo "没有需要提交的更改"
+          || true
           git push || git pull --rebase && git push

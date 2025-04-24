@@ -28,14 +28,16 @@ jobs:
       - name: 执行README.md更新.刷新greasyfork数据
         run: |
           python utils/update_scripts_list.py
-
-      - name: 提交和推送更改
+      - name: 设置机器人提交
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global commit.gpgsign true
           git config --global user.name 'ChinaGodBot'
           git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
+      - name: 提交和推送更改
+        run: |
           git pull
           git add .
-          git commit -n -S -m "docs(ci): 📝 更新脚本表格[\`ScriptsPath.json\`]→[\`README.md\`]" || echo "没有需要提交的更改"
+          git commit -n -m "docs(ci): 📝 更新脚本表格[\`ScriptsPath.json\`]→[\`README.md\`]" || true
           git push || git pull --rebase && git push

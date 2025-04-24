@@ -24,16 +24,17 @@ jobs:
           closeDelimiter='<!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->'
           sed -i "/$openDelimiter/,/$closeDelimiter/c\\$openDelimiter$escapedHtmlList$closeDelimiter" docs/README.md
           git diff --quiet --exit-code docs/README.md || echo "CHANGES_DETECTED=true" >> "$GITHUB_ENV"
-
-      - name: Commit changes with GPG signature
-        if: env.CHANGES_DETECTED == 'true'
+      - name: 设置机器人提交
         run: |
-          git pull
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
+          git config --global commit.gpgsign true
           git config --global user.name 'ChinaGodBot'
           git config --global user.email "${{ secrets.GPG_PRIVATE_EMAIL }}"
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
-          git config --global commit.gpgSign true
+      - name: Commit changes
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          git pull
           git add docs/README.md
-          git commit -n -S -m "docs(ci): 📝 更新[\`README.md\`]内贡献者列表" || echo "没有需要提交的更改"
+          git commit -n -m "docs(ci): 📝 更新[\`README.md\`]内贡献者列表" || true
           git push || git pull --rebase && git push
