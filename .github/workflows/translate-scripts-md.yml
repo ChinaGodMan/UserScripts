@@ -32,4 +32,8 @@ jobs:
           git pull
           git add .
           git commit -n -m "docs(ci): 📝 谷歌翻译[\`README_[lang].md\`]"  || true
-          git push || git pull --rebase && git push
+          git push
+          if [ $? -ne 0 ]; then
+            git pull --rebase
+            git push
+          fi

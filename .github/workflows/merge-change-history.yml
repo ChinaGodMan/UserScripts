@@ -72,4 +72,8 @@ jobs:
                       -m "所有脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
                       -m "语言导航: → README_[lang].md" \
           || true
-          git push || git pull --rebase && git push
+          git push
+          if [ $? -ne 0 ]; then
+            git pull --rebase
+            git push
+          fi
