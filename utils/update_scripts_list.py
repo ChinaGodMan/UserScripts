@@ -10,14 +10,6 @@ def read_json(file_path):
         return json.load(file)
 
 
-# 根据 relatedscripts 的 ID 找到对应的脚本
-def find_script_by_greasyfork_id(scripts, greasyfork_id):
-    for script in scripts:
-        if str(script.get('GreasyFork')) == str(greasyfork_id):
-            return script
-    return None
-
-
 # 生成描述信息，仅针对当前脚本的 relatedscripts
 def generate_description(all_scripts, single_group=False):
     related_scripts_map = {}
@@ -26,7 +18,7 @@ def generate_description(all_scripts, single_group=False):
         related_scripts_map['所有脚本'] = all_scripts
     else:
         for script in all_scripts:
-            relatedscript = script.get('relatedscripts')
+            relatedscript = script.get('group')
             if relatedscript not in related_scripts_map:
                 related_scripts_map[relatedscript] = []
             related_scripts_map[relatedscript].append(script)
@@ -37,9 +29,9 @@ def generate_description(all_scripts, single_group=False):
 def generate_html_table(scripts):
     html_table = ''''''
     for script in scripts:
-        img_tag = f'<img width=511 src="{script.get("img")}">' if script.get("img") else ""
-        script_id = script.get("GreasyFork")
-        script_fold = script.get("backuppath")
+        img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
+        script_id = script.get("greasyfork_id")
+        script_fold = script.get("directory")
         # ! 对没有预览截图的脚本,只显示介绍就行了
         screenshot_block = f'''<details>
     <summary>{script.get("description")}</summary>

@@ -213,11 +213,11 @@ if __name__ == "__main__":
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     for script in scripts:
-        if script.get('GreasyFork') == "":
+        if script.get('greasyfork_id') == "":
             # 先更新json内的脚本信息与名称
-            full_path = script.get('backuppath') + "/" + script.get('path')
+            full_path = script.get('directory') + "/" + script.get('js_name')
             #  更新引用信息
-            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('backuppath')], check=True)
+            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
             # 更新下区域化声明罢了
             subprocess.run(['python', 'utils/userscript_localization_tool.py', full_path], check=True)
             results = search_in_file(full_path, "zh-CN")
@@ -226,16 +226,16 @@ if __name__ == "__main__":
             script['name'] = name
             script['description'] = description
             # 复制多语言文档,用于之后的翻译
-            copy_readme(script.get('backuppath'), ['zh-TW', 'vi', 'en', 'ko'])
+            copy_readme(script.get('directory'), ['zh-TW', 'vi', 'en', 'ko'])
             # 导入脚本,用于之后的同步附加信息
             sync_urls = 人民勤务员的仓库链接 + full_path
             import_script_id = GF.import_scripts(sync_urls)
-            script['GreasyFork'] = import_script_id
+            script['greasyfork_id'] = import_script_id
             # 同步附加信息
-            urls = build_urls(script.get('backuppath'))
-            defaultfile = 人民勤务员的仓库链接 + script.get('backuppath') + "/README_en.md"
+            urls = build_urls(script.get('directory'))
+            defaultfile = 人民勤务员的仓库链接 + script.get('directory') + "/README_en.md"
             result = GF.sync_update(sync_urls, defaultfile, import_script_id, urls)
             # 更新json
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
-            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('path')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
+            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('js_name')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")

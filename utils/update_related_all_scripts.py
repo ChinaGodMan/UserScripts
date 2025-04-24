@@ -14,14 +14,6 @@ def read_json(file_path):
         return json.load(file)
 
 
-# 根据relatedscripts的id找到对应的脚本
-def find_script_by_greasyfork_id(scripts, greasyfork_id):
-    for script in scripts:
-        if str(script.get('GreasyFork')) == str(greasyfork_id):
-            return script
-    return None
-
-
 # 生成描述信息，仅针对当前脚本的relatedscripts
 def generate_description(current_script, all_scripts, code):
     descriptions = []
@@ -34,11 +26,11 @@ def generate_description(current_script, all_scripts, code):
     descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{relatedscripts_category}\n>')
     # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
     for script in all_scripts:
-        script_relatedscripts = script.get('relatedscripts')
+        script_relatedscripts = script.get('group')
         # 如果脚本的 relatedscripts 与当前脚本相同，就将其添加到描述中
         if script_relatedscripts == relatedscripts_category:
-            greasyfork_id = script.get('GreasyFork', '未知ID')
-            full_path = script.get("backuppath") + "/" + script.get("path")
+            greasyfork_id = script.get('greasyfork_id', '未知ID')
+            full_path = script.get("directory") + "/" + script.get("js_name")
             results = search_in_file(full_path, code)
             name = "\n".join(results.name_matches)
             description = "\n".join(results.description_matches)
@@ -91,7 +83,7 @@ def delete_related_readme(directory_path, not_in_map):
 
 
 def process_script(script, scripts, start_tag, end_tag, key):
-    backuppath = script.get('backuppath', '')
+    backuppath = script.get('directory', '')
     cnfile_path = os.path.join(backuppath, "README.md")
 
     descriptions = generate_description(key, scripts, "zh-CN")
@@ -124,18 +116,18 @@ def main():
     related_scripts_map = {}
     for script in scripts:
         # 构建`相关脚本`分组
-        relatedscripts = script.get('relatedscripts')
+        relatedscripts = script.get('group')
         if relatedscripts:
             if relatedscripts not in related_scripts_map:
                 related_scripts_map[relatedscripts] = []
                 related_scripts_map[relatedscripts].append(relatedscripts)
     for script in scripts:
         # 列出`readme`文本中的相关脚本分钟
-        cnfile_path = os.path.join(script.get('backuppath', ''), "README.md")
+        cnfile_path = os.path.join(script.get('directory', ''), "README.md")
         not_in_map = check_related_readme(cnfile_path, related_scripts_map)
         # 如果有不存在的`相关脚本`,就删除不存在的`相关脚本`分组
         if len(not_in_map) > 0:
-            delete_related_readme(script.get('backuppath', ''), not_in_map)
+            delete_related_readme(script.get('directory', ''), not_in_map)
         for key, value in related_scripts_map.items():
             start_tag = f"<!--RELATED-{key}-->"
             end_tag = f"<!--RELATED-{key}-END-->"
