@@ -9,9 +9,9 @@ import shutil
 import os
 '''
 名称:       自动添加脚本并更新附加信息
-版本:            2024.11.2.21:26:26
+版本:            2025.04.24.16:56:33
 介绍:     当docs/ScriptsPath.json有新的脚本目录被加入,但没有有对应的脚本ID时.自动创建脚本并且同步附加信息
-                        或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
+          或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
 主页:     https://github.com/ChinaGodMan/UserScripts
 '''
@@ -54,6 +54,8 @@ def extract_locale_key(url):
 
 # 复制多语言文档罢了
 def copy_readme(source_path, suffixes):
+    if not suffixes:
+        return
     readme_file = os.path.join(source_path, 'README.md')
     for suffix in suffixes:
         new_file_name = f'README_{suffix}.md'
@@ -226,7 +228,10 @@ if __name__ == "__main__":
             script['name'] = name
             script['description'] = description
             # 复制多语言文档,用于之后的翻译
-            copy_readme(script.get('directory'), ['zh-TW', 'vi', 'en', 'ko'])
+            # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
+            # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
+            locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
+            copy_readme(script.get('directory'), locales)
             # 导入脚本,用于之后的同步附加信息
             sync_urls = 人民勤务员的仓库链接 + full_path
             import_script_id = GF.import_scripts(sync_urls)
@@ -236,6 +241,7 @@ if __name__ == "__main__":
             defaultfile = 人民勤务员的仓库链接 + script.get('directory') + "/README_en.md"
             result = GF.sync_update(sync_urls, defaultfile, import_script_id, urls)
             # 更新json
-            with open(json_path, 'w', encoding='utf-8') as f:
+            with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
+                f.write('\n')
             print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('js_name')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
