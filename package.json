@@ -1,10 +1,19 @@
 {
   "author": {
-    "name": "ChinaGodMan",
+    "name": "人民的勤务员(ChinaGodMan)",
     "email": "china.qinwuyuan@gmail.com",
-    "url": "https://github.com/ChinaGodMan"
+    "url": "https://github.com/ChinaGodMan",
+    "time_zone": "Asia/Shanghai",
+    "avatar": "https://avatars.githubusercontent.com/u/96548841?v=4",
+    "tiktok": "https://www.tiktok.com/@qinwuyuan",
+    "instagram": "https://www.instagram.com/nide9448",
+    "telegram": "https://t.me/qinwuyuan",
+    "greasyfork": "https://greasyfork.org/users/1169082"
   },
-  "homepage": "https://github.com/ChinaGodMan/UserScripts",
+  "project": "https://github.com/ChinaGodMan/UserScripts",
+  "created_at": "2024-06-17 GMT+8 17:27",
+  "description": "🐒一些修改自网络的油猴脚本 Some Tampermonkey scripts modified from the internet",
+  "disclaimer": "📢本仓库中的脚本仅供学习和交流使用，请勿用于商业用途，作者不承担任何责任。\n脚本来自互联网广大网友，本人仅是做了些许改动.感谢网友!\n如有侵权,联系必删!",
   "license": "MIT",
   "funding": [
     {

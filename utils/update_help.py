@@ -26,7 +26,7 @@ def main():
     end_tag = "<!--HELP-END-->"
     new_content = get_new_content()
     for script in scripts:
-        backuppath = script.get('backuppath', '')
+        backuppath = script.get('directory', '')
         cnfile_path = os.path.join(backuppath, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         if olddescriptions + "\n" == new_content:  # 换行符添加上,就这样了能用就行

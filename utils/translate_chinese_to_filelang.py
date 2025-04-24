@@ -34,7 +34,7 @@ def go_work():
     RESET = '\033[0m'
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         for script in scripts:
-            backuppath = script.get('backuppath', '')
+            backuppath = script.get('directory', '')
             for root, dirs, files in os.walk(backuppath):
                 dirs.clear()  # 不允许递归遍历.只让在脚本目录
                 TEMP_OUT = False

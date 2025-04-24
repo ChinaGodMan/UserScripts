@@ -50,14 +50,14 @@ def generate_html_content(nation, path, greasyfork_id, filepath, backuppath, rea
 
 # 遍历 JSON 数据中的每个脚本信息
 for script in data['scripts']:
-    backuppath = script.get('backuppath', '')
+    backuppath = script.get('directory', '')
     name = script.get('name', '')
     description = script.get('description', '')
-    greasyfork_id = script.get('GreasyFork', '')
-    filepath = script.get('backuppath', '') + "/" + script.get('path', '')
+    greasyfork_id = script.get('greasyfork_id', '')
+    filepath = script.get('directory', '') + "/" + script.get('js_name', '')
 
-    # 每次更新抄袭来的脚本原作者信息
-    subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('backuppath')], check=True)
+    # 每次更新脚本原作者信息
+    subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
 
     readme_path = os.path.join(backuppath, "Change history", "README.md")
     readme_html = ''
