@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.04.22.1116
+// @version           2025.04.25.1850
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -108,7 +108,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/22,Tuesday 11:16:33
+ * Last Modified: 2025/04/25,Friday 18:50:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -164,7 +164,7 @@ const translations = {
         repoWatcher: 'Watchers:',
         secret: '[Optional:] Enter your two-factor key for automatic input during GitHub\'s two-step verification.',
         get_more_repos: 'Quickly jump  customize to obtain user repositories',
-        get_more_repos_maxpage: 'Quickly jump  the maximum number of pages to obtain the repositories, the default is 1 page',
+        get_more_repos_maxpage: 'Quickly jump  the maximum number of pages to obtain the repositories, the default is 1 page(0 means no limit)',
         get_more_repos_perpage: 'Quickly jump to the repositories below to get the number displayed per page',
         fixed_head: 'Fixed page navigation bar',
         fixed_head_on_mobile: 'Fixed page navigation bar on mobile devices',
@@ -214,7 +214,7 @@ const translations = {
         deleteRepo_btn: '删除仓库',
         secret: '[可选项目:]输入你的双因素密钥用于在GitHub触发二次验证时自动输入',
         get_more_repos: '快捷跳转仓库-自定义获取用户仓库',
-        get_more_repos_maxpage: '快捷跳转仓库-下方输入获取仓库最大页数,默认为1页',
+        get_more_repos_maxpage: '快捷跳转仓库-下方输入获取仓库最大页数,默认为1页(0表示不限制)',
         get_more_repos_perpage: '快捷跳转仓库-下方输入获取每页显示的数量',
         fixed_head: '固定页面导航栏',
         fixed_head_on_mobile: '移动设备上固定页面导航栏',
@@ -304,7 +304,7 @@ const translate = new Proxy(
 let PAT_GITHUB_TOKEN = GM_getValue('githubToken', '')
 let GET_USER_MORE_REPOS = GM_getValue('GET_USER_MORE_REPOS', false) //默认不获取所有仓库
 let GET_USER_MORE_REPOS_PERPAGE = GM_getValue('GET_USER_MORE_REPOS_PERPAGE', 100) //请求的api返回仓库的数量,默认为100
-let GET_USER_MORE_REPOS_MAXPAGE = GM_getValue('GET_USER_MORE_REPOS_MAXPAGE', 0) //GET_USER_MORE_REPOS=true时限制请求页数,此参数在GET_USER_MORE_REPOS为false无效
+let GET_USER_MORE_REPOS_MAXPAGE = GM_getValue('GET_USER_MORE_REPOS_MAXPAGE', 1) //GET_USER_MORE_REPOS=true时限制请求页数,此参数在GET_USER_MORE_REPOS为false无效
 let WARNING = GM_getValue('warn', true)//默认显示仓库不活跃警告
 let OPEN_IN_NEW_TAB = GM_getValue('openInNewTab', false)//默认不在新标签页打开仓库链接
 let CACHE_REFRESH_TIME = GM_getValue('DELAY', '24h')//默认24小时刷新一次仓库列表

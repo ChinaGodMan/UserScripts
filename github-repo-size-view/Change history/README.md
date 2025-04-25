@@ -1,30 +1,46 @@
 # **🛠️ GitHub Repo Size+ 升级日志**
 
+### **📅 2025.04.25.1850**
+
+**修复上个版本小问题**:快捷跳转>在开启自定义获取用户仓库数量时,默认只获取第一页<br>
+
+---
+
 ### **📅 2025.04.22.1003**
 
 **新增**:快捷跳转:自定义获取用户仓库数量和每页显示数量<br>
 **新增**:固定头部导航栏:自定义启用<br>
 **新增**:本地缓存:允许自定义刷新缓存的时间<br>
 
+---
+
 ### **📅 2025.04.16.2350**
 
 **新增**:[通知页面](https://github.com/notifications)支持系统`浅色模式`和`深色模式`<br>
 **截图**:![2025.04.16](https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif)<br>
+
+---
 
 ### **📅 2025.04.16.1439**
 
 **新增**:[通知页面](https://github.com/notifications)点击左侧仓库,直接显示指定仓库的信息<br>兼容`2025.04.15`版本在所有通知信息上悬浮的功能.<br>感谢:[qbmiller](https://github.com/qbmiller) 的脚本代码,[github_enhance](https://github.com/qbmiller/UserScripts) <br>Issue:[#111](https://github.com/ChinaGodMan/UserScripts/issues/111)<br>
 **截图**:!![Image](https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe)<br>
 
+---
+
 ### **📅 2025.04.15.1536**
 
 **新增**:[通知页面](https://github.com/notifications)显示仓库信息<br>感谢:[qbmiller](https://github.com/qbmiller) 的脚本代码,[github_enhance](https://github.com/qbmiller/UserScripts) <br>Issue:[#111](https://github.com/ChinaGodMan/UserScripts/issues/111)<br>
 **截图**:![2025.04.15](https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif)<br>
 
+---
+
 ### **📅 2025.03.16.0506**
 
 **新增**:GitHub 全局导航栏固定 代码来自[GitHub 增强套件](https://greasyfork.org/scripts/529862)<br>
 **截图**:![2025.03.16](https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png)<br>
+
+---
 
 ### **📅 2024/10/07 01:53 - Ver 0.1.3.7**
 
