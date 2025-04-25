@@ -62,22 +62,30 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.04.25.1850</strong></h3>
+<p><strong>修复上个版本小问题</strong>:快捷跳转&gt;在开启自定义获取用户仓库数量时,默认只获取第一页<br></p>
+<hr />
 <h3><strong>📅 2025.04.22.1003</strong></h3>
 <p><strong>新增</strong>:快捷跳转:自定义获取用户仓库数量和每页显示数量<br>
 <strong>新增</strong>:固定头部导航栏:自定义启用<br>
 <strong>新增</strong>:本地缓存:允许自定义刷新缓存的时间<br></p>
+<hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
 <p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>支持系统<code>浅色模式</code>和<code>深色模式</code><br>
 <strong>截图</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
+<hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
 <p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>点击左侧仓库,直接显示指定仓库的信息<br>兼容<code>2025.04.15</code>版本在所有通知信息上悬浮的功能.<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>截图</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
+<hr />
 <h3><strong>📅 2025.04.15.1536</strong></h3>
 <p><strong>新增</strong>:<a href="https://github.com/notifications">通知页面</a>显示仓库信息<br>感谢:<a href="https://github.com/qbmiller">qbmiller</a> 的脚本代码,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>截图</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
+<hr />
 <h3><strong>📅 2025.03.16.0506</strong></h3>
 <p><strong>新增</strong>:GitHub 全局导航栏固定 代码来自<a href="https://greasyfork.org/scripts/529862">GitHub 增强套件</a><br>
 <strong>截图</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<hr />
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
 <p><strong>新增</strong>:双因素验证码自动填充功能<code>Two-factor authentication</code> 方便快速填充,持续监听,直到触发验证....<br>
 <strong>新增</strong>:用户资料页面的已星标仓库也添加显示仓库大小,<code>?tab=stars</code>下执行<br>
