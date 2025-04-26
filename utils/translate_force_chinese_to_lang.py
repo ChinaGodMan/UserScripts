@@ -28,10 +28,11 @@ def translate_readme(data):
             continue
         with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for lang in target:
-                # 对每个目标语言重新复制一份新的中文文件,并刷新对应的语言脚本列表.减少翻译量咯.
+                # 对每个目标语言重新复制一份新的文件,并刷新对应的语言脚本列表.减少翻译量咯.
                 new_file_name = f"docs/qwy_{lang}.md"  # "qwy_"被.gitignore忽略,不让重定向文件被git追踪.
                 shutil.copy(readme_path, new_file_name)
                 # 复制完成重定向翻译文件地址
+                # 除了首次循环中使用源文件位置，后续循环复制上一次定向后的(docs/qwy_{lang}.md)文件
                 readme_path = new_file_name
                 # 刷新每个语言的脚本列表
                 subprocess.run(['python', 'utils/update_scripts_list.py', '--lang_code', lang, '--readme_path', readme_path], check=True)
