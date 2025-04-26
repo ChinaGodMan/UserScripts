@@ -65,12 +65,12 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPT相關腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">ChatGPT代碼字體縮小</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">ChatGPT程序碼字體縮小</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-讓 ChatGPT 代碼框內字體變小
+ChatGPT 讓程序碼字體變小 並且自動折行
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505209">
@@ -117,13 +117,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">ChatGPT 聊天復制代碼按鈕</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">ChatGPT 聊天複製程式碼和匯出程式碼按鈕</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>在 chatgpt.com 上代碼塊的右下角添加一個帶有動畫的“複製代碼”按鈕</summary>
+    <summary>在 chatgpt.com 上代碼區塊的右下角添加一個帶有動畫的“複製程式碼”按鈕和一個為 ChatGPT 響應中的程式碼區塊新增匯出按鈕，提示使用者根據程式碼區塊的類別名稱偵測到的程式語言將程式碼儲存為文件。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
            <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -146,13 +146,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">ChatGPT 字符計數器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">ChatGPT 字元計數器限制 (CCCL)</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>添加一個字符计数器到输入框，限制為 32732 個字符。（ChatGPT 的限制是 32732 个字符。）</summary>
+    <summary>新增一個字元計數器到輸入框，限制為 32732 個字元。（ChatGPT 的限制是 32732 個字元。）</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
            <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
@@ -175,13 +175,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">ChatGPT 折疊自己消息和最大寬度</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">ChatGPT 折疊自己訊息和最大寬度</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>自動折疊由你發送的長消息，節省屏幕空間。允許你設置聊天窗口的最大寬度，使得長消息不會超出指定範圍。</summary>
+    <summary>折疊ChatGPT中較長的“你”訊息，並設定最大寬度</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
            <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
@@ -204,13 +204,13 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>網頁相關腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">網頁寫入剪輯版授權管理器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">網頁寫入剪輯版授權管理員</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>禁止網頁向剪輯版拉屎，綠色為放行，紅色禁止，橙色臨時方向</summary>
+    <summary>管理網頁對剪貼簿的寫入行為防止未經授權的自動複製和停用音視頻內容預載及自動播放。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -233,12 +233,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">解除CSDN登錄複製限制</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">解除CSDN登錄複製</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-去你媽的 CSDN 登錄複製，無需登錄即可複制代碼框內容
+去你媽的CSDN登錄複製,無需登錄即可複制
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -256,13 +256,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">絢麗漸變美化網頁表格</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">絢麗漸層美化網頁表格</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
         <img height=24 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>自動為網頁上的表格所有列應用顏色漸變美化.</summary>
+    <summary>自動為表格所有欄位套用色彩漸層來美化</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
            <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
@@ -285,13 +285,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">網頁高亮關鍵字+(推薦)</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">網頁高亮關鍵字</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>對網頁上的文字進行高亮顯示</summary>
+    <summary>對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -314,7 +314,7 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">高亮網頁文本-迷你版</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">網頁關鍵詞高亮顯示</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
@@ -337,13 +337,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">小窗口預覽</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">小窗預覽</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
         <img height=24 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>拖拽鏈接時在彈出窗口中打開鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加亞克力效果。</summary>
+    <summary>拖曳連結時在彈出視窗中開啟鏈接，並在打開前提供預覽，使用 Edge 的預讀技術。同時在小窗口打開時在背後添加壓克力效果。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
@@ -366,12 +366,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">去除鏈接下劃線</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">移除連結下劃線</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-去除網頁鏈接的下劃線
+移除所有網站上的連結底線，並動態處理新鏈接
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498625">
@@ -389,13 +389,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">上下滾動小按鈕</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">上下滾動按鈕</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>頁面右側添加上下滾動按鈕</summary>
+    <summary>在頁面右側產生兩個按鈕用於滾動頁面</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
            <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
@@ -418,13 +418,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">一鍵置頂和置底按鈕</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">置頂和置底按鈕</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>修改自Greasyfork用戶腳本 為網頁添加置頂和置底按鈕，方便在長頁面中快速移動到頂部或底部。 增加向下滾動時按鈕變色，3秒內無滾動自動停止</summary>
+    <summary>在所有頁面產生兩個按鈕，一個用於順滑回到頂部，一個用於持續滾動到底部，再次點擊取消捲動到底部</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
            <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
@@ -476,13 +476,13 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub相關腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">GitHub提交信息顯示HTML</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">GitHub 提交資料顯示網頁視圖</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>該腳本將 GitHub 上的提交信息轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交信息列表、提交頭部和最新提交信息轉化為 HTML 格式，提供更佳的視覺效果和用戶體驗。</summary>
+    <summary>該腳本將 GitHub 上的提交資訊轉化為 HTML 視圖，以更清晰地查看提交詳情。它會自動將提交資訊列表、提交頭部和最新提交資訊轉化為 HTML 格式，提供更佳的視覺效果與使用者體驗。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -534,13 +534,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">GitHub 快速跳轉助手</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">GitHub 倉庫快速跳轉助手</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
         <img height=24 src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>GitHub 快速跳轉助手是一款專為幫助用戶快速訪問自己在 GitHub 上的倉庫而設計。它可以大幅提高開發者在使用 GitHub 時的效率。</summary>
+    <summary>🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
            <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
@@ -569,7 +569,7 @@
 </h3>
 
 <details>
-    <summary>GitHub 文件列表美化器是一個用戶腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和文件夾添加顏色，並將文件類型圖標替換為小圖像，使得代碼庫更加易於瀏覽和管理。</summary>
+    <summary>GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
@@ -598,7 +598,7 @@
 </h3>
 
 <details>
-    <summary>擴展 Github 存儲庫上的語言列表，顯示每種語言，而不是將小部分隱藏在 “其他” 下</summary>
+    <summary>擴充 Github 儲存庫上的語言列表，顯示每種語言，而不是將小部分隱藏在“其他”下</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">
            <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
@@ -644,13 +644,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHub文件夾下載</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">GitHub 資料夾下載器</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>添加一個下載按鈕，允許輕鬆下載特定的 GitHub 文件夾。</summary>
+    <summary>新增一個下載按鈕，允許輕鬆下載特定的 GitHub 資料夾。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
            <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
@@ -673,13 +673,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">GitHub下載單文件和復製文件URL</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">Github 複製原始文件 URL 與下載文件</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>在每個文件行的末尾添加按鈕，以復制原始文件 URL 和下載文件</summary>
+    <summary>在每個文件行的末尾新增按鈕，以複製原始文件 URL 和下載文件</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
@@ -702,13 +702,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">🤠 Github 增強小助手 倉庫顯示大小 不活躍開發警告 倉庫內快捷跳轉用戶其他倉庫 🤠</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">🤠 Github 增強小助手 倉庫顯示大小</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
         <img height=24 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>在Github查看倉庫和搜索倉庫時顯示倉庫大小 ，不活躍開發警告，倉庫內快捷跳轉.</summary>
+    <summary>🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
            <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
@@ -731,13 +731,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">GitHub Sort by Date</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">GitHub 按日期排序</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>倉庫列表文件排序方式改為日期降序，方便查看最新更新的文件。</summary>
+    <summary>將文件排序方式改為日期降序，方便查看最新更新的文件。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
            <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
@@ -766,7 +766,7 @@
 </h3>
 
 <details>
-    <summary>向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。| 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。</summary>
+    <summary>向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">
            <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
@@ -847,13 +847,13 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google相關腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Google 高級搜索</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Google 高級搜尋助手</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
         <img height=24 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>這是一個為 Google 添加高級搜索表單的用戶腳本。它能在頁面頂部添加一個可隱藏的高級搜索表單，使您能夠更精確地搜索信息。</summary>
+    <summary>在谷歌搜尋頁面頂部新增一個高級搜尋表單</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -876,12 +876,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">Google 搜索屏蔽指定站點</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">屏蔽谷歌搜索站點</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-在搜索引擎結果中屏蔽特定的站點，幫助用戶過濾掉不需要的搜索結果。 自定義輸入屏蔽站點。格式-zhihu -baidu 用於屏蔽谷歌搜索內容
+在google搜索屏蔽指定站點
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork相關腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">GreasyFork適用於增強</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy fork腳本頁面適用於網址增強</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>腳本詳情頁增加適用於鏈接增加點擊打開網頁，複製網頁,輪胎搜索</summary>
+    <summary>腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -928,13 +928,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">GrreasyFork 用戶發布的腳本數據可視化</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">GreasyFork 用戶發布的腳本資料視覺化</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
         <img height=24 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>使用Chart.js獲取和可視化獲取用戶腳本數據，並在用戶個人主頁生成一個圖表在下方顯示詳細安裝情況</summary>
+    <summary>使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
            <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
@@ -957,13 +957,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">GreaysFork 增強 WebHook同步設置</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">GreaysFork 增強WebHook同步設定</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>這個腳本可以幫助你快速輸入腳本同步信息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。</summary>
+    <summary>GreaysFork 快速輸入腳本同步訊息，並批量增加多個國家的語言代碼，而不用一個個地點擊選擇框再去對應的網址。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
            <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
@@ -986,13 +986,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">GreasyFork Markdown toobar</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">GreasyFork markdown</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>在論壇默認使用 Markdown 格式，添加格式幫助鏈接及 Markdown 工具欄紹</summary>
+    <summary>在論壇預設使用格式為Markdown，新增格式幫助連結及在發布新腳本,回覆時間啟用快速編輯的工具列</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
            <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
@@ -1015,13 +1015,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">GreasyFork 顯示腳本評分</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">Greasyfork 腳本顯示評分</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
         <img height=24 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>腳本列表添加評價分數</summary>
+    <summary>在瀏覽腳本清單時在腳本名稱後面新增腳本評分</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
@@ -1044,12 +1044,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">GreasyFork 高級搜索</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">GreasyFork Search</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-使用谷歌搜索 GreasyFork 和 SleazyFork 上的腳本
+使用谷歌搜尋GreasyFork和SleazyFork上體文字
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505215">
@@ -1067,13 +1067,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">GreasyFork 導航欄增強</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">GreasyFork: 導覽列增強</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
         <img height=24 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>增強greasyfork導航欄,增加用戶列表,用戶控制台等</summary>
+    <summary>在導覽列上新增使用者列表,主機,收藏等..</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -1096,13 +1096,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Greasyfork糊裱匠</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Greasyfork 膠水工匠</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>增強greasyfork,複製代碼，腳本下載，精確時間到秒，主頁清理，討論一鍵舉報，腳本列表跳轉代碼添加下載 美化查看代碼顯示代碼引用文件，顯示腳本圖標，跳轉成人腳本等等一些操作</summary>
+    <summary>為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
            <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
@@ -1125,13 +1125,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Greasyfork 通知助手</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">GreasyFork 通知助手</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>當你的腳本或你參與的討論有新回复時，腳本會在網頁上以模態窗口顯示最新的討論內容。</summary>
+    <summary>當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
@@ -1154,13 +1154,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Script Finder油猴腳本查找器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Script Finder 油猴腳本查找</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>Script Finder 是一個用戶腳本（userscript），它可以幫助你在任何網站上查找和管理用戶腳本</summary>
+    <summary>Script Finder 在任何網站上找到適用於該網站的 油猴腳本。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
            <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
@@ -1212,12 +1212,12 @@
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>成人腳本</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">MiSSAV自動登錄</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">MissAV 自動登入</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-檢測 MisssAV 狀態，並且在未登錄時自動登錄
+偵測 MissAV 狀態,並且在未登入時自動登入
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505325">
@@ -1380,13 +1380,13 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAV收藏管理器</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAv批量備份收藏視頻</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>miss片單備份，支持下載圖片保存視頻信息.導出本地網頁 支持導出到webdav</summary>
+    <summary>從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1409,12 +1409,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">TissAV自動登錄</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">ThisAV 自動登入</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-檢測 TissAV 狀態，並且在未登錄時自動登錄
+偵測 ThisAV 狀態,並且在未登入時自動登入
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506528">
@@ -1432,12 +1432,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">JableTV自動登錄</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">JableTV 自動登入</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">
         <img height=24 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-檢測 JableTV 狀態，並且在未登錄時自動登錄
+偵測 JableTV 狀態,並且在未登入時自動登入
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/506730">
@@ -1489,7 +1489,7 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-識別非中文字符，如果長度大於 5 且翻譯文本中不含中文，則替換為中文,需要可訪問google的網絡
+識別非中文字符，如果長度大於5且翻譯文本中不含中文，則翻譯並且替換原始文本到中文
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1512,7 +1512,7 @@
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
 </h3>
 
-給每個非中文的網頁右下角（可以調整到左下角）添加一個 google 翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文，添加自動翻譯
+給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">
@@ -1707,10 +1707,9 @@
 ## 貢獻者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
-
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
-<a href="https://github.com/qinwuyuan-sync-bot" title="人民的勤务员的勤務員"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的勤务员的勤務員"/></a>
-
+<a href="https://github.com/ChinaGodBot" title="人民的小助手"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的小助手"/></a>
+<a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
 貢獻列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="小弟調調"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟調調"/></a>
