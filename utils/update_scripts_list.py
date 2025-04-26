@@ -1,7 +1,12 @@
 from writer import process_file
+from searcher import search_in_file
 import json
 import sys
+import argparse
 sys.dont_write_bytecode = True
+
+# 定义需要查找的语言
+LANG_CODE = 'zh-CN'
 
 
 # 读取 JSON 文件
@@ -32,19 +37,24 @@ def generate_html_table(scripts):
         img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
         script_id = script.get("greasyfork_id")
         script_fold = script.get("directory")
+        # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
+        script_absolute_path = script.get("directory") + "/" + script.get("js_name")
+        sreach_result = search_in_file(script_absolute_path, LANG_CODE)
+        script_name = "\n".join(sreach_result.name_matches)
+        script_description = "\n".join(sreach_result.description_matches)
         # ! 对没有预览截图的脚本,只显示介绍就行了
         screenshot_block = f'''<details>
-    <summary>{script.get("description")}</summary>
+    <summary>{script_description}</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
            {img_tag}</a>
     </blockquote>
-</details>''' if img_tag else script.get("description")
+</details>''' if img_tag else script_description
 
         html_table += f'''<h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">{script.get("name")}</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">{script_name}</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
         <img height=24 src="https://img.shields.io/greasyfork/dt/{script_id}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
@@ -92,11 +102,23 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
     return html_output
 
 
-json_file_path = 'docs/ScriptsPath.json'
-data = read_json(json_file_path)
-# 按 relatedscripts 分类脚本
-related_scripts_map = generate_description(data.get('scripts', []))
-html_output = generate_grouped_html(related_scripts_map, False)
-# 读取 README.md 文件并替换表格
-readme_path = 'docs/README.md'
-process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
+def main():
+    # 自定义当前脚本列表使用的语言和文件
+    parser = argparse.ArgumentParser(description="更新脚本列表,并可指定语言")
+    parser.add_argument("--lang_code", default="zh-CN", help="语言代码")
+    parser.add_argument("--readme_path", default="docs/README.md", help="需要更新脚本列表的README 文件路径")
+    parser.add_argument("--json_file_path", default="docs/ScriptsPath.json", help="脚本列表的 JSON 文件路径")
+    args = parser.parse_args()
+    # 赋值全局变量
+    global LANG_CODE
+    LANG_CODE = args.lang_code
+    json_file_path = args.json_file_path
+    readme_path = args.readme_path
+    data = read_json(json_file_path)
+    related_scripts_map = generate_description(data.get('scripts', []))
+    html_output = generate_grouped_html(related_scripts_map, False, False)
+    process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
+
+
+if __name__ == "__main__":
+    main()
