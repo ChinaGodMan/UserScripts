@@ -14,5 +14,11 @@
   },
   "[python]": {
     "editor.wordWrap": "off"
+  },
+  "files.exclude": {
+    "commitlint.config.js": true,
+    "**/.eslintcache": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
   }
 }
