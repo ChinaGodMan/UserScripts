@@ -60,8 +60,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-m3u8-finder/missav-m3u8-finder.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/528160">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ XXXXX 更新日志</strong></h1>
-<h3><strong>📅 2025-02-26 23:55:34- Ver 2025.02.26.2355</strong></h3>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MISSAV M3U8 视频下载工具 更新日志</strong></h1>
+<h3><strong>📅 2025.04.27.1347</strong></h3>
+<p><strong>新增</strong>: 添加域名<code>missav.live</code>的支持</p>
+<hr />
+<h3><strong>📅 2025.02.26.2355</strong></h3>
 <p><strong>新增</strong>: •修改了部分代码，优化了程序性能.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/528160.png">

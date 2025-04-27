@@ -60,7 +60,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer/missav-explorer.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MissAV 批量备份收藏视频 更新日志</strong></h1>
+<h3><strong>📅 2025.04.27.1347</strong></h3>
+<p><strong>修复</strong>: • 添加域名<code>missav.live</code>的支持<br>
+<strong>新增</strong>: • 由于域名经常变化,不在硬编网址,而是从当前页面提取到域名</p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">
 </div></center>
 

@@ -54,13 +54,17 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>MissAvBatch backup collection of videos</h1>
-    <p>「 From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file 」</p>
+    <h1>MissAv批量备份收藏视频</h1>
+    <p>「 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件 」</p>
     <img src="https://views.whatilearened.today/views/github/497682/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-explorer/missav-explorer.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497682">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MissAV 批量备份收藏视频 更新日志</strong></h1>
+<h3><strong>📅 2025.04.27.1347</strong></h3>
+<p><strong>修复</strong>: • 添加域名<code>missav.live</code>的支持<br>
+<strong>新增</strong>: • 由于域名经常变化,不在硬编网址,而是从当前页面提取到域名</p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497682.png">
 </div></center>
 

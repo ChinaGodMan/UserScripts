@@ -55,12 +55,16 @@
 
 <center><div align="center">
     <h1>MissAV 자동 로그인</h1>
-    <p>「 시험 MissAV 상태,로그인하지 않으면 자동으로 로그인합니다 」</p>
+    <p>「 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MissAV 自动登录 更新日志</strong></h1>
+<h3><strong>📅 2025.04.27.1343</strong></h3>
+<p><strong>修复</strong>: • 添加域名<code>missav.live</code>的支持<br>
+<strong>新增</strong>: • 由于域名经常变化,不在硬编网址,而是从当前页面提取到域名</p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505325.png">
 </div></center>
 
