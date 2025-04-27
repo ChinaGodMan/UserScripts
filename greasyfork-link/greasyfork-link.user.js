@@ -1,10 +1,226 @@
 // ==UserScript==
 // @name              Greasy fork脚本页面适用于网址增强
+// @name:af           Vetterige vurkskripbladsye vir URL -verbetering
+// @name:am           የ URR ማጎልበቻ ቅባቶች የመዋቢያ ስክሪፕቶች ገጾች
+// @name:ar           صفحات نصية شوكة دهنية لتعزيز عنوان URL
+// @name:az           URL genişləndirilməsi üçün yağlı çəngəl skript səhifələri
+// @name:be           Тлустыя старонкі сцэнарыяў відэльцаў для паляпшэння URL
+// @name:bem          Amabuula ya mafoni aya ma folki ayakuwamyako aya URL
+// @name:bg           Мазни страници на вилицата за подобряване на URL адреса
+// @name:bn           ইউআরএল বর্ধনের জন্য চিটচিটে কাঁটাচামচ স্ক্রিপ্ট পৃষ্ঠা
+// @name:bo           གྷི་རི་སི་ཕོརཀ་ཡིག་གཟུགས་ཤོག་ངོས། URLཡར་རྒྱས་གཏོང་བ།
+// @name:bs           STROJENE SCRIPT FORK SCRIPT ZA URLU PODRUČENJE
+// @name:ca           Pàgines de script de forquilla grasses per a la millora de l’URL
+// @name:ceb          Greasy Fork Script Mga panid alang sa pagpalambo sa URL
+// @name:ckb          لاپەڕەکانی سکریپتی چەور بۆ بەرزکردنەوەی URL
+// @name:cs           Stránky skriptu mastné vidlice pro vylepšení adresy URL
+// @name:cy           Tudalennau sgript fforc seimllyd ar gyfer gwella URL
+// @name:da           Greasy Fork Script -sider til URL -forbedring
+// @name:de           Fettige Gabelskriptseiten für die URL -Verbesserung
+// @name:dv           ޔޫއާރްއެލް އެންހަންސްމަންޓް އަށް ގްރީސީ ފޯކް ސްކްރިޕްޓް ޕޭޖް
+// @name:dz           ཡུ་ཨར་ཨེལ་ཡར་འཕེལ་གྱི་དོན་ལུ་ གི་རིསི་ཕོརཀ་ཡིག་ཚུགས་ཤོག་ལེབ།
+// @name:el           Λιπαρές σελίδες σεναρίου πιρουνιού για βελτίωση της διεύθυνσης URL
+// @name:en           Greasy fork script pages for URL enhancement
+// @name:eo           Grasaj forkaj skriptaj paĝoj por URL -plibonigo
+// @name:es           Páginas de secuencia de comandos de bifurcación grasosa para mejoras de URL
+// @name:et           Rasvased kahvli skripti lehed URL -i täiustamiseks
+// @name:eu           Orkesta koipetsuak URL hobekuntzarako orriak
+// @name:fa           صفحات اسکریپت چنگال چرب برای تقویت URL
+// @name:fi           Rasvaiset haarukka käsikirjoitussivut URL -osoitteen parantamiseksi
+// @name:fo           Gleðilig gaffil script síður til URL aaxement
+// @name:fr           Pages de script de fourche grasse pour amélioration de l’URL
+// @name:gd           Duilleagan sgriobt greannach airson an URL adhartachadh URL
+// @name:gl           Páxinas de guión de tenedor graxa para mellorar o URL
+// @name:gu           URL ઉન્નતીકરણ માટે ચીકણું કાંટો સ્ક્રિપ્ટ પૃષ્ઠો
+// @name:haw          ʻO nāʻaoʻao Trek Trek Topy no ka url hoʻonui
+// @name:he           דפי סקריפט מזלג שמנוני לשיפור כתובות URL
+// @name:hi           URL वृद्धि के लिए चिकना कांटा स्क्रिप्ट पृष्ठ
+// @name:hr           Stranice skripte za masnu vilicu za poboljšanje URL -a
+// @name:ht           Paj script fouchèt gra pou amelyorasyon URL
+// @name:hu           Zsíros villa szkript oldalak az URL -javításhoz
+// @name:hy           Յուղոտ պատառաքաղի սցենարի էջեր URL- ի բարելավման համար
+// @name:id           Halaman skrip garpu berminyak untuk peningkatan url
+// @name:is           Feitt gaffal handritssíður til endurbóta á URL
+// @name:it           Pagine di script fork grasse per il miglioramento dell’URL
+// @name:ja           URL強化用の脂っこいフォークスクリプトページ
+// @name:ka           ცხიმიანი ჩანგლის სკრიპტის გვერდები URL გასაუმჯობესებლად
+// @name:kk           URL мекен-жайын жақсарту үшін майлы шыңның сценарий беттері
+// @name:km           បំពេញបេសល្បាតទំព័រស្គ្រីបសម្រាប់ការលើកកម្ពស់ URL
+// @name:kn           URL ವರ್ಧನೆಗಾಗಿ ಜಿಡ್ಡಿನ ಫೋರ್ಕ್ ಸ್ಕ್ರಿಪ್ಟ್ ಪುಟಗಳು
+// @name:ko           URL 향상을위한 기름기가 많은 포크 스크립트 페이지
+// @name:ku           Rûpelên Script Greasy Fork ji bo zêdekirina URL
+// @name:ky           URL өркүндөтүү үчүн Crips Fork баракчалары
+// @name:la           Credit Fork Paginae enim URL Enhancement
+// @name:lb           Fetteg Gabel Script Säiten fir URL Erweiderung
+// @name:lo           ຫນ້າທີ່ມີໄຂມັນສໍາລັບການປັບປຸງ URL
+// @name:lt           Greasy Fork scenarijaus puslapiai URL patobulinimui
+// @name:lv           Taukainas dakšas skriptu lapas URL uzlabošanai
+// @name:mg           Pejy fanalahidy patera ho an’ny URL Fampivoarana
+// @name:mi           Ko nga whaarangi tuhinga mo te kiri o te otaota mo te whakarei URL
+// @name:mk           Скрипти страници со мрсна вилушка за подобрување на URL -то
+// @name:ml           URL മെച്ചപ്പെടുത്തുന്നതിനുള്ള കൊഴുപ്പ് ഫോർട്ട് സ്ക്രിപ്റ്റ് പേജുകൾ
+// @name:mn           Урлалтын сайжруулалтад зориулсан тослог сэрээ скрипт хуудас
+// @name:ms           Halaman skrip garpu berminyak untuk peningkatan URL
+// @name:mt           Paġni tal-iskritt tal-furketta żejtnija għat-titjib tal-URL
+// @name:my           url တိုးမြှင့်မှုအတွက်ချောချောမွေ့လုံစိတ်မျက်နှာဖုံးစာမျက်နှာများ
+// @name:ne           यूआरएल बृद्धिका लागि चिल्लो पकड स्क्रिप्ट पृष्ठहरू
+// @name:nl           Vettige vork scriptpagina’s voor URL -verbetering
+// @name:no           Fettete gaffelskriptsider for URL -forbedring
+// @name:ny           Masamba a Mafuta a Mafuta a ARL Kupititsa patsogolo
+// @name:pa           URL ਸੁਧਾਰ ਲਈ ਲਾਲਚ ਲਈ ਕਾਂਟੇ ਫੋਰਕ ਸਕ੍ਰਿਪਟ ਪੰਨੇ
+// @name:pap          Grasos fork script páginas pa mehorashon di URL
+// @name:pl           Tłuste strony skryptowe do ulepszenia adresu URL
+// @name:ps           د URL وده لپاره د ګریسي د فک سکریپټ پا Pages ې
+// @name:pt           Páginas de script de garfo gorduroso para aprimoramento de URL
+// @name:ro           Pagini de script cu furcă grasă pentru îmbunătățirea URL -ului
+// @name:ru           Страницы сценариев Greasy Fork для улучшения URL
+// @name:rw           Amavuta ya Greyy Acs Urupapuro rwo kuzamura URL
+// @name:sg           A-page ti script ti fourche ti mafuta ti tene a sara na URL .
+// @name:si           URL වැඩි දියුණු කිරීම සඳහා ආලේප ෆෝක් ස්ක්රිප්ට් පිටු
+// @name:sk           Stránky s skriptmi mastného vidlice na vylepšenie adresy URL
+// @name:sl           Strani za mastne vilice za izboljšanje URL -jev
+// @name:sm           Gaʻo o loʻo faʻamamaina ai tusitusiga mo le faʻamalosi
+// @name:sn           Greasy Fork Script Mapeji e URL Kuwedzera
+// @name:so           Bogagga qoraalka ah ee fargeeto ee fargeeto ee loo yaqaan ’url’
+// @name:sr           Странице скрипте масне вилице за унапређење УРЛ-а
+// @name:sv           Fet Fork -skriptsidor för URL -förbättring
+// @name:sw           Kurasa za maandishi ya grisi ya grisi kwa uimarishaji wa URL
+// @name:ta           URL மேம்பாட்டிற்கான க்ரீஸ் ஃபோர்க் ஸ்கிரிப்ட் பக்கங்கள்
+// @name:te           URL మెరుగుదల కోసం జిడ్డైన ఫోర్క్ స్క్రిప్ట్ పేజీలు
+// @name:tg           Саҳифаҳои скриптияи Бузург барои такмилдиҳии URL
+// @name:th           หน้าสคริปต์ Greasy Fork สำหรับการปรับปรุง URL
+// @name:ti           ቅብኣት ፋርኬታ ስክሪፕት ገጻት ን URL ምዕባይ
+// @name:tk           Url güýçlendirmek üçin ýagly skript sahypalary
+// @name:tn           Ditsebe tsa sekwalwa tsa foroko e e mafura tsa go tokafatsa URL
+// @name:to           Ngaahi peesi script ’o e fork ki he fakalahi ’o e URL .
+// @name:tpi          Grisim fok skrip pes bilong URL i ken strongim
+// @name:tr           URL geliştirme için yağlı çatal komut dosyası sayfaları
+// @name:uk           Сторінки сценаріїв жирного вилки для посилення URL -адрес
+// @name:ur           یو آر ایل میں اضافے کے لئے چکنائی والے کانٹا اسکرپٹ صفحات
+// @name:uz           URL manzili uchun yog’li fork ssenariylari
+// @name:vi           Trang kịch kịch bản FREASY FORK để tăng cường URL
+// @name:xh           Amaphepha eskripthi ye-Greyk ye-URL yokuphucula
+// @name:yi           גריסי גאָפּל שריפט בלעטער פֿאַר URL ענכאַנסמאַנט
+// @name:zh           Greasy fork脚本页面适用于网址增强
 // @name:zh-CN        Greasy fork脚本页面适用于网址增强
+// @name:zh-HK        Greasy fork腳本頁面適用於網址增強
+// @name:zh-MO        Greasy fork腳本頁面適用於網址增強
+// @name:zh-MY        Greasy fork脚本页面适用于网址增强
+// @name:zh-SG        Greasy fork脚本页面适用于网址增强
+// @name:zh-TW        Greasy fork腳本頁面適用於網址增強
+// @name:zu           Amakhasi Eskript Forks anamafutha e-URL Ukuthuthukiswa
+// @description       脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+// @description:af    Die skripbesonderhede -bladsy is geskik om sonder standaard -URL’s te soek. Draai na klikbare teksskakels en pop -up -aanwysings
+// @description:am    የስክሪፕት ዝርዝሮች ገጽ ያለ ነባሪ ዩአርኤሎች ለመፈለግ ተስማሚ ነው. ወደ ጠቅላይ አገናኞች አገናኞች ይሂዱ እና ብቅ ያለው ፕሮፖዛል
+// @description:ar    صفحة تفاصيل البرنامج النصي مناسبة للبحث دون عناوين URL الافتراضية. انعطف إلى روابط النص القابلة للنقر والمطالبات المنبثقة
+// @description:az    Skript təfərrüatları səhifəsi, standart URL olmadan axtarış üçün uyğundur. Tıklanabilir mətn bağlantısına dönün və göstərişləri açın
+// @description:be    Старонка з падрабязнасцямі сцэнарыя падыходзіць для пошуку без URL па змаўчанні. Звярніцеся да тэкставых спасылак, якія можна націснуць і ўсплываць падказкі
+// @description:bem   Ibuula lya fishinka fyalembelwe lyalinga ukufwaya ukwabula ama URL aya lyonse. Ukupilibukila ku fisuntinkanya ifikomo no kusanga ifyakukonkapo
+// @description:bg    Страницата с подробности за скрипта е подходяща за търсене без URL адреси по подразбиране. Обърнете се към текстови връзки за кликване и изскачайте подкани
+// @description:bn    স্ক্রিপ্ট বিশদ পৃষ্ঠাটি ডিফল্ট ইউআরএল ছাড়াই অনুসন্ধানের জন্য উপযুক্ত। ক্লিকযোগ্য পাঠ্য লিঙ্কগুলি এবং পপ আপ প্রম্পটগুলিতে ঘুরুন
+// @description:bo    ཡིག་ཆའི་ཞིབ་ཕྲའི་ཤོག་ངོས་དེ་སྔོན་སྒྲིག་URLམེད་པར་འཚོལ་ཞིབ་བྱེད་པར་འཚམ་པོ་ཡོད། སྣུན་ཐུབ་པའི་ཚིག་ཡིག་གི་སྦྲེལ་མཐུད་ལ་ཁ་ཕྱོགས་ནས་བརྡ་ལན་འབྱུང་བ།
+// @description:bs    Stranica s skriptama je pogodna za pretraživanje bez zadanih URL-ova. Okrenite se na kliknuti na tekstualne veze i pojačajte se
+// @description:ca    La pàgina de detalls de l’script és adequada per cercar -la sense URL per defecte. Torneu a enllaços de text de clic i indicacions populars
+// @description:ceb   Ang panid sa mga detalye sa script nga panid angay alang sa pagpangita nga wala’y default nga mga URL. Pag-adto sa mga clickable nga mga link sa teksto ug mga pag-aghat sa mga pag-aghat
+// @description:ckb   لاپەڕەی وردەکارییەکانی سکریپت گونجاوە بۆ گەڕان بەبێ URL ی پێشوەختە. گەڕانەوە بۆ بەستەری دەقی کلیککراو و پەپ ئاپ پرۆمپتەکان
+// @description:cs    Stránka podrobností o skriptu je vhodná pro vyhledávání bez výchozích adres URL. Otočte k kliknutí na textové odkazy a vyskakovací výzvy
+// @description:cy    Mae tudalen manylion y sgript yn addas ar gyfer chwilio heb URLau diofyn. Trowch at ddolenni testun y gellir eu clicio a pop i fyny awgrymiadau
+// @description:da    Siden om scriptoplysninger er velegnet til søgning uden standard URL’er. Drej til klikbare tekstlink og pop -up promps
+// @description:de    Die Seite "Skriptdetails" ist für die Suche ohne Standard -URLs geeignet. Wenden Sie sich an klickbare Textlinks und pop -up -Eingabeaufforderungen
+// @description:dv    ސްކްރިޕްޓް ޑީޓެއިލްސް ޕޭޖަކީ ޑިފޯލްޓް ޔޫ.އާރ.އެލް އާއި ނުލައި ސަރޗަށް އެކަށީގެންވާ އެއްޗެކެވެ. ކްލިކް ކުރެވޭ ޓެކްސްޓް ލިންކްތަކާއި ޕޮޕް އަޕް ޕްރޮމްޕްޓްސް އަށް އެނބުރިލާށެވެ .
+// @description:dz    ཡིག་ཚུགས་ཁ་གསལ་ཤོག་ལེབ་འདི་ སྔོན་སྒྲིག་ཡུ་ཨར་ཨེལ་ཚུ་མེད་པར་འཚོལ་ཞིབ་འབད་ནི་ལུ་འོས་འབབ་ཡོདཔ་ཨིན། ཨེབ་གཏང་འབད་བཏུབ་པའི་ཚིག་ཡིག་འབྲེལ་ལམ་དང་ པོཔ་ཨཔ་བརྡ་བཀོད་ཚུ་ལུ་བསྒྱིར།
+// @description:el    Η σελίδα λεπτομερειών σεναρίου είναι κατάλληλη για αναζήτηση χωρίς προεπιλεγμένες διευθύνσεις URL. Γυρίστε σε συνδέσμους κειμένου με δυνατότητα κλικ και αναδυόμενες προτροπές
+// @description:en    The script details page is suitable for searching without default URLs. Turn to clickable text links and pop up prompts
+// @description:eo    La paĝo pri skriptaj detaloj taŭgas por serĉi sen defaŭltaj URLoj. Turnu al alklakeblaj tekstaj ligoj kaj aperu promesojn
+// @description:es    La página Detalles del script es adecuada para buscar sin URL predeterminadas. Gire para hacer clic en enlaces de texto y indicaciones emergentes
+// @description:et    Skripti üksikasjade leht sobib vaikimisi URL -ideta otsimiseks. Pöörake klõpsamiseks tekstilinke ja hüpikjuhtige
+// @description:eu    Script-en xehetasunen orria egokia da URL lehenetsi gabe bilatzeko. Biratu testu estekak eta pop up argibideak
+// @description:fa    صفحه جزئیات اسکریپت برای جستجوی بدون URL های پیش فرض مناسب است. به لینک های متنی قابل کلیک و ارسال ها بپردازید
+// @description:fi    Komentosarjan yksityiskohdat sopivat hakuun ilman oletus -URL -osoitteita. Käännä napsautettavia tekstilinkkejä ja ponnahdusikkunoita
+// @description:fo    Skriftdetaljusíðan er hóskandi til at leita uttan forsettar URL’ir. Vend til tekstleinkjur á klikkandi og poppa upp boð
+// @description:fr    La page Détails du script convient à la recherche sans URL par défaut. Tournez-vous vers des liens texte cliquables et des invites à faire apparaître
+// @description:gd    Tha an duilleag mion-fhiosrachaidh Script freagarrach airson a bhith a ’lorg ealan bunaiteach. Tionndaidh gu Ceanglaichean teacsa cliog agus molaidhean pop up
+// @description:gl    A páxina de detalles do script é adecuada para buscar sen URL predeterminadas. Xire a ligazóns de texto clics e emerxentes
+// @description:gu    સ્ક્રિપ્ટ વિગતો પૃષ્ઠ ડિફ default લ્ટ URL વિના શોધવા માટે યોગ્ય છે. ક્લિક કરવા યોગ્ય ટેક્સ્ટ લિંક્સ તરફ વળો અને પ pop પ અપ પ્રોમ્પ્ટ્સ
+// @description:haw   He kūpono nāʻaoʻao kiko’ī kiko’ī E huli i nā loulou i paʻiʻia a me nā popo
+// @description:he    דף פרטי הסקריפט מתאים לחיפוש ללא כתובות אתרים ברירת מחדל. פנה לקישורי טקסט הניתנים ללחיצה והנחיות קופצות
+// @description:hi    स्क्रिप्ट विवरण पृष्ठ डिफ़ॉल्ट URL के बिना खोज के लिए उपयुक्त है। क्लिक करने योग्य पाठ लिंक की ओर मुड़ें और संकेतों को पॉप अप करें
+// @description:hr    Stranica s detaljima skripte prikladna je za pretraživanje bez zadanih URL -ova. Okrenite se tekstualnim vezama koje se mogu kliknuti i iskoristite upute
+// @description:ht    Paj Detay Script la apwopriye pou chèche san URL default. Vire sou lyen tèks klike ak pòp moute envit
+// @description:hu    A szkript részleteinek oldala alapértelmezett URL -ek nélküli keresésre alkalmas. Forduljon a kattintható szöveg linkekhez és a felbukkanó utasításokhoz
+// @description:hy    Սցենարի մանրամասների էջը հարմար է առանց լռելյայն URL- ի որոնման համար: Դիմել կտտոցային տեքստային հղումներին եւ թռուցիկ հուշումներին
+// @description:id    Halaman Detail Skrip cocok untuk pencarian tanpa URL default. Putar ke tautan teks yang dapat diklik dan petunjuk pop up
+// @description:is    Upplýsingar um handritið er hentugur til að leita án sjálfgefinna vefslóða. Snúðu að smella á textatengla og birtast leiðbeiningar
+// @description:it    La pagina dei dettagli dello script è adatta per la ricerca senza URL predefiniti. Passa ai collegamenti di testo cliccabili e ai suggerimenti di pop -up
+// @description:ja    スクリプトの詳細ページは、デフォルトのURLなしで検索するのに適しています。クリック可能なテキストリンクを回し、プロンプトをポップアップします
+// @description:ka    სკრიპტის დეტალების გვერდი შესაფერისია ნაგულისხმევი URL- ების გარეშე. გადაუხვიეთ დაჭერით ტექსტურ ბმულებს და გამოაცხადეთ მოთხოვნები
+// @description:kk    Сценарий туралы мәліметтер беті әдепкі URL мекенжайларын іздеуге жарамды. Шығарылатын мәтіндік сілтемелер және PLP нұсқауларын қосыңыз
+// @description:km    ទំព័រលំអិតស្គ្រីបគឺសមរម្យសម្រាប់ការស្វែងរកដោយគ្មាន URLs លំនាំដើម។ ងាកទៅរកតំណភ្ជាប់អត្ថបទដែលអាចចុចបានហើយលេចចេញមក
+// @description:kn    ಡೀಫಾಲ್ಟ್ URL ಗಳಿಲ್ಲದೆ ಹುಡುಕಲು ಸ್ಕ್ರಿಪ್ಟ್ ವಿವರಗಳ ಪುಟವು ಸೂಕ್ತವಾಗಿದೆ. ಕ್ಲಿಕ್ ಮಾಡಬಹುದಾದ ಪಠ್ಯ ಲಿಂಕ್‌ಗಳಿಗೆ ತಿರುಗಿ ಮತ್ತು ಪಾಪ್ ಅಪ್ ಪ್ರಾಂಪ್ಟ್‌ಗಳು
+// @description:ko    스크립트 세부 사항 페이지는 기본 URL없이 검색에 적합합니다. 클릭 가능한 텍스트 링크로 전환하고 프롬프트를 팝업하십시오
+// @description:ku    Rûpelên hûrguliyên tîpan ji bo lêgerîna bêyî URLên xwerû maqûl e. Vegere girêdanên nivîsa bikirtînin û pişkên pop
+// @description:ky    Сценарийдин чоо-жайы Оңду демейки URL’син издөө үчүн ылайыктуу. Чыкылдатуучу текст шилтемелерине кайрылыңыз жана калкып чыгыңыз
+// @description:la    Et Scriptor Details page idoneam ad investigatione absque default default. Turn ad clickable text Links et Pop Sursum Promptus
+// @description:lb    D’Skript Detailer Säit ass gëeegent fir ze sichen ouni Standard URLen. Dréit op Clickbar Text Links a Pop Up Prompt
+// @description:lo    ຫນ້າລາຍລະອຽດຂອງຕົວຫນັງສືແມ່ນເຫມາະສົມສໍາລັບການຄົ້ນຫາໂດຍບໍ່ມີການກໍານົດ URLs. ຫັນໄປຫາລິ້ງຂໍ້ຄວາມທີ່ສາມາດກົດໄດ້ແລະ Pop Up Prompts
+// @description:lt    Scenarijaus informacijos puslapis tinka ieškoti be numatytųjų URL. Pasukite į spustelėjamas teksto nuorodas ir iškylančius raginimus
+// @description:lv    Lapa skripts ir piemērota meklēšanai bez noklusējuma URL. Pagriezieties uz noklikšķināmām teksta saitēm un uznirstošajām uzvednēm
+// @description:mg    Ny pejy antsipirian’ny script dia mety amin’ny fikarohana tsy misy URL default. Mitodiha any amin’ny rohy kitiho ary pop up popt
+// @description:mi    Ko te whaarangi tuhinga tuhi e tika ana mo te rapu me te kore URL koreutu. Tahuri ki nga hononga kuputuhi kapo me te panui ake
+// @description:mk    Страницата со детали за скриптата е погодна за пребарување без стандардни URL -адреси. Свртете се на кликнување на текстуални врски и при -упатства за поп.
+// @description:ml    സ്ഥിരസ്ഥിതി URL- കൾ ഇല്ലാതെ തിരയുന്നതിന് സ്ക്രിപ്റ്റ് വിശദാംശ പേജ് അനുയോജ്യമാണ്. ക്ലിക്കുചെയ്യാവുന്ന ടെക്സ്റ്റ് ലിങ്കുകളിലേക്ക് തിരിയുക, പോപ്പ് അപ്പ് പ്രോംപ്റ്റുകൾ
+// @description:mn    Скриптийн дэлгэрэнгүй хуудас нь анхдагч URL-ыг хайхад тохиромжтой. Төслэх текстийн холбоос руу эргэх
+// @description:ms    Halaman Butiran Skrip sesuai untuk mencari tanpa URL lalai. Hidupkan ke pautan teks yang boleh diklik dan muncul arahan
+// @description:mt    Il-paġna tad-dettalji tal-iskritt hija adattata għat-tiftix mingħajr URLs default. Dawwar għal links tat-test li jistgħu jiġu kklikkjati u pop up iqajjem
+// @description:my    script အသေးစိတ်စာမျက်နှာသည်ပုံမှန် URLs မပါဘဲရှာဖွေခြင်းအတွက်သင့်တော်သည်။ Clickable text link များနှင့် POPT များပေါ်လာပါ
+// @description:ne    स्क्रिप्ट विवरण पृष्ठ पूर्वनिर्धारित युआरएल बिना खोजीको लागि उपयुक्त छ। क्लिक योग्य पाठ लिंकहरू र पप अप प्रम्प्टमा बदल्नुहोस्
+// @description:nl    De pagina Script Details is geschikt om te zoeken zonder standaard URL’s. Draai naar klikbare tekstlinks en pop -up prompts
+// @description:no    Siden for skriptdetaljer er egnet for å søke uten standardadresser. Vend deg til klikkbare tekstkoblinger og pop -up spørsmål
+// @description:ny    Tsamba lofotokoza za zilembo ndi zoyenera kusaka popanda ma urls osasunthika. Tembenukirani ku malembedwe ojambula ndi potuluka
+// @description:pa    ਸਕ੍ਰਿਪਟ ਵੇਰਵਿਆਂ ਦਾ ਪੰਨਾ ਬਿਨਾਂ ਡਿਫੌਲਟ URL ਤੋਂ ਖੋਜ ਲਈ ਯੋਗ ਹੈ. ਕਲਿਕ ਕਰਨ ਯੋਗ ਟੈਕਸਟ ਲਿੰਕਸ ਅਤੇ ਪੌਪ-ਅਪ ਪ੍ਰੋਂਪਟ
+// @description:pap   E página di detayenan di script ta adekuá pa buska sin URLnan predeterminá. Bira pa klik riba links di teksto i pop up di prompts
+// @description:pl    Strona szczegółów skryptu jest odpowiednia do wyszukiwania bez domyślnych adresów URL. Odwróć się do klikalnych linków tekstowych i wyskakujących podpowiedzi
+// @description:ps    د سکریپټ توضیحي پا page ه د ډیفالټ ULS پرته د لټون لپاره مناسب دی. د کلیک کولو وړ شوي متن لینکونو ته وګرځئ او د پمپ اپ
+// @description:pt    A página de detalhes do script é adequada para a pesquisa sem URLs padrão. Vire para links de texto clicável e prompts pop -up
+// @description:ro    Pagina Detalii scripturi este potrivită pentru căutarea fără adrese URL implicite. Reveniți la link -uri text cu clic și la solicitări de apăsare
+// @description:ru    Страница сведений о сценарии подходит для поиска без URL -адресов по умолчанию. Обратитесь к кликабельному текстовым ссылкам и всплывают подсказки
+// @description:rw    Urupapuro rwitondewe rukwiranye no gushakisha nta kol isanzwe. Hindukira kuri kanda yinyandiko hanyuma ufate ibisabwa
+// @description:sg    Page ti asango ti script ni ayeke nzoni ti gi ni sân ti tene a-URL ti defaut. Tourné a-lien ti atënë so a lingbi ti cliqué na ndo ni na mo sigigi na a-article .
+// @description:si    තිරිසන තොරතුරු පිටුව පෙරනිමි URL නොමැතිව සෙවීම සඳහා සුදුසු වේ. ක්ලික් කළ හැකි පෙළ සබැඳි සහ Pop Up Opps වෙත හැරෙන්න
+// @description:sk    Stránka s podrobnosťami skriptu je vhodná na vyhľadávanie bez predvolených URL. Obráťte sa na textové odkazy na kliknutia a výziev na vyskakovanie
+// @description:sl    Stran s podrobnostmi skripta je primerna za iskanje brez privzetih URL -jev. Obrnite na besedilne povezave, ki jih je mogoče klikniti
+// @description:sm    E talafeagai le itulau auiliiliga auiliiliga mo le sailia e aunoa ma le le talafeagai uta. Liliu i le kilikiina o tusitusiga sootaga ma oso i luga musumusuga
+// @description:sn    Iyo Script Dreater peji yakakodzera kutsvaga pasina default ma itals. Tendeukira kumavara anodzvanywa zvinongedzo uye pop kumusoro zvinokurudzirwa
+// @description:so    Bogga faahfaahinta qoraalka ayaa ku habboon raadinta iyada oo aan lahayn URL-ka caadiga ah. U leexo xiriiriyeyaasha qoraalka ee la taaban karo oo soo qaado
+// @description:sr    Страница детаља о скрипту је погодна за тражење без подразумеваних УРЛ-ова. Претворите се на дугме Текстуалне везе и Поп Уп Упс
+// @description:sv    Sidan om skriptinformation är lämplig för sökning utan standard -URL: er. Vänd dig till klickbara textlänkar och pop -up -instruktioner
+// @description:sw    Ukurasa wa Maelezo ya Hati unafaa kwa kutafuta bila URL chaguo -msingi. Badilika kwa viungo vya maandishi yanayoweza kubofya na viboreshaji
+// @description:ta    இயல்புநிலை URL கள் இல்லாமல் தேடுவதற்கு ஸ்கிரிப்ட் விவரங்கள் பக்கம் பொருத்தமானது. கிளிக் செய்யக்கூடிய உரை இணைப்புகளுக்குத் திரும்பி, தூண்டுதல்களை பாப் அப் செய்யவும்
+// @description:te    స్క్రిప్ట్ వివరాల పేజీ డిఫాల్ట్ URL లు లేకుండా శోధించడానికి అనుకూలంగా ఉంటుంది. క్లిక్ చేయగల టెక్స్ట్ లింక్‌ల వైపు తిరగండి మరియు ప్రాంప్ట్‌లను పాప్ అప్ చేయండి
+// @description:tg    Тафсилоти скрипт барои ҷустуҷӯ бидуни URL-ҳои пешфарз мувофиқ аст. Ба пайвандҳои матнии матнӣ табдил диҳед ва ба таври поп-ап
+// @description:th    หน้ารายละเอียดสคริปต์เหมาะสำหรับการค้นหาโดยไม่มี URL เริ่มต้น หันไปหาลิงค์ข้อความที่คลิกได้และพรอมต์ป๊อปอัพ
+// @description:ti    እቲ ናይ ስክሪፕት ዝርዝር ገጽ ብዘይ ነባሪ URL ንምድላይ ዝምችእ እዩ። ናብ clickable text links ተጠውዩ POP up prompts
+// @description:tk    Scriptiň jikme-jiklikleri sahypasy, adaty URL-leri gözlemek üçin amatlydyr. Olary okalýan tekst baglanyşyklaryna we çykýan soraglara çykyň
+// @description:tn    Tsebe ya dintlha tsa sekwalwa e siametse go batla ntle le di-URL tsa thulaganyetsoruri. Retologela kwa dikgokaganong tsa sekwalwa tse di ka tobediwang mme o tlhage dipotso
+// @description:to    ’Oku fe’unga ’a e peesi fakaikiiki ’o e tohi ki he fekumi ’o ’ikai ha URLs default. Tafoki ki he ngaahi fehokotaki’anga tohi ’oku lava ke lomi’i pea pop hake ’a e ngaahi ue’i .
+// @description:tpi   Pej blong skript ditel i stret blong lukaotem we i no gat ol URL blong difolt. Tanem i go long ol teks link we yu save klik long hem mo pop ap prompt
+// @description:tr    Komut dosyası detayları sayfası varsayılan URL’ler olmadan arama için uygundur. Tıklanabilir metin bağlantılarına dönün ve istemi açın
+// @description:uk    Сторінка деталей сценарію підходить для пошуку без URL -адрес за замовчуванням. Перейдіть до текстових посилань, що можна натиснути, і спливають підказки
+// @description:ur    اسکرپٹ کی تفصیلات کا صفحہ پہلے سے طے شدہ URLs کے بغیر تلاش کے ل suitable موزوں ہے۔ کلک کرنے کے قابل ٹیکسٹ لنکس کی طرف رجوع کریں اور اشارے پاپ اپ کریں
+// @description:uz    Script ma’lumotlar sahifasi standart URL-larda qidirish uchun mos keladi. Matnli matnli aloqa havolalarini va pop-upaga murojaat qiling
+// @description:vi    Trang chi tiết tập lệnh phù hợp để tìm kiếm mà không cần URL mặc định. Chuyển sang liên kết văn bản có thể nhấp và bật lên lời nhắc
+// @description:xh    Iphepha leNkcukacha zeNkcazo lilungele ukukhangela ngaphandle kwee-URL ezinzileyo. Jikisa kwi-Inchings yetekisi kunye nePhepha
+// @description:yi    די שריפט דעטאַילס בלאַט איז פּאַסיק פֿאַר זוכן אָן פעליקייַט URL ס. ווענדן צו קליקקאַבלע טעקסט לינקס און קנאַל אַרויף פּראַמפּס
+// @description:zh    脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+// @description:zh-CN 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+// @description:zh-HK 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示
+// @description:zh-MO 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示
+// @description:zh-MY 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+// @description:zh-SG 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
+// @description:zh-TW 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示
+// @description:zu    Ikhasi Lemininingwane Yeskripthi lilungele ukusesha ngaphandle kwama-URL azenzakalelayo. Phendukela ekuxhumaneni kombhalo ochofozayo kanye nokuvela okuvumayo
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           0.9.3.66
-// @description       脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
-// @description:zh-CN 脚本详情页适用于网址不默认跳转搜索 转为可点击的文本链接并弹出提示
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://*.greasyfork.org/zh-CN/scripts/*
 // @match             https://*.sleazyfork.org/zh-CN/scripts/*
@@ -35,7 +251,6 @@
             m.style.opacity = '0'; setTimeout(function () { document.body.removeChild(m) }, d * 1000)
         }, duration)
     }
-
 
     function navigateTo(url, useWindowOpen) {
         if (useWindowOpen) {
@@ -229,5 +444,4 @@
         appliesToSection.parentElement.appendChild(selectList)
         appliesToSection.parentElement.appendChild(checkboxLabel)
     }
-})();
-
+})()

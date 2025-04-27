@@ -1,10 +1,226 @@
 // ==UserScript==
 // @name              MissAv批量备份收藏视频
+// @name:af           Missav Batch Backup Collection Video’s
+// @name:am           Sisev batch የመጠባበቂያ ቅጂዎች ቪዲዮዎች
+// @name:ar           Missav Batch Backup Collection Videos
+// @name:az           Missav Batch Backup Toplama Videoları
+// @name:be           Відэа калекцыі рэзервовага капіявання Missav Batch
+// @name:bem          Amavidyo yakulonganika ayakuminkana
+// @name:bg           Missav Batch Backup Collection Videos
+// @name:bn           মিসাভ ব্যাচ ব্যাকআপ সংগ্রহ ভিডিও
+// @name:bo           མི་སི་ཨེ་ཝ་ཡི་རྒྱབ་སྣོན་རྒྱབ་སྐྱོར་བསྡུ་རུབ་བརྙན་འཕྲིན།
+// @name:bs           Video sa kolekcijom Batch Batch Batch
+// @name:ca           Missav Batch Backup Collection Videos
+// @name:ceb          Ang Missav Batch Backup Collection Video
+// @name:ckb          ڤیدیۆی کۆکردنەوەی باکئەپی وەجبەی میسڤ
+// @name:cs           Videa sběrnice zálohky Missav Batch
+// @name:cy           Fideos Casgliad Wrth Gefn Swp Missav
+// @name:da           Missav Batch Backup Collection Videos
+// @name:de           Missav Batch Backup Collection Videos
+// @name:dv           މިސާވް ބެޗް ބެޗް ބެކަޕް ކަލެކްޝަން ވީޑިއޯ
+// @name:dz           MissAv batch རྒྱབ་ཐག་བསྡུ་སྒྲིག་བརྙན་ཐུང་།
+// @name:el           Missav Batch Backup Collection Videos
+// @name:en           MissAv batch backup collection videos
+// @name:eo           Vidbendoj de Missav Batch Rezerva Kolekto
+// @name:es           Videos de colección de copias de seguridad de Missav Batch
+// @name:et           Missav partii varukogude videod
+// @name:eu           Missav Batch Backup Bildumako bideoak
+// @name:fa           فیلم های مجموعه پشتیبان Missav Batch
+// @name:fi           Missav Batch Backup Collection -videot
+// @name:fo           MissAv batch backup savnsvideoir
+// @name:fr           Vidéos de collection de sauvegarde de Missav Batch
+// @name:gd           Bhideothan cruinneachadh Bistaw baidse baidse
+// @name:gl           Vídeos de colección de copias de seguridade por lotes de Missav
+// @name:gu           મિસવ બેચ બેકઅપ સંગ્રહ વિડિઓઝ
+// @name:haw          ʻO nā wikiō RISAV Batch Rub
+// @name:he           סרטוני אוסף גיבוי אצווה של מיסב
+// @name:hi           मिसाव बैच बैकअप संग्रह वीडियो
+// @name:hr           Videozapisi za prikupljanje sigurnosnih kopija Missav Batch
+// @name:ht           Missav pakèt backup koleksyon videyo
+// @name:hu           Missav Batch biztonsági mentési gyűjtemény videók
+// @name:hy           MissaV խմբաքանակի կրկնօրինակման հավաքածուի տեսանյութեր
+// @name:id           Video koleksi cadangan Batch Missav
+// @name:is           Missav Batch Backup Collection myndbönd
+// @name:it           Video di raccolta di backup batch MISSAV
+// @name:ja           Missavバッチバックアップコレクションビデオ
+// @name:ka           Missav Batch სარეზერვო კოლექციის ვიდეოები
+// @name:kk           Missav пакеті Сақтық көшірме жасау жиынтығы Бейнелер
+// @name:km           វីដេអូប្រមូលបម្រុងបម្រុងបណ្តេញចេញ Missav Batch
+// @name:kn           ಮಿಸ್ಸಾವ್ ಬ್ಯಾಚ್ ಬ್ಯಾಕಪ್ ಸಂಗ್ರಹ ವೀಡಿಯೊಗಳು
+// @name:ko           Missav 배치 백업 컬렉션 비디오
+// @name:ku           Missav Batch Backup Collection Videos
+// @name:ky           Missav Batch Rustraup Collection Videos
+// @name:la           Missav Batch tergum collectio videos
+// @name:lb           Missav Batch Backup Collection Videoen
+// @name:lo           Missavav Back Backup ການເກັບກໍາຂໍ້ມູນ
+// @name:lt           „Missav Batch Backup“ kolekcijos vaizdo įrašai
+// @name:lv           Misav pakešu rezerves kolekcijas video
+// @name:mg           Missav Batch Backup Video Videos
+// @name:mi           Ko nga ataata kohinga kohinga panui a Misv
+// @name:mk           Видеа за собирање резервни копии Missav серија
+// @name:ml           മിസ്സവ് ബാച്ച് ബാക്കപ്പ് ശേഖരണം വീഡിയോകൾ
+// @name:mn           Missav Backup Backup цуглуулах видео
+// @name:ms           Video Koleksi Backup Missav Batch
+// @name:mt           Vidjows tal-Ġbir tal-Backup tal-Lott MissAV
+// @name:my           Missav Batch Backup Collection ဗီဒီယိုများ
+// @name:ne           मिस बच ब्याकअप संग्रह भिडियोहरू
+// @name:nl           Missav Batch Backup Collection Video’s
+// @name:no           Missav Batch Backup Collection -videoer
+// @name:ny           Mavidiyo a Cark Batch Olent
+// @name:pa           ਮਿਸਵ ਬੈਚ ਬੈਕਅਪ ਭੰਡਾਰ ਵੀਡੀਓ
+// @name:pap          Videonan di kolekshon di backup di batch di MissAv
+// @name:pl           Filmy z kolekcji kopii zapasowej Missav Batch
+// @name:ps           د مس پرتله د بیک اپ ویډیوګانې
+// @name:pt           Vídeos de coleção de backup de lote missav
+// @name:ro           Videoclipuri colecția de rezervă MissAv Batch Backup
+// @name:ru           Миссав пакетный резервный видео видео
+// @name:rw           Mis Minch Inyuma Video
+// @name:sg           A-vidéo ti bungbingo ye ti MissAv .
+// @name:si           මිසව් බ්ලවුච් උපස්ථ එකතු කිරීමේ වීඩියෝ
+// @name:sk           Missav Batch Backup Collection Video
+// @name:sl           Video posnetki zbirke varnostnih kopij Missav Batch
+// @name:sm           Miss Clotch Back BadUop Colling Vitio
+// @name:sn           Missav Batch Backup Kuunganidza mavhidhiyo
+// @name:so           Masav Dutch Patch Patch Videos
+// @name:sr           Видео снимци за бацкуп Мисав Батцх Бацкуп Цоллецтион
+// @name:sv           Missav Batch Backup Collection Videos
+// @name:sw           Video za Mkusanyiko wa Backup wa Missav
+// @name:ta           மிசாவ் தொகுதி காப்பு சேகரிப்பு வீடியோக்கள்
+// @name:te           మిస్సావ్ బ్యాచ్ బ్యాకప్ సేకరణ వీడియోలు
+// @name:tg           GOADID PAXAP STAPS Videos Videos
+// @name:th           วิดีโอคอลเลกชันสำรองชุด Missav
+// @name:ti           ሚሳቭ ባች ባክኣፕ ስብስብ ቪድዮታት
+// @name:tk           Missav Batch ätiýaçlyk nusgasy
+// @name:tn           MissAv batch batch backup pokello dividio
+// @name:to           MissAv batch backup ’a e ngaahi vitio ’o e tanaki
+// @name:tpi          MisAv bet bek koleksen vidio
+// @name:tr           Missav Toplu Yedekleme Koleksiyonu Videoları
+// @name:uk           Missav Batch Reskup Collection Відео
+// @name:ur           مساو بیچ بیک اپ کلیکشن ویڈیوز
+// @name:uz           Missav partopni zaxiralash uchun video
+// @name:vi           Video bộ sưu tập sao lưu missav
+// @name:xh           I-Missav Batch Batch Backup Videos
+// @name:yi           מיסאַוו פּעקל באַקקופּ זאַמלונג ווידיאס
+// @name:zh           MissAv批量备份收藏视频
 // @name:zh-CN        MissAv批量备份收藏视频
+// @name:zh-HK        MissAv批量備份收藏視頻
+// @name:zh-MO        MissAv批量備份收藏視頻
+// @name:zh-MY        MissAv批量备份收藏视频
+// @name:zh-SG        MissAv批量备份收藏视频
+// @name:zh-TW        MissAv批量備份收藏視頻
+// @name:zu           Amaqoqo weCisav Batch Backup
+// @description       从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+// @description:af    Kry prentlêers en video -inligting op die huidige Missav -bladsy, en gee die afgelaaide webbladlêer na die samesmelting van die resultate.
+// @description:am    አሁን ካለው የ SWALAV ገጽ የምርጫ ፋይሎችን እና ቪዲዮ መረጃ ያግኙ እና የወረደ ድረ-ገጽ ፋይልን ካዋሃዱ በኋላ ያቅርቡ.
+// @description:ar    احصل على ملفات الصور ومعلومات الفيديو من صفحة Missav الحالية ، وقم بتوفير ملف صفحة الويب الذي تم تنزيله بعد دمج النتائج.
+// @description:az    Mövcud mistav səhifəsindən şəkil faylları və video məlumatları əldə edin və nəticələrin birləşdikdən sonra yüklənmiş veb səhifə sənədini verin.
+// @description:be    Атрымайце файлы малюнкаў і інфармацыю пра відэа з бягучай старонкі MISSAV і ўкажыце загружаны файл вэб -старонкі пасля аб’яднання вынікаў.
+// @description:bem   Pokeni amafailo ya fikope na mashiwi ya vidio ukufuma pe buula lya nomba ilyafilwa, kabili peeleni failo ya ibuula lya pa webu ilyakokwa panuma ya kusanshamo ifyasangwa.
+// @description:bg    Вземете файлове с снимки и видео информация от текущата страница Missav и предоставете изтегления файл на уеб страницата след сливане на резултатите.
+// @description:bn    বর্তমান মিসাভ পৃষ্ঠা থেকে ছবি ফাইল এবং ভিডিও তথ্য পান এবং ফলাফলগুলি মার্জ করার পরে ডাউনলোড করা ওয়েব পৃষ্ঠা ফাইল সরবরাহ করুন।
+// @description:bo    ད་ལྟའི་ missav ཤོག་ངོས་ནས་པར་རིས་དང་བརྙན་འཕྲིན་གྱི་གནས་ཚུལ་ལེན་ནས་གྲུབ་འབྲས་མཉམ་དུ་བསྡུས་རྗེས་ཕབ་ལེན་བྱས་པའི་དྲ་ཚིགས་ཤོག་ངོས་ཡིག་ཆ་དེ་སྤྲོད་དགོས།
+// @description:bs    Nabavite datoteke slikovne datoteke i video informacije sa trenutne stranice MisAV-a i pružite preuzetu datoteku web stranice nakon spajanja rezultata.
+// @description:ca    Obteniu fitxers d’imatges i informació de vídeo de la pàgina de Missav actual i proporcioneu el fitxer de pàgina web descarregat després de fusionar els resultats.
+// @description:ceb   Pagkuha mga file sa litrato ug kasayuran sa video gikan sa karon nga panid sa Missav, ug hatagi ang na-download nga file nga panid sa web pagkahuman sa paghiusa sa mga sangputanan.
+// @description:ckb   فایلە وێنەییەکان و زانیاری ڤیدیۆیی لە پەیجی ئێستای Missav وەربگرە، و فایلە وێب پەڕەی دابەزێنراوەکە دابین بکە دوای تێکەڵکردنی ئەنجامەکان.
+// @description:cs    Získejte obrazové soubory a informace o videu z aktuální stránky MissAV a po sloučení výsledků zadejte stažený soubor webové stránky.
+// @description:cy    Sicrhewch ffeiliau lluniau a gwybodaeth fideo o’r dudalen MISSAV gyfredol, a darparwch y ffeil dudalen we sydd wedi’i lawrlwytho ar ôl uno’r canlyniadau.
+// @description:da    Få billedfiler og videooplysninger fra den aktuelle Missav -side, og angiv den downloadede websidefil efter fusionering af resultaterne.
+// @description:de    Holen Sie sich Bilddateien und Videoinformationen von der aktuellen MILSAV -Seite und geben Sie die heruntergeladene Web -Datei an, nachdem Sie die Ergebnisse verschubst.
+// @description:dv    މިހާރު ބޭނުންކުރާ މިސާވް ޕޭޖުން ޕިކްޗަރ ފައިލްތަކާއި ވީޑިއޯގެ މަޢުލޫމާތު ހޯދައި، ނަތީޖާ އެއްކޮށްލުމަށްފަހު ޑައުންލޯޑް ކުރެވިފައިވާ ވެބް ޕޭޖް ފައިލް ފޯރުކޮށްދިނުން.
+// @description:dz    ད་ལྟོའི་ missav ཤོག་ལེབ་ལས་ པར་རིས་ཡིག་སྣོད་དང་ བརྡ་དོན་བརྡ་དོན་ཚུ་ ལེན་ཞིནམ་ལས་ གྲུབ་འབྲས་ཚུ་ མཉམ་སྡེབ་འབད་བའི་ཤུལ་ལས་ ཕབ་ལེན་འབད་ཡོད་པའི་ ཝེབ་ཤོག་ལེབ་ཡིག་སྣོད་འདི་ བྱིན།
+// @description:el    Λάβετε αρχεία εικόνων και πληροφορίες βίντεο από την τρέχουσα σελίδα MISSAV και δώστε το αρχείο ιστοσελίδας που κατεβάστηκε μετά τη συγχώνευση των αποτελεσμάτων.
+// @description:en    Get picture files and video information from the current missav page, and provide the downloaded web page file after merging the results.
+// @description:eo    Akiru bildajn dosierojn kaj filmetajn informojn de la aktuala Missav -paĝo, kaj havigu la elŝutitan retpaĝan dosieron post kunfandi la rezultojn.
+// @description:es    Obtenga archivos de imagen e información de video de la página de Missav actual, y proporcione el archivo de página web descargada después de fusionar los resultados.
+// @description:et    Hankige pildifaile ja videoteavet praegusest Missavi lehelt ning pärast tulemuste ühendamist esitage allalaaditud veebilehe fail.
+// @description:eu    Lortu argazki fitxategiak eta bideo informazioa uneko Missav orrialdetik eta eman deskargatutako web orriaren fitxategia emaitzak batu ondoren.
+// @description:fa    پرونده های تصویری و اطلاعات ویدیویی را از صفحه Missav فعلی دریافت کنید و پس از ادغام نتایج ، پرونده صفحه وب بارگیری شده را ارائه دهید.
+// @description:fi    Hanki kuvatiedostot ja videotiedot nykyiseltä Missav -sivulta ja anna ladattu verkkosivutiedosto tulosten yhdistämisen jälkeen.
+// @description:fo    Fá myndafílur og videoupplýsingar frá aktuellu rakstrarsíðuni, og gev tær heintaðu heimasíðufíluna eftir at hava lagt úrslitini saman.
+// @description:fr    Obtenez des fichiers photo et des informations vidéo à partir de la page Missav actuelle et fournissez le fichier de page Web téléchargé après avoir fusionné les résultats.
+// @description:gd    Faigh faidhlichean dealbh agus fiosrachadh bhidio bhon duilleag Bhissav gnàthach, agus thoir seachad am faidhle duilleag lìn a chaidh a luchdachadh sìos às deidh dhaibh a bhith a ’ro-innse nan toraidhean.
+// @description:gl    Obter ficheiros de imaxes e información de vídeo desde a páxina de Missav actual e proporcionar o ficheiro de páxina web descargado despois de fusionar os resultados.
+// @description:gu    વર્તમાન મિસવ પૃષ્ઠથી ચિત્ર ફાઇલો અને વિડિઓ માહિતી મેળવો, અને પરિણામોને મર્જ કર્યા પછી ડાઉનલોડ કરેલ વેબ પૃષ્ઠ ફાઇલ પ્રદાન કરો.
+// @description:haw   E kiʻi i nā kiʻi kiʻi kiʻi a me nāʻike wikiō mai kaʻaoʻao o kēia mau kiʻi o kēia manawa, a hāʻawi i ka faila pūnaewele i hoʻoihoʻia ma hope o ka hoʻohuiʻana i nā hopena.
+// @description:he    קבל קבצי תמונות ומידע וידאו מדף Missav הנוכחי, וספק את קובץ דף האינטרנט שהורד לאחר מיזוג התוצאות.
+// @description:hi    वर्तमान मिसाव पेज से चित्र फ़ाइलें और वीडियो जानकारी प्राप्त करें, और परिणामों को मर्ज करने के बाद डाउनलोड की गई वेब पेज फ़ाइल प्रदान करें।
+// @description:hr    Nabavite datoteke s slikama i videozapise s trenutne stranice Missav i nanesite preuzetu datoteku web stranice nakon spajanja rezultata.
+// @description:ht    Jwenn dosye foto ak enfòmasyon videyo ki soti nan paj aktyèl la missav, epi yo bay dosye a paj entènèt telechaje apre fusion rezilta yo.
+// @description:hu    Szerezzen képfájlokat és videóinformációkat az aktuális MISSAV oldalról, és adja meg a letöltött weboldal fájlt az eredmények egyesítése után.
+// @description:hy    Ստացեք նկարների ֆայլեր եւ տեսանյութեր ներկայիս MissaV էջից եւ ներկայացրեք ներբեռնված վեբ էջի ֆայլը արդյունքների միավորումը:
+// @description:id    Dapatkan file gambar dan informasi video dari halaman MISSAV saat ini, dan berikan file halaman web yang diunduh setelah menggabungkan hasilnya.
+// @description:is    Fáðu myndskrár og myndbandsupplýsingar frá núverandi Missav síðu og gefðu niður hlaðnar vefsíðuskrá eftir að hafa sameinað niðurstöðurnar.
+// @description:it    Ottieni file di immagini e informazioni video dalla pagina MISSAV corrente e fornisci il file della pagina Web scaricata dopo aver unito i risultati.
+// @description:ja    現在のMISSAVページから画像ファイルとビデオ情報を取得し、結果をマージした後にダウンロードしたWebページファイルを提供します。
+// @description:ka    მიიღეთ სურათების ფაილები და ვიდეო ინფორმაცია მიმდინარე MissAV გვერდიდან და მიაწოდეთ ჩამოტვირთვის ვებ - გვერდის ფაილი შედეგების შერწყმის შემდეგ.
+// @description:kk    Ағымдағы Missav бетінен сурет файлдары мен бейне ақпаратын алыңыз және нәтижелерді біріктіргеннен кейін жүктелген веб-парақтың файлын беріңіз.
+// @description:km    ទទួលបានឯកសាររូបភាពនិងព័ត៌មានវីដេអូពីទំព័រដើមរបស់ទំព័របច្ចុប្បន្ននិងផ្តល់ឯកសារទំព័រដែលបានទាញយកបន្ទាប់ពីបញ្ចូលលទ្ធផល។
+// @description:kn    ಪ್ರಸ್ತುತ ಮಿಸ್ಸಾವ್ ಪುಟದಿಂದ ಚಿತ್ರ ಫೈಲ್‌ಗಳು ಮತ್ತು ವೀಡಿಯೊ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ ಮತ್ತು ಫಲಿತಾಂಶಗಳನ್ನು ವಿಲೀನಗೊಳಿಸಿದ ನಂತರ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ವೆಬ್ ಪುಟ ಫೈಲ್ ಅನ್ನು ಒದಗಿಸಿ.
+// @description:ko    현재 Missav 페이지에서 사진 파일 및 비디오 정보를 가져오고 결과를 병합 한 후 다운로드 된 웹 페이지 파일을 제공하십시오.
+// @description:ku    Pel û agahdariya vîdyoyê ji rûpelê missav ya heyî bistînin, û pelê dakêşana malperê dakêşin piştî ku encaman li hev bikin.
+// @description:ky    Учурдагы Missav баракчасынан сүрөт файлдарын жана видео маалыматын алыңыз жана Жүктөлүп алынган веб-баракчаны жыйынтыктарын бириктиргенден кийин бериңиз.
+// @description:la    Get picture files et video notitia ex current Missav pagina, et providere downloaded textus page file post bus praecessi.
+// @description:lb    Kritt Foto Dateien a Video Informatiounen vun der aktueller Mioc Säit, a kréien den Isspostausgeschoss, d’Fuscht dës Resultater vun der aktueller Säit.
+// @description:lo    ເອົາເອກະສານຮູບພາບແລະຂໍ້ມູນວິດີໂອຈາກຫນ້າ Missav ໃນປະຈຸບັນ, ແລະໃຫ້ເອກະສານຫນ້າເວບທີ່ດາວໂຫລດມາຫຼັງຈາກການລວມເອົາຜົນໄດ້ຮັບ.
+// @description:lt    Gaukite paveikslėlių failus ir vaizdo informaciją iš dabartinio „Missav“ puslapio ir pateikite atsisiųstą tinklalapio failą sujungę rezultatus.
+// @description:lv    Saņemiet attēlu failus un video informāciju no pašreizējās Misav lapas un pēc rezultātu apvienošanas nodrošiniet lejupielādēto tīmekļa lapas failu.
+// @description:mg    Makà rakitra sy fampahalalana an-tsary avy amin’ny pejin’ny Missav amin’izao fotoana izao, ary omeo ny rakitra pejin’ny pejin’ny tranonkala efa nampidirina taorian’ny nanangonana ny valiny.
+// @description:mi    Tikina nga konae pikitia me nga korero ataata mai i te whaarangi MisV o naianei, me te whakarato i te kōnae whaarangi Tukutuku i muri i te whakakotahi i nga hua.
+// @description:mk    Добијте датотеки со слики и видео информации од тековната страница Missav и обезбедете ја преземената датотека со веб -страница по спојувањето на резултатите.
+// @description:ml    നിലവിലെ മിസ്സവ് പേജിൽ നിന്ന് ചിത്ര ഫയലുകളും വീഡിയോ വിവരങ്ങളും നേടുക, മാത്രമല്ല ഫലങ്ങൾ ലയിപ്പിച്ച ശേഷം ഡ download ൺലോഡ് ചെയ്ത വെബ് പേജ് ഫയൽ നൽകുക.
+// @description:mn    Зургийн файл, видео мэдээллийг одоогийн Missav хуудсаас аваад үр дүнг нэгтгэсний дараа татаж авсан вэб хуудасны файлыг өгнө үү.
+// @description:ms    Dapatkan fail gambar dan maklumat video dari halaman Missav semasa, dan sediakan fail laman web yang dimuat turun selepas menggabungkan hasilnya.
+// @description:mt    Ikseb fajls tal-istampi u informazzjoni tal-vidjow mill-paġna MISSAV kurrenti, u ipprovdi l-fajl tal-web imniżżel wara li tgħaqqad ir-riżultati.
+// @description:my    လက်ရှိ MissAV စာမျက်နှာမှရုပ်ပုံဖိုင်များနှင့်ဗွီဒီယိုအချက်အလက်များကိုရယူပါ။ ရလဒ်များကိုပေါင်းပြီးအပြီးတွင် download လုပ်ထားသောဝက်ဘ်စာမျက်နှာကိုထုတ်ပေးပါ။
+// @description:ne    परिणामहरू विलियम फाइलहरू र भिडियो जानकारी प्राप्त गर्नुहोस्, परिणामहरू मर्ज पछि डाउनलोड गरिएका वेब पृष्ठ फाइल प्रदान गर्नुहोस्।
+// @description:nl    Ontvang fotobestanden en video -informatie van de huidige Missav -pagina en geef het gedownloade webpagina -bestand op na het samenvoegen van de resultaten.
+// @description:no    Få bildefiler og videoinformasjon fra den gjeldende Missav -siden, og oppgi den nedlastede websiden -filen etter å ha slått sammen resultatene.
+// @description:ny    Pezani mafayilo a zithunzi ndi zidziwitso za kanema kuchokera patsamba laposachedwa, ndikupereka fayilo yomwe idatsitsidwa ndi tsamba litatha.
+// @description:pa    ਮੌਜੂਦਾ ਮਿਸਡਵ ਪੇਜ ਤੋਂ ਤਸਵੀਰ ਅਤੇ ਵੀਡਿਓ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ, ਅਤੇ ਨਤੀਜਿਆਂ ਦੇ ਮੰਦਰ ਦੇ ਬਾਅਦ ਡਾਉਨਲੋਡ ਕੀਤੇ ਵੈੱਬ ਪੇਜ ਫਾਈਲ ਨੂੰ ਪ੍ਰਦਾਨ ਕਰੋ.
+// @description:pap   Haña e archivonan di potrèt i informashon di video for di e página di mickv aktual, i duna e archivo di página web download despues di fusioná e resultadonan.
+// @description:pl    Uzyskaj pliki obrazu i informacje wideo z bieżącej strony MISSAV i podaj pobrany plik strony internetowej po połączeniu wyników.
+// @description:ps    د اوسني مساو پا page ې څخه عکس فایلونه او ویډیو معلومات ترلاسه کړئ، او د پایلو د لیکلو وروسته د ویب پا page ې فایل فایل چمتو کړئ.
+// @description:pt    Obtenha arquivos de imagem e informações de vídeo da página atual do Missav e forneça o arquivo da página da web baixado após a fusão dos resultados.
+// @description:ro    Obțineți fișiere de imagine și informații video din pagina MissAV curentă și furnizați fișierul de pagină web descărcat după fuziunea rezultatelor.
+// @description:ru    Получите файлы изображений и информацию о видео с текущей страницы Missav и предоставьте загруженный файл веб -страницы после слияния результатов.
+// @description:rw    Shaka dosiye n’amashusho ya videwo uhereye kurupapuro rwa MSANV, hanyuma uhe dosiye y’urubuga rwakuwe nyuma yo guhuza ibisubizo.
+// @description:sg    Bâ afichier ti foto nga na asango ti vidéo so ayeke na yâ ti lembeti ti missav so ayeke dä, na mû na mo fichier ti lembeti ti Internet so mo téléchargé ni na peko ti so mo bungbi arésultat ni.
+// @description:si    වත්මන් මිසක් පිටුවෙන් පින්තූර ලිපිගොනු සහ වීඩියෝ තොරතුරු ලබා ගන්න, සහ ප්රති .ල ඒකාබද්ධ කිරීමෙන් පසු බාගත කළ වෙබ් පිටු ගොනුව ලබා දෙන්න.
+// @description:sk    Získajte obrázky a informácie o videu z aktuálnej stránky Missav a po zlúčení výsledkov poskytnite stiahnutý súbor webovej stránky.
+// @description:sl    Pridobite slikovne datoteke in video informacije s trenutne strani Missav in po združitvi rezultatov navedite naloženo datoteko spletne strani.
+// @description:sm    Maua ata faila ma ata vitio mai le itulau o loʻo iai nei o le faʻauiga itulau, ma fai le upega tafaʻilagi itulau ’upega tafaʻilagi ina ua uma ona faʻaoʻo i le faʻaiuga.
+// @description:sn    Tora mafaira emifananidzo uye vhidhiyo ruzivo kubva kune yazvino missav peji, uye ipa iyo yakadhindwa peji peji faira mushure mekubatanidza mhedzisiro.
+// @description:so    Ka hel faylalka sawirka iyo macluumaadka fiidiyowga ee bogga hadda jira ee MISAV, oo bixi faylka bogga bogga la soo degsaday ka dib marka aad ku biirato natiijooyinka.
+// @description:sr    Добијајте датотеке са сликама и видео информације са тренутне странице Мисав и дате преузету датотеку веб странице након спајања резултата.
+// @description:sv    Få bildfiler och videoinformation från den aktuella Missav -sidan och ange den nedladdade webbsidan efter att ha sammanfogat resultaten.
+// @description:sw    Pata faili za picha na habari ya video kutoka kwa ukurasa wa sasa wa Missav, na upe faili ya ukurasa wa wavuti iliyopakuliwa baada ya kuunganisha matokeo.
+// @description:ta    தற்போதைய மிசாவ் பக்கத்திலிருந்து படக் கோப்புகள் மற்றும் வீடியோ தகவல்களைப் பெற்று, முடிவுகளை இணைத்த பிறகு பதிவிறக்கம் செய்யப்பட்ட வலைப்பக்கக் கோப்பை வழங்கவும்.
+// @description:te    ప్రస్తుత మిస్సావ్ పేజీ నుండి పిక్చర్ ఫైల్స్ మరియు వీడియో సమాచారాన్ని పొందండి మరియు ఫలితాలను విలీనం చేసిన తర్వాత డౌన్‌లోడ్ చేసిన వెబ్ పేజీ ఫైల్‌ను అందించండి.
+// @description:tg    Файлҳои расмӣ ва маълумоти видеоро аз мисами кунунӣ гиред ва пас аз муттаҳид кардани натиҷаҳо пешниҳоди зеркашии саҳифаро пешниҳод кунед.
+// @description:th    รับไฟล์รูปภาพและข้อมูลวิดีโอจากหน้า Missav ปัจจุบันและระบุไฟล์หน้าเว็บที่ดาวน์โหลดหลังจากรวมผลลัพธ์
+// @description:ti    ካብቲ ሕጂ ዘሎ ናይ ሚስኤቪ ገጽ ናይ ስእሊ ፋይላትን ናይ ቪድዮ ሓበሬታን ረኸቡ፣ ውጽኢት ድሕሪ ምውህሃድ ድማ ነቲ ዝወረደ ናይ መርበብ ሓበሬታ ገጽ ፋይል ኣቕርቡ።
+// @description:tk    Suraty faýllary we wideo maglumatlaryny häzirki misva sahypasyndan alyň we netijeleri ylalaşandan soň ýüklenen Web sahypasyna beriň.
+// @description:tn    Fumana difaele tsa setshwantsho le tlhahisoleseding ya video ho tswa ho leqephe la hajwale la ho se folose, mme o fana ka faele ya leqephe la webo e laisolotsweng kamora ho kopanya diphetho.
+// @description:to    Ma’u ’a e ngaahi faile ’ata mo e fakamatala vitio mei he peesi misv lolotonga, pea ’oatu ’a e faile peesi uepi kuo download hili hono fakataha’i ’o e ngaahi ola.
+// @description:tpi   Kisim piksa fail na vidio infomesen long pes bilong misev nau, na givim web pes fail yu bin daunlodim bihain long yu bungim ol risal.
+// @description:tr    Geçerli Missav sayfasından resim dosyaları ve video bilgileri alın ve sonuçları birleştirdikten sonra indirilen web sayfası dosyasını sağlayın.
+// @description:uk    Отримайте файли зображень та відеозапис на поточній сторінці Missav та надайте завантажений файл веб -сторінки після об’єднання результатів.
+// @description:ur    موجودہ مساو پیج سے تصویر فائلیں اور ویڈیو کی معلومات حاصل کریں ، اور نتائج کو ضم کرنے کے بعد ڈاؤن لوڈ کردہ ویب پیج فائل فراہم کریں۔
+// @description:uz    Natijada uni birlashtirishdan so’ng rasm va video ma’lumotlarni oling va natijalarni birlashtirishdan so’ng yuklab olingan veb-sahifa faylini taqdim eting.
+// @description:vi    Nhận tệp hình ảnh và thông tin video từ trang Missav hiện tại và cung cấp tệp trang web đã tải xuống sau khi hợp nhất kết quả.
+// @description:xh    Fumana iifayile zemifanekiso kunye nolwazi lwevidiyo kwiphepha langoku, kwaye unikezele ngefayile yephepha lewebhu lewebhu emva kokudibanisa iziphumo.
+// @description:yi    באַקומען בילד טעקעס און ווידעא אינפֿאָרמאַציע פון די קראַנט מיסאַוו בלאַט און צושטעלן די דאַונלאָודיד וועב בלאַט טעקע נאָך מערדזשינג די רעזולטאַטן.
+// @description:zh    从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+// @description:zh-CN 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+// @description:zh-HK 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+// @description:zh-MO 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+// @description:zh-MY 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+// @description:zh-SG 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
+// @description:zh-TW 從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
+// @description:zu    Thola amafayela wesithombe nemininingwane yevidiyo evela ekhasini lamanje le-Missav, futhi unikeze ifayela le-Web elilandiwe ngemuva kokuhlanganisa imiphumela.
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           2025.04.27.1347
-// @description       从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
-// @description:zh-CN 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license           MIT
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com> & ChatGPT
 // @match             https://missav.ws/*

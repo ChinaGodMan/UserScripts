@@ -1,10 +1,226 @@
 // ==UserScript==
 // @name              网页高亮关键字
+// @name:af           Merk sleutelwoorde op die web
+// @name:am           በድር ላይ ቁልፍ ቃላትን ያድኑ
+// @name:ar           تمييز الكلمات الرئيسية على الويب
+// @name:az           İnternetdə açar sözləri vurğulayın
+// @name:be           Вылучыце ключавыя словы ў Інтэрнэце
+// @name:bem          Landeniko amashiwi ayacindama pa webu
+// @name:bg           Маркирайте ключови думи в мрежата
+// @name:bn           ওয়েবে কীওয়ার্ডগুলি হাইলাইট করুন
+// @name:bo           དྲ་རྒྱའི་ཐོག་གཙོ་ཚིག་གི་མིང་ཚིག་གཙོ་བོ་གསལ་སྟོན་བྱེད་པ།
+// @name:bs           Označite ključne riječi na webu
+// @name:ca           Ressalteu les paraules clau al web
+// @name:ceb          I-highlight ang mga keyword sa web
+// @name:ckb          وشە سەرەکییەکان لە وێبدا تیشک بخەرە سەر
+// @name:cs           Zvýrazněte klíčová slova na webu
+// @name:cy           Tynnu sylw at eiriau allweddol ar y we
+// @name:da           Fremhæv nøgleord på nettet
+// @name:de           Markieren Sie Keywords im Web
+// @name:dv           ވެބްގައި ހުންނަ ކީވޯޑްތައް ހައިލައިޓް ކުރާށެވެ .
+// @name:dz           ཝེབ་གུ་ ལྡེ་མིག་ཚིག་ཚུ་ གསལ་སྟོན་འབད།
+// @name:el           Επισημάνετε τις λέξεις -κλειδιά στον ιστό
+// @name:en           Highlight keywords on the web
+// @name:eo           Emfazu ŝlosilvortojn en la reto
+// @name:es           Resaltar las palabras clave en la web
+// @name:et           Tõstke märksõnad veebis esile
+// @name:eu           Nabarmendu gako-hitzak sarean
+// @name:fa           کلمات کلیدی را در وب برجسته کنید
+// @name:fi           Korosta avainsanoja verkossa
+// @name:fo           Varpa ljós á lyklaorð á netinum
+// @name:fr           Mettez en surbrillance des mots clés sur le Web
+// @name:gd           Comharraich prìomh fhaclan air an lìon
+// @name:gl           Resalte palabras clave na web
+// @name:gu           વેબ પર કીવર્ડ્સ હાઇલાઇટ કરો
+// @name:haw          Nā hua’ōlelo nui ma ka pūnaewele
+// @name:he           הדגש מילות מפתח באינטרנט
+// @name:hi           वेब पर कीवर्ड को हाइलाइट करें
+// @name:hr           Označite ključne riječi na webu
+// @name:ht           Mete aksan sou mo kle sou entènèt la
+// @name:hu           Jelölje ki a kulcsszavakat az interneten
+// @name:hy           Ներկայացրեք հիմնաբառերը համացանցում
+// @name:id           Sorot kata kunci di web
+// @name:is           Auðkenndu lykilorð á vefnum
+// @name:it           Evidenzia le parole chiave sul Web
+// @name:ja           Web上のキーワードを強調表示します
+// @name:ka           ხაზს უსვამს საკვანძო სიტყვებს ინტერნეტში
+// @name:kk           Интернеттегі кілт сөздерді бөлектеңіз
+// @name:km           គូសចំណាំពាក្យគន្លឹះនៅលើអ៊ីនធឺណិត
+// @name:kn           ವೆಬ್‌ನಲ್ಲಿ ಕೀವರ್ಡ್‌ಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ
+// @name:ko           웹에서 키워드를 강조 표시합니다
+// @name:ku           Li ser Webê sereke ronî dike
+// @name:ky           Интернетте ачкыч сөздөрдү белгилеңиз
+// @name:la           Highlight Keywords in Web
+// @name:lb           Highlight Schlësselwieder um Internet
+// @name:lo           ຈຸດເດັ່ນຂອງຄໍາຫລັກໃນເວັບ
+// @name:lt           Pabrėžkite raktinius žodžius internete
+// @name:lv           Iezīmējiet atslēgvārdus tīmeklī
+// @name:mg           Asongadino ny teny fanalahidy ao amin’ny Internet
+// @name:mi           Tohu tohu i runga i te paetukutuku
+// @name:mk           Нагласете клучни зборови на Интернет
+// @name:ml           വെബിൽ കീവേഡുകൾ ഹൈലൈറ്റ് ചെയ്യുക
+// @name:mn           Вэб дээрх түлхүүр үгсийг тодруулах
+// @name:ms           Sorot kata kunci di web
+// @name:mt           Jenfasizzaw il-kliem kjavi fuq il-web
+// @name:my           ဝက်ဘ်ပေါ်တွင်သော့ချက်စာလုံးများကိုမီးမောင်းထိုးပြ
+// @name:ne           वेबमा कुञ्जी शव्दहरू हाइलाइट गर्नुहोस्
+// @name:nl           Markeer zoekwoorden op internet
+// @name:no           Uthev nøkkelord på nettet
+// @name:ny           Unikani mawu osakira pa intaneti
+// @name:pa           ਵੈੱਬ ’ਤੇ ਕੀਵਰਡ ਨੂੰ ਹਾਈਲਾਈਟ ਕਰੋ
+// @name:pap          Resalta palabranan clave riba e web .
+// @name:pl           Podświetl słowa kluczowe w Internecie
+// @name:ps           په ویب کې د کلیدي ټکي روښانه کړئ
+// @name:pt           Destaque palavras -chave na web
+// @name:ro           Evidențiați cuvinte cheie pe web
+// @name:ru           Выделите ключевые слова в Интернете
+// @name:rw           Shyira ahagaragara ijambo ryibanze kurubuga
+// @name:sg           Akota tënë so ayeke na ndo ti web .
+// @name:si           වෙබයේ මූල පද ඉස්මතු කරන්න
+// @name:sk           Zvýraznite kľúčové slová na webe
+// @name:sl           Označite ključne besede na spletu
+// @name:sm           Faailoga upu i luga o le upega tafailagi
+// @name:sn           Simbisa mazwi makuru pawebhu
+// @name:so           Muuji ereyada furaha ah ee shabakadda
+// @name:sr           Означите кључне речи на вебу
+// @name:sv           Markera nyckelord på webben
+// @name:sw           Onyesha maneno muhimu kwenye wavuti
+// @name:ta           வலையில் முக்கிய வார்த்தைகளை முன்னிலைப்படுத்தவும்
+// @name:te           వెబ్‌లో కీలకపదాలను హైలైట్ చేయండి
+// @name:tg           Калимаҳои калидӣ дар веб
+// @name:th           เน้นคำหลักบนเว็บ
+// @name:ti           ኣብ መርበብ ሓበሬታ ቁልፊ ቃላት ኣጉልሕ
+// @name:tk           Webde açar sözleri belläň
+// @name:tn           Tlhagisa mafoko a botlhokwa mo webong
+// @name:to           Fakaʻilongaʻi ʻa e ngaahi lea mahuʻinga ʻi he uepi .
+// @name:tpi          Hailait ki-wod long web
+// @name:tr           Web’deki anahtar kelimeleri vurgulayın
+// @name:uk           Виділіть ключові слова в Інтернеті
+// @name:ur           ویب پر کلیدی الفاظ کو اجاگر کریں
+// @name:uz           Internetdagi kalit so’zlarni ajratib ko’rsatish
+// @name:vi           Đánh dấu các từ khóa trên web
+// @name:xh           Gxininisa amagama aphambili kwiwebhu
+// @name:yi           הויכפּונקט טערמינען אויף די וועב
+// @name:zh           网页高亮关键字
 // @name:zh-CN        网页高亮关键字
+// @name:zh-HK        網頁高亮關鍵字
+// @name:zh-MO        網頁高亮關鍵字
+// @name:zh-MY        网页高亮关键字
+// @name:zh-SG        网页高亮关键字
+// @name:zh-TW        網頁高亮關鍵字
+// @name:zu           Qokomisa amagama angukhiye kuwebhu
+// @description       对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:af    Merk die teks op die webblad. As dit u nuttig is, kan u dit verander soos u wil.
+// @description:am    በድር ገጽ ላይ ያለውን ጽሑፍ ያደምቁ. ለእርስዎ ጠቃሚ ከሆነ, እርስዎ እንደወደዱት ማሻሻል ይችላሉ.
+// @description:ar    قم بتمييز النص على صفحة الويب. إذا كان الأمر مفيدًا لك ، فيمكنك تعديله كما تريد.
+// @description:az    Veb səhifədəki mətni vurğulayın. Sizin üçün faydalıdırsa, istədiyiniz kimi dəyişdirə bilərsiniz.
+// @description:be    Вылучыце тэкст на вэб -старонцы. Калі гэта вам карысна, вы можаце змяніць яго так, як вам падабаецца.
+// @description:bem   Ukulanga ifilembo pe buula lya webu. Nga ca kutila kuti camwafwa, kuti mwacipilibula nga fintu mulefwaya.
+// @description:bg    Маркирайте текста на уеб страницата. Ако ви е полезно, можете да го промените както искате.
+// @description:bn    ওয়েব পৃষ্ঠায় পাঠ্য হাইলাইট করুন। যদি এটি আপনার পক্ষে সহায়ক হয় তবে আপনি এটি আপনার পছন্দ মতো সংশোধন করতে পারেন।
+// @description:bo    དྲ་ངོས་ཀྱི་ཡིག་ཆ་དེ་གསལ་པོར་བསྟན་དགོས། གལ་ཏེ་ཁྱེད་ལ་ཕན་ཐོགས་ཡོད་ན། ཁྱེད་ཀྱིས་འདོད་པ་ལྟར་བསྒྱུར་བཅོས་གཏོང་ཐུབ།
+// @description:bs    Označite tekst na web stranici. Ako vam je korisno, možete ga modificirati kako želite.
+// @description:ca    Ressalteu el text a la pàgina web. Si us és útil, podeu modificar -lo com vulgueu.
+// @description:ceb   Ipasiugda ang teksto sa panid sa web. Kung makatabang kini kanimo, mahimo nimong usbon kini sumala sa gusto nimo.
+// @description:ckb   دەقەکە لە وێب پەیجەکەدا تیشک بخەرە سەر. ئەگەر بۆت یارمەتیدەر بێت، دەتوانیت دەستکاری بکەیت بەو شێوەیەی کە حەزت لێیە.
+// @description:cs    Zvýrazněte text na webové stránce. Pokud je to pro vás užitečné, můžete jej upravit, jak chcete.
+// @description:cy    Tynnwch sylw at y testun ar y dudalen we. Os yw’n ddefnyddiol i chi, gallwch ei addasu fel y dymunwch.
+// @description:da    Fremhæv teksten på websiden. Hvis det er nyttigt for dig, kan du ændre det, som du vil.
+// @description:de    Markieren Sie den Text auf der Webseite. Wenn es Ihnen hilfreich ist, können Sie es so ändern, wie Sie möchten.
+// @description:dv    ވެބް ޕޭޖްގައިވާ ލިޔުން ފާހަގަކޮށްލާށެވެ. އެއީ ތިމާއަށް އެހީތެރިވެދޭ އެއްޗެއް ނަމަ، ތިމާ ބޭނުން ގޮތަކަށް ބަދަލު ކުރެވިދާނެ އެވެ.
+// @description:dz    ཝེབ་ཤོག་ལེབ་གུ་ཡོད་པའི་ཚིག་ཡིག་འདི་གཙོ་བོར་བཏོན། ཁྱོད་ལུ་ཕན་ཐོགས་ཡོད་པ་ཅིན་ ཁྱོད་ཀྱིས་འདོད་པ་ཡོད་དོ་བཟུམ་སྦེ་ བཟོ་བཅོས་འབད་ཚུགས།
+// @description:el    Επισημάνετε το κείμενο στην ιστοσελίδα. Εάν είναι χρήσιμο για εσάς, μπορείτε να το τροποποιήσετε όπως θέλετε.
+// @description:en    Highlight the text on the web page. If it is helpful to you, you can modify it as you like.
+// @description:eo    Emfazu la tekston en la retpaĝo. Se ĝi helpas vin, vi povas modifi ĝin kiel vi ŝatas.
+// @description:es    Resalte el texto en la página web. Si es útil para usted, puede modificarlo como desee.
+// @description:et    Tõstke esile veebilehel olev tekst. Kui see on teile abiks, saate seda muuta nii, nagu soovite.
+// @description:eu    Nabarmendu testua web orrian. Zuretzat lagungarria bada, nahi duzun bezala alda dezakezu.
+// @description:fa    متن را در صفحه وب برجسته کنید. اگر برای شما مفید است ، می توانید آن را همانطور که دوست دارید اصلاح کنید.
+// @description:fi    Korosta verkkosivustolla oleva teksti. Jos siitä on hyötyä sinulle, voit muokata sitä haluamallasi tavalla.
+// @description:fo    Varpa ljós á tekstin á heimasíðuni. Um tað er til gagns fyri teg, kanst tú broyta tað, sum tú vilt.
+// @description:fr    Mettez en surbrillance le texte sur la page Web. Si cela vous est utile, vous pouvez le modifier comme vous le souhaitez.
+// @description:gd    Comharraich an teacsa air an duilleag-lìn. Ma tha e cuideachail dhut, faodaidh tu a dhèanamh dìreach mar as toil leat.
+// @description:gl    Resalte o texto na páxina web. Se che resulta útil, podes modificalo como queiras.
+// @description:gu    વેબ પૃષ્ઠ પરના ટેક્સ્ટને હાઇલાઇટ કરો. જો તે તમારા માટે મદદરૂપ છે, તો તમે તેને ગમે તે રીતે સુધારી શકો છો.
+// @description:haw   Mālama i ka hua’ōlelo ma kaʻaoʻao pūnaewele. Inā he kōkua iāʻoe, hiki iāʻoe ke hoʻololi iāʻoe e like me kāu e makemake ai.
+// @description:he    הדגש את הטקסט בדף האינטרנט. אם זה מועיל לך, אתה יכול לשנות את זה כרצונך.
+// @description:hi    वेब पेज पर पाठ को हाइलाइट करें। यदि यह आपके लिए मददगार है, तो आप इसे अपनी पसंद के अनुसार संशोधित कर सकते हैं।
+// @description:hr    Označite tekst na web stranici. Ako vam je korisno, možete ga izmijeniti kako želite.
+// @description:ht    Mete aksan sou tèks la sou paj wèb la. Si li itil pou ou, ou ka modifye li menm jan ou renmen.
+// @description:hu    Jelölje ki a szöveget a weboldalon. Ha ez hasznos az Ön számára, akkor módosíthatja azt, ahogy tetszik.
+// @description:hy    Ներկայացրեք տեքստը համացանցային էջում: Եթե դա օգտակար է ձեզ համար, կարող եք այն փոփոխել այնպես, ինչպես ցանկանում եք:
+// @description:id    Sorot teks di halaman web. Jika bermanfaat bagi Anda, Anda dapat memodifikasinya sesuka Anda.
+// @description:is    Auðkenndu textann á vefsíðunni. Ef það er gagnlegt fyrir þig geturðu breytt því eins og þú vilt.
+// @description:it    Evidenzia il testo nella pagina Web. Se ti è utile, puoi modificarlo come preferisci.
+// @description:ja    Webページのテキストを強調表示します。それがあなたに役立つなら、あなたはあなたが好きなようにそれを変更することができます。
+// @description:ka    მონიშნეთ ტექსტი ვებ - გვერდზე. თუ ეს თქვენთვის სასარგებლოა, შეგიძლიათ შეცვალოთ ის, როგორც გსურთ.
+// @description:kk    Веб-беттегі мәтінді бөлектеңіз. Егер сізге пайдалы болса, оны өзіңіз қалағандай өзгерте аласыз.
+// @description:km    បន្លិចអត្ថបទនៅលើគេហទំព័រ។ ប្រសិនបើវាមានប្រយោជន៍សម្រាប់អ្នកអ្នកអាចកែប្រែវាតាមដែលអ្នកចូលចិត្ត។
+// @description:kn    ವೆಬ್ ಪುಟದಲ್ಲಿನ ಪಠ್ಯವನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ. ಇದು ನಿಮಗೆ ಸಹಾಯಕವಾಗಿದ್ದರೆ, ನೀವು ಬಯಸಿದಂತೆ ನೀವು ಅದನ್ನು ಮಾರ್ಪಡಿಸಬಹುದು.
+// @description:ko    웹 페이지의 텍스트를 강조 표시하십시오. 도움이되면 원하는대로 수정할 수 있습니다.
+// @description:ku    Li ser rûpelê malperê nivîsê ronî bikin. Heke ji we re kêrhatî ye, hûn dikarin wekî ku hûn dixwazin biguherînin.
+// @description:ky    Веб баракчанын текстин белгилеңиз. Эгер сизге пайдалуу болсо, анда сиз аны сизге жаккан сайын өзгөртө аласыз.
+// @description:la    Highlight textus in textus page. Si est utile vobis, vos can muto ut vos.
+// @description:lb    Markéiert den Text op der Websäit. Wann et Iech hëllefräich ass, kënnt Dir et änneren wéi Dir wëllt.
+// @description:lo    ເນັ້ນຂໍ້ຄວາມໃນຫນ້າເວັບ. ຖ້າມັນເປັນປະໂຫຍດຕໍ່ທ່ານ, ທ່ານສາມາດດັດແປງມັນຕາມທີ່ທ່ານຕ້ອງການ.
+// @description:lt    Pažymėkite tekstą tinklalapyje. Jei tai jums naudinga, galite jį modifikuoti taip, kaip jums patinka.
+// @description:lv    Iezīmējiet tekstu tīmekļa lapā. Ja tas jums ir noderīgi, varat to modificēt tā, kā vēlaties.
+// @description:mg    Asongadino ny lahatsoratra ao amin’ny pejy web. Raha mahasoa anao izany dia afaka manova azy araka izay tianao.
+// @description:mi    Miramirahia te tuhinga ki te wharangi Tukutuku. Mena he pai ki a koe, ka taea e koe te whakarereke i te mea e pai ana koe.
+// @description:mk    Означете го текстот на веб -страницата. Ако ви е корисно, можете да го измените како што сакате.
+// @description:ml    വെബ് പേജിലെ വാചകം ഹൈലൈറ്റ് ചെയ്യുക. ഇത് നിങ്ങൾക്ക് സഹായകരമാണെങ്കിൽ, നിങ്ങൾക്ക് ഇഷ്ടമുള്ളതുപോലെ ഇത് പരിഷ്കരിക്കാനാകും.
+// @description:mn    Вэб хуудсан дээрх текстийг тодруулна уу. Хэрэв танд тустай бол та хүссэн хэмжээгээрээ өөрчилж болно.
+// @description:ms    Sorot teks di laman web. Jika ia membantu anda, anda boleh mengubahnya seperti yang anda suka.
+// @description:mt    Jenfasizza t-test fuq il-paġna tal-web. Jekk huwa ta ’għajnuna għalik, tista’ timmodifikaha kif tixtieq.
+// @description:my    ဝက်ဘ်စာမျက်နှာပေါ်ရှိစာသားကိုမီးမောင်းထိုးပြပါ။ ၎င်းသည်သင့်အတွက်အထောက်အကူဖြစ်လျှင်သင်ကြိုက်သလောက်သင်ပြုပြင်နိုင်သည်။
+// @description:ne    वेब पृष्ठमा पाठ हाइलाइट गर्नुहोस्। यदि यो तपाईंलाई सहयोगी छ भने, तपाईं यसलाई यसलाई परिवर्तन गर्न सक्नुहुनेछ जस्तो तपाईंलाई मनपर्दछ।
+// @description:nl    Markeer de tekst op de webpagina. Als het nuttig voor u is, kunt u het aanpassen zoals u wilt.
+// @description:no    Uthev teksten på websiden. Hvis det er nyttig for deg, kan du endre det som du vil.
+// @description:ny    Tsimikizirani lembalo patsamba lawebusayiti. Ngati ndizothandiza kwa inu, mutha kusintha momwe mukufuna.
+// @description:pa    ਵੈਬ ਪੇਜ ’ਤੇ ਟੈਕਸਟ ਨੂੰ ਹਾਈਲਾਈਟ ਕਰੋ. ਜੇ ਇਹ ਤੁਹਾਡੇ ਲਈ ਮਦਦਗਾਰ ਹੈ, ਤੁਸੀਂ ਇਸ ਨੂੰ ਆਪਣੀ ਪਸੰਦ ਅਨੁਸਾਰ ਬਦਲ ਸਕਦੇ ਹੋ.
+// @description:pap   Resaltá e teksto riba e página web. Si e ta útil pa bo, bo por modifiká esaki manera bo ke.
+// @description:pl    Podświetl tekst na stronie internetowej. Jeśli jest to dla Ciebie pomocne, możesz go zmodyfikować tak, jak chcesz.
+// @description:ps    په ویب پا on ه کې متن روښانه کړئ. که دا ستاسو سره ګټور وي، نو تاسو کولی شئ دا تعدیل کړئ لکه څنګه چې تاسو غواړئ.
+// @description:pt    Destaque o texto na página da web. Se for útil para você, você pode modificá -lo como quiser.
+// @description:ro    Evidențiați textul de pe pagina web. Dacă vă este util, îl puteți modifica după cum doriți.
+// @description:ru    Выделите текст на веб -странице. Если это полезно для вас, вы можете изменить его по своему усмотрению.
+// @description:rw    Shyira ahagaragara inyandiko kurupapuro. Niba bigufasha, urashobora kugihindura uko ubishaka.
+// @description:sg    Fa atënë so ayeke na ndo ti lembeti ti Internet. Tongana a mû maboko na mo, mo lingbi ti changé ni tongana ti so mo ye.
+// @description:si    වෙබ් පිටුවේ පෙළ ඉස්මතු කරන්න. එය ඔබට ප්රයෝජනවත් නම්, ඔබට කැමති පරිදි එය වෙනස් කළ හැකිය.
+// @description:sk    Zvýraznite text na webovej stránke. Ak je to pre vás užitočné, môžete ho upraviť tak, ako chcete.
+// @description:sl    Označite besedilo na spletni strani. Če vam je v pomoč, ga lahko spremenite, kot želite.
+// @description:sm    Faapipii le tusitusiga i luga o le itulau itulau. Afai e aoga ia te oe, e mafai ona e suia e te fiafia ai.
+// @description:sn    Simbisa mavara ari papeji rewebhu. Kana zvichikubatsira iwe, iwe unogona kuvandudza sezvaunoda.
+// @description:so    Ku muuji qoraalka bogga bogga. Haddii ay waxtar kuu leedahay, waad wax ka badali kartaa sida aad rabto.
+// @description:sr    Означите текст на веб страници. Ако вам је од помоћи, можете га модификовати како желите.
+// @description:sv    Markera texten på webbsidan. Om det är till hjälp för dig kan du ändra det som du vill.
+// @description:sw    Onyesha maandishi kwenye ukurasa wa wavuti. Ikiwa inakusaidia, unaweza kuibadilisha kama unavyopenda.
+// @description:ta    வலைப்பக்கத்தில் உள்ள உரையை முன்னிலைப்படுத்தவும். இது உங்களுக்கு உதவியாக இருந்தால், நீங்கள் விரும்பியபடி அதை மாற்றலாம்.
+// @description:te    వెబ్ పేజీలోని వచనాన్ని హైలైట్ చేయండి. ఇది మీకు సహాయపడితే, మీకు నచ్చిన విధంగా దాన్ని సవరించవచ్చు.
+// @description:tg    Матнро дар сафҳаи веб қайд кунед. Агар он ба шумо муфид бошад, шумо метавонед онро тавре, ки мехоҳед тағир диҳед.
+// @description:th    ไฮไลต์ข้อความบนหน้าเว็บ หากเป็นประโยชน์กับคุณคุณสามารถแก้ไขได้ตามที่คุณต้องการ
+// @description:ti    ኣብቲ መርበብ ሓበሬታ ዘሎ ጽሑፍ ኣጉልሕ። ሓጋዚ እንተኾይኑካ ከም ድላይካ ክትቅይሮ ትኽእል ኢኻ።
+// @description:tk    Teksti web sahypasyndaky teksti görkeziň. Size peýdaly bolsa, şoňa meňzeş siziň ýaly üýtgedip bilersiňiz.
+// @description:tn    Tlhagisa sekwalwa mo tsebeng ya webo. Fa e le gore e a go thusa, o ka e fetola ka fa o ratang ka teng.
+// @description:to    Faka’ilonga’i ’a e tohi ’i he peesi uepi. Kapau ʻoku ʻaonga ia kiate koe, te ke lava ʻo fakaleleiʻi ia ʻo hangē ko hoʻo loto ki aí.
+// @description:tpi   Haelaetem teks long web pej. Sapos em i helpim yu, yu inap senisim olsem yu laikim.
+// @description:tr    Web sayfasındaki metni vurgulayın. Sizin için yararlısa, istediğiniz gibi değiştirebilirsiniz.
+// @description:uk    Виділіть текст на веб -сторінці. Якщо це вам корисно, ви можете змінити його, як вам подобається.
+// @description:ur    ویب صفحے پر متن کو اجاگر کریں۔ اگر یہ آپ کے لئے مددگار ہے تو ، آپ اپنی پسند کے مطابق اس میں ترمیم کرسکتے ہیں۔
+// @description:uz    Veb-sahifada matnni ajratib oling. Agar sizga foydali bo’lsa, uni xohlaganingizcha o’zgartirishingiz mumkin.
+// @description:vi    Đánh dấu văn bản trên trang web. Nếu nó hữu ích cho bạn, bạn có thể sửa đổi nó như bạn muốn.
+// @description:xh    Chaza isicatshulwa kwiphepha lewebhu. Ukuba kuyaluncedo kuwe, ungayiguqula njengoko uthanda.
+// @description:yi    הויכפּונקט די טעקסט אויף די וועב בלאַט. אויב עס איז נוציק צו איר, איר קענען מאָדיפיצירן עס ווי איר ווילט.
+// @description:zh    对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:zh-CN 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:zh-HK 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+// @description:zh-MO 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+// @description:zh-MY 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:zh-SG 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
+// @description:zh-TW 對網頁上的文字進行高亮顯示，如果對你有幫助，可以隨意修改使用
+// @description:zu    Qokomisa umbhalo ekhasini le-Web. Uma kusiza kuwe, ungayiguqula ngendlela othanda ngayo.
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @version           1.1.2.72
-// @description       对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
-// @description:zh-CN 对网页上的文字进行高亮显示，如果对你有帮助，可以随意修改使用
 // @author            ma bangde,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @include           *
 // @grant             GM_addStyle
@@ -21,7 +237,6 @@
 // ==/UserScript==
 (function () {
 
-
     // 初始化
     function initialize() {
         let defaultWords = {
@@ -31,7 +246,6 @@
                 'words': ['抖音', '快手', '网页', '平台', '的', '最', '一', '个', '多', '服务', '大'],
                 'color': '#85d228',
                 'textcolor': '#3467eb'
-
 
             },
             'key_124': {
@@ -154,7 +368,6 @@
                 let limit = GM_getValue('key')[classesKey].limit
                 let textcolor = GM_getValue('key')[classesKey].textcolor
 
-
                 words.forEach(word => {
                     let infoList = []
 
@@ -200,7 +413,6 @@
                 doIt
             }
         }
-
 
         // 高亮css
         static highlightStyle = `
@@ -285,7 +497,6 @@
         // 以上述配置开始观察目标节点
         observer.observe(targetNode, config)
     }
-
 
     // gui
     class GUI {
@@ -608,7 +819,6 @@
 
 }
 
-
         `
         // 开发用
         static devCss() {
@@ -630,7 +840,6 @@
             // 获取根节点
             let seting_box = document.querySelector('#mt_seting_box')
             seting_box.innerHTML = this.setingTemplate
-
 
             // 创建根节点样式
             GM_addStyle(this.setingStyle)
@@ -868,7 +1077,6 @@
         }
     }
 
-
     ///////////////////////////////////////////////////////////
     // vue根节点
     let seting_box = document.createElement('div')  // 创建一个节点
@@ -916,7 +1124,6 @@
     })(100)
     // 动态更新内容的检测
     watch()
-
 
     // 创建ui
     GUI.create()
