@@ -60,10 +60,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MissAV 自动登录 更新日志</strong></h1>
+            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ MissAV 자동 로그인 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.04.27.1343</strong></h3>
-<p><strong>修复</strong>: • 添加域名<code>missav.live</code>的支持<br>
-<strong>新增</strong>: • 由于域名经常变化,不在硬编网址,而是从当前页面提取到域名</p>
+<p><strong>수리하다</strong>: • 도메인 이름을 추가하십시오<code>missav.live</code>지원하다<br>
+<strong>새로운</strong>: • 도메인 이름이 자주 변경되기 때문입니다,하드 코딩 된 URL이 아닙니다,대신 현재 페이지에서 도메인 이름을 추출하십시오</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505325.png">
 </div></center>

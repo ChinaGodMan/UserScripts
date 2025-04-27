@@ -60,15 +60,15 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-enhancer/missav-enhancer.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529125">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ MissAV 增强小助手 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ MissAV Trợ lý nâng cao Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.04.27.1345</strong></h3>
-<p><strong>新增</strong>: 支持新域名<code>missav.live</code> <br></p>
+<p><strong>Mới</strong>: Hỗ trợ tên miền mới<code>missav.live</code> <br></p>
 <h3><strong>📅 2025.03.11.0544</strong></h3>
-<p><strong>新增</strong>: •播放页面显示女优信息 <br>
-<strong>截图</strong>: <img alt="missav.png" src="https://s2.loli.net/2025/03/11/i4R6aDeNUSwuABK.png" /></p>
+<p><strong>Mới</strong>: •Trang chơi hiển thị thông tin nữ diễn viên <br>
+<strong>Ảnh chụp màn hình</strong>: <img alt="missav.png" src="https://s2.loli.net/2025/03/11/i4R6aDeNUSwuABK.png" /></p>
 <hr />
 <h3><strong>📅 2025.03.07.2114</strong></h3>
-<p><strong>新增</strong>: •初始版本</p>
+<p><strong>Mới</strong>: •Phiên bản ban đầu</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529125.png">
 </div></center>
