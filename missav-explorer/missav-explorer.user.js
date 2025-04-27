@@ -2,12 +2,13 @@
 // @name              MissAv批量备份收藏视频
 // @name:zh-CN        MissAv批量备份收藏视频
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           1.2.3.73
+// @version           2025.04.27.1347
 // @description       从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @description:zh-CN 从当前missav页面获取图片文件和视频信息，并合并结果后提供下载生成的网页文件
 // @license           MIT
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com> & ChatGPT
 // @match             https://missav.ws/*
+// @match             https://missav.live/*
 // @grant             GM_setValue
 // @grant             GM_getValue
 // @grant             GM_xmlhttpRequest
@@ -69,7 +70,6 @@
         // 点击按钮时执行的操作
         WebDAVManager.listFilesAndFolders(webdavfold)
 
-
     })
 
     // 按钮A的点击事件
@@ -105,7 +105,6 @@
         // 点击按钮时执行的操作
         resetGlobalVariables()
         fetchJsonData()
-
 
     })
 
@@ -201,7 +200,6 @@
         temporaryData = []
     }
 
-
     async function processUrls() {
         //delayTime = 20;
         let completedTasks = 0 // 计数已完成的任务数量
@@ -243,17 +241,11 @@
         }
     }
 
-
-
-
     function getAllCookies() {
         return document.cookie
     }
 
     // 获取指定 JSON 数据的函数
-
-
-
 
     function fetchJsonData() {
         const cookies = getAllCookies()
@@ -261,7 +253,8 @@
         console.log('Current page cookies:', cookies)
 
         // 构建 API URL
-        const apiUrl = 'https://missav.ws/api/playlists/dfe-057'
+        const missAvDomain = window.location.hostname
+        const apiUrl = `https://${missAvDomain}/api/playlists/dfe-057`
 
         // 发送带有 cookies 的请求
         GM_xmlhttpRequest({
@@ -338,7 +331,6 @@
         return delayTime
     }
 
-
     function getTotalPagesd() { // 获取总页数
         var totalPagesElement = document.querySelector('#price-currency')
         var totalPagesText = totalPagesElement ? totalPagesElement.innerText : ''
@@ -391,7 +383,6 @@
         })
     }
 
-
     // 设置总页数
     function setTotalPage(defaultPages) {
         if (!pageCount) {
@@ -412,8 +403,6 @@
     }
 
     // 点击按钮时执行操作
-
-
 
     // 异步获取页面内容
     function fetchPage(pageNum, pages, callback) {
@@ -442,7 +431,6 @@
             }
         })
     }
-
 
     //获取视频信息
     function extractInformation(htmlContent) {
@@ -556,9 +544,6 @@
         }
     }  ///大
 
-
-
-
     // 使用XMLHttpRequest获取页面内容
     function fetchPageforinfo(url) {
         let xhr = new XMLHttpRequest()
@@ -576,7 +561,6 @@
         xhr.open('GET', url, true)
         xhr.send()
     }
-
 
     // 处理获取到的页面内容
     function processPageContent(htmlContent, pageNum, pages, callback) {
@@ -609,12 +593,8 @@
             window.addToLog(`${name}${processUrl(inurl)}${pageNum}+获取失败 数量：` + divElements.length, 'error')
         }
 
-
-
-
         divElements.forEach(div => {
             var imgUrl = div.querySelector('img').getAttribute('data-src')
-
 
             if (shouldReplace) {
                 imgUrl = imgUrl.replace('cover-t.jpg', 'cover-n.jpg')
@@ -635,8 +615,6 @@
                 window.addToLog(`正在获取 ${video.fileName} 信息`, 'info')
                 console.log()
             }
-
-
 
             if (video.imgUrl && video.altText) {
                 videos.push(video)
@@ -688,7 +666,6 @@
 
     function downloadLogFile() {
 
-
         if (!downloadLogFileA) {
             console.log('日志下载已被跳过')
             return
@@ -726,8 +703,6 @@
         }
     }
 
-
-
     function sanitizeFileName(name) {
         return name.replace(/[\\/:*?"<>|]/g, '_')
     }
@@ -754,8 +729,6 @@
 
                     WebDAVManager.uploadFile(webdavfold, `${sanitizeFileName(name)}.json`, JSON.stringify(finalData, null, 4))
                 }
-
-
 
                 const jsonIndexContent = generateJsonIndexContent(finalData)
                 const numFiles = Object.keys(zip.files).length // 获取压缩包中文件的数量
@@ -792,7 +765,6 @@
                         if (callback) callback()
                     })
                 }
-
 
             } else {
                 finalData = {
@@ -848,8 +820,6 @@
                 return // 结束函数执行，不生成压缩包
             }
 
-
-
             allzip.generateAsync({ type: 'blob' }, function updateCallback(metadata) {
                 const progress = metadata.percent.toFixed(2)
                 showModal(`压缩进度: ${progress}%`)
@@ -866,7 +836,6 @@
             })
             // 如果 singleFileDownload 等于假，则执行这里的代码
         }
-
 
     }
 
@@ -902,8 +871,6 @@
             }, 3000)
         }
     }
-
-
 
     // 创建或更新模态窗口
     function showModal(message, autoCloseDelay = 0) {
@@ -1429,16 +1396,13 @@
 
     // 在页面加载时调用设置界面创建函数
 
-
     // 调用示例
-
 
     const WebDAVManager = (function () {
         // WebDAV 配置
         let url = webdavUrl
         let username = webdavUsername
         let password = webdavPassword
-
 
         // 通用 GM_xmlhttpRequest 封装函数
         function GM_xhr({ path = '/', method, success, fail, headers = {}, data, ...config }) {
@@ -1683,7 +1647,6 @@
             await GM_xhr({ ...MOVE })
         }
 
-
         // 删除文件
         async function deleteFile(folderName, fileName) {
             let confirmdelete = false
@@ -1795,8 +1758,6 @@
                 GM_xhr({ ...GET })
             })
         }
-
-
 
         async function downloadAndDisplayFile(folderName, fileName) {
             const GET = {
@@ -2000,7 +1961,6 @@
             dialog.className = 'dialog'
             // 创建遮罩
 
-
             function close() {
                 document.body.removeChild(dialog)
 
@@ -2011,7 +1971,6 @@
             titleElement.innerHTML = title
             titleElement.className = 'dialog-title'
             dialog.appendChild(titleElement)
-
 
             const buttonContainer = document.createElement('div')
             const buttonConfigs = [
@@ -2077,7 +2036,6 @@
                     { button: searchButton, offsetHeight: true },
                     { button: closeXButton, offsetHeight: true }
 
-
                     // 添加更多按钮对象，如果有的话
                 ]
                 scrollTimeout = setTimeout(() => {
@@ -2100,7 +2058,6 @@
                     }
                 }, 300) // 设置 300 毫秒的超时
             })
-
 
             // 获取所有复选框
             const checkboxes = fileListContainer.querySelectorAll('input[type="checkbox"]')
@@ -2170,7 +2127,6 @@
                     fileCountElement.textContent = matchCount
                 }
             }
-
 
             // 恢复初始文件列表函数
             function resetFileList() {
@@ -2253,7 +2209,6 @@
             }
         }
 
-
         //选中删除
         function deleteSelectedFiles() {
             // 获取所有选中的复选框
@@ -2295,7 +2250,6 @@
             }
         }
 
-
         // 将 API 方法公开
         return {
             listFilesAndFolders,
@@ -2325,6 +2279,4 @@
     //WebDAVManager.uploadFile(webdavfold, 'nidie.txt', '这是 example.txt 的内容');
     // WebDAVManager.deleteFile('Missav保存', 'example.txt');
 
-})();
-
-
+})()

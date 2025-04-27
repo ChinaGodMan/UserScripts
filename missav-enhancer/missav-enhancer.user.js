@@ -85,6 +85,7 @@
 // @grant             GM_addStyle
 // @match             https://missav123.com/*
 // @match             https://missav.ws/*
+// @match             https://missav.live/*
 // @match             https://missav.ai/*
 // @match             https://missav.com/*
 // @match             https://thisav.com/*
@@ -100,7 +101,7 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.11.0544
+// @version           2025.04.27.1345
 // @created           2025-03-07 21:14:34
 // @modified          2025-03-07 21:14:34
 // ==/UserScript==
@@ -110,7 +111,7 @@
  * File Created: 2025/03/07 21:14:34
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/11,Tuesday 05:44:43
+ * Last Modified: 2025/04/27,Sunday 13:45:35
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -124,7 +125,7 @@
 */
 const url = window.location.href
 if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
-    window.location.href = url.replace('missav.com', 'missav.ws').replace('thisav.com', 'missav.ws')
+    window.location.href = url.replace('missav.com', 'missav.live').replace('thisav.com', 'missav.live')
 }
 (() => {
     'use strict'
@@ -148,7 +149,6 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
         // 自动静音播放
         autoMutePlay: true
     };
-
 
     (() => {
         // 【沉浸式状态栏/网页主题色】设置主题色
@@ -308,7 +308,6 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
         console.log('【视频控制条增强】触发条件匹配超时，已取消。')
     }, 10 * 1000)
 
-
     //LINK - 删除广告
     function removeElements() {
         document.querySelectorAll('div[class*="lg:hidden"]')
@@ -382,7 +381,6 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
         }, 500))
         observer.observe(document, { childList: true, subtree: true })
     })
-
 
     document.addEventListener('ready', () => {
         //自动点击视频`显示更多`
