@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
+          repository: ChinaGodMan/UserScripts
 
       - name: Generate Contributors Images
         uses: jaywcjlove/github-action-contributors@main

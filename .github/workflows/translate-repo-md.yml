@@ -15,6 +15,8 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
+          repository: ChinaGodMan/UserScripts
           fetch-depth: 0
 
       - name: 读取并翻译 README
