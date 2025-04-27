@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub군인의 대본을보십시오<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub군인의 대본을보십시오<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%20%EC%84%A4%EC%B9%98%EB%90%9C%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">풀어 주다CSDN복사하려면 로그인하십시오</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">제한되지 않은 CSDN 로그인</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
-가서 엿 먹어라CSDN복사하려면 로그인하십시오,로그인하지 않고 복사하십시오
+빌어 먹을 CSDN 로그인 및 복사로 이동하면 로그인하지 않고 복사 할 수 있습니다.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -291,7 +291,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 </h3>
 
 <details>
-    <summary>웹 페이지에서 텍스트를 강조 표시합니다，그것이 당신을 도울 경우，마음대로 수정 및 사용할 수 있습니다</summary>
+    <summary>웹 페이지의 텍스트를 강조 표시하십시오. 도움이되면 원하는대로 수정할 수 있습니다.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -881,7 +881,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
-존재하다google검색 지정된 사이트를 차단합니다
+지정된 사이트를 차단하는 Google을 검색하십시오
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork관련 스크립트</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy fork스크립트 페이지는 URL 향상에 적합합니다</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
 <details>
-    <summary>스크립트 세부 정보 페이지는 기본 리디렉션이없는 검색에 적합합니다. 클릭 가능한 텍스트 링크로 전환하고 프롬프트를 팝업하십시오.</summary>
+    <summary>스크립트 세부 사항 페이지는 기본 URL없이 검색에 적합합니다. 클릭 가능한 텍스트 링크로 전환하고 프롬프트를 팝업하십시오</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1380,13 +1380,13 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAv비디오 배치 백업 컬렉션</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Missav 배치 백업 컬렉션 비디오</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
 <details>
-    <summary>현재에서missav사진 파일 및 비디오 정보를 얻는 페이지，병합 결과가 결합 된 후 다운로드 된 웹 페이지 파일을 제공하십시오.</summary>
+    <summary>현재 Missav 페이지에서 사진 파일 및 비디오 정보를 가져오고 결과를 병합 한 후 다운로드 된 웹 페이지 파일을 제공하십시오.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1489,7 +1489,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
-비 중국어 캐릭터를 인식합니다，길이가 더 큰 경우5번역 된 텍스트에는 중국어가 포함되어 있지 않습니다，그런 다음 원본 텍스트를 중국어로 번역하고 교체하십시오
+비 중국어 캐릭터를 식별하십시오. 길이가 5보다 크고 번역 된 텍스트에 중국어가 포함되지 않으면 원본 텍스트를 중국어로 번역하고 교체하십시오.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1507,12 +1507,12 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">웹 번역——중국어로의 자동 번역</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">웹 페이지 번역 - 중국어로 자동 번역</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
 </h3>
 
-각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오
+각 비 중국 웹 페이지의 오른쪽 하단에 Google 번역 아이콘을 추가하십시오 (왼쪽 하단 코너로 조정할 수 있음). 이 버전은 중국어 번역 버전이며 외국어 만 중국어로 번역되며 자동 번역이 추가됩니다.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">

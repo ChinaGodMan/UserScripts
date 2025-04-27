@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubVeja o script do service<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkVeja o script do service</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubVeja o script do service<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkVeja o script do service</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20total%20de%20instala%C3%A7%C3%B5es%20de%20todos%20os%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20de%20todos%20os%20scripts%20instalados%20hoje&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">LiberarCSDNFaça login para copiar</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Login CSDN irrestrito</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
-Vá foder vocêCSDNFaça login para copiar,Copiar sem fazer login
+Vá para o seu porra de login e copiar CSDN, você pode copiar sem fazer login
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -291,7 +291,7 @@ Vá foder vocêCSDNFaça login para copiar,Copiar sem fazer login
 </h3>
 
 <details>
-    <summary>Destaque o texto na página da web，Se ajudar você，Pode ser modificado e usado à vontade</summary>
+    <summary>Destaque o texto na página da web. Se for útil para você, você pode modificá -lo como quiser.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -881,7 +881,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
-existegoogleBloco de pesquisa no site especificado
+Procure um Google bloqueando um site especificado
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@ existegoogleBloco de pesquisa no site especificado
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkScripts relacionados</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy forkAs páginas de script são adequadas para aprimoramento de URL</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Páginas de script de garfo gorduroso para aprimoramento de URL</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
 <details>
-    <summary>A página de detalhes do script é adequada para pesquisas sem redirecionamento padrão Volte a um link de texto clicável e coloque o prompt</summary>
+    <summary>A página de detalhes do script é adequada para a pesquisa sem URLs padrão. Vire para links de texto clicável e prompts pop -up</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1380,13 +1380,13 @@ existegoogleBloco de pesquisa no site especificado
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAvColeção de vídeos de backup em lote</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Vídeos de coleção de backup de lote missav</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
 <details>
-    <summary>Da correntemissavPágina para obter arquivos de imagem e informações de vídeo，Depois que o resultado da mesclagem for combinado, forneça o arquivo da página da web baixado</summary>
+    <summary>Obtenha arquivos de imagem e informações de vídeo da página atual do Missav e forneça o arquivo da página da web baixado após a fusão dos resultados.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1489,7 +1489,7 @@ existegoogleBloco de pesquisa no site especificado
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
-Reconhecer caracteres não chineses，Se o comprimento for maior que5E o texto traduzido não contém chinês，Em seguida, traduza e substitua o texto original para o chinês
+Identifique caracteres não chineses. Se o comprimento for maior que 5 e o texto traduzido não contiver chinês, traduza e substitua o texto original para os chineses.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1507,12 +1507,12 @@ Reconhecer caracteres não chineses，Se o comprimento for maior que5E o texto t
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Tradução da Web——Tradução automática para chinês</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Tradução da página da web - tradução automática para chinês</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
 </h3>
 
-Dê a cada página da web não chinesa no canto inferior direito（Pode ser ajustado no canto inferior esquerdo）Adicione umgoogleÍcone de tradução，Esta versão é uma tradução chinesa，Traduzir apenas idiomas estrangeiros para chinês,Adicione a tradução automática
+Adicione um ícone de tradução do Google ao canto inferior direito de cada página da Web não chinesa (pode ser ajustada no canto inferior esquerdo). Esta versão é uma versão de tradução chinesa e apenas os idiomas estrangeiros são traduzidos para o chinês e a tradução automática é adicionada.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">

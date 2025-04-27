@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the serviceman’s script<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the serviceman’s script</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubView the serviceman’s script<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the serviceman’s script</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20all%20scripts%20installed%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@ ChatGPT Make code font smaller and automatically wrap
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">ReleaseCSDNLog in to copy</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Unrestricted CSDN login</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
-Go fuck youCSDNLog in to copy,Copy without logging in
+Go to your fucking CSDN login and copy, you can copy without logging in
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -291,7 +291,7 @@ Go fuck youCSDNLog in to copy,Copy without logging in
 </h3>
 
 <details>
-    <summary>Highlight text on the web page，If it helps you，Can be modified and used at will</summary>
+    <summary>Highlight the text on the web page. If it is helpful to you, you can modify it as you like.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -818,15 +818,13 @@ existGitHubThe authorization page automatically enters the authorization code an
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">GitHub Star Warehouse Notes Assistant
--GB        GitHub Star Warehouse Notes Assistant</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">GitHub Star Warehouse Notes Assistant</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
         <img height=24 src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
 <details>
-    <summary>Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
--GB Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist</summary>
+    <summary>Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
            <img width=511 src="https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png"></a>
@@ -883,7 +881,7 @@ existGitHubThe authorization page automatically enters the authorization code an
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
-existgoogleSearch block the specified site
+Search for a Google Blocking a specified site
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -901,13 +899,13 @@ existgoogleSearch block the specified site
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkRelated scripts</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy forkScript pages are suitable for URL enhancement</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy fork script pages for URL enhancement</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
 <details>
-    <summary>Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up</summary>
+    <summary>The script details page is suitable for searching without default URLs. Turn to clickable text links and pop up prompts</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1382,13 +1380,13 @@ Detection MissAV state,and automatically log in when not logged in
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAvBatch backup collection of videos</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAv batch backup collection videos</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
 <details>
-    <summary>From the currentmissavPage to obtain picture files and video information，After the merge result is combined, provide the downloaded web page file</summary>
+    <summary>Get picture files and video information from the current missav page, and provide the downloaded web page file after merging the results.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1491,7 +1489,7 @@ Detection JableTV state,and automatically log in when not logged in
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
-Recognize non-Chinese characters，If the length is greater than5And the translated text does not contain Chinese，Then translate and replace the original text to Chinese
+Identify non-Chinese characters. If the length is greater than 5 and the translated text does not contain Chinese, then translate and replace the original text to Chinese.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1509,12 +1507,12 @@ Recognize non-Chinese characters，If the length is greater than5And the transla
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Web Translation——Automatic translation into Chinese</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Web page translation – automatic translation into Chinese</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
 </h3>
 
-Give each non-Chinese web page the bottom right corner（Can be adjusted to the lower left corner）Add onegoogleTranslation icon，This version is a Chinese translation，Translate only foreign languages ​​to Chinese,Add automatic translation
+Add a Google Translation icon to the lower right corner of each non-Chinese web page (can be adjusted to the lower left corner). This version is a Chinese translation version, and only foreign languages are translated into Chinese, and automatic translation is added.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">
@@ -1714,7 +1712,7 @@ To use any script，First, you need a browser installation **Tampermonkey Script
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Contribution list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generate <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
+Contribution list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
 
 ## 🏛️ Open Source License Agreement
 

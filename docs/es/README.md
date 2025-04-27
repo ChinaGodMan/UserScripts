@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubVer el guión del militar<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkVer el guión del militar</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubVer el guión del militar<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkVer el guión del militar</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20total%20de%20instalaciones%20de%20todos%20los%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20de%20todos%20los%20scripts%20instalados%20hoy&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@ ChatGPT Reducir la fuente del código y envolver automáticamente
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">LiberarCSDNIniciar sesión para copiar</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Iniciar sesión CSDN sin restricciones</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-Vete a la mierdaCSDNIniciar sesión para copiar,Copiar sin iniciar sesión
+Vaya a su jodido inicio de sesión y copia de CSDN, puede copiar sin iniciar sesión
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -291,7 +291,7 @@ Vete a la mierdaCSDNIniciar sesión para copiar,Copiar sin iniciar sesión
 </h3>
 
 <details>
-    <summary>Resaltar texto en la página web，Si te ayuda，Se puede modificar y utilizar a voluntad</summary>
+    <summary>Resalte el texto en la página web. Si es útil para usted, puede modificarlo como desee.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -881,7 +881,7 @@ existirGitHubLa página de autorización ingresa automáticamente el código de 
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-existirgoogleBloque de búsqueda el sitio especificado
+Busque un Google bloqueando un sitio específico
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@ existirgoogleBloque de búsqueda el sitio especificado
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkScripts relacionados</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy forkLas páginas de guiones son adecuadas para la mejora de la URL</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Páginas de secuencia de comandos de bifurcación grasosa para mejoras de URL</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
 <details>
-    <summary>La página de detalles del script es adecuada para búsquedas sin redirección predeterminada Realice un enlace de texto que se pueda hacer clic y aparezca el aviso</summary>
+    <summary>La página Detalles del script es adecuada para buscar sin URL predeterminadas. Gire para hacer clic en enlaces de texto y indicaciones emergentes</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1380,13 +1380,13 @@ Detección MissAV estado,e iniciar sesión automáticamente cuando no haya inici
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAvColección de videos de respaldo por lotes</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Videos de colección de copias de seguridad de Missav Batch</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
 <details>
-    <summary>De la corrientemissavPágina para obtener archivos de imágenes e información de video，Después de combinar el resultado de fusión, proporcione el archivo de página web descargada</summary>
+    <summary>Obtenga archivos de imagen e información de video de la página de Missav actual, y proporcione el archivo de página web descargada después de fusionar los resultados.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1489,7 +1489,7 @@ Detección JableTV estado,e iniciar sesión automáticamente cuando no haya inic
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-Reconocer personajes no chinos，Si la longitud es mayor que5Y el texto traducido no contiene chino，Luego traducir y reemplazar el texto original al chino
+Identificar personajes no chinos. Si la longitud es mayor que 5 y el texto traducido no contiene chino, traduzca y reemplace el texto original al chino.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1507,12 +1507,12 @@ Reconocer personajes no chinos，Si la longitud es mayor que5Y el texto traducid
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Traducción web——Traducción automática al chino</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Traducción de la página web: traducción automática al chino</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
 </h3>
 
-Dé a cada página web no china la esquina inferior derecha（Se puede ajustar a la esquina inferior izquierda）Agregar unogoogleIcono de traducción，Esta versión es una traducción china，Traducir solo idiomas extranjeros al chino,Agregar traducción automática
+Agregue un icono de traducción de Google a la esquina inferior derecha de cada página web no china (se puede ajustar a la esquina inferior izquierda). Esta versión es una versión de traducción china, y solo los idiomas extranjeros se traducen al chino, y se agrega la traducción automática.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">

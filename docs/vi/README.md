@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản của người phục vụ<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản của người phục vụ</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubXem kịch bản của người phục vụ<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkXem kịch bản của người phục vụ</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BB%95ng%20s%E1%BB%91%20c%C3%A0i%20%C4%91%E1%BA%B7t%20c%E1%BB%A7a%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20t%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20t%E1%BA%ADp%20l%E1%BB%87nh%20%C4%91%C6%B0%E1%BB%A3c%20c%C3%A0i%20%C4%91%E1%BA%B7t%20ng%C3%A0y%20h%C3%B4m%20nay&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Giải phóngCSDNĐăng nhập để sao chép</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Đăng nhập CSDN không giới hạn</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
-Đi đụ bạnCSDNĐăng nhập để sao chép,Sao chép mà không cần đăng nhập
+Truy cập đăng nhập và sao chép CSDN chết tiệt của bạn, bạn có thể sao chép mà không cần đăng nhập
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -291,7 +291,7 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
 </h3>
 
 <details>
-    <summary>Đánh dấu văn bản trên trang web，Nếu nó giúp bạn，Có thể được sửa đổi và sử dụng theo ý muốn</summary>
+    <summary>Đánh dấu văn bản trên trang web. Nếu nó hữu ích cho bạn, bạn có thể sửa đổi nó như bạn muốn.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -881,7 +881,7 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
-hiện hữugoogleKhối tìm kiếm trang web được chỉ định
+Tìm kiếm một Google chặn một trang web được chỉ định
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@ hiện hữugoogleKhối tìm kiếm trang web được chỉ định
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkTập lệnh liên quan</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy forkTrang kịch bản phù hợp để tăng cường URL</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Trang kịch kịch bản FREASY FORK để tăng cường URL</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
 <details>
-    <summary>Trang chi tiết tập lệnh phù hợp cho các tìm kiếm mà không cần chuyển hướng mặc định Chuyển sang liên kết văn bản có thể nhấp và bật lên lời nhắc</summary>
+    <summary>Trang chi tiết tập lệnh phù hợp để tìm kiếm mà không cần URL mặc định. Chuyển sang liên kết văn bản có thể nhấp và bật lên lời nhắc</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1380,13 +1380,13 @@ Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăn
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAvBộ sưu tập video sao lưu hàng loạt</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Video bộ sưu tập sao lưu missav</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
 <details>
-    <summary>Từ hiện tạimissavTrang để có được tệp hình ảnh và thông tin video，Sau khi kết quả hợp nhất được kết hợp, hãy cung cấp tệp trang web đã tải xuống</summary>
+    <summary>Nhận tệp hình ảnh và thông tin video từ trang Missav hiện tại và cung cấp tệp trang web đã tải xuống sau khi hợp nhất kết quả.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1489,7 +1489,7 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
-Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Sau đó dịch và thay thế văn bản gốc thành tiếng Trung
+Xác định các ký tự không phải người Trung Quốc. Nếu độ dài lớn hơn 5 và văn bản dịch không chứa tiếng Trung, thì hãy dịch và thay thế văn bản gốc sang tiếng Trung.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1507,12 +1507,12 @@ Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài l
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Dịch web——Bản dịch tự động sang tiếng Trung</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Bản dịch trang web - Bản dịch tự động sang tiếng Trung</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
 </h3>
 
-Cung cấp cho mỗi trang web không phải người Trung Quốc góc dưới bên phải（Có thể được điều chỉnh ở góc dưới bên trái）Thêm mộtgoogleBiểu tượng dịch，Phiên bản này là một bản dịch tiếng Trung，Chỉ dịch ngoại ngữ sang tiếng Trung,Thêm bản dịch tự động
+Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi trang web không phải người Trung Quốc (có thể được điều chỉnh ở góc dưới bên trái). Phiên bản này là phiên bản dịch tiếng Trung và chỉ có tiếng nước ngoài được dịch sang tiếng Trung và dịch tự động được thêm vào.
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">

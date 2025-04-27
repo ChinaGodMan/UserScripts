@@ -22,7 +22,7 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubサービスマンのスクリプトを表示します<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkサービスマンのスクリプトを表示します</a><br></h5>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubサービスマンのスクリプトを表示します<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkサービスマンのスクリプトを表示します</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%AE%E7%B7%8F%E6%95%B0&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E6%95%B0&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
@@ -233,12 +233,12 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">リリースCSDNログインしてコピーします</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">無制限のCSDNログイン</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
-あなたをファックしに行きなさいCSDNログインしてコピーします,ログインせずにコピーします
+クソCSDNログインとコピーに動くして、ログインせずにコピーできます
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505207">
@@ -285,13 +285,13 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">Web上のキーワードを強調表示します</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">Web優れたのキーワードを強調するします</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>Webページでテキストを強調表示します，それがあなたを助けるなら，変更して自由に使用できます</summary>
+    <summary>Webページのテキストを強調するします。それがあなたに役立つなら、あなたはあなたが良いきなようにそれを変更することができます。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
@@ -314,12 +314,12 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">Webキーワードを強調表示します</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">Webキーワードを強調するします</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
         <img height=24 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
-スクロール時に動的読み込みを含むWebページで強調表示されるカスタムキーワード
+スクロール時間に動的読み込みを含むむWebページで強調するされるカスタムキーワード
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498905">
@@ -881,7 +881,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
-存在するgoogle指定されたサイトを検索します
+指定されたサイトをブロックするGoogleを検索します
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/500262">
@@ -899,13 +899,13 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork関連するスクリプト</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy forkスクリプトページは、URLの強化に適しています</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">URL強化の脂っこいフォークスクリプトページ</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>スクリプトの詳細ページは、デフォルトのリダイレクトなしの検索に適しています クリック可能なテキストリンクに移動して、プロンプトをポップアップします</summary>
+    <summary>スクリプトの詳細ページは、デフォルトのURLなしで検索するのに適切なしています。クリック可能なテキストリンクを回し、プロンプトをポップアップします</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
@@ -1380,13 +1380,13 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">MissAvビデオのバッチバックアップコレクション</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">Missavバッチバックアップコレクションビデオ</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
         <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
 <details>
-    <summary>電流からmissav画像ファイルとビデオ情報を取得するページ，マージの結果が組み合わされたら、ダウンロードしたWebページファイルを提供します</summary>
+    <summary>今のMISSAVページから画像ファイルとビデオ情報を得るし、結果をマージした戻るにダウンロードしたWebページファイルを供給します。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
@@ -1489,7 +1489,7 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
         <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
-中国人以外のキャラクターを認識します，長さがより大きい場合5翻訳されたテキストには中国語が含まれていません，次に、元のテキストを中国語に翻訳して置き換えます
+中国語を超えてのキャラクターを特定します。長ささが5を追い越しますえ、翻訳されたテキストに中国語が含むまれていない場合は、元のテキストを中国語に翻訳してセットき変化えます。
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/504890">
@@ -1507,12 +1507,12 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Web翻訳——中国人への自動翻訳</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Webページ翻訳 - 中国語への自動翻訳</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
         <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
 </h3>
 
-各中国人以外のWebページに右下隅を渡します（左下隅に調整できます）追加しますgoogle翻訳アイコン，このバージョンは中国語の翻訳です，外国語のみを中国語に翻訳します,自動翻訳を追加します
+Google翻訳アイコンを各中国語のWebページの右下隅に追加します（左下隅に調整できます）。このバージョンは中国の翻訳版であり、外国語のみが中国語に翻訳されており、自動翻訳が追加されています。
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505208">
