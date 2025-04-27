@@ -41,12 +41,8 @@ def read_file_to_memory(file_path):
     search_results = search_in_file(file_path, "zh-CN")
     lines = []
     chinese_texts = []
-    for name_match in search_results.name_matches:
-        lines.append(name_match)
-        chinese_texts.append((len(lines) - 1, name_match))
-    for description_match in search_results.description_matches:
-        lines.append(description_match)
-        chinese_texts.append((len(lines) - 1, description_match))
+    chinese_texts.append((len(lines) - 1, search_results.name_matches[0]))
+    chinese_texts.append((len(lines) - 1, search_results.description_matches[0]))
     return chinese_texts
 
 

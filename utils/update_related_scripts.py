@@ -32,8 +32,8 @@ def generate_description(current_script, all_scripts, code):
             greasyfork_id = script.get('greasyfork_id', '未知ID')
             full_path = script.get('directory') + "/" + script.get('js_name')
             results = search_in_file(full_path, code)
-            name = "\n".join(results.name_matches)
-            description = "\n".join(results.description_matches)
+            name = results.name_matches[0]
+            description = results.description_matches[0]
             link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
             descriptions.append(f"> -   {link}: {description}")
     return "\n".join(descriptions) + "\n"

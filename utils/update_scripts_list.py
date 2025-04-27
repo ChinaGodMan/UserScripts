@@ -40,8 +40,8 @@ def generate_html_table(scripts):
         # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
         script_absolute_path = script.get("directory") + "/" + script.get("js_name")
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
-        script_name = "\n".join(sreach_result.name_matches)
-        script_description = "\n".join(sreach_result.description_matches)
+        script_name = sreach_result.name_matches[0]
+        script_description = sreach_result.description_matches[0]
         # ! 对没有预览截图的脚本,只显示介绍就行了
         screenshot_block = f'''<details>
     <summary>{script_description}</summary>

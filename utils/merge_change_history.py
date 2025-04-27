@@ -30,8 +30,8 @@ with open(json_file_path, 'r', encoding='utf-8') as json_file:
 # 生产HTML内容
 def generate_html_content(nation, path, greasyfork_id, filepath, backuppath, readme_html):
     results = search_in_file(path, nation)
-    name = "\n".join(results.name_matches)
-    description = "\n".join(results.description_matches)
+    name = results.name_matches[0]
+    description = results.description_matches[0]
     img_tag = f'<img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/{greasyfork_id}.png">'
     html_content = f"""
 <center><div align="center">
