@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 // 格式化单个文件的 Tampermonkey 元数据头部
 function formatMetadata(filePath) {
+    if (!filePath.includes('user.js')) { return }
     const fileContent = fs.readFileSync(filePath, 'utf-8')
     const lines = fileContent.split('\n')
     // 首先找到最长的标签长度
@@ -18,7 +19,7 @@ function formatMetadata(filePath) {
             const parts = line.split(/\s+/)
             const label = parts[1].replace(/@/g, '') // 获取标签，去掉 @
             const value = parts.slice(2).join(' ')
-            return `// @${label.padEnd(maxLabelLength)} ${value}` // 使用最长标签长度进行对齐
+            return `// @${label.padEnd(maxLabelLength)} ${value.trimEnd()}` // 使用最长标签长度进行对齐,并删除行尾空
         }
         return line
     })
