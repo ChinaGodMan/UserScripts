@@ -1,85 +1,229 @@
 // ==UserScript==
 // @name              Twitter/X Media Downloader
-// @name:ar           تنزيل وسائل الإعلام على Twitter
-// @name:bg           Изтегляне на медии в Twitter
-// @name:cs           Stahování médií na Twitteru
-// @name:da           Twitter Media Download
-// @name:de           Twitter Media Download
-// @name:el           Λήψη μέσων Twitter
-// @name:en           Twitter Media Download
-// @name:eo           Twitter amaskomunikila elŝuto
-// @name:es           Descarga de medios de Twitter
-// @name:fi           Twitter Media Download
-// @name:fr           Téléchargement des médias Twitter
-// @name:fr-CA        Téléchargement des médias Twitter
-// @name:he           הורדת מדיה בטוויטר
-// @name:hr           Twitter Media Download
-// @name:hu           Twitter média letöltése
-// @name:id           Unduh Media Twitter
-// @name:it           Download dei media di Twitter
-// @name:ja           Twitterメディアのダウンロード
-// @name:ka           Twitter Media ჩამოტვირთვა
-// @name:ko           트위터 미디어 다운로드
-// @name:nb           Twitter media nedlasting
-// @name:nl           Twitter -media downloaden
-// @name:pl           Pobieranie mediów na Twitterze
-// @name:pt-BR        Download da mídia do Twitter
-// @name:ro           Descărcare media Twitter
-// @name:ru           Скачать Twitter Media
-// @name:sk           Stiahnutie médií Twitter
-// @name:sr           Твиттер Медиа Довнлоад
-// @name:sv           Twitter media nedladdning
-// @name:th           ดาวน์โหลดสื่อ Twitter
-// @name:tr           Twitter Media İndir
-// @name:ug           Twitter تاراتقۇلىرى چۈشۈرۈش
-// @name:uk           Завантажити медіа Twitter
-// @name:vi           Tải xuống phương tiện truyền thông Twitter
-// @name:zh           Twitter 媒体下载
-// @name:zh-CN        Twitter 媒体下载
-// @name:zh-HK        Twitter 媒體下載
-// @name:zh-SG        Twitter 媒体下载
-// @name:zh-TW        Twitter 媒體下載
+// @name:af           Twitter Media Download (2025.04.28 vas)
+// @name:am           ትዊተር ሚዲያ አውርድ (2025.04.28 ተጠግኗል)
+// @name:ar           تنزيل Media Twitter (2025.04.28 ثابت)
+// @name:az           Twitter Media Yükləmə (2025.04.28 Sabit)
+// @name:be           Загрузка Twitter Media (2025.04.28 Выпраўлена)
+// @name:bem          Ukukongama kwa pa muulu (2025.04.28 ukwashintililwapo)
+// @name:bg           Изтегляне на медии в Twitter (2025.04.28 Фиксиран)
+// @name:bn           টুইটার মিডিয়া ডাউনলোড (2025.04.28 স্থির)
+// @name:bo           Twitter Media Download (2025.04.28 གཏན་འཁེལ་བྱུང་བ།)
+// @name:bs           Preuzimanje Twitter Media (2025.04.28 fiksnim)
+// @name:ca           Descàrrega de Twitter Media (2025.04.28 S’ha corregit)
+// @name:ceb          Download sa Twitter Media (2025.04.28 naayos)
+// @name:ckb          داگرتنی میدیای تویتەر (2025.04.28 چاککراوە)
+// @name:cs           Stahování médií Twitter (2025.04.28 Opraveno)
+// @name:cy           Lawrlwytho Cyfryngau Twitter (2025.04.28 sefydlog)
+// @name:da           Twitter Media Download (2025.04.28 Fixed)
+// @name:de           Download von Twitter Media (2025.04.28 behoben)
+// @name:dv           ޓްވިޓަރ މީޑިއާ ޑައުންލޯޑް (2025.04.28 ފިކްސްޑް)
+// @name:dz           Twitter Medownload (2025.04.28 བདེ་སྒྲིག་)
+// @name:el           Download Media Twitter (2025.04.28 Διορθώθηκε)
+// @name:en           Twitter Media Downloader (2025.04.28 Fixed)
+// @name:en-GB        Twitter Media Downloader (2025.04.28 Fixed)
+// @name:eo           Elŝuti Twitter Media (2025.04.28 Fiksita)
+// @name:es           Descarga de medios de Twitter (2025.04.28 solucionado)
+// @name:et           Twitteri meedia allalaadimine (2025.04.28 fikseeritud)
+// @name:eu           Twitter Media download (2025.04.28 Konpondu)
+// @name:fa           دانلود رسانه توییتر (2025.04.28 ثابت)
+// @name:fi           Twitter Media Download (2025.04.28 Kiinteä)
+// @name:fo           Twitter Media Download (2025.04.28 Fast)
+// @name:fr           Twitter Media Download (2025.04.28 Correction)
+// @name:fr-CA        Twitter Media Download (2025.04.28 Correction)
+// @name:gd           Luchdaich sìos meadhanan Twitter (2025.04.28 stèidhichte)
+// @name:gl           Twitter Media Download (2025.04.28 Fixado)
+// @name:gu           ટ્વિટર મીડિયા ડાઉનલોડ (2025.04.28 સ્થિર)
+// @name:haw          Kāleʻa Twitter (2025.04.28 paʻa)
+// @name:he           הורדת מדיה בטוויטר (2025.04.28 קבועה)
+// @name:hi           ट्विटर मीडिया डाउनलोड (2025.04.28 फिक्स्ड)
+// @name:hr           Twitter Media preuzimanje (2025.04.28 fiksno)
+// @name:ht           Twitter Media Download (2025.04.28 fiks)
+// @name:hu           A Twitter Media letöltése (2025.04.28 rögzített)
+// @name:hy           Twitter Media Download (2025.04.28 ֆիքսված)
+// @name:id           Unduh Media Twitter (2025.04.28 diperbaiki)
+// @name:is           Twitter Media Download (2025.04.28 Fast)
+// @name:it           Download di Twitter Media (2025.04.28 FISSO)
+// @name:ja           Twitterメディアダウンロード（2025.04.28修正）
+// @name:ka           Twitter Media Download (2025.04.28 დაფიქსირდა)
+// @name:kk           Twitter Media Download (2025.04.28 тіркелген)
+// @name:km           ការទាញយកប្រព័ន្ធផ្សព្វផ្សាយ Twitter (2025.04.28 ថេរ)
+// @name:kn           ಟ್ವಿಟರ್ ಮಾಧ್ಯಮ ಡೌನ್‌ಲೋಡ್ (2025.04.28 ಸ್ಥಿರ)
+// @name:ko           트위터 미디어 다운로드 (2025.04.28 고정)
+// @name:ku           Twitter Media Download (2025.04.28 Fixed)
+// @name:ky           Twitter Media Download (2025.04.28 Fixed)
+// @name:la           Twitter Media Download (2025.04.28 Fixarum)
+// @name:lb           Twitter Medien eroflueden (2025.04.28 Fixéiert)
+// @name:lo           Twitter media ດາວໂຫລດ (2025.04.28 ຄົງທີ່)
+// @name:lt           „Twitter Media“ atsisiuntimas (fiksuota 2025.04.28)
+// @name:lv           Twitter multivides lejupielāde (2025.04.28 fiksēts)
+// @name:mg           Twitter Media Download (2025.04.28 Namboarina)
+// @name:mi           Twitter Media Tango (2025.04.28 Kua whakaritea)
+// @name:mk           Преземање на медиуми на Твитер (фиксно 2025.04.28)
+// @name:ml           ട്വിറ്റർ മീഡിയ ഡൗൺലോഡ് (2025.04.28 സ്ഥിരമായി)
+// @name:mn           Twitter Media татаж авах (2025.04.28 тогтмол)
+// @name:ms           Twitter Media Muat turun (2025.04.28 Tetap)
+// @name:mt           Twitter Media Download (2025.04.28 iffissat)
+// @name:my           Twitter Media Download (2025.04.28)
+// @name:ne           ट्विटर मिडिया डाउनलोड (20255.04.04.28 स्थिर)
+// @name:nl           Twitter Media Download (2025.04.28 opgelost)
+// @name:no           Twitter Media nedlasting (2025.04.28 Fast)
+// @name:ny           Twitter Media Download (2025.04.28 Okhazikika)
+// @name:pa           ਟਵਿੱਟਰ ਮੀਡੀਆ ਡਾ Download ਨਲੋਡ (2025.04.28 ਸਥਿਰ)
+// @name:pap          Medida di Twitter Descarga (2025.04.28 Fiho)
+// @name:pl           Pobieranie mediów na Twitterze (ustalone 2025.04.28)
+// @name:ps           د ټویټر میډیا ډاونلوډ (2025.04.04.28 ټاکل شوی)
+// @name:pt           Download de mídia do Twitter (2025.04.28 corrigido)
+// @name:pt-BR        Download de mídia do Twitter (2025.04.28 corrigido)
+// @name:ro           Descărcare media Twitter (2025.04.28 Fixată)
+// @name:ru           Скачать Twitter Media (2025.04.28 Исправлена)
+// @name:rw           Twitter Gukuramo (2025.04.28 Byagenwe)
+// @name:sg           Twitter media Télécharger (2025.04.28 A leke ni)
+// @name:si           ට්විටර් මාධ්ය බාගත කිරීම (2025.04.28 ස්ථාවර)
+// @name:sk           Stiahnutie médií na Twitteri (2025.04.28 Opravené)
+// @name:sl           Prenos medijev na Twitterju (2025.04.28 Fixed)
+// @name:sm           Twitter Media Download (2025.04.28 Tumau)
+// @name:sn           Twitter Media Download (2025.04.28 Yakagadziriswa)
+// @name:so           Twitter Media Media Download (2025.04.28 go’an)
+// @name:sr           Преузимање Твиттер Медиа (2025.04.28 фиксно)
+// @name:sv           Twitter media nedladdning (2025.04.28 fast)
+// @name:sw           Upakuaji wa media ya Twitter (2025.04.28 fasta)
+// @name:ta           ட்விட்டர் மீடியா பதிவிறக்கம் (2025.04.28 சரி செய்யப்பட்டது)
+// @name:te           ట్విట్టర్ మీడియా డౌన్‌లోడ్ (2025.04.28 పరిష్కరించబడింది)
+// @name:tg           Twitter Media Download (2025.04.04.28 Стратегия)
+// @name:th           ดาวน์โหลดสื่อ Twitter (2025.04.28 แก้ไข)
+// @name:ti           ትዊተር ሚድያ ዳውንሎድ (2025.04.28 ጽኑዕ)
+// @name:tk           Twitter Media göçürip almak (2025.04.28 kesgitlenen)
+// @name:tn           Bobegakgang jwa Twitter Latalo (2025.04.28 E Tlhomamisitswe)
+// @name:to           Twitter Mītia Download (2025.04.28 Tuʻunga)
+// @name:tpi          Twitter Midia Daonlodem (2025.04.28 Oli fiksimap)
+// @name:tr           Twitter Medya İndir (2025.04.28 Sabit)
+// @name:uk           Завантажити медіа Twitter (2025.04.28 Виправлено)
+// @name:ur           ٹویٹر میڈیا ڈاؤن لوڈ (2025.04.28 فکسڈ)
+// @name:uz           Twitter Media Download (2025.04.28 belgilangan)
+// @name:vi           Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)
+// @name:xh           I-Twitter Demiedia Eendaba (2025.04.28 ilungisiwe)
+// @name:yi           טוויטטער מעדיע אראפקאפיע (2025.04.28 פאַרפעסטיקט)
+// @name:zh           Twitter 媒体下载 (2025.04.28 修复)
+// @name:zh-CN        Twitter 媒体下载 (2025.04.28 修复)
+// @name:zh-HK        Twitter 媒體下載 (2025.04.28 修復)
+// @name:zh-MO        Twitter 媒體下載 (2025.04.28 修復)
+// @name:zh-MY        Twitter 媒体下载 (2025.04.28 修复)
+// @name:zh-SG        Twitter 媒体下载 (2025.04.28 修复)
+// @name:zh-TW        Twitter 媒體下載 (2025.04.28 修復)
+// @name:zu           I-Twitter Media Download (2025.04.28 Ilungisiwe)
 // @description       Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
-// @description:ar    قم بتنزيل مقاطع الفيديو/الصور بنقرة واحدة
-// @description:bg    Изтеглете видеоклипове/снимки с едно щракване | и автоматично ги пакетирайте като Zip файл, за да изтеглите по време на изтегляне на партида
-// @description:cs    Stáhněte si videa/obrázky s jedním kliknutím |
-// @description:da    Download videoer/billeder med et klik |
-// @description:de    Laden Sie Videos/Bilder mit einem Klick herunter und verpacken Sie sie automatisch als ZIP -Datei zum Herunterladen
-// @description:el    Κατεβάστε βίντεο/εικόνες με ένα κλικ | και αυτόματα συσκευαστείτε ως αρχείο zip για λήψη κατά τη διάρκεια της λήψης παρτίδας
-// @description:en    Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
-// @description:eo    Elŝutu filmetojn/bildojn per unu klako | kaj aŭtomate paku ilin kiel zip -dosieron por elŝuti dum Batch Download
-// @description:es    Descargue videos/imágenes con un clic |
-// @description:fi    Lataa videoita/kuvia yhdellä napsautuksella
-// @description:fr    Télécharger des vidéos / photos en un clic | et les emballer automatiquement en tant que fichier zip à télécharger pendant le téléchargement par lots
-// @description:fr-CA Télécharger des vidéos / photos en un clic | et les emballer automatiquement en tant que fichier zip à télécharger pendant le téléchargement par lots
-// @description:he    הורד סרטונים/תמונות בלחיצה אחת
-// @description:hr    Preuzmite video/slike jednim klikom | i automatski ih pakirajte kao zip datoteku za preuzimanje tijekom
-// @description:hu    Töltse le a videókat/képeket egy kattintással
-// @description:id    Unduh video/gambar dengan satu klik | dan secara otomatis mengemasnya sebagai file zip untuk diunduh selama batch
-// @description:it    Scarica video/immagini con un clic | e confezionarli automaticamente come file zip da scaricare durante il download batch
-// @description:ja    ワンクリックでビデオ/写真をダウンロードし、バッチダウンロード中にダウンロードするzipファイルとして自動的にパッケージ化します
-// @description:ka    ჩამოტვირთეთ ვიდეო/სურათები ერთი დაჭერით |
-// @description:ko    한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 중에 자동으로 포장하십시오.
-// @description:nb    Last ned videoer/bilder med ett klikk |
-// @description:nl    Download video’s/afbeeldingen met één klik | en verpakking ze automatisch als een zip -bestand om te downloaden tijdens de batch -download
-// @description:pl    Pobierz filmy/zdjęcia jednym kliknięciem |
-// @description:pt-BR Faça o download de vídeos/fotos com um clique | e o embalam automaticamente como um arquivo zip para download durante o download do lote
-// @description:ro    Descărcați videoclipuri/imagini cu un singur clic |
-// @description:ru    Скачать видео/изображения с одним щелчком
-// @description:sk    Stiahnite si videá/obrázky jedným kliknutím |
-// @description:sr    Преузмите видео записе / слике једним кликом | и аутоматски их паковати као зип датотеку за преузимање током серије
-// @description:sv    Ladda ner videor/bilder med ett klick | och paketera dem automatiskt som en zip -fil för att ladda ner under nedladdning
-// @description:th    ดาวน์โหลดวิดีโอ/รูปภาพด้วยคลิกเดียว |
-// @description:tr    Videoları/resimleri tek tıklamayla indirin ve bunları toplu olarak indirmek için bir zip dosyası olarak paketleyin
-// @description:ug    بىر چېكىش ئارقىلىق سىن / رەسىملەرنى چۈشۈرۈش | ۋە تۈركۈم چۈشۈرۈش جەريانىدا چۈشۈرۈش ئۈچۈن ئۇلارنى يۈكلەڭ
-// @description:uk    Завантажте відео/зображення одним натисканням |
-// @description:vi    Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
-// @description:zh    一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
-// @description:zh-CN 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
-// @description:zh-HK 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
-// @description:zh-SG 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
-// @description:zh-TW 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
-// @author            天音,Tiande,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @description:af    Laai video’s/prente met een klik af, en ondersteun outomatiese verpakking as ’n zip -lêer om af te laai wanneer bondel aflaai. Ondersteun nuwe API -koppelvlak
+// @description:am    ቪዲዮዎችን / ስዕሎችን በአንድ ጠቅታ ያውርዱ እና የቡድን ማውረድ በሚረዱበት ጊዜ ለማውረድ ራስ-ሰር ማሸጊያዎችን እንደ ዚፕ ፋይል ይደግፉ. አዲስ የኤፒአይ በይነገጽን ይደግፉ
+// @description:ar    قم بتنزيل مقاطع الفيديو/الصور بنقرة واحدة ، ودعم التغليف التلقائي كملف مضغوط للتنزيل عند تنزيل الدُفعات. دعم واجهة API جديدة
+// @description:az    Videoları / şəkilləri bir kliklə yükləyin və toplu yükləmələri zamanı yükləmək üçün bir zip faylı olaraq avtomatik qablaşdırmanı dəstəkləyin. Yeni API interfeysini dəstəkləyin
+// @description:bem   Ukupoka amavidyo/amavidyo no kutinika fye kamo, no kwafwilisha ukupakasa ukwaibela nga failo ya ZIP iya kukopolola nga ca kuti ukukopolola kwa ciputulwa. Ukwafwilishako ifipya ifya API
+// @description:bg    Изтеглете видеоклипове/снимки с едно щракване и поддържайте автоматична опаковка като Zip файл, за да изтеглите при изтегляне на партиди. Подкрепете нов API интерфейс
+// @description:bn    এক ক্লিকের সাথে ভিডিও/ছবি ডাউনলোড করুন এবং ব্যাচ ডাউনলোড করার সময় ডাউনলোড করতে জিপ ফাইল হিসাবে স্বয়ংক্রিয় প্যাকেজিং সমর্থন করুন। নতুন এপিআই ইন্টারফেস সমর্থন করুন
+// @description:bo    བརྙན་འཕྲིན་དང་པར་རིས་དེ་ཚོ་གཅིག་སྣུན་གཅིག་གིས་ཕབ་ལེན་བྱེད་པ་དང་། པར་རིས་ཕབ་ལེན་བྱེད་སྐབས་ཕབ་ལེན་བྱེད་པར་རང་འགུལ་གྱི་ཐུམ་སྒྲིལ་ལ་རྒྱབ་སྐྱོར་བྱེད་དགོས། API མཐུད་ཁ་གསར་པར་རྒྱབ་སྐྱོར་བྱེད།
+// @description:bs    Preuzmite videozapise / slike jednim klikom i podržavajte automatsko pakovanje kao zip datoteku za preuzimanje kada se batch preuzima. Podržite novi API sučelje
+// @description:ca    Descarregueu vídeos/imatges amb un clic i admeteu els envasos automàtics com a fitxer zip per descarregar -lo quan es descarreguen. Suporteu la nova interfície de l’API
+// @description:ceb   I-download ang mga video / litrato nga adunay usa ka pag-klik, ug suportahan ang awtomatikong packaging ingon usa ka zip file aron ma-download kung ang mga pag-download sa batch. Pagsuporta sa bag-ong interface sa API
+// @description:ckb   ڤیدیۆ/وێنەکان بە یەک کلیک دابەزێنە، و پشتگیری لە پاکەت و بەستەری ئۆتۆماتیکی بکە وەک فایلێکی زیپ بۆ داگرتن کاتێک وەجبە دابەزێنراوە. پشتگیری ڕووکاری نوێی API بکە
+// @description:cs    Stáhněte si videa/obrázky s jedním kliknutím a podporujte automatické obaly jako soubor ZIP ke stažení při stahování dávek. Podporujte nové rozhraní API
+// @description:cy    Dadlwythwch fideos/lluniau gydag un clic, a chefnogwch becynnu awtomatig fel ffeil zip i’w lawrlwytho wrth lawrlwythiadau swp. Cefnogwch ryngwyneb API newydd
+// @description:da    Download videoer/billeder med et enkelt klik, og support automatisk emballage som en zip -fil, der skal downloades, når batch -downloads. Støtt nyt API -interface
+// @description:de    Laden Sie Videos/Bilder mit einem Klick herunter und unterstützen Sie die automatische Verpackung als ZIP -Datei zum Herunterladen beim Stapel -Download. Unterstützen Sie die neue API -Schnittstelle
+// @description:dv    އެއް ކްލިކުން ވީޑިއޯ/ތަސްވީރުތައް ޑައުންލޯޑްކޮށް، ބެޗް ޑައުންލޯޑް ކުރާއިރު ޑައުންލޯޑް ކުރުމަށް ޒިޕް ފައިލްއެއްގެ ގޮތުގައި އޮޓޮމެޓިކް ޕެކޭޖިންގ އަށް ސަޕޯޓް ކުރައްވާށެވެ. އާ އެޕީއައި އިންޓަފޭސް އަށް ސަޕޯޓް ދިނުން
+// @description:dz    ཨེབ་གཏང་གཅིག་གིས་ བརྙན་འཕྲིན་/པར་རིས་ཚུ་ཕབ་ལེན་འབད་ཞིནམ་ལས་ བེཆ་ཕབ་ལེན་འབད་བའི་སྐབས་ ཕབ་ལེན་འབད་ནིའི་དོན་ལུ་ ཛིཔ་ཡིག་སྣོད་སྦེ་ རང་བཞིན་ཐུམ་སྒྲིལ་ལུ་རྒྱབ་སྐྱོར་འབད། ཨེ་པི་ཨའི་ ངོས་འདྲ་བ་གསརཔ་རྒྱབ་སྐྱོར་འབད།
+// @description:el    Κατεβάστε βίντεο/εικόνες με ένα κλικ και υποστηρίξτε την αυτόματη συσκευασία ως αρχείο ZIP για λήψη όταν κατεβάσετε κατά τις λήψεις. Υποστήριξη νέας διασύνδεσης API
+// @description:en    Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface
+// @description:en-GB Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface
+// @description:eo    Elŝutu filmetojn/bildojn per unu alklako, kaj subtenu aŭtomatan pakaĵon kiel zip -dosieron por elŝuti kiam elŝutoj de batch. Subtenu novan API -interfacon
+// @description:es    Descargue videos/imágenes con un solo clic y admite el embalaje automático como un archivo zip para descargar cuando se descarga por lotes. Admite una nueva interfaz API
+// @description:et    Laadige alla videod/pildid ühe klõpsuga ja toetage automaatset pakendit ZIP -failina, mida partii allalaadimisel alla laadida. Toetage uut API -liidest
+// @description:eu    Deskargatu bideoak / irudiak klik bakarrarekin eta laguntza automatikoko pakete gisa deskargatzeko, lote deskargatzen direnean deskargatzeko. Laguntza API interfaze berria
+// @description:fa    فیلم ها/تصاویر را با یک کلیک بارگیری کنید و از بسته بندی های خودکار به عنوان یک فایل zip پشتیبانی کنید تا هنگام بارگیری دسته ای بارگیری شود. از رابط جدید API پشتیبانی کنید
+// @description:fi    Lataa videoita/kuvia yhdellä napsautuksella ja tue automaattista pakkausta zip -tiedostona ladattaessa erän latauksia. Tukea uutta API -käyttöliittymää
+// @description:fo    Heinta video/myndir við einum klikki, og stuðla sjálvvirkandi pakking sum ZIP fílu at heinta tá batch downloads. Stuðla nýggjum API-grunnflati
+// @description:fr    Téléchargez des vidéos / photos en un clic et prends en charge l’emballage automatique comme un fichier zip à télécharger lors des téléchargements par lots. Soutenez la nouvelle interface API
+// @description:fr-CA Téléchargez des vidéos / photos en un clic et prends en charge l’emballage automatique comme un fichier zip à télécharger lors des téléchargements par lots. Soutenez la nouvelle interface API
+// @description:gd    Luchdaich sìos bhideothan / dealbhan le aon bhriogadh, agus a ’toirt taic do phostadh fèin-ghluasadach mar fhaidhle zip ri luchdachadh sìos nuair a chleachd thu gu do luchdachadh sìos bailte. Cuir taic ri eadar-aghaidh API ùr
+// @description:gl    Descarga vídeos/imaxes cun só clic e admite os envases automáticos como ficheiro zip para descargar cando as descargas por lotes. Apoia a nova interface API
+// @description:gu    એક ક્લિક સાથે વિડિઓઝ/ચિત્રો ડાઉનલોડ કરો અને જ્યારે બેચ ડાઉનલોડ્સ ડાઉનલોડ કરવા માટે ઝિપ ફાઇલ તરીકે સ્વચાલિત પેકેજિંગને સપોર્ટ કરો. નવા API ઇન્ટરફેસને સપોર્ટ કરો
+// @description:haw   Hoʻoiho i nā wikiō / nā kiʻi me kahi kaomi hoʻokahi, a kākoʻo i ka paleʻana ma keʻano he file zip e hoʻoiho i ka wā e hoʻoiho ai nā waihona. Kākoʻo Ui Openta Interneface
+// @description:he    הורד סרטונים/תמונות בלחיצה אחת, ותמך באריזה אוטומטית כקובץ מיקוד כדי להוריד כאשר הורדות אצווה. תמיכה בממשק API חדש
+// @description:hi    एक क्लिक के साथ वीडियो/चित्र डाउनलोड करें, और बैच डाउनलोड होने पर डाउनलोड करने के लिए एक ज़िप फ़ाइल के रूप में स्वचालित पैकेजिंग का समर्थन करें। नए एपीआई इंटरफ़ेस का समर्थन करें
+// @description:hr    Preuzmite videozapise/slike jednim klikom i podržavajte automatsko pakiranje kao zip datoteku za preuzimanje kada se preuzmu batch. Podržite novo API sučelje
+// @description:ht    Download videyo/foto ak yon sèl klike sou, ak sipòte anbalaj otomatik kòm yon dosye postal yo download lè pakèt downloads. Sipòte nouvo koòdone API
+// @description:hu    Töltse le a videókat/képeket egy kattintással, és támogassa az automatikus csomagolást ZIP fájlként, hogy letöltse a tétel letöltésekor. Támogassa az új API felületet
+// @description:hy    Ներբեռնեք տեսանյութեր / նկարներ մեկ կտտոցով եւ աջակցեք ավտոմատ փաթեթավորմանը `որպես փոստային ֆայլ ներբեռնելու համար, երբ ներլցվում է խմբաքանակի ներլցումներ: Աջակցեք նոր API ինտերֆեյսին
+// @description:id    Unduh video/gambar dengan satu klik, dan mendukung kemasan otomatis sebagai file zip untuk diunduh saat unduhan batch. Dukung Antarmuka API Baru
+// @description:is    Sæktu myndbönd/myndir með einum smelli og styððu sjálfvirkar umbúðir sem zip skrá til að hlaða niður þegar lotu niðurhal. Styðjið nýtt API viðmót
+// @description:it    Scarica video/immagini con un clic e supporta l’imballaggio automatico come file zip da scaricare quando i download batch. Supportare la nuova interfaccia API
+// @description:ja    ワンクリックでビデオ/写真をダウンロードし、バッチダウンロード時にダウンロードするzipファイルとして自動パッケージをサポートします。新しいAPIインターフェイスをサポートします
+// @description:ka    ჩამოტვირთეთ ვიდეო/სურათები ერთი დაწკაპუნებით და მხარი დაუჭირეთ ავტომატურ შეფუთვას, როგორც ZIP ფაილი, რომ ჩამოტვირთოთ ჯგუფების ჩამოტვირთვისას. ახალი API ინტერფეისის მხარდაჭერა
+// @description:kk    Бейнелерді / суреттерді бір рет нұқыңыз және ZIP файлы ретінде автоматты түрде орауышпен жүктеп алыңыз. Жаңа API интерфейсін қолдаңыз
+// @description:km    ទាញយកវីដេអូ / រូបភាពដោយចុចតែម្តងចុចការវេចខ្ចប់ដោយស្វ័យប្រវត្តិជាឯកសារហ្ស៊ីបដើម្បីទាញយកនៅពេលទាញយកបាច់។ គាំទ្រចំណុចប្រទាក់ API ថ្មី
+// @description:kn    ಒಂದು ಕ್ಲಿಕ್‌ನೊಂದಿಗೆ ವೀಡಿಯೊಗಳು/ಚಿತ್ರಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ, ಮತ್ತು ಬ್ಯಾಚ್ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಯಾವಾಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಜಿಪ್ ಫೈಲ್ ಆಗಿ ಸ್ವಯಂಚಾಲಿತ ಪ್ಯಾಕೇಜಿಂಗ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ. ಹೊಸ API ಇಂಟರ್ಫೇಸ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ
+// @description:ko    한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 할 때 다운로드 할 수있는 zip 파일로 자동 포장을 지원하십시오. 새로운 API 인터페이스를 지원합니다
+// @description:ku    Vîdyoyên / wêneyên bi yek klîk dakêşin, û piştgiriyê bidin pakkirina otomatîk wekî pelek zip ku dakêşin dema daxistinên batch. Piştgiriya API ya nû piştgirî bikin
+// @description:ky    Видеолорду / сүрөттөрдү бир чыкылдатуу менен жүктөп алыңыз жана партия жүктөлүп жүктөөлөрдү жүктөп алуу үчүн автоматтык түрдө таңгактоону жүктөп алыңыз. Жаңы API интерфейсинти колдоо
+// @description:la    Download Videos / Pictures una cum una click, et firmamentum automatic packaging ut ZIP lima ut download cum batch downloads. Support New API interface
+// @description:lo    ດາວໂຫລດວິດີໂອ / ຮູບພາບດ້ວຍການກົດປຸ່ມດຽວ, ແລະສະຫນັບສະຫນູນການຫຸ້ມຫໍ່ແບບອັດຕະໂນມັດເປັນແຟ້ມ ZIP ເພື່ອດາວໂຫລດໃນເວລາທີ່ດາວໂຫລດມາ. ສະຫນັບສະຫນູນການໂຕ້ຕອບ API ໃຫມ່
+// @description:lt    Atsisiųskite vaizdo įrašus/paveikslėlius vienu paspaudimu ir palaikykite automatines pakuotes kaip ZIP failą, kurį galite atsisiųsti, kai atsisiunčiami partijos. Palaikykite naują API sąsają
+// @description:lv    Lejupielādējiet videoklipus/attēlus ar vienu klikšķi un atbalstiet automātisko iesaiņojumu kā zip failu, lai lejupielādētu, kad parasti lejupielādē. Atbalstiet jauno API saskarni
+// @description:mg    Misintona horonantsary / sary miaraka amin’ny tsindry iray, ary manohana fonosana mandeha ho azy amin’ny rakitra zip mba hisintona rehefa download batch. Tohanana ny interface voalohany API
+// @description:mi    Tangohia nga ataata / pikitia me te paato, me te tautoko i te kapi aunoa hei konae kao hei tango i te wa o nga hapai. Tautokohia te atanga API hou
+// @description:mk    Преземете видеа/слики со еден клик, и поддржувајте автоматско пакување како поштенска датотека за преземање кога преземате серии. Поддржете нов интерфејс API
+// @description:ml    ഒരു ക്ലിക്കിലൂടെ വീഡിയോകൾ / ചിത്രങ്ങൾ ഡൗൺലോഡുചെയ്യുക, ബാച്ച് ഡൗൺലോഡുകൾ ഡ download ൺലോഡ് ചെയ്യാനുള്ള ഒരു സിപ്പ് ഫയലായി യാന്ത്രിക പാക്കേജിംഗിനെ പിന്തുണയ്ക്കുക. പുതിയ API ഇന്റർഫേസിനെ പിന്തുണയ്ക്കുക
+// @description:mn    Багцыг нэг товшилтоор татаж авах, автомат багц татаж авах, багц татаж авахад автомат багцыг татаж авах. Шинэ API интерфэйсийг дэмжинэ
+// @description:ms    Muat turun video/gambar dengan satu klik, dan menyokong pembungkusan automatik sebagai fail zip untuk dimuat turun apabila muat turun batch. Sokong antara muka API baru
+// @description:mt    Niżżel vidjows / stampi bi klikk waħda, u appoġġ l-imballaġġ awtomatiku bħala fajl zip biex tniżżel meta tniżżel lott. Appoġġ Interface API Ġdid
+// @description:my    ဗွီဒီယိုများ / ရုပ်ပုံများကိုတစ်ချက်နှိပ်ပြီး batch downloads ကို download လုပ်သည့်အခါအလိုအလျောက်ထုပ်ပိုးမှုကို Automatic Packaging ကိုကူညီပါ။ API interface အသစ်ကိုထောက်ပံ့ပါ
+// @description:ne    भिडियोहरू / चित्रहरू डाउनलोड गर्नुहोस् एक क्लिकमा क्लिक गर्नुहोस्, र डाउनलोड डाउनलोड गर्न एक क्लिक फाइलमा स्वचालित प्याकेजिंगलाई समर्थन गर्नुहोस्। नयाँ api ईन्टरफेस समर्थन गर्नुहोस्
+// @description:nl    Download video’s/foto’s met één klik en ondersteun automatische verpakkingen als een zip -bestand om te downloaden wanneer batch downloads. Steun nieuwe API -interface
+// @description:no    Last ned videoer/bilder med ett klikk, og støtt automatisk emballasje som en zip -fil for å laste ned når batch nedlastinger. Støtt nytt API -grensesnitt
+// @description:ny    Tsitsani mavidiyo / zithunzi ndi dinani imodzi, ndikuchirikiza makina okhawo ngati fayilo ya zip kuti mutsitse pomwe ma batch otsitsa. Thandizani API yatsopano ya API
+// @description:pa    ਇਕ ਕਲਿਕ ਦੇ ਨਾਲ ਵੀਡੀਓ / ਤਸਵੀਰਾਂ ਡਾ Download ਨਲੋਡ ਕਰੋ, ਅਤੇ ਬੈਚ ਡਾਉਨਲੋਡ ਕਰਨ ਲਈ ਇੱਕ ਕਲਿਕ ਕਰੋ. ਨਵੇਂ ਏਪੀਆਈ ਇੰਟਰਫੇਸ ਦਾ ਸਮਰਥਨ ਕਰੋ
+// @description:pap   Download videonan/potretnan ku un klik, i sostené empaketamentu outomatiko komo un archivo ZIP pa download ora di downloads di lote. Sostené interfase nobo di API
+// @description:pl    Pobierz filmy/zdjęcia za pomocą jednego kliknięcia i obsługuj automatyczne opakowanie jako plik zip, aby pobrać po pobraniu partii. Obsługuj nowy interfejs API
+// @description:ps    د ویډیوګانو سره ویډیوګانې / عکسونه ډاونلوډ کړئ، او د ډاونلوډ فایل په توګه د زنايي بسته بندۍ په توګه د ډاونلوډ لپاره د زوم فایل په توګه ملاتړ وکړئ کله چې د بچ کښته کوونې. د نوي اپی انٹرفیس ملاتړ وکړئ
+// @description:pt    Faça o download de vídeos/imagens com um clique e suporta a embalagem automática como um arquivo zip para download quando downloads em lote. Apoie a nova interface da API
+// @description:pt-BR Faça o download de vídeos/imagens com um clique e suporta a embalagem automática como um arquivo zip para download quando downloads em lote. Apoie a nova interface da API
+// @description:ro    Descărcați videoclipuri/imagini cu un singur clic și acceptați ambalajele automate ca fișier zip pentru a descărca atunci când descărcări de lot. Susțineți interfața API nouă
+// @description:ru    Загрузите видео/картинки с одним щелчком, и поддержать автоматическую упаковку в качестве zip -файла для загрузки при загрузке пакетов. Поддержать новый интерфейс API
+// @description:rw    Kuramo amashusho / amashusho hamwe na kanda imwe, kandi ushyigikire gupakira byikora nka zip dosiye kugirango ukuremo mugihe bakuramo amashusho. Shigikira Imigaragarire Nshya ya API
+// @description:sg    Téléchargé avidéo/afoto ni na lege ti mbeni clic oko, nga mû maboko na automatique tongana mbeni fichier ZIP ti téléchargé ni tongana a téléchargé ni. Mû maboko na fini interface ti API .
+// @description:si    එක් ක්ලික් කිරීමකින් වීඩියෝ / පින්තූර බාගත කිරීම සමඟ බාගන්න, සහ ස්වයංක්රීය ඇසුරුම්කරණයට බාගත කිරීමේදී බාගත කිරීම සඳහා zip ගොනුවක් ලෙස ස්වයංක්රීය ඇසුරුම්කරණය කරන්න. නව API අතුරුමුහුණතට සහාය වන්න
+// @description:sk    Stiahnite si videá/obrázky jedným kliknutím a podporujte automatické obaly ako súbor zip a stiahnite si pri stiahnutí dávky. Podporte nové rozhranie API
+// @description:sl    Prenesite videoposnetke/slike z enim klikom in podprite samodejno embalažo kot zip datoteko, ki jo lahko prenesete, ko se prenašajo s paketom. Podprite nov vmesnik API
+// @description:sm    Sii mai Vitio / ata ma le tasi kiliki, ma lagolago otometi afifiina o se faila faila e download pe a download downloads. Lagolagoina fou API interface
+// @description:sn    Dhawunirodha mifananidzo / mifananidzo ine imwe chete tinya, uye rutsigiro otomatiki caping seye zip faira yekurodha kana batch downloads. Tsigira New API Interface
+// @description:so    Kalasoco fiidiyowyada / sawirrada hal guji, oo taageer baakadaha otomatiga ah sida faylka zip si aad u soo dejiso markii dufcaddu soo dejiso. Taageerso Interface-ka cusub ee API
+// @description:sr    Преузмите видео записе / слике једним кликом и подржавате аутоматско паковање као ЗИП датотеку за преузимање када се серишите. Подржите нови АПИ интерфејс
+// @description:sv    Ladda ner videor/bilder med ett klick och stödja automatisk förpackning som zip -fil för att ladda ner när Batch Downloads. Stöd Nytt API -gränssnitt
+// @description:sw    Pakua video/picha na bonyeza moja, na usaidie ufungaji wa moja kwa moja kama faili ya zip ili kupakua wakati wa kupakua. Kusaidia interface mpya ya API
+// @description:ta    ஒரே கிளிக்கில் வீடியோக்கள்/படங்களை பதிவிறக்கம் செய்து, தொகுதி பதிவிறக்கும்போது பதிவிறக்குவதற்கு தானியங்கி பேக்கேஜிங்கை ஜிப் கோப்பாக ஆதரிக்கவும். புதிய ஏபிஐ இடைமுகத்தை ஆதரிக்கவும்
+// @description:te    వీడియోలు/చిత్రాలను ఒకే క్లిక్‌తో డౌన్‌లోడ్ చేయండి మరియు బ్యాచ్ డౌన్‌లోడ్ చేసినప్పుడు డౌన్‌లోడ్ చేయడానికి ఆటోమేటిక్ ప్యాకేజింగ్‌కు జిప్ ఫైల్‌గా మద్దతు ఇవ్వండి. కొత్త API ఇంటర్‌ఫేస్‌కు మద్దతు ఇవ్వండి
+// @description:tg    Видео / расмҳоро бо як клик зеркашӣ кунед ва бастабандӣ автоматикуниро ҳамчун файли ZIP барои зеркашӣ зеркашӣ кунед, вақте ки Боргирии гурӯҳҳо. Дастгирии интерфейси нави API
+// @description:th    ดาวน์โหลดวิดีโอ/รูปภาพด้วยคลิกเดียวและสนับสนุนบรรจุภัณฑ์อัตโนมัติเป็นไฟล์ซิปเพื่อดาวน์โหลดเมื่อดาวน์โหลดแบทช์ รองรับอินเตอร์เฟส API ใหม่
+// @description:ti    ቪድዮታት/ስእልታት ብሓደ ጠውቂ ኣውርድ፣ ከምኡ’ውን Batch Downloads ምስ ዝወርድ ከተውርድዎ እትኽእል ኣውቶማቲክ መዐሸጊ ከም ዚፕ ፋይል ደግፉ። ሓድሽ ኤፒኣይ ኢንተርፌስ ምድጋፍ
+// @description:tk    Bir gezek basany / suratlary göçürip alyň we pol ýüklenende göçürip almak üçin poçta faýly göçürip alyň. Täze API interfeýseri goldamak
+// @description:tn    Laisolola dibidio/ditshwantsho ka go tobetsa gangwe fela, mme o tshegetse go phuthela ka go itirisa jaaka faele ya ZIP go e laisolola fa di-download tsa ditlhopha. Tshegetsa segokaganyi se sešwa sa API
+// @description:to    Download ’a e ngaahi vitio/ngaahi fakatata ’aki ha kiliki ’e taha, pea poupou’i ’a e ’otometiki ’a e packaging ko ha faile ZIP ke download ’i he taimi ’oku download ai ’a e batch. Poupou’i ’a e interface fo’ou API .
+// @description:tpi   Daonlodem ol vidio/pikja wetem wan klik, mo sapotem otomatik pakejing olsem wan ZIP fael blong daonlodem taem yu stap daon long ol daon daonlod. Sapotim nupela API intafes
+// @description:tr    Videoları/resimleri tek bir tıklamayla indirin ve toplu indirmeler yaparken indirilecek bir zip dosyası olarak otomatik ambalajı destekleyin. Yeni API arayüzünü destekleyin
+// @description:uk    Завантажте відео/зображення одним клацанням та підтримайте автоматичну упаковку як Zip -файл для завантаження при завантаженні пакетів. Підтримуйте новий інтерфейс API
+// @description:ur    ایک کلک کے ساتھ ویڈیوز/تصاویر ڈاؤن لوڈ کریں ، اور بیچ ڈاؤن لوڈ ہونے پر ڈاؤن لوڈ کرنے کے لئے خودکار پیکیجنگ کو زپ فائل کے طور پر سپورٹ کریں۔ نئے API انٹرفیس کی حمایت کریں
+// @description:uz    Videolarni / rasmlarni bitta bosish bilan yuklab oling va partiya yuklab olinganda yuklab olish uchun ZIP fayl sifatida avtomatik qadoqlash. Yangi API interfeysini qo’llab-quvvatlang
+// @description:vi    Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới
+// @description:xh    Khuphela iividiyo / imifanekiso kunye Cofa, kwaye uxhase ukupakishwa ngokuzenzekelayo njengefayile ye-zip ukuze ukhuphele xa kutsala umdla. INKXASO YOKUGQIBELA I-API
+// @description:yi    אראפקאפיע ווידיאס / בילדער מיט איין גיט, און שטיצן אָטאַמאַטיק פּאַקקאַגינג ווי אַ פאַרשלעסלען טעקע צו אָפּלאָדירן ווען פּעקל דאַונלאָודז. סופּפּאָרט ניו אַפּי צובינד
+// @description:zh    一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
+// @description:zh-CN 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
+// @description:zh-HK 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+// @description:zh-MO 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+// @description:zh-MY 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
+// @description:zh-SG 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
+// @description:zh-TW 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+// @description:zu    Landa amavidiyo / izithombe ngokuchofoza okukodwa, bese usekela ukupakishwa okuzenzakalelayo njengefayela le-zip ukulanda lapho i-batch ilanda. Sekela interface entsha ye-API
+// @author            goemon2017,天音,Tiande,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
@@ -100,7 +244,7 @@
 // @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
-// @version           2025.03.15.0012
+// @version           2025.04.28.1503
 // @created           2025-03-11 08:11:29
 // @modified          2025-03-11 08:11:29
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -111,16 +255,16 @@
  * File: twitter-media-downloader.user.js
  * Project: UserScripts
  * File Created: 2025/03/11,Tuesday 08:11:41
- * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * Author: goemon2017,天音,Tiande,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/15,Saturday 00:12:32
+ * Last Modified: 2025/04/28,Monday 15:06:52
+ * Last Modified: 2025/04/28,Monday 15:06:52
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
- * -----
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
  */
 
-
+//! 修复代码来自:goemon2017:https://greasyfork.org/scripts/423001/discussions/296626#comment-589742
 
 /* jshint esversion: 8 */
 const filename = 'twitter_{user-name}(@{user-id})_{date-time}_{status-id}_{file-type}'
@@ -493,9 +637,9 @@ const TMD = (function () {
             }
         },
         fetchJson: async function (status_id) {
-            let base_url = `https://${host}/i/api/graphql/NmCeCgkVlsRGS1cAwqtgmw/TweetDetail`
+            let base_url = `https://${host}/i/api/graphql/2ICDjqPd81tulZcYrtpTuQ/TweetResultByRestId`
             let variables = {
-                'focalTweetId': status_id,
+                'tweetId': status_id,
                 'with_rux_injections': false,
                 'includePromotedContent': true,
                 'withCommunity': true,
@@ -505,26 +649,40 @@ const TMD = (function () {
                 'withV2Timeline': true
             }
             let features = {
-                'rweb_lists_timeline_redesign_enabled': true,
-                'responsive_web_graphql_exclude_directive_enabled': true,
-                'verified_phone_label_enabled': false,
-                'creator_subscriptions_tweet_preview_api_enabled': true,
-                'responsive_web_graphql_timeline_navigation_enabled': true,
-                'responsive_web_graphql_skip_user_profile_image_extensions_enabled': false,
-                'tweetypie_unmention_optimization_enabled': true,
-                'responsive_web_edit_tweet_api_enabled': true,
-                'graphql_is_translatable_rweb_tweet_is_translatable_enabled': true,
-                'view_counts_everywhere_api_enabled': true,
-                'longform_notetweets_consumption_enabled': true,
-                'responsive_web_twitter_article_tweet_consumption_enabled': false,
-                'tweet_awards_web_tipping_enabled': false,
+                'articles_preview_enabled': true,
+                'c9s_tweet_anatomy_moderator_badge_enabled': true,
+                'communities_web_enable_tweet_community_results_fetch': false,
+                'creator_subscriptions_quote_tweet_preview_enabled': false,
+                'creator_subscriptions_tweet_preview_api_enabled': false,
                 'freedom_of_speech_not_reach_fetch_enabled': true,
-                'standardized_nudges_misinfo': true,
-                'tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled': true,
-                'longform_notetweets_rich_text_read_enabled': true,
+                'graphql_is_translatable_rweb_tweet_is_translatable_enabled': true,
+                'longform_notetweets_consumption_enabled': false,
                 'longform_notetweets_inline_media_enabled': true,
+                'longform_notetweets_rich_text_read_enabled': false,
+                'premium_content_api_read_enabled': false,
+                'profile_label_improvements_pcf_label_in_post_enabled': true,
+                'responsive_web_edit_tweet_api_enabled': false,
+                'responsive_web_enhance_cards_enabled': false,
+                'responsive_web_graphql_exclude_directive_enabled': false,
+                'responsive_web_graphql_skip_user_profile_image_extensions_enabled': false,
+                'responsive_web_graphql_timeline_navigation_enabled': false,
+                'responsive_web_grok_analysis_button_from_backend': false,
+                'responsive_web_grok_analyze_button_fetch_trends_enabled': false,
+                'responsive_web_grok_analyze_post_followups_enabled': false,
+                'responsive_web_grok_image_annotation_enabled': false,
+                'responsive_web_grok_share_attachment_enabled': false,
+                'responsive_web_grok_show_grok_translated_post': false,
+                'responsive_web_jetfuel_frame': false,
                 'responsive_web_media_download_video_enabled': false,
-                'responsive_web_enhance_cards_enabled': false
+                'responsive_web_twitter_article_tweet_consumption_enabled': true,
+                'rweb_tipjar_consumption_enabled': true,
+                'rweb_video_screen_enabled': false,
+                'standardized_nudges_misinfo': true,
+                'tweet_awards_web_tipping_enabled': false,
+                'tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled': true,
+                'tweetypie_unmention_optimization_enabled': false,
+                'verified_phone_label_enabled': false,
+                'view_counts_everywhere_api_enabled': true
             }
             let url = encodeURI(`${base_url}?variables=${JSON.stringify(variables)}&features=${JSON.stringify(features)}`)
             let cookies = this.getCookie()
@@ -536,8 +694,7 @@ const TMD = (function () {
             }
             if (cookies.ct0.length == 32) headers['x-guest-token'] = cookies.gt
             let tweet_detail = await fetch(url, { headers: headers }).then(result => result.json())
-            let tweet_entrie = tweet_detail.data.threaded_conversation_with_injections_v2.instructions[0].entries.find(n => n.entryId == `tweet-${status_id}`)
-            let tweet_result = tweet_entrie.content.itemContent.tweet_results.result
+            let tweet_result = tweet_detail.data.tweetResult.result
             return tweet_result.tweet || tweet_result
         },
         getCookie: function (name) {

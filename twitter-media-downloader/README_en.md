@@ -142,6 +142,7 @@ This script helps you download quickly Twitter/X Pictures and videos on the plat
 [@Tiande](https://greasyfork.org/users/24324) ---- [Twitter/X Media Downloader](https://greasyfork.org/scripts/495368)<br>
 [@Tianyin](https://greasyfork.org/users/164321) ---- [Twitter Media Downloader](https://greasyfork.org/scripts/423001)
 <!--AUTHORS-END-->
+[@goemon2017](https://greasyfork.org/users/1462596) ---- [#296626-589742](https://greasyfork.org/scripts/423001/discussions/296626#comment-589742)
 
 ---
 
