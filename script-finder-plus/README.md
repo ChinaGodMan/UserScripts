@@ -61,6 +61,12 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+ 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1400</strong></h3>
+<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突 <code>script-description</code>→<code>'script-description-finder</code> <a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a><br>
+<strong>新增</strong>: • 支持系统<code>深色模式</code><br>
+<strong>新增</strong>: • <code>i18n</code>支持更多语言<br>
+<strong>新增</strong>: • 首次加载脚本后，等待<code>2s</code> 检查是否加载成功,如不成功,重新加载一次。</p>
+<hr />
 <h3><strong>📅 2024/9/26 10:43 - Ver 0.1.6.80</strong></h3>
 <p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突导致放大字体</p>
 <hr />
@@ -71,14 +77,14 @@
 <p><strong>新增</strong>: • 增加语言支持。</p>
 <hr />
 <h3><strong>📅 2024/8/4 14:32 - Ver 0.1.6.32</strong></h3>
-<p><strong>修复</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。<br />
+<p><strong>修复</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。
 <strong>修复方式</strong>: • 更改按钮类名 <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/18 08:45 - Ver 0.1.6.9</strong></h3>
 <p><strong>优化</strong>: • 取消默认排序，改为按照更新时间排序。</p>
 <hr />
 <h3><strong>📅 2024/6/26 06:43 - Ver 0.1.6.1</strong></h3>
-<p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~<br />
+<p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~
 <strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">

@@ -54,32 +54,38 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Script Finder 오일 원숭이 스크립트 검색</h1>
-    <p>「 Script Finder 모든 웹 사이트에서 찾을 수 있습니다 오일 원숭이 스크립트。 」</p>
+    <h1>Script Finder 그리스 원숭이 스크립트 조회</h1>
+    <p>「 Script Finder 해당 웹사이트에 적용되는 웹사이트를 찾으세요. 그리스 원숭이 스크립트。 」</p>
     <img src="https://views.whatilearened.today/views/github/498904/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/script-finder-plus/script-finder-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/498904">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ Script Finder+ 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Script Finder+ 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1400</strong></h3>
+<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突 <code>script-description</code>→<code>'script-description-finder</code> <a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a><br>
+<strong>新增</strong>: • 支持系统<code>深色模式</code><br>
+<strong>新增</strong>: • <code>i18n</code>支持更多语言<br>
+<strong>新增</strong>: • 首次加载脚本后，等待<code>2s</code> 检查是否加载成功,如不成功,重新加载一次。</p>
+<hr />
 <h3><strong>📅 2024/9/26 10:43 - Ver 0.1.6.80</strong></h3>
-<p><strong>수리하다</strong>: • CSS 스타일과 GreasyFork 갈등은 글꼴의 배율을 유발합니다</p>
+<p><strong>修复</strong>: • CSS 样式与 GreasyFork 冲突导致放大字体</p>
 <hr />
 <h3><strong>📅 2024/8/28 12:01 - Ver 0.1.6.58</strong></h3>
-<p><strong>새로운</strong>: • 웹 페이지는 전체 화면에 들어갑니다，오른쪽 하단에 버튼을 숨 깁니다。</p>
+<p><strong>新增</strong>: • 网页进入全屏，隐藏右下角按钮。</p>
 <hr />
 <h3><strong>📅 2024/8/26 07:32 - Ver 0.1.6.54</strong></h3>
-<p><strong>새로운</strong>: • 언어 지원이 추가되었습니다。</p>
+<p><strong>新增</strong>: • 增加语言支持。</p>
 <hr />
 <h3><strong>📅 2024/8/4 14:32 - Ver 0.1.6.32</strong></h3>
-<p><strong>수리하다</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> SF Express 공식 웹 사이트에서 CSS 갈등，오른쪽 하단의 버튼이 길어지게합니다.，전체 페이지 하단의 수평。<br />
-<strong>그것을 고치는 방법</strong>: • 버튼 클래스 이름 변경 <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
+<p><strong>修复</strong>: • <a href="https://greasyfork.org/scripts/498904/discussions/253924">#253924</a> 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。
+<strong>修复方式</strong>: • 更改按钮类名 <code>button.script-button</code> 👉 <code>scrbutton.script-button</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/18 08:45 - Ver 0.1.6.9</strong></h3>
-<p><strong>최적화</strong>: • 분류되지 않은 기본 정렬，대신 업데이트 시간으로 정렬하십시오。</p>
+<p><strong>优化</strong>: • 取消默认排序，改为按照更新时间排序。</p>
 <hr />
 <h3><strong>📅 2024/6/26 06:43 - Ver 0.1.6.1</strong></h3>
-<p><strong>새로운</strong>: • 모바일 장치에 대한 지원을 늘립니다，휴대 전화에서 사용할 수 있습니다~<br />
-<strong>개정하다</strong>: • 검색 오류가 발생하면 목록을 지우는 작업 취소。</p>
+<p><strong>新增</strong>: • 增加对移动设备的支持，手机也能使用啦~
+<strong>修改</strong>: • 取消搜索出错时清空列表的操作。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/498904.png">
 </div></center>
