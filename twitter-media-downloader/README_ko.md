@@ -60,25 +60,29 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️Twitter 미디어 다운로드 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1719</strong></h3>
+<p><strong>新增</strong>: 导出下载历史为 <code>MarkDown</code>,代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462808">SteveSun</a>发布于<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<strong>截图</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
+<hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>수리하다</strong>: 2025.04.28,결정된<code>Api</code>실패 후 미디어를 정상적으로 다운로드 할 수없는 문제<br>
-<strong>수리하다</strong>:코드를 수정하십시오 GreasyFork 사용자<a href="https://greasyfork.org/users/1462596">goemon2017</a>게시<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
+<strong>修复</strong>: 修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>새로운</strong>: • 맞춤형 패키지를 활성화하십시오<code>zip</code>기능,수동 설정을 허용합니다 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>스크린 샷</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>수리하다</strong>: • 원래 스크립트의 다운로드 진행 상황을 표시하십시오..</p>
+<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>새로운</strong>: • 전달 된 트윗 비디오 및 이미지의 다운로드를 지원합니다<br>
-<strong>테스트 주소</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>테스트 스크린 샷</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>새로운</strong>: 링크가있는 게시물에 표시되는 스크린 샷 미리보기 다운로드되지 않습니다.,프롬프트를 추가하십시오 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>새로운</strong>: 미디어 파일이 비어있는 것으로 추출 된 경우,오류를 직접보고하십시오.<br></p>
+<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
+<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>새로운</strong>: • 배치로 다운로드 할 때,패키지 하나에 패키지 zip 문서</p>
+<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>

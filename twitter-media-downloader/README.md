@@ -61,9 +61,13 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1719</strong></h3>
+<p><strong>新增</strong>: 导出下载历史为 <code>MarkDown</code>,代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462808">SteveSun</a>发布于<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<strong>截图</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
+<hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
 <p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
-<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<strong>修复</strong>: 修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
 <p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
