@@ -60,29 +60,29 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
-<p><strong>新增</strong>: 导出下载历史为 <code>MarkDown</code>,代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462808">SteveSun</a>发布于<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
-<strong>截图</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
+<p><strong>Mới</strong>: Xuất khẩu lịch sử tải xuống dưới dạng <code>MarkDown</code>,Mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462808">SteveSun</a>Đăng trên<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<strong>Ảnh chụp màn hình</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
 <hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
-<strong>修复</strong>: 修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>Sửa chữa</strong>: 2025.04.28,Đã sửa<code>Api</code>Các vấn đề mà phương tiện truyền thông không thể tải xuống bình thường sau khi thất bại<br>
+<strong>Sửa chữa</strong>: Sửa mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462596">goemon2017</a>Đăng<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
+<p><strong>Mới</strong>: • Bật gói tùy chỉnh dưới dạng<code>zip</code>Chức năng,Cho phép cài đặt thủ công <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>Ảnh chụp màn hình</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>Sửa chữa</strong>: • Làm cho tiến trình tải xuống của tập lệnh gốc được hiển thị.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
-<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
+<p><strong>Mới</strong>: • Hỗ trợ tải xuống các video và hình ảnh tweet được chuyển tiếp<br>
+<strong>Địa chỉ kiểm tra</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>Ảnh chụp màn hình thử nghiệm</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>Mới</strong>: Xem trước ảnh chụp màn hình được hiển thị trong các bài đăng có liên kết không được tải xuống,Và thêm một lời nhắc <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>Mới</strong>: Khi tệp phương tiện được trích xuất dưới dạng trống,Báo cáo trực tiếp lỗi.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
+<p><strong>Mới</strong>: • Khi tải xuống theo đợt,Gói vào một zip tài liệu</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
