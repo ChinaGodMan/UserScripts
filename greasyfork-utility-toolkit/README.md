@@ -61,6 +61,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.2229</strong></h3>
+<p><strong>修复</strong>: • <code>GreasyFork</code>近日支持<code>深色模式</code>,脚本的设置界面在<code>深色模式</code>无法显示出文字的问题.<a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a> <br>
+<strong>优化</strong>: • 脚本双列显示<code>CSS</code> 排除掉<code>discussions</code>页面.</p>
+<hr />
 <h3><strong>📅 2024.12.12.2116</strong></h3>
 <p><strong>优化</strong>: • 优化越南语言包，感谢<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> 翻译。</p>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
@@ -91,38 +95,38 @@
 <p><strong>新增</strong>: • 增加 WebHook 页快捷跳转脚本管理。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。<br />
+<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。
 <strong>新增</strong>: • 监听规则增加：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
 <p><strong>优化</strong>: • 复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS。</p>
 <hr />
 <h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。<br />
+<p><strong>新增</strong>:
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。
 • 增加固定网站侧边操作栏。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
 <p><strong>新增</strong>: • 完全的繁体语言支持。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
-<p><strong>新增</strong>:<br />
-• 增加侧边导航栏开关。<br />
-• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。<br />
-<strong>修复</strong>:<br />
-• 修复在移动设备上浏览图片超出浏览器外的问题。<br />
+<p><strong>新增</strong>:
+• 增加侧边导航栏开关。
+• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。
+<strong>修复</strong>:
+• 修复在移动设备上浏览图片超出浏览器外的问题。
 • 修改在编辑代码时自动勾选美化。</p>
 <hr />
 <h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
-<p><strong>新增</strong>:<br />
-• 添加导航栏展开 "更多"。<br />
-• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。<br />
+<p><strong>新增</strong>:
+• 添加导航栏展开 "更多"。
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。
 <strong>优化</strong>: • 完善对多语言的支持。</p>
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
-<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。<br />
-<strong>修复</strong>: • 修复显示列表上的脚本安装状态。<br />
+<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。
+<strong>修复</strong>: • 修复显示列表上的脚本安装状态。
 <strong>优化</strong>: • 完善对多语言的支持。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
