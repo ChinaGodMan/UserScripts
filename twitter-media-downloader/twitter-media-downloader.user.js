@@ -117,6 +117,7 @@
 // @description:am    ቪዲዮዎችን / ስዕሎችን በአንድ ጠቅታ ያውርዱ እና የቡድን ማውረድ በሚረዱበት ጊዜ ለማውረድ ራስ-ሰር ማሸጊያዎችን እንደ ዚፕ ፋይል ይደግፉ. አዲስ የኤፒአይ በይነገጽን ይደግፉ
 // @description:ar    قم بتنزيل مقاطع الفيديو/الصور بنقرة واحدة ، ودعم التغليف التلقائي كملف مضغوط للتنزيل عند تنزيل الدُفعات. دعم واجهة API جديدة
 // @description:az    Videoları / şəkilləri bir kliklə yükləyin və toplu yükləmələri zamanı yükləmək üçün bir zip faylı olaraq avtomatik qablaşdırmanı dəstəkləyin. Yeni API interfeysini dəstəkləyin
+// @description:be    Eénklik downloaden van video's/afbeeldingen, ondersteunt batch-download en pakt ze automatisch in een ZIP-bestand. Ondersteunt de nieuwste API-interface.
 // @description:bem   Ukupoka amavidyo/amavidyo no kutinika fye kamo, no kwafwilisha ukupakasa ukwaibela nga failo ya ZIP iya kukopolola nga ca kuti ukukopolola kwa ciputulwa. Ukwafwilishako ifipya ifya API
 // @description:bg    Изтеглете видеоклипове/снимки с едно щракване и поддържайте автоматична опаковка като Zip файл, за да изтеглите при изтегляне на партиди. Подкрепете нов API интерфейс
 // @description:bn    এক ক্লিকের সাথে ভিডিও/ছবি ডাউনলোড করুন এবং ব্যাচ ডাউনলোড করার সময় ডাউনলোড করতে জিপ ফাইল হিসাবে স্বয়ংক্রিয় প্যাকেজিং সমর্থন করুন। নতুন এপিআই ইন্টারফেস সমর্থন করুন
@@ -165,6 +166,7 @@
 // @description:ku    Vîdyoyên / wêneyên bi yek klîk dakêşin, û piştgiriyê bidin pakkirina otomatîk wekî pelek zip ku dakêşin dema daxistinên batch. Piştgiriya API ya nû piştgirî bikin
 // @description:ky    Видеолорду / сүрөттөрдү бир чыкылдатуу менен жүктөп алыңыз жана партия жүктөлүп жүктөөлөрдү жүктөп алуу үчүн автоматтык түрдө таңгактоону жүктөп алыңыз. Жаңы API интерфейсинти колдоо
 // @description:la    Download Videos / Pictures una cum una click, et firmamentum automatic packaging ut ZIP lima ut download cum batch downloads. Support New API interface
+// @description:lb    تحميل الفيديوهات/الصور بنقرة واحدة، يدعم التحميل الجماعي وتعبئتها تلقائيًا في ملف ZIP. يدعم واجهة API الجديدة.
 // @description:lo    ດາວໂຫລດວິດີໂອ / ຮູບພາບດ້ວຍການກົດປຸ່ມດຽວ, ແລະສະຫນັບສະຫນູນການຫຸ້ມຫໍ່ແບບອັດຕະໂນມັດເປັນແຟ້ມ ZIP ເພື່ອດາວໂຫລດໃນເວລາທີ່ດາວໂຫລດມາ. ສະຫນັບສະຫນູນການໂຕ້ຕອບ API ໃຫມ່
 // @description:lt    Atsisiųskite vaizdo įrašus/paveikslėlius vienu paspaudimu ir palaikykite automatines pakuotes kaip ZIP failą, kurį galite atsisiųsti, kai atsisiunčiami partijos. Palaikykite naują API sąsają
 // @description:lv    Lejupielādējiet videoklipus/attēlus ar vienu klikšķi un atbalstiet automātisko iesaiņojumu kā zip failu, lai lejupielādētu, kad parasti lejupielādē. Atbalstiet jauno API saskarni
@@ -257,8 +259,8 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: goemon2017,天音,Tiande,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 15:06:52
- * Last Modified: 2025/04/28,Monday 15:06:52
+ * Last Modified: 2025/04/28,Monday 15:17:18
+ * Last Modified: 2025/04/28,Monday 15:17:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
