@@ -1,5 +1,12 @@
 # **🛠️ Greasyfork 糊裱匠 更新日志**
 
+### **📅 2025.04.28.2229**
+
+**修复**: • `GreasyFork`近日支持`深色模式`,脚本的设置界面在`深色模式`无法显示出文字的问题.[#123](https://github.com/ChinaGodMan/UserScripts/issues/123) <br>
+**优化**: • 脚本双列显示`CSS` 排除掉`discussions`页面.
+
+---
+
 ### **📅 2024.12.12.2116**
 
 **优化**: • 优化越南语言包，感谢[RenjiYuusei](https://greasyfork.org/zh-CN/scripts/497346/discussions/270373) 翻译。
@@ -60,7 +67,7 @@
 
 ### **📅 2024/8/4 22:09 - Ver 2.2.0.35**
 
-**修复**: • 修复监听规则变化导致动态监听失败。  
+**修复**: • 修复监听规则变化导致动态监听失败。
 **新增**: • 监听规则增加：`user-script-list-section browse-script-list`。
 
 ---
@@ -73,9 +80,9 @@
 
 ### **📅 2024/7/17 - Ver 2.2.0.9**
 
-**新增**:  
-• 增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的脚本双列显示。  
-• 增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的美化导航栏。  
+**新增**:
+• 增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的脚本双列显示。
+• 增加 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的美化导航栏。
 • 增加固定网站侧边操作栏。
 
 ---
@@ -88,28 +95,28 @@
 
 ### **📅 2024/7/15 - Ver 2.2.0.7**
 
-**新增**:  
-• 增加侧边导航栏开关。  
-• 增加图片代理（开启时不兼容 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的图片浏览）。  
-**修复**:  
-• 修复在移动设备上浏览图片超出浏览器外的问题。  
+**新增**:
+• 增加侧边导航栏开关。
+• 增加图片代理（开启时不兼容 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722) 中的图片浏览）。
+**修复**:
+• 修复在移动设备上浏览图片超出浏览器外的问题。
 • 修改在编辑代码时自动勾选美化。
 
 ---
 
 ### **📅 2024/7/14 - Ver 2.2.0.6**
 
-**新增**:  
-• 添加导航栏展开 "更多"。  
-• 增加 [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078) 中的侧边导航栏。  
+**新增**:
+• 添加导航栏展开 "更多"。
+• 增加 [Greasy Fork 增强](https://greasyfork.org/zh-CN/scripts/467078) 中的侧边导航栏。
 **优化**: • 完善对多语言的支持。
 
 ---
 
 ### **📅 2024/7/13 - Ver 2.2.0.5**
 
-**新增**: • 增加自动登录 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)。  
-**修复**: • 修复显示列表上的脚本安装状态。  
+**新增**: • 增加自动登录 [GreasyFork 优化](https://greasyfork.org/zh-CN/scripts/475722)。
+**修复**: • 修复显示列表上的脚本安装状态。
 **优化**: • 完善对多语言的支持。
 
 ---
