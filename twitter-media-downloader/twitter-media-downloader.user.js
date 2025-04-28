@@ -246,7 +246,7 @@
 // @grant             GM_download
 // @match             https://x.com/*
 // @match             https://twitter.com/*
-// @version           2025.04.28.1503
+// @version           2025.04.28.1719
 // @created           2025-03-11 08:11:29
 // @modified          2025-03-11 08:11:29
 // @require           https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -259,8 +259,8 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: goemon2017,天音,Tiande,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 15:17:18
- * Last Modified: 2025/04/28,Monday 15:17:18
+ * Last Modified: 2025/04/28,Monday 17:19:11
+ * Last Modified: 2025/04/28,Monday 17:19:11
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
@@ -275,6 +275,7 @@ const TMD = (function () {
     return {
         init: async function () {
             GM_registerMenuCommand((this.language[navigator.language] || this.language.en).settings, this.settings)
+            GM_registerMenuCommand('Export History (Markdown)', async () => this.exportHistory())
             lang = this.language[document.querySelector('html').lang] || this.language.en
             host = location.hostname
             is_tweetdeck = host.indexOf('tweetdeck') >= 0
@@ -287,6 +288,38 @@ const TMD = (function () {
             document.head.insertAdjacentHTML('beforeend', '<style>' + this.css + (show_sensitive ? this.css_ss : '') + '</style>')
             let observer = new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(node => this.detect(node))))
             observer.observe(document.body, { childList: true, subtree: true })
+        },
+        exportHistory: async function () {
+            try {
+                const history = await GM_getValue('download_history', [])
+                if (!history || !Array.isArray(history) || history.length === 0) {
+                    return
+                }
+                const markdownContent = '# Twitter/X Media Downloader history\n\n' +
+                    (await Promise.all(history.map(id => this.generateMarkdown(id)))).join('\n')
+                const blob = new Blob([markdownContent], { type: 'text/markdown;charset=utf-8' })
+                const link = document.createElement('a')
+                link.href = URL.createObjectURL(blob)
+                link.download = `twitter_download_history_(${history.length}).md`
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+                URL.revokeObjectURL(link.href)
+            } catch (error) {
+                console.error('An error occurred while exporting Markdown history:', error)
+                alert('An error occurred while exporting Markdown history, please check the console for details.')
+            }
+        },
+        generateMarkdown: async function (tweet_id, fetch = true) {
+            if (!fetch) return `[Tweet] - ${tweet_id} (https://x.com/i/web/status/${tweet_id})`
+            let json = await this.fetchJson(tweet_id)
+            let tweet = json.quoted_status_result?.result?.legacy?.media
+                || json.quoted_status_result?.result?.legacy
+                || json.legacy
+            let user = json.core.user_results.result.legacy
+            let user_name = user.name.replace(/([\\/|*?:"\u200b-\u200d\u2060\ufeff]|🔞)/g, v => invalid_chars[v])
+            let full_text = tweet.full_text.split('\n').join(' ').replace(/\s*https:\/\/t\.co\/\w+/g, '').replace(/[\\/|<>*?:"\u200b-\u200d\u2060\ufeff]/g, v => invalid_chars[v])
+            return `[${user_name} (@${user.screen_name})](https://x.com/i/web/status/${tweet_id})\n>  ${full_text}\n`
         },
         detect: function (node) {
             let article = node.tagName == 'ARTICLE' && node || node.tagName == 'DIV' && (node.querySelector('article') || node.closest('article'))

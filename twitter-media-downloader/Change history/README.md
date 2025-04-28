@@ -1,9 +1,16 @@
 # **🛠️Twitter 媒体下载 更新日志**
 
+### **📅 2025.04.28.1719**
+
+**新增**: 导出下载历史为 `MarkDown`,代码来自 GreasyFork 用户[SteveSun](https://greasyfork.org/users/1462808)发布于[#296680](https://greasyfork.org/scripts/495368/discussions/296680#comment-589869)<br>
+**截图**: ![2025.04.28](https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png)
+
+---
+
 ### **📅 2025.04.28.1503**
 
 **修复**: 2025.04.28,修复了`Api`在失效后后无法正常下载媒体的问题<br>
-**修复**:修复代码来自 GreasyFork 用户[goemon2017](https://greasyfork.org/users/1462596)发布的[#296626-589742](https://greasyfork.org/scripts/423001/discussions/296626#comment-589742)<br>
+**修复**: 修复代码来自 GreasyFork 用户[goemon2017](https://greasyfork.org/users/1462596)发布的[#296626-589742](https://greasyfork.org/scripts/423001/discussions/296626#comment-589742)<br>
 
 ---
 
