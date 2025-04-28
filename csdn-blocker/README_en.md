@@ -221,11 +221,11 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for social media scripts
+> ### 🔍你可能在找社交媒体脚本
 >
-> -   [**Twitter/X Hide reposted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarding and forwarding content,And hide forwarded content when first loading,Remove annoying ads
-> -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download video with one click/picture | And automatically packaged into one when downloaded in batchesZIPFile download
-> -   [**YouTube Little assistant**](https://greasyfork.org/scripts/529845): YouTube 1.Video loop playback 2.Screenshot download 3.Theme progress bar
+> -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
+> -   [**Twitter Media Downloader (2025.04.28 Fixed)**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface
+> -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar
 
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->

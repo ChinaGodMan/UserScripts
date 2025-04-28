@@ -232,10 +232,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/x ẩn các bài viết chuyển tiếp**](https://greasyfork.org/scripts/529450): Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu
-> -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
+> -   [**Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới
 > -   [**Trợ lý YouTube**](https://greasyfork.org/scripts/529845): YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề
 
 <!--RELATED-社交媒体脚本-END-->

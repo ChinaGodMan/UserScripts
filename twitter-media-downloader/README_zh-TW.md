@@ -54,27 +54,31 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Twitter 媒體下載</h1>
-    <p>「 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載 」</p>
+    <h1>Twitter 媒體下載 (2025.04.28 修復)</h1>
+    <p>「 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️Twitter 媒體下載 更新日誌</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1503</strong></h3>
+<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
+<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>新增</strong>: • 啟用自定義打包為<code>zip</code>功能,允許手動設置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>截圖</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>修復</strong>: • 使原腳本的下載進度能被顯示.</p>
+<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>新增</strong>: • 支持對轉發的推文視頻和圖片進行下載<br>
-<strong>測試地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>測試截圖</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>新增</strong>: 對於含有鏈接的帖子中顯示的預覽截圖不予下載,並添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>新增</strong>: 對於媒體文件提取為空時,直接報錯.<br></p>
+<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
+<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>新增</strong>: • 批量下載時,打包為一個 zip 文件</p>
+<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
@@ -187,10 +191,10 @@
 <!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒體腳本
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-END-->
@@ -320,10 +324,10 @@
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒體腳本
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片 | 並在批量下載時自動打包為一個ZIP文件下載
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->

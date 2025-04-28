@@ -54,27 +54,31 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Twitter Media Download</h1>
-    <p>「 Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download 」</p>
+    <h1>Twitter Media Downloader (2025.04.28 Fixed)</h1>
+    <p>「 Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️Twitter Media Download Update log</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1503</strong></h3>
+<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
+<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>New</strong>: • Enable custom package as<code>zip</code>Function,Allow manual settings <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>screenshot</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>repair</strong>: • Make the download progress of the original script be displayed.</p>
+<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>New</strong>: • Support downloading of forwarded tweet videos and images<br>
-<strong>Test address</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>Test screenshot</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>New</strong>: Preview screenshots displayed in posts with links are not downloaded,And add a prompt <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>New</strong>: When media file is extracted to empty,Report an error directly.<br></p>
+<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
+<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>New</strong>: • When downloading in batches,Package into one zip document</p>
+<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
@@ -187,10 +191,10 @@ See details [GitHub Project gallery](https://github.com/ChinaGodMan/UserScripts)
 <!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for social media scripts
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
-> -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
+> -   [**Twitter Media Downloader (2025.04.28 Fixed)**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface
 > -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar
 
 <!--RELATED-END-->
@@ -322,10 +326,10 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍You might be looking for social media scripts
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
-> -   [**Twitter Media Download**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click | and automatically package them as a ZIP file to download during batch download
+> -   [**Twitter Media Downloader (2025.04.28 Fixed)**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface
 > -   [**YouTube Assistant**](https://greasyfork.org/scripts/529845): YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar
 
 <!--RELATED-社交媒体脚本-END-->

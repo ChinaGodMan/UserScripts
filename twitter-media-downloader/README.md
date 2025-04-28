@@ -54,13 +54,17 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Twitter 媒体下载</h1>
-    <p>「 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载 」</p>
+    <h1>Twitter 媒体下载 (2025.04.28 修复)</h1>
+    <p>「 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1503</strong></h3>
+<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
+<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
 <p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
 <strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
@@ -190,7 +194,7 @@
 > ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X 隐藏转发的帖子**](https://greasyfork.org/scripts/529450): 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告
-> -   [**Twitter 媒体下载**](https://greasyfork.org/scripts/529453): 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+> -   [**Twitter 媒体下载 (2025.04.28 修复)**](https://greasyfork.org/scripts/529453): 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.视频循环播放 2.截图下载 3.主题进度条
 
 <!--RELATED-END-->
@@ -323,7 +327,7 @@
 > ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/X 隐藏转发的帖子**](https://greasyfork.org/scripts/529450): 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告
-> -   [**Twitter 媒体下载**](https://greasyfork.org/scripts/529453): 一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载
+> -   [**Twitter 媒体下载 (2025.04.28 修复)**](https://greasyfork.org/scripts/529453): 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.视频循环播放 2.截图下载 3.主题进度条
 
 <!--RELATED-社交媒体脚本-END-->

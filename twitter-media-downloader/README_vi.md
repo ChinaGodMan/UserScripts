@@ -54,27 +54,31 @@
 <!--HISTORY-->
 
 <center><div align="center">
-    <h1>Tải xuống phương tiện truyền thông Twitter</h1>
-    <p>「 Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột | 」</p>
+    <h1>Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)</h1>
+    <p>「 Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+<h3><strong>📅 2025.04.28.1503</strong></h3>
+<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
+<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>Mới</strong>: • Bật gói tùy chỉnh dưới dạng<code>zip</code>Chức năng,Cho phép cài đặt thủ công <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>Ảnh chụp màn hình</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>Sửa chữa</strong>: • Làm cho tiến trình tải xuống của tập lệnh gốc được hiển thị.</p>
+<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>Mới</strong>: • Hỗ trợ tải xuống các video và hình ảnh tweet được chuyển tiếp<br>
-<strong>Địa chỉ kiểm tra</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>Ảnh chụp màn hình thử nghiệm</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>Mới</strong>: Xem trước ảnh chụp màn hình được hiển thị trong các bài đăng có liên kết không được tải xuống,Và thêm một lời nhắc <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>Mới</strong>: Khi tệp phương tiện được trích xuất để trống,Báo cáo trực tiếp lỗi.<br></p>
+<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
+<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>Mới</strong>: • Khi tải xuống theo đợt,Gói vào một zip tài liệu</p>
+<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
@@ -187,10 +191,10 @@ Xem chi tiết [GitHub Phòng trưng bày dự án](https://github.com/ChinaGodM
 <!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/x ẩn các bài viết chuyển tiếp**](https://greasyfork.org/scripts/529450): Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu
-> -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
+> -   [**Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới
 > -   [**Trợ lý YouTube**](https://greasyfork.org/scripts/529845): YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề
 
 <!--RELATED-END-->
@@ -320,10 +324,10 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
+> ### 🔍你可能在找社交媒体脚本
 >
 > -   [**Twitter/x ẩn các bài viết chuyển tiếp**](https://greasyfork.org/scripts/529450): Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu
-> -   [**Tải xuống phương tiện truyền thông Twitter**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột |
+> -   [**Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)**](https://greasyfork.org/scripts/529453): Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới
 > -   [**Trợ lý YouTube**](https://greasyfork.org/scripts/529845): YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề
 
 <!--RELATED-社交媒体脚本-END-->
