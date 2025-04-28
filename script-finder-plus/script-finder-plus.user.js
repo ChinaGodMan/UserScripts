@@ -75,25 +75,37 @@
 // @name:fr-CA        Script Finder Recherche de script GreasyFork
 // @description:fr-CA Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web Script de GreasyFork。
 // @description       Script Finder allows you to find userscripts from greasyfork on any website.
-
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           0.1.6.80
+// @version           2025.04.28.1400
 // @author            shiquda & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
 // @match             *://*/*
 // @connect           greasyfork.org
 // @icon              data:image/png;base64,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
-// @iconbak           https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/Finder.jpg
 // @grant             GM_xmlhttpRequest
 // @grant             GM_addStyle
 // @license           MIT
-
+// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus/script-finder-plus.user.js
+// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/script-finder-plus/script-finder-plus.user.js
 // ==/UserScript==
-const translate = (function () {
+/**
+ * File: script-finder-plus.user.js
+ * Project: UserScripts
+ * File Created: 2024/11/24,Sunday 12:39:02
+ * Author: shiquda <https://github.com/shiquda> 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/04/28,Monday 14:01:01
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+
+(function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
-    const strings = {
-        'en': {
+    const translations = {
+        'en,en-GB': {
             Author: 'Author',
             Installs: 'Installs',
             DailyInstalls: 'Daily Installs',
@@ -109,7 +121,7 @@ const translate = (function () {
             Loading: 'Loading...',
             Scripts: 'Scripts'
         },
-        'zh-CN': {
+        'zh-CN,zh,zh-SG': {
             Author: '作者',
             Installs: '安装数量',
             DailyInstalls: '每日安装',
@@ -126,7 +138,7 @@ const translate = (function () {
             Scripts: '脚本'
 
         },
-        'zh-TW': {
+        'zh-TW,zh-HK,zh-MO': {
             Author: '作者',
             Installs: '安裝數量',
             DailyInstalls: '每日安裝',
@@ -175,13 +187,28 @@ const translate = (function () {
             Scripts: 'Tập lệnh'
         }
     }
-    // 返回翻译函数
-    return (id, lang = '') => {
-        const selectedLang = lang || userLang
-        return (strings[selectedLang] || strings.en)[id] || strings.en[id]
+    const getTranslations = (lang) => {
+        for (const key in translations) {
+            if (key === lang || key.split(',').includes(lang)) {
+                return translations[key]
+            }
+        }
+        return translations['en']
     }
-}());
-(function () {
+    const translate = new Proxy(
+        function (key) {
+            const lang = userLang
+            const strings = getTranslations(lang)
+            return strings[key] || translations['en'][key]
+        },
+        {
+            get(target, prop) {
+                const lang = userLang
+                const strings = getTranslations(lang)
+                return strings[prop] || translations['en'][prop]
+            }
+        }
+    )
     const domainParts = window.location.hostname.split('.').slice(-2)
     const domain = domainParts.join('.')
     const errorMessage = translate('errorMessage')
@@ -283,7 +310,7 @@ const translate = (function () {
                 nameElement.target = '_blank'
 
                 var descriptionElement = document.createElement('p')
-                descriptionElement.className = 'script-description'
+                descriptionElement.className = 'script-description-finder'
                 descriptionElement.innerHTML = script.description
 
                 var detailsContainer = document.createElement('div')
@@ -381,7 +408,7 @@ const translate = (function () {
         margin-bottom: 5px !important;
         color: #1e90ff !important;
     }
-    p.script-description {
+    p.script-description-finder {
         color: black !important;
         margin-top: 2px;
         margin-bottom: 5px;
@@ -489,9 +516,70 @@ const translate = (function () {
         background-color: #cccccc;
         cursor: not-allowed;
     }
+    /* Dark styles */
+@media (prefers-color-scheme: dark) {
+    scrbutton.script-button {
+        background-color: #1e3a8a;
+        color: #ffffff;
+    }
+    div.info-container {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+    }
+    li.info-item {
+        background-color: #2d2d2d;
+        border: 1px solid #2563eb;
+    }
+    a.mscript-link {
+        color: #3b82f6 !important;
+    }
+    p.script-description-finder {
+        color: #e5e7eb !important;
+    }
+    div.details-container {
+        color: #ffffff;
+    }
+    span.script-details {
+        background-color: #374151 !important;
+        color: #d1d5db !important;
+        border: 1px solid #2563eb !important;
+    }
+    div.table-header {
+        color: #3b82f6 !important;
+    }
+    input.script-search-input {
+        background-color: #1e1e1e !important;
+        color: #ffffff !important;
+        border: 1px solid #2563eb !important;
+    }
+    a.install-button {
+        background-color: #16a34a;
+        color: #ffffff;
+    }
+    button.to-greasyfork {
+        background-color: #2563eb;
+        color: #ffffff;
+    }
+    span.match-count {
+        background-color: #2563eb;
+        color: #ffffff;
+    }
+    div.wait-loading {
+        color: #3b82f6;
+    }
+    button.load-more {
+        background-color: #2563eb;
+        color: #ffffff;
+    }
+    button.load-more:disabled {
+        background-color: #4b5563;
+        color: #9ca3af;
+    }
+}
 
     /* Mobile styles */
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
         scrbutton.script-button {
             right: -30px;
             padding: 8px;
@@ -502,7 +590,7 @@ const translate = (function () {
         margin: 2px !important;
         padding: 2px !important;
     }
-     span.match-count {
+    span.match-count {
         font-size: 20px;
         padding: 4px;
     }
@@ -512,17 +600,17 @@ const translate = (function () {
         font-size: 14px;
     }
 
-     a.install-button {
+    a.install-button {
         font-size: 12px;
         padding: 8px;
     }
-      div.table-header {
+    div.table-header {
         font-size: 20px;
     }
-     div.script-container {
+    div.script-container {
         padding: 10px;
     }
-div.info-container {
+    div.info-container {
         top: 10%;
         left: 5%;
         right: 5%;
@@ -533,10 +621,9 @@ div.info-container {
         a.mscript-link {
             font-size: 16px !important;
         }
-        p.script-description {
+        p.script-description-finder {
             font-size: 14px;
         }
-       {
 
         input.script-search-input {
             width: 92% !important;
@@ -553,7 +640,6 @@ div.info-container {
         }
     }
 `)
-
 
         // 创建打开列表按钮
         var button = document.createElement('scrbutton')
@@ -714,8 +800,12 @@ div.info-container {
         }
         setupUI()
     }
-
     main()
-
-
+    setTimeout(() => {
+        const scripButton = document.querySelector('.script-button')
+        if (!scripButton) {
+            console.log('🔍 ~ <function> ~ script-finder-plus/script-finder-plus.user.js:730 ~ scripButton:找不到按钮,重新加载。。.')
+            main()
+        }
+    }, 2000)
 })()

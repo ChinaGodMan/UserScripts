@@ -1,5 +1,14 @@
 # **🛠️ Script Finder+ 更新日志**
 
+### **📅 2025.04.28.1400**
+
+**修复**: • CSS 样式与 GreasyFork 冲突 `script-description`→`'script-description-finder` [#123](https://github.com/ChinaGodMan/UserScripts/issues/123)<br>
+**新增**: • 支持系统`深色模式`<br>
+**新增**: • `i18n`支持更多语言<br>
+**新增**: • 首次加载脚本后，等待`2s` 检查是否加载成功,如不成功,重新加载一次。
+
+---
+
 ### **📅 2024/9/26 10:43 - Ver 0.1.6.80**
 
 **修复**: • CSS 样式与 GreasyFork 冲突导致放大字体
@@ -20,7 +29,7 @@
 
 ### **📅 2024/8/4 14:32 - Ver 0.1.6.32**
 
-**修复**: • [#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。  
+**修复**: • [#253924](https://greasyfork.org/scripts/498904/discussions/253924) 在顺丰官网 CSS 冲突，导致右下角按钮变长，横在整个页面底部。
 **修复方式**: • 更改按钮类名 `button.script-button` 👉 `scrbutton.script-button`。
 
 ---
@@ -33,7 +42,7 @@
 
 ### **📅 2024/6/26 06:43 - Ver 0.1.6.1**
 
-**新增**: • 增加对移动设备的支持，手机也能使用啦~  
+**新增**: • 增加对移动设备的支持，手机也能使用啦~
 **修改**: • 取消搜索出错时清空列表的操作。
 
 ---
