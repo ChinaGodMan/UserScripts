@@ -1588,13 +1588,13 @@ ChatGPT 让代码字体变小 并且自动折行
         <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Twitter 媒体下载</a>&nbsp;
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Twitter 媒体下载 (2025.04.28 修复)</a>&nbsp;
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
         <img height=24 src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
 </h3>
 
 <details>
-    <summary>一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载</summary>
+    <summary>一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
            <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
