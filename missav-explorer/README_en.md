@@ -284,7 +284,7 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍You might be looking for social media scripts
 >
 > -   [**Twitter/X Hide retweeted posts**](https://greasyfork.org/scripts/529450): Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads
 > -   [**Twitter Media Downloader (2025.04.28 Fixed)**](https://greasyfork.org/scripts/529453): Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface

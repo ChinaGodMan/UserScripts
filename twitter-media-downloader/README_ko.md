@@ -60,25 +60,25 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️Twitter 미디어 다운로드 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>修复</strong>: 2025.04.28,修复了<code>Api</code>在失效后后无法正常下载媒体的问题<br>
-<strong>修复</strong>:修复代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462596">goemon2017</a>发布的<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>수리하다</strong>: 2025.04.28,결정된<code>Api</code>실패 후 미디어를 정상적으로 다운로드 할 수없는 문제<br>
+<strong>수리하다</strong>:코드를 수정하십시오 GreasyFork 사용자<a href="https://greasyfork.org/users/1462596">goemon2017</a>게시<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>新增</strong>: • 启用自定义打包为<code>zip</code>功能,允许手动设置 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>截图</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>修复</strong>: • 使原脚本的下载进度能被显示.</p>
+<p><strong>새로운</strong>: • 맞춤형 패키지를 활성화하십시오<code>zip</code>기능,수동 설정을 허용합니다 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>스크린 샷</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>수리하다</strong>: • 원래 스크립트의 다운로드 진행 상황을 표시하십시오..</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>新增</strong>: • 支持对转发的推文视频和图片进行下载<br>
-<strong>测试地址</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>测试截图</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>新增</strong>: 对于含有链接的帖子中显示的预览截图不予下载,并添加提示 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>新增</strong>: 对于媒体文件提取为空时,直接报错.<br></p>
+<p><strong>새로운</strong>: • 전달 된 트윗 비디오 및 이미지의 다운로드를 지원합니다<br>
+<strong>테스트 주소</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
+<strong>테스트 스크린 샷</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>새로운</strong>: 링크가있는 게시물에 표시되는 스크린 샷 미리보기 다운로드되지 않습니다.,프롬프트를 추가하십시오 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>새로운</strong>: 미디어 파일이 비어있는 것으로 추출 된 경우,오류를 직접보고하십시오.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
+<p><strong>새로운</strong>: • 배치로 다운로드 할 때,패키지 하나에 패키지 zip 문서</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
@@ -191,7 +191,7 @@
 <!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
 > -   [**Twitter/x는 리트 윗 된 게시물을 숨 깁니다**](https://greasyfork.org/scripts/529450): 성가신 광고를 제거하기 위해 첫 번째로드시 전달 된 컨텐츠를 자동으로 숨기고 전달 된 컨텐츠를 숨 깁니다.
 > -   [**트위터 미디어 다운로드 (2025.04.28 고정)**](https://greasyfork.org/scripts/529453): 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 할 때 다운로드 할 수있는 zip 파일로 자동 포장을 지원하십시오. 새로운 API 인터페이스를 지원합니다
@@ -324,7 +324,7 @@
 <!--RELATED-社交媒体脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-> ### 🔍你可能在找社交媒体脚本
+> ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
 > -   [**Twitter/x는 리트 윗 된 게시물을 숨 깁니다**](https://greasyfork.org/scripts/529450): 성가신 광고를 제거하기 위해 첫 번째로드시 전달 된 컨텐츠를 자동으로 숨기고 전달 된 컨텐츠를 숨 깁니다.
 > -   [**트위터 미디어 다운로드 (2025.04.28 고정)**](https://greasyfork.org/scripts/529453): 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 할 때 다운로드 할 수있는 zip 파일로 자동 포장을 지원하십시오. 새로운 API 인터페이스를 지원합니다
