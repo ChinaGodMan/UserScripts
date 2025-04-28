@@ -6,10 +6,6 @@ on:
       - "**/*.js" # 新的脚本被提交或者被修改了.
   workflow_dispatch:
 
-concurrency:
-  group: u1pdate-qinwuyuan-UserScripts # 将所有运行中的实例放到同一个并发组中
-  cancel-in-progress: false # 如果有正在执行的工作流，不取消，而是排队
-
 jobs:
   update-chinagodman-commit:
     if: ${{ github.event.commits[0].committer.username != 'ChinaGodBot' }}

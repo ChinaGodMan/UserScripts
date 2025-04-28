@@ -1,8 +1,9 @@
 name: translate-script-readme
-##最后触发更新整个所有脚本的其他语言文档.
+
 on:
   workflow_run:
-    workflows: ["merge-change-history"]
+    workflows:
+      - "merge-change-history" # 操作所有raedme.md后进行翻译
     types:
       - completed
   workflow_dispatch:
