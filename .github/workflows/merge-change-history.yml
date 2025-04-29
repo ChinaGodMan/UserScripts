@@ -3,7 +3,7 @@ name: merge-change-history
 on:
   push:
     paths:
-      - "**/Change history/README.md" # 更新日志
+      - "**/CHANGELOG.md" # 更新日志
   workflow_dispatch:
 
 jobs:

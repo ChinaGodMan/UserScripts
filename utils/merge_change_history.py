@@ -61,7 +61,7 @@ for script in data['scripts']:
     # 每次更新脚本原作者信息
     subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
 
-    change_log_path = os.path.join(script_directory, "Change history", "README.md")
+    change_log_path = os.path.join(script_directory, "CHANGELOG.md")
 
     readme_html = ''
     if os.path.isfile(change_log_path):
