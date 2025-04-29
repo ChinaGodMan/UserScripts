@@ -1,0 +1,4 @@
+{
+  "description": "所有遍历操作md文件时需要排除的文件,包括翻译,更新日志,更新徽章等",
+  "files": ["CHANGELOG.md", "authors.md"]
+}

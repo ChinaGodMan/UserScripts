@@ -1,5 +1,6 @@
 from content_snippet import get_file_description
 from writer import process_file
+from helper import get_md_files
 import os
 import sys
 import json
@@ -26,18 +27,17 @@ def main():
     start_tag = "<!--SHIELDS-->"
     end_tag = "<!--SHIELDS-END-->"
     for script in scripts:
-        backuppath = script.get('directory', '')
-        cnfile_path = os.path.join(backuppath, "README.md")
+        script_directory = script.get('directory', '')
+        cnfile_path = os.path.join(script_directory, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         if olddescriptions + "\n" == new_content:  # 换行符添加上,就这样了能用就行
             continue
         else:
             print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 内容变化,执行替换\033[0m")
-        if backuppath and os.path.isdir(backuppath):
-            for file in os.listdir(backuppath):
-                if file.endswith('.md'):
-                    file_path = os.path.join(backuppath, file)
-                    process_file(file_path, new_content, start_tag, end_tag, "head")
+        md_files = get_md_files(script_directory)
+        for md_file in md_files:
+            file_path = os.path.join(script_directory, md_file)
+            process_file(file_path, new_content, start_tag, end_tag, "head")
 
 
 if __name__ == '__main__':

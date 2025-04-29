@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           repository: ChinaGodMan/UserScripts
+          fetch-depth: 0 #检查时间用.
 
       - name: 安装依赖
         run: |

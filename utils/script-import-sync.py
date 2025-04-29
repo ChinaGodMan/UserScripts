@@ -1,9 +1,10 @@
-import subprocess
-import requests
-import re
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 from searcher import search_in_file
+from helper import get_md_files
+import subprocess
+import requests
+import re
 import json
 import shutil
 import os
@@ -21,8 +22,9 @@ REPO_URL = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/"
 # 构建同步文档地址
 def build_urls(directory):
     urls = []
-    for filename in os.listdir(directory):
-        if filename.endswith('.md') and filename != 'README_en.md':
+    md_files = get_md_files(directory)
+    for filename in md_files:
+        if filename != 'README_en.md':
             '''
         可以将readme_en.md也包括在urls当中
         gf会自动将en的语言设置成默认的语言

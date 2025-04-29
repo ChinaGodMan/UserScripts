@@ -7,6 +7,7 @@ from helper import is_file_updated_more_than
 from helper import read_file_to_memory
 from helper import read_json
 from helper import extract_lang_code
+from helper import get_md_files
 
 
 # 翻译单个文件
@@ -34,25 +35,24 @@ def go_work():
     RESET = '\033[0m'
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
         for script in scripts:
-            backuppath = script.get('directory', '')
-            for root, dirs, files in os.walk(backuppath):
-                dirs.clear()  # 不允许递归遍历.只让在脚本目录
-                TEMP_OUT = False
-                for file in files:
-                    if file == 'README.md':  # 直接退出,无需下面进行提取语言代码再退出.
-                        continue
+            script_directory = script.get('directory', '')
+            md_files = get_md_files(script_directory)
+            TEMP_OUT = False
+            for file in md_files:
+                if file == 'README.md':  # 直接退出,无需下面进行提取语言代码再退出.
+                    continue
                     # 匹配 README_xx.md 格式的文件，并提取语言代码
-                    lang_code = extract_lang_code(file)
-                    if lang_code is None:
-                        continue
-                    if is_file_updated_more_than(f'{root}/{file}', FILE_TIMEOUT):
-                        continue
-                    else:
-                        if (not TEMP_OUT):
-                            TEMP_OUT = True
-                            print(f"正在处理脚本: {GREEN}{script.get('name', '')}{RESET} [{YELLOW}{root}{RESET}]")
-                        print(f"{YELLOW}    ==>处理文件: [{root}/{file}] |语言代码: {lang_code}{RESET}")
-                    executor.submit(process_file, root, file, lang_code)
+                lang_code = extract_lang_code(file)
+                if lang_code is None:
+                    continue
+                if is_file_updated_more_than(f'{script_directory}/{file}', FILE_TIMEOUT):
+                    continue
+                else:
+                    if (not TEMP_OUT):
+                        TEMP_OUT = True
+                        print(f"正在处理脚本: {GREEN}{script.get('name', '')}{RESET} [{YELLOW}{script_directory}{RESET}]")
+                    print(f"{YELLOW}    ==>处理文件: [{script_directory}/{file}] |语言代码: {lang_code}{RESET}")
+                executor.submit(process_file, script_directory, file, lang_code)
 
 
 go_work()

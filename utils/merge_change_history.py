@@ -1,8 +1,10 @@
-import subprocess
 from content_snippet import get_file_description
+from helper import get_md_files
+from helper import is_file_updated_more_than
 from writer import process_file
 from searcher import search_in_file
 import os
+import subprocess
 import re
 import json
 import markdown
@@ -50,7 +52,7 @@ def generate_html_content(nation, path, greasyfork_id, filepath, backuppath, rea
 
 # 遍历 JSON 数据中的每个脚本信息
 for script in data['scripts']:
-    backuppath = script.get('directory', '')
+    script_directory = script.get('directory', '')
     name = script.get('name', '')
     description = script.get('description', '')
     greasyfork_id = script.get('greasyfork_id', '')
@@ -59,29 +61,32 @@ for script in data['scripts']:
     # 每次更新脚本原作者信息
     subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
 
-    readme_path = os.path.join(backuppath, "Change history", "README.md")
+    change_log_path = os.path.join(script_directory, "Change history", "README.md")
+
     readme_html = ''
-    if os.path.isfile(readme_path):
+    if os.path.isfile(change_log_path):
+        # 对于5分钟内未改动的log文件不操作
+        if is_file_updated_more_than(change_log_path, 5):
+            continue
         readme_html = "<details><summary>更新记录</summary>" + \
-            md_to_html(readme_path) + "</details>"
-    html_content = generate_html_content("zh-CN", filepath, greasyfork_id, filepath, backuppath, readme_html)
-    # 检查 backuppath 是否存在
-    if backuppath and os.path.exists(backuppath):
+            md_to_html(change_log_path) + "</details>"
+    html_content = generate_html_content("zh-CN", filepath, greasyfork_id, filepath, script_directory, readme_html)
+    # 检查 script_directory 是否存在
+    if script_directory and os.path.exists(script_directory):
         start_tag = "<!--HISTORY-->"
         end_tag = "<!--HISTORY-END-->"
-        backup_readme_path = os.path.join(backuppath, 'Change history/README.md')
-        his = get_file_description(os.path.join(backuppath, "README.md"), start_tag, end_tag)
-        if "\n" + his + "\n" == html_content:
+        old_log = get_file_description(os.path.join(script_directory, "README.md"), start_tag, end_tag)
+        if "\n" + old_log + "\n" == html_content:
             continue
         else:
             print(f"----[\033[94m{script.get('name', '')}\033[0m]\033[92m 头部描述改变,执行替换!\033[0m")
-        for file_name in os.listdir(backuppath):
-            if file_name.lower().endswith('.md'):
-                file_path = os.path.join(backuppath, file_name)
-                match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
-                if match:
-                    lang_code = match.group(1)
-                else:
-                    lang_code = "zh-CN"
-                html_content = generate_html_content(lang_code, filepath, greasyfork_id, filepath, backuppath, readme_html)
-                process_file(file_path, html_content, start_tag, end_tag, "head")
+        md_files = get_md_files(script_directory)
+        for file_name in md_files:
+            file_path = os.path.join(script_directory, file_name)
+            match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
+            if match:
+                lang_code = match.group(1)
+            else:
+                lang_code = "zh-CN"
+            html_content = generate_html_content(lang_code, filepath, greasyfork_id, filepath, script_directory, readme_html)
+            process_file(file_path, html_content, start_tag, end_tag, "head")

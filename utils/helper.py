@@ -6,17 +6,26 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/24,Monday 02:28:55
+# Last Modified: 2025/04/30,Wednesday 04:42:07
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
 # Copyright © 2024 - 2025 ChinaGodMan,Inc
 ###
+import os
 import re
 import subprocess
 import time
 import io
 import json
+
+
+# 找md文件,并排除特定文件
+def get_md_files(directory):
+    file = read_json("docs/excluded_json_files.json")
+    excluded_files = file.get("files", [])
+    return [file for file in os.listdir(directory)
+            if file.lower().endswith('.md') and file.lower() not in [f.lower() for f in excluded_files]]
 
 
 # 读取文件到内存

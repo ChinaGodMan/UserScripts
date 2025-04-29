@@ -1,6 +1,7 @@
 from pathlib import Path
 from writer import process_file
 from content_snippet import get_file_description
+from helper import get_md_files
 import json
 import os
 import re
@@ -42,11 +43,11 @@ def build_html(md_files, path):
         else:
             lang_code = "zh-CN"
         title = find_locale(lang_code)
-        html += f'        <a href="{base_url}{path}/{file}">{title}</a> | \n'
+        html += f'        <a href="{base_url}{path}/{file}">{title}</a> |\n'
     html = html.rstrip(' | \n')
     html += """
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 """
@@ -61,22 +62,28 @@ def main():
     start_tag = "<!--NAVIGATION-->"
     end_tag = "<!--NAVIGATION-END-->"
     for script in scripts:
-        backuppath = script.get('directory', '')
-        cnfile_path = os.path.join(backuppath, "README.md")
-        c = Path(backuppath)
+        script_directory = script.get('directory', '')
+        cnfile_path = os.path.join(script_directory, "README.md")
+        # Linux和Windows统一排序方式,防止ci在github运行时排序不一致
+        c = Path(script_directory)
         md_files = sorted([file.name for file in c.glob('*.md')])
-        descriptions = build_html(md_files, backuppath)
+        print(md_files)
+        descriptions = build_html(md_files, script_directory)
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         olddescriptions = olddescriptions if olddescriptions is not None else "1"
+        # 从md文件中获取所有文件名
+        md_old = re.findall(r'README[^"]*\.md', olddescriptions)
+        md_new = get_md_files(script_directory)
+        all_in_old = all(md in set(md_old) for md in md_new)
+        if all_in_old:
+            continue
         if "\n" + olddescriptions + "\n" == descriptions:  # 换行符添加上,就这样了能用就行
             continue
         else:
             print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 内容变化,执行替换\033[0m")
-        if backuppath and os.path.isdir(backuppath):
-            for file in os.listdir(backuppath):
-                if file.endswith('.md'):
-                    file_path = os.path.join(backuppath, file)
-                    process_file(file_path, descriptions, start_tag, end_tag, "head")
+        for md_file in md_new:
+            file_path = os.path.join(script_directory, md_file)
+            process_file(file_path, descriptions, start_tag, end_tag, "head")
 
 
 if __name__ == "__main__":
