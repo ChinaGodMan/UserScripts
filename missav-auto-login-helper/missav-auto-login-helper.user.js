@@ -79,6 +79,8 @@
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://missav.ws/*
 // @match             https://missav.live/*
+// @match             https://missav.ai/*
+// @match             https://missav123.com/*
 // @grant             GM_registerMenuCommand
 // @grant             GM_setValue
 // @grant             GM_getValue
