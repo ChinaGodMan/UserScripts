@@ -4,7 +4,8 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.wordWrap": "off"
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
