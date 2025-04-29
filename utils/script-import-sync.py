@@ -15,7 +15,7 @@ import os
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
 主页:     https://github.com/ChinaGodMan/UserScripts
 '''
-人民勤务员的仓库链接 = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/"
+REPO_URL = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/"
 
 
 # 构建同步文档地址
@@ -31,9 +31,9 @@ def build_urls(directory):
         不想改那个脚本,就兼容下得了.
             '''
             if filename == 'README.md':  # 仓库的默认介绍语言一律是中文,需要手动设置
-                urls.append(人民勤务员的仓库链接 + directory + "/" + filename + "##zh-CN")
+                urls.append(REPO_URL + directory + "/" + filename + "##zh-CN")
             else:
-                urls.append(人民勤务员的仓库链接 + directory + "/" + filename)
+                urls.append(REPO_URL + directory + "/" + filename)
     return urls
 
 
@@ -169,7 +169,7 @@ class GreasyFork:
             raise Exception(
                 f"导入被拒绝,状态码: {response.status_code}\n{response.text}")
 
-    def sync_update(self, script_url, defaultfile, script_id, urls):
+    def sync_update(self, script_url, script_id, attribute_default, additional_info):
         """
         更新附加同步信息
         """
@@ -185,12 +185,12 @@ class GreasyFork:
             'script[sync_type]': 'webhook'
         }
         # 默认的语言文件
-        if defaultfile:
+        if attribute_default:
             form_data['additional_info_sync[0][attribute_default]'] = 'true'
-            form_data['additional_info_sync[0][sync_identifier]'] = defaultfile
+            form_data['additional_info_sync[0][sync_identifier]'] = attribute_default
             form_data['additional_info_sync[0][value_markup]'] = 'markdown'
         # 遍历每个 语言URL,用于构建区域化文件
-        for index, url in enumerate(urls):
+        for index, url in enumerate(additional_info):
             locale_key = extract_locale_key(url)
             locale = area.get(locale_key, '')
             clean_url = re.sub(r'##.*', '', url)
@@ -216,32 +216,38 @@ if __name__ == "__main__":
     scripts = data.get('scripts', [])
     for script in scripts:
         if script.get('greasyfork_id') == "":
+            script_directory = script.get('directory')
+            script_path = script_directory + "/" + script.get('js_name')
+            script_url = REPO_URL + script_path
             # 先更新json内的脚本信息与名称
-            full_path = script.get('directory') + "/" + script.get('js_name')
-            #  更新引用信息
-            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
+            script_info = search_in_file(script_path, "zh-CN")
+            script['name'] = "\n".join(script_info.name_matches)
+            script['description'] = "\n".join(script_info.description_matches)
+
+            #  更新引用的脚本信息
+            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script_directory], check=True)
+
             # 更新下区域化声明罢了
-            subprocess.run(['python', 'utils/userscript_localization_tool.py', full_path], check=True)
-            results = search_in_file(full_path, "zh-CN")
-            name = "\n".join(results.name_matches)
-            description = "\n".join(results.description_matches)
-            script['name'] = name
-            script['description'] = description
+            subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
+
             # 复制多语言文档,用于之后的翻译
             # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
             # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
             locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
-            copy_readme(script.get('directory'), locales)
+            copy_readme(script_directory, locales)
+
             # 导入脚本,用于之后的同步附加信息
-            sync_urls = 人民勤务员的仓库链接 + full_path
-            import_script_id = GF.import_scripts(sync_urls)
+            import_script_id = GF.import_scripts(script_url)
             script['greasyfork_id'] = import_script_id
+
             # 同步附加信息
-            urls = build_urls(script.get('directory'))
-            defaultfile = 人民勤务员的仓库链接 + script.get('directory') + "/README_en.md"
-            result = GF.sync_update(sync_urls, defaultfile, import_script_id, urls)
+            additional_md_urls = build_urls(script_directory)
+            default_md = f"{script_directory}/README_en.md" if os.path.exists(f"{script_directory}/README_en.md") else f"{script_directory}/README.md"
+            default_md = REPO_URL + default_md
+            result = GF.sync_update(script_url, import_script_id, default_md, additional_md_urls)
+
             # 更新json
             with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
                 f.write('\n')
-            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('js_name')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
+            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('name')}-{script.get('js_name')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
