@@ -100,7 +100,7 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.03.05.0145
+// @version           2025.05.01.0128
 // @created           2025-03-05 01:45:13
 // @modified          2025-03-05 01:45:13
 // ==/UserScript==
@@ -417,7 +417,7 @@ GM_addStyle(`
             const a = document.createElement('a')
             a.style.display = 'none'
             a.href = url
-            a.download = sanitizeTitle() + '.mp4'
+            a.download = sanitizeTitle().trim() + '.mp4'
             document.body.appendChild(a)
             a.click()
             window.URL.revokeObjectURL(url)
