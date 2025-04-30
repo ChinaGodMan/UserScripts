@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>Pornhub 视频一键下载</h1>
     <p>「 Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率 」</p>
@@ -61,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/528800">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Pornhub 视频一键下载 更新日志</strong></h1>
+<h3><strong>📅 2025.05.01.0128</strong></h3>
+<p><strong>修复</strong>: 删除掉下载视频时，文件名尾随空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
+<hr />
 <h3><strong>📅 2025.03.05.0145</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>

@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>한 번의 클릭으로 Pornhub 비디오 다운로드</h1>
     <p>「 Pornhub는 한 번의 클릭으로 다운로드하십시오 」</p>
@@ -60,9 +59,12 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/pornhub-download/pornhub-download.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/528800">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ Pornhub 한 클릭 비디오 다운로드 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Pornhub 视频一键下载 更新日志</strong></h1>
+<h3><strong>📅 2025.05.01.0128</strong></h3>
+<p><strong>修复</strong>: 删除掉下载视频时，文件名尾随空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
+<hr />
 <h3><strong>📅 2025.03.05.0145</strong></h3>
-<p><strong>새로운</strong>: •초기 버전</p>
+<p><strong>新增</strong>: •初始版本</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/528800.png">
 </div></center>
