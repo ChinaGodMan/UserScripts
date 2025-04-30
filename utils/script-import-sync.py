@@ -8,6 +8,7 @@ import re
 import json
 import shutil
 import os
+import pyotp
 '''
 名称:       自动添加脚本并更新附加信息
 版本:            2025.04.24.16:56:33
@@ -89,7 +90,7 @@ class GreasyFork:
             raise Exception(
                 f"Failed to fetch the page. Status Code: {response.status_code}")
 
-    def login(self, email, password):
+    def login(self, email, password, totp):
         if self.csrf_token is None:
             self.fetch_csrf_token()
 
@@ -102,6 +103,7 @@ class GreasyFork:
             'user[email]': email,
             'user[password]': password,
             'user[remember_me]': '1',
+            'user[otp_attempt]': totp,
             'commit': '登录'
         }
 
@@ -211,8 +213,10 @@ class GreasyFork:
 if __name__ == "__main__":
     user_email = os.getenv('GFU')
     p = os.getenv('GFP')
+    s = os.getenv('GREASYFORK_TOTP_SECRET')
+    totp = pyotp.TOTP(s)
     GF = GreasyFork()
-    GF.login(user_email, p)
+    GF.login(user_email, p, totp.now())
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
     scripts = data.get('scripts', [])

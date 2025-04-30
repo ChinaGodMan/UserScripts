@@ -19,8 +19,7 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install markdown
-          pip install beautifulsoup4
+          pip install markdown beautifulsoup4 pyotp
 
       - name: 检查新脚本
         run: |
@@ -28,6 +27,7 @@ jobs:
         env:
           GFU: ${{ secrets.GFU }}
           GFP: ${{ secrets.GFP }}
+          GREASYFORK_TOTP_SECRET: ${{ secrets.GREASYFORK_TOTP_SECRET }}
 
       - name: 相关脚本
         run: |
