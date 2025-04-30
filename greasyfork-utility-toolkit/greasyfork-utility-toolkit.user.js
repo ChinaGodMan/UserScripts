@@ -80,6 +80,7 @@
 // @require           https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js
 // @require           https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js
 // @require           https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
+// @require           https://update.greasyfork.org/scripts/511697/1460281/TOTP%20Generator.js
 // @resource          atom-one-dark.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-dark.min.css
 // @resource          atom-one-light.css https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.min.css
 // @resource          nnfx-dark.min.css https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/nnfx-dark.min.css
@@ -99,7 +100,7 @@
 // @compatible        edge
 // @compatible        opera
 // @compatible        safari
-// @version           2025.04.28.2229
+// @version           2025.04.30.1902
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
 // @iconbak           https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/RedFork.svg
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
@@ -115,7 +116,7 @@
  * File Created: 2024/11/24,Sunday 12:38:56
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 22:29:30
+ * Last Modified: 2025/04/30,Wednesday 19:03:24
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -202,6 +203,7 @@ const translate = (function () {
             'enableautologin': 'Enable Auto Login',
             'account': 'Account',
             'password': 'Password',
+            'greasyfork_secret': '2FA Secret',
             'listdisplayinstallationdownload': 'List Display Installation Download',
             'useoldversionlist': 'Use Old Version List',
             'showscriptall': 'Show Scripts in All Languages',
@@ -318,6 +320,7 @@ const translate = (function () {
             'enableautologin': '启用自动登录',
             'account': '账号',
             'password': '密码',
+            'greasyfork_secret': '二次秘钥(2FA)',
             'listdisplayinstallationdownload': '列表显示安装下载',
             'useoldversionlist': '使用旧版列表',
             'showscriptall': '显示所有语言脚本',
@@ -1057,6 +1060,7 @@ const translate = (function () {
         shouwtotalonuserpage: { default: true, comment: '主页显示数量' },
         userpassword: { default: '', comment: '账号密码' },
         useremail: { default: '', comment: '账号邮箱' },
+        greasyfork_secret: { default: '', comment: '2FA动态验证码秘钥' },
         userautologin: { default: false, comment: '使用自动登录' },
         Expandsubmenu: { default: false, comment: '展开导航栏上的"更多"' },
         useroutline: { default: true, comment: '使用侧边导航栏' },
@@ -3276,7 +3280,8 @@ button:focus {
     createCategory('checkLogin', translate('enableautologin'), [
         { type: 'checkbox', id: 'userautologin', label: translate('enableautologin'), checked: userautologin, onchange: function () { updateAndSetValue('userautologin', this.checked) } },
         { type: 'text', id: 'useremail', label: translate('account'), value: useremail },
-        { type: 'text', id: 'userpassword', label: translate('password'), value: userpassword }
+        { type: 'text', id: 'userpassword', label: translate('password'), value: userpassword },
+        { type: 'text', id: 'greasyfork_secret', label: translate('greasyfork_secret'), value: greasyfork_secret }
     ], 1)
     createCategory('sl', translate('scriptlist'), [
         { type: 'checkbox', id: 'showinstallbutton', label: translate('listdisplayinstallationdownload'), checked: showinstallbutton, onchange: function () { updateAndSetValue('showinstallbutton', this.checked) } },
@@ -4763,6 +4768,10 @@ cursor: pointer;
         await waitForElement('span.sign-in-link a[rel=nofollow]')
         let user = useremail
         let pwd = userpassword
+        let secret
+        if (greasyfork_secret != '') {
+            secret = await generateTOTP(greasyfork_secret)
+        }
         if (!user) {
             Toast(translate('nostoredaccount'), 1000, '#ff6347', '#ffffff', 'top')
             return
@@ -4788,6 +4797,7 @@ cursor: pointer;
                 'user[email]': user,
                 'user[password]': pwd,
                 'user[remember_me]': '1',
+                'user[otp_attempt]': secret,
                 commit: '登录'
             })
         })
