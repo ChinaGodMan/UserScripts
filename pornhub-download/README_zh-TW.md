@@ -59,9 +59,9 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/pornhub-download/pornhub-download.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/528800">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Pornhub 视频一键下载 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新記錄</summary><h1><strong>🛠️ Pornhub 視頻一鍵下載 更新日誌</strong></h1>
 <h3><strong>📅 2025.05.01.0128</strong></h3>
-<p><strong>修复</strong>: 删除掉下载视频时，文件名尾随空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
+<p><strong>修復</strong>: 刪除掉下載視頻時，文件名尾隨空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
 <hr />
 <h3><strong>📅 2025.03.05.0145</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
