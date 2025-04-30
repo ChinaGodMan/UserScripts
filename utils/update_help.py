@@ -1,17 +1,9 @@
 from content_snippet import get_file_description
 from writer import process_file
 from helper import get_md_files
+from helper import read_json
 import os
-import sys
-import json
-sys.dont_write_bytecode = True
-script_dir = os.path.dirname(os.path.abspath(__file__))
-NEW_CONTENT_PATH = os.path.join(script_dir, 'docs/HELP.md')
-
-
-def read_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return json.load(file)
+NEW_CONTENT_PATH = 'utils/templates/HELP.md'
 
 
 def get_new_content():

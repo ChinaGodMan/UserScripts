@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/04/30,Wednesday 04:42:07
+# Last Modified: 2025/04/30,Wednesday 16:14:47
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -20,9 +20,9 @@ import io
 import json
 
 
-# 找md文件,并排除特定文件
+# 找md文件,并排除特定文件,不直接获取含有`README`字符的文件,以防未来增加新功能.
 def get_md_files(directory):
-    file = read_json("docs/excluded_json_files.json")
+    file = read_json("utils/docs/excluded_json_files.json")
     excluded_files = file.get("files", [])
     return [file for file in os.listdir(directory)
             if file.lower().endswith('.md') and file.lower() not in [f.lower() for f in excluded_files]]
