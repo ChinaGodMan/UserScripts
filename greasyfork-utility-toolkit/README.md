@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>Greasyfork 糊裱匠</h1>
     <p>「 为 Greasyfork 提供各种使用功能，绝对时间，网页宽屏，脚本页增强，下载拓展，面板修复等一系列操作 」</p>
@@ -61,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+<h3><strong>📅 2025.04.30.1902</strong></h3>
+<p><strong>新增</strong>: • 支持 Greasy Fork <code>2FA</code> (二次验证)<br></p>
+<hr />
 <h3><strong>📅 2025.04.28.2229</strong></h3>
 <p><strong>修复</strong>: • <code>GreasyFork</code>近日支持<code>深色模式</code>,脚本的设置界面在<code>深色模式</code>无法显示出文字的问题.<a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a> <br>
 <strong>优化</strong>: • 脚本双列显示<code>CSS</code> 排除掉<code>discussions</code>页面.</p>

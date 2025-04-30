@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>Greasyfork Thợ làm keo</h1>
     <p>「 vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động 」</p>
@@ -60,74 +59,77 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ Greasyfork Dán nhà sản xuất giàn khoan Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+<h3><strong>📅 2025.04.30.1902</strong></h3>
+<p><strong>新增</strong>: • 支持 Greasy Fork <code>2FA</code> (二次验证)<br></p>
+<hr />
 <h3><strong>📅 2025.04.28.2229</strong></h3>
-<p><strong>Sửa chữa</strong>: • <code>GreasyFork</code>Hỗ trợ gần đây<code>Chế độ tối</code>,Giao diện Cài đặt tập lệnh là<code>Chế độ tối</code>Vấn đề không hiển thị văn bản.<a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a> <br>
-<strong>tối ưu hóa</strong>: • Hiển thị cột đôi của tập lệnh<code>CSS</code> Loại trừ<code>discussions</code>trang.</p>
+<p><strong>修复</strong>: • <code>GreasyFork</code>近日支持<code>深色模式</code>,脚本的设置界面在<code>深色模式</code>无法显示出文字的问题.<a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a> <br>
+<strong>优化</strong>: • 脚本双列显示<code>CSS</code> 排除掉<code>discussions</code>页面.</p>
 <hr />
 <h3><strong>📅 2024.12.12.2116</strong></h3>
-<p><strong>tối ưu hóa</strong>: • Tối ưu hóa gói ngôn ngữ Việt Nam，tri ân<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> dịch。</p>
+<p><strong>优化</strong>: • 优化越南语言包，感谢<a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/270373">RenjiYuusei</a> 翻译。</p>
 <h3><strong>📅 2024/9/29 11:47 - Ver 2.2.0.92</strong></h3>
-<p><strong>Mới</strong>: • Thêm trang chủ cá nhân <code>Ẩn tin nhắn riêng tư</code>。</p>
+<p><strong>新增</strong>: • 个人主页添加 <code>隐藏私信</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/29 02:37 - Ver 2.2.0.70</strong></h3>
-<p><strong>Mới</strong>: • Trang chi tiết tập lệnh，Thêm tất cả danh sách tập lệnh <code>Xếp hạng kịch bản</code>。</p>
+<p><strong>新增</strong>: • 脚本详情页，所有脚本列表添加 <code>脚本评分</code>。</p>
 <hr />
 <h3><strong>📅 2024/8/27 13:37 - Ver 2.2.0.65</strong></h3>
-<p><strong>Sửa chữa</strong>: • Khắc phục sự cố tương thích。</p>
+<p><strong>修复</strong>: • 修复兼容性问题。</p>
 <hr />
 <h3><strong>📅 2024/8/26 08:32 - Ver 2.2.0.62</strong></h3>
-<p><strong>Mới</strong>: • Thêm nút tải xuống ở đầu danh sách tập lệnh，Bấm để tải xuống tất cả các tập lệnh。</p>
+<p><strong>新增</strong>: • 在脚本列表顶部添加下载按钮，点击下载所有脚本。</p>
 <hr />
 <h3><strong>📅 2024/8/24 03:23 - Ver 2.2.0.59</strong></h3>
-<p><strong>tối ưu hóa</strong>: • Tối ưu hóa vị trí hiển thị biểu tượng danh sách tập lệnh。</p>
+<p><strong>优化</strong>: • 优化脚本列表图标显示位置。</p>
 <hr />
 <h3><strong>📅 2024/8/23 06:12 - Ver 2.2.0.57</strong></h3>
-<p><strong>tối ưu hóa</strong>: • Tối ưu hóa mã giao diện。</p>
+<p><strong>优化</strong>: • 优化设置界面代码。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>Sửa chữa</strong>: • Đã sửa lỗi hiển thị sự nhầm lẫn trên thiết bị di động bằng cài đặt tập lệnh。</p>
+<p><strong>修复</strong>: • 修正脚本设置界面在移动设备上显示错乱问题。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
-<p><strong>Mới</strong>: • Đã thêm gói ngôn ngữ Việt Nam，Cảm ơn cư dân mạng <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> dịch。</p>
+<p><strong>新增</strong>: • 增加越南语言包，感谢网友 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 翻译。</p>
 <hr />
 <h3><strong>📅 2024/8/13 04:43 - Ver 2.2.0.44</strong></h3>
-<p><strong>Mới</strong>: • Tăng WebHook Trang quản lý tập lệnh nhảy nhanh。</p>
+<p><strong>新增</strong>: • 增加 WebHook 页快捷跳转脚本管理。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>Sửa chữa</strong>: • Đã sửa lỗi nghe động do các thay đổi quy tắc nghe。
-<strong>Mới</strong>: • Quy tắc nghe tăng：<code>user-script-list-section browse-script-list</code>。</p>
+<p><strong>修复</strong>: • 修复监听规则变化导致动态监听失败。
+<strong>新增</strong>: • 监听规则增加：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
-<p><strong>tối ưu hóa</strong>: • sao chép <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Mới trong CSS。</p>
+<p><strong>优化</strong>: • 复制 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的新 CSS。</p>
 <hr />
 <h3><strong>📅 2024/7/17 - Ver 2.2.0.9</strong></h3>
-<p><strong>Mới</strong>:
-• Tăng <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Các tập lệnh trong các cột đôi được hiển thị。
-• Tăng <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Làm đẹp thanh điều hướng。
-• Thêm thanh hoạt động bên trang web cố định。</p>
+<p><strong>新增</strong>:
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的脚本双列显示。
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的美化导航栏。
+• 增加固定网站侧边操作栏。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.8</strong></h3>
-<p><strong>Mới</strong>: • Hoàn thành hỗ trợ ngôn ngữ truyền thống。</p>
+<p><strong>新增</strong>: • 完全的繁体语言支持。</p>
 <hr />
 <h3><strong>📅 2024/7/15 - Ver 2.2.0.7</strong></h3>
-<p><strong>Mới</strong>:
-• Thêm công tắc thanh điều hướng bên。
-• Thêm tác nhân hình ảnh（Không tương thích khi được bật <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a> Hình ảnh duyệt）。
-<strong>Sửa chữa</strong>:
-• Đã sửa một sự cố trong đó việc duyệt ảnh trên thiết bị di động vượt quá trình duyệt。
-• Sửa đổi tự động kiểm tra làm đẹp khi chỉnh sửa mã。</p>
+<p><strong>新增</strong>:
+• 增加侧边导航栏开关。
+• 增加图片代理（开启时不兼容 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a> 中的图片浏览）。
+<strong>修复</strong>:
+• 修复在移动设备上浏览图片超出浏览器外的问题。
+• 修改在编辑代码时自动勾选美化。</p>
 <hr />
 <h3><strong>📅 2024/7/14 - Ver 2.2.0.6</strong></h3>
-<p><strong>Mới</strong>:
-• Thêm thanh điều hướng để mở rộng "Hơn"。
-• Tăng <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork Nâng cao</a> Thanh điều hướng bên trong。
-<strong>tối ưu hóa</strong>: • Cải thiện hỗ trợ cho đa ngôn ngữ。</p>
+<p><strong>新增</strong>:
+• 添加导航栏展开 "更多"。
+• 增加 <a href="https://greasyfork.org/zh-CN/scripts/467078">Greasy Fork 增强</a> 中的侧边导航栏。
+<strong>优化</strong>: • 完善对多语言的支持。</p>
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
-<p><strong>Mới</strong>: • Thêm đăng nhập tự động <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork tối ưu hóa</a>。
-<strong>Sửa chữa</strong>: • Đã sửa trạng thái cài đặt tập lệnh trên danh sách hiển thị。
-<strong>tối ưu hóa</strong>: • Cải thiện hỗ trợ cho đa ngôn ngữ。</p>
+<p><strong>新增</strong>: • 增加自动登录 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 优化</a>。
+<strong>修复</strong>: • 修复显示列表上的脚本安装状态。
+<strong>优化</strong>: • 完善对多语言的支持。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">
 </div></center>
