@@ -1,3 +1,24 @@
+<!--NAVIGATION-->
+
+<div align="right">
+    <h6>
+        <picture>
+            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+            <img height=14
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+        </picture>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README.md">简体中文</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_en.md">English</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_ko.md">한국어</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
+    </h6>
+</div>
+
+<!--NAVIGATION-END-->
 <!--SHIELDS-->
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
@@ -30,47 +51,8 @@
 </div></center>
 
 <!--SHIELDS-END-->
-<!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
-## Help
 
-Recommended browsers and script managers：
-
--   **Greasemonkey + Waterfox**
--   **Tampermonkey/Violentmonkey + Firefox**
--   **Tampermonkey/Violentmonkey + Chrome**
--   **Userscripts + ios Safari**
--   **Violentmonkey/KiWiBrowser + Android**
-
-**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
-
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-
-### View all publish scripts
-
-<!--HELP-END-->
-<!--NAVIGATION-->
-
-<div align="right">
-    <h6>
-        <picture>
-            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
-            <img height=14
-                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
-        </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_vi.md">Tiếng Việt</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-counter/README_zh-TW.md">繁體中文</a>
-    <br>
-    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
-    </h6>
-</div>
-
-<!--NAVIGATION-END-->
 <!--HISTORY-->
 
 <center><div align="center">
@@ -100,7 +82,26 @@ Recommended browsers and script managers：
 > -   [**ChatGPT Collapse self message and max width**](https://greasyfork.org/scripts/504901): foldChatGPTmedium and long“you”information，and set the maximum width
 
 <!--RELATED-END-->
+<!--HELP-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
+## Help
+
+Recommended browsers and script managers：
+
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**If you need to know more about how to install userscripts,[click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)View graphic teaching!**
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### View all publish scripts
+
+<!--HELP-END-->
 <!--RELATED-网页相关脚本-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
