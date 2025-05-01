@@ -12,12 +12,13 @@ jobs:
   update-script-list:
     if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.conclusion == 'success') }}
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
-          repository: ChinaGodMan/UserScripts
 
       - name: Install dependencies
         run: |

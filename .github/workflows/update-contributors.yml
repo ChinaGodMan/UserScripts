@@ -6,20 +6,19 @@ on:
 jobs:
   update-contributors:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
-          repository: ChinaGodMan/UserScripts
-
       - name: Generate Contributors Images
         uses: jaywcjlove/github-action-contributors@main
         id: contributors
         with:
           filter-author: (action-assistant\[bot\]|renovate\[bot\]|renovate-bot|@github-actions-bot|dependabot\[bot\]|ImgBotApp|imgbot\[bot\])
           avatarSize: 42
-
       - name: Modify docs/README.md
         run: |
           escapedHtmlList=$(echo -e '${{steps.contributors.outputs.htmlList}}' | sed ':a;N;$!ba;s/\n/\\n/g;s/\\n$//')

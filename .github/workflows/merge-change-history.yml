@@ -9,12 +9,13 @@ on:
 jobs:
   run-python:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
-          repository: ChinaGodMan/UserScripts
           fetch-depth: 0 #检查时间用.
 
       - name: 安装依赖
