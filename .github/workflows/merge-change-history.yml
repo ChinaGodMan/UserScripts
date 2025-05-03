@@ -3,11 +3,14 @@ name: merge-change-history
 on:
   push:
     paths:
-      - "**/CHANGELOG.md" # 更新日志
+      - "**/CHANGELOG.md" # 脚本更新日志
+      - "**/README.md" # 脚本介绍文件
+      - "docs/ScriptsPath.json" # 脚本列表
   workflow_dispatch:
 
 jobs:
   run-python:
+    if: ${{ github.event.commits[0].committer.username != 'ChinaGodBot' }}
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
@@ -19,40 +22,42 @@ jobs:
           fetch-depth: 0 #检查时间用.
 
       - name: 安装依赖
-        run: |
-          pip install markdown beautifulsoup4 pyotp
+        run: pip install markdown beautifulsoup4 pyotp
 
       - name: 检查新脚本
-        run: |
-          python utils/script-import-sync.py
+        run: python utils/script-import-sync.py
         env:
           GFU: ${{ secrets.GFU }}
           GFP: ${{ secrets.GFP }}
           GREASYFORK_TOTP_SECRET: ${{ secrets.GREASYFORK_TOTP_SECRET }}
 
       - name: 相关脚本
-        run: |
-          python utils/update_related_scripts.py
+        run: python utils/update_related_scripts.py
 
       - name: 导航栏
-        run: |
-          python utils/navigation.py
+        run: python utils/navigation.py
 
       - name: 徽章信息
-        run: |
-          python utils/update_shields.py
+        run: python utils/update_shields.py
 
       - name: 帮助信息
-        run: |
-          python utils/update_help.py
+        run: python utils/update_help.py
 
       - name: 所有脚本
-        run: |
-          python utils/update_related_all_scripts.py
+        run: python utils/update_related_all_scripts.py
 
       - name: 变更日志
-        run: |
-          python utils/merge_change_history.py
+        run: python utils/merge_change_history.py
+
+      - name: 刷新仓库自述中的脚本列表
+        run: python utils/update_scripts_list.py
+
+      - name: 翻译仓库自述
+        run: python utils/translate_force_chinese_to_lang.py
+
+      - name: 翻译脚本自述
+        run: python utils/translate_chinese_to_filelang.py
+
       - name: 设置机器人提交
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
@@ -64,14 +69,7 @@ jobs:
         run: |
           git pull
           git add .
-          git commit -n -m "docs(ci): 📝 更新[\`脚本自述==>README_[lang].md\`]" \
-                      -m "合并日志:/Change history/README.md → README_[lang].md" \
-                      -m "刷新徽章:utils/docs/SHIELDS.md → README_[lang].md" \
-                      -m "刷新帮助:utils/docs/HELP.md → README_[lang].md" \
-                      -m "相关脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
-                      -m "所有脚本:docs/ScriptsPath.json[script.relatedscripts] → README_[lang].md" \
-                      -m "语言导航: → README_[lang].md" \
-          || true
+          git commit -n -m "docs(sync): 📝 同步[\`[script]/README_[lang].md\`] [\`docs/[lang]/README.md\`]" || true
           git push
           if [ $? -ne 0 ]; then
             git pull --rebase

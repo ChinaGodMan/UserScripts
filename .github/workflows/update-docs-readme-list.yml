@@ -1,11 +1,11 @@
 name: update-docs-readme-list
 
 on:
-  workflow_run:
-    workflows:
-      - "merge-change-history" # 操作所有raedme.md后刷新[docs/README.md]中的列表
-    types:
-      - completed
+  #workflow_run:
+  #  workflows:
+  #    - "merge-change-history" # 操作所有raedme.md后刷新[docs/README.md]中的列表
+  #  types:
+  #    - completed
   workflow_dispatch:
 
 jobs:

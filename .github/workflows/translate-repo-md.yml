@@ -1,10 +1,10 @@
 name: translate-repo-md
 
 on:
-  workflow_run:
-    workflows: ["update-docs-readme-list"] # 更新了仓库自述文件,触发翻译
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: ["update-docs-readme-list"] # 更新了仓库自述文件,触发翻译
+  #  types:
+  #    - completed
   workflow_dispatch:
 
 jobs:

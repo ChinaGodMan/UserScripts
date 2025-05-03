@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/04/30,Wednesday 16:14:47
+# Last Modified: 2025/05/03,Saturday 14:34:24
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -38,8 +38,28 @@ def read_file_to_memory(file_path):
     return lines
 
 
+def is_file_modified(file_path):
+    try:
+        result = subprocess.run(
+            ["git", "status", "-s", file_path],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        if result.stdout.strip():
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(f"发生错误：{e}")
+        return False
+
+
 # 检查文件提交时间是否超过指定时间
 def is_file_updated_more_than(file_path, timeout_minutes):
+    # 对于被修改的文件,直接返回False
+    if (is_file_modified(file_path)):
+        return False
     try:
         result = subprocess.run(
             ['git', 'log', '-1', '--format=%ct', file_path],

@@ -1,11 +1,11 @@
 name: translate-script-readme
 
 on:
-  workflow_run:
-    workflows:
-      - "merge-change-history" # 操作所有raedme.md后进行翻译
-    types:
-      - completed
+  #workflow_run:
+  #  workflows:
+  #    - "merge-change-history" # 操作所有raedme.md后进行翻译
+  #  types:
+  #    - completed
   workflow_dispatch:
 
 jobs:
