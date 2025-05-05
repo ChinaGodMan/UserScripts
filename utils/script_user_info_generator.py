@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/25,Tuesday 00:10:21
+# Last Modified: 2025/05/05,Monday 18:15:44
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -19,7 +19,9 @@ import requests
 import json
 import argparse
 from content_snippet import get_file_description
+from helper import get_md_files
 from writer import process_file_plus
+from helper import is_file_updated_more_than
 
 
 def fetch_script_json(greasyfork_id, is_sleazy=False):
@@ -51,12 +53,19 @@ def process_script_ids(input_file):
     result_text = []
     try:
         with open(input_file, 'r', encoding='utf-8') as infile:
-            for line in infile:
-                greasyfork_id = line.strip()
+            first_line = infile.readline().strip()
+            if first_line.startswith("<!--") and first_line.endswith("-->"):
+                greasyfork_ids = first_line[4:-3].split(',')
+                print(f"GreasyFork ID: {greasyfork_ids}")
+            else:
+                print(f"错误：第一行格式无效 {first_line}")
+                return None
+
+            for greasyfork_id in greasyfork_ids:
+                greasyfork_id = greasyfork_id.strip()
                 if not greasyfork_id.isdigit():
                     print(f"警告：跳过无效的脚本编号 {greasyfork_id}")
                     continue
-
                 result = fetch_script_json(int(greasyfork_id))
                 if result:
                     result_text.append(result)
@@ -71,32 +80,6 @@ def process_script_ids(input_file):
     return None
 
 
-# 检查脚本id是否已经被写入到README.md中
-def check_scripts_in_links(input_file, old_links_text):
-    """_summary_: 检查脚本id是否已经被写入到README.md中
-
-    Args:
-        input_file (str): 要检查的id文件路径
-        old_links_text (str): 旧的内容
-
-    Returns:
-        bool: 如果存在返回True(如果文件是空的,也返回True)否则返回False
-    """
-    try:
-        with open(input_file, 'r', encoding='utf-8') as infile:
-            for line in infile:
-                greasyfork_id = line.strip()
-                if not greasyfork_id.isdigit():
-                    return False
-                search_string = f"scripts/{greasyfork_id}"
-                if search_string not in old_links_text:
-                    return False
-        return True
-    except FileNotFoundError:
-        print(f"文件 {input_file} 未找到，请检查路径。")
-        return False
-
-
 def main():
     parser = argparse.ArgumentParser(description="从指定文件读取脚本编号并输出脚本信息")
     parser.add_argument(
@@ -105,40 +88,46 @@ def main():
     start_tag = "<!--AUTHORS-->"
     end_tag = "<!--AUTHORS-END-->"
     args = parser.parse_args()
-    input_file = args.input
+    script_directory = args.input
+    authors_file = script_directory + '/AUTHORS.md'
+    others = get_file_description(authors_file, '<!--OTHERS-->', '<!--OTHERS-END-->')
 
-    # 多重验证................
-
-    # 文件不存在直接结束这个.
-    if not os.path.exists(input_file + '/authors'):
-        print(f"==> \033[38;2;255;0;0m文件 {input_file} 不存在！\033[0m")
+    # 跳过未变动文件
+    if is_file_updated_more_than(authors_file, 5):
         sys.exit()
 
-    old_scripts_link = get_file_description(input_file + '/README.md', start_tag, end_tag)
-
-    # 从脚本id使用正则表达式匹配原来的旧信息 如果文件是空的,或者没有新的脚本加入
-    if (check_scripts_in_links(input_file + '/authors', old_scripts_link)):
-        print(f"==> \033[38;2;255;0;0m文件 {input_file} 未发现新的脚本ID\033[0m")
+    # 文件不存在直接结束
+    if not os.path.exists(authors_file):
+        print(f"==> \033[38;2;255;0;0m文件 {script_directory} 不存在！\033[0m")
         sys.exit()
 
     # 生产最新的内容
-    result_text = process_script_ids(input_file + '/authors')
+    result_text = process_script_ids(authors_file)
 
-    #  没有字也退出.
-    if result_text is None or result_text.strip() == "":
-        print(f' ==> \033[38;2;255;0;0m[{input_file}/authors] 结果为空\033[0m')
+    #  构建的greasyfork网站的链接和其他引用信息都为空.
+    if not result_text and not others:
+        print(f' ==> \033[38;2;255;0;0m[{authors_file}] 没有内容\033[0m')
         sys.exit()
     scripts_link = '## 💖 脚本参考或使用了以下脚本:\n' + result_text
 
+    # 写出到`authors_file`
+    process_file_plus(authors_file, scripts_link, start_tag, end_tag, "<!--HISTORY-END-->", "below")
+
+    # greasyfork的链接和其他引用拼接起来
+    if others:
+        # 没有greasyfrok的链接，不添加换行符
+        scripts_link += f'<br>\n{others}' if result_text else others
+
+    old_scripts_link = get_file_description(script_directory + '/README.md', start_tag, end_tag)
+
     # 新的脚本链接和旧的脚本链接一样，也不用更新.
-    if old_scripts_link == scripts_link:
-        print(f' ==> \033[38;2;255;0;0m[{input_file}/README.md] 描述未变化\033[0m')
+    if scripts_link == old_scripts_link:
+        print(f' ==> \033[38;2;255;0;0m[{script_directory}/README.md] 描述未变化\033[0m')
     else:
-        for file in os.listdir(input_file):
-            if file.endswith('.md'):
-                file_path = os.path.join(input_file, file)
-                print(file_path)
-                process_file_plus(file_path, scripts_link, start_tag, end_tag, "<!--HISTORY-END-->", "below")
+        md_files = get_md_files(script_directory)
+        for md_file in md_files:
+            file_path = os.path.join(script_directory, md_file)
+            process_file_plus(file_path, scripts_link, start_tag, end_tag, "<!--HISTORY-END-->", "below")
 
 
 if __name__ == "__main__":
