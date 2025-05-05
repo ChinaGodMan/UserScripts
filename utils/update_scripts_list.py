@@ -33,6 +33,9 @@ def generate_description(all_scripts, single_group=False):
 # 生成 HTML 表格
 def generate_html_table(scripts):
     html_table = ''''''
+    template_path = "utils/templates/ScriptCard.html"
+    with open(template_path, 'r', encoding='utf-8') as file:
+        html_template = file.read()
     for script in scripts:
         img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
         script_id = script.get("greasyfork_id")
@@ -43,7 +46,7 @@ def generate_html_table(scripts):
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
         # ! 对没有预览截图的脚本,只显示介绍就行了
-        screenshot_block = f'''<details>
+        details_block = f'''<details>
     <summary>{script_description}</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
@@ -51,30 +54,14 @@ def generate_html_table(scripts):
     </blockquote>
 </details>''' if img_tag else script_description
 
-        html_table += f'''<h3>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="{script.get("icon")}"><img width=18 src="{script.get("icon")}" width=18></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">{script_name}</a>&nbsp;
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/{script_id}?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
-</h3>
-
-{screenshot_block}
-
-<blockquote>
-    <a href="https://greasyfork.org/scripts/{script_id}">
-        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/{script_id}">
-        Greasemonkey</a> /
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/#readme">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/#readme">
-        自述文件</a> /
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
-        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a>
-</blockquote>
-        '''
+        html_table += html_template.format(
+            script_name=script_name,
+            script_description=script_description,
+            script_fold=script_fold,
+            script_id=script_id,
+            icon=script.get("icon"),
+            details_block=details_block
+        )
 
     return html_table
 
