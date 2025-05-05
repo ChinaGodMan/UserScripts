@@ -1,4 +1,4 @@
-name: dependabot-auto-merge
+name: Auto Merge
 on:
   pull_request_target:
     types:
@@ -32,16 +32,25 @@ jobs:
               const commitTitle= `${pr.title} (#${pr.number})`;
               const commitMessage = `Signed-off-by: dependabot[bot]\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>`;
               console.log(`提交信息: ${commitTitle}`);
+              //批准PR
+              await github.rest.pulls.createReview({
+                owner,
+                repo,
+                pull_number: pr.number,
+                event: 'APPROVE'
+                });
+
+              // 合并PR
               await github.rest.pulls.merge({
                 owner,
                 repo,
                 pull_number: pr.number,
                 merge_method: "squash",  // 挤压合并
-                commit_title: commitTitle,
-                commit_message: commitMessage,
+                commit_title: commitTitle
+                //commit_message: commitMessage,
               });
 
-              // 合并成功后删除分支
+              // 删除分支
               console.log(`PR 合并成功，删除分支: ${pr.head.ref}`);
               await github.rest.git.deleteRef({
                 owner,
