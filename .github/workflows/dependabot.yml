@@ -30,7 +30,7 @@ jobs:
             try {
               console.log(`尝试合并 PR: ${pr.html_url}`);
               const commitTitle= `${pr.title} (#${pr.number})`;
-              const commitMessage = `Signed-off-by: dependabot[bot]\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>`;
+              const commitMessage = `Signed-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>`;
               console.log(`提交信息: ${commitTitle}`);
               //批准PR
               await github.rest.pulls.createReview({
@@ -46,8 +46,8 @@ jobs:
                 repo,
                 pull_number: pr.number,
                 merge_method: "squash",  // 挤压合并
-                commit_title: commitTitle
-                //commit_message: commitMessage,
+                commit_title: commitTitle,
+                commit_message: commitMessage,
               });
 
               // 删除分支
