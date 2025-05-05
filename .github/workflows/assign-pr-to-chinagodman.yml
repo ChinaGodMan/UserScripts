@@ -1,4 +1,4 @@
-name: assign-pr-to-creator
+name: Assign PR to ChinaGodMan
 
 on:
   pull_request_target:

@@ -1,4 +1,4 @@
-name: assign-issue-to-creator
+name: Assign issue to ChinaGodMan
 
 on:
   issues:
