@@ -62,8 +62,13 @@
 
 💡 **Tip:** _To display preview screenshot，Please click on the extension name below ▸ Or description。_
 
+<!--SCRIPTS_COUNT-->
+**Currently published in this repository57A script,The script includes:**
+<h6><a href="#ChatGPTRelated scripts-5">ChatGPTRelated scripts (5)</a> | <a href="#网页Related scripts-10">网页Related scripts (10)</a> | <a href="#GitHubRelated scripts-13">GitHubRelated scripts (13)</a> | <a href="#GoogleRelated scripts-2">GoogleRelated scripts (2)</a> | <a href="#GreasyFork相关脚本-11">GreasyFork相关脚本 (11)</a> | <a href="#Adult scripts-10">Adult scripts (10)</a> | <a href="#Automatic translation-3">Automatic translation (3)</a> | <a href="#Social Media Scripts-3">Social Media Scripts (3)</a></h6>
+<!--SCRIPTS_COUNT-END-->
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTRelated scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTRelated scripts (5)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">ChatGPTCode font size reduced</a>&nbsp;
@@ -87,7 +92,11 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling/chatgpt-code-styling.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-styling/chatgpt-code-styling.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">
@@ -119,7 +128,11 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
@@ -151,7 +164,11 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
@@ -183,7 +200,11 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter/chatgpt-counter.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
@@ -215,9 +236,13 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/chatgpt-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-plus/chatgpt-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Web page related scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Web page related scripts (10)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Web page writing clip version authorization manager</a>&nbsp;
@@ -247,7 +272,11 @@ ChatGPT Make code font smaller and automatically wrap
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/clipboard-manager.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clipboard-manager/clipboard-manager.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">
@@ -273,7 +302,11 @@ Go to your fucking CSDN login and copy, you can copy without logging in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/csdn-blocker.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
@@ -305,7 +338,11 @@ Go to your fucking CSDN login and copy, you can copy without logging in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/colorful-table.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/colorful-table/colorful-table.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
@@ -337,7 +374,11 @@ Go to your fucking CSDN login and copy, you can copy without logging in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords/highlight-keywords.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords/highlight-keywords.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">
@@ -363,7 +404,11 @@ Custom keyword highlighting on web pages including dynamic loading when scrollin
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini/highlight-keywords-mini.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords-mini/highlight-keywords-mini.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
@@ -395,7 +440,11 @@ Custom keyword highlighting on web pages including dynamic loading when scrollin
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/popup-window.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/popup-window/popup-window.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines">
@@ -421,7 +470,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines/remove-link-underlines.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/remove-link-underlines/remove-link-underlines.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
@@ -453,7 +506,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button/scroll-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-button/scroll-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
@@ -485,7 +542,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/scroll-to-top-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-to-top-button/scroll-to-top-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
@@ -517,9 +578,13 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/web-clipper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubRelated scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubRelated scripts (13)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">GitHub Submit information display web view</a>&nbsp;
@@ -549,7 +614,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer/github-commit-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-commit-viewer/github-commit-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
@@ -581,7 +650,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
@@ -613,7 +686,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator/github-repository-navigator.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repository-navigator/github-repository-navigator.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
@@ -645,7 +722,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">
@@ -677,7 +758,11 @@ Remove link underlines on all sites，and handle new links dynamically
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand/github-linguist-expand.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-linguist-expand/github-linguist-expand.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">
@@ -703,7 +788,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization/github-device-authorization.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-device-authorization/github-device-authorization.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
@@ -735,7 +824,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/github-folder-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-folder-downloader/github-folder-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
@@ -767,7 +860,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus/github-raw-file-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-raw-file-plus/github-raw-file-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
@@ -799,7 +896,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/github-repo-size-view.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
@@ -831,7 +932,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date/github-sort-by-date.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-sort-by-date/github-sort-by-date.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">
@@ -863,7 +968,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/github-gist-copier.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
@@ -895,7 +1004,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate/github-comment-translate.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-comment-translate/github-comment-translate.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
@@ -927,9 +1040,13 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/github-starred-repo-note.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleRelated scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleRelated scripts (2)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Google Advanced search assistant</a>&nbsp;
@@ -959,7 +1076,11 @@ existGitHubThe authorization page automatically enters the authorization code an
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/google-advanced-search.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">
@@ -985,9 +1106,13 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites/google-block-search-sites.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkRelated scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkRelated scripts (11)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Greasy fork script pages for URL enhancement</a>&nbsp;
@@ -1017,7 +1142,11 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link/greasyfork-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-link/greasyfork-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
@@ -1049,7 +1178,11 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
@@ -1081,7 +1214,11 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
@@ -1113,7 +1250,11 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
@@ -1145,7 +1286,11 @@ Search for a Google Blocking a specified site
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks/greasyfork-ranks.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-ranks/greasyfork-ranks.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search">
@@ -1171,7 +1316,11 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search/greasyfork-search.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-search/greasyfork-search.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
@@ -1203,7 +1352,11 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
@@ -1235,7 +1388,11 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
@@ -1267,7 +1424,11 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
@@ -1299,7 +1460,11 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/script-finder-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/script-finder-plus/script-finder-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">
@@ -1331,9 +1496,13 @@ Search using GoogleGreasyForkandSleazyForkupper script
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Adult scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Adult scripts (10)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">MissAV Automatic login</a>&nbsp;
@@ -1357,7 +1526,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
@@ -1389,7 +1562,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/xhamster-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
@@ -1421,7 +1598,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader/xnxx-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xnxx-downloader/xnxx-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
@@ -1453,7 +1634,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/xvideos-enhance.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xvideos-enhance/xvideos-enhance.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
@@ -1485,7 +1670,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/pornhub-download.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/pornhub-download/pornhub-download.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">
@@ -1517,7 +1706,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
@@ -1549,7 +1742,11 @@ Detection MissAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer/missav-explorer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-explorer/missav-explorer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper">
@@ -1575,7 +1772,11 @@ Detection ThisAV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper">
@@ -1601,7 +1802,11 @@ Detection JableTV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">
@@ -1633,9 +1838,13 @@ Detection JableTV state,and automatically log in when not logged in
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/missav-enhancer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-enhancer/missav-enhancer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Automatic translation</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Automatic translation (3)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">Foreign Language Terminator</a>&nbsp;
@@ -1659,7 +1868,11 @@ Identify non-Chinese characters. If the length is greater than 5 and the transla
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/no-zh-terminator.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">
@@ -1685,7 +1898,11 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese/translate-only-chinese.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/translate-only-chinese/translate-only-chinese.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
@@ -1717,9 +1934,13 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/smart-translator-tool.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Social Media Scripts</h1><h3>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Social Media Scripts (3)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Twitter/X Hide retweeted posts</a>&nbsp;
@@ -1749,7 +1970,11 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
@@ -1781,7 +2006,11 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/twitter-media-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
@@ -1813,7 +2042,11 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/youtube-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
