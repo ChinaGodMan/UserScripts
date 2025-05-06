@@ -40,8 +40,9 @@ def generate_html_table(scripts):
         img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
         script_id = script.get("greasyfork_id")
         script_fold = script.get("directory")
+        js_name = script.get("js_name")
         # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
-        script_absolute_path = script.get("directory") + "/" + script.get("js_name")
+        script_absolute_path = script.get("directory") + "/" + js_name
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
@@ -56,6 +57,7 @@ def generate_html_table(scripts):
 
         html_table += html_template.format(
             script_name=script_name,
+            js_name=js_name,
             script_description=script_description,
             script_fold=script_fold,
             script_id=script_id,
@@ -81,7 +83,7 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
             # 不分组时，添加分隔符用于区分
-            html_output += f'<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>{related_id}</h1>'
+            html_output += f'<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>{related_id} ({len(scripts)})</h1>'
         html_output += generate_html_table(scripts)
         if use_details:
             print(center_c)
@@ -105,6 +107,10 @@ def main():
     related_scripts_map = generate_description(data.get('scripts', []))
     html_output = generate_grouped_html(related_scripts_map, False, False)
     process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
+    scripts_count = len(data.get('scripts', []))
+    result = " | ".join(f"<a href=\"#{related_id}-{len(scripts)}\">{related_id} ({len(scripts)})</a>" for related_id, scripts in related_scripts_map.items())
+    tip = f"**本储存库中当前发布了{scripts_count}个脚本,脚本包括:**\n<h6>{result}</h6>"
+    process_file(readme_path, tip, "<!--SCRIPTS_COUNT-->", "<!--SCRIPTS_COUNT-END-->", "head")
 
 
 if __name__ == "__main__":
