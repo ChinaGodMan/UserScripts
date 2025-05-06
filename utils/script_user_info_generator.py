@@ -92,15 +92,15 @@ def main():
     authors_file = script_directory + '/AUTHORS.md'
     others = get_file_description(authors_file, '<!--OTHERS-->', '<!--OTHERS-END-->')
 
-    # 跳过未变动文件
-    if is_file_updated_more_than(authors_file, 5):
-        sys.exit()
-
     # 文件不存在直接结束
     if not os.path.exists(authors_file):
         print(f"==> \033[38;2;255;0;0m文件 {script_directory} 不存在！\033[0m")
         sys.exit()
-
+    
+    # 跳过未变动文件
+    if is_file_updated_more_than(authors_file, 5):
+        sys.exit()
+    
     # 生产最新的内容
     result_text = process_script_ids(authors_file)
 
