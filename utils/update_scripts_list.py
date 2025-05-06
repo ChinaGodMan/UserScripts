@@ -1,18 +1,11 @@
 from writer import process_file
 from searcher import search_in_file
-import json
-import sys
+from helper import read_json
+import os
 import argparse
-sys.dont_write_bytecode = True
 
 # 定义需要查找的语言
 LANG_CODE = 'zh-CN'
-
-
-# 读取 JSON 文件
-def read_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return json.load(file)
 
 
 # 生成描述信息，仅针对当前脚本的 relatedscripts
@@ -43,9 +36,18 @@ def generate_html_table(scripts):
         js_name = script.get("js_name")
         # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
         script_absolute_path = script.get("directory") + "/" + js_name
+
+        # 含有更新日志的脚本,显示更新日志链接
+        change_log = script.get("directory") + "/CHANGELOG.md"
+        changelog_block = ""
+        if os.path.exists(change_log):
+            changelog_block = f''' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>'''
+
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
+
         # ! 对没有预览截图的脚本,只显示介绍就行了
         details_block = f'''<details>
     <summary>{script_description}</summary>
@@ -62,7 +64,8 @@ def generate_html_table(scripts):
             script_fold=script_fold,
             script_id=script_id,
             icon=script.get("icon"),
-            details_block=details_block
+            details_block=details_block,
+            changelog_block=changelog_block
         )
 
     return html_table
@@ -77,12 +80,14 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
     if center:
         center_o = '<div align="center">'
         center_c = '</div>'
-    for related_id, scripts in related_scripts_map.items():
+    for index, (related_id, scripts) in enumerate(related_scripts_map.items()):
         # 分组下的内容收缩
         if use_details:
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
             # 不分组时，添加分隔符用于区分
+            if index != 0:
+                html_output += '<div align="right"><a href="#脚本列表">返回目录</a></div>'
             html_output += f'<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>{related_id} ({len(scripts)})</h1>'
         html_output += generate_html_table(scripts)
         if use_details:
