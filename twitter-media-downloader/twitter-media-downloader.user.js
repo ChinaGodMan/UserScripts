@@ -259,8 +259,8 @@
  * File Created: 2025/03/11,Tuesday 08:11:41
  * Author: goemon2017,天音,Tiande,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 17:19:11
- * Last Modified: 2025/04/28,Monday 17:19:11
+ * Last Modified: 2025/05/07,Wednesday 22:10:08
+ * Last Modified: 2025/05/07,Wednesday 22:10:08
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
@@ -403,6 +403,11 @@ const TMD = (function () {
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
+            /*
+            ! 推文中含有转载推文,需要判断这个btn是从转载推文来的,还是当前推文中的媒体.
+            ! 在点击下载全部时,可以合并两个json
+            ! 暂不处理#127
+            */
             let tweet = json.quoted_status_result?.result?.legacy?.media//此媒体存在,属于引用推文
                 || json.quoted_status_result?.result?.legacy
                 || json.legacy
