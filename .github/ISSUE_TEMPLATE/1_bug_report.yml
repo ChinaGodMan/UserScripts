@@ -1,0 +1,83 @@
+name: 🐛 报告BUG
+description: 创建一个脚本的 BUG 报告
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # 感谢你报告错误！⛰
+
+        请填写此表单，帮助我们重现问题。
+
+        - 标题必须格式`[脚本名称-版本]:错误描述`，例如`[外语终结者-1.4.0.0]:无法加载模型`。
+        - 该错误是由 xxxx脚本 引起的。如果我停用该脚本，则不会发生此问题。
+        - 你必须完整的描述你使用的脚本名称和版本号以及你遇到的问题。
+
+        包含的错误信息:
+
+        - 错误的截图/视频/gif（如果是视觉的）
+        - 控制台错误（如有）
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 预期行为
+      description: 请描述在没有 bug 的情况下你期望看到的结果。
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: 实际行为
+      description: 请描述在 bug 出现时实际看到的结果。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: 复现步骤
+      description: 请详细描述如何复现该 bug 的步骤,包括截图,发生的网页地址等
+      placeholder: |
+        1. 打开 xxx 页面
+        2. 点击 yyy 按钮
+        3. 滚动到 zzz 部分
+        4. 看到错误
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 使用的浏览器
+      description: Chrome 91 / Firefox 89 / Safari 14
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 操作系统
+      description: Windows 10 / Mac os X 11 / Ubuntu 20.04 / iOS 14/ Android 11
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 脚本版本
+      description: 请输入你正在使用的脚本版本
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: 其他信息
+      description: 如果你有其他认为有助于解决此问题的信息，请在这里提供。
+  - type: checkboxes
+    attributes:
+      label: 我已确认 BUG 真实存在
+      options:
+        - label: 该 BUG 真实存在，请尽快修复
+          required: true
