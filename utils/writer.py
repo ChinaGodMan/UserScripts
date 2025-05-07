@@ -63,7 +63,7 @@ def process_file_plus(file_path, new_content, start_tag, end_tag, insert_positio
             new_lines.append(f"{end_tag}\n")
 
     # 写回文件
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8', newline='\n') as file:
         file.writelines(new_lines)
     print(f"Processed {file_path}")
 
@@ -98,6 +98,6 @@ def process_file(file_path, new_content, start_tag, end_tag, insert_position):
             if end_index == -1:  # 如果结束标记没有找到
                 new_lines.append(f"{end_tag}\n")
     # 写回文件
-    with open(file_path, 'w', encoding='utf-8') as file:
+    with open(file_path, 'w', encoding='utf-8', newline='\n') as file:
         file.writelines(new_lines)
     print(f"Processed {file_path}")
