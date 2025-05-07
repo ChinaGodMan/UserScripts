@@ -1,4 +1,4 @@
-name: merge-change-history
+name: Sync Readme Files
 
 on:
   push:

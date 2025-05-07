@@ -1,4 +1,4 @@
-name: 人民的勤务员更新脚本
+name: 油猴脚本头部声明块格式化
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   update-chinagodman-commit:
-    if: ${{ github.event.commits[0].committer.username != 'ChinaGodBot' }}
+    if: ${{ github.event.commits[0].committer.email == 'china.qinwuyuan@gmail.com' }}
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
@@ -32,7 +32,7 @@ jobs:
           echo "$COMMIT_MSG" | sed 's/`/\`/g' >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-      - name: 根目录脚本__更新py
+      - name: Format
         run: |
           python utils/format-changed-scripts.py
       - name: 设置机器人提交
