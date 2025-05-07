@@ -60,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ Greasyfork Paste the rigging maker Update log</strong></h1>
+<h3><strong>📅 2025.5.7.1</strong></h3>
+<p><strong>i18n</strong>: • <code>Install</code>  Add regionalization<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
+<hr />
 <h3><strong>📅 2025.04.30.1902</strong></h3>
 <p><strong>New</strong>: • support Greasy Fork <code>2FA</code> (Secondary verification)<br></p>
 <hr />
@@ -88,7 +91,7 @@
 <p><strong>optimization</strong>: • Optimize the interface code。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>repair</strong>: • Fixed the problem of displaying confusion on mobile devices by script settings。</p>
+<p><strong>repair</strong>: • Fixed the problem of displaying confusion on mobile devices in the script settings interface。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
 <p><strong>New</strong>: • Added Vietnamese language pack，Thanks to netizens <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> translate。</p>

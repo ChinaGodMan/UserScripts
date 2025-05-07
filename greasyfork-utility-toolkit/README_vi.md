@@ -60,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ Greasyfork Dán nhà sản xuất giàn khoan Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.5.7.1</strong></h3>
+<p><strong>i18n</strong>: • <code>Install</code>  Thêm khu vực hóa<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
+<hr />
 <h3><strong>📅 2025.04.30.1902</strong></h3>
 <p><strong>Mới</strong>: • ủng hộ Greasy Fork <code>2FA</code> (Xác minh thứ cấp)<br></p>
 <hr />
@@ -88,7 +91,7 @@
 <p><strong>tối ưu hóa</strong>: • Tối ưu hóa mã giao diện。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>Sửa chữa</strong>: • Đã sửa lỗi hiển thị sự nhầm lẫn trên thiết bị di động bằng cài đặt tập lệnh。</p>
+<p><strong>Sửa chữa</strong>: • Đã khắc phục sự cố hiển thị sự nhầm lẫn trên thiết bị di động trong giao diện Cài đặt tập lệnh。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
 <p><strong>Mới</strong>: • Đã thêm gói ngôn ngữ Việt Nam，Cảm ơn cư dân mạng <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> dịch。</p>

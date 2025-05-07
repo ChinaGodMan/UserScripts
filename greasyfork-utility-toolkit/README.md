@@ -60,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ Greasyfork 糊裱匠 更新日志</strong></h1>
+<h3><strong>📅 2025.5.7.1</strong></h3>
+<p><strong>i18n</strong>: • <code>Install</code>  添加区域化<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
+<hr />
 <h3><strong>📅 2025.04.30.1902</strong></h3>
 <p><strong>新增</strong>: • 支持 Greasy Fork <code>2FA</code> (二次验证)<br></p>
 <hr />

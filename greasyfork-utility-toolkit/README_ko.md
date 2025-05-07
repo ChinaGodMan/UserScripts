@@ -60,6 +60,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
             Fork</a></p><details><summary>레코드 업데이트</summary><h1><strong>🛠️ Greasyfork 리깅 메이커를 붙여 넣으십시오 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.5.7.1</strong></h3>
+<p><strong>i18n</strong>: • <code>Install</code>  지역화를 추가하십시오<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
+<hr />
 <h3><strong>📅 2025.04.30.1902</strong></h3>
 <p><strong>새로운</strong>: • 지원하다 Greasy Fork <code>2FA</code> (보조 검증)<br></p>
 <hr />
@@ -88,7 +91,7 @@
 <p><strong>최적화</strong>: • 인터페이스 코드를 최적화하십시오。</p>
 <hr />
 <h3><strong>📅 2024/8/20 02:20 - Ver 2.2.0.53</strong></h3>
-<p><strong>수리하다</strong>: • 스크립트 설정으로 모바일 장치에 혼란을 표시하는 문제를 수정했습니다.。</p>
+<p><strong>수리하다</strong>: • 스크립트 설정 인터페이스의 모바일 장치에 혼란을 표시하는 문제를 수정했습니다.。</p>
 <hr />
 <h3><strong>📅 2024/8/14 17:43 - Ver 2.2.0.47</strong></h3>
 <p><strong>새로운</strong>: • 베트남어 팩이 추가되었습니다，네티즌 덕분에 <a href="https://greasyfork.org/zh-CN/scripts/497346/discussions/255571">RenjiYuusei</a> 번역하다。</p>
