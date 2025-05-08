@@ -121,7 +121,7 @@ def main():
     html_output = generate_grouped_html(related_scripts_map, False, False)
     process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
     scripts_count = len(data.get('scripts', []))
-    result = " | ".join(f"<a href=\"#{related_id}-{len(scripts)}\">{related_id} ({len(scripts)})</a>" for related_id, scripts in related_scripts_map.items())
+    result = " | ".join(f"<a href=\"#{related_id}-{len(scripts)}\">{related_id} ({len(scripts)})</a>\n" for related_id, scripts in related_scripts_map.items())
     tip = f"**本储存库中当前发布了{scripts_count}个脚本,脚本包括:**\n<h6>{result}</h6>"
     process_file(readme_path, tip, "<!--SCRIPTS_COUNT-->", "<!--SCRIPTS_COUNT-END-->", "head")
 

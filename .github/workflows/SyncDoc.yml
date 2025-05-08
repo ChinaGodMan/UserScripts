@@ -58,6 +58,9 @@ jobs:
       - name: 翻译脚本自述
         run: python utils/translate_chinese_to_filelang.py
 
+      - name: 修复其他语言readme导航
+        run: python utils/fix_toc.py
+
       - name: 设置机器人提交
         run: |
           gpg --batch --import <(echo "${{ secrets.GPG_PRIVATE_KEY }}")
