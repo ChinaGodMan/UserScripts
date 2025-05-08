@@ -6,8 +6,8 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
@@ -64,7 +64,15 @@
 
 <!--SCRIPTS_COUNT-->
 **本儲存庫中當前發布了57個腳本,腳本包括:**
-<h6><a href="#ChatGPT相關腳本-5">ChatGPT相關腳本 (5)</a> | <a href="#网页相關腳本-10">网页相關腳本 (10)</a> | <a href="#GitHub相關腳本-13">GitHub相關腳本 (13)</a> | <a href="#Google相關腳本-2">Google相關腳本 (2)</a> | <a href="#GreasyFork相关脚本-11">GreasyFork相关脚本 (11)</a> | <a href="#成人腳本-10">成人腳本 (10)</a> | <a href="#自動翻譯-3">自動翻譯 (3)</a> | <a href="#社交媒體腳本-3">社交媒體腳本 (3)</a></h6>
+<h6><a href="#ChatGPT相關腳本-5">ChatGPT相關腳本 (5)</a>
+ | <a href="#網頁相關腳本-10">網頁相關腳本 (10)</a>
+ | <a href="#GitHub相關腳本-13">GitHub相關腳本 (13)</a>
+ | <a href="#Google相關腳本-2">Google相關腳本 (2)</a>
+ | <a href="#GreasyFork相關腳本-11">GreasyFork相關腳本 (11)</a>
+ | <a href="#成人腳本-10">成人腳本 (10)</a>
+ | <a href="#自動翻譯-3">自動翻譯 (3)</a>
+ | <a href="#社交媒體腳本-3">社交媒體腳本 (3)</a>
+</h6>
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->

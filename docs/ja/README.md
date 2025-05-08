@@ -6,8 +6,8 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/image/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/README.md">简体中文</a> |
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/zh-TW/README.md">繁體中文</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/en/README.md">English</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/ja/README.md">日本語</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/vi/README.md">Tiếng Việt</a>|
@@ -64,7 +64,15 @@
 
 <!--SCRIPTS_COUNT-->
 **現在、このリポジトリに公開されています57スクリプト,スクリプトには含まれます:**
-<h6><a href="#ChatGPT関連するスクリプト-5">ChatGPT関連するスクリプト (5)</a> | <a href="#网页関連するスクリプト-10">网页関連するスクリプト (10)</a> | <a href="#GitHub関連するスクリプト-13">GitHub関連するスクリプト (13)</a> | <a href="#Google関連するスクリプト-2">Google関連するスクリプト (2)</a> | <a href="#GreasyFork相关脚本-11">GreasyFork相关脚本 (11)</a> | <a href="#大人のスクリプト-10">大人のスクリプト (10)</a> | <a href="#自動翻訳-3">自動翻訳 (3)</a> | <a href="#ソーシャルメディアスクリプト-3">ソーシャルメディアスクリプト (3)</a></h6>
+<h6><a href="#ChatGPT関連するスクリプト-5">ChatGPT関連するスクリプト (5)</a>
+ | <a href="#Webページ関連のスクリプト-10">Webページ関連のスクリプト (10)</a>
+ | <a href="#GitHub関連するスクリプト-13">GitHub関連するスクリプト (13)</a>
+ | <a href="#Google関連するスクリプト-2">Google関連するスクリプト (2)</a>
+ | <a href="#GreasyFork関連するスクリプト-11">GreasyFork関連するスクリプト (11)</a>
+ | <a href="#大人のスクリプト-10">大人のスクリプト (10)</a>
+ | <a href="#自動翻訳-3">自動翻訳 (3)</a>
+ | <a href="#ソーシャルメディアスクリプト-3">ソーシャルメディアスクリプト (3)</a>
+</h6>
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
