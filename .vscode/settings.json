@@ -5,7 +5,9 @@
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrap": "off",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+    "editor.trimAutoWhitespace": false,
+    "files.trimTrailingWhitespace": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
