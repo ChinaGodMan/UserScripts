@@ -16,3 +16,4 @@ jobs:
       with:
         file_types: .md
         retry_count: 3
+        include_files: README.md
