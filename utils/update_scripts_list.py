@@ -44,6 +44,13 @@ def generate_html_table(scripts):
             changelog_block = f''' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>'''
 
+        # 含有引用的脚本,显示链接
+        author = script.get("directory") + "/AUTHORS.md"
+        author_block = ""
+        if os.path.exists(author):
+            author_block = f''' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>'''
+
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
@@ -53,7 +60,7 @@ def generate_html_table(scripts):
     <summary>{script_description}</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
-           {img_tag}</a>
+            {img_tag}</a>
     </blockquote>
 </details>''' if img_tag else script_description
 
@@ -65,7 +72,8 @@ def generate_html_table(scripts):
             script_id=script_id,
             icon=script.get("icon"),
             details_block=details_block,
-            changelog_block=changelog_block
+            changelog_block=changelog_block,
+            author_block=author_block,
         )
 
     return html_table
