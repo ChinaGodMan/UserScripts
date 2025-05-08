@@ -113,7 +113,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавьте все языковые коды для CHATGPT (используя hight.js)</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">
-           <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
+            <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
     </blockquote>
 </details>
 
@@ -151,7 +151,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>существовать chatgpt.com Добавьте анимацию в правом нижнем углу верхнего блока кода.“Скопировать код”кнопка и для ChatGPT Блок кода в ответ добавляет кнопку экспорта，Предлагает пользователю сохранить код в файл на основе языка программирования, определенного по имени класса блока кода.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
-           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -189,7 +189,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавьте счетчик символов в поле ввода，ограничено 32732 персонажи。（ChatGPT Предел 32732 персонажи。）</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
-           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -227,7 +227,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>складыватьChatGPTсредний и длинный“ты”информация，и установите максимальную ширину</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -265,7 +265,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Управляйте процессом записи веб-страниц в буфер обмена, чтобы предотвратить несанкционированное автоматическое копирование и отключить предварительную загрузку и автоматическое воспроизведение аудио- и видеоконтента.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
-           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -333,7 +333,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Автоматически применяйте цветовые градиенты ко всем столбцам таблицы, чтобы украсить ее.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
-           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -371,7 +371,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Выделите текст на веб -странице. Если это полезно для вас, вы можете изменить его по своему усмотрению.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
-           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -437,7 +437,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Открыть ссылку во всплывающем окне при перетаскивании ссылки，и предоставьте предварительный просмотр перед открытием，использовать Edge технология предварительного чтения。В то же время добавьте акриловый эффект за маленьким окном, когда оно открыто.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -505,7 +505,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Создайте две кнопки в правой части страницы для прокрутки страницы.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
-           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -541,7 +541,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Создать две кнопки на всех страницах，Один для сглаживания обратно наверх，Один для непрерывной прокрутки вниз，Нажмите еще раз, чтобы отменить прокрутку вниз</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
-           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -579,7 +579,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Инструмент, который преобразует веб -контент в формат разметки, поддерживает такие функции, как копирование, загрузка и отправка в Github и Obsidian.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
-           <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
     </blockquote>
 </details>
 
@@ -600,7 +600,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#Список сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (13)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
@@ -617,7 +619,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Этот сценарий будет GitHub Информация о подаче на HTML вид，чтобы более четко видеть детали отправки。Он автоматически отправит список информации、Заголовок фиксации и последняя информация о фиксации преобразуются в HTML Формат，Обеспечьте лучшие визуальные эффекты и удобство взаимодействия с пользователем.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
-           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -653,7 +655,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Откройте ссылку GitHub на JSDelivr, чтобы быстро загрузить файлы</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
     </blockquote>
 </details>
 
@@ -691,7 +693,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>🤠 Помощник по быстрому переходу на склады GitHub, специально разработанный, чтобы помочь пользователям быстро получить доступ к собственным складам на GitHub. Он создает кнопку в верхней части панели навигации. Нажмите, чтобы развернуть все ваши репозитории и легко перейти на страницу собственного репозитория GitHub, не используя вторичное меню GitHub.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
-           <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
     </blockquote>
 </details>
 
@@ -729,7 +731,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>GitHub File List Beautifier — пользовательский скрипт.，используется для улучшения GitHub Эффект отображения файлов на складе。Он может добавлять цвета к файлам и папкам.，и замените значки типов файлов небольшими изображениями，Упрощает просмотр и управление базой кода.。Добавляйте цвета и значки к файлам по типу，Отображение небольших изображений вместо значков типов файлов в дереве исходного кода репозитория.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
-           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -767,7 +769,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Расширять Github Список языков в репозитории，Показать каждый язык，Вместо того, чтобы прятать мелкие детали в“другой”Вниз</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">
-           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -837,7 +839,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавьте кнопку загрузки，Позволяет легко загружать определенные GitHub папка。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
-           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -875,7 +877,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавить кнопку в конце каждой строки файла，скопировать исходный файл URL и скачать файлы</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -913,7 +915,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>🤠 Размер отображения склада: при поиске кода GitHub, поиске склада, странице задач, списке пользовательских складов и странице репозитория размер склада будет отображаться рядом с названием склада, что позволяет пользователям быстро понять масштаб склада и оптимизировать его. выбор. Предупреждение о неактивности разработки. Если репозиторий не обновлялся в течение последних шести месяцев, система добавит запрос в верхней части репозитория, чтобы напомнить пользователям, что репозиторий неактивен, и отобразит время последнего обновления. Это помогает пользователям определять активность и состояние обслуживания склада. Быстрый переход по складу: при просмотре склада пользователь может легко просмотреть список всех складов пользователя, предоставляя возможность быстрого перехода к различным складам. Пользователи могут быстро находить и получать доступ к другим интересующим проектам, повышая эффективность работы. Сценарии использования: Разработчики: отображая размер хранилища и активные предупреждения, вы можете быстро отфильтровать подходящие библиотеки для разработки и избежать использования проектов, которые больше не поддерживаются. Менеджер проекта: благодаря функции быстрого перехода можно легко управлять несколькими проектами и координировать их, а также повышать эффективность работы. Учащиеся: изучая новые технологии, им легче находить соответствующие проекты с открытым исходным кодом и быстро проверять активность и масштаб проектов. 🤠</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
-           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -934,7 +936,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
@@ -951,7 +955,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Изменить сортировку файлов по убыванию по дате，Удобно просматривать последние обновленные файлы。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
-           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -987,7 +991,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавьте кнопку копирования в файл GIST, чтобы сделать код легко скопированный. |.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">
-           <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
     </blockquote>
 </details>
 
@@ -1008,7 +1012,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
@@ -1025,7 +1031,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Слушайте сочетание клавиш CTRL + Q, который реализует функцию перевода текста и замены результатов перевода на исходное текстовое поле.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
-           <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
     </blockquote>
 </details>
 
@@ -1063,7 +1069,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Вы забыли цель звездных репозитории? Это сценарий, который может добавлять заметки к вашим любимым репозиториям, а информация, которую вы комментарии могут быть загружены и загружены на GitHub Gist</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
-           <img width=511 src="https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png"></a>
     </blockquote>
 </details>
 
@@ -1084,7 +1090,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#Список сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleСвязанные сценарии (2)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
@@ -1101,7 +1109,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавьте форму расширенного поиска в верхнюю часть страницы поиска Google.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
-           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -1169,7 +1177,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Страница сведений о сценарии подходит для поиска без URL -адресов по умолчанию. Обратитесь к кликабельному текстовым ссылкам и всплывают подсказки</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -1205,7 +1213,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>использоватьChart.jsПолучение и визуализация данных пользовательского сценария，И создайте диаграмму на личной домашней странице пользователя, чтобы отобразить подробный статус установки ниже.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
-           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -1243,7 +1251,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>GreaysFork Быстрый ввод информации о синхронизации скриптов，И добавляйте языковые коды для нескольких стран в пакетном режиме.，Вместо того, чтобы щелкать поля выбора одно за другим и переходить на соответствующий URL-адрес.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
-           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -1281,7 +1289,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Формат по умолчанию, используемый на форуме:Markdown，Добавьте ссылку на справку по формату и опубликуйте новый скрипт.,Панель инструментов времени ответа с включенным быстрым редактированием</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
-           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+            <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -1319,7 +1327,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавить рейтинг сценария после имени сценария при просмотре списка сценариев.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
-           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -1385,7 +1393,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Добавить список пользователей на панель навигации,консоль,Коллекция и т. д...</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
-           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -1421,7 +1429,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>для Greasyfork Обеспечить различные функции использования，абсолютное время，Интернет широкоэкранный，Улучшения страницы скрипта，Скачать расширение，Ремонт панели и ряд операций</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
-           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -1459,7 +1467,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Когда появляется новый ответ на ваш сценарий или на обсуждение, в котором вы участвуете.，Скрипт будет отображать последнее содержимое обсуждения в модальном окне на веб-странице.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
-           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -1497,7 +1505,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Script Finder Найти на любом веб-сайте, который относится к этому веб-сайту Сценарий GreasyFork。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1535,7 +1543,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Если ваш сценарий мешает интересам некоторых людей, неудивительно получать вредоносные негативные отзывы. Есть две характеристики вредоносных негативных отзывов: одна из них заключается в том, что учетная запись обычно зарегистрирована, а другая заключается в том, что негативные отзывы будут даны вскоре после регистрации, и в основном не будет последующих действий. Этот сценарий получает время регистрации пользователя Greasyfork и отображается рядом с именем пользователя. Если время, отображаемое рядом с именем пользователя, является будущим временем, то пользователь, вероятно, будет зарегистрирована вредоносной учетной записи.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">
-           <img width=511 src="https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png"></a>
     </blockquote>
 </details>
 
@@ -1556,7 +1564,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#Список сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Взрослые сценарии (10)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
@@ -1605,7 +1615,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>XHAMSTER Скачать с одним щелчком</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
     </blockquote>
 </details>
 
@@ -1643,7 +1653,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Xnxxvideos видео скачать с одним кликом |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
     </blockquote>
 </details>
 
@@ -1681,7 +1691,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>1. Автоматическое воспроизведение 2. Автоматический широкоэкранный 3. Высококачественный воспроизведение 4. Нажмите, чтобы протолкнуть следующий фильм 5. Скачать миниатюры</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
     </blockquote>
 </details>
 
@@ -1719,7 +1729,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Pornhub Video Скачать с одним кликом |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
-           <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
     </blockquote>
 </details>
 
@@ -1757,7 +1767,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Обнюхивать настоящий адрес загрузки видео со текущей страницы воспроизведения Missav и загрузите его</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">
-           <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
     </blockquote>
 </details>
 
@@ -1795,7 +1805,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Получите файлы изображений и информацию о видео с текущей страницы Missav и предоставьте загруженный файл веб -страницы после слияния результатов.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1897,7 +1907,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Удалить объявление |.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">
-           <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
     </blockquote>
 </details>
 
@@ -1997,7 +2007,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Перевод любого языка и ярлык.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
-           <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
+            <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
     </blockquote>
 </details>
 
@@ -2018,7 +2028,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#Список сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии социальных сетей (3)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
@@ -2035,7 +2047,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Автоматически спрятать контент и спрятаться с перенаправленным контентом при первой загрузке, чтобы удалить раздражающие объявления</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
-           <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
     </blockquote>
 </details>
 
@@ -2056,7 +2068,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
@@ -2073,7 +2087,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>Загрузите видео/картинки с одним щелчком, и поддержать автоматическую упаковку в качестве zip -файла для загрузки при загрузке пакетов. Поддержать новый интерфейс API</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
     </blockquote>
 </details>
 
@@ -2094,7 +2108,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
@@ -2111,7 +2127,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <summary>YouTube 1. Playback Video Playback 2. Скачать экрана 3.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
-           <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
+            <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
     </blockquote>
 </details>
 
@@ -2132,7 +2148,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->

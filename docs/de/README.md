@@ -113,7 +113,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <summary>Fügen Sie alle Sprachcode -Hervorhebungen für ChatGPT hinzu (mit Highlight.js).</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">
-           <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
+            <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
     </blockquote>
 </details>
 
@@ -151,7 +151,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <summary>existieren chatgpt.com Fügen Sie in der unteren rechten Ecke des oberen Codeblocks eine Animation hinzu“Code kopieren”Knopf und ein für ChatGPT Als Antwort fügt der Codeblock eine Schaltfläche zum Exportieren hinzu，Fordert den Benutzer auf, Code in einer Datei zu speichern, basierend auf der Programmiersprache, die durch den Klassennamen des Codeblocks erkannt wird。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
-           <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
     </blockquote>
 </details>
 
@@ -189,7 +189,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <summary>Fügen Sie dem Eingabefeld einen Zeichenzähler hinzu，beschränkt auf 32732 Charaktere。（ChatGPT Die Grenze ist 32732 Charaktere。）</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
-           <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
     </blockquote>
 </details>
 
@@ -227,7 +227,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <summary>faltenChatGPTmittel und lang“Du”Information，und stellen Sie die maximale Breite ein</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
     </blockquote>
 </details>
 
@@ -265,7 +265,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <summary>Verwalten Sie das Schreibverhalten von Webseiten in die Zwischenablage, um unbefugtes automatisches Kopieren zu verhindern und das Vorladen von Audio- und Videoinhalten sowie die automatische Wiedergabe zu deaktivieren.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
-           <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
     </blockquote>
 </details>
 
@@ -333,7 +333,7 @@ Gehen Sie zu Ihrem verdammten CSDN -Login und kopieren Sie, Sie können kopieren
     <summary>Wenden Sie automatisch Farbverläufe auf alle Spalten der Tabelle an, um diese zu verschönern</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
-           <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
     </blockquote>
 </details>
 
@@ -371,7 +371,7 @@ Gehen Sie zu Ihrem verdammten CSDN -Login und kopieren Sie, Sie können kopieren
     <summary>Markieren Sie den Text auf der Webseite. Wenn es Ihnen hilfreich ist, können Sie es so ändern, wie Sie möchten.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">
-           <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/oBWsunTIhLKkcrM.png"></a>
     </blockquote>
 </details>
 
@@ -437,7 +437,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <summary>Öffnen Sie den Link im Popup-Fenster, wenn Sie den Link ziehen，und stellen Sie vor dem Öffnen eine Vorschau bereit，verwenden Edge Vorlesetechnologie。Gleichzeitig entsteht hinter dem kleinen Fenster beim Öffnen ein Acryleffekt.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
     </blockquote>
 </details>
 
@@ -505,7 +505,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Generieren Sie zwei Schaltflächen auf der rechten Seite der Seite zum Scrollen der Seite</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
-           <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
     </blockquote>
 </details>
 
@@ -541,7 +541,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Generieren Sie zwei Schaltflächen auf allen Seiten，Eine zum Glätten nach oben，Eine für kontinuierliches Scrollen nach unten，Klicken Sie erneut, um den Bildlauf nach unten abzubrechen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
-           <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
     </blockquote>
 </details>
 
@@ -579,7 +579,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Ein Tool, das Webinhalte in Markdown -Format umwandelt, unterstützt Funktionen wie das Kopieren, Herunterladen und Senden an GitHub und Obsidian.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
-           <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
     </blockquote>
 </details>
 
@@ -600,7 +600,9 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <div align="right"><a href="#Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubVerwandte Skripte (13)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
@@ -617,7 +619,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Dieses Skript wird GitHub Die Einreichungsinformationen zu HTML Sicht，um die Einreichungsdetails klarer zu sehen。Die Informationsliste wird automatisch übermittelt、Der Commit-Header und die neuesten Commit-Informationen werden konvertiert HTML Format，Bieten Sie bessere visuelle Effekte und ein besseres Benutzererlebnis。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
-           <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
     </blockquote>
 </details>
 
@@ -653,7 +655,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Öffnen Sie den GitHub -Link auf JSDelivr, um Dateien schnell herunterzuladen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
     </blockquote>
 </details>
 
@@ -691,7 +693,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>🤠 GitHub-Warehouse-Schnellsprung-Assistent, der speziell entwickelt wurde, um Benutzern den schnellen Zugriff auf ihre eigenen Warehouses auf GitHub zu erleichtern. Es generiert eine Schaltfläche oben in der Navigationsleiste. Klicken Sie darauf, um alle Ihre Repositorys zu erweitern und einfach zu Ihrer eigenen GitHub-Repository-Seite zu springen, ohne das sekundäre Menü von GitHub zu verwenden.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
-           <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
     </blockquote>
 </details>
 
@@ -729,7 +731,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>GitHub File List Beautifier ist ein Benutzerskript，zur Verstärkung verwendet GitHub Anzeigeeffekt von Dateien im Lager。Es kann Dateien und Ordnern Farben hinzufügen，und ersetzen Sie die Dateitypsymbole durch kleine Bilder，Erleichtert das Durchsuchen und Verwalten der Codebasis。Fügen Sie Dateien nach Typ Farben und Symbole hinzu，Zeigen Sie kleine Bilder anstelle von Dateitypsymbolen im Repository-Quellbaum an</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
-           <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
     </blockquote>
 </details>
 
@@ -767,7 +769,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <summary>Expandieren Github Liste der Sprachen im Repository，Jede Sprache anzeigen，Anstatt kleine Teile darin zu verstecken“andere”Runter</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">
-           <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
     </blockquote>
 </details>
 
@@ -837,7 +839,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Fügen Sie einen Download-Button hinzu，Ermöglicht das einfache Herunterladen spezifischer GitHub Ordner。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
-           <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
     </blockquote>
 </details>
 
@@ -875,7 +877,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Schaltfläche „Hinzufügen“ am Ende jeder Dateizeile，um die Originaldatei zu kopieren URL und Dateien herunterladen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
     </blockquote>
 </details>
 
@@ -913,7 +915,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>🤠 Lageranzeigegröße: Auf GitHubs Codesuche, Lagersuche, Problemseite, Benutzerlagerliste und Repository-Seite wird die Größe des Lagers neben dem Lagernamen angezeigt, sodass Benutzer die Größe des Lagers schnell verstehen und optimieren können Auswahl. Warnung bei inaktiver Entwicklung: Wenn ein Repository in den letzten sechs Monaten nicht aktualisiert wurde, fügt das System oben im Repository eine Eingabeaufforderung hinzu, um Benutzer daran zu erinnern, dass das Repository inaktiv ist, und zeigt den Zeitpunkt der letzten Aktualisierung an. Dadurch können Benutzer den Aktivitäts- und Wartungsstatus des Lagers ermitteln. Schneller Sprung innerhalb des Lagers: Beim Durchsuchen des Lagers kann der Benutzer problemlos die Liste aller Lager des Benutzers anzeigen und so schnell zu verschiedenen Lagern springen. Benutzer können andere interessante Projekte schnell finden und darauf zugreifen und so die Arbeitseffizienz verbessern. Nutzungsszenarien: Entwickler: Durch die Anzeige der Warehouse-Größe und aktiver Warnungen können Sie schnell geeignete Bibliotheken für die Entwicklung herausfiltern und die Verwendung nicht mehr gepflegter Projekte vermeiden. Projektmanager: Durch die Schnellsprungfunktion ist es einfach, mehrere Projekte zu verwalten und zu koordinieren und die Arbeitseffizienz zu verbessern. Lernende: Beim Erlernen neuer Technologien können sie relevante Open-Source-Projekte leichter finden und die Aktivität und den Umfang der Projekte schneller überprüfen. 🤠</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
-           <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
     </blockquote>
 </details>
 
@@ -934,7 +936,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
@@ -951,7 +955,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Ändern Sie die Sortierung der Dateien auf absteigend nach Datum，Sehen Sie sich bequem die neuesten aktualisierten Dateien an。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
-           <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
     </blockquote>
 </details>
 
@@ -987,7 +991,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Fügen Sie der GIST -Datei eine Kopierschaltfläche hinzu, um den Code leicht zu kopieren. |.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">
-           <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
     </blockquote>
 </details>
 
@@ -1008,7 +1012,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
@@ -1025,7 +1031,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Hören Sie sich die Tastaturverknüpfung an, die die Funktion der Übersetzung des Textes implementiert und die Übersetzungsergebnisse durch das Originaltextfeld ersetzt.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
-           <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
     </blockquote>
 </details>
 
@@ -1063,7 +1069,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Haben Sie den Zweck von Sternrepositories vergessen? Dies ist ein Skript, das Ihren bevorzugten Repositorys Notizen hinzufügen kann, und die Informationen, die Sie Kommentare erhalten</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">
-           <img width=511 src="https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png"></a>
     </blockquote>
 </details>
 
@@ -1084,7 +1090,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <div align="right"><a href="#Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleVerwandte Skripte (2)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
@@ -1101,7 +1109,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <summary>Fügen Sie oben auf Ihrer Google-Suchseite ein erweitertes Suchformular hinzu</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
-           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -1169,7 +1177,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <summary>Die Seite "Skriptdetails" ist für die Suche ohne Standard -URLs geeignet. Wenden Sie sich an klickbare Textlinks und pop -up -Eingabeaufforderungen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/0y7q4czfrs1ylz71cpjpbl89h6tp"></a>
     </blockquote>
 </details>
 
@@ -1205,7 +1213,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <summary>verwendenChart.jsAbrufen und Visualisieren von Benutzerskriptdaten，Und erstellen Sie auf der persönlichen Homepage des Benutzers ein Diagramm, um unten den detaillierten Installationsstatus anzuzeigen.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
-           <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
     </blockquote>
 </details>
 
@@ -1243,7 +1251,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <summary>GreaysFork Geben Sie schnell Informationen zur Skriptsynchronisierung ein，Und fügen Sie stapelweise Sprachcodes für mehrere Länder hinzu，Anstatt die Auswahlfelder einzeln anzuklicken und zur entsprechenden URL zu gelangen。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
-           <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
     </blockquote>
 </details>
 
@@ -1281,7 +1289,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <summary>Das im Forum verwendete Standardformat istMarkdown，Fügen Sie einen Link zur Formathilfe hinzu und veröffentlichen Sie ein neues Skript,Symbolleiste „Antwortzeit“ mit aktivierter Schnellbearbeitung</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
-           <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
+            <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
     </blockquote>
 </details>
 
@@ -1319,7 +1327,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <summary>Fügen Sie beim Durchsuchen der Skriptliste nach dem Skriptnamen eine Skriptbewertung hinzu</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
-           <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
     </blockquote>
 </details>
 
@@ -1385,7 +1393,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <summary>Benutzerliste zur Navigationsleiste hinzufügen,Konsole,Sammlung usw...</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
-           <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
     </blockquote>
 </details>
 
@@ -1421,7 +1429,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <summary>für Greasyfork Stellen Sie verschiedene Nutzungsfunktionen bereit，absolute Zeit，Web-Breitbild，Verbesserungen der Skriptseite，Erweiterung herunterladen，Panel-Reparatur und eine Reihe von Operationen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
-           <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
     </blockquote>
 </details>
 
@@ -1459,7 +1467,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <summary>Wenn es eine neue Antwort auf Ihr Skript oder auf eine Diskussion gibt, an der Sie teilnehmen，Das Skript zeigt den neuesten Diskussionsinhalt in einem modalen Fenster auf der Webseite an。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
-           <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
     </blockquote>
 </details>
 
@@ -1497,7 +1505,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <summary>Script Finder Finden Sie auf jeder Website, die für diese Website gilt GreasyFork-Skript。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
-           <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
+            <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
     </blockquote>
 </details>
 
@@ -1535,7 +1543,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <summary>Wenn Ihr Skript die Interessen einiger Menschen beeinträchtigt, ist es nicht überraschend, böswillige negative Bewertungen zu erhalten. Es gibt zwei Merkmale von böswilligen negativen Bewertungen: Eine ist, dass das Konto normalerweise neu registriert ist, und das andere ist, dass die negativen Bewertungen kurz nach der Registrierung durchgeführt werden und es im Grunde keine Follow-up-Aktivitäten geben. Dieses Skript erhält die Registrierungszeit des FreasyFork -Benutzers und wird neben dem Benutzernamen angezeigt. Wenn die neben dem Benutzernamen angezeigte Zeit die zukünftige Zeit ist, ist der Benutzer wahrscheinlich ein böswilliges Konto, das registriert ist.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">
-           <img width=511 src="https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png"></a>
     </blockquote>
 </details>
 
@@ -1556,7 +1564,9 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <div align="right"><a href="#Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Erwachsene Skripte (10)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">
@@ -1605,7 +1615,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>Xhamster Video Download mit einem Klick | xhamster.com |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
     </blockquote>
 </details>
 
@@ -1643,7 +1653,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>XNXXVIDEOS VIDEO DOWNALT mit einem Klick | xnxx.com |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
     </blockquote>
 </details>
 
@@ -1681,7 +1691,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>1. Automatische Wiedergabe 2. Automatisches Breitbild 3. Hochwertiger Wiedergabe 4. Klicken Sie hier</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
     </blockquote>
 </details>
 
@@ -1719,7 +1729,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>Pornhub -Video Download mit einem Klick | Pornhub.com |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
-           <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
     </blockquote>
 </details>
 
@@ -1757,7 +1767,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>Schnuppern Sie die echte Download -Adresse des Videos von der aktuellen MISSAV -Wiedergabeseite und laden Sie es herunter</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">
-           <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
     </blockquote>
 </details>
 
@@ -1795,7 +1805,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <summary>Holen Sie sich Bilddateien und Videoinformationen von der aktuellen MILSAV -Seite und geben Sie die heruntergeladene Web -Datei an, nachdem Sie die Ergebnisse verschubst.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer">
-           <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
+            <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/y01rsvz3iuz4f5kt043s6b5mddqr"></a>
     </blockquote>
 </details>
 
@@ -1897,7 +1907,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <summary>Ads | Backstage spielen |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">
-           <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
     </blockquote>
 </details>
 
@@ -1997,7 +2007,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <summary>Übersetzung von Sprach- und Verknüpfungsverknüpfungen Ein-Klick-Übersetzung der gewünschten Sprache | Seitenübersetzung | Text auswählen (drücken Sie Strg) | Stellen Sie Verknüpfungen an, drücken Sie einfach eine Taste, um schnell die gewünschte Sprache zu übersetzen | Englisches Lernen | Die Übersetzung kann festgelegt werden und unterstützt die häufigsten Sprachen auf der ganzen Welt | Feedback, wenn Sie Fragen haben</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
-           <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
+            <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
     </blockquote>
 </details>
 
@@ -2018,7 +2028,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <div align="right"><a href="#Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Social Media -Skripte (3)</h1><h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
@@ -2035,7 +2047,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <summary>Automatisch ausblenden Sie weitergeleitete Inhalte aus und ausblenden Sie weitergeleitete Inhalte beim ersten Laden, um nervige Anzeigen zu entfernen</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
-           <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
     </blockquote>
 </details>
 
@@ -2056,7 +2068,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
@@ -2073,7 +2087,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <summary>Laden Sie Videos/Bilder mit einem Klick herunter und unterstützen Sie die automatische Verpackung als ZIP -Datei zum Herunterladen beim Stapel -Download. Unterstützen Sie die neue API -Schnittstelle</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
-           <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
+            <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
     </blockquote>
 </details>
 
@@ -2094,7 +2108,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <h3>
     <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
@@ -2111,7 +2127,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <summary>YouTube 1. Video Loop -Wiedergabe 2. Screenshot Download 3. Thema Fortschrittsleiste</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
-           <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
+            <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>
     </blockquote>
 </details>
 
@@ -2132,7 +2148,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
