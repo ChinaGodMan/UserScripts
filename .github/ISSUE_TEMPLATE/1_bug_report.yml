@@ -11,7 +11,7 @@ body:
 
         请填写此表单，帮助我们重现问题。
 
-        - 标题必须格式`[脚本名称-版本]:错误描述`，例如`[外语终结者-1.4.0.0]:无法加载模型`。
+        - 标题必须格式为`[脚本名称-版本]:错误描述`，例如`[外语终结者-1.4.0.0]:无法加载模型`。
         - 该错误是由 xxxx脚本 引起的。如果我停用该脚本，则不会发生此问题。
         - 你必须完整的描述你使用的脚本名称和版本号以及你遇到的问题。
 
@@ -49,17 +49,49 @@ body:
     validations:
       required: true
 
-  - type: input
+# https://github.com/WhiteSevs/TamperMonkeyScript/blob/master/.github/ISSUE_TEMPLATE/bug_report.yml?plain=1
+
+  - type: dropdown
+    id: scriptruncontainer
     attributes:
-      label: 使用的浏览器
-      description: Chrome 91 / Firefox 89 / Safari 14
+      label: 脚本管理器或浏览器
+      description: "勾选运行脚本的容器"
+      multiple: false
+      options:
+        - 请选择符合的一项，不符合将关闭该issue
+        - Violentmonkey
+        - Violentmonkey BETA
+        - TamperMonkey
+        - TamperMonkey BETA
+        - ScriptCat
+        - Stay
+        - Via浏览器
+        - X浏览器
+        - 其它
     validations:
       required: true
 
   - type: input
     attributes:
+      label: 脚本管理器或浏览器版本号
+      description: "如果脚本运行的容器是浏览器扩展，请填写版本号"
+      placeholder: "例如：v2.20.0"
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: 使用的浏览器以及内核版本号
+      description: "请填写运行脚本的浏览器及内核版本，如果是套壳浏览器，内核版本请填写webview的版本"
+      placeholder: "例如：Edge 135.0.3179.85（x64)"
+    validations:
+      required: true
+      
+  - type: input
+    attributes:
       label: 操作系统
-      description: Windows 10 / Mac os X 11 / Ubuntu 20.04 / iOS 14/ Android 11
+      description: Windows 11 (x64)  / Mac os X 11 / Ubuntu 20.04 / iOS 14/ Android 11
+      placeholder: "例如：Windows 11 (x64)"
     validations:
       required: true
 
