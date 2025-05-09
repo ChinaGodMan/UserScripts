@@ -72,7 +72,7 @@ jobs:
         run: |
           git pull
           git add .
-          git commit -n -m "docs(sync): 📝 同步[\`[script]/README_[lang].md\`] [\`docs/[lang]/README.md\`]" || true
+          git commit -n -m "docs(sync): 🤖 同步[\`[script]/README_[lang].md\`] [\`docs/[lang]/README.md\`]" || true
           git push
           if [ $? -ne 0 ]; then
             git pull --rebase
