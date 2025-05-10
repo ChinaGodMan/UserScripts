@@ -58,8 +58,7 @@ for script in scripts['scripts']:
         # 对于5分钟内未改动的log文件不操作
         if is_file_updated_more_than(change_log_path, 5):
             continue
-        readme_html = "<details><summary>更新记录</summary>" + \
-            md_to_html(change_log_path) + "</details>"
+        readme_html = f'<details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_directory}/CHANGELOG.md"><img height="32" src="https://github.githubassets.com/pinned-octocat.svg"></a></div>{md_to_html(change_log_path)}</details>'
     html_content = generate_html_content("zh-CN", full_path, greasyfork_id, script_directory, readme_html)
     # 检查 script_directory 是否存在
     if script_directory and os.path.exists(script_directory):
@@ -74,9 +73,6 @@ for script in scripts['scripts']:
         for file_name in md_files:
             file_path = os.path.join(script_directory, file_name)
             match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
-            if match:
-                lang_code = match.group(1)
-            else:
-                lang_code = "zh-CN"
+            lang_code = match.group(1) if match else "zh-CN"
             html_content = generate_html_content(lang_code, full_path, greasyfork_id, script_directory, readme_html)
             process_file(file_path, html_content, start_tag, end_tag, "head")
