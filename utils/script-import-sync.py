@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import unquote
 from searcher import search_in_file
 from helper import get_md_files
+from helper import read_json
+
 import subprocess
 import requests
 import re
@@ -38,12 +40,6 @@ def build_urls(directory):
             else:
                 urls.append(REPO_URL + directory + "/" + filename)
     return urls
-
-
-# 读取json文件
-def read_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return json.load(file)
 
 
 # 和谐url，去除特殊字符
@@ -166,12 +162,14 @@ class GreasyFork:
                         script_id = match.group(1)  # ID
                         description = unquote(match.group(2))  # 名称
                         results.append([script_id, description])
-                        return script_id
+                        return int(script_id)
             else:
-                return "脚本返回的元素未找到,需要手动检查脚本是否被导入了."
+                print("脚本返回的元素未找到,需要手动检查脚本是否被导入了.")
+                return 0
         else:
             raise Exception(
                 f"导入被拒绝,状态码: {response.status_code}\n{response.text}")
+        return 0
 
     def sync_update(self, script_url, script_id, attribute_default, additional_info):
         """
@@ -221,7 +219,8 @@ if __name__ == "__main__":
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     for script in scripts:
-        if script.get('greasyfork_id') == "":
+        greasyfork_id = script.get('greasyfork_id')
+        if greasyfork_id in (None, 0):
             script_directory = script.get('directory')
             script_path = script_directory + "/" + script.get('js_name')
             script_url = REPO_URL + script_path

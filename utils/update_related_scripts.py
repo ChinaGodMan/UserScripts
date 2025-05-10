@@ -1,11 +1,10 @@
 from writer import process_file
+from helper import get_md_files
 from content_snippet import get_file_description
 from searcher import search_in_file
 import re
 import json
 import os
-import sys
-sys.dont_write_bytecode = True
 
 
 # 读取JSON文件
@@ -44,27 +43,23 @@ def main():
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     for script in scripts:
-        backuppath = script.get('directory', '')
+        script_directory = script.get('directory', '')
         start_tag = "<!--RELATED-->"
         end_tag = "<!--RELATED-END-->"
-        cnfile_path = os.path.join(backuppath, "README.md")
+        cnfile_path = os.path.join(script_directory, "README.md")
         descriptions = generate_description(script, scripts, "zh-CN")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         if olddescriptions + "\n" == descriptions:  # 换行符添加上,就这样了能用就行
             continue
         else:
             print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 内容变化,执行替换\033[0m")
-        if backuppath and os.path.isdir(backuppath):
-            for file in os.listdir(backuppath):
-                if file.endswith('.md'):
-                    file_path = os.path.join(backuppath, file)
-                    match = re.match(r'README_([a-zA-Z\-]+)\.md', file)
-                    if match:
-                        lang_code = match.group(1)
-                    else:
-                        lang_code = "zh-CN"
-                    descriptions = generate_description(script, scripts, lang_code)
-                    process_file(file_path, descriptions, start_tag, end_tag, "head")
+        md_files = get_md_files(script_directory)
+        for file_name in md_files:
+            file_path = os.path.join(script_directory, file_name)
+            match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
+            lang_code = match.group(1) if match else "zh-CN"
+            descriptions = generate_description(script, scripts, lang_code)
+            process_file(file_path, descriptions, start_tag, end_tag, "head")
 
 
 if __name__ == "__main__":

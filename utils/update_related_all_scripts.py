@@ -1,11 +1,10 @@
 from writer import process_file_plus
 from content_snippet import get_file_description
 from searcher import search_in_file
+from helper import get_md_files
 import re
 import json
 import os
-import sys
-sys.dont_write_bytecode = True
 
 
 # 读取JSON文件
@@ -83,8 +82,8 @@ def delete_related_readme(directory_path, not_in_map):
 
 
 def process_script(script, scripts, start_tag, end_tag, key):
-    backuppath = script.get('directory', '')
-    cnfile_path = os.path.join(backuppath, "README.md")
+    script_directory = script.get('directory', '')
+    cnfile_path = os.path.join(script_directory, "README.md")
 
     descriptions = generate_description(key, scripts, "zh-CN")
 
@@ -95,18 +94,13 @@ def process_script(script, scripts, start_tag, end_tag, key):
         return
     else:
         print(f"----[\033[94m{script.get('name', '')}\033[0m--\033[95m{key}\033[0m]\033[92m 内容变化,执行替换\033[0m")
-
-    if backuppath and os.path.isdir(backuppath):
-        for file in os.listdir(backuppath):
-            if file.endswith('.md'):
-                file_path = os.path.join(backuppath, file)
-                match = re.match(r'README_([a-zA-Z\-]+)\.md', file)
-                if match:
-                    lang_code = match.group(1)
-                else:
-                    lang_code = "zh-CN"
-                descriptions = generate_description(key, scripts, lang_code)
-                process_file_plus(file_path, descriptions, start_tag, end_tag, "<!--FOOTER-->")
+    md_files = get_md_files(script_directory)
+    for file_name in md_files:
+        file_path = os.path.join(script_directory, file_name)
+        match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
+        lang_code = match.group(1) if match else "zh-CN"
+        descriptions = generate_description(key, scripts, lang_code)
+        process_file_plus(file_path, descriptions, start_tag, end_tag, "<!--FOOTER-->")
 
 
 def main():
