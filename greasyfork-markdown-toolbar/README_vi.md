@@ -52,15 +52,17 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>GreasyFork markdown</h1>
-    <p>「 Trong diễn đàn, định dạng mặc định làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thời gian trả lời Kích hoạt thanh công cụ chỉnh sửa nhanh 」</p>
+    <p>「 Định dạng mặc định được sử dụng trong diễn đàn làMarkdown，Thêm liên kết trợ giúp định dạng và xuất bản tập lệnh mới,Thanh công cụ thời gian trả lời có bật tính năng chỉnh sửa nhanh 」</p>
     <img src="https://views.whatilearened.today/views/github/505164/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><h1><strong>🛠️ GreasyFork Markdown Toobar Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md"><img height="32" src="https://github.githubassets.com/pinned-octocat.svg"></a></div><h1><strong>🛠️ GreasyFork Markdown Toobar Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.05.11.1</strong></h3>
+<p><strong>Mới</strong>: Thêm vào <code>autoJumpEdit</code>，Được sử dụng để xem tập lệnh<code>nhận xét</code>Bạn có thể nhanh chóng nhảy đến khu vực chỉnh sửa</p>
+<hr />
 <h3><strong>📅 2025.03.21.1309</strong></h3>
 <p><strong>Mới</strong>: <kbd>Ctrl</kbd>+<kbd>Q</kbd>Dịch nhanh văn bản đã chọn<br></p>
 <hr />

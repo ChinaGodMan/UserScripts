@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>GreasyFork markdown</h1>
     <p>「 The default format used in the forum isMarkdown，Add format help link and publish new script,Reply time toolbar with quick editing enabled 」</p>
@@ -60,7 +59,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>Update records</summary><h1><strong>🛠️ GreasyFork Markdown Toobar Update log</strong></h1>
+            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md"><img height="32" src="https://github.githubassets.com/pinned-octocat.svg"></a></div><h1><strong>🛠️ GreasyFork Markdown Toobar Update log</strong></h1>
+<h3><strong>📅 2025.05.11.1</strong></h3>
+<p><strong>New</strong>: Add to <code>autoJumpEdit</code>，Used to view scripts<code>feedback</code>You can quickly jump to the editing area</p>
+<hr />
 <h3><strong>📅 2025.03.21.1309</strong></h3>
 <p><strong>New</strong>: <kbd>Ctrl</kbd>+<kbd>Q</kbd>Quick translation of selected text<br></p>
 <hr />

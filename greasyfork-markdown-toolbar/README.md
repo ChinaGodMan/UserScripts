@@ -52,7 +52,6 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
     <h1>GreasyFork markdown</h1>
     <p>「 在论坛默认使用格式为Markdown，添加格式帮助链接及在发布新脚本,回复时间启用快速编辑的工具栏 」</p>
@@ -60,7 +59,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/505164">Greasy
-            Fork</a></p><details><summary>更新记录</summary><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
+            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md"><img height="32" src="https://github.githubassets.com/pinned-octocat.svg"></a></div><h1><strong>🛠️ GreasyFork Markdown Toobar 更新日志</strong></h1>
+<h3><strong>📅 2025.05.11.1</strong></h3>
+<p><strong>新增</strong>: 添加 <code>autoJumpEdit</code>，用于在查看脚本<code>反馈</code>时可以快速跳转到编辑区域</p>
+<hr />
 <h3><strong>📅 2025.03.21.1309</strong></h3>
 <p><strong>新增</strong>: <kbd>Ctrl</kbd>+<kbd>Q</kbd>快速翻译选中文本<br></p>
 <hr />
