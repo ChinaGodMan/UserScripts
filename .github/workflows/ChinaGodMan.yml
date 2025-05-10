@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "**/*.js" # 新的脚本被提交或者被修改了.
+      - "!.ChinaGodMan/**"
   workflow_dispatch:
 
 jobs:
