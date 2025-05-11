@@ -31,7 +31,7 @@ def insert_into_meta(file_path, content, file_lock):
                 break
         else:
             return
-        with open(file_path, 'w', encoding='utf-8') as file:
+        with open(file_path, 'w', encoding='utf-8', newline='\n') as file:
             file.writelines(lines)
     print(f"\033[34m内容已插入到 '{file_path}' 中 \033[0m")
 

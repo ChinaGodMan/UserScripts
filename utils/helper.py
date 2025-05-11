@@ -130,5 +130,5 @@ def sort_userscript_section(file_path):
     # 替换原始内容中的 UserScript 区域
     content[start_index + 1:end_index] = [line + "\n" for line in sorted_section]
     # 写入文件
-    with open(file_path, "w", encoding="utf-8") as file:
+    with open(file_path, "w", encoding="utf-8", newline='\n') as file:
         file.writelines(content)
