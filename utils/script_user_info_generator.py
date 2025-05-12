@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/05,Monday 18:15:44
+# Last Modified: 2025/05/13,Tuesday 00:44:09
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -24,18 +24,18 @@ from writer import process_file_plus
 from helper import is_file_updated_more_than
 
 
-def fetch_script_json(greasyfork_id, is_sleazy=False):
+def fetch_script_json(greasyfork_id, is_sleazy=False, retrie=True):
     base_url = 'https://api.sleazyfork.org' if is_sleazy else 'https://api.greasyfork.org'
+    base_site_url = base_url.replace('api.', '')
     url = f'{base_url}/scripts/{greasyfork_id}.json'
     try:
         response = requests.get(url)
-        if response.status_code == 404:
-            return fetch_script_json(greasyfork_id, not is_sleazy)
+        if response.status_code == 404 and retrie:
+            return fetch_script_json(greasyfork_id, not is_sleazy, False)
         response.raise_for_status()
         data = response.json()
         script_name = data.get("name", "NULL")
         users = data.get("users", [])
-        base_site_url = 'https://sleazyfork.org' if is_sleazy else 'https://greasyfork.org'
         user_links = [
             f"[🧑‍💻 **@{user.get('name')}**]({base_site_url}/users/{user.get('id')})"
             for user in users
@@ -46,7 +46,7 @@ def fetch_script_json(greasyfork_id, is_sleazy=False):
         print(f"{url} 失败: {e}")
     except json.JSONDecodeError as e:
         print(f"解析脚本统计数据时出错: {e}")
-    return None
+    return ''
 
 
 def process_script_ids(input_file):
@@ -96,11 +96,11 @@ def main():
     if not os.path.exists(authors_file):
         print(f"==> \033[38;2;255;0;0m文件 {script_directory} 不存在！\033[0m")
         sys.exit()
-    
+
     # 跳过未变动文件
     if is_file_updated_more_than(authors_file, 5):
         sys.exit()
-    
+
     # 生产最新的内容
     result_text = process_script_ids(authors_file)
 

@@ -4,11 +4,8 @@ from helper import read_json
 import os
 import argparse
 
-# 定义需要查找的语言
-LANG_CODE = 'zh-CN'
 
-
-# 生成描述信息，仅针对当前脚本的 relatedscripts
+# 生成描述信息，仅针对当前脚本的 group
 def generate_description(all_scripts, single_group=False):
     related_scripts_map = {}
     # single_group为True时，脚本归入“所有脚本”组,不进行分类
@@ -41,15 +38,18 @@ def generate_html_table(scripts):
         change_log = script.get("directory") + "/CHANGELOG.md"
         changelog_block = ""
         if os.path.exists(change_log):
-            changelog_block = f''' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>'''
-
+            changelog_block = (
+                f' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/CHANGELOG.md">\n'
+                f'        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">'
+                f'更新日志</a>')
         # 含有引用的脚本,显示链接
         author = script.get("directory") + "/AUTHORS.md"
         author_block = ""
         if os.path.exists(author):
-            author_block = f''' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>'''
+            author_block = (
+                f' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/AUTHORS.md">\n'
+                f'        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">'
+                f'修改自</a>')
 
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
         script_name = sreach_result.name_matches[0]
@@ -96,7 +96,11 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
             # 不分组时，添加分隔符用于区分
             if index != 0:
                 html_output += '<div align="right"><a href="#脚本列表">返回目录</a></div>'
-            html_output += f'<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>{related_id} ({len(scripts)})</h1>'
+            html_output += (
+                f'<img height=6px width="100%" '
+                f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
+                f'<h1>{related_id} ({len(scripts)})</h1>'
+            )
         html_output += generate_html_table(scripts)
         if use_details:
             print(center_c)
@@ -121,8 +125,12 @@ def main():
     html_output = generate_grouped_html(related_scripts_map, False, False)
     process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
     scripts_count = len(data.get('scripts', []))
-    result = " | ".join(f"<a href=\"#{related_id}-{len(scripts)}\">{related_id} ({len(scripts)})</a>\n" for related_id, scripts in related_scripts_map.items())
-    tip = f"**本储存库中当前发布了{scripts_count}个脚本,脚本包括:**\n<h6>{result}</h6>"
+    result = " | ".join(
+        f'<a href="#{related_id}-{len(scripts)}">'
+        f'{related_id} ({len(scripts)})</a>\n'
+        for related_id, scripts in related_scripts_map.items()
+    )
+    tip = f"**储存库当前发布脚本数量:{scripts_count},脚本包括:**\n<h6>{result}</h6>"
     process_file(readme_path, tip, "<!--SCRIPTS_COUNT-->", "<!--SCRIPTS_COUNT-END-->", "head")
 
 

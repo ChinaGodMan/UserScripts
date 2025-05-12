@@ -14,7 +14,10 @@ def generate_description(current_group, all_scripts, lang):
     if not current_group:
         return "无相关脚本。\n\n"
     # 添加分类名到描述中
-    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{current_group}\n>')
+    descriptions.append(
+        f'<img height="6px" width="100%" '
+        f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n'
+        f'> ### 🔍你可能在找{current_group}\n>')
     # id升序
     sorted_scripts = sorted(all_scripts, key=lambda x: x['greasyfork_id'] if x.get('greasyfork_id') is not None else 0)
     # 遍历所有脚本，查找具有相同 group 值的脚本

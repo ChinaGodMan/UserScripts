@@ -56,9 +56,17 @@ for script in scripts['scripts']:
     readme_html = ''
     if os.path.isfile(change_log_path):
         # 对于5分钟内未改动的log文件不操作
-        # if is_file_updated_more_than(change_log_path, 5):
-        #    continue
-        readme_html = f'<details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_directory}/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div>{md_to_html(change_log_path)}</details>'
+        if is_file_updated_more_than(change_log_path, 5):
+            continue
+        readme_html = (
+            f'<details>'
+            f'<summary style="color:#FFD700">更新记录</summary>'
+            '<div align="right">'
+            f'<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_directory}/CHANGELOG.md">'
+            '<img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a>'
+            '</div>'
+            f'{md_to_html(change_log_path)}</details>'
+        )
     html_content = generate_html_content("zh-CN", full_path, greasyfork_id, script_directory, readme_html)
     # 检查 script_directory 是否存在
     if script_directory and os.path.exists(script_directory):
