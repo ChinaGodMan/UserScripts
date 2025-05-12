@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## スクリプトリスト
@@ -67,7 +67,7 @@
 💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
 <!--SCRIPTS_COUNT-->
-**現在、このリポジトリに公開されています57スクリプト,スクリプトには含まれます:**
+**リポジトリの現在公開されているスクリプトの数:57,スクリプトには含まれます:**
 <h6><a href="#ChatGPT関連するスクリプト-5">ChatGPT関連するスクリプト (5)</a>
  | <a href="#Webページ関連のスクリプト-10">Webページ関連のスクリプト (10)</a>
  | <a href="#GitHub関連するスクリプト-13">GitHub関連するスクリプト (13)</a>

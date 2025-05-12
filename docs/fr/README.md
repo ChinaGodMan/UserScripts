@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## Liste de scénarios
@@ -67,7 +67,7 @@
 💡 **Tip:** _Pour afficher la capture d’écran d’aperçu，Veuillez cliquer sur le nom de l’extension ci-dessous ▸ Ou description。_
 
 <!--SCRIPTS_COUNT-->
-**Actuellement publié dans ce référentiel57Un script,Le script comprend:**
+**Le nombre de scripts publiés actuels pour le référentiel:57,Le script comprend:**
 <h6><a href="#ChatGPTScripts-connexes-5">ChatGPTScripts connexes (5)</a>
  | <a href="#Scripts-liés-à-la-page-Web-10">Scripts liés à la page Web (10)</a>
  | <a href="#GitHubScripts-connexes-13">GitHubScripts connexes (13)</a>

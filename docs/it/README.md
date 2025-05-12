@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## Elenco degli script
@@ -67,7 +67,7 @@
 💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ O descrizione。_
 
 <!--SCRIPTS_COUNT-->
-**Attualmente pubblicato in questo repository57Una sceneggiatura,Lo script include:**
+**Il numero di script pubblicati correnti per il repository:57,Lo script include:**
 <h6><a href="#ChatGPTScript-correlati-5">ChatGPTScript correlati (5)</a>
  | <a href="#Script-relativi-alla-pagina-Web-10">Script relativi alla pagina Web (10)</a>
  | <a href="#GitHubScript-correlati-13">GitHubScript correlati (13)</a>

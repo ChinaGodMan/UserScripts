@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## 스크립트 목록
@@ -67,7 +67,7 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**현재이 저장소에 게시되었습니다57대본,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:57,스크립트에는 포함됩니다:**
 <h6><a href="#ChatGPT관련-스크립트-5">ChatGPT관련 스크립트 (5)</a>
  | <a href="#웹-페이지-관련-스크립트-10">웹 페이지 관련 스크립트 (10)</a>
  | <a href="#GitHub관련-스크립트-13">GitHub관련 스크립트 (13)</a>

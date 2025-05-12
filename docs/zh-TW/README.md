@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## 腳本列表
@@ -67,7 +67,7 @@
 💡 **Tip:** _要顯示預覽截圖，請點擊擴展名稱下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**本儲存庫中當前發布了57個腳本,腳本包括:**
+**儲存庫當前發布腳本數量:57,腳本包括:**
 <h6><a href="#ChatGPT相關腳本-5">ChatGPT相關腳本 (5)</a>
  | <a href="#網頁相關腳本-10">網頁相關腳本 (10)</a>
  | <a href="#GitHub相關腳本-13">GitHub相關腳本 (13)</a>

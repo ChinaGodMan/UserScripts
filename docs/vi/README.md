@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## Danh sách tập lệnh
@@ -67,7 +67,7 @@
 💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Vui lòng nhấp vào tên mở rộng bên dưới ▸ Hoặc mô tả。_
 
 <!--SCRIPTS_COUNT-->
-**Hiện đang được xuất bản trong kho lưu trữ này57Một kịch bản,Kịch bản bao gồm:**
+**Số lượng các tập lệnh được xuất bản hiện tại cho kho lưu trữ:57,Kịch bản bao gồm:**
 <h6><a href="#ChatGPTTập-lệnh-liên-quan-5">ChatGPTTập lệnh liên quan (5)</a>
  | <a href="#Các-tập-lệnh-liên-quan-đến-trang-web-10">Các tập lệnh liên quan đến trang web (10)</a>
  | <a href="#GitHubTập-lệnh-liên-quan-13">GitHubTập lệnh liên quan (13)</a>
@@ -2253,7 +2253,7 @@ Yêu cầu kéo cũng được chào đón，Nhưng vì lý do an toàn，Vui l�
 
 ## 💖 Hướng dẫn đóng góp
 
-Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã xây dựng những điều sau đây<a href="../CONTRIBUTING.md"><strong>Hướng dẫn đóng góp</strong></a>。Để giúp bạn đóng góp mã hoặc tài liệu một cách trơn tru，Vui lòng trước khi gửi mã hoặc câu hỏi，Đọc nội dung một cách cẩn thận。
+Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã xây dựng những điều sau đây<a href="../CONTRIBUTING.md"><strong>Hướng dẫn đóng góp</strong></a>。Để giúp bạn đóng góp mã hoặc tài liệu một cách trơn tru，Vui lòng trước khi gửi mã hoặc câu hỏi，Đọc kỹ nội dung。
 
 ## 🌐 Trình duyệt và Trình quản lý tập lệnh
 

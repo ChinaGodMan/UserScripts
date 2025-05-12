@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## Lista de guiones
@@ -67,7 +67,7 @@
 💡 **Tip:** _Para mostrar una captura de pantalla de vista previa，Haga clic en el nombre de la extensión a continuación ▸ O descripción。_
 
 <!--SCRIPTS_COUNT-->
-**Actualmente publicado en este repositorio57Un guión,El guión incluye:**
+**El número de scripts publicados actuales para el repositorio:57,El guión incluye:**
 <h6><a href="#ChatGPTScripts-relacionados-5">ChatGPTScripts relacionados (5)</a>
  | <a href="#Scripts-relacionados-con-la-página-web-10">Scripts relacionados con la página web (10)</a>
  | <a href="#GitHubScripts-relacionados-13">GitHubScripts relacionados (13)</a>

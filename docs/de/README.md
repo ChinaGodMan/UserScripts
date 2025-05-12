@@ -59,7 +59,7 @@
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
-
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 
 ## Skriptliste
@@ -67,7 +67,7 @@
 💡 **Tip:** _Zum Anzeigen von Vorschaubild Screenshot，Bitte klicken Sie auf den Erweiterungsnamen unten ▸ Oder Beschreibung。_
 
 <!--SCRIPTS_COUNT-->
-**Derzeit in diesem Repository veröffentlicht57Ein Skript,Das Skript enthält:**
+**Die Anzahl der aktuellen veröffentlichten Skripte für das Repository:57,Das Skript enthält:**
 <h6><a href="#ChatGPTVerwandte-Skripte-5">ChatGPTVerwandte Skripte (5)</a>
  | <a href="#Webseitenbezogene-Skripte-10">Webseitenbezogene Skripte (10)</a>
  | <a href="#GitHubVerwandte-Skripte-13">GitHubVerwandte Skripte (13)</a>
