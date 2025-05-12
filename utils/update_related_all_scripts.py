@@ -1,42 +1,7 @@
-from writer import process_file_plus
-from content_snippet import get_file_description
-from searcher import search_in_file
-from helper import get_md_files
+from helper import read_json
+from update_related_scripts import process_script
 import re
-import json
 import os
-
-
-# 读取JSON文件
-def read_json(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return json.load(file)
-
-
-# 生成描述信息，仅针对当前脚本的relatedscripts
-def generate_description(current_script, all_scripts, code):
-    descriptions = []
-    # 获取当前脚本的 relatedscripts 值作为分类名
-    relatedscripts_category = current_script
-    # 如果没有 relatedscripts，返回空描述
-    if not relatedscripts_category:
-        return "无相关脚本。\n\n"
-    # 添加分类名到描述中
-    descriptions.append(f'<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n> ### 🔍你可能在找{relatedscripts_category}\n>')
-    # 遍历所有脚本，查找具有相同 relatedscripts 值的脚本
-    for script in all_scripts:
-        script_relatedscripts = script.get('group')
-        # 如果脚本的 relatedscripts 与当前脚本相同，就将其添加到描述中
-        if script_relatedscripts == relatedscripts_category:
-            greasyfork_id = script.get('greasyfork_id', '未知ID')
-            full_path = script.get("directory") + "/" + script.get("js_name")
-            results = search_in_file(full_path, code)
-            name = results.name_matches[0]
-            description = results.description_matches[0]
-            link = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
-            descriptions.append(f"> -   {link}: {description}")
-
-    return "\n".join(descriptions) + "\n"
 
 
 # 获取readme文件中相关脚本分组
@@ -45,14 +10,13 @@ def check_related_readme(file_path, related_scripts_map):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-        # 匹配 <!--AUTO_{key}_PLEASE_DONT_DELETE_IT--> 标签
+        # 匹配 <!--RELATED- -END-->标签
         matches = re.findall(r'<!--RELATED-([a-zA-Z0-9\-一-龥]+)-END-->', content)
         if matches:
-            for key in matches:
-                # 分组必须包含中文字符串,老代码了,早知道就换个格式了,妈的.
-                if re.search(r'[\u4e00-\u9fa5]', key):
-                    if key not in related_scripts_map:
-                        not_in_scriptspath.append(key)
+            for group in matches:
+                if re.search(r'[\u4e00-\u9fa5]', group):
+                    if group not in related_scripts_map:
+                        not_in_scriptspath.append(group)
     except Exception as e:
         print(f"读取文件 {file_path} 时出错: {e}")
     return not_in_scriptspath
@@ -77,30 +41,8 @@ def delete_related_readme(directory_path, not_in_map):
                     print(f" {file_path} 中的失效分组[\033[31m{key}\033[0m]已被删除。")
                     is_modified = True
             if is_modified:
-                with open(file_path, 'w', encoding='utf-8') as f:
+                with open(file_path, 'w', encoding='utf-8', newline='\n') as f:
                     f.write(content)
-
-
-def process_script(script, scripts, start_tag, end_tag, key):
-    script_directory = script.get('directory', '')
-    cnfile_path = os.path.join(script_directory, "README.md")
-
-    descriptions = generate_description(key, scripts, "zh-CN")
-
-    olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
-    if olddescriptions is None:
-        olddescriptions = "ggg"
-    if olddescriptions + "\n" == descriptions:
-        return
-    else:
-        print(f"----[\033[94m{script.get('name', '')}\033[0m--\033[95m{key}\033[0m]\033[92m 内容变化,执行替换\033[0m")
-    md_files = get_md_files(script_directory)
-    for file_name in md_files:
-        file_path = os.path.join(script_directory, file_name)
-        match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
-        lang_code = match.group(1) if match else "zh-CN"
-        descriptions = generate_description(key, scripts, lang_code)
-        process_file_plus(file_path, descriptions, start_tag, end_tag, "<!--FOOTER-->")
 
 
 def main():
@@ -122,10 +64,10 @@ def main():
         # 如果有不存在的`相关脚本`,就删除不存在的`相关脚本`分组
         if len(not_in_map) > 0:
             delete_related_readme(script.get('directory', ''), not_in_map)
-        for key, value in related_scripts_map.items():
-            start_tag = f"<!--RELATED-{key}-->"
-            end_tag = f"<!--RELATED-{key}-END-->"
-            process_script(script, scripts, start_tag, end_tag, key)
+        for group, value in related_scripts_map.items():
+            start_tag = f"<!--RELATED-{group}-->"
+            end_tag = f"<!--RELATED-{group}-END-->"
+            process_script(script, scripts, start_tag, end_tag, group)
 
 
 if __name__ == "__main__":
