@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div align="right">
     <h6>
         <picture>
@@ -38,7 +40,7 @@
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/&hashtags=greasemonkey,userscripts,javascript"><img src="https://img.shields.io/static/v1?label=%20&message=tweet&logo=x&logoColor=white&labelColor=%23000000&color=%23000000&style=for-the-badge" alt="Tweet"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
-<a href="mailto:toniaiwanowskiskr47@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
+<a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -51,7 +53,9 @@
 <img src="https://img.shields.io/badge/sistema%20operativo-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Browser%20consigliato-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Manager%20di%20script-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-💡 <strong>Tip:</strong> Lo script manager e il browser sopra elencati non rappresentano tutto
+💡 <strong>Tip:</strong> Lo script manager e il browser sopra elencati non rappresentano tutto<br>
+    <strong>Lo script funziona normalmente nel seguente ambiente</strong><br>
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
@@ -2296,7 +2300,7 @@ Grazie per il tuo interesse per questo progetto！Abbiamo formulato quanto segue
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWIBrowser"
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Più script utente</strong></a> /<a href="#">Torna in cima↑</a></p>
+<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Più script utente</strong></a> /<a href="#top">Torna in cima↑</a></p>
 
 ### Storia delle stelle
 
