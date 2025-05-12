@@ -13,6 +13,20 @@
 
 感谢您对本项目的兴趣！为了帮助您顺利贡献代码或文档，我们制定了以下贡献指南。请在提交代码或问题前，仔细阅读以下内容。
 
+## 💡 重要提示(代码风格以及提交规范)
+
+`git clone https://github.com/ChinaGodMan/UserScripts.git`完成后，请先在项目目录执行`npm install`命令
+
+当需要提交代码时,(如果`git hook`未生效，手动执行`npm run lint`),执行`czg`保持提交信息[规范化](https://www.conventionalcommits.org/zh-hans/v1.0.0/)：
+
+```text
+<类型>[可选 范围]: <描述>
+
+[可选 正文]
+
+[可选 脚注]
+```
+
 ## 如何贡献
 
 ### 1. 提交 Issue

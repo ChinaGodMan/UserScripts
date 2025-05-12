@@ -15,6 +15,20 @@ Thank you for your interest in contributing to this project! To help you get sta
 
 ## How to Contribute
 
+## 💡 Important Note (Code Style and Submission Guidelines)
+
+After completing `git clone https://github.com/ChinaGodMan/UserScripts.git`, please run the`npm install` command in the project directory first.
+
+When you need to commit code, (if the `git hook` is not effective, manually run `npm run lint`),execute `czg` to keep the commit message [standardized](https://www.conventionalcommits.org/en/v1.0.0/)：
+
+```text
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
 ### 1. Submitting an Issue
 
 If you find a bug, need a new feature, or have improvement suggestions, please submit an issue via [Issues](https://github.com/ChinaGodMan/UserScripts/issues). Try to provide as much detail as possible, including:
