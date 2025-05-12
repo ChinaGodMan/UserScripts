@@ -16,13 +16,21 @@ def main():
     json_path = 'docs/ScriptsPath.json'
     data = read_json(json_path)
     scripts = data.get('scripts', [])
-    new_content = get_new_content()
     start_tag = "<!--SHIELDS-->"
     end_tag = "<!--SHIELDS-END-->"
     for script in scripts:
         script_directory = script.get('directory', '')
         cnfile_path = os.path.join(script_directory, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
+        # 判断目录下的passed.json
+        new_content = get_new_content()
+        if os.path.exists(script_directory + "/docs/passed.json"):
+            URL = f"https://github.com/ChinaGodMan/UserScripts/raw/main/{script_directory}/docs/passed.json"
+        else:
+            URL = "https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json"
+        new_content = new_content.format(
+            PASSED_URL=URL
+        )
         if olddescriptions + "\n" == new_content:  # 换行符添加上,就这样了能用就行
             continue
         else:
