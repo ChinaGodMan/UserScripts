@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/03/26,Wednesday 23:24:23
+# Last Modified: 2025/05/14,Wednesday 06:31:08
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -19,32 +19,26 @@ import threading
 import json
 import os
 import re
-# 徽章图标的中文url编码,在翻译之前需要替换成可阅读的中文字符
-json_data = {
-    "所有脚本总安装数": "%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E6%80%BB%E5%AE%89%E8%A3%85%E6%95%B0",
-    "今日所有脚本安装数": "%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85%E6%95%B0",
-    "脚本数量": "%E8%84%9A%E6%9C%AC%E6%95%B0%E9%87%8F",
-    "所有好评": "%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84",
-    "所有一般": "%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC",
-    "所有差评": "%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84",
-    "星标": "%E6%98%9F%E6%A0%87",
-    "复刻": "%E5%A4%8D%E5%88%BB",
-    "问题": "%E9%97%AE%E9%A2%98",
-    "联系": "%E8%81%94%E7%B3%BB",
-    "代码质量": "%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F",
-    "操作系统": "%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F",
-    "推荐浏览器": "%E6%8E%A8%E8%8D%90%E6%B5%8F%E8%A7%88%E5%99%A8",
-    "脚本管理器": "%E8%84%9A%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8",
-    "用户数量": "%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F",
 
-}
+
 # 黑名单：不需要翻译的中文文本
 blacklist = ["人民的勤务员", "简体中文", "繁體中文", "日本語"]
-# 翻译缓存表,用于url编码的中文是需要翻译还是直接使用缓存
-translation_cache = {
-    "复刻": ("Fork", False),  # 不需要 API 翻译，直接使用缓存值,并且不需要url编码
+
+"""
+    ! 翻译缓存表,用于url编码的中文是需要翻译还是直接使用缓存
+    ! False 不需要 API 翻译，直接使用缓存值,并且不需要url编码
+    ! True 需要API翻译,并且需要url编码
+
+    ? 在md文件使用的是html显示小徽章,中文必须编码.不然github代理图片时在显示也会炸
+        中文未编码,github炸图:<img src="https://img.shields.io/badge/dynamic/json?&label=安装总
+        中文未编码,使用md不会炸:![d](https://img.shields.io/badge/dynamic/json?&label=安装总)
+    ? 必须对字符串进行url编码,不然翻译后含有空格会导致图炸了.
+"""
+# 徽章图标的原始中文字符串,在翻译之前需要转换为url编码替换掉文件内的对应url编码字符串
+encode_map = {
+    "复刻": ("Forks", False),
     "问题": ("issues", False),
-    "所有脚本总安装数": ("issues", True),  # ! 需要通过api翻译, 并且需要url编码 好像GitHub修复了网址中含有中文字符导致url无法访问的问题,不管了,转个码,GitHub真是个大傻逼.
+    "所有脚本总安装数": ("issues", True),
     "今日所有脚本安装数": ("issues", True),
     "所有一般": ("issues", True),
     "联系": ("issues", True),
@@ -91,9 +85,10 @@ class TranslationCaching:
 def replace_encoded_with_utf8(lines):
     updated_lines = []
     for line in lines:
-        for chinese_text, encoded_value in json_data.items():
-            if encoded_value in line:
-                line = line.replace(encoded_value, chinese_text)
+        for chinese_text, encoded_value in encode_map.items():
+            encoded_key = urllib.parse.quote(chinese_text)
+            if encoded_key in line:
+                line = line.replace(encoded_key, chinese_text)
         updated_lines.append(line)
     return updated_lines
 
@@ -133,8 +128,8 @@ def translate_text(text, target_lang):
             forbiddens.append((forbidden, replacement))
             text = text.replace(forbidden, replacement)
     # 如果在缓存中，判断布尔值
-    if text in translation_cache:
-        cached_translation, needs_api_translation = translation_cache[text]
+    if text in encode_map:
+        cached_translation, needs_api_translation = encode_map[text]
         # 如果缓存中的布尔值为 False，直接使用缓存翻译
         if not needs_api_translation:
             # print(f"从缓存中获取翻译：{text} -> {cached_translation}")
@@ -157,7 +152,7 @@ def translate_text(text, target_lang):
                 translations.append(segment[0])
         translated_text = " ".join(translations)
         # 如果缓存中该词条的布尔值为 True，进行 URL 编码
-        if text in translation_cache and translation_cache[text][1]:
+        if text in encode_map and encode_map[text][1]:
             translated_text = urllib.parse.quote(translated_text)
         # 包含黑名单的字符串,需要替换为原来的未翻译结果
         for forbidden, replacement in forbiddens:
