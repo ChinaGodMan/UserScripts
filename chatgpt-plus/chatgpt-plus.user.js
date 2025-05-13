@@ -76,12 +76,12 @@
 // @name:fr-CA        ChatGPT Réduire le message personnel et la largeur maximale
 // @description:fr-CA pliChatGPTmoyen et long“toi”information，et définissez la largeur maximale
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           0.3.0.0
+// @version           2025.5.14.1
 // @author            人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://chatgpt.com/*
 // @match             https://share.nezhagpt.cloud/*
 // @match             https://new.oaifree.com/*
-// @grant             none
+// @grant             GM_addStyle
 // @license           MIT
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
@@ -95,9 +95,10 @@
     let isEnter = true
     //MAX WIGHT
     function addMaxWidthCSS() {
+        //! https://greasyfork.org/scripts/494023
         const css = `
-        .md\\:max-w-3xl {
-            max-width: 100%;
+        .text-token-text-primary>div>div{max-width:100%!important};
+        min-w-fit>div{max-width:100%!important}
         }`
         function applyStyles() {
             if (typeof GM_addStyle !== 'undefined') {
