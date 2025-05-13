@@ -61,6 +61,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
+<!--README-TOC-->
+## TOC
+[🌐 Browser und Skriptmanager](#-Browser-und-Skriptmanager) |
+[❔️ So installieren oder verwenden Sie Skripte](#So-installieren-oder-verwenden-Sie-Skripte) |
+[🙏 Besonderer Dank an Kaiyuan](#Besonderer-Dank-an-Kaiyuan) |
+[🛡️ Sicherheitsrichtlinie](#%EF%B8%8F-Sicherheitsrichtlinie) |
+[🤝 Verhaltenskodex](#-Verhaltenskodex) |
+[🏛️ Open Source -Lizenzvereinbarung](#%EF%B8%8F-Open-Source--Lizenzvereinbarung) |
+[🧠 Mitwirkende](#Mitwirkende) |
+[💖 Beitragsleitfaden](#-Beitragsleitfaden) |
+[⭐ Sterngeschichte](#Sterngeschichte) |
+[📜 Skriptliste](#Skriptliste)
+<!--README-TOC-END-->
 
 ## Skriptliste
 
@@ -2169,7 +2182,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
 
 ---
 
-## So installieren/Verwenden von Skripten？
+## So installieren oder verwenden Sie Skripte？
 
 Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **Tampermonkey Skript -Manager -Erweiterungen（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

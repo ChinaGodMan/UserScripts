@@ -61,6 +61,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
+<!--README-TOC-->
+## TOC
+[🌐 Navegador e gerente de scripts](#-Navegador-e-gerente-de-scripts) |
+[❔️ Como instalar ou usar scripts](#Como-instalar-ou-usar-scripts) |
+[🙏 Agradecimentos especiais a Kaiyuan](#Agradecimentos-especiais-a-Kaiyuan) |
+[🛡️ Política de segurança](#%EF%B8%8F-Política-de-segurança) |
+[🤝 Código de Conduta](#-Código-de-Conduta) |
+[🏛️ Contrato de licença de código aberto](#%EF%B8%8F-Contrato-de-licença-de-código-aberto) |
+[🧠 Colaboradores](#Colaboradores) |
+[💖 Guia de contribuição](#-Guia-de-contribuição) |
+[⭐ História da estrela](#História-da-estrela) |
+[📜 Lista de scripts](#Lista-de-scripts)
+<!--README-TOC-END-->
 
 ## Lista de scripts
 
@@ -2169,7 +2182,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 
 ---
 
-## Como instalar/Usando scripts？
+## Como instalar ou usar scripts？
 
 Para usar qualquer script，Primeiro, você precisa de uma instalação do navegador **Tampermonkey Extensões do gerente de scripts（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

@@ -61,6 +61,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
+<!--README-TOC-->
+## TOC
+[🌐 ブラウザとスクリプトマネージャー](#-ブラウザとスクリプトマネージャー) |
+[❔️ スクリプトをインストールまたは使用する方法](#スクリプトをインストールまたは使用する方法) |
+[🙏 Kaiyuanに感謝します](#Kaiyuanに感謝します) |
+[🛡️ セキュリティポリシー](#%EF%B8%8F-セキュリティポリシー) |
+[🤝 行動規範](#-行動規範) |
+[🏛️ オープンソースライセンス契約](#%EF%B8%8F-オープンソースライセンス契約) |
+[🧠 貢献者](#貢献者) |
+[💖 貢献ガイド](#-貢献ガイド) |
+[⭐ 星の歴史](#星の歴史) |
+[📜 スクリプトリスト](#スクリプトリスト)
+<!--README-TOC-END-->
 
 ## スクリプトリスト
 
@@ -2169,7 +2182,7 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 
 ---
 
-## インストール方法/スクリプトを使用します？
+## スクリプトをインストールまたは使用する方法？
 
 任意のスクリプトを使用します，まず、ブラウザのインス​​トールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

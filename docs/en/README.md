@@ -61,6 +61,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
+<!--README-TOC-->
+## TOC
+[🌐 Browser and Script Manager](#-Browser-and-Script-Manager) |
+[❔️ How to install or use scripts](#How-to-install-or-use-scripts) |
+[🙏 Special thanks to Kaiyuan](#Special-thanks-to-Kaiyuan) |
+[🛡️ Security Policy](#%EF%B8%8F-Security-Policy) |
+[🤝 Code of conduct](#-Code-of-conduct) |
+[🏛️ Open Source License Agreement](#%EF%B8%8F-Open-Source-License-Agreement) |
+[🧠 Contributors](#Contributors) |
+[💖 Contribution Guide](#-Contribution-Guide) |
+[⭐ Star History](#Star-History) |
+[📜 Script List](#Script-List)
+<!--README-TOC-END-->
 
 ## Script List
 
@@ -2169,7 +2182,7 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
 
 ---
 
-## How to install/Using scripts？
+## How to install or use scripts？
 
 To use any script，First, you need a browser installation **Tampermonkey Script Manager Extensions（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 

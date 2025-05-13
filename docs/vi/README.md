@@ -61,6 +61,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
+<!--README-TOC-->
+## TOC
+[🌐 Trình duyệt và Trình quản lý tập lệnh](#-Trình-duyệt-và-Trình-quản-lý-tập-lệnh) |
+[❔️ Cách cài đặt hoặc sử dụng tập lệnh](#Cách-cài-đặt-hoặc-sử-dụng-tập-lệnh) |
+[🙏 Đặc biệt cảm ơn Kaiyuan](#Đặc-biệt-cảm-ơn-Kaiyuan) |
+[🛡️ Chính sách bảo mật](#%EF%B8%8F-Chính-sách-bảo-mật) |
+[🤝 Quy tắc ứng xử](#-Quy-tắc-ứng-xử) |
+[🏛️ Thỏa thuận cấp phép nguồn mở](#%EF%B8%8F-Thỏa-thuận-cấp-phép-nguồn-mở) |
+[🧠 Người đóng góp](#Người-đóng-góp) |
+[💖 Hướng dẫn đóng góp](#-Hướng-dẫn-đóng-góp) |
+[⭐ Lịch sử ngôi sao](#Lịch-sử-ngôi-sao) |
+[📜 Danh sách tập lệnh](#Danh-sách-tập-lệnh)
+<!--README-TOC-END-->
 
 ## Danh sách tập lệnh
 
@@ -2169,7 +2182,7 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 
 ---
 
-## Cách cài đặt/Sử dụng tập lệnh？
+## Cách cài đặt hoặc sử dụng tập lệnh？
 
 Để sử dụng bất kỳ tập lệnh nào，Đầu tiên, bạn cần cài đặt trình duyệt **Tampermonkey Tiện ích mở rộng trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
