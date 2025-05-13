@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT Sụp đổ thông điệp của riêng bạn và chiều rộng tối đa Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT Sụp đổ thông điệp của riêng bạn và chiều rộng tối đa Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.5.14.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Thay thế thất bại<code>CSS</code><br></p>
+<hr />
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
 <p><strong>Mới</strong>: Tương thích với mới ChatGPT Trang web chính thức,Khi đặt chiều rộng tối đa không thành công,Tự động thêm lại.</p>
 <hr />

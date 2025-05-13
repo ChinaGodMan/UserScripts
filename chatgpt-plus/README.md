@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 折叠自己消息和最大宽度 更新日志</strong></h1>
+<h3><strong>📅 2025.5.14.1</strong></h3>
+<p><strong>修复</strong>: 替换失效的<code>CSS</code><br></p>
+<hr />
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
 <p><strong>新增</strong>: 兼容新 ChatGPT 官网,设置最大宽度失败时,自动重新添加.</p>
 <hr />

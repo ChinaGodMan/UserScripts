@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 자신의 메시지와 최대 너비를 무너 뜨립니다 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 자신의 메시지와 최대 너비를 무너 뜨립니다 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.5.14.1</strong></h3>
+<p><strong>수리하다</strong>: 교체가 실패했습니다<code>CSS</code><br></p>
+<hr />
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
 <p><strong>새로운</strong>: 새로운 것과 호환됩니다 ChatGPT 공식 웹 사이트,최대 너비를 설정할 때 실패합니다,자동으로 다시 집어 넣습니다.</p>
 <hr />

@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-plus/chatgpt-plus.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504901">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT Collapse your own message and maximum width Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT Collapse your own message and maximum width Update log</strong></h1>
+<h3><strong>📅 2025.5.14.1</strong></h3>
+<p><strong>repair</strong>: Replacement failed<code>CSS</code><br></p>
+<hr />
 <h3><strong>📅 2024/9/28 09:32 - Ver 0.3.0.0</strong></h3>
 <p><strong>New</strong>: Compatible with new ChatGPT Official website,When setting the maximum width fails,Automatically re-add.</p>
 <hr />
