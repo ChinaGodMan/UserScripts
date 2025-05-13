@@ -72,7 +72,27 @@ jobs:
         run: |
           git pull
           git add .
-          git commit -n -m "docs(sync): 🤖 同步[\`[script]/README_[lang].md\`] [\`docs/[lang]/README.md\`]" || true
+          COMMIT_MESSAGE="docs(sync): 🤖 同步"
+
+          # docs/[lang]/readme.md
+          if git status --short | grep -q "docs/.*/README.md"; then
+            if git status --short | grep -q "README_"; then
+              COMMIT_MESSAGE+=" [\`docs/[lang]/README.md\`]"
+            else
+              COMMIT_MESSAGE+=" [\`[lang]/README.md\`]"
+            fi
+          fi
+
+          # 脚本自述
+          if git status --short | grep -q "README_"; then
+            if git status --short | grep -q "docs/.*/README.md"; then
+              COMMIT_MESSAGE+=" [\`[script]/README_[lang].md\`]"
+            else
+              COMMIT_MESSAGE+=" [\`README_[lang].md\`]"
+            fi
+          fi
+
+          git commit -n -m "$COMMIT_MESSAGE" || true
           git push
           if [ $? -ne 0 ]; then
             git pull --rebase
