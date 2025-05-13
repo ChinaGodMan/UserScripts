@@ -6,6 +6,7 @@ from google_translate import translate_text
 from google_translate import translation_lock
 from searcher import search_in_file
 from helper import sort_userscript_section
+from helper import read_json
 import re
 
 
@@ -83,9 +84,12 @@ def translate_and_collect(chinese_texts, lang):
 
 
 def translate_task(file_path, lang, chinese_texts, file_lock):
+    if lang == "zh-CN":  # 翻译你麻痹
+        return
     print(f"\033[32m开始翻译语言=>[{lang}]\033[0m")
     translation_output = translate_and_collect(chinese_texts, lang)
-    insert_into_meta(file_path, translation_output, file_lock)
+    if translation_output != "":
+        insert_into_meta(file_path, translation_output, file_lock)
 
 
 def translate_localized(file_path, target_langs):
@@ -102,10 +106,13 @@ def translate_localized(file_path, target_langs):
 
 
 def main():
-    # 创建命令行参数解析器
+    lang_map = read_json('utils/docs/lang_map.json')
+    lang_codes = []
+    for lang_dict in lang_map["langs"]:
+        lang_codes.extend(lang_dict.keys())
     parser = argparse.ArgumentParser(description="UserScript 多语言自动化翻译与优化工具")
     parser.add_argument("file_path", type=str, help="需要处理的 UserScript 文件路径")
-    parser.add_argument("--langs", nargs="+", default=['af', 'am', 'ar', 'az', 'be', 'bem', 'bg', 'bn', 'bo', 'bs', 'ca', 'ceb', 'cs', 'cy', 'da', 'de', 'dv', 'dz', 'el', 'en', 'en-GB', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fo', 'fr', 'fr-CA', 'gd', 'gl', 'gu', 'haw', 'he', 'hi', 'hr', 'ht', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ka', 'ckb', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'la', 'lb', 'lo', 'lt', 'lv', 'mg', 'mi', 'mk', 'ml', 'mn', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ny', 'pa', 'pap', 'pl', 'ps', 'pt', 'pt-BR', 'ro', 'ru', 'rw', 'sg', 'si', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'ti', 'tk', 'tn', 'to', 'tpi', 'tr', 'uk', 'ur', 'uz', 'vi', 'xh', 'yi', 'zh', 'zh-MY', 'zh-MO', 'zh-HK', 'zh-SG', 'zh-TW', 'zu'],
+    parser.add_argument("--langs", nargs="+", default=lang_codes,
                         help="目标翻译语言列表，默认包含 所有语言")
     args = parser.parse_args()
     file_path = args.file_path
