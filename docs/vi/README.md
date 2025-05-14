@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 Trình duyệt và Trình quản lý tập lệnh](#-Trình-duyệt-và-Trình-quản-lý-tập-lệnh) |
-[❔️ Cách cài đặt hoặc sử dụng tập lệnh](#Cách-cài-đặt-hoặc-sử-dụng-tập-lệnh) |
-[🙏 Đặc biệt cảm ơn Kaiyuan](#Đặc-biệt-cảm-ơn-Kaiyuan) |
+[❔️ Cách cài đặt hoặc sử dụng tập lệnh](#%EF%B8%8F-Cách-cài-đặt-hoặc-sử-dụng-tập-lệnh) |
+[🙏 Đặc biệt cảm ơn Kaiyuan](#-Đặc-biệt-cảm-ơn-Kaiyuan) |
 [🛡️ Chính sách bảo mật](#%EF%B8%8F-Chính-sách-bảo-mật) |
 [🤝 Quy tắc ứng xử](#-Quy-tắc-ứng-xử) |
 [🏛️ Thỏa thuận cấp phép nguồn mở](#%EF%B8%8F-Thỏa-thuận-cấp-phép-nguồn-mở) |
-[🧠 Người đóng góp](#Người-đóng-góp) |
+[🧠 Người đóng góp](#-Người-đóng-góp) |
 [💖 Hướng dẫn đóng góp](#-Hướng-dẫn-đóng-góp) |
-[⭐ Lịch sử ngôi sao](#Lịch-sử-ngôi-sao) |
-[📜 Danh sách tập lệnh](#Danh-sách-tập-lệnh)
+[⭐ Lịch sử ngôi sao](#-Lịch-sử-ngôi-sao) |
+[📜 Danh sách tập lệnh](#-Danh-sách-tập-lệnh)
 <!--README-TOC-END-->
 
-## Danh sách tập lệnh
+## 📜 Danh sách tập lệnh
 
 💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Vui lòng nhấp vào tên mở rộng bên dưới ▸ Hoặc mô tả。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTTập lệnh liên quan (5)</h1><h3>
+<h1>ChatGPTTập lệnh liên quan (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTKích thước phông chữ mã giảm</a>&nbsp;
@@ -275,7 +275,7 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Các tập lệnh liên quan đến trang web (10)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Các tập lệnh liên quan đến trang web (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Trình quản lý ủy quyền phiên bản clip viết trang web</a>&nbsp;
@@ -629,7 +629,7 @@ Xóa gạch chân liên kết trên tất cả các trang web，và xử lý cá
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubTập lệnh liên quan (13)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubTập lệnh liên quan (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Gửi thông tin hiển thị xem web</a>&nbsp;
@@ -1119,7 +1119,7 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleTập lệnh liên quan (2)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleTập lệnh liên quan (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Trợ lý tìm kiếm nâng cao</a>&nbsp;
@@ -1187,7 +1187,7 @@ Tìm kiếm một Google chặn một trang web được chỉ định
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkTập lệnh liên quan (11)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkTập lệnh liên quan (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Trang kịch kịch bản FREASY FORK để tăng cường URL</a>&nbsp;
@@ -1593,7 +1593,7 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Kịch bản người lớn (10)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Kịch bản người lớn (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Đăng nhập tự động</a>&nbsp;
@@ -1955,7 +1955,7 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Bản dịch tự động (3)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Bản dịch tự động (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Terminator ngoại ngữ</a>&nbsp;
@@ -2057,7 +2057,7 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
-<div align="right"><a href="#Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Kịch bản truyền thông xã hội (3)</h1><h3>
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Kịch bản truyền thông xã hội (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x ẩn các bài viết chuyển tiếp</a>&nbsp;
@@ -2177,12 +2177,10 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
-
+<div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## Cách cài đặt hoặc sử dụng tập lệnh？
+## ❔️ Cách cài đặt hoặc sử dụng tập lệnh？
 
 Để sử dụng bất kỳ tập lệnh nào，Đầu tiên, bạn cần cài đặt trình duyệt **Tampermonkey Tiện ích mở rộng trình quản lý tập lệnh（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 
 > _**Sẽ không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge RE-re-beable ẩn [Kéo vào cài đặt .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## Đặc biệt cảm ơn Kaiyuan
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 Đặc biệt cảm ơn Kaiyuan
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 > -   _Sao chép người Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Phân định，Sự cố kiểu bố trí kiểu :trollface:
 > -   _Sao chép Người Mỹ[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python Mã nội bộ_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## Người đóng góp
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 Người đóng góp
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2248,14 +2256,32 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 
 Danh sách đóng góp bởi： [contributors](https://github.com/jaywcjlove/github-action-contributors). Tự động tạo <a href="https://github.com/jaywcjlove" title="Điều chỉnh"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Điều chỉnh"/></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🏛️ Thỏa thuận cấp phép nguồn mở
 
 Dự án này áp dụng <a href="../../LICENSE.md"><strong>MIT giấy phép</strong></a> Ủy quyền。
 MIT Giấy phép là một thỏa thuận cấp phép nguồn mở lỏng lẻo，Để biết chi tiết, vui lòng tham khảo <a href="../../LICENSE.md">Toàn văn của giấy phép</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 Quy tắc ứng xử
 
 Để đảm bảo thân thiện、Một môi trường phát triển tôn trọng và toàn diện，Chúng tôi đã xây dựng những điều sau đây<a href="../CODE_OF_CONDUCT.md"><strong>Quy tắc ứng xử</strong></a>。Vui lòng làm theo các hướng dẫn này cho mỗi người đóng góp。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ Chính sách bảo mật
 
@@ -2264,9 +2290,21 @@ Nếu bạn tìm thấy một lỗ hổng，Vui lòng mở a[Dự thảo khuyế
 Yêu cầu kéo cũng được chào đón，Nhưng vì lý do an toàn，Vui lòng gửi email đến <china.qinwuyuan@gmail.com> và chờ trả lời trước khi nó được công khai。
 Để biết chi tiết, vui lòng tham khảo <a href="../SECURITY.md"><strong>Chính sách bảo mật</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 Hướng dẫn đóng góp
 
 Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã xây dựng những điều sau đây<a href="../../CONTRIBUTING.md"><strong>Hướng dẫn đóng góp</strong></a>。Để giúp bạn đóng góp mã hoặc tài liệu một cách trơn tru，Vui lòng trước khi gửi mã hoặc câu hỏi，Đọc nội dung một cách cẩn thận。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 Trình duyệt và Trình quản lý tập lệnh
 
@@ -2312,15 +2350,28 @@ Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã xây dự
 [le_link]: https://lemurbrowser.com/ "Trình duyệt Lemur"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWITrình duyệt"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /<a href="#top">Quay lại đầu↑</a></p>
+<div align="right">
 
-### Lịch sử ngôi sao
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ Lịch sử ngôi sao
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">Liên hệ với tác giả</a> /<a href="#top">Quay lại đầu↑</a></p>

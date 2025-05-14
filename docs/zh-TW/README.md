@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 瀏覽器與腳本管理器](#-瀏覽器與腳本管理器) |
-[❔️ 如何安裝或使用腳本](#如何安裝或使用腳本) |
-[🙏 特別感謝開源](#特別感謝開源) |
+[❔️ 如何安裝或使用腳本](#%EF%B8%8F-如何安裝或使用腳本) |
+[🙏 特別感謝開源](#-特別感謝開源) |
 [🛡️ 安全政策](#%EF%B8%8F-安全政策) |
 [🤝 行為準則](#-行為準則) |
 [🏛️ 開源許可協議](#%EF%B8%8F-開源許可協議) |
-[🧠 貢獻者](#貢獻者) |
+[🧠 貢獻者](#-貢獻者) |
 [💖 貢獻指南](#-貢獻指南) |
-[⭐ 星標歷史](#星標歷史) |
-[📜 腳本列表](#腳本列表)
+[⭐ 星標歷史](#-星標歷史) |
+[📜 腳本列表](#-腳本列表)
 <!--README-TOC-END-->
 
-## 腳本列表
+## 📜 腳本列表
 
 💡 **Tip:** _要顯示預覽截圖，請點擊擴展名稱下方的 ▸ 或描述。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPT相關腳本 (5)</h1><h3>
+<h1>ChatGPT相關腳本 (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPT程序碼字體縮小</a>&nbsp;
@@ -275,7 +275,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>網頁相關腳本 (10)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>網頁相關腳本 (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">網頁寫入剪輯版授權管理員</a>&nbsp;
@@ -629,7 +629,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub相關腳本 (13)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub相關腳本 (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 提交資料顯示網頁視圖</a>&nbsp;
@@ -1119,7 +1119,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google相關腳本 (2)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google相關腳本 (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google 高級搜尋助手</a>&nbsp;
@@ -1187,7 +1187,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork相關腳本 (11)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork相關腳本 (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Greasy fork腳本頁面適用於網址增強</a>&nbsp;
@@ -1593,7 +1593,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>成人腳本 (10)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>成人腳本 (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV 自動登入</a>&nbsp;
@@ -1955,7 +1955,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>自動翻譯 (3)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>自動翻譯 (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">外語終結者</a>&nbsp;
@@ -2057,7 +2057,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>社交媒體腳本 (3)</h1><h3>
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>社交媒體腳本 (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/X 隱藏轉發的帖子</a>&nbsp;
@@ -2177,12 +2177,10 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-
+<div align="right"><a href="#-腳本列表">返回目錄</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## 如何安裝或使用腳本？
+## ❔️ 如何安裝或使用腳本？
 
 要使用任何腳本，首先需要瀏覽器安裝 **Tampermonkey 腳本管理器擴展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 
 > _**不會離線安裝 .crx 擴展？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## 特別感謝開源
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 特別感謝開源
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 > -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
 > -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內代碼_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## 貢獻者
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 貢獻者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2248,14 +2256,32 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 
 貢獻列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動生成 <a href="https://github.com/jaywcjlove" title="小弟調調"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟調調"/></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🏛️ 開源許可協議
 
 本項目採用 <a href="../../LICENSE.md"><strong>MIT 許可證</strong></a> 授權。
 MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a href="../../LICENSE.md">許可證全文</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 行為準則
 
 為了確保一個友好、尊重和包容的開發環境，我們制定了以下<a href="../CODE_OF_CONDUCT.md"><strong>行為準則</strong></a>。請每位貢獻者遵循這些指導原則。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ 安全政策
 
@@ -2264,9 +2290,21 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 也歡迎拉取請求，但出於安全原因，請發送電子郵件至 <china.qinwuyuan@gmail.com> 並在公開之前等待回复。
 詳細內容請參閱 <a href="../SECURITY.md"><strong>安全政策</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 貢獻指南
 
 感謝您對本項目的興趣！我們制定了以下<a href="../../CONTRIBUTING.md"><strong>貢獻指南</strong></a>。為了幫助您順利貢獻代碼或文檔，請在提交代碼或問題前，仔細閱讀內容。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 瀏覽器與腳本管理器
 
@@ -2312,15 +2350,28 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 [le_link]: https://lemurbrowser.com/ "狐猴瀏覽器"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWI瀏覽器"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /<a href="#top">回到頂部↑</a></p>
+<div align="right">
 
-### 星標歷史
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ 星標歷史
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">聯繫作者</a> /<a href="#top">回到頂部↑</a></p>

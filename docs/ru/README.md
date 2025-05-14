@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 Браузер и менеджер сценариев](#-Браузер-и-менеджер-сценариев) |
-[❔️ Как установить или использовать сценарии](#Как-установить-или-использовать-сценарии) |
-[🙏 Особая благодарность Кайюану](#Особая-благодарность-Кайюану) |
+[❔️ Как установить или использовать сценарии](#%EF%B8%8F-Как-установить-или-использовать-сценарии) |
+[🙏 Особая благодарность Кайюану](#-Особая-благодарность-Кайюану) |
 [🛡️ Политика безопасности](#%EF%B8%8F-Политика-безопасности) |
 [🤝 Нормы поведения](#-Нормы-поведения) |
 [🏛️ Лицензионное соглашение с открытым исходным кодом](#%EF%B8%8F-Лицензионное-соглашение-с-открытым-исходным-кодом) |
-[🧠 Участники](#Участники) |
+[🧠 Участники](#-Участники) |
 [💖 Руководство по взносу](#-Руководство-по-взносу) |
-[⭐ Звездная история](#Звездная-история) |
-[📜 Список сценариев](#Список-сценариев)
+[⭐ Звездная история](#-Звездная-история) |
+[📜 Список сценариев](#-Список-сценариев)
 <!--README-TOC-END-->
 
-## Список сценариев
+## 📜 Список сценариев
 
 💡 **Tip:** _Для отображения снимка экрана предварительного просмотра，Пожалуйста, нажмите на имя расширения ниже ▸ Или описание。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTСвязанные сценарии (5)</h1><h3>
+<h1>ChatGPTСвязанные сценарии (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTРазмер шрифта кода уменьшен</a>&nbsp;
@@ -275,7 +275,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии, связанные с веб -страницей (10)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии, связанные с веб -страницей (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Менеджер авторизации версий клипов для написания веб-страниц</a>&nbsp;
@@ -629,7 +629,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (13)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Отправить информацию, отобразить веб-просмотр</a>&nbsp;
@@ -1119,7 +1119,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleСвязанные сценарии (2)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleСвязанные сценарии (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Расширенный помощник поиска</a>&nbsp;
@@ -1187,7 +1187,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkСвязанные сценарии (11)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkСвязанные сценарии (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Страницы сценариев Greasy Fork для улучшения URL</a>&nbsp;
@@ -1593,7 +1593,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Взрослые сценарии (10)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Взрослые сценарии (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Автоматический вход</a>&nbsp;
@@ -1955,7 +1955,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Автоматический перевод (3)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Автоматический перевод (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Терминатор иностранного языка</a>&nbsp;
@@ -2057,7 +2057,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии социальных сетей (3)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии социальных сетей (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x скрыть ретвитические сообщения</a>&nbsp;
@@ -2177,12 +2177,10 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## Как установить или использовать сценарии？
+## ❔️ Как установить или использовать сценарии？
 
 Чтобы использовать любой сценарий，Во -первых, вам нужна установка браузера **Tampermonkey Расширения менеджера сценариев（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 
 > _**Не будет устанавливать автолайн .crx Расширенный？[Chrome、Edge Повторно скрыто [Перетащить в установку .crx Расширенный] Функция！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## Особая благодарность Кайюану
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 Особая благодарность Кайюану
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 > -   _Скопируйте американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Разделитель，Стиль макета типа выпуска :trollface:
 > -   _Копировано Американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Python Внутренний код_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## Участники
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 Участники
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2246,16 +2254,34 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Список вкладов по： [contributors](https://github.com/jaywcjlove/github-action-contributors). Автоматически генерировать <a href="https://github.com/jaywcjlove" title="Мелодия"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Мелодия"/></a>
+Список вкладов по： [contributors](https://github.com/jaywcjlove/github-action-contributors). Автоматически генерируется <a href="https://github.com/jaywcjlove" title="Мелодия"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Мелодия"/></a>
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🏛️ Лицензионное соглашение с открытым исходным кодом
 
 Этот проект принимает <a href="../../LICENSE.md"><strong>MIT лицензия</strong></a> Авторизация。
 MIT Лицензия - это свободное лицензионное соглашение с открытым исходным кодом，Для получения подробной информации, пожалуйста <a href="../../LICENSE.md">Полный текст лицензии</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 Нормы поведения
 
 Чтобы обеспечить дружелюбный、Уважительная и инклюзивная среда развития，Мы сформулировали следующее<a href="../CODE_OF_CONDUCT.md"><strong>Нормы поведения</strong></a>。Пожалуйста, следуйте этим рекомендациям для каждого участника。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ Политика безопасности
 
@@ -2264,9 +2290,21 @@ MIT Лицензия - это свободное лицензионное сог
 Также приветствуются запросы на привлечение，Но по соображениям безопасности，Пожалуйста, отправьте электронное письмо <china.qinwuyuan@gmail.com> и подождать ответа, прежде чем он станет。
 Для получения подробной информации, пожалуйста <a href="../SECURITY.md"><strong>Политика безопасности</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 Руководство по взносу
 
 Спасибо за ваш интерес к этому проекту！Мы сформулировали следующее<a href="../../CONTRIBUTING.md"><strong>Руководство по взносу</strong></a>。Чтобы помочь вам внести код или документацию плавно，Пожалуйста, перед отправкой кода или вопроса，Внимательно прочитайте контент。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 Браузер и менеджер сценариев
 
@@ -2312,15 +2350,28 @@ MIT Лицензия - это свободное лицензионное сог
 [le_link]: https://lemurbrowser.com/ "Лемурский браузер"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWIБраузер"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Больше пользовательских сценариев</strong></a> /<a href="#top">Вернуться к вершине↑</a></p>
+<div align="right">
 
-### Звездная история
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ Звездная история
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">Свяжитесь с автором</a> /<a href="#top">Вернуться к вершине↑</a></p>

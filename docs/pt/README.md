@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 Navegador e gerente de scripts](#-Navegador-e-gerente-de-scripts) |
-[❔️ Como instalar ou usar scripts](#Como-instalar-ou-usar-scripts) |
-[🙏 Agradecimentos especiais a Kaiyuan](#Agradecimentos-especiais-a-Kaiyuan) |
+[❔️ Como instalar ou usar scripts](#%EF%B8%8F-Como-instalar-ou-usar-scripts) |
+[🙏 Agradecimentos especiais a Kaiyuan](#-Agradecimentos-especiais-a-Kaiyuan) |
 [🛡️ Política de segurança](#%EF%B8%8F-Política-de-segurança) |
 [🤝 Código de Conduta](#-Código-de-Conduta) |
 [🏛️ Contrato de licença de código aberto](#%EF%B8%8F-Contrato-de-licença-de-código-aberto) |
-[🧠 Colaboradores](#Colaboradores) |
+[🧠 Colaboradores](#-Colaboradores) |
 [💖 Guia de contribuição](#-Guia-de-contribuição) |
-[⭐ História da estrela](#História-da-estrela) |
-[📜 Lista de scripts](#Lista-de-scripts)
+[⭐ História da estrela](#-História-da-estrela) |
+[📜 Lista de scripts](#-Lista-de-scripts)
 <!--README-TOC-END-->
 
-## Lista de scripts
+## 📜 Lista de scripts
 
 💡 **Tip:** _Para exibir a captura de tela de visualização，Clique no nome da extensão abaixo ▸ Ou descrição。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPTScripts relacionados (5)</h1><h3>
+<h1>ChatGPTScripts relacionados (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">-BR        ChatGPTTamanho da fonte do código reduzido</a>&nbsp;
@@ -275,7 +275,7 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Atualizar log</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts relacionados à página da web (10)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts relacionados à página da web (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">-BR        Gerenciador de autorização de versão de clipe de gravação de página da Web</a>&nbsp;
@@ -629,7 +629,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubScripts relacionados (13)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubScripts relacionados (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">-BR        GitHub Enviar informações exibir visualização da web</a>&nbsp;
@@ -1119,7 +1119,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleScripts relacionados (2)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleScripts relacionados (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">-BR        Google Assistente de pesquisa avançada</a>&nbsp;
@@ -1187,7 +1187,7 @@ Procure um Google bloqueando um site especificado
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkScripts relacionados (11)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkScripts relacionados (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Páginas de script de garfo gorduroso para aprimoramento de URL</a>&nbsp;
@@ -1593,7 +1593,7 @@ Procure um Google bloqueando um site especificado
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts adultos (10)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts adultos (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">-BR        MissAV Login automático</a>&nbsp;
@@ -1955,7 +1955,7 @@ Procure um Google bloqueando um site especificado
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Atualizar log</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Tradução automática (3)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Tradução automática (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Terminador de língua estrangeira</a>&nbsp;
@@ -2057,7 +2057,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
-<div align="right"><a href="#Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts de mídia social (3)</h1><h3>
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts de mídia social (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">-BR        Twitter/x Hide Postagens Retweetadas</a>&nbsp;
@@ -2177,12 +2177,10 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
-
+<div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## Como instalar ou usar scripts？
+## ❔️ Como instalar ou usar scripts？
 
 Para usar qualquer script，Primeiro, você precisa de uma instalação do navegador **Tampermonkey Extensões do gerente de scripts（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ Para usar qualquer script，Primeiro, você precisa de uma instalação do naveg
 
 > _**Não instalará offline .crx Estendido？[Chrome、Edge Reativado escondido [Arraste para a instalação .crx Estendido] Função！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## Agradecimentos especiais a Kaiyuan
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 Agradecimentos especiais a Kaiyuan
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ Para usar qualquer script，Primeiro, você precisa de uma instalação do naveg
 > -   _Copie o americano[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Delimitador，Estilo de layout do tipo de problema :trollface:
 > -   _Copiado americano[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python Código interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## Colaboradores
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 Colaboradores
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2246,16 +2254,34 @@ Para usar qualquer script，Primeiro, você precisa de uma instalação do naveg
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Lista de contribuição por： [contributors](https://github.com/jaywcjlove/github-action-contributors). Gerar automaticamente <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
+Lista de contribuição por： [contributors](https://github.com/jaywcjlove/github-action-contributors). Gerado automaticamente <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🏛️ Contrato de licença de código aberto
 
 Este projeto adota <a href="../../LICENSE.md"><strong>MIT licença</strong></a> Autorização。
 MIT A licença é um contrato de licença de código aberto solto，Para detalhes, consulte <a href="../../LICENSE.md">Texto completo da licença</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 Código de Conduta
 
 Para garantir um amigável、Um ambiente de desenvolvimento respeitoso e inclusivo，Nós formulamos o seguinte<a href="../CODE_OF_CONDUCT.md"><strong>Código de Conduta</strong></a>。Siga estas diretrizes para cada colaborador。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ Política de segurança
 
@@ -2264,9 +2290,21 @@ Se você encontrar uma vulnerabilidade，Por favor, abra um[Projeto de recomenda
 Pedidos de tração também são bem -vindos，Mas por razões de segurança，Envie um e -mail para <china.qinwuyuan@gmail.com> e aguarde uma resposta antes de ser tornado público。
 Para detalhes, consulte <a href="../SECURITY.md"><strong>Política de segurança</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 Guia de contribuição
 
 Obrigado pelo seu interesse neste projeto！Nós formulamos o seguinte<a href="../../CONTRIBUTING.md"><strong>Guia de contribuição</strong></a>。Para ajudá -lo a contribuir com código ou documentação sem problemas，Antes de enviar o código ou pergunta，Leia o conteúdo cuidadosamente。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 Navegador e gerente de scripts
 
@@ -2312,15 +2350,28 @@ Obrigado pelo seu interesse neste projeto！Nós formulamos o seguinte<a href=".
 [le_link]: https://lemurbrowser.com/ "Navegador de lêmures"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWINavegador"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Mais scripts de usuário</strong></a> /<a href="#top">De volta ao topo↑</a></p>
+<div align="right">
 
-### História da estrela
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ História da estrela
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">Entre em contato com o autor</a> /<a href="#top">De volta ao topo↑</a></p>

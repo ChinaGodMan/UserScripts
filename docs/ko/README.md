@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 브라우저 및 스크립트 관리자](#-브라우저-및-스크립트-관리자) |
-[❔️ 스크립트를 설치하거나 사용하는 방법](#스크립트를-설치하거나-사용하는-방법) |
-[🙏 Kaiyuan에게 특별한 감사를드립니다](#Kaiyuan에게-특별한-감사를드립니다) |
+[❔️ 스크립트를 설치하거나 사용하는 방법](#%EF%B8%8F-스크립트를-설치하거나-사용하는-방법) |
+[🙏 Kaiyuan에게 특별한 감사를드립니다](#-Kaiyuan에게-특별한-감사를드립니다) |
 [🛡️ 보안 정책](#%EF%B8%8F-보안-정책) |
 [🤝 행동 강령](#-행동-강령) |
 [🏛️ 오픈 소스 라이센스 계약](#%EF%B8%8F-오픈-소스-라이센스-계약) |
-[🧠 기고자](#기고자) |
+[🧠 기고자](#-기고자) |
 [💖 기여 가이드](#-기여-가이드) |
-[⭐ 스타 역사](#스타-역사) |
-[📜 스크립트 목록](#스크립트-목록)
+[⭐ 스타 역사](#-스타-역사) |
+[📜 스크립트 목록](#-스크립트-목록)
 <!--README-TOC-END-->
 
-## 스크립트 목록
+## 📜 스크립트 목록
 
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPT관련 스크립트 (5)</h1><h3>
+<h1>ChatGPT관련 스크립트 (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPT코드 글꼴 크기 감소</a>&nbsp;
@@ -275,7 +275,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>웹 페이지 관련 스크립트 (10)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>웹 페이지 관련 스크립트 (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">웹 페이지 작성 클립 버전 권한 관리자</a>&nbsp;
@@ -629,7 +629,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub관련 스크립트 (13)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub관련 스크립트 (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
@@ -1119,7 +1119,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google관련 스크립트 (2)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google관련 스크립트 (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google 고급 검색 도우미</a>&nbsp;
@@ -1187,7 +1187,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork관련 스크립트 (11)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork관련 스크립트 (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
@@ -1593,7 +1593,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>성인 스크립트 (10)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>성인 스크립트 (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV 자동 로그인</a>&nbsp;
@@ -1955,7 +1955,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>자동 번역 (3)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>자동 번역 (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">외국어 터미네이터</a>&nbsp;
@@ -2057,7 +2057,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>소셜 미디어 스크립트 (3)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>소셜 미디어 스크립트 (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
@@ -2177,12 +2177,10 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## 스크립트를 설치하거나 사용하는 방법？
+## ❔️ 스크립트를 설치하거나 사용하는 방법？
 
 모든 스크립트를 사용합니다，먼저 브라우저 설치가 필요합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 
 > _**오프라인을 설치하지 않습니다 .crx 펼친？[Chrome、Edge 다시 활성화되어 숨겨집니다 [설치로 드래그하십시오 .crx 펼친] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## Kaiyuan에게 특별한 감사를드립니다
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 Kaiyuan에게 특별한 감사를드립니다
 
 > [!TIP]
 >
@@ -2232,13 +2234,19 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 > -   _이 창고는 미국인으로 지명되었습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)고무하다_ :trollface:
 > -   _이 창고의 README 파일은 출신입니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
 > -   _스크립트의 상호 전환 점프는 왔습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
-> -   _이 창고에서 모두`README.md`이 파일은이 미국 저장소에 의해 복사되어 사용되었습니다.`README.md`파일 레이아웃，구분기，암호，아이디어_ :trollface:
+> -   _이 창고에서 모두`README.md`이 미국 저장소에서 파일을 복사하여 사용했습니다.`README.md`파일 레이아웃，구분기，암호，아이디어_ :trollface:
 > -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사 미국 사람[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분기，문제 유형 레이아웃 스타일 :trollface:
 > -   _복사 미국 사람[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python 내부 코드_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## 기고자
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 기고자
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2246,16 +2254,34 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됩니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성되었습니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🏛️ 오픈 소스 라이센스 계약
 
 이 프로젝트는 채택됩니다 <a href="../../LICENSE.md"><strong>MIT 특허</strong></a> 권한 부여。
 MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내용은 참조하십시오 <a href="../../LICENSE.md">라이센스의 전문</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 행동 강령
 
 친절한 것을 보장합니다、존중하고 포괄적 인 개발 환경，우리는 다음을 공식화했습니다<a href="../CODE_OF_CONDUCT.md"><strong>행동 강령</strong></a>。각 기고자에 대한이 지침을 따르십시오。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ 보안 정책
 
@@ -2264,9 +2290,21 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 풀 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
 자세한 내용은 참조하십시오 <a href="../SECURITY.md"><strong>보안 정책</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 기여 가이드
 
 이 프로젝트에 관심을 가져 주셔서 감사합니다！우리는 다음을 공식화했습니다<a href="../../CONTRIBUTING.md"><strong>기여 가이드</strong></a>。코드 나 문서를 원활하게 기여하는 데 도움이됩니다，코드 나 질문을 제출하기 전에하십시오，컨텐츠를주의 깊게 읽으십시오。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 브라우저 및 스크립트 관리자
 
@@ -2312,15 +2350,28 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 [le_link]: https://lemurbrowser.com/ "레무르 브라우저"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWI브라우저"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p>
+<div align="right">
 
-### 스타 역사
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ 스타 역사
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">저자에게 연락하십시오</a> /<a href="#top">위로 돌아갑니다↑</a></p>

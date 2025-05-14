@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 ブラウザとスクリプトマネージャー](#-ブラウザとスクリプトマネージャー) |
-[❔️ スクリプトをインストールまたは使用する方法](#スクリプトをインストールまたは使用する方法) |
-[🙏 Kaiyuanに感謝します](#Kaiyuanに感謝します) |
+[❔️ スクリプトをインストールまたは使用する方法](#%EF%B8%8F-スクリプトをインストールまたは使用する方法) |
+[🙏 Kaiyuanに感謝します](#-Kaiyuanに感謝します) |
 [🛡️ セキュリティポリシー](#%EF%B8%8F-セキュリティポリシー) |
 [🤝 行動規範](#-行動規範) |
 [🏛️ オープンソースライセンス契約](#%EF%B8%8F-オープンソースライセンス契約) |
-[🧠 貢献者](#貢献者) |
+[🧠 貢献者](#-貢献者) |
 [💖 貢献ガイド](#-貢献ガイド) |
-[⭐ 星の歴史](#星の歴史) |
-[📜 スクリプトリスト](#スクリプトリスト)
+[⭐ 星の歴史](#-星の歴史) |
+[📜 スクリプトリスト](#-スクリプトリスト)
 <!--README-TOC-END-->
 
-## スクリプトリスト
+## 📜 スクリプトリスト
 
 💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
@@ -93,7 +93,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ChatGPT関連するスクリプト (5)</h1><h3>
+<h1>ChatGPT関連するスクリプト (5)</h1><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTコードのフォントサイズが小さいさくなりました</a>&nbsp;
@@ -275,7 +275,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Webページ関連のスクリプト (10)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Webページ関連のスクリプト (10)</h1><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Web ページ本き込みクリップ バージョン認証マネージャー</a>&nbsp;
@@ -629,7 +629,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub関連するスクリプト (13)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub関連するスクリプト (13)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 情報声明Webビューの送信</a>&nbsp;
@@ -1119,7 +1119,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google関連するスクリプト (2)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google関連するスクリプト (2)</h1><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google 高いな検索アシスタント</a>&nbsp;
@@ -1187,7 +1187,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork関連するスクリプト (11)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork関連するスクリプト (11)</h1><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">URL強化の脂っこいフォークスクリプトページ</a>&nbsp;
@@ -1593,7 +1593,7 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>大人のスクリプト (10)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>大人のスクリプト (10)</h1><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV 自動ログイン</a>&nbsp;
@@ -1955,7 +1955,7 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>自動翻訳 (3)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>自動翻訳 (3)</h1><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">外国語ターミネーター</a>&nbsp;
@@ -2057,7 +2057,7 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
-<div align="right"><a href="#スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ソーシャルメディアスクリプト (3)</h1><h3>
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>ソーシャルメディアスクリプト (3)</h1><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/Xリツイートされた投稿を非発現にします</a>&nbsp;
@@ -2177,12 +2177,10 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
-
+<div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## スクリプトをインストールまたは使用する方法？
+## ❔️ スクリプトをインストールまたは使用する方法？
 
 任意のスクリプトを使用します，まず、ブラウザのインス​​トールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 
 > _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## Kaiyuanに感謝します
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 Kaiyuanに感謝します
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 > -   _アメリカ人をコピーします[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，タイプのレイアウトスタイルを発行します :trollface:
 > -   _コピー アメリカ人[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python 内部コード_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## 貢献者
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 貢献者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2246,16 +2254,34 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-貢献リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動的に生成します <a href="https://github.com/jaywcjlove" title="チューン"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="チューン"/></a>
+貢献リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動的に生成されます <a href="https://github.com/jaywcjlove" title="チューン"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="チューン"/></a>
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🏛️ オープンソースライセンス契約
 
 このプロジェクトは採用されています <a href="../../LICENSE.md"><strong>MIT ライセンス</strong></a> 許可。
 MIT ライセンスは、ゆるいオープンソースライセンス契約です，詳細については、参照してください <a href="../../LICENSE.md">ライセンスの全文</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 行動規範
 
 フレンドリーを確保するために、敬意と包括的な開発環境，以下を策定しました<a href="../CODE_OF_CONDUCT.md"><strong>行動規範</strong></a>。各貢献者のガイドラインに従ってください。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ セキュリティポリシー
 
@@ -2264,9 +2290,21 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 プルリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
 詳細については、参照してください <a href="../SECURITY.md"><strong>セキュリティポリシー</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 貢献ガイド
 
 このプロジェクトに興味を持っていただきありがとうございます！以下を策定しました<a href="../../CONTRIBUTING.md"><strong>貢献ガイド</strong></a>。コードやドキュメントをスムーズに提供するのに役立ちます，コードまたは質問を送信する前に，コンテンツを注意深く読んでください。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
@@ -2312,15 +2350,28 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 [le_link]: https://lemurbrowser.com/ "LEMURブラウザ"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWIブラウザ"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>より多くのユーザースクリプト</strong></a> /<a href="#top">トップに戻ります↑</a></p>
+<div align="right">
 
-### 星の歴史
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ 星の歴史
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">著者に連絡してください</a> /<a href="#top">トップに戻ります↑</a></p>
