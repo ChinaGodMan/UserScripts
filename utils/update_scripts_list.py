@@ -93,15 +93,15 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
         if use_details:
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
-            # 不分组时，添加分隔符用于区分
-            if index != 0:
-                html_output += '<div align="right"><a href="#脚本列表">返回目录</a></div>'
             html_output += (
-                f'<img height=6px width="100%" '
-                f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
                 f'<h1>{related_id} ({len(scripts)})</h1>'
             )
         html_output += generate_html_table(scripts)
+        html_output += (
+            '<div align="right"><a href="#-脚本列表">返回目录</a></div>'
+            f'<img height=6px width="100%" '
+            f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
+        )
         if use_details:
             print(center_c)
             html_output += f"{center_c}</details>"

@@ -62,20 +62,20 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 
 <!--README-TOC-->
-## TOC
+## 🔖 TOC
 [🌐 浏览器与脚本管理器](#-浏览器与脚本管理器) |
-[❔️ 如何安装或使用脚本](#如何安装或使用脚本) |
-[🙏 特别感谢开源](#特别感谢开源) |
+[❔️ 如何安装或使用脚本](#%EF%B8%8F-如何安装或使用脚本) |
+[🙏 特别感谢开源](#-特别感谢开源) |
 [🛡️ 安全政策](#%EF%B8%8F-安全政策) |
 [🤝 行为准则](#-行为准则) |
 [🏛️ 开源许可协议](#%EF%B8%8F-开源许可协议) |
-[🧠 贡献者](#贡献者) |
+[🧠 贡献者](#-贡献者) |
 [💖 贡献指南](#-贡献指南) |
-[⭐ 星标历史](#星标历史) |
-[📜 脚本列表](#脚本列表)
+[⭐ 星标历史](#-星标历史) |
+[📜 脚本列表](#-脚本列表)
 <!--README-TOC-END-->
 
-## 脚本列表
+## 📜 脚本列表
 
 💡 **Tip:** _要显示预览截图，请点击扩展名称下方的 ▸ 或描述。_
 
@@ -2180,9 +2180,7 @@ ChatGPT 让代码字体变小 并且自动折行
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
----
-
-## 如何安装或使用脚本？
+## ❔️ 如何安装或使用脚本？
 
 要使用任何脚本，首先需要浏览器安装 **Tampermonkey 脚本管理器扩展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
@@ -2198,9 +2196,13 @@ ChatGPT 让代码字体变小 并且自动折行
 
 > _**不会离线安装 .crx 扩展？[Chrome、Edge 重新开启隐藏的 [拖入安装 .crx 扩展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
 
----
+<div align="right">
 
-## 特别感谢开源
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🙏 特别感谢开源
 
 > [!TIP]
 >
@@ -2238,7 +2240,13 @@ ChatGPT 让代码字体变小 并且自动折行
 > -   _复制了美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版风格 :trollface:
 > -   _复制了 美国佬[Adam Lui 刘展鹏](https://github.com/adamlui)Python 内代码_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
-## 贡献者
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## 🧠 贡献者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -2248,14 +2256,32 @@ ChatGPT 让代码字体变小 并且自动折行
 
 贡献列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自动生成 <a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🏛️ 开源许可协议
 
 本项目采用 <a href="../LICENSE.md"><strong>MIT 许可证</strong></a> 授权。
 MIT 许可证是一种宽松的开源许可协议，详细内容请参阅 <a href="../LICENSE.md">许可证全文</a>。
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 🤝 行为准则
 
 为了确保一个友好、尊重和包容的开发环境，我们制定了以下<a href="./CODE_OF_CONDUCT.md"><strong>行为准则</strong></a>。请每位贡献者遵循这些指导原则。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🛡️ 安全政策
 
@@ -2264,9 +2290,21 @@ MIT 许可证是一种宽松的开源许可协议，详细内容请参阅 <a hre
 也欢迎拉取请求，但出于安全原因，请发送电子邮件至 <china.qinwuyuan@gmail.com> 并在公开之前等待回复。
 详细内容请参阅 <a href="./SECURITY.md"><strong>安全政策</strong></a>
 
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
 ## 💖 贡献指南
 
 感谢您对本项目的兴趣！我们制定了以下<a href="../CONTRIBUTING.md"><strong>贡献指南</strong></a>。为了帮助您顺利贡献代码或文档，请在提交代码或问题前，仔细阅读内容。
+
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
 
 ## 🌐 浏览器与脚本管理器
 
@@ -2312,15 +2350,28 @@ MIT 许可证是一种宽松的开源许可协议，详细内容请参阅 <a hre
 [le_link]: https://lemurbrowser.com/ "狐猴浏览器"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWI浏览器"
+[back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
 
-<p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p>
+<div align="right">
 
-### 星标历史
+[![][back-to-toc]](#-toc)
+
+</div>
+
+## ⭐ 星标历史
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
-  <picture>
+<picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ChinaGodMan/UserScripts&type=Date" />
-  </picture>
+</picture>
 </a>
+<div align="right">
+
+[![][back-to-toc]](#-toc)
+
+</div>
+
+<p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">联系作者</a> /<a href="#top">回到顶部↑</a></p>
