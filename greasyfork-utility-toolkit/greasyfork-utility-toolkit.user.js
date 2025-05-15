@@ -116,7 +116,7 @@
  * File Created: 2024/11/24,Sunday 12:38:56
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/05/15,Thursday 19:40:50
+ * Last Modified: 2025/05/15,Thursday 19:56:00
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -2209,7 +2209,7 @@ margin-bottom: 0;
                 onload: function (r) {
                     var url = (r.responseText.match(/\n\s*\/\/\s+@icon(?:url)?\s+((?:https?:\/\/|data:image\/).+)|$/i)[1] || '').trim()
                     if (!url) {
-                        url = 'https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/user-script.png'
+                        url = 'https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/user-script.png'
                         return __addIcon(url, h2Element, true)
                     }
                     if (!/^http:/.test(url))
