@@ -47,9 +47,8 @@ def get_top_path(paths):
         """
         if '/' not in path.strip('./').strip('../'):
             top_level_paths.append(path)
-        else:
-            if "README.md" in path:
-                top_level_paths.append(path)
+        elif "README.md" in path:
+            top_level_paths.append(path)
     return top_level_paths
 
 
@@ -73,8 +72,6 @@ for item in docs['files']:
             with open(readme, 'r', encoding='utf-8', newline='\n') as file:
                 content = file.read()
             updated_content = re.sub(reg_return, lambda match: replace_links(match, return_link_template), content)
-            with open(readme, 'w', encoding='utf-8', newline='\n') as file:
-                file.write(updated_content)
 
             # 增加上级相对路径
             matches = re.findall(reg_relative, updated_content)
