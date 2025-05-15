@@ -3,9 +3,9 @@ import sys
 from content_snippet import get_file_description
 from writer import process_file
 from helper import read_json
-from helper import is_file_updated_more_than
+from helper import is_file_modified
 
-if is_file_updated_more_than("docs/README.md", 5):
+if not is_file_modified("docs/README.md"):
     sys.exit()
 
 start_tag = "<!--SCRIPTS_COUNT-->"
