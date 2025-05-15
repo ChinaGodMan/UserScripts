@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Dán nhà sản xuất giàn khoan Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Dán nhà sản xuất giàn khoan Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.5.15.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Thay thế hình ảnh không hợp lệ để liên kết đến<code>UserScriptsHistory</code><br></p>
+<hr />
 <h3><strong>📅 2025.5.7.1</strong></h3>
 <p><strong>i18n</strong>: • <code>Install</code>  Thêm khu vực hóa<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
 <hr />

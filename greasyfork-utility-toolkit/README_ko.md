@@ -61,7 +61,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 리깅 메이커를 붙여 넣으십시오 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 리깅 메이커를 붙여 넣으십시오 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.5.15.1</strong></h3>
+<p><strong>수리하다</strong>: 링크 할 잘못된 그림을 교체하십시오<code>UserScriptsHistory</code><br></p>
+<hr />
 <h3><strong>📅 2025.5.7.1</strong></h3>
 <p><strong>i18n</strong>: • <code>Install</code>  지역화를 추가하십시오<a href="https://github.com/ChinaGodMan/UserScripts/issues/126">#126</a><br></p>
 <hr />
@@ -102,7 +105,7 @@
 <p><strong>새로운</strong>: • 증가하다 WebHook 페이지 빠른 점프 스크립트 관리。</p>
 <hr />
 <h3><strong>📅 2024/8/4 22:09 - Ver 2.2.0.35</strong></h3>
-<p><strong>수리하다</strong>: • 청취 규칙의 변화로 인한 동적 청취 실패 고정。
+<p><strong>수리하다</strong>: • 청취 규칙 변경으로 인한 수정 된 동적 청취 실패。
 <strong>새로운</strong>: • 듣기 규칙이 증가합니다：<code>user-script-list-section browse-script-list</code>。</p>
 <hr />
 <h3><strong>📅 2024/7/20 - Ver 2.2.0.14</strong></h3>
