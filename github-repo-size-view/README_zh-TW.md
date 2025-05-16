@@ -62,7 +62,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題 <br></p>
+<hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
 <p><strong>修復上個版本小問題</strong>:快捷跳轉&gt;在開啟自定義獲取用戶倉庫數量時,默認只獲取第一頁<br></p>
 <hr />
@@ -115,7 +118,7 @@
 <table>
 <thead>
 <tr>
-<th><code>紅色</code> 為公開倉庫 <code>綠色</code> 為私人倉庫 <code>Fork</code> 復刻的倉庫 (登錄的用戶,必須鍵入 TOKEN)</th>
+<th><code>紅色</code> 為公開倉庫 <code>綠色</code> 為私人倉庫 <code>Forks</code> 復刻的倉庫 (登錄的用戶,必須鍵入 TOKEN)</th>
 <th>新增演示 ~~僅顯示第一頁 30 個倉庫,超出不會顯示,目前夠我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
 </tr>
 </thead>

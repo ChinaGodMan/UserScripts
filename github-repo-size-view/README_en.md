@@ -62,7 +62,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page <br></p>
+<hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
 <p><strong>Fixed a minor issue in the previous version</strong>:Quick jump&gt;When customizing the number of user repositories is enabled,Only the first page is obtained by default<br></p>
 <hr />
@@ -115,7 +118,7 @@
 <table>
 <thead>
 <tr>
-<th><code>red</code> For the open warehouse <code>green</code> For private warehouses <code>Fork</code> Replica warehouse (Logged in user,Must be typed TOKEN)</th>
+<th><code>red</code> For the open warehouse <code>green</code> For private warehouses <code>Forks</code> Replica warehouse (Logged in user,Must be typed TOKEN)</th>
 <th>Added a demo ~~Show only the first page 30 A warehouse,Exceed will not display,It’s enough for me to use myself now~~ <code>0.1.3.4</code>All supported</th>
 </tr>
 </thead>

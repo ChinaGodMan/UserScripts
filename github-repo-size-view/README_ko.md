@@ -62,7 +62,10 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다. <br></p>
+<hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
 <p><strong>이전 버전에서 사소한 문제를 수정했습니다</strong>:빠른 점프&gt;사용자 리포지토리 수를 사용자 정의 할 때 활성화됩니다,첫 번째 페이지 만 기본적으로 얻습니다<br></p>
 <hr />
@@ -115,7 +118,7 @@
 <table>
 <thead>
 <tr>
-<th><code>빨간색</code> 오픈 창고 용 <code>녹색</code> 개인 창고 용 <code>Fork</code> 복제 창고 (로그인 한 사용자,입력해야합니다 TOKEN)</th>
+<th><code>빨간색</code> 오픈 창고 용 <code>녹색</code> 개인 창고 용 <code>Forks</code> 복제 창고 (로그인 한 사용자,입력해야합니다 TOKEN)</th>
 <th>데모를 추가했습니다 ~~첫 페이지 만 표시하십시오 30 창고,초과는 표시되지 않습니다,내가 지금 나 자신을 사용하기에 충분합니다~~ <code>0.1.3.4</code>모두 지원됩니다</th>
 </tr>
 </thead>
