@@ -61,7 +61,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview 更新日誌</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview 更新日誌</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>修復</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>或者<code>closeOnMouseClick</code>被關閉時,無法彈出新的小窗 <br>
+<strong>解決</strong>:當頁面目前存在了一個小窗口,且<code>closeOnScroll</code>或者<code>closeOnMouseClick</code>任意一個被關閉時,直接銷毀當前的小窗口 <br></p>
+<hr />
 <h3><strong>📅 2025.3.14.1108</strong></h3>
 <p><strong>最佳化</strong>: <a href="https://github.com/ChinaGodMan/UserScripts/issues/102">#102</a>添加<code>僅顯示GUI</code> 菜單選項,允許在油猴中僅顯示一個菜單選項,不顯示多餘的菜單.<br>
 <strong>截圖</strong>: <img alt="image.png" src="https://s2.loli.net/2025/03/14/1tViJL5msKOgCPR.png" /> <br>

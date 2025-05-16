@@ -61,7 +61,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>Sửa chữa</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>hoặc<code>closeOnMouseClick</code>Khi đóng,Không có cửa sổ mới bật lên <br>
+<strong>gỡ rối</strong>:Khi trang hiện có một cửa sổ nhỏ,Và<code>closeOnScroll</code>hoặc<code>closeOnMouseClick</code>Khi bất kỳ ai bị đóng,Phá hủy cửa sổ nhỏ hiện tại trực tiếp <br></p>
+<hr />
 <h3><strong>📅 2025.3.14.1108</strong></h3>
 <p><strong>tối ưu hóa</strong>: <a href="https://github.com/ChinaGodMan/UserScripts/issues/102">#102</a>Thêm vào<code>Chỉ hiển thịGUI</code> Tùy chọn menu,Chỉ cho phép một tùy chọn thực đơn để hiển thị ở khỉ dầu,Không có menu bổ sung nào được hiển thị.<br>
 <strong>Ảnh chụp màn hình</strong>: <img alt="image.png" src="https://s2.loli.net/2025/03/14/1tViJL5msKOgCPR.png" /> <br>

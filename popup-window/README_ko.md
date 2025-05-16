@@ -61,7 +61,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>수리하다</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>또는<code>closeOnMouseClick</code>닫을 때,새로운 창이 팝업되지 않습니다 <br>
+<strong>해결하다</strong>:페이지에 현재 작은 창이있을 때,그리고<code>closeOnScroll</code>또는<code>closeOnMouseClick</code>어떤 사람이 닫혀있을 때,현재 작은 창을 직접 파괴하십시오 <br></p>
+<hr />
 <h3><strong>📅 2025.3.14.1108</strong></h3>
 <p><strong>최적화</strong>: <a href="https://github.com/ChinaGodMan/UserScripts/issues/102">#102</a>추가<code>만 보여주십시오GUI</code> 메뉴 옵션,오일 원숭이에 하나의 메뉴 옵션 만 표시 할 수 있습니다.,추가 메뉴가 표시되지 않습니다.<br>
 <strong>스크린 샷</strong>: <img alt="image.png" src="https://s2.loli.net/2025/03/14/1tViJL5msKOgCPR.png" /> <br>

@@ -61,7 +61,11 @@
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
             href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview Update log</strong></h1>
+<h3><strong>📅 2025.5.16.1</strong></h3>
+<p><strong>repair</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>or<code>closeOnMouseClick</code>When closed,No new window pops up <br>
+<strong>solve</strong>:When the page currently has a small window,and<code>closeOnScroll</code>or<code>closeOnMouseClick</code>When any one is closed,Destroy the current small window directly <br></p>
+<hr />
 <h3><strong>📅 2025.3.14.1108</strong></h3>
 <p><strong>optimization</strong>: <a href="https://github.com/ChinaGodMan/UserScripts/issues/102">#102</a>Add to<code>Show onlyGUI</code> Menu Options,Allows only one menu option to display in oil monkeys,No extra menus are displayed.<br>
 <strong>screenshot</strong>: <img alt="image.png" src="https://s2.loli.net/2025/03/14/1tViJL5msKOgCPR.png" /> <br>
