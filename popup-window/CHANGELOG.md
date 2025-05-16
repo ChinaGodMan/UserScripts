@@ -1,5 +1,12 @@
 # **🛠️ Small Window Preview 更新日志**
 
+### **📅 2025.5.16.1**
+
+**修复**:[#133](https://github.com/ChinaGodMan/UserScripts/issues/133)`closeOnScroll`或者`closeOnMouseClick`被关闭时,无法弹出新的小窗 <br>
+**解决**:当页面目前存在了一个小窗口,且`closeOnScroll`或者`closeOnMouseClick`任意一个被关闭时,直接销毁当前的小窗口 <br>
+
+---
+
 ### **📅 2025.3.14.1108**
 
 **优化**: [#102](https://github.com/ChinaGodMan/UserScripts/issues/102)添加`仅显示GUI` 菜单选项,允许在油猴中仅显示一个菜单选项,不显示多余的菜单.<br>

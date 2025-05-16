@@ -77,7 +77,7 @@
 // @name:fr-CA        Aperçu dans une petite fenêtre
 // @description:fr-CA Ouvrir le lien dans la fenêtre contextuelle lorsque vous faites glisser le lien，et fournir un aperçu avant l’ouverture，utiliser Edge technologie de pré-lecture。Ajoutez par la même occasion un effet acrylique derrière la petite fenêtre lorsqu’elle est ouverte.。
 // @description       Drag a link to open it in a popup window with a preview before opening, using Edge's prerendering technology. Also, add an acrylic effect behind the window when it's open.
-// @version           2025.3.14.1108
+// @version           2025.5.16.1
 // @author            hiisme,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             *://*/*
 // @grant             GM_registerMenuCommand
@@ -92,7 +92,6 @@
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEYklEQVR4nO3VW0yTZxzH8QI9ACbb4g3J3OR2Zm64uaVXu/BChkMUhAotUlrKUQUqqLhDRnDJLnZQoLvYxRLneQSB0tLSw1ugnE9KC7y05QwFVDxBdt/fUhhb2dS97+sLvEv4J89NE5rP98mfpzze9mzP9rxwxNe84shLrjnRhQFfUHE/gov6EFzUg+Az3QhRdyGksAMhBe3g57eBn28H/3QL+KeaIThpgyCPgCDXCmGuGcIcE4TZjRBlGSDKbIBIpYdIVY/QDC1ClXUIVdQgLP0OwuTVCJNXITztN7ymrPJFFusXPv6uNYbHZMS3vOLQr5y+oHMDCDp7F5sdEH7iNsJTb+INxW3f/m9bxbQDdl92z/HOO7DVATtkNxBZpPPSDhB+OejjSsDr8ls+2gG8Eie4ErBDeh20/V+MLONzchkXyCWUDC+hZOgZzg89xbnBpzg7+ATFzicocjxeOWcGHkE98AiF9xZRcG8R+XcfIr//IU73P8Cpvgc42Xcfeb33kduzsHJyuueR3T2PrK45ZHbOQdXpharDi4yOWSjbZ6Fom0F62zTSW6chb51Cmn2KfgCX8CdaJukHrMc/21J8KpMArtx8asskZM0TDAI4hJcxCeASXto0Tj+AS/gUG4MALuGTbWP0A7iEP04wCOASXkKMMgvgCl5iZRDAJXySxUM/gEv4RCYBXMIfM7vpB3AJn8Ak4J/4vJ555HTOIrt9ZuVktU0js20aqtYpZNinoLRPQtkyCUXLBNLtk6zi400uBgGBN9+7ALlpCOKfDfjoJx32a1bPh5p6fFD599n35zlwlUCqhWQNH88kIHBtcrq8OHTTDoFaQ/kc+JVAWvM4K/ijjSP0A9btfPc8MppGEVVeSzlgX6UWqbYxVvBHjAwC/vUP2zUHhc2DqApqEVEVWsiIUVbwcUaSfsBzX5tOL+RWN/ZeqqEQUAcpMcoK/rCBQcDznkpV+yxkRgd2f3ODUkCK1cMKPtYwzCyAKd5/3i9fDWADH9swRD/gVfBrAckWNyv4z/QMAl4FvxpQi+NmNyv4Q/pB+gFreKnBgbcvXn8pdlfZNez5vnrdZ+9droXE7GIFH6NjEKBqn6F087vKriJB2w+JwYl3f7yzLiDJ5GIF/6nOST9AanD8TuXmj2n7ILWNQtY0DkmDA3t+qP7rdyDRNMIKPrreuURPn18hivj6yiJl/NpTSYwhUT+AT36xIK62F0kWNxt4HNQ6qqjjS0uF/EKNjsrarMMHvDZJFhckFg8r+Git43FMjfOtTcOztfMHtc5l/82ziheoK0280iuhgX+WQkxEJNvGSNr4hmHPEa3rTeqrsQH4wAiJ1UP+L/GBEYlmN7m5eB6Px1dr6v7jV9Xof5WofFccMRGRYHaRm4b3D1+tmWEDvzZxxGBEvMlFbgreP8KiyncEhZoFJmvzsoijjSPkhuNfHMEcvzYS0/DOw0byYqyBLIs2De/kbfQICsr3+teJX1hZS3dttnL+AHpvNumR+ceNAAAAAElFTkSuQmCC
-// @iconbak           https://github.com/ChinaGodMan/UserScripts/raw/main/docs/icon/Scripts%20Icons/icons8-POPUPWINDOW-48.png
 // @license           MIT
 // ==/UserScript==
 /**
@@ -101,14 +100,12 @@
  * File Created: 2024/11/24,Sunday 12:38:59
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/14,Friday 11:09:20
+ * Last Modified: 2025/05/16,Friday 15:17:53
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
  */
-
-
 
 (function () {
     const userLang = (navigator.languages && navigator.languages[0]) || navigator.language || 'en'
@@ -558,6 +555,7 @@
     })
     function openPopupWindow(link) {
         reWindowConfig()//FIXME - 跨域窗口如果自己刷新了配置,重新刷新下
+        if (state.popupWindow && (!config.closeOnMouseClick || !config.closeOnScroll)) { state.popupWindow.close() }
         if (!state.popupWindow || state.popupWindow.closed) {
             state.acrylicOverlay = createAcrylicOverlay()
             state.popupWindow = window.open(link, '_blank', `width=${config.windowWidth},height=${config.windowHeight},left=${config.screenLeft},top=${config.screenTop}`)
