@@ -1,4 +1,4 @@
-name: 油猴脚本头部声明块格式化
+name: UserScript meta format
 
 on:
   push:
@@ -24,6 +24,16 @@ jobs:
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           fetch-depth: 0
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4.4.0
+        with:
+          node-version: "20.18.0"
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: "3.12.4"
 
       - name: Escape backticks in commit msg
         env:

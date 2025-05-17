@@ -21,8 +21,18 @@ jobs:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           fetch-depth: 0 #检查时间用.
 
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4.4.0
+        with:
+          node-version: "20.18.0"
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: "3.12.4"
+
       - name: 安装依赖
-        run: pip install markdown beautifulsoup4 pyotp
+        run: pip install -r utils/requirements.txt
 
       - name: 检查新脚本
         run: python utils/script-import-sync.py
