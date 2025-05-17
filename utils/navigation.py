@@ -62,7 +62,8 @@ def main():
         md_new = get_md_files(script_directory)  # 获取当前脚本目录下的所有过滤后的md文件
         all_in_old = all(md in set(md_old) for md in md_new)  # 如果当前过滤后的readme文件名都md_old 不进行替换
         if all_in_old:  # 哪怕导航栏模版发生变动,只要导航栏指向github的链接没变动就不进行替换
-            continue
+            print("链接在内容中存在")
+            # continue
 
         # 相等跳过
         if olddescriptions + "\n" == descriptions:  # 换行符添加上,就这样了能用就行

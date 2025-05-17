@@ -756,6 +756,19 @@
             "preview": "https://s2.loli.net/2025/04/21/vCNOWuMFUSRLGm5.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png",
             "locales": "zh-TW,vi,en,ko"
+        },
+        {
+            "name": "",
+            "description": "",
+            "group": "GitHub相关脚本",
+            "js_name": "github-to-deepwiki.user.js",
+            "directory": "github-to-deepwiki",
+            "version": "2025.5.17.1",
+            "greasyfork_id": null,
+            "created_at": "2025-05-17 17:37:19",
+            "preview": "https://s2.loli.net/2025/05/17/VcHPTLnJ6Urf1dw.png",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png",
+            "locales": "zh-TW,vi,en,ko"
         }
     ]
 }
