@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repository-navigator/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️访问GitHub 上的自述文件以获得更好的体验。</sub></em>
+    <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -112,6 +111,7 @@ GitHub 快速跳转助手是一款专为帮助用户快速访问自己在 GitHub
 > -   [**GitHub Gist 代码片段复制与下载器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
 > -   [**GitHub 星标仓库备注助手**](https://greasyfork.org/scripts/533511): 曾经 Star 过的仓库是不是忘记了它们的用途? 这是一个可以给你收藏过的仓库添加备注的的脚本,并且你备注的信息可以上传下载到 GitHub Gist
+> -   [**GitHub 跳转到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存储库跳转到 DeepWiKi,支持电脑桌面端和移动端
 
 <!--RELATED-END-->
 <!--HELP-->
@@ -181,6 +181,7 @@ GitHub 快速跳转助手是一款专为帮助用户快速访问自己在 GitHub
 > -   [**GitHub Gist 代码片段复制与下载器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
 > -   [**GitHub 星标仓库备注助手**](https://greasyfork.org/scripts/533511): 曾经 Star 过的仓库是不是忘记了它们的用途? 这是一个可以给你收藏过的仓库添加备注的的脚本,并且你备注的信息可以上传下载到 GitHub Gist
+> -   [**GitHub 跳转到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存储库跳转到 DeepWiKi,支持电脑桌面端和移动端
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

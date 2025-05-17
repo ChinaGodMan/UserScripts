@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️訪問GitHub 上的自述文件以獲得更好的體驗。</sub></em>
+    <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
     </h6>
 </div>
 
@@ -270,6 +269,7 @@
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
 > -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
+> -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

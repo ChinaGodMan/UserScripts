@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️입장GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
+    <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
     </h6>
 </div>
 
@@ -76,7 +75,7 @@
 <p><strong>새로운</strong>: 추가<code>read=unread</code>매개 변수,읽지 않은 정보 만 추출하십시오,이 버전은 최종 버전입니다.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 사이트 알림이 점차 지원되었습니다,대본은 존재의 의미를 잃게됩니다.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,并且在마지막 스피커와 일치합니다用户 ID 실패시,匹配最后发言人.</p>
+<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,그리고에서마지막 스피커와 일치합니다사용자 ID 실패시,마지막 스피커와 일치합니다.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>개선하다</strong>: 대신 웹 사이트를 사용하기위한 토론 목록，정보에 카테고리를 추가하십시오。</p>
@@ -223,6 +222,7 @@
 > -   [**github gist 코드 스 니펫 복사 및 다운로더**](https://greasyfork.org/scripts/529534): 코드를 쉽게 복사하기 위해 GIST 파일에 복사 버튼을 추가하십시오. |. 코드를 쉽게 다운로드하려면 GIST 파일에 다운로드 버튼을 추가하십시오.
 > -   [**Github 바로 가기 키 번역 보조원**](https://greasyfork.org/scripts/530312): 키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
 > -   [**Github Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): 스타 저장소의 목적을 잊었습니까? 이것은 좋아하는 저장소에 메모를 추가 할 수있는 스크립트이며, 귀하가 댓글을 달아 Github Gist에 업로드하여 다운로드 할 수 있습니다.
+> -   [**Github는 Deepwiki로 점프합니다**](https://greasyfork.org/scripts/536279): Github 리포지토리는 Deepwiki로 점프하고 데스크탑 및 모바일을 지원합니다
 
 <!--RELATED-GitHub相关脚本-END-->
 

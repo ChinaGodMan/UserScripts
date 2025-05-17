@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
+    <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -76,7 +75,7 @@
 <p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread information,This version is the final version.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Site notifications have been gradually supported,The script will lose its meaning of existence.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your new discussion,并且在Match the last speaker用户 ID When failure,匹配最后发言人.</p>
+<p><strong>New</strong>: Skip your new discussion,And inMatch the last speakeruser ID When failure,Match the last speaker.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Discussion list for using the website instead，Add categories in the information。</p>
@@ -222,6 +221,7 @@ Recommended browsers and script managers：
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
 > -   [**GitHub Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
+> -   [**GitHub jump to DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub repository jumps to DeepWiKi, supports desktop and mobile
 
 <!--RELATED-GitHub相关脚本-END-->
 

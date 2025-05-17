@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
+    <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -64,7 +63,7 @@
             Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Web page writing clip version authorization manager Update log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>repair</strong>: •Copy function <code>pc</code> Not for red and from <code>window.navigator.clipboard.writeText</code> ,Need to copy manually to the clip.@90
-<strong>repair</strong>: •Logical error ↠ 按下快捷键复制后只有指示器for red Reset when，为 green No reset@161</p>
+<strong>repair</strong>: •Logical error ↠ Only indicators are available after pressing the shortcut key to copyfor red Reset when，for green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>
@@ -185,6 +184,7 @@ Recommended browsers and script managers：
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
 > -   [**GitHub Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
+> -   [**GitHub jump to DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub repository jumps to DeepWiKi, supports desktop and mobile
 
 <!--RELATED-GitHub相关脚本-END-->
 

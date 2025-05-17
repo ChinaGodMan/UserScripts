@@ -758,13 +758,13 @@
             "locales": "zh-TW,vi,en,ko"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "GitHub 跳转到 DeepWiKi",
+            "description": "GitHub 存储库跳转到 DeepWiKi,支持电脑桌面端和移动端",
             "group": "GitHub相关脚本",
             "js_name": "github-to-deepwiki.user.js",
             "directory": "github-to-deepwiki",
             "version": "2025.5.17.1",
-            "greasyfork_id": null,
+            "greasyfork_id": 536279,
             "created_at": "2025-05-17 17:37:19",
             "preview": "https://s2.loli.net/2025/05/17/VcHPTLnJ6Urf1dw.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png",

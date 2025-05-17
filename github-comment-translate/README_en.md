@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-comment-translate/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️accessGitHub Readme file on for a better experience。</sub></em>
+    <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
     </h6>
 </div>
 
@@ -119,6 +118,7 @@ This script listens to keyboard shortcuts `Ctrl + Q`，Implement the function of
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
 > -   [**GitHub Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
+> -   [**GitHub jump to DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub repository jumps to DeepWiKi, supports desktop and mobile
 
 <!--RELATED-END-->
 <!--HELP-->
@@ -188,6 +188,7 @@ Recommended browser and script manager：
 > -   [**GitHub Gist code snippet copy and downloader**](https://greasyfork.org/scripts/529534): Add a copy button to the Gist file to make the code easily copied. | Add a download button to the Gist file to easily download the code.
 > -   [**GitHub shortcut key translation assistant**](https://greasyfork.org/scripts/530312): Listen to keyboard shortcut Ctrl + Q, which implements the function of translating text and replacing the translation results with the original text box. Supports Issue and pull request pages.
 > -   [**GitHub Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist
+> -   [**GitHub jump to DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub repository jumps to DeepWiKi, supports desktop and mobile
 
 <!--RELATED-GitHub相关脚本-END-->
 <!--RELATED-Google相关脚本-->

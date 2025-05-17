@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️truy cậpGitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
+    <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
     </h6>
 </div>
 
@@ -76,7 +75,7 @@
 <p><strong>Mới</strong>: Thêm vào<code>read=unread</code>tham số,Chỉ trích xuất thông tin chưa đọc,Phiên bản này là phiên bản cuối cùng.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Thông báo trang web đã dần được hỗ trợ,Kịch bản sẽ mất đi ý nghĩa của sự tồn tại của nó.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới của bạn,并且在Khớp với loa cuối cùng用户 ID Khi thất bại,匹配最后发言人.</p>
+<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới của bạn,Và vàoKhớp với loa cuối cùngngười dùng ID Khi thất bại,Khớp với loa cuối cùng.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>cải thiện </strong>: Danh sách thảo luận để sử dụng trang web thay thế，Thêm danh mục trong thông tin。</p>
@@ -223,6 +222,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Github Gist Code Snippet Sao chép và tải xuống**](https://greasyfork.org/scripts/529534): Thêm một nút sao chép vào tệp GIST để dễ dàng sao chép mã. |
 > -   [**Trợ lý bản dịch phím tắt GitHub**](https://greasyfork.org/scripts/530312): Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
 > -   [**Github Star Warehouse Ghi chú Trợ lý**](https://greasyfork.org/scripts/533511): Bạn đã quên mục đích của kho sao? Đây là một tập lệnh có thể thêm ghi chú vào kho lưu trữ yêu thích của bạn và thông tin bạn nhận xét có thể được tải lên và tải xuống
+> -   [**GitHub nhảy đến Deepwiki**](https://greasyfork.org/scripts/536279): Kho lưu trữ GitHub nhảy đến Deepwiki, hỗ trợ máy tính để bàn và thiết bị di động
 
 <!--RELATED-GitHub相关脚本-END-->
 

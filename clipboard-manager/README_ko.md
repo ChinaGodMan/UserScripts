@@ -1,5 +1,4 @@
 <!--NAVIGATION-->
-
 <div align="right">
     <h6>
         <picture>
@@ -8,13 +7,13 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a> | 
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a> | 
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a>|
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️입장GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
+    <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
     </h6>
 </div>
 
@@ -64,7 +63,7 @@
             Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 웹 페이지 작성 클립 버전 승인 관리자 로그 업데이트</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>수리하다</strong>: •복사 기능 <code>pc</code> 그렇지 않다 red 그리고 <code>window.navigator.clipboard.writeText</code> ,클립에 수동으로 복사해야합니다.@90
-<strong>수리하다</strong>: •논리적 오류 ↠ 按下快捷键复制后只有指示器~을 위한 red 언제 재설정하십시오，为 green 재설정 없음@161</p>
+<strong>수리하다</strong>: •논리적 오류 ↠ 바로 가기 키를 눌러 복사 한 후에 만 ​​표시기 만 사용할 수 있습니다.~을 위한 red 언제 재설정하십시오，~을 위한 green 재설정 없음@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>새로운</strong>: •감시 장치<code>clipboard.writeText</code>이벤트</p>
@@ -185,6 +184,7 @@
 > -   [**github gist 코드 스 니펫 복사 및 다운로더**](https://greasyfork.org/scripts/529534): 코드를 쉽게 복사하기 위해 GIST 파일에 복사 버튼을 추가하십시오. |. 코드를 쉽게 다운로드하려면 GIST 파일에 다운로드 버튼을 추가하십시오.
 > -   [**Github 바로 가기 키 번역 보조원**](https://greasyfork.org/scripts/530312): 키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
 > -   [**Github Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): 스타 저장소의 목적을 잊었습니까? 이것은 좋아하는 저장소에 메모를 추가 할 수있는 스크립트이며, 귀하가 댓글을 달아 Github Gist에 업로드하여 다운로드 할 수 있습니다.
+> -   [**Github는 Deepwiki로 점프합니다**](https://greasyfork.org/scripts/536279): Github 리포지토리는 Deepwiki로 점프하고 데스크탑 및 모바일을 지원합니다
 
 <!--RELATED-GitHub相关脚本-END-->
 
