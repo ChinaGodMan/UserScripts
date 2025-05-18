@@ -109,7 +109,7 @@ _다음은 스크립트에서 설정할 수 있습니다_
 
 ## 사용 효과
 
-![missav.png](https://s2.loli.net/2025/03/11/i4R6aDeNUSwuABK.png)
+![687.png](https://s2.loli.net/2025/05/19/gyVBOZvdsfWjzP2.png)
 ![missav.png](https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png)
 
 <!--PREVIEW-END-->

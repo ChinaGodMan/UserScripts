@@ -85,9 +85,9 @@ Kịch bản này tập trung vào việc cải thiện hiệu ứng xem và tr�
 
 ## sử dụng
 
-![](https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6)
+![as.png](https://s2.loli.net/2025/05/19/RNeZEqc7nkMU9FA.png)
 
-![](https://greasyfork.s3.us-east-2.amazonaws.com/8kbc6h5ek2c8pokd1imym76o42ln)
+![](https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6)
 
 <!--RELATED-->
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
