@@ -21,7 +21,6 @@ def main():
     scripts = data.get('scripts', [])
     start_tag = "<!--SHIELDS-->"
     end_tag = "<!--SHIELDS-END-->"
-    settings = read_json('utils/docs/settings.json')
     for script in scripts:
         script_directory = script.get('directory', '')
         cnfile_path = os.path.join(script_directory, "README.md")

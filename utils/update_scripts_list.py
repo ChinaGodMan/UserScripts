@@ -103,7 +103,7 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
         html_output += generate_html_table(scripts)
         html_output += (
             '<div align="right"><a href="#-脚本列表">返回目录</a></div>'
-            f'<img height=6px width="100%" '
+            '<img height=6px width="100%" '
             'src="{separator}">'
         )
         if use_details:

@@ -1,4 +1,3 @@
-from pathlib import Path
 from writer import process_file
 from content_snippet import get_file_description
 from helper import get_md_files
@@ -50,7 +49,7 @@ def main():
         cnfile_path = os.path.join(script_directory, "README.md")
 
         # Linux和Windows统一排序方式,防止ci在github运行时排序不一致
-        #! fix: 排序应从滤过后中获取，不是从目录中获取
+        # ! fix: 排序应从滤过后中获取，不是从目录中获取
         md_files = sorted(get_md_files(script_directory))
 
         # 生成html和获取文件中的html
