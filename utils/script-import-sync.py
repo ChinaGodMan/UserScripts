@@ -240,14 +240,15 @@ if __name__ == "__main__":
             #  更新引用的脚本信息
             subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script_directory], check=True)
 
-            # 更新下区域化声明罢了
-            subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
-
             # 复制多语言文档,用于之后的翻译
             # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
             # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
             locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
             copy_readme(script_directory, locales)
+
+            # 更新下区域化声明,如果`locales`为空,不进行区域化(仅中国地区使用的脚本)
+            if locales:
+                subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
 
             # 导入脚本,用于之后的同步附加信息
             import_script_id = GF.import_scripts(script_url)
