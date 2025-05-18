@@ -2,6 +2,8 @@ from content_snippet import get_file_description
 from helper import get_md_files
 from helper import is_file_updated_more_than
 from helper import read_json
+from helper import format_str
+from helper import get_repo_name
 from writer import process_file
 from searcher import search_in_file
 import os
@@ -27,6 +29,7 @@ def generate_html_content(nation, js_path, greasyfork_id, script_directory, read
     results = search_in_file(js_path, nation)
     name = results.name_matches[0]
     description = results.description_matches[0]
+    html_template = format_str(html_template)
     html_content = html_template.format(
         name=name,
         description=description,
@@ -62,7 +65,7 @@ for script in scripts['scripts']:
             f'<details>'
             f'<summary style="color:#FFD700">更新记录</summary>'
             '<div align="right">'
-            f'<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_directory}/CHANGELOG.md">'
+            f'<a href="https://github.com/{get_repo_name()}/tree/main/{script_directory}/CHANGELOG.md">'
             '<img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a>'
             '</div>'
             f'{md_to_html(change_log_path)}</details>'

@@ -3,6 +3,9 @@ import os
 from writer import process_file_plus
 from helper import get_md_files
 from helper import read_json
+from helper import get_repo_name
+from helper import format_str
+
 from content_snippet import get_file_description
 from searcher import search_in_file
 
@@ -16,7 +19,7 @@ def generate_description(current_group, all_scripts, lang):
     # 添加分类名到描述中
     descriptions.append(
         f'<img height="6px" width="100%" '
-        f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">\n\n'
+        'src="{separator}">\n\n'
         f'> ### 🔍你可能在找{current_group}\n>')
     # id升序
     sorted_scripts = sorted(all_scripts, key=lambda x: x['greasyfork_id'] if x.get('greasyfork_id') is not None else 0)
@@ -32,12 +35,13 @@ def generate_description(current_group, all_scripts, lang):
             description = results.description_matches[0]
             # 导入失败的脚本没有id直接使用github
             if greasyfork_id in (None, 0):
-                item = f"[**{name}**](https://github.com/ChinaGodMan/UserScripts/tree/main/{script.get('directory')}#readme)"
+                item = f"[**{name}**](https://github.com/{get_repo_name()}/tree/main/{script.get('directory')}#readme)"
             else:
                 item = f"[**{name}**](https://greasyfork.org/scripts/{greasyfork_id})"
 
             descriptions.append(f"> -   {item}: {description}")
-    return "\n".join(descriptions) + "\n"
+    str = format_str("\n".join(descriptions) + "\n")
+    return str
 
 
 def process_script(script, scripts, start_tag, end_tag, group):

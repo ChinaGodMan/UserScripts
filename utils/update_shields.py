@@ -2,6 +2,9 @@ from content_snippet import get_file_description
 from writer import process_file
 from helper import get_md_files
 from helper import read_json
+from helper import format_str
+from helper import get_repo_name
+
 import os
 
 NEW_CONTENT_PATH = 'utils/templates/SHIELDS.md'
@@ -18,16 +21,18 @@ def main():
     scripts = data.get('scripts', [])
     start_tag = "<!--SHIELDS-->"
     end_tag = "<!--SHIELDS-END-->"
+    settings = read_json('utils/docs/settings.json')
     for script in scripts:
         script_directory = script.get('directory', '')
         cnfile_path = os.path.join(script_directory, "README.md")
         olddescriptions = get_file_description(cnfile_path, start_tag, end_tag)
         # 判断目录下的passed.json
         new_content = get_new_content()
+        new_content = format_str(new_content)
         if os.path.exists(script_directory + "/docs/passed.json"):
-            URL = f"https://github.com/ChinaGodMan/UserScripts/raw/main/{script_directory}/docs/passed.json"
+            URL = f"https://github.com/{get_repo_name()}/raw/main/{script_directory}/docs/passed.json"
         else:
-            URL = "https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json"
+            URL = f"https://github.com/{get_repo_name()}/raw/main/docs/passed.json"
         new_content = new_content.format(
             PASSED_URL=URL
         )

@@ -1,6 +1,9 @@
 from writer import process_file
 from searcher import search_in_file
 from helper import read_json
+from helper import get_repo_name
+from helper import format_str
+
 import os
 import argparse
 
@@ -26,6 +29,7 @@ def generate_html_table(scripts):
     template_path = "utils/templates/ScriptCard.html"
     with open(template_path, 'r', encoding='utf-8') as file:
         html_template = file.read()
+        html_template = format_str(html_template)
     for script in scripts:
         img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
         script_id = script.get("greasyfork_id")
@@ -39,7 +43,7 @@ def generate_html_table(scripts):
         changelog_block = ""
         if os.path.exists(change_log):
             changelog_block = (
-                f' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/CHANGELOG.md">\n'
+                f' /\n<a href="https://github.com/{get_repo_name()}/tree/main/{script_fold}/CHANGELOG.md">\n'
                 f'        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">'
                 f'更新日志</a>')
         # 含有引用的脚本,显示链接
@@ -47,8 +51,8 @@ def generate_html_table(scripts):
         author_block = ""
         if os.path.exists(author):
             author_block = (
-                f' /\n<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}/AUTHORS.md">\n'
-                f'        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">'
+                f' /\n<a href="https://github.com/{get_repo_name()}/tree/main/{script_fold}/AUTHORS.md">\n'
+                f'        <img hight=18 width=18 src="https://raw.githubusercontent.com/{get_repo_name()}History/main/images/authors.svg">'
                 f'修改自</a>')
 
         sreach_result = search_in_file(script_absolute_path, LANG_CODE)
@@ -59,7 +63,7 @@ def generate_html_table(scripts):
         details_block = f'''<details>
     <summary>{script_description}</summary>
     <br><blockquote>
-        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/{script_fold}">
+        <a href="https://github.com/{get_repo_name()}/tree/main/{script_fold}">
             {img_tag}</a>
     </blockquote>
 </details>''' if img_tag else script_description
@@ -100,11 +104,12 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
         html_output += (
             '<div align="right"><a href="#-脚本列表">返回目录</a></div>'
             f'<img height=6px width="100%" '
-            f'src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">'
+            'src="{separator}">'
         )
         if use_details:
             print(center_c)
             html_output += f"{center_c}</details>"
+        html_output = format_str(html_output)
     return html_output
 
 

@@ -2,6 +2,7 @@ from content_snippet import get_file_description
 from writer import process_file
 from helper import get_md_files
 from helper import read_json
+from helper import format_str
 import os
 NEW_CONTENT_PATH = 'utils/templates/HELP.md'
 
@@ -18,6 +19,7 @@ def main():
     start_tag = "<!--HELP-->"
     end_tag = "<!--HELP-END-->"
     new_content = get_new_content()
+    new_content = format_str(new_content)
     for script in scripts:
         script_directory = script.get('directory', '')
         cnfile_path = os.path.join(script_directory, "README.md")

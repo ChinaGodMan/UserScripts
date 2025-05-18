@@ -3,6 +3,7 @@ from writer import process_file
 from content_snippet import get_file_description
 from helper import get_md_files
 from helper import read_json
+from helper import get_repo_name
 import os
 import re
 
@@ -24,7 +25,7 @@ def build_html(md_files, path, lang='zh-CN'):
     template_path = "utils/templates/SELECTOR.html"
     with open(template_path, 'r', encoding='utf-8') as file:
         html_template = file.read()
-    base_url = "https://github.com/ChinaGodMan/UserScripts/blob/main/"
+    base_url = f"https://github.com/{get_repo_name()}/blob/main/"
     links = []
     for file in md_files:
         match = re.match(r'README_([a-zA-Z\-]+)\.md', file)

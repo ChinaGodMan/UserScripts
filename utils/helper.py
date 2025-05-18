@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/03,Saturday 14:34:24
+# Last Modified: 2025/05/19,Monday 01:06:02
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -132,3 +132,30 @@ def sort_userscript_section(file_path):
     # 写入文件
     with open(file_path, "w", encoding="utf-8", newline='\n') as file:
         file.writelines(content)
+
+
+def format_str(input_str):
+    settings = read_json('utils/docs/settings.json')
+    placeholders = {
+        'repo_name': settings['repository'],
+        'sub_repo_name': settings['sub_repository'],
+        'separator': settings['separator'],
+        'greasyfork_user_id': str(settings['greasyfork_user_id'])
+    }
+
+    def replacer(match):
+        key = match.group(1)
+        return placeholders.get(key, match.group(0))
+    pattern = re.compile(r'{([^}]+)}')
+    formatted_str = pattern.sub(replacer, input_str)
+    return formatted_str
+
+
+def get_repo_name():
+    settings = read_json('utils/docs/settings.json')
+    return settings['repository']
+
+
+def get_sub_repo_name():
+    settings = read_json('utils/docs/settings.json')
+    return settings['sub_repository']

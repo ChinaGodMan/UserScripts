@@ -3,6 +3,7 @@ from urllib.parse import unquote
 from searcher import search_in_file
 from helper import get_md_files
 from helper import read_json
+from helper import get_repo_name
 
 import subprocess
 import requests
@@ -19,7 +20,7 @@ import pyotp
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
 主页:     https://github.com/ChinaGodMan/UserScripts
 '''
-REPO_URL = "https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/"
+REPO_URL = f"https://raw.githubusercontent.com/{get_repo_name()}/main/"
 
 
 # 构建同步文档地址
