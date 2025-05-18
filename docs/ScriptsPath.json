@@ -769,6 +769,19 @@
             "preview": "https://s2.loli.net/2025/05/17/VcHPTLnJ6Urf1dw.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png",
             "locales": "zh-TW,vi,en,ko"
+        },
+        {
+            "name": "",
+            "description": "",
+            "group": "GitHub相关脚本",
+            "js_name": "github-no-copilot.user.js",
+            "directory": "github-no-copilot",
+            "version": "2025.5.19.1",
+            "greasyfork_id": null,
+            "created_at": "2025-05-19 02:19:24",
+            "preview": "https://s2.loli.net/2025/05/19/g1GlMYV4rsoiSD2.png",
+            "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png",
+            "locales": "zh-TW,vi,en,ko"
         }
     ]
 }
