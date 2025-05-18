@@ -1,3 +1,6 @@
 [flake8]
-ignore = E501, W504 # 忽略行长度和换行符后操作符的警告
-exclude = node_modules/*
+ignore =
+    # E501: 忽略行长度
+    E501,
+    # W504: 忽略换行符后操作符的警告
+    W504
