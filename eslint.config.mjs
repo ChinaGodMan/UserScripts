@@ -10,7 +10,11 @@ import yml from 'eslint-plugin-yml'
 export default [
     {
         files: ['**/*.js', '**/*.mjs'],
-        ignores: ['.history/*'],
+        ignores: [
+            '.history/*',
+            '.ChinaGodMan/*.js',
+            'assets/**/*.js'
+        ],
         languageOptions: {
             ecmaVersion: 'latest', sourceType: 'script',
             globals: {
