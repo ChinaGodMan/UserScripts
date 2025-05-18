@@ -29,9 +29,9 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9E%A5%EA%B5%B0&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%EB%AA%A8%EB%93%A0%20%EB%B6%80%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/ChinaGodMan/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%EC%8A%A4%ED%83%80%20%EB%A7%88%ED%81%AC&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">스크립트가 도움이된다면,별을 밝히고 격려 할 수 있습니다</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
@@ -158,6 +158,7 @@
 > -   [**Github 바로 가기 키 번역 보조원**](https://greasyfork.org/scripts/530312): 키보드 바로 가기 Ctrl + Q는 텍스트를 번역하고 번역 결과를 원본 텍스트 상자로 바꾸는 기능을 구현합니다.
 > -   [**Github Star Warehouse Notes Assistant**](https://greasyfork.org/scripts/533511): 스타 저장소의 목적을 잊었습니까? 이것은 좋아하는 저장소에 메모를 추가 할 수있는 스크립트이며, 귀하가 댓글을 달아 Github Gist에 업로드하여 다운로드 할 수 있습니다.
 > -   [**Github는 Deepwiki로 점프합니다**](https://greasyfork.org/scripts/536279): Github 리포지토리는 Deepwiki로 점프하고 데스크탑 및 모바일을 지원합니다
+> -   [**github copilot을 숨 깁니다**](https://greasyfork.org/scripts/536423): github에 멍청한 copilot을 숨 깁니다
 
 <!--RELATED-GitHub相关脚本-END-->
 

@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%AF%84&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%AF%84&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/ChinaGodMan/UserScripts?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A0%87&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=%E5%A4%8D%E5%88%BB&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=%E9%97%AE%E9%A2%98&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
@@ -223,6 +223,7 @@ Script Finder 是一个用户脚本（userscript），它可以帮助你在任�
 > -   [**GitHub 快捷键翻译助手**](https://greasyfork.org/scripts/530312): 监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.
 > -   [**GitHub 星标仓库备注助手**](https://greasyfork.org/scripts/533511): 曾经 Star 过的仓库是不是忘记了它们的用途? 这是一个可以给你收藏过的仓库添加备注的的脚本,并且你备注的信息可以上传下载到 GitHub Gist
 > -   [**GitHub 跳转到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存储库跳转到 DeepWiKi,支持电脑桌面端和移动端
+> -   [**GitHub 隐藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隐藏愚蠢的 Copilot
 
 <!--RELATED-GitHub相关脚本-END-->
 

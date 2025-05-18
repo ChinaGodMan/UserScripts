@@ -29,9 +29,9 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20t%E1%BB%91t&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=T%E1%BA%A5t%20c%E1%BA%A3%20chung&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=T%E1%BA%A5t%20c%E1%BA%A3%20c%C3%A1c%20%C4%91%C3%A1nh%20gi%C3%A1%20ti%C3%AAu%20c%E1%BB%B1c&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Ch%E1%BA%A5t%20l%C6%B0%E1%BB%A3ng%20m%C3%A3&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/ChinaGodMan/UserScripts?label=Ch%E1%BA%A5t%20l%C6%B0%E1%BB%A3ng%20m%C3%A3&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=STAR%20Mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Nếu kịch bản giúp bạn,Có thể thắp sáng các vì sao để khuyến khích</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
@@ -174,6 +174,7 @@ GitHub Danh sách tệp làm đẹp là một tập lệnh người dùng，Đ�
 > -   [**Trợ lý bản dịch phím tắt GitHub**](https://greasyfork.org/scripts/530312): Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
 > -   [**Github Star Warehouse Ghi chú Trợ lý**](https://greasyfork.org/scripts/533511): Bạn đã quên mục đích của kho sao? Đây là một tập lệnh có thể thêm ghi chú vào kho lưu trữ yêu thích của bạn và thông tin bạn nhận xét có thể được tải lên và tải xuống
 > -   [**GitHub nhảy đến Deepwiki**](https://greasyfork.org/scripts/536279): Kho lưu trữ GitHub nhảy đến Deepwiki, hỗ trợ máy tính để bàn và thiết bị di động
+> -   [**GitHub ẩn Copilot**](https://greasyfork.org/scripts/536423): Ẩn Copilot ngu ngốc trên GitHub
 
 <!--RELATED-END-->
 
@@ -277,6 +278,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 > -   [**Trợ lý bản dịch phím tắt GitHub**](https://greasyfork.org/scripts/530312): Nghe phím tắt Ctrl + Q, trong đó thực hiện chức năng dịch văn bản và thay thế kết quả dịch với hộp văn bản gốc.
 > -   [**Github Star Warehouse Ghi chú Trợ lý**](https://greasyfork.org/scripts/533511): Bạn đã quên mục đích của kho sao? Đây là một tập lệnh có thể thêm ghi chú vào kho lưu trữ yêu thích của bạn và thông tin bạn nhận xét có thể được tải lên và tải xuống
 > -   [**GitHub nhảy đến Deepwiki**](https://greasyfork.org/scripts/536279): Kho lưu trữ GitHub nhảy đến Deepwiki, hỗ trợ máy tính để bàn và thiết bị di động
+> -   [**GitHub ẩn Copilot**](https://greasyfork.org/scripts/536423): Ẩn Copilot ngu ngốc trên GitHub
 
 <!--RELATED-GitHub相关脚本-END-->
 

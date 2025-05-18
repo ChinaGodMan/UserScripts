@@ -771,13 +771,13 @@
             "locales": "zh-TW,vi,en,ko"
         },
         {
-            "name": "",
-            "description": "",
+            "name": "GitHub 隐藏 Copilot",
+            "description": "在 GitHub 上隐藏愚蠢的 Copilot",
             "group": "GitHub相关脚本",
             "js_name": "github-no-copilot.user.js",
             "directory": "github-no-copilot",
             "version": "2025.5.19.1",
-            "greasyfork_id": null,
+            "greasyfork_id": 536423,
             "created_at": "2025-05-19 02:19:24",
             "preview": "https://s2.loli.net/2025/05/19/g1GlMYV4rsoiSD2.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png",

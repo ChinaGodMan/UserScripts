@@ -80,10 +80,10 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:58,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:59,스크립트에는 포함됩니다:**
 <h6><a href="#ChatGPT관련-스크립트-5">ChatGPT관련 스크립트 (5)</a>
  | <a href="#웹-페이지-관련-스크립트-10">웹 페이지 관련 스크립트 (10)</a>
- | <a href="#GitHub관련-스크립트-14">GitHub관련 스크립트 (14)</a>
+ | <a href="#GitHub관련-스크립트-15">GitHub관련 스크립트 (15)</a>
  | <a href="#Google관련-스크립트-2">Google관련 스크립트 (2)</a>
  | <a href="#GreasyFork관련-스크립트-11">GreasyFork관련 스크립트 (11)</a>
  | <a href="#성인-스크립트-10">성인 스크립트 (10)</a>
@@ -629,7 +629,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub관련 스크립트 (14)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub관련 스크립트 (15)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
@@ -1158,6 +1158,42 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
+<h3>
+    <a href="../../github-no-copilot">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../../github-no-copilot">github copilot을 숨 깁니다</a>&nbsp;
+    <a href="../../github-no-copilot">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>github에 멍청한 copilot을 숨 깁니다</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot">
+            <img width=511 src="https://s2.loli.net/2025/05/19/g1GlMYV4rsoiSD2.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/536423">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/536423">
+        Greasemonkey</a> /
+    <a href="../../github-no-copilot/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-no-copilot/#readme">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../github-no-copilot/github-no-copilot.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google관련 스크립트 (2)</h1><h3>
     <a href="../../google-advanced-search">

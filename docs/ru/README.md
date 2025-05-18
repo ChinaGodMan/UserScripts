@@ -80,10 +80,10 @@
 💡 **Tip:** _Для отображения снимка экрана предварительного просмотра，Пожалуйста, нажмите на имя расширения ниже ▸ Или описание。_
 
 <!--SCRIPTS_COUNT-->
-**Количество текущих опубликованных сценариев для репозитория:58,Сценарий включает в себя:**
+**Количество текущих опубликованных сценариев для репозитория:59,Сценарий включает в себя:**
 <h6><a href="#ChatGPTСвязанные-сценарии-5">ChatGPTСвязанные сценарии (5)</a>
  | <a href="#Сценарии,-связанные-с-веб--страницей-10">Сценарии, связанные с веб -страницей (10)</a>
- | <a href="#GitHubСвязанные-сценарии-14">GitHubСвязанные сценарии (14)</a>
+ | <a href="#GitHubСвязанные-сценарии-15">GitHubСвязанные сценарии (15)</a>
  | <a href="#GoogleСвязанные-сценарии-2">GoogleСвязанные сценарии (2)</a>
  | <a href="#GreasyForkСвязанные-сценарии-11">GreasyForkСвязанные сценарии (11)</a>
  | <a href="#Взрослые-сценарии-10">Взрослые сценарии (10)</a>
@@ -629,7 +629,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (14)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (15)</h1><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Отправить информацию, отобразить веб-просмотр</a>&nbsp;
@@ -1158,6 +1158,42 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
+</blockquote>
+<h3>
+    <a href="../../github-no-copilot">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../../github-no-copilot">GitHub скрыть копилот</a>&nbsp;
+    <a href="../../github-no-copilot">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Скрыть глупый копило на GitHub</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot">
+            <img width=511 src="https://s2.loli.net/2025/05/19/g1GlMYV4rsoiSD2.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/536423">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/536423">
+        Greasemonkey</a> /
+    <a href="../../github-no-copilot/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-no-copilot/#readme">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
+    <a href="../../github-no-copilot/github-no-copilot.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
 <div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleСвязанные сценарии (2)</h1><h3>
     <a href="../../google-advanced-search">

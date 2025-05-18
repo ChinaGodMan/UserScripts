@@ -29,9 +29,9 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%A9%95&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%A9%95&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A2%BC%E8%B3%AA%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/ChinaGodMan/UserScripts?label=%E4%BB%A3%E7%A2%BC%E8%B3%AA%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A8%99&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Fork&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
 <center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">如果腳本對你有幫助,可以點亮星星以資鼓勵</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
@@ -174,6 +174,7 @@ GitHub 文件列表美化器是一個用戶腳本，用於增強 GitHub 倉庫�
 > -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
+> -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
 
 <!--RELATED-END-->
 
@@ -277,6 +278,7 @@ GitHub 文件列表美化器是一個用戶腳本，用於增強 GitHub 倉庫�
 > -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
+> -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
 
 <!--RELATED-GitHub相关脚本-END-->
 
