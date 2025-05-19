@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/19,Monday 01:06:02
+# Last Modified: 2025/05/19,Monday 17:00:45
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -36,6 +36,22 @@ def read_file_to_memory(file_path):
     lines = [line for line in virtual_file]
     virtual_file.close()
     return lines
+
+
+# 比较提交记录
+def is_file_changed_in_last_commit(file_path):
+    try:
+        result = subprocess.run(
+            ['git', 'diff', '--name-only', 'HEAD^', 'HEAD'],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        changed_files = result.stdout.splitlines()
+        return file_path in changed_files
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred while running git command: {e}")
+        return False
 
 
 def is_file_modified(file_path):
