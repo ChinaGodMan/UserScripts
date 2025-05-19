@@ -14,12 +14,19 @@ import os
 import pyotp
 '''
 名称:       自动添加脚本并更新附加信息
-版本:            2025.04.24.16:56:33
+版本:            2025-05-19 @ 22:14:51 Monday +0800
 介绍:     当docs/ScriptsPath.json有新的脚本目录被加入,但没有有对应的脚本ID时.自动创建脚本并且同步附加信息
           或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
+
+
+#TODO          1. 添加批量更新功能(当仓库名称被改变时,自动更新所有脚本信息)
+#TODO               1.1. 在`for script in scripts:`可以增加一个环境变量,当这个变量为True时,就跳过导入脚本,区域化,复制文档.直接进行更新操作
+#TODO          2. 添加更多的错误处理
+
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
 主页:     https://github.com/ChinaGodMan/UserScripts
 '''
+
 REPO_URL = f"https://raw.githubusercontent.com/{get_repo_name()}/main/"
 
 
@@ -36,14 +43,15 @@ def build_urls(directory):
         导致油猴脚本 [506717-GreaysFork增强WebHook同步设置]无法获取到元素.
         不想改那个脚本,就兼容下得了.
             '''
-            if filename == 'README.md':  # 仓库的默认介绍语言一律是中文,需要手动设置
+            # 仓库的默认介绍语言一律是中文,需要手动设置
+            if filename == 'README.md':
                 urls.append(REPO_URL + directory + "/" + filename + "##zh-CN")
             else:
                 urls.append(REPO_URL + directory + "/" + filename)
     return urls
 
 
-# 和谐url，去除特殊字符
+# 和谐url 去除特殊字符
 def extract_locale_key(url):
     if '##' in url:
         match = re.search(r'##[^\(]*\(([^)]*)\)$', url) or re.search(r'##([^#]*)$', url)
@@ -52,7 +60,7 @@ def extract_locale_key(url):
     return match.group(1) if match else None
 
 
-# 复制多语言文档罢了
+# 复制多语言文档
 def copy_readme(source_path, suffixes):
     if not suffixes:
         return
@@ -129,17 +137,19 @@ class GreasyFork:
             return self.fetch_csrf_token()
         return self.csrf_token
 
-        # 导入脚步
     def import_scripts(self, sync_urls):
         """
-        导入脚步并提取脚本ID
+        导入脚本并提取脚本ID
+        # NOTE (可以多个脚本同时导入,不知道返回的列表是否与导入顺序一致,没测试过.)
         """
+
         # 刷新 CSRF Token,历史代码.无需调用.
         self.fetch_csrf_token()
         import_url = 'https://greasyfork.org/zh-CN/import/add'
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded'
         }
+
         data = {
             'authenticity_token': self.csrf_token,
             'sync_urls': sync_urls,
@@ -147,16 +157,18 @@ class GreasyFork:
             'commit': '导入'
         }
         response = self.session.post(import_url, headers=headers, data=data)
+
         # 解析返回的脚本ID信息
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
-            # 提取返回的脚步列表
-            results = []  # 用于存储解析后的数组
+
+            # 提取返回的脚本列表
+            results = []  # TODO 用于存储解析后的数组(目前只支持单个导入脚本,如果需要多个,需要下面的代码)
             ul_element = soup.select_one("body > div.width-constraint > section > ul")
             if ul_element:
-                li_elements = ul_element.find_all("li")  # 获取所有<li>元素
+                li_elements = ul_element.find_all("li")
                 for li in li_elements:
-                    a_tag = li.find("a")  # 查找每个<li>中的<a>标签
+                    a_tag = li.find("a")
                     if a_tag and 'href' in a_tag.attrs:
                         link = a_tag['href']
                         match = re.search(r'/scripts/(\d+)-(.+)', link)
@@ -174,11 +186,13 @@ class GreasyFork:
 
     def sync_update(self, script_url, script_id, attribute_default, additional_info):
         """
-        更新附加同步信息
+        更新脚本附加同步信息
         """
         # 历史代码.保留以备用
         if self.csrf_token is None:
             self.fetch_csrf_token()
+
+        # 按照顺序构建区域代码(与 GreasyFork 保持一致)
         langmap = read_json('utils/docs/lang_map.json')
         area = {}
         index = 1
@@ -186,7 +200,7 @@ class GreasyFork:
             for lang_code in lang_dict.keys():
                 area[lang_code] = str(index)
                 index += 1
-        print(area)
+
         # 设置表单数据
         form_data = {
             '_method': 'patch',
@@ -194,11 +208,13 @@ class GreasyFork:
             'script[sync_identifier]': script_url,
             'script[sync_type]': 'webhook'
         }
+
         # 默认的语言文件
         if attribute_default:
             form_data['additional_info_sync[0][attribute_default]'] = 'true'
             form_data['additional_info_sync[0][sync_identifier]'] = attribute_default
             form_data['additional_info_sync[0][value_markup]'] = 'markdown'
+
         # 遍历每个 语言URL,用于构建区域化文件
         for index, url in enumerate(additional_info):
             locale_key = extract_locale_key(url)
