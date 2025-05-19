@@ -32,7 +32,7 @@ def build_html(md_files, path, lang='zh-CN'):
         title = find_locale(lang_code)
         links.append(f'<a href="{base_url}{path}/{file}">{title}</a>')
     # 格式化的换行符
-    links_html = "|\n        ".join(links)
+    links_html = " |\n        ".join(links)
     html = html_template.replace('{{links}}', links_html)
     return html
 

@@ -59,8 +59,8 @@ for script in scripts['scripts']:
     readme_html = ''
     if os.path.isfile(change_log_path):
         # 对于5分钟内未改动的log文件不操作
-        if is_file_updated_more_than(change_log_path, 5):
-            continue
+        #if is_file_updated_more_than(change_log_path, 5):
+        #    continue
         readme_html = (
             f'<details>'
             f'<summary style="color:#FFD700">更新记录</summary>'

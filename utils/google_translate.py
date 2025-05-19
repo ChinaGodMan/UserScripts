@@ -51,6 +51,7 @@ encode_map = {
     "推荐浏览器": ("issues", True),
     "脚本管理器": ("issues", True),
     "用户数量": ("issues", True),
+    "每日检查更新次数": ("issues", True)
 }
 
 
