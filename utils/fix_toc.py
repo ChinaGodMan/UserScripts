@@ -1,12 +1,9 @@
 import re
-import sys
 from content_snippet import get_file_description
 from writer import process_file
 from helper import read_json
 from helper import is_file_modified
 
-if not is_file_modified("docs/README.md"):
-    sys.exit()
 
 start_tag = "<!--SCRIPTS_COUNT-->"
 end_tag = "<!--SCRIPTS_COUNT-END-->"
@@ -63,6 +60,8 @@ for item in docs['files']:
         target = item['target']
         for lang in target:
             readme = f"docs/{lang}/README.md"
+            if not is_file_modified(readme):
+                continue
             # 脚本toc
             old = get_file_description(readme, start_tag, end_tag)
             new = re.sub(reg_group_toc, lambda match: replace_links(match, group_toc_template), old)
