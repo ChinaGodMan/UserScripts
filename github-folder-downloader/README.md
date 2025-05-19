@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。 」</p>
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader/github-folder-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.505496&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505496">Greasy
-            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
+            href="https://greasyfork.org/scripts/505496">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
 <p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮</p>
 <hr />

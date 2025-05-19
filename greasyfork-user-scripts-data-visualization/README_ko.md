@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/508968/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.508968&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork 사용자 스크립트 데이터 시각화 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/508968">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork 사용자 스크립트 데이터 시각화 로그 업데이트</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
 <p><strong>새로운</strong>: •사용할 작은 기능을 추가하십시오.<code>테이블에는 생성 및 업데이트 날짜가 표시됩니다</code> <code>Y축 값이 강조 표시됩니다</code> <code>막대 차트를 클릭하여 해당 스크립트로 이동하십시오.</code> 대본에서<code>OPENLINK</code> ~을 위한<code>0</code>점프하지 마십시오,<code>1</code>점프하기 전에 팁이 있습니다,<code>2</code>직접 점프하십시오</p>
 <table>

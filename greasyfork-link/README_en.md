@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-link/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -53,14 +53,14 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
-    <h1>Greasy forkScript pages are suitable for URL enhancement</h1>
-    <p>「 Script details page is suitable for searches without default redirection Turn to a clickable text link and pop up the prompt 」</p>
+    <h1>Greasy fork script pages for URL enhancement</h1>
+    <p>「 The script details page is suitable for searching without default URLs. Turn to clickable text links and pop up prompts 」</p>
     <img src="https://views.whatilearened.today/views/github/497317/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link/greasyfork-link.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.497317&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/497317">Greasy
+            href="https://greasyfork.org/scripts/497317">Greasy
             Fork</a></p>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497317.png">
 </div></center>

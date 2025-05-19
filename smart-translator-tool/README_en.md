@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Translation of any language and shortcut one-click translation of the language you want | Page Translation | Select text (press Ctrl) | Provide shortcuts, just press one key to quickly translate the language you want | English learning | Translation can be set and supports most common languages around the world | Feedback if you have any questions 」</p>
     <img src="https://views.whatilearened.today/views/github/530406/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/smart-translator-tool/smart-translator-tool.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.530406&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/530406">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Translation gadget | Translate any language Update log</strong></h1>
+            href="https://greasyfork.org/scripts/530406">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Translation gadget | Translate any language Update log</strong></h1>
 <h3><strong>📅 2025.03.21.1227</strong></h3>
 <p><strong>repair</strong>: Use Google Translate to use free API</p>
 <hr /></details>

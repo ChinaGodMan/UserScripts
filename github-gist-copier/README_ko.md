@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-gist-copier/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 코드를 쉽게 복사하기 위해 GIST 파일에 복사 버튼을 추가하십시오. |. 코드를 쉽게 다운로드하려면 GIST 파일에 다운로드 버튼을 추가하십시오. 」</p>
     <img src="https://views.whatilearened.today/views/github/529534/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-gist-copier/github-gist-copier.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.529534&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529534">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist 코드 스 니펫 복사 및 다운로더 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/529534">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist 코드 스 니펫 복사 및 다운로더 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.03.18.0659</strong></h3>
 <p><strong>새로운</strong>: 소형보기를 추가하십시오 <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
 <strong>스크린 샷</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>

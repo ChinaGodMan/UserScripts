@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-webhook-sync-enhanced/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 GreaysFork 스크립트 동기화 정보를 빠르게 입력하세요，여러 국가의 언어 코드를 일괄 추가합니다.，선택 상자를 하나씩 클릭하여 해당 URL로 이동하는 대신。 」</p>
     <img src="https://views.whatilearened.today/views/github/506717/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.506717&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/506717">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GreaysFork향상되었습니다WebHook 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/506717">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GreaysFork향상되었습니다WebHook 로그 업데이트</strong></h1>
 <h3><strong>📅 2024/9/15 10:53 - Ver 1.1.1.0</strong></h3>
 <p><strong>수리하다</strong>: • 단추<code>hover active focus</code>부모 수업에 넣습니다<code>.Sync-Modal</code></p>
 <h3><strong>📅 2024/9/5 04:29 - Ver 1.1.0.0</strong></h3>

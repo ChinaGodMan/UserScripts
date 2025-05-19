@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/pornhub-download/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Pornhub 視頻一鍵下載 | pornhub.com | 無需登錄直接下載 | 可直接下載免費觀看付費下載視頻 | 可下載已禁止下載的視頻 | 可下載所有可觀看分辨率 」</p>
     <img src="https://views.whatilearened.today/views/github/528800/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/pornhub-download/pornhub-download.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.528800&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/528800">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Pornhub 視頻一鍵下載 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/528800">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Pornhub 視頻一鍵下載 更新日誌</strong></h1>
 <h3><strong>📅 2025.05.01.0128</strong></h3>
 <p><strong>修復</strong>: 刪除掉下載視頻時，文件名尾隨空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
 <hr />

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -59,8 +59,9 @@
     <p>「 🤠 仓库显示大小：在 GitHub 的代码搜索、仓库搜索、议题页面、用户仓库列表和存储库页面上，仓库名称旁边会显示该仓库的大小，方便用户快速了解仓库的规模，优化选择。不活跃开发警告：如果某个仓库在过去六个月内没有更新，系统将在仓库的顶部添加提示，提醒用户该仓库不活跃，并显示最后一次更新的时间。这有助于用户判断仓库的活跃程度和维护状况。仓库内快捷跳转：在浏览仓库时，用户可以方便地查看该用户的所有仓库列表，提供一个快速跳转到不同仓库的入口。用户可以快速找到和访问感兴趣的其他项目，提高工作效率。使用场景：开发者：可以通过显示仓库大小和活跃警告，快速筛选出合适的库进行开发，避免使用不再维护的项目。项目管理者：通过快速跳转功能，便于管理和协调多个项目，提高工作效率。学习者：在学习新技术时，可以更方便地找到相关的开源项目，快速查看项目的活跃程度和规模。🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 修复在储存库页面不显示快捷跳转按钮的问题 <br></p>

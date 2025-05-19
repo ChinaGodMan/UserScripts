@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -59,9 +59,10 @@
     <p>「 在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮和一个为 ChatGPT 响应中的代码块添加导出按钮，提示用户根据代码块的类名检测到的编程语言将代码保存为文件。 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.509598&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
-            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 聊天复制代码按钮 更新日志</strong></h1>
+            href="https://greasyfork.org/scripts/509598">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 聊天复制代码按钮 更新日志</strong></h1>
 <h3><strong>📅 2024-09-23 08:58:07- Ver 1.2.0.0</strong></h3>
 <p><strong>修复</strong>: • 新发送内容也会错误添加按钮,改为添加时判断元素是否存在以下子元素<code>querySelector('div.flex.items-center.text-token-text-secondary')</code>
 <strong>修复</strong>: •导出代码检测代码类型出错的问题<code>var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')</code> →<code>var languageDiv = elem.querySelector('div.flex.items-center.text-token-text-secondary')</code></p>

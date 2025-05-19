@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 발각 MissAV 상태,로그인하지 않으면 자동으로 로그인됩니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.505325&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MissAV 자동 로그인 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/505325">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MissAV 자동 로그인 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.04.27.1343</strong></h3>
 <p><strong>수리하다</strong>: • 도메인 이름을 추가하십시오<code>missav.live</code>지원하다<br>
 <strong>새로운</strong>: • 도메인 이름이 자주 변경되기 때문입니다,하드 코딩 된 URL이 아닙니다,대신 현재 페이지에서 도메인 이름을 추출하십시오</p>

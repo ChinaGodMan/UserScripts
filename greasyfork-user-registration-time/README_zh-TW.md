@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 如果你的腳本干涉了某些人的利益，收到惡意差評並不意外。惡意差評有兩個特點，一是賬號通常新註冊，二是註冊後不久就會給差評，且基本不會有後續活動。本腳本獲取greasyfork用戶註冊時間，並顯示在用戶名旁邊。如果用戶名旁邊顯示的時間是未來的時間，那麼這個用戶很可能是惡意註冊的賬號。 」</p>
     <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.529359&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ greasyfork-user-registration-time 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/529359">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ greasyfork-user-registration-time 更新日誌</strong></h1>
 <h3><strong>📅 22025.04.12.1109</strong></h3>
 <p><strong>修復</strong>: 添加<code>fr</code> 和 <code>fr-CA</code>語言的支持,以顯示法國時間格式<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
 <strong>截圖</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>

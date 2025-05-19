@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/web-clipper/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 웹 컨텐츠를 Markdown 형식으로 변환하는 도구는 복사, 다운로드 및 Github 및 Obsidian으로 전송과 같은 기능을 지원합니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/530139/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.530139&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/530139">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown 클라우드 클립 노트 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/530139">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown 클라우드 클립 노트 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.03.19.0450</strong></h3>
 <p><strong>새로운</strong>:Github 시각적 인터페이스를 추가하십시오<br>
 <strong>스크린 샷</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>

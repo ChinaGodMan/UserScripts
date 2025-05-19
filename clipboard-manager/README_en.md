@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clipboard-manager/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -58,12 +58,13 @@
     <p>「 Manage the writing behavior of web pages to the clipboard to prevent unauthorized automatic copying and disable audio and video content preloading and automatic playback. 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.497403&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/497403">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Web page writing clip version authorization manager Update log</strong></h1>
+            href="https://greasyfork.org/scripts/497403">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Web page writing clip version authorization manager Update log</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>repair</strong>: •Copy function <code>pc</code> Not for red and from <code>window.navigator.clipboard.writeText</code> ,Need to copy manually to the clip.@90
-<strong>repair</strong>: •Logical error ↠ Only indicators are available after pressing the shortcut key to copyfor red Reset when，for green No reset@161</p>
+<strong>repair</strong>: •Logical error ↠ 按下快捷键复制后只有指示器for red Reset when，为 green No reset@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>New</strong>: •monitor<code>clipboard.writeText</code>event</p>

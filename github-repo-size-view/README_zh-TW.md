@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -59,8 +59,9 @@
     <p>「 🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題 <br></p>
@@ -167,7 +168,7 @@
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用該腳本的設置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加腳本菜單 → 環境 GitHub Token 介面，無需在代碼內修改。</p>
+<p><strong>新增</strong>: 增加腳本菜單 → 設定 GitHub Token 介面，無需在代碼內修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用戶資料倉庫列表和組織列表顯示倉庫大小。</p>

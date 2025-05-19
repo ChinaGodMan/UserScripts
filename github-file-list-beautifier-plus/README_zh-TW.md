@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-file-list-beautifier-plus/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標 」</p>
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.508047&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/508047">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件列表美化器 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/508047">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件列表美化器 更新日誌</strong></h1>
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
 <p><strong>新增</strong>: 增加了對文件增加圖標,增加了自定義文件顏色和圖標。</p>
 <hr /></details>

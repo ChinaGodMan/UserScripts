@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/smart-translator-tool/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 任何語言翻譯及快捷一鍵翻譯想要語言 | 頁面翻譯 | 選中文字（ 按Ctrl ）| 提供快捷方式，只需按一個鍵即可快速翻譯想要語言 |英文學習 | 翻譯文可設置，支持全球多數通用語言 | 有什麼問題都可以反饋 」</p>
     <img src="https://views.whatilearened.today/views/github/530406/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/smart-translator-tool/smart-translator-tool.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.530406&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/530406">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 翻譯小工具 | 翻譯任何語言 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/530406">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 翻譯小工具 | 翻譯任何語言 更新日誌</strong></h1>
 <h3><strong>📅 2025.03.21.1227</strong></h3>
 <p><strong>修復</strong>: 改用白嫖的谷歌翻譯 API</p>
 <hr /></details>

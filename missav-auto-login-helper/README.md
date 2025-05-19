@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-auto-login-helper/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 检测 MissAV 状态,并且在未登录时自动登录 」</p>
     <img src="https://views.whatilearened.today/views/github/505325/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-auto-login-helper/missav-auto-login-helper.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.505325&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505325">Greasy
-            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MissAV 自动登录 更新日志</strong></h1>
+            href="https://greasyfork.org/scripts/505325">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MissAV 自动登录 更新日志</strong></h1>
 <h3><strong>📅 2025.04.27.1343</strong></h3>
 <p><strong>修复</strong>: • 添加域名<code>missav.live</code>的支持<br>
 <strong>新增</strong>: • 由于域名经常变化,不在硬编网址,而是从当前页面提取到域名</p>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below. 」</p>
     <img src="https://views.whatilearened.today/views/github/508968/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.508968&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork User script data visualization Update log</strong></h1>
+            href="https://greasyfork.org/scripts/508968">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork User script data visualization Update log</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
 <p><strong>New</strong>: •Add some small functions to use.<code>Table displays creation and update dates</code> <code>YThe axis value is highlighted</code> <code>Click the bar chart to jump to the corresponding script</code> In the script<code>OPENLINK</code> for<code>0</code>Don’t jump,<code>1</code>There are tips before jumping,<code>2</code>Jump directly</p>
 <table>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-m3u8-finder/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 從當前missav播放頁面嗅探視頻的真實下載地址並下載 」</p>
     <img src="https://views.whatilearened.today/views/github/528160/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-m3u8-finder/missav-m3u8-finder.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.528160&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/528160">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MISSAV M3U8 視頻下載工具 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/528160">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MISSAV M3U8 視頻下載工具 更新日誌</strong></h1>
 <h3><strong>📅 2025.04.27.1347</strong></h3>
 <p><strong>新增</strong>: 添加域名<code>missav.live</code>的支持</p>
 <hr />

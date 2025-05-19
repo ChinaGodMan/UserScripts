@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -58,8 +58,9 @@
     <p>「 拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果,可设置为长按触发.自动记录每个站点的小窗口大小. 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.504880&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
+            href="https://greasyfork.org/scripts/504880">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview 更新日志</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>修复</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>或者<code>closeOnMouseClick</code>被关闭时,无法弹出新的小窗 <br>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-code-styling/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -53,14 +53,14 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
-    <h1>ChatGPTGiảm phông chữ mã.</h1>
-    <p>「 ChatGPT Làm cho phông chữ mã nhỏ hơn Và tự động gấp 」</p>
+    <h1>ChatGPTKích thước phông chữ mã giảm</h1>
+    <p>「 ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc 」</p>
     <img src="https://views.whatilearened.today/views/github/505209/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling/chatgpt-code-styling.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.505209&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505209">Greasy
+            href="https://greasyfork.org/scripts/505209">Greasy
             Fork</a></p>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505209.png">
 </div></center>

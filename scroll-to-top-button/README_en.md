@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/scroll-to-top-button/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Generate two buttons on all pages，One for smoothing back to the top，One for continuous scrolling to the bottom，Click again to cancel scroll to bottom 」</p>
     <img src="https://views.whatilearened.today/views/github/500255/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/scroll-to-top-button/scroll-to-top-button.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.500255&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/500255">Greasy
-            Fork</a></p><details><summary>Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ One-click top and bottom buttons Update log</strong></h1>
+            href="https://greasyfork.org/scripts/500255">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ One-click top and bottom buttons Update log</strong></h1>
 <h3><strong>📅 2024/8/26 1:28 - Ver 1.2.0.48</strong></h3>
 <p><strong>ask</strong>:<br />
 • <a href="https://greasyfork.org/zh-CN/scripts/500255/discussions/257324">#257324</a> Add binding hotkeys。</p>

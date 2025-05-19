@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/popup-window/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,8 +58,9 @@
     <p>「 Mở liên kết trong cửa sổ bật lên khi kéo liên kết，và cung cấp bản xem trước trước khi mở，sử dụng Edge công nghệ đọc trước。Đồng thời, thêm hiệu ứng acrylic phía sau cửa sổ nhỏ khi nó được mở.。 」</p>
     <img src="https://views.whatilearened.today/views/github/504880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/popup-window/popup-window.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.504880&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/504880">Greasy
+            href="https://greasyfork.org/scripts/504880">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Small Window Preview Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Sửa chữa</strong>:<a href="https://github.com/ChinaGodMan/UserScripts/issues/133">#133</a><code>closeOnScroll</code>hoặc<code>closeOnMouseClick</code>Khi đóng,Không có cửa sổ mới bật lên <br>

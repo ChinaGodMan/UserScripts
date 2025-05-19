@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-utility-toolkit/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,8 +58,9 @@
     <p>「 vì Greasyfork Cung cấp các chức năng sử dụng khác nhau，thời gian tuyệt đối，Màn hình rộng web，Cải tiến trang tập lệnh，Tải xuống tiện ích mở rộng，Sửa chữa bảng điều khiển và một loạt các hoạt động 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.497346&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/497346">Greasy
+            href="https://greasyfork.org/scripts/497346">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Dán nhà sản xuất giàn khoan Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.5.15.1</strong></h3>
 <p><strong>Sửa chữa</strong>: Thay thế hình ảnh không hợp lệ để liên kết đến<code>UserScriptsHistory</code><br></p>

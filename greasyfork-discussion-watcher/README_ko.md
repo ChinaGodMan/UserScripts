@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-discussion-watcher/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/506345">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 알림 어시스턴트 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/506345">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 알림 어시스턴트 로그 업데이트</strong></h1>
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
 <p><strong>새로운</strong>: <code>https://greasyfork.org/users/*/notifications</code>정렬을 뒤집습니다,최신 정보를 맨 위에 표시하도록하십시오,바닥 대신.</p>
 <hr />
@@ -75,7 +76,7 @@
 <p><strong>새로운</strong>: 추가<code>read=unread</code>매개 변수,읽지 않은 정보 만 추출하십시오,이 버전은 최종 버전입니다.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 사이트 알림이 점차 지원되었습니다,대본은 존재의 의미를 잃게됩니다.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,그리고에서마지막 스피커와 일치합니다사용자 ID 실패시,마지막 스피커와 일치합니다.</p>
+<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,并且在마지막 스피커와 일치합니다用户 ID 실패시,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>개선하다</strong>: 대신 웹 사이트를 사용하기위한 토론 목록，정보에 카테고리를 추가하십시오。</p>

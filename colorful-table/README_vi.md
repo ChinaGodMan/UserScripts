@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/colorful-table/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Tự động áp dụng độ chuyển màu cho tất cả các cột của bảng để làm đẹp nó 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table/colorful-table.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.507036&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/507036">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Bàn trang web đẹp gradient tuyệt đẹp Cập nhật nhật ký</strong></h1>
+            href="https://greasyfork.org/scripts/507036">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Bàn trang web đẹp gradient tuyệt đẹp Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2024/9/6 05:41 - Ver 1.0.0.0</strong></h3>
 <p><strong>Ôn lại</strong>: Sửa đổi thành màu gradient tự động.....</p>
 <hr /></details>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
+            href="https://greasyfork.org/scripts/529453">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 媒体下载 更新日志</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
 <p><strong>新增</strong>: 导出下载历史为 <code>MarkDown</code>,代码来自 GreasyFork 用户<a href="https://greasyfork.org/users/1462808">SteveSun</a>发布于<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
 <strong>截图</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>

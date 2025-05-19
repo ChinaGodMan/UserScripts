@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
@@ -59,8 +59,9 @@
     <p>「 🤠 Warehouse display size: On GitHub’s code search, warehouse search, issue page, user warehouse list and repository page, the size of the warehouse will be displayed next to the warehouse name, allowing users to quickly understand the scale of the warehouse and optimize their selection. Inactive development warning: If a repository has not been updated in the past six months, the system will add a prompt at the top of the repository to remind users that the repository is inactive and display the time of the last update. This helps users determine the activity and maintenance status of the warehouse. Quick jump within the warehouse: When browsing the warehouse, the user can easily view the list of all warehouses of the user, providing an entrance to quickly jump to different warehouses. Users can quickly find and access other projects of interest, improving work efficiency. Usage scenarios: Developers: By displaying the warehouse size and active warnings, you can quickly filter out suitable libraries for development and avoid using projects that are no longer maintained. Project Manager: Through the quick jump function, it is easy to manage and coordinate multiple projects and improve work efficiency. Learners: When learning new technologies, they can more easily find relevant open source projects and quickly check the activity and scale of the projects. 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page <br></p>
@@ -113,7 +114,7 @@
 <strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>New</strong>: GitHub Sidebar jump to warehouse is complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
+<p><strong>New</strong>: GitHub Sidebar jump to warehouse is more complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
 <table>
 <thead>
 <tr>

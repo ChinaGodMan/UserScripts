@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/xhamster-downloader/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️訪問 GitHub 上的自述文件以獲得更好的體驗。</sub></em>
@@ -58,16 +58,17 @@
     <p>「 xhamster 視頻一鍵下載 | xhamster.com | 無需登錄直接下載 | 可下載所有可觀看分辨率 」</p>
     <img src="https://views.whatilearened.today/views/github/529043/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xhamster-downloader/xhamster-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.529043&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529043">Greasy
-            Fork</a></p><details><summary>更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Xhamster 視頻一鍵下載助手 更新日誌</strong></h1>
+            href="https://greasyfork.org/scripts/529043">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Xhamster 視頻一鍵下載助手 更新日誌</strong></h1>
 <h3><strong>📅 2025.03.13.0330</strong></h3>
 <p><strong>新增</strong>: •自動播放<br>
 <strong>新增</strong>: •自動寬屏<br>
 <strong>新增</strong>: •自動最高畫質播放<br>
-<strong>環境</strong>: •<code>autoMax = true</code> <strong>自動寬屏</strong><br>
-<strong>環境</strong>: • <code>autoPlay = true</code> <strong>自動播放</strong><br>
-<strong>環境</strong>: •<code>autoMaxQuality</code> <strong>自動最高畫質播放</strong><br></p>
+<strong>設定</strong>: •<code>autoMax = true</code> <strong>自動寬屏</strong><br>
+<strong>設定</strong>: • <code>autoPlay = true</code> <strong>自動播放</strong><br>
+<strong>設定</strong>: •<code>autoMaxQuality</code> <strong>自動最高畫質播放</strong><br></p>
 <h3><strong>📅 2025.03.07.0739</strong></h3>
 <p><strong>新增</strong>: •初始版本</p>
 <hr /></details>

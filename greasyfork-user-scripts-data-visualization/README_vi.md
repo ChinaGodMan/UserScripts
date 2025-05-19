@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-scripts-data-visualization/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới. 」</p>
     <img src="https://views.whatilearened.today/views/github/508968/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.508968&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/508968">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork Trực quan hóa dữ liệu tập lệnh người dùng Cập nhật nhật ký</strong></h1>
+            href="https://greasyfork.org/scripts/508968">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GrreasyFork Trực quan hóa dữ liệu tập lệnh người dùng Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2024-09-20 07:46- Ver 1.1.1.1</strong></h3>
 <p><strong>Mới</strong>: •Thêm một số chức năng nhỏ để sử dụng.<code>Bảng hiển thị ngày sáng tạo và cập nhật</code> <code>YGiá trị trục được tô sáng</code> <code>Nhấp vào biểu đồ thanh để nhảy vào tập lệnh tương ứng</code> Trong kịch bản<code>OPENLINK</code> vì<code>0</code>Đừng nhảy,<code>1</code>Có những lời khuyên trước khi nhảy,<code>2</code>Nhảy trực tiếp</p>
 <table>

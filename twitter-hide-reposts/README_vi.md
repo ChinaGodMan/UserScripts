@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-hide-reposts/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Tự động ẩn nội dung được chuyển tiếp và ẩn nội dung được chuyển tiếp khi tải đầu tiên để xóa quảng cáo gây phiền nhiễu 」</p>
     <img src="https://views.whatilearened.today/views/github/529450/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-hide-reposts/twitter-hide-reposts.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.529450&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529450">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Twitter/X Ẩn các bài viết đăng lại Cập nhật nhật ký</strong></h1>
+            href="https://greasyfork.org/scripts/529450">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Twitter/X Ẩn các bài viết đăng lại Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.11.0654</strong></h3>
 <h2><strong>Mới</strong>: •Thêm các bài đăng được ẩn tự động khi trang web đang tải，Để ngăn tin nhắn chuyển tiếp ngay khi chúng được mở</h2></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529450.png">

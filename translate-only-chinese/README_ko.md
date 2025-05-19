@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -53,14 +53,14 @@
 
 <!--SHIELDS-END-->
 <!--HISTORY-->
-
 <center><div align="center">
-    <h1>웹 번역——중국어로의 자동 번역</h1>
-    <p>「 각 비 중국어 웹 페이지에 오른쪽 하단 모서리를 제공하십시오（왼쪽 하단 모서리로 조정할 수 있습니다）하나를 추가하십시오google번역 아이콘，이 버전은 중국어 번역입니다，외국어 만 중국어로 번역하십시오,자동 번역을 추가하십시오 」</p>
+    <h1>웹 페이지 번역 - 중국어로 자동 번역</h1>
+    <p>「 각 비 중국 웹 페이지의 오른쪽 하단에 Google 번역 아이콘을 추가하십시오 (왼쪽 하단 코너로 조정할 수 있음). 이 버전은 중국어 번역 버전이며 외국어 만 중국어로 번역되며 자동 번역이 추가됩니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/505208/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese/translate-only-chinese.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.505208&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/505208">Greasy
+            href="https://greasyfork.org/scripts/505208">Greasy
             Fork</a></p>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505208.png">
 </div></center>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/greasyfork-user-registration-time/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.529359&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529359">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ greasyfork-user-registration-time 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/529359">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ greasyfork-user-registration-time 로그 업데이트</strong></h1>
 <h3><strong>📅 22025.04.12.1109</strong></h3>
 <p><strong>수리하다</strong>: 추가<code>fr</code> 그리고 <code>fr-CA</code>언어 지원,프랑스 시간 형식으로<code>10.04.2025 20:38</code><a href="https://greasyfork.org/scripts/529359/discussions/295260">#295260</a> <br>
 <strong>스크린 샷</strong>:<img alt="2025.04.12" src="https://s2.loli.net/2025/04/12/EqfUv7T6l9ebcLB.png" /></p>

@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 할 때 다운로드 할 수있는 zip 파일로 자동 포장을 지원하십시오. 새로운 API 인터페이스를 지원합니다 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 미디어 다운로드 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/529453">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 미디어 다운로드 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
 <p><strong>새로운</strong>: 다운로드 기록을 수출합니다 <code>MarkDown</code>,코드 GreasyFork 사용자<a href="https://greasyfork.org/users/1462808">SteveSun</a>게시<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
 <strong>스크린 샷</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>

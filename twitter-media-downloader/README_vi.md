@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/twitter-media-downloader/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️truy cập GitHub README FILE trên để có trải nghiệm tốt hơn。</sub></em>
@@ -58,9 +58,10 @@
     <p>「 Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/529453">Greasy
-            Fork</a></p><details><summary>Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
+            href="https://greasyfork.org/scripts/529453">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
 <p><strong>Mới</strong>: Xuất khẩu lịch sử tải xuống dưới dạng <code>MarkDown</code>,Mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462808">SteveSun</a>Đăng trên<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
 <strong>Ảnh chụp màn hình</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>

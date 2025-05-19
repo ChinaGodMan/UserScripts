@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-repo-size-view/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -59,8 +59,9 @@
     <p>「 🤠 창고 표시 크기: GitHub의 코드 검색, 창고 검색, 이슈 페이지, 사용자 창고 목록 및 저장소 페이지에서 창고 이름 옆에 창고 크기가 표시되어 사용자가 창고 규모를 빠르게 이해하고 최적화할 수 있습니다. 선택. 비활성 개발 경고: 저장소가 지난 6개월 동안 업데이트되지 않은 경우 시스템은 저장소 상단에 프롬프트를 추가하여 사용자에게 저장소가 비활성 상태임을 알리고 마지막 업데이트 시간을 표시합니다. 이를 통해 사용자는 창고의 활동 및 유지 관리 상태를 확인할 수 있습니다. 창고 내 빠른 점프 : 창고 탐색 시 자신의 모든 창고 목록을 쉽게 확인할 수 있어, 다른 창고로 빠르게 이동할 수 있는 입구를 제공합니다. 사용자는 관심 있는 다른 프로젝트를 빠르게 찾고 액세스할 수 있어 작업 효율성이 향상됩니다. 사용 시나리오: 개발자: 웨어하우스 크기와 활성 경고를 표시함으로써 개발에 적합한 라이브러리를 빠르게 필터링하고 더 이상 유지 관리되지 않는 프로젝트의 사용을 피할 수 있습니다. 프로젝트 관리자: 퀵 점프 기능을 통해 여러 프로젝트를 쉽게 관리 및 조정하고 업무 효율성을 높일 수 있습니다. 학습자: 새로운 기술을 배울 때 관련 오픈소스 프로젝트를 더 쉽게 찾을 수 있고 프로젝트의 활동과 규모를 빠르게 확인할 수 있습니다. 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/502291">Greasy
+            href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다. <br></p>

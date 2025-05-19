@@ -7,10 +7,10 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_ko.md">한국어</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_vi.md">Tiếng Việt</a>|
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/chatgpt-copy-code-button/README_zh-TW.md">繁體中文</a>
     <br>
     <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
@@ -59,9 +59,10 @@
     <p>「 존재하다 chatgpt.com 상단 코드 블록의 오른쪽 하단에 애니메이션을 추가합니다.“코드 복사”버튼과 ChatGPT 응답으로 코드 블록에 내보내기 버튼이 추가됩니다.，코드 블록의 클래스 이름으로 감지된 프로그래밍 언어를 기반으로 파일에 코드를 저장하라는 메시지를 사용자에게 표시합니다.。 」</p>
     <img src="https://views.whatilearened.today/views/github/509598/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.509598&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">Github</a> | ⭐<a
-            href="https://greasyfork.org/zh-CN/scripts/509598">Greasy
-            Fork</a></p><details><summary>레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 채팅 사본 코드 버튼 로그 업데이트</strong></h1>
+            href="https://greasyfork.org/scripts/509598">Greasy
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 채팅 사본 코드 버튼 로그 업데이트</strong></h1>
 <h3><strong>📅 2024-09-23 08:58:07- Ver 1.2.0.0</strong></h3>
 <p><strong>수리하다</strong>: • 새로 보낸 콘텐츠는 버튼을 잘못 추가합니다,추가 할 때 다음 하위 요소가 요소에 존재하는지 여부를 결정하십시오.<code>querySelector('div.flex.items-center.text-token-text-secondary')</code>
 <strong>수리하다</strong>: •코드 유형에서 오류를 감지하는 내보내기 코드<code>var languageDiv = elem.parentElement.parentElement.querySelector('div.flex.items-center.text-token-text-secondary')</code> →<code>var languageDiv = elem.querySelector('div.flex.items-center.text-token-text-secondary')</code></p>

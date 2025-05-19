@@ -9,16 +9,16 @@
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
         <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="../README.md">简体中文</a> |
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="../zh-TW/README.md">繁體中文</a>|
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="../zh-TW/README.md">繁體中文</a> |
         <a href="../en/README.md">English</a> |
-        <a href="../ja/README.md">日本語</a>|
-        <a href="../vi/README.md">Tiếng Việt</a>|
-        <a href="../it/README.md">Italiano</a>|
-        <a href="../ru/README.md">Русский</a>|
+        <a href="../ja/README.md">日本語</a> |
+        <a href="../vi/README.md">Tiếng Việt</a> |
+        <a href="../it/README.md">Italiano</a> |
+        <a href="../ru/README.md">Русский</a> |
         <a href="../de/README.md">Deutsch</a> |
-        <a href="../es/README.md">Español</a>|
-        <a href="../pt/README.md">Portuguese</a>|
-        <a href="../fr/README.md">Français</a>|
+        <a href="../es/README.md">Español</a> |
+        <a href="../pt/README.md">Portuguese</a> |
+        <a href="../fr/README.md">Français</a> |
         <a href="../ko/README.md">대한민국</a>
     </h6>
 </div>
