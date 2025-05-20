@@ -94,7 +94,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<h1>ChatGPTRelated scripts (5)</h1><h3>
+<div align="center"><h1>ChatGPTRelated scripts (5)</h1></div><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTCode font size reduced</a>&nbsp;
@@ -276,7 +276,9 @@ ChatGPT Make code font smaller and automatically wrap
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Update log</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Web page related scripts (10)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Web page related scripts (10)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Web page writing clip version authorization manager</a>&nbsp;
@@ -630,7 +632,9 @@ Remove link underlines on all sites，and handle new links dynamically
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubRelated scripts (15)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GitHubRelated scripts (15)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Submit information display web view</a>&nbsp;
@@ -1196,7 +1200,9 @@ existGitHubThe authorization page automatically enters the authorization code an
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleRelated scripts (2)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GoogleRelated scripts (2)</h1></div><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Advanced search assistant</a>&nbsp;
@@ -1264,7 +1270,9 @@ Search for a Google Blocking a specified site
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkRelated scripts (11)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GreasyForkRelated scripts (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Greasy fork script pages for URL enhancement</a>&nbsp;
@@ -1670,7 +1678,9 @@ Search using GoogleGreasyForkandSleazyForkupper script
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Adult scripts (10)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Adult scripts (10)</h1></div><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Automatic login</a>&nbsp;
@@ -2032,7 +2042,9 @@ Detection JableTV state,and automatically log in when not logged in
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Update log</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Automatic translation (3)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Automatic translation (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Foreign Language Terminator</a>&nbsp;
@@ -2134,7 +2146,9 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Social Media Scripts (3)</h1><h3>
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Social Media Scripts (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/X Hide retweeted posts</a>&nbsp;
@@ -2254,7 +2268,9 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
-<div align="right"><a href="#-Script-List">Return to the directory</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="right"><a href="#-Script-List">Return to the directory</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ How to install or use scripts？

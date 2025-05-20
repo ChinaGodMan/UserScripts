@@ -94,7 +94,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<h1>ChatGPTVerwandte Skripte (5)</h1><h3>
+<div align="center"><h1>ChatGPTVerwandte Skripte (5)</h1></div><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTDie Schriftgröße des Codes wurde reduziert</a>&nbsp;
@@ -276,7 +276,9 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Webseitenbezogene Skripte (10)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Webseitenbezogene Skripte (10)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Autorisierungsmanager für Webseiten-Schreibclip-Versionen</a>&nbsp;
@@ -630,7 +632,9 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubVerwandte Skripte (15)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GitHubVerwandte Skripte (15)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Webansicht zur Anzeige von Informationen übermitteln</a>&nbsp;
@@ -1196,7 +1200,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleVerwandte Skripte (2)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GoogleVerwandte Skripte (2)</h1></div><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Erweiterter Suchassistent</a>&nbsp;
@@ -1264,7 +1270,9 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkVerwandte Skripte (11)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GreasyForkVerwandte Skripte (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Fettige Gabelskriptseiten für die URL -Verbesserung</a>&nbsp;
@@ -1670,7 +1678,9 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Erwachsene Skripte (10)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Erwachsene Skripte (10)</h1></div><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Automatische Anmeldung</a>&nbsp;
@@ -2032,7 +2042,9 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Automatische Übersetzung (3)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Automatische Übersetzung (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Fremdsprachterminator</a>&nbsp;
@@ -2134,7 +2146,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Social Media -Skripte (3)</h1><h3>
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Social Media -Skripte (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/X verstecken retweetete Beiträge</a>&nbsp;
@@ -2254,7 +2268,9 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ So installieren oder verwenden Sie Skripte？
@@ -2331,7 +2347,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generiert <a href="https://github.com/jaywcjlove" title="Melodie"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodie"/></a>
+Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generieren <a href="https://github.com/jaywcjlove" title="Melodie"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodie"/></a>
 
 <div align="right">
 
@@ -2364,7 +2380,7 @@ Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungs
 
 Wenn Sie eine Verwundbarkeit finden，Bitte öffnen Sie a[Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Pull -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
+Plug -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
 Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherheitsrichtlinie</strong></a>
 
 <div align="right">

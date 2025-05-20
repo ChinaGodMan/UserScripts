@@ -94,7 +94,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<h1>ChatGPTСвязанные сценарии (5)</h1><h3>
+<div align="center"><h1>ChatGPTСвязанные сценарии (5)</h1></div><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTРазмер шрифта кода уменьшен</a>&nbsp;
@@ -276,7 +276,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии, связанные с веб -страницей (10)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Сценарии, связанные с веб -страницей (10)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Менеджер авторизации версий клипов для написания веб-страниц</a>&nbsp;
@@ -630,7 +632,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubСвязанные сценарии (15)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GitHubСвязанные сценарии (15)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Отправить информацию, отобразить веб-просмотр</a>&nbsp;
@@ -1196,7 +1200,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleСвязанные сценарии (2)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GoogleСвязанные сценарии (2)</h1></div><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Расширенный помощник поиска</a>&nbsp;
@@ -1264,7 +1270,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkСвязанные сценарии (11)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GreasyForkСвязанные сценарии (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Страницы сценариев Greasy Fork для улучшения URL</a>&nbsp;
@@ -1670,7 +1678,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Взрослые сценарии (10)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Взрослые сценарии (10)</h1></div><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Автоматический вход</a>&nbsp;
@@ -2032,7 +2042,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Автоматический перевод (3)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Автоматический перевод (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Терминатор иностранного языка</a>&nbsp;
@@ -2134,7 +2146,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Сценарии социальных сетей (3)</h1><h3>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Сценарии социальных сетей (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x скрыть ретвитические сообщения</a>&nbsp;
@@ -2254,7 +2268,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ Как установить или использовать сценарии？
@@ -2331,7 +2347,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Список вкладов по： [contributors](https://github.com/jaywcjlove/github-action-contributors). Автоматически генерируется <a href="https://github.com/jaywcjlove" title="Мелодия"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Мелодия"/></a>
+Список вкладов по： [contributors](https://github.com/jaywcjlove/github-action-contributors). Автоматически генерировать <a href="https://github.com/jaywcjlove" title="Мелодия"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Мелодия"/></a>
 
 <div align="right">
 
@@ -2364,7 +2380,7 @@ MIT Лицензия - это свободное лицензионное сог
 
 Если вы найдете уязвимость，Пожалуйста, откройте[Проект рекомендаций по безопасности](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Также приветствуются запросы на привлечение，Но по соображениям безопасности，Пожалуйста, отправьте электронное письмо <china.qinwuyuan@gmail.com> и подождать ответа, прежде чем он станет。
+Также приветствуются запросы на подключение，Но по соображениям безопасности，Пожалуйста, отправьте электронное письмо <china.qinwuyuan@gmail.com> и подождать ответа, прежде чем он станет。
 Для получения подробной информации, пожалуйста <a href="../SECURITY.md"><strong>Политика безопасности</strong></a>
 
 <div align="right">

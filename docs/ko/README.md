@@ -94,7 +94,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<h1>ChatGPT관련 스크립트 (5)</h1><h3>
+<div align="center"><h1>ChatGPT관련 스크립트 (5)</h1></div><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPT코드 글꼴 크기 감소</a>&nbsp;
@@ -276,7 +276,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>웹 페이지 관련 스크립트 (10)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>웹 페이지 관련 스크립트 (10)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">웹 페이지 작성 클립 버전 권한 관리자</a>&nbsp;
@@ -630,7 +632,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHub관련 스크립트 (15)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GitHub관련 스크립트 (15)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
@@ -1196,7 +1200,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Google관련 스크립트 (2)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Google관련 스크립트 (2)</h1></div><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google 고급 검색 도우미</a>&nbsp;
@@ -1264,7 +1270,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyFork관련 스크립트 (11)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GreasyFork관련 스크립트 (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
@@ -1670,7 +1678,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>성인 스크립트 (10)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>성인 스크립트 (10)</h1></div><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV 자동 로그인</a>&nbsp;
@@ -2032,7 +2042,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>자동 번역 (3)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>자동 번역 (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">외국어 터미네이터</a>&nbsp;
@@ -2134,7 +2146,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>소셜 미디어 스크립트 (3)</h1><h3>
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>소셜 미디어 스크립트 (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
@@ -2254,7 +2268,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ 스크립트를 설치하거나 사용하는 방법？
@@ -2331,7 +2347,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성되었습니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됩니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
 
 <div align="right">
 
@@ -2364,7 +2380,7 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 취약성을 찾으면，a[초안 안전 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-풀 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
+플러그 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
 자세한 내용은 참조하십시오 <a href="../SECURITY.md"><strong>보안 정책</strong></a>
 
 <div align="right">

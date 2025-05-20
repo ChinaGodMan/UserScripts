@@ -94,7 +94,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<h1>ChatGPTScripts connexes (5)</h1><h3>
+<div align="center"><h1>ChatGPTScripts connexes (5)</h1></div><h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTTaille de la police du code réduite</a>&nbsp;
@@ -276,7 +276,9 @@ ChatGPT Rendre la police du code plus petite et envelopper automatiquement
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Mettre à jour le journal</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts liés à la page Web (10)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Scripts liés à la page Web (10)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Gestionnaire d’autorisation de version de clip d’écriture de page Web</a>&nbsp;
@@ -630,7 +632,9 @@ Supprimer les liens soulignés sur tous les sites，et gérer les nouveaux liens
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GitHubScripts connexes (15)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GitHubScripts connexes (15)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Soumettre des informations, afficher la vue Web</a>&nbsp;
@@ -1196,7 +1200,9 @@ existerGitHubLa page d’autorisation saisit automatiquement le code d’autoris
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GoogleScripts connexes (2)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GoogleScripts connexes (2)</h1></div><h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Assistant de recherche avancée</a>&nbsp;
@@ -1264,7 +1270,9 @@ Rechercher un Google bloquant un site spécifié
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>GreasyForkScripts connexes (11)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>GreasyForkScripts connexes (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Pages de script de fourche grasse pour amélioration de l’URL</a>&nbsp;
@@ -1670,7 +1678,9 @@ Rechercher avec GoogleGreasyForketSleazyForkécriture supérieure
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts adultes (10)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Scripts adultes (10)</h1></div><h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Connexion automatique</a>&nbsp;
@@ -2032,7 +2042,9 @@ Détection JableTV État,et connectez-vous automatiquement lorsque vous n’ête
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Mettre à jour le journal</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Traduction automatique (3)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Traduction automatique (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Terminateur en langue étrangère</a>&nbsp;
@@ -2134,7 +2146,9 @@ Ajoutez une icône de traduction Google dans le coin inférieur droit de chaque 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest"><h1>Scripts de médias sociaux (3)</h1><h3>
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="center"><h1>Scripts de médias sociaux (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter / x Hide Retweeted Posts</a>&nbsp;
@@ -2254,7 +2268,9 @@ Ajoutez une icône de traduction Google dans le coin inférieur droit de chaque 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
-<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div><img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ Comment installer ou utiliser des scripts？
@@ -2331,7 +2347,7 @@ Pour utiliser n’importe quel script，Tout d’abord, vous avez besoin d’une
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Liste des contributions par： [contributors](https://github.com/jaywcjlove/github-action-contributors). Généré automatiquement <a href="https://github.com/jaywcjlove" title="Régler"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Régler"/></a>
+Liste des contributions par： [contributors](https://github.com/jaywcjlove/github-action-contributors). Générer automatiquement <a href="https://github.com/jaywcjlove" title="Régler"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Régler"/></a>
 
 <div align="right">
 
@@ -2364,7 +2380,7 @@ Pour assurer un amical、Un environnement de développement respectueux et inclu
 
 Si vous trouvez une vulnérabilité，Veuillez ouvrir un[Projet de recommandations de sécurité](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Les demandes de traction sont également les bienvenues，Mais pour des raisons de sécurité，Veuillez envoyer un e-mail à <china.qinwuyuan@gmail.com> et attendez une réponse avant qu’elle ne soit rendue publique。
+Les demandes de plug sont également les bienvenues，Mais pour des raisons de sécurité，Veuillez envoyer un e-mail à <china.qinwuyuan@gmail.com> et attendez une réponse avant qu’elle ne soit rendue publique。
 Pour plus de détails, veuillez vous référer à <a href="../SECURITY.md"><strong>Politique de sécurité</strong></a>
 
 <div align="right">
