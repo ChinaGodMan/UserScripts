@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/13,Tuesday 00:44:09
+# Last Modified: 2025/05/20,Tuesday 19:08:27
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -21,7 +21,6 @@ import argparse
 from content_snippet import get_file_description
 from helper import get_md_files
 from writer import process_file_plus
-from helper import is_file_updated_more_than
 
 
 def fetch_script_json(greasyfork_id, is_sleazy=False, retrie=True):
@@ -85,29 +84,22 @@ def main():
     parser.add_argument(
         "-i", "--input", required=True, help="输入文件路径，每行一个脚本编号"
     )
-    start_tag = "<!--AUTHORS-->"
-    end_tag = "<!--AUTHORS-END-->"
+
     args = parser.parse_args()
     script_directory = args.input
     authors_file = script_directory + '/AUTHORS.md'
-    others = get_file_description(authors_file, '<!--OTHERS-->', '<!--OTHERS-END-->')
-
-    # 文件不存在直接结束
-    if not os.path.exists(authors_file):
-        print(f"==> \033[38;2;255;0;0m文件 {script_directory} 不存在！\033[0m")
-        sys.exit()
-
-    # 跳过未变动文件
-    if is_file_updated_more_than(authors_file, 5):
-        sys.exit()
+    start_tag = "<!--AUTHORS-->"
+    end_tag = "<!--AUTHORS-END-->"
 
     # 生产最新的内容
     result_text = process_script_ids(authors_file)
+    others = get_file_description(authors_file, '<!--OTHERS-->', '<!--OTHERS-END-->')
 
     #  构建的greasyfork网站的链接和其他引用信息都为空.
     if not result_text and not others:
         print(f' ==> \033[38;2;255;0;0m[{authors_file}] 没有内容\033[0m')
         sys.exit()
+
     scripts_link = '## 💖 脚本参考或使用了以下脚本:\n' + result_text
 
     # 写出到`authors_file`

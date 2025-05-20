@@ -1,6 +1,6 @@
 from content_snippet import get_file_description
 from helper import get_md_files
-from helper import is_file_updated_more_than
+from helper import is_file_changed_in_last_commit
 from helper import read_json
 from helper import format_str
 from helper import get_repo_name
@@ -10,6 +10,10 @@ import os
 import subprocess
 import re
 import markdown
+
+TEMPLATE = "utils/templates/CHANGELOG.html"
+START_TAG = "<!--HISTORY-->"
+END_TAG = "<!--HISTORY-END-->"
 
 
 def md_to_html(md_file):
@@ -24,7 +28,7 @@ def md_to_html(md_file):
 
 # 生产HTML内容
 def generate_html_content(nation, js_path, greasyfork_id, script_directory, readme_html):
-    with open("utils/templates/CHANGELOG.html", 'r', encoding='utf-8') as file:
+    with open(TEMPLATE, 'r', encoding='utf-8') as file:
         html_template = file.read()
     results = search_in_file(js_path, nation)
     name = results.name_matches[0]
@@ -50,40 +54,48 @@ for script in scripts['scripts']:
     description = script.get('description', '')
     greasyfork_id = script.get('greasyfork_id', '')
     full_path = script.get('directory', '') + "/" + script.get('js_name', '')
+    authors_file = script_directory + '/AUTHORS.md'
 
     # 每次更新脚本原作者信息
-    subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
+    if is_file_changed_in_last_commit(authors_file):
+        subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script.get('directory')], check=True)
 
-    change_log_path = os.path.join(script_directory, "CHANGELOG.md")
+    change_log_path = script_directory + '/CHANGELOG.md'
 
+    # 没有目录存在,跳过(可能是误更改了json文件)
+    if not os.path.exists(script_directory):
+        continue
+
+    # 生成更新记录 HTML
     readme_html = ''
-    if os.path.isfile(change_log_path):
-        # 对于5分钟内未改动的log文件不操作
-        #if is_file_updated_more_than(change_log_path, 5):
-        #    continue
+    if os.path.exists(change_log_path):
         readme_html = (
             f'<details>'
             f'<summary style="color:#FFD700">更新记录</summary>'
             '<div align="right">'
-            f'<a href="https://github.com/{get_repo_name()}/tree/main/{script_directory}/CHANGELOG.md">'
+            f'<a href="https://github.com/{get_repo_name()}/tree/main/{change_log_path}">'
             '<img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a>'
             '</div>'
             f'{md_to_html(change_log_path)}</details>'
         )
+
+    # 构建最新的内容(zh-CN)用于比对
     html_content = generate_html_content("zh-CN", full_path, greasyfork_id, script_directory, readme_html)
-    # 检查 script_directory 是否存在
-    if script_directory and os.path.exists(script_directory):
-        start_tag = "<!--HISTORY-->"
-        end_tag = "<!--HISTORY-END-->"
-        old_log = get_file_description(os.path.join(script_directory, "README.md"), start_tag, end_tag)
-        if old_log + "\n" == html_content:
-            continue
-        else:
-            print(f"----[\033[94m{script.get('name', '')}\033[0m]\033[92m 头部描述改变,执行替换!\033[0m")
-        md_files = get_md_files(script_directory)
-        for file_name in md_files:
-            file_path = os.path.join(script_directory, file_name)
-            match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
-            lang_code = match.group(1) if match else "zh-CN"
-            html_content = generate_html_content(lang_code, full_path, greasyfork_id, script_directory, readme_html)
-            process_file(file_path, html_content, start_tag, end_tag, "head")
+
+    old_log = get_file_description(script_directory + '/README.md', START_TAG, END_TAG)
+
+    # 新内容和旧内容一致,跳过
+    if old_log + "\n" == html_content:
+        continue
+    else:
+        print(f"----[\033[94m{script.get('name', '')}\033[0m]\033[92m 头部描述改变,执行替换!\033[0m")
+
+    # 遍历所有所有readme文件,替换头部显示
+    md_files = get_md_files(script_directory)
+    for file_name in md_files:
+        f"{script_directory}/{file_name}"
+        file_path = f"{script_directory}/{file_name}"
+        match = re.match(r'README_([a-zA-Z\-]+)\.md', file_name)
+        lang_code = match.group(1) if match else "zh-CN"
+        html_content = generate_html_content(lang_code, full_path, greasyfork_id, script_directory, readme_html)
+        process_file(file_path, html_content, START_TAG, END_TAG, "head")
