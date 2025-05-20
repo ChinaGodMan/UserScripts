@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
+
 from searcher import search_in_file
 from helper import get_md_files
 from helper import read_json
 from helper import get_repo_name
+from helper import is_file_changed_in_last_commit
 
 import subprocess
 import requests
@@ -11,6 +13,7 @@ import re
 import json
 import shutil
 import os
+import sys
 import pyotp
 '''
 名称:       自动添加脚本并更新附加信息
@@ -115,8 +118,14 @@ class GreasyFork:
         response = self.session.post(login_url, headers=headers, data=data)
         if response.ok:
             soup = BeautifulSoup(response.text, 'html.parser')
+            # 登录提示
             tip = soup.select_one("body > div.width-constraint > p")
-            print(tip.get_text())
+            # 用户信息
+            user_info = soup.select_one("#nav-user-info > span.user-profile-link > a")
+            match = re.search(r'/users/(\d+)-', user_info.get('href', ''))
+            user_id = match.group(1) if match else None
+            user_name = user_info.get_text()
+            print(f"\033[32m{user_name}({user_id}):{tip.get_text()}\033[0m")
             self.fetch_csrf_token()  # 登录成功后重新获取csrf_token.所有的请求都需要csrf_token,而且获取一次就行了,一个csrf_token可以多次使用
         else:
             raise Exception(f"Login failed. Status Code: {response.status_code}\n{response.text}")
@@ -229,17 +238,21 @@ class GreasyFork:
         soup = BeautifulSoup(response.text, 'html.parser')
         script_name = soup.select_one('#script-info > header > h2')
         specific_element = soup.select_one('body > div.width-constraint > p')
-        return "\033[94m" + script_name.get_text() + "\033[0m→→→→" + specific_element.get_text() if specific_element else None
+        return f"[{script_name.get_text()}]:{specific_element.get_text()}" if specific_element else None
 
 
 if __name__ == "__main__":
+    json_path = 'docs/ScriptsPath.json'
+    if not is_file_changed_in_last_commit(json_path):
+        print(f"\033[31m[{json_path}]在最后一次提交未找到修改记录!\033[0m")
+        sys.exit()
     user_email = os.getenv('GFU')
     p = os.getenv('GFP')
     s = os.getenv('GREASYFORK_TOTP_SECRET')
     totp = pyotp.TOTP(s)
     GF = GreasyFork()
     GF.login(user_email, p, totp.now())
-    json_path = 'docs/ScriptsPath.json'
+
     data = read_json(json_path)
     scripts = data.get('scripts', [])
     for script in scripts:
@@ -280,4 +293,4 @@ if __name__ == "__main__":
             with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
                 f.write('\n')
-            print(f"----\033[94m脚本ID:({import_script_id})-[{script.get('name')}-{script.get('js_name')}]→→→→\033[0m\033[92m 勤务员提醒:新添加的脚本已被添加到GreasyFork网站!\033[0m")
+            print(f"----\033[94m脚本ID:({import_script_id})-{script.get('js_name')}]→→→→\033[38;2;255;165;0m{result}\033[0m")
