@@ -27,6 +27,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHubVer el guión del militar<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkVer el guión del militar</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20total%20de%20instalaciones%20de%20todos%20los%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20de%20veces%20que%20se%20usa%20un%20script%20por%20d%C3%ADa&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20de%20todos%20los%20scripts%20instalados%20hoy&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=N%C3%BAmero%20de%20guiones&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Todas%20las%20buenas%20cr%C3%ADticas&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
@@ -2347,7 +2348,7 @@ Para usar cualquier script，Primero, necesita una instalación de navegador **T
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Lista de contribuciones por： [contributors](https://github.com/jaywcjlove/github-action-contributors). Generar automáticamente <a href="https://github.com/jaywcjlove" title="Melodía"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodía"/></a>
+Lista de contribuciones por： [contributors](https://github.com/jaywcjlove/github-action-contributors). Generado automáticamente <a href="https://github.com/jaywcjlove" title="Melodía"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodía"/></a>
 
 <div align="right">
 
@@ -2380,7 +2381,7 @@ Para garantizar un amistoso、Un entorno de desarrollo respetuoso e inclusivo，
 
 Si encuentra una vulnerabilidad，Por favor abra un[Proyecto de recomendaciones de seguridad](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Las solicitudes de enchufe también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
+Las solicitudes de extracción también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
 Para más detalles, consulte <a href="../SECURITY.md"><strong>Política de seguridad</strong></a>
 
 <div align="right">

@@ -24,6 +24,7 @@
 <h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub查看勤務員的腳本<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork查看勤務員的腳本</a><br><a href="#:~:text=查看所有發布腳本">當前頁面查看勤務員的腳本</a></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E8%85%B3%E6%9C%AC%E7%B8%BD%E5%AE%89%E8%A3%9D%E6%95%B8&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%E8%85%B3%E6%9C%AC%E6%AF%8F%E6%97%A5%E4%BD%BF%E7%94%A8%E6%AC%A1%E6%95%B8&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E4%BB%8A%E6%97%A5%E6%89%80%E6%9C%89%E8%85%B3%E6%9C%AC%E5%AE%89%E8%A3%9D%E6%95%B8&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E8%85%B3%E6%9C%AC%E6%95%B8%E9%87%8F&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%A9%95&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
@@ -76,7 +77,7 @@
 <p><strong>新增</strong>: 添加<code>read=unread</code>參數,只提取未讀信息,此版本為最終版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已經逐步支持站內通知,腳本將失去存在的意義.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>新增</strong>: 跳過自己新開的討論,并且在匹配最後發言人用户 ID 失敗時,匹配最后发言人.</p>
+<p><strong>新增</strong>: 跳過自己新開的討論,并且在匹配最後發言人用户 ID 失敗時,匹配最後發言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>改進</strong>: 改為使用網站的討論列表，增加在信息內添加分類。</p>
