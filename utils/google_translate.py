@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/14,Wednesday 06:31:08
+# Last Modified: 2025/05/20,Tuesday 23:12:46
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -51,7 +51,8 @@ encode_map = {
     "推荐浏览器": ("issues", True),
     "脚本管理器": ("issues", True),
     "用户数量": ("issues", True),
-    "每日检查更新次数": ("issues", True)
+    "每日检查更新次数": ("issues", True),
+    "脚本每日使用次数": ("issues", True)
 }
 
 
