@@ -63,6 +63,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498904">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Script Finder+ 更新日誌</strong></h1>
+<h3><strong>📅 2025.5.20.1</strong></h3>
+<p><strong>CSS</strong>: @itheabyss 統一了命名規則<a href="https://github.com/ChinaGodMan/UserScripts/issues/136#issuecomment-2894349461">#136</a><br></p>
+<hr />
 <h3><strong>📅 2025.04.28.1400</strong></h3>
 <p><strong>修復</strong>: • CSS 樣式與 GreasyFork 衝突 <code>script-description</code>→<code>'script-description-finder</code> <a href="https://github.com/ChinaGodMan/UserScripts/issues/123">#123</a><br>
 <strong>新增</strong>: • 支持系統<code>深色模式</code><br>
