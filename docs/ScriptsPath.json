@@ -25,7 +25,7 @@
             "version": "0.1.1.0",
             "greasyfork_id": 505209,
             "created_at": "2024-08-26 11:42:17",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -103,7 +103,7 @@
             "version": "1.0.0.23",
             "greasyfork_id": 505207,
             "created_at": "2024-08-26 11:37:22",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -194,7 +194,7 @@
             "version": "1.0.0.0",
             "greasyfork_id": 508956,
             "created_at": "2024-09-18 09:12:31",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -272,7 +272,7 @@
             "version": "0.0.1.51",
             "greasyfork_id": 500262,
             "created_at": "2024-07-11 14:21:02",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -350,7 +350,7 @@
             "version": "0.6.5.23",
             "greasyfork_id": 505215,
             "created_at": "2024-08-26 12:08:49",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -415,7 +415,7 @@
             "version": "1.0.5.26",
             "greasyfork_id": 498905,
             "created_at": "2024-06-26 06:53:12",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -428,7 +428,7 @@
             "version": "1.0.1.7",
             "greasyfork_id": 505325,
             "created_at": "2024-08-27 04:15:17",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -519,7 +519,7 @@
             "version": "1.0.1.8",
             "greasyfork_id": 506528,
             "created_at": "2024-09-03 08:50:59",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -532,7 +532,7 @@
             "version": "1.0.0.10",
             "greasyfork_id": 506730,
             "created_at": "2024-09-04 13:43:00",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -545,7 +545,7 @@
             "version": "1.4.0.0",
             "greasyfork_id": 504890,
             "created_at": "2024-08-24 10:37:08",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -571,7 +571,7 @@
             "version": "1.2.0.63",
             "greasyfork_id": 498625,
             "created_at": "2024-06-23 11:35:07",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -623,7 +623,7 @@
             "version": "0.31.0.23",
             "greasyfork_id": 505208,
             "created_at": "2024-08-26 11:37:23",
-            "preview": "",
+            "preview": null,
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png",
             "locales": "zh-TW,vi,en,ko"
         },
@@ -700,7 +700,7 @@
             "directory": "youtube-helper",
             "version": "2025.03.15.0436",
             "greasyfork_id": 529845,
-            "created_at": "",
+            "created_at": null,
             "preview": "https://pparker1930.github.io/youtube-theme-progressbar.gif",
             "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
             "locales": "zh-TW,vi,en,ko"

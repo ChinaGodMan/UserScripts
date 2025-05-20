@@ -31,10 +31,11 @@ def generate_html_table(scripts):
         html_template = file.read()
         html_template = format_str(html_template)
     for script in scripts:
-        img_tag = f'<img width=511 src="{script.get("preview")}">' if script.get("preview") else ""
+
         script_id = script.get("greasyfork_id")
         script_fold = script.get("directory")
         js_name = script.get("js_name")
+
         # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
         script_absolute_path = script.get("directory") + "/" + js_name
 
@@ -46,6 +47,7 @@ def generate_html_table(scripts):
                 f' /\n<a href="https://github.com/{get_repo_name()}/tree/main/{script_fold}/CHANGELOG.md">\n'
                 f'        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">'
                 f'更新日志</a>')
+
         # 含有引用的脚本,显示链接
         author = script.get("directory") + "/AUTHORS.md"
         author_block = ""
@@ -59,7 +61,15 @@ def generate_html_table(scripts):
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
 
-        # ! 对没有预览截图的脚本,只显示介绍就行了
+        # 构建预览截图
+        previews = script.get("preview")
+        img_tag = ''
+        if previews:
+            if isinstance(previews, list):
+                img_tag = "\n            ".join(f'<img width=511 src="{item}">' for item in previews)
+            else:
+                img_tag = f'<img width=511 src="{previews}">'
+        # 对没有预览截图的脚本,只显示介绍就行了
         details_block = f'''<details>
     <summary>{script_description}</summary>
     <br><blockquote>
@@ -98,13 +108,13 @@ def generate_grouped_html(related_scripts_map, use_details=True, center=False):
             html_output += f'{center_o}<details><summary>{related_id}</summary>'
         else:
             html_output += (
-                f'<h1>{related_id} ({len(scripts)})</h1>'
+                f'<div align="center"><h1>{related_id} ({len(scripts)})</h1></div>'
             )
         html_output += generate_html_table(scripts)
         html_output += (
-            '<div align="right"><a href="#-脚本列表">返回目录</a></div>'
+            '<div align="right"><a href="#-脚本列表">返回目录</a></div>\n'
             '<img height=6px width="100%" '
-            'src="{separator}">'
+            'src="{separator}">\n'
         )
         if use_details:
             print(center_c)
