@@ -1,5 +1,11 @@
 # **🛠️ Script Finder+ 更新日志**
 
+### **📅 2025.5.20.1**
+
+**CSS**: @itheabyss 统一了命名规则[#136](https://github.com/ChinaGodMan/UserScripts/issues/136#issuecomment-2894349461)<br>
+
+---
+
 ### **📅 2025.04.28.1400**
 
 **修复**: • CSS 样式与 GreasyFork 冲突 `script-description`→`'script-description-finder` [#123](https://github.com/ChinaGodMan/UserScripts/issues/123)<br>

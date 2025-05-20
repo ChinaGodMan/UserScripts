@@ -76,7 +76,7 @@
 // @description:fr-CA Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web Script de GreasyFork。
 // @description       Script Finder allows you to find userscripts from greasyfork on any website.
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.04.28.1400
+// @version           2025.5.20.1
 // @author            shiquda & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
@@ -95,7 +95,7 @@
  * File Created: 2024/11/24,Sunday 12:39:02
  * Author: shiquda <https://github.com/shiquda> 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 14:01:01
+ * Last Modified: 2025/05/20,Tuesday 23:27:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -238,7 +238,7 @@
                 }
 
                 // 处理对象
-                const loadMoreButton = document.querySelector('.load-more')
+                const loadMoreButton = document.querySelector('.sf-load-more')
                 console.log(doc.querySelector('.next_page'))
                 if (doc.querySelector('.next_page') == null || doc.querySelector('.next_page')?.getAttribute('aria-disabled') === 'true') {
                     loadedPages = 'max'
@@ -249,7 +249,7 @@
                     loadMoreButton.textContent = translate('LoadMore')
                 }
                 // console.log(scriptsInfo);
-                document.querySelector('.wait-loading').style.display = 'none'
+                document.querySelector('.sf-wait-loading').style.display = 'none'
                 loadMoreButton.style.display = 'block'
                 appendScriptsInfo(scriptsInfo)
                 updateMatches()
@@ -263,7 +263,7 @@
                     appendScriptsInfo(scriptsInfo)
                 }
                 const scriptsInfo = errorMessage
-                document.querySelector('.wait-loading').style.display = 'none'
+                document.querySelector('.sf-wait-loading').style.display = 'none'
             }
         })
     }
@@ -287,10 +287,10 @@
 
     // 插入脚本
     function appendScriptsInfo(scriptsInfo) {
-        const infoList = document.querySelector('.info-list')
+        const infoList = document.querySelector('.sf-info-list')
         if (scriptsInfo === errorMessage) {
             //  infoList.innerHTML = errorMessage;
-            const loadMoreButton = document.querySelector('.load-more')
+            const loadMoreButton = document.querySelector('.sf-load-more')
             loadMoreButton.disabled = true
             loadMoreButton.textContent = translate('AllScriptsLoaded')
             loadMoreButton.innerHTML = errorMessage
@@ -298,27 +298,27 @@
             for (var i = 0; i < scriptsInfo.length; i++) {
                 var script = scriptsInfo[i]
                 var listItem = document.createElement('li')
-                listItem.className = 'info-item'
+                listItem.className = 'sf-info-item'
 
                 var scriptContainer = document.createElement('div')
-                scriptContainer.className = 'script-container'
+                scriptContainer.className = 'sf-script-container'
 
                 var nameElement = document.createElement('a')
-                nameElement.className = 'mscript-link'
+                nameElement.className = 'sf-mscript-link'
                 nameElement.innerText = script.name
                 nameElement.href = script.url
                 nameElement.target = '_blank'
 
                 var descriptionElement = document.createElement('p')
-                descriptionElement.className = 'script-description-finder'
+                descriptionElement.className = 'sf-script-description-finder'
                 descriptionElement.innerHTML = script.description
 
                 var detailsContainer = document.createElement('div')
-                detailsContainer.className = 'details-container'
+                detailsContainer.className = 'sf-details-container'
 
                 // 创建一键安装按钮
                 var installButton = document.createElement('a')
-                installButton.className = 'install-button'
+                installButton.className = 'sf-install-button'
                 installButton.innerText = `Install ${script.version}`
                 installButton.href = `https://greasyfork.org/scripts/${script.id}/code/script.user.js`
 
@@ -333,7 +333,7 @@
 
                 for (let i = 0; i < details.length; i++) {
                     const spanElement = document.createElement('span')
-                    spanElement.className = 'script-details'
+                    spanElement.className = 'sf-script-details'
                     spanElement.innerText = `${details[i].key}:\n${details[i].value}`
                     detailsContainer.appendChild(spanElement)
                 }
@@ -352,7 +352,7 @@
 
     function setupUI() {
         GM_addStyle(`
-    scrbutton.script-button {
+    scrbutton.sf-script-button {
         position: fixed;
         bottom: 20%;
         right: -50px;
@@ -367,7 +367,7 @@
         transition: right 0.3s;
         z-index: 9999999999999999;
     }
-    div.info-container {
+    div.sf-info-container {
     display: none;
     position: fixed;
     top: 50%;
@@ -384,12 +384,12 @@
     max-height: 80vh;
     overflow-y: auto;
 }
-    ul.info-list {
+    ul.sf-info-list {
         list-style: none;
         margin: 0;
         padding: 0;
     }
-    li.info-item {
+    li.sf-info-item {
         margin-bottom: 15px;
         padding: 12px;
         padding-bottom: 22px;
@@ -398,30 +398,30 @@
         border: 1px solid #1e90ff;
         border-radius: 5px;
     }
-    .div.script-container {
+    .div.sf-script-container {
         display: flex;
         flex-direction: column;
     }
-   a.mscript-link {
+   a.sf-mscript-link {
         font-size: 18px !important;
         font-weight: bold !important;
         margin-bottom: 5px !important;
         color: #1e90ff !important;
     }
-    p.script-description-finder {
+    p.sf-script-description-finder {
         color: black !important;
         margin-top: 2px;
         margin-bottom: 5px;
         font-size: 16px;
     }
-    div.details-container {
+    div.sf-details-container {
         font-size: 15px;
         font-weight: bold;
         display: flex;
         justify-content: space-between;
         margin-bottom: 15px;
     }
-    span.script-details {
+    span.sf-script-details {
         font: !important;
         color: black !important;
         flex-grow: 1 !important;
@@ -430,12 +430,12 @@
         border-radius: 5px !important;
         margin: 4px !important;
     }
-    div.table-header {
+    div.sf-table-header {
         color: #1e90ff !important;
         font-size: 25px;
         font-weight: bold;
     }
-    input.script-search-input {
+    input.sf-script-search-input {
         width: 96% !important;
         padding: 10px !important;
         font-size: 18px !important;
@@ -445,13 +445,13 @@
         margin-bottom: 15px !important;
         margin-top: 20px !important;
     }
-    a.install-button {
+    a.sf-install-button {
         font-size: 20px;
         background-color: green;
         color: white;
         padding: 12px;
     }
-    button.to-greasyfork {
+    button.sf-to-greasyfork {
         position: absolute;
         top: 12px;
         right: 12px;
@@ -463,7 +463,7 @@
         color: #ffffff;
         cursor: pointer;
     }
-    span.match-count {
+    span.sf-match-count {
         background-color: #1e90ff;
         font-size: 25px;
         font-weight: bold;
@@ -474,7 +474,7 @@
         border-radius: 12px;
         top: 10px;
     }
-    div.wait-loading {
+    div.sf-wait-loading {
         font-size: 20px;
         font-weight: bold;
         color: #1e90ff;
@@ -499,7 +499,7 @@
             opacity: 1;
         }
     }
-    button.load-more {
+    button.sf-load-more {
         border-radius: 4px;
         padding: 8px;
         font-size: 16px;
@@ -512,67 +512,67 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    button.load-more:disabled {
+    button.sf-load-more:disabled {
         background-color: #cccccc;
         cursor: not-allowed;
     }
     /* Dark styles */
 @media (prefers-color-scheme: dark) {
-    scrbutton.script-button {
+    scrbutton.sf-script-button {
         background-color: #1e3a8a;
         color: #ffffff;
     }
-    div.info-container {
+    div.sf-info-container {
         background-color: #1e1e1e;
         color: #ffffff;
         box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
     }
-    li.info-item {
+    li.sf-info-item {
         background-color: #2d2d2d;
         border: 1px solid #2563eb;
     }
-    a.mscript-link {
+    a.sf-mscript-link {
         color: #3b82f6 !important;
     }
-    p.script-description-finder {
+    p.sf-script-description-finder {
         color: #e5e7eb !important;
     }
-    div.details-container {
+    div.sf-details-container {
         color: #ffffff;
     }
-    span.script-details {
+    span.sf-script-details {
         background-color: #374151 !important;
         color: #d1d5db !important;
         border: 1px solid #2563eb !important;
     }
-    div.table-header {
+    div.sf-table-header {
         color: #3b82f6 !important;
     }
-    input.script-search-input {
+    input.sf-script-search-input {
         background-color: #1e1e1e !important;
         color: #ffffff !important;
         border: 1px solid #2563eb !important;
     }
-    a.install-button {
+    a.sf-install-button {
         background-color: #16a34a;
         color: #ffffff;
     }
-    button.to-greasyfork {
+    button.sf-to-greasyfork {
         background-color: #2563eb;
         color: #ffffff;
     }
-    span.match-count {
+    span.sf-match-count {
         background-color: #2563eb;
         color: #ffffff;
     }
-    div.wait-loading {
+    div.sf-wait-loading {
         color: #3b82f6;
     }
-    button.load-more {
+    button.sf-load-more {
         background-color: #2563eb;
         color: #ffffff;
     }
-    button.load-more:disabled {
+    button.sf-load-more:disabled {
         background-color: #4b5563;
         color: #9ca3af;
     }
@@ -580,37 +580,37 @@
 
     /* Mobile styles */
 @media (max-width: 600px) {
-        scrbutton.script-button {
+        scrbutton.sf-script-button {
             right: -30px;
             padding: 8px;
             font-size: 14px;
         }
-        span.script-details {
+        span.sf-script-details {
         font-size: 10px !important;
         margin: 2px !important;
         padding: 2px !important;
     }
-    span.match-count {
+    span.sf-match-count {
         font-size: 20px;
         padding: 4px;
     }
 
-    button.to-greasyfork {
+    button.sf-to-greasyfork {
         padding: 6px;
         font-size: 14px;
     }
 
-    a.install-button {
+    a.sf-install-button {
         font-size: 12px;
         padding: 8px;
     }
-    div.table-header {
+    div.sf-table-header {
         font-size: 20px;
     }
-    div.script-container {
+    div.sf-script-container {
         padding: 10px;
     }
-    div.info-container {
+    div.sf-info-container {
         top: 10%;
         left: 5%;
         right: 5%;
@@ -618,23 +618,23 @@
         width: calc(90% - 10px); /* 自适应宽度，保持左右边距 */
         max-width: 100%; /* 确保不超出屏幕宽度 */
     }
-        a.mscript-link {
+        a.sf-mscript-link {
             font-size: 16px !important;
         }
-        p.script-description-finder {
+        p.sf-script-description-finder {
             font-size: 14px;
         }
 
-        input.script-search-input {
+        input.sf-script-search-input {
             width: 92% !important;
             padding: 8px !important;
             font-size: 16px !important;
         }
-        span.match-count {
+        span.sf-match-count {
             font-size: 20px;
             padding: 4px;
         }
-        button.load-more {
+        button.sf-load-more {
             font-size: 14px;
             padding: 6px;
         }
@@ -643,7 +643,7 @@
 
         // 创建打开列表按钮
         var button = document.createElement('scrbutton')
-        button.className = 'script-button'
+        button.className = 'sf-script-button'
         button.innerText = translate('Scripts')
         document.addEventListener('fullscreenchange', function () {
             if (document.fullscreenElement) {
@@ -654,26 +654,26 @@
         })
         // 创建脚本容器
         var infoContainer = document.createElement('div')
-        infoContainer.className = 'info-container'
+        infoContainer.className = 'sf-info-container'
 
         // 创建搜索框
         var searchInput = document.createElement('input')
         searchInput.type = 'text'
         searchInput.placeholder = translate('SearchPlaceholder')
-        searchInput.className = 'script-search-input'
+        searchInput.className = 'sf-script-search-input'
 
         // 创建指向greasyfork的链接
         var toGreasyfork = document.createElement('button')
-        toGreasyfork.className = 'to-greasyfork'
+        toGreasyfork.className = 'sf-to-greasyfork'
         toGreasyfork.innerText = translate('ViewOnGreasyfork')
 
         // 创建计数器
         var matchCount = document.createElement('span')
-        matchCount.className = 'match-count'
+        matchCount.className = 'sf-match-count'
 
         // 创建表头
         var tableHeader = document.createElement('div')
-        tableHeader.className = 'table-header'
+        tableHeader.className = 'sf-table-header'
         tableHeader.appendChild(document.createTextNode('Script Finder'))
         tableHeader.appendChild(matchCount)
         tableHeader.appendChild(searchInput)
@@ -681,16 +681,16 @@
 
         // 创建脚本列表
         var infoList = document.createElement('ul')
-        infoList.className = 'info-list'
+        infoList.className = 'sf-info-list'
 
         // 创建等待加载
         var waitLoading = document.createElement('div')
-        waitLoading.className = 'wait-loading'
+        waitLoading.className = 'sf-wait-loading'
         waitLoading.innerText = translate('LoadingScripts')
 
         // 创建加载更多
         var loadMore = document.createElement('button')
-        loadMore.className = 'load-more'
+        loadMore.className = 'sf-load-more'
         loadMore.innerText = 'Load more'
         loadMore.style.display = 'none'
 
@@ -749,10 +749,10 @@
             if (loadedPages === 'max') {
                 return
             }
-            const loadMoreButton = document.querySelector('.load-more')
+            const loadMoreButton = document.querySelector('.sf-load-more')
             loadMoreButton.disabled = true
             loadMoreButton.textContent = translate('Loading')
-            document.querySelector('.wait-loading').style.display = 'block'
+            document.querySelector('.sf-wait-loading').style.display = 'block'
             getScriptsInfo(domain, loadedPages + 1)
         })
 
@@ -775,8 +775,8 @@
     }
 
     function searchScript() {
-        const searchWord = document.querySelector('.script-search-input').value.toLowerCase() // 将要匹配的文本转换为小写
-        const scriptList = document.querySelectorAll('.info-item')
+        const searchWord = document.querySelector('.sf-script-search-input').value.toLowerCase() // 将要匹配的文本转换为小写
+        const scriptList = document.querySelectorAll('.sf-info-item')
         for (let i = 0; i < scriptList.length; i++) {
             const scriptText = scriptList[i].innerText.toLowerCase() // 将检索的文本转换为小写
             if (scriptText.includes(searchWord)) {
@@ -788,9 +788,9 @@
     }
 
     function updateMatches() {
-        const matchCount = document.querySelectorAll('.info-item:not([style*="display: none"])').length
-        const allCount = document.querySelectorAll('.info-item').length
-        document.querySelector('.match-count').innerText = matchCount === allCount ? matchCount : `${matchCount}/${allCount}`
+        const matchCount = document.querySelectorAll('.sf-info-item:not([style*="display: none"])').length
+        const allCount = document.querySelectorAll('.sf-info-item').length
+        document.querySelector('.sf-match-count').innerText = matchCount === allCount ? matchCount : `${matchCount}/${allCount}`
     }
 
     function main() {
@@ -802,7 +802,7 @@
     }
     main()
     setTimeout(() => {
-        const scripButton = document.querySelector('.script-button')
+        const scripButton = document.querySelector('.sf-script-button')
         if (!scripButton) {
             console.log('🔍 ~ <function> ~ script-finder-plus/script-finder-plus.user.js:730 ~ scripButton:找不到按钮,重新加载。。.')
             main()
