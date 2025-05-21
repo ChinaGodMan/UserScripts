@@ -1199,7 +1199,11 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

@@ -1199,7 +1199,11 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
     <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código -fonte</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Atualizar log</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
 <div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

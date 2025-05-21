@@ -1199,7 +1199,11 @@ existerGitHubLa page d’autorisation saisit automatiquement le code d’autoris
     <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Code source</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Mettre à jour le journal</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
 <div align="right"><a href="#-Liste-de-scénarios">Retour au répertoire</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

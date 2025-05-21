@@ -1199,7 +1199,11 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

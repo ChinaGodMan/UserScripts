@@ -64,7 +64,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.536423&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/536423">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub trốn Copilot Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.5.21.1</strong></h3>
+<p><strong>Mới</strong>: Sao chép mã từ kho lưu trữ này,và thêm khối vào thanh bên phảiCopilot <a href="https://github.com/outslept/userscripts/blob/master/dont-wanna-see-copilot/userscript.js">outslept/userscripts</a> <br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/536423.png">
 </div></center>
 
@@ -97,6 +100,8 @@ MIT
 - [Trang chủ](https://github.com/ChinaGodMan/UserScripts)
 
 <!--AUTHORS-->
+## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
+[outslept/userscripts](https://github.com/outslept/userscripts/blob/master/dont-wanna-see-copilot/userscript.js)
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 ## Xem trước ảnh chụp màn hình

@@ -1199,7 +1199,11 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Quellcode</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
 <div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
