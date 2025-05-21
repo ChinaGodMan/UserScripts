@@ -76,7 +76,7 @@
 // @description:fr-CA Script Finder Rechercher sur n’importe quel site Web qui s’applique à ce site Web Script de GreasyFork。
 // @description       Script Finder allows you to find userscripts from greasyfork on any website.
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.5.20.1
+// @version           2025.5.22.1
 // @author            shiquda & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL       https://github.com/ChinaGodMan/UserScripts
@@ -95,7 +95,7 @@
  * File Created: 2024/11/24,Sunday 12:39:02
  * Author: shiquda <https://github.com/shiquda> 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/05/20,Tuesday 23:27:18
+ * Last Modified: 2025/05/22,Thursday 00:09:23
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -708,7 +708,8 @@
 
         button.addEventListener('mouseleave', function () {
             timeout = setTimeout(function () {
-                button.style.right = '-50px'
+                const buttonWidth = button.offsetWidth
+                button.style.right = `-${buttonWidth / 2}px`
             }, 500)
         })
 
@@ -759,7 +760,8 @@
         document.body.addEventListener('click', function () {
             clearTimeout(timeout)
             collapsed = true
-            button.style.right = '-50px'
+            const buttonWidth = button.offsetWidth
+            button.style.right = `-${buttonWidth / 2}px`
             infoContainer.style.opacity = 0
             infoContainer.style.display = 'none'
         })
