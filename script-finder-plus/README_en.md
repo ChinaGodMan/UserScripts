@@ -63,6 +63,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498904">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Script Finder+ Update log</strong></h1>
+<h3><strong>📅 2025.5.22.1</strong></h3>
+<p><strong>repair</strong>: Fixed when clicked on a small-size screen<code>Script</code>After the button,When clicking on another page location<code>Script</code>The problem of the button disappearing  </p>
+<hr />
 <h3><strong>📅 2025.5.20.1</strong></h3>
 <p><strong>CSS</strong>: @itheabyss Unified naming rules<a href="https://github.com/ChinaGodMan/UserScripts/issues/136#issuecomment-2894349461">#136</a><br></p>
 <hr />

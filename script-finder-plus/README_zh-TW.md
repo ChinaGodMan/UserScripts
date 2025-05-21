@@ -63,6 +63,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498904">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Script Finder+ 更新日誌</strong></h1>
+<h3><strong>📅 2025.5.22.1</strong></h3>
+<p><strong>修復</strong>: 修復在小尺寸屏幕上當點擊了<code>腳本</code>按鈕後,再點擊其他頁面位置時<code>腳本</code>按鈕消失不見的問題  </p>
+<hr />
 <h3><strong>📅 2025.5.20.1</strong></h3>
 <p><strong>CSS</strong>: @itheabyss 統一了命名規則<a href="https://github.com/ChinaGodMan/UserScripts/issues/136#issuecomment-2894349461">#136</a><br></p>
 <hr />

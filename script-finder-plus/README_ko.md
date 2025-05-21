@@ -63,6 +63,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498904">Greasy
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Script Finder+ 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.5.22.1</strong></h3>
+<p><strong>수리하다</strong>: 소형 화면을 클릭하면 수정되었습니다<code>스크립트</code>버튼 후,다른 페이지 위치를 클릭 할 때<code>스크립트</code>버튼의 문제가 사라집니다  </p>
+<hr />
 <h3><strong>📅 2025.5.20.1</strong></h3>
 <p><strong>CSS</strong>: @itheabyss 통합 이름 지정 규칙<a href="https://github.com/ChinaGodMan/UserScripts/issues/136#issuecomment-2894349461">#136</a><br></p>
 <hr />
