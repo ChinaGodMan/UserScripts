@@ -360,7 +360,7 @@
 // @compatible            qq
 // @compatible            via
 // @compatible            brave
-// @version               2025.5.19.1
+// @version               2025.5.21.1
 // @created               2025-05-19 02:19:24
 // @downloadURL           https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-no-copilot/github-no-copilot.user.js
 // @updateURL             https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-no-copilot/github-no-copilot.user.js
@@ -371,7 +371,7 @@
  * File Created: 2025/05/19,Monday 02:19:25
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/05/19,Monday 03:27:16
+ * Last Modified: 2025/05/21,Wednesday 15:53:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -405,12 +405,32 @@ function remove() {
         //dashboard 同上css
         '.copilot-dashboard-entrypoint',
 
-        // 侧边栏
-        'a[data-analytics-event*="COPILOT"]'
+        // 左侧边栏
+        'a[data-analytics-event*="COPILOT"]',
+
+        // 右侧边栏
+        'a[href="/settings/copilot"]',
+
+        // commits 页面 询问差异 Copilot
+        'li[role="menuitem"].prc-ActionList-ActionListItem-uq6I7'
+
     ]
     selectors.forEach(selector => {
         document.querySelectorAll(selector).forEach(element => element.remove())
     })
+    // https://github.com/outslept/userscripts/blob/master/dont-wanna-see-copilot/userscript.js
+    //! 需要判断的元素
+    // issue
+    document.querySelectorAll('div[data-testid="sidebar-section"]').forEach(s => {
+        if (s.textContent.includes('Development')) s.remove()
+    })
+
+    document.querySelectorAll('.flash-messages .flash-warn').forEach(w => {
+        if (w.textContent.includes('Copilot')) w.remove()
+    })
+
+    const m = document.querySelector('.flash-messages')
+    if (m && !m.children.length) m.remove()
 
     // 可自定义开启或者关闭的元素
     const ButtonGroup = document.querySelector('#repos-sticky-header [class*=\'ButtonGroup\']')
