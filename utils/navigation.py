@@ -6,11 +6,13 @@ from helper import get_repo_name
 import os
 import re
 
+USE_FLAG = False
 langmap = read_json('utils/docs/lang_map.json')
 national = []
 for lang_dict in langmap["langs"]:
-    for lang_code, lang_name in lang_dict.items():
-        national.append({lang_code: lang_name})
+    for lang_code, lang_info in lang_dict.items():
+        value = lang_info["flag"] + " " + lang_info["title"] if USE_FLAG else lang_info["title"]
+        national.append({lang_code: value})
 
 
 def find_locale(key_to_find):
