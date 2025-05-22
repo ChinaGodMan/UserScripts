@@ -65,7 +65,7 @@
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist 코드 스 니펫 복사 및 다운로더 로그 업데이트</strong></h1>
 <h3><strong>📅 2025.03.18.0659</strong></h3>
 <p><strong>새로운</strong>: 소형보기를 추가하십시오 <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
-<strong>스크린 샷</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>
+<strong>스크린 샷</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/05/22/nEm71yvBLjuaOZV.png" /></p>
 <h3><strong>📅 22025.03.16.0530</strong></h3>
 <p><strong>수리하다</strong>: 복사 버튼의 클래스 이름을 변경하십시오<code>octicon octicon-copy</code><br>
 <strong>새로운</strong>: 다운로드 된 파일이있는 경우<code>user.js</code>사용자 스크립트,직접 설치하십시오.다운로드가 없습니다<br></p>

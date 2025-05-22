@@ -65,7 +65,7 @@
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist Mã mã và trình tải xuống đoạn mã Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2025.03.18.0659</strong></h3>
 <p><strong>Mới</strong>: Thêm một chế độ xem nhỏ gọn <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
-<strong>Ảnh chụp màn hình</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>
+<strong>Ảnh chụp màn hình</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/05/22/nEm71yvBLjuaOZV.png" /></p>
 <h3><strong>📅 22025.03.16.0530</strong></h3>
 <p><strong>Sửa chữa</strong>: Thay đổi tên lớp của nút sao chép<code>octicon octicon-copy</code><br>
 <strong>Mới</strong>: Nếu tệp đã tải xuống là<code>user.js</code>Kịch bản người dùng,Cài đặt trực tiếp.Không tải xuống<br></p>

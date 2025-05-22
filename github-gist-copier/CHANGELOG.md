@@ -3,7 +3,7 @@
 ### **📅 2025.03.18.0659**
 
 **新增**: 添加紧凑视图 [Github Gist Compact View](https://greasyfork.org/scripts/529737)<br>
-**截图**: ![2025.03.18](https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png)
+**截图**: ![2025.03.18](https://s2.loli.net/2025/05/22/nEm71yvBLjuaOZV.png)
 
 ### **📅 22025.03.16.0530**
 

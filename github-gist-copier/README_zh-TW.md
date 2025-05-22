@@ -65,7 +65,7 @@
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist 代碼片段複製與下載器 更新日誌</strong></h1>
 <h3><strong>📅 2025.03.18.0659</strong></h3>
 <p><strong>新增</strong>: 添加緊湊視圖 <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
-<strong>截圖</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>
+<strong>截圖</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/05/22/nEm71yvBLjuaOZV.png" /></p>
 <h3><strong>📅 22025.03.16.0530</strong></h3>
 <p><strong>修復</strong>: 複製按鈕的類名改回<code>octicon octicon-copy</code><br>
 <strong>新增</strong>: 如果下載的文件是<code>user.js</code>用戶腳本,直接安裝.不進行下載<br></p>

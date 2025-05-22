@@ -65,7 +65,7 @@
             Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Gist Code snippet copy and downloader Update log</strong></h1>
 <h3><strong>📅 2025.03.18.0659</strong></h3>
 <p><strong>New</strong>: Add a compact view <a href="https://greasyfork.org/scripts/529737">Github Gist Compact View</a><br>
-<strong>screenshot</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/03/18/BfA9UFMkuGegnh5.png" /></p>
+<strong>screenshot</strong>: <img alt="2025.03.18" src="https://s2.loli.net/2025/05/22/nEm71yvBLjuaOZV.png" /></p>
 <h3><strong>📅 22025.03.16.0530</strong></h3>
 <p><strong>repair</strong>: Change the class name of the copy button<code>octicon octicon-copy</code><br>
 <strong>New</strong>: If the downloaded file is<code>user.js</code>User scripts,Install directly.No downloading<br></p>
