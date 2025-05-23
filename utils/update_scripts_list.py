@@ -61,6 +61,15 @@ def generate_html_table(scripts):
         script_name = sreach_result.name_matches[0]
         script_description = sreach_result.description_matches[0]
 
+        # 跳转到对应语言的readme
+        readme_file_name = f'README_{LANG_CODE}.md'
+        if not os.path.exists(f'{script.get("directory")}/{readme_file_name}'):
+            readme_file_name = "README_en.md"
+
+        # 直接跳转到目录
+        if LANG_CODE == "zh-CN":
+            readme_file_name = "#readme"
+
         # 构建预览截图
         previews = script.get("preview")
         img_tag = ''
@@ -88,6 +97,7 @@ def generate_html_table(scripts):
             details_block=details_block,
             changelog_block=changelog_block,
             author_block=author_block,
+            readme_file=readme_file_name
         )
 
     return html_table
