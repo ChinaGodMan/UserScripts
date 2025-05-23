@@ -6,12 +6,12 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md">简体中文</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/zh-TW/README.md">繁體中文</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en/README.md">English</a> |
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ja/README.md">日本語</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/vi/README.md">Tiếng Việt</a>|
-        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko/README.md">대한민국</a>
+        <a href="../README.md">简体中文</a> |
+        <a href="../zh-TW/README.md">繁體中文</a>|
+        <a href="../en/README.md">English</a> |
+        <a href="../ja/README.md">日本語</a>|
+        <a href="../vi/README.md">Tiếng Việt</a>|
+        <a href="../ko/README.md">대한민국</a>
     </h6>
 </div>
 
