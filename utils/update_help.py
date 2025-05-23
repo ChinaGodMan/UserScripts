@@ -3,13 +3,16 @@ from writer import process_file
 from helper import get_md_files
 from helper import read_json
 from helper import format_str
+from helper import extract_lang_code
 import os
 NEW_CONTENT_PATH = 'utils/templates/HELP.md'
 
 
-def get_new_content():
+def get_new_content(lang_code=""):
     with open(NEW_CONTENT_PATH, 'r', encoding='utf-8') as file:
-        return file.read()
+        content = file.read()
+        new_content = format_str(content, lang_code)
+        return new_content
 
 
 def main():
@@ -19,7 +22,6 @@ def main():
     start_tag = "<!--HELP-->"
     end_tag = "<!--HELP-END-->"
     new_content = get_new_content()
-    new_content = format_str(new_content)
     for script in scripts:
         script_directory = script.get('directory', '')
         cnfile_path = os.path.join(script_directory, "README.md")
@@ -30,7 +32,11 @@ def main():
             print(f"----\033[94m[{script.get('name', '')}]\033[0m\033[92m 内容变化,执行替换\033[0m")
         md_files = get_md_files(script_directory)
         for md_file in md_files:
+            lang = extract_lang_code(md_file)
+            if lang is None:
+                lang = ""
             file_path = os.path.join(script_directory, md_file)
+            new_content = get_new_content(lang)
             process_file(file_path, new_content, start_tag, end_tag, "head")
 
 

@@ -6,7 +6,7 @@
 # File Created: 2025/03/23,Sunday 09:19:42
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/19,Monday 17:00:45
+# Last Modified: 2025/05/23,Friday 23:20:22
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -18,6 +18,8 @@ import subprocess
 import time
 import io
 import json
+from content_snippet import get_file_description
+import urllib.parse
 
 
 # 找md文件,并排除特定文件,不直接获取含有`README`字符的文件,以防未来增加新功能.
@@ -150,13 +152,25 @@ def sort_userscript_section(file_path):
         file.writelines(content)
 
 
-def format_str(input_str):
+def format_str(input_str, lang=""):
     settings = read_json('utils/docs/settings.json')
+
+    # 提取脚本列表标记点
+    readme_start_tag = "<!--README-TOC-->"
+    readme_end_tag = "<!--README-TOC-END-->"
+    toc = get_file_description(f'docs/{lang}/README.md', readme_start_tag, readme_end_tag)
+    last_line = toc.strip().split('\n')[-1]
+    match = re.search(r"#(.+?)\)", last_line)
+    scripts_list_mark = match.group(1)
+    scripts_list_mark = urllib.parse.quote(scripts_list_mark)
+
     placeholders = {
         'repo_name': settings['repository'],
         'sub_repo_name': settings['sub_repository'],
         'separator': settings['separator'],
-        'greasyfork_user_id': str(settings['greasyfork_user_id'])
+        'greasyfork_user_id': str(settings['greasyfork_user_id']),
+        'scripts_list': scripts_list_mark,
+        'lang_code': lang
     }
 
     def replacer(match):
