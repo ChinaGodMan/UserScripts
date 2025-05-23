@@ -23,8 +23,8 @@
     </h6>
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
-    <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
-<h5><a href="https://github.com/ChinaGodMan/UserScripts#%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8" target="_blank"><ruby>GitHub군인의 대본을보십시오<rt>ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
+    <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="ChinaGodMan"></a>
+<h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EA%B0%80%20%ED%95%98%EB%A3%A8%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94%20%ED%9A%9F%EC%88%98&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
@@ -2352,7 +2352,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성되었습니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됩니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
 
 <div align="right">
 
