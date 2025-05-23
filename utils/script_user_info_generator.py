@@ -6,7 +6,7 @@
 # File Created: 2025/03/08,Saturday 21:20:44
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/20,Tuesday 19:08:27
+# Last Modified: 2025/05/23,Friday 09:19:58
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
@@ -20,6 +20,7 @@ import json
 import argparse
 from content_snippet import get_file_description
 from helper import get_md_files
+from helper import is_file_updated_more_than
 from writer import process_file_plus
 
 
@@ -90,6 +91,14 @@ def main():
     authors_file = script_directory + '/AUTHORS.md'
     start_tag = "<!--AUTHORS-->"
     end_tag = "<!--AUTHORS-END-->"
+
+    # 文件不存在直接结束
+    if not os.path.exists(authors_file):
+        sys.exit()
+
+    # 跳过未变动文件
+    if is_file_updated_more_than(authors_file, 5):
+        sys.exit()
 
     # 生产最新的内容
     result_text = process_script_ids(authors_file)
