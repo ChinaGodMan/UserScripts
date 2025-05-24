@@ -9,6 +9,7 @@ from helper import is_file_changed_in_last_commit
 
 import subprocess
 import requests
+import argparse
 import re
 import json
 import shutil
@@ -22,8 +23,8 @@ import pyotp
           或者当仓库名称被改变时,更新所有的脚本信息,防止因为仓库名称改变导致脚本webhook失效
 
 
-#TODO          1. 添加批量更新功能(当仓库名称被改变时,自动更新所有脚本信息)
-#TODO               1.1. 在`for script in scripts:`可以增加一个环境变量,当这个变量为True时,就跳过导入脚本,区域化,复制文档.直接进行更新操作
+#DONE          1. 添加批量更新功能(当仓库名称被改变时,自动更新所有脚本信息)
+#DONE               1.1. 在`for script in scripts:`可以增加一个环境变量,当这个变量为True时,就跳过导入脚本,区域化,复制文档.直接进行更新操作
 #TODO          2. 添加更多的错误处理
 
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
@@ -197,6 +198,7 @@ class GreasyFork:
         """
         更新脚本附加同步信息
         """
+
         # 历史代码.保留以备用
         if self.csrf_token is None:
             self.fetch_csrf_token()
@@ -215,7 +217,8 @@ class GreasyFork:
             '_method': 'patch',
             'authenticity_token': self.csrf_token,
             'script[sync_identifier]': script_url,
-            'script[sync_type]': 'webhook'
+            'script[sync_type]': 'webhook',
+            'update-and-sync': '更新设置并立即同步'
         }
 
         # 默认的语言文件
@@ -233,7 +236,6 @@ class GreasyFork:
             form_data[f'additional_info_sync[{index + 1}][locale]'] = locale
             form_data[f'additional_info_sync[{index + 1}][sync_identifier]'] = clean_url
             form_data[f'additional_info_sync[{index + 1}][value_markup]'] = 'markdown'
-        form_data['update-and-sync'] = '更新设置并立即同步'
         response = self.session.post(f"https://greasyfork.org/zh-CN/scripts/{script_id}/sync_update", data=form_data, headers={'Content-Type': 'application/x-www-form-urlencoded'})
         soup = BeautifulSoup(response.text, 'html.parser')
         script_name = soup.select_one('#script-info > header > h2')
@@ -242,10 +244,18 @@ class GreasyFork:
 
 
 if __name__ == "__main__":
+
+    # 重新同步脚本
+    parser = argparse.ArgumentParser(description="是否为同步模式")
+    parser.add_argument("-s", "--sync", help="仅为重新同步所有脚本")
+    args = parser.parse_args()
+    ONLY_SYNC = bool(args.sync)
+
     json_path = 'docs/ScriptsPath.json'
-    if not is_file_changed_in_last_commit(json_path):
+    if not is_file_changed_in_last_commit(json_path) and not ONLY_SYNC:
         print(f"\033[31m[{json_path}]在最后一次提交未找到修改记录!\033[0m")
         sys.exit()
+
     user_email = os.getenv('GFU')
     p = os.getenv('GFP')
     s = os.getenv('GREASYFORK_TOTP_SECRET')
@@ -257,31 +267,40 @@ if __name__ == "__main__":
     scripts = data.get('scripts', [])
     for script in scripts:
         greasyfork_id = script.get('greasyfork_id')
-        if greasyfork_id in (None, 0):
-            script_directory = script.get('directory')
-            script_path = script_directory + "/" + script.get('js_name')
-            script_url = REPO_URL + script_path
-            # 先更新json内的脚本信息与名称
-            script_info = search_in_file(script_path, "zh-CN")
-            script['name'] = "\n".join(script_info.name_matches)
-            script['description'] = "\n".join(script_info.description_matches)
-
+        script_directory = script.get('directory')
+        script_path = script_directory + "/" + script.get('js_name')
+        script_url = REPO_URL + script_path
+        if greasyfork_id in (None, 0) or ONLY_SYNC:
             #  更新引用的脚本信息
-            subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script_directory], check=True)
+            if not ONLY_SYNC:
 
-            # 复制多语言文档,用于之后的翻译
-            # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
-            # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
-            locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
-            copy_readme(script_directory, locales)
+                # 先更新json内的脚本信息与名称
+                script_info = search_in_file(script_path, "zh-CN")
+                script['name'] = "\n".join(script_info.name_matches)
+                script['description'] = "\n".join(script_info.description_matches)
+                subprocess.run(['python', 'utils/script_user_info_generator.py', '-i', script_directory], check=True)
 
-            # 更新下区域化声明,如果`locales`为空,不进行区域化(仅中国地区使用的脚本)
-            if locales:
-                subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
+                # 复制多语言文档,用于之后的翻译
+                # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
+                # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
+                locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
+                copy_readme(script_directory, locales)
 
-            # 导入脚本,用于之后的同步附加信息
-            import_script_id = GF.import_scripts(script_url)
-            script['greasyfork_id'] = import_script_id
+                # 更新下区域化声明,如果`locales`为空,不进行区域化(仅中国地区使用的脚本)
+                if locales:
+                    subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
+
+                # 导入脚本,用于之后的同步附加信息
+                import_script_id = GF.import_scripts(script_url)
+                script['greasyfork_id'] = import_script_id
+
+                # 写出更新后的当前脚本信息.
+                with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
+                    json.dump(data, f, ensure_ascii=False, indent=4)
+                    f.write('\n')
+
+            if ONLY_SYNC:
+                import_script_id = greasyfork_id
 
             # 同步附加信息
             additional_md_urls = build_urls(script_directory)
@@ -289,8 +308,4 @@ if __name__ == "__main__":
             default_md = REPO_URL + default_md
             result = GF.sync_update(script_url, import_script_id, default_md, additional_md_urls)
 
-            # 更新json
-            with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-                f.write('\n')
             print(f"----\033[94m脚本ID:({import_script_id})-{script.get('js_name')}]→→→→\033[38;2;255;165;0m{result}\033[0m")
