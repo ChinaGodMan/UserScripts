@@ -11,7 +11,7 @@ import subprocess
 import re
 import markdown
 
-TEMPLATE = "utils/templates/CHANGELOG.html"
+TEMPLATE = "utils/templates/OVERVIEW.html"
 START_TAG = "<!--HISTORY-->"
 END_TAG = "<!--HISTORY-END-->"
 
