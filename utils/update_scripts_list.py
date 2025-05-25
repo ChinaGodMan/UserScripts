@@ -1,11 +1,9 @@
-from writer import process_file
-from searcher import search_in_file
-from helper import read_json
-from helper import get_repo_name
-from helper import format_str
-
-import os
 import argparse
+import os
+
+from helper import format_str, get_repo_name, read_json
+from searcher import search_in_file
+from writer import process_file
 
 
 # 生成描述信息，仅针对当前脚本的 group

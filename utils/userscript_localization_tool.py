@@ -1,13 +1,12 @@
-import subprocess
 import argparse
+import re
+import subprocess
 import threading
 from concurrent.futures import ThreadPoolExecutor
-from google_translate import translate_text
-from google_translate import translation_lock
+
+from google_translate import translate_text, translation_lock
+from helper import read_json, sort_userscript_section
 from searcher import search_in_file
-from helper import sort_userscript_section
-from helper import read_json
-import re
 
 
 # 清理不规则的文本

@@ -16,7 +16,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.wordWrap": "off"
+    "editor.wordWrap": "off",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
   },
   "files.exclude": {
     "commitlint.config.js": true,

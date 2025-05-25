@@ -1,21 +1,23 @@
-from bs4 import BeautifulSoup
+import argparse
+import json
+import os
+import re
+import shutil
+import subprocess
+import sys
 from urllib.parse import unquote
 
-from searcher import search_in_file
-from helper import get_md_files
-from helper import read_json
-from helper import get_repo_name
-from helper import is_file_changed_in_last_commit
-
-import subprocess
-import requests
-import argparse
-import re
-import json
-import shutil
-import os
-import sys
 import pyotp
+import requests
+from bs4 import BeautifulSoup
+from helper import (
+    get_md_files,
+    get_repo_name,
+    is_file_changed_in_last_commit,
+    read_json
+)
+from searcher import search_in_file
+
 '''
 名称:       自动添加脚本并更新附加信息
 版本:            2025-05-19 @ 22:14:51 Monday +0800

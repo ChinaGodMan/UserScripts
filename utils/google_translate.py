@@ -6,20 +6,18 @@
 # File Created: 2025/03/23,Sunday 08:44:46
 # Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
-# Last Modified: 2025/05/20,Tuesday 23:12:46
+# Last Modified: 2025/05/25,Sunday 10:20:35
 # Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
 # -----
 # License: MIT License
 # Copyright © 2024 - 2025 ChinaGodMan,Inc
 ###
-from urllib.parse import urlencode
-from urllib.request import urlopen
-import urllib.parse
-import threading
 import json
 import os
 import re
-
+import threading
+import urllib.parse
+from urllib.request import urlopen
 
 # 黑名单：不需要翻译的中文文本
 blacklist = ["人民的勤务员", "简体中文", "繁體中文", "日本語"]
@@ -142,7 +140,7 @@ def translate_text(text, target_lang):
     # 调用翻译 API 进行翻译
     api_url = 'https://translate.googleapis.com/translate_a/single'
     params = {'client': 'gtx', 'dt': 't', 'sl': 'auto', 'tl': target_lang, 'q': text}
-    full_url = api_url + '?' + urlencode(params)
+    full_url = api_url + '?' + urllib.parse.urlencode(params)
     try:
         # 调用 API 获取翻译
         response = urlopen(full_url)
@@ -153,7 +151,7 @@ def translate_text(text, target_lang):
             if len(segment) > 0:
                 translations.append(segment[0])
         translated_text = " ".join(translations)
-        # 如果缓存中该词条的布尔值为 True，进行 URL 编码
+        # 如果缓存中该词条的布尔值为 True 进行 URL 编码
         if text in encode_map and encode_map[text][1]:
             translated_text = urllib.parse.quote(translated_text)
         # 包含黑名单的字符串,需要替换为原来的未翻译结果

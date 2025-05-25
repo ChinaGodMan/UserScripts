@@ -1,7 +1,8 @@
+import os
+import re
+
 from helper import read_json
 from update_related_scripts import process_script
-import re
-import os
 
 
 # 获取readme文件中相关脚本分组

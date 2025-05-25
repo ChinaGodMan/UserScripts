@@ -1,6 +1,8 @@
 import os
 import subprocess
+
 from helper import read_json
+
 result = subprocess.run(['git', 'diff', '--name-only', 'HEAD^', 'HEAD'], capture_output=True, text=True)
 changed_files = result.stdout.splitlines()
 scripts_data = read_json('docs/ScriptsPath.json')

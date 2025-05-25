@@ -1,9 +1,8 @@
 import re
-from content_snippet import get_file_description
-from writer import process_file
-from helper import read_json
-from helper import is_file_modified
 
+from content_snippet import get_file_description
+from helper import is_file_modified, read_json
+from writer import process_file
 
 start_tag = "<!--SCRIPTS_COUNT-->"
 end_tag = "<!--SCRIPTS_COUNT-END-->"

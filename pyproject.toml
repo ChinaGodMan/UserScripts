@@ -1,0 +1,5 @@
+[tool.isort]
+multi_line_output = 3
+[tool.flake8]
+exclude = [".git", "__pycache__", "build", "node_modules"]
+ignore = ["E501", "W504"]

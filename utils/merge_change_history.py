@@ -1,15 +1,18 @@
-from content_snippet import get_file_description
-from helper import get_md_files
-from helper import is_file_changed_in_last_commit
-from helper import read_json
-from helper import format_str
-from helper import get_repo_name
-from writer import process_file
-from searcher import search_in_file
 import os
-import subprocess
 import re
+import subprocess
+
 import markdown
+from content_snippet import get_file_description
+from helper import (
+    format_str,
+    get_md_files,
+    get_repo_name,
+    is_file_changed_in_last_commit,
+    read_json
+)
+from searcher import search_in_file
+from writer import process_file
 
 TEMPLATE = "utils/templates/OVERVIEW.html"
 START_TAG = "<!--HISTORY-->"

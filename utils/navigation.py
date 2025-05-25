@@ -1,10 +1,9 @@
-from writer import process_file
-from content_snippet import get_file_description
-from helper import get_md_files
-from helper import read_json
-from helper import get_repo_name
 import os
 import re
+
+from content_snippet import get_file_description
+from helper import get_md_files, get_repo_name, read_json
+from writer import process_file
 
 USE_FLAG = False
 langmap = read_json('utils/docs/lang_map.json')

@@ -1,8 +1,9 @@
-from searcher import search_in_file
-import subprocess
-import re
 import datetime
 import os
+import re
+import subprocess
+
+from searcher import search_in_file
 
 
 # https://github.com/murdos/musicbrainz-userscripts/blob/master/tools/update_version.py

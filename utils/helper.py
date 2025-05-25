@@ -12,14 +12,15 @@
 # License: MIT License
 # Copyright © 2024 - 2025 ChinaGodMan,Inc
 ###
+import io
+import json
 import os
 import re
 import subprocess
 import time
-import io
-import json
-from content_snippet import get_file_description
 import urllib.parse
+
+from content_snippet import get_file_description
 
 
 # 找md文件,并排除特定文件,不直接获取含有`README`字符的文件,以防未来增加新功能.

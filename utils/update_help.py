@@ -1,10 +1,9 @@
-from content_snippet import get_file_description
-from writer import process_file
-from helper import get_md_files
-from helper import read_json
-from helper import format_str
-from helper import extract_lang_code
 import os
+
+from content_snippet import get_file_description
+from helper import extract_lang_code, format_str, get_md_files, read_json
+from writer import process_file
+
 NEW_CONTENT_PATH = 'utils/templates/HELP.md'
 
 

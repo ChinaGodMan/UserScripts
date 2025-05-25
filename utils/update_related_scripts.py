@@ -1,13 +1,10 @@
-import re
 import os
-from writer import process_file_plus
-from helper import get_md_files
-from helper import read_json
-from helper import get_repo_name
-from helper import format_str
+import re
 
 from content_snippet import get_file_description
+from helper import format_str, get_md_files, get_repo_name, read_json
 from searcher import search_in_file
+from writer import process_file_plus
 
 
 # 生成描述信息，仅针对当前脚本的gro

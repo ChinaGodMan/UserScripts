@@ -1,13 +1,14 @@
 import os
 import shutil
 import subprocess
-from google_translate import translate_and_save
 from concurrent.futures import ThreadPoolExecutor
-from google_translate import replace_encoded_with_utf8
-from google_translate import extract_chinese_texts
-from helper import is_file_updated_more_than
-from helper import read_file_to_memory
-from helper import read_json
+
+from google_translate import (
+    extract_chinese_texts,
+    replace_encoded_with_utf8,
+    translate_and_save
+)
+from helper import is_file_updated_more_than, read_file_to_memory, read_json
 
 
 def translate_readme(data):
