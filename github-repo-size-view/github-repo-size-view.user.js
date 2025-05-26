@@ -80,7 +80,7 @@
 // @name:fr-CA        🤠 Taille d’affichage de l’entrepôt de l’assistant amélioré Github
 // @description:fr-CA 🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2025.5.16.1
+// @version           2025.5.27.1
 // @author            mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match             https://github.com/*
 // @grant             none
@@ -842,8 +842,10 @@ function insertReposList(links, tip = false) {
         '.faNtbn .d-flex.gap-2', // Repo files page
         '.gwHaUx .d-flex.gap-2' // Commits page
     ]
-    //document.querySelector(selectors.join(', '))
-    const existingButton = document.getElementById(':rn:')
+    // document.querySelector(selectors.join(', '))
+    // document.getElementById(':R55ab:')直接选择code按钮 使用中文化脚本元素变化选择(':rn:')
+    const buttons = document.querySelectorAll('button[class="prc-Button-ButtonBase-c50BI"]')
+    const existingButton = buttons[buttons.length - 1]
     if (existingButton) {
         const sortedLinks = links.sort((a, b) => {//!SECTION 排序
             // 首先比较 fork 下沉到数组的低端.
