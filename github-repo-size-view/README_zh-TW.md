@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
+<h3><strong>📅 2025.5.27.1</strong></h3>
+<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，其他腳本導致頁面元素變化<br></p>
+<hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題 <br></p>
 <hr />
@@ -169,7 +172,7 @@
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用該腳本的設置界面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加腳本菜單 → 環境 GitHub Token 介面，無需在代碼內修改。</p>
+<p><strong>新增</strong>: 增加腳本菜單 → 設定 GitHub Token 介面，無需在代碼內修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
 <p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用戶資料倉庫列表和組織列表顯示倉庫大小。</p>

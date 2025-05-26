@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2025.5.27.1</strong></h3>
+<p><strong>Fix</strong>: 修复在储存库页面不显示快捷跳转按钮的问题<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，其他脚本导致页面元素变化<br></p>
+<hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 修复在储存库页面不显示快捷跳转按钮的问题 <br></p>
 <hr />

@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2025.5.27.1</strong></h3>
+<p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다.<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，다른 스크립트로 인해 페이지 요소가 변경됩니다<br></p>
+<hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다. <br></p>
 <hr />

@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+<h3><strong>📅 2025.5.27.1</strong></h3>
+<p><strong>Fix</strong>: Đã sửa lỗi trong đó nút nhảy nhanh không được hiển thị trên trang kho lưu trữ<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Các tập lệnh khác khiến các yếu tố trang thay đổi<br></p>
+<hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: Đã sửa lỗi trong đó nút nhảy nhanh không được hiển thị trên trang kho lưu trữ <br></p>
 <hr />
@@ -103,7 +106,7 @@
 <strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Chức năng kịch bản ，Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
 <strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Nhanh chóng tìm thấy hoạt động Forks Danh sách</a> Chức năng kịch bản Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
 <strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Chức năng kịch bản Trong kho cá nhân và<code>?tab=repositories</code>Xóa trang nhanh Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>tối ưu hóa</strong>: Máy dò không thể tìm thấy phần tử trong mười giây và ngừng chạy<br></p>
+<strong>tối ưu hóa</strong>: Máy dò không thể tìm thấy phần tử trong mười giây và dừng chạy<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
 <p><strong>Sửa chữa</strong>:CSS Các thanh phân vùng nhỏ bị ẩn bởi các lỗi trên thiết bị di động：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>

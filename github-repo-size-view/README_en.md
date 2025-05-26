@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2025.5.27.1</strong></h3>
+<p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Other scripts cause page elements to change<br></p>
+<hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
 <p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page <br></p>
 <hr />
@@ -115,7 +118,7 @@
 <strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>New</strong>: GitHub Sidebar jump to warehouse is more complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
+<p><strong>New</strong>: GitHub Sidebar jump to warehouse is complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
 <table>
 <thead>
 <tr>
