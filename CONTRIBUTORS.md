@@ -12,7 +12,8 @@
 ### [Github 增强小助手](./github-repo-size-view)
 
 [@windy1021](https://github.com/windy1021)在[#102](https://github.com/ChinaGodMan/UserScripts/issues/102) 精简油猴设置菜单  
-[@qbmiller](https://github.com/qbmiller)在[#111](https://github.com/ChinaGodMan/UserScripts/issues/111) 添加了新功能
+[@qbmiller](https://github.com/qbmiller)在[#111](https://github.com/ChinaGodMan/UserScripts/issues/111) 添加了新功能到  
+[@xdwil](https://github.com/xdwil)在[#137](https://github.com/ChinaGodMan/UserScripts/issues/137) 反馈`快捷跳转`功能失效的问题
 
 ### [小窗预览](./popup-window)
 
