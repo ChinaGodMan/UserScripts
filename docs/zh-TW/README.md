@@ -82,9 +82,9 @@
 💡 **Tip:** _要顯示預覽截圖，請點擊擴展名稱下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**儲存庫當前發布腳本數量:61,腳本包括:**
+**儲存庫當前發布腳本數量:62,腳本包括:**
 <h6><a href="#ChatGPT相關腳本-5">ChatGPT相關腳本 (5)</a>
- | <a href="#網頁相關腳本-10">網頁相關腳本 (10)</a>
+ | <a href="#網頁相關腳本-11">網頁相關腳本 (11)</a>
  | <a href="#GitHub相關腳本-17">GitHub相關腳本 (17)</a>
  | <a href="#Google相關腳本-2">Google相關腳本 (2)</a>
  | <a href="#GreasyFork相關腳本-11">GreasyFork相關腳本 (11)</a>
@@ -279,7 +279,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 </blockquote>
 <div align="right"><a href="#-腳本列表">返回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>網頁相關腳本 (10)</h1></div><h3>
+<div align="center"><h1>網頁相關腳本 (11)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">網頁寫入剪輯版授權管理員</a>&nbsp;
@@ -631,6 +631,38 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../../text-to-link">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
+    <a href="../../text-to-link">文本轉鏈接</a>&nbsp;
+    <a href="../../text-to-link">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+把文字鏈接轉換為可點擊鏈接
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/514262">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/514262">
+        Greasemonkey</a> /
+    <a href="../../text-to-link/README_zh-TW.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../text-to-link/README_zh-TW.md">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
+    <a href="../../text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">返回目錄</a></div>

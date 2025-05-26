@@ -811,6 +811,19 @@
             ],
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg",
             "locales": "zh-TW,vi,en,ko"
+        },
+        {
+            "name": "文本转链接",
+            "description": "把文字链接转换为可点击链接",
+            "group": "网页相关脚本",
+            "js_name": "text-to-link.user.js",
+            "directory": "text-to-link",
+            "version": "2025.5.26.1",
+            "greasyfork_id": 514262,
+            "created_at": "2025-05-26 18:50:36",
+            "preview": null,
+            "icon": "https://github.com/lkytal/GM/raw/master/icons/link.png",
+            "locales": "zh-TW,vi,en,ko"
         }
     ]
 }

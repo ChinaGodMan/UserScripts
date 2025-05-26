@@ -82,9 +82,9 @@
 💡 **Tip:** _To display preview screenshot，Please click on the extension name below ▸ Or description。_
 
 <!--SCRIPTS_COUNT-->
-**The number of current published scripts for the repository:61,The script includes:**
+**The number of current published scripts for the repository:62,The script includes:**
 <h6><a href="#ChatGPTRelated-scripts-5">ChatGPTRelated scripts (5)</a>
- | <a href="#Web-page-related-scripts-10">Web page related scripts (10)</a>
+ | <a href="#Web-page-related-scripts-11">Web page related scripts (11)</a>
  | <a href="#GitHubRelated-scripts-17">GitHubRelated scripts (17)</a>
  | <a href="#GoogleRelated-scripts-2">GoogleRelated scripts (2)</a>
  | <a href="#GreasyForkRelated-scripts-11">GreasyForkRelated scripts (11)</a>
@@ -279,7 +279,7 @@ ChatGPT Make code font smaller and automatically wrap
 </blockquote>
 <div align="right"><a href="#-Script-List">Return to the directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Web page related scripts (10)</h1></div><h3>
+<div align="center"><h1>Web page related scripts (11)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Web page writing clip version authorization manager</a>&nbsp;
@@ -631,6 +631,38 @@ Remove link underlines on all sites，and handle new links dynamically
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Update log</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
+</blockquote>
+<h3>
+    <a href="../../text-to-link">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
+    <a href="../../text-to-link">Text to link</a>&nbsp;
+    <a href="../../text-to-link">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Number%20of%20users"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Convert text links to clickable links
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/514262">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/514262">
+        Greasemonkey</a> /
+    <a href="../../text-to-link/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../text-to-link/README_en.md">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="../../text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-Script-List">Return to the directory</a></div>
@@ -2429,7 +2461,7 @@ To use any script，First, you need a browser installation **Tampermonkey Script
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Contribution list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generated <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
+Contribution list by： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatically generate <a href="https://github.com/jaywcjlove" title="Tune"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Tune"/></a>
 
 <div align="right">
 

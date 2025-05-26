@@ -82,9 +82,9 @@
 💡 **Tip:** _Para mostrar una captura de pantalla de vista previa，Haga clic en el nombre de la extensión a continuación ▸ O descripción。_
 
 <!--SCRIPTS_COUNT-->
-**El número de scripts publicados actuales para el repositorio:61,El guión incluye:**
+**El número de scripts publicados actuales para el repositorio:62,El guión incluye:**
 <h6><a href="#ChatGPTScripts-relacionados-5">ChatGPTScripts relacionados (5)</a>
- | <a href="#Scripts-relacionados-con-la-página-web-10">Scripts relacionados con la página web (10)</a>
+ | <a href="#Scripts-relacionados-con-la-página-web-11">Scripts relacionados con la página web (11)</a>
  | <a href="#GitHubScripts-relacionados-17">GitHubScripts relacionados (17)</a>
  | <a href="#GoogleScripts-relacionados-2">GoogleScripts relacionados (2)</a>
  | <a href="#GreasyForkScripts-relacionados-11">GreasyForkScripts relacionados (11)</a>
@@ -279,7 +279,7 @@ ChatGPT Reducir la fuente del código y envolver automáticamente
 </blockquote>
 <div align="right"><a href="#-Lista-de-guiones">Volver al directorio</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Scripts relacionados con la página web (10)</h1></div><h3>
+<div align="center"><h1>Scripts relacionados con la página web (11)</h1></div><h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Administrador de autorización de versión de clip de escritura de página web</a>&nbsp;
@@ -631,6 +631,38 @@ Eliminar enlaces subrayados en todos los sitios，y manejar nuevos enlaces diná
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de actualizaciones</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
+<h3>
+    <a href="../../text-to-link">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
+    <a href="../../text-to-link">Texto para vincular</a>&nbsp;
+    <a href="../../text-to-link">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=N%C3%BAmero%20de%20usuarios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Convertir enlaces de texto a enlaces en clic en
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/514262">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/514262">
+        Greasemonkey</a> /
+    <a href="../../text-to-link/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../text-to-link/README_en.md">
+        Archivo readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">conversar</a> /
+    <a href="../../text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
 <div align="right"><a href="#-Lista-de-guiones">Volver al directorio</a></div>
