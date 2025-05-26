@@ -144,7 +144,8 @@ def main():
     json_file_path = args.json_file_path
     readme_path = args.readme_path
     data = read_json(json_file_path)
-    related_scripts_map = generate_description(data.get('scripts', []))
+    sorted_scripts = sorted(data.get('scripts', []), key=lambda x: x['greasyfork_id'] if x.get('greasyfork_id') is not None else 0)
+    related_scripts_map = generate_description(sorted_scripts)
     html_output = generate_grouped_html(related_scripts_map, False, False)
     process_file(readme_path, html_output, "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->", "<!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->", "head")
     scripts_count = len(data.get('scripts', []))
