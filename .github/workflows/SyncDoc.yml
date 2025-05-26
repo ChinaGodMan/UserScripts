@@ -41,14 +41,13 @@ jobs:
           GFP: ${{ secrets.GFP }}
           GREASYFORK_TOTP_SECRET: ${{ secrets.GREASYFORK_TOTP_SECRET }}
 
-      - name: 相关脚本
-        run: python utils/update_related_scripts.py
+      #- name: 相关脚本
+      #  run: python utils/update_related_scripts.py
+      #- name: 所有脚本
+      #  run: python utils/update_related_all_scripts.py
 
       - name: 导航栏
         run: python utils/navigation.py
-
-      - name: 所有脚本
-        run: python utils/update_related_all_scripts.py
 
       - name: 变更日志
         run: python utils/merge_change_history.py
