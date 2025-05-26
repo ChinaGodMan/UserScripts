@@ -82,10 +82,10 @@
 💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Vui lòng nhấp vào tên mở rộng bên dưới ▸ Hoặc mô tả。_
 
 <!--SCRIPTS_COUNT-->
-**Số lượng các tập lệnh được xuất bản hiện tại cho kho lưu trữ:59,Kịch bản bao gồm:**
+**Số lượng các tập lệnh được xuất bản hiện tại cho kho lưu trữ:61,Kịch bản bao gồm:**
 <h6><a href="#ChatGPTTập-lệnh-liên-quan-5">ChatGPTTập lệnh liên quan (5)</a>
  | <a href="#Các-tập-lệnh-liên-quan-đến-trang-web-10">Các tập lệnh liên quan đến trang web (10)</a>
- | <a href="#GitHubTập-lệnh-liên-quan-15">GitHubTập lệnh liên quan (15)</a>
+ | <a href="#GitHubTập-lệnh-liên-quan-17">GitHubTập lệnh liên quan (17)</a>
  | <a href="#GoogleTập-lệnh-liên-quan-2">GoogleTập lệnh liên quan (2)</a>
  | <a href="#GreasyForkTập-lệnh-liên-quan-11">GreasyForkTập lệnh liên quan (11)</a>
  | <a href="#Kịch-bản-người-lớn-10">Kịch bản người lớn (10)</a>
@@ -635,7 +635,7 @@ Xóa gạch chân liên kết trên tất cả các trang web，và xử lý cá
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHubTập lệnh liên quan (15)</h1></div><h3>
+<div align="center"><h1>GitHubTập lệnh liên quan (17)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Gửi thông tin hiển thị xem web</a>&nbsp;
@@ -1203,6 +1203,83 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
+</blockquote>
+<h3>
+    <a href="../../github-email-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../../github-email-finder">Công cụ tìm địa chỉ email GitHub</a>&nbsp;
+    <a href="../../github-email-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Sử dụng dữ liệu sự kiện công cộng (ví dụ: một bản gửi được đẩy đến cơ sở mã công cộng), lấy địa chỉ email gửi của người dùng và hiển thị nó trên trang hồ sơ. Ngoài ra, nó cũng thêm một nút "Sao chép vào bảng tạm" thuận tiện để sao chép dễ dàng.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">
+            <img width=511 src="https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537309">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537309">
+        Greasemonkey</a> /
+    <a href="../../github-email-finder/README_vi.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-email-finder/README_vi.md">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a> /
+    <a href="../../github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
+</blockquote>
+<h3>
+    <a href="../../github-file-size-viewer">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
+    <a href="../../github-file-size-viewer">Github hiển thị kích thước tệp và thư mục</a>&nbsp;
+    <a href="../../github-file-size-viewer">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Hiển thị kích thước của mỗi tệp và thư mục trong kho GitHub. Nó sử dụng API GitHub để có chi tiết, bao gồm các kích thước thư mục đệ quy, giúp dễ dàng thấy tổng kích thước của các thư mục lồng nhau. Hiển thị kích thước tệp tính bằng kb, mb hoặc gb</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">
+            <img width=511 src="https://s2.loli.net/2025/05/26/Awn71VdN3ZgHftK.png">
+            <img width=511 src="https://s2.loli.net/2025/05/26/ou6nK5kidqFNHhe.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537310">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537310">
+        Greasemonkey</a> /
+    <a href="../../github-file-size-viewer/README_vi.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-file-size-viewer/README_vi.md">
+        README FILE</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a> /
+    <a href="../../github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>

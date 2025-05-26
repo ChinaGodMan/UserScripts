@@ -82,10 +82,10 @@
 💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
 <!--SCRIPTS_COUNT-->
-**リポジトリの現在公開されているスクリプトの数:59,スクリプトには含まれます:**
+**リポジトリの現在公開されているスクリプトの数:61,スクリプトには含まれます:**
 <h6><a href="#ChatGPT関連するスクリプト-5">ChatGPT関連するスクリプト (5)</a>
  | <a href="#Webページ関連のスクリプト-10">Webページ関連のスクリプト (10)</a>
- | <a href="#GitHub関連するスクリプト-15">GitHub関連するスクリプト (15)</a>
+ | <a href="#GitHub関連するスクリプト-17">GitHub関連するスクリプト (17)</a>
  | <a href="#Google関連するスクリプト-2">Google関連するスクリプト (2)</a>
  | <a href="#GreasyFork関連するスクリプト-11">GreasyFork関連するスクリプト (11)</a>
  | <a href="#大人のスクリプト-10">大人のスクリプト (10)</a>
@@ -635,7 +635,7 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub関連するスクリプト (15)</h1></div><h3>
+<div align="center"><h1>GitHub関連するスクリプト (17)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 情報声明Webビューの送信</a>&nbsp;
@@ -1203,6 +1203,83 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
+<h3>
+    <a href="../../github-email-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../../github-email-finder">GitHubのメールアドレスファインダー</a>&nbsp;
+    <a href="../../github-email-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>パブリックイベントデータ（たとえば、パブリックコードベースにプッシュされた送信）を使用し、ユーザーの送信メールアドレスを得るして、プロファイルページに急行します。さらに、簡単にコピーするために、便利な「Copy to Clipboard」ボタンも追加されます。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">
+            <img width=511 src="https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537309">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537309">
+        Greasemonkey</a> /
+    <a href="../../github-email-finder/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-email-finder/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
+<h3>
+    <a href="../../github-file-size-viewer">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
+    <a href="../../github-file-size-viewer">GitHubはファイルとフォルダーのサイズを急行します</a>&nbsp;
+    <a href="../../github-file-size-viewer">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>GitHubリポジトリにそれぞれファイルとフォルダーのサイズを急行します。 Github APIを使用して、再帰的なフォルダーサイズを含むむ詳細を得るし、ネストされたディレクトリの合計サイズを簡単に確認できます。 KB、MB、またはGBのファイルサイズを急行します</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">
+            <img width=511 src="https://s2.loli.net/2025/05/26/Awn71VdN3ZgHftK.png">
+            <img width=511 src="https://s2.loli.net/2025/05/26/ou6nK5kidqFNHhe.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537310">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537310">
+        Greasemonkey</a> /
+    <a href="../../github-file-size-viewer/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-file-size-viewer/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
@@ -2352,7 +2429,7 @@ Google翻訳アイコンを各中国語のWebページの右下隅に追加し�
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-貢献リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動的に生成します <a href="https://github.com/jaywcjlove" title="チューン"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="チューン"/></a>
+貢献リスト： [contributors](https://github.com/jaywcjlove/github-action-contributors). 自動的に生成されます <a href="https://github.com/jaywcjlove" title="チューン"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="チューン"/></a>
 
 <div align="right">
 

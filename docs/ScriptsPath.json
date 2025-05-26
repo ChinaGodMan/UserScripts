@@ -784,31 +784,31 @@
             "locales": "zh-TW,vi,en,ko"
         },
         {
-            "name": "github-email-finder",
-            "description": "",
+            "name": "GitHub 邮箱地址查找器",
+            "description": "使用公开事件数据（例如，推送到公开代码库的提交），获取用户的提交邮箱地址并将其显示在个人资料页面上。此外，它还添加了一个便捷的“复制到剪贴板”按钮，方便复制.",
             "group": "GitHub相关脚本",
             "js_name": "github-email-finder.user.js",
             "directory": "github-email-finder",
             "version": "2025.5.26.1",
-            "greasyfork_id": null,
+            "greasyfork_id": 537309,
             "created_at": "2025-05-26 17:27:25",
             "preview": "https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png",
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png",
             "locales": "zh-TW,vi,en,ko"
         },
         {
-            "name": "github-file-size-viewer",
-            "description": "",
+            "name": "GitHub 显示文件和文件夹大小",
+            "description": "显示 GitHub 存储库中每个文件和文件夹的大小。它使用 GitHub API 获取详细信息，包括递归文件夹大小，从而轻松查看嵌套目录的总大小。 以 KB、MB 或 GB 显示文件大小",
             "group": "GitHub相关脚本",
             "js_name": "github-file-size-viewer.user.js",
             "directory": "github-file-size-viewer",
             "version": "2025.5.26.1",
-            "greasyfork_id": null,
+            "greasyfork_id": 537310,
             "created_at": "2025-05-26 18:12:15",
             "preview": [
                 "https://s2.loli.net/2025/05/26/Awn71VdN3ZgHftK.png",
                 "https://s2.loli.net/2025/05/26/ou6nK5kidqFNHhe.png"
-                ],
+            ],
             "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg",
             "locales": "zh-TW,vi,en,ko"
         }

@@ -82,10 +82,10 @@
 💡 **Tip:** _要显示预览截图，请点击扩展名称下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**储存库当前发布脚本数量:59,脚本包括:**
+**储存库当前发布脚本数量:61,脚本包括:**
 <h6><a href="#ChatGPT相关脚本-5">ChatGPT相关脚本 (5)</a>
  | <a href="#网页相关脚本-10">网页相关脚本 (10)</a>
- | <a href="#GitHub相关脚本-15">GitHub相关脚本 (15)</a>
+ | <a href="#GitHub相关脚本-17">GitHub相关脚本 (17)</a>
  | <a href="#Google相关脚本-2">Google相关脚本 (2)</a>
  | <a href="#GreasyFork相关脚本-11">GreasyFork相关脚本 (11)</a>
  | <a href="#成人脚本-10">成人脚本 (10)</a>
@@ -635,7 +635,7 @@ ChatGPT 让代码字体变小 并且自动折行
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub相关脚本 (15)</h1></div><h3>
+<div align="center"><h1>GitHub相关脚本 (17)</h1></div><h3>
     <a href="../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../github-commit-viewer">GitHub 提交信息显示网页视图</a>&nbsp;
@@ -1203,6 +1203,83 @@ ChatGPT 让代码字体变小 并且自动折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../github-email-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-email-finder">GitHub 邮箱地址查找器</a>&nbsp;
+    <a href="../github-email-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>使用公开事件数据（例如，推送到公开代码库的提交），获取用户的提交邮箱地址并将其显示在个人资料页面上。此外，它还添加了一个便捷的“复制到剪贴板”按钮，方便复制.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">
+            <img width=511 src="https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537309">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537309">
+        Greasemonkey</a> /
+    <a href="../github-email-finder/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-email-finder/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="../github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../github-file-size-viewer">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
+    <a href="../github-file-size-viewer">GitHub 显示文件和文件夹大小</a>&nbsp;
+    <a href="../github-file-size-viewer">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>显示 GitHub 存储库中每个文件和文件夹的大小。它使用 GitHub API 获取详细信息，包括递归文件夹大小，从而轻松查看嵌套目录的总大小。 以 KB、MB 或 GB 显示文件大小</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">
+            <img width=511 src="https://s2.loli.net/2025/05/26/Awn71VdN3ZgHftK.png">
+            <img width=511 src="https://s2.loli.net/2025/05/26/ou6nK5kidqFNHhe.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537310">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537310">
+        Greasemonkey</a> /
+    <a href="../github-file-size-viewer/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-file-size-viewer/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="../github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>

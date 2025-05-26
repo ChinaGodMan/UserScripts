@@ -82,10 +82,10 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:59,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:61,스크립트에는 포함됩니다:**
 <h6><a href="#ChatGPT관련-스크립트-5">ChatGPT관련 스크립트 (5)</a>
  | <a href="#웹-페이지-관련-스크립트-10">웹 페이지 관련 스크립트 (10)</a>
- | <a href="#GitHub관련-스크립트-15">GitHub관련 스크립트 (15)</a>
+ | <a href="#GitHub관련-스크립트-17">GitHub관련 스크립트 (17)</a>
  | <a href="#Google관련-스크립트-2">Google관련 스크립트 (2)</a>
  | <a href="#GreasyFork관련-스크립트-11">GreasyFork관련 스크립트 (11)</a>
  | <a href="#성인-스크립트-10">성인 스크립트 (10)</a>
@@ -635,7 +635,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub관련 스크립트 (15)</h1></div><h3>
+<div align="center"><h1>GitHub관련 스크립트 (17)</h1></div><h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
@@ -1203,6 +1203,83 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
+<h3>
+    <a href="../../github-email-finder">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../../github-email-finder">GitHub 이메일 주소 찾기</a>&nbsp;
+    <a href="../../github-email-finder">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>공개 이벤트 데이터 (예 : 공개 코드 기반으로 푸시 된 제출)를 사용하고 사용자의 제출 이메일 주소를 가져 와서 프로필 페이지에 표시하십시오. 또한 쉽게 복사 할 수 있도록 편리한 "Copy to Clipboard"버튼을 추가합니다.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">
+            <img width=511 src="https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537309">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537309">
+        Greasemonkey</a> /
+    <a href="../../github-email-finder/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-email-finder/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
+<h3>
+    <a href="../../github-file-size-viewer">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
+    <a href="../../github-file-size-viewer">Github는 파일 및 폴더 크기를 표시합니다</a>&nbsp;
+    <a href="../../github-file-size-viewer">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>GitHub 저장소에 각 파일과 폴더의 크기가 표시됩니다. GitHub API를 사용하여 재귀 폴더 크기를 포함하여 세부 사항을 얻으므로 중첩 디렉토리의 총 크기를 쉽게 볼 수 있습니다. KB, MB 또는 GB에서 파일 크기를 표시합니다</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">
+            <img width=511 src="https://s2.loli.net/2025/05/26/Awn71VdN3ZgHftK.png">
+            <img width=511 src="https://s2.loli.net/2025/05/26/ou6nK5kidqFNHhe.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537310">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537310">
+        Greasemonkey</a> /
+    <a href="../../github-file-size-viewer/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-file-size-viewer/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
@@ -2352,7 +2429,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됩니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성되었습니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
 
 <div align="right">
 
