@@ -111,11 +111,22 @@ def main():
         lang_codes.extend(lang_dict.keys())
     parser = argparse.ArgumentParser(description="UserScript 多语言自动化翻译与优化工具")
     parser.add_argument("file_path", type=str, help="需要处理的 UserScript 文件路径")
-    parser.add_argument("--langs", nargs="+", default=lang_codes,
+    parser.add_argument("-l", "--langs", nargs="+", default=lang_codes,
                         help="目标翻译语言列表，默认包含 所有语言")
+    parser.add_argument("-f", "--filter", action="store_true",
+                        help="是否过滤掉文件中已存在的语言")
     args = parser.parse_args()
     file_path = args.file_path
     target_langs = args.langs
+
+    if args.filter:
+        with open(file_path, "r", encoding="utf-8") as f:
+            content = f.read()
+            filtered_langs = []
+            for lang in target_langs:
+                if not f"// @name:{lang}" in content:
+                    filtered_langs.append(lang)
+            target_langs = filtered_langs
 
     translate_localized(file_path, target_langs)
     sort_userscript_section(file_path)
