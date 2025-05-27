@@ -82,12 +82,12 @@
 💡 **Tip:** _Для отображения снимка экрана предварительного просмотра，Пожалуйста, нажмите на имя расширения ниже ▸ Или описание。_
 
 <!--SCRIPTS_COUNT-->
-**Количество текущих опубликованных сценариев для репозитория:62,Сценарий включает в себя:**
+**Количество текущих опубликованных сценариев для репозитория:63,Сценарий включает в себя:**
 <h6><a href="#Сценарии,-связанные-с-веб--страницей-11">Сценарии, связанные с веб -страницей (11)</a>
  | <a href="#GreasyForkСвязанные-сценарии-11">GreasyForkСвязанные сценарии (11)</a>
  | <a href="#Взрослые-сценарии-10">Взрослые сценарии (10)</a>
  | <a href="#GoogleСвязанные-сценарии-2">GoogleСвязанные сценарии (2)</a>
- | <a href="#GitHubСвязанные-сценарии-17">GitHubСвязанные сценарии (17)</a>
+ | <a href="#GitHubСвязанные-сценарии-18">GitHubСвязанные сценарии (18)</a>
  | <a href="#Автоматический-перевод-3">Автоматический перевод (3)</a>
  | <a href="#ChatGPTСвязанные-сценарии-5">ChatGPTСвязанные сценарии (5)</a>
  | <a href="#Сценарии-социальных-сетей-3">Сценарии социальных сетей (3)</a>
@@ -1325,7 +1325,7 @@
 </blockquote>
 <div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHubСвязанные сценарии (17)</h1></div><h3>
+<div align="center"><h1>GitHubСвязанные сценарии (18)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../../github-repo-size-view">🤠 Расширенный размер отображения склада помощника Github</a>&nbsp;
@@ -1970,6 +1970,45 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
+</blockquote>
+<h3>
+    <a href="../../github-co-authors">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
+    <a href="../../github-co-authors">GitHub соавтор</a>&nbsp;
+    <a href="../../github-co-authors">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Добавьте кнопку в PR GitHub, чтобы добавить всех участников PR в качестве соавторов перед слиянием.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">
+            <img width=511 src="https://s2.loli.net/2025/05/27/NQwCL6jeE4WnBog.png">
+            <img width=511 src="https://s2.loli.net/2025/05/27/mnyBwaU46Jtfbse.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537446">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537446">
+        Greasemonkey</a> /
+    <a href="../../github-co-authors/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-co-authors/README_en.md">
+        Readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
+    <a href="../../github-co-authors/github-co-authors.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>

@@ -82,12 +82,12 @@
 💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ O descrizione。_
 
 <!--SCRIPTS_COUNT-->
-**Il numero di script pubblicati correnti per il repository:62,Lo script include:**
+**Il numero di script pubblicati correnti per il repository:63,Lo script include:**
 <h6><a href="#Script-relativi-alla-pagina-Web-11">Script relativi alla pagina Web (11)</a>
  | <a href="#GreasyForkScript-correlati-11">GreasyForkScript correlati (11)</a>
  | <a href="#Script-per-adulti-10">Script per adulti (10)</a>
  | <a href="#GoogleScript-correlati-2">GoogleScript correlati (2)</a>
- | <a href="#GitHubScript-correlati-17">GitHubScript correlati (17)</a>
+ | <a href="#GitHubScript-correlati-18">GitHubScript correlati (18)</a>
  | <a href="#Traduzione-automatica-3">Traduzione automatica (3)</a>
  | <a href="#ChatGPTScript-correlati-5">ChatGPTScript correlati (5)</a>
  | <a href="#Script-di-social-media-3">Script di social media (3)</a>
@@ -1325,7 +1325,7 @@ Cerca un blocco di Google un sito specificato
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHubScript correlati (17)</h1></div><h3>
+<div align="center"><h1>GitHubScript correlati (18)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../../github-repo-size-view">🤠 Github ha migliorato le dimensioni di visualizzazione del magazzino dell’assistente</a>&nbsp;
@@ -1970,6 +1970,45 @@ esistereGitHubLa pagina di autorizzazione inserisce automaticamente il codice di
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
+</blockquote>
+<h3>
+    <a href="../../github-co-authors">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
+    <a href="../../github-co-authors">Coautore di GitHub</a>&nbsp;
+    <a href="../../github-co-authors">
+        <img height=24 src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=Numero%20di%20utenti"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Aggiungi un pulsante in GitHub PR per aggiungere tutti i partecipanti PR come coautori prima di unire.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">
+            <img width=511 src="https://s2.loli.net/2025/05/27/NQwCL6jeE4WnBog.png">
+            <img width=511 src="https://s2.loli.net/2025/05/27/mnyBwaU46Jtfbse.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/537446">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/537446">
+        Greasemonkey</a> /
+    <a href="../../github-co-authors/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../github-co-authors/README_en.md">
+        File readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutere</a> /
+    <a href="../../github-co-authors/github-co-authors.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Codice sorgente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
