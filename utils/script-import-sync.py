@@ -249,9 +249,9 @@ if __name__ == "__main__":
 
     # 重新同步脚本
     parser = argparse.ArgumentParser(description="是否为同步模式")
-    parser.add_argument("-s", "--sync", help="仅为重新同步所有脚本")
+    parser.add_argument("-s", "--sync", action="store_true", help="仅为重新同步所有脚本")
     args = parser.parse_args()
-    ONLY_SYNC = bool(args.sync)
+    ONLY_SYNC = args.sync
 
     json_path = 'docs/ScriptsPath.json'
     if not is_file_changed_in_last_commit(json_path) and not ONLY_SYNC:
