@@ -36,11 +36,14 @@
     "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-yml": "^1.18.0",
     "husky": "^9.1.7",
+    "prettier": "^3.5.3",
     "ssri": "^12.0.0"
   },
   "scripts": {
     "isort": "isort utils/",
     "flake8": "flake8 --config=pyproject.toml",
+    "fmt:write": "prettier --write '**/*.{js,mjs,json}'",
+    "fmt:check": "prettier --check '**/*.{js,mjs,json}'",
     "lint": "eslint . --cache",
     "lint:all": "eslint .",
     "lint:fix": "eslint . --fix --cache",
