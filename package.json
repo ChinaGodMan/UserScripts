@@ -28,7 +28,7 @@
   "devDependencies": {
     "@eslint/json": "^0.12.0",
     "@eslint/markdown": "^6.4.0",
-    "@stylistic/eslint-plugin-js": "^4.4.0",
+    "@stylistic/eslint-plugin": "^4.4.0",
     "cz-git": "^1.11.1",
     "czg": "^1.11.1",
     "eslint": "^9.27.0",
@@ -40,6 +40,7 @@
     "ssri": "^12.0.0"
   },
   "scripts": {
+    "bump:scripts": "python utils/update_version.py",
     "isort": "isort utils/",
     "flake8": "flake8 --config=pyproject.toml",
     "fmt:write": "prettier --write '**/*.{js,mjs,json}'",
@@ -48,15 +49,13 @@
     "lint:all": "eslint .",
     "lint:fix": "eslint . --fix --cache",
     "lint:fix-all": "eslint . --fix",
-    "docs:update-relatedscripts": "python utils/update_related_scripts.py",
-    "docs:update-relatedscripts:all": "python utils/update_related_all_scripts.py",
-    "docs:update-scripts:help": "python utils/update_help.py",
-    "docs:update-scripts:shields": "python utils/update_shields.py",
-    "docs:update-scripts:navigation": "python utils/navigation.py",
-    "docs:update-scripts:history": "python utils/merge_change_history.py",
-    "docs:update-repo:translate": "python utils/translate_force_chinese_to_lang.py",
-    "docs:update-scripts:translate": "python utils/translate_chinese_to_filelang.py",
-    "json:update-greasyfork-scripts:time": "python utils/upadate_greasyfork.py",
-    "format:script": "python utils/copy_js_files.py"
+    "docs:relatedscripts": "python utils/update_related_scripts.py",
+    "docs:relatedscripts:all": "python utils/update_related_all_scripts.py",
+    "docs:scripts:help": "python utils/update_help.py",
+    "docs:scripts:shields": "python utils/update_shields.py",
+    "docs:scripts:navigation": "python utils/navigation.py",
+    "docs:scripts:history": "python utils/merge_change_history.py",
+    "docs:translate:repo": "python utils/translate_force_chinese_to_lang.py",
+    "docs:translate:scripts": "python utils/translate_chinese_to_filelang.py"
   }
 }
