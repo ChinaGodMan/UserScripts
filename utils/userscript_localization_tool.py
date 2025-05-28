@@ -124,7 +124,7 @@ def main():
             content = f.read()
             filtered_langs = []
             for lang in target_langs:
-                if not f"// @name:{lang}" in content:
+                if f"// @name:{lang}" not in content:
                     filtered_langs.append(lang)
             target_langs = filtered_langs
 
