@@ -298,7 +298,7 @@ if __name__ == "__main__":
 
                 # 写出更新后的当前脚本信息.
                 with open(json_path, 'w', encoding='utf-8', newline='\n') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=4)
+                    json.dump(data, f, ensure_ascii=False, indent=2)
                     f.write('\n')
 
             if ONLY_SYNC:

@@ -1,26 +1,26 @@
 {
-    "tabWidth": 4,
-    "useTabs": false,
-    "overrides": [
-        {
-            "files": "*.json",
-            "options": {
-                "tabWidth": 2,
-                "useTabs": false
-            }
-        },
-        {
-            "files": "*.yml",
-            "options": {
-                "tabWidth": 2,
-                "useTabs": false
-            }
-        },
-        {
-            "files": "*.js",
-            "options": {
-                "singleQuote": true
-            }
-        }
-    ]
+  "tabWidth": 4,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
 }
