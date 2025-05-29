@@ -63,6 +63,19 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
 
+> [!WARNING]
+>  <div align="center">
+>  Ce référentiel est uniquement<code>GitHub</code>Héberger,Pas ici<code>GitCode</code>et<code>XPlaza</code>Héberger。Les référentiels suivants sont reflétés。<br>
+>    :trollface: Si vous l’utilisez en Chine continentale<code>git clone</code>La vitesse de téléchargement est trop lente，Vous pouvez également utiliser l’adresse suivante
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Compte miroir，Non-personne)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
+
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 Navigateur et gestionnaire de script](#-Navigateur-et-gestionnaire-de-script) |

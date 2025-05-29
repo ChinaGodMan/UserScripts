@@ -63,6 +63,19 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
 
+> [!WARNING]
+>  <div align="center">
+>  このリポジトリのみです<code>GitHub</code>ホスティング,ここではありません<code>GitCode</code>そして<code>XPlaza</code>ホスティング。次のリポジトリがミラーリングされています。<br>
+>    :trollface: 中国本土で使用する場合<code>git clone</code>ダウンロード速度が遅すぎます，次のアドレスを使用することもできます
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (ミラーアカウント，非本人)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
+
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 ブラウザとスクリプトマネージャー](#-ブラウザとスクリプトマネージャー) |

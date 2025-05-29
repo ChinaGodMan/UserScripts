@@ -63,6 +63,19 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
 
+> [!WARNING]
+>  <div align="center">
+>  Este repositorio es solo<code>GitHub</code>Alojamiento en,No aquí<code>GitCode</code>y<code>XPlaza</code>Alojamiento en。Los siguientes repositorios se reflejan。<br>
+>    :trollface: Si lo usas en China continental<code>git clone</code>La velocidad de descarga es demasiado lenta，También puede usar la siguiente dirección
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Cuenta de espejo，Ser inexistente)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
+
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 Navegador y administrador de guiones](#-Navegador-y-administrador-de-guiones) |

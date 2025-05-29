@@ -63,6 +63,19 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
 
+> [!WARNING]
+>  <div align="center">
+>  Kho lưu trữ này chỉ là<code>GitHub</code>Lưu trữ trên,Không ở đây<code>GitCode</code>Và<code>XPlaza</code>Lưu trữ trên。Các kho sau đây được nhân đôi。<br>
+>    :trollface: Nếu bạn sử dụng nó ở Trung Quốc đại lục<code>git clone</code>Tốc độ tải xuống quá chậm，Bạn cũng có thể sử dụng địa chỉ sau
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Tài khoản gương，Không phải người)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
+
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 Trình duyệt và Trình quản lý tập lệnh](#-Trình-duyệt-và-Trình-quản-lý-tập-lệnh) |

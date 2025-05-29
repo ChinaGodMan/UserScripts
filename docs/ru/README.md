@@ -63,6 +63,19 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
 
+> [!WARNING]
+>  <div align="center">
+>  Этот репозиторий только<code>GitHub</code>Хостинг на,Не здесь<code>GitCode</code>и<code>XPlaza</code>Хостинг на。Следующие репозитории отражаются。<br>
+>    :trollface: Если вы используете его в материковом Китае<code>git clone</code>Скорость загрузки слишком медленная，Вы также можете использовать следующий адрес
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Зеркальный счет，Не человек)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
+
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 Браузер и менеджер сценариев](#-Браузер-и-менеджер-сценариев) |

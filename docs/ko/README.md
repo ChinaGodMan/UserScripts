@@ -27,7 +27,7 @@
 <h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EA%B0%80%20%ED%95%98%EB%A3%A8%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94%20%ED%9A%9F%EC%88%98&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EA%B0%80%20%ED%95%98%EB%A3%A8%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%A9%EB%8B%88%EB%8B%A4&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%20%EC%84%A4%EC%B9%98%EB%90%9C%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
@@ -62,6 +62,19 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
+
+> [!WARNING]
+>  <div align="center">
+>  이 저장소는 전용입니다<code>GitHub</code>호스팅,여기가 아닙니다<code>GitCode</code>그리고<code>XPlaza</code>호스팅。다음 리포지토리는 반영됩니다。<br>
+>    :trollface: 중국 본토에서 사용하는 경우<code>git clone</code>다운로드 속도가 너무 느립니다，다음 주소를 사용할 수도 있습니다
+>    
+>  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (미러 계정，비인원)  
+>    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
+>    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
+>    
+>    
+>  </div>
 
 <!--README-TOC-->
 ## 🔖 TOC
