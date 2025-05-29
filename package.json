@@ -36,8 +36,7 @@
     "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-yml": "^1.18.0",
     "husky": "^9.1.7",
-    "prettier": "^3.5.3",
-    "ssri": "^12.0.0"
+    "prettier": "^3.5.3"
   },
   "scripts": {
     "prepare": "husky",
@@ -45,6 +44,8 @@
     "bump:scripts": "python utils/update_version.py",
     "isort": "isort utils/",
     "flake8": "flake8 --config=pyproject.toml",
+    "pep8:check": "python -X utf8 -m autopep8 --diff --recursive utils/",
+    "pep8:write": "python -X utf8 -m autopep8 --in-place --recursive utils/",
     "fmt:write": "prettier --write '**/*.{js,mjs,json}'",
     "fmt:check": "prettier --check '**/*.{js,mjs,json}'",
     "lint": "eslint . --cache",
