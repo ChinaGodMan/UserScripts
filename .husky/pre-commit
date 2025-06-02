@@ -1,13 +1,15 @@
 #!/bin/bash
 
-RED="\033[1;31m" ; NC="\033[0m"
+RED="\033[1;31m"
+NC="\033[0m"
 
-if npm ls -g eslint &> /dev/null || npm ls eslint &> /dev/null ; then
+if npm ls -g eslint &>/dev/null || npm ls eslint &>/dev/null; then
     npm run lint
+    # npx lint-staged
 else
     PROJECT_ROOT=$(
-        cd "$(dirname "$0")/.." && # 导航到根目录
-        [ "$OSTYPE" == "msys" ] && pwd -W || pwd # 获取绝对路径
+        cd "$(dirname "$0")/.." &&                   # 导航到根目录
+            [ "$OSTYPE" == "msys" ] && pwd -W || pwd # 获取绝对路径
     )
     echo -e "\n${RED}警告：未安装 eslint${NC}"
     echo -e " 要添加缺少的依赖，请在"

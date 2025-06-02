@@ -36,6 +36,7 @@
     "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-yml": "^1.18.0",
     "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
     "prettier": "^3.5.3"
   },
   "scripts": {
@@ -60,5 +61,13 @@
     "docs:scripts:history": "python utils/merge_change_history.py",
     "docs:translate:repo": "python utils/translate_force_chinese_to_lang.py",
     "docs:translate:scripts": "python utils/translate_chinese_to_filelang.py"
+  },
+  "lint-staged": {
+    "*.{js,mjs}": [
+      "eslint --fix"
+    ],
+    "*.{yml,md,json}": [
+      "prettier --write"
+    ]
   }
 }
