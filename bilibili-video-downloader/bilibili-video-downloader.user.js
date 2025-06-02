@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              Bilibili Video Downloader
-// @name:zh-CN        Download videos from Bilibili (No Bangumi)
-// @description       哔哩哔哩视频下载器
+// @name:zh-CN        哔哩哔哩视频下载器
+// @description       Download videos from Bilibili (No Bangumi)
 // @description:zh-CN 下载哔哩哔哩视频（不支持番剧）
 // @author            jc3213
 // @namespace         https://github.com/jc3213/userscript
