@@ -83,7 +83,6 @@
 // @grant             GM_getValue
 // @grant             GM_xmlhttpRequest
 // @match             *://greasyfork.org/*
-// @match             *://sleazyfork.org/*
 // @require           https://code.jquery.com/jquery-3.7.1.min.js
 // @author            yysk.org,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace         https://github.com/ChinaGodMan/UserScripts
@@ -97,7 +96,7 @@
 // @compatible        opera
 // @compatible        safari
 // @compatible        kiwi
-// @version           2025.04.12.1109
+// @version           2025.6.2.1
 // @created           2025-03-10 09:59:11
 // @modified          2025-03-10 09:59:11
 // ==/UserScript==
@@ -107,7 +106,7 @@
  * File Created: 2025/03/10,Monday 09:59:36
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/12,Saturday 11:09:21
+ * Last Modified: 2025/06/02,Monday 08:02:32
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
