@@ -32,7 +32,11 @@ def generate_html_table(scripts):
 
         script_id = script.get("greasyfork_id")
         script_fold = script.get("directory")
+        adult = script.get("adult")
         js_name = script.get("js_name")
+
+        # 判断是否为成人脚本
+        domain = "sleazyfork.org" if adult else "greasyfork.org"
 
         # ? 直接从尼玛的脚本中读取脚本名称和介绍,废弃掉从json内读取,让README.md显示完整的信息
         script_absolute_path = script.get("directory") + "/" + js_name
@@ -95,7 +99,8 @@ def generate_html_table(scripts):
             details_block=details_block,
             changelog_block=changelog_block,
             author_block=author_block,
-            readme_file=readme_file_name
+            readme_file=readme_file_name,
+            domain=domain,
         )
 
     return html_table

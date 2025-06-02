@@ -57,6 +57,7 @@ for item in docs['files']:
     source = item['source']
     if source == "docs/README.md":
         target = item['target']
+        target.append('')  # 修复 docs/README.md
         for lang in target:
             readme = f"docs/{lang}/README.md"
             if not is_file_modified(readme):
@@ -76,11 +77,12 @@ for item in docs['files']:
                 content = file.read()
             updated_content = re.sub(reg_return, lambda match: replace_links(match, return_link_template), content)
 
-            # 增加上级相对路径
-            matches = re.findall(reg_relative, updated_content)
-            matches = get_top_path(matches)
-            for match in matches:
-                modified_path = modify_path(match)
-                updated_content = updated_content.replace(match, modified_path)
+            if lang != '':  # 跳过 docs/README.md
+                # 增加上级相对路径
+                matches = re.findall(reg_relative, updated_content)
+                matches = get_top_path(matches)
+                for match in matches:
+                    modified_path = modify_path(match)
+                    updated_content = updated_content.replace(match, modified_path)
             with open(readme, 'w', encoding='utf-8', newline='\n') as file:
                 file.write(updated_content)

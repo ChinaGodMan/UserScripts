@@ -19,7 +19,7 @@
     {
       "name": "ChatGPT代码字体缩小",
       "description": "让 ChatGPT 代码框内字体变小",
-      "group": "ChatGPT相关脚本",
+      "group": "AI 脚本",
       "js_name": "chatgpt-code-styling.user.js",
       "directory": "chatgpt-code-styling",
       "version": "0.1.1.0",
@@ -32,7 +32,7 @@
     {
       "name": "ChatGPT 代码高亮",
       "description": "为 ChatGPT 添加所有语言代码高亮（使用 highlight.js）",
-      "group": "ChatGPT相关脚本",
+      "group": "AI 脚本",
       "js_name": "chatgpt-code-hightlight.user.js",
       "directory": "chatgpt-code-hightlight",
       "version": "2025.02.18.0403",
@@ -45,7 +45,7 @@
     {
       "name": "ChatGPT 聊天复制代码按钮",
       "description": "在 chatgpt.com 上代码块的右下角添加一个带有动画的“复制代码”按钮",
-      "group": "ChatGPT相关脚本",
+      "group": "AI 脚本",
       "js_name": "chatgpt-copy-code-button.user.js",
       "directory": "chatgpt-copy-code-button",
       "version": "1.2.0.0",
@@ -58,7 +58,7 @@
     {
       "name": "ChatGPT 字符计数器",
       "description": "添加一个字符计数器到输入框，限制为 32732 个字符。（ChatGPT 的限制是 32732 个字符。）",
-      "group": "ChatGPT相关脚本",
+      "group": "AI 脚本",
       "js_name": "chatgpt-counter.user.js",
       "directory": "chatgpt-counter",
       "version": "1.3.1.14",
@@ -71,7 +71,7 @@
     {
       "name": "ChatGPT 折叠自己消息和最大宽度",
       "description": "自动折叠由你发送的长消息，节省屏幕空间。允许你设置聊天窗口的最大宽度，使得长消息不会超出指定范围。",
-      "group": "ChatGPT相关脚本",
+      "group": "AI 脚本",
       "js_name": "chatgpt-plus.user.js",
       "directory": "chatgpt-plus",
       "version": "0.3.0.0",
@@ -84,7 +84,7 @@
     {
       "name": "网页写入剪辑版授权管理器",
       "description": "禁止网页向剪辑版拉屎，绿色为放行，红色禁止，橙色临时方向",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "clipboard-manager.user.js",
       "directory": "clipboard-manager",
       "version": "1.2.3.1",
@@ -97,7 +97,7 @@
     {
       "name": "解除CSDN登录复制限制",
       "description": "去你妈的 CSDN 登录复制，无需登录即可复制代码框内容",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "csdn-blocker.user.js",
       "directory": "csdn-blocker",
       "version": "1.0.0.23",
@@ -110,7 +110,7 @@
     {
       "name": "绚丽渐变美化网页表格",
       "description": "自动为网页上的表格所有列应用颜色渐变美化.",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "colorful-table.user.js",
       "directory": "colorful-table",
       "version": "1.0.0.9",
@@ -123,7 +123,7 @@
     {
       "name": "GitHub提交信息显示HTML",
       "description": "该脚本将 GitHub 上的提交信息转化为 HTML 视图，以更清晰地查看提交详情。它会自动将提交信息列表、提交头部和最新提交信息转化为 HTML 格式，提供更佳的视觉效果和用户体验。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-commit-viewer.user.js",
       "directory": "github-commit-viewer",
       "version": "1.0.0.19",
@@ -136,7 +136,7 @@
     {
       "name": "在Github上打开jsDelivr链接",
       "description": "打开jsDelivr上的GitHub链接,用于快速下载文件",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-jsdelivr-link.user.js",
       "directory": "github-jsdelivr-link",
       "version": null,
@@ -149,7 +149,7 @@
     {
       "name": "GitHub 快速跳转助手",
       "description": "GitHub 快速跳转助手是一款专为帮助用户快速访问自己在 GitHub 上的仓库而设计。它可以大幅提高开发者在使用 GitHub 时的效率。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-repository-navigator.user.js",
       "directory": "github-repository-navigator",
       "version": "2024.11.6.21",
@@ -162,7 +162,7 @@
     {
       "name": "GitHub 文件列表美化器",
       "description": "GitHub 文件列表美化器是一个用户脚本，用于增强 GitHub 仓库中的文件显示效果。它可以为文件和文件夹添加颜色，并将文件类型图标替换为小图像，使得代码库更加易于浏览和管理。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-file-list-beautifier-plus.user.js",
       "directory": "github-file-list-beautifier-plus",
       "version": "4.1.0.4",
@@ -175,7 +175,7 @@
     {
       "name": "Github 代码语言列表显示全部",
       "description": "扩展 Github 存储库上的语言列表，显示每种语言，而不是将小部分隐藏在 “其他” 下",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-linguist-expand.user.js",
       "directory": "github-linguist-expand",
       "version": "1.1.0.0",
@@ -188,7 +188,7 @@
     {
       "name": "GitHub 自动确认设备授权",
       "description": "在GitHub授权页面自动输入授权码与自动确认。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-device-authorization.user.js",
       "directory": "github-device-authorization",
       "version": "1.0.0.0",
@@ -201,7 +201,7 @@
     {
       "name": "GitHub文件夹下载",
       "description": "添加一个下载按钮，允许轻松下载特定的 GitHub 文件夹。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-folder-downloader.user.js",
       "directory": "github-folder-downloader",
       "version": "0.7.0.23",
@@ -214,7 +214,7 @@
     {
       "name": "GitHub下载单文件和复制文件URL",
       "description": "在每个文件行的末尾添加按钮，以复制原始文件 URL 和下载文件",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-raw-file-plus.user.js",
       "directory": "github-raw-file-plus",
       "version": "2.2.0.22",
@@ -227,7 +227,7 @@
     {
       "name": "🤠 Github 增强小助手 仓库显示大小 不活跃开发警告 仓库内快捷跳转用户其他仓库 🤠",
       "description": "在Github查看仓库和搜索仓库时显示仓库大小 ，不活跃开发警告，仓库内快捷跳转.",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-repo-size-view.user.js",
       "directory": "github-repo-size-view",
       "version": "0.1.3.7",
@@ -240,7 +240,7 @@
     {
       "name": "GitHub Sort by Date",
       "description": "仓库列表文件排序方式改为日期降序，方便查看最新更新的文件。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-sort-by-date.user.js",
       "directory": "github-sort-by-date",
       "version": "1.1.0.23",
@@ -253,7 +253,7 @@
     {
       "name": "Google 高级搜索",
       "description": "这是一个为 Google 添加高级搜索表单的用户脚本。它能在页面顶部添加一个可隐藏的高级搜索表单，使您能够更精确地搜索信息。",
-      "group": "Google相关脚本",
+      "group": "Google 脚本",
       "js_name": "google-advanced-search.user.js",
       "directory": "google-advanced-search",
       "version": "0.1.9.45",
@@ -266,7 +266,7 @@
     {
       "name": "Google 搜索屏蔽指定站点",
       "description": "在搜索引擎结果中屏蔽特定的站点，帮助用户过滤掉不需要的搜索结果。 自定义输入屏蔽站点。格式-zhihu -baidu 用于屏蔽谷歌搜索内容",
-      "group": "Google相关脚本",
+      "group": "Google 脚本",
       "js_name": "google-block-search-sites.user.js",
       "directory": "google-block-search-sites",
       "version": "0.0.1.51",
@@ -279,7 +279,7 @@
     {
       "name": "GreasyFork适用于增强",
       "description": "脚本详情页增加适用于链接增加点击打开网页，复制网页,轮胎搜索",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-link.user.js",
       "directory": "greasyfork-link",
       "version": "0.9.3.66",
@@ -292,7 +292,7 @@
     {
       "name": "GrreasyFork 用户发布的脚本数据可视化",
       "description": "使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-user-scripts-data-visualization.user.js",
       "directory": "greasyfork-user-scripts-data-visualization",
       "version": "1.1.1.1",
@@ -305,7 +305,7 @@
     {
       "name": "GreaysFork 增强 WebHook同步设置",
       "description": "这个脚本可以帮助你快速输入脚本同步信息，并批量增加多个国家的语言代码，而不用一个个地点击选择框再去对应的网址。",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-webhook-sync-enhanced.user.js",
       "directory": "greasyfork-webhook-sync-enhanced",
       "version": "1.1.1.1",
@@ -318,7 +318,7 @@
     {
       "name": "GreasyFork Markdown toobar",
       "description": "在论坛默认使用 Markdown 格式，添加格式帮助链接及 Markdown 工具栏绍",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-markdown-toolbar.user.js",
       "directory": "greasyfork-markdown-toolbar",
       "version": "2.0.5",
@@ -331,7 +331,7 @@
     {
       "name": "GreasyFork 显示脚本评分",
       "description": "脚本列表添加评价分数",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-ranks.user.js",
       "directory": "greasyfork-ranks",
       "version": "1.3.3.63",
@@ -344,7 +344,7 @@
     {
       "name": "GreasyFork 高级搜索",
       "description": "使用谷歌搜索 GreasyFork 和 SleazyFork 上的脚本",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-search.user.js",
       "directory": "greasyfork-search",
       "version": "0.6.5.23",
@@ -357,7 +357,7 @@
     {
       "name": "GreasyFork 导航栏增强",
       "description": "增强greasyfork导航栏,增加用户列表,用户控制台等",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-user-control-panel-button.user.js",
       "directory": "greasyfork-user-control-panel-button",
       "version": "0.3.1.57",
@@ -370,7 +370,7 @@
     {
       "name": "Greasyfork糊裱匠",
       "description": "增强greasyfork,复制代码，脚本下载，精确时间到秒，主页清理，讨论一键举报，脚本列表跳转代码添加下载 美化查看代码显示代码引用文件，显示脚本图标，跳转成人脚本等等一些操作",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-utility-toolkit.user.js",
       "directory": "greasyfork-utility-toolkit",
       "version": "2024.12.12.2116",
@@ -383,7 +383,7 @@
     {
       "name": "Greasyfork 通知助手",
       "description": "当你的脚本或你参与的讨论有新回复时，脚本会在网页上以模态窗口显示最新的讨论内容。",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-discussion-watcher.user.js",
       "directory": "greasyfork-discussion-watcher",
       "version": "1.5.0.4",
@@ -396,7 +396,7 @@
     {
       "name": "网页高亮关键字+(推荐)",
       "description": "对网页上的文字进行高亮显示",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "highlight-keywords.user.js",
       "directory": "highlight-keywords",
       "version": "1.1.2.72",
@@ -409,7 +409,7 @@
     {
       "name": "高亮网页文本-迷你版",
       "description": "在网页上自定义关键词突出显示包括滚动时动态加载的内容",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "highlight-keywords-mini.user.js",
       "directory": "highlight-keywords-mini",
       "version": "1.0.5.26",
@@ -420,6 +420,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "MiSSAV自动登录",
       "description": "检测 MisssAV 状态，并且在未登录时自动登录",
       "group": "成人脚本",
@@ -433,6 +434,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "xhamster 视频一键下载助手",
       "description": "xhamster 视频一键下载 | xhamster.com | 无需登录直接下载 | 可下载所有可观看分辨率",
       "group": "成人脚本",
@@ -446,6 +448,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "XnxxVideos 视频一键下载助手",
       "description": "XnxxVideos 视频一键下载 | xnxx.com | 无需登录直接下载 | 可下载所有可观看分辨率",
       "group": "成人脚本",
@@ -459,6 +462,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "xvideos推送下载",
       "description": "1.自动播放 2.自动宽屏 3.高画质播放 4.点击推送下片 5.下载缩略图",
       "group": "成人脚本",
@@ -472,6 +476,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "Pornhub 视频一键下载",
       "description": "Pornhub 视频一键下载 | pornhub.com | 无需登录直接下载 | 可直接下载免费观看付费下载视频 | 可下载已禁止下载的视频 | 可下载所有可观看分辨率",
       "group": "成人脚本",
@@ -485,6 +490,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "MissAV视频下载工具",
       "description": "从当前missav播放页面嗅探视频的真实下载地址并下载",
       "group": "成人脚本",
@@ -498,6 +504,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "MissAV收藏管理器",
       "description": "miss片单备份，支持下载图片保存视频信息.导出本地网页 支持导出到webdav",
       "group": "成人脚本",
@@ -511,6 +518,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "TissAV自动登录",
       "description": "检测 TissAV 状态，并且在未登录时自动登录",
       "group": "成人脚本",
@@ -524,6 +532,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "JableTV自动登录",
       "description": "检测 JableTV 状态，并且在未登录时自动登录",
       "group": "成人脚本",
@@ -539,7 +548,7 @@
     {
       "name": "外语终结者",
       "description": "识别非中文字符，如果长度大于 5 且翻译文本中不含中文，则替换为中文,需要可访问google的网络",
-      "group": "自动翻译",
+      "group": "翻译脚本",
       "js_name": "no-zh-terminator.user.js",
       "directory": "no-zh-terminator",
       "version": "1.4.0.0",
@@ -552,7 +561,7 @@
     {
       "name": "小窗口预览",
       "description": "拖拽链接时在弹出窗口中打开链接，并在打开前提供预览，使用 Edge 的预读技术。同时在小窗口打开时在背后添加亚克力效果。",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "popup-window.user.js",
       "directory": "popup-window",
       "version": "2.5.1.4",
@@ -565,7 +574,7 @@
     {
       "name": "去除链接下划线",
       "description": "去除网页链接的下划线",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "remove-link-underlines.user.js",
       "directory": "remove-link-underlines",
       "version": "1.2.0.63",
@@ -578,7 +587,7 @@
     {
       "name": "Script Finder油猴脚本查找器",
       "description": "Script Finder 是一个用户脚本（userscript），它可以帮助你在任何网站上查找和管理用户脚本",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "script-finder-plus.user.js",
       "directory": "script-finder-plus",
       "version": "0.1.6.80",
@@ -591,7 +600,7 @@
     {
       "name": "上下滚动小按钮",
       "description": "页面右侧添加上下滚动按钮",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "scroll-button.user.js",
       "directory": "scroll-button",
       "version": "1.0.0.26",
@@ -604,7 +613,7 @@
     {
       "name": "一键置顶和置底按钮",
       "description": "修改自Greasyfork用户脚本 为网页添加置顶和置底按钮，方便在长页面中快速移动到顶部或底部。 增加向下滚动时按钮变色，3秒内无滚动自动停止",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "scroll-to-top-button.user.js",
       "directory": "scroll-to-top-button",
       "version": "1.2.0.72",
@@ -617,7 +626,7 @@
     {
       "name": "网页翻译——自动翻译为中文",
       "description": "给每个非中文的网页右下角（可以调整到左下角）添加一个 google 翻译图标，该版本为中文翻译版本，只把外语翻译为中文，添加自动翻译",
-      "group": "自动翻译",
+      "group": "翻译脚本",
       "js_name": "translate-only-chinese.user.js",
       "directory": "translate-only-chinese",
       "version": "0.31.0.23",
@@ -628,6 +637,7 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
+      "adult": true,
       "name": "MissAV 增强小助手",
       "description": "去除广告|后台播放|自动播放|自定义快进时间|完整标题|更多功能...",
       "group": "成人脚本",
@@ -643,7 +653,7 @@
     {
       "name": "显示Greasyfork用户注册时间，识别恶意评论",
       "description": "如果你的脚本干涉了某些人的利益，收到恶意差评并不意外。恶意差评有两个特点，一是账号通常新注册，二是注册后不久就会给差评，且基本不会有后续活动。本脚本获取greasyfork用户注册时间，并显示在用户名旁边。如果用户名旁边显示的时间是未来的时间，那么这个用户很可能是恶意注册的账号。",
-      "group": "GreasyFork相关脚本",
+      "group": "GreasyFork",
       "js_name": "greasyfork-user-registration-time.user.js",
       "directory": "greasyfork-user-registration-time",
       "version": "2025.03.10.0959",
@@ -656,7 +666,7 @@
     {
       "name": "Twitter/X 隐藏转发的帖子",
       "description": "自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告",
-      "group": "社交媒体脚本",
+      "group": "社交媒体",
       "js_name": "twitter-hide-reposts.user.js",
       "directory": "twitter-hide-reposts",
       "version": "2025.03.11.0654",
@@ -669,7 +679,7 @@
     {
       "name": "Twitter 媒体下载",
       "description": "一键下载视频/图片 | 并在批量下载时自动打包为一个ZIP文件下载",
-      "group": "社交媒体脚本",
+      "group": "社交媒体",
       "js_name": "twitter-media-downloader.user.js",
       "directory": "twitter-media-downloader",
       "version": "2025.03.11.0811",
@@ -682,7 +692,7 @@
     {
       "name": "GitHub Gist 代码片段复制与下载器",
       "description": "向 Gist 文件添加复制按钮，以便轻松复制代码。| 向 Gist 文件添加下载按钮，以便轻松下载代码。",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-gist-copier.user.js",
       "directory": "github-gist-copier",
       "version": "2025.03.12.0022",
@@ -695,7 +705,7 @@
     {
       "name": "YouTube 小助手",
       "description": "YouTube 1.视频循环播放 2.截图下载 3.主题进度条",
-      "group": "社交媒体脚本",
+      "group": "社交媒体",
       "js_name": "youtube-helper.user.js",
       "directory": "youtube-helper",
       "version": "2025.03.15.0436",
@@ -708,7 +718,7 @@
     {
       "name": "MarkDown 云剪笔记",
       "description": "将网页内容转换为 Markdown 格式的工具，支持复制、下载、发送到 GitHub 和 Obsidian 等功能。",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "web-clipper.user.js",
       "directory": "web-clipper",
       "version": "2025.03.18.0713",
@@ -721,7 +731,7 @@
     {
       "name": "GitHub 快捷键翻译助手",
       "description": "监听键盘快捷键 Ctrl + Q，实现对文本进行翻译并将翻译结果替换到原文本框中的功能 支持Issue和pull request 页面.",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-comment-translate.user.js",
       "directory": "github-comment-translate",
       "version": "2025.03.20.0728",
@@ -734,7 +744,7 @@
     {
       "name": "翻译小工具 | 翻译任何语言",
       "description": "任何语言翻译及快捷一键翻译想要语言 | 页面翻译 | 选中文字（ 按Ctrl ）| 提供快捷方式，只需按一个键即可快速翻译想要语言 |英文学习 | 翻译文可设置，支持全球多数通用语言 | 有什么问题都可以反馈",
-      "group": "自动翻译",
+      "group": "翻译脚本",
       "js_name": "smart-translator-tool.user.js",
       "directory": "smart-translator-tool",
       "version": "2025.03.21.1227",
@@ -747,7 +757,7 @@
     {
       "name": "GitHub 星标仓库备注助手",
       "description": "曾经 Star 过的仓库是不是忘记了它们的用途? 这是一个可以给你收藏过的仓库添加备注的的脚本,并且你备注的信息可以上传下载到 GitHub Gist",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-starred-repo-note.user.js",
       "directory": "github-starred-repo-note",
       "version": "2025.04.21.1652",
@@ -760,7 +770,7 @@
     {
       "name": "GitHub 跳转到 DeepWiKi",
       "description": "GitHub 存储库跳转到 DeepWiKi,支持电脑桌面端和移动端",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-to-deepwiki.user.js",
       "directory": "github-to-deepwiki",
       "version": "2025.5.17.1",
@@ -773,7 +783,7 @@
     {
       "name": "GitHub 隐藏 Copilot",
       "description": "在 GitHub 上隐藏愚蠢的 Copilot",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-no-copilot.user.js",
       "directory": "github-no-copilot",
       "version": "2025.5.19.1",
@@ -786,7 +796,7 @@
     {
       "name": "GitHub 邮箱地址查找器",
       "description": "使用公开事件数据（例如，推送到公开代码库的提交），获取用户的提交邮箱地址并将其显示在个人资料页面上。此外，它还添加了一个便捷的“复制到剪贴板”按钮，方便复制.",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-email-finder.user.js",
       "directory": "github-email-finder",
       "version": "2025.5.26.1",
@@ -799,7 +809,7 @@
     {
       "name": "GitHub 显示文件和文件夹大小",
       "description": "显示 GitHub 存储库中每个文件和文件夹的大小。它使用 GitHub API 获取详细信息，包括递归文件夹大小，从而轻松查看嵌套目录的总大小。 以 KB、MB 或 GB 显示文件大小",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-file-size-viewer.user.js",
       "directory": "github-file-size-viewer",
       "version": "2025.5.26.1",
@@ -815,7 +825,7 @@
     {
       "name": "文本转链接",
       "description": "把文字链接转换为可点击链接",
-      "group": "网页相关脚本",
+      "group": "网页脚本",
       "js_name": "text-to-link.user.js",
       "directory": "text-to-link",
       "version": "2025.5.26.1",
@@ -828,7 +838,7 @@
     {
       "name": "GitHub 共同协作者",
       "description": "在 GitHub PR中添加一个按钮,以便在合并之前将所有 PR 参与者添加为共同作者.",
-      "group": "GitHub相关脚本",
+      "group": "GitHub 脚本",
       "js_name": "github-co-authors.user.js",
       "directory": "github-co-authors",
       "version": "2025.5.27.1",
