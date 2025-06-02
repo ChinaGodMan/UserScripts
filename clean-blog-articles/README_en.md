@@ -1,36 +1,99 @@
 <a id="top"></a>
 
 <!--NAVIGATION-->
+<div align="right">
+    <h6>
+        <picture>
+            <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
+                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+            <img height=14
+                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+        </picture>
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clean-blog-articles/README.md">简体中文</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clean-blog-articles/README_en.md">English</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clean-blog-articles/README_ko.md">한국어</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clean-blog-articles/README_vi.md">Tiếng Việt</a> |
+        <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/clean-blog-articles/README_zh-TW.md">繁體中文</a>
+    <br>
+    <em><sub>👆️access GitHub Readme file on for a better experience。</sub></em>
+    </h6>
+</div>
+
 <!--NAVIGATION-END-->
 <!--SHIELDS-->
+<center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
+    <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="UserScripts"></a>
+<h5><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List" target="_blank"><ruby>GitHubView the serviceman’s script<rt>Github:@ChinaGodMan</rt></ruby></a><br><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=created" target="_blank">GreasyForkView the serviceman’s script</a><br><a href="#:~:text=View all publish scripts">View the serviceman’s script on the current page</a></h5>
+<a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
+<img src="https://img.shields.io/badge/dynamic/json?&label=Total%20number%20of%20installs%20of%20all%20scripts&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20times%20a%20script%20is%20used%20per%20day&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20all%20scripts%20installed%20today&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Number%20of%20scripts&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20good%20reviews&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=All%20general&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=All%20negative%20reviews&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/ChinaGodMan/UserScripts?label=Code%20quality&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=Star%20mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">If the script helps you,Can light up the stars to encourage</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
+<a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
+<a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
+</center>
+</div></center>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<center><div align="center">
+    <strong>Recommended use：</strong><br>
+<img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/Recommended%20browser-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/Script%20Manager-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+💡 <strong>Tip:</strong> The script manager and browser listed above do not represent all<br>
+    <strong>The script runs normally in the following environment</strong><br>
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
+    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+</div></center>
+
 <!--SHIELDS-END-->
 <!--HISTORY-->
+<center><div align="center">
+    <h1>Clean blog posts</h1>
+    <p>「 Remove annoying sidebars, comment blocks, ads, and more. 」</p>
+    <img src="https://views.whatilearened.today/views/github/537643/hmjz100.svg" alt="Views">
+    <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clean-blog-articles/clean-blog-articles.user.js?color=%23990000">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.537643&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles">Github</a> | ⭐<a
+            href="https://greasyfork.org/scripts/537643">Greasy
+            Fork</a></p>
+    <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537643.png">
+</div></center>
+
 <!--HISTORY-END-->
 <!--TEXT-->
 
 # Clean Blog Articles
 
-## 功能
+## Function
 
-- 删除页面中的广告和干扰元素。
-- 调整页面布局，使内容更加集中。
-- 支持多个平台，包括 CSDN、博客园、Reddit、掘金、知乎、Baeldung、Medium 和 Stack Overflow。
-- 自定义复制功能（如允许无障碍复制文本）。
-- 针对宽屏和竖屏设备自动调整布局。
+- Delete ads and distracting elements in the page。
+- Adjust page layout，Make content more concentrated。
+- Support multiple platforms，include CSDN、Blog Park、Reddit、Nuggets、Zhihu、Baeldung、Medium and Stack Overflow。
+- Custom copy function（If you allow accessibility to copy text）。
+- Automatically adjust layout for wide-screen and vertical-screen devices。
 
-## 支持的平台
+## Supported platforms
 
-- **CSDN**：移除登录提示、侧边栏、工具栏等。
-- **博客园**：隐藏评论表单、侧边栏等，优化内容显示。
-- **Reddit**：隐藏推广链接和侧边栏，集中显示主要内容。
-- **掘金**：移除推荐区、评论区等干扰元素。
-- **知乎**：优化颜色样式，隐藏右侧栏、广告等。
-- **Baeldung**：隐藏顶部广告、侧边栏等。
-- **Medium**：隐藏会员推广条，优化代码块显示。
-- **Stack Overflow**：移除侧边栏和底部页脚。
+- **CSDN**：Remove login prompt、Sidebar、Toolbars, etc.。
+- **Blog Park**：Hide comment form、Sidebar, etc.，Optimize content display。
+- **Reddit**：Hide promotion links and sidebars，Show main content in a concentrated manner。
+- **Nuggets**：Remove the recommendation area、Interference elements such as comment section。
+- **Zhihu**：Optimize color styles，Hide the right sidebar、Advertising, etc.。
+- **Baeldung**：Hide top ads、Sidebar, etc.。
+- **Medium**：Hide member promotion post，Optimize code block display。
+- **Stack Overflow**：Remove sidebar and bottom footer。
 
 <!--AUTHORS-->
-## 💖 脚本参考或使用了以下脚本:
+## 💖 The script referenced or used the following script:
 [🧑‍💻 **@bensgith**](https://github.com/bensgith) ⇒ 📜 _[Clean Blog Articles](https://github.com/bensgith/userscripts/blob/main/clean-blog-articles.user.js)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
@@ -41,10 +104,28 @@
 <!--RELATED-->
 <!--RELATED-END-->
 <!--HELP-->
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+## Help
+
+Recommended browser and script manager：
+
+-   **Greasemonkey + Waterfox**
+-   **Tampermonkey/Violentmonkey + Firefox**
+-   **Tampermonkey/Violentmonkey + Chrome**
+-   **Userscripts + ios Safari**
+-   **Violentmonkey/KiWiBrowser + Android**
+
+**If you need to learn more about how to install user scripts,[Click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en#readme)View the teaching of pictures and texts!**
+
+<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+
+### [View all publish scripts](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List)
+
 <!--HELP-END-->
 <!--FOOTER-->
 
 <img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts#readme"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
+<center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts#readme"><strong>More user scripts</strong></a> /<a href="#top">Back to top↑</a></p></div></center>
 
 <!--FOOTER--END-->
