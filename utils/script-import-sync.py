@@ -286,10 +286,10 @@ if __name__ == "__main__":
                 # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
                 # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
                 locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
-                copy_readme(script_directory, locales)
 
                 # 更新下区域化声明,如果`locales`为空,不进行区域化(仅中国地区使用的脚本)
                 if locales:
+                    copy_readme(script_directory, locales)
                     subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
 
                 # 导入脚本,用于之后的同步附加信息
