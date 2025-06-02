@@ -96,24 +96,24 @@
 
 <!--SCRIPTS_COUNT-->
 **Số lượng các tập lệnh được xuất bản hiện tại cho kho lưu trữ:63,Kịch bản bao gồm:**
-<h6><a href="#Các-tập-lệnh-liên-quan-đến-trang-web-11">Các tập lệnh liên quan đến trang web (11)</a>
- | <a href="#GreasyForkTập-lệnh-liên-quan-11">GreasyForkTập lệnh liên quan (11)</a>
+<h6><a href="#Tập-lệnh-web-11">Tập lệnh web (11)</a>
+ | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#Kịch-bản-người-lớn-10">Kịch bản người lớn (10)</a>
- | <a href="#GoogleTập-lệnh-liên-quan-2">GoogleTập lệnh liên quan (2)</a>
- | <a href="#GitHubTập-lệnh-liên-quan-18">GitHubTập lệnh liên quan (18)</a>
- | <a href="#Bản-dịch-tự-động-3">Bản dịch tự động (3)</a>
- | <a href="#ChatGPTTập-lệnh-liên-quan-5">ChatGPTTập lệnh liên quan (5)</a>
- | <a href="#Kịch-bản-truyền-thông-xã-hội-3">Kịch bản truyền thông xã hội (3)</a>
+ | <a href="#Google-Kịch-bản-2">Google Kịch bản (2)</a>
+ | <a href="#GitHub-Kịch-bản-18">GitHub Kịch bản (18)</a>
+ | <a href="#Kịch-bản-dịch-3">Kịch bản dịch (3)</a>
+ | <a href="#AI-Kịch-bản-5">AI Kịch bản (5)</a>
+ | <a href="#Phương-tiện-truyền-thông-xã-hội-3">Phương tiện truyền thông xã hội (3)</a>
 </h6>
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<div align="center"><h1>Các tập lệnh liên quan đến trang web (11)</h1></div><h3>
+<div align="center"><h1>Tập lệnh web (11)</h1></div><h3>
     <a href="../../scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../../scroll-button">nút cuộn</a>&nbsp;
-    <a href="../../scroll-button">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/497251">
+        <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -148,8 +148,8 @@
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">Trình quản lý ủy quyền phiên bản clip viết trang web</a>&nbsp;
-    <a href="../../clipboard-manager">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/497403">
+        <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -186,8 +186,8 @@
     <a href="../../remove-link-underlines">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../../remove-link-underlines">Xóa gạch chân liên kết</a>&nbsp;
-    <a href="../../remove-link-underlines">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/498625">
+        <img src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -216,8 +216,8 @@ Xóa gạch chân liên kết trên tất cả các trang web，và xử lý cá
     <a href="../../../highlight-keywords-mini">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../../../highlight-keywords-mini">Làm nổi bật các từ khóa web</a>&nbsp;
-    <a href="../../../highlight-keywords-mini">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/498905">
+        <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -246,8 +246,8 @@ Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải đ
     <a href="../../highlight-keywords">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
     <a href="../../highlight-keywords">Đánh dấu các từ khóa trên web</a>&nbsp;
-    <a href="../../highlight-keywords">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/498906">
+        <img src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -282,8 +282,8 @@ Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải đ
     <a href="../../scroll-to-top-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../../scroll-to-top-button">Ghim vào nút trên và dưới</a>&nbsp;
-    <a href="../../scroll-to-top-button">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/500255">
+        <img src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -320,8 +320,8 @@ Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải đ
     <a href="../../popup-window">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../../popup-window">Xem trước cửa sổ nhỏ</a>&nbsp;
-    <a href="../../popup-window">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/504880">
+        <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -358,8 +358,8 @@ Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải đ
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../../csdn-blocker">Đăng nhập CSDN không giới hạn</a>&nbsp;
-    <a href="../../csdn-blocker">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505207">
+        <img src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -388,8 +388,8 @@ Truy cập đăng nhập và sao chép CSDN chết tiệt của bạn, bạn có
     <a href="../../colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../../colorful-table">Làm đẹp các biểu mẫu web với độ dốc tuyệt đẹp</a>&nbsp;
-    <a href="../../colorful-table">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/507036">
+        <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -426,8 +426,8 @@ Truy cập đăng nhập và sao chép CSDN chết tiệt của bạn, bạn có
     <a href="../../text-to-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
     <a href="../../text-to-link">Văn bản để liên kết</a>&nbsp;
-    <a href="../../text-to-link">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/514262">
+        <img src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -458,8 +458,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
     <a href="../../web-clipper">Markdown Cloud Cut Ghi chú</a>&nbsp;
-    <a href="../../web-clipper">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/530139">
+        <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -496,12 +496,12 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GreasyForkTập lệnh liên quan (11)</h1></div><h3>
+<div align="center"><h1>GreasyFork (11)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Trang kịch kịch bản FREASY FORK để tăng cường URL</a>&nbsp;
-    <a href="../../greasyfork-link">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/497317">
+        <img src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -536,8 +536,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../../greasyfork-utility-toolkit">Greasyfork Thợ làm keo</a>&nbsp;
-    <a href="../../greasyfork-utility-toolkit">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/497346">
+        <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -574,8 +574,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../script-finder-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../../script-finder-plus">Script Finder Tra cứu tập lệnh GreasyFork</a>&nbsp;
-    <a href="../../script-finder-plus">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/498904">
+        <img src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -612,8 +612,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../greasyfork-ranks">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../../greasyfork-ranks">Greasyfork Script hiển thị xếp hạng</a>&nbsp;
-    <a href="../../greasyfork-ranks">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/501119">
+        <img src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -648,8 +648,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../../greasyfork-user-control-panel-button">GreasyFork: Cải tiến thanh điều hướng</a>&nbsp;
-    <a href="../../greasyfork-user-control-panel-button">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/501880">
+        <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -684,8 +684,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../greasyfork-markdown-toolbar">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../../greasyfork-markdown-toolbar">GreasyFork markdown</a>&nbsp;
-    <a href="../../greasyfork-markdown-toolbar">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505164">
+        <img src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -722,8 +722,8 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
     <a href="../../greasyfork-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../../greasyfork-search">GreasyFork Search</a>&nbsp;
-    <a href="../../greasyfork-search">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505215">
+        <img src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -752,8 +752,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../../greasyfork-discussion-watcher">GreasyFork Trợ lý thông báo</a>&nbsp;
-    <a href="../../greasyfork-discussion-watcher">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/506345">
+        <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -790,8 +790,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../greasyfork-webhook-sync-enhanced">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../../greasyfork-webhook-sync-enhanced">GreaysFork Nâng caoWebHookĐồng bộ hóa cài đặt</a>&nbsp;
-    <a href="../../greasyfork-webhook-sync-enhanced">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/506717">
+        <img src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -828,8 +828,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../greasyfork-user-scripts-data-visualization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../../greasyfork-user-scripts-data-visualization">GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản</a>&nbsp;
-    <a href="../../greasyfork-user-scripts-data-visualization">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/508968">
+        <img src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -866,8 +866,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../greasyfork-user-registration-time">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../../greasyfork-user-registration-time">Greasyfork Hiển thị thời gian đăng ký</a>&nbsp;
-    <a href="../../greasyfork-user-registration-time">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/529359">
+        <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -908,8 +908,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../../missav-explorer">Video bộ sưu tập sao lưu missav</a>&nbsp;
-    <a href="../../missav-explorer">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/497682">
+        <img src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -924,9 +924,9 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/497682">
+    <a href="https://sleazyfork.org/scripts/497682">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/497682">
+    <a href="https://sleazyfork.org/scripts/497682">
         Greasemonkey</a> /
     <a href="../../missav-explorer/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -946,8 +946,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV Đăng nhập tự động</a>&nbsp;
-    <a href="../../missav-auto-login-helper">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/505325">
+        <img src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -956,9 +956,9 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
 Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/505325">
+    <a href="https://sleazyfork.org/scripts/505325">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/505325">
+    <a href="https://sleazyfork.org/scripts/505325">
         Greasemonkey</a> /
     <a href="../../missav-auto-login-helper/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -978,8 +978,8 @@ Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăn
     <a href="../../thisav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../../thisav-auto-login-helper">ThisAV Đăng nhập tự động</a>&nbsp;
-    <a href="../../thisav-auto-login-helper">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/506528">
+        <img src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -988,9 +988,9 @@ Phát hiện MissAV tình trạng,và tự động đăng nhập khi chưa đăn
 Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/506528">
+    <a href="https://sleazyfork.org/scripts/506528">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/506528">
+    <a href="https://sleazyfork.org/scripts/506528">
         Greasemonkey</a> /
     <a href="../../thisav-auto-login-helper/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1010,8 +1010,8 @@ Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăn
     <a href="../../jable-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../../jable-auto-login-helper">JableTV Đăng nhập tự động</a>&nbsp;
-    <a href="../../jable-auto-login-helper">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/506730">
+        <img src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1020,9 +1020,9 @@ Phát hiện ThisAV tình trạng,và tự động đăng nhập khi chưa đăn
 Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đăng nhập
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/506730">
+    <a href="https://sleazyfork.org/scripts/506730">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/506730">
+    <a href="https://sleazyfork.org/scripts/506730">
         Greasemonkey</a> /
     <a href="../../jable-auto-login-helper/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1042,8 +1042,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../missav-m3u8-finder">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-m3u8-finder">Công cụ tải xuống video missav</a>&nbsp;
-    <a href="../../missav-m3u8-finder">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/528160">
+        <img src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1058,9 +1058,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/528160">
+    <a href="https://sleazyfork.org/scripts/528160">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/528160">
+    <a href="https://sleazyfork.org/scripts/528160">
         Greasemonkey</a> /
     <a href="../../missav-m3u8-finder/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1080,8 +1080,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../xvideos-enhance">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png" width=18></a>
     <a href="../../xvideos-enhance">XVIDEOS Đẩy tải xuống</a>&nbsp;
-    <a href="../../xvideos-enhance">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/528798">
+        <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1096,9 +1096,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/528798">
+    <a href="https://sleazyfork.org/scripts/528798">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/528798">
+    <a href="https://sleazyfork.org/scripts/528798">
         Greasemonkey</a> /
     <a href="../../xvideos-enhance/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1118,8 +1118,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
     <a href="../../pornhub-download">Tải xuống video pornhub chỉ bằng một cú nhấp chuột</a>&nbsp;
-    <a href="../../pornhub-download">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/528800">
+        <img src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1134,9 +1134,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/528800">
+    <a href="https://sleazyfork.org/scripts/528800">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/528800">
+    <a href="https://sleazyfork.org/scripts/528800">
         Greasemonkey</a> /
     <a href="../../pornhub-download/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1156,8 +1156,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../xhamster-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png" width=18></a>
     <a href="../../xhamster-downloader">Xamster Video một cú nhấp chuột Trợ lý tải xuống</a>&nbsp;
-    <a href="../../xhamster-downloader">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/529043">
+        <img src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1172,9 +1172,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/529043">
+    <a href="https://sleazyfork.org/scripts/529043">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/529043">
+    <a href="https://sleazyfork.org/scripts/529043">
         Greasemonkey</a> /
     <a href="../../xhamster-downloader/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1194,8 +1194,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../xnxx-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.xnxx.com/apple-touch-icon.png"><img width=18 src="https://www.xnxx.com/apple-touch-icon.png" width=18></a>
     <a href="../../xnxx-downloader">Trợ lý tải xuống video xnxxvideos</a>&nbsp;
-    <a href="../../xnxx-downloader">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/529044">
+        <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1210,9 +1210,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/529044">
+    <a href="https://sleazyfork.org/scripts/529044">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/529044">
+    <a href="https://sleazyfork.org/scripts/529044">
         Greasemonkey</a> /
     <a href="../../xnxx-downloader/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1232,8 +1232,8 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
     <a href="../../missav-enhancer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-enhancer">Trợ lý nâng cao Missav</a>&nbsp;
-    <a href="../../missav-enhancer">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://sleazyfork.org/scripts/529125">
+        <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1248,9 +1248,9 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </details>
 
 <blockquote>
-    <a href="https://greasyfork.org/scripts/529125">
+    <a href="https://sleazyfork.org/scripts/529125">
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
-    <a href="https://greasyfork.org/scripts/529125">
+    <a href="https://sleazyfork.org/scripts/529125">
         Greasemonkey</a> /
     <a href="../../missav-enhancer/README_vi.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
@@ -1268,12 +1268,12 @@ Phát hiện JableTV tình trạng,và tự động đăng nhập khi chưa đă
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GoogleTập lệnh liên quan (2)</h1></div><h3>
+<div align="center"><h1>Google Kịch bản (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../../google-block-search-sites">Chặn các trang web tìm kiếm google</a>&nbsp;
-    <a href="../../google-block-search-sites">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/500262">
+        <img src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1302,8 +1302,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google Trợ lý tìm kiếm nâng cao</a>&nbsp;
-    <a href="../../google-advanced-search">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/502652">
+        <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1338,12 +1338,12 @@ Tìm kiếm một Google chặn một trang web được chỉ định
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHubTập lệnh liên quan (18)</h1></div><h3>
+<div align="center"><h1>GitHub Kịch bản (18)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../../github-repo-size-view">🤠 Kích thước hiển thị kho trợ lý nâng cao của Github</a>&nbsp;
-    <a href="../../github-repo-size-view">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/502291">
+        <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1382,8 +1382,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-sort-by-date">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../../github-sort-by-date">GitHub Sắp xếp theo ngày</a>&nbsp;
-    <a href="../../github-sort-by-date">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505218">
+        <img src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1418,8 +1418,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../../github-folder-downloader">GitHub trình tải xuống thư mục</a>&nbsp;
-    <a href="../../github-folder-downloader">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505496">
+        <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1456,8 +1456,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-raw-file-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../../github-raw-file-plus">Github Sao chép tập tin gốc URL với các tập tin tải về</a>&nbsp;
-    <a href="../../github-raw-file-plus">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505501">
+        <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1494,8 +1494,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub Gửi thông tin hiển thị xem web</a>&nbsp;
-    <a href="../../github-commit-viewer">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505830">
+        <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1530,8 +1530,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../../github-file-list-beautifier-plus">GitHub Trình làm đẹp danh sách tập tin</a>&nbsp;
-    <a href="../../github-file-list-beautifier-plus">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/508047">
+        <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1568,8 +1568,8 @@ Tìm kiếm một Google chặn một trang web được chỉ định
     <a href="../../github-device-authorization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../../github-device-authorization">GitHub Tự động xác nhận ủy quyền thiết bị</a>&nbsp;
-    <a href="../../github-device-authorization">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/508956">
+        <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1600,8 +1600,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-linguist-expand">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../../github-linguist-expand">Github Danh sách ngôn ngữ mã hiển thị tất cả</a>&nbsp;
-    <a href="../../github-linguist-expand">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/509889">
+        <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1638,8 +1638,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-repository-navigator">Trợ lý nhảy nhanh kho GitHub</a>&nbsp;
-    <a href="../../github-repository-navigator">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/515205">
+        <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1676,8 +1676,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-jsdelivr-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
     <a href="../../github-jsdelivr-link">Mở liên kết JSDELIVR trên GitHub</a>&nbsp;
-    <a href="../../github-jsdelivr-link">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/527870">
+        <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1714,8 +1714,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-gist-copier">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-gist-copier">Github Gist Code Snippet Sao chép và tải xuống</a>&nbsp;
-    <a href="../../github-gist-copier">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/529534">
+        <img src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1754,8 +1754,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-comment-translate">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-comment-translate">Trợ lý bản dịch phím tắt GitHub</a>&nbsp;
-    <a href="../../github-comment-translate">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/530312">
+        <img src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1792,8 +1792,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-starred-repo-note">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-starred-repo-note">Github Star Warehouse Ghi chú Trợ lý</a>&nbsp;
-    <a href="../../github-starred-repo-note">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/533511">
+        <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1832,8 +1832,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-to-deepwiki">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png" width=18></a>
     <a href="../../github-to-deepwiki">GitHub nhảy đến Deepwiki</a>&nbsp;
-    <a href="../../github-to-deepwiki">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/536279?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/536279">
+        <img src="https://img.shields.io/greasyfork/dt/536279?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1872,8 +1872,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-no-copilot">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-no-copilot">GitHub ẩn Copilot</a>&nbsp;
-    <a href="../../github-no-copilot">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/536423">
+        <img src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1912,8 +1912,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-email-finder">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-email-finder">Công cụ tìm địa chỉ email GitHub</a>&nbsp;
-    <a href="../../github-email-finder">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/537309">
+        <img src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1950,8 +1950,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-file-size-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
     <a href="../../github-file-size-viewer">Github hiển thị kích thước tệp và thư mục</a>&nbsp;
-    <a href="../../github-file-size-viewer">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/537310">
+        <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1989,8 +1989,8 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
     <a href="../../github-co-authors">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
     <a href="../../github-co-authors">Đồng tác giả GitHub</a>&nbsp;
-    <a href="../../github-co-authors">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/537446">
+        <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2026,12 +2026,12 @@ hiện hữuGitHubTrang ủy quyền tự động nhập mã ủy quyền và t�
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Bản dịch tự động (3)</h1></div><h3>
+<div align="center"><h1>Kịch bản dịch (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Terminator ngoại ngữ</a>&nbsp;
-    <a href="../../no-zh-terminator">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/504890">
+        <img src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2062,8 +2062,8 @@ Xác định các ký tự không phải người Trung Quốc. Nếu độ dài
     <a href="../../translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../../translate-only-chinese">Bản dịch trang web - Bản dịch tự động sang tiếng Trung</a>&nbsp;
-    <a href="../../translate-only-chinese">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505208">
+        <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2092,8 +2092,8 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
     <a href="../../smart-translator-tool">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
     <a href="../../smart-translator-tool">Tiện ích dịch |</a>&nbsp;
-    <a href="../../smart-translator-tool">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/530406">
+        <img src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2130,12 +2130,12 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>ChatGPTTập lệnh liên quan (5)</h1></div><h3>
+<div align="center"><h1>AI Kịch bản (5)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT Thu gọn tin nhắn tự và chiều rộng tối đa</a>&nbsp;
-    <a href="../../chatgpt-plus">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/504901">
+        <img src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2172,8 +2172,8 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-styling">ChatGPTKích thước phông chữ mã giảm</a>&nbsp;
-    <a href="../../chatgpt-code-styling">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/505209">
+        <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2202,8 +2202,8 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
     <a href="../../chatgpt-counter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../../chatgpt-counter">ChatGPT Giới hạn bộ đếm ký tự (CCCL)</a>&nbsp;
-    <a href="../../chatgpt-counter">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/506166">
+        <img src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2240,8 +2240,8 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
     <a href="../../chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../../chatgpt-copy-code-button">ChatGPT Nút trò chuyện sao chép mã và xuất mã</a>&nbsp;
-    <a href="../../chatgpt-copy-code-button">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/509598">
+        <img src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2278,8 +2278,8 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
     <a href="../../chatgpt-code-hightlight">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-hightlight">Mã chatgpt được tô sáng</a>&nbsp;
-    <a href="../../chatgpt-code-hightlight">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/527255">
+        <img src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2314,12 +2314,12 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
 </blockquote>
 <div align="right"><a href="#-Danh-sách-tập-lệnh">Quay trở lại thư mục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Kịch bản truyền thông xã hội (3)</h1></div><h3>
+<div align="center"><h1>Phương tiện truyền thông xã hội (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x ẩn các bài viết chuyển tiếp</a>&nbsp;
-    <a href="../../twitter-hide-reposts">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/529450">
+        <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2358,8 +2358,8 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-media-downloader">Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)</a>&nbsp;
-    <a href="../../twitter-media-downloader">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/529453">
+        <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2398,8 +2398,8 @@ ChatGPT Làm cho phông chữ mã nhỏ hơn và tự động bọc
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">Trợ lý YouTube</a>&nbsp;
-    <a href="../../youtube-helper">
-        <img height=24 src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://greasyfork.org/scripts/529845">
+        <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
