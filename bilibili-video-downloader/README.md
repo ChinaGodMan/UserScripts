@@ -53,7 +53,7 @@
 <!--SHIELDS-END-->
 <!--HISTORY-->
 <center><div align="center">
-    <h1>Download videos from Bilibili (No Bangumi)</h1>
+    <h1>哔哩哔哩视频下载器</h1>
     <p>「 下载哔哩哔哩视频（不支持番剧） 」</p>
     <img src="https://views.whatilearened.today/views/github/537678/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/bilibili-video-downloader/bilibili-video-downloader.user.js?color=%23990000">

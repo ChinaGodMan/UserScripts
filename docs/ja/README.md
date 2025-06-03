@@ -95,7 +95,7 @@
 💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
 <!--SCRIPTS_COUNT-->
-**リポジトリの現在公開されているスクリプトの数:77,スクリプトには含まれます:**
+**リポジトリの現在公開されているスクリプトの数:79,スクリプトには含まれます:**
 <h6><a href="#Webスクリプト-10">Webスクリプト (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#大人のスクリプト-11">大人のスクリプト (11)</a>
@@ -104,8 +104,8 @@
  | <a href="#翻訳スクリプト-3">翻訳スクリプト (3)</a>
  | <a href="#AI-脚本-8">AI 脚本 (8)</a>
  | <a href="#ブログのウェブサイト-5">ブログのウェブサイト (5)</a>
- | <a href="#Twitter-2">Twitter (2)</a>
- | <a href="#YouTube-3">YouTube (3)</a>
+ | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2610,7 +2610,7 @@ Sina Weiboは自動的にモバイルバージョンにジャンプします，W
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (2)</h1></div><h3>
+<div align="center"><h1>Twitter (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/Xリツイートされた投稿を非発現にします</a>&nbsp;
@@ -2690,9 +2690,41 @@ Sina Weiboは自動的にモバイルバージョンにジャンプします，W
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
+<h3>
+    <a href="../../twitter-download-blocklist">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-download-blocklist">Twitter（x）ブラックリストとブロックされたリストのダウンロード</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538137">
+        <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Twitter（x）ブラックリストとブロックリストをダウンロードし、ページの自動検出をサポートし、対応するリストをTSVファイルとしてエクスポートし、簡単にバックアップして管理できるようにします。
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538137">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538137">
+        Greasemonkey</a> /
+    <a href="../../twitter-download-blocklist/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-download-blocklist/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (3)</h1></div><h3>
+<div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTubeアシスタント</a>&nbsp;
@@ -2796,6 +2828,40 @@ Sina Weiboは自動的にモバイルバージョンにジャンプします，W
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-dynamic-grid">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-dynamic-grid">YouTubeダイナミックビデオグリッド</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538138">
+        <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+ウィンドウの幅にベースづいてYouTubeビデオグリッドを動的に調整して、1わかりましたあたりのビデオ数の数を急行し、デフォルトの3つのビデオグリッドを書いてみましょうきしてレスポンシブレイアウトを高速します
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538138">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538138">
+        Greasemonkey</a> /
+    <a href="../../youtube-dynamic-grid/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-dynamic-grid/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -2835,7 +2901,7 @@ Tiktokは、プロファイルに関するより拡張された情報を急行�
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">Download videos from Bilibili (No Bangumi)</a>&nbsp;
+    <a href="../../bilibili-video-downloader">Bilibiliビデオダウンローダー</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -2913,7 +2979,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 >
 > -   _その他に基づいています **Chromium** カーネルブラウザ（国内ブラウザなど）一般的に利用可能です Chrome 拡張。_
 > -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
-> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが終了したら、スクリプトを再インストールします。_
+> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
 
 > _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3008,7 +3074,7 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 
 脆弱性を見つけた場合，開いてください[安全性の推奨事項を作成します](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-プラグリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
+プルリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
 詳細については、参照してください <a href="../SECURITY.md"><strong>セキュリティポリシー</strong></a>
 
 <div align="right">

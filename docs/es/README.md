@@ -95,7 +95,7 @@
 💡 **Tip:** _Para mostrar una captura de pantalla de vista previa，Haga clic en el nombre de la extensión a continuación ▸ O descripción。_
 
 <!--SCRIPTS_COUNT-->
-**El número de scripts publicados actuales para el repositorio:77,El guión incluye:**
+**El número de scripts publicados actuales para el repositorio:79,El guión incluye:**
 <h6><a href="#Script-web-10">Script web (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#Guiones-para-adultos-11">Guiones para adultos (11)</a>
@@ -104,8 +104,8 @@
  | <a href="#Script-de-traducción-3">Script de traducción (3)</a>
  | <a href="#AI-Guion-8">AI Guion (8)</a>
  | <a href="#Sitio-web-de-blog-5">Sitio web de blog (5)</a>
- | <a href="#Twitter-2">Twitter (2)</a>
- | <a href="#YouTube-3">YouTube (3)</a>
+ | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2610,7 +2610,7 @@ Sina Weibo saltará automáticamente a la versión móvil，Apoya a Weibo、art�
 </blockquote>
 <div align="right"><a href="#-Lista-de-guiones">Volver al directorio</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (2)</h1></div><h3>
+<div align="center"><h1>Twitter (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x Ocultar publicaciones retuiteadas</a>&nbsp;
@@ -2690,9 +2690,41 @@ Sina Weibo saltará automáticamente a la versión móvil，Apoya a Weibo、art�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
+<h3>
+    <a href="../../twitter-download-blocklist">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-download-blocklist">Twitter (x) Descarga de lista de lista negra y bloqueada</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538137">
+        <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usuarios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Se usa para descargar listas negras de Twitter (x) y listas bloqueadas, admite la detección automática de las páginas y exportar listas correspondientes como archivos TSV, lo que facilita la copia de seguridad y la administración.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538137">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538137">
+        Greasemonkey</a> /
+    <a href="../../twitter-download-blocklist/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-download-blocklist/README_en.md">
+        Archivo readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">conversar</a> /
+    <a href="../../twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
 <div align="right"><a href="#-Lista-de-guiones">Volver al directorio</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (3)</h1></div><h3>
+<div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">Asistente de YouTube</a>&nbsp;
@@ -2796,6 +2828,40 @@ Agregue los controles deslizantes al reproductor de video de YouTube para hacer 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-dynamic-grid">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-dynamic-grid">Grid de video dinámico de YouTube</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538138">
+        <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usuarios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Ajuste dinámicamente la cuadrícula de video de YouTube en función del ancho de la ventana para mostrar el mejor número de videos por línea, sobrescribiendo las 3 cuadrículas de video predeterminadas para diseños receptivos más rápidos
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538138">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538138">
+        Greasemonkey</a> /
+    <a href="../../youtube-dynamic-grid/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-dynamic-grid/README_en.md">
+        Archivo readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">conversar</a> /
+    <a href="../../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de actualizaciones</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
 <div align="right"><a href="#-Lista-de-guiones">Volver al directorio</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -2835,7 +2901,7 @@ Tiktok muestra información más extendida sobre el perfil
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">Download videos from Bilibili (No Bangumi)</a>&nbsp;
+    <a href="../../bilibili-video-downloader">Descargador de video bilibili</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usuarios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -2913,7 +2979,7 @@ Para usar cualquier script，Primero, necesita una instalación de navegador **T
 >
 > -   _Otros basados ​​en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
 > -   _Asegúrese de usar **Tampermonkey Versión oficial** Extendido，其他的用户Guion管理器可能导致**No se puede usar normalmente**脚本。_
-> -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de que termine el script, reinstale el script。_
+> -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de reinstalarse el guión。_
 
 > _**No instalará fuera de línea .crx Extendido？[Chrome、Edge Volver a habilitar oculto [Arrastre en la instalación .crx Extendido] Función！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3008,7 +3074,7 @@ Para garantizar un amistoso、Un entorno de desarrollo respetuoso e inclusivo，
 
 Si encuentra una vulnerabilidad，Por favor abra un[Proyecto de recomendaciones de seguridad](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Las solicitudes de enchufe también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
+Las solicitudes de extracción también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
 Para más detalles, consulte <a href="../SECURITY.md"><strong>Política de seguridad</strong></a>
 
 <div align="right">

@@ -1026,26 +1026,26 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "twitter-download-blocklist",
-      "description": "",
+      "name": "Twitter(X)黑名单和屏蔽列表下载",
+      "description": "用于下载 Twitter(X) 黑名单和屏蔽列表，支持自动检测页面并导出对应列表为 TSV 文件，方便备份和管理。",
       "group": "Twitter",
       "js_name": "twitter-download-blocklist.user.js",
       "directory": "twitter-download-blocklist",
       "version": "2025.6.3.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 538137,
       "created_at": "2025-06-03 08:56:25",
       "preview": null,
       "icon": "/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
       "locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "youtube-dynamic-grid",
-      "description": "",
+      "name": "YouTube 动态视频网格",
+      "description": "根据窗口宽度动态调整 YouTube 视频网格，以每行显示最佳数量的视频，覆盖默认的 3 个视频网格，以实现响应更快的布局",
       "group": "YouTube",
       "js_name": "youtube-dynamic-grid.user.js",
       "directory": "youtube-dynamic-grid",
       "version": "2025.6.3.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 538138,
       "preview": null,
       "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
       "locales": "zh-TW,vi,en,ko"

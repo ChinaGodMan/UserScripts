@@ -95,7 +95,7 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:77,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:79,스크립트에는 포함됩니다:**
 <h6><a href="#웹-스크립트-10">웹 스크립트 (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#성인-스크립트-11">성인 스크립트 (11)</a>
@@ -104,8 +104,8 @@
  | <a href="#번역-스크립트-3">번역 스크립트 (3)</a>
  | <a href="#AI-스크립트-8">AI 스크립트 (8)</a>
  | <a href="#블로그-웹-사이트-5">블로그 웹 사이트 (5)</a>
- | <a href="#Twitter-2">Twitter (2)</a>
- | <a href="#YouTube-3">YouTube (3)</a>
+ | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2610,7 +2610,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (2)</h1></div><h3>
+<div align="center"><h1>Twitter (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
@@ -2690,9 +2690,41 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
+<h3>
+    <a href="../../twitter-download-blocklist">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-download-blocklist">트위터 (x) 블랙리스트 및 차단 된 목록 다운로드</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538137">
+        <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이지의 자동 감지 및 해당 목록을 TSV 파일로 내보내므로 쉽게 백업하고 관리 할 수 있습니다.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538137">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538137">
+        Greasemonkey</a> /
+    <a href="../../twitter-download-blocklist/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-download-blocklist/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (3)</h1></div><h3>
+<div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTube Assistant</a>&nbsp;
@@ -2796,6 +2828,40 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-dynamic-grid">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-dynamic-grid">YouTube 동적 비디오 그리드</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538138">
+        <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+창 너비를 기준으로 YouTube 비디오 그리드를 동적으로 조정하여 한 줄 당 가장 적합한 비디오 수를 표시하고 더 빠른 반응 형 레이아웃을 위해 기본 3 비디오 그리드를 덮어 씁니다.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538138">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538138">
+        Greasemonkey</a> /
+    <a href="../../youtube-dynamic-grid/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-dynamic-grid/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -2835,7 +2901,7 @@ Tiktok은 프로필에 더 많은 확장 정보를 표시합니다
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">Download videos from Bilibili (No Bangumi)</a>&nbsp;
+    <a href="../../bilibili-video-downloader">빌리 빌리 비디오 다운로더</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -2913,7 +2979,7 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
 >
 > -   _다른 사람들 **Chromium** 커널 브라우저（국내 브라우저와 같은）일반적으로 사용 가능합니다 Chrome 펼친。_
 > -   _사용하십시오 **Tampermonkey 공식 버전** 펼친，其他的用户스크립트管理器可能导致**정상적으로 사용할 수 없습니다**脚本。_
-> -   _스크립트를 다시 설치하려면，기억하십시오 Tampermonkey 펼친**재활용 쓰레기통에서 완전히 삭제되었습니다**스크립트가 완료되면 스크립트를 다시 설치하십시오。_
+> -   _스크립트를 다시 설치하려면，기억하십시오 Tampermonkey 펼친**재활용 쓰레기통에서 완전히 삭제되었습니다**스크립트가 다시 설치된 후。_
 
 > _**오프라인을 설치하지 않습니다 .crx 펼친？[Chrome、Edge 다시 활성화되어 숨겨집니다 [설치로 드래그하십시오 .crx 펼친] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3008,7 +3074,7 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 취약성을 찾으면，a[초안 안전 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-플러그 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
+풀 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
 자세한 내용은 참조하십시오 <a href="../SECURITY.md"><strong>보안 정책</strong></a>
 
 <div align="right">
