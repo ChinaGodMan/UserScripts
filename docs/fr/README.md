@@ -2445,6 +2445,8 @@ Enregistrer la conversation en tant que fichier .txt
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Code source</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Mettre à jour le journal</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>

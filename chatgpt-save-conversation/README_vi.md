@@ -64,7 +64,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.537648&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537648">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT Lưu cuộc trò chuyện Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.6.3.1</strong></h3>
+<p><strong>Ôn lại</strong>: Thay đổi màu nút thành màu xanh lá cây,Nhận dạng thuận tiện<br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537648.png">
 </div></center>
 
@@ -83,7 +86,7 @@ Tự động thêm một vị trí cố định“Lưu cuộc trò chuyện”C�
   Từ tất cả được bao gồm trong trang `data-message-id` Các yếu tố của thuộc tính trích xuất nội dung hội thoại，Và theo `data-message-author-role` Vai trò phán đoán thuộc tính（User / Assistant Chờ đợi）。
 
 - **Định dạng văn bản**  
-  Theo `Tên nhân vật:` Line Break，Viết nội dung văn bản tương ứng，每条消息之间用Sự tách biệt符 `---` 分隔。
+  Theo `Tên nhân vật:` Line Break，Viết nội dung văn bản tương ứng，Sử dụng giữa mỗi tin nhắnSự tách biệtbiểu tượng `---` Sự tách biệt。
 
 - **Tạo tên tệp**  
   Ưu tiên sử dụng tiêu đề web40Ký tự như tên tệp，Nếu không có tiêu đề, hãy bắt đầu với cuộc đối thoại5Chung nối chữ thường của các từ dưới dạng tên tệp，Tên tệp mặc định là `conversation.txt`。

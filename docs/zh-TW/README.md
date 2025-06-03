@@ -2445,6 +2445,8 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>

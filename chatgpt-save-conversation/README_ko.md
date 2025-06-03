@@ -64,7 +64,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.537648&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537648">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ChatGPT 대화를 저장하십시오 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.6.3.1</strong></h3>
+<p><strong>개정하다</strong>: 버튼 색상을 녹색으로 변경하십시오,편리한 식별<br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537648.png">
 </div></center>
 
@@ -83,7 +86,7 @@
   모든 페이지에서 페이지에 포함되어 있습니다 `data-message-id` 속성 요소는 대화 내용을 추출합니다，그리고에 따르면 `data-message-author-role` 속성 판단 역할（User / Assistant 기다리다）。
 
 - **형식 텍스트**  
-  ~에 따르면 `캐릭터 이름:` 라인 브레이크，해당 텍스트 내용을 작성하십시오，每条消息之间用분리符 `---` 分隔。
+  ~에 따르면 `캐릭터 이름:` 라인 브레이크，해당 텍스트 내용을 작성하십시오，각 메시지 사이에 사용하십시오분리상징 `---` 분리。
 
 - **파일 이름을 생성합니다**  
   웹 타이틀 사용의 우선 순위40파일 이름으로 문자，제목이 없으면 대화부터 시작하십시오5파일 이름으로 단어의 소문자 스 플라이 싱，기본 파일 이름은 `conversation.txt`。
