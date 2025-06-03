@@ -1024,6 +1024,31 @@
       "created_at": "2025-06-02 12:05:15",
       "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
       "locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "twitter-download-blocklist",
+      "description": "",
+      "group": "Twitter",
+      "js_name": "twitter-download-blocklist.user.js",
+      "directory": "twitter-download-blocklist",
+      "version": "2025.6.3.1",
+      "greasyfork_id": null,
+      "created_at": "2025-06-03 08:56:25",
+      "preview": null,
+      "icon": "/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
+      "locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "youtube-dynamic-grid",
+      "description": "",
+      "group": "YouTube",
+      "js_name": "youtube-dynamic-grid.user.js",
+      "directory": "youtube-dynamic-grid",
+      "version": "2025.6.3.1",
+      "greasyfork_id": null,
+      "preview": null,
+      "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
+      "locales": "zh-TW,vi,en,ko"
     }
   ]
 }
