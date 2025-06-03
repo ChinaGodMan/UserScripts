@@ -361,7 +361,7 @@
 // @compatible             qq
 // @compatible             via
 // @compatible             brave
-// @version                2025.6.2.1
+// @version                2025.6.3.1
 // @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js
 // @updateURL              https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js
 // ==/UserScript==
@@ -427,7 +427,7 @@
         btn.style.left = '0'
         btn.style.width = '12px'
         btn.style.height = '30px'
-        btn.style.backgroundColor = '#ececec'
+        btn.style.backgroundColor = 'green'
         btn.style.borderRadius = '4px'
         btn.style.zIndex = 9999
         btn.style.cursor = 'pointer'
