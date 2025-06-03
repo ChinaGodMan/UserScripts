@@ -1035,7 +1035,7 @@
       "greasyfork_id": 538137,
       "created_at": "2025-06-03 08:56:25",
       "preview": null,
-      "icon": "/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
+      "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
       "locales": "zh-TW,vi,en,ko"
     },
     {
@@ -1048,6 +1048,19 @@
       "greasyfork_id": 538138,
       "preview": null,
       "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
+      "locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "chatgpt-easy-management",
+      "description": "",
+      "group": "AI 脚本",
+      "js_name": "chatgpt-easy-management.user.js",
+      "directory": "chatgpt-easy-management",
+      "version": "2025.6.3.1",
+      "greasyfork_id": null,
+      "created_at": "2025-06-03 11:26:11",
+      "preview": null,
+      "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png",
       "locales": "zh-TW,vi,en,ko"
     }
   ]
