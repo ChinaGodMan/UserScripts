@@ -95,14 +95,14 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:79,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:80,스크립트에는 포함됩니다:**
 <h6><a href="#웹-스크립트-10">웹 스크립트 (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#성인-스크립트-11">성인 스크립트 (11)</a>
  | <a href="#Google-스크립트-2">Google 스크립트 (2)</a>
  | <a href="#GitHub-스크립트-19">GitHub 스크립트 (19)</a>
  | <a href="#번역-스크립트-3">번역 스크립트 (3)</a>
- | <a href="#AI-스크립트-8">AI 스크립트 (8)</a>
+ | <a href="#AI-스크립트-9">AI 스크립트 (9)</a>
  | <a href="#블로그-웹-사이트-5">블로그 웹 사이트 (5)</a>
  | <a href="#Twitter-3">Twitter (3)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
@@ -2170,7 +2170,7 @@ Github-Notification-onbox-Toggle 개발 버전
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>AI 스크립트 (8)</h1></div><h3>
+<div align="center"><h1>AI 스크립트 (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT 자체 메시지 및 최대 너비 축소</a>&nbsp;
@@ -2448,6 +2448,38 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
+<h3>
+    <a href="../../chatgpt-easy-management">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
+    <a href="../../chatgpt-easy-management">Chatgpt는 채팅을 쉽게 관리합니다</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538142">
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+검색 채팅, 필터 채팅, 빠른/배치 삭제 채팅.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538142">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538142">
+        Greasemonkey</a> /
+    <a href="../../chatgpt-easy-management/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../chatgpt-easy-management/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>블로그 웹 사이트 (5)</h1></div><h3>
@@ -2692,7 +2724,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">트위터 (x) 블랙리스트 및 차단 된 목록 다운로드</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>

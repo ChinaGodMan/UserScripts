@@ -95,14 +95,14 @@
 💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ O descrizione。_
 
 <!--SCRIPTS_COUNT-->
-**Il numero di script pubblicati correnti per il repository:79,Lo script include:**
+**Il numero di script pubblicati correnti per il repository:80,Lo script include:**
 <h6><a href="#Script-web-10">Script web (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#Script-per-adulti-11">Script per adulti (11)</a>
  | <a href="#Google-Sceneggiatura-2">Google Sceneggiatura (2)</a>
  | <a href="#GitHub-Sceneggiatura-19">GitHub Sceneggiatura (19)</a>
  | <a href="#Script-di-traduzione-3">Script di traduzione (3)</a>
- | <a href="#AI-Sceneggiatura-8">AI Sceneggiatura (8)</a>
+ | <a href="#AI-Sceneggiatura-9">AI Sceneggiatura (9)</a>
  | <a href="#Sito-web-del-blog-5">Sito web del blog (5)</a>
  | <a href="#Twitter-3">Twitter (3)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
@@ -2170,7 +2170,7 @@ Aggiungi un’icona di traduzione di Google all’angolo in basso a destra di ci
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>AI Sceneggiatura (8)</h1></div><h3>
+<div align="center"><h1>AI Sceneggiatura (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT Comprimi il messaggio personale e la larghezza massima</a>&nbsp;
@@ -2448,6 +2448,38 @@ Salva la conversazione come file .txt
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
 </blockquote>
+<h3>
+    <a href="../../chatgpt-easy-management">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
+    <a href="../../chatgpt-easy-management">Chatgpt gestisce facilmente le chat</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538142">
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Numero%20di%20utenti"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Cerca chat, chat filtrante, elimina veloce/batch.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538142">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538142">
+        Greasemonkey</a> /
+    <a href="../../chatgpt-easy-management/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../chatgpt-easy-management/README_en.md">
+        File readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutere</a> /
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Codice sorgente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
+</blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Sito web del blog (5)</h1></div><h3>
@@ -2692,7 +2724,7 @@ Sina Weibo salterà automaticamente alla versione mobile，Supporta Weibo、arti
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">DOWNLIST BLACKIST TWITST (X) ELLIST BLOCCATO</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Numero%20di%20utenti"></a>

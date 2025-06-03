@@ -95,14 +95,14 @@
 💡 **Tip:** _要顯示預覽截圖，請點擊擴展名稱下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**儲存庫當前發布腳本數量:79,腳本包括:**
+**儲存庫當前發布腳本數量:80,腳本包括:**
 <h6><a href="#網頁腳本-10">網頁腳本 (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#成人腳本-11">成人腳本 (11)</a>
  | <a href="#Google-腳本-2">Google 腳本 (2)</a>
  | <a href="#GitHub-腳本-19">GitHub 腳本 (19)</a>
  | <a href="#翻譯腳本-3">翻譯腳本 (3)</a>
- | <a href="#AI-腳本-8">AI 腳本 (8)</a>
+ | <a href="#AI-腳本-9">AI 腳本 (9)</a>
  | <a href="#博客網站-5">博客網站 (5)</a>
  | <a href="#Twitter-3">Twitter (3)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
@@ -2170,7 +2170,7 @@ github-notification-inbox-toggle 開發版本
 </blockquote>
 <div align="right"><a href="#-腳本列表">返回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>AI 腳本 (8)</h1></div><h3>
+<div align="center"><h1>AI 腳本 (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT 折疊自己訊息和最大寬度</a>&nbsp;
@@ -2448,6 +2448,38 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
+<h3>
+    <a href="../../chatgpt-easy-management">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
+    <a href="../../chatgpt-easy-management">ChatGPT 輕鬆管理聊天</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538142">
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+搜索聊天、過濾聊天、快速/批量刪除聊天。
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538142">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538142">
+        Greasemonkey</a> /
+    <a href="../../chatgpt-easy-management/README_zh-TW.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../chatgpt-easy-management/README_zh-TW.md">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
 <div align="right"><a href="#-腳本列表">返回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>博客網站 (5)</h1></div><h3>
@@ -2692,7 +2724,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">Twitter(X)黑名單和屏蔽列表下載</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>

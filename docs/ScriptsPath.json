@@ -1051,13 +1051,13 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "chatgpt-easy-management",
-      "description": "",
+      "name": "ChatGPT 轻松管理聊天",
+      "description": "搜索聊天、过滤聊天、快速/批量删除聊天。",
       "group": "AI 脚本",
       "js_name": "chatgpt-easy-management.user.js",
       "directory": "chatgpt-easy-management",
       "version": "2025.6.3.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 538142,
       "created_at": "2025-06-03 11:26:11",
       "preview": null,
       "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png",

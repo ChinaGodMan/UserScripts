@@ -95,14 +95,14 @@
 💡 **Tip:** _Para exibir a captura de tela de visualização，Clique no nome da extensão abaixo ▸ Ou descrição。_
 
 <!--SCRIPTS_COUNT-->
-**O número de scripts publicados atuais para o repositório:79,O script inclui:**
+**O número de scripts publicados atuais para o repositório:80,O script inclui:**
 <h6><a href="#Script-da-web-10">Script da web (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#Scripts-adultos-11">Scripts adultos (11)</a>
  | <a href="#Google-Script-2">Google Script (2)</a>
  | <a href="#GitHub-Script-19">GitHub Script (19)</a>
  | <a href="#Script-de-tradução-3">Script de tradução (3)</a>
- | <a href="#AI-Script-8">AI Script (8)</a>
+ | <a href="#AI-Script-9">AI Script (9)</a>
  | <a href="#Site-do-blog-5">Site do blog (5)</a>
  | <a href="#Twitter-3">Twitter (3)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
@@ -115,7 +115,7 @@
 <div align="center"><h1>Script da web (10)</h1></div><h3>
     <a href="../../scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
-    <a href="../../scroll-button">-BR        botão de rolagem</a>&nbsp;
+    <a href="../../scroll-button">-BR         botão de rolagem</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497251">
         <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button&hashtags=greasemonkey,userscripts,javascript">
@@ -124,7 +124,7 @@
 </h3>
 
 <details>
-    <summary>-BR Gere dois botões no lado direito da página para rolar a página</summary>
+    <summary>-BR  Gere dois botões no lado direito da página para rolar a página</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button">
             <img width=511 src="https://s2.loli.net/2024/08/24/nOVbHuZzvmdtRUc.png"></a>
@@ -151,7 +151,7 @@
 <h3>
     <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
-    <a href="../../clipboard-manager">-BR        Gerenciador de autorização de versão de clipe de gravação de página da Web</a>&nbsp;
+    <a href="../../clipboard-manager">-BR         Gerenciador de autorização de versão de clipe de gravação de página da Web</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497403">
         <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager&hashtags=greasemonkey,userscripts,javascript">
@@ -160,7 +160,7 @@
 </h3>
 
 <details>
-    <summary>-BR Gerencie o comportamento de gravação de páginas da web na área de transferência para evitar cópias automáticas não autorizadas e desativar o pré-carregamento e a reprodução automática de conteúdo de áudio e vídeo.</summary>
+    <summary>-BR  Gerencie o comportamento de gravação de páginas da web na área de transferência para evitar cópias automáticas não autorizadas e desativar o pré-carregamento e a reprodução automática de conteúdo de áudio e vídeo.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">
             <img width=511 src="https://s2.loli.net/2024/08/05/ItB4r1G9SULPqaH.png"></a>
@@ -189,7 +189,7 @@
 <h3>
     <a href="../../remove-link-underlines">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
-    <a href="../../remove-link-underlines">-BR        Remover sublinhado do link</a>&nbsp;
+    <a href="../../remove-link-underlines">-BR         Remover sublinhado do link</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498625">
         <img src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines&hashtags=greasemonkey,userscripts,javascript">
@@ -197,7 +197,7 @@
         </a>
 </h3>
 
--BR Remova os sublinhados dos links em todos os sites，e lidar com novos links dinamicamente
+-BR  Remova os sublinhados dos links em todos os sites，e lidar com novos links dinamicamente
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/498625">
@@ -285,7 +285,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 <h3>
     <a href="../../scroll-to-top-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
-    <a href="../../scroll-to-top-button">-BR        Fixar nos botões superior e inferior</a>&nbsp;
+    <a href="../../scroll-to-top-button">-BR         Fixar nos botões superior e inferior</a>&nbsp;
     <a href="https://greasyfork.org/scripts/500255">
         <img src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button&hashtags=greasemonkey,userscripts,javascript">
@@ -294,7 +294,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 </h3>
 
 <details>
-    <summary>-BR Gere dois botões em todas as páginas，Um para suavizar de volta ao topo，Um para rolagem contínua até o final，Clique novamente para cancelar a rolagem para baixo</summary>
+    <summary>-BR  Gere dois botões em todas as páginas，Um para suavizar de volta ao topo，Um para rolagem contínua até o final，Clique novamente para cancelar a rolagem para baixo</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button">
             <img width=511 src="https://s2.loli.net/2024/08/26/UrwMu2lphEia3Q7.png"></a>
@@ -323,7 +323,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 <h3>
     <a href="../../popup-window">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
-    <a href="../../popup-window">-BR        Pré-visualização em janela pequena</a>&nbsp;
+    <a href="../../popup-window">-BR         Pré-visualização em janela pequena</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504880">
         <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window&hashtags=greasemonkey,userscripts,javascript">
@@ -332,7 +332,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 </h3>
 
 <details>
-    <summary>-BR Abra o link na janela pop-up ao arrastar o link，e forneça uma prévia antes de abrir，usar Edge tecnologia de pré-leitura。Ao mesmo tempo, adicione um efeito acrílico atrás da pequena janela quando ela for aberta.。</summary>
+    <summary>-BR  Abra o link na janela pop-up ao arrastar o link，e forneça uma prévia antes de abrir，usar Edge tecnologia de pré-leitura。Ao mesmo tempo, adicione um efeito acrílico atrás da pequena janela quando ela for aberta.。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window">
             <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/45120umjmiqk1lfkh0116ad6pnui"></a>
@@ -361,7 +361,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 <h3>
     <a href="../../colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
-    <a href="../../colorful-table">-BR        Embeleze formulários da web com lindos gradientes</a>&nbsp;
+    <a href="../../colorful-table">-BR         Embeleze formulários da web com lindos gradientes</a>&nbsp;
     <a href="https://greasyfork.org/scripts/507036">
         <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table&hashtags=greasemonkey,userscripts,javascript">
@@ -370,7 +370,7 @@ Destaque de palavras -chave personalizadas em páginas da web, incluindo carrega
 </h3>
 
 <details>
-    <summary>-BR Aplique automaticamente gradientes de cores a todas as colunas da tabela para embelezá-la</summary>
+    <summary>-BR  Aplique automaticamente gradientes de cores a todas as colunas da tabela para embelezá-la</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">
             <img width=511 src="https://s2.loli.net/2024/09/06/IA7pxwj1ZC4c56a.png"></a>
@@ -431,7 +431,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="../../web-clipper">-BR        Notas de corte na nuvem de marcação</a>&nbsp;
+    <a href="../../web-clipper">-BR         Notas de corte na nuvem de marcação</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530139">
         <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper&hashtags=greasemonkey,userscripts,javascript">
@@ -440,7 +440,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Uma ferramenta que converte o conteúdo da Web em formato de marcação, suporta recursos como cópia, download e envio para o Github e Obsidian.</summary>
+    <summary>-BR  Uma ferramenta que converte o conteúdo da Web em formato de marcação, suporta recursos como cópia, download e envio para o Github e Obsidian.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">
             <img width=511 src="https://s2.loli.net/2025/03/18/ETzhM3Q6DPRipA8.png"></a>
@@ -509,7 +509,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="../../greasyfork-utility-toolkit">-BR        Greasyfork Artesão de cola</a>&nbsp;
+    <a href="../../greasyfork-utility-toolkit">-BR         Greasyfork Artesão de cola</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497346">
         <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
@@ -518,7 +518,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR para Greasyfork Fornece várias funções de uso，tempo absoluto，Ecrã panorâmico da Web，Melhorias na página de script，Baixar extensão，Reparo do painel e uma série de operações</summary>
+    <summary>-BR  para Greasyfork Fornece várias funções de uso，tempo absoluto，Ecrã panorâmico da Web，Melhorias na página de script，Baixar extensão，Reparo do painel e uma série de operações</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">
             <img width=511 src="https://s2.loli.net/2024/08/05/Oq9DGAm7FzjpSg6.png"></a>
@@ -547,7 +547,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../script-finder-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
-    <a href="../../script-finder-plus">-BR        Script Finder Pesquisa de script do GreasyFork</a>&nbsp;
+    <a href="../../script-finder-plus">-BR         Script Finder Pesquisa de script do GreasyFork</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498904">
         <img src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -556,7 +556,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Script Finder Encontre em qualquer site que se aplique a esse site Script do Macaco Graxa。</summary>
+    <summary>-BR  Script Finder Encontre em qualquer site que se aplique a esse site Script do Macaco Graxa。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus">
             <img width=511 src="https://s2.loli.net/2024/08/05/EBsldxGySe9Kf3w.png"></a>
@@ -585,7 +585,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-ranks">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
-    <a href="../../greasyfork-ranks">-BR        Greasyfork Script para exibir avaliações</a>&nbsp;
+    <a href="../../greasyfork-ranks">-BR         Greasyfork Script para exibir avaliações</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501119">
         <img src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks&hashtags=greasemonkey,userscripts,javascript">
@@ -594,7 +594,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Adicione a classificação do script após o nome do script ao navegar na lista de scripts</summary>
+    <summary>-BR  Adicione a classificação do script após o nome do script ao navegar na lista de scripts</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks">
             <img width=511 src="https://s2.loli.net/2024/08/05/wvyAz8iVGMWJjEQ.png"></a>
@@ -621,7 +621,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
-    <a href="../../greasyfork-user-control-panel-button">-BR        GreasyFork: Aprimoramento da barra de navegação</a>&nbsp;
+    <a href="../../greasyfork-user-control-panel-button">-BR         GreasyFork: Aprimoramento da barra de navegação</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501880">
         <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button&hashtags=greasemonkey,userscripts,javascript">
@@ -630,7 +630,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Adicionar lista de usuários na barra de navegação,console,Coleção etc..</summary>
+    <summary>-BR  Adicionar lista de usuários na barra de navegação,console,Coleção etc..</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">
             <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -657,7 +657,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-markdown-toolbar">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
-    <a href="../../greasyfork-markdown-toolbar">-BR        GreasyFork markdown</a>&nbsp;
+    <a href="../../greasyfork-markdown-toolbar">-BR         GreasyFork markdown</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505164">
         <img src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar&hashtags=greasemonkey,userscripts,javascript">
@@ -666,7 +666,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR O formato padrão usado no fórum éMarkdown，Adicionar link de ajuda de formato e publicar novo script,Barra de ferramentas de tempo de resposta com edição rápida habilitada</summary>
+    <summary>-BR  O formato padrão usado no fórum éMarkdown，Adicionar link de ajuda de formato e publicar novo script,Barra de ferramentas de tempo de resposta com edição rápida habilitada</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar">
             <img width=511 src="https://s2.loli.net/2024/10/02/oI7mw3JLyzKCDRc.gif"></a>
@@ -695,7 +695,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
-    <a href="../../greasyfork-search">-BR        GreasyFork Search</a>&nbsp;
+    <a href="../../greasyfork-search">-BR         GreasyFork Search</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505215">
         <img src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search&hashtags=greasemonkey,userscripts,javascript">
@@ -703,7 +703,7 @@ Converter links de texto em links clicáveis
         </a>
 </h3>
 
--BR Pesquise usando o GoogleGreasyForkeSleazyForkscript superior
+-BR  Pesquise usando o GoogleGreasyForkeSleazyForkscript superior
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505215">
@@ -725,7 +725,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
-    <a href="../../greasyfork-discussion-watcher">-BR        GreasyFork Assistente de Notificação</a>&nbsp;
+    <a href="../../greasyfork-discussion-watcher">-BR         GreasyFork Assistente de Notificação</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506345">
         <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher&hashtags=greasemonkey,userscripts,javascript">
@@ -734,7 +734,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Quando há uma nova resposta ao seu script ou a uma discussão da qual você está participando，O script exibirá o conteúdo da discussão mais recente em uma janela modal na página da web。</summary>
+    <summary>-BR  Quando há uma nova resposta ao seu script ou a uma discussão da qual você está participando，O script exibirá o conteúdo da discussão mais recente em uma janela modal na página da web。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">
             <img width=511 src="https://s2.loli.net/2024/09/02/Ftpq1KomRcALjIE.png"></a>
@@ -763,7 +763,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-webhook-sync-enhanced">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="../../greasyfork-webhook-sync-enhanced">-BR        GreaysFork MelhorarWebHookSincronizar configurações</a>&nbsp;
+    <a href="../../greasyfork-webhook-sync-enhanced">-BR         GreaysFork MelhorarWebHookSincronizar configurações</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506717">
         <img src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced&hashtags=greasemonkey,userscripts,javascript">
@@ -772,7 +772,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR GreaysFork Insira rapidamente informações de sincronização de script，E adicione códigos de idioma para vários países em lotes，Em vez de clicar nas caixas de seleção uma por uma e ir para o URL correspondente。</summary>
+    <summary>-BR  GreaysFork Insira rapidamente informações de sincronização de script，E adicione códigos de idioma para vários países em lotes，Em vez de clicar nas caixas de seleção uma por uma e ir para o URL correspondente。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced">
             <img width=511 src="https://s2.loli.net/2024/09/04/oYGt17AV9MD43w6.png"></a>
@@ -801,7 +801,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-user-scripts-data-visualization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
-    <a href="../../greasyfork-user-scripts-data-visualization">-BR        GreasyFork Visualização de dados de script publicado pelo usuário</a>&nbsp;
+    <a href="../../greasyfork-user-scripts-data-visualization">-BR         GreasyFork Visualização de dados de script publicado pelo usuário</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508968">
         <img src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization&hashtags=greasemonkey,userscripts,javascript">
@@ -810,7 +810,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR usarChart.jsObtendo e visualizando dados de script do usuário，E gere um gráfico na página inicial pessoal do usuário para exibir o status detalhado da instalação abaixo.</summary>
+    <summary>-BR  usarChart.jsObtendo e visualizando dados de script do usuário，E gere um gráfico na página inicial pessoal do usuário para exibir o status detalhado da instalação abaixo.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization">
             <img width=511 src="https://s2.loli.net/2024/09/19/azlGiIBEg2SAFPc.gif"></a>
@@ -839,7 +839,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../greasyfork-user-registration-time">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="../../greasyfork-user-registration-time">-BR        Greasyfork Exibir tempo de registro</a>&nbsp;
+    <a href="../../greasyfork-user-registration-time">-BR         Greasyfork Exibir tempo de registro</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529359">
         <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time&hashtags=greasemonkey,userscripts,javascript">
@@ -848,7 +848,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Se o seu script interferir nos interesses de algumas pessoas, não é surpreendente receber críticas negativas maliciosas. Existem duas características de críticas negativas maliciosas: uma é que a conta geralmente é registrada recentemente e a outra é que as críticas negativas serão dadas logo após o registro, e basicamente não haverá atividades de acompanhamento. Este script recebe o tempo de registro do usuário Greasyfork e é exibido ao lado do nome de usuário. Se o tempo exibido ao lado do nome do usuário for o horário futuro, é provável que o usuário seja uma conta maliciosa registrada.</summary>
+    <summary>-BR  Se o seu script interferir nos interesses de algumas pessoas, não é surpreendente receber críticas negativas maliciosas. Existem duas características de críticas negativas maliciosas: uma é que a conta geralmente é registrada recentemente e a outra é que as críticas negativas serão dadas logo após o registro, e basicamente não haverá atividades de acompanhamento. Este script recebe o tempo de registro do usuário Greasyfork e é exibido ao lado do nome de usuário. Se o tempo exibido ao lado do nome do usuário for o horário futuro, é provável que o usuário seja uma conta maliciosa registrada.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">
             <img width=511 src="https://s2.loli.net/2025/03/10/dcBIG1FPsuRJKpA.png"></a>
@@ -919,7 +919,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../../missav-auto-login-helper">-BR        MissAV Login automático</a>&nbsp;
+    <a href="../../missav-auto-login-helper">-BR         MissAV Login automático</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/505325">
         <img src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -927,7 +927,7 @@ Converter links de texto em links clicáveis
         </a>
 </h3>
 
--BR Detecção MissAV estado,e faça login automaticamente quando não estiver conectado
+-BR  Detecção MissAV estado,e faça login automaticamente quando não estiver conectado
 
 <blockquote>
     <a href="https://sleazyfork.org/scripts/505325">
@@ -951,7 +951,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../thisav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
-    <a href="../../thisav-auto-login-helper">-BR        ThisAV Login automático</a>&nbsp;
+    <a href="../../thisav-auto-login-helper">-BR         ThisAV Login automático</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506528">
         <img src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -959,7 +959,7 @@ Converter links de texto em links clicáveis
         </a>
 </h3>
 
--BR Detecção ThisAV estado,e faça login automaticamente quando não estiver conectado
+-BR  Detecção ThisAV estado,e faça login automaticamente quando não estiver conectado
 
 <blockquote>
     <a href="https://sleazyfork.org/scripts/506528">
@@ -983,7 +983,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../jable-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
-    <a href="../../jable-auto-login-helper">-BR        JableTV Login automático</a>&nbsp;
+    <a href="../../jable-auto-login-helper">-BR         JableTV Login automático</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506730">
         <img src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -991,7 +991,7 @@ Converter links de texto em links clicáveis
         </a>
 </h3>
 
--BR Detecção JableTV estado,e faça login automaticamente quando não estiver conectado
+-BR  Detecção JableTV estado,e faça login automaticamente quando não estiver conectado
 
 <blockquote>
     <a href="https://sleazyfork.org/scripts/506730">
@@ -1015,7 +1015,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../missav-m3u8-finder">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../../missav-m3u8-finder">-BR        Ferramenta de download de vídeo missav</a>&nbsp;
+    <a href="../../missav-m3u8-finder">-BR         Ferramenta de download de vídeo missav</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528160">
         <img src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder&hashtags=greasemonkey,userscripts,javascript">
@@ -1024,7 +1024,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Sniff o endereço de download real do vídeo da página atual de reprodução do Missav e faça o download</summary>
+    <summary>-BR  Sniff o endereço de download real do vídeo da página atual de reprodução do Missav e faça o download</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder">
             <img width=511 src="https://s2.loli.net/2025/02/27/vrBIbTND28JKpda.png"></a>
@@ -1053,7 +1053,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../xvideos-enhance">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png" width=18></a>
-    <a href="../../xvideos-enhance">-BR        XVIDEOS Push Download</a>&nbsp;
+    <a href="../../xvideos-enhance">-BR         XVIDEOS Push Download</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528798">
         <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance&hashtags=greasemonkey,userscripts,javascript">
@@ -1062,7 +1062,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR 1. Reprodução automática 2. Widescreen automático 3. Reprodução de alta qualidade 4. Clique para empurrar o próximo filme 5. Baixe miniaturas</summary>
+    <summary>-BR  1. Reprodução automática 2. Widescreen automático 3. Reprodução de alta qualidade 4. Clique para empurrar o próximo filme 5. Baixe miniaturas</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
             <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
@@ -1091,7 +1091,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="../../pornhub-download">-BR        Download de vídeo pornHub com um clique</a>&nbsp;
+    <a href="../../pornhub-download">-BR         Download de vídeo pornHub com um clique</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528800">
         <img src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download&hashtags=greasemonkey,userscripts,javascript">
@@ -1100,7 +1100,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Download de vídeo porn, com um clique |</summary>
+    <summary>-BR  Download de vídeo porn, com um clique |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">
             <img width=511 src="https://s2.loli.net/2025/03/05/7SsnqhtxYIVz8ud.png"></a>
@@ -1129,7 +1129,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../xhamster-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png" width=18></a>
-    <a href="../../xhamster-downloader">-BR        Vídeo Xhamster One-Click Download Assistant</a>&nbsp;
+    <a href="../../xhamster-downloader">-BR         Vídeo Xhamster One-Click Download Assistant</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529043">
         <img src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1138,7 +1138,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Xhamster Download com um clique | xhamster.com |</summary>
+    <summary>-BR  Xhamster Download com um clique | xhamster.com |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader">
             <img width=511 src="https://s2.loli.net/2025/03/07/MgBqAsFSGbptCHx.png"></a>
@@ -1167,7 +1167,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../xnxx-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.xnxx.com/apple-touch-icon.png"><img width=18 src="https://www.xnxx.com/apple-touch-icon.png" width=18></a>
-    <a href="../../xnxx-downloader">-BR        XNXXXVIDEOS VÍDEO ONE-Click Download Assistant</a>&nbsp;
+    <a href="../../xnxx-downloader">-BR         XNXXXVIDEOS VÍDEO ONE-Click Download Assistant</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529044">
         <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1176,7 +1176,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Xnxxvideos Download com um clique | xnxx.com |</summary>
+    <summary>-BR  Xnxxvideos Download com um clique | xnxx.com |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">
             <img width=511 src="https://s2.loli.net/2025/03/07/cvMUsKLmFzaDNhG.png"></a>
@@ -1205,7 +1205,7 @@ Converter links de texto em links clicáveis
 <h3>
     <a href="../../missav-enhancer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../../missav-enhancer">-BR        Assistente Missav Enhanced</a>&nbsp;
+    <a href="../../missav-enhancer">-BR         Assistente Missav Enhanced</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529125">
         <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer&hashtags=greasemonkey,userscripts,javascript">
@@ -1214,7 +1214,7 @@ Converter links de texto em links clicáveis
 </h3>
 
 <details>
-    <summary>-BR Remover anúncios |</summary>
+    <summary>-BR  Remover anúncios |</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">
             <img width=511 src="https://s2.loli.net/2025/03/08/aqsivQ8Dtd1FVb7.png"></a>
@@ -1309,7 +1309,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
-    <a href="../../google-advanced-search">-BR        Google Assistente de pesquisa avançada</a>&nbsp;
+    <a href="../../google-advanced-search">-BR         Google Assistente de pesquisa avançada</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502652">
         <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search&hashtags=greasemonkey,userscripts,javascript">
@@ -1318,7 +1318,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Adicione um formulário de pesquisa avançada ao topo da sua página de pesquisa do Google</summary>
+    <summary>-BR  Adicione um formulário de pesquisa avançada ao topo da sua página de pesquisa do Google</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">
             <img width=511 src="https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png"></a>
@@ -1349,7 +1349,7 @@ Procure um Google bloqueando um site especificado
 <div align="center"><h1>GitHub Script (19)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
-    <a href="../../github-repo-size-view">-BR        🤠 Tamanho de exibição do armazém do assistente aprimorado do Github</a>&nbsp;
+    <a href="../../github-repo-size-view">-BR         🤠 Tamanho de exibição do armazém do assistente aprimorado do Github</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502291">
         <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view&hashtags=greasemonkey,userscripts,javascript">
@@ -1358,7 +1358,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR 🤠 Tamanho de exibição do armazém: na pesquisa de código do GitHub, pesquisa de armazém, página de problemas, lista de armazém do usuário e página de repositório, o tamanho do armazém será exibido ao lado do nome do armazém, permitindo aos usuários entender rapidamente a escala do armazém e otimizar seu seleção. Aviso de desenvolvimento inativo: se um repositório não tiver sido atualizado nos últimos seis meses, o sistema adicionará um prompt na parte superior do repositório para lembrar aos usuários que o repositório está inativo e exibirá a hora da última atualização. Isso ajuda os usuários a determinar a atividade e o status de manutenção do armazém. Salto rápido dentro do armazém: Ao navegar no armazém, o usuário pode visualizar facilmente a lista de todos os armazéns do usuário, proporcionando uma entrada para saltar rapidamente para diferentes armazéns. Os usuários podem encontrar e acessar rapidamente outros projetos de interesse, melhorando a eficiência do trabalho. Cenários de uso: Desenvolvedores: Ao exibir o tamanho do warehouse e os avisos ativos, você pode filtrar rapidamente bibliotecas adequadas para desenvolvimento e evitar o uso de projetos que não são mais mantidos. Gerente de Projetos: Através da função de salto rápido, é fácil gerenciar e coordenar vários projetos e melhorar a eficiência do trabalho. Alunos: Ao aprender novas tecnologias, eles podem encontrar mais facilmente projetos de código aberto relevantes e verificar rapidamente a atividade e a escala dos projetos. 🤠</summary>
+    <summary>-BR  🤠 Tamanho de exibição do armazém: na pesquisa de código do GitHub, pesquisa de armazém, página de problemas, lista de armazém do usuário e página de repositório, o tamanho do armazém será exibido ao lado do nome do armazém, permitindo aos usuários entender rapidamente a escala do armazém e otimizar seu seleção. Aviso de desenvolvimento inativo: se um repositório não tiver sido atualizado nos últimos seis meses, o sistema adicionará um prompt na parte superior do repositório para lembrar aos usuários que o repositório está inativo e exibirá a hora da última atualização. Isso ajuda os usuários a determinar a atividade e o status de manutenção do armazém. Salto rápido dentro do armazém: Ao navegar no armazém, o usuário pode visualizar facilmente a lista de todos os armazéns do usuário, proporcionando uma entrada para saltar rapidamente para diferentes armazéns. Os usuários podem encontrar e acessar rapidamente outros projetos de interesse, melhorando a eficiência do trabalho. Cenários de uso: Desenvolvedores: Ao exibir o tamanho do warehouse e os avisos ativos, você pode filtrar rapidamente bibliotecas adequadas para desenvolvimento e evitar o uso de projetos que não são mais mantidos. Gerente de Projetos: Através da função de salto rápido, é fácil gerenciar e coordenar vários projetos e melhorar a eficiência do trabalho. Alunos: Ao aprender novas tecnologias, eles podem encontrar mais facilmente projetos de código aberto relevantes e verificar rapidamente a atividade e a escala dos projetos. 🤠</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">
             <img width=511 src="https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png"></a>
@@ -1389,7 +1389,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-sort-by-date">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
-    <a href="../../github-sort-by-date">-BR        GitHub Classificar por data</a>&nbsp;
+    <a href="../../github-sort-by-date">-BR         GitHub Classificar por data</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505218">
         <img src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date&hashtags=greasemonkey,userscripts,javascript">
@@ -1398,7 +1398,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Alterar a classificação dos arquivos para decrescente por data，Visualize convenientemente os arquivos atualizados mais recentes。</summary>
+    <summary>-BR  Alterar a classificação dos arquivos para decrescente por data，Visualize convenientemente os arquivos atualizados mais recentes。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date">
             <img width=511 src="https://s2.loli.net/2024/08/26/UjuVOtcvks8FPaB.png"></a>
@@ -1425,7 +1425,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="../../github-folder-downloader">-BR        GitHub downloader de pasta</a>&nbsp;
+    <a href="../../github-folder-downloader">-BR         GitHub downloader de pasta</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505496">
         <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1434,7 +1434,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Adicione um botão de download，Permite fácil download de arquivos específicos GitHub pasta。</summary>
+    <summary>-BR  Adicione um botão de download，Permite fácil download de arquivos específicos GitHub pasta。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">
             <img width=511 src="https://s2.loli.net/2024/08/28/XiKjIu85TVBwzMa.png"></a>
@@ -1463,7 +1463,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-raw-file-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
-    <a href="../../github-raw-file-plus">-BR        Github Copiar arquivo original URL com download de arquivos</a>&nbsp;
+    <a href="../../github-raw-file-plus">-BR         Github Copiar arquivo original URL com download de arquivos</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505501">
         <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -1472,7 +1472,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Botão Adicionar no final de cada linha do arquivo，para copiar o arquivo original URL e baixar arquivos</summary>
+    <summary>-BR  Botão Adicionar no final de cada linha do arquivo，para copiar o arquivo original URL e baixar arquivos</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">
             <img width=511 src="https://s2.loli.net/2024/08/28/QolM627BS8Avd9b.png"></a>
@@ -1501,7 +1501,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../../github-commit-viewer">-BR        GitHub Enviar informações exibir visualização da web</a>&nbsp;
+    <a href="../../github-commit-viewer">-BR         GitHub Enviar informações exibir visualização da web</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505830">
         <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer&hashtags=greasemonkey,userscripts,javascript">
@@ -1510,7 +1510,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Este roteiro irá GitHub As informações de submissão em HTML visualizar，para ver os detalhes do envio com mais clareza。Ele enviará automaticamente a lista de informações、O cabeçalho do commit e as informações do commit mais recente são convertidos para HTML Formatar，Fornece melhores efeitos visuais e experiência do usuário。</summary>
+    <summary>-BR  Este roteiro irá GitHub As informações de submissão em HTML visualizar，para ver os detalhes do envio com mais clareza。Ele enviará automaticamente a lista de informações、O cabeçalho do commit e as informações do commit mais recente são convertidos para HTML Formatar，Fornece melhores efeitos visuais e experiência do usuário。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">
             <img width=511 src="https://s2.loli.net/2024/08/30/lhJrcbzDdABY2pO.png"></a>
@@ -1537,7 +1537,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
-    <a href="../../github-file-list-beautifier-plus">-BR        GitHub Embelezador de lista de arquivos</a>&nbsp;
+    <a href="../../github-file-list-beautifier-plus">-BR         GitHub Embelezador de lista de arquivos</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508047">
         <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -1546,7 +1546,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR GitHub File List Beautifier é um script de usuário，usado para melhorar GitHub Efeito de exibição de arquivos no warehouse。Pode adicionar cores a arquivos e pastas，e substitua os ícones de tipo de arquivo por imagens pequenas，Torna a base de código mais fácil de navegar e gerenciar。Adicione cores e ícones aos arquivos por tipo，Exibir pequenas imagens no lugar dos ícones de tipo de arquivo na árvore de origem do repositório</summary>
+    <summary>-BR  GitHub File List Beautifier é um script de usuário，usado para melhorar GitHub Efeito de exibição de arquivos no warehouse。Pode adicionar cores a arquivos e pastas，e substitua os ícones de tipo de arquivo por imagens pequenas，Torna a base de código mais fácil de navegar e gerenciar。Adicione cores e ícones aos arquivos por tipo，Exibir pequenas imagens no lugar dos ícones de tipo de arquivo na árvore de origem do repositório</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">
             <img width=511 src="https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png"></a>
@@ -1575,7 +1575,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-device-authorization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
-    <a href="../../github-device-authorization">-BR        GitHub Confirmar automaticamente a autorização do dispositivo</a>&nbsp;
+    <a href="../../github-device-authorization">-BR         GitHub Confirmar automaticamente a autorização do dispositivo</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508956">
         <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization&hashtags=greasemonkey,userscripts,javascript">
@@ -1583,7 +1583,7 @@ Procure um Google bloqueando um site especificado
         </a>
 </h3>
 
--BR existirGitHubA página de autorização insere automaticamente o código de autorização e o confirma automaticamente.。
+-BR  existirGitHubA página de autorização insere automaticamente o código de autorização e o confirma automaticamente.。
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/508956">
@@ -1607,7 +1607,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-linguist-expand">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
-    <a href="../../github-linguist-expand">-BR        Github Lista de linguagens de código mostra todas</a>&nbsp;
+    <a href="../../github-linguist-expand">-BR         Github Lista de linguagens de código mostra todas</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509889">
         <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand&hashtags=greasemonkey,userscripts,javascript">
@@ -1616,7 +1616,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Expandir Github Lista de idiomas no repositório，Mostrar cada idioma，Em vez de esconder pequenas peças“outro”Abaixo</summary>
+    <summary>-BR  Expandir Github Lista de idiomas no repositório，Mostrar cada idioma，Em vez de esconder pequenas peças“outro”Abaixo</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">
             <img width=511 src="https://s2.loli.net/2024/09/24/NlaYfsZdcW7hTr5.png"></a>
@@ -1645,7 +1645,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../../github-repository-navigator">-BR        Assistente de salto rápido do GitHub Warehouse</a>&nbsp;
+    <a href="../../github-repository-navigator">-BR         Assistente de salto rápido do GitHub Warehouse</a>&nbsp;
     <a href="https://greasyfork.org/scripts/515205">
         <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator&hashtags=greasemonkey,userscripts,javascript">
@@ -1654,7 +1654,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR 🤠 Assistente de salto rápido do GitHub Warehouse, especialmente projetado para ajudar os usuários a acessar rapidamente seus próprios armazéns no GitHub. Ele gera um botão na parte superior da barra de navegação. Clique para expandir todos os seus repositórios e ir facilmente para a página do seu próprio repositório GitHub sem usar o menu secundário do GitHub.</summary>
+    <summary>-BR  🤠 Assistente de salto rápido do GitHub Warehouse, especialmente projetado para ajudar os usuários a acessar rapidamente seus próprios armazéns no GitHub. Ele gera um botão na parte superior da barra de navegação. Clique para expandir todos os seus repositórios e ir facilmente para a página do seu próprio repositório GitHub sem usar o menu secundário do GitHub.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">
             <img width=511 src="https://s2.loli.net/2024/11/01/AWopjtOVhEcYKxC.png"></a>
@@ -1683,7 +1683,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-jsdelivr-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
-    <a href="../../github-jsdelivr-link">-BR        Abra o link JSDelivr no GitHub</a>&nbsp;
+    <a href="../../github-jsdelivr-link">-BR         Abra o link JSDelivr no GitHub</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527870">
         <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link&hashtags=greasemonkey,userscripts,javascript">
@@ -1692,7 +1692,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Abra o link do github no JSDelivr para baixar rapidamente arquivos</summary>
+    <summary>-BR  Abra o link do github no JSDelivr para baixar rapidamente arquivos</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">
             <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/jftr1ms2n0mugq1wmwd90k8tzpps"></a>
@@ -1721,7 +1721,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-gist-copier">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../../github-gist-copier">-BR        Cópia do snippet e downloader de código de código do Github</a>&nbsp;
+    <a href="../../github-gist-copier">-BR         Cópia do snippet e downloader de código de código do Github</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529534">
         <img src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier&hashtags=greasemonkey,userscripts,javascript">
@@ -1730,7 +1730,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Adicione um botão de cópia ao arquivo GIST para tornar o código facilmente copiado. |.</summary>
+    <summary>-BR  Adicione um botão de cópia ao arquivo GIST para tornar o código facilmente copiado. |.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier">
             <img width=511 src="https://s2.loli.net/2025/03/12/Pxk1dNuOFlgheKj.png"></a>
@@ -1761,7 +1761,7 @@ Procure um Google bloqueando um site especificado
 <h3>
     <a href="../../github-comment-translate">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../../github-comment-translate">-BR        Assistente de Tradução de Chave de Atalho do Github</a>&nbsp;
+    <a href="../../github-comment-translate">-BR         Assistente de Tradução de Chave de Atalho do Github</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530312">
         <img src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate&hashtags=greasemonkey,userscripts,javascript">
@@ -1770,7 +1770,7 @@ Procure um Google bloqueando um site especificado
 </h3>
 
 <details>
-    <summary>-BR Ouça o atalho do teclado Ctrl + Q, que implementa a função de traduzir o texto e a substituição dos resultados da tradução pela caixa de texto original.</summary>
+    <summary>-BR  Ouça o atalho do teclado Ctrl + Q, que implementa a função de traduzir o texto e a substituição dos resultados da tradução pela caixa de texto original.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
             <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
@@ -2131,7 +2131,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <h3>
     <a href="../../smart-translator-tool">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
-    <a href="../../smart-translator-tool">-BR        Widget de tradução |</a>&nbsp;
+    <a href="../../smart-translator-tool">-BR         Widget de tradução |</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530406">
         <img src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool&hashtags=greasemonkey,userscripts,javascript">
@@ -2140,7 +2140,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </h3>
 
 <details>
-    <summary>-BR Tradução de qualquer idioma e atalho com um clique de tradução do idioma que você deseja | Tradução da página | Selecione Texto (pressione Ctrl) | Forneça atalhos, basta pressionar uma tecla para traduzir rapidamente o idioma que deseja | Aprendizagem de inglês | A tradução pode ser definida e suporta idiomas mais comuns em todo o mundo | Feedback se você tiver alguma dúvida</summary>
+    <summary>-BR  Tradução de qualquer idioma e atalho com um clique de tradução do idioma que você deseja | Tradução da página | Selecione Texto (pressione Ctrl) | Forneça atalhos, basta pressionar uma tecla para traduzir rapidamente o idioma que deseja | Aprendizagem de inglês | A tradução pode ser definida e suporta idiomas mais comuns em todo o mundo | Feedback se você tiver alguma dúvida</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool">
             <img width=511 src="https://img.xwyue.com/i/2024/06/25/667a850940f98.webp"></a>
@@ -2170,10 +2170,10 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </blockquote>
 <div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>AI Script (8)</h1></div><h3>
+<div align="center"><h1>AI Script (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../../chatgpt-plus">-BR        ChatGPT Recolher mensagem própria e largura máxima</a>&nbsp;
+    <a href="../../chatgpt-plus">-BR         ChatGPT Recolher mensagem própria e largura máxima</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504901">
         <img src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -2182,7 +2182,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </h3>
 
 <details>
-    <summary>-BR dobrarChatGPTmédio e longo“você”Informação，e defina a largura máxima</summary>
+    <summary>-BR  dobrarChatGPTmédio e longo“você”Informação，e defina a largura máxima</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus">
             <img width=511 src="https://s2.loli.net/2024/08/24/BEyFS87bgMjJX1R.png"></a>
@@ -2211,7 +2211,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../../chatgpt-code-styling">-BR        ChatGPTTamanho da fonte do código reduzido</a>&nbsp;
+    <a href="../../chatgpt-code-styling">-BR         ChatGPTTamanho da fonte do código reduzido</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505209">
         <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling&hashtags=greasemonkey,userscripts,javascript">
@@ -2219,7 +2219,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
         </a>
 </h3>
 
--BR ChatGPT Diminuir a fonte do código e embrulhar automaticamente
+-BR  ChatGPT Diminuir a fonte do código e embrulhar automaticamente
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505209">
@@ -2241,7 +2241,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <h3>
     <a href="../../chatgpt-counter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
-    <a href="../../chatgpt-counter">-BR        ChatGPT Limite do contador de caracteres (CCCL)</a>&nbsp;
+    <a href="../../chatgpt-counter">-BR         ChatGPT Limite do contador de caracteres (CCCL)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506166">
         <img src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter&hashtags=greasemonkey,userscripts,javascript">
@@ -2250,7 +2250,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </h3>
 
 <details>
-    <summary>-BR Adicione um contador de caracteres à caixa de entrada，limitado a 32732 personagens。（ChatGPT O limite é 32732 personagens。）</summary>
+    <summary>-BR  Adicione um contador de caracteres à caixa de entrada，limitado a 32732 personagens。（ChatGPT O limite é 32732 personagens。）</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter">
             <img width=511 src="https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png"></a>
@@ -2279,7 +2279,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <h3>
     <a href="../../chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
-    <a href="../../chatgpt-copy-code-button">-BR        ChatGPT Botões de copiar código de bate-papo e exportar código</a>&nbsp;
+    <a href="../../chatgpt-copy-code-button">-BR         ChatGPT Botões de copiar código de bate-papo e exportar código</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509598">
         <img src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button&hashtags=greasemonkey,userscripts,javascript">
@@ -2288,7 +2288,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </h3>
 
 <details>
-    <summary>-BR existir chatgpt.com Adicione uma animação no canto inferior direito do bloco de código superior“Copiar código”botão e um para ChatGPT Bloco de código em resposta adiciona botão de exportação，Solicita ao usuário que salve o código em um arquivo com base na linguagem de programação detectada pelo nome da classe do bloco de código。</summary>
+    <summary>-BR  existir chatgpt.com Adicione uma animação no canto inferior direito do bloco de código superior“Copiar código”botão e um para ChatGPT Bloco de código em resposta adiciona botão de exportação，Solicita ao usuário que salve o código em um arquivo com base na linguagem de programação detectada pelo nome da classe do bloco de código。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button">
             <img width=511 src="https://s2.loli.net/2024/09/22/VexqWUEA6GYPQjN.png"></a>
@@ -2317,7 +2317,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 <h3>
     <a href="../../chatgpt-code-hightlight">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../../chatgpt-code-hightlight">-BR        Código ChatGPT destacado</a>&nbsp;
+    <a href="../../chatgpt-code-hightlight">-BR         Código ChatGPT destacado</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527255">
         <img src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight&hashtags=greasemonkey,userscripts,javascript">
@@ -2326,7 +2326,7 @@ Adicione um ícone de tradução do Google ao canto inferior direito de cada pá
 </h3>
 
 <details>
-    <summary>-BR Adicione todo o código de idioma destacando o ChatGPT (usando o Highlight.js)</summary>
+    <summary>-BR  Adicione todo o código de idioma destacando o ChatGPT (usando o Highlight.js)</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight">
             <img width=511 src="https://raw.githubusercontent.com/Dreace/ChatGPTCodeHighlight/master/preview.png"></a>
@@ -2446,6 +2446,38 @@ Salve a conversa como um arquivo .txt
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
+<h3>
+    <a href="../../chatgpt-easy-management">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
+    <a href="../../chatgpt-easy-management">Chatgpt gerencia facilmente bate -papos</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538142">
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Pesquise bate -papo, bate -papo de filtro, bate -papo de exclusão rápida/lote.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538142">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538142">
+        Greasemonkey</a> /
+    <a href="../../chatgpt-easy-management/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../chatgpt-easy-management/README_en.md">
+        Arquivo de leitura</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutir</a> /
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código -fonte</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
 <div align="right"><a href="#-Lista-de-scripts">Voltar ao diretório</a></div>
@@ -2613,7 +2645,7 @@ Sina Weibo irá automaticamente pular para a versão móvel，Apoie Weibo、arti
 <div align="center"><h1>Twitter (3)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-hide-reposts">-BR        Twitter/x Hide Postagens Retweetadas</a>&nbsp;
+    <a href="../../twitter-hide-reposts">-BR         Twitter/x Hide Postagens Retweetadas</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529450">
         <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts&hashtags=greasemonkey,userscripts,javascript">
@@ -2622,7 +2654,7 @@ Sina Weibo irá automaticamente pular para a versão móvel，Apoie Weibo、arti
 </h3>
 
 <details>
-    <summary>-BR Ocultar automaticamente o conteúdo encaminhado e ocultar o conteúdo encaminhado no primeiro carregamento para remover anúncios irritantes</summary>
+    <summary>-BR  Ocultar automaticamente o conteúdo encaminhado e ocultar o conteúdo encaminhado no primeiro carregamento para remover anúncios irritantes</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">
             <img width=511 src="https://s2.loli.net/2025/03/11/lLQNYkoq3dajZKJ.jpg"></a>
@@ -2692,7 +2724,7 @@ Sina Weibo irá automaticamente pular para a versão móvel，Apoie Weibo、arti
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">Twitter (x) Lista negra e download da lista bloqueada</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
@@ -2727,7 +2759,7 @@ Usado para baixar listas negras do Twitter (x) e listas bloqueadas, suportar a d
 <div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../../youtube-helper">-BR        Assistente do YouTube</a>&nbsp;
+    <a href="../../youtube-helper">-BR         Assistente do YouTube</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529845">
         <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=N%C3%BAmero%20de%20usu%C3%A1rios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -2736,7 +2768,7 @@ Usado para baixar listas negras do Twitter (x) e listas bloqueadas, suportar a d
 </h3>
 
 <details>
-    <summary>-BR YouTube 1. Playback de loop de vídeo.</summary>
+    <summary>-BR  YouTube 1. Playback de loop de vídeo.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">
             <img width=511 src="https://pparker1930.github.io/youtube-theme-progressbar.gif"></a>

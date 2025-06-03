@@ -29,7 +29,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=Gesamtzahl%20der%20Installationen%20aller%20Skripte&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=H%C3%A4ufigkeit%2C%20mit%20der%20ein%20Skript%20pro%20Tag%20verwendet%20wird&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Anzahl%20aller%20heute%20installierten%20Skripte&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Anzahl%20der%20Skripte&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
+<img src="https://img.shields.io/badge/dynamic/json?&label=脚本数量&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Alle%20guten%20Bewertungen&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Alles%20allgemein&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=Alle%20negativen%20Bewertungen&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
@@ -50,11 +50,11 @@
     <strong>Das Skript stammt aus den Internet -Internetnutzern，Ich habe gerade einige Änderungen vorgenommen.Vielen Dank an Internetnutzer</strong><br>
     <strong>Wenn es eine Verletzung gibt,Kontaktieren Sie uns müssen löschen</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>Empfohlene Verwendung：</strong><br>
+    <strong>推荐使用：</strong><br>
 <img src="https://img.shields.io/badge/Betriebssystem-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Empfohlener%20Browser-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Skriptmanager-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-💡 <strong>Tip:</strong> Der oben aufgeführte Skriptmanager und der Browser stellen nicht alle dar<br>
+💡 <strong>Tip:</strong> 以上已列出的脚本管理器和浏览器不代表全部<br>
     <strong>Das Skript wird normalerweise in der folgenden Umgebung ausgeführt</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
@@ -79,7 +79,7 @@
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 Browser und Skriptmanager](#-Browser-und-Skriptmanager) |
-[❔️ So installieren oder verwenden Sie Skripte](#%EF%B8%8F-So-installieren-oder-verwenden-Sie-Skripte) |
+[❔️ 如何安装或使用脚本](#%EF%B8%8F-如何安装或使用脚本) |
 [🙏 Besonderer Dank an Kaiyuan](#-Besonderer-Dank-an-Kaiyuan) |
 [🛡️ Sicherheitsrichtlinie](#%EF%B8%8F-Sicherheitsrichtlinie) |
 [🤝 Verhaltenskodex](#-Verhaltenskodex) |
@@ -95,14 +95,14 @@
 💡 **Tip:** _Zum Anzeigen von Vorschaubild Screenshot，Bitte klicken Sie auf den Erweiterungsnamen unten ▸ Oder Beschreibung。_
 
 <!--SCRIPTS_COUNT-->
-**Die Anzahl der aktuellen veröffentlichten Skripte für das Repository:79,Das Skript enthält:**
+**储存库当前发布脚本数量:80,Das Skript enthält:**
 <h6><a href="#Web--Skript-10">Web -Skript (10)</a>
  | <a href="#GreasyFork-11">GreasyFork (11)</a>
  | <a href="#Erwachsene-Skripte-11">Erwachsene Skripte (11)</a>
  | <a href="#Google-Skript-2">Google Skript (2)</a>
  | <a href="#GitHub-Skript-19">GitHub Skript (19)</a>
  | <a href="#Übersetzungsskript-3">Übersetzungsskript (3)</a>
- | <a href="#AI-Skript-8">AI Skript (8)</a>
+ | <a href="#AI-Skript-9">AI Skript (9)</a>
  | <a href="#Blog--Website-5">Blog -Website (5)</a>
  | <a href="#Twitter-3">Twitter (3)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
@@ -2170,7 +2170,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
 </blockquote>
 <div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>AI Skript (8)</h1></div><h3>
+<div align="center"><h1>AI Skript (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT Selbstnachricht minimieren und maximale Breite erreichen</a>&nbsp;
@@ -2448,6 +2448,38 @@ Speichern Sie die Konversation als .txt -Datei
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
+<h3>
+    <a href="../../chatgpt-easy-management">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
+    <a href="../../chatgpt-easy-management">ChatGPT verwalten einfach Chats</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538142">
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+Suchen Sie Chat, Filter -Chat, Schnell/Stapel -Chat löschen.
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538142">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538142">
+        Greasemonkey</a> /
+    <a href="../../chatgpt-easy-management/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../chatgpt-easy-management/README_en.md">
+        Readme -Datei</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Quellcode</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+</blockquote>
 <div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Blog -Website (5)</h1></div><h3>
@@ -2692,7 +2724,7 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
-        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="/https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">Twitter (x) Blacklist und Blocked List Download</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
@@ -2941,7 +2973,7 @@ Laden Sie Bilibili Video herunter（Nicht unterstütztes Drama）
         </a>
 </h3>
 
-Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，Massenblockierung，Export、Importliste usw.……
+Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，批量屏蔽，Export、Importliste usw.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -2967,12 +2999,12 @@ Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，Massen
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
-## ❔️ So installieren oder verwenden Sie Skripte？
+## ❔️ 如何安装或使用脚本？
 
 Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **Tampermonkey Skript -Manager -Erweiterungen（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   Klicken Sie auf das Formular **\[Installieren\]** Geben Sie die Installationsschnittstelle für Skriptmanager direkt auf。
--   Wenn Github Die Zugangsgeschwindigkeit ist zu langsam，Sie können wählen, um zu klicken GreasyFork **\[Installieren\]** Die Verlängerung Eingabeaufforderung taucht auf，Geh und klicke noch einmal **\[Installieren\]** Nur。
+-   Wenn Github Die Zugangsgeschwindigkeit ist zu langsam，Sie können wählen, um zu klicken GreasyFork **\[Installieren\]** 后弹出扩展提示，Geh und klicke noch einmal **\[Installieren\]** Nur。
 -   [Detailliertes Tutorial anzeigen](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
@@ -2981,7 +3013,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 > -   _Bitte stellen Sie sicher **Tampermonkey Offizielle Version** Erweitert，其他的用户Skript管理器可能导致**Kann nicht normal benutzen**脚本。_
 > -   _Wenn Sie das Skript neu installieren möchten，Bitte denken Sie daran Tampermonkey Erweitert**Vollständig im Recyclingbehälter gelöscht**Nachdem das Skript neu installiert ist。_
 
-> _**Wird nicht offline installieren .crx Erweitert？[Chrome、Edge Wiederversteckt [In die Installation ziehen .crx Erweitert] Funktion！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**Wird nicht offline installieren .crx Erweitert？[Chrome、Edge 重新开启隐藏的 [In die Installation ziehen .crx Erweitert] Funktion！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -2999,7 +3031,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   Alles im Lagerhaus`README.md`Dateiabzeichen kopiert[Hmjz100](https://github.com/hmjz100)Lager[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)Intern[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Dateiabzeichenstil
+> -   Alles im Lagerhaus`README.md`文件徽章复制了[Hmjz100](https://github.com/hmjz100)Lager[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)Intern[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Dateiabzeichenstil
 
 > [!TIP]
 >
@@ -3009,7 +3041,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 
 > [!TIP]
 >
-> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="Sohn der Wüste"/></a> :+1:
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
 > -   Kopiert [Sohn der Wüste](https://github.com/maboloshi)Lager[github-chinese](https://github.com/maboloshi/github-chinese)Code im Inneren<br>
 > -   In diesem Lagerhaus`writer.py` `update-contributors.yml` Kopieren verwendet[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Der Code im Inneren
 > -   Diese Repository Readme -Datei wurde kopiert[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8ESkriptmanager)Inhalt `So installieren/Verwenden von Skripten？`
@@ -3021,7 +3053,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 > -   _Dieses Lagerhaus ist in Amerikaner benannt[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspirieren_ :trollface:
 > -   _ReadMe -Dateien in diesem Lager stammen aus[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtstil_ :trollface:
 > -   _Die gegenseitige Ablenkung springt in das Drehbuch stammt aus[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtstil_ :trollface:
-> -   _Alles in diesem Lagerhaus`README.md`Die Datei wurde von diesem amerikanischen Repository kopiert und verwendet`README.md`Dateilayout，Abgrenzer，Code，Ideen_ :trollface:
+> -   _Alles in diesem Lagerhaus`README.md`文件复制并使用了这个美国佬的仓库`README.md`Dateilayout，Abgrenzer，Code，Ideen_ :trollface:
 > -   _Kopieren Sie den Amerikaner[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action Interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _Kopiert amerikanisch[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action Interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _Kopieren Sie den Amerikaner[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Abgrenzer，Ausgabetyp -Layoutstil :trollface:
@@ -3041,7 +3073,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generiert <a href="https://github.com/jaywcjlove" title="Melodie"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodie"/></a>
+贡献列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generiert <a href="https://github.com/jaywcjlove" title="Melodie"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodie"/></a>
 
 <div align="right">
 
@@ -3072,7 +3104,7 @@ Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungs
 
 ## 🛡️ Sicherheitsrichtlinie
 
-Wenn Sie eine Verwundbarkeit finden，Bitte öffnen Sie a[Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+Wenn Sie eine Verwundbarkeit finden，请打开一个[安全建议草案](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
 Pull -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
 Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherheitsrichtlinie</strong></a>
