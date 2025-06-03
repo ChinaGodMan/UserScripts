@@ -6,6 +6,7 @@ import markdown from '@eslint/markdown'
 import regexp from 'eslint-plugin-regexp'
 import stylisticJS from '@stylistic/eslint-plugin'
 import yml from 'eslint-plugin-yml'
+import userscripts from 'eslint-plugin-userscripts'
 
 export default [
     {
@@ -69,5 +70,14 @@ export default [
             'markdown/no-empty-links': 'off' // allow empty links
         }
     },
-    { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] }
+    { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] },
+    {
+        files: ['**/*.user.js'],
+        plugins: { userscripts: { rules: userscripts.rules } },
+        rules: {
+            ...userscripts.configs.recommended.rules,
+            'userscripts/no-invalid-headers': 'off'
+        },
+        settings: { userscriptVersions: { violentmonkey: '*' } }
+    }
 ]

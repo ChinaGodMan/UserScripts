@@ -1,30 +1,32 @@
 // ==UserScript==
-// @name              知乎的深色主题
-// @name:zh-CN        知乎的深色主题
-// @description       知乎的深色主题风格
-// @description:zh-CN 知乎的深色主题风格
-// @author            Benjamin L
-// @namespace         https://github.com/bensgith/userscripts
-// @supportURL        https://github.com/bensgith/userscripts
-// @homepageURL       https://github.com/bensgith/userscripts
-// @license           MIT
-// @match             https://www.zhihu.com/*
-// @icon              https://static.zhihu.com/heifetz/favicon.ico
-// @grant             GM_addStyle
-// @run-at            document-idle
-// @compatible        chrome
-// @compatible        firefox
-// @compatible        edge
-// @compatible        opera
-// @compatible        safari
-// @compatible        kiwi
-// @compatible        qq
-// @compatible        via
-// @compatible        brave
-// @version           2025.6.2.1
-// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/zhihu-black/zhihu-black.user.js
-// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/zhihu-black/zhihu-black.user.js
+// @name               知乎的深色主题
+// @name:zh-CN         知乎的深色主题
+// @description        知乎的深色主题风格
+// @description:zh-CN  知乎的深色主题风格
+// @author             Benjamin L
+// @namespace          https://github.com/bensgith/userscripts
+// @supportURL         https://github.com/bensgith/userscripts
+// @homepageURL        https://github.com/bensgith/userscripts
+// @homepage           https://github.com/bensgith/userscripts
+// @license            MIT
+// @match              https://www.zhihu.com/*
+// @icon               https://static.zhihu.com/heifetz/favicon.ico
+// @grant              GM_addStyle
+// @run-at             document-idle
+// @compatible         chrome
+// @compatible         firefox
+// @compatible         edge
+// @compatible         opera
+// @compatible         safari
+// @compatible         kiwi
+// @compatible         qq
+// @compatible         via
+// @compatible         brave
+// @version            2025.6.2.1
+// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/zhihu-black/zhihu-black.user.js
+// @updateURL          https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/zhihu-black/zhihu-black.user.js
 // ==/UserScript==
+
 (function () {
     'use strict'
 

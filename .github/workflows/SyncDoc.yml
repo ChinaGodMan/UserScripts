@@ -31,8 +31,11 @@ jobs:
         with:
           python-version: "3.12.4"
 
-      - name: 安装依赖
+      - name: pip
         run: pip install -r utils/requirements.txt
+
+      - name: npm
+        run: npm install
 
       - name: 检查新脚本
         run: python utils/script-import-sync.py

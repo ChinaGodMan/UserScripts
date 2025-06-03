@@ -1,30 +1,31 @@
 // ==UserScript==
-// @name              Bilibili Video Downloader
-// @name:zh-CN        哔哩哔哩视频下载器
-// @description       Download videos from Bilibili (No Bangumi)
-// @description:zh-CN 下载哔哩哔哩视频（不支持番剧）
-// @author            jc3213
-// @namespace         https://github.com/jc3213/userscript
-// @supportURL        https://github.com/jc3213/userscript/issues
-// @homepageURL       https://github.com/jc3213/userscript
-// @license           MIT
-// @match             https://www.bilibili.com/video/*
-// @match             https://www.bilibili.com/v/*
-// @icon              https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png
-// @grant             GM_download
-// @run-at            document-idle
-// @compatible        chrome
-// @compatible        firefox
-// @compatible        edge
-// @compatible        opera
-// @compatible        safari
-// @compatible        kiwi
-// @compatible        qq
-// @compatible        via
-// @compatible        brave
-// @version           2025.6.2.1
-// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-video-downloader/bilibili-video-downloader.user.js
-// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-video-downloader/bilibili-video-downloader.user.js
+// @name               Bilibili Video Downloader
+// @name:zh-CN         哔哩哔哩视频下载器
+// @description        Download videos from Bilibili (No Bangumi)
+// @description:zh-CN  下载哔哩哔哩视频（不支持番剧）
+// @author             jc3213
+// @namespace          https://github.com/jc3213/userscript
+// @supportURL         https://github.com/jc3213/userscript/issues
+// @homepageURL        https://github.com/jc3213/userscript
+// @homepage           https://github.com/jc3213/userscript
+// @license            MIT
+// @match              https://www.bilibili.com/video/*
+// @match              https://www.bilibili.com/v/*
+// @icon               https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png
+// @grant              GM_download
+// @run-at             document-idle
+// @compatible         chrome
+// @compatible         firefox
+// @compatible         edge
+// @compatible         opera
+// @compatible         safari
+// @compatible         kiwi
+// @compatible         qq
+// @compatible         via
+// @compatible         brave
+// @version            2025.6.2.1
+// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-video-downloader/bilibili-video-downloader.user.js
+// @updateURL          https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-video-downloader/bilibili-video-downloader.user.js
 // ==/UserScript==
 
 let { autowide = '0', videocodec = '0' } = localStorage

@@ -1,260 +1,260 @@
 // ==UserScript==
-// @name              网页翻译——自动翻译为中文
-// @name:af           Webbladvertaling - outomatiese vertaling in Chinees
-// @name:am           ዌብ ገጽ ትርጉም - ራስ-ሰር ትርጉም ወደ ቻይንኛ
-// @name:ar           ترجمة صفحة الويب - الترجمة التلقائية إلى الصينية
-// @name:az           Veb səhifə tərcüməsi - Çin dilinə avtomatik tərcümə
-// @name:be           Пераклад вэб -старонкі - аўтаматычны пераклад на кітайскую мову
-// @name:bem          Ukupilibula ibuula lya webu – ukupilibula ukwaibela mu China
-// @name:bg           Превод на уеб страници - Автоматичен превод на китайски
-// @name:bn           ওয়েব পৃষ্ঠার অনুবাদ - চীনা ভাষায় স্বয়ংক্রিয় অনুবাদ
-// @name:bo           དྲ་ངོས་ཤོག་ངོས – རང་འགུལ་གྱིས་རྒྱ་ཡིག་ཏུ་བསྒྱུར་བ།
-// @name:bs           Prevođenje web stranica - Automatski prijevod na kineski
-// @name:ca           Traducció de pàgines web: traducció automàtica al xinès
-// @name:ceb          Paghubad sa web page - Awtomatikong paghubad sa Intsik
-// @name:ckb          وەرگێڕانی وێب پەیجی – وەرگێڕانی ئۆتۆماتیکی بۆ زمانی چینی
-// @name:cs           Překlad webové stránky - automatický překlad do čínštiny
-// @name:cy           Cyfieithu Tudalen We - Cyfieithu awtomatig i Tsieinëeg
-// @name:da           Oversættelse af webside - Automatisk oversættelse til kinesisk
-// @name:de           Webseitenübersetzung - Automatische Übersetzung in Chinesisch
-// @name:dv           ވެބް ޕޭޖް ތަރުޖަމާ – ޗައިނީޒް އަށް އޮޓޮމެޓިކުން ތަރުޖަމާ
-// @name:dz           ཝེབ་ཤོག་ལེབ་སྐད་བསྒྱུར་ – རྒྱ་ཡིག་ནང་ རང་འགུལ་སྐད་སྒྱུར།
-// @name:el           Μετάφραση ιστοσελίδας - αυτόματη μετάφραση στα κινέζικα
-// @name:en           Web page translation – automatic translation into Chinese
-// @name:eo           Retpaĝa Traduko - Aŭtomata traduko al ĉina
-// @name:es           Traducción de la página web: traducción automática al chino
-// @name:et           Veebilehe tõlge - automaatne tõlge hiina keelde
-// @name:eu           Web orriaren itzulpena - Txinera itzulpen automatikoa
-// @name:fa           ترجمه صفحه وب - ترجمه خودکار به چینی
-// @name:fi           Verkkosivujen käännös - automaattinen käännös kiinaksi
-// @name:fo           Vevsíðu týðing – sjálvvirkandi týðing til kinesiskt
-// @name:fr           Traduction de page Web - Traduction automatique en chinois
-// @name:gd           Eadar-theangachadh duilleag-lìn - Eadar-theangachadh fèin-ghluasadach a-steach do Shìonach
-// @name:gl           Tradución de páxinas web: tradución automática ao chinés
-// @name:gu           વેબ પૃષ્ઠ અનુવાદ - ચાઇનીઝમાં સ્વચાલિત અનુવાદ
-// @name:haw          Ke unuhiʻaoʻaoʻaoʻao
-// @name:he           תרגום לדף אינטרנט - תרגום אוטומטי לסינית
-// @name:hi           वेब पेज अनुवाद - चीनी में स्वचालित अनुवाद
-// @name:hr           Prijevod na web stranici - automatski prijevod na kineski
-// @name:ht           Tradiksyon paj entènèt - tradiksyon otomatik nan Chinwa
-// @name:hu           Weboldal fordítás - automatikus fordítás kínai nyelvre
-// @name:hy           Վեբ էջի թարգմանություն - Ավտոմատ թարգմանությունը չինարեն
-// @name:id           Terjemahan Halaman Web - Terjemahan Otomatis ke dalam Cina
-// @name:is           Þýðing á vefsíðu - Sjálfvirk þýðing á kínversku
-// @name:it           Traduzione della pagina web - traduzione automatica in cinese
-// @name:ja           Webページ翻訳 - 中国語への自動翻訳
-// @name:ka           ვებ - გვერდის თარგმანი - ავტომატური თარგმანი ჩინურ ენაზე
-// @name:kk           Веб-бет аударма - қытай тіліне автоматты аударма
-// @name:km           គេហទំព័រការបកប្រែទំព័រវិប - ការបកប្រែស្វ័យប្រវត្តិទៅជាភាសាចិន
-// @name:kn           ವೆಬ್ ಪುಟ ಅನುವಾದ - ಚೈನೀಸ್ ಭಾಷೆಗೆ ಸ್ವಯಂಚಾಲಿತ ಅನುವಾದ
-// @name:ko           웹 페이지 번역 - 중국어로 자동 번역
-// @name:ku           Werger - werger - South Azerbaijani
-// @name:ky           Веб барагы котормосу - Кытайга автоматтык котормо
-// @name:la           Web page translation - Lorem in Chinese
-// @name:lb           Websäit Iwwersetzung - automatesch Iwwersetzung op Chinesesch
-// @name:lo           ການແປພາສາເວບໄຊທ໌ - ການແປພາສາອັດຕະໂນມັດເປັນພາສາຈີນ
-// @name:lt           Tinklalapio vertimas - automatinis vertimas į kinų kalbą
-// @name:lv           Tīmekļa lapas tulkošana - automātiska tulkošana ķīniešu valodā
-// @name:mg           Fandikana ny pejy fandikana ny pejy - fandikana otomatis amin’ny teny sinoa
-// @name:mi           Whakamarama Whārangi Tukutuku - Whakawhiti Aunoa ki te Hainamana
-// @name:mk           Превод на веб -страница - Автоматски превод на кинески
-// @name:ml           വെബ് പേജ് വിവർത്തനം - ചൈനീസിലേക്ക് യാന്ത്രിക വിവർത്തനം
-// @name:mn           Вэб хуудас орчуулга - Хятад хэл рүү автомат орчуулга
-// @name:ms           Terjemahan laman web - terjemahan automatik ke dalam bahasa Cina
-// @name:mt           Traduzzjoni tal-Paġna tal-Web - Traduzzjoni Awtomatika fiċ-Ċiniż
-// @name:my           ဝဘ်စာမျက်နှာဘာသာပြန် - အလိုအလျောက်ဘာသာပြန်ဆိုခြင်း
-// @name:ne           वेब पृष्ठ अनुवाद - चिनियाँमा स्वचालित अनुवाद
-// @name:nl           Webpagina vertaling - Automatische vertaling naar Chinees
-// @name:no           Oversettelse av webside - automatisk oversettelse til kinesisk
-// @name:ny           Tsamba la Tsamba la Webusayiti - Kutanthauzira Kwa Zokha Ku China
-// @name:pa           ਵੈਬ ਪੇਜ ਅਨੁਵਾਦ - ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦ ਚੀਨੀ ਵਿੱਚ
-// @name:pap          Tradukshon di página web – tradukshon outomatiko na chines .
-// @name:pl           Tłumaczenie strony internetowej - automatyczne tłumaczenie na chiński
-// @name:ps           ګورت پا "ه ژباړه - په چینایي کې اتوماتیک ژباړه
-// @name:pt           Tradução da página da web - tradução automática para chinês
-// @name:ro           Traducere pe pagini web - traducere automată în chineză
-// @name:ru           Перевод веб -страницы - автоматический перевод на китайский
-// @name:rw           Urubuga rwa page - Ubusobanuro bwikora mu Gishinwa
-// @name:sg           Traduction ti lembeti ti Web – traduction automatique na yanga ti Chinois .
-// @name:si           වෙබ් පිටු පරිවර්තනය - ස්වයංක්රීය පරිවර්තනය චීන භාෂාවට පරිවර්තනය කිරීම
-// @name:sk           Preklad webovej stránky - automatický preklad do čínštiny
-// @name:sl           Prevajanje spletne strani - samodejni prevod v kitajščino
-// @name:sm           Itulau itulau itulau (otometi faaliliuga faaliliu i le gagana Saina
-// @name:sn           Webhu Back Back - otomatiki Shanduro muChinese
-// @name:so           Sharaxa bogga Tarjumida - Tarjumaad toos ah oo Shiinees ah
-// @name:sr           Превод веб страница - аутоматски превод на кинески
-// @name:sv           Webbsidans översättning - Automatisk översättning till kinesiska
-// @name:sw           Tafsiri ya ukurasa wa wavuti - Tafsiri ya moja kwa moja kwa Kichina
-// @name:ta           வலைப்பக்க மொழிபெயர்ப்பு - சீன மொழியில் தானியங்கி மொழிபெயர்ப்பு
-// @name:te           వెబ్ పేజీ అనువాదం - చైనీస్లోకి స్వయంచాలక అనువాదం
-// @name:tg           Тарҷумаи веб саҳифа - тарҷумаи автоматӣ ба Чин
-// @name:th           การแปลหน้าเว็บ - การแปลอัตโนมัติเป็นภาษาจีน
-// @name:ti           ትርጉም መርበብ ሓበሬታ – ኣውቶማቲክ ትርጉም ናብ ቻይናዊ
-// @name:tk           Web sahypasynyň terjimesi - hytaý diline terjime
-// @name:tn           Thanolo ya tsebe ya webo – thanolo e e itirisang mo Setšhaeneng
-// @name:to           Liliu ’o e peesi ’i he Uepi – liliu ’otometiki ki he lea faka-Siaina .
-// @name:tpi          translesen blong Web pej – otomatik translesen i go long lanwis blong Jaena .
-// @name:tr           Web Sayfası Çeviri - Çince Otomatik Çeviri
-// @name:uk           Переклад на веб -сторінках - Автоматичний переклад на китайську
-// @name:ur           ویب پیج ترجمہ - چینیوں میں خودکار ترجمہ
-// @name:uz           Veb-sahifa tarjimasi - Xitoyga avtomatik tarjima
-// @name:vi           Bản dịch trang web - Bản dịch tự động sang tiếng Trung
-// @name:xh           Inguqulelo yeWebhu - uguqulelo oluzenzekelayo kwiTshayina
-// @name:yi           וועב בלאַט איבערזעצונג - אָטאַמאַטיק איבערזעצונג אין כינעזיש
-// @name:zh           网页翻译——自动翻译为中文
-// @name:zh-CN        网页翻译——自动翻译为中文
-// @name:zh-HK        網頁翻譯——自動翻譯為中文
-// @name:zh-MO        網頁翻譯——自動翻譯為中文
-// @name:zh-MY        网页翻译——自动翻译为中文
-// @name:zh-SG        网页翻译——自动翻译为中文
-// @name:zh-TW        網頁翻譯——自動翻譯為中文
-// @name:zu           Ukuhunyushwa kwekhasi leWebhu - Ukuhumusha okuzenzakalelayo ku-Chinese
-// @description       给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
-// @description:af    Voeg ’n Google-vertaalikoon by die onderste regterhoek van elke nie-Chinese webblad (kan aan die onderste linkerhoek verstel word). Hierdie weergawe is ’n Chinese vertaalweergawe, en slegs vreemde tale word in Chinees vertaal, en outomatiese vertaling word bygevoeg.
-// @description:am    እያንዳንዱ የቻይንኛ ላልሆኑ የድር ገጽ የታችኛው ቀኝ ጥግ ላይ የ Google የትርጉም ምልክት አዶን ያክሉ (በታችኛው ግራ ጥግ ላይ ሊስተካከል ይችላል). ይህ ስሪት የቻይንኛ ትርጉም ሥሪት ነው, እና የውጭ ቋንቋዎች ብቻ ወደ ቻይንኛ ተተርጉመዋል, እና አውቶማቲክ ትርጉም ታክሏል.
-// @description:ar    أضف أيقونة ترجمة Google إلى الزاوية اليمنى السفلى من كل صفحة ويب غير صينية (يمكن تعديلها إلى الزاوية اليسرى السفلى). هذا الإصدار عبارة عن نسخة ترجمة صينية ، ويتم ترجمة اللغات الأجنبية فقط إلى صينية ، ويتم إضافة ترجمة تلقائية.
-// @description:az    Hər Çin olmayan veb səhifənin aşağı sağ küncünə Google Talcape Icon əlavə edin (aşağı sol küncdə tənzimlənə bilər). Bu versiya Çin tərcümə versiyasıdır və yalnız xarici dillər Çin dilinə tərcümə olunur və avtomatik tərcümə əlavə olunur.
-// @description:be    Дадайце значок перакладу Google у правы ніжні куток кожнай некітайскай вэб-старонкі (можна адрэгуляваць у ніжні левы кут). Гэтая версія з’яўляецца кітайскай версіяй перакладу, і толькі замежныя мовы перакладаюцца на кітайскую мову, і дадаецца аўтаматычны пераклад.
-// @description:bem   Lundapo icikope ca Google ica kupilibula ku lubali lwa ku kulyo ulwa pe buula lya webu ilyabula-Kanshi (kuti bwalungikwa ku kona lya ku kulyo ilya panshi). Iyi misango ni musango wa kupilibula uwa China, kabili indimi fye sha ku calo cimbi e shipilibulwa mu China, kabili ukupilibula ukwaibela e kwalundwako.
-// @description:bg    Добавете иконата на Google Translation към долния десен ъгъл на всяка некитайска уеб страница (може да се регулира в долния ляв ъгъл). Тази версия е китайска версия за превод и само чужди езици се превеждат на китайски и се добавя автоматичен превод.
-// @description:bn    প্রতিটি নন-চীনা ওয়েব পৃষ্ঠার নীচের ডান কোণে একটি গুগল অনুবাদ আইকন যুক্ত করুন (নীচের বাম কোণে সামঞ্জস্য করা যেতে পারে)। এই সংস্করণটি একটি চীনা অনুবাদ সংস্করণ, এবং কেবল বিদেশী ভাষাগুলি চীনা ভাষায় অনুবাদ করা হয় এবং স্বয়ংক্রিয় অনুবাদ যুক্ত করা হয়।
-// @description:bo    རྒྱ་ནག་མིན་པའི་དྲ་ཚིགས་རེ་རེའི་གཡས་ཕྱོགས་ཀྱི་གཤམ་གྱི་ཟུར་ལ་གུ་གུལ་སྐད་སྒྱུར་གྱི་རྟགས་མཚན་ཁ་སྣོན་བྱེད་དགོས། ཐོན་རིམ་འདི་ནི་རྒྱ་ཡིག་གི་སྐད་སྒྱུར་གྱི་ཐོན་རིམ་ཞིག་ཡིན་ལ། ཕྱི་སྐད་ཁོ་ན་རྒྱ་ཡིག་ཏུ་བསྒྱུར་ནས་རང་འགུལ་གྱིས་བསྒྱུར་བའི་སྐད་སྒྱུར་ཡང་ཁ་སྣོན་བྱས་ཡོད།
-// @description:bs    Dodajte google prevodila ikonu u donji desni ugao svake ne-kineske web stranice (može se podesiti na donji lijevi ugao). Ova verzija je kineska verzija prevođenja, a samo su strani jezici prevedeni na kineski, a automatski prevod se dodaje.
-// @description:ca    Afegiu una icona de traducció de Google a la cantonada inferior dreta de cada pàgina web no xinesa (es pot ajustar a la cantonada inferior esquerra). Aquesta versió és una versió de traducció xinesa i només es tradueixen idiomes estrangers al xinès i s’afegeix traducció automàtica.
-// @description:ceb   Pagdugang usa ka icon sa paghubad sa Google hangtod sa ubos nga tuo nga suok sa matag dili nga panid sa Chinese Web (mahimong i-adjust sa ubos nga wala nga kanto). Kini nga bersyon usa ka bersyon sa paghubad sa Intsik, ug ang mga langyaw nga sinultian lamang ang gihubad sa Intsik, ug ang awtomatikong paghubad gidugang.
-// @description:ckb   ئایکۆنی وەرگێڕانی گووگڵ زیاد بکە بۆ گۆشەی خوارەوەی لای ڕاستی هەر لاپەڕەیەکی وێبی غەیرە چینی (دەتوانرێت بۆ گۆشەی خوارەوەی چەپ ڕێکبخرێت). ئەم ڤێرژنە وەشانێکی وەرگێڕانی چینییە و تەنیا زمانە بیانییەکان وەرگێڕدراونەتە سەر زمانی چینی و وەرگێڕانی ئۆتۆماتیکی زیاد دەکرێت.
-// @description:cs    Přidejte ikonu překladu Google do pravého dolního rohu každé ne-čínské webové stránky (lze je upravit na levý dolní roh). Tato verze je čínskou překladovou verzí a pouze cizí jazyky jsou přeloženy do čínštiny a je přidán automatický překlad.
-// @description:cy    Ychwanegwch eicon cyfieithu Google i gornel dde isaf pob tudalen we nad yw’n Tsieineaidd (gellir ei haddasu i’r gornel chwith isaf). Mae’r fersiwn hon yn fersiwn cyfieithu Tsieineaidd, a dim ond ieithoedd tramor sy’n cael eu cyfieithu i Tsieinëeg, ac ychwanegir cyfieithu awtomatig.
-// @description:da    Tilføj et Google-oversættelsesikon til det nederste højre hjørne af hver ikke-kinesisk webside (kan justeres til nederste venstre hjørne). Denne version er en kinesisk oversættelsesversion, og kun fremmedsprog oversættes til kinesisk, og automatisk oversættelse tilføjes.
-// @description:de    Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtchinesischen Webseite hinzu (kann an die untere linke Ecke angepasst werden). Diese Version ist eine chinesische Übersetzungsversion, und nur Fremdsprachen werden in Chinese übersetzt, und es wird eine automatische Übersetzung hinzugefügt.
-// @description:dv    ޗައިނާ ނޫން ކޮންމެ ވެބް ޕޭޖެއްގެ ކަނާތްފަރާތުގެ ތިރީ ކޮޅުގައި ގޫގުލް ޓްރާންސްލެޝަން އައިކޮންއެއް އިތުރުކުރުން (ކަނާތްފަރާތުގެ ތިރީ ކޮޅުގައި އެޖެސްޓް ކުރެވިދާނެ) . މި ވަރޝަނަކީ ޗައިނީސް ތަރުޖަމާ ވަރޝަނެއް ކަމަށާއި، ޗައިނީސް ބަހަށް ތަރުޖަމާކުރެވޭނީ ހަމައެކަނި ބޭރު ބަސްތަކެއް ކަމަށާއި، އޮޓޮމެޓިކް ތަރުޖަމާ އިތުރުކޮށްފައިވާ ވަރޝަނެއް ކަމަށް ވެސް ވިދާޅުވިއެވެ.
-// @description:dz    རྒྱ་ནག་མེན་པའི་ཝེབ་ཤོག་ལེབ་རེ་རེ་གི་ གཡས་ཁ་ཐུག་གི་འོག་ལུ་ གུ་གཱལ་སྐད་སྒྱུར་གྱི་ངོས་དཔར་ཅིག་ཁ་སྐོང་རྐྱབས་ (གཡོན་ཁ་ཐུག་གི་འོག་གི་ཟུར་ཁ་ལུ་ བདེ་སྒྲིག་འབད་ཚུགས།)། ཐོན་རིམ་འདི་རྒྱ་ནག་གི་སྐད་སྒྱུར་ཐོན་རིམ་ཨིནམ་དང་ ཕྱི་རྒྱལ་གྱི་སྐད་ཡིག་ཚུ་རྐྱངམ་ཅིག་རྒྱ་ནག་ནང་ལུ་སྐད་སྒྱུར་འབད་ཡོདཔ་དང་ རང་བཞིན་སྐད་སྒྱུར་འདི་ཁ་སྐོང་འབདཝ་ཨིན།
-// @description:el    Προσθέστε ένα εικονίδιο μετάφρασης Google στην κάτω δεξιά γωνία κάθε μη κινέζικης ιστοσελίδας (μπορεί να προσαρμοστεί στην κάτω αριστερή γωνία). Αυτή η έκδοση είναι μια κινεζική έκδοση μετάφρασης και μόνο οι ξένες γλώσσες μεταφράζονται στα κινέζικα και προστίθεται αυτόματη μετάφραση.
-// @description:en    Add a Google Translation icon to the lower right corner of each non-Chinese web page (can be adjusted to the lower left corner). This version is a Chinese translation version, and only foreign languages are translated into Chinese, and automatic translation is added.
-// @description:eo    Aldonu Google-tradukan ikonon al la malsupra dekstra angulo de ĉiu ne-ĉina retpaĝo (povas esti alĝustigita al la malsupra maldekstra angulo). Ĉi tiu versio estas ĉina traduka versio, kaj nur fremdaj lingvoj estas tradukitaj al ĉina, kaj aŭtomata traduko estas aldonita.
-// @description:es    Agregue un icono de traducción de Google a la esquina inferior derecha de cada página web no china (se puede ajustar a la esquina inferior izquierda). Esta versión es una versión de traducción china, y solo los idiomas extranjeros se traducen al chino, y se agrega la traducción automática.
-// @description:et    Lisage Google’i tõlkeikoon iga mitte-Hiina veebilehe paremas alanurgas (seda saab reguleerida vasakpoolsesse alanurka). See versioon on hiina tõlkeversioon ja hiina keelde tõlgitakse ainult võõrkeeled ning lisatakse automaatne tõlge.
-// @description:eu    Gehitu Google itzulpenaren ikonoa txinatar ez den web orri bakoitzaren beheko eskuinaldean (beheko ezkerreko izkinan doitu daiteke). Bertsio hau txinatar itzulpen bertsioa da, eta atzerriko hizkuntzak txinera itzultzen dira eta itzulpen automatikoa gehitzen da.
-// @description:fa    یک نماد ترجمه Google را به گوشه سمت راست پایین هر صفحه وب غیر چینی اضافه کنید (می تواند به گوشه سمت چپ پایین تنظیم شود). این نسخه یک نسخه ترجمه چینی است و فقط زبانهای خارجی به چینی ترجمه می شوند و ترجمه اتوماتیک اضافه می شود.
-// @description:fi    Lisää Google-käännöskuvake kunkin ei-kiinalaisen verkkosivun oikeaan alakulmaan (voidaan säätää vasempaan alakulmaan). Tämä versio on kiinalainen käännösversio, ja vain vieraat kielet käännetään kiinaksi, ja automaattinen käännös lisätään.
-// @description:fo    Legg eitt Google Týðingar-ikon til niðara høgra horn á hvørjari ikki-kinesiskari heimasíðu (kann stillast til niðara vinstra horn). Henda útgávan er ein kinesisk týðingarútgáva, og bert fremmandamál eru týdd til kinesiskt, og sjálvvirkandi týðing verður løgd afturat.
-// @description:fr    Ajoutez une icône de traduction Google dans le coin inférieur droit de chaque page Web non chinoise (peut être ajusté dans le coin inférieur gauche). Cette version est une version de traduction chinoise, et seules les langues étrangères sont traduites en chinois et une traduction automatique est ajoutée.
-// @description:gd    Cuir ìomhaigh eadar-theangachaidh Google ris an oisean gu h-ìosal air an làimh dheis de gach duilleag-lìn neo-Sìneach (atharrachadh don oisean chlì as ìsle). Tha an dreach seo na dhreach eadar-theangachaidh Sìneach, agus chan eil ach cànan cèin air eadar-theangachadh gu Sìneach, agus thèid eadar-theangachadh fèin-ghluasadach a chur ris.
-// @description:gl    Engade unha icona de tradución de Google á esquina inferior dereita de cada páxina web non chinesa (pódese axustar á esquina inferior esquerda). Esta versión é unha versión de tradución chinesa e só se traducen as linguas estranxeiras ao chinés e engádese a tradución automática.
-// @description:gu    દરેક બિન-ચાઇનીઝ વેબ પૃષ્ઠના નીચલા જમણા ખૂણામાં ગૂગલ અનુવાદ ચિહ્ન ઉમેરો (નીચલા ડાબા ખૂણામાં ગોઠવી શકાય છે). આ સંસ્કરણ એક ચાઇનીઝ અનુવાદ સંસ્કરણ છે, અને ફક્ત વિદેશી ભાષાઓમાં ચાઇનીઝમાં ભાષાંતર કરવામાં આવે છે, અને સ્વચાલિત અનુવાદ ઉમેરવામાં આવે છે.
-// @description:haw   E hoʻohui i kahi kiʻi unuhi Google ma ke kihi’ākau hema o kēlā me kēiaʻaoʻao pūnaeweleʻole (hiki ke hoʻoponoponoʻia i kaʻaoʻao hema hema). ʻO kēiaʻano ka mana o ka unuhi’ōlelo Kina, aʻo nā’ōlelo’ē aʻe wale nō i unuhiʻia i loko o ka unuhi Kina, a hoʻohuiʻia ka unuhi’ōlelo.
-// @description:he    הוסף סמל תרגום של גוגל לפינה הימנית התחתונה של כל דף אינטרנט שאינו סיני (ניתן להתאים לפינה השמאלית התחתונה). גרסה זו היא גרסת תרגום סינית, ורק שפות זרות מתורגמות לסינית, ומתווסף תרגום אוטומטי.
-// @description:hi    प्रत्येक गैर-चीनी वेब पेज के निचले दाएं कोने में एक Google अनुवाद आइकन जोड़ें (निचले बाएं कोने में समायोजित किया जा सकता है)। यह संस्करण एक चीनी अनुवाद संस्करण है, और केवल विदेशी भाषाओं का अनुवाद चीनी में किया जाता है, और स्वचालित अनुवाद जोड़ा जाता है।
-// @description:hr    Dodajte ikonu Google prevođenja u donji desni kut svake ne-kineske web stranice (može se prilagoditi do donjeg lijevog ugla). Ova verzija je kineska inačica prijevoda, a samo se strani jezici prevode na kineski, a dodaje se automatski prijevod.
-// @description:ht    Ajoute yon icon tradiksyon Google nan kwen ki pi ba dwat nan chak paj entènèt ki pa Chinwa (ka ajiste nan kwen gòch ki pi ba). Vèsyon sa a se yon vèsyon tradiksyon Chinwa, epi se sèlman lang etranje yo tradui nan Chinwa, ak tradiksyon otomatik te ajoute.
-// @description:hu    Adjon hozzá egy Google Translation ikont az egyes nem-kínai weboldalak jobb alsó sarkához (beállítható a bal alsó sarokhoz). Ez a verzió egy kínai fordítási verzió, és csak az idegen nyelveket fordítják kínaira, és az automatikus fordítás hozzáadódik.
-// @description:hy    Յուրաքանչյուր ոչ չինական վեբ էջի ստորին աջ անկյունում ավելացրեք Google թարգմանության պատկերակ (կարելի է ճշգրտվել ստորին ձախ անկյունում): Այս վարկածը չինական թարգմանությունների տարբերակ է, եւ միայն օտար լեզուները թարգմանվում են չինական, եւ ավելացվում է ավտոմատ թարգմանություն:
-// @description:id    Tambahkan ikon terjemahan Google ke sudut kanan bawah setiap halaman web non-Cina (dapat disesuaikan ke sudut kiri bawah). Versi ini adalah versi terjemahan Cina, dan hanya bahasa asing yang diterjemahkan ke dalam bahasa Cina, dan terjemahan otomatis ditambahkan.
-// @description:is    Bættu Google þýðingartákninu við neðra hægra hornið á hverri vefsíðu sem ekki er kínverskur (er hægt að stilla að neðra vinstra horninu). Þessi útgáfa er kínversk þýðingarútgáfa og aðeins erlend tungumál eru þýdd á kínversku og sjálfvirk þýðing bætt við.
-// @description:it    Aggiungi un’icona di traduzione di Google all’angolo in basso a destra di ciascuna pagina Web non cinese (può essere regolata nell’angolo in basso a sinistra). Questa versione è una versione di traduzione cinese e solo le lingue straniere vengono tradotte in cinese e viene aggiunta una traduzione automatica.
-// @description:ja    Google翻訳アイコンを各中国語のWebページの右下隅に追加します（左下隅に調整できます）。このバージョンは中国の翻訳版であり、外国語のみが中国語に翻訳されており、自動翻訳が追加されています。
-// @description:ka    დაამატეთ Google მთარგმნელობითი ხატი თითოეული არა ჩინური ვებ-გვერდის ქვედა მარჯვენა კუთხეში (შეიძლება მორგებული იყოს ქვედა მარცხენა კუთხეში). ეს ვერსია არის ჩინური მთარგმნელობითი ვერსია და მხოლოდ უცხო ენები ითარგმნება ჩინურ ენაზე, ხოლო ავტომატური თარგმანი ემატება.
-// @description:kk    Әрбір қытай емес веб-беттің төменгі оң жақ бұрышына google аударма белгішесін қосыңыз (сол жақ төменгі бұрышқа реттеуге болады). Бұл нұсқа қытай тіліндегі аударма нұсқасы, ал тек шет тілдері қытай тіліне аударылады, ал автоматты аударма қосылады.
-// @description:km    បន្ថែមរូបតំណាងការបកប្រែហ្គូហ្គលទៅជ្រុងខាងស្តាំនៃទំព័របណ្តាញមិនមែនភាសាចិននីមួយៗ (អាចត្រូវបានកែតម្រូវទៅជ្រុងខាងឆ្វេងខាងក្រោម) ។ កំណែនេះគឺជាកំណែបកប្រែភាសារបស់ចិនហើយមានតែភាសាបរទេសប៉ុណ្ណោះដែលត្រូវបានបកប្រែទៅជាភាសាចិនហើយការបកប្រែស្វ័យប្រវត្តិត្រូវបានបន្ថែម។
-// @description:kn    ಪ್ರತಿ ಚೀನೀಸ್ ಅಲ್ಲದ ವೆಬ್ ಪುಟದ ಕೆಳಗಿನ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಗೂಗಲ್ ಅನುವಾದ ಐಕಾನ್ ಸೇರಿಸಿ (ಕೆಳಗಿನ ಎಡ ಮೂಲೆಯಲ್ಲಿ ಹೊಂದಿಸಬಹುದು). ಈ ಆವೃತ್ತಿಯು ಚೀನೀ ಅನುವಾದ ಆವೃತ್ತಿಯಾಗಿದೆ, ಮತ್ತು ವಿದೇಶಿ ಭಾಷೆಗಳನ್ನು ಮಾತ್ರ ಚೈನೀಸ್ ಭಾಷೆಗೆ ಅನುವಾದಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತ ಅನುವಾದವನ್ನು ಸೇರಿಸಲಾಗುತ್ತದೆ.
-// @description:ko    각 비 중국 웹 페이지의 오른쪽 하단에 Google 번역 아이콘을 추가하십시오 (왼쪽 하단 코너로 조정할 수 있음). 이 버전은 중국어 번역 버전이며 외국어 만 중국어로 번역되며 자동 번역이 추가됩니다.
-// @description:ku    Vebijêrkek wergera Google-ê li quncika jêrîn a jêrîn a her malperê ya ne-Chineseînî zêde bikin (dikare li quncika çepê ya jêrîn were sererast kirin). Ev guhertoyek guhertoyek wergera çînî ye, û tenê zimanên biyanî bi çînî têne wergerandin, û wergerandina otomatîkî têne zêdekirin.
-// @description:ky    Ар бир кытай эмес веб-баракчанын төмөнкү оң бурчуна Google Translation сүрөтчөсүн кошуңуз (төмөнкү сол бурчка ылайыкташтырса болот). Бул версия - бул кытайча котормо нускасы, жана чет тилдер гана кытай тилине которулган жана автоматтык котормо кошулду.
-// @description:la    Add a Google translation icon ad inferiores ius anguli cuiusque non-Seres web page (potest esse adaequatum ad inferiores sinistram anguli). Hoc version est Chinese translation versio, et solum aliena linguarum interpretantur in Chinese et automatic translation est addidit.
-// @description:lb    Füügt eng Google Iwwersetzung Ikon derbäi op déi ënnescht riets Eck vun all Net-Chinese Websäit (kann op déi ënnescht lénks Eck ugepasst ginn). Dës Dat ass eng Chinesend Iwwersetz Versioun, an hunn nëmmen déi fahrwëlllech Sprooche an nëmmen Chineseschie ginn iwwerginn an automatiséiert Direktioun derbäigesat.
-// @description:lo    ເພີ່ມຮູບສັນຍາລັກການແປພາສາ Google ໄປທີ່ມຸມຂວາລຸ່ມຂອງແຕ່ລະຫນ້າເວບທີ່ບໍ່ແມ່ນຄົນຈີນ (ສາມາດປັບໃສ່ໄດ້ຢູ່ແຈເບື້ອງຊ້າຍລຸ່ມ). ຮຸ່ນນີ້ແມ່ນລຸ້ນແປພາສາຈີນ, ແລະມີພຽງແຕ່ພາສາຕ່າງປະເທດເທົ່ານັ້ນທີ່ຖືກແປເປັນພາສາຈີນແລະອັດຕະໂນມັດແມ່ນເພີ່ມໂດຍອັດຕະໂນມັດ.
-// @description:lt    Pridėkite „Google“ vertimo piktogramą prie apatinio dešiniojo kiekvieno ne Kinijos tinklalapio kampo (galima sureguliuoti apatiniame kairiajame kampe). Ši versija yra kinų vertimo versija, o tik užsienio kalbos išverčiamos į kinų kalbą, pridedama automatinis vertimas.
-// @description:lv    Pievienojiet Google tulkošanas ikonu katras vietnes apakšējā labajā stūrī apakšējā labajā stūrī (to var pielāgot apakšējā kreisajā stūrī). Šī versija ir ķīniešu tulkošanas versija, un ķīniešu valodā tiek tulkotas tikai svešvalodas, un tiek pievienota automātiska tulkošana.
-// @description:mg    Manampia kisary fandikan-teny Google amin’ny zoro havanana amin’ny pejy Web tsy sinoa (azo amboarina amin’ny zoro havia havia). Ity dikan-teny ity dia dikan-teny sinoa, ary ny fiteny vahiny ihany no adika amin’ny teny sinoa, ary nampiana ny fandikan-teny mandeha ho azy.
-// @description:mi    Tāpirihia he tohu whakamaoritanga a Google ki te kokonga matau o raro o ia whaarangi paetukutuku kore-Hainamana (ka taea te whakatika ki te kokonga maui o raro). Ko tenei putanga ko te waahanga whakamaori Hainamana, a ko nga reo ke ke kua whakamaoritia ki te Hainamana, me te whakamaoritanga aunoa.
-// @description:mk    Додадете икона за превод на Google на долниот десен агол на секоја не-кинеска веб-страница (може да се прилагоди на долниот лев агол). Оваа верзија е кинеска верзија за превод, а само странски јазици се преведуваат на кинески, а се додава и автоматски превод.
-// @description:ml    ഓരോ ചൈനീസ് ഇതര വെബ് പേജിന്റെയും ചുവടെ വലത് കോണിലേക്ക് ഒരു Google വിവർത്തന ഐക്കൺ ചേർക്കുക (ചുവടെ ഇടത് കോണിലേക്ക് ക്രമീകരിക്കാൻ കഴിയും). ഈ പതിപ്പ് ഒരു ചൈനീസ് വിവർത്തന പതിപ്പാണ്, കൂടാതെ വിദേശ ഭാഷകൾ മാത്രമാണ് ചൈനീസ് ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുന്നത്, യാന്ത്രിക വിവർത്തനം ചേർത്തു.
-// @description:mn    Google орчуулгын дүрсийг хятадын бус вэб хуудаснаас баруун доод буланд нэмнэ үү (зүүн доод буланд тохируулж болно). Энэ хувилбар бол Хятад орчуулгын хувилбар, зөвхөн гадаад хэлний орчуулгатай хувилбар бөгөөд зөвхөн Гадаад хэлний хэлийг Хятад улсад орчуулдаг.
-// @description:ms    Tambah ikon terjemahan Google ke sudut kanan bawah setiap laman web bukan Cina (boleh diselaraskan ke sudut kiri bawah). Versi ini adalah versi terjemahan Cina, dan hanya bahasa asing yang diterjemahkan ke dalam Cina, dan terjemahan automatik ditambah.
-// @description:mt    Żid ikona tat-traduzzjoni tal-Google mal-kantuniera t’isfel tal-lemin ta ’kull paġna tal-web mhux Ċiniża (tista’ tiġi aġġustata għall-kantuniera t’isfel tax-xellug). Din il-verżjoni hija verżjoni ta ’traduzzjoni Ċiniża, u l-lingwi barranin biss huma tradotti fiċ-Ċiniż, u hija miżjuda traduzzjoni awtomatika.
-// @description:my    Google Teject Icon ကိုတရုတ်မဟုတ်သော 0 က်ဘ်စာမျက်နှာတစ်ခုစီ၏ညာဘက်အောက်ထောင့်သို့ထည့်ပါ။ (ဘယ်ဘက်ထောင့်မှချိန်ညှိနိုင်သည်) ဤဗားရှင်းသည်တရုတ်ဘာသာပြန်ခြင်းဗားရှင်းဖြစ်ပြီးနိုင်ငံခြားဘာသာစကားများကိုတရုတ်ဘာသာသို့ပြန်ဆိုပြီးအလိုအလျောက်ဘာသာပြန်ချက်ထည့်သွင်းထားသည်။
-// @description:ne    प्रत्येक गैर-चिनियाँ वेब पृष्ठको तल्लो दायाँ कुनामा गुगल अनुवाद आइकन थप्नुहोस् (तल्लो बायाँ कुनामा समायोजित गर्न सकिन्छ)। यो संस्करण एक चिनियाँ अनुवाद संस्करण हो, र केवल विदेशी भाषाहरू केवल चिनियाँ भाषामा अनुवाद गरिएको छ, र स्वचालित अनुवाद थपियो।
-// @description:nl    Voeg een Google-vertaalpictogram toe aan de rechteronderhoek van elke niet-Chinese webpagina (kan worden aangepast aan de linkeronderhoek). Deze versie is een Chinese vertaalversie en alleen vreemde talen worden vertaald in het Chinees en automatische vertaling wordt toegevoegd.
-// @description:no    Legg til et Google-oversettelsesikon til nedre høyre hjørne av hver ikke-kinesiske webside (kan justeres til nedre venstre hjørne). Denne versjonen er en kinesisk oversettelsesversjon, og bare fremmedspråk blir oversatt til kinesisk, og automatisk oversettelse blir lagt til.
-// @description:ny    Onjezani chizindikiro cha Google Omasulira kumanzere kwa tsamba lililonse lopanda ku China (chimatha kusinthidwa kukhala ngodya yakumanzere). Mtunduwu ndi mtundu womasulira wa China, ndipo zilankhulo zakunja zimamasuliridwa mu Chitchaina, ndipo kumasulira kumangowonjezera.
-// @description:pa    ਹਰੇਕ ਗੈਰ-ਚੀਨੀ ਵੈਬ ਪੇਜ ਦੇ ਹੇਠਾਂ ਸੱਜੇ ਕੋਨੇ ਵਿੱਚ ਇੱਕ ਗੂਗਲ ਅਨੁਵਾਦ ਆਈਐਮਐਲ ਸ਼ਾਮਲ ਕਰੋ (ਹੇਠਾਂ ਖੱਬੇ ਕੋਨੇ ਤੇ ਐਡਜਸਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ). ਇਹ ਸੰਸਕਰਣ ਇੱਕ ਚੀਨੀ ਅਨੁਵਾਦ ਦਾ ਸੰਸਕਰਣ ਹੈ, ਅਤੇ ਸਿਰਫ ਵਿਦੇਸ਼ੀ ਭਾਸ਼ਾਵਾਂ ਦਾ ਚੀਨੀ ਵਿੱਚ ਅਨੁਵਾਦ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ.
-// @description:pap   Agrega un icono di Traduccion di Google na e skina drechi abou di cada pagina web no-Chines (por wordo ahusta na e skina abou robes). E vershon aki ta un vershon di tradukshon Chines, i solamente idiomanan stranhero ta wòrdu tradusí na Chines, i tradukshon outomatiko ta wòrdu agregá.
-// @description:pl    Dodaj ikonę tłumaczenia Google do prawego dolnego rogu każdej nie-chińskiej strony internetowej (można ją dostosować do lewego dolnego rogu). Ta wersja jest chińską wersją tłumaczącą, a tylko języki obce są tłumaczone na chińskie i dodaje się automatyczne tłumaczenie.
-// @description:ps    د ګوګل ژباړې آبن اضافه کړئ د هر غیر چینل ویب پا page ې ټیټ ښیې کونج ته (کیدی شي د کی left اړخ کونج ته تنظیم شي). دا نسخه د چین ژباړې نسخه ده، او یوازې بهرني ژبو په چینایي کې ژباړل شوي، او اتوماتیک ژباړې اضافه کیږي.
-// @description:pt    Adicione um ícone de tradução do Google ao canto inferior direito de cada página da Web não chinesa (pode ser ajustada no canto inferior esquerdo). Esta versão é uma versão de tradução chinesa e apenas os idiomas estrangeiros são traduzidos para o chinês e a tradução automática é adicionada.
-// @description:ro    Adăugați o pictogramă de traducere Google în colțul din dreapta jos al fiecărei pagini web non-chineze (poate fi ajustată la colțul din stânga jos). Această versiune este o versiune de traducere chineză și numai limbile străine sunt traduse în chineză și se adaugă o traducere automată.
-// @description:ru    Добавьте значок перевода Google в нижний правый угол каждой некитайской веб-страницы (можно настроить на левый нижний угол). Эта версия представляет собой китайскую версию перевода, и только иностранные языки переводятся на китайский, и добавляется автоматический перевод.
-// @description:rw    Ongeraho igishushanyo cya Google ku mfuruka yo hepfo yiburyo bwa buri rugege itari igishinwa (irashobora guhinduka kumurongo wibumoso). Iyi verisiyo ni igishinwa cyahinduwe mu Bushinwa, kandi indimi z’amahanga gusa zahinduwe mu Gishinwa, kandi ubusobanuro bwikora bwongeyeho.
-// @description:sg    Zia mbeni fä ti Google Traduction na gbe ti lembeti ti Internet oko oko so ayeke ti azo ti Chine pëpe (a lingbi ti leke ni na mbage ti gbe ni). Version so ayeke mbeni version ti traduction ti yanga ti Chinois, na gi ayanga ti kodoro wande si a kiri pekoni na yanga ti Chinois, na a zia na ndo ni traduction automatique.
-// @description:si    එක් එක් චීන නොවන වෙබ් පිටුවේ පහළ දකුණු කෙළවරට ගූගල් පරිවර්තන නිරූපකයක් එක් කරන්න (පහළ වම් කෙළවරට සකස් කළ හැකිය). මෙම අනුවාදය චීන පරිවර්තන අනුවාදයක් වන අතර චීන භාෂාවට පමණක් පරිවර්තනය කර ඇති අතර ස්වයංක්රීය පරිවර්තනය එකතු වේ.
-// @description:sk    Pridajte ikonu prekladača Google do pravého dolného rohu každej nekologickej webovej stránky (je možné upraviť v ľavom dolnom rohu). Táto verzia je čínskou prekladateľskou verziou a do čínštiny sa prekladajú iba cudzie jazyky a pridáva sa automatický preklad.
-// @description:sl    Dodajte ikono Google prevoda v spodnji desni kotiček vsake ne-kitajske spletne strani (lahko prilagodite spodnji levi kot). Ta različica je kitajska prevajalska različica in v kitajščino se prevedejo samo tuji jeziki, dodan pa je samodejni prevod.
-// @description:sm    Faʻaopopo le Google Transfengy Icon i le pito i lalo taumatau o le pito i lalo o le Saina taʻitasi itulau (mafai ona fetuʻunaʻi i le pito i lalo tauagavale). Lenei faʻamatalaga o se faʻaliliuga a Saina faʻaliliuga, ma e naʻo gagana mai fafo ua faʻaliliu i Saina, ma otometi faaliliuga o otometi
-// @description:sn    Wedzera chiratidzo cheGoogle Iyi vhezheni ishanduro yeChinese shanduro, uye mitauro yekune dzimwe nyika inoshandurwa muchiChinese, uye otomatiki shanduro inowedzerwa.
-// @description:so    Kudar icond Tarjumaadda Google geeska midig ee hoose ee websaydh kasta oo aan Shiinaha ahayn (waxaa lagu hagaajin karaa geeska bidix hoose). Noocaani waa nooca turjubaan ee Shiinaha, oo dhammaan afafka qalaad waxaa loo tarjumay Shiinaha, iyo tarjumaadda otomatiga ah ayaa lagu daray.
-// @description:sr    Додајте икону Гоогле превод у доњи десни угао сваке не-кинеске веб странице (може се прилагодити доњем левом углу). Ова верзија је кинеска верзија превођења, а само страни језици преведе се на кинески, а аутоматски се додаје аутоматски превод.
-// @description:sv    Lägg till en Google-översättningsikon till det nedre högra hörnet på varje icke-kinesisk webbsida (kan justeras till det nedre vänstra hörnet). Denna version är en kinesisk översättningsversion, och endast främmande språk översätts till kinesiska, och automatisk översättning läggs till.
-// @description:sw    Ongeza ikoni ya tafsiri ya Google kwenye kona ya chini ya kulia ya kila ukurasa wa Wavuti isiyo ya Wachina (inaweza kubadilishwa kwa kona ya chini ya kushoto). Toleo hili ni toleo la tafsiri la Wachina, na lugha za kigeni tu ndizo zinazotafsiriwa kwa Kichina, na tafsiri ya moja kwa moja imeongezwa.
-// @description:ta    ஒவ்வொரு சீன அல்லாத வலைப்பக்கத்தின் கீழ் வலது மூலையில் கூகிள் மொழிபெயர்ப்பு ஐகானைச் சேர்க்கவும் (கீழ் இடது மூலையில் சரிசெய்யலாம்). இந்த பதிப்பு ஒரு சீன மொழிபெயர்ப்பு பதிப்பாகும், மேலும் வெளிநாட்டு மொழிகள் மட்டுமே சீன மொழியில் மொழிபெயர்க்கப்படுகின்றன, மேலும் தானியங்கி மொழிபெயர்ப்பு சேர்க்கப்படுகிறது.
-// @description:te    ప్రతి చైనీస్ కాని వెబ్ పేజీ యొక్క కుడి దిగువ మూలకు Google అనువాద చిహ్నాన్ని జోడించండి (దిగువ ఎడమ మూలకు సర్దుబాటు చేయవచ్చు). ఈ సంస్కరణ చైనీస్ అనువాద సంస్కరణ, మరియు విదేశీ భాషలు మాత్రమే చైనీస్లోకి అనువదించబడతాయి మరియు స్వయంచాలక అనువాదం జోడించబడుతుంది.
-// @description:tg    Тасвири Google-ро ба кунҷи рости поёни ҳар як саҳифаи ғайритабиӣ илова кунед (метавонад ба кунҷи чапи поёнӣ танзим карда шавад). Ин версия версияи тарҷумаи Чин аст ва танҳо забонҳои хориҷӣ ба чинӣ тарҷума карда мешаванд ва тарҷумаи автоматӣ илова карда мешавад.
-// @description:th    เพิ่มไอคอนการแปลของ Google ที่มุมล่างขวาของแต่ละหน้าเว็บที่ไม่ใช่จีน (สามารถปรับได้ที่มุมซ้ายล่าง) เวอร์ชันนี้เป็นเวอร์ชันการแปลภาษาจีนและมีเพียงภาษาต่างประเทศเท่านั้นที่แปลเป็นภาษาจีนและเพิ่มการแปลอัตโนมัติ
-// @description:ti    ኣብ ታሕተዋይ የማናይ ኩርናዕ ናይ ነፍሲ ወከፍ ናይ ቻይና ዘይኮኑ መርበብ ሓበሬታ ገጽ ናይ Google ትርጉም ምልክት ወስኸሉ (ናብ ታሕተዋይ ጸጋማይ ኩርናዕ ክስተኻኸል ይኽእል)። እዚ ስሪት እዚ ናይ ቻይና ትርጉም ስሪት ኮይኑ፡ ቋንቋታት ወጻኢ ጥራይ ናብ ቻይናዊ ተተርጒሞም፡ ኣውቶማቲክ ትርጉም ድማ ይውሰኽ።
-// @description:tk    Google terjimesiniň nyşanyny goşuň, her bir hytaý däl web sahypasynyň aşaky sag burçuna goşuň (aşaky çep burçuna sazlanyp bilner). Bu wersiýa Hytaýly terjime wersiýasy we diňe daşary ýurt dilleri hytaý diline terjime edilmegi we awtomatiki terjime goşulýar.
-// @description:tn    Tsenya aekhone ya Thanolo ya Google mo sekhutlong se se kwa tlase sa moja sa tsebe nngwe le nngwe ya webo e e seng ya Setšhaena (e ka fetolwa go ya kwa sekhutlong se se kwa tlase sa molema). Mofuta ona ke phetolelo ya phetolelo ya Sechaena, mme ke dipuo tse ding feela tse ranolelwang ho Sechaena, mme phetolelo e iketsang e eketswa.
-// @description:to    Tānaki atu ha fakaʻilonga ʻo e Liliu ʻo e Google ki he tuliki toʻomataʻu ʻi lalo ʻo e peesi uepi takitaha ʻoku ʻikai Siaina (ʻe lava ke fakatonutonu ia ki he tuliki toʻohema ʻi lalo). Ko e version ko eni ko e liliu lea faka-Siaina, pea ko e ngaahi lea muli pe ’oku liliu ia ki he lea faka-Siaina, pea ’oku tanaki atu ’a e liliu ’otometiki.
-// @description:tpi   Addem wan Google Translesen aekon long raet kona daon blong wanwan web pej we i no blong Jaena (i save stretem i go long lef kona daon). Dispela vesen em i wanpela tokples bilong ol Saina long tanim tok, na ol i save tanim ol tokples bilong ol narapela kantri tasol i go long tok Saina, na ol i save putim otomatik trenslesen.
-// @description:tr    Her Çinli olmayan web sayfasının sağ alt köşesine bir Google Çeviri simgesi ekleyin (sol alt köşeye ayarlanabilir). Bu sürüm Çince çeviri versiyonudur ve sadece yabancı diller Çince’ye çevrilir ve otomatik çeviri eklenir.
-// @description:uk    Додайте піктограму перекладу Google до нижнього правого кута кожної некитайської веб-сторінки (можна відрегулювати в нижньому лівому куті). Ця версія є китайською перекладою, і лише іноземні мови перекладаються в китайську мову, і додається автоматичний переклад.
-// @description:ur    ہر نان چینی ویب پیج کے نچلے دائیں کونے میں گوگل ٹرانسلیشن آئیکن شامل کریں (نیچے بائیں کونے میں ایڈجسٹ کیا جاسکتا ہے)۔ یہ ورژن ایک چینی ترجمے کا ورژن ہے ، اور صرف غیر ملکی زبانوں کا چینی میں ترجمہ کیا جاتا ہے ، اور خودکار ترجمہ شامل کیا جاتا ہے۔
-// @description:uz    Google tarjimasi ikonkasini har bir xitoylik bo’lmagan veb-sahifaning pastki o’ng burchagiga qo’shing (pastki chap burchakka o’rnatilishi mumkin). Ushbu versiya xitoycha tarjima versiyasi va faqat chet tillari xitoy tiliga tarjima qilinadi va avtomatik tarjima qo’shildi.
-// @description:vi    Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi trang web không phải người Trung Quốc (có thể được điều chỉnh ở góc dưới bên trái). Phiên bản này là phiên bản dịch tiếng Trung và chỉ có tiếng nước ngoài được dịch sang tiếng Trung và dịch tự động được thêm vào.
-// @description:xh    Yongeza i-goon yenguqulo yeGoogle kwikona esezantsi yephepha elinye lewebhu (inokuhlengahlengiswa kwikona esezantsi ngasekhohlo). Le nguqulo yinguqulelo yokuguqulela yaseTshayina, kwaye kuphela iilwimi zasemzini kuphela iguqulelwa kwi-Chinese, kwaye kongezwa uguqulelo oluzenzekelayo.
-// @description:yi    לייג אַ Google איבערזעצונג ייקאַן צו די נידעריקער רעכט ווינקל פון יעדער ניט-כינעזיש וועב בלאַט (קענען זיין אַדזשאַסטיד צו די נידעריקער לינקס ווינקל). די ווערסיע איז אַ כינעזיש איבערזעצונג ווערסיע, און בלויז פרעמד שפּראַכן זענען איבערגעזעצט אין כינעזיש און אָטאַמאַטיק איבערזעצונג איז צוגעגעבן.
-// @description:zh    给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
-// @description:zh-CN 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
-// @description:zh-HK 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
-// @description:zh-MO 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
-// @description:zh-MY 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
-// @description:zh-SG 给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
-// @description:zh-TW 給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
-// @description:zu    Faka isithonjana se-Google Translation ekhoneni elingezansi kwesokudla sekhasi ngalinye le-ENG-China (lingashintshwa liye ekhoneni elingezansi kwesobunxele). Le nguqulo yinguqulo yokuhumusha yaseChinese, futhi kuphela izilimi zakwamanye amazwe ezihunyushelwa kwiChinese, futhi kufakwa ukuhumusha okuzenzakalelayo.
-// @author            Kaiter-Plus & 人民的勤务员 <china.qinwuyuan@gmail.com>
-// @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           0.31.0.23
-// @license           MIT
-// @include           *://*
-// @exclude           /^(http|https).*((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}/
-// @exclude           /.*duyaoss\.com/
-// @exclude           /.*lanzous\.com/
-// @exclude           /.*w3school.*cn/
-// @exclude           /.*iqiyi\.com/
-// @exclude           /.*baidu.*/
-// @exclude           /.*cnblogs\.com/
-// @exclude           /.*csdn\.net/
-// @exclude           /.*zhku\.edu\.cn/
-// @exclude           /.*zhihuishu\.com/
-// @exclude           /.*aliyuncs\.com/
-// @exclude           /.*chaoxing\.com/
-// @exclude           /.*youku\.com/
-// @exclude           /.*examcoo\.com/
-// @exclude           /.*mooc\.com/
-// @exclude           /.*bilibili\.com/
-// @exclude           /.*qq\.com/
-// @exclude           /.*yy\.com/
-// @exclude           /.*huya\.com/
-// @exclude           /localhost/
-// @exclude           /.*acfun\.cn/
-// @exclude           /.*eleme\.cn/
-// @exclude           /.*douyin\.com/
-// @icon              data:image/png;base64,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
-// @noframes          
-// @grant             GM_addStyle
-// @grant             GM_setValue
-// @grant             GM_getValue
-// @grant             GM_notification
-// @grant             GM_registerMenuCommand
-// @grant             GM_unregisterMenuCommand
+// @name               网页翻译——自动翻译为中文
+// @name:af            Webbladvertaling - outomatiese vertaling in Chinees
+// @name:am            ዌብ ገጽ ትርጉም - ራስ-ሰር ትርጉም ወደ ቻይንኛ
+// @name:ar            ترجمة صفحة الويب - الترجمة التلقائية إلى الصينية
+// @name:az            Veb səhifə tərcüməsi - Çin dilinə avtomatik tərcümə
+// @name:be            Пераклад вэб -старонкі - аўтаматычны пераклад на кітайскую мову
+// @name:bem           Ukupilibula ibuula lya webu – ukupilibula ukwaibela mu China
+// @name:bg            Превод на уеб страници - Автоматичен превод на китайски
+// @name:bn            ওয়েব পৃষ্ঠার অনুবাদ - চীনা ভাষায় স্বয়ংক্রিয় অনুবাদ
+// @name:bo            དྲ་ངོས་ཤོག་ངོས – རང་འགུལ་གྱིས་རྒྱ་ཡིག་ཏུ་བསྒྱུར་བ།
+// @name:bs            Prevođenje web stranica - Automatski prijevod na kineski
+// @name:ca            Traducció de pàgines web: traducció automàtica al xinès
+// @name:ceb           Paghubad sa web page - Awtomatikong paghubad sa Intsik
+// @name:ckb           وەرگێڕانی وێب پەیجی – وەرگێڕانی ئۆتۆماتیکی بۆ زمانی چینی
+// @name:cs            Překlad webové stránky - automatický překlad do čínštiny
+// @name:cy            Cyfieithu Tudalen We - Cyfieithu awtomatig i Tsieinëeg
+// @name:da            Oversættelse af webside - Automatisk oversættelse til kinesisk
+// @name:de            Webseitenübersetzung - Automatische Übersetzung in Chinesisch
+// @name:dv            ވެބް ޕޭޖް ތަރުޖަމާ – ޗައިނީޒް އަށް އޮޓޮމެޓިކުން ތަރުޖަމާ
+// @name:dz            ཝེབ་ཤོག་ལེབ་སྐད་བསྒྱུར་ – རྒྱ་ཡིག་ནང་ རང་འགུལ་སྐད་སྒྱུར།
+// @name:el            Μετάφραση ιστοσελίδας - αυτόματη μετάφραση στα κινέζικα
+// @name:en            Web page translation – automatic translation into Chinese
+// @name:eo            Retpaĝa Traduko - Aŭtomata traduko al ĉina
+// @name:es            Traducción de la página web: traducción automática al chino
+// @name:et            Veebilehe tõlge - automaatne tõlge hiina keelde
+// @name:eu            Web orriaren itzulpena - Txinera itzulpen automatikoa
+// @name:fa            ترجمه صفحه وب - ترجمه خودکار به چینی
+// @name:fi            Verkkosivujen käännös - automaattinen käännös kiinaksi
+// @name:fo            Vevsíðu týðing – sjálvvirkandi týðing til kinesiskt
+// @name:fr            Traduction de page Web - Traduction automatique en chinois
+// @name:gd            Eadar-theangachadh duilleag-lìn - Eadar-theangachadh fèin-ghluasadach a-steach do Shìonach
+// @name:gl            Tradución de páxinas web: tradución automática ao chinés
+// @name:gu            વેબ પૃષ્ઠ અનુવાદ - ચાઇનીઝમાં સ્વચાલિત અનુવાદ
+// @name:haw           Ke unuhiʻaoʻaoʻaoʻao
+// @name:he            תרגום לדף אינטרנט - תרגום אוטומטי לסינית
+// @name:hi            वेब पेज अनुवाद - चीनी में स्वचालित अनुवाद
+// @name:hr            Prijevod na web stranici - automatski prijevod na kineski
+// @name:ht            Tradiksyon paj entènèt - tradiksyon otomatik nan Chinwa
+// @name:hu            Weboldal fordítás - automatikus fordítás kínai nyelvre
+// @name:hy            Վեբ էջի թարգմանություն - Ավտոմատ թարգմանությունը չինարեն
+// @name:id            Terjemahan Halaman Web - Terjemahan Otomatis ke dalam Cina
+// @name:is            Þýðing á vefsíðu - Sjálfvirk þýðing á kínversku
+// @name:it            Traduzione della pagina web - traduzione automatica in cinese
+// @name:ja            Webページ翻訳 - 中国語への自動翻訳
+// @name:ka            ვებ - გვერდის თარგმანი - ავტომატური თარგმანი ჩინურ ენაზე
+// @name:kk            Веб-бет аударма - қытай тіліне автоматты аударма
+// @name:km            គេហទំព័រការបកប្រែទំព័រវិប - ការបកប្រែស្វ័យប្រវត្តិទៅជាភាសាចិន
+// @name:kn            ವೆಬ್ ಪುಟ ಅನುವಾದ - ಚೈನೀಸ್ ಭಾಷೆಗೆ ಸ್ವಯಂಚಾಲಿತ ಅನುವಾದ
+// @name:ko            웹 페이지 번역 - 중국어로 자동 번역
+// @name:ku            Werger - werger - South Azerbaijani
+// @name:ky            Веб барагы котормосу - Кытайга автоматтык котормо
+// @name:la            Web page translation - Lorem in Chinese
+// @name:lb            Websäit Iwwersetzung - automatesch Iwwersetzung op Chinesesch
+// @name:lo            ການແປພາສາເວບໄຊທ໌ - ການແປພາສາອັດຕະໂນມັດເປັນພາສາຈີນ
+// @name:lt            Tinklalapio vertimas - automatinis vertimas į kinų kalbą
+// @name:lv            Tīmekļa lapas tulkošana - automātiska tulkošana ķīniešu valodā
+// @name:mg            Fandikana ny pejy fandikana ny pejy - fandikana otomatis amin’ny teny sinoa
+// @name:mi            Whakamarama Whārangi Tukutuku - Whakawhiti Aunoa ki te Hainamana
+// @name:mk            Превод на веб -страница - Автоматски превод на кинески
+// @name:ml            വെബ് പേജ് വിവർത്തനം - ചൈനീസിലേക്ക് യാന്ത്രിക വിവർത്തനം
+// @name:mn            Вэб хуудас орчуулга - Хятад хэл рүү автомат орчуулга
+// @name:ms            Terjemahan laman web - terjemahan automatik ke dalam bahasa Cina
+// @name:mt            Traduzzjoni tal-Paġna tal-Web - Traduzzjoni Awtomatika fiċ-Ċiniż
+// @name:my            ဝဘ်စာမျက်နှာဘာသာပြန် - အလိုအလျောက်ဘာသာပြန်ဆိုခြင်း
+// @name:ne            वेब पृष्ठ अनुवाद - चिनियाँमा स्वचालित अनुवाद
+// @name:nl            Webpagina vertaling - Automatische vertaling naar Chinees
+// @name:no            Oversettelse av webside - automatisk oversettelse til kinesisk
+// @name:ny            Tsamba la Tsamba la Webusayiti - Kutanthauzira Kwa Zokha Ku China
+// @name:pa            ਵੈਬ ਪੇਜ ਅਨੁਵਾਦ - ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦ ਚੀਨੀ ਵਿੱਚ
+// @name:pap           Tradukshon di página web – tradukshon outomatiko na chines .
+// @name:pl            Tłumaczenie strony internetowej - automatyczne tłumaczenie na chiński
+// @name:ps            ګورت پا "ه ژباړه - په چینایي کې اتوماتیک ژباړه
+// @name:pt            Tradução da página da web - tradução automática para chinês
+// @name:ro            Traducere pe pagini web - traducere automată în chineză
+// @name:ru            Перевод веб -страницы - автоматический перевод на китайский
+// @name:rw            Urubuga rwa page - Ubusobanuro bwikora mu Gishinwa
+// @name:sg            Traduction ti lembeti ti Web – traduction automatique na yanga ti Chinois .
+// @name:si            වෙබ් පිටු පරිවර්තනය - ස්වයංක්රීය පරිවර්තනය චීන භාෂාවට පරිවර්තනය කිරීම
+// @name:sk            Preklad webovej stránky - automatický preklad do čínštiny
+// @name:sl            Prevajanje spletne strani - samodejni prevod v kitajščino
+// @name:sm            Itulau itulau itulau (otometi faaliliuga faaliliu i le gagana Saina
+// @name:sn            Webhu Back Back - otomatiki Shanduro muChinese
+// @name:so            Sharaxa bogga Tarjumida - Tarjumaad toos ah oo Shiinees ah
+// @name:sr            Превод веб страница - аутоматски превод на кинески
+// @name:sv            Webbsidans översättning - Automatisk översättning till kinesiska
+// @name:sw            Tafsiri ya ukurasa wa wavuti - Tafsiri ya moja kwa moja kwa Kichina
+// @name:ta            வலைப்பக்க மொழிபெயர்ப்பு - சீன மொழியில் தானியங்கி மொழிபெயர்ப்பு
+// @name:te            వెబ్ పేజీ అనువాదం - చైనీస్లోకి స్వయంచాలక అనువాదం
+// @name:tg            Тарҷумаи веб саҳифа - тарҷумаи автоматӣ ба Чин
+// @name:th            การแปลหน้าเว็บ - การแปลอัตโนมัติเป็นภาษาจีน
+// @name:ti            ትርጉም መርበብ ሓበሬታ – ኣውቶማቲክ ትርጉም ናብ ቻይናዊ
+// @name:tk            Web sahypasynyň terjimesi - hytaý diline terjime
+// @name:tn            Thanolo ya tsebe ya webo – thanolo e e itirisang mo Setšhaeneng
+// @name:to            Liliu ’o e peesi ’i he Uepi – liliu ’otometiki ki he lea faka-Siaina .
+// @name:tpi           translesen blong Web pej – otomatik translesen i go long lanwis blong Jaena .
+// @name:tr            Web Sayfası Çeviri - Çince Otomatik Çeviri
+// @name:uk            Переклад на веб -сторінках - Автоматичний переклад на китайську
+// @name:ur            ویب پیج ترجمہ - چینیوں میں خودکار ترجمہ
+// @name:uz            Veb-sahifa tarjimasi - Xitoyga avtomatik tarjima
+// @name:vi            Bản dịch trang web - Bản dịch tự động sang tiếng Trung
+// @name:xh            Inguqulelo yeWebhu - uguqulelo oluzenzekelayo kwiTshayina
+// @name:yi            וועב בלאַט איבערזעצונג - אָטאַמאַטיק איבערזעצונג אין כינעזיש
+// @name:zh            网页翻译——自动翻译为中文
+// @name:zh-CN         网页翻译——自动翻译为中文
+// @name:zh-HK         網頁翻譯——自動翻譯為中文
+// @name:zh-MO         網頁翻譯——自動翻譯為中文
+// @name:zh-MY         网页翻译——自动翻译为中文
+// @name:zh-SG         网页翻译——自动翻译为中文
+// @name:zh-TW         網頁翻譯——自動翻譯為中文
+// @name:zu            Ukuhunyushwa kwekhasi leWebhu - Ukuhumusha okuzenzakalelayo ku-Chinese
+// @description        给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @description:af     Voeg ’n Google-vertaalikoon by die onderste regterhoek van elke nie-Chinese webblad (kan aan die onderste linkerhoek verstel word). Hierdie weergawe is ’n Chinese vertaalweergawe, en slegs vreemde tale word in Chinees vertaal, en outomatiese vertaling word bygevoeg.
+// @description:am     እያንዳንዱ የቻይንኛ ላልሆኑ የድር ገጽ የታችኛው ቀኝ ጥግ ላይ የ Google የትርጉም ምልክት አዶን ያክሉ (በታችኛው ግራ ጥግ ላይ ሊስተካከል ይችላል). ይህ ስሪት የቻይንኛ ትርጉም ሥሪት ነው, እና የውጭ ቋንቋዎች ብቻ ወደ ቻይንኛ ተተርጉመዋል, እና አውቶማቲክ ትርጉም ታክሏል.
+// @description:ar     أضف أيقونة ترجمة Google إلى الزاوية اليمنى السفلى من كل صفحة ويب غير صينية (يمكن تعديلها إلى الزاوية اليسرى السفلى). هذا الإصدار عبارة عن نسخة ترجمة صينية ، ويتم ترجمة اللغات الأجنبية فقط إلى صينية ، ويتم إضافة ترجمة تلقائية.
+// @description:az     Hər Çin olmayan veb səhifənin aşağı sağ küncünə Google Talcape Icon əlavə edin (aşağı sol küncdə tənzimlənə bilər). Bu versiya Çin tərcümə versiyasıdır və yalnız xarici dillər Çin dilinə tərcümə olunur və avtomatik tərcümə əlavə olunur.
+// @description:be     Дадайце значок перакладу Google у правы ніжні куток кожнай некітайскай вэб-старонкі (можна адрэгуляваць у ніжні левы кут). Гэтая версія з’яўляецца кітайскай версіяй перакладу, і толькі замежныя мовы перакладаюцца на кітайскую мову, і дадаецца аўтаматычны пераклад.
+// @description:bem    Lundapo icikope ca Google ica kupilibula ku lubali lwa ku kulyo ulwa pe buula lya webu ilyabula-Kanshi (kuti bwalungikwa ku kona lya ku kulyo ilya panshi). Iyi misango ni musango wa kupilibula uwa China, kabili indimi fye sha ku calo cimbi e shipilibulwa mu China, kabili ukupilibula ukwaibela e kwalundwako.
+// @description:bg     Добавете иконата на Google Translation към долния десен ъгъл на всяка некитайска уеб страница (може да се регулира в долния ляв ъгъл). Тази версия е китайска версия за превод и само чужди езици се превеждат на китайски и се добавя автоматичен превод.
+// @description:bn     প্রতিটি নন-চীনা ওয়েব পৃষ্ঠার নীচের ডান কোণে একটি গুগল অনুবাদ আইকন যুক্ত করুন (নীচের বাম কোণে সামঞ্জস্য করা যেতে পারে)। এই সংস্করণটি একটি চীনা অনুবাদ সংস্করণ, এবং কেবল বিদেশী ভাষাগুলি চীনা ভাষায় অনুবাদ করা হয় এবং স্বয়ংক্রিয় অনুবাদ যুক্ত করা হয়।
+// @description:bo     རྒྱ་ནག་མིན་པའི་དྲ་ཚིགས་རེ་རེའི་གཡས་ཕྱོགས་ཀྱི་གཤམ་གྱི་ཟུར་ལ་གུ་གུལ་སྐད་སྒྱུར་གྱི་རྟགས་མཚན་ཁ་སྣོན་བྱེད་དགོས། ཐོན་རིམ་འདི་ནི་རྒྱ་ཡིག་གི་སྐད་སྒྱུར་གྱི་ཐོན་རིམ་ཞིག་ཡིན་ལ། ཕྱི་སྐད་ཁོ་ན་རྒྱ་ཡིག་ཏུ་བསྒྱུར་ནས་རང་འགུལ་གྱིས་བསྒྱུར་བའི་སྐད་སྒྱུར་ཡང་ཁ་སྣོན་བྱས་ཡོད།
+// @description:bs     Dodajte google prevodila ikonu u donji desni ugao svake ne-kineske web stranice (može se podesiti na donji lijevi ugao). Ova verzija je kineska verzija prevođenja, a samo su strani jezici prevedeni na kineski, a automatski prevod se dodaje.
+// @description:ca     Afegiu una icona de traducció de Google a la cantonada inferior dreta de cada pàgina web no xinesa (es pot ajustar a la cantonada inferior esquerra). Aquesta versió és una versió de traducció xinesa i només es tradueixen idiomes estrangers al xinès i s’afegeix traducció automàtica.
+// @description:ceb    Pagdugang usa ka icon sa paghubad sa Google hangtod sa ubos nga tuo nga suok sa matag dili nga panid sa Chinese Web (mahimong i-adjust sa ubos nga wala nga kanto). Kini nga bersyon usa ka bersyon sa paghubad sa Intsik, ug ang mga langyaw nga sinultian lamang ang gihubad sa Intsik, ug ang awtomatikong paghubad gidugang.
+// @description:ckb    ئایکۆنی وەرگێڕانی گووگڵ زیاد بکە بۆ گۆشەی خوارەوەی لای ڕاستی هەر لاپەڕەیەکی وێبی غەیرە چینی (دەتوانرێت بۆ گۆشەی خوارەوەی چەپ ڕێکبخرێت). ئەم ڤێرژنە وەشانێکی وەرگێڕانی چینییە و تەنیا زمانە بیانییەکان وەرگێڕدراونەتە سەر زمانی چینی و وەرگێڕانی ئۆتۆماتیکی زیاد دەکرێت.
+// @description:cs     Přidejte ikonu překladu Google do pravého dolního rohu každé ne-čínské webové stránky (lze je upravit na levý dolní roh). Tato verze je čínskou překladovou verzí a pouze cizí jazyky jsou přeloženy do čínštiny a je přidán automatický překlad.
+// @description:cy     Ychwanegwch eicon cyfieithu Google i gornel dde isaf pob tudalen we nad yw’n Tsieineaidd (gellir ei haddasu i’r gornel chwith isaf). Mae’r fersiwn hon yn fersiwn cyfieithu Tsieineaidd, a dim ond ieithoedd tramor sy’n cael eu cyfieithu i Tsieinëeg, ac ychwanegir cyfieithu awtomatig.
+// @description:da     Tilføj et Google-oversættelsesikon til det nederste højre hjørne af hver ikke-kinesisk webside (kan justeres til nederste venstre hjørne). Denne version er en kinesisk oversættelsesversion, og kun fremmedsprog oversættes til kinesisk, og automatisk oversættelse tilføjes.
+// @description:de     Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtchinesischen Webseite hinzu (kann an die untere linke Ecke angepasst werden). Diese Version ist eine chinesische Übersetzungsversion, und nur Fremdsprachen werden in Chinese übersetzt, und es wird eine automatische Übersetzung hinzugefügt.
+// @description:dv     ޗައިނާ ނޫން ކޮންމެ ވެބް ޕޭޖެއްގެ ކަނާތްފަރާތުގެ ތިރީ ކޮޅުގައި ގޫގުލް ޓްރާންސްލެޝަން އައިކޮންއެއް އިތުރުކުރުން (ކަނާތްފަރާތުގެ ތިރީ ކޮޅުގައި އެޖެސްޓް ކުރެވިދާނެ) . މި ވަރޝަނަކީ ޗައިނީސް ތަރުޖަމާ ވަރޝަނެއް ކަމަށާއި، ޗައިނީސް ބަހަށް ތަރުޖަމާކުރެވޭނީ ހަމައެކަނި ބޭރު ބަސްތަކެއް ކަމަށާއި، އޮޓޮމެޓިކް ތަރުޖަމާ އިތުރުކޮށްފައިވާ ވަރޝަނެއް ކަމަށް ވެސް ވިދާޅުވިއެވެ.
+// @description:dz     རྒྱ་ནག་མེན་པའི་ཝེབ་ཤོག་ལེབ་རེ་རེ་གི་ གཡས་ཁ་ཐུག་གི་འོག་ལུ་ གུ་གཱལ་སྐད་སྒྱུར་གྱི་ངོས་དཔར་ཅིག་ཁ་སྐོང་རྐྱབས་ (གཡོན་ཁ་ཐུག་གི་འོག་གི་ཟུར་ཁ་ལུ་ བདེ་སྒྲིག་འབད་ཚུགས།)། ཐོན་རིམ་འདི་རྒྱ་ནག་གི་སྐད་སྒྱུར་ཐོན་རིམ་ཨིནམ་དང་ ཕྱི་རྒྱལ་གྱི་སྐད་ཡིག་ཚུ་རྐྱངམ་ཅིག་རྒྱ་ནག་ནང་ལུ་སྐད་སྒྱུར་འབད་ཡོདཔ་དང་ རང་བཞིན་སྐད་སྒྱུར་འདི་ཁ་སྐོང་འབདཝ་ཨིན།
+// @description:el     Προσθέστε ένα εικονίδιο μετάφρασης Google στην κάτω δεξιά γωνία κάθε μη κινέζικης ιστοσελίδας (μπορεί να προσαρμοστεί στην κάτω αριστερή γωνία). Αυτή η έκδοση είναι μια κινεζική έκδοση μετάφρασης και μόνο οι ξένες γλώσσες μεταφράζονται στα κινέζικα και προστίθεται αυτόματη μετάφραση.
+// @description:en     Add a Google Translation icon to the lower right corner of each non-Chinese web page (can be adjusted to the lower left corner). This version is a Chinese translation version, and only foreign languages are translated into Chinese, and automatic translation is added.
+// @description:eo     Aldonu Google-tradukan ikonon al la malsupra dekstra angulo de ĉiu ne-ĉina retpaĝo (povas esti alĝustigita al la malsupra maldekstra angulo). Ĉi tiu versio estas ĉina traduka versio, kaj nur fremdaj lingvoj estas tradukitaj al ĉina, kaj aŭtomata traduko estas aldonita.
+// @description:es     Agregue un icono de traducción de Google a la esquina inferior derecha de cada página web no china (se puede ajustar a la esquina inferior izquierda). Esta versión es una versión de traducción china, y solo los idiomas extranjeros se traducen al chino, y se agrega la traducción automática.
+// @description:et     Lisage Google’i tõlkeikoon iga mitte-Hiina veebilehe paremas alanurgas (seda saab reguleerida vasakpoolsesse alanurka). See versioon on hiina tõlkeversioon ja hiina keelde tõlgitakse ainult võõrkeeled ning lisatakse automaatne tõlge.
+// @description:eu     Gehitu Google itzulpenaren ikonoa txinatar ez den web orri bakoitzaren beheko eskuinaldean (beheko ezkerreko izkinan doitu daiteke). Bertsio hau txinatar itzulpen bertsioa da, eta atzerriko hizkuntzak txinera itzultzen dira eta itzulpen automatikoa gehitzen da.
+// @description:fa     یک نماد ترجمه Google را به گوشه سمت راست پایین هر صفحه وب غیر چینی اضافه کنید (می تواند به گوشه سمت چپ پایین تنظیم شود). این نسخه یک نسخه ترجمه چینی است و فقط زبانهای خارجی به چینی ترجمه می شوند و ترجمه اتوماتیک اضافه می شود.
+// @description:fi     Lisää Google-käännöskuvake kunkin ei-kiinalaisen verkkosivun oikeaan alakulmaan (voidaan säätää vasempaan alakulmaan). Tämä versio on kiinalainen käännösversio, ja vain vieraat kielet käännetään kiinaksi, ja automaattinen käännös lisätään.
+// @description:fo     Legg eitt Google Týðingar-ikon til niðara høgra horn á hvørjari ikki-kinesiskari heimasíðu (kann stillast til niðara vinstra horn). Henda útgávan er ein kinesisk týðingarútgáva, og bert fremmandamál eru týdd til kinesiskt, og sjálvvirkandi týðing verður løgd afturat.
+// @description:fr     Ajoutez une icône de traduction Google dans le coin inférieur droit de chaque page Web non chinoise (peut être ajusté dans le coin inférieur gauche). Cette version est une version de traduction chinoise, et seules les langues étrangères sont traduites en chinois et une traduction automatique est ajoutée.
+// @description:gd     Cuir ìomhaigh eadar-theangachaidh Google ris an oisean gu h-ìosal air an làimh dheis de gach duilleag-lìn neo-Sìneach (atharrachadh don oisean chlì as ìsle). Tha an dreach seo na dhreach eadar-theangachaidh Sìneach, agus chan eil ach cànan cèin air eadar-theangachadh gu Sìneach, agus thèid eadar-theangachadh fèin-ghluasadach a chur ris.
+// @description:gl     Engade unha icona de tradución de Google á esquina inferior dereita de cada páxina web non chinesa (pódese axustar á esquina inferior esquerda). Esta versión é unha versión de tradución chinesa e só se traducen as linguas estranxeiras ao chinés e engádese a tradución automática.
+// @description:gu     દરેક બિન-ચાઇનીઝ વેબ પૃષ્ઠના નીચલા જમણા ખૂણામાં ગૂગલ અનુવાદ ચિહ્ન ઉમેરો (નીચલા ડાબા ખૂણામાં ગોઠવી શકાય છે). આ સંસ્કરણ એક ચાઇનીઝ અનુવાદ સંસ્કરણ છે, અને ફક્ત વિદેશી ભાષાઓમાં ચાઇનીઝમાં ભાષાંતર કરવામાં આવે છે, અને સ્વચાલિત અનુવાદ ઉમેરવામાં આવે છે.
+// @description:haw    E hoʻohui i kahi kiʻi unuhi Google ma ke kihi’ākau hema o kēlā me kēiaʻaoʻao pūnaeweleʻole (hiki ke hoʻoponoponoʻia i kaʻaoʻao hema hema). ʻO kēiaʻano ka mana o ka unuhi’ōlelo Kina, aʻo nā’ōlelo’ē aʻe wale nō i unuhiʻia i loko o ka unuhi Kina, a hoʻohuiʻia ka unuhi’ōlelo.
+// @description:he     הוסף סמל תרגום של גוגל לפינה הימנית התחתונה של כל דף אינטרנט שאינו סיני (ניתן להתאים לפינה השמאלית התחתונה). גרסה זו היא גרסת תרגום סינית, ורק שפות זרות מתורגמות לסינית, ומתווסף תרגום אוטומטי.
+// @description:hi     प्रत्येक गैर-चीनी वेब पेज के निचले दाएं कोने में एक Google अनुवाद आइकन जोड़ें (निचले बाएं कोने में समायोजित किया जा सकता है)। यह संस्करण एक चीनी अनुवाद संस्करण है, और केवल विदेशी भाषाओं का अनुवाद चीनी में किया जाता है, और स्वचालित अनुवाद जोड़ा जाता है।
+// @description:hr     Dodajte ikonu Google prevođenja u donji desni kut svake ne-kineske web stranice (može se prilagoditi do donjeg lijevog ugla). Ova verzija je kineska inačica prijevoda, a samo se strani jezici prevode na kineski, a dodaje se automatski prijevod.
+// @description:ht     Ajoute yon icon tradiksyon Google nan kwen ki pi ba dwat nan chak paj entènèt ki pa Chinwa (ka ajiste nan kwen gòch ki pi ba). Vèsyon sa a se yon vèsyon tradiksyon Chinwa, epi se sèlman lang etranje yo tradui nan Chinwa, ak tradiksyon otomatik te ajoute.
+// @description:hu     Adjon hozzá egy Google Translation ikont az egyes nem-kínai weboldalak jobb alsó sarkához (beállítható a bal alsó sarokhoz). Ez a verzió egy kínai fordítási verzió, és csak az idegen nyelveket fordítják kínaira, és az automatikus fordítás hozzáadódik.
+// @description:hy     Յուրաքանչյուր ոչ չինական վեբ էջի ստորին աջ անկյունում ավելացրեք Google թարգմանության պատկերակ (կարելի է ճշգրտվել ստորին ձախ անկյունում): Այս վարկածը չինական թարգմանությունների տարբերակ է, եւ միայն օտար լեզուները թարգմանվում են չինական, եւ ավելացվում է ավտոմատ թարգմանություն:
+// @description:id     Tambahkan ikon terjemahan Google ke sudut kanan bawah setiap halaman web non-Cina (dapat disesuaikan ke sudut kiri bawah). Versi ini adalah versi terjemahan Cina, dan hanya bahasa asing yang diterjemahkan ke dalam bahasa Cina, dan terjemahan otomatis ditambahkan.
+// @description:is     Bættu Google þýðingartákninu við neðra hægra hornið á hverri vefsíðu sem ekki er kínverskur (er hægt að stilla að neðra vinstra horninu). Þessi útgáfa er kínversk þýðingarútgáfa og aðeins erlend tungumál eru þýdd á kínversku og sjálfvirk þýðing bætt við.
+// @description:it     Aggiungi un’icona di traduzione di Google all’angolo in basso a destra di ciascuna pagina Web non cinese (può essere regolata nell’angolo in basso a sinistra). Questa versione è una versione di traduzione cinese e solo le lingue straniere vengono tradotte in cinese e viene aggiunta una traduzione automatica.
+// @description:ja     Google翻訳アイコンを各中国語のWebページの右下隅に追加します（左下隅に調整できます）。このバージョンは中国の翻訳版であり、外国語のみが中国語に翻訳されており、自動翻訳が追加されています。
+// @description:ka     დაამატეთ Google მთარგმნელობითი ხატი თითოეული არა ჩინური ვებ-გვერდის ქვედა მარჯვენა კუთხეში (შეიძლება მორგებული იყოს ქვედა მარცხენა კუთხეში). ეს ვერსია არის ჩინური მთარგმნელობითი ვერსია და მხოლოდ უცხო ენები ითარგმნება ჩინურ ენაზე, ხოლო ავტომატური თარგმანი ემატება.
+// @description:kk     Әрбір қытай емес веб-беттің төменгі оң жақ бұрышына google аударма белгішесін қосыңыз (сол жақ төменгі бұрышқа реттеуге болады). Бұл нұсқа қытай тіліндегі аударма нұсқасы, ал тек шет тілдері қытай тіліне аударылады, ал автоматты аударма қосылады.
+// @description:km     បន្ថែមរូបតំណាងការបកប្រែហ្គូហ្គលទៅជ្រុងខាងស្តាំនៃទំព័របណ្តាញមិនមែនភាសាចិននីមួយៗ (អាចត្រូវបានកែតម្រូវទៅជ្រុងខាងឆ្វេងខាងក្រោម) ។ កំណែនេះគឺជាកំណែបកប្រែភាសារបស់ចិនហើយមានតែភាសាបរទេសប៉ុណ្ណោះដែលត្រូវបានបកប្រែទៅជាភាសាចិនហើយការបកប្រែស្វ័យប្រវត្តិត្រូវបានបន្ថែម។
+// @description:kn     ಪ್ರತಿ ಚೀನೀಸ್ ಅಲ್ಲದ ವೆಬ್ ಪುಟದ ಕೆಳಗಿನ ಬಲ ಮೂಲೆಯಲ್ಲಿ ಗೂಗಲ್ ಅನುವಾದ ಐಕಾನ್ ಸೇರಿಸಿ (ಕೆಳಗಿನ ಎಡ ಮೂಲೆಯಲ್ಲಿ ಹೊಂದಿಸಬಹುದು). ಈ ಆವೃತ್ತಿಯು ಚೀನೀ ಅನುವಾದ ಆವೃತ್ತಿಯಾಗಿದೆ, ಮತ್ತು ವಿದೇಶಿ ಭಾಷೆಗಳನ್ನು ಮಾತ್ರ ಚೈನೀಸ್ ಭಾಷೆಗೆ ಅನುವಾದಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತ ಅನುವಾದವನ್ನು ಸೇರಿಸಲಾಗುತ್ತದೆ.
+// @description:ko     각 비 중국 웹 페이지의 오른쪽 하단에 Google 번역 아이콘을 추가하십시오 (왼쪽 하단 코너로 조정할 수 있음). 이 버전은 중국어 번역 버전이며 외국어 만 중국어로 번역되며 자동 번역이 추가됩니다.
+// @description:ku     Vebijêrkek wergera Google-ê li quncika jêrîn a jêrîn a her malperê ya ne-Chineseînî zêde bikin (dikare li quncika çepê ya jêrîn were sererast kirin). Ev guhertoyek guhertoyek wergera çînî ye, û tenê zimanên biyanî bi çînî têne wergerandin, û wergerandina otomatîkî têne zêdekirin.
+// @description:ky     Ар бир кытай эмес веб-баракчанын төмөнкү оң бурчуна Google Translation сүрөтчөсүн кошуңуз (төмөнкү сол бурчка ылайыкташтырса болот). Бул версия - бул кытайча котормо нускасы, жана чет тилдер гана кытай тилине которулган жана автоматтык котормо кошулду.
+// @description:la     Add a Google translation icon ad inferiores ius anguli cuiusque non-Seres web page (potest esse adaequatum ad inferiores sinistram anguli). Hoc version est Chinese translation versio, et solum aliena linguarum interpretantur in Chinese et automatic translation est addidit.
+// @description:lb     Füügt eng Google Iwwersetzung Ikon derbäi op déi ënnescht riets Eck vun all Net-Chinese Websäit (kann op déi ënnescht lénks Eck ugepasst ginn). Dës Dat ass eng Chinesend Iwwersetz Versioun, an hunn nëmmen déi fahrwëlllech Sprooche an nëmmen Chineseschie ginn iwwerginn an automatiséiert Direktioun derbäigesat.
+// @description:lo     ເພີ່ມຮູບສັນຍາລັກການແປພາສາ Google ໄປທີ່ມຸມຂວາລຸ່ມຂອງແຕ່ລະຫນ້າເວບທີ່ບໍ່ແມ່ນຄົນຈີນ (ສາມາດປັບໃສ່ໄດ້ຢູ່ແຈເບື້ອງຊ້າຍລຸ່ມ). ຮຸ່ນນີ້ແມ່ນລຸ້ນແປພາສາຈີນ, ແລະມີພຽງແຕ່ພາສາຕ່າງປະເທດເທົ່ານັ້ນທີ່ຖືກແປເປັນພາສາຈີນແລະອັດຕະໂນມັດແມ່ນເພີ່ມໂດຍອັດຕະໂນມັດ.
+// @description:lt     Pridėkite „Google“ vertimo piktogramą prie apatinio dešiniojo kiekvieno ne Kinijos tinklalapio kampo (galima sureguliuoti apatiniame kairiajame kampe). Ši versija yra kinų vertimo versija, o tik užsienio kalbos išverčiamos į kinų kalbą, pridedama automatinis vertimas.
+// @description:lv     Pievienojiet Google tulkošanas ikonu katras vietnes apakšējā labajā stūrī apakšējā labajā stūrī (to var pielāgot apakšējā kreisajā stūrī). Šī versija ir ķīniešu tulkošanas versija, un ķīniešu valodā tiek tulkotas tikai svešvalodas, un tiek pievienota automātiska tulkošana.
+// @description:mg     Manampia kisary fandikan-teny Google amin’ny zoro havanana amin’ny pejy Web tsy sinoa (azo amboarina amin’ny zoro havia havia). Ity dikan-teny ity dia dikan-teny sinoa, ary ny fiteny vahiny ihany no adika amin’ny teny sinoa, ary nampiana ny fandikan-teny mandeha ho azy.
+// @description:mi     Tāpirihia he tohu whakamaoritanga a Google ki te kokonga matau o raro o ia whaarangi paetukutuku kore-Hainamana (ka taea te whakatika ki te kokonga maui o raro). Ko tenei putanga ko te waahanga whakamaori Hainamana, a ko nga reo ke ke kua whakamaoritia ki te Hainamana, me te whakamaoritanga aunoa.
+// @description:mk     Додадете икона за превод на Google на долниот десен агол на секоја не-кинеска веб-страница (може да се прилагоди на долниот лев агол). Оваа верзија е кинеска верзија за превод, а само странски јазици се преведуваат на кинески, а се додава и автоматски превод.
+// @description:ml     ഓരോ ചൈനീസ് ഇതര വെബ് പേജിന്റെയും ചുവടെ വലത് കോണിലേക്ക് ഒരു Google വിവർത്തന ഐക്കൺ ചേർക്കുക (ചുവടെ ഇടത് കോണിലേക്ക് ക്രമീകരിക്കാൻ കഴിയും). ഈ പതിപ്പ് ഒരു ചൈനീസ് വിവർത്തന പതിപ്പാണ്, കൂടാതെ വിദേശ ഭാഷകൾ മാത്രമാണ് ചൈനീസ് ഭാഷയിലേക്ക് വിവർത്തനം ചെയ്യുന്നത്, യാന്ത്രിക വിവർത്തനം ചേർത്തു.
+// @description:mn     Google орчуулгын дүрсийг хятадын бус вэб хуудаснаас баруун доод буланд нэмнэ үү (зүүн доод буланд тохируулж болно). Энэ хувилбар бол Хятад орчуулгын хувилбар, зөвхөн гадаад хэлний орчуулгатай хувилбар бөгөөд зөвхөн Гадаад хэлний хэлийг Хятад улсад орчуулдаг.
+// @description:ms     Tambah ikon terjemahan Google ke sudut kanan bawah setiap laman web bukan Cina (boleh diselaraskan ke sudut kiri bawah). Versi ini adalah versi terjemahan Cina, dan hanya bahasa asing yang diterjemahkan ke dalam Cina, dan terjemahan automatik ditambah.
+// @description:mt     Żid ikona tat-traduzzjoni tal-Google mal-kantuniera t’isfel tal-lemin ta ’kull paġna tal-web mhux Ċiniża (tista’ tiġi aġġustata għall-kantuniera t’isfel tax-xellug). Din il-verżjoni hija verżjoni ta ’traduzzjoni Ċiniża, u l-lingwi barranin biss huma tradotti fiċ-Ċiniż, u hija miżjuda traduzzjoni awtomatika.
+// @description:my     Google Teject Icon ကိုတရုတ်မဟုတ်သော 0 က်ဘ်စာမျက်နှာတစ်ခုစီ၏ညာဘက်အောက်ထောင့်သို့ထည့်ပါ။ (ဘယ်ဘက်ထောင့်မှချိန်ညှိနိုင်သည်) ဤဗားရှင်းသည်တရုတ်ဘာသာပြန်ခြင်းဗားရှင်းဖြစ်ပြီးနိုင်ငံခြားဘာသာစကားများကိုတရုတ်ဘာသာသို့ပြန်ဆိုပြီးအလိုအလျောက်ဘာသာပြန်ချက်ထည့်သွင်းထားသည်။
+// @description:ne     प्रत्येक गैर-चिनियाँ वेब पृष्ठको तल्लो दायाँ कुनामा गुगल अनुवाद आइकन थप्नुहोस् (तल्लो बायाँ कुनामा समायोजित गर्न सकिन्छ)। यो संस्करण एक चिनियाँ अनुवाद संस्करण हो, र केवल विदेशी भाषाहरू केवल चिनियाँ भाषामा अनुवाद गरिएको छ, र स्वचालित अनुवाद थपियो।
+// @description:nl     Voeg een Google-vertaalpictogram toe aan de rechteronderhoek van elke niet-Chinese webpagina (kan worden aangepast aan de linkeronderhoek). Deze versie is een Chinese vertaalversie en alleen vreemde talen worden vertaald in het Chinees en automatische vertaling wordt toegevoegd.
+// @description:no     Legg til et Google-oversettelsesikon til nedre høyre hjørne av hver ikke-kinesiske webside (kan justeres til nedre venstre hjørne). Denne versjonen er en kinesisk oversettelsesversjon, og bare fremmedspråk blir oversatt til kinesisk, og automatisk oversettelse blir lagt til.
+// @description:ny     Onjezani chizindikiro cha Google Omasulira kumanzere kwa tsamba lililonse lopanda ku China (chimatha kusinthidwa kukhala ngodya yakumanzere). Mtunduwu ndi mtundu womasulira wa China, ndipo zilankhulo zakunja zimamasuliridwa mu Chitchaina, ndipo kumasulira kumangowonjezera.
+// @description:pa     ਹਰੇਕ ਗੈਰ-ਚੀਨੀ ਵੈਬ ਪੇਜ ਦੇ ਹੇਠਾਂ ਸੱਜੇ ਕੋਨੇ ਵਿੱਚ ਇੱਕ ਗੂਗਲ ਅਨੁਵਾਦ ਆਈਐਮਐਲ ਸ਼ਾਮਲ ਕਰੋ (ਹੇਠਾਂ ਖੱਬੇ ਕੋਨੇ ਤੇ ਐਡਜਸਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ). ਇਹ ਸੰਸਕਰਣ ਇੱਕ ਚੀਨੀ ਅਨੁਵਾਦ ਦਾ ਸੰਸਕਰਣ ਹੈ, ਅਤੇ ਸਿਰਫ ਵਿਦੇਸ਼ੀ ਭਾਸ਼ਾਵਾਂ ਦਾ ਚੀਨੀ ਵਿੱਚ ਅਨੁਵਾਦ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦ ਜੋੜਿਆ ਜਾਂਦਾ ਹੈ.
+// @description:pap    Agrega un icono di Traduccion di Google na e skina drechi abou di cada pagina web no-Chines (por wordo ahusta na e skina abou robes). E vershon aki ta un vershon di tradukshon Chines, i solamente idiomanan stranhero ta wòrdu tradusí na Chines, i tradukshon outomatiko ta wòrdu agregá.
+// @description:pl     Dodaj ikonę tłumaczenia Google do prawego dolnego rogu każdej nie-chińskiej strony internetowej (można ją dostosować do lewego dolnego rogu). Ta wersja jest chińską wersją tłumaczącą, a tylko języki obce są tłumaczone na chińskie i dodaje się automatyczne tłumaczenie.
+// @description:ps     د ګوګل ژباړې آبن اضافه کړئ د هر غیر چینل ویب پا page ې ټیټ ښیې کونج ته (کیدی شي د کی left اړخ کونج ته تنظیم شي). دا نسخه د چین ژباړې نسخه ده، او یوازې بهرني ژبو په چینایي کې ژباړل شوي، او اتوماتیک ژباړې اضافه کیږي.
+// @description:pt     Adicione um ícone de tradução do Google ao canto inferior direito de cada página da Web não chinesa (pode ser ajustada no canto inferior esquerdo). Esta versão é uma versão de tradução chinesa e apenas os idiomas estrangeiros são traduzidos para o chinês e a tradução automática é adicionada.
+// @description:ro     Adăugați o pictogramă de traducere Google în colțul din dreapta jos al fiecărei pagini web non-chineze (poate fi ajustată la colțul din stânga jos). Această versiune este o versiune de traducere chineză și numai limbile străine sunt traduse în chineză și se adaugă o traducere automată.
+// @description:ru     Добавьте значок перевода Google в нижний правый угол каждой некитайской веб-страницы (можно настроить на левый нижний угол). Эта версия представляет собой китайскую версию перевода, и только иностранные языки переводятся на китайский, и добавляется автоматический перевод.
+// @description:rw     Ongeraho igishushanyo cya Google ku mfuruka yo hepfo yiburyo bwa buri rugege itari igishinwa (irashobora guhinduka kumurongo wibumoso). Iyi verisiyo ni igishinwa cyahinduwe mu Bushinwa, kandi indimi z’amahanga gusa zahinduwe mu Gishinwa, kandi ubusobanuro bwikora bwongeyeho.
+// @description:sg     Zia mbeni fä ti Google Traduction na gbe ti lembeti ti Internet oko oko so ayeke ti azo ti Chine pëpe (a lingbi ti leke ni na mbage ti gbe ni). Version so ayeke mbeni version ti traduction ti yanga ti Chinois, na gi ayanga ti kodoro wande si a kiri pekoni na yanga ti Chinois, na a zia na ndo ni traduction automatique.
+// @description:si     එක් එක් චීන නොවන වෙබ් පිටුවේ පහළ දකුණු කෙළවරට ගූගල් පරිවර්තන නිරූපකයක් එක් කරන්න (පහළ වම් කෙළවරට සකස් කළ හැකිය). මෙම අනුවාදය චීන පරිවර්තන අනුවාදයක් වන අතර චීන භාෂාවට පමණක් පරිවර්තනය කර ඇති අතර ස්වයංක්රීය පරිවර්තනය එකතු වේ.
+// @description:sk     Pridajte ikonu prekladača Google do pravého dolného rohu každej nekologickej webovej stránky (je možné upraviť v ľavom dolnom rohu). Táto verzia je čínskou prekladateľskou verziou a do čínštiny sa prekladajú iba cudzie jazyky a pridáva sa automatický preklad.
+// @description:sl     Dodajte ikono Google prevoda v spodnji desni kotiček vsake ne-kitajske spletne strani (lahko prilagodite spodnji levi kot). Ta različica je kitajska prevajalska različica in v kitajščino se prevedejo samo tuji jeziki, dodan pa je samodejni prevod.
+// @description:sm     Faʻaopopo le Google Transfengy Icon i le pito i lalo taumatau o le pito i lalo o le Saina taʻitasi itulau (mafai ona fetuʻunaʻi i le pito i lalo tauagavale). Lenei faʻamatalaga o se faʻaliliuga a Saina faʻaliliuga, ma e naʻo gagana mai fafo ua faʻaliliu i Saina, ma otometi faaliliuga o otometi
+// @description:sn     Wedzera chiratidzo cheGoogle Iyi vhezheni ishanduro yeChinese shanduro, uye mitauro yekune dzimwe nyika inoshandurwa muchiChinese, uye otomatiki shanduro inowedzerwa.
+// @description:so     Kudar icond Tarjumaadda Google geeska midig ee hoose ee websaydh kasta oo aan Shiinaha ahayn (waxaa lagu hagaajin karaa geeska bidix hoose). Noocaani waa nooca turjubaan ee Shiinaha, oo dhammaan afafka qalaad waxaa loo tarjumay Shiinaha, iyo tarjumaadda otomatiga ah ayaa lagu daray.
+// @description:sr     Додајте икону Гоогле превод у доњи десни угао сваке не-кинеске веб странице (може се прилагодити доњем левом углу). Ова верзија је кинеска верзија превођења, а само страни језици преведе се на кинески, а аутоматски се додаје аутоматски превод.
+// @description:sv     Lägg till en Google-översättningsikon till det nedre högra hörnet på varje icke-kinesisk webbsida (kan justeras till det nedre vänstra hörnet). Denna version är en kinesisk översättningsversion, och endast främmande språk översätts till kinesiska, och automatisk översättning läggs till.
+// @description:sw     Ongeza ikoni ya tafsiri ya Google kwenye kona ya chini ya kulia ya kila ukurasa wa Wavuti isiyo ya Wachina (inaweza kubadilishwa kwa kona ya chini ya kushoto). Toleo hili ni toleo la tafsiri la Wachina, na lugha za kigeni tu ndizo zinazotafsiriwa kwa Kichina, na tafsiri ya moja kwa moja imeongezwa.
+// @description:ta     ஒவ்வொரு சீன அல்லாத வலைப்பக்கத்தின் கீழ் வலது மூலையில் கூகிள் மொழிபெயர்ப்பு ஐகானைச் சேர்க்கவும் (கீழ் இடது மூலையில் சரிசெய்யலாம்). இந்த பதிப்பு ஒரு சீன மொழிபெயர்ப்பு பதிப்பாகும், மேலும் வெளிநாட்டு மொழிகள் மட்டுமே சீன மொழியில் மொழிபெயர்க்கப்படுகின்றன, மேலும் தானியங்கி மொழிபெயர்ப்பு சேர்க்கப்படுகிறது.
+// @description:te     ప్రతి చైనీస్ కాని వెబ్ పేజీ యొక్క కుడి దిగువ మూలకు Google అనువాద చిహ్నాన్ని జోడించండి (దిగువ ఎడమ మూలకు సర్దుబాటు చేయవచ్చు). ఈ సంస్కరణ చైనీస్ అనువాద సంస్కరణ, మరియు విదేశీ భాషలు మాత్రమే చైనీస్లోకి అనువదించబడతాయి మరియు స్వయంచాలక అనువాదం జోడించబడుతుంది.
+// @description:tg     Тасвири Google-ро ба кунҷи рости поёни ҳар як саҳифаи ғайритабиӣ илова кунед (метавонад ба кунҷи чапи поёнӣ танзим карда шавад). Ин версия версияи тарҷумаи Чин аст ва танҳо забонҳои хориҷӣ ба чинӣ тарҷума карда мешаванд ва тарҷумаи автоматӣ илова карда мешавад.
+// @description:th     เพิ่มไอคอนการแปลของ Google ที่มุมล่างขวาของแต่ละหน้าเว็บที่ไม่ใช่จีน (สามารถปรับได้ที่มุมซ้ายล่าง) เวอร์ชันนี้เป็นเวอร์ชันการแปลภาษาจีนและมีเพียงภาษาต่างประเทศเท่านั้นที่แปลเป็นภาษาจีนและเพิ่มการแปลอัตโนมัติ
+// @description:ti     ኣብ ታሕተዋይ የማናይ ኩርናዕ ናይ ነፍሲ ወከፍ ናይ ቻይና ዘይኮኑ መርበብ ሓበሬታ ገጽ ናይ Google ትርጉም ምልክት ወስኸሉ (ናብ ታሕተዋይ ጸጋማይ ኩርናዕ ክስተኻኸል ይኽእል)። እዚ ስሪት እዚ ናይ ቻይና ትርጉም ስሪት ኮይኑ፡ ቋንቋታት ወጻኢ ጥራይ ናብ ቻይናዊ ተተርጒሞም፡ ኣውቶማቲክ ትርጉም ድማ ይውሰኽ።
+// @description:tk     Google terjimesiniň nyşanyny goşuň, her bir hytaý däl web sahypasynyň aşaky sag burçuna goşuň (aşaky çep burçuna sazlanyp bilner). Bu wersiýa Hytaýly terjime wersiýasy we diňe daşary ýurt dilleri hytaý diline terjime edilmegi we awtomatiki terjime goşulýar.
+// @description:tn     Tsenya aekhone ya Thanolo ya Google mo sekhutlong se se kwa tlase sa moja sa tsebe nngwe le nngwe ya webo e e seng ya Setšhaena (e ka fetolwa go ya kwa sekhutlong se se kwa tlase sa molema). Mofuta ona ke phetolelo ya phetolelo ya Sechaena, mme ke dipuo tse ding feela tse ranolelwang ho Sechaena, mme phetolelo e iketsang e eketswa.
+// @description:to     Tānaki atu ha fakaʻilonga ʻo e Liliu ʻo e Google ki he tuliki toʻomataʻu ʻi lalo ʻo e peesi uepi takitaha ʻoku ʻikai Siaina (ʻe lava ke fakatonutonu ia ki he tuliki toʻohema ʻi lalo). Ko e version ko eni ko e liliu lea faka-Siaina, pea ko e ngaahi lea muli pe ’oku liliu ia ki he lea faka-Siaina, pea ’oku tanaki atu ’a e liliu ’otometiki.
+// @description:tpi    Addem wan Google Translesen aekon long raet kona daon blong wanwan web pej we i no blong Jaena (i save stretem i go long lef kona daon). Dispela vesen em i wanpela tokples bilong ol Saina long tanim tok, na ol i save tanim ol tokples bilong ol narapela kantri tasol i go long tok Saina, na ol i save putim otomatik trenslesen.
+// @description:tr     Her Çinli olmayan web sayfasının sağ alt köşesine bir Google Çeviri simgesi ekleyin (sol alt köşeye ayarlanabilir). Bu sürüm Çince çeviri versiyonudur ve sadece yabancı diller Çince’ye çevrilir ve otomatik çeviri eklenir.
+// @description:uk     Додайте піктограму перекладу Google до нижнього правого кута кожної некитайської веб-сторінки (можна відрегулювати в нижньому лівому куті). Ця версія є китайською перекладою, і лише іноземні мови перекладаються в китайську мову, і додається автоматичний переклад.
+// @description:ur     ہر نان چینی ویب پیج کے نچلے دائیں کونے میں گوگل ٹرانسلیشن آئیکن شامل کریں (نیچے بائیں کونے میں ایڈجسٹ کیا جاسکتا ہے)۔ یہ ورژن ایک چینی ترجمے کا ورژن ہے ، اور صرف غیر ملکی زبانوں کا چینی میں ترجمہ کیا جاتا ہے ، اور خودکار ترجمہ شامل کیا جاتا ہے۔
+// @description:uz     Google tarjimasi ikonkasini har bir xitoylik bo’lmagan veb-sahifaning pastki o’ng burchagiga qo’shing (pastki chap burchakka o’rnatilishi mumkin). Ushbu versiya xitoycha tarjima versiyasi va faqat chet tillari xitoy tiliga tarjima qilinadi va avtomatik tarjima qo’shildi.
+// @description:vi     Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi trang web không phải người Trung Quốc (có thể được điều chỉnh ở góc dưới bên trái). Phiên bản này là phiên bản dịch tiếng Trung và chỉ có tiếng nước ngoài được dịch sang tiếng Trung và dịch tự động được thêm vào.
+// @description:xh     Yongeza i-goon yenguqulo yeGoogle kwikona esezantsi yephepha elinye lewebhu (inokuhlengahlengiswa kwikona esezantsi ngasekhohlo). Le nguqulo yinguqulelo yokuguqulela yaseTshayina, kwaye kuphela iilwimi zasemzini kuphela iguqulelwa kwi-Chinese, kwaye kongezwa uguqulelo oluzenzekelayo.
+// @description:yi     לייג אַ Google איבערזעצונג ייקאַן צו די נידעריקער רעכט ווינקל פון יעדער ניט-כינעזיש וועב בלאַט (קענען זיין אַדזשאַסטיד צו די נידעריקער לינקס ווינקל). די ווערסיע איז אַ כינעזיש איבערזעצונג ווערסיע, און בלויז פרעמד שפּראַכן זענען איבערגעזעצט אין כינעזיש און אָטאַמאַטיק איבערזעצונג איז צוגעגעבן.
+// @description:zh     给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @description:zh-CN  给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @description:zh-HK  給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
+// @description:zh-MO  給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
+// @description:zh-MY  给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @description:zh-SG  给每个非中文的网页右下角（可以调整到左下角）添加一个google翻译图标，该版本为中文翻译版本，只把外语翻译为中文,添加自动翻译
+// @description:zh-TW  給每個非中文的網頁右下角（可以調整到左下角）添加一個google翻譯圖標，該版本為中文翻譯版本，只把外語翻譯為中文,添加自動翻譯
+// @description:zu     Faka isithonjana se-Google Translation ekhoneni elingezansi kwesokudla sekhasi ngalinye le-ENG-China (lingashintshwa liye ekhoneni elingezansi kwesobunxele). Le nguqulo yinguqulo yokuhumusha yaseChinese, futhi kuphela izilimi zakwamanye amazwe ezihunyushelwa kwiChinese, futhi kufakwa ukuhumusha okuzenzakalelayo.
+// @author             Kaiter-Plus & 人民的勤务员 <china.qinwuyuan@gmail.com>
+// @namespace          https://github.com/ChinaGodMan/UserScripts
+// @version            0.31.0.23
+// @license            MIT
+// @match              *://*/*
+// @exclude            /^(http|https).*((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}/
+// @exclude            /.*duyaoss\.com/
+// @exclude            /.*lanzous\.com/
+// @exclude            /.*w3school.*cn/
+// @exclude            /.*iqiyi\.com/
+// @exclude            /.*baidu.*/
+// @exclude            /.*cnblogs\.com/
+// @exclude            /.*csdn\.net/
+// @exclude            /.*zhku\.edu\.cn/
+// @exclude            /.*zhihuishu\.com/
+// @exclude            /.*aliyuncs\.com/
+// @exclude            /.*chaoxing\.com/
+// @exclude            /.*youku\.com/
+// @exclude            /.*examcoo\.com/
+// @exclude            /.*mooc\.com/
+// @exclude            /.*bilibili\.com/
+// @exclude            /.*qq\.com/
+// @exclude            /.*yy\.com/
+// @exclude            /.*huya\.com/
+// @exclude            /localhost/
+// @exclude            /.*acfun\.cn/
+// @exclude            /.*eleme\.cn/
+// @exclude            /.*douyin\.com/
+// @icon               data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAXyElEQVR4Xu1de5gcVZU/p3rCS9F09cgKu1FkunoC8qErcWERVviWuCDIF/ATH/hCIUlXTeISH/hal6wPEFE0SVdnUBRfkF1ARR4uKCIurMKH4KqJSVdHEBCFTN+eEAl5TNfZryYBJ5hJuu6p6r7ddebf3N/vnvM79Us9+t5zEeRPFBAFplUARRtRQBSYXgExiFwdosAeFBCDyOUhCohB5BoQBfQUkDuInm6CyogCYpCMFFrS1FNADKKnm6AyooAYJCOFljT1FBCD6OkmqIwoIAbJSKElTT0FxCB6ugkqIwqIQTJSaElTTwExiJ5ugsqIAmKQjBRa0tRTQAyip5ugMqKAGCQjhZY09RQQg+jpJqiMKCAGyUihJU09BcQgeroJKiMKiEEyUmhJU08BMYieboLKiAJikIwUWtLUU0AMoqeboDKigBgkI4WWNPUUEIPo6SaojCggBslIoSVNPQXEIHq6CSojCohBMlJoSVNPATGInm6CyogCYpCMFFrS1FNADKKnm6AyooAYJCOFljT1FOhZg8xcHpyIAzSMgMMAOExEB+hJkDnUIxbROrJya3OhdfcG72V/ypwCMRLuKYPYlfopAHQyIJwNALNi5ClDp1GAAH4CBLfmCG4bG3HuF6F2VaAnDJKvrj/donA+AbxBCpiaAtsBYHmIE8vHy4c/lNosPUZsvEFsv349AJ3VY7r2brgIjyPRpxtuaXnvJpFc5EYbxPaDNQBweHLpClO7CiDA1Q3XOafd8f06zliD2H5A/Sp67+SFNyu3eHrvxJt8pEYapOAH3yaAtyWfrjDGVYAIvKbn+HFx/TLeOIPkq7VPIeHH+kXgfsiDEN/aLBdX9UMucXMwyiD5av01SHRX3CRkfNoK4K8O2LLvsY8umfV02jOZxm+UQWy/vgqA3myaSBIPACFe2CwXL82aFsYYJO/XT0WgW7JWgB7K9w8T++x31JPnzVI9FDM7VIMMUluGgIvYGQlBagoQwtubZefbqU1gILFBBgkCBCgaqJGEtFMBJPh2w3PeniVBjDBI3l97FELu/7IkfG/mSkq5pUJvxq4XtREGKVSDdxDBN/RSEFQnFaCcNbO5YGhjJ+fs5lxGGCRfrX8KieS3j25eCW3O3YJwaKM7/Ls2h/f8MCMMYvu16wDwjT2vZgYSQAyPaZSH781AqpMpGmGQvB/cgQAnZkX0Xs6zFcLRGzO0b0QM0stXaxdi3zYBB/15sbOhC1N3ZUoxSFdk79lJtyjX2b9no9cIXAyiIVpmIQhrVNl5eZbyF4NkqdrsXLO3P0QMwr5oskNABCuanpOp5UBikOxc30lk+n7lOl9IgqhXOMQgvVIpA+JEwDMbbvF7BoTSsRDEIBpSE4FPIVy7Nyha1sEIE8OA1r/vbWwv/PtkDy3NPwR4moDqFlhBCFBvPj70Q1iKE5p0HYOJQWJJTevUBL4CFjtb48CiLpBWDu6Ig+n7sQjbIIRvEVg/anpD15iarxgkRmUI8fhmuXh3DMizQ+3Kuov65U6ik/9eMHcDhcuVN/yfKXCzKMUg7cv3v8p1XtP+8F1H2iuDIyCE1br4LOAI4HsTufD8TQuGx0zJVwzSbiUoXKq84YvaHb67cdLrqx318E+h1TplfOGwEfuDxCDt1CwaIwZpV6lExrVyUNy4wFmfCBmDRAzSrnhikHaVSmrcxoktWw97csmRXW0SIQZpt5xikHaVSmwcEdzQ9Jx5iRFqEPWlQTjf66fTECm8k/sOEu170ajRHiEIeCgAHZo0ryl8CLi44Ra71mm+3wxyawjgj7vO900pcCfiKFRq76bJHyP7zygEUG/ts98x3erH1T8GQfihKjuv68QFaeIcg6MPHRy2tq8DgANNjI8VE8JFquwsZXFogvvGIGELThpf5GgvhdDUzyiYXQkuA4T3GxVUMsHco1zn2GSo4rH0hUGid46m65wUL/X+G93PS1pyhM4Gr1jvdNXEIJ1WPMX5+tkg3XpZF4OkeMF2mrqfDQIIl6uys6TTmopBOq14ivP1s0EI4JtN13lnivLtlloM0mnFU5yvnw0CiLeocvG0FOUTg3Ra3E7Pl5JBHlau81JuLrZffwiAtHm69SFG7iDcyhuET8cgdJdySydw0+SuZBaDMFqPdks87kWTND4NgyRxXrq9LHgBDACrI3y3aix3kKSv0i7ypWIQgksanvMRTlp2pX4cIGntxHx2XsJR5RUXcuLQwYpBdFQzFJOGQQjBbZadKiflvF+fj0CjHA4gWKI853IWhwa4LwwS5W3lZhwytuDQP2po0DeQNJaaENDpTbd0M0ekfCVYjggjHA4KrdOaI0MdP+S1bwwCANcq1zmbU4Rexqa1WJFa1lHNRUO/5miTxPEWrQkoblzc+R2G/WSQRLbFci6EbmFTW+6OsIksaxb3yDXbD6LjEga19SGaUF5phjaeAewvg+wQYowAfvNcTbiLGaPne8wBqwEcN4aodRCh9dqpuaW6YQrh16rsHMW4viah3E+8QLBaec6R3Dh08P1okN3qkKOtB2/wjvyTjkgRJokXYOU6LL3zfn0ZAnWweTS/m/vg8rWHhLncH3R1n8QRfUd5pa4c0ccqGCvpKeAknlH3GgvCKars3LrXcdMMOGT0sQO2tJ56ShcPSLerculkbfyO/4n/GwD+hcMRB4sA1YbruHEwzx1rr6zNhRBv43AQ4GeabrErh7xmxiBEdGHTK13KKVS+EvwCEV6lw4EAH224zsU62Gcwth9Ep8u+jMMRB0sIH2mWnUviYP7KINXgAiBgdYRHwnc1vGJXjgnPjEGS+EW44NerBKT1YxX7dNjR+2bYrRdu41yscbEEdE7TLV0dFzd1vO3XvgqA53I4MKRjGyOlezgcutjMGAQAViuX96Jn++vPBQi/Gl9sWqfc0uz4uL8gutG6lMg6oekN3cWK26/dC4Cv5nCEWwfy4xe8bJzDoYvNkkFA5TbuAwvmbNcVy67UZwHQrwBhZkyOLyjXYe0VL/j1eQT03ZjzsoZTznppc8HQwxwS2w82A4D+wZ8EjyvPeTEnBg42UwaxLOvVYwuH7uMIlq8Gy5Hi/SpMOeuE5gLe/8T5Su1DiPhZTuzxsPRH5ZYOiYd5zuhlwb72AGxhcRD8VHnOLp+2WXwxwZkyCBJ9vOGVPh1To12G234Qddf4WdscRHcpL4Hl4tXgNiCY2/a83IGId6ty8XgOTWH0wdnUmvgthwMIvqw8Zz6LgwHOlEEA4F7lOscw9JqE2n79egA6q00e9rl+L/jKI/bAti2NNudLZFgyHzXWzSOweI+FhB9QXvHziSSlQZI1g0AS7WPsFbW5YLX1bf+X4daBk7gvmPlqcA4SfEujvtoQTGCZe8Gvf5yAPqkdxGRTfXpDc6R0E4eDg82cQZJqH9POuwhCeGbDHWYfemn7tWsA8C2cQsfFJrHM3fbrqwDozXHnnjo+t317acP7jgg4HBxs5gwCAD9QrvN6jmiTj1nRF60dm4BmTcP1ReU6F3Dn2fF4tfURADqAyxUHn8Qyd9sPohO1jogz765jsaXc4oA+no/MokESecyKpC9U6iOEtLvO44k8WkVzdOPxKpo3iWXu7EWKCGtU2Xk5/zLXZ8ikQQDxE6pcZD0bPyN5wQ8uIYALp5Tg4RBh3njZeUC/LH9B5v3gBgQ4Iwmu9jlognK5Qc4y9+cvC160zwA80f6cuxlJ+F3lFdv9GMKaajpwNg0C8PuJfba+6snzkjm9KF8JKogQLerbRBCe1nSH/yeJatkrfzcXwhZroZ9eHFhTbnFYD7sDVVhRO4Ys/DmHI4kPBZz5I2xWDQJA+EHlFS/jCvgM3q7Uroac9Q21sBituE3kz/aDVQDAesnVDORW5TqnaGInYflKcA4i78sbEp3b8EpXceLgYjNsEFp7wNb9X/XokllPc0VMA58fXX88tsJE7kRx40OEaqPMW+ZeqAQXE8KH4869y/gQjlMjTvs/yrIm2z04uwbZcfscabhOJQVd2ZR2pfY1QHw3m0iDIIll7gU/uJEATteY/lnIxJatBTnEM7od+8EdyGgcp1sEBHig4Tpa+zt052wHN+jXjw6BWGvG2plnujHJLHOvP8g5Eo4INjQ95yBOHklgM30HiQREhEsaZV5jtCQKMZXD9oOovc2pSfO2y8de5k6EdrUetjvfbscltIaNFUOmX9KnKIeAZzbcIvsXb24xIrxdrf8HEP1bEly6HNxl7i8cDYZyLeCdBkVwpfKc83RzSAqX+TtIJGR0kur+uee94rEFh0R7F7r2N1ipnxQi/bhrAUxOjE3lFm1ODDHWqk0/TcJfGXXzEYM8qxx9XbmlrrwUPxOCXQ1WA3GWZuheBn/BEcH9Tc85msOURKtRIjij6Tk3cuJIAisGmaJiEi+nukWxK/UvAdJiXXxiOITrVNl5E4cv79eWISCrPZEVWsNjI0M1ThxJYLNukMeAwi9baN0/5jrfT0JQDseBo+sG9wmtU4noeADs0iYh+pxySx/i5JH3gx8jAOfUYVKuY3FiSAqbVYPsMMbAvqOmNrze8ak3nN9poySxzL3gB08QwIu0L1KEtarsHK6NTxCYRYOsBgvOVgudNQnqmBqV7QfR485/pTbBc4i5y9xnXv7ATGvf5zc58RLBDU3PmcfhSAqbNYP0lDmefXnvoEm4y9xnVoO/twju51ygSHhpwytOXSHNoWNhM2UQdvM2ltQ88B72nvCIn3sHyVkzOcvc7WrtjUB4HSuoEN6rRhyN/mOsWXcLzpJBEmnYkHwJ2mPcuYOR1aOqjZkeUa7zkjbGTTsk79c+iICsFq/Uah3fXDSbd2QbJ4kp2MwYJImWPwlprk1jp9z6BwHubLjOidoBTm5Frl0JiO/hcGzfHL5o0weGxzgcSWEzY5CwBSeNL3J+kpRw3eDJV+ufQqL0upwTXaW8EquPru3X7gHAf2DoM6ZcR/8LGGPi3UHFIAkLmiadXamvBKQFqc2RwFZk268/xWswgXcrl9ewLkl9xCBJqpkyl+3XrgPA1A6SIYB3NF1Hu/9WfnT9S7AV/p4lA8FXlee8l8WRIFgMkqCYaVOlvW+Gu8w9iVO4kjjHJck6ZMYggHiLKhdPS1K8qVx2NXgPIPw8rR8gO3H8AXeZu+3XzgVA1udZDGFeY8S5Ia06xeXNjkEmN79Ycxvu0I/iijTd+L+p1g/aFobvRsQPTjnF9VZCa0WzPJRou8xCtf5ZImKtkdpL3luU6+gfUzDZs7j2SQD8OEdfbIWHNxYNr+VwJInNlkEIbmx4DrvH1ODK9XNCCt8GBHvqnBgtXb/SGpixirvea8fdA28HoDTPyVijXF6TNtuvXwNArBapyi1aAEhJXuQcrkwZZKdQ1yrXOTuuaDOrvz00B7kTiTBqRBDnRfnJyfY3hD/ETRO3j104e1OcuXc+WkVrsVLuMEg3K7fEarJg+0F0/DYnzppyHVY/rjjatjM2iwaJdLm21WpduHHR7Af3JJK9MvhHCCnq4/taADyhHUH3MubJ6Mc4IrzTIrxxb/sdCpX1ryYMv8a86NoKmwCXN92i9n4U9inA0SNwQnf4thJuc1BWDRLJswWBvkNkVfYbGP/llomZhdCiQQvoMADrdKDwdQDIO2Fp70VYAwQ/CEO4CQdwLLdlW2PsgM1j9sTMswAp+jX6dXunSGgEwRLlOZfrsuWr9SOR6Ne6+Ekc0WXKK0Xvc8b8ZdkgxhTBhEDQgnmNhfpfj2b6wRkWAO/rE8F5ynOuNEGPZ2IQg5hUjS7GQtB6RdOd/SvdEOyV698HYfhFXfyOGwj/VF3O/LvDikGSVrRH+Yi7zD2BPfXbJuCgPy92NpgkoRjEpGp0KRYE2NBweV0MC37tRoLJL3y6f0q5TkEXnBZODJKWsj3FS/cqt8Q63NT2aw8C4KHaaRP8THnOcdr4lIBikJSE7S1aXKXc4lt1Yx4cXXNw2JrxmC5+Ekd4lfKKrKX2rPmnAYtB0lC1xzgJ4OKm63xUN2y7Uj9u53mNuhRABB9pes4l2gQpAcUgKQnbY7TnK9f5im7MeT94OwJ8Uxcf4TAMz2qMDPPOVOcEYPIdpNvdzFPQtacoMQxPbowM364btO0HnwCApbr4SdwEvFwtNq8VkyF3EH6rSlZxMg5uzZhx2MbzD93jsps9SWRX618DIlZfY3XHAwNw7dkt00phhEEKfn0RAS0zTZysxKNch3Ud2JXgTkD4J329MFBusaSPTw/JEiapsPJ+/VQEig6Nkb8uKMAyyOh9M+zWCx8FAO3ToBDgpobrvKELqe91SiMMAjtEfgoAZuw1YhmQrAKIt6ty8WRd0kF/7XAIOd4GJ4LPK8/5gG4MaeLMMMiO3WipNiRIU8Re5kaAjzVc5zO6OeT9daciWLy7P+F85RW/rBtDmjhjDFKoBu8ggm+kmaxw/7UCFuCcMbf4C11t8pXARQTWScFhSK8dHyn9VDeGNHHGGCRKMu8H9yEA63SjNMXqP266QrklVp8tuxJcBgjv52gzsC334if+9bDHORxpYQ0zSH0+Ao2mlazw7qoA9+4Rsdl+/XoAOktbW4Jx5Tl5bXzKQKMMIneRlKs9lZ7Cpcobvog7o+0HDwDAK7V5CO5RnnOsNj5loHEG2dmkIHom3i/l3DNLTwA/aboO54i0Se0OXPFoYYb1dNRJ8Xm6YkbvnU3PeZcuPm2ccQaZvG1PtrmB1Wknn1H+xA4R2tlU4l6OjhiGH2uMDGt/RePM3Q7WSINMPmqtWPd6tKyb20lCxrStQGLmmPyPrLLuzYDWqrZn381AJOuNDW/oOxyONLHGGmRnAc4HtK5IU4DMcCNeFcL2pePlwx9KKud8NfgwElzM4gvhSDXiGPu0YLRBJu8k1fWnWxTOJwAjlyKwLo7OgH+DRJ9veKWrkp7OrgZXAMH5HF71eHEGLMUJDkeaWOMN8kzyYpTYl8FqBLh64PkHfunxd744WsaT+J9dqf0IEP9ZlxgB1jdcp6iL7wSuZwzyrFG+uP4lOCOcSwjRJp1BQCwA0WDG13E9jAB3EUINCRVZdHtaXeanXpS2H6wHgMO0L1SiW5RXSq3jvnZcU4A9Z5Akktbh6NQpszqx9SyG4HLlOUtMjl8M0mZ17BW1uWDhbW0Ol2FtKEBEC5teyeiVE2KQNgoZDenQMcxtRtMfw3rhYFUxSIxrzfZrDQC0Y0Bk6PQKbFe5jc+DBXO2myySGCRGdQqV4FuEcE4MiAydXoEfK9fR/gLWKWHFIDGUzleDc5BA+xTYGFP1/1CEi1TZ4XVC6YBKYpAYIr/gK4/YA9u2RB3Q/zYGTIb+tQJPtlqtV+7tACMThBODxKxCvlr/EBJ9NiZMhk9RgHuaVSfFFIPEVPvvvvDI/pv32/pzADoqJlSG71BgPCQ6adwr/bIXBBGDaFQpX62/BYmu0YAKBOAC5Tqsg3Y6KaIYRFPtJJoVaE7duzCE61TZeVMvJSAGYVTL9us3AZDRa4kY6SUKjXYx5vZtnTH23njHYCcahAaZGERDtKmQgh98X5bi71lEBHigFW4/c3zkiGh7bk/9iUESKJft1y4FQKOOL04grQQocDNQ63P7DWy69LEFczYnQNhxCjFIQpIP+vWjQwjnA+D8hCh7nIauCBFXjpedqOtJz/6JQRIuXWQUIjiFgOYBwpyE6U2ne4yArs+B9XVOt0aTkhSDpFiNQqV2OFg4JwQcRgpnE6Bxp7hy0keizWBZTwDBBkL8abM8dBOHz0SsGMTEqkhMxiggBjGmFBKIiQqIQUysisRkjAJiEGNKIYGYqIAYxMSqSEzGKCAGMaYUEoiJCohBTKyKxGSMAmIQY0ohgZiogBjExKpITMYoIAYxphQSiIkKiEFMrIrEZIwCYhBjSiGBmKiAGMTEqkhMxiggBjGmFBKIiQqIQUysisRkjAJiEGNKIYGYqIAYxMSqSEzGKCAGMaYUEoiJCohBTKyKxGSMAmIQY0ohgZiogBjExKpITMYoIAYxphQSiIkKiEFMrIrEZIwCYhBjSiGBmKiAGMTEqkhMxiggBjGmFBKIiQqIQUysisRkjAJiEGNKIYGYqIAYxMSqSEzGKCAGMaYUEoiJCohBTKyKxGSMAmIQY0ohgZiogBjExKpITMYo8P+dDE9BKT2zYgAAAABJRU5ErkJggg==
+// @noframes
+// @grant              GM_addStyle
+// @grant              GM_setValue
+// @grant              GM_getValue
+// @grant              GM_notification
+// @grant              GM_registerMenuCommand
+// @grant              GM_unregisterMenuCommand
 // ==/UserScript==
 
 (function () {

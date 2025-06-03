@@ -1,97 +1,99 @@
 // ==UserScript==
-// @name              GreasyFork User-published script data visualization
-// @description       useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation
-// @name:zh-CN        GreasyFork 用户发布的脚本数据可视化
-// @description:zh-CN 使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
-// @name:ar           GreasyFork تصور البيانات النصية التي ينشرها المستخدم
-// @description:ar    يستخدمChart.jsالحصول على بيانات البرنامج النصي للمستخدم وتصورها，وقم بإنشاء مخطط على الصفحة الرئيسية الشخصية للمستخدم لعرض حالة التثبيت التفصيلية أدناه.
-// @name:bg           GreasyFork Визуализация на данни от скрипт, публикуван от потребителя
-// @description:bg    използванеChart.jsПолучаване и визуализиране на потребителски скриптови данни，И генерирайте диаграма на личната начална страница на потребителя, за да покажете подробното състояние на инсталацията по-долу.
-// @name:cs           GreasyFork Uživatelsky publikovaná vizualizace dat skriptu
-// @description:cs    použitíChart.jsZískávání a vizualizace dat uživatelských skriptů，A vygenerujte graf na osobní domovské stránce uživatele, který zobrazí podrobný stav instalace níže.
-// @name:da           GreasyFork Brugerudgivet scriptdatavisualisering
-// @description:da    brugeChart.jsIndhentning og visualisering af brugerscriptdata，Og generer et diagram på brugerens personlige hjemmeside for at vise den detaljerede installationsstatus nedenfor.
-// @name:de           GreasyFork Vom Benutzer veröffentlichte Skriptdatenvisualisierung
-// @description:de    verwendenChart.jsAbrufen und Visualisieren von Benutzerskriptdaten，Und erstellen Sie auf der persönlichen Homepage des Benutzers ein Diagramm, um unten den detaillierten Installationsstatus anzuzeigen.
-// @name:el           GreasyFork Οπτικοποίηση δεδομένων σεναρίου δημοσιευμένων από χρήστη
-// @description:el    χρήσηChart.jsΛήψη και οπτικοποίηση δεδομένων σεναρίου χρήστη，Και δημιουργήστε ένα γράφημα στην προσωπική αρχική σελίδα του χρήστη για να εμφανίσετε τη λεπτομερή κατάσταση εγκατάστασης παρακάτω.
-// @name:en           GreasyFork User-published script data visualization
-// @description:en    useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
-// @name:eo           GreasyFork Vidigo de datumoj eldonitaj de uzantoj
-// @description:eo    uziChart.jsAkiro kaj bildigo de uzantaj skriptodatenoj，Kaj generu diagramon sur la persona hejmpaĝo de la uzanto por montri la detalan instalan staton sube.
-// @name:es           GreasyFork Visualización de datos de script publicados por el usuario
-// @description:es    usarChart.jsObtención y visualización de datos de script de usuario，Y genere un gráfico en la página de inicio personal del usuario para mostrar el estado de instalación detallado a continuación.
-// @name:fi           GreasyFork Käyttäjän julkaisema komentosarjatietojen visualisointi
-// @description:fi    käyttääChart.jsKäyttäjän komentosarjatietojen hankkiminen ja visualisointi，Ja luo kaavio käyttäjän henkilökohtaiselle kotisivulle nähdäksesi yksityiskohtaisen asennuksen tilan alla.
-// @name:fr           GreasyFork Visualisation des données de script publié par l’utilisateur
-// @description:fr    utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
-// @name:he           GreasyFork הדמיית נתוני סקריפט שפורסם על ידי המשתמש
-// @description:he    לְהִשְׁתַמֵשׁChart.jsהשגה והצגה של נתוני סקריפט משתמש，וצור תרשים בדף הבית האישי של המשתמש כדי להציג את מצב ההתקנה המפורט למטה.
-// @name:hr           GreasyFork Vizualizacija podataka skripte koju je objavio korisnik
-// @description:hr    koristitiChart.jsDobivanje i vizualizacija podataka korisničke skripte，I generirajte grafikon na osobnoj početnoj stranici korisnika za prikaz detaljnog statusa instalacije u nastavku.
-// @name:hu           GreasyFork Felhasználó által közzétett szkriptadatok megjelenítése
-// @description:hu    használatChart.jsFelhasználói szkriptadatok beszerzése és megjelenítése，És készítsen diagramot a felhasználó személyes honlapján, hogy megjelenítse a részletes telepítési állapotot.
-// @name:id           GreasyFork Visualisasi data skrip yang dipublikasikan pengguna
-// @description:id    menggunakanChart.jsMemperoleh dan memvisualisasikan data skrip pengguna，Dan buat bagan di beranda pribadi pengguna untuk menampilkan status instalasi terperinci di bawah.
-// @name:it           GreasyFork Visualizzazione dei dati degli script pubblicati dall’utente
-// @description:it    utilizzoChart.jsOttenere e visualizzare i dati dello script utente，E genera un grafico sulla home page personale dell’utente per visualizzare lo stato dettagliato dell’installazione di seguito.
-// @name:ja           GreasyFork ユーザーが公開したスクリプト データの視覚化
-// @description:ja    使用Chart.jsユーザースクリプトデータの取得と可視化，また、ユーザーの個人ホームページ上にチャートを生成し、以下の詳細なインストール状況を表示します。
-// @name:ka           GreasyFork მომხმარებლის მიერ გამოქვეყნებული სკრიპტის მონაცემთა ვიზუალიზაცია
-// @description:ka    გამოყენებაChart.jsმომხმარებლის სკრიპტის მონაცემების მიღება და ვიზუალიზაცია，და შექმენით დიაგრამა მომხმარებლის პირად მთავარ გვერდზე, რათა აჩვენოთ ინსტალაციის დეტალური სტატუსი ქვემოთ.
-// @name:ko           GreasyFork 사용자 게시 스크립트 데이터 시각화
-// @description:ko    사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
-// @name:nl           GreasyFork Door de gebruiker gepubliceerde visualisatie van scriptgegevens
-// @description:nl    gebruikChart.jsVerkrijgen en visualiseren van gebruikersscriptgegevens，En genereer een diagram op de persoonlijke startpagina van de gebruiker om de gedetailleerde installatiestatus hieronder weer te geven.
-// @name:nb           GreasyFork Brukerpublisert skriptdatavisualisering
-// @description:nb    brukChart.jsInnhenting og visualisering av brukerskriptdata，Og generer et diagram på brukerens personlige hjemmeside for å vise den detaljerte installasjonsstatusen nedenfor.
-// @name:pl           GreasyFork Wizualizacja danych skryptu opublikowanych przez użytkownika
-// @description:pl    używaćChart.jsPozyskiwanie i wizualizacja danych skryptu użytkownika，I wygeneruj wykres na osobistej stronie głównej użytkownika, aby wyświetlić poniżej szczegółowy stan instalacji.
-// @name:pt-BR        GreasyFork Visualização de dados de script publicado pelo usuário
-// @description:pt-BR usarChart.jsObtendo e visualizando dados de script do usuário，E gere um gráfico na página inicial pessoal do usuário para exibir o status detalhado da instalação abaixo.
-// @name:ro           GreasyFork Vizualizarea datelor scripturilor publicate de utilizator
-// @description:ro    utilizareChart.jsObținerea și vizualizarea datelor de script utilizator，Și generați o diagramă pe pagina de pornire personală a utilizatorului pentru a afișa mai jos starea detaliată a instalării.
-// @name:ru           GreasyFork Визуализация данных сценария, опубликованного пользователем.
-// @description:ru    использоватьChart.jsПолучение и визуализация данных пользовательского сценария，И создайте диаграмму на личной домашней странице пользователя, чтобы отобразить подробный статус установки ниже.
-// @name:sk           GreasyFork Používateľom publikovaná vizualizácia dát skriptu
-// @description:sk    použitieChart.jsZískavanie a vizualizácia údajov používateľského skriptu，A vygenerujte graf na osobnej domovskej stránke používateľa, ktorý zobrazí podrobný stav inštalácie nižšie.
-// @name:sr           GreasyFork Визуелизација података скрипте коју је објавио корисник
-// @description:sr    користитиChart.jsДобијање и визуелизација података корисничких скрипти，И генеришите графикон на личној почетној страници корисника да бисте приказали детаљан статус инсталације испод.
-// @name:sv           GreasyFork Användarpublicerad skriptdatavisualisering
-// @description:sv    användaChart.jsSkaffa och visualisera användarskriptdata，Och generera ett diagram på användarens personliga hemsida för att visa den detaljerade installationsstatusen nedan.
-// @name:th           GreasyFork การแสดงข้อมูลสคริปต์ที่ผู้ใช้เผยแพร่
-// @description:th    ใช้Chart.jsการรับและการแสดงภาพข้อมูลสคริปต์ผู้ใช้，และสร้างแผนภูมิบนหน้าแรกส่วนตัวของผู้ใช้เพื่อแสดงสถานะการติดตั้งโดยละเอียดด้านล่าง
-// @name:tr           GreasyFork Kullanıcı tarafından yayınlanan komut dosyası veri görselleştirmesi
-// @description:tr    kullanmakChart.jsKullanıcı komut dosyası verilerinin elde edilmesi ve görselleştirilmesi，Aşağıda ayrıntılı kurulum durumunu görüntülemek için kullanıcının kişisel ana sayfasında bir grafik oluşturun.
-// @name:ug           GreasyFork ئىشلەتكۈچى ئېلان قىلغان قوليازما سانلىق مەلۇمات كۆرۈنۈش
-// @description:ug    useChart.jsئىشلەتكۈچى قوليازما سانلىق مەلۇماتلىرىغا ئېرىشىش ۋە تەسۋىرلەش，ھەمدە تۆۋەندىكى تەپسىلىي قاچىلاش ھالىتىنى كۆرسىتىش ئۈچۈن ئىشلەتكۈچىنىڭ شەخسىي باش بېتىدە جەدۋەل ھاسىل قىلىڭ.
-// @name:uk           GreasyFork Візуалізація даних опублікованого користувачем сценарію
-// @description:uk    використовуватиChart.jsОтримання та візуалізація даних сценарію користувача，І створіть діаграму на особистій домашній сторінці користувача, щоб відобразити детальний стан встановлення нижче.
-// @name:vi           GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản
-// @description:vi    sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
-// @name:zh-TW        GreasyFork 用戶發布的腳本資料視覺化
-// @description:zh-TW 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
-// @name:zh-HK        GreasyFork 用戶發布的腳本資料視覺化
-// @description:zh-HK 使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
-// @name:fr-CA        GreasyFork Visualisation des données de script publié par l’utilisateur
-// @description:fr-CA utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
-// @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
-// @namespace         https://github.com/ChinaGodMan/UserScripts
-// @version           2024.12.17.1920
-// @author            aspen138,人民的勤务员 <china.qinwuyuan@gmail.com>
-// @compatible        chrome
-// @compatible        firefox
-// @compatible        edge
-// @compatible        opera
-// @compatible        safari
-// @match             *://greasyfork.org/*/users/*
-// @grant             none
-// @license           MIT
-// @supportURL        https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL       https://github.com/ChinaGodMan/UserScripts
-// @downloadURL       https://update.greasyfork.org/scripts/508968/GreasyFork%20User-published%20script%20data%20visualization.user.js
-// @updateURL         https://update.greasyfork.org/scripts/508968/GreasyFork%20User-published%20script%20data%20visualization.meta.js
+// @name               GreasyFork User-published script data visualization
+// @name:zh-CN         GreasyFork 用户发布的脚本数据可视化
+// @name:ar            GreasyFork تصور البيانات النصية التي ينشرها المستخدم
+// @name:bg            GreasyFork Визуализация на данни от скрипт, публикуван от потребителя
+// @name:cs            GreasyFork Uživatelsky publikovaná vizualizace dat skriptu
+// @name:da            GreasyFork Brugerudgivet scriptdatavisualisering
+// @name:de            GreasyFork Vom Benutzer veröffentlichte Skriptdatenvisualisierung
+// @name:el            GreasyFork Οπτικοποίηση δεδομένων σεναρίου δημοσιευμένων από χρήστη
+// @name:en            GreasyFork User-published script data visualization
+// @name:eo            GreasyFork Vidigo de datumoj eldonitaj de uzantoj
+// @name:es            GreasyFork Visualización de datos de script publicados por el usuario
+// @name:fi            GreasyFork Käyttäjän julkaisema komentosarjatietojen visualisointi
+// @name:fr            GreasyFork Visualisation des données de script publié par l’utilisateur
+// @name:he            GreasyFork הדמיית נתוני סקריפט שפורסם על ידי המשתמש
+// @name:hr            GreasyFork Vizualizacija podataka skripte koju je objavio korisnik
+// @name:hu            GreasyFork Felhasználó által közzétett szkriptadatok megjelenítése
+// @name:id            GreasyFork Visualisasi data skrip yang dipublikasikan pengguna
+// @name:it            GreasyFork Visualizzazione dei dati degli script pubblicati dall’utente
+// @name:ja            GreasyFork ユーザーが公開したスクリプト データの視覚化
+// @name:ka            GreasyFork მომხმარებლის მიერ გამოქვეყნებული სკრიპტის მონაცემთა ვიზუალიზაცია
+// @name:ko            GreasyFork 사용자 게시 스크립트 데이터 시각화
+// @name:nl            GreasyFork Door de gebruiker gepubliceerde visualisatie van scriptgegevens
+// @name:nb            GreasyFork Brukerpublisert skriptdatavisualisering
+// @name:pl            GreasyFork Wizualizacja danych skryptu opublikowanych przez użytkownika
+// @name:pt-BR         GreasyFork Visualização de dados de script publicado pelo usuário
+// @name:ro            GreasyFork Vizualizarea datelor scripturilor publicate de utilizator
+// @name:ru            GreasyFork Визуализация данных сценария, опубликованного пользователем.
+// @name:sk            GreasyFork Používateľom publikovaná vizualizácia dát skriptu
+// @name:sr            GreasyFork Визуелизација података скрипте коју је објавио корисник
+// @name:sv            GreasyFork Användarpublicerad skriptdatavisualisering
+// @name:th            GreasyFork การแสดงข้อมูลสคริปต์ที่ผู้ใช้เผยแพร่
+// @name:tr            GreasyFork Kullanıcı tarafından yayınlanan komut dosyası veri görselleştirmesi
+// @name:ug            GreasyFork ئىشلەتكۈچى ئېلان قىلغان قوليازما سانلىق مەلۇمات كۆرۈنۈش
+// @name:uk            GreasyFork Візуалізація даних опублікованого користувачем сценарію
+// @name:vi            GreasyFork Trực quan hóa dữ liệu tập lệnh do người dùng xuất bản
+// @name:zh-TW         GreasyFork 用戶發布的腳本資料視覺化
+// @name:zh-HK         GreasyFork 用戶發布的腳本資料視覺化
+// @name:fr-CA         GreasyFork Visualisation des données de script publié par l’utilisateur
+// @description        useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation
+// @description:zh-CN  使用Chart.js获取和可视化获取用户脚本数据，并在用户个人主页生成一个图表在下方显示详细安装情况
+// @description:ar     يستخدمChart.jsالحصول على بيانات البرنامج النصي للمستخدم وتصورها，وقم بإنشاء مخطط على الصفحة الرئيسية الشخصية للمستخدم لعرض حالة التثبيت التفصيلية أدناه.
+// @description:bg     използванеChart.jsПолучаване и визуализиране на потребителски скриптови данни，И генерирайте диаграма на личната начална страница на потребителя, за да покажете подробното състояние на инсталацията по-долу.
+// @description:cs     použitíChart.jsZískávání a vizualizace dat uživatelských skriptů，A vygenerujte graf na osobní domovské stránce uživatele, který zobrazí podrobný stav instalace níže.
+// @description:da     brugeChart.jsIndhentning og visualisering af brugerscriptdata，Og generer et diagram på brugerens personlige hjemmeside for at vise den detaljerede installationsstatus nedenfor.
+// @description:de     verwendenChart.jsAbrufen und Visualisieren von Benutzerskriptdaten，Und erstellen Sie auf der persönlichen Homepage des Benutzers ein Diagramm, um unten den detaillierten Installationsstatus anzuzeigen.
+// @description:el     χρήσηChart.jsΛήψη και οπτικοποίηση δεδομένων σεναρίου χρήστη，Και δημιουργήστε ένα γράφημα στην προσωπική αρχική σελίδα του χρήστη για να εμφανίσετε τη λεπτομερή κατάσταση εγκατάστασης παρακάτω.
+// @description:en     useChart.jsObtaining and visualizing user script data，And generate a chart on the user’s personal homepage to display the detailed installation status below.
+// @description:eo     uziChart.jsAkiro kaj bildigo de uzantaj skriptodatenoj，Kaj generu diagramon sur la persona hejmpaĝo de la uzanto por montri la detalan instalan staton sube.
+// @description:es     usarChart.jsObtención y visualización de datos de script de usuario，Y genere un gráfico en la página de inicio personal del usuario para mostrar el estado de instalación detallado a continuación.
+// @description:fi     käyttääChart.jsKäyttäjän komentosarjatietojen hankkiminen ja visualisointi，Ja luo kaavio käyttäjän henkilökohtaiselle kotisivulle nähdäksesi yksityiskohtaisen asennuksen tilan alla.
+// @description:fr     utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
+// @description:he     לְהִשְׁתַמֵשׁChart.jsהשגה והצגה של נתוני סקריפט משתמש，וצור תרשים בדף הבית האישי של המשתמש כדי להציג את מצב ההתקנה המפורט למטה.
+// @description:hr     koristitiChart.jsDobivanje i vizualizacija podataka korisničke skripte，I generirajte grafikon na osobnoj početnoj stranici korisnika za prikaz detaljnog statusa instalacije u nastavku.
+// @description:hu     használatChart.jsFelhasználói szkriptadatok beszerzése és megjelenítése，És készítsen diagramot a felhasználó személyes honlapján, hogy megjelenítse a részletes telepítési állapotot.
+// @description:id     menggunakanChart.jsMemperoleh dan memvisualisasikan data skrip pengguna，Dan buat bagan di beranda pribadi pengguna untuk menampilkan status instalasi terperinci di bawah.
+// @description:it     utilizzoChart.jsOttenere e visualizzare i dati dello script utente，E genera un grafico sulla home page personale dell’utente per visualizzare lo stato dettagliato dell’installazione di seguito.
+// @description:ja     使用Chart.jsユーザースクリプトデータの取得と可視化，また、ユーザーの個人ホームページ上にチャートを生成し、以下の詳細なインストール状況を表示します。
+// @description:ka     გამოყენებაChart.jsმომხმარებლის სკრიპტის მონაცემების მიღება და ვიზუალიზაცია，და შექმენით დიაგრამა მომხმარებლის პირად მთავარ გვერდზე, რათა აჩვენოთ ინსტალაციის დეტალური სტატუსი ქვემოთ.
+// @description:ko     사용Chart.js사용자 스크립트 데이터 획득 및 시각화，그리고 사용자의 개인 홈페이지에 차트를 생성하여 아래와 같이 자세한 설치 현황을 표시합니다.
+// @description:nl     gebruikChart.jsVerkrijgen en visualiseren van gebruikersscriptgegevens，En genereer een diagram op de persoonlijke startpagina van de gebruiker om de gedetailleerde installatiestatus hieronder weer te geven.
+// @description:nb     brukChart.jsInnhenting og visualisering av brukerskriptdata，Og generer et diagram på brukerens personlige hjemmeside for å vise den detaljerte installasjonsstatusen nedenfor.
+// @description:pl     używaćChart.jsPozyskiwanie i wizualizacja danych skryptu użytkownika，I wygeneruj wykres na osobistej stronie głównej użytkownika, aby wyświetlić poniżej szczegółowy stan instalacji.
+// @description:pt-BR  usarChart.jsObtendo e visualizando dados de script do usuário，E gere um gráfico na página inicial pessoal do usuário para exibir o status detalhado da instalação abaixo.
+// @description:ro     utilizareChart.jsObținerea și vizualizarea datelor de script utilizator，Și generați o diagramă pe pagina de pornire personală a utilizatorului pentru a afișa mai jos starea detaliată a instalării.
+// @description:ru     использоватьChart.jsПолучение и визуализация данных пользовательского сценария，И создайте диаграмму на личной домашней странице пользователя, чтобы отобразить подробный статус установки ниже.
+// @description:sk     použitieChart.jsZískavanie a vizualizácia údajov používateľského skriptu，A vygenerujte graf na osobnej domovskej stránke používateľa, ktorý zobrazí podrobný stav inštalácie nižšie.
+// @description:sr     користитиChart.jsДобијање и визуелизација података корисничких скрипти，И генеришите графикон на личној почетној страници корисника да бисте приказали детаљан статус инсталације испод.
+// @description:sv     användaChart.jsSkaffa och visualisera användarskriptdata，Och generera ett diagram på användarens personliga hemsida för att visa den detaljerade installationsstatusen nedan.
+// @description:th     ใช้Chart.jsการรับและการแสดงภาพข้อมูลสคริปต์ผู้ใช้，และสร้างแผนภูมิบนหน้าแรกส่วนตัวของผู้ใช้เพื่อแสดงสถานะการติดตั้งโดยละเอียดด้านล่าง
+// @description:tr     kullanmakChart.jsKullanıcı komut dosyası verilerinin elde edilmesi ve görselleştirilmesi，Aşağıda ayrıntılı kurulum durumunu görüntülemek için kullanıcının kişisel ana sayfasında bir grafik oluşturun.
+// @description:ug     useChart.jsئىشلەتكۈچى قوليازما سانلىق مەلۇماتلىرىغا ئېرىشىش ۋە تەسۋىرلەش，ھەمدە تۆۋەندىكى تەپسىلىي قاچىلاش ھالىتىنى كۆرسىتىش ئۈچۈن ئىشلەتكۈچىنىڭ شەخسىي باش بېتىدە جەدۋەل ھاسىل قىلىڭ.
+// @description:uk     використовуватиChart.jsОтримання та візуалізація даних сценарію користувача，І створіть діаграму на особистій домашній сторінці користувача, щоб відобразити детальний стан встановлення нижче.
+// @description:vi     sử dụngChart.jsLấy và hiển thị dữ liệu tập lệnh người dùng，Và tạo biểu đồ trên trang chủ cá nhân của người dùng để hiển thị trạng thái cài đặt chi tiết bên dưới.
+// @description:zh-TW  使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
+// @description:zh-HK  使用Chart.js獲取和可視化獲取用戶腳本數據，並在使用者個人主頁產生圖表在下方顯示詳細安裝情況
+// @description:fr-CA  utiliserChart.jsObtention et visualisation des données de script utilisateur，Et générez un graphique sur la page d’accueil personnelle de l’utilisateur pour afficher l’état détaillé de l’installation ci-dessous.
+// @icon               data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHN0eWxlPSJmaWxsOiAjRDcyMzIzOyI+PHBhdGggZD0iTTIwMC4zIDI2OS45Yy0xNS43IDYuNi0zMi43IDEwLjEtNTAuMyAxMC4xLTM0LjcgMC02Ny40LTEzLjUtOTEuOS0zOC4xQzMzLjUgMjE3LjQgMjAgMTg0LjcgMjAgMTUwczEzLjUtNjcuNCAzOC4xLTkxLjlDODIuNiAzMy41IDExNS4zIDIwIDE1MCAyMHM2Ny40IDEzLjUgOTEuOSAzOC4xQzI2Ni41IDgyLjYgMjgwIDExNS4zIDI4MCAxNTBjMCAxNy42LTMuNSAzNC42LTEwIDUwLjMgNSA1IDEwIDEwLjEgMTUuMSAxNS4xIDkuNi0xOS44IDE1LTQyIDE1LTY1LjRDMzAwIDY3LjIgMjMyLjggMCAxNTAgMFMwIDY3LjIgMCAxNTBzNjcuMiAxNTAgMTUwIDE1MGMyMy40IDAgNDUuNi01LjQgNjUuNC0xNS01LjEtNS0xMC4xLTEwLjEtMTUuMS0xNS4xeiIvPjxwYXRoIGQ9Ik0yNjcuOCAzMDBjLTkuNi0xLjMtMTYuNS03LTIzLjEtMTMuNy0xNC45LTE1LjMtMzAuMS0zMC4yLTQ1LjItNDUuMy05LjMtOS4zLTEyLTIwLjEtNy41LTMyLjcuMy0uOC4zLTIuMS0uMi0yLjYtMy45LTQuMS03LjktOC0xMi0xMi4xLTYuNCA0LTEzLjEgNi43LTIwLjUgNy42LTE1LjUgMS45LTI5LTIuNC00MC4yLTEzLjItMTIuMy0xMS44LTI0LjItMjQtMzYuMi0zNi4xLTMuNS0zLjUtNC4xLTcuNC0yLjItMTEuMiAxLjktMy43IDUuOS02LjQgOS43LTUuNiAyLjUuNSA1LjEgMiA2LjkgMy44IDcuNCA3LjEgMTQuNSAxNC40IDIxLjggMjEuNi42LjYgMS4zIDEuMiAxLjcgMS42bDEzLjgtMTMuOGMtNi4yLTYuMS0xMi42LTEyLjUtMTguOS0xOC45LTEuOS0xLjktMy44LTMuNy01LjYtNS42LTMuOC00LjItMy43LTkuNy4yLTEzLjYgMy45LTMuOSA5LjUtNC4xIDEzLjYtLjEgNy41IDcuMyAxNC44IDE0LjcgMjIuMSAyMi4xLjguOCAxLjUgMS44IDIuMSAyLjRsMTQuMy0xNC4zYy0yLTEuOC00LjUtNC02LjgtNi4zLTYtNS45LTExLjktMTEuOC0xNy44LTE3LjgtMi43LTIuNy0zLjctNS45LTIuNC05LjYgMS40LTMuOSA0LjItNi4zIDguMy02LjkgMy40LS42IDYgMSA4LjQgMy4zbDE0LjcgMTQuN2M3LjQgNy40IDE0LjkgMTQuNiAyMiAyMi4yIDE0LjcgMTUuNyAxNyAzOS4xIDYuMSA1Ny43LS40LjctLjcgMS40LTEuMyAyLjQgMy45IDMuOSA3LjkgNy44IDExLjkgMTEuNi42LjUgMiAuNiAyLjguMyAxMi41LTQuNCAyMy4zLTEuNyAzMi43IDcuNiAxNS4xIDE1LjEgMzAuMSAzMC4zIDQ1LjMgNDUuMiA2LjcgNi41IDEyLjQgMTMuNCAxMy43IDIzdjUuOGMtLjIuNS0uNCAxLjEtLjUgMS42LTEuOCA5LjUtNi42IDE3LTE1LjUgMjEuMi0zLjMgMS42LTYuOSAyLjMtMTAuNCAzLjUtMS45LjItMy44LjItNS44LjJ6Ii8+PHBhdGggZD0iTTE3MCAyMTkuNmMtMi43LjctNS40IDEuMi04LjIgMS41LTMuMS40LTYuMi42LTkuMi42LTE3LjkgMC0zNC4yLTYuNi00Ny4yLTE5LjItMTAuMi05LjgtMjAuMi0yMC0zMC0yOS44bC02LjYtNi42Yy05LjUtOS41LTExLjctMjIuNy01LjgtMzQuMyA0LjktOS42IDE0LjQtMTYgMjQuNS0xNi42LjUtNi45IDMuNS0xMy42IDguOS0xOC45IDUuMi01LjEgMTEuOC04LjIgMTguNy04LjcuMi0yLjUuNy00LjkgMS42LTcuNCAzLjgtMTAuOCAxMi42LTE4LjEgMjMuOS0yMCAxLjUtLjIgMy4xLS40IDQuNi0uNCA1LjQgMCAxMy40IDEuNiAyMS4xIDkuMiA0LjcgNC43IDkuNiA5LjUgMTQuOCAxNC43IDIuMSAyLjIgNC40IDQuNCA2LjUgNi41IDUuMyA1LjIgMTAuNyAxMC42IDE1LjkgMTYuMiAxMC4yIDEwLjkgMTYuNCAyNC41IDE3LjkgMzkuMy45IDguMi4yIDE2LjQtMS44IDI0LjJoLjFjMTIuOCAwIDI0LjcgNS4xIDM0LjcgMTQuOCAzLjYtMTAuOSA1LjYtMjIuNiA1LjYtMzQuNyAwLTYwLjgtNDkuMi0xMTAtMTEwLTExMFM0MCA4OS4yIDQwIDE1MHM0OS4yIDExMCAxMTAgMTEwYzEyLjEgMCAyMy44LTIgMzQuNy01LjYtOS44LTEwLjEtMTQuOC0yMi4xLTE0LjctMzQuOHoiLz48L3N2Zz4=
+// @namespace          https://github.com/ChinaGodMan/UserScripts
+// @version            2024.12.17.1920
+// @author             aspen138,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @compatible         chrome
+// @compatible         firefox
+// @compatible         edge
+// @compatible         opera
+// @compatible         safari
+// @match              *://greasyfork.org/*/users/*
+// @grant              none
+// @license            MIT
+// @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL        https://github.com/ChinaGodMan/UserScripts
+// @homepage           https://github.com/ChinaGodMan/UserScripts
+// @downloadURL        https://update.greasyfork.org/scripts/508968/GreasyFork%20User-published%20script%20data%20visualization.user.js
+// @updateURL          https://update.greasyfork.org/scripts/508968/GreasyFork%20User-published%20script%20data%20visualization.meta.js
 // ==/UserScript==
+
 (function () {
     'use strict'
     let ONPAGE = true//默认向GreasyFork下载用户数据,为true时从当前访问的页面获取

@@ -1,31 +1,33 @@
 // ==UserScript==
-// @name              微信网页版深色模式
-// @name:zh-CN        微信网页版深色模式
-// @description       启用网页微信全屏窗口，深色模式
-// @description:zh-CN 启用网页微信全屏窗口，深色模式
-// @author            Benjamin L
-// @namespace         https://github.com/bensgith/userscripts
-// @supportURL        https://github.com/bensgith/userscripts/issues
-// @homepageURL       https://github.com/bensgith/userscripts
-// @license           MIT
-// @match             https://wx.qq.com/*
-// @match             https://wx2.qq.com/*
-// @icon              https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico
-// @compatible        chrome
-// @compatible        firefox
-// @compatible        edge
-// @compatible        opera
-// @compatible        safari
-// @compatible        kiwi
-// @compatible        qq
-// @compatible        via
-// @compatible        brave
-// @version           2025.6.2.1
-// @grant             GM_addStyle
-// @run-at            document-idle
-// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/wechat-black/wechat-black.user.js
-// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/wechat-black/wechat-black.user.js
+// @name               微信网页版深色模式
+// @name:zh-CN         微信网页版深色模式
+// @description        启用网页微信全屏窗口，深色模式
+// @description:zh-CN  启用网页微信全屏窗口，深色模式
+// @author             Benjamin L
+// @namespace          https://github.com/bensgith/userscripts
+// @supportURL         https://github.com/bensgith/userscripts/issues
+// @homepageURL        https://github.com/bensgith/userscripts
+// @homepage           https://github.com/bensgith/userscripts
+// @license            MIT
+// @match              https://wx.qq.com/*
+// @match              https://wx2.qq.com/*
+// @icon               https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico
+// @compatible         chrome
+// @compatible         firefox
+// @compatible         edge
+// @compatible         opera
+// @compatible         safari
+// @compatible         kiwi
+// @compatible         qq
+// @compatible         via
+// @compatible         brave
+// @version            2025.6.2.1
+// @grant              GM_addStyle
+// @run-at             document-idle
+// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/wechat-black/wechat-black.user.js
+// @updateURL          https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/wechat-black/wechat-black.user.js
 // ==/UserScript==
+
 (function () {
     'use strict'
 

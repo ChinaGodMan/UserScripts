@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name        隐藏1169082简介
-// @namespace   https://github.com/ChinaGodMan/UserScripts
-// @match       https://greasyfork.org/*/users/1169082*
-// @version     2025.5.27
-// @author      人民的勤务员 <china.qinwuyuan@gmail.com>
-// @run-at      document-start
-// @description 隐藏"人民勤务员"主页个人简介,脚本集，控制台，移动脚本列表到顶部
+// @name         隐藏1169082简介
+// @namespace    https://github.com/ChinaGodMan/UserScripts
+// @match        https://greasyfork.org/*/users/1169082*
+// @version      2025.5.27
+// @author       人民的勤务员 <china.qinwuyuan@gmail.com>
+// @run-at       document-start
+// @description  隐藏"人民勤务员"主页个人简介,脚本集，控制台，移动脚本列表到顶部
 // ==/UserScript==
+
 /**
  * File: greasyfrok-hide.user.js
  * Project: UserScripts

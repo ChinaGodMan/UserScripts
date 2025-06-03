@@ -1,30 +1,31 @@
 // ==UserScript==
-// @name              Bilibili Liveroom Filter
-// @name:zh-CN        哔哩哔哩直播间屏蔽工具
-// @description       Filtering Bilibili liveroom, batch management, export, import banlist...
-// @description:zh-CN 哔哩哔哩直播间屏蔽工具，支持管理列表，批量屏蔽，导出、导入列表等……
-// @author            jc3213
-// @namespace         https://github.com/jc3213/userscript
-// @supportURL        https://github.com/jc3213/userscript/issues
-// @homepageURL       https://github.com/jc3213/userscript
-// @license           MIT
-// @match             https://live.bilibili.com/*
-// @grant             GM_getValue
-// @grant             GM_setValue
+// @name               Bilibili Liveroom Filter
+// @name:zh-CN         哔哩哔哩直播间屏蔽工具
+// @description        Filtering Bilibili liveroom, batch management, export, import banlist...
+// @description:zh-CN  哔哩哔哩直播间屏蔽工具，支持管理列表，批量屏蔽，导出、导入列表等……
+// @author             jc3213
+// @namespace          https://github.com/jc3213/userscript
+// @supportURL         https://github.com/jc3213/userscript/issues
+// @homepageURL        https://github.com/jc3213/userscript
+// @homepage           https://github.com/jc3213/userscript
+// @license            MIT
+// @match              https://live.bilibili.com/*
+// @grant              GM_getValue
+// @grant              GM_setValue
 // @noframes          
-// @icon              https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png
-// @compatible        chrome
-// @compatible        firefox
-// @compatible        edge
-// @compatible        opera
-// @compatible        safari
-// @compatible        kiwi
-// @compatible        qq
-// @compatible        via
-// @compatible        brave
-// @version           2025.6.2.1
-// @downloadURL       https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js
-// @updateURL         https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js
+// @icon               https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png
+// @compatible         chrome
+// @compatible         firefox
+// @compatible         edge
+// @compatible         opera
+// @compatible         safari
+// @compatible         kiwi
+// @compatible         qq
+// @compatible         via
+// @compatible         brave
+// @version            2025.6.2.1
+// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js
+// @updateURL          https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js
 // ==/UserScript==
 
 'use strict'

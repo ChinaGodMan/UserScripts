@@ -1,4 +1,5 @@
 import argparse
+import os
 import re
 import subprocess
 import threading
@@ -129,8 +130,9 @@ def main():
             target_langs = filtered_langs
 
     translate_localized(file_path, target_langs)
-    sort_userscript_section(file_path)
-    subprocess.run(['node', 'utils/single-format-monkey-meta.js', file_path], check=True)
+    # sort_userscript_section(file_path)
+    # subprocess.run(['node', 'utils/single-format-monkey-meta.js', file_path], check=True)
+    os.system("npm run lint:fix")
     print("翻译和排序完成！")
 
 
