@@ -1,37 +1,377 @@
 // ==UserScript==
-// @name               Show date normally on Twitter
-// @name:zh-CN         Twitter 显示正常的日期和时间
-// @description        Like this, 70/12/31(Th) 23:59:59.
-// @description:zh-CN  看起来是这样的。70/12/31(Th) 23:59:59.
-// @author             AeamaN
-// @namespace          https://github.com/ChinaGodMan/UserScripts
-// @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
-// @homepageURL        https://github.com/ChinaGodMan/UserScripts
-// @homepage           https://github.com/ChinaGodMan/UserScripts
-// @license            MIT
-// @match              https://twitter.com/*
-// @match              https://mobile.twitter.com/*
-// @match              https://mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/*
-// @match              https://x.com/*
-// @match              https://mobile.x.com/*
-// @require            https://update.greasyfork.org/scripts/538254/1601105/PNG.js
-// @grant              GM_getValue
-// @grant              GM_registerMenuCommand
-// @grant              GM_setValue
-// @run-at             document-body
-// @icon               https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg
-// @compatible         chrome
-// @compatible         firefox
-// @compatible         edge
-// @compatible         opera
-// @compatible         safari
-// @compatible         kiwi
-// @compatible         qq
-// @compatible         via
-// @compatible         brave
-// @version            2025.6.4.1
-// @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
-// @updateURL          https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
+// @name                   Show date normally on Twitter
+// @name:aa                Tiwiteril qaadik tan ayro kee wakti yaybulle
+// @name:ab                Твиттер иаанарԥшуеит иаабац арыцхәи аамҭеи
+// @name:af                Twitter vertoon normale datum en tyd
+// @name:ak                Twitter kyerɛ da ne bere a ɛfata .
+// @name:am                ትዊተር የተለመደው ቀን እና ሰዓት ያሳያል
+// @name:ar                يعرض Twitter التاريخ والوقت العاديين
+// @name:as                টুইটাৰে সাধাৰণ তাৰিখ আৰু সময় প্ৰদৰ্শন কৰে
+// @name:av                Твиттералда бихьулеб букӀуна гӀадатияб тарих ва заман
+// @name:ay                Twitter ukax normal uru ukat pacha uñacht’ayi .
+// @name:az                Twitter normal tarix və vaxt göstərir
+// @name:ba                Twitter ғәҙәти дата һәм ваҡыт күрһәтә
+// @name:be                Twitter адлюстроўвае звычайную дату і час
+// @name:bg                Twitter показва нормална дата и час
+// @name:bh                ट्विटर सामान्य तारीख आ समय के देखावेला
+// @name:bm                Twitter bɛ don ni waati nɔrɔlen jira .
+// @name:bn                টুইটার স্বাভাবিক তারিখ এবং সময় প্রদর্শন করে
+// @name:bo                ཊུ་ཊར་གྱིས་ཚེས་གྲངས་དང་དུས་ཚོད་སྟོན་གྱི་ཡོད།
+// @name:br                Diskouez a ra Twitter deiziad ha eur normal
+// @name:bs                Twitter prikazuje normalan datum i vrijeme
+// @name:ca                Twitter mostra la data i l’hora normals
+// @name:ce                Твиттерехь гойту нийса хан а, хан а .
+// @name:ceb               Ang Twitter nagpakita sa normal nga petsa ug oras
+// @name:ch                I Twitter ha dispåtta i fechan-ña yan .
+// @name:ckb               تویتەر بەروار و کاتی ئاسایی پیشان دەدات
+// @name:co                Twitter mostra a data è u tempu nurmale
+// @name:cs                Twitter zobrazuje normální datum a čas
+// @name:cv                Твиттер йĕркеллĕ кунпа вăхăта кăтартать
+// @name:cy                Mae Twitter yn arddangos dyddiad ac amser arferol
+// @name:da                Twitter viser normal dato og tid
+// @name:de                Twitter zeigt das normale Datum und die normale Uhrzeit an
+// @name:dv                ޓްވިޓަރ އިން އާދައިގެ ތާރީޚާއި ގަޑި ދައްކާ
+// @name:dz                ཊུ་ཊར་གྱིས་ སྤྱིར་བཏང་ཚེས་གྲངས་དང་དུས་ཚོད་བཀྲམ་སྟོན་འབདཝ་ཨིན།
+// @name:ee                Twitter ɖea ŋkeke kple gaƒoƒo si sɔ fiana .
+// @name:el                Το Twitter εμφανίζει κανονική ημερομηνία και ώρα
+// @name:en                Twitter displays normal date and time
+// @name:en-GB             Twitter displays normal date and time
+// @name:eo                Twitter montras normalan daton kaj horon
+// @name:es                Twitter muestra fecha y hora normales
+// @name:et                Twitter kuvab tavalise kuupäeva ja kellaaja
+// @name:eu                Twitterrek data eta ordu normala erakusten du
+// @name:fa                توییتر تاریخ و زمان عادی را نشان می دهد
+// @name:ff                Twitter ina hollira ñalngu e waktu no woorunoo
+// @name:fi                Twitter näyttää normaalin päivämäärän ja ajan
+// @name:fil               Ipinapakita ng Twitter ang normal na petsa at oras
+// @name:fj                Tuvanaka na tiki ni siga kei na gauna .
+// @name:fo                Twitter vísir vanliga dagfesting og tíð
+// @name:fr                Twitter affiche la date et l’heure normales
+// @name:fr-CA             Twitter affiche la date et l’heure normales
+// @name:fy                Twitter Toant normale datum en tiid
+// @name:ga                Taispeánann Twitter gnáth -dháta agus am
+// @name:gd                Bidh Twitter a ’taisbeanadh ceann-latha agus àm àbhaisteach
+// @name:gl                Twitter mostra a data e hora normais
+// @name:gn                Twitter ohechauka ára ha aravo normal .
+// @name:gsw-berne         Twitter displays normal date and time
+// @name:gu                ટ્વિટર સામાન્ય તારીખ અને સમય દર્શાવે છે
+// @name:gv                Twitter t’eh soilshaghey date as traa arryltagh
+// @name:ha                Twitter nuni na al’ada da lokaci
+// @name:he                טוויטר מציג תאריך ושעה רגילים
+// @name:hi                ट्विटर सामान्य तारीख और समय प्रदर्शित करता है
+// @name:hmn               TWITTER qhia txog hnub qub thiab sijhawm
+// @name:hr                Twitter prikazuje normalan datum i vrijeme
+// @name:ht                Twitter montre dat ak lè nòmal
+// @name:hu                A Twitter megjeleníti a normál dátumot és időt
+// @name:hy                Twitter- ը ցուցադրում է նորմալ ամսաթիվը եւ ժամանակը
+// @name:id                Twitter menampilkan tanggal dan waktu normal
+// @name:ig                Twitter na-egosiputa ụbọchị na oge
+// @name:is                Twitter sýnir venjulegan dag og tíma
+// @name:it                Twitter visualizza la data e l’ora normali
+// @name:iu                Twitter ᑕᑯᒃᓴᐅᑎᑦᑎᕗᖅ ᐅᓪᓗᕆᔭᐅᔪᒥᒃ ᐊᒻᒪ ᐱᕕᒃᓴᒥᒃ
+// @name:ja                Twitterには通常の日付と時刻が表示されます
+// @name:jv                Twitter nampilake tanggal lan wektu normal
+// @name:ka                Twitter აჩვენებს ნორმალურ თარიღს და დროს
+// @name:kg                Twitter ke monisa kilumbu mpi ntangu ya mbote
+// @name:kk                Twitter қалыпты күн мен уақытты көрсетеді
+// @name:kl                Twitterip ulloq piffissarlu nalinginnaasoq takutinneqartarpoq
+// @name:km                Twitter បង្ហាញកាលបរិច្ឆេទនិងពេលវេលាធម្មតា
+// @name:kn                ಟ್ವಿಟರ್ ಸಾಮಾನ್ಯ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಪ್ರದರ್ಶಿಸುತ್ತದೆ
+// @name:ko                트위터에는 일반 날짜와 시간이 표시됩니다
+// @name:kr                Twitter lan loktu-a yim-a kalkal fəlejin
+// @name:ku                Twitter tarîx û wextê normal nîşan dide
+// @name:kv                Твиттерын петкӧдлӧма нормальнӧй кад да кад .
+// @name:ky                Twitter кадимки күндү жана убакытты көрсөтөт
+// @name:la                Twitter Displays Normal Date et Tempus
+// @name:lb                Twitter weist normal Datum an Zäit
+// @name:lg                Twitter eraga olunaku n’essaawa ebya bulijjo .
+// @name:ln                Twitter elakisaka mokolo mpe ngonga ya momesano .
+// @name:lo                Twitter ສະແດງວັນທີແລະເວລາທໍາມະດາ
+// @name:lt                „Twitter“ rodo įprastą datą ir laiką
+// @name:lv                Twitter parāda normālu datumu un laiku
+// @name:mg                Ny Twitter dia mampiseho daty sy fotoana mahazatra
+// @name:mh                Twitter ej kwaļo̧k raan im iien .
+// @name:mi                Ka whakaatu a Twitter i te waa me te waa
+// @name:mk                Твитер прикажува нормален датум и време
+// @name:ml                ട്വിറ്റർ സാധാരണ തീയതിയും സമയവും പ്രദർശിപ്പിക്കുന്നു
+// @name:mn                Твиттер нь хэвийн огноо, цагийг харуулдаг
+// @name:mo                Twitter afișează data și ora normale
+// @name:mr                ट्विटर सामान्य तारीख आणि वेळ प्रदर्शित करते
+// @name:ms                Twitter memaparkan tarikh dan masa biasa
+// @name:mt                Twitter juri data u ħin normali
+// @name:my                Twitter သည်ပုံမှန်နေ့စွဲနှင့်အချိန်ကိုပြသသည်
+// @name:nb                Twitter viser normal dato og tid
+// @name:ne                ट्विटरले सामान्य मिति र समय प्रदर्शन गर्दछ
+// @name:nl                Twitter toont normale datum en tijd
+// @name:nr                Fala i-orasssssss.
+// @name:ny                Twitter ikuwonetsa tsiku labwinobwino komanso nthawi
+// @name:oc                Twitter aficha la data e l’ora normalas
+// @name:om                Twitter guyyaa fi sa’aatii idilee agarsiisa .
+// @name:or                ଟ୍ୱିଟର ସାଧାରଣ ତାରିଖ ଏବଂ ସମୟ ପ୍ରଦର୍ଶନ କରେ |
+// @name:os                Твиттер æвдисы нормалон датæ æмæ рæстæг
+// @name:pa                ਟਵਿੱਟਰ ਆਮ ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਦਰਸਾਉਂਦਾ ਹੈ
+// @name:pl                Twitter wyświetla normalną datę i godzinę
+// @name:ps                ټویټر نورمال نیټه او وخت ښیې
+// @name:pt                Twitter exibe data e hora normais
+// @name:pt-BR             Twitter exibe data e hora normais
+// @name:pt-PT             Twitter exibe data e hora normais
+// @name:qu                Twitter normal p’unchawta, pachata rikuchin .
+// @name:rn                Twitter yerekana itariki n’isaha isanzwe
+// @name:ro                Twitter afișează data și ora normale
+// @name:ru                Твиттер отображает обычную дату и время
+// @name:rw                Twitter yerekana itariki nigihe gisanzwe
+// @name:sa                ट्विटर सामान्य तिथि एवं समय प्रदर्शित करता है।
+// @name:sd                Twitter عام تاريخ ۽ وقت ڏيکاري ٿو
+// @name:se                Twitter čájeha dábálaš beaivvi ja áiggi
+// @name:sg                Twitter afa lango na l’heure .
+// @name:sh                Твиттер приказује нормалан датум и време
+// @name:si                ට්විටර් සාමාන්ය දිනය සහ වේලාව පෙන්වයි
+// @name:sk                Twitter zobrazuje normálny dátum a čas
+// @name:sl                Twitter prikazuje normalen datum in čas
+// @name:sm                Twitter faʻaalia le taimi masani aso ma le taimi
+// @name:sn                Twitter inoratidza yakajairika zuva uye nguva
+// @name:so                Twitter wuxuu soo bandhigayaa taariikhda iyo waqtiga caadiga ah
+// @name:sq                Twitter shfaq datën dhe kohën normale
+// @name:sr                Твиттер приказује нормалан датум и време
+// @name:ss                I-Twitter ikhombisa lusuku nesikhatsi lesivamile
+// @name:st                Twitter e bontša letsatsi le tloaelehileng le nako
+// @name:su                Twitter ningalikeun tanggal sareng waktos anu normal
+// @name:sv                Twitter visar normalt datum och tid
+// @name:sw                Twitter inaonyesha tarehe ya kawaida na wakati
+// @name:ta                ட்விட்டர் சாதாரண தேதி மற்றும் நேரத்தைக் காட்டுகிறது
+// @name:te                ట్విట్టర్ సాధారణ తేదీ మరియు సమయాన్ని ప్రదర్శిస్తుంది
+// @name:tg                Twitter санаи муқаррарӣ ва вақтро нишон медиҳад
+// @name:th                Twitter แสดงวันที่และเวลาปกติ
+// @name:ti                ትዊተር ንቡር ዕለትን ሰዓትን
+// @name:tk                Twitter adaty senesini we wagty görkezýär
+// @name:tl                Ipinapakita ng Twitter ang normal na petsa at oras
+// @name:tn                Twitter e bontsha letlha le nako e e tlwaelegileng
+// @name:to                ’Oku fakahaa’i ’e he Twitter ’a e ’aho mo e taimi angamaheni .
+// @name:tr                Twitter normal tarih ve saati görüntüler
+// @name:ts                Twitter yi kombisa siku na nkarhi lowu tolovelekeke .
+// @name:tt                Твиттер гадәти датаны һәм вакытны күрсәтә
+// @name:tw                Twitter kyerɛ da ne bere a ɛfata .
+// @name:ty                E faaite te Twitter i te mahana e te taime matauhia
+// @name:ug                Twitter نورمال ۋاقىت ۋە ۋاقىتنى كۆرسىتىدۇ
+// @name:uk                Twitter відображає звичайну дату та час
+// @name:ur                ٹویٹر عام تاریخ اور وقت دکھاتا ہے
+// @name:uz                Twitter normal sana va vaqtni namoyish etadi
+// @name:ve                Twitter i sumbedza ḓuvha na tshifhinga tsho ḓoweleaho
+// @name:vi                Twitter hiển thị ngày và giờ bình thường
+// @name:wo                Twitter dafay wane bis ak waxtu
+// @name:xh                I-Twitter ibonisa umhla oqhelekileyo kunye nexesha
+// @name:yi                טוויטטער דיספּלייז נאָרמאַל דאַטע און צייט
+// @name:yo                Twitter ṣafihan ọjọ deede ati akoko
+// @name:zh                Twitter 显示正常的日期和时间
+// @name:zh-CN             Twitter 显示正常的日期和时间
+// @name:zh-HK             Twitter 顯示正常的日期和時間
+// @name:zh-MO             Twitter 顯示正常的日期和時間
+// @name:zh-MY             Twitter 显示正常的日期和时间
+// @name:zh-SG             Twitter 显示正常的日期和时间
+// @name:zh-TW             Twitter 顯示正常的日期和時間
+// @name:zu                I-Twitter ibonisa usuku olujwayelekile nesikhathi
+// @name:es-419            Twitter muestra fecha y hora normales
+// @description            Like this, 70/12/31(Th) 23:59:59.
+// @description:aa         Tah celta. 70/12/31(Th) 23:59:59.
+// @description:ab         Абри еиԥш ауп ишыҟоу. 70/12/31(Th) 23:59:59.
+// @description:af         Dit lyk so. 70/12/31 (Th) 23:59:59.
+// @description:ak         Ɛte sɛ eyi. 70/12/31(th) 23:59:59.
+// @description:am         ይህ ይመስላል. 70/12/31 (te) 23:59:59.
+// @description:ar         يبدو هكذا. 70/12/31 (TH) 23:59:59.
+// @description:as         দেখাত এনেকুৱাই। ৭০/১২/৩১(তম) ২৩:৫৯:৫৯।
+// @description:av         Гьеб гьадинаб буго. 70/12/31(Тх) 23:59:59.
+// @description:ay         Ukhamaw ukham uñtasi. 70/12/31(th) 23:59:59.
+// @description:az         Bu kimi görünür. 70/12/31 (TH) 23:59:59.
+// @description:ba         Ул былай күренә. 70/12/31(Th) 23:59:59.
+// @description:be         Падобна так. 70/12/31 (TH) 23:59:59.
+// @description:bg         Изглежда така. 70/12/31 (TH) 23:59:59.
+// @description:bh         अईसन लागता। 70/12/31(वें) 23:59:59 के बा।
+// @description:bm         A bɛ iko nin. 70/12/31(nan) 23:59:59.
+// @description:bn         দেখে মনে হচ্ছে এটি। 70/12/31 (TH) 23:59:59।
+// @description:bo         འདི་འདྲ་འདུག ༧༠/༡༢/༣༡(Th) ༢༣:༥༩:༥༩།
+// @description:br         Seblantout a ra evel-se. 70/12/31(Th) 23:59:59.
+// @description:bs         Izgleda ovako. 70/12/31 (th) 23:59:59.
+// @description:ca         Sembla així. 70/12/31 (Th) 23:59:59.
+// @description:ce         Иштта хетало. 70/12/31(Th) 23:59:59.
+// @description:ceb        Ingon kini. 70/12/31 (Th) 23:59:59.
+// @description:ch         Parehu este yan este. 70/12/1211 (Th) 23:59:59.
+// @description:ckb        بەم شێوەیە دەردەکەوێت. 70/12/31(th) 23:59:59.
+// @description:co         Sembra cusì. 70/12/31 (u) 23:59:59.
+// @description:cs         Vypadá to takto. 70/12/31 (th) 23:59:59.
+// @description:cv         Кун пек курăнать. 70/12/31 (Тх) 23:59:59.
+// @description:cy         Mae’n edrych fel hyn. 70/12/31 (TH) 23:59:59.
+// @description:da         Det ser ud som dette. 70/12/31 (th) 23:59:59.
+// @description:de         Es sieht so aus. 70/12/31 (Th) 23:59:59.
+// @description:dv         މިހެން ހީވަނީ. 70/12/31(th) 23:59:59.
+// @description:dz         འདི་བཟུམ་མཐོངམ་ཨིན། ༧༠/༡༢/༣༡(ཐ) ༢༣:༥༩:༥༩.
+// @description:ee         Edze abe esia ene. 70/12/31 (th) 23:59:59.
+// @description:el         Μοιάζει με αυτό. 70/12/31 (Th) 23:59:59.
+// @description:en         It looks like this. 70/12/31(Th) 23:59:59.
+// @description:en-GB      It looks like this. 70/12/31(Th) 23:59:59.
+// @description:eo         Ĝi aspektas tiel. 70/12/31 (TH) 23:59:59.
+// @description:es         Se parece a esto. 70/12/31 (Th) 23:59:59.
+// @description:es-419     Se parece a esto. 70/12/31 (Th) 23:59:59.
+// @description:et         See näeb välja selline. 70/12/31 (Th) 23:59:59.
+// @description:eu         Horren antza du. 70/12/31 (th) 23:59:59.
+// @description:fa         به نظر می رسد مانند این 70/12/31 (TH) 23:59:59.
+// @description:ff         Ina wayi no nii. 70/12/31(Th) 23:59:59.
+// @description:fi         Se näyttää tältä. 70/12/31 (Th) 23:59:59.
+// @description:fil        Mukhang ganito. 70/12/31 (TH) 23:59:59.
+// @description:fj         E vaka oqo na ka oqo. 70/12/31(The The) 23:59:59.
+// @description:fo         Tað sær soleiðis út. 70/12/31(H) 23:59:59.
+// @description:fr         Cela ressemble à ça. 70/12/31 (TH) 23:59:59.
+// @description:fr-CA      Cela ressemble à ça. 70/12/31 (TH) 23:59:59.
+// @description:fy         It liket derop. 70/12/31 (TH) 23:59:59.
+// @description:ga         Tá an chuma air seo. 70/12/31 (TH) 23:59:59.
+// @description:gd         Tha e coltach ri seo. 70/12/31 (th) 23:59:59.
+// @description:gl         Parece así. 70/12/31 (TH) 23:59:59.
+// @description:gn         Péicha ojehecha. 70/12/31(TH) 23:59:59.
+// @description:gsw-berne  It looks like this. 70/12/31(Th) 23:59:59.
+// @description:gu         તે આના જેવું લાગે છે. 70/12/31 (મી) 23:59:59.
+// @description:gv         Ta’n red shoh myr shoh. 70/12/31(Th) 23:59:59.
+// @description:ha         Yayi kama da wannan. 70/12/31 (th) 23:59:59.
+// @description:he         זה נראה כך. 70/12/31 (TH) 23:59:59.
+// @description:hi         यह इस तरह दिख रहा है। 70/12/31 (Th) 23:59:59।
+// @description:hmn        Nws zoo li no. 70/12/31 (th) 23:59:59.
+// @description:hr         Izgleda ovako. 70/12/31 (TH) 23:59:59.
+// @description:ht         Li sanble tankou sa a. 70/12/31 (th) 23:59:59.
+// @description:hu         Így néz ki. 70/12/31 (TH) 23:59:59.
+// @description:hy         Կարծես սա է: 70/12/31 (րդ) 23:59:59:
+// @description:id         Sepertinya ini. 70/12/31 (TH) 23:59:59.
+// @description:ig         Ọ dị ka nke a. 70/12/31 (TH) 23:59:59.
+// @description:is         Það lítur svona út. 70/12/31 (TH) 23:59:59.
+// @description:it         Sembra questo. 70/12/31 (Th) 23:59:59.
+// @description:iu         ᐃᒪᐃᑦᑐᔭᕐᒪᑦ. 70/12/31(Th) 23:59:59.
+// @description:ja         このように見えます。 70/12/31（th）23:59:59。
+// @description:jv         Katon kaya ngono. 70/12/31 (th) 23:59:59.
+// @description:ka         ასე გამოიყურება. 70/12/31 (TH) 23:59:59.
+// @description:kg         Yo ke monana mutindu yai. 70/12/31(Th) 23:59:59.
+// @description:kk         Бұл сияқты. 70/12/31 (мың) 23:59:59.
+// @description:kl         Taamatut isikkoqarpoq. 70/12/31(Th) 23:59:59.
+// @description:km         វាមើលទៅដូចនេះ។ 70/12/31 (ទី) 23:59:59 ។
+// @description:kn         ಇದು ಈ ರೀತಿ ಕಾಣುತ್ತದೆ. 70/12/31 (ನೇ) 23:59:59.
+// @description:ko         이렇게 보인다. 70/12/31 (th) 23:59:59.
+// @description:kr         Alama adəgai. 70/12/31(Th) 23:59:59.
+// @description:ku         Wusa dixuye. 70/12/31 (th) 23:59:59.
+// @description:kv         Сійӧ татшӧм. 70/12/31(Тх) 23:59:59.
+// @description:ky         Бул окшойт. 70/12/31 (th) 23:59:59.
+// @description:la         Is vultus amo is. 70/12/31 (Th) 23:59:59.
+// @description:lb         IT gesäit esou aus. 70/12/31 (Th) 23:59:59.
+// @description:lg         Kirabika bwe kiti. 70/12/31(th) 23:59:59.
+// @description:ln         Ezali komonana lokola oyo. 70/12/31(th) 23:59:59.
+// @description:lo         ມັນເບິ່ງຄືວ່ານີ້. 70/12/31 (ທ) ເວລາ 23:59:59.
+// @description:lt         Panašu, kad taip. 70/12/31 (Th) 23:59:59.
+// @description:lv         Tas izskatās šādi. 70/12/31 (Th) 23:59:59.
+// @description:mg         Toa izany. 70/12/31 (th) 23:59:59.
+// @description:mh         Ej āinwōt in. 70/12/31( Tht) 23:59:59.
+// @description:mi         Te ahua nei. 70/12/31 (TH) 23:59:59.
+// @description:mk         Изгледа вака. 70/12/31 (TH) 23:59:59.
+// @description:ml         ഇത് ഇതുപോലെ തോന്നുന്നു. 70/12/31 (TH) 23:59:59.
+// @description:mn         Энэ нь иймэрхүү харагдаж байна. 70/12/31 (th) 23:59:59.
+// @description:mo         Pare așa. 70/12/31 (TH) 23:59:59.
+// @description:mr         हे असे दिसते. 70/12/31 (व्या) 23:59:59.
+// @description:ms         Nampaknya ini. 70/12/31 (Th) 23:59:59.
+// @description:mt         Jidher bħal dan. 70/12/31 (Th) 23:59:59.
+// @description:my         ဒါနဲ့တူတယ် 70/12/31 (ကြိမ်မြောက်) 23:59:59 ။
+// @description:nb         Det ser slik ut. 70/12/31 (TH) 23:59:59.
+// @description:ne         यो यस्तो देखिन्छ। 70/12/31 (th) 23 :: 59:59।
+// @description:nl         Het ziet er zo uit. 70/12/31 (TH) 23:59:59.
+// @description:nr         Bazama ukududuza. ( 1 10:10 ) U-Israyeli u-10:1.
+// @description:ny         Zikuwoneka ngati izi. 70/12/31 (th) 23:59:59.
+// @description:oc         Sembla aquò. 70/12/31(La) 23:59:59.
+// @description:om         Akkas fakkaata. 70/12/31(th) 23:59:59.
+// @description:or         ଏହା ଏହିପରି ଦେଖାଯାଏ | 70/12/31 (ଥ) 23:59।
+// @description:os         Афтæ зыны ахæм. 70/12/31(Th) 23:59:59.
+// @description:pa         ਇਹ ਇਸ ਤਰ੍ਹਾਂ ਲੱਗਦਾ ਹੈ. 70/12/31 (ਧੂਹ) 23:59:59.
+// @description:pl         Wygląda na to. 70/12/31 (th) 23:59:59.
+// @description:ps         دا ورته ښکاري. 70/12/31 (TH) 23:59:59.
+// @description:pt         Parece isso. 70/12/31 (TH) 23:59:59.
+// @description:pt-BR      Parece isso. 70/12/31 (TH) 23:59:59.
+// @description:pt-PT      Parece isso. 70/12/31 (TH) 23:59:59.
+// @description:qu         Kaymanmi rikchakun. 70/12/31(H) 23:59:59.
+// @description:rn         Bimeze gutya. 70/12/31(Th) 23:59:59.
+// @description:ro         Pare așa. 70/12/31 (TH) 23:59:59.
+// @description:ru         Похоже, это. 70/12/31 (TH) 23:59:59.
+// @description:rw         Birasa nkibi. 70/12/31 (TH) 23:59:59.
+// @description:sa         एवं दृश्यते। 70/12/31(थ) 23:59:59।
+// @description:sd         اهو ڏسجي ٿو. 70/12/31 (ٿ) 23:59:59.
+// @description:se         Dat lea ná. 70/12/31(Th) 23:59:59.
+// @description:sg         A yeke mo bâ mo tene a yeke tongaso. 70/12/12 (Th) 23:59:59.
+// @description:sh         Изгледа овако. 70/12/31 (ТХ) 23:59:59.
+// @description:si         ඒක මේ වගේ. 70/12/31 (TH) 23:59:59.
+// @description:sk         Vyzerá to takto. 70/12/31 (Th) 23:59:59.
+// @description:sl         Videti je tako. 70/12/31 (TH) 23:59:59.
+// @description:sm         E pei o lenei. 70/12/31 (th) 23:59:59.
+// @description:sn         Zvinotaridzika seizvi. 70/12/31 (th) 23:59:59.
+// @description:so         Waxay u egtahay sidan oo kale. 70/12/31 (th) 23:59:59.
+// @description:sq         Duket kështu. 70/12/31 (TH) 23:59:59.
+// @description:sr         Изгледа овако. 70/12/31 (ТХ) 23:59:59.
+// @description:ss         Kubukeka kanje. 70/12/31(Th) 23:59:59.
+// @description:st         E shebahala tjena. 70/12/31 (th) 23:59:59.
+// @description:su         Sigana mah ieu. 70/12/31 (th) 23:59:59.
+// @description:sv         Det ser ut så här. 70/12/31 (Th) 23:59:59.
+// @description:sw         Inaonekana kama hii. 70/12/31 (TH) 23:59:59.
+// @description:ta         இது போல் தெரிகிறது. 70/12/31 (வது) 23:59:59.
+// @description:te         ఇది ఇలా ఉంది. 70/12/31 (వ) 23:59:59.
+// @description:tg         Чунин ба назар мерасад. 70/12/31 (TH) 23:59:59.
+// @description:th         ดูเหมือนว่า 70/12/31 (Th) 23:59:59
+// @description:ti         ከምዚ ይመስል። 70/12/31(th) 23:59:59።
+// @description:tk         Şuňa meňzeýär. 70/12/3/31 (tra) 23:59:59.
+// @description:tl         Mukhang ganito. 70/12/31 (TH) 23:59:59.
+// @description:tn         Go lebega jaana. 70/12/31(Th) 23:59:59.
+// @description:to         ʻOku hangē ʻení. 70/12/31(T) 23:59:59.
+// @description:tr         Öyle görünüyor. 70/12/31 (TH) 23:59:59.
+// @description:ts         Swi languteka hi ndlela leyi. 70/12/31(TH) 23:59:59.
+// @description:tt         Бу шундый. 70/12/31 (th) 23:59:59.
+// @description:tw         Ɛte sɛ eyi. 70/12/31(th) 23:59:59.
+// @description:ty         E au te reira i te reira. 70/12/31(Th) 23:59:59.
+// @description:ug         ئۇ ئوخشايدۇ. 70/12/31 (th) 23:59:59.
+// @description:uk         Це виглядає так. 70/12/31 (Th) 23:59:59.
+// @description:ur         ایسا لگتا ہے۔ 70/12/31 (ویں) 23:59:59۔
+// @description:uz         Bu shunday ko’rinadi. 70/12/31 (Th) 23:59:59.
+// @description:ve         Zwi vhonala zwo ralo. 70/12/31(Th) 23:59:59.
+// @description:vi         Nó trông như thế này. 70/12/31 (th) 23:59:59.
+// @description:wo         Dafa mel nii. 70/12/31(Th) 23:59:59.
+// @description:xh         Ijongeka ngoluhlobo. 70/12/31 (th) 23:59:59.
+// @description:yi         עס קוקט ווי דאָס. 70/12/31 (טה) 23:59:59.
+// @description:yo         O dabi eyi. 70/12/31 (TH) 23:59:59.
+// @description:zh         看起来是这样的。70/12/31(Th) 23:59:59.
+// @description:zh-CN      看起来是这样的。70/12/31(Th) 23:59:59.
+// @description:zh-HK      看起來是這樣的。 70/12/31(Th) 23:59:59.
+// @description:zh-MO      看起來是這樣的。 70/12/31(Th) 23:59:59.
+// @description:zh-MY      看起来是这样的。70/12/31(Th) 23:59:59.
+// @description:zh-SG      看起来是这样的。70/12/31(Th) 23:59:59.
+// @description:zh-TW      看起來是這樣的。 70/12/31(Th) 23:59:59.
+// @description:zu         Kubukeka kanjena. 70/12/31 (th) 23:59:59.
+// @author                 AeamaN
+// @namespace              https://github.com/ChinaGodMan/UserScripts
+// @supportURL             https://github.com/ChinaGodMan/UserScripts/issues
+// @homepageURL            https://github.com/ChinaGodMan/UserScripts
+// @homepage               https://github.com/ChinaGodMan/UserScripts
+// @license                MIT
+// @match                  https://twitter.com/*
+// @match                  https://mobile.twitter.com/*
+// @match                  https://mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/*
+// @match                  https://x.com/*
+// @match                  https://mobile.x.com/*
+// @require                https://update.greasyfork.org/scripts/538254/1601105/PNG.js
+// @grant                  GM_getValue
+// @grant                  GM_registerMenuCommand
+// @grant                  GM_setValue
+// @run-at                 document-body
+// @icon                   https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg
+// @compatible             chrome
+// @compatible             firefox
+// @compatible             edge
+// @compatible             opera
+// @compatible             safari
+// @compatible             kiwi
+// @compatible             qq
+// @compatible             via
+// @compatible             brave
+// @version                2025.6.4.1
+// @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
+// @updateURL              https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
 // ==/UserScript==
 
 // And more. See Default valuse below.

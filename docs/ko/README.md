@@ -95,16 +95,16 @@
 💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:80,스크립트에는 포함됩니다:**
+**저장소에 대한 현재 게시 된 스크립트 수:82,스크립트에는 포함됩니다:**
 <h6><a href="#웹-스크립트-10">웹 스크립트 (10)</a>
- | <a href="#GreasyFork-11">GreasyFork (11)</a>
+ | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#성인-스크립트-11">성인 스크립트 (11)</a>
  | <a href="#Google-스크립트-2">Google 스크립트 (2)</a>
  | <a href="#GitHub-스크립트-19">GitHub 스크립트 (19)</a>
  | <a href="#번역-스크립트-3">번역 스크립트 (3)</a>
  | <a href="#AI-스크립트-9">AI 스크립트 (9)</a>
  | <a href="#블로그-웹-사이트-5">블로그 웹 사이트 (5)</a>
- | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
@@ -470,7 +470,7 @@
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GreasyFork (11)</h1></div><h3>
+<div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
@@ -874,6 +874,44 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
+<h3>
+    <a href="../../greasyfork-unupdated-script">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
+    <a href="../../greasyfork-unupdated-script">Greasyfork는 업데이트되지 않은 스크립트가 강조 표시되었습니다</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538259">
+        <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Greasyfork의 Unupdated Script 배경은 이러한 비공개 스크립트의 식별을 용이하게하기 위해 Light Red로 표시됩니다.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">
+            <img width=511 src="https://s2.loli.net/2025/06/04/ohvnDpT746AgU3F.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538259">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538259">
+        Greasemonkey</a> /
+    <a href="../../greasyfork-unupdated-script/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../greasyfork-unupdated-script/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
@@ -2644,7 +2682,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (3)</h1></div><h3>
+<div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
@@ -2755,6 +2793,43 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+</blockquote>
+<h3>
+    <a href="../../twitter-show-date-normally">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-show-date-normally">트위터에는 일반 날짜와 시간이 표시됩니다</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538260">
+        <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>이렇게 보인다. 70/12/31 (th) 23:59:59.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally">
+            <img width=511 src="https://s2.loli.net/2025/06/04/BAYO6TUDEufP5tv.png">
+            <img width=511 src="https://s2.loli.net/2025/06/04/OZcnDKIT14thaRo.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538260">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538260">
+        Greasemonkey</a> /
+    <a href="../../twitter-show-date-normally/README_ko.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-show-date-normally/README_ko.md">
+        readme 파일</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
+    <a href="../../twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

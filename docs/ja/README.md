@@ -95,16 +95,16 @@
 💡 **Tip:** _プレビュースクリーンショットを表示します，以下の拡張機能名をクリックしてください ▸ または説明。_
 
 <!--SCRIPTS_COUNT-->
-**リポジトリの現在公開されているスクリプトの数:80,スクリプトには含まれます:**
+**リポジトリの現在公開されているスクリプトの数:82,スクリプトには含まれます:**
 <h6><a href="#Webスクリプト-10">Webスクリプト (10)</a>
- | <a href="#GreasyFork-11">GreasyFork (11)</a>
+ | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#大人のスクリプト-11">大人のスクリプト (11)</a>
  | <a href="#Google-脚本-2">Google 脚本 (2)</a>
  | <a href="#GitHub-脚本-19">GitHub 脚本 (19)</a>
  | <a href="#翻訳スクリプト-3">翻訳スクリプト (3)</a>
  | <a href="#AI-脚本-9">AI 脚本 (9)</a>
  | <a href="#ブログのウェブサイト-5">ブログのウェブサイト (5)</a>
- | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
@@ -470,7 +470,7 @@
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GreasyFork (11)</h1></div><h3>
+<div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">URL強化の脂っこいフォークスクリプトページ</a>&nbsp;
@@ -874,6 +874,44 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
+<h3>
+    <a href="../../greasyfork-unupdated-script">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
+    <a href="../../greasyfork-unupdated-script">Greasyfork更新しますされていないスクリプトが強調するされました</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538259">
+        <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Greasyforkの使用されていませんのスクリプトの背景は、これらの使用されていませんのスクリプトの識別を簡単にするために、明るいるい赤で急行されます。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">
+            <img width=511 src="https://s2.loli.net/2025/06/04/ohvnDpT746AgU3F.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538259">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538259">
+        Greasemonkey</a> /
+    <a href="../../greasyfork-unupdated-script/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../greasyfork-unupdated-script/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
@@ -2644,7 +2682,7 @@ Sina Weiboは自動的にモバイルバージョンにジャンプします，W
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (3)</h1></div><h3>
+<div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/Xリツイートされた投稿を非発現にします</a>&nbsp;
@@ -2755,6 +2793,43 @@ Twitter（x）ブラックリストとブロックリストをダウンロード
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
+<h3>
+    <a href="../../twitter-show-date-normally">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-show-date-normally">Twitterには一般的にの日付と時間が急行されます</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538260">
+        <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>このように見えます。 70/12/31（th）23:59:59。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally">
+            <img width=511 src="https://s2.loli.net/2025/06/04/BAYO6TUDEufP5tv.png">
+            <img width=511 src="https://s2.loli.net/2025/06/04/OZcnDKIT14thaRo.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538260">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538260">
+        Greasemonkey</a> /
+    <a href="../../twitter-show-date-normally/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-show-date-normally/README_en.md">
+        readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a>
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">ディレクトリに戻ります</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

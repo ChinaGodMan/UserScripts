@@ -95,16 +95,16 @@
 💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ O descrizione。_
 
 <!--SCRIPTS_COUNT-->
-**Il numero di script pubblicati correnti per il repository:80,Lo script include:**
+**Il numero di script pubblicati correnti per il repository:82,Lo script include:**
 <h6><a href="#Script-web-10">Script web (10)</a>
- | <a href="#GreasyFork-11">GreasyFork (11)</a>
+ | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#Script-per-adulti-11">Script per adulti (11)</a>
  | <a href="#Google-Sceneggiatura-2">Google Sceneggiatura (2)</a>
  | <a href="#GitHub-Sceneggiatura-19">GitHub Sceneggiatura (19)</a>
  | <a href="#Script-di-traduzione-3">Script di traduzione (3)</a>
  | <a href="#AI-Sceneggiatura-9">AI Sceneggiatura (9)</a>
  | <a href="#Sito-web-del-blog-5">Sito web del blog (5)</a>
- | <a href="#Twitter-3">Twitter (3)</a>
+ | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
@@ -470,7 +470,7 @@ Converti i collegamenti di testo in collegamenti cliccabili
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GreasyFork (11)</h1></div><h3>
+<div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Pagine di script fork grasse per il miglioramento dell’URL</a>&nbsp;
@@ -874,6 +874,44 @@ Cerca utilizzando GoogleGreasyForkESleazyForkscrittura superiore
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro di aggiornamento</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
+</blockquote>
+<h3>
+    <a href="../../greasyfork-unupdated-script">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
+    <a href="../../greasyfork-unupdated-script">Greasyfork non aggiornato lo script evidenziato</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538259">
+        <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Numero%20di%20utenti"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Lo sfondo di script non updatato di Greasyfork viene visualizzato in rosso chiaro per facilitare l’identificazione di questi script non updati.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">
+            <img width=511 src="https://s2.loli.net/2025/06/04/ohvnDpT746AgU3F.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538259">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538259">
+        Greasemonkey</a> /
+    <a href="../../greasyfork-unupdated-script/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../greasyfork-unupdated-script/README_en.md">
+        File readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutere</a> /
+    <a href="../../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Codice sorgente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
@@ -2644,7 +2682,7 @@ Sina Weibo salterà automaticamente alla versione mobile，Supporta Weibo、arti
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (3)</h1></div><h3>
+<div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Post di twitter/x nascondi retweet</a>&nbsp;
@@ -2755,6 +2793,43 @@ Utilizzato per scaricare liste nere di Twitter (x) e elenchi bloccati, supportar
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
+</blockquote>
+<h3>
+    <a href="../../twitter-show-date-normally">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../../twitter-show-date-normally">Twitter visualizza la data e l’ora normali</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/538260">
+        <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Numero%20di%20utenti"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Sembra questo. 70/12/31 (Th) 23:59:59.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally">
+            <img width=511 src="https://s2.loli.net/2025/06/04/BAYO6TUDEufP5tv.png">
+            <img width=511 src="https://s2.loli.net/2025/06/04/OZcnDKIT14thaRo.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/538260">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/538260">
+        Greasemonkey</a> /
+    <a href="../../twitter-show-date-normally/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../twitter-show-date-normally/README_en.md">
+        File readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutere</a> /
+    <a href="../../twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Codice sorgente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a>
 </blockquote>
 <div align="right"><a href="#-Elenco-degli-script">Tornare alla directory</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

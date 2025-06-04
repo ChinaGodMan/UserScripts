@@ -1064,25 +1064,25 @@
       "locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "",
-      "description": "",
+      "name": "Greasyfork 未更新脚本高亮",
+      "description": "Greasyfork 未更新的脚本背景显示为浅红色,方便识别这些未更新脚本",
       "group": "GreasyFork",
       "js_name": "greasyfork-unupdated-script.user.js",
       "directory": "greasyfork-unupdated-script",
       "version": "2025.6.4.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 538259,
       "preview": "https://s2.loli.net/2025/06/04/ohvnDpT746AgU3F.png",
       "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg",
       "locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "",
-      "description": "",
+      "name": "Twitter 显示正常的日期和时间",
+      "description": "看起来是这样的。70/12/31(Th) 23:59:59.",
       "group": "Twitter",
       "js_name": "twitter-show-date-normally.user.js",
       "directory": "twitter-show-date-normally",
       "version": "2025.6.4.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 538260,
       "preview": [
         "https://s2.loli.net/2025/06/04/BAYO6TUDEufP5tv.png",
         "https://s2.loli.net/2025/06/04/OZcnDKIT14thaRo.png"
