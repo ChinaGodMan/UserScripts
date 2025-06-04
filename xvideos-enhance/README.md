@@ -59,6 +59,7 @@
     <p>「 1.自动播放 2.自动宽屏 3.高画质播放 4.点击推送下片 5.下载缩略图 」</p>
     <img src="https://views.whatilearened.today/views/github/528798/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xvideos-enhance/xvideos-enhance.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.528798&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/528798">Greasy

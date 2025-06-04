@@ -61,6 +61,7 @@
     <p>「 Add a button in GitHub PR to add all PR participants as co-authors before merging. 」</p>
     <img src="https://views.whatilearened.today/views/github/537446/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-co-authors/github-co-authors.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.537446&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537446">Greasy
@@ -79,7 +80,7 @@
 
 ### Better GitHub Co-Authors
 
-此脚本of功能是为 GitHub 的 Pull Request（PR）Add a button on the page，Used to quickly PR Participants added as co-author，This simplifies the collaboration process。  
+This scriptofFunction is for GitHub of Pull Request（PR）Add a button on the page，Used to quickly PR Participants added as co-author，This simplifies the collaboration process。  
 Modified the original script,Make it supportive`TOKEN`Access is used to avoid`API`Access frequency limit
 
 ### Function description

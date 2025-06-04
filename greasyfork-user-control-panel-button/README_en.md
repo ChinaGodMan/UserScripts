@@ -59,6 +59,7 @@
     <p>「 Add user list on navigation bar,console,Collection etc... 」</p>
     <img src="https://views.whatilearened.today/views/github/501880/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.501880&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/501880">Greasy

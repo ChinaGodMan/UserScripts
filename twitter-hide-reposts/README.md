@@ -59,6 +59,7 @@
     <p>「 自动隐藏转发转发内容,并且在首次加载时隐藏转发内容,移除烦人的广告 」</p>
     <img src="https://views.whatilearened.today/views/github/529450/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-hide-reposts/twitter-hide-reposts.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.529450&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529450">Greasy

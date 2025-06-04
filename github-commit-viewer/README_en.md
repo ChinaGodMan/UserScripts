@@ -59,6 +59,7 @@
     <p>「 This script will GitHub The submission information on HTML view，to see submission details more clearly。It will automatically submit the information list、The commit header and latest commit information are converted to HTML Format，Provide better visual effects and user experience。 」</p>
     <img src="https://views.whatilearened.today/views/github/505830/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-commit-viewer/github-commit-viewer.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.505830&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505830">Greasy

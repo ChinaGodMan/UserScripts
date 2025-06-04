@@ -59,6 +59,7 @@
     <p>「 Identify non-Chinese characters. If the length is greater than 5 and the translated text does not contain Chinese, then translate and replace the original text to Chinese. 」</p>
     <img src="https://views.whatilearened.today/views/github/504890/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/no-zh-terminator/no-zh-terminator.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.504890&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/504890">Greasy

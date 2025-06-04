@@ -61,6 +61,7 @@
     <p>「 Use public event data (for example, a submission pushed to a public code base), get the user’s submission email address and display it on the profile page. In addition, it also adds a convenient "Copy to Clipboard" button for easy copying. 」</p>
     <img src="https://views.whatilearened.today/views/github/537309/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-email-finder/github-email-finder.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.537309&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537309">Greasy

@@ -59,6 +59,7 @@
     <p>「 Open the GitHub link on jsDelivr to quickly download files 」</p>
     <img src="https://views.whatilearened.today/views/github/527870/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-jsdelivr-link/github-jsdelivr-link.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.527870&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/527870">Greasy

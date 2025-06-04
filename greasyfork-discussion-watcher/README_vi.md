@@ -59,6 +59,7 @@
     <p>「 Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Tập lệnh sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
@@ -77,7 +78,7 @@
 <p><strong>Mới</strong>: Thêm vào<code>read=unread</code>tham số,Chỉ trích xuất thông tin chưa đọc,Phiên bản này là phiên bản cuối cùng.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Thông báo trang web đã dần được hỗ trợ,Kịch bản sẽ mất đi ý nghĩa của sự tồn tại của nó.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới của bạn,Và vàoKhớp với loa cuối cùngngười dùng ID Khi thất bại,Khớp với loa cuối cùng.</p>
+<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới của bạn,并且在Khớp với loa cuối cùng用户 ID Khi thất bại,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>cải thiện </strong>: Danh sách thảo luận để sử dụng trang web thay thế，Thêm danh mục trong thông tin。</p>

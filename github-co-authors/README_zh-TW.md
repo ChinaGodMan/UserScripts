@@ -61,6 +61,7 @@
     <p>「 在 GitHub PR中添加一個按鈕,以便在合併之前將所有 PR 參與者添加為共同作者. 」</p>
     <img src="https://views.whatilearened.today/views/github/537446/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-co-authors/github-co-authors.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.537446&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537446">Greasy

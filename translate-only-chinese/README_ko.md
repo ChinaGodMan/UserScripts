@@ -59,6 +59,7 @@
     <p>「 각 비 중국 웹 페이지의 오른쪽 하단에 Google 번역 아이콘을 추가하십시오 (왼쪽 하단 코너로 조정할 수 있음). 이 버전은 중국어 번역 버전이며 외국어 만 중국어로 번역되며 자동 번역이 추가됩니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/505208/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese/translate-only-chinese.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.505208&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505208">Greasy

@@ -61,6 +61,7 @@
     <p>「 在 YouTube 視頻播放器中添加滑塊，讓音量變化更加自然。 」</p>
     <img src="https://views.whatilearened.today/views/github/537787/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-better-volume-control/youtube-better-volume-control.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537787?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.537787&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537787">Greasy
@@ -86,7 +87,7 @@ YouTube 的視頻頁面和 Shorts 頁面提供自定義音量滑塊功能，使�
 - 針對 `/watch` 頁面的視頻播放提供以下功能：
     - 自定義音量滑塊，支持更精細的音量調整。
     - 將音量調整存儲到 `localStorage`，頁面刷新後保持之前的設置。
-    - 支持通過鍵盤 `ArrowUp` 和 `ArrowDown` 調整音量（10% 增量）。
+    - 支持通過鍵盤 `ArrowUp` 和 `ArrowDown` 調整捲（10% 增量）。
 
 ### 2. **Shorts 頁面音量滑塊**
 

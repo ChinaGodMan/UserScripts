@@ -61,6 +61,7 @@
     <p>「 Convert text links to clickable links 」</p>
     <img src="https://views.whatilearened.today/views/github/514262/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/text-to-link/text-to-link.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.514262&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/514262">Greasy

@@ -61,6 +61,7 @@
     <p>「 Displays the size of each file and folder in the GitHub repository. It uses the GitHub API to get details, including recursive folder sizes, making it easy to see the total size of nested directories. Display file size in KB, MB, or GB 」</p>
     <img src="https://views.whatilearened.today/views/github/537310/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-size-viewer/github-file-size-viewer.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.537310&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537310">Greasy

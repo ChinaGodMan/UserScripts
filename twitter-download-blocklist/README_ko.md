@@ -61,6 +61,7 @@
     <p>「 Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이지의 자동 감지 및 해당 목록을 TSV 파일로 내보내므로 쉽게 백업하고 관리 할 수 있습니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/538137/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-download-blocklist/twitter-download-blocklist.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.538137&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538137">Greasy

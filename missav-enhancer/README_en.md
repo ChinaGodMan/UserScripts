@@ -59,6 +59,7 @@
     <p>「 Remove ads | Backstage play | Autoplay | Custom fast forward time | Full title | More features... 」</p>
     <img src="https://views.whatilearened.today/views/github/529125/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/missav-enhancer/missav-enhancer.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529125&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529125">Greasy

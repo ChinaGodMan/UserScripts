@@ -59,6 +59,7 @@
     <p>「 웹 페이지의 텍스트를 강조 표시하십시오. 도움이되면 원하는대로 수정할 수 있습니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/498906/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords/highlight-keywords.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.498906&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498906">Greasy

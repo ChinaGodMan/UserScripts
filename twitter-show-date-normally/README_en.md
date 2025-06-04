@@ -61,6 +61,7 @@
     <p>「 It looks like this. 70/12/31(Th) 23:59:59. 」</p>
     <img src="https://views.whatilearened.today/views/github/538260/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-show-date-normally/twitter-show-date-normally.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.538260&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538260">Greasy

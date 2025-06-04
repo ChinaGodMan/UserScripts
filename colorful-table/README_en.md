@@ -59,6 +59,7 @@
     <p>「 Automatically apply color gradients to all columns of the table to beautify it 」</p>
     <img src="https://views.whatilearened.today/views/github/507036/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/colorful-table/colorful-table.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.507036&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/507036">Greasy

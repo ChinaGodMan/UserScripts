@@ -59,6 +59,7 @@
     <p>「 XnxxVideos Video download with one click | xnxx.com | Download directly without login | All viewable resolutions can be downloaded 」</p>
     <img src="https://views.whatilearened.today/views/github/529044/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/xnxx-downloader/xnxx-downloader.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529044&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529044">Greasy

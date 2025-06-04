@@ -59,6 +59,7 @@
     <p>「 If your script interferes with the interests of some people, it is not surprising to receive malicious negative reviews. There are two characteristics of malicious negative reviews: one is that the account is usually newly registered, and the other is that the negative reviews will be given shortly after registration, and there will be basically no follow-up activities. This script gets the registration time of the greasyfork user and is displayed next to the user name. If the time displayed next to the user name is the future time, then the user is likely to be a malicious account registered. 」</p>
     <img src="https://views.whatilearened.today/views/github/529359/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529359&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529359">Greasy

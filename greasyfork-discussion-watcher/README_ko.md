@@ -59,6 +59,7 @@
     <p>「 귀하의 스크립트나 귀하가 참여하고 있는 토론에 대한 새로운 답변이 있는 경우，스크립트는 웹 페이지의 모달 창에 최신 토론 내용을 표시합니다.。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
@@ -77,7 +78,7 @@
 <p><strong>새로운</strong>: 추가<code>read=unread</code>매개 변수,읽지 않은 정보 만 추출하십시오,이 버전은 최종 버전입니다.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 사이트 알림이 점차 지원되었습니다,대본은 존재의 의미를 잃게됩니다.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,그리고에서마지막 스피커와 일치합니다사용자 ID 실패시,마지막 스피커와 일치합니다.</p>
+<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,并且在마지막 스피커와 일치합니다用户 ID 실패시,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>개선하다</strong>: 대신 웹 사이트를 사용하기위한 토론 목록，정보에 카테고리를 추가하십시오。</p>

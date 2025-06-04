@@ -60,6 +60,7 @@
     <p>「 Expand Github List of languages on the repository，Show each language，Instead of hiding small parts in“other”Down 」</p>
     <img src="https://views.whatilearened.today/views/github/509889/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-linguist-expand/github-linguist-expand.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.509889&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/509889">Greasy

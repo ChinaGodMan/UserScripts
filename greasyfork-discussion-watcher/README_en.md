@@ -59,6 +59,7 @@
     <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
@@ -77,7 +78,7 @@
 <p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread information,This version is the final version.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Site notifications have been gradually supported,The script will lose its meaning of existence.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your new discussion,And inMatch the last speakeruser ID When failure,Match the last speaker.</p>
+<p><strong>New</strong>: Skip your new discussion,并且在Match the last speaker用户 ID When failure,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>improve</strong>: Discussion list for using the website instead，Add categories in the information。</p>

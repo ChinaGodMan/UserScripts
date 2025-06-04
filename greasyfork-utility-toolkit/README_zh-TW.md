@@ -59,6 +59,7 @@
     <p>「 為 Greasyfork 提供各種使用功能，絕對時間，網頁寬螢幕，腳本頁增強，下載拓展，面板修復等一系列操作 」</p>
     <img src="https://views.whatilearened.today/views/github/497346/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.497346&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/497346">Greasy
@@ -137,7 +138,7 @@
 <hr />
 <h3><strong>📅 2024/7/13 - Ver 2.2.0.5</strong></h3>
 <p><strong>新增</strong>: • 增加自動登錄 <a href="https://greasyfork.org/zh-CN/scripts/475722">GreasyFork 最佳化</a>。
-<strong>修復</strong>: • 修復顯示列表上的腳本安裝狀態。
+<strong>修復</strong>: • 修復顯示​​列表上的腳本安裝狀態。
 <strong>最佳化</strong>: • 完善對多語言的支持。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/497346.png">

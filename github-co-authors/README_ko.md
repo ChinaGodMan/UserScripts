@@ -61,6 +61,7 @@
     <p>「 병합 전에 모든 PR 참가자를 공동 저자로 추가하려면 github pr에 버튼을 추가하십시오. 」</p>
     <img src="https://views.whatilearened.today/views/github/537446/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-co-authors/github-co-authors.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.537446&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537446">Greasy
@@ -79,7 +80,7 @@
 
 ### Better GitHub Co-Authors
 
-此脚本~의功能是为 GitHub 的 Pull Request（PR）페이지에 버튼을 추가하십시오，빨리 사용되었습니다 PR 참가자가 추가되었습니다 co-author，이것은 협업 프로세스를 단순화합니다。  
+이 스크립트~의기능은 기능입니다 GitHub ~의 Pull Request（PR）페이지에 버튼을 추가하십시오，빨리 사용되었습니다 PR 참가자가 추가되었습니다 co-author，이것은 협업 프로세스를 단순화합니다。  
 원본 스크립트를 수정했습니다,그것을지지하게 만드십시오`TOKEN`액세스는 피하는 데 사용됩니다`API`액세스 빈도 한도
 
 ### 기능 설명

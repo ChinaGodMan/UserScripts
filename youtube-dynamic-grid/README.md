@@ -61,6 +61,7 @@
     <p>「 根据窗口宽度动态调整 YouTube 视频网格，以每行显示最佳数量的视频，覆盖默认的 3 个视频网格，以实现响应更快的布局 」</p>
     <img src="https://views.whatilearened.today/views/github/538138/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-dynamic-grid/youtube-dynamic-grid.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.538138&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538138">Greasy

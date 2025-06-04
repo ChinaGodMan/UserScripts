@@ -59,6 +59,7 @@
     <p>「 Automatically hide forwarded content and hide forwarded content on first loading to remove annoying ads 」</p>
     <img src="https://views.whatilearened.today/views/github/529450/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-hide-reposts/twitter-hide-reposts.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529450&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529450">Greasy

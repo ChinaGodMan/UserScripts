@@ -61,6 +61,7 @@
     <p>「 Hiển thị kích thước của mỗi tệp và thư mục trong kho GitHub. Nó sử dụng API GitHub để có chi tiết, bao gồm các kích thước thư mục đệ quy, giúp dễ dàng thấy tổng kích thước của các thư mục lồng nhau. Hiển thị kích thước tệp tính bằng kb, mb hoặc gb 」</p>
     <img src="https://views.whatilearened.today/views/github/537310/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-size-viewer/github-file-size-viewer.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.537310&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537310">Greasy

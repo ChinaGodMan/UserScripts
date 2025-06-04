@@ -59,6 +59,7 @@
     <p>「 Search for a Google Blocking a specified site 」</p>
     <img src="https://views.whatilearened.today/views/github/500262/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-block-search-sites/google-block-search-sites.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.500262&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/500262">Greasy

@@ -59,6 +59,7 @@
     <p>「 Từ khóa tùy chỉnh làm nổi bật trên các trang web bao gồm tải động khi cuộn 」</p>
     <img src="https://views.whatilearened.today/views/github/498905/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/highlight-keywords-mini/highlight-keywords-mini.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.498905&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/498905">Greasy

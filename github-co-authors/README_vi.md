@@ -61,6 +61,7 @@
     <p>「 Thêm một nút trong GitHub PR để thêm tất cả người tham gia PR làm đồng tác giả trước khi hợp nhất. 」</p>
     <img src="https://views.whatilearened.today/views/github/537446/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-co-authors/github-co-authors.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.537446&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537446">Greasy
@@ -79,7 +80,7 @@
 
 ### Better GitHub Co-Authors
 
-此脚本của功能是为 GitHub 的 Pull Request（PR）Thêm một nút trên trang，Được sử dụng để nhanh chóng PR Những người tham gia được thêm vào như co-author，Điều này đơn giản hóa quá trình hợp tác。  
+Kịch bản nàycủaChức năng là cho GitHub của Pull Request（PR）Thêm một nút trên trang，Được sử dụng để nhanh chóng PR Những người tham gia được thêm vào như co-author，Điều này đơn giản hóa quá trình hợp tác。  
 Đã sửa đổi tập lệnh gốc,Làm cho nó hỗ trợ`TOKEN`Truy cập được sử dụng để tránh`API`Truy cập giới hạn tần số
 
 ### Mô tả chức năng

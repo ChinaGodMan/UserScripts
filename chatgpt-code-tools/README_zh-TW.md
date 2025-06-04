@@ -61,6 +61,7 @@
     <p>「 為 ChatGPT 代碼塊添加功能，包括保存或複制代碼片段的選項。 」</p>
     <img src="https://views.whatilearened.today/views/github/537646/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-tools/chatgpt-code-tools.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537646?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.537646&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537646">Greasy

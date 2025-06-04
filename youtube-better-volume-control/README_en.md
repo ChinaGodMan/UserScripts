@@ -61,6 +61,7 @@
     <p>「 Add sliders to YouTube video player to make volume changes more natural. 」</p>
     <img src="https://views.whatilearened.today/views/github/537787/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-better-volume-control/youtube-better-volume-control.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/537787?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.537787&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537787">Greasy

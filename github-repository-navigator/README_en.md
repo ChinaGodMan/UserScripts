@@ -59,6 +59,7 @@
     <p>「 🤠 GitHub warehouse quick jump assistant, specially designed to help users quickly access their own warehouses on GitHub. It generates a button at the top of the navigation bar. Click to expand all your repositories and easily jump to your own GitHub repository page without using GitHub’s secondary menu. 」</p>
     <img src="https://views.whatilearened.today/views/github/515205/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repository-navigator/github-repository-navigator.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.515205&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/515205">Greasy

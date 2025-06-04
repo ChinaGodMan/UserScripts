@@ -59,13 +59,14 @@
     <p>「 웹페이지의 클립보드 쓰기 동작을 관리하여 무단 자동 복사를 방지하고 오디오 및 비디오 콘텐츠 사전 로드 및 자동 재생을 비활성화합니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/497403/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/clipboard-manager/clipboard-manager.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.497403&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/497403">Greasy
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 웹 페이지 작성 클립 버전 승인 관리자 로그 업데이트</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>수리하다</strong>: •복사 기능 <code>pc</code> 그렇지 않다 red 그리고 <code>window.navigator.clipboard.writeText</code> ,클립에 수동으로 복사해야합니다.@90
-<strong>수리하다</strong>: •논리적 오류 ↠ 바로 가기 키를 눌러 복사 한 후에 만 ​​표시기 만 사용할 수 있습니다.~을 위한 red 언제 재설정하십시오，~을 위한 green 재설정 없음@161</p>
+<strong>수리하다</strong>: •논리적 오류 ↠ 按下快捷键复制后只有指示器~을 위한 red 언제 재설정하십시오，为 green 재설정 없음@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>새로운</strong>: •감시 장치<code>clipboard.writeText</code>이벤트</p>

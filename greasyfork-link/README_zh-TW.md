@@ -59,6 +59,7 @@
     <p>「 腳本詳情頁適用於網址不默認跳轉搜索 轉為可點擊的文本鏈接並彈出提示 」</p>
     <img src="https://views.whatilearened.today/views/github/497317/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-link/greasyfork-link.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.497317&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/497317">Greasy

@@ -59,6 +59,7 @@
     <p>「 Add an advanced search form to the top of your Google search page 」</p>
     <img src="https://views.whatilearened.today/views/github/502652/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/google-advanced-search/google-advanced-search.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.502652&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502652">Greasy

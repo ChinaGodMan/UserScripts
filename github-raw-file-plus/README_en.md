@@ -59,6 +59,7 @@
     <p>「 Add button at the end of each file line，to copy the original file URL and download files 」</p>
     <img src="https://views.whatilearened.today/views/github/505501/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-raw-file-plus/github-raw-file-plus.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.505501&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505501">Greasy

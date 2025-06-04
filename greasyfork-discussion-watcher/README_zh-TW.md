@@ -59,6 +59,7 @@
     <p>「 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
@@ -77,7 +78,7 @@
 <p><strong>新增</strong>: 添加<code>read=unread</code>參數,只提取未讀信息,此版本為最終版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已經逐步支持站內通知,腳本將失去存在的意義.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>新增</strong>: 跳過自己新開的討論,并且在匹配最後發言人用户 ID 失敗時,匹配最後發言人.</p>
+<p><strong>新增</strong>: 跳過自己新開的討論,并且在匹配最後發言人用户 ID 失敗時,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
 <p><strong>改進</strong>: 改為使用網站的討論列表，增加在信息內添加分類。</p>

@@ -59,6 +59,7 @@
     <p>「 Have you forgotten the purpose of Star repositories? This is a script that can add notes to your favorite repositories, and the information you comments can be uploaded and downloaded to GitHub Gist 」</p>
     <img src="https://views.whatilearened.today/views/github/533511/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-starred-repo-note/github-starred-repo-note.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.533511&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/533511">Greasy

@@ -59,6 +59,7 @@
     <p>「 스타 저장소의 목적을 잊었습니까? 이것은 좋아하는 저장소에 메모를 추가 할 수있는 스크립트이며, 귀하가 댓글을 달아 Github Gist에 업로드하여 다운로드 할 수 있습니다. 」</p>
     <img src="https://views.whatilearened.today/views/github/533511/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-starred-repo-note/github-starred-repo-note.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.533511&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/533511">Greasy

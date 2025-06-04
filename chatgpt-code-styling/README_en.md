@@ -59,6 +59,7 @@
     <p>「 ChatGPT Make code font smaller and automatically wrap 」</p>
     <img src="https://views.whatilearened.today/views/github/505209/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/chatgpt-code-styling/chatgpt-code-styling.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.505209&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505209">Greasy

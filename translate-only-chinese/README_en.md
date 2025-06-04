@@ -59,6 +59,7 @@
     <p>「 Add a Google Translation icon to the lower right corner of each non-Chinese web page (can be adjusted to the lower left corner). This version is a Chinese translation version, and only foreign languages are translated into Chinese, and automatic translation is added. 」</p>
     <img src="https://views.whatilearened.today/views/github/505208/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/translate-only-chinese/translate-only-chinese.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.505208&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505208">Greasy

@@ -59,6 +59,7 @@
     <p>「 existGitHubThe authorization page automatically enters the authorization code and automatically confirms it.。 」</p>
     <img src="https://views.whatilearened.today/views/github/508956/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-device-authorization/github-device-authorization.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.508956&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/508956">Greasy

@@ -61,6 +61,7 @@
     <p>「 Dynamically adjust the YouTube video grid based on window width to display the best number of videos per line, overwriting the default 3 video grids for faster responsive layouts 」</p>
     <img src="https://views.whatilearened.today/views/github/538138/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-dynamic-grid/youtube-dynamic-grid.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.538138&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538138">Greasy

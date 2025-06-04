@@ -61,6 +61,7 @@
     <p>「 Động điều chỉnh lưới điện tử YouTube dựa trên chiều rộng cửa sổ để hiển thị số video tốt nhất trên mỗi dòng, ghi đè lên 3 lưới video mặc định để bố cục phản hồi nhanh hơn 」</p>
     <img src="https://views.whatilearened.today/views/github/538138/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-dynamic-grid/youtube-dynamic-grid.user.js?color=%23990000">
+    <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.538138&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538138">Greasy
