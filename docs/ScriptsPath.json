@@ -1062,6 +1062,33 @@
       "preview": null,
       "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png",
       "locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "",
+      "description": "",
+      "group": "GreasyFork",
+      "js_name": "greasyfork-unupdated-script.user.js",
+      "directory": "greasyfork-unupdated-script",
+      "version": "2025.6.4.1",
+      "greasyfork_id": null,
+      "preview": "https://s2.loli.net/2025/06/04/ohvnDpT746AgU3F.png",
+      "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg",
+      "locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "",
+      "description": "",
+      "group": "Twitter",
+      "js_name": "twitter-show-date-normally.user.js",
+      "directory": "twitter-show-date-normally",
+      "version": "2025.6.4.1",
+      "greasyfork_id": null,
+      "preview": [
+        "https://s2.loli.net/2025/06/04/BAYO6TUDEufP5tv.png",
+        "https://s2.loli.net/2025/06/04/OZcnDKIT14thaRo.png"
+      ],
+      "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
+      "locales": "zh-TW,vi,en,ko"
     }
   ]
 }
