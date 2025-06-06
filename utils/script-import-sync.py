@@ -72,6 +72,9 @@ def copy_readme(source_path, suffixes):
         return
     readme_file = os.path.join(source_path, 'README.md')
     for suffix in suffixes:
+        # 跳过中文简体代码(用于脚本元数据信息,有的浏览器默认中文语言代码是`zh`,脚本中不包含`zh`,那脚本管理器显示的语言就是默认的`en`)
+        if suffix == 'zh':
+            continue
         new_file_name = f'README_{suffix}.md'
         new_file_path = os.path.join(source_path, new_file_name)
         shutil.copy(readme_file, new_file_path)
@@ -285,12 +288,27 @@ if __name__ == "__main__":
                 # 复制多语言文档,用于之后的翻译
                 # ! 将字符串列表转换为数组(在json内使用"locales": ["zh-TW", "vi", "en", "ko"]数组
                 # ! 数组在最后写入会被格式化成多行,还是使用字符串得了.懒得还原成一行,还是字符串方便呢.
-                locales = [locale.strip() for locale in script.get('locales', '').split(',')] if script.get('locales') else []
+                readme_locales = [locale.strip() for locale in script.get('readme_locales', '').split(',')] if script.get('readme_locales') else []
 
-                # 更新下区域化声明,如果`locales`为空,不进行区域化(仅中国地区使用的脚本)
-                if locales:
-                    copy_readme(script_directory, locales)
-                    subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
+                # 更新下区域化声明,如果`locales`为空,不进行自述文件的区域化
+                if readme_locales:
+                    copy_readme(script_directory, readme_locales)
+
+                    # 如果不存在自定义脚本区域化语言代码,区域化脚本信息到所有语言代码
+                    if not script.get('script_locales'):
+                        subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path], check=True)
+
+                """
+                指定脚本支持的语言代码,而不是一股脑子翻译所有语言代码
+                例子:
+                1.   如果一个脚本仅支持中文和英文,则`script_locales`为`zh-CN,en`,`readme_locales`为`zh-CN,en`
+                2.   如果不区域化自述文件,但是想区域化脚本元信息,则`readme_locales`为`Null`,则`script_locales`为`zh-CN,xx,xx,xx`
+                3.   如果仅中国地区使用的脚本,则`script_locales`为`Null`,`readme_locales`为`Null`
+                4.   如果`script_locales`为`Null`,`readme_locales`不为`Null`,则区域化自述文件,并区域化脚本信息到所有语言代码
+                """
+                if script.get('script_locales'):
+                    script_locales = script['script_locales'].split(',')
+                    subprocess.run(['python', 'utils/userscript_localization_tool.py', script_path, '-l', *script_locales], check=True)
 
                 # 导入脚本,用于之后的同步附加信息
                 import_script_id = GF.import_scripts(script_url)
