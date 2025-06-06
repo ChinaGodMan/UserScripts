@@ -67,7 +67,9 @@ export default [
             'markdown/heading-increment': 'off', // allow headings to skip levels
             'markdown/fenced-code-language': 'off', // allow code blocks w/ no language specified
             'markdown/no-missing-label-refs': 'off', // allow missing label references
-            'markdown/no-empty-links': 'off' // allow empty links
+            'markdown/no-empty-links': 'off', // allow empty links
+            'markdown/no-multiple-h1': 'off', // 允许多个H1标题
+            'markdown/require-alt-text': 'off' // 允许img标签不带alt
         }
     },
     { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] },
