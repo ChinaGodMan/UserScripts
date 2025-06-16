@@ -31,7 +31,7 @@
     "@stylistic/eslint-plugin": "^4.4.1",
     "cz-git": "^1.11.1",
     "czg": "^1.11.1",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-regexp": "^2.9.0",
     "eslint-plugin-userscripts": "^0.5.6",
