@@ -69,7 +69,8 @@ export default [
             'markdown/no-missing-label-refs': 'off', // allow missing label references
             'markdown/no-empty-links': 'off', // allow empty links
             'markdown/no-multiple-h1': 'off', // 允许多个H1标题
-            'markdown/require-alt-text': 'off' // 允许img标签不带alt
+            'markdown/require-alt-text': 'off', // 允许img标签不带alt
+            'markdown/no-missing-link-fragments': 'off' // 关闭片段链接检查
         }
     },
     { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] },
