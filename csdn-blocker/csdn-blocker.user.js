@@ -247,7 +247,11 @@
             e.removeAttribute('onclick')
             e.addEventListener('click', () => {
                 e.setAttribute('data-title', ' ')
-                navigator.clipboard.writeText(e.parentNode.innerText)
+                if (e.parentNode.innerText.includes('AI写代码')) {
+                    navigator.clipboard.writeText(e.parentNode.previousElementSibling.innerText)
+                } else {
+                    navigator.clipboard.writeText(e.parentNode.innerText)  
+                }
                 e.setAttribute('data-title', '复制成功')
                 setTimeout(() => e.setAttribute('data-title', '点击复制'), 1200)
             })
