@@ -50,9 +50,9 @@
     <strong>スクリプトは、インターネットネチズンから来ています，いくつかの変更を加えたばかりです.ネチズンに感謝します</strong><br>
     <strong>侵害がある場合,お問い合わせください削除する必要があります</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>推荐使用：</strong><br>
+    <strong>推奨使用：</strong><br>
 <img src="https://img.shields.io/badge/操作系统-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-<img src="https://img.shields.io/badge/%E6%8E%A8%E5%A5%A8%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/推荐浏览器-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> 上記のスクリプトマネージャーとブラウザはすべてを表しているわけではありません<br>
     <strong>スクリプトは、次の環境で正常に実行されます</strong><br>
@@ -3092,7 +3092,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 > -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
 > -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
 
-> _**不会离线安装 .crx 拡張？[Chrome、Edge 重新开启隐藏的 [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
