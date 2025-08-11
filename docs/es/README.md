@@ -2550,7 +2550,9 @@ Vaya a su jodido inicio de sesión y copia de CSDN, puede copiar sin iniciar ses
     <a href="../../csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de actualizaciones</a>
 </blockquote>
 <h3>
     <a href="../../clean-blog-articles">
@@ -3086,7 +3088,7 @@ Para usar cualquier script，Primero, necesita una instalación de navegador **T
 
 > [!IMPORTANT]
 >
-> -   _Otros basados ​​en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
+> -   _Otros basados en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
 > -   _Asegúrese de usar **Tampermonkey Versión oficial** Extendido，其他的用户Guion管理器可能导致**No se puede usar normalmente**脚本。_
 > -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de reinstalarse el guión。_
 

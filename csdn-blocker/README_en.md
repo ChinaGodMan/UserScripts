@@ -63,7 +63,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.505207&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505207">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ ReleaseCSDNLog in to copy Update log</strong></h1>
+<h3><strong>📅 2025.8.12.1</strong></h3>
+<p><strong>repair</strong>: Fixed the issue of getting code block content in new layout<a href="https://github.com/ChinaGodMan/UserScripts/pull/175">#175</a><br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
 </div></center>
 

@@ -63,7 +63,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.505207&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505207">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 풀어 주다CSDN복사하려면 로그인하십시오 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.8.12.1</strong></h3>
+<p><strong>수리하다</strong>: 새로운 레이아웃에서 코드 블록 컨텐츠를 얻는 문제를 수정했습니다.<a href="https://github.com/ChinaGodMan/UserScripts/pull/175">#175</a><br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
 </div></center>
 
