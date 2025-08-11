@@ -220,7 +220,7 @@
 // @description:zh-TW  去你媽的CSDN登錄複製,無需登錄即可複制
 // @description:zu     Iya ku-CSDN yakho yokungena ngemvume bese ukopisha, ungakopisha ngaphandle kokungena ngemvume
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            1.0.0.23
+// @version            2025.8.12.1
 // @author             人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match              https://blog.csdn.net/*
 // @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
@@ -250,7 +250,7 @@
                 if (e.parentNode.innerText.includes('AI写代码')) {
                     navigator.clipboard.writeText(e.parentNode.previousElementSibling.innerText)
                 } else {
-                    navigator.clipboard.writeText(e.parentNode.innerText)  
+                    navigator.clipboard.writeText(e.parentNode.innerText)
                 }
                 e.setAttribute('data-title', '复制成功')
                 setTimeout(() => e.setAttribute('data-title', '点击复制'), 1200)
