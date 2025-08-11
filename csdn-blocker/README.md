@@ -63,7 +63,10 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.505207&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505207">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 解除CSDN登录复制 更新日志</strong></h1>
+<h3><strong>📅 2025.8.12.1</strong></h3>
+<p><strong>修复</strong>: 修复新布局中的代码块内容获取问题<a href="https://github.com/ChinaGodMan/UserScripts/pull/175">#175</a><br></p>
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505207.png">
 </div></center>
 

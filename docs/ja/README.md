@@ -50,8 +50,8 @@
     <strong>スクリプトは、インターネットネチズンから来ています，いくつかの変更を加えたばかりです.ネチズンに感謝します</strong><br>
     <strong>侵害がある場合,お問い合わせください削除する必要があります</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>推奨使用：</strong><br>
-<img src="https://img.shields.io/badge/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%C2%B7%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+    <strong>推荐使用：</strong><br>
+<img src="https://img.shields.io/badge/操作系统-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E6%8E%A8%E5%A5%A8%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> 上記のスクリプトマネージャーとブラウザはすべてを表しているわけではありません<br>
@@ -2550,7 +2550,9 @@ ChatGPT コードのフォントを小さいさくする そして自動に折�
     <a href="../../csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a>
 </blockquote>
 <h3>
     <a href="../../clean-blog-articles">
@@ -3078,7 +3080,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 
 ## ❔️ スクリプトをインストールまたは使用する方法？
 
-任意のスクリプトを使用します，まず、ブラウザのインス​​トールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+任意のスクリプトを使用します，まず、ブラウザのインストールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   フォームをクリックします **\[インストール\]** Script Managerインストールインターフェイスを直接ポップアップします。
 -   もし Github アクセス速度が遅すぎます，クリックすることを選択できます GreasyFork **\[インストール\]** 拡張プロンプトがポップアップします，行って、もう一度クリックします **\[インストール\]** ただ。
@@ -3090,7 +3092,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 > -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
 > -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
 
-> _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**不会离线安装 .crx 拡張？[Chrome、Edge 重新开启隐藏的 [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3204,7 +3206,7 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールします                                                                    |
+|                               推荐使用浏览器                                |                                                         安装管理器                                                          | ブラウザをインストールします                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |

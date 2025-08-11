@@ -2550,7 +2550,9 @@ Truy cập đăng nhập và sao chép CSDN chết tiệt của bạn, bạn có
     <a href="../../csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a>
 </blockquote>
 <h3>
     <a href="../../clean-blog-articles">
