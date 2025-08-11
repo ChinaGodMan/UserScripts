@@ -1,0 +1,55 @@
+name: ✨ Feature Request
+description: Propose a new feature or improvement
+labels: ["feature"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+
+        - Please briefly describe the feature or improvement you want.
+        - The title must be formatted as `[ScriptName]:Desired Feature`, for example `[LanguageTerminator]:Support new address`.
+        - You may provide screenshots/webpage addresses to better illustrate your idea.
+        - Options marked with an asterisk (*) are required; others are optional. **If your submission does not meet the requirements, the maintainer may not respond and may close this issue directly.**
+        - If you can implement this feature yourself, we welcome you to submit a Pull Request and merge your changes upstream.
+
+  - type: checkboxes
+    id: ensure
+    attributes:
+      label: Prerequisites
+      description: "If any of the following options do not apply, please do not submit this issue as we will close it"
+      options:
+        - label: "This issue includes the **script name and feature**"
+          required: true
+        - label: "I have searched [here](https://github.com/ChinaGodMan/UserScripts/issues?q=is%3Aissue+label%3Aenhancement) for my suggestion **and found no related issues**"
+          required: true
+
+  - type: textarea
+    id: user_stories
+    attributes:
+      label: Feature Request
+      description: Describe the scenarios in which you would use this new feature.
+      placeholder: |
+        As a [role], I want [feature], so that [goal].
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use Cases
+      description: List the use cases you think this feature should support, with screenshots if possible.
+      placeholder: |
+        1. Use case 1
+        2. Use case 2
+        3. Use case 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: If you have other information that may help explain this feature request, please provide it here.
