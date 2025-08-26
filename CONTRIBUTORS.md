@@ -21,4 +21,8 @@
 - [@Guany725](https://github.com/Guany725)在[#50](https://github.com/ChinaGodMan/UserScripts/issues/50) 反馈了无法跨域设置窗口大小的问题(已解决)  
 - [德克斯 dex](https://greasyfork.org/users/20361)在[#258907](https://greasyfork.org/scripts/504880/discussions/258907#comment-529624) 添加了记录窗口大小的代码
 
+### [Greasyfork 未更新腳本高亮](./greasyfork-ugreasyfork-unupdated-scriptscript)
+
+- [Mateo Bohorquez G.](https://github.com/Milor123)在[#184](https://github.com/ChinaGodMan/UserScripts/issues/184) 头脑风暴了一个`隐藏未更新脚本的` 新功能  
+
 **原始脚本来源请查看每个脚本目录下的`AUTHORS.md`**

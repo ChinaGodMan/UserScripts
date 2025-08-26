@@ -361,17 +361,31 @@
 // @compatible             qq
 // @compatible             via
 // @compatible             brave
-// @version                2025.6.4.1
+// @version                2025.8.26.1
 // @grant                  GM_setValue
 // @grant                  GM_getValue
 // @grant                  GM_registerMenuCommand
+// @grant                  GM_unregisterMenuCommand
 // @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js
 // @updateURL              https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js
 // ==/UserScript==
 
+/**
+ * File: greasyfork-unupdated-script.user.js
+ * Project: UserScripts
+ * File Created: 2025/06/04,Wednesday 09:23:41
+ * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * Last Modified: 2025/08/26,Tuesday 22:47:48
+ * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * -----
+ * License: MIT License
+ * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ */
+
 const Days = GM_getValue('days', 30) // 默认30天
 const threshold = Days * 24 * 60 * 60 * 1000
-GM_registerMenuCommand('Settings', () => {
+GM_registerMenuCommand('Days', () => {
     const userInput = prompt('Enter the number of days:', Days)
     if (userInput !== null) {
         const parsedInput = parseInt(userInput, 10)
@@ -382,14 +396,41 @@ GM_registerMenuCommand('Settings', () => {
         }
     }
 })
-document.querySelectorAll('dd.script-list-updated-date').forEach(function (dd) {
-    const relativeTime = dd.querySelector('relative-time')
-    if (relativeTime) {
-        const time1 = new Date(relativeTime.getAttribute('datetime'))
-        const time2 = new Date()
-        if (time2.getTime() - time1.getTime() > threshold) {
-            relativeTime.style.color = 'red'
-            dd.closest('li').style.background = '#ff000008'
+let menuId
+function Toggle() {
+    if (menuId) { GM_unregisterMenuCommand(menuId) }
+    let HideScript = GM_getValue('HideScript', false)
+    menuId = GM_registerMenuCommand(
+        (HideScript ? '✅ ' : '❌ ') + 'HideScript',
+        () => {
+            HideScript = !HideScript
+            GM_setValue('HideScript', HideScript)
+            Toggle()
+            if (!HideScript) {
+                document.querySelectorAll('dd.script-list-updated-date').forEach(function (dd) {
+                    const li = dd.closest('li')
+                    if (li) { li.style.display = 'list-item' }
+                })
+            } else {
+                GO()
+            }
         }
-    }
-})
+    )
+}
+
+Toggle()
+GO()
+function GO() {
+    document.querySelectorAll('dd.script-list-updated-date').forEach(function (dd) {
+        const relativeTime = dd.querySelector('relative-time')
+        if (relativeTime) {
+            const time1 = new Date(relativeTime.getAttribute('datetime'))
+            const time2 = new Date()
+            if (time2.getTime() - time1.getTime() > threshold) {
+                relativeTime.style.color = 'red'
+                dd.closest('li').style.background = '#ff000008'
+                if (GM_getValue('HideScript', false)) { dd.closest('li').style.display = 'none' }
+            }
+        }
+    })
+}
