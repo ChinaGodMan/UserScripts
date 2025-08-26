@@ -116,7 +116,7 @@ Note: This script is specifically designed for the Google search page and can on
 
 ## Author
 
-The script is modified from the user **[shiquda](https://greasyfork.org/users/935206)**'s script [Google Advanced Search Assistant](https://greasyfork.org/scripts/474178) Thanks to the original author** shiquda**’s **hard work** and **wisdom**
+The script is modified from the user **[shiquda](https://greasyfork.org/users/935206)**'s script [Google Advanced Search Assistant](https://greasyfork.org/scripts/474178) Thanks to the original author **shiquda’s** **hard work** and **wisdom**
 
 ![mb_en.png](https://s2.loli.net/2024/08/05/VcqI6pXs3AaOW1C.png)
 ![PC_en.png](https://s2.loli.net/2024/08/05/MXF8JdpqnyreuRf.png)
