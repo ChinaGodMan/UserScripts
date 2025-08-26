@@ -911,6 +911,8 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Cập nhật nhật ký</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Sửa đổi từ</a>
 </blockquote>

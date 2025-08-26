@@ -911,6 +911,8 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Quellcode</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
@@ -3185,7 +3187,7 @@ Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungs
 
 Wenn Sie eine Verwundbarkeit finden，Bitte öffnen Sie a[Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Pull -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
+Plug -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
 Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherheitsrichtlinie</strong></a>
 
 <div align="right">

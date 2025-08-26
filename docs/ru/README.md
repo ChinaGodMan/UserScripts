@@ -26,8 +26,8 @@
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="ChinaGodMan"></a>
 <h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyForkПосмотреть сценарий военнослужащего</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
-<img src="https://img.shields.io/badge/dynamic/json?&label=所有脚本总安装数&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=脚本每日使用次数&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%D0%9E%D0%B1%D1%89%D0%B5%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B8%20%D0%B2%D1%81%D0%B5%D1%85%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%80%D0%B0%D0%B7%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D1%81%D1%8F%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B9%20%D0%B2%20%D0%B4%D0%B5%D0%BD%D1%8C&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B2%D1%81%D0%B5%D1%85%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2%2C%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%D0%92%D1%81%D0%B5%20%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B5%20%D0%BE%D1%82%D0%B7%D1%8B%D0%B2%D1%8B&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
@@ -37,7 +37,7 @@
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B0&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Если сценарий поможет вам,可以点亮星星以资鼓励</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Если сценарий поможет вам,Может осветить звезды, чтобы поощрять</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/&hashtags=greasemonkey,userscripts,javascript"><img src="https://img.shields.io/static/v1?label=%20&message=tweet&logo=x&logoColor=white&labelColor=%23000000&color=%23000000&style=for-the-badge" alt="Tweet"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
@@ -47,7 +47,7 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <center><div align="center">
-    <strong>脚本来自互联网广大网友，Я только что сделал некоторые изменения.Спасибо пользователям пользователей</strong><br>
+    <strong>Сценарий поступает из интернет -сети，Я только что сделал некоторые изменения.Спасибо пользователям пользователей</strong><br>
     <strong>Если есть какие -либо нарушения,Свяжитесь с нами</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>Рекомендуемое использование：</strong><br>
@@ -65,7 +65,7 @@
 
 > [!WARNING]
 >  <div align="center">
->  Этот репозиторий только<code>GitHub</code>Хостинг на,Не здесь<code>GitCode</code>и<code>XPlaza</code>Хостинг на。以下存储库均为镜像。<br>
+>  Этот репозиторий только<code>GitHub</code>Хостинг на,Не здесь<code>GitCode</code>и<code>XPlaza</code>Хостинг на。Следующие репозитории отражаются。<br>
 >    :trollface: Если вы используете его в материковом Китае<code>git clone</code>Скорость загрузки слишком медленная，Вы также можете использовать следующий адрес
 >    
 >  
@@ -95,7 +95,7 @@
 💡 **Tip:** _Для отображения снимка экрана предварительного просмотра，Пожалуйста, нажмите на имя расширения ниже ▸ Или описание。_
 
 <!--SCRIPTS_COUNT-->
-**Количество текущих опубликованных сценариев для репозитория:82,脚本包括:**
+**Количество текущих опубликованных сценариев для репозитория:82,Сценарий включает в себя:**
 <h6><a href="#Веб--скрипт-10">Веб -скрипт (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#Взрослые-сценарии-11">Взрослые сценарии (11)</a>
@@ -117,7 +117,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../../scroll-button">кнопка прокрутки</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497251">
-        <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -144,7 +144,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../scroll-button/scroll-button.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-button/scroll-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
@@ -221,7 +221,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../../../highlight-keywords-mini">Выделите веб -ключевые слова</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498905">
-        <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -237,7 +237,7 @@
     <a href="../../../highlight-keywords-mini/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../../highlight-keywords-mini/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
@@ -325,7 +325,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../../popup-window">Предварительный просмотр в небольшом окне</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504880">
-        <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -347,7 +347,7 @@
     <a href="../../popup-window/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../popup-window/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
@@ -424,9 +424,9 @@
     <a href="../../text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="../../web-clipper">
@@ -511,7 +511,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../../greasyfork-utility-toolkit">Greasyfork Мастер по клею</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497346">
-        <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -538,7 +538,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md">
@@ -616,14 +616,14 @@
     <a href="../../greasyfork-ranks/greasyfork-ranks.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-ranks/greasyfork-ranks.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../../greasyfork-user-control-panel-button">GreasyFork: Улучшение панели навигации</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501880">
-        <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -720,14 +720,14 @@
     <a href="../../greasyfork-search/greasyfork-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-search/greasyfork-search.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a>
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../../greasyfork-discussion-watcher">GreasyFork Помощник по уведомлениям</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506345">
-        <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -830,9 +830,9 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
@@ -911,10 +911,12 @@
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-脚本列表">返回目录</a></div>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Взрослые сценарии (11)</h1></div><h3>
     <a href="../../missav-explorer">
@@ -1007,12 +1009,12 @@
     <a href="../../thisav-auto-login-helper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../thisav-auto-login-helper/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../thisav-auto-login-helper/thisav-auto-login-helper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/CHANGELOG.md">
@@ -1086,14 +1088,14 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
 <h3>
     <a href="../../xvideos-enhance">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png" width=18></a>
     <a href="../../xvideos-enhance">xvideos push скачать</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528798">
-        <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1196,9 +1198,9 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../xhamster-downloader/xhamster-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
@@ -1299,10 +1301,10 @@
     <a href="../../cnm.r18/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../cnm.r18/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/cnm.r18/cnm.r18.user.js">
@@ -1374,9 +1376,9 @@
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../google-advanced-search/google-advanced-search.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/CHANGELOG.md">
@@ -1454,9 +1456,9 @@
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../github-sort-by-date/github-sort-by-date.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-sort-by-date/github-sort-by-date.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
@@ -1563,10 +1565,10 @@
     <a href="../../github-commit-viewer/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-commit-viewer/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../github-commit-viewer/github-commit-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-commit-viewer/github-commit-viewer.user.js">
@@ -1647,7 +1649,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../../github-linguist-expand">Github Список языков программирования показать все</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509889">
-        <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1669,7 +1671,7 @@
     <a href="../../github-linguist-expand/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-linguist-expand/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
@@ -1752,9 +1754,9 @@
     <a href="../../github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
 <h3>
     <a href="../../github-gist-copier">
@@ -1861,10 +1863,10 @@
     <a href="../../github-starred-repo-note/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-starred-repo-note/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
@@ -1946,9 +1948,9 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
@@ -2036,7 +2038,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
     <a href="../../github-co-authors">GitHub соавтор</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537446">
-        <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2059,7 +2061,7 @@
     <a href="../../github-co-authors/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-co-authors/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
@@ -2125,12 +2127,12 @@ github-notification-inbox-toggle версия разработки
     <a href="../../no-zh-terminator/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../no-zh-terminator/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../no-zh-terminator/no-zh-terminator.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/CHANGELOG.md">
@@ -2204,9 +2206,9 @@ github-notification-inbox-toggle версия разработки
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
-<div align="right"><a href="#-脚本列表">Вернуться в каталог</a></div>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>AI Сценарий (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
@@ -2303,10 +2305,10 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <a href="../../chatgpt-counter/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-counter/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
@@ -2388,7 +2390,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-tools">
@@ -2411,7 +2413,7 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
     <a href="../../chatgpt-code-tools/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-tools/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
@@ -2480,9 +2482,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../chatgpt-save-conversation/chatgpt-save-conversation.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
@@ -2548,9 +2550,9 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Обновление журнала</a>
 </blockquote>
@@ -2616,14 +2618,14 @@ ChatGPT Уменьшить шрифт кода и автоматически о�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Изменен из</a>
 </blockquote>
 <h3>
     <a href="../../wechat-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><img width=18 src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width=18></a>
     <a href="../../wechat-black">Темный режим веб -версии WeChat</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537645">
-        <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2671,12 +2673,12 @@ Sina Weibo автоматически перейдет на мобильную �
     <a href="../../weibo-mobile-redirect/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../weibo-mobile-redirect/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../weibo-mobile-redirect/weibo-mobile-redirect.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect/AUTHORS.md">
@@ -2754,9 +2756,9 @@ Sina Weibo автоматически перейдет на мобильную �
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../twitter-media-downloader/twitter-media-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
@@ -2833,14 +2835,14 @@ Sina Weibo автоматически перейдет на мобильную �
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a>
 </blockquote>
-<div align="right"><a href="#-脚本列表">Вернуться в каталог</a></div>
+<div align="right"><a href="#-Список-сценариев">Вернуться в каталог</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTube Assistant</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529845">
-        <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2928,12 +2930,12 @@ Sina Weibo автоматически перейдет на мобильную �
     <a href="../../youtube-better-volume-control/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-better-volume-control/README_en.md">
-        自述文件</a> /
+        Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../youtube-better-volume-control/youtube-better-volume-control.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
@@ -2999,9 +3001,9 @@ Tiktok отображает более расширенную информаци
         Readme file</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
-    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">обсуждать</a> /
     <a href="../../tiktok-user-info/tiktok-user-info.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Исходный код</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Установить</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info/AUTHORS.md">
@@ -3046,13 +3048,13 @@ Tiktok отображает более расширенную информаци
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
     <a href="../../bilibili-liveroom-filter">Bilibili Live Transcome Room инструмент блокировки</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537928">
-        <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-哔哩哔哩直播间屏蔽工具，Список управления поддержкой，Объемная блокировка，Экспорт、Список импорта и т. Д.……
+Bilibili Live Transcome Room инструмент блокировки，Список управления поддержкой，Объемная блокировка，Экспорт、Список импорта и т. Д.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3080,19 +3082,19 @@ Tiktok отображает более расширенную информаци
 
 ## ❔️ Как установить или использовать сценарии？
 
-Чтобы использовать любой сценарий，Во -первых, вам нужна установка браузера **Tampermonkey 脚本管理器扩展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+Чтобы использовать любой сценарий，Во -первых, вам нужна установка браузера **Tampermonkey Расширения менеджера сценариев（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   点击表格 **\[Установить\]** Непосредственно вспять интерфейс установки диспетчера скриптов。
+-   Нажмите на форму **\[Установить\]** Непосредственно вспять интерфейс установки диспетчера скриптов。
 -   если Github Скорость доступа слишком медленная，Вы можете нажать GreasyFork **\[Установить\]** Подсказка расширения появляется，Иди и нажмите снова **\[Установить\]** Только。
 -   [Просмотреть подробный учебник](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _Другие на основе **Chromium** Ядро браузер（Такие как домашний браузер）一般都可以使用 Chrome 扩展。_
+> -   _Другие на основе **Chromium** Ядро браузер（Такие как домашний браузер）В целом доступно Chrome Расширенный。_
 > -   _Пожалуйста, обязательно используйте **Tampermonkey Официальная версия** Расширенный，其他的用户Сценарий管理器可能导致**Не может использовать нормально**脚本。_
 > -   _Если вы хотите переустановить сценарий，Пожалуйста, помните Tampermonkey Расширенный**Полностью удален в мусорное ведро**После переустановки сценария。_
 
-> _**Не будет устанавливать автолайн .crx Расширенный？[Chrome、Edge Повторно скрыто [拖入安装 .crx Расширенный] Функция！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**Не будет устанавливать автолайн .crx Расширенный？[Chrome、Edge Повторно скрыто [Перетащить в установку .crx Расширенный] Функция！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3115,15 +3117,15 @@ Tiktok отображает более расширенную информаци
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库Внутри所有`README.md`Форма ввода и исторической установки[FengFeng](https://github.com/BonjourFeng)Склад[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件内容
-> -   本仓库的子仓库`UserScriptsHistory`Автоматическое обновление кода изображения истории истории установки также было скопировано и использовано[FengFeng](https://github.com/BonjourFeng)Склад[Script-History](https://github.com/BonjourFeng/Script-History)Код внутри[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+> -   仓库Внутри所有`README.md`Форма ввода и исторической установки[FengFeng](https://github.com/BonjourFeng)Склад[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Содержание файла
+> -   Подвеска этого склада`UserScriptsHistory`Автоматическое обновление кода изображения истории истории установки также было скопировано и использовано[FengFeng](https://github.com/BonjourFeng)Склад[Script-History](https://github.com/BonjourFeng/Script-History)Код внутри[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="Сын пустыни"/></a> :+1:
 > -   Копировано [Сын пустыни](https://github.com/maboloshi)Склад[github-chinese](https://github.com/maboloshi/github-chinese)Код внутри<br>
 > -   На этом складе`writer.py` `update-contributors.yml` Копия используется[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Код внутри
-> -   Этот файл Repository Readme был скопирован[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)содержание `如何安装/使用脚本？`
+> -   Этот файл Repository Readme был скопирован[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%20%D1%81%D1%86%D0%B5%D0%BD%D0%B0%D1%80%D0%B8%D0%B5%D0%B2)содержание `Как установить/Используя сценарии？`
 
 > [!TIP]
 >
@@ -3132,11 +3134,11 @@ Tiktok отображает более расширенную информаци
 > -   _Этот склад назван в Америке[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Вдохновлять_ :trollface:
 > -   _Файлы readme на этом складе[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Самоотчет стиль_ :trollface:
 > -   _Взаимное отвлечение в сценарии происходит от[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Самоотчет стиль_ :trollface:
-> -   _本仓库内所有`README.md`文件复制并使用了这个美国佬的仓库`README.md`Макет файла，Разделитель，Код，Идеи_ :trollface:
+> -   _Все в этом складе`README.md`Файл был скопирован и использован этим американским хранилищем`README.md`Макет файла，Разделитель，Код，Идеи_ :trollface:
 > -   _Скопируйте американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui) Action Внутренний код_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _Копировано Американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Action Внутренний код_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _Скопируйте американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Разделитель，等排版风格 :trollface:
-> -   _复制了 Американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Python Внутренний код_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   _Скопируйте американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Разделитель，Стиль макета типа выпуска :trollface:
+> -   _Копировано Американец[Adam Lui Лю Чжанпенг](https://github.com/adamlui)Python Внутренний код_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 
@@ -3162,7 +3164,7 @@ Tiktok отображает более расширенную информаци
 
 ## 🏛️ Лицензионное соглашение с открытым исходным кодом
 
-Этот проект принимает <a href="../../LICENSE.md"><strong>MIT 许可证</strong></a> 授权。
+Этот проект принимает <a href="../../LICENSE.md"><strong>MIT лицензия</strong></a> Авторизация。
 MIT Лицензия - это свободное лицензионное соглашение с открытым исходным кодом，Для получения подробной информации, пожалуйста <a href="../../LICENSE.md">Полный текст лицензии</a>。
 
 <div align="right">
@@ -3185,7 +3187,7 @@ MIT Лицензия - это свободное лицензионное сог
 
 Если вы найдете уязвимость，Пожалуйста, откройте[Проект рекомендаций по безопасности](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Также приветствуются запросы на привлечение，但出于安全原因，请发送电子邮件至 <china.qinwuyuan@gmail.com> и подождать ответа, прежде чем он станет。
+Также приветствуются запросы на подключение，Но по соображениям безопасности，Пожалуйста, отправьте электронное письмо <china.qinwuyuan@gmail.com> и подождать ответа, прежде чем он станет。
 Для получения подробной информации, пожалуйста <a href="../SECURITY.md"><strong>Политика безопасности</strong></a>
 
 <div align="right">
@@ -3208,7 +3210,7 @@ MIT Лицензия - это свободное лицензионное сог
 
 |                               Рекомендуемый браузер                                |                                                         Инспект установки                                                          | Установите браузер                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
-| <center> Chrome 或 基于 Chromium Ядро браузер[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
+| <center> Chrome или на основе Chromium Ядро браузер[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari Браузер（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] или ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
 | <center>Firefox или на основе Gecko Ядро браузер[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
 |              <center> Opera Браузер[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
@@ -3219,8 +3221,8 @@ MIT Лицензия - это свободное лицензионное сог
 |                                                                         |                                                                                                                             |                                                                               |
 
 [Tampermonkey]: http://tampermonkey.net/ "Тампер с обезьяной"
-[Violentmonkey]: https://violentmonkey.github.io/ "暴力猴"
-[Macaque]: https://macaque.app/ "猕猴"
+[Violentmonkey]: https://violentmonkey.github.io/ "Жестокая обезьяна"
+[Macaque]: https://macaque.app/ "Макак"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
 [stayr]: https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png
@@ -3272,4 +3274,4 @@ MIT Лицензия - это свободное лицензионное сог
 </div>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
-<p align="center"><a href="https://github.com/ChinaGodMan">联系作者</a> /<a href="#top">回到顶部↑</a></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">Свяжитесь с автором</a> /<a href="#top">Вернуться к вершине↑</a></p>

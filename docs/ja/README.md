@@ -48,11 +48,11 @@
 
 <center><div align="center">
     <strong>スクリプトは、インターネットネチズンから来ています，いくつかの変更を加えたばかりです.ネチズンに感謝します</strong><br>
-    <strong>侵害がある場合,お問い合わせください削除する必要があります</strong><br>
+    <strong>如有侵权,お問い合わせください削除する必要があります</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>推奨使用：</strong><br>
-<img src="https://img.shields.io/badge/操作系统-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-<img src="https://img.shields.io/badge/推荐浏览器-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%C2%B7%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/%E6%8E%A8%E5%A5%A8%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> 上記のスクリプトマネージャーとブラウザはすべてを表しているわけではありません<br>
     <strong>スクリプトは、次の環境で正常に実行されます</strong><br>
@@ -911,6 +911,8 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプト
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">ログを更新します</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
@@ -3080,7 +3082,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 
 ## ❔️ スクリプトをインストールまたは使用する方法？
 
-任意のスクリプトを使用します，まず、ブラウザのインストールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+任意のスクリプトを使用します，まず、ブラウザのインス​​トールが必要です **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   フォームをクリックします **\[インストール\]** Script Managerインストールインターフェイスを直接ポップアップします。
 -   もし Github アクセス速度が遅すぎます，クリックすることを選択できます GreasyFork **\[インストール\]** 拡張プロンプトがポップアップします，行って、もう一度クリックします **\[インストール\]** ただ。
@@ -3090,7 +3092,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 >
 > -   _その他に基づいています **Chromium** カーネルブラウザ（国内ブラウザなど）一般的に利用可能です Chrome 拡張。_
 > -   _必ず使用してください **Tampermonkey 公式バージョン** 拡張，他のユーザースクリプトマネージャーが引き起こす可能性があります**正常に使用できません**脚本。_
-> -   _スクリプトを再インストールする場合，覚えておいてください Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
+> -   _スクリプトを再インストールする場合，请记得在 Tampermonkey 拡張**リサイクルビンで完全に削除されました**スクリプトが再インストールされた後。_
 
 > _**オフラインではインストールされません .crx 拡張？[Chrome、Edge 再度は隠されています [インストールにドラッグします .crx 拡張] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3132,7 +3134,7 @@ Bilibili Live Broadcast Roomブロッキングツール，サポート管理リ�
 > -   _この倉庫はアメリカで命名されています[Adam Lui Liu Zhanpeng](https://github.com/adamlui)鼓舞する_ :trollface:
 > -   _この倉庫のreadmeファイルはからです[Adam Lui Liu Zhanpeng](https://github.com/adamlui)自己報告スタイル_ :trollface:
 > -   _スクリプトの相互変換のジャンプはどこから来ていますか[Adam Lui Liu Zhanpeng](https://github.com/adamlui)自己報告スタイル_ :trollface:
-> -   _すべてこの倉庫にあります`README.md`ファイルはコピーされ、このアメリカのリポジトリによって使用されました`README.md`ファイルレイアウト，デリミタ，コード，アイデア_ :trollface:
+> -   _すべてこの倉庫にあります`README.md`ファイルはコピーされ、このアメリカのリポジトリによって使用されました`README.md`文件排版，デリミタ，コード，アイデア_ :trollface:
 > -   _アメリカ人をコピーします[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _コピー アメリカ人[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action 内部コード_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _アメリカ人をコピーします[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)デリミタ，タイプのレイアウトスタイルを発行します :trollface:
@@ -3185,7 +3187,7 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 
 脆弱性を見つけた場合，開いてください[安全性の推奨事項を作成します](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-プルリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
+プラグリクエストも大歓迎です，しかし、安全上の理由から，にメールを送信してください <china.qinwuyuan@gmail.com> そして、それが公開される前に返信を待ちます。
 詳細については、参照してください <a href="../SECURITY.md"><strong>セキュリティポリシー</strong></a>
 
 <div align="right">
@@ -3196,7 +3198,7 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 
 ## 💖 貢献ガイド
 
-このプロジェクトに興味を持っていただきありがとうございます！以下を策定しました<a href="../../CONTRIBUTING.md"><strong>貢献ガイド</strong></a>。コードやドキュメントをスムーズに提供するのに役立ちます，コードまたは質問を送信する前に，コンテンツを注意深く読んでください。
+このプロジェクトに興味を持っていただきありがとうございます！以下を策定しました<a href="../../CONTRIBUTING.md"><strong>貢献ガイド</strong></a>。为了帮助您顺利贡献代码或文档，コードまたは質問を送信する前に，コンテンツを注意深く読んでください。
 
 <div align="right">
 
@@ -3206,7 +3208,7 @@ MIT ライセンスは、ゆるいオープンソースライセンス契約で�
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推荐使用浏览器                                |                                                         安装管理器                                                          | ブラウザをインストールします                                                                    |
+|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールします                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |

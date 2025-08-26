@@ -65,7 +65,9 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.538259&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538259">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Kịch bản không được cập nhật và đánh dấu Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.8.26.1</strong></h3>
+<p><strong>Mới</strong>: trốn<strong>Các kịch bản chưa được cung cấp</strong><a href="https://github.com/ChinaGodMan/UserScripts/issues/184">#184</a>  </p></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/538259.png">
 </div></center>
 

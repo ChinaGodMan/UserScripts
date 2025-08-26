@@ -65,7 +65,9 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.538259&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538259">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 스크립트가 업데이트되지 않고 강조 표시되지 않았습니다 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.8.26.1</strong></h3>
+<p><strong>새로운</strong>: 숨다<strong>교육되지 않은 스크립트</strong><a href="https://github.com/ChinaGodMan/UserScripts/issues/184">#184</a>  </p></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/538259.png">
 </div></center>
 

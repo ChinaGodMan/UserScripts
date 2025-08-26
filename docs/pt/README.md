@@ -911,6 +911,8 @@ Converter links de texto em links clicáveis
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código -fonte</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Atualizar log</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
@@ -3185,7 +3187,7 @@ Para garantir um amigável、Um ambiente de desenvolvimento respeitoso e inclusi
 
 Se você encontrar uma vulnerabilidade，Por favor, abra um[Projeto de recomendações de segurança](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Pedidos de tração também são bem -vindos，Mas por razões de segurança，Envie um e -mail para <china.qinwuyuan@gmail.com> e aguarde uma resposta antes de ser tornado público。
+As solicitações de plug também são bem -vindas，Mas por razões de segurança，Envie um e -mail para <china.qinwuyuan@gmail.com> e aguarde uma resposta antes de ser tornado público。
 Para detalhes, consulte <a href="../SECURITY.md"><strong>Política de segurança</strong></a>
 
 <div align="right">

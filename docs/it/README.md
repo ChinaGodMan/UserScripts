@@ -30,7 +30,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20di%20volte%20in%20cui%20uno%20script%20viene%20utilizzato%20al%20giorno&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20di%20tutti%20gli%20script%20installati%20oggi&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20di%20script&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=Tutte%20le%20buone%20recensioni&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=所有好评&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Tutto%20generale&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=Tutte%20le%20recensioni%20negative&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Qualit%C3%A0%20del%20codice&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
@@ -48,7 +48,7 @@
 
 <center><div align="center">
     <strong>Lo script proviene dai netizen Internet，Ho appena apportato alcune modifiche.Grazie ai netizen</strong><br>
-    <strong>Se c’è violazione,Contattaci deve eliminare</strong><br>
+    <strong>Se c’è violazione,联系必删</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>Uso consigliato：</strong><br>
 <img src="https://img.shields.io/badge/sistema%20operativo-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -69,7 +69,7 @@
 >    :trollface: Se lo usi nella Cina continentale<code>git clone</code>La velocità di download è troppo lenta，Puoi anche utilizzare il seguente indirizzo
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Account specchio，Non persona)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Account specchio，非本人)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -92,7 +92,7 @@
 
 ## 📜 Elenco degli script
 
-💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ O descrizione。_
+💡 **Tip:** _Per visualizzare lo screenshot di anteprima，Fare clic sul nome di estensione seguente ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
 **Il numero di script pubblicati correnti per il repository:82,Lo script include:**
@@ -911,6 +911,8 @@ Cerca utilizzando GoogleGreasyForkESleazyForkscrittura superiore
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Codice sorgente</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installare</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro di aggiornamento</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificato da</a>
 </blockquote>
@@ -2661,7 +2663,7 @@ Abilita la finestra a schermo intero di WeChat nella pagina Web，Modalità oscu
         </a>
 </h3>
 
-Sina Weibo salterà automaticamente alla versione mobile，Supporta Weibo、articolo、video
+Sina Weibo salterà automaticamente alla versione mobile，支持微博、articolo、video
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537683">
@@ -3020,7 +3022,7 @@ Tiktok visualizza ulteriori informazioni estese sul profilo
         </a>
 </h3>
 
-Scarica video bilibili（Dramma non supportato）
+Scarica video bilibili（不支持番剧）
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537678">
@@ -3052,7 +3054,7 @@ Scarica video bilibili（Dramma non supportato）
         </a>
 </h3>
 
-Bilibili Live Broadcast Room Blocking Tool，Elenco di gestione del supporto，Blocco di massa，Esportare、Elenco delle importazioni, ecc.……
+Bilibili Live Broadcast Room Blocking Tool，Elenco di gestione del supporto，Blocco di massa，导出、Elenco delle importazioni, ecc.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3083,13 +3085,13 @@ Bilibili Live Broadcast Room Blocking Tool，Elenco di gestione del supporto，B
 Per usare qualsiasi script，Innanzitutto, hai bisogno di un’installazione del browser **Tampermonkey Estensioni di script manager（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   Fai clic sul modulo **\[Installare\]** Pronuncia direttamente l’interfaccia di installazione di Script Manager。
--   Se Github La velocità di accesso è troppo lenta，Puoi scegliere di fare clic GreasyFork **\[Installare\]** L’estensione viene visualizzato，Vai e fai clic su **\[Installare\]** Appena。
+-   Se Github La velocità di accesso è troppo lenta，可以选择点击 GreasyFork **\[Installare\]** L’estensione viene visualizzato，Vai e fai clic su **\[Installare\]** Appena。
 -   [Visualizza il tutorial dettagliato](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
 > -   _Altri basati su **Chromium** Browser del kernel（Come il browser domestico）Generalmente disponibile Chrome Esteso。_
-> -   _Assicurati di usare **Tampermonkey Versione ufficiale** Esteso，其他的用户Sceneggiatura管理器可能导致**Non può usare normalmente**脚本。_
+> -   _Assicurati di usare **Tampermonkey Versione ufficiale** Esteso，其他的用户Sceneggiatura管理器可能导致**无法正常使用**脚本。_
 > -   _Se vuoi reinstallare lo script，Si prega di ricordare Tampermonkey Esteso**Completamente cancellato nel cestino del riciclaggio**Dopo che la sceneggiatura è stata reinstallata。_
 
 > _**Non installerà offline .crx Esteso？[Chrome、Edge Resattibile nascosto [Trascina in installazione .crx Esteso] Funzione！](https://zhuanlan.zhihu.com/p/276027099)**_
@@ -3105,7 +3107,7 @@ Per usare qualsiasi script，Innanzitutto, hai bisogno di un’installazione del
 > [!TIP]
 >
 > -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
-> -   Questo file readme del repository è stato copiato[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)contenuto `Browser e script manager`
+> -   Questo file readme del repository è stato copiato[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)contenuto `浏览器与脚本管理器`
 
 > [!TIP]
 >
@@ -3122,14 +3124,14 @@ Per usare qualsiasi script，Innanzitutto, hai bisogno di un’installazione del
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="Figlio del deserto"/></a> :+1:
 > -   Copiato [Figlio del deserto](https://github.com/maboloshi)Magazzino[github-chinese](https://github.com/maboloshi/github-chinese)Codice all’interno<br>
-> -   In questo magazzino`writer.py` `update-contributors.yml` Copia usata[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Il codice all’interno
+> -   In questo magazzino`writer.py` `update-contributors.yml` 复制使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Il codice all’interno
 > -   Questo file readme del repository è stato copiato[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8EManager%20di%20script)contenuto `Come installare/Usando gli script？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
 > -   _Traduzione automatica di questo magazzino e Action Un ringraziamento speciale agli americani[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Idee e codice eccellenti!_ :trollface:
-> -   _Questo magazzino è nominato in americano[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ispirare_ :trollface:
+> -   _本仓库命名风格受美国佬[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ispirare_ :trollface:
 > -   _I file readme in questo magazzino provengono da[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Stile auto-report_ :trollface:
 > -   _Viene la diversione reciproca nella sceneggiatura[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Stile auto-report_ :trollface:
 > -   _Tutto in questo magazzino`README.md`Il file è stato copiato e utilizzato da questo repository americano`README.md`Layout del file，Delimitatore，Codice，Idee_ :trollface:
@@ -3152,7 +3154,7 @@ Per usare qualsiasi script，Innanzitutto, hai bisogno di un’installazione del
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Elenco dei contributi di： [contributors](https://github.com/jaywcjlove/github-action-contributors). Generato automaticamente <a href="https://github.com/jaywcjlove" title="Sintonizzazione"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Sintonizzazione"/></a>
+贡献列表由： [contributors](https://github.com/jaywcjlove/github-action-contributors). Generato automaticamente <a href="https://github.com/jaywcjlove" title="Sintonizzazione"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Sintonizzazione"/></a>
 
 <div align="right">
 
@@ -3173,7 +3175,7 @@ MIT La licenza è un accordo di licenza open source sciolta，Per i dettagli, fa
 
 ## 🤝 Codice di comportamento
 
-Per garantire un amichevole、Un ambiente di sviluppo rispettoso e inclusivo，Abbiamo formulato quanto segue<a href="../CODE_OF_CONDUCT.md"><strong>Codice di comportamento</strong></a>。Segui queste linee guida per ogni collaboratore。
+Per garantire un amichevole、Un ambiente di sviluppo rispettoso e inclusivo，我们制定了以下<a href="../CODE_OF_CONDUCT.md"><strong>Codice di comportamento</strong></a>。Segui queste linee guida per ogni collaboratore。
 
 <div align="right">
 
@@ -3185,7 +3187,7 @@ Per garantire un amichevole、Un ambiente di sviluppo rispettoso e inclusivo，A
 
 Se trovi una vulnerabilità，Si prega di aprire a[Redigere le raccomandazioni sulla sicurezza](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Anche le richieste di pull sono benvenute，Ma per motivi di sicurezza，Si prega di inviare un’e -mail a <china.qinwuyuan@gmail.com> e aspetta una risposta prima che venga resa pubblica。
+Anche le richieste di plug sono benvenute，Ma per motivi di sicurezza，Si prega di inviare un’e -mail a <china.qinwuyuan@gmail.com> e aspetta una risposta prima che venga resa pubblica。
 Per i dettagli, fare riferimento a <a href="../SECURITY.md"><strong>Politica di sicurezza</strong></a>
 
 <div align="right">
@@ -3196,7 +3198,7 @@ Per i dettagli, fare riferimento a <a href="../SECURITY.md"><strong>Politica di 
 
 ## 💖 Guida al contributo
 
-Grazie per il tuo interesse per questo progetto！Abbiamo formulato quanto segue<a href="../../CONTRIBUTING.md"><strong>Guida al contributo</strong></a>。Per aiutarti a contribuire senza intoppi il codice o la documentazione，Si prega di inviare il codice o la domanda，Leggi attentamente il contenuto。
+Grazie per il tuo interesse per questo progetto！我们制定了以下<a href="../../CONTRIBUTING.md"><strong>Guida al contributo</strong></a>。Per aiutarti a contribuire senza intoppi il codice o la documentazione，Si prega di inviare il codice o la domanda，Leggi attentamente il contenuto。
 
 <div align="right">
 

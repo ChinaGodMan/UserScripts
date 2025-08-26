@@ -911,6 +911,8 @@ Buscar usando GoogleGreasyForkySleazyForkguión superior
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de actualizaciones</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
@@ -3088,7 +3090,7 @@ Para usar cualquier script，Primero, necesita una instalación de navegador **T
 
 > [!IMPORTANT]
 >
-> -   _Otros basados en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
+> -   _Otros basados ​​en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
 > -   _Asegúrese de usar **Tampermonkey Versión oficial** Extendido，其他的用户Guion管理器可能导致**No se puede usar normalmente**脚本。_
 > -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de reinstalarse el guión。_
 
@@ -3185,7 +3187,7 @@ Para garantizar un amistoso、Un entorno de desarrollo respetuoso e inclusivo，
 
 Si encuentra una vulnerabilidad，Por favor abra un[Proyecto de recomendaciones de seguridad](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Las solicitudes de extracción también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
+Las solicitudes de enchufe también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
 Para más detalles, consulte <a href="../SECURITY.md"><strong>Política de seguridad</strong></a>
 
 <div align="right">

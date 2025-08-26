@@ -65,7 +65,9 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.538259&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/538259">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 未更新腳本高亮 更新日誌</strong></h1>
+<h3><strong>📅 2025.8.26.1</strong></h3>
+<p><strong>新增</strong>: 隱藏<strong>未更新的腳本</strong><a href="https://github.com/ChinaGodMan/UserScripts/issues/184">#184</a>  </p></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/538259.png">
 </div></center>
 
