@@ -162,7 +162,7 @@
 // @name:xh                Ifayile ye-gitib ifayile kunye nobukhulu bencwadi
 // @name:yi                גיטוב דיספּלייז טעקע און טעקע סיזעס
 // @name:yo                Fithib ṣafihan faili ati folda folda
-// @name:zh                GitHub 显示文件和文件夹大小
+// @name:zh                GitHub 显示文件和文件夹大小，显示文件数量
 // @name:zh-CN             GitHub 显示文件和文件夹大小
 // @name:zh-HK             GitHub 顯示文件和文件夾大小
 // @name:zh-MO             GitHub 顯示文件和文件夾大小
@@ -343,7 +343,7 @@
 // @description:zh-SG      显示 GitHub 存储库中每个文件和文件夹的大小。它使用 GitHub API 获取详细信息，包括递归文件夹大小，从而轻松查看嵌套目录的总大小。 以 KB、MB 或 GB 显示文件大小
 // @description:zh-TW      顯示 GitHub 存儲庫中每個文件和文件夾的大小。 它使用 GitHub API 獲取詳細信息，包括遞歸文件夾大小，從而輕鬆查看嵌套目錄的總大小。 以 KB、MB 或 GB 顯示文件大小
 // @description:zu         Ibonisa usayizi wefayela ngalinye nefolda ekugcinweni kwe-GitHub. Isebenzisa i-GitHub API ukuthola imininingwane, kufaka phakathi osayizi befolda ephindaphindayo, okwenza kube lula ukubona usayizi ophelele wemikhombandlela ebekiwe. Khombisa usayizi wefayela ku-KB, MB, noma i-GB
-// @author                 Abhay,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @author                 Abhay,人民的勤务员 <china.qinwuyuan@gmail.com>,aspen138
 // @namespace              https://github.com/ChinaGodMan/UserScripts
 // @supportURL             https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL            https://github.com/ChinaGodMan/UserScripts
@@ -360,7 +360,7 @@
 // @compatible             qq
 // @compatible             via
 // @compatible             brave
-// @version                2025.5.26.1
+// @version                2025.9.2.1
 // @grant                  GM_setValue
 // @grant                  GM_getValue
 // @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/github-file-size-viewer/github-file-size-viewer.user.js
@@ -373,7 +373,7 @@
  * File Created: 2025/05/26,Monday 18:12:15
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/05/26,Monday 18:37:36
+ * Last Modified: 2025/09/02,Tuesday 16:21:22
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -399,45 +399,44 @@ function formatSize(bytes) {
     }
 }
 
-// Recursively calculate the total size of a folder
+// Recursively calculate the total size and file count of a folder
 async function calculateFolderSize(apiUrl, headers) {
-    //console.log('Calculating folder size for:', apiUrl)
     try {
         const response = await fetch(apiUrl, { headers })
         if (!response.ok) {
             console.error('Folder API error:', response.status, response.statusText)
-            return 0
+            return { size: 0, fileCount: 0 }
         }
         const data = await response.json()
         let totalSize = 0
+        let fileCount = 0
         if (Array.isArray(data)) {
-            const sizePromises = data.map((item) => {
+            const results = await Promise.all(data.map(async (item) => {
                 if (item.type === 'file' && typeof item.size === 'number') {
-                    return Promise.resolve(item.size)
+                    return { size: item.size, fileCount: 1 }
                 } else if (item.type === 'dir') {
                     return calculateFolderSize(item.url, headers)
                 } else {
-                    return Promise.resolve(0)
+                    return { size: 0, fileCount: 0 }
                 }
-            })
-            const sizes = await Promise.all(sizePromises)
-            totalSize = sizes.reduce((sum, size) => sum + size, 0)
+            }))
+            totalSize = results.reduce((sum, result) => sum + result.size, 0)
+            fileCount = results.reduce((sum, result) => sum + result.fileCount, 0)
         }
-        return totalSize
+        return { size: totalSize, fileCount }
     } catch (error) {
         console.error('Error calculating folder size:', error)
-        return 0
+        return { size: 0, fileCount: 0 }
     }
 }
 
-// Fetch file/folder size from GitHub API with enhanced error handling
+// Fetch file/folder size and file count from GitHub API
 async function fetchFileSize(apiUrl) {
     const token = GITHUB_TOKEN
     let headers = { 'Accept': 'application/vnd.github.v3+json' }
     if (token) {
         headers['Authorization'] = 'token ' + token
     }
-    //console.log('Fetching size for:', apiUrl)
     try {
         const response = await fetch(apiUrl, { headers })
         if (!response.ok) {
@@ -445,21 +444,20 @@ async function fetchFileSize(apiUrl) {
             return 'N/A'
         }
         const data = await response.json()
-        //console.log('Received data:', data)
         if (data && data.message) {
             console.error('GitHub API error message:', data.message)
             return 'N/A'
         }
         if (data && !Array.isArray(data) && data.type === 'file') {
             if (typeof data.size === 'number') {
-                return formatSize(data.size)
+                return `${formatSize(data.size)} (1 file)`
             } else {
                 console.error('File object missing size:', data)
                 return 'N/A'
             }
         } else if (Array.isArray(data)) {
-            const folderSize = await calculateFolderSize(apiUrl, headers)
-            return folderSize > 0 ? formatSize(folderSize) : 'Folder'
+            const { size, fileCount } = await calculateFolderSize(apiUrl, headers)
+            return size > 0 ? `${formatSize(size)} (${fileCount} ${fileCount === 1 ? 'file' : 'files'})` : `Folder (${fileCount} ${fileCount === 1 ? 'file' : 'files'})`
         } else {
             return 'N/A'
         }
@@ -469,21 +467,21 @@ async function fetchFileSize(apiUrl) {
     }
 }
 
-// Insert the size next to each file/folder link with GitHub-like styling
-function insertSizeAfterLink(link, sizeText) {
-    const sizeSpan = document.createElement('span')
-    sizeSpan.style.marginLeft = '10px'
-    sizeSpan.style.fontSize = 'smaller'
-    sizeSpan.style.color = '#6a737d'
-    sizeSpan.textContent = `(${sizeText})`
-    link.insertAdjacentElement('afterend', sizeSpan)
+// Insert the size and file count next to each file/folder link
+function insertSizeAfterLink(link, infoText) {
+    const infoSpan = document.createElement('span')
+    infoSpan.style.marginLeft = '10px'
+    infoSpan.style.fontSize = 'smaller'
+    infoSpan.style.color = '#6a737d'
+    infoSpan.textContent = `(${infoText})`
+    link.insertAdjacentElement('afterend', infoSpan)
 }
 
-// Main function: find all GitHub file/folder links, fetch sizes concurrently, display them
+// Main function: find all GitHub file/folder links, fetch sizes and file counts concurrently, display them
 async function displayFileSizes() {
     console.log('Running displayFileSizes...')
     const table = document.querySelector('table tbody')
-    // 不要在这里选择document,不然就把readme里面的文件大小也特么的添加上了
+    //// 不要在这里选择document,不然就把readme里面的文件大小也特么的添加上了
     const links = table.querySelectorAll('a[href*="/blob/"], a[href*="/tree/"]')
     console.log('Found potential file/folder links:', links.length)
     const promises = Array.from(links).map(async (link) => {
@@ -495,8 +493,8 @@ async function displayFileSizes() {
         const branch = urlParts[branchIndex]
         const filePath = urlParts.slice(branchIndex + 1).join('/')
         const apiUrl = `https://api.github.com/repos/${user}/${repo}/contents/${filePath}?ref=${branch}`
-        const sizeText = await fetchFileSize(apiUrl)
-        insertSizeAfterLink(link, sizeText)
+        const infoText = await fetchFileSize(apiUrl)
+        insertSizeAfterLink(link, infoText)
     })
     await Promise.all(promises)
 }
@@ -504,6 +502,7 @@ async function displayFileSizes() {
 window.addEventListener('load', () => {
     setTimeout(displayFileSizes, 2000)
 })
+
 function observeUrlChanges(callback, delay = 10) {
     let lastUrl = location.href
     const observer = new MutationObserver(() => {
