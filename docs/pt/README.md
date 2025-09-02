@@ -2030,6 +2030,8 @@ Procure um Google bloqueando um site especificado
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código -fonte</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Atualizar log</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ Para usar qualquer script，Primeiro, você precisa de uma instalação do naveg
 >
 > -   _Outros baseados em **Chromium** Navegador do kernel（Como navegador doméstico）Geralmente disponível Chrome Estendido。_
 > -   _Por favor, certifique -se de usar **Tampermonkey Versão oficial** Estendido，其他的用户Script管理器可能导致**Não pode usar normalmente**脚本。_
-> -   _Se você quiser reinstalar o script，Lembre -se Tampermonkey Estendido**Completamente excluído na lixeira**Depois que o script é reinstalado。_
+> -   _Se você quiser reinstalar o script，Lembre -se Tampermonkey Estendido**Completamente excluído na lixeira**Depois que o script terminar, reinstale o script。_
 
 > _**Não instalará offline .crx Estendido？[Chrome、Edge Reativado escondido [Arraste para a instalação .crx Estendido] Função！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3187,7 +3189,7 @@ Para garantir um amigável、Um ambiente de desenvolvimento respeitoso e inclusi
 
 Se você encontrar uma vulnerabilidade，Por favor, abra um[Projeto de recomendações de segurança](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-As solicitações de plug também são bem -vindas，Mas por razões de segurança，Envie um e -mail para <china.qinwuyuan@gmail.com> e aguarde uma resposta antes de ser tornado público。
+Pedidos de tração também são bem -vindos，Mas por razões de segurança，Envie um e -mail para <china.qinwuyuan@gmail.com> e aguarde uma resposta antes de ser tornado público。
 Para detalhes, consulte <a href="../SECURITY.md"><strong>Política de segurança</strong></a>
 
 <div align="right">

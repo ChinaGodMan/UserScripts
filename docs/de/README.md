@@ -2030,6 +2030,8 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Quellcode</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 >
 > -   _Andere basierend auf **Chromium** Kernelbrowser（Wie inländischer Browser）Im Allgemeinen verfügbar Chrome Erweitert。_
 > -   _Bitte stellen Sie sicher **Tampermonkey Offizielle Version** Erweitert，其他的用户Skript管理器可能导致**Kann nicht normal benutzen**脚本。_
-> -   _Wenn Sie das Skript neu installieren möchten，Bitte denken Sie daran Tampermonkey Erweitert**Vollständig im Recyclingbehälter gelöscht**Nachdem das Skript neu installiert ist。_
+> -   _Wenn Sie das Skript neu installieren möchten，Bitte denken Sie daran Tampermonkey Erweitert**Vollständig im Recyclingbehälter gelöscht**Nach Abschluss des Skripts installieren Sie das Skript neu。_
 
 > _**Wird nicht offline installieren .crx Erweitert？[Chrome、Edge Wiederversteckt [In die Installation ziehen .crx Erweitert] Funktion！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3187,7 +3189,7 @@ Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungs
 
 Wenn Sie eine Verwundbarkeit finden，Bitte öffnen Sie a[Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Plug -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
+Pull -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
 Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherheitsrichtlinie</strong></a>
 
 <div align="right">

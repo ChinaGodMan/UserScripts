@@ -2030,6 +2030,8 @@ existirGitHubLa página de autorización ingresa automáticamente el código de 
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fuente</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de actualizaciones</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ Para usar cualquier script，Primero, necesita una instalación de navegador **T
 >
 > -   _Otros basados ​​en **Chromium** Navegador de núcleo（Como el navegador doméstico）Generalmente disponible Chrome Extendido。_
 > -   _Asegúrese de usar **Tampermonkey Versión oficial** Extendido，其他的用户Guion管理器可能导致**No se puede usar normalmente**脚本。_
-> -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de reinstalarse el guión。_
+> -   _Si quieres reinstalar el script，Atención - Recuerde Tampermonkey Extendido**Completamente eliminado en el contenedor de reciclaje**Después de que termine el script, reinstale el script。_
 
 > _**No instalará fuera de línea .crx Extendido？[Chrome、Edge Volver a habilitar oculto [Arrastre en la instalación .crx Extendido] Función！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3187,7 +3189,7 @@ Para garantizar un amistoso、Un entorno de desarrollo respetuoso e inclusivo，
 
 Si encuentra una vulnerabilidad，Por favor abra un[Proyecto de recomendaciones de seguridad](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Las solicitudes de enchufe también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
+Las solicitudes de extracción también son bienvenidas，Pero por razones de seguridad，Envíe un correo electrónico a <china.qinwuyuan@gmail.com> y espere una respuesta antes de que se haga pública。
 Para más detalles, consulte <a href="../SECURITY.md"><strong>Política de seguridad</strong></a>
 
 <div align="right">

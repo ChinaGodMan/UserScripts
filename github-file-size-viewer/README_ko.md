@@ -65,7 +65,15 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.537310&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537310">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 파일 및 폴더 크기를 보여줍니다 로그 업데이트</strong></h1>
+<h3><strong>📅 2025.9.2.1</strong></h3>
+<p><strong>새로운</strong>: <a href="https://github.com/aspen138">aspen138</a>존재하다<a href="https://github.com/ChinaGodMan/UserScripts/issues/188">#188</a> 새로운 기능이 추가되었습니다<code>파일 수를 표시합니다</code> </p>
+<details>
+  <summary>기능 표시</summary>
+<img src="https://s2.loli.net/2025/09/02/PS6w42WGiOLrqRZ.png" alt="기능 표시" width="500" height="900">
+</details>
+
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537310.png">
 </div></center>
 

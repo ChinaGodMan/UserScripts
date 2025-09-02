@@ -65,7 +65,15 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%A3%80%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B0&query=$.537310&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537310">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 显示文件和文件夹大小 更新日志</strong></h1>
+<h3><strong>📅 2025.9.2.1</strong></h3>
+<p><strong>新增</strong>: <a href="https://github.com/aspen138">aspen138</a>在<a href="https://github.com/ChinaGodMan/UserScripts/issues/188">#188</a> 添加了新功能<code>显示文件数量</code> </p>
+<details>
+  <summary>功能展示</summary>
+<img src="https://s2.loli.net/2025/09/02/PS6w42WGiOLrqRZ.png" alt="功能显示" width="500" height="900">
+</details>
+
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537310.png">
 </div></center>
 

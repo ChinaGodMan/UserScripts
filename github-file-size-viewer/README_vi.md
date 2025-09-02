@@ -65,7 +65,15 @@
     <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.537310&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/537310">Greasy
-            Fork</a></p>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Hiển thị kích thước tệp và thư mục Cập nhật nhật ký</strong></h1>
+<h3><strong>📅 2025.9.2.1</strong></h3>
+<p><strong>Mới</strong>: <a href="https://github.com/aspen138">aspen138</a>hiện hữu<a href="https://github.com/ChinaGodMan/UserScripts/issues/188">#188</a> Đã thêm các tính năng mới<code>Hiển thị số lượng tệp</code> </p>
+<details>
+  <summary>Hiển thị chức năng</summary>
+<img src="https://s2.loli.net/2025/09/02/PS6w42WGiOLrqRZ.png" alt="Hiển thị chức năng" width="500" height="900">
+</details>
+
+<hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/537310.png">
 </div></center>
 

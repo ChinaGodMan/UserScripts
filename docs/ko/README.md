@@ -2030,6 +2030,8 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
 >
 > -   _다른 사람들 **Chromium** 커널 브라우저（국내 브라우저와 같은）일반적으로 사용 가능합니다 Chrome 펼친。_
 > -   _사용하십시오 **Tampermonkey 공식 버전** 펼친，其他的用户스크립트管理器可能导致**정상적으로 사용할 수 없습니다**脚本。_
-> -   _스크립트를 다시 설치하려면，기억하십시오 Tampermonkey 펼친**재활용 쓰레기통에서 완전히 삭제되었습니다**스크립트가 다시 설치된 후。_
+> -   _스크립트를 다시 설치하려면，기억하십시오 Tampermonkey 펼친**재활용 쓰레기통에서 완전히 삭제되었습니다**스크립트가 완료되면 스크립트를 다시 설치하십시오。_
 
 > _**오프라인을 설치하지 않습니다 .crx 펼친？[Chrome、Edge 다시 활성화되어 숨겨집니다 [설치로 드래그하십시오 .crx 펼친] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 

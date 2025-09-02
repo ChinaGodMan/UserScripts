@@ -2030,6 +2030,8 @@ existerGitHubLa page d’autorisation saisit automatiquement le code d’autoris
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Code source</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installer</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Mettre à jour le journal</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifié à partir de</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ Pour utiliser n’importe quel script，Tout d’abord, vous avez besoin d’une
 >
 > -   _D’autres basés sur **Chromium** Navigateur de noyau（Comme le navigateur domestique）Généralement disponible Chrome Étendu。_
 > -   _Veuillez vous assurer d’utiliser **Tampermonkey Version officielle** Étendu，其他的用户Scénario管理器可能导致**Impossible d’utiliser normalement**脚本。_
-> -   _Si vous souhaitez réinstaller le script，N’oubliez pas Tampermonkey Étendu**Complètement supprimé dans le bac de recyclage**Une fois le script réinstallé。_
+> -   _Si vous souhaitez réinstaller le script，N’oubliez pas Tampermonkey Étendu**Complètement supprimé dans le bac de recyclage**Une fois le script terminé, réinstallez le script。_
 
 > _**Ne s’installe pas hors ligne .crx Étendu？[Chrome、Edge Réactivité cachée [Faire glisser dans l’installation .crx Étendu] Fonction！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3187,7 +3189,7 @@ Pour assurer un amical、Un environnement de développement respectueux et inclu
 
 Si vous trouvez une vulnérabilité，Veuillez ouvrir un[Projet de recommandations de sécurité](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Les demandes de plug sont également les bienvenues，Mais pour des raisons de sécurité，Veuillez envoyer un e-mail à <china.qinwuyuan@gmail.com> et attendez une réponse avant qu’elle ne soit rendue publique。
+Les demandes de traction sont également les bienvenues，Mais pour des raisons de sécurité，Veuillez envoyer un e-mail à <china.qinwuyuan@gmail.com> et attendez une réponse avant qu’elle ne soit rendue publique。
 Pour plus de détails, veuillez vous référer à <a href="../SECURITY.md"><strong>Politique de sécurité</strong></a>
 
 <div align="right">

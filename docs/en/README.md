@@ -2030,6 +2030,8 @@ existGitHubThe authorization page automatically enters the authorization code an
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Update log</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
@@ -3092,7 +3094,7 @@ To use any script，First, you need a browser installation **Tampermonkey Script
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic browser）Generally available Chrome Extended。_
 > -   _Please make sure to use **Tampermonkey Official version** Extended，其他的用户Script管理器可能导致**Cannot use normally**脚本。_
-> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is reinstalled。_
+> -   _If you want to reinstall the script，Please remember Tampermonkey Extended**Completely deleted in the recycling bin**After the script is finished, reinstall the script。_
 
 > _**Will not install offline .crx Extended？[Chrome、Edge Re-enable hidden [Drag into installation .crx Extended] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
 
