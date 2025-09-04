@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code 👋
         uses: actions/checkout@v5
       - name: Delete merged branch ⛙
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           script: |
