@@ -9,7 +9,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           repo-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           stale-issue-message: "🕒 Discussion Activity Reminder 🕒\n\nThis Discussion has been labeled as dormant by an automated system for having no activity in the last 60 days. Please consider one the following actions:\n\n1️⃣ Close as Out of Date: If the topic is no longer relevant, close the Discussion as out of date at the bottom of the page.\n\n2️⃣ Provide More Information: Share additional details or context — or let the community know if you've found a solution on your own.\n\n3️⃣ Mark a Reply as Answer: If your question has been answered by a reply, mark the most helpful reply as the solution.\n\nNote: This dormant notification will only apply to Discussions with the Question label. To learn more, see our recent announcement.\n\nThank you for helping bring this Discussion to a resolution! 💬"
