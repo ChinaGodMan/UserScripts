@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 自动分配审查和受理至人民的勤务员
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
           script: |
