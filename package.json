@@ -37,7 +37,7 @@
     "eslint-plugin-userscripts": "^0.5.6",
     "eslint-plugin-yml": "^1.19.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.4",
+    "lint-staged": "^16.2.5",
     "prettier": "^3.6.2"
   },
   "scripts": {
