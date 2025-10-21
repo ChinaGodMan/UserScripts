@@ -1,8 +1,8 @@
 name: Close Stale Issues
 
 on:
-  schedule:
-    - cron: "0 0 */7 * *" # 每7天运行一次
+#  schedule:
+#    - cron: "0 0 */7 * *" # 每7天运行一次
   workflow_dispatch:
 
 jobs:
