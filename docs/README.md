@@ -61,7 +61,7 @@
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
-<img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
 > [!WARNING]
 >  <div align="center">
