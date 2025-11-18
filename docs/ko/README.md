@@ -24,20 +24,20 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="ChinaGodMan"></a>
-<h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyFork군인의 대본을보십시오</a><br></h5>
+<h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyFork질서정연한 스크립트 보기</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%B4%9D%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EA%B0%80%20%ED%95%98%EB%A3%A8%EC%97%90%20%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94%20%ED%9A%9F%EC%88%98&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%20%EC%84%A4%EC%B9%98%EB%90%9C%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%9D%BC%EC%9D%BC%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%82%AC%EC%9A%A9%20%ED%9A%9F%EC%88%98&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EC%98%A4%EB%8A%98%EC%9D%98%20%EB%AA%A8%EB%93%A0%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%84%A4%EC%B9%98%20%EC%88%98&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%88%98&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%A2%8B%EC%9D%80%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9E%A5%EA%B5%B0&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EA%B8%8D%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=%EB%AA%A8%EB%93%A0%20%EC%9D%BC%EB%B0%98&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%EB%AA%A8%EB%93%A0%20%EB%B6%80%EC%A0%95%EC%A0%81%EC%9D%B8%20%EB%A6%AC%EB%B7%B0&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%EC%BD%94%EB%93%9C%20%ED%92%88%EC%A7%88&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%EC%8A%A4%ED%83%80%20%EB%A7%88%ED%81%AC&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%EB%B3%84&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">스크립트가 도움이된다면,별을 밝히고 격려 할 수 있습니다</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">스크립트가 도움이 된다면,격려를 위해 별을 밝힐 수 있습니다</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/&hashtags=greasemonkey,userscripts,javascript"><img src="https://img.shields.io/static/v1?label=%20&message=tweet&logo=x&logoColor=white&labelColor=%23000000&color=%23000000&style=for-the-badge" alt="Tweet"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
@@ -47,29 +47,29 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <center><div align="center">
-    <strong>스크립트는 인터넷 네티즌에서 나옵니다，방금 몇 가지 변경을했습니다.네티즌 덕분에</strong><br>
-    <strong>침해가있는 경우,문의해야합니다</strong><br>
+    <strong>해당 대본은 인터넷상의 수많은 네티즌들로부터 나온 것이다.，방금 몇 가지 사항을 변경했습니다..네티즌 여러분 감사합니다</strong><br>
+    <strong>침해가 있는 경우,연락처를 삭제해야 합니다.</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>권장 사용：</strong><br>
+    <strong>추천：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%EA%B6%8C%EC%9E%A5%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B4%80%EB%A6%AC%EC%9E%90-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-💡 <strong>Tip:</strong> 위에 나열된 스크립트 관리자와 브라우저가 모두를 나타내지는 않습니다.<br>
-    <strong>스크립트는 정상적으로 다음 환경에서 실행됩니다</strong><br>
+💡 <strong>Tip:</strong> 위의 스크립트 관리자 및 브라우저 목록은 완전한 것이 아닙니다.<br>
+    <strong>스크립트는 다음 환경에서 정상적으로 실행됩니다.</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
-<img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
 > [!WARNING]
 >  <div align="center">
->  이 저장소는 전용입니다<code>GitHub</code>호스팅,여기가 아닙니다<code>GitCode</code>그리고<code>XPlaza</code>호스팅。다음 리포지토리는 반영됩니다。<br>
->    :trollface: 중국 본토에서 사용하는 경우<code>git clone</code>다운로드 속도가 너무 느립니다，다음 주소를 사용할 수도 있습니다
+>  이 저장소는 다음에서만 사용할 수 있습니다.<code>GitHub</code>호스팅됨,여기가 아니야<code>GitCode</code>그리고<code>XPlaza</code>호스팅됨。다음 저장소는 모두 미러입니다.。<br>
+>    :trollface: 중국 본토에서 사용하는 경우<code>git clone</code>다운로드 속도가 너무 느립니다.，다음 주소를 이용해도 됩니다
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (미러 계정，비인원)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (미러 계정，비신원)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -79,31 +79,31 @@
 <!--README-TOC-->
 ## 🔖 TOC
 [🌐 브라우저 및 스크립트 관리자](#-브라우저-및-스크립트-관리자) |
-[❔️ 스크립트를 설치하거나 사용하는 방법](#%EF%B8%8F-스크립트를-설치하거나-사용하는-방법) |
-[🙏 Kaiyuan에게 특별한 감사를드립니다](#-Kaiyuan에게-특별한-감사를드립니다) |
+[❔️ 스크립트 설치 또는 사용 방법](#%EF%B8%8F-스크립트-설치-또는-사용-방법) |
+[🙏 오픈소스 덕분에 특별히 감사드립니다](#-오픈소스-덕분에-특별히-감사드립니다) |
 [🛡️ 보안 정책](#%EF%B8%8F-보안-정책) |
-[🤝 행동 강령](#-행동-강령) |
-[🏛️ 오픈 소스 라이센스 계약](#%EF%B8%8F-오픈-소스-라이센스-계약) |
-[🧠 기고자](#-기고자) |
+[🤝 행동강령](#-행동강령) |
+[🏛️ 오픈소스 라이선스 계약](#%EF%B8%8F-오픈소스-라이선스-계약) |
+[🧠 기부자](#-기부자) |
 [💖 기여 가이드](#-기여-가이드) |
-[⭐ 스타 역사](#-스타-역사) |
+[⭐ 스타의 역사](#-스타의-역사) |
 [📜 스크립트 목록](#-스크립트-목록)
 <!--README-TOC-END-->
 
 ## 📜 스크립트 목록
 
-💡 **Tip:** _미리보기 스크린 샷을 표시합니다，아래 확장 이름을 클릭하십시오 ▸ 또는 설명。_
+💡 **Tip:** _미리보기 스크린샷을 표시하려면，확장자 이름 아래를 클릭하세요 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
-**저장소에 대한 현재 게시 된 스크립트 수:82,스크립트에는 포함됩니다:**
+**현재 저장소에 게시된 스크립트 수:82,스크립트에는 다음이 포함됩니다.:**
 <h6><a href="#웹-스크립트-10">웹 스크립트 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
- | <a href="#성인-스크립트-11">성인 스크립트 (11)</a>
+ | <a href="#성인-대본-11">성인 대본 (11)</a>
  | <a href="#Google-스크립트-2">Google 스크립트 (2)</a>
  | <a href="#GitHub-스크립트-19">GitHub 스크립트 (19)</a>
- | <a href="#번역-스크립트-3">번역 스크립트 (3)</a>
+ | <a href="#스크립트-번역-3">스크립트 번역 (3)</a>
  | <a href="#AI-스크립트-9">AI 스크립트 (9)</a>
- | <a href="#블로그-웹-사이트-5">블로그 웹 사이트 (5)</a>
+ | <a href="#블로그-사이트-5">블로그 사이트 (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
@@ -139,7 +139,7 @@
     <a href="../../scroll-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../scroll-button/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -175,7 +175,7 @@
     <a href="../../clipboard-manager/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../clipboard-manager/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -184,7 +184,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clipboard-manager/clipboard-manager.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../remove-link-underlines">
@@ -207,7 +207,7 @@
     <a href="../../remove-link-underlines/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../remove-link-underlines/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -237,7 +237,7 @@
     <a href="../../../highlight-keywords-mini/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../../highlight-keywords-mini/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -273,7 +273,7 @@
     <a href="../../highlight-keywords/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../highlight-keywords/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -309,7 +309,7 @@
     <a href="../../scroll-to-top-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../scroll-to-top-button/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -318,7 +318,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-to-top-button/scroll-to-top-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../popup-window">
@@ -347,7 +347,7 @@
     <a href="../../popup-window/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../popup-window/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -356,7 +356,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/popup-window/popup-window.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../colorful-table">
@@ -385,7 +385,7 @@
     <a href="../../colorful-table/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../colorful-table/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -394,7 +394,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/colorful-table/colorful-table.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../text-to-link">
@@ -417,7 +417,7 @@
     <a href="../../text-to-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../text-to-link/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -426,7 +426,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../web-clipper">
@@ -455,7 +455,7 @@
     <a href="../../web-clipper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../web-clipper/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -464,11 +464,11 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
@@ -497,7 +497,7 @@
     <a href="../../greasyfork-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-link/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -509,7 +509,7 @@
 <h3>
     <a href="../../greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="../../greasyfork-utility-toolkit">Greasyfork 리깅 메이커를 붙여 넣으십시오</a>&nbsp;
+    <a href="../../greasyfork-utility-toolkit">Greasyfork 프레이머</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497346">
         <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
@@ -533,7 +533,7 @@
     <a href="../../greasyfork-utility-toolkit/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-utility-toolkit/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -542,7 +542,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../script-finder-plus">
@@ -571,7 +571,7 @@
     <a href="../../script-finder-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../script-finder-plus/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -580,7 +580,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/script-finder-plus/script-finder-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-ranks">
@@ -609,7 +609,7 @@
     <a href="../../greasyfork-ranks/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-ranks/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -645,7 +645,7 @@
     <a href="../../greasyfork-user-control-panel-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-control-panel-button/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -681,7 +681,7 @@
     <a href="../../greasyfork-markdown-toolbar/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-markdown-toolbar/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -690,7 +690,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-search">
@@ -713,7 +713,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-search/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-search/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -749,7 +749,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-discussion-watcher/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-discussion-watcher/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -758,7 +758,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-webhook-sync-enhanced">
@@ -787,7 +787,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-webhook-sync-enhanced/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-webhook-sync-enhanced/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -796,7 +796,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-user-scripts-data-visualization">
@@ -825,7 +825,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-user-scripts-data-visualization/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-scripts-data-visualization/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -834,7 +834,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-user-registration-time">
@@ -863,7 +863,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-user-registration-time/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-registration-time/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -872,9 +872,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-unupdated-script">
@@ -903,7 +903,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../greasyfork-unupdated-script/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-unupdated-script/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -912,13 +912,13 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>성인 스크립트 (11)</h1></div><h3>
+<div align="center"><h1>성인 대본 (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../../missav-explorer">Missav 배치 백업 컬렉션 비디오</a>&nbsp;
@@ -945,7 +945,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../missav-explorer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-explorer/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -954,7 +954,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-explorer/missav-explorer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../missav-auto-login-helper">
@@ -977,7 +977,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../missav-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-auto-login-helper/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -986,7 +986,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../thisav-auto-login-helper">
@@ -1009,7 +1009,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../thisav-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../thisav-auto-login-helper/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1018,7 +1018,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../jable-auto-login-helper">
@@ -1041,7 +1041,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../jable-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../jable-auto-login-helper/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1050,7 +1050,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../missav-m3u8-finder">
@@ -1079,7 +1079,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../missav-m3u8-finder/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-m3u8-finder/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1088,7 +1088,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../xvideos-enhance">
@@ -1117,7 +1117,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../xvideos-enhance/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xvideos-enhance/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1126,7 +1126,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xvideos-enhance/xvideos-enhance.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../pornhub-download">
@@ -1155,7 +1155,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../pornhub-download/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../pornhub-download/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1164,7 +1164,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/pornhub-download/pornhub-download.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../xhamster-downloader">
@@ -1193,7 +1193,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../xhamster-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xhamster-downloader/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1202,7 +1202,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../xnxx-downloader">
@@ -1231,7 +1231,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../xnxx-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xnxx-downloader/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1240,7 +1240,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xnxx-downloader/xnxx-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../missav-enhancer">
@@ -1269,7 +1269,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../missav-enhancer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-enhancer/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1278,7 +1278,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-enhancer/missav-enhancer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../cnm.r18">
@@ -1301,7 +1301,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../cnm.r18/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../cnm.r18/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1310,11 +1310,11 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Google 스크립트 (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
@@ -1337,7 +1337,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../google-block-search-sites/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../google-block-search-sites/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1373,7 +1373,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../google-advanced-search/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../google-advanced-search/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1382,9 +1382,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GitHub 스크립트 (19)</h1></div><h3>
     <a href="../../github-repo-size-view">
@@ -1413,7 +1413,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-repo-size-view/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-repo-size-view/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1422,9 +1422,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-sort-by-date">
@@ -1453,7 +1453,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-sort-by-date/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-sort-by-date/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1489,7 +1489,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-folder-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-folder-downloader/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1498,7 +1498,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-folder-downloader/github-folder-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-raw-file-plus">
@@ -1527,7 +1527,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-raw-file-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-raw-file-plus/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1536,7 +1536,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-raw-file-plus/github-raw-file-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-commit-viewer">
@@ -1565,7 +1565,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-commit-viewer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-commit-viewer/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1601,7 +1601,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-file-list-beautifier-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-file-list-beautifier-plus/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1610,7 +1610,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-device-authorization">
@@ -1633,7 +1633,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-device-authorization/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-device-authorization/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1642,7 +1642,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-device-authorization/github-device-authorization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-linguist-expand">
@@ -1671,7 +1671,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-linguist-expand/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-linguist-expand/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1680,7 +1680,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-linguist-expand/github-linguist-expand.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-repository-navigator">
@@ -1709,7 +1709,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-repository-navigator/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-repository-navigator/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1718,7 +1718,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repository-navigator/github-repository-navigator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-jsdelivr-link">
@@ -1747,7 +1747,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-jsdelivr-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-jsdelivr-link/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1756,7 +1756,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-gist-copier">
@@ -1785,7 +1785,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-gist-copier/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-gist-copier/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1794,9 +1794,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-comment-translate">
@@ -1825,7 +1825,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-comment-translate/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-comment-translate/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1834,7 +1834,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-comment-translate/github-comment-translate.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../github-starred-repo-note">
@@ -1863,7 +1863,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-starred-repo-note/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-starred-repo-note/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1872,9 +1872,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-to-deepwiki">
@@ -1903,7 +1903,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-to-deepwiki/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-to-deepwiki/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1912,9 +1912,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-to-deepwiki/github-to-deepwiki.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-no-copilot">
@@ -1943,7 +1943,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-no-copilot/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-no-copilot/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1952,9 +1952,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-email-finder">
@@ -1983,7 +1983,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-email-finder/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-email-finder/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -1992,7 +1992,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-file-size-viewer">
@@ -2022,7 +2022,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-file-size-viewer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-file-size-viewer/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2031,9 +2031,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-co-authors">
@@ -2063,7 +2063,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
     <a href="../../github-co-authors/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-co-authors/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2072,7 +2072,7 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../github-notification-inbox-toggle">
@@ -2095,7 +2095,7 @@ Github-Notification-onbox-Toggle 개발 버전
     <a href="../../github-notification-inbox-toggle/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-notification-inbox-toggle/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2104,11 +2104,11 @@ Github-Notification-onbox-Toggle 개발 버전
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>번역 스크립트 (3)</h1></div><h3>
+<div align="center"><h1>스크립트 번역 (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">외국어 터미네이터</a>&nbsp;
@@ -2129,7 +2129,7 @@ Github-Notification-onbox-Toggle 개발 버전
     <a href="../../no-zh-terminator/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../no-zh-terminator/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2138,7 +2138,7 @@ Github-Notification-onbox-Toggle 개발 버전
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../translate-only-chinese">
@@ -2161,7 +2161,7 @@ Github-Notification-onbox-Toggle 개발 버전
     <a href="../../translate-only-chinese/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../translate-only-chinese/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2197,7 +2197,7 @@ Github-Notification-onbox-Toggle 개발 버전
     <a href="../../smart-translator-tool/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../smart-translator-tool/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2206,11 +2206,11 @@ Github-Notification-onbox-Toggle 개발 버전
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>AI 스크립트 (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
@@ -2239,7 +2239,7 @@ Github-Notification-onbox-Toggle 개발 버전
     <a href="../../chatgpt-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-plus/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2248,7 +2248,7 @@ Github-Notification-onbox-Toggle 개발 버전
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-plus/chatgpt-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-styling">
@@ -2271,7 +2271,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-code-styling/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-styling/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2307,7 +2307,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-counter/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-counter/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2316,7 +2316,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-copy-code-button">
@@ -2345,7 +2345,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-copy-code-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-copy-code-button/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2354,7 +2354,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-hightlight">
@@ -2383,7 +2383,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-code-hightlight/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-hightlight/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2392,7 +2392,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-tools">
@@ -2415,7 +2415,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-code-tools/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-tools/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2424,7 +2424,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-tools/chatgpt-code-tools.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-insert-text">
@@ -2447,7 +2447,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-insert-text/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-insert-text/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2456,7 +2456,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-insert-text/chatgpt-insert-text.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-insert-text/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-save-conversation">
@@ -2479,7 +2479,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-save-conversation/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-save-conversation/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2488,9 +2488,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-easy-management">
@@ -2513,7 +2513,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../chatgpt-easy-management/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-easy-management/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2522,11 +2522,11 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>블로그 웹 사이트 (5)</h1></div><h3>
+<div align="center"><h1>블로그 사이트 (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../../csdn-blocker">제한되지 않은 CSDN 로그인</a>&nbsp;
@@ -2547,7 +2547,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../csdn-blocker/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../csdn-blocker/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2556,7 +2556,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
     <a href="../../clean-blog-articles">
@@ -2579,7 +2579,7 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
     <a href="../../clean-blog-articles/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../clean-blog-articles/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2588,12 +2588,12 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clean-blog-articles/clean-blog-articles.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../zhihu-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://static.zhihu.com/heifetz/favicon.ico"><img width=18 src="https://static.zhihu.com/heifetz/favicon.ico" width=18></a>
-    <a href="../../zhihu-black">Zhihu의 어두운 테마</a>&nbsp;
+    <a href="../../zhihu-black">Zhihu 어두운 테마</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537644">
         <img src="https://img.shields.io/greasyfork/dt/537644?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2611,7 +2611,7 @@ Zhihu의 어두운 테마 스타일
     <a href="../../zhihu-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../zhihu-black/README_en.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2620,12 +2620,12 @@ Zhihu의 어두운 테마 스타일
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../wechat-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><img width=18 src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width=18></a>
-    <a href="../../wechat-black">WeChat 웹 버전의 다크 모드</a>&nbsp;
+    <a href="../../wechat-black">WeChat 웹 버전 다크 모드</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537645">
         <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2633,7 +2633,7 @@ Zhihu의 어두운 테마 스타일
         </a>
 </h3>
 
-웹 페이지에서 WeChat의 전체 화면 창을 활성화합니다.，다크 모드
+웹 WeChat 전체 화면 창 활성화，다크 모드
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537645">
@@ -2643,7 +2643,7 @@ Zhihu의 어두운 테마 스타일
     <a href="../../wechat-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../wechat-black/README_en.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2652,12 +2652,12 @@ Zhihu의 어두운 테마 스타일
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/wechat-black/wechat-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../weibo-mobile-redirect">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://m.weibo.cn/favicon.ico"><img width=18 src="https://m.weibo.cn/favicon.ico" width=18></a>
-    <a href="../../weibo-mobile-redirect">Sina Weibo 모바일 버전 점프</a>&nbsp;
+    <a href="../../weibo-mobile-redirect">시나 웨이보 모바일 버전 점프</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537683">
         <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect&hashtags=greasemonkey,userscripts,javascript">
@@ -2665,7 +2665,7 @@ Zhihu의 어두운 테마 스타일
         </a>
 </h3>
 
-Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지원하십시오、기사、동영상
+Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 지원、기사、동영상
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537683">
@@ -2675,7 +2675,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
     <a href="../../weibo-mobile-redirect/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../weibo-mobile-redirect/README_en.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2684,9 +2684,9 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
@@ -2715,7 +2715,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
     <a href="../../twitter-hide-reposts/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-hide-reposts/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2724,9 +2724,9 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../twitter-media-downloader">
@@ -2755,7 +2755,7 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
     <a href="../../twitter-media-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-media-downloader/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2764,9 +2764,9 @@ Sina Weibo는 자동으로 모바일 버전으로 이동합니다，Weibo를 지
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
@@ -2789,7 +2789,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
     <a href="../../twitter-download-blocklist/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-download-blocklist/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2798,7 +2798,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../twitter-show-date-normally">
@@ -2828,7 +2828,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
     <a href="../../twitter-show-date-normally/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-show-date-normally/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2837,7 +2837,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
@@ -2866,7 +2866,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
     <a href="../../youtube-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-helper/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2875,9 +2875,9 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../youtube-watch-later-shortcut">
@@ -2900,7 +2900,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
     <a href="../../youtube-watch-later-shortcut/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-watch-later-shortcut/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2909,7 +2909,7 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-watch-later-shortcut/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../youtube-better-volume-control">
@@ -2932,7 +2932,7 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
     <a href="../../youtube-better-volume-control/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-better-volume-control/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2941,7 +2941,7 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../youtube-dynamic-grid">
@@ -2964,7 +2964,7 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
     <a href="../../youtube-dynamic-grid/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-dynamic-grid/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -2973,11 +2973,11 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">로그 업데이트</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
@@ -3000,7 +3000,7 @@ Tiktok은 프로필에 더 많은 확장 정보를 표시합니다
     <a href="../../tiktok-user-info/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../tiktok-user-info/README_ko.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -3009,14 +3009,14 @@ Tiktok은 프로필에 더 많은 확장 정보를 표시합니다
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">빌리 빌리 비디오 다운로더</a>&nbsp;
+    <a href="../../bilibili-video-downloader">Bilibili 비디오 다운로더</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3024,7 +3024,7 @@ Tiktok은 프로필에 더 많은 확장 정보를 표시합니다
         </a>
 </h3>
 
-Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아닙니다）
+Bilibili 비디오 다운로드（드라마를 지원하지 않습니다）
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537678">
@@ -3034,7 +3034,7 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
     <a href="../../bilibili-video-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../bilibili-video-downloader/README_en.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -3043,12 +3043,12 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-video-downloader/bilibili-video-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
     <a href="../../bilibili-liveroom-filter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-liveroom-filter">빌리 빌리 라이브 방송실 차단 도구</a>&nbsp;
+    <a href="../../bilibili-liveroom-filter">Bilibili 라이브 룸 차단 도구</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537928">
         <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter&hashtags=greasemonkey,userscripts,javascript">
@@ -3056,7 +3056,7 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
         </a>
 </h3>
 
-빌리 빌리 라이브 방송실 차단 도구，지원 관리 목록，벌크 차단，내보내다、가져 오기 목록 등……
+Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，내보내다、목록 등을 가져옵니다.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3066,7 +3066,7 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
     <a href="../../bilibili-liveroom-filter/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../bilibili-liveroom-filter/README_en.md">
-        readme 파일</a> /
+        읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
@@ -3075,28 +3075,28 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">수정</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트-목록">디렉토리로 돌아갑니다</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
-## ❔️ 스크립트를 설치하거나 사용하는 방법？
+## ❔️ 스크립트 설치 또는 사용 방법？
 
-모든 스크립트를 사용합니다，먼저 브라우저 설치가 필요합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+스크립트를 사용하려면，먼저 브라우저를 설치해야 합니다 **Tampermonkey 스크립트 관리자 확장（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   양식을 클릭하십시오 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업하십시오。
--   만약에 Github 액세스 속도가 너무 느립니다，클릭하도록 선택할 수 있습니다 GreasyFork **\[설치하다\]** 확장 프롬프트가 나타납니다，가서 다시 클릭하십시오 **\[설치하다\]** 단지。
--   [자세한 튜토리얼을보십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
+-   양식을 클릭하세요 **\[설치하다\]** 스크립트 관리자 설치 인터페이스를 직접 팝업。
+-   만약에 Github 접속 속도가 너무 느림，클릭하여 선택할 수 있습니다. GreasyFork **\[설치하다\]** 다음 후에 확장 프롬프트가 나타납니다.，다시 클릭하세요 **\[설치하다\]** 그게 다야。
+-   [자세한 튜토리얼 보기](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _다른 사람들 **Chromium** 커널 브라우저（국내 브라우저와 같은）일반적으로 사용 가능합니다 Chrome 펼친。_
-> -   _사용하십시오 **Tampermonkey 공식 버전** 펼친，其他的用户스크립트管理器可能导致**정상적으로 사용할 수 없습니다**脚本。_
-> -   _스크립트를 다시 설치하려면，기억하십시오 Tampermonkey 펼친**재활용 쓰레기통에서 완전히 삭제되었습니다**스크립트가 완료되면 스크립트를 다시 설치하십시오。_
+> -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> -   _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户스크립트管理器可能导致**제대로 작동하지 않음**脚本。_
+> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
 
-> _**오프라인을 설치하지 않습니다 .crx 펼친？[Chrome、Edge 다시 활성화되어 숨겨집니다 [설치로 드래그하십시오 .crx 펼친] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3104,43 +3104,43 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
 
 </div>
 
-## 🙏 Kaiyuan에게 특별한 감사를드립니다
+## 🙏 오픈소스 덕분에 특별히 감사드립니다
 
 > [!TIP]
 >
 > -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
-> -   이 저장소 readme 파일이 복사되었습니다[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)콘텐츠 `브라우저 및 스크립트 관리자`
+> -   이 저장소 추가 정보 파일이 복사되었습니다.[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)콘텐츠 `브라우저 및 스크립트 관리자`
 
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   창고에 모두`README.md`파일 배지를 복사했습니다[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)파일 배지 스타일
+> -   창고에 다 있어요`README.md`파일 배지가 복사되었습니다.[Hmjz100](https://github.com/hmjz100)창고[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)내부[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)문서 배지 스타일
 
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库내부에所有`README.md`파일 헤더 소개 및 역사적 설치 양식이 복사되었습니다[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
-> -   이 창고의 하위웨어 하우스`UserScriptsHistory`설치 기록 테이블의 자동 업데이트 이미지 코드도 복사 및 사용되었습니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내부 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+> -   仓库내부에所有`README.md`파일 헤더 소개 및 설치 내역 표 복사[FengFeng](https://github.com/BonjourFeng)창고[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)파일 내용
+> -   이 창고의 하위 창고`UserScriptsHistory`자동 업데이트 설치 기록 테이블 이미지 코드도 복사되어 사용됩니다.[FengFeng](https://github.com/BonjourFeng)창고[Script-History](https://github.com/BonjourFeng/Script-History)내의 코드[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="사막의 아들"/></a> :+1:
-> -   복사 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내부 코드<br>
-> -   이 창고에서`writer.py` `update-contributors.yml` 사용 된 복사[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
-> -   이 저장소 readme 파일이 복사되었습니다[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B4%80%EB%A6%AC%EC%9E%90)콘텐츠 `설치 방법/스크립트 사용？`
+> -   복사됨 [사막의 아들](https://github.com/maboloshi)창고[github-chinese](https://github.com/maboloshi/github-chinese)내의 코드<br>
+> -   이 창고에는`writer.py` `update-contributors.yml` 다음을 사용하여 복사됨[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)내부 코드
+> -   이 저장소 추가 정보 파일이 복사되었습니다.[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B4%80%EB%A6%AC%EC%9E%90)콘텐츠 `설치 방법/스크립트 사용？`
 
 > [!TIP]
 >
-> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
-> -   _이 창고의 자동 번역 Action 미국인들에게 특별한 감사를드립니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)훌륭한 아이디어와 코드!_ :trollface:
-> -   _이 창고는 미국인으로 지명되었습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)고무하다_ :trollface:
-> -   _이 창고의 README 파일은 출신입니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
-> -   _스크립트의 상호 전환 점프는 왔습니다[Adam Lui Liu Zhanpeng](https://github.com/adamlui)자체보고 스타일_ :trollface:
-> -   _이 창고에서 모두`README.md`이 파일은이 미국 저장소에 의해 복사되어 사용되었습니다.`README.md`파일 레이아웃，구분기，암호，아이디어_ :trollface:
-> -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _복사 미국 사람[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _미국인을 복사하십시오[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분기，문제 유형 레이아웃 스타일 :trollface:
-> -   _복사 미국 사람[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python 내부 코드_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 리우잔펑"/></a> :+1:
+> -   _이 저장소의 자동 번역 및 Action Yankee에게 특별히 감사드립니다.[Adam Lui 리우잔펑](https://github.com/adamlui)훌륭한 아이디어와 코드!_ :trollface:
+> -   _이 창고의 이름 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
+> -   _이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
+> -   _스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
+> -   _이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
+> -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
+> -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Python 내부 코드_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 
@@ -3148,15 +3148,15 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
 
 </div>
 
-## 🧠 기고자
+## 🧠 기부자
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
-<a href="https://github.com/ChinaGodBot" title="사람들의 조수"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="사람들의 조수"/></a>
+<a href="https://github.com/ChinaGodBot" title="사람들의 작은 조수"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="사람들의 작은 조수"/></a>
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-기여 목록： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성되었습니다 <a href="https://github.com/jaywcjlove" title="곡조"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="곡조"/></a>
+기여 목록:： [contributors](https://github.com/jaywcjlove/github-action-contributors). 자동으로 생성됨 <a href="https://github.com/jaywcjlove" title="동생의 노래"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="동생의 노래"/></a>
 
 <div align="right">
 
@@ -3164,10 +3164,10 @@ Bilibili 비디오를 다운로드하십시오（지원되는 드라마가 아�
 
 </div>
 
-## 🏛️ 오픈 소스 라이센스 계약
+## 🏛️ 오픈소스 라이선스 계약
 
-이 프로젝트는 채택됩니다 <a href="../../LICENSE.md"><strong>MIT 특허</strong></a> 권한 부여。
-MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내용은 참조하십시오 <a href="../../LICENSE.md">라이센스의 전문</a>。
+이 프로젝트에서는 <a href="../../LICENSE.md"><strong>MIT 특허</strong></a> 승인하다。
+MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，자세한 내용은 다음을 참조하세요. <a href="../../LICENSE.md">라이센스 전문</a>。
 
 <div align="right">
 
@@ -3175,9 +3175,9 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 </div>
 
-## 🤝 행동 강령
+## 🤝 행동강령
 
-친절한 것을 보장합니다、존중하고 포괄적 인 개발 환경，우리는 다음을 공식화했습니다<a href="../CODE_OF_CONDUCT.md"><strong>행동 강령</strong></a>。각 기고자에 대한이 지침을 따르십시오。
+우호적인 관계를 보장하기 위해、존중하고 포용적인 개발 환경，우리는 다음을 개발했습니다<a href="../CODE_OF_CONDUCT.md"><strong>행동강령</strong></a>。각 기여자는 다음 지침을 따라야 합니다.。
 
 <div align="right">
 
@@ -3187,10 +3187,10 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 ## 🛡️ 보안 정책
 
-취약성을 찾으면，a[초안 안전 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+취약점을 발견한 경우，하나 열어주세요[초안 보안 권장사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-풀 요청도 환영합니다，그러나 안전상의 이유로，이메일을 보내주세요 <china.qinwuyuan@gmail.com> 그리고 공개되기 전에 답장을 기다리십시오.。
-자세한 내용은 참조하십시오 <a href="../SECURITY.md"><strong>보안 정책</strong></a>
+Pull Request도 환영합니다，하지만 보안상의 이유로，다음 주소로 이메일을 보내주세요. <china.qinwuyuan@gmail.com> 공개하기 전에 답변을 기다리세요.。
+자세한 내용은 다음을 참조하세요. <a href="../SECURITY.md"><strong>보안 정책</strong></a>
 
 <div align="right">
 
@@ -3200,7 +3200,7 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 ## 💖 기여 가이드
 
-이 프로젝트에 관심을 가져 주셔서 감사합니다！우리는 다음을 공식화했습니다<a href="../../CONTRIBUTING.md"><strong>기여 가이드</strong></a>。코드 나 문서를 원활하게 기여하는 데 도움이됩니다，코드 나 질문을 제출하기 전에하십시오，컨텐츠를주의 깊게 읽으십시오。
+본 프로젝트에 관심을 가져주셔서 감사합니다！우리는 다음을 개발했습니다<a href="../../CONTRIBUTING.md"><strong>기여 가이드</strong></a>。코드나 문서를 원활하게 기여할 수 있도록 돕기 위해，코드나 질문을 제출하기 전에 먼저，내용을 잘 읽어보세요。
 
 <div align="right">
 
@@ -3210,20 +3210,20 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 ## 🌐 브라우저 및 스크립트 관리자
 
-|                               권장 브라우저                                |                                                         설치 관리자                                                          | 브라우저를 설치하십시오                                                                    |
+|                               권장 브라우저                                |                                                         설치 관리자                                                          | 브라우저 설치                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
-| <center> Chrome 또는 기반 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
+| <center> Chrome 또는 기반으로 Chromium 커널 브라우저[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari 브라우저（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 또는 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
-| <center>Firefox 또는 기반 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
+| <center>Firefox 또는 기반으로 Gecko 커널 브라우저[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
 |              <center> Opera 브라우저[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via 브라우저（Android）[![][via]][via_link]            |                                                    <center> 브라우저에 있습니다                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X 브라우저（Android） [![][x]][x_link]              |                                                    <center> 브라우저에 있습니다                                                    | <center>[![][x]][x_link]                                                      |
+|           <center> Via 브라우저（Android）[![][via]][via_link]            |                                                    <center> 내장 브라우저                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X 브라우저（Android） [![][x]][x_link]              |                                                    <center> 내장 브라우저                                                    | <center>[![][x]][x_link]                                                      |
 |          <center> KIWI 브라우저（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> 레무르 브라우저（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|            <center> 여우원숭이 브라우저（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
 |                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]: http://tampermonkey.net/ "원숭이로 변조"
-[Violentmonkey]: https://violentmonkey.github.io/ "폭력적인 원숭이"
+[Tampermonkey]: http://tampermonkey.net/ "원숭이를 조작하다"
+[Violentmonkey]: https://violentmonkey.github.io/ "난폭한 원숭이"
 [Macaque]: https://macaque.app/ "원숭이"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
@@ -3244,12 +3244,12 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 [via_link]: https://viayoo.com/ "VIA브라우저"
 [x]: https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
 [x_link]: https://www.xbext.com/ "X브라우저"
-[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "폭력적인 원숭이"
+[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "난폭한 원숭이"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]: https://docs.scriptcat.org/ "시나리오 고양이"
-[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "원숭이로 변조"
+[cat_link]: https://docs.scriptcat.org/ "스크립트 고양이"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "원숭이를 조작하다"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]: https://lemurbrowser.com/ "레무르 브라우저"
+[le_link]: https://lemurbrowser.com/ "여우원숭이 브라우저"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWI브라우저"
 [back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
@@ -3260,7 +3260,7 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 
 </div>
 
-## ⭐ 스타 역사
+## ⭐ 스타의 역사
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
 <picture>
@@ -3276,4 +3276,4 @@ MIT 라이센스는 오픈 소스 라이센스 계약입니다，자세한 내�
 </div>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
-<p align="center"><a href="https://github.com/ChinaGodMan">저자에게 연락하십시오</a> /<a href="#top">위로 돌아갑니다↑</a></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">저자에게 연락하기</a> /<a href="#top">맨 위로 돌아가기↑</a></p>

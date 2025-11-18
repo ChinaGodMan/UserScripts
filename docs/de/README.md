@@ -24,20 +24,20 @@
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
     <img height="96px" width="96px" src="https://avatars.githubusercontent.com/u/96548841?v=4" alt="ChinaGodMan"></a>
-<h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyForkSehen Sie sich das Drehbuch des Soldaten an</a><br></h5>
+<h5><a href="https://greasyfork.org/zh-CN/scripts?by=1169082&sort=updated" target="_blank">GreasyForkSehen Sie sich das Skript für den Pfleger an</a><br></h5>
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Gesamtzahl%20der%20Installationen%20aller%20Skripte&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
-<img src="https://img.shields.io/badge/dynamic/json?&label=H%C3%A4ufigkeit%2C%20mit%20der%20ein%20Skript%20pro%20Tag%20verwendet%20wird&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Anzahl%20aller%20heute%20installierten%20Skripte&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Skriptnutzungszeiten%20pro%20Tag&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Anzahl%20aller%20Skriptinstallationen%20heute&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Anzahl%20der%20Skripte&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
-<img src="https://img.shields.io/badge/dynamic/json?&label=Alle%20guten%20Bewertungen&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Alle%20positiven%20Bewertungen&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Alles%20allgemein&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=Alle%20negativen%20Bewertungen&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=Alles%20negative%20Bewertungen&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Codequalit%C3%A4t&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
-<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=Star%20Mark&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=Stern&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
-<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Wenn das Skript Ihnen hilft,Kann die Sterne aufleuchten, um zu ermutigen</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
+<center><div align="center"><sub>⭐<a href="https://github.com/ChinaGodMan/UserScripts" target="_blank" style="color: #556B2F; background-color: pink;">Wenn Ihnen das Skript hilft,Zur Ermutigung können Sie die Sterne anzünden</a>⭐</sub></div><a href="https://t.me/qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=telegram&logo=telegram&logoColor=white&labelColor=%230088CC&color=%230088CC&style=for-the-badge" alt="Telegram"></a>
 <a href="https://www.tiktok.com/@qinwuyuan"><img src="https://img.shields.io/static/v1?label=%20&message=tiktok&logo=tiktok&logoColor=%23EE1D52&labelColor=%23010101&color=%23EE1D52&style=for-the-badge" alt="TikTok"></a>
 <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/&hashtags=greasemonkey,userscripts,javascript"><img src="https://img.shields.io/static/v1?label=%20&message=tweet&logo=x&logoColor=white&labelColor=%23000000&color=%23000000&style=for-the-badge" alt="Tweet"></a>
 <a href="https://www.instagram.com/nide9448/"><img src="https://img.shields.io/static/v1?label=%20&message=instagram&logo=instagram&logoColor=white&labelColor=%23E1306C&color=%23E1306C&style=for-the-badge" alt="Instagram"></a>
@@ -47,29 +47,29 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <center><div align="center">
-    <strong>Das Skript stammt aus den Internet -Internetnutzern，Ich habe gerade einige Änderungen vorgenommen.Vielen Dank an Internetnutzer</strong><br>
-    <strong>Wenn es eine Verletzung gibt,Kontaktieren Sie uns müssen löschen</strong><br>
+    <strong>Das Drehbuch stammt von der großen Zahl von Internetnutzern，Ich habe gerade einige Änderungen vorgenommen.Danke Netizens</strong><br>
+    <strong>Wenn ein Verstoß vorliegt,Der Kontakt muss gelöscht werden</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>Empfohlene Verwendung：</strong><br>
+    <strong>Empfohlen：</strong><br>
 <img src="https://img.shields.io/badge/Betriebssystem-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Empfohlener%20Browser-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Skriptmanager-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-💡 <strong>Tip:</strong> Der oben aufgeführte Skriptmanager und der Browser stellen nicht alle dar<br>
-    <strong>Das Skript wird normalerweise in der folgenden Umgebung ausgeführt</strong><br>
+💡 <strong>Tip:</strong> Die obige Liste der Skriptmanager und Browser ist nicht vollständig<br>
+    <strong>Das Skript läuft in der folgenden Umgebung einwandfrei</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
-<img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
 > [!WARNING]
 >  <div align="center">
->  Dieses Repository ist nur<code>GitHub</code>Hosting on,Nicht hier<code>GitCode</code>Und<code>XPlaza</code>Hosting on。Die folgenden Repositorys werden gespiegelt。<br>
->    :trollface: Wenn Sie es auf dem chinesischen Festland verwenden<code>git clone</code>Die Download -Geschwindigkeit ist zu langsam，Sie können auch die folgende Adresse verwenden
+>  Dieses Repository ist nur verfügbar in<code>GitHub</code>gehostet am,Nicht hier<code>GitCode</code>Und<code>XPlaza</code>gehostet am。Die folgenden Repositorys sind alle Spiegel。<br>
+>    :trollface: Wenn Sie es auf dem chinesischen Festland verwenden<code>git clone</code>Die Download-Geschwindigkeit ist zu langsam，Sie können auch die folgende Adresse verwenden
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Spiegelkonto，Unperson)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Spiegelkonto，Nicht-Identität)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -78,32 +78,32 @@
 
 <!--README-TOC-->
 ## 🔖 TOC
-[🌐 Browser und Skriptmanager](#-Browser-und-Skriptmanager) |
-[❔️ So installieren oder verwenden Sie Skripte](#%EF%B8%8F-So-installieren-oder-verwenden-Sie-Skripte) |
-[🙏 Besonderer Dank an Kaiyuan](#-Besonderer-Dank-an-Kaiyuan) |
-[🛡️ Sicherheitsrichtlinie](#%EF%B8%8F-Sicherheitsrichtlinie) |
+[🌐 Browser- und Skript-Manager](#-Browser--und-Skript-Manager) |
+[❔️ So installieren oder verwenden Sie das Skript](#%EF%B8%8F-So-installieren-oder-verwenden-Sie-das-Skript) |
+[🙏 Besonderer Dank geht an Open Source](#-Besonderer-Dank-geht-an-Open-Source) |
+[🛡️ Sicherheitspolitik](#%EF%B8%8F-Sicherheitspolitik) |
 [🤝 Verhaltenskodex](#-Verhaltenskodex) |
-[🏛️ Open Source -Lizenzvereinbarung](#%EF%B8%8F-Open-Source--Lizenzvereinbarung) |
-[🧠 Mitwirkende](#-Mitwirkende) |
+[🏛️ Open-Source-Lizenzvereinbarung](#%EF%B8%8F-Open-Source-Lizenzvereinbarung) |
+[🧠 Mitwirkender](#-Mitwirkender) |
 [💖 Beitragsleitfaden](#-Beitragsleitfaden) |
-[⭐ Sterngeschichte](#-Sterngeschichte) |
+[⭐ Sternengeschichte](#-Sternengeschichte) |
 [📜 Skriptliste](#-Skriptliste)
 <!--README-TOC-END-->
 
 ## 📜 Skriptliste
 
-💡 **Tip:** _Zum Anzeigen von Vorschaubild Screenshot，Bitte klicken Sie auf den Erweiterungsnamen unten ▸ Oder Beschreibung。_
+💡 **Tip:** _Vorschau-Screenshot anzeigen，Klicken Sie unter dem Erweiterungsnamen ▸ oder beschreiben。_
 
 <!--SCRIPTS_COUNT-->
-**Die Anzahl der aktuellen veröffentlichten Skripte für das Repository:82,Das Skript enthält:**
-<h6><a href="#Web--Skript-10">Web -Skript (10)</a>
+**Die aktuelle Anzahl veröffentlichter Skripte im Repository:82,Skript beinhaltet:**
+<h6><a href="#Webskript-10">Webskript (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
- | <a href="#Erwachsene-Skripte-11">Erwachsene Skripte (11)</a>
+ | <a href="#Drehbuch-für-Erwachsene-11">Drehbuch für Erwachsene (11)</a>
  | <a href="#Google-Skript-2">Google Skript (2)</a>
  | <a href="#GitHub-Skript-19">GitHub Skript (19)</a>
- | <a href="#Übersetzungsskript-3">Übersetzungsskript (3)</a>
+ | <a href="#Skript-übersetzen-3">Skript übersetzen (3)</a>
  | <a href="#AI-Skript-9">AI Skript (9)</a>
- | <a href="#Blog--Website-5">Blog -Website (5)</a>
+ | <a href="#Blogseite-5">Blogseite (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-4">YouTube (4)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
@@ -112,7 +112,7 @@
 <!--SCRIPTS_COUNT-END-->
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
-<div align="center"><h1>Web -Skript (10)</h1></div><h3>
+<div align="center"><h1>Webskript (10)</h1></div><h3>
     <a href="../../scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../../scroll-button">Scroll-Taste</a>&nbsp;
@@ -139,7 +139,7 @@
     <a href="../../scroll-button/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../scroll-button/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -175,7 +175,7 @@
     <a href="../../clipboard-manager/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../clipboard-manager/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -184,7 +184,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clipboard-manager/clipboard-manager.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../remove-link-underlines">
@@ -207,7 +207,7 @@ Entfernen Sie die Link-Unterstreichungen auf allen Websites，und neue Links dyn
     <a href="../../remove-link-underlines/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../remove-link-underlines/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -237,7 +237,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <a href="../../../highlight-keywords-mini/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../../highlight-keywords-mini/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -273,7 +273,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <a href="../../highlight-keywords/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../highlight-keywords/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -309,7 +309,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <a href="../../scroll-to-top-button/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../scroll-to-top-button/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -318,7 +318,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-to-top-button/scroll-to-top-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../popup-window">
@@ -347,7 +347,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <a href="../../popup-window/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../popup-window/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -356,7 +356,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/popup-window/popup-window.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../colorful-table">
@@ -385,7 +385,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
     <a href="../../colorful-table/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../colorful-table/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -394,7 +394,7 @@ Benutzerdefinierte Schlüsselwort auf Webseiten einschließlich dynamisches Lade
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/colorful-table/colorful-table.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../text-to-link">
@@ -417,7 +417,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../text-to-link/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../text-to-link/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -426,7 +426,7 @@ Konvertieren Sie Textlinks in klickbare Links
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../web-clipper">
@@ -455,7 +455,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../web-clipper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../web-clipper/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -464,11 +464,11 @@ Konvertieren Sie Textlinks in klickbare Links
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
@@ -497,7 +497,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../greasyfork-link/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-link/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -533,7 +533,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../greasyfork-utility-toolkit/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-utility-toolkit/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -542,7 +542,7 @@ Konvertieren Sie Textlinks in klickbare Links
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../script-finder-plus">
@@ -571,7 +571,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../script-finder-plus/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../script-finder-plus/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -580,7 +580,7 @@ Konvertieren Sie Textlinks in klickbare Links
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/script-finder-plus/script-finder-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-ranks">
@@ -609,7 +609,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../greasyfork-ranks/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-ranks/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -645,7 +645,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../greasyfork-user-control-panel-button/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-control-panel-button/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -681,7 +681,7 @@ Konvertieren Sie Textlinks in klickbare Links
     <a href="../../greasyfork-markdown-toolbar/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-markdown-toolbar/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -690,7 +690,7 @@ Konvertieren Sie Textlinks in klickbare Links
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-search">
@@ -713,7 +713,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-search/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-search/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -749,7 +749,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-discussion-watcher/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-discussion-watcher/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -758,7 +758,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-webhook-sync-enhanced">
@@ -787,7 +787,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-webhook-sync-enhanced/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-webhook-sync-enhanced/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -796,7 +796,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-user-scripts-data-visualization">
@@ -825,7 +825,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-user-scripts-data-visualization/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-scripts-data-visualization/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -834,7 +834,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-user-registration-time">
@@ -863,7 +863,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-user-registration-time/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-user-registration-time/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -872,9 +872,9 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../greasyfork-unupdated-script">
@@ -903,7 +903,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../greasyfork-unupdated-script/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../greasyfork-unupdated-script/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -912,13 +912,13 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Erwachsene Skripte (11)</h1></div><h3>
+<div align="center"><h1>Drehbuch für Erwachsene (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../../missav-explorer">Missav Batch Backup Collection Videos</a>&nbsp;
@@ -945,7 +945,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
     <a href="../../missav-explorer/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-explorer/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -954,7 +954,7 @@ Suchen Sie mit GoogleGreasyForkUndSleazyForkOberschrift
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-explorer/missav-explorer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../missav-auto-login-helper">
@@ -977,7 +977,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <a href="../../missav-auto-login-helper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-auto-login-helper/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -986,7 +986,7 @@ Erkennung MissAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../thisav-auto-login-helper">
@@ -1009,7 +1009,7 @@ Erkennung ThisAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
     <a href="../../thisav-auto-login-helper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../thisav-auto-login-helper/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1018,7 +1018,7 @@ Erkennung ThisAV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ange
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../jable-auto-login-helper">
@@ -1041,7 +1041,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../jable-auto-login-helper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../jable-auto-login-helper/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1050,7 +1050,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../missav-m3u8-finder">
@@ -1079,7 +1079,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../missav-m3u8-finder/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-m3u8-finder/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1088,7 +1088,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../xvideos-enhance">
@@ -1117,7 +1117,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../xvideos-enhance/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xvideos-enhance/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1126,7 +1126,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xvideos-enhance/xvideos-enhance.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../pornhub-download">
@@ -1155,7 +1155,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../pornhub-download/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../pornhub-download/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1164,7 +1164,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/pornhub-download/pornhub-download.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../xhamster-downloader">
@@ -1193,7 +1193,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../xhamster-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xhamster-downloader/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1202,7 +1202,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../xnxx-downloader">
@@ -1231,7 +1231,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../xnxx-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../xnxx-downloader/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1240,7 +1240,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xnxx-downloader/xnxx-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../missav-enhancer">
@@ -1269,7 +1269,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
     <a href="../../missav-enhancer/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../missav-enhancer/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1278,7 +1278,7 @@ Erkennung JableTV Zustand,und melden Sie sich automatisch an, wenn Sie nicht ang
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-enhancer/missav-enhancer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../cnm.r18">
@@ -1301,7 +1301,7 @@ Da ich gerade 18 Jahre alt bin, kann ich erwachsene Inhalte sehen
     <a href="../../cnm.r18/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../cnm.r18/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1310,11 +1310,11 @@ Da ich gerade 18 Jahre alt bin, kann ich erwachsene Inhalte sehen
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Google Skript (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
@@ -1337,7 +1337,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../google-block-search-sites/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../google-block-search-sites/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1373,7 +1373,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../google-advanced-search/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../google-advanced-search/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1382,9 +1382,9 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GitHub Skript (19)</h1></div><h3>
     <a href="../../github-repo-size-view">
@@ -1413,7 +1413,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-repo-size-view/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-repo-size-view/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1422,9 +1422,9 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-sort-by-date">
@@ -1453,7 +1453,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-sort-by-date/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-sort-by-date/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1489,7 +1489,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-folder-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-folder-downloader/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1498,7 +1498,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-folder-downloader/github-folder-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-raw-file-plus">
@@ -1527,7 +1527,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-raw-file-plus/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-raw-file-plus/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1536,7 +1536,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-raw-file-plus/github-raw-file-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-commit-viewer">
@@ -1565,7 +1565,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-commit-viewer/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-commit-viewer/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1601,7 +1601,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
     <a href="../../github-file-list-beautifier-plus/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-file-list-beautifier-plus/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1610,7 +1610,7 @@ Suchen Sie nach einer Google, die eine bestimmte Website blockiert
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-device-authorization">
@@ -1633,7 +1633,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-device-authorization/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-device-authorization/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1642,7 +1642,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-device-authorization/github-device-authorization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-linguist-expand">
@@ -1671,7 +1671,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-linguist-expand/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-linguist-expand/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1680,7 +1680,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-linguist-expand/github-linguist-expand.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-repository-navigator">
@@ -1709,7 +1709,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-repository-navigator/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-repository-navigator/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1718,7 +1718,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repository-navigator/github-repository-navigator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-jsdelivr-link">
@@ -1747,7 +1747,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-jsdelivr-link/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-jsdelivr-link/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1756,7 +1756,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-gist-copier">
@@ -1785,7 +1785,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-gist-copier/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-gist-copier/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1794,9 +1794,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-comment-translate">
@@ -1825,7 +1825,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-comment-translate/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-comment-translate/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1834,7 +1834,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-comment-translate/github-comment-translate.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../github-starred-repo-note">
@@ -1863,7 +1863,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-starred-repo-note/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-starred-repo-note/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1872,9 +1872,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-to-deepwiki">
@@ -1903,7 +1903,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-to-deepwiki/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-to-deepwiki/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1912,9 +1912,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-to-deepwiki/github-to-deepwiki.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-no-copilot">
@@ -1943,7 +1943,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-no-copilot/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-no-copilot/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1952,9 +1952,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-email-finder">
@@ -1983,7 +1983,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-email-finder/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-email-finder/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -1992,7 +1992,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-file-size-viewer">
@@ -2022,7 +2022,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-file-size-viewer/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-file-size-viewer/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2031,9 +2031,9 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-co-authors">
@@ -2063,7 +2063,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
     <a href="../../github-co-authors/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-co-authors/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2072,7 +2072,7 @@ existierenGitHubAuf der Autorisierungsseite wird der Autorisierungscode automati
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../github-notification-inbox-toggle">
@@ -2095,7 +2095,7 @@ GitHub-Notification-in-Box-Toggle-Entwicklung Version
     <a href="../../github-notification-inbox-toggle/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../github-notification-inbox-toggle/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2104,11 +2104,11 @@ GitHub-Notification-in-Box-Toggle-Entwicklung Version
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Übersetzungsskript (3)</h1></div><h3>
+<div align="center"><h1>Skript übersetzen (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">Fremdsprachterminator</a>&nbsp;
@@ -2129,7 +2129,7 @@ Identifizieren Sie nicht chinesische Charaktere. Wenn die Länge größer als 5 
     <a href="../../no-zh-terminator/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../no-zh-terminator/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2138,7 +2138,7 @@ Identifizieren Sie nicht chinesische Charaktere. Wenn die Länge größer als 5 
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../translate-only-chinese">
@@ -2161,7 +2161,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <a href="../../translate-only-chinese/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../translate-only-chinese/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2197,7 +2197,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <a href="../../smart-translator-tool/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../smart-translator-tool/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2206,11 +2206,11 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>AI Skript (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
@@ -2239,7 +2239,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
     <a href="../../chatgpt-plus/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-plus/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2248,7 +2248,7 @@ Fügen Sie ein Google-Übersetzungssymbol in die untere rechte Ecke jeder nichtc
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-plus/chatgpt-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-styling">
@@ -2271,7 +2271,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <a href="../../chatgpt-code-styling/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-styling/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2307,7 +2307,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <a href="../../chatgpt-counter/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-counter/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2316,7 +2316,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-copy-code-button">
@@ -2345,7 +2345,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <a href="../../chatgpt-copy-code-button/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-copy-code-button/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2354,7 +2354,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-hightlight">
@@ -2383,7 +2383,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
     <a href="../../chatgpt-code-hightlight/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-hightlight/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2392,7 +2392,7 @@ ChatGPT Verkleinern Sie die Codeschrift und automatisch umwickeln
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-code-tools">
@@ -2415,7 +2415,7 @@ Fügen Sie den ChatGPT -Codeblöcken Funktionen hinzu, einschließlich der Optio
     <a href="../../chatgpt-code-tools/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-code-tools/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2424,7 +2424,7 @@ Fügen Sie den ChatGPT -Codeblöcken Funktionen hinzu, einschließlich der Optio
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-tools/chatgpt-code-tools.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-insert-text">
@@ -2447,7 +2447,7 @@ Fügen Sie den Befehl über die Schlüsselkombination in das ChatGPT -Eingangsfe
     <a href="../../chatgpt-insert-text/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-insert-text/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2456,7 +2456,7 @@ Fügen Sie den Befehl über die Schlüsselkombination in das ChatGPT -Eingangsfe
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-insert-text/chatgpt-insert-text.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-insert-text/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-save-conversation">
@@ -2479,7 +2479,7 @@ Speichern Sie die Konversation als .txt -Datei
     <a href="../../chatgpt-save-conversation/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-save-conversation/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2488,9 +2488,9 @@ Speichern Sie die Konversation als .txt -Datei
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../chatgpt-easy-management">
@@ -2513,7 +2513,7 @@ Suchen Sie Chat, Filter -Chat, Schnell/Stapel -Chat löschen.
     <a href="../../chatgpt-easy-management/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../chatgpt-easy-management/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2522,11 +2522,11 @@ Suchen Sie Chat, Filter -Chat, Schnell/Stapel -Chat löschen.
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Blog -Website (5)</h1></div><h3>
+<div align="center"><h1>Blogseite (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../../csdn-blocker">Un eingeschränkte CSDN -Login</a>&nbsp;
@@ -2547,7 +2547,7 @@ Gehen Sie zu Ihrem verdammten CSDN -Login und kopieren Sie, Sie können kopieren
     <a href="../../csdn-blocker/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../csdn-blocker/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2556,7 +2556,7 @@ Gehen Sie zu Ihrem verdammten CSDN -Login und kopieren Sie, Sie können kopieren
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a>
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a>
 </blockquote>
 <h3>
     <a href="../../clean-blog-articles">
@@ -2579,7 +2579,7 @@ Entfernen Sie nervige Seitenleisten, Kommentarblöcke, Anzeigen und mehr.
     <a href="../../clean-blog-articles/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../clean-blog-articles/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2588,12 +2588,12 @@ Entfernen Sie nervige Seitenleisten, Kommentarblöcke, Anzeigen und mehr.
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clean-blog-articles/clean-blog-articles.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../zhihu-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://static.zhihu.com/heifetz/favicon.ico"><img width=18 src="https://static.zhihu.com/heifetz/favicon.ico" width=18></a>
-    <a href="../../zhihu-black">Dunkle Themen von Zhihu</a>&nbsp;
+    <a href="../../zhihu-black">Zhihu dunkles Thema</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537644">
         <img src="https://img.shields.io/greasyfork/dt/537644?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2611,7 +2611,7 @@ Zhihus dunkler Themenstil
     <a href="../../zhihu-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../zhihu-black/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2620,12 +2620,12 @@ Zhihus dunkler Themenstil
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../wechat-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><img width=18 src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width=18></a>
-    <a href="../../wechat-black">Dunkler Modus der Wechat -Webversion</a>&nbsp;
+    <a href="../../wechat-black">Dunkler Modus der WeChat-Webversion</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537645">
         <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2633,7 +2633,7 @@ Zhihus dunkler Themenstil
         </a>
 </h3>
 
-Aktivieren Sie das Vollbildfenster von WeChat auf der Webseite，Dunkler Modus
+Aktivieren Sie das Web-WeChat-Vollbildfenster，Dunkelmodus
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537645">
@@ -2643,7 +2643,7 @@ Aktivieren Sie das Vollbildfenster von WeChat auf der Webseite，Dunkler Modus
     <a href="../../wechat-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../wechat-black/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2652,12 +2652,12 @@ Aktivieren Sie das Vollbildfenster von WeChat auf der Webseite，Dunkler Modus
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/wechat-black/wechat-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../weibo-mobile-redirect">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://m.weibo.cn/favicon.ico"><img width=18 src="https://m.weibo.cn/favicon.ico" width=18></a>
-    <a href="../../weibo-mobile-redirect">Sina Weibo Mobile Versionsprung</a>&nbsp;
+    <a href="../../weibo-mobile-redirect">Sprung in die mobile Version von Sina Weibo</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537683">
         <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect&hashtags=greasemonkey,userscripts,javascript">
@@ -2665,7 +2665,7 @@ Aktivieren Sie das Vollbildfenster von WeChat auf der Webseite，Dunkler Modus
         </a>
 </h3>
 
-Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Weibo、Artikel、Video
+Sina Weibo springt automatisch zur mobilen Version，Unterstützen Sie Weibo、Artikel、Video
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537683">
@@ -2675,7 +2675,7 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
     <a href="../../weibo-mobile-redirect/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../weibo-mobile-redirect/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2684,9 +2684,9 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
@@ -2715,7 +2715,7 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
     <a href="../../twitter-hide-reposts/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-hide-reposts/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2724,9 +2724,9 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../twitter-media-downloader">
@@ -2755,7 +2755,7 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
     <a href="../../twitter-media-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-media-downloader/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2764,9 +2764,9 @@ Sina Weibo wird automatisch zur mobilen Version springen，Unterstützen Sie Wei
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../twitter-download-blocklist">
@@ -2789,7 +2789,7 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
     <a href="../../twitter-download-blocklist/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-download-blocklist/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2798,7 +2798,7 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../twitter-show-date-normally">
@@ -2828,7 +2828,7 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
     <a href="../../twitter-show-date-normally/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../twitter-show-date-normally/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2837,7 +2837,7 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>YouTube (4)</h1></div><h3>
     <a href="../../youtube-helper">
@@ -2866,7 +2866,7 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
     <a href="../../youtube-helper/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-helper/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2875,9 +2875,9 @@ Wird verwendet, um Twitter (x) Blacklists und blockierte Listen herunterzuladen,
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../youtube-watch-later-shortcut">
@@ -2900,7 +2900,7 @@ Verwenden Sie Tastaturverknüpfungen, um das aktuelle YouTube -Video zum oder vo
     <a href="../../youtube-watch-later-shortcut/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-watch-later-shortcut/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2909,7 +2909,7 @@ Verwenden Sie Tastaturverknüpfungen, um das aktuelle YouTube -Video zum oder vo
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-watch-later-shortcut/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../youtube-better-volume-control">
@@ -2932,7 +2932,7 @@ Fügen Sie den YouTube -Video -Player Schieberegler hinzu, um die Volumenänderu
     <a href="../../youtube-better-volume-control/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-better-volume-control/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2941,7 +2941,7 @@ Fügen Sie den YouTube -Video -Player Schieberegler hinzu, um die Volumenänderu
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../youtube-dynamic-grid">
@@ -2964,7 +2964,7 @@ Passen Sie das YouTube -Video -Netz dynamisch anhand der Fensterbreite an, um di
     <a href="../../youtube-dynamic-grid/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../youtube-dynamic-grid/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -2973,11 +2973,11 @@ Passen Sie das YouTube -Video -Netz dynamisch anhand der Fensterbreite an, um di
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
-        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Aktualisieren Sie das Protokoll</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Änderungsprotokoll</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
@@ -3000,7 +3000,7 @@ TIKTOK zeigt erweiterte Informationen zum Profil an
     <a href="../../tiktok-user-info/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../tiktok-user-info/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -3009,14 +3009,14 @@ TIKTOK zeigt erweiterte Informationen zum Profil an
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">Bilibili Video Downloader</a>&nbsp;
+    <a href="../../bilibili-video-downloader">Bilibili-Video-Downloader</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3024,7 +3024,7 @@ TIKTOK zeigt erweiterte Informationen zum Profil an
         </a>
 </h3>
 
-Laden Sie Bilibili Video herunter（Nicht unterstütztes Drama）
+Laden Sie Bilibili-Videos herunter（Unterstützt keine Dramen）
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537678">
@@ -3034,7 +3034,7 @@ Laden Sie Bilibili Video herunter（Nicht unterstütztes Drama）
     <a href="../../bilibili-video-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../bilibili-video-downloader/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -3043,12 +3043,12 @@ Laden Sie Bilibili Video herunter（Nicht unterstütztes Drama）
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-video-downloader/bilibili-video-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
 <h3>
     <a href="../../bilibili-liveroom-filter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-liveroom-filter">Bilibili Live Broadcast Room Blocking Tool</a>&nbsp;
+    <a href="../../bilibili-liveroom-filter">Bilibili Live-Raumblockierungstool</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537928">
         <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Anzahl%20der%20Benutzer"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter&hashtags=greasemonkey,userscripts,javascript">
@@ -3056,7 +3056,7 @@ Laden Sie Bilibili Video herunter（Nicht unterstütztes Drama）
         </a>
 </h3>
 
-Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，Massenblockierung，Export、Importliste usw.……
+Bilibili Live-Raumblockierungstool，Support-Management-Liste，Batch-Blockierung，Export、Importlisten etc.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3066,7 +3066,7 @@ Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，Massen
     <a href="../../bilibili-liveroom-filter/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
     <a href="../../bilibili-liveroom-filter/README_en.md">
-        Readme -Datei</a> /
+        Readme-Datei</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">diskutieren</a> /
@@ -3075,28 +3075,28 @@ Bilibili Live Broadcast Room Blocking Tool，Support -Management -Liste，Massen
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Installieren</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter/AUTHORS.md">
-        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modifiziert von</a>
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Geändert von</a>
 </blockquote>
-<div align="right"><a href="#-Skriptliste">Kehren Sie zum Verzeichnis zurück</a></div>
+<div align="right"><a href="#-Skriptliste">Zurück zum Inhaltsverzeichnis</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
-## ❔️ So installieren oder verwenden Sie Skripte？
+## ❔️ So installieren oder verwenden Sie das Skript？
 
-Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **Tampermonkey Skript -Manager -Erweiterungen（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+Um ein beliebiges Skript zu verwenden，Zuerst müssen Sie den Browser installieren **Tampermonkey Script Manager-Erweiterung（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   Klicken Sie auf das Formular **\[Installieren\]** Geben Sie die Installationsschnittstelle für Skriptmanager direkt auf。
--   Wenn Github Die Zugangsgeschwindigkeit ist zu langsam，Sie können wählen, um zu klicken GreasyFork **\[Installieren\]** Die Verlängerung Eingabeaufforderung taucht auf，Geh und klicke noch einmal **\[Installieren\]** Nur。
--   [Detailliertes Tutorial anzeigen](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
+-   Klicken Sie auf das Formular **\[Installieren\]** Rufen Sie direkt die Installationsoberfläche des Skript-Managers auf。
+-   Wenn Github Die Zugriffsgeschwindigkeit ist zu langsam，Sie können wählen, ob Sie klicken möchten GreasyFork **\[Installieren\]** Danach wird eine Eingabeaufforderung zur Erweiterung angezeigt，Klicken Sie erneut **\[Installieren\]** Das ist es。
+-   [Detailliertes Tutorial ansehen](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _Andere basierend auf **Chromium** Kernelbrowser（Wie inländischer Browser）Im Allgemeinen verfügbar Chrome Erweitert。_
-> -   _Bitte stellen Sie sicher **Tampermonkey Offizielle Version** Erweitert，其他的用户Skript管理器可能导致**Kann nicht normal benutzen**脚本。_
-> -   _Wenn Sie das Skript neu installieren möchten，Bitte denken Sie daran Tampermonkey Erweitert**Vollständig im Recyclingbehälter gelöscht**Nach Abschluss des Skripts installieren Sie das Skript neu。_
+> -   _Andere basieren auf **Chromium** Kernel-Browser（Wie zum Beispiel ein inländischer Cover-Browser）Generell einsetzbar Chrome Expandieren。_
+> -   _Bitte unbedingt verwenden **Tampermonkey Offizielle Version** Expandieren，其他的用户Skript管理器可能导致**Funktioniert nicht richtig**脚本。_
+> -   _Wenn Sie das Skript neu installieren möchten，Bitte denken Sie daran Tampermonkey erweitert**Vollständig aus dem Papierkorb löschen**Gehen Sie nach dem Skript und installieren Sie das Skript neu.。_
 
-> _**Wird nicht offline installieren .crx Erweitert？[Chrome、Edge Wiederversteckt [In die Installation ziehen .crx Erweitert] Funktion！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**Keine Offline-Installation .crx Expandieren？[Chrome、Edge Ausgeblendet wieder öffnen [Drag-and-Drop-Installation .crx Expandieren] Funktion！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3104,43 +3104,43 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 
 </div>
 
-## 🙏 Besonderer Dank an Kaiyuan
+## 🙏 Besonderer Dank geht an Open Source
 
 > [!TIP]
 >
 > -   <a href="https://github.com/XIU2" title=""><img src="https://avatars.githubusercontent.com/u/54703944?v=4" width="42;" alt="XIU2"/></a> :+1:
-> -   Diese Repository Readme -Datei wurde kopiert[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)Inhalt `Browser und Skriptmanager`
+> -   Diese Repository-Readme-Datei wird kopiert[XIU2/UserScript//README.md](https://github.com/XIU2/UserScript/#:~:text=%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85/%E4%BD%BF%E7%94%A8%E8%84%9A%E6%9C%AC%EF%BC%9F)Inhalt `Browser- und Skript-Manager`
 
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   Alles im Lagerhaus`README.md`Dateiabzeichen kopiert[Hmjz100](https://github.com/hmjz100)Lager[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)Intern[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Dateiabzeichenstil
+> -   Alles im Lager`README.md`Datei-Badge kopiert[Hmjz100](https://github.com/hmjz100)Lager[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)intern[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)Dokument-Badge-Stil
 
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库Innen所有`README.md`Einführung von Dateihoitzen und historisches Installationsformular kopiert[FengFeng](https://github.com/BonjourFeng)Lager[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Dateiinhalt
-> -   Unterlager dieses Lagerhauses`UserScriptsHistory`Die automatische Aktualisierung des Installationsverlaufs -Tabellenbildcodes wurde ebenfalls kopiert und verwendet[FengFeng](https://github.com/BonjourFeng)Lager[Script-History](https://github.com/BonjourFeng/Script-History)Code im Inneren[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+> -   仓库Innen所有`README.md`Datei-Header-Einführung und historische Installationstabelle kopiert[FengFeng](https://github.com/BonjourFeng)Lager[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Dateiinhalt
+> -   Unterlager dieses Lagers`UserScriptsHistory`Der Bildcode der Installationsverlaufstabelle für automatische Updates wird ebenfalls kopiert und verwendet.[FengFeng](https://github.com/BonjourFeng)Lager[Script-History](https://github.com/BonjourFeng/Script-History)Code innerhalb[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="Sohn der Wüste"/></a> :+1:
-> -   Kopiert [Sohn der Wüste](https://github.com/maboloshi)Lager[github-chinese](https://github.com/maboloshi/github-chinese)Code im Inneren<br>
-> -   In diesem Lagerhaus`writer.py` `update-contributors.yml` Kopieren verwendet[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Der Code im Inneren
-> -   Diese Repository Readme -Datei wurde kopiert[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8ESkriptmanager)Inhalt `So installieren/Verwenden von Skripten？`
+> -   Kopiert [Sohn der Wüste](https://github.com/maboloshi)Lager[github-chinese](https://github.com/maboloshi/github-chinese)Code innerhalb<br>
+> -   In diesem Lager`writer.py` `update-contributors.yml` Kopiert mit[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)Code im Inneren
+> -   Diese Repository-Readme-Datei wird kopiert[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8ESkriptmanager)Inhalt `So installieren Sie es/Verwenden Sie ein Skript？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
-> -   _Automatische Übersetzung dieses Lagerhauses und Action Besonderer Dank an die Amerikaner[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ausgezeichnete Ideen und Code!_ :trollface:
-> -   _Dieses Lagerhaus ist in Amerikaner benannt[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspirieren_ :trollface:
-> -   _ReadMe -Dateien in diesem Lager stammen aus[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtstil_ :trollface:
-> -   _Die gegenseitige Ablenkung springt in das Drehbuch stammt aus[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtstil_ :trollface:
-> -   _Alles in diesem Lagerhaus`README.md`Die Datei wurde von diesem amerikanischen Repository kopiert und verwendet`README.md`Dateilayout，Abgrenzer，Code，Ideen_ :trollface:
-> -   _Kopieren Sie den Amerikaner[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action Interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _Kopiert amerikanisch[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action Interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _Kopieren Sie den Amerikaner[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Abgrenzer，Ausgabetyp -Layoutstil :trollface:
-> -   _Kopiert amerikanisch[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python Interner Code_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   _Automatische Übersetzung dieses Repositorys und Action Besonderer Dank geht an Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Tolle Ideen und Code!_ :trollface:
+> -   _Der Namensstil dieses Lagerhauses ist von den Yankees inspiriert[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspirieren_ :trollface:
+> -   _Die Readme-Datei in diesem Repository stammt von[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtsstil_ :trollface:
+> -   _Der gegenseitige Umleitungssprung innerhalb des Skripts ergibt sich aus[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Selbstberichtsstil_ :trollface:
+> -   _Alles in diesem Lager`README.md`Datei aus diesem Yankee-Repository kopiert und verwendet`README.md`Dokumentlayout，Trennzeichen，Code，Ideen_ :trollface:
+> -   _kopierter Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _Kopiert Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action interner Code_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _kopierter Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)Trennzeichen，Satzstil :trollface:
+> -   _Kopiert Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python interner Code_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 
@@ -3148,15 +3148,15 @@ Um ein Skript zu verwenden，Erstens benötigen Sie eine Browserinstallation **T
 
 </div>
 
-## 🧠 Mitwirkende
+## 🧠 Mitwirkender
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
-<a href="https://github.com/ChinaGodBot" title="Der Assistent der Volk"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="Der Assistent der Volk"/></a>
+<a href="https://github.com/ChinaGodBot" title="Der kleine Assistent des Volkes"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="Der kleine Assistent des Volkes"/></a>
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-END-->
 
-Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generiert <a href="https://github.com/jaywcjlove" title="Melodie"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Melodie"/></a>
+Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-contributors). Automatisch generiert <a href="https://github.com/jaywcjlove" title="Lieder des kleinen Bruders"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="Lieder des kleinen Bruders"/></a>
 
 <div align="right">
 
@@ -3164,10 +3164,10 @@ Beitragsliste von： [contributors](https://github.com/jaywcjlove/github-action-
 
 </div>
 
-## 🏛️ Open Source -Lizenzvereinbarung
+## 🏛️ Open-Source-Lizenzvereinbarung
 
-Dieses Projekt nimmt an <a href="../../LICENSE.md"><strong>MIT Lizenz</strong></a> Genehmigung。
-MIT Lizenz ist eine lose Open -Source -Lizenzvereinbarung，Für Einzelheiten finden Sie bitte auf <a href="../../LICENSE.md">Volltext der Lizenz</a>。
+Dieses Projekt verwendet <a href="../../LICENSE.md"><strong>MIT Lizenz</strong></a> Autorisieren。
+MIT Bei der Lizenz handelt es sich um eine freizügige Open-Source-Lizenzvereinbarung，Einzelheiten finden Sie unter <a href="../../LICENSE.md">Vollständiger Lizenztext</a>。
 
 <div align="right">
 
@@ -3177,7 +3177,7 @@ MIT Lizenz ist eine lose Open -Source -Lizenzvereinbarung，Für Einzelheiten fi
 
 ## 🤝 Verhaltenskodex
 
-Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungsumfeld，Wir haben Folgendes formuliert<a href="../CODE_OF_CONDUCT.md"><strong>Verhaltenskodex</strong></a>。Bitte befolgen Sie diese Richtlinien für jeden Mitarbeiter。
+Um eine freundliche Atmosphäre zu gewährleisten、Eine respektvolle und integrative Entwicklungsumgebung，Wir haben Folgendes entwickelt<a href="../CODE_OF_CONDUCT.md"><strong>Verhaltenskodex</strong></a>。Jeder Mitwirkende wird gebeten, diese Richtlinien zu befolgen。
 
 <div align="right">
 
@@ -3185,12 +3185,12 @@ Ein freundliches sicherstellen、Ein respektvolles und integratives Entwicklungs
 
 </div>
 
-## 🛡️ Sicherheitsrichtlinie
+## 🛡️ Sicherheitspolitik
 
-Wenn Sie eine Verwundbarkeit finden，Bitte öffnen Sie a[Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+Wenn Sie eine Schwachstelle finden，Bitte öffnen Sie eines[Entwurf von Sicherheitsempfehlungen](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Pull -Anfragen sind ebenfalls willkommen，Aber aus Sicherheitsgründen，Bitte senden Sie eine E -Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor sie veröffentlicht wird。
-Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherheitsrichtlinie</strong></a>
+Auch Pull-Requests sind willkommen，aber aus Sicherheitsgründen，Bitte senden Sie eine E-Mail an <china.qinwuyuan@gmail.com> und warten Sie auf eine Antwort, bevor Sie sie veröffentlichen。
+Einzelheiten finden Sie unter <a href="../SECURITY.md"><strong>Sicherheitspolitik</strong></a>
 
 <div align="right">
 
@@ -3200,7 +3200,7 @@ Für Einzelheiten finden Sie bitte auf <a href="../SECURITY.md"><strong>Sicherhe
 
 ## 💖 Beitragsleitfaden
 
-Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes formuliert<a href="../../CONTRIBUTING.md"><strong>Beitragsleitfaden</strong></a>。Um Ihnen dabei zu helfen, Code oder Dokumentation reibungslos beizutragen，Bitte, bevor Sie den Code oder die Frage einreichen，Lesen Sie den Inhalt sorgfältig durch。
+Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes entwickelt<a href="../../CONTRIBUTING.md"><strong>Beitragsleitfaden</strong></a>。Damit Sie reibungslos Code oder Dokumentation beisteuern können，Bitte bevor Sie Code oder Fragen einreichen，Lesen Sie den Inhalt sorgfältig durch。
 
 <div align="right">
 
@@ -3208,22 +3208,22 @@ Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes formulier
 
 </div>
 
-## 🌐 Browser und Skriptmanager
+## 🌐 Browser- und Skript-Manager
 
-|                               Empfohlener Browser                                |                                                         Installationsmanager                                                          | Installieren Sie den Browser                                                                    |
+|                               Empfohlener Browser                                |                                                         Installationsmanager                                                          | Browser installieren                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
-| <center> Chrome oder bezogen auf Chromium Kernelbrowser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
+| <center> Chrome oder bezogen auf Chromium Kernel-Browser[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari Browser（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] oder ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
-| <center>Firefox oder bezogen auf Gecko Kernelbrowser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
+| <center>Firefox oder bezogen auf Gecko Kernel-Browser[![][firefox]][firefox_link]  | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][firefox]][firefox_link]                                          |
 |              <center> Opera Browser[![][opera]][opera_link]              | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][opera]][opera_link]                                              |
-|           <center> Via Browser（Android）[![][via]][via_link]            |                                                    <center> Kommt im Browser                                                    | <center>[![][via]][via_link]                                                  |
-|              <center> X Browser（Android） [![][x]][x_link]              |                                                    <center> Kommt im Browser                                                    | <center>[![][x]][x_link]                                                      |
+|           <center> Via Browser（Android）[![][via]][via_link]            |                                                    <center> Eingebauter Browser                                                    | <center>[![][via]][via_link]                                                  |
+|              <center> X Browser（Android） [![][x]][x_link]              |                                                    <center> Eingebauter Browser                                                    | <center>[![][x]][x_link]                                                      |
 |          <center> KIWI Browser（Android）[![][kiwi]][kiwi_link]          | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][kiwi]][kiwi_link]                                                |
-|            <center> Lemur Browser（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
+|            <center> Lemur-Browser（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
 |                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]: http://tampermonkey.net/ "Manipulationen mit Affen"
-[Violentmonkey]: https://violentmonkey.github.io/ "Gewalttätiger Affe"
+[Tampermonkey]: http://tampermonkey.net/ "Manipulationsaffe"
+[Violentmonkey]: https://violentmonkey.github.io/ "gewalttätiger Affe"
 [Macaque]: https://macaque.app/ "Makaken"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
@@ -3244,12 +3244,12 @@ Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes formulier
 [via_link]: https://viayoo.com/ "VIABrowser"
 [x]: https://img.xwyue.com/i/2024/08/02/66ac91cb1638a.png
 [x_link]: https://www.xbext.com/ "XBrowser"
-[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "Gewalttätiger Affe"
+[vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "gewalttätiger Affe"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]: https://docs.scriptcat.org/ "Drehbuchkatze"
-[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "Manipulationen mit Affen"
+[cat_link]: https://docs.scriptcat.org/ "Skriptkatze"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "Manipulationsaffe"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
-[le_link]: https://lemurbrowser.com/ "Lemur Browser"
+[le_link]: https://lemurbrowser.com/ "Lemur-Browser"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg
 [kiwi_link]: https://kiwibrowser.com/ "KIWIBrowser"
 [back-to-toc]: https://img.shields.io/badge/-🚀%20BACK_TO_TOC-151515?style=flat-square
@@ -3260,7 +3260,7 @@ Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes formulier
 
 </div>
 
-## ⭐ Sterngeschichte
+## ⭐ Sternengeschichte
 
 <a href="https://star-history.com/#ChinaGodMan/UserScripts&Date">
 <picture>
@@ -3276,4 +3276,4 @@ Vielen Dank für Ihr Interesse an diesem Projekt！Wir haben Folgendes formulier
 </div>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg" alt="Footer" /></p>
-<p align="center"><a href="https://github.com/ChinaGodMan">Wenden Sie sich an den Autor</a> /<a href="#top">Zurück nach oben↑</a></p>
+<p align="center"><a href="https://github.com/ChinaGodMan">Kontaktieren Sie den Autor</a> /<a href="#top">zurück nach oben↑</a></p>

@@ -61,7 +61,7 @@
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
-<img src="https://badges.toozhao.com/badges/01JVKVKDMD3GTXXKR1ZF9GY1V9/blue.svg" />
+<img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
 > [!WARNING]
 >  <div align="center">
@@ -69,7 +69,7 @@
 >    :trollface: 如果你在中國大陸地區使用<code>git clone</code>下載速度太慢，你也可以是使用以下地址進行
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (鏡像賬號，非人)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (鏡像賬號，非同一性)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -3246,7 +3246,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 [x_link]: https://www.xbext.com/ "X瀏覽器"
 [vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "暴力猴"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]: https://docs.scriptcat.org/ "劇本貓"
+[cat_link]: https://docs.scriptcat.org/ "腳本貓"
 [TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "篡改猴"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
 [le_link]: https://lemurbrowser.com/ "狐猴瀏覽器"
