@@ -10,7 +10,7 @@ jobs:
       TZ: Asia/Shanghai
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.QWY_SYNC_BOT_TOKEN }}
       - name: Generate Contributors Images
