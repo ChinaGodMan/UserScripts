@@ -405,9 +405,7 @@ const TMD = (function () {
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
-            let tweet = json.quoted_status_result?.result?.legacy?.media//此媒体存在,属于引用推文
-                || json.quoted_status_result?.result?.legacy
-                || json.legacy
+            let tweet = json.legacy
             let user = json.core.user_results.result.legacy
             let invalid_chars = { '\\': '＼', '\/': '／', '\|': '｜', '<': '＜', '>': '＞', ':': '：', '*': '＊', '?': '？', '"': '＂', '\u200b': '', '\u200c': '', '\u200d': '', '\u2060': '', '\ufeff': '', '🔞': '' }
             let datetime = out.match(/\{date-time(-local)?:[^{}]+\}/) ? out.match(/\{date-time(?:-local)?:([^{}]+)\}/)[1].replace(/[\\/|<>*?:"]/g, v => invalid_chars[v]) : 'YYYYMMDD-hhmmss'
