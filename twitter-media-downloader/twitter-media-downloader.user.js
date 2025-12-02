@@ -1,117 +1,117 @@
 // ==UserScript==
 // @name               Twitter/X Media Downloader
-// @name:af            Twitter Media Download (2025.04.28 vas)
-// @name:am            ትዊተር ሚዲያ አውርድ (2025.04.28 ተጠግኗል)
-// @name:ar            تنزيل Media Twitter (2025.04.28 ثابت)
-// @name:az            Twitter Media Yükləmə (2025.04.28 Sabit)
-// @name:be            Загрузка Twitter Media (2025.04.28 Выпраўлена)
-// @name:bem           Ukukongama kwa pa muulu (2025.04.28 ukwashintililwapo)
-// @name:bg            Изтегляне на медии в Twitter (2025.04.28 Фиксиран)
-// @name:bn            টুইটার মিডিয়া ডাউনলোড (2025.04.28 স্থির)
-// @name:bo            Twitter Media Download (2025.04.28 གཏན་འཁེལ་བྱུང་བ།)
-// @name:bs            Preuzimanje Twitter Media (2025.04.28 fiksnim)
-// @name:ca            Descàrrega de Twitter Media (2025.04.28 S’ha corregit)
-// @name:ceb           Download sa Twitter Media (2025.04.28 naayos)
-// @name:ckb           داگرتنی میدیای تویتەر (2025.04.28 چاککراوە)
-// @name:cs            Stahování médií Twitter (2025.04.28 Opraveno)
-// @name:cy            Lawrlwytho Cyfryngau Twitter (2025.04.28 sefydlog)
-// @name:da            Twitter Media Download (2025.04.28 Fixed)
-// @name:de            Download von Twitter Media (2025.04.28 behoben)
-// @name:dv            ޓްވިޓަރ މީޑިއާ ޑައުންލޯޑް (2025.04.28 ފިކްސްޑް)
-// @name:dz            Twitter Medownload (2025.04.28 བདེ་སྒྲིག་)
-// @name:el            Download Media Twitter (2025.04.28 Διορθώθηκε)
-// @name:en            Twitter Media Downloader (2025.04.28 Fixed)
-// @name:en-GB         Twitter Media Downloader (2025.04.28 Fixed)
-// @name:eo            Elŝuti Twitter Media (2025.04.28 Fiksita)
-// @name:es            Descarga de medios de Twitter (2025.04.28 solucionado)
-// @name:et            Twitteri meedia allalaadimine (2025.04.28 fikseeritud)
-// @name:eu            Twitter Media download (2025.04.28 Konpondu)
-// @name:fa            دانلود رسانه توییتر (2025.04.28 ثابت)
-// @name:fi            Twitter Media Download (2025.04.28 Kiinteä)
-// @name:fo            Twitter Media Download (2025.04.28 Fast)
-// @name:fr            Twitter Media Download (2025.04.28 Correction)
-// @name:fr-CA         Twitter Media Download (2025.04.28 Correction)
-// @name:gd            Luchdaich sìos meadhanan Twitter (2025.04.28 stèidhichte)
-// @name:gl            Twitter Media Download (2025.04.28 Fixado)
-// @name:gu            ટ્વિટર મીડિયા ડાઉનલોડ (2025.04.28 સ્થિર)
-// @name:haw           Kāleʻa Twitter (2025.04.28 paʻa)
-// @name:he            הורדת מדיה בטוויטר (2025.04.28 קבועה)
-// @name:hi            ट्विटर मीडिया डाउनलोड (2025.04.28 फिक्स्ड)
-// @name:hr            Twitter Media preuzimanje (2025.04.28 fiksno)
-// @name:ht            Twitter Media Download (2025.04.28 fiks)
-// @name:hu            A Twitter Media letöltése (2025.04.28 rögzített)
-// @name:hy            Twitter Media Download (2025.04.28 ֆիքսված)
-// @name:id            Unduh Media Twitter (2025.04.28 diperbaiki)
-// @name:is            Twitter Media Download (2025.04.28 Fast)
-// @name:it            Download di Twitter Media (2025.04.28 FISSO)
-// @name:ja            Twitterメディアダウンロード（2025.04.28修正）
-// @name:ka            Twitter Media Download (2025.04.28 დაფიქსირდა)
-// @name:kk            Twitter Media Download (2025.04.28 тіркелген)
-// @name:km            ការទាញយកប្រព័ន្ធផ្សព្វផ្សាយ Twitter (2025.04.28 ថេរ)
-// @name:kn            ಟ್ವಿಟರ್ ಮಾಧ್ಯಮ ಡೌನ್‌ಲೋಡ್ (2025.04.28 ಸ್ಥಿರ)
-// @name:ko            트위터 미디어 다운로드 (2025.04.28 고정)
-// @name:ku            Twitter Media Download (2025.04.28 Fixed)
-// @name:ky            Twitter Media Download (2025.04.28 Fixed)
-// @name:la            Twitter Media Download (2025.04.28 Fixarum)
-// @name:lb            Twitter Medien eroflueden (2025.04.28 Fixéiert)
-// @name:lo            Twitter media ດາວໂຫລດ (2025.04.28 ຄົງທີ່)
-// @name:lt            „Twitter Media“ atsisiuntimas (fiksuota 2025.04.28)
-// @name:lv            Twitter multivides lejupielāde (2025.04.28 fiksēts)
-// @name:mg            Twitter Media Download (2025.04.28 Namboarina)
-// @name:mi            Twitter Media Tango (2025.04.28 Kua whakaritea)
-// @name:mk            Преземање на медиуми на Твитер (фиксно 2025.04.28)
-// @name:ml            ട്വിറ്റർ മീഡിയ ഡൗൺലോഡ് (2025.04.28 സ്ഥിരമായി)
-// @name:mn            Twitter Media татаж авах (2025.04.28 тогтмол)
-// @name:ms            Twitter Media Muat turun (2025.04.28 Tetap)
-// @name:mt            Twitter Media Download (2025.04.28 iffissat)
-// @name:my            Twitter Media Download (2025.04.28)
+// @name:af            Twitter Media Download (2025.12.02 vas)
+// @name:am            ትዊተር ሚዲያ አውርድ (2025.12.02 ተጠግኗል)
+// @name:ar            تنزيل Media Twitter (2025.12.02 ثابت)
+// @name:az            Twitter Media Yükləmə (2025.12.02 Sabit)
+// @name:be            Загрузка Twitter Media (2025.12.02 Выпраўлена)
+// @name:bem           Ukukongama kwa pa muulu (2025.12.02 ukwashintililwapo)
+// @name:bg            Изтегляне на медии в Twitter (2025.12.02 Фиксиран)
+// @name:bn            টুইটার মিডিয়া ডাউনলোড (2025.12.02 স্থির)
+// @name:bo            Twitter Media Download (2025.12.02 གཏན་འཁེལ་བྱུང་བ།)
+// @name:bs            Preuzimanje Twitter Media (2025.12.02 fiksnim)
+// @name:ca            Descàrrega de Twitter Media (2025.12.02 S’ha corregit)
+// @name:ceb           Download sa Twitter Media (2025.12.02 naayos)
+// @name:ckb           داگرتنی میدیای تویتەر (2025.12.02 چاککراوە)
+// @name:cs            Stahování médií Twitter (2025.12.02 Opraveno)
+// @name:cy            Lawrlwytho Cyfryngau Twitter (2025.12.02 sefydlog)
+// @name:da            Twitter Media Download (2025.12.02 Fixed)
+// @name:de            Download von Twitter Media (2025.12.02 behoben)
+// @name:dv            ޓްވިޓަރ މީޑިއާ ޑައުންލޯޑް (2025.12.02 ފިކްސްޑް)
+// @name:dz            Twitter Medownload (2025.12.02 བདེ་སྒྲིག་)
+// @name:el            Download Media Twitter (2025.12.02 Διορθώθηκε)
+// @name:en            Twitter Media Downloader (2025.12.02 Fixed)
+// @name:en-GB         Twitter Media Downloader (2025.12.02 Fixed)
+// @name:eo            Elŝuti Twitter Media (2025.12.02 Fiksita)
+// @name:es            Descarga de medios de Twitter (2025.12.02 solucionado)
+// @name:et            Twitteri meedia allalaadimine (2025.12.02 fikseeritud)
+// @name:eu            Twitter Media download (2025.12.02 Konpondu)
+// @name:fa            دانلود رسانه توییتر (2025.12.02 ثابت)
+// @name:fi            Twitter Media Download (2025.12.02 Kiinteä)
+// @name:fo            Twitter Media Download (2025.12.02 Fast)
+// @name:fr            Twitter Media Download (2025.12.02 Correction)
+// @name:fr-CA         Twitter Media Download (2025.12.02 Correction)
+// @name:gd            Luchdaich sìos meadhanan Twitter (2025.12.02 stèidhichte)
+// @name:gl            Twitter Media Download (2025.12.02 Fixado)
+// @name:gu            ટ્વિટર મીડિયા ડાઉનલોડ (2025.12.02 સ્થિર)
+// @name:haw           Kāleʻa Twitter (2025.12.02 paʻa)
+// @name:he            הורדת מדיה בטוויטר (2025.12.02 קבועה)
+// @name:hi            ट्विटर मीडिया डाउनलोड (2025.12.02 फिक्स्ड)
+// @name:hr            Twitter Media preuzimanje (2025.12.02 fiksno)
+// @name:ht            Twitter Media Download (2025.12.02 fiks)
+// @name:hu            A Twitter Media letöltése (2025.12.02 rögzített)
+// @name:hy            Twitter Media Download (2025.12.02 ֆիքսված)
+// @name:id            Unduh Media Twitter (2025.12.02 diperbaiki)
+// @name:is            Twitter Media Download (2025.12.02 Fast)
+// @name:it            Download di Twitter Media (2025.12.02 FISSO)
+// @name:ja            Twitterメディアダウンロード（2025.12.02修正）
+// @name:ka            Twitter Media Download (2025.12.02 დაფიქსირდა)
+// @name:kk            Twitter Media Download (2025.12.02 тіркелген)
+// @name:km            ការទាញយកប្រព័ន្ធផ្សព្វផ្សាយ Twitter (2025.12.02 ថេរ)
+// @name:kn            ಟ್ವಿಟರ್ ಮಾಧ್ಯಮ ಡೌನ್‌ಲೋಡ್ (2025.12.02 ಸ್ಥಿರ)
+// @name:ko            트위터 미디어 다운로드 (2025.12.02 고정)
+// @name:ku            Twitter Media Download (2025.12.02 Fixed)
+// @name:ky            Twitter Media Download (2025.12.02 Fixed)
+// @name:la            Twitter Media Download (2025.12.02 Fixarum)
+// @name:lb            Twitter Medien eroflueden (2025.12.02 Fixéiert)
+// @name:lo            Twitter media ດາວໂຫລດ (2025.12.02 ຄົງທີ່)
+// @name:lt            „Twitter Media“ atsisiuntimas (fiksuota 2025.12.02)
+// @name:lv            Twitter multivides lejupielāde (2025.12.02 fiksēts)
+// @name:mg            Twitter Media Download (2025.12.02 Namboarina)
+// @name:mi            Twitter Media Tango (2025.12.02 Kua whakaritea)
+// @name:mk            Преземање на медиуми на Твитер (фиксно 2025.12.02)
+// @name:ml            ട്വിറ്റർ മീഡിയ ഡൗൺലോഡ് (2025.12.02 സ്ഥിരമായി)
+// @name:mn            Twitter Media татаж авах (2025.12.02 тогтмол)
+// @name:ms            Twitter Media Muat turun (2025.12.02 Tetap)
+// @name:mt            Twitter Media Download (2025.12.02 iffissat)
+// @name:my            Twitter Media Download (2025.12.02)
 // @name:ne            ट्विटर मिडिया डाउनलोड (20255.04.04.28 स्थिर)
-// @name:nl            Twitter Media Download (2025.04.28 opgelost)
-// @name:no            Twitter Media nedlasting (2025.04.28 Fast)
-// @name:ny            Twitter Media Download (2025.04.28 Okhazikika)
-// @name:pa            ਟਵਿੱਟਰ ਮੀਡੀਆ ਡਾ Download ਨਲੋਡ (2025.04.28 ਸਥਿਰ)
-// @name:pap           Medida di Twitter Descarga (2025.04.28 Fiho)
-// @name:pl            Pobieranie mediów na Twitterze (ustalone 2025.04.28)
+// @name:nl            Twitter Media Download (2025.12.02 opgelost)
+// @name:no            Twitter Media nedlasting (2025.12.02 Fast)
+// @name:ny            Twitter Media Download (2025.12.02 Okhazikika)
+// @name:pa            ਟਵਿੱਟਰ ਮੀਡੀਆ ਡਾ Download ਨਲੋਡ (2025.12.02 ਸਥਿਰ)
+// @name:pap           Medida di Twitter Descarga (2025.12.02 Fiho)
+// @name:pl            Pobieranie mediów na Twitterze (ustalone 2025.12.02)
 // @name:ps            د ټویټر میډیا ډاونلوډ (2025.04.04.28 ټاکل شوی)
-// @name:pt            Download de mídia do Twitter (2025.04.28 corrigido)
-// @name:pt-BR         Download de mídia do Twitter (2025.04.28 corrigido)
-// @name:ro            Descărcare media Twitter (2025.04.28 Fixată)
-// @name:ru            Скачать Twitter Media (2025.04.28 Исправлена)
-// @name:rw            Twitter Gukuramo (2025.04.28 Byagenwe)
-// @name:sg            Twitter media Télécharger (2025.04.28 A leke ni)
-// @name:si            ට්විටර් මාධ්ය බාගත කිරීම (2025.04.28 ස්ථාවර)
-// @name:sk            Stiahnutie médií na Twitteri (2025.04.28 Opravené)
-// @name:sl            Prenos medijev na Twitterju (2025.04.28 Fixed)
-// @name:sm            Twitter Media Download (2025.04.28 Tumau)
-// @name:sn            Twitter Media Download (2025.04.28 Yakagadziriswa)
-// @name:so            Twitter Media Media Download (2025.04.28 go’an)
-// @name:sr            Преузимање Твиттер Медиа (2025.04.28 фиксно)
-// @name:sv            Twitter media nedladdning (2025.04.28 fast)
-// @name:sw            Upakuaji wa media ya Twitter (2025.04.28 fasta)
-// @name:ta            ட்விட்டர் மீடியா பதிவிறக்கம் (2025.04.28 சரி செய்யப்பட்டது)
-// @name:te            ట్విట్టర్ మీడియా డౌన్‌లోడ్ (2025.04.28 పరిష్కరించబడింది)
+// @name:pt            Download de mídia do Twitter (2025.12.02 corrigido)
+// @name:pt-BR         Download de mídia do Twitter (2025.12.02 corrigido)
+// @name:ro            Descărcare media Twitter (2025.12.02 Fixată)
+// @name:ru            Скачать Twitter Media (2025.12.02 Исправлена)
+// @name:rw            Twitter Gukuramo (2025.12.02 Byagenwe)
+// @name:sg            Twitter media Télécharger (2025.12.02 A leke ni)
+// @name:si            ට්විටර් මාධ්ය බාගත කිරීම (2025.12.02 ස්ථාවර)
+// @name:sk            Stiahnutie médií na Twitteri (2025.12.02 Opravené)
+// @name:sl            Prenos medijev na Twitterju (2025.12.02 Fixed)
+// @name:sm            Twitter Media Download (2025.12.02 Tumau)
+// @name:sn            Twitter Media Download (2025.12.02 Yakagadziriswa)
+// @name:so            Twitter Media Media Download (2025.12.02 go’an)
+// @name:sr            Преузимање Твиттер Медиа (2025.12.02 фиксно)
+// @name:sv            Twitter media nedladdning (2025.12.02 fast)
+// @name:sw            Upakuaji wa media ya Twitter (2025.12.02 fasta)
+// @name:ta            ட்விட்டர் மீடியா பதிவிறக்கம் (2025.12.02 சரி செய்யப்பட்டது)
+// @name:te            ట్విట్టర్ మీడియా డౌన్‌లోడ్ (2025.12.02 పరిష్కరించబడింది)
 // @name:tg            Twitter Media Download (2025.04.04.28 Стратегия)
-// @name:th            ดาวน์โหลดสื่อ Twitter (2025.04.28 แก้ไข)
-// @name:ti            ትዊተር ሚድያ ዳውንሎድ (2025.04.28 ጽኑዕ)
-// @name:tk            Twitter Media göçürip almak (2025.04.28 kesgitlenen)
-// @name:tn            Bobegakgang jwa Twitter Latalo (2025.04.28 E Tlhomamisitswe)
-// @name:to            Twitter Mītia Download (2025.04.28 Tuʻunga)
-// @name:tpi           Twitter Midia Daonlodem (2025.04.28 Oli fiksimap)
-// @name:tr            Twitter Medya İndir (2025.04.28 Sabit)
-// @name:uk            Завантажити медіа Twitter (2025.04.28 Виправлено)
-// @name:ur            ٹویٹر میڈیا ڈاؤن لوڈ (2025.04.28 فکسڈ)
-// @name:uz            Twitter Media Download (2025.04.28 belgilangan)
+// @name:th            ดาวน์โหลดสื่อ Twitter (2025.12.02 แก้ไข)
+// @name:ti            ትዊተር ሚድያ ዳውንሎድ (2025.12.02 ጽኑዕ)
+// @name:tk            Twitter Media göçürip almak (2025.12.02 kesgitlenen)
+// @name:tn            Bobegakgang jwa Twitter Latalo (2025.12.02 E Tlhomamisitswe)
+// @name:to            Twitter Mītia Download (2025.12.02 Tuʻunga)
+// @name:tpi           Twitter Midia Daonlodem (2025.12.02 Oli fiksimap)
+// @name:tr            Twitter Medya İndir (2025.12.02 Sabit)
+// @name:uk            Завантажити медіа Twitter (2025.12.02 Виправлено)
+// @name:ur            ٹویٹر میڈیا ڈاؤن لوڈ (2025.12.02 فکسڈ)
+// @name:uz            Twitter Media Download (2025.12.02 belgilangan)
 // @name:vi            Tải xuống phương tiện truyền thông Twitter (2025.04,28 đã sửa)
-// @name:xh            I-Twitter Demiedia Eendaba (2025.04.28 ilungisiwe)
-// @name:yi            טוויטטער מעדיע אראפקאפיע (2025.04.28 פאַרפעסטיקט)
-// @name:zh            Twitter 媒体下载 (2025.04.28 修复)
-// @name:zh-CN         Twitter 媒体下载 (2025.04.28 修复)
-// @name:zh-HK         Twitter 媒體下載 (2025.04.28 修復)
-// @name:zh-MO         Twitter 媒體下載 (2025.04.28 修復)
-// @name:zh-MY         Twitter 媒体下载 (2025.04.28 修复)
-// @name:zh-SG         Twitter 媒体下载 (2025.04.28 修复)
-// @name:zh-TW         Twitter 媒體下載 (2025.04.28 修復)
-// @name:zu            I-Twitter Media Download (2025.04.28 Ilungisiwe)
+// @name:xh            I-Twitter Demiedia Eendaba (2025.12.02 ilungisiwe)
+// @name:yi            טוויטטער מעדיע אראפקאפיע (2025.12.02 פאַרפעסטיקט)
+// @name:zh            Twitter 媒体下载 (2025.12.02 修复)
+// @name:zh-CN         Twitter 媒体下载 (2025.12.02 修复)
+// @name:zh-HK         Twitter 媒體下載 (2025.12.02 修復)
+// @name:zh-MO         Twitter 媒體下載 (2025.12.02 修復)
+// @name:zh-MY         Twitter 媒体下载 (2025.12.02 修复)
+// @name:zh-SG         Twitter 媒体下载 (2025.12.02 修复)
+// @name:zh-TW         Twitter 媒體下載 (2025.12.02 修復)
+// @name:zu            I-Twitter Media Download (2025.12.02 Ilungisiwe)
 // @description        Download videos/pictures with one click | Automatically package them into a ZIP file for batch download
 // @description:af     Laai video’s/prente met een klik af, en ondersteun outomatiese verpakking as ’n zip -lêer om af te laai wanneer bondel aflaai. Ondersteun nuwe API -koppelvlak
 // @description:am     ቪዲዮዎችን / ስዕሎችን በአንድ ጠቅታ ያውርዱ እና የቡድን ማውረድ በሚረዱበት ጊዜ ለማውረድ ራስ-ሰር ማሸጊያዎችን እንደ ዚፕ ፋይል ይደግፉ. አዲስ የኤፒአይ በይነገጽን ይደግፉ
@@ -247,9 +247,9 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2025.04.28.1719
+// @version            2025.12.02.1433
 // @created            2025-03-11 08:11:29
-// @modified           2025-03-11 08:11:29
+// @modified           2025-12-02 14:33:28
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
 // @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-media-downloader/twitter-media-downloader.user.js
@@ -266,6 +266,12 @@
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * License: MIT License
  * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ * -----
+ * Last Modified: 2025/12/02,Tuesday 14:33:28
+ * Last Modified: 2025/12/02,Tuesday 14:33:28
+ * Modified By: @molanp
+ * License: MIT License
+ * Copyright © 2025 molanp
  */
 
 //! 修复代码来自:goemon2017:https://greasyfork.org/scripts/423001/discussions/296626#comment-589742
@@ -399,16 +405,176 @@ const TMD = (function () {
                 btn_down.onclick = () => this.click(btn_down, status_id, is_exist)
             })
         },
+        selectTweetDialog: function(originalUser, quotedUser) {
+            return new Promise((resolve) => {
+                // 创建遮罩层
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    z-index: 10000;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                `;
+
+                // 创建对话框
+                const dialog = document.createElement('div');
+                dialog.style.cssText = `
+                    background: white;
+                    border-radius: 16px;
+                    padding: 24px;
+                    width: 400px;
+                    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+                    font-family: system-ui, -apple-system, sans-serif;
+                `;
+
+                // 添加标题
+                const title = document.createElement('h3');
+                title.textContent = '选择要下载的媒体';
+                title.style.cssText = `
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    color: #0f1419;
+                `;
+
+                // 添加选项按钮容器
+                const buttonsContainer = document.createElement('div');
+                buttonsContainer.style.cssText = `
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                `;
+
+                // 原始推文按钮
+                const originalBtn = document.createElement('button');
+                originalBtn.textContent = `原始推文 (by ${originalUser})`;
+                originalBtn.style.cssText = `
+                    background: #1DA1F2;
+                    color: white;
+                    border: none;
+                    border-radius: 50px;
+                    padding: 16px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: background 0.2s;
+                `;
+                originalBtn.addEventListener('mouseenter', () => {
+                    originalBtn.style.background = '#1a91da';
+                });
+                originalBtn.addEventListener('mouseleave', () => {
+                    originalBtn.style.background = '#1DA1F2';
+                });
+                originalBtn.addEventListener('click', () => {
+                    resolve('original');
+                    document.body.removeChild(overlay);
+                });
+
+                // 引用推文按钮
+                const quotedBtn = document.createElement('button');
+                quotedBtn.textContent = `引用推文 (by ${quotedUser})`;
+                quotedBtn.style.cssText = `
+                    background: #fff;
+                    color: #1DA1F2;
+                    border: 2px solid #1DA1F2;
+                    border-radius: 50px;
+                    padding: 16px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: all 0.2s;
+                `;
+                quotedBtn.addEventListener('mouseenter', () => {
+                    quotedBtn.style.background = '#f0f8ff';
+                });
+                quotedBtn.addEventListener('mouseleave', () => {
+                    quotedBtn.style.background = '#fff';
+                });
+                quotedBtn.addEventListener('click', () => {
+                    resolve('quoted');
+                    document.body.removeChild(overlay);
+                });
+
+                // 取消按钮
+                const cancelBtn = document.createElement('button');
+                cancelBtn.textContent = '取消';
+                cancelBtn.style.cssText = `
+                    background: transparent;
+                    color: #657786;
+                    border: none;
+                    padding: 12px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    margin-top: 8px;
+                `;
+                cancelBtn.addEventListener('click', () => {
+                    resolve(null);
+                    document.body.removeChild(overlay);
+                });
+
+                // 组装对话框
+                buttonsContainer.appendChild(originalBtn);
+                buttonsContainer.appendChild(quotedBtn);
+                buttonsContainer.appendChild(cancelBtn);
+                dialog.appendChild(title);
+                dialog.appendChild(buttonsContainer);
+                overlay.appendChild(dialog);
+                document.body.appendChild(overlay);
+
+                // 点击遮罩层外部关闭对话框
+                overlay.addEventListener('click', (e) => {
+                    if (e.target === overlay) {
+                        resolve(null);
+                        document.body.removeChild(overlay);
+                    }
+                });
+            });
+        },
         click: async function (btn, status_id, is_exist, index) {
             if (btn.classList.contains('loading')) return
             this.status(btn, 'loading')
             let out = (await GM_getValue('filename', filename)).split('\n').join('')
             let save_history = await GM_getValue('save_history', true)
             let json = await this.fetchJson(status_id)
-            let tweet = json.quoted_status_result?.result?.legacy?.media//此媒体存在,属于引用推文
-                || json.quoted_status_result?.result?.legacy
-                || json.legacy
-            let user = json.core.user_results.result.legacy
+
+            // 检查是否存在引用推文
+            let hasQuotedMedia = json.quoted_status_result?.result?.legacy?.media ||
+                                json.quoted_status_result?.result?.legacy?.extended_entities?.media
+
+            let tweet
+            let user
+            if (hasQuotedMedia) {
+                // 存在引用媒体，需要用户选择
+                let originalUser = `${json.core?.user_results?.result?.legacy?.name}@${json.core?.user_results?.result?.legacy?.screen_name})` || 'unknown'
+                let quotedUser = `${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.name} @${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.screen_name})` || 'unknown'
+
+                let choice = await this.selectTweetDialog(originalUser, quotedUser)
+                if (!choice) {
+                    this.status(btn, 'download', lang.download)
+                    return // 用户取消选择
+                }
+
+                if (choice === 'quoted') {
+                    // 使用引用推文
+                    tweet = json.quoted_status_result.result.legacy
+                    user = json.quoted_status_result.result.core.user_results.result.legacy
+                } else {
+                    // 使用原始推文
+                    tweet = json.legacy
+                    user = json.core.user_results.result.legacy
+                }
+            } else {
+                // 没有引用媒体，直接使用原始推文
+                tweet = json.legacy
+                user = json.core.user_results.result.legacy
+            }
+
             let invalid_chars = { '\\': '＼', '\/': '／', '\|': '｜', '<': '＜', '>': '＞', ':': '：', '*': '＊', '?': '？', '"': '＂', '\u200b': '', '\u200c': '', '\u200d': '', '\u2060': '', '\ufeff': '', '🔞': '' }
             let datetime = out.match(/\{date-time(-local)?:[^{}]+\}/) ? out.match(/\{date-time(?:-local)?:([^{}]+)\}/)[1].replace(/[\\/|<>*?:"]/g, v => invalid_chars[v]) : 'YYYYMMDD-hhmmss'
             let info = {}
