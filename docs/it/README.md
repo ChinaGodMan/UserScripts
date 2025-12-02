@@ -65,7 +65,7 @@
 
 > [!WARNING]
 >  <div align="center">
->  Questo repository è disponibile solo in<code>GitHub</code>ospitato su,Non qui<code>GitCode</code>E<code>XPlaza</code>ospitato su。I seguenti repository sono tutti mirror。<br>
+>  Questo repository è disponibile solo in<code>GitHub</code>ospitato su,Non qui<code>GitCode</code>和<code>XPlaza</code>ospitato su。I seguenti repository sono tutti mirror。<br>
 >    :trollface: Se lo stai utilizzando nella Cina continentale<code>git clone</code>La velocità di download è troppo lenta，Puoi anche utilizzare il seguente indirizzo
 >    
 >  
@@ -2731,7 +2731,7 @@ Sina Weibo passa automaticamente alla versione mobile，Supporta Weibo、articol
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">Download di Twitter Media (2025.04.28 FISSO)</a>&nbsp;
+    <a href="../../twitter-media-downloader">Download di Twitter Media (2025.12.02 FISSO)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=numero%20di%20utenti"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3056,7 +3056,7 @@ Scarica i video di Bilibili（Non supporta i drammi）
         </a>
 </h3>
 
-Strumento di blocco delle stanze live di Bilibili，Elenco di gestione del supporto，Blocco batch，Esportare、Elenchi di importazione ecc.……
+Strumento di blocco delle stanze live di Bilibili，Elenco di gestione del supporto，Blocco batch，Esportare、Importare elenchi ecc.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3094,7 +3094,7 @@ Per utilizzare qualsiasi script，Per prima cosa devi installare il browser **Ta
 >
 > -   _Altri basati su **Chromium** Browser del kernel（Come il browser di copertina domestico）Generalmente può essere utilizzato Chrome Espandere。_
 > -   _Assicurati di usarlo **Tampermonkey Versione ufficiale** Espandere，其他的用户Copione管理器可能导致**Non funziona correttamente**脚本。_
-> -   _Se vuoi reinstallare lo script，Per favore, ricordatelo Tampermonkey esteso**Elimina completamente dal cestino**Dopo lo script, vai e reinstalla lo script.。_
+> -   _Se vuoi reinstallare lo script，Per favore, ricordatelo Tampermonkey esteso**Elimina completamente dal cestino**Script e quindi reinstallare lo script。_
 
 > _**Nessuna installazione offline .crx Espandere？[Chrome、Edge Riapri nascosto [Trascina e rilascia l’installazione .crx Espandere] Funzione！](https://zhuanlan.zhihu.com/p/276027099)**_
 

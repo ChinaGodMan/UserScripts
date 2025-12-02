@@ -2731,7 +2731,7 @@ Sina Weibo automatically jumps to the mobile version，Support Weibo、article�
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">Twitter Media Downloader (2025.04.28 Fixed)</a>&nbsp;
+    <a href="../../twitter-media-downloader">Twitter Media Downloader (2025.12.02 Fixed)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,7 +3094,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > -   _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
+> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
 

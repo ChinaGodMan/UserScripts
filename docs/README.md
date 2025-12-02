@@ -2731,7 +2731,7 @@ ChatGPT 让代码字体变小 并且自动折行
 <h3>
     <a href="../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter-media-downloader">Twitter 媒体下载 (2025.04.28 修复)</a>&nbsp;
+    <a href="../twitter-media-downloader">Twitter 媒体下载 (2025.12.02 修复)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">

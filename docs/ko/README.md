@@ -2731,7 +2731,7 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">트위터 미디어 다운로드 (2025.04.28 고정)</a>&nbsp;
+    <a href="../../twitter-media-downloader">트위터 미디어 다운로드 (2025.12.02 고정)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,7 +3094,7 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
 >
 > -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > -   _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户스크립트管理器可能导致**제대로 작동하지 않음**脚本。_
-> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
+> -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트를 작성한 다음 스크립트를 다시 설치하십시오.。_
 
 > _**오프라인 설치 없음 .crx 확장하다？[Chrome、Edge 숨겨진 다시 열기 [드래그 앤 드롭 설치 .crx 확장하다] 기능！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3187,7 +3187,7 @@ MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，�
 
 ## 🛡️ 보안 정책
 
-취약점을 발견한 경우，하나 열어주세요[초안 보안 권장사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+취약점을 발견한 경우，하나 열어주세요[초안 보안 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
 Pull Request도 환영합니다，하지만 보안상의 이유로，다음 주소로 이메일을 보내주세요. <china.qinwuyuan@gmail.com> 공개하기 전에 답변을 기다리세요.。
 자세한 내용은 다음을 참조하세요. <a href="../SECURITY.md"><strong>보안 정책</strong></a>

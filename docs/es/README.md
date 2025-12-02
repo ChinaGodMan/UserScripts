@@ -2731,7 +2731,7 @@ Sina Weibo salta automáticamente a la versión móvil，Soporte Weibo、artícu
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">Descarga de medios de Twitter (2025.04.28 solucionado)</a>&nbsp;
+    <a href="../../twitter-media-downloader">Descarga de medios de Twitter (2025.12.02 solucionado)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=n%C3%BAmero%20de%20usuarios"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,7 +3094,7 @@ Para usar cualquier script，Primero necesitas instalar el navegador. **Tampermo
 >
 > -   _Otros basados ​​en **Chromium** Navegador del núcleo（Como el navegador de portada nacional.）Generalmente se puede utilizar Chrome Expandir。_
 > -   _Por favor asegúrese de usar **Tampermonkey Versión oficial** Expandir，其他的用户Guion管理器可能导致**No funciona correctamente**脚本。_
-> -   _Si desea reinstalar el script，Por favor recuerda Tampermonkey extendido**Eliminar completamente de la papelera de reciclaje**Después del script, vaya y reinstale el script.。_
+> -   _Si desea reinstalar el script，Por favor recuerda Tampermonkey extendido**Eliminar completamente de la papelera de reciclaje**Script y luego reinstale el script。_
 
 > _**Sin instalación fuera de línea .crx Expandir？[Chrome、Edge Reabrir oculto [Instalación de arrastrar y soltar .crx Expandir] Función！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3125,22 +3125,22 @@ Para usar cualquier script，Primero necesitas instalar el navegador. **Tampermo
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="hijo del desierto"/></a> :+1:
-> -   Copiado [hijo del desierto](https://github.com/maboloshi)depósito[github-chinese](https://github.com/maboloshi/github-chinese)código dentro<br>
+> -   copiado [hijo del desierto](https://github.com/maboloshi)depósito[github-chinese](https://github.com/maboloshi/github-chinese)código dentro<br>
 > -   en este almacén`writer.py` `update-contributors.yml` Copiado usando[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)código dentro
 > -   Este archivo Léame del repositorio se copia[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8EAdministrador%20de%20guiones)contenido `Cómo instalar/Usar guión？`
 
 > [!TIP]
 >
-> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhan Peng"/></a> :+1:
-> -   _Traducción automática de este repositorio y Action Un agradecimiento especial a Yankee.[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Grandes ideas y código!_ :trollface:
-> -   _El estilo de naming de este almacén está inspirado en los Yankees.[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Inspirar_ :trollface:
-> -   _El archivo Léame en este repositorio proviene de[Adam Lui Liu Zhan Peng](https://github.com/adamlui)estilo de autoinforme_ :trollface:
-> -   _El salto de redirección mutua dentro del guión proviene de[Adam Lui Liu Zhan Peng](https://github.com/adamlui)estilo de autoinforme_ :trollface:
+> -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
+> -   _Traducción automática de este repositorio y Action Un agradecimiento especial a Yankee.[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Grandes ideas y código!_ :trollface:
+> -   _El estilo de naming de este almacén está inspirado en los Yankees.[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Inspirar_ :trollface:
+> -   _El archivo Léame en este repositorio proviene de[Adam Lui Liu Zhanpeng](https://github.com/adamlui)estilo de autoinforme_ :trollface:
+> -   _El salto de redirección mutua dentro del guión proviene de[Adam Lui Liu Zhanpeng](https://github.com/adamlui)estilo de autoinforme_ :trollface:
 > -   _Todo en este almacén`README.md`Archivo copiado y usado de este repositorio Yankee`README.md`Diseño del documento，delimitador，código，Ideas_ :trollface:
-> -   _yanqui copiado[Adam Lui Liu Zhan Peng](https://github.com/adamlui) Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _Copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _yanqui copiado[Adam Lui Liu Zhan Peng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimitador，Estilo de composición :trollface:
-> -   _Copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Python codigo interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   _yanqui copiado[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _copiado yanqui[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _yanqui copiado[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimitador，Estilo de composición :trollface:
+> -   _copiado yanqui[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python codigo interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 

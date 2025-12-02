@@ -50,8 +50,8 @@
     <strong>この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン</strong><br>
     <strong>侵害があった場合,連絡先を削除する必要があります</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>推荐使用：</strong><br>
-<img src="https://img.shields.io/badge/操作系统-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+    <strong>推奨：</strong><br>
+<img src="https://img.shields.io/badge/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%C2%B7%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E6%8E%A8%E5%A5%A8%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> 上記のスクリプト マネージャーとブラウザのリストはすべてを網羅しているわけではありません。<br>
@@ -1102,7 +1102,7 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプトオ
 </h3>
 
 <details>
-    <summary>1。自動再生2。自動ワイドスクリーン3。高品質の再生4。クリックして二流の映画を充電してください。</summary>
+    <summary>1。自動再生2。自動ワイドスクリーン3。高品質の再生4。クリックして二流の映画を誓約してください。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
             <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
@@ -2731,7 +2731,7 @@ Web WeChat 全画面ウィンドウを有効にする，ダークモード
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">Twitterメディアダウンロード（2025.04.28修正）</a>&nbsp;
+    <a href="../../twitter-media-downloader">Twitterメディアダウンロード（2025.12.02修正）</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,9 +3094,9 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 >
 > -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
 > -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正常に動作しない**脚本。_
-> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
+> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
 
-> _**不会离线安装 .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3132,7 +3132,7 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
-> -   _このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
+> -   _このリポジトリの自動翻訳と Action ヤンキーには特別な感謝を[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
 > -   _ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する_ :trollface:
 > -   _このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
 > -   _スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
@@ -3167,7 +3167,7 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 ## 🏛️ オープンソースライセンス契約
 
 このプロジェクトでは、 <a href="../../LICENSE.md"><strong>MIT ライセンス</strong></a> 承認する。
-MIT ライセンスは寛容なオープンソースライセンス契約です，詳細については、を参照してください。 <a href="../../LICENSE.md">ライセンスの全文</a>。
+MIT ライセンスは寛容なオープンソース ライセンス契約です，詳細については、を参照してください。 <a href="../../LICENSE.md">ライセンスの全文</a>。
 
 <div align="right">
 

@@ -55,37 +55,40 @@
 <!--SHIELDS-END-->
 <!--HISTORY-->
 <center><div align="center">
-    <h1>트위터 미디어 다운로드 (2025.04.28 고정)</h1>
+    <h1>트위터 미디어 다운로드 (2025.12.02 고정)</h1>
     <p>「 한 번의 클릭으로 비디오/사진을 다운로드하고 배치 다운로드 할 때 다운로드 할 수있는 zip 파일로 자동 포장을 지원하십시오. 새로운 API 인터페이스를 지원합니다 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
     <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%ED%99%95%EC%9D%B8&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529453">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 미디어 다운로드 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter 미디어 다운로드 변경 로그</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
-<p><strong>새로운</strong>: 다운로드 기록을 수출합니다 <code>MarkDown</code>,코드 GreasyFork 사용자<a href="https://greasyfork.org/users/1462808">SteveSun</a>게시<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
-<strong>스크린 샷</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
+<p><strong>새로운</strong>: 다운로드 기록을 다음으로 내보내기 <code>MarkDown</code>,코드 GreasyFork 사용자<a href="https://greasyfork.org/users/1462808">SteveSun</a>에 게시됨<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<strong>스크린샷</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
 <hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>수리하다</strong>: 2025.04.28,결정된<code>Api</code>실패 후 미디어를 정상적으로 다운로드 할 수없는 문제<br>
-<strong>수리하다</strong>: 코드를 수정하십시오 GreasyFork 사용자<a href="https://greasyfork.org/users/1462596">goemon2017</a>게시<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>수리하다</strong>: 2025.04.28,결정된<code>Api</code>미디어 무효화 후 정상적으로 다운로드가 안되는 문제<br>
+<strong>수리하다</strong>: 수정 코드는 다음에서 제공됩니다. GreasyFork 사용자<a href="https://greasyfork.org/users/1462596">goemon2017</a>출판됨<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>새로운</strong>: • 맞춤형 패키지를 활성화하십시오<code>zip</code>기능,수동 설정을 허용합니다 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>스크린 샷</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>수리하다</strong>: • 원래 스크립트의 다운로드 진행 상황을 표시하십시오..</p>
+<p><strong>새로운</strong>: • 다음에 대한 사용자 정의 패키징 활성화<code>zip</code>기능,수동 설정 허용 <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>스크린샷</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>수리하다</strong>: • 표시할 원본 스크립트의 다운로드 진행률을 활성화합니다..</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>새로운</strong>: • 전달 된 트윗 비디오 및 이미지의 다운로드를 지원합니다<br>
+<p><strong>새로운</strong>: • 전달된 트윗 비디오 및 사진 다운로드 지원<br>
 <strong>테스트 주소</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>테스트 스크린 샷</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>새로운</strong>: 링크가있는 게시물에 표시되는 스크린 샷 미리보기 다운로드되지 않습니다.,프롬프트를 추가하십시오 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>새로운</strong>: 미디어 파일이 비어있는 것으로 추출 된 경우,오류를 직접보고하십시오.<br></p>
+<strong>테스트 스크린샷</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>새로운</strong>: 링크가 포함된 게시물에 표시된 미리보기 스크린샷은 다운로드되지 않습니다.,그리고 힌트 추가 <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>새로운</strong>: 비어 있는 경우 미디어 파일 추출용,오류를 직접 신고하세요..<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>새로운</strong>: • 배치로 다운로드 할 때,패키지 하나에 패키지 zip 문서</p>
+<p><strong>새로운</strong>: • 일괄 다운로드 시,하나로 포장 zip 문서</p>
+<hr />
+<h3><strong>📅 2025.12.01.01</strong></h3>
+<p><strong>새로운</strong>: • 인용 트윗이 포함된 트윗이 감지되고 해당 인용 트윗에 미디어가 포함된 경우，사용자가 원본 트윗이나 트윗을 인용한 미디어를 다운로드하도록 선택할 수 있는 대화 상자가 나타납니다. <a href="https://github.com/ChinaGodMan/UserScripts/pull/235">#235</a>  </p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>

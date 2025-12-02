@@ -2731,7 +2731,7 @@ Sina Weibo passe automatiquement à la version mobile，Soutenir Weibo、article
 <h3>
     <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../../twitter-media-downloader">Twitter Media Download (2025.04.28 Correction)</a>&nbsp;
+    <a href="../../twitter-media-downloader">Twitter Media Download (2025.12.02 Correction)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=nombre%20d%E2%80%99utilisateurs"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,7 +3094,7 @@ Pour utiliser n’importe quel script，Vous devez d’abord installer le naviga
 >
 > -   _D’autres basés sur **Chromium** Navigateur de noyau（Tel que le navigateur de couverture domestique）Peut généralement être utilisé Chrome Développer。_
 > -   _Veuillez vous assurer d’utiliser **Tampermonkey Version officielle** Développer，其他的用户Scénario管理器可能导致**Ne fonctionne pas correctement**脚本。_
-> -   _Si vous souhaitez réinstaller le script，N’oubliez pas de Tampermonkey étendu**Supprimer complètement de la corbeille**Après le script, allez réinstaller le script.。_
+> -   _Si vous souhaitez réinstaller le script，N’oubliez pas de Tampermonkey étendu**Supprimer complètement de la corbeille**Script puis réinstallez le script。_
 
 > _**Pas d’installation hors ligne .crx Développer？[Chrome、Edge Rouvrir masqué [Installation par glisser-déposer .crx Développer] Fonction！](https://zhuanlan.zhihu.com/p/276027099)**_
 

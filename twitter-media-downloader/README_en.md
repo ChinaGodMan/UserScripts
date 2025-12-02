@@ -55,37 +55,40 @@
 <!--SHIELDS-END-->
 <!--HISTORY-->
 <center><div align="center">
-    <h1>Twitter Media Downloader (2025.04.28 Fixed)</h1>
+    <h1>Twitter Media Downloader (2025.12.02 Fixed)</h1>
     <p>「 Download videos/pictures with one click, and support automatic packaging as a ZIP file to download when batch downloads. Support new API interface 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20for%20updates&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529453">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter Media Download Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter media download Change log</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
-<p><strong>New</strong>: Export download history as <code>MarkDown</code>,Code from GreasyFork user<a href="https://greasyfork.org/users/1462808">SteveSun</a>Posted on<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<p><strong>New</strong>: Export download history as <code>MarkDown</code>,code from GreasyFork user<a href="https://greasyfork.org/users/1462808">SteveSun</a>Posted in<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
 <strong>screenshot</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
 <hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>repair</strong>: 2025.04.28,Fixed<code>Api</code>Issues that the media cannot be downloaded normally after failure<br>
-<strong>repair</strong>: Fix the code from GreasyFork user<a href="https://greasyfork.org/users/1462596">goemon2017</a>Posted<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>repair</strong>: 2025.04.28,fixed<code>Api</code>The problem of being unable to download media normally after invalidation<br>
+<strong>repair</strong>: The fix code comes from GreasyFork user<a href="https://greasyfork.org/users/1462596">goemon2017</a>published<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>New</strong>: • Enable custom package as<code>zip</code>Function,Allow manual settings <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<p><strong>New</strong>: • Enable custom packaging for<code>zip</code>Function,Allow manual settings <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
 <strong>screenshot</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>repair</strong>: • Make the download progress of the original script be displayed.</p>
+<strong>repair</strong>: • Enable the download progress of the original script to be displayed.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>New</strong>: • Support downloading of forwarded tweet videos and images<br>
+<p><strong>New</strong>: • Supports downloading of forwarded tweet videos and pictures<br>
 <strong>Test address</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
 <strong>Test screenshot</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>New</strong>: Preview screenshots displayed in posts with links are not downloaded,And add a prompt <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>New</strong>: When media file is extracted as empty,Report an error directly.<br></p>
+<strong>New</strong>: Preview screenshots shown in posts containing links will not be downloaded,and add hints <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>New</strong>: For media file extraction when empty,Report an error directly.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>New</strong>: • When downloading in batches,Package into one zip document</p>
+<p><strong>New</strong>: • When downloading in batches,packaged as one zip document</p>
+<hr />
+<h3><strong>📅 2025.12.01.01</strong></h3>
+<p><strong>New</strong>: • When a tweet is detected that contains a quote tweet and the quote tweet contains media，A dialog box pops up allowing the user to choose to download the original tweet or the media that quoted the tweet. <a href="https://github.com/ChinaGodMan/UserScripts/pull/235">#235</a>  </p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>

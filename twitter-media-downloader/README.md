@@ -55,7 +55,7 @@
 <!--SHIELDS-END-->
 <!--HISTORY-->
 <center><div align="center">
-    <h1>Twitter 媒体下载 (2025.04.28 修复)</h1>
+    <h1>Twitter 媒体下载 (2025.12.02 修复)</h1>
     <p>「 一键下载视频/图片,支持批量下载时自动打包为一个ZIP文件下载.支持新版API接口 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
@@ -86,6 +86,9 @@
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
 <p><strong>新增</strong>: • 批量下载时,打包为一个 zip 文件</p>
+<hr />
+<h3><strong>📅 2025.12.01.01</strong></h3>
+<p><strong>新增</strong>: • 当检测到推文包含引用推文且引用推文含有媒体时，弹出对话框让用户选择下载原始推文还是引用推文的媒体 <a href="https://github.com/ChinaGodMan/UserScripts/pull/235">#235</a>  </p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>

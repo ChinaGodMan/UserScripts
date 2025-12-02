@@ -59,33 +59,36 @@
     <p>「 Tải xuống video/hình ảnh chỉ bằng một cú nhấp chuột và hỗ trợ bao bì tự động dưới dạng tệp zip để tải xuống khi tải xuống hàng loạt. Hỗ trợ giao diện API mới 」</p>
     <img src="https://views.whatilearened.today/views/github/529453/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/twitter-media-downloader/twitter-media-downloader.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Ki%E1%BB%83m%20tra%20c%E1%BA%ADp%20nh%E1%BA%ADt%20h%C3%A0ng%20ng%C3%A0y&query=$.529453&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529453">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter Tải xuống phương tiện truyền thông Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️Twitter tải xuống phương tiện Nhật ký thay đổi</strong></h1>
 <h3><strong>📅 2025.04.28.1719</strong></h3>
-<p><strong>Mới</strong>: Xuất khẩu lịch sử tải xuống dưới dạng <code>MarkDown</code>,Mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462808">SteveSun</a>Đăng trên<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
-<strong>Ảnh chụp màn hình</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
+<p><strong>Mới</strong>: Xuất lịch sử tải xuống dưới dạng <code>MarkDown</code>,mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462808">SteveSun</a>Đăng trong<a href="https://greasyfork.org/scripts/495368/discussions/296680#comment-589869">#296680</a><br>
+<strong>ảnh chụp màn hình</strong>: <img alt="2025.04.28" src="https://s2.loli.net/2025/04/28/qZDoaHuUF7gK1XI.png" /></p>
 <hr />
 <h3><strong>📅 2025.04.28.1503</strong></h3>
-<p><strong>Sửa chữa</strong>: 2025.04.28,Đã sửa<code>Api</code>Các vấn đề mà phương tiện truyền thông không thể tải xuống bình thường sau khi thất bại<br>
-<strong>Sửa chữa</strong>: Sửa mã từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462596">goemon2017</a>Đăng<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
+<p><strong>Sửa chữa</strong>: 2025.04.28,đã sửa<code>Api</code>Vấn đề không thể tải media bình thường sau khi vô hiệu hóa<br>
+<strong>Sửa chữa</strong>: Mã sửa lỗi đến từ GreasyFork người dùng<a href="https://greasyfork.org/users/1462596">goemon2017</a>được xuất bản<a href="https://greasyfork.org/scripts/423001/discussions/296626#comment-589742">#296626-589742</a><br></p>
 <hr />
 <h3><strong>📅 2025.03.13.0544</strong></h3>
-<p><strong>Mới</strong>: • Bật gói tùy chỉnh dưới dạng<code>zip</code>Chức năng,Cho phép cài đặt thủ công <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
-<strong>Ảnh chụp màn hình</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
-<strong>Sửa chữa</strong>: • Làm cho tiến trình tải xuống của tập lệnh gốc được hiển thị.</p>
+<p><strong>Mới</strong>: • Cho phép đóng gói tùy chỉnh cho<code>zip</code>Chức năng,Cho phép cài đặt thủ công <a href="https://greasyfork.org/scripts/529453/discussions/292483">#292483</a><br>
+<strong>ảnh chụp màn hình</strong>: <img alt="zip.png" src="https://s2.loli.net/2025/03/13/ue7V5Hg31SBfv2I.png" /> <br>
+<strong>Sửa chữa</strong>: • Cho phép hiển thị tiến trình tải xuống của tập lệnh gốc.</p>
 <hr />
 <h3><strong>📅 2025.03.13.0246</strong></h3>
-<p><strong>Mới</strong>: • Hỗ trợ tải xuống các video và hình ảnh tweet được chuyển tiếp<br>
+<p><strong>Mới</strong>: • Hỗ trợ tải xuống video và hình ảnh tweet được chuyển tiếp<br>
 <strong>Địa chỉ kiểm tra</strong>: <a href="https://x.com/elonmusk/status/1899865564773859555">Elon Musk</a> <br>
-<strong>Ảnh chụp màn hình thử nghiệm</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
-<strong>Mới</strong>: Xem trước ảnh chụp màn hình được hiển thị trong các bài đăng có liên kết không được tải xuống,Và thêm một lời nhắc <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
-<strong>Mới</strong>: Khi tệp phương tiện được trích xuất dưới dạng trống,Báo cáo trực tiếp lỗi.<br></p>
+<strong>Kiểm tra ảnh chụp màn hình</strong>: <img alt="el.png" src="https://s2.loli.net/2025/03/13/L5gcNm7XvAGxsnw.png" /> <br>
+<strong>Mới</strong>: Ảnh chụp màn hình xem trước hiển thị trong các bài đăng có chứa liên kết sẽ không được tải xuống,và thêm gợi ý <br> <img alt="link.png" src="https://s2.loli.net/2025/03/13/e4EsrYtjHXRzMTh.png" /> <br>
+<strong>Mới</strong>: Để trích xuất tập tin phương tiện khi trống,Báo lỗi trực tiếp.<br></p>
 <hr />
 <h3><strong>📅 2025.03.11.0811</strong></h3>
-<p><strong>Mới</strong>: • Khi tải xuống theo đợt,Gói vào một zip tài liệu</p>
+<p><strong>Mới</strong>: • Khi tải xuống hàng loạt,được đóng gói thành một zip tài liệu</p>
+<hr />
+<h3><strong>📅 2025.12.01.01</strong></h3>
+<p><strong>Mới</strong>: • Khi một tweet được phát hiện có chứa một tweet trích dẫn và tweet trích dẫn chứa phương tiện truyền thông，Một hộp thoại bật lên cho phép người dùng chọn tải xuống tweet gốc hoặc phương tiện trích dẫn tweet đó. <a href="https://github.com/ChinaGodMan/UserScripts/pull/235">#235</a>  </p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529453.png">
 </div></center>
