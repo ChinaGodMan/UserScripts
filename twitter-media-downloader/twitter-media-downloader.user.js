@@ -247,7 +247,7 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2025.12.02.1433
+// @version            2025.12.02.01
 // @created            2025-03-11 08:11:29
 // @modified           2025-12-02 14:33:28
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -259,19 +259,13 @@
  * File: twitter-media-downloader.user.js
  * Project: UserScripts
  * File Created: 2025/03/11,Tuesday 08:11:41
- * Author: goemon2017,天音,Tiande,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
+ * Author: goemon2017,天音,Tiande,molanp,人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/04/28,Monday 17:19:11
- * Last Modified: 2025/04/28,Monday 17:19:11
+ * Last Modified: 2025/12/02,Tuesday 15:48:18
+ * Last Modified: 2025/12/02,Tuesday 15:48:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * License: MIT License
- * Copyright © 2024 - 2025 ChinaGodMan,Inc
- * -----
- * Last Modified: 2025/12/02,Tuesday 14:33:28
- * Last Modified: 2025/12/02,Tuesday 14:33:28
- * Modified By: @molanp
- * License: MIT License
- * Copyright © 2025 molanp
+ * Copyright © 2024 - 2025 ChinaGodMan & molanp,Inc
  */
 
 //! 修复代码来自:goemon2017:https://greasyfork.org/scripts/423001/discussions/296626#comment-589742
@@ -405,10 +399,10 @@ const TMD = (function () {
                 btn_down.onclick = () => this.click(btn_down, status_id, is_exist)
             })
         },
-        selectTweetDialog: function(originalUser, quotedUser) {
+        selectTweetDialog: function (originalUser, quotedUser) {
             return new Promise((resolve) => {
                 // 创建遮罩层
-                const overlay = document.createElement('div');
+                const overlay = document.createElement('div')
                 overlay.style.cssText = `
                     position: fixed;
                     left: 0;
@@ -420,10 +414,10 @@ const TMD = (function () {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                `;
+                `
 
                 // 创建对话框
-                const dialog = document.createElement('div');
+                const dialog = document.createElement('div')
                 dialog.style.cssText = `
                     background: white;
                     border-radius: 16px;
@@ -431,29 +425,29 @@ const TMD = (function () {
                     width: 400px;
                     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
                     font-family: system-ui, -apple-system, sans-serif;
-                `;
+                `
 
                 // 添加标题
-                const title = document.createElement('h3');
-                title.textContent = '选择要下载的媒体';
+                const title = document.createElement('h3')
+                title.textContent = `${lang.choose}`
                 title.style.cssText = `
                     margin-top: 0;
                     margin-bottom: 20px;
                     text-align: center;
                     color: #0f1419;
-                `;
+                `
 
                 // 添加选项按钮容器
-                const buttonsContainer = document.createElement('div');
+                const buttonsContainer = document.createElement('div')
                 buttonsContainer.style.cssText = `
                     display: flex;
                     flex-direction: column;
                     gap: 12px;
-                `;
+                `
 
                 // 原始推文按钮
-                const originalBtn = document.createElement('button');
-                originalBtn.textContent = `原始推文 (by ${originalUser})`;
+                const originalBtn = document.createElement('button')
+                originalBtn.textContent = `${lang.original} (by ${originalUser})`
                 originalBtn.style.cssText = `
                     background: #1DA1F2;
                     color: white;
@@ -464,21 +458,21 @@ const TMD = (function () {
                     font-weight: 600;
                     cursor: pointer;
                     transition: background 0.2s;
-                `;
+                `
                 originalBtn.addEventListener('mouseenter', () => {
-                    originalBtn.style.background = '#1a91da';
-                });
+                    originalBtn.style.background = '#1a91da'
+                })
                 originalBtn.addEventListener('mouseleave', () => {
-                    originalBtn.style.background = '#1DA1F2';
-                });
+                    originalBtn.style.background = '#1DA1F2'
+                })
                 originalBtn.addEventListener('click', () => {
-                    resolve('original');
-                    document.body.removeChild(overlay);
-                });
+                    resolve('original')
+                    document.body.removeChild(overlay)
+                })
 
                 // 引用推文按钮
-                const quotedBtn = document.createElement('button');
-                quotedBtn.textContent = `引用推文 (by ${quotedUser})`;
+                const quotedBtn = document.createElement('button')
+                quotedBtn.textContent = `${lang.quote} (by ${quotedUser})`
                 quotedBtn.style.cssText = `
                     background: #fff;
                     color: #1DA1F2;
@@ -489,21 +483,21 @@ const TMD = (function () {
                     font-weight: 600;
                     cursor: pointer;
                     transition: all 0.2s;
-                `;
+                `
                 quotedBtn.addEventListener('mouseenter', () => {
-                    quotedBtn.style.background = '#f0f8ff';
-                });
+                    quotedBtn.style.background = '#f0f8ff'
+                })
                 quotedBtn.addEventListener('mouseleave', () => {
-                    quotedBtn.style.background = '#fff';
-                });
+                    quotedBtn.style.background = '#fff'
+                })
                 quotedBtn.addEventListener('click', () => {
-                    resolve('quoted');
-                    document.body.removeChild(overlay);
-                });
+                    resolve('quoted')
+                    document.body.removeChild(overlay)
+                })
 
                 // 取消按钮
-                const cancelBtn = document.createElement('button');
-                cancelBtn.textContent = '取消';
+                const cancelBtn = document.createElement('button')
+                cancelBtn.textContent = `${lang.cancel}`
                 cancelBtn.style.cssText = `
                     background: transparent;
                     color: #657786;
@@ -512,29 +506,29 @@ const TMD = (function () {
                     font-size: 14px;
                     cursor: pointer;
                     margin-top: 8px;
-                `;
+                `
                 cancelBtn.addEventListener('click', () => {
-                    resolve(null);
-                    document.body.removeChild(overlay);
-                });
+                    resolve(null)
+                    document.body.removeChild(overlay)
+                })
 
                 // 组装对话框
-                buttonsContainer.appendChild(originalBtn);
-                buttonsContainer.appendChild(quotedBtn);
-                buttonsContainer.appendChild(cancelBtn);
-                dialog.appendChild(title);
-                dialog.appendChild(buttonsContainer);
-                overlay.appendChild(dialog);
-                document.body.appendChild(overlay);
+                buttonsContainer.appendChild(originalBtn)
+                buttonsContainer.appendChild(quotedBtn)
+                buttonsContainer.appendChild(cancelBtn)
+                dialog.appendChild(title)
+                dialog.appendChild(buttonsContainer)
+                overlay.appendChild(dialog)
+                document.body.appendChild(overlay)
 
                 // 点击遮罩层外部关闭对话框
                 overlay.addEventListener('click', (e) => {
                     if (e.target === overlay) {
-                        resolve(null);
-                        document.body.removeChild(overlay);
+                        resolve(null)
+                        document.body.removeChild(overlay)
                     }
-                });
-            });
+                })
+            })
         },
         click: async function (btn, status_id, is_exist, index) {
             if (btn.classList.contains('loading')) return
@@ -545,7 +539,7 @@ const TMD = (function () {
 
             // 检查是否存在引用推文
             let hasQuotedMedia = json.quoted_status_result?.result?.legacy?.media ||
-                                json.quoted_status_result?.result?.legacy?.extended_entities?.media
+                json.quoted_status_result?.result?.legacy?.extended_entities?.media
 
             let tweet
             let user
@@ -943,10 +937,10 @@ const TMD = (function () {
         },
 
         language: {
-            en: { download: 'Download', completed: 'Download Completed', settings: 'Settings', dialog: { title: 'Download Settings', save: 'Save', save_history: 'Remember download history', clear_history: '(Clear)', clear_confirm: 'Clear download history?', show_sensitive: 'Always show sensitive content', pattern: 'File Name Pattern' }, enable_packaging: 'Package multiple files into a ZIP' },
-            ja: { download: 'ダウンロード', completed: 'ダウンロード完了', settings: '設定', dialog: { title: 'ダウンロード設定', save: '保存', save_history: 'ダウンロード履歴を保存する', clear_history: '(クリア)', clear_confirm: 'ダウンロード履歴を削除する？', show_sensitive: 'センシティブな内容を常に表示する', pattern: 'ファイル名パターン' }, enable_packaging: '複数ファイルを ZIP にパッケージ化する' },
-            zh: { download: '下载', completed: '下载完成', settings: '设置', dialog: { title: '下载设置', save: '保存', save_history: '保存下载记录', clear_history: '(清除)', clear_confirm: '确认要清除下载记录？', show_sensitive: '自动显示敏感的内容', pattern: '文件名格式' }, enable_packaging: '多文件打包成 ZIP' },
-            'zh-Hant': { download: '下載', completed: '下載完成', settings: '設置', dialog: { title: '下載設置', save: '保存', save_history: '保存下載記錄', clear_history: '(清除)', clear_confirm: '確認要清除下載記錄？', show_sensitive: '自動顯示敏感的内容', pattern: '文件名規則' }, enable_packaging: '多文件打包成 ZIP' }
+            en: { download: 'Download', completed: 'Download Completed', settings: 'Settings', dialog: { title: 'Download Settings', save: 'Save', save_history: 'Remember download history', clear_history: '(Clear)', clear_confirm: 'Clear download history?', show_sensitive: 'Always show sensitive content', pattern: 'File Name Pattern' }, enable_packaging: 'Package multiple files into a ZIP', original: 'Original Tweet', quote: 'Quoted Tweet', cancel: 'Cancel', choose: 'Select media to download' },
+            ja: { download: 'ダウンロード', completed: 'ダウンロード完了', settings: '設定', dialog: { title: 'ダウンロード設定', save: '保存', save_history: 'ダウンロード履歴を保存する', clear_history: '(クリア)', clear_confirm: 'ダウンロード履歴を削除する？', show_sensitive: 'センシティブな内容を常に表示する', pattern: 'ファイル名パターン' }, enable_packaging: '複数ファイルを ZIP にパッケージ化する', original: '元のツイート', quote: '引用ツイート', cancel: 'キャンセル', choose: 'メディアを選択' },
+            zh: { download: '下载', completed: '下载完成', settings: '设置', dialog: { title: '下载设置', save: '保存', save_history: '保存下载记录', clear_history: '(清除)', clear_confirm: '确认要清除下载记录？', show_sensitive: '自动显示敏感的内容', pattern: '文件名格式' }, enable_packaging: '多文件打包成 ZIP', original: '原始推文', quote: '引用推文', cancel: '取消', choose: '选择要下载的媒体' },
+            'zh-Hant': { download: '下載', completed: '下載完成', settings: '設置', dialog: { title: '下載設置', save: '保存', save_history: '保存下載記錄', clear_history: '(清除)', clear_confirm: '確認要清除下載記錄？', show_sensitive: '自動顯示敏感的内容', pattern: '文件名規則' }, enable_packaging: '多文件打包成 ZIP', original: '原始推文', quote: '引用推文', cancel: '取消', choose: '選擇要下載的媒體' }
         },
         css: `
 .tmd-down {margin-left: 12px; order: 99;}

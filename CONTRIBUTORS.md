@@ -21,7 +21,7 @@
 - [@Guany725](https://github.com/Guany725)在[#50](https://github.com/ChinaGodMan/UserScripts/issues/50) 反馈了无法跨域设置窗口大小的问题(已解决)  
 - [德克斯 dex](https://greasyfork.org/users/20361)在[#258907](https://greasyfork.org/scripts/504880/discussions/258907#comment-529624) 添加了记录窗口大小的代码
 
-### [Greasyfork 未更新腳本高亮](./greasyfork-ugreasyfork-unupdated-scriptscript)
+### [Greasyfork 未更新腳本高亮](./greasyfork-unupdated-script)
 
 - [Mateo Bohorquez G.](https://github.com/Milor123)在[#184](https://github.com/ChinaGodMan/UserScripts/issues/184) 头脑风暴了一个`隐藏未更新脚本的` 新功能  
 
@@ -34,5 +34,9 @@
 <img src="https://s2.loli.net/2025/09/02/PS6w42WGiOLrqRZ.png" alt="功能显示" width="500" height="900">
 </details>
 
+
+### [Twitter 媒体下载](./twitter-media-downloader)
+
+- [molanp](https://github.com/molanp)在[#235](https://github.com/ChinaGodMan/UserScripts/pull/235) 修复了BUG  
 
 **原始脚本来源请查看每个脚本目录下的`AUTHORS.md`**
