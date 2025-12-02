@@ -551,8 +551,8 @@ const TMD = (function () {
             let user
             if (hasQuotedMedia) {
                 // 存在引用媒体，需要用户选择
-                let originalUser = `${json.core?.user_results?.result?.legacy?.name}@${json.core?.user_results?.result?.legacy?.screen_name})` || 'unknown'
-                let quotedUser = `${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.name} @${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.screen_name})` || 'unknown'
+                let originalUser = `${json.core?.user_results?.result?.legacy?.name} @${json.core?.user_results?.result?.legacy?.screen_name}`
+                let quotedUser = `${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.name} @${json.quoted_status_result?.result?.core?.user_results?.result?.legacy?.screen_name}`
 
                 let choice = await this.selectTweetDialog(originalUser, quotedUser)
                 if (!choice) {
