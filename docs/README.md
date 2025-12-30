@@ -95,7 +95,7 @@
 💡 **Tip:** _要显示预览截图，请点击扩展名称下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**储存库当前发布脚本数量:82,脚本包括:**
+**储存库当前发布脚本数量:83,脚本包括:**
 <h6><a href="#网页脚本-10">网页脚本 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#成人脚本-11">成人脚本 (11)</a>
@@ -105,7 +105,7 @@
  | <a href="#AI-脚本-9">AI 脚本 (9)</a>
  | <a href="#博客网站-5">博客网站 (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
- | <a href="#YouTube-4">YouTube (4)</a>
+ | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2839,7 +2839,7 @@ ChatGPT 让代码字体变小 并且自动折行
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (4)</h1></div><h3>
+<div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../youtube-helper">YouTube 小助手</a>&nbsp;
@@ -2975,6 +2975,44 @@ ChatGPT 让代码字体变小 并且自动折行
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../youtube-pro-audio-ambient">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../youtube-pro-audio-ambient">YouTube Pro: 音频增强器</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/560766">
+        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>影院级音效,配备专业级5段均衡器和多段压缩器。还能记住您的设置.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient">
+            <img width=511 src="https://smms.app/image/IXiw9Mgkt4djWa2"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/560766">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/560766">
+        Greasemonkey</a> /
+    <a href="../youtube-pro-audio-ambient/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../youtube-pro-audio-ambient/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>

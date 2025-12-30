@@ -33,7 +33,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E8%82%AF%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E3%81%99%E3%81%B9%E3%81%A6%E4%B8%80%E8%88%AC%E7%9A%84&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E3%81%99%E3%81%B9%E3%81%A6%E3%81%AE%E5%90%A6%E5%AE%9A%E7%9A%84%E3%81%AA%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E5%93%81%E8%B3%AA&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=代码质量&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
@@ -48,7 +48,7 @@
 
 <center><div align="center">
     <strong>この脚本はインターネット上の膨大な数のネチズンから提供されたものです，いくつか変更を加えただけです.ありがとうネチズン</strong><br>
-    <strong>侵害があった場合,連絡先を削除する必要があります</strong><br>
+    <strong>違反があった場合,連絡先を削除する必要があります</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>推奨：</strong><br>
 <img src="https://img.shields.io/badge/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%C2%B7%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -95,7 +95,7 @@
 💡 **Tip:** _プレビューのスクリーンショットを表示するには，拡張機能名の下をクリックします ▸ または説明します。_
 
 <!--SCRIPTS_COUNT-->
-**リポジトリ内で公開されているスクリプトの現在の数:82,スクリプトには以下が含まれます:**
+**リポジトリ内で公開されているスクリプトの現在の数:83,スクリプトには以下が含まれます:**
 <h6><a href="#ウェブスクリプト-10">ウェブスクリプト (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#大人向けの脚本-11">大人向けの脚本 (11)</a>
@@ -105,7 +105,7 @@
  | <a href="#AI-脚本-9">AI 脚本 (9)</a>
  | <a href="#ブログサイト-5">ブログサイト (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
- | <a href="#YouTube-4">YouTube (4)</a>
+ | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -1102,7 +1102,7 @@ Googleを作るって検索するGreasyForkそしてSleazyForkスクリプトオ
 </h3>
 
 <details>
-    <summary>1。自動再生2。自動ワイドスクリーン3。高品質の再生4。クリックして二流の映画を誓約してください。</summary>
+    <summary>1。自動再生2。自動ワイドスクリーン3。高品質の再生4。クリックして二流の映画を充電してください。</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance">
             <img width=511 src="https://greasyfork.s3.us-east-2.amazonaws.com/n5gszupnqiigj78b72756pvp1xx6"></a>
@@ -2839,7 +2839,7 @@ Twitter（x）ブラックリストとブロックリストをダウンロード
 </blockquote>
 <div align="right"><a href="#-スクリプトリスト">目次に戻る</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (4)</h1></div><h3>
+<div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTubeアシスタント</a>&nbsp;
@@ -2977,6 +2977,44 @@ Twitter（x）ブラックリストとブロックリストをダウンロード
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-pro-audio-ambient">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-pro-audio-ambient">YouTube Pro: オーディオ エンハンサー</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/560766">
+        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E6%95%B0"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>プロ仕様の5バンドイコライザーとマルチバンドコンプレッサーを搭載したシネマグレードの音響効果。設定もメモリします。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient">
+            <img width=511 src="https://smms.app/image/IXiw9Mgkt4djWa2"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/560766">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/560766">
+        Greasemonkey</a> /
+    <a href="../../youtube-pro-audio-ambient/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-pro-audio-ambient/README_en.md">
+        Readmeファイル</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">話し合う</a> /
+    <a href="../../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">ソースコード</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">インストール</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">から変更されました</a>
+</blockquote>
 <div align="right"><a href="#-スクリプトリスト">目次に戻る</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -3087,16 +3125,16 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 任意のスクリプトを使用するには，まずブラウザをインストールする必要があります **Tampermonkey スクリプトマネージャー拡張機能（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   フォームをクリックしてください **\[インストール\]** スクリプト マネージャーのインストール インターフェイスを直接ポップアップ表示します。。
--   もし Github アクセス速度が遅すぎる，クリックするか選択できます GreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，もう一度クリックしてください **\[インストール\]** それでおしまい。
+-   もし Github アクセス速度が遅すぎる，クリックするか選択できます GreasyFork **\[インストール\]** 後に拡張機能プロンプトが表示されます，再去点击 **\[インストール\]** それでおしまい。
 -   [詳細なチュートリアルを表示する](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
 > -   _その他に基づく **Chromium** カーネルブラウザ（国内カバーブラウザなど）一般的に使用できます Chrome 拡大する。_
 > -   _ぜひご利用ください **Tampermonkey 正式版** 拡大する，他のユーザー スクリプト マネージャーでは、次のような問題が発生する可能性があります。**正常に動作しない**脚本。_
-> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトを作成し、スクリプトを再インストールします。_
+> -   _スクリプトを再インストールしたい場合，覚えておいてください Tampermonkey 延長された**ごみ箱から完全に削除する**スクリプトの作成後、スクリプトを再インストールします。。_
 
-> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 非表示を再度開く [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**オフラインインストールなし .crx 拡大する？[Chrome、Edge 重新开启隐藏的 [ドラッグアンドドロップでインストール .crx 拡大する] 関数！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3127,12 +3165,12 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="砂漠の息子"/></a> :+1:
 > -   コピーされました [砂漠の息子](https://github.com/maboloshi)倉庫[github-chinese](https://github.com/maboloshi/github-chinese)内のコード<br>
 > -   この倉庫には`writer.py` `update-contributors.yml` を使用してコピーされました[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)内部のコード
-> -   このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC)コンテンツ `インストール方法/スクリプトを使用する？`
+> -   このリポジトリの Readme ファイルがコピーされます[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC)内容 `インストール方法/スクリプトを使用する？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉禅鵬"/></a> :+1:
-> -   _このリポジトリの自動翻訳と Action ヤンキーには特別な感謝を[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
+> -   _このリポジトリの自動翻訳と Action ヤンキーには本当に感謝しています[Adam Lui 劉禅鵬](https://github.com/adamlui)素晴らしいアイデアとコード!_ :trollface:
 > -   _ヤンキースをイメージしたウェアハウスのネーミング[Adam Lui 劉禅鵬](https://github.com/adamlui)鼓舞する_ :trollface:
 > -   _このリポジトリの Readme ファイルは次の場所にあります。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
 > -   _スクリプト内の相互リダイレクト ジャンプは次のものから来ています。[Adam Lui 劉禅鵬](https://github.com/adamlui)自己申告スタイル_ :trollface:
@@ -3148,7 +3186,7 @@ Bilibiliライブルームブロックツール，サポート管理リスト，
 
 </div>
 
-## 🧠 投稿者
+## 🧠 贡献者
 
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
@@ -3175,7 +3213,7 @@ MIT ライセンスは寛容なオープンソース ライセンス契約です
 
 </div>
 
-## 🤝 行動規範
+## 🤝 行为准则
 
 友好的な関係を確保するために、敬意を持った包括的な開発環境，私たちは以下のものを開発しました<a href="../CODE_OF_CONDUCT.md"><strong>行動規範</strong></a>。各寄稿者は次のガイドラインに従うことが求められます。
 
@@ -3210,7 +3248,7 @@ MIT ライセンスは寛容なオープンソース ライセンス契約です
 
 ## 🌐 ブラウザとスクリプトマネージャー
 
-|                               推奨ブラウザ                                |                                                         インストールマネージャー                                                          | ブラウザをインストールする                                                                    |
+|                               推荐使用浏览器                                |                                                         インストールマネージャー                                                          | ブラウザをインストールする                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome または に基づく Chromium カーネルブラウザ[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari ブラウザ（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] または ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |

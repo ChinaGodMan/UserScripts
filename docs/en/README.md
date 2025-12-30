@@ -95,7 +95,7 @@
 💡 **Tip:** _To show preview screenshot，Click below the extension name ▸ or describe。_
 
 <!--SCRIPTS_COUNT-->
-**The current number of published scripts in the repository:82,Script includes:**
+**The current number of published scripts in the repository:83,Script includes:**
 <h6><a href="#web-script-10">web script (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#adult-script-11">adult script (11)</a>
@@ -105,7 +105,7 @@
  | <a href="#AI-Script-9">AI Script (9)</a>
  | <a href="#blog-site-5">blog site (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
- | <a href="#YouTube-4">YouTube (4)</a>
+ | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2839,7 +2839,7 @@ Used to download Twitter(X) blacklists and blocked lists, support automatic dete
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (4)</h1></div><h3>
+<div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTube Assistant</a>&nbsp;
@@ -2977,6 +2977,44 @@ Dynamically adjust the YouTube video grid based on window width to display the b
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-pro-audio-ambient">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-pro-audio-ambient">YouTube Pro: Audio Enhancer</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/560766">
+        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Cinema-grade sound effects, equipped with professional-grade 5-band equalizer and multi-band compressor. It also remembers your settings.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient">
+            <img width=511 src="https://smms.app/image/IXiw9Mgkt4djWa2"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/560766">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/560766">
+        Greasemonkey</a> /
+    <a href="../../youtube-pro-audio-ambient/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-pro-audio-ambient/README_en.md">
+        readme file</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discuss</a> /
+    <a href="../../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Source code</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Install</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
+</blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -3094,7 +3132,7 @@ To use any script，First you need to install the browser **Tampermonkey Script 
 >
 > -   _Others based on **Chromium** Kernel browser（Such as domestic cover browser）Generally can be used Chrome Expand。_
 > -   _Please make sure to use **Tampermonkey Official version** Expand，其他的用户Script管理器可能导致**Not working properly**脚本。_
-> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**Script and then reinstall the script。_
+> -   _If you want to reinstall the script，Please remember to Tampermonkey extended**Completely delete from recycle bin**After the script, go and reinstall the script.。_
 
 > _**No offline installation .crx Expand？[Chrome、Edge Reopen hidden [Drag and drop installation .crx Expand] Function！](https://zhuanlan.zhihu.com/p/276027099)**_
 

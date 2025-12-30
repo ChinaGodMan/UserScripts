@@ -1091,13 +1091,13 @@
       "readme_locales": "zh-TW,vi,en,ko"
     },
     {
-      "name": "",
-      "description": "",
+      "name": "YouTube Pro: 音频增强器",
+      "description": "影院级音效,配备专业级5段均衡器和多段压缩器。还能记住您的设置.",
       "group": "YouTube",
       "js_name": "youtube-pro-audio-ambient.user.js",
       "directory": "youtube-pro-audio-ambient",
       "version": "2025.12.30.1",
-      "greasyfork_id": null,
+      "greasyfork_id": 560766,
       "created_at": "2025-12-30 20:23:49",
       "preview": "https://smms.app/image/IXiw9Mgkt4djWa2",
       "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",

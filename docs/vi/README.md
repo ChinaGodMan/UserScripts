@@ -95,7 +95,7 @@
 💡 **Tip:** _Để hiển thị ảnh chụp màn hình xem trước，Nhấp vào bên dưới tên tiện ích mở rộng ▸ hoặc mô tả。_
 
 <!--SCRIPTS_COUNT-->
-**Số lượng tập lệnh được xuất bản hiện tại trong kho:82,Kịch bản bao gồm:**
+**Số lượng tập lệnh được xuất bản hiện tại trong kho:83,Kịch bản bao gồm:**
 <h6><a href="#kịch-bản-web-10">kịch bản web (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#kịch-bản-người-lớn-11">kịch bản người lớn (11)</a>
@@ -105,7 +105,7 @@
  | <a href="#AI-Kịch-bản-9">AI Kịch bản (9)</a>
  | <a href="#trang-blog-5">trang blog (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
- | <a href="#YouTube-4">YouTube (4)</a>
+ | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
 </h6>
@@ -2839,7 +2839,7 @@ Sina Weibo tự động chuyển sang phiên bản di động，Hỗ trợ weibo
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>YouTube (4)</h1></div><h3>
+<div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">Trợ lý YouTube</a>&nbsp;
@@ -2977,6 +2977,44 @@ Thêm thanh trượt vào trình phát video YouTube để làm cho thay đổi 
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
+<h3>
+    <a href="../../youtube-pro-audio-ambient">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
+    <a href="../../youtube-pro-audio-ambient">YouTube Pro: Trình cải tiến âm thanh</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/560766">
+        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Hiệu ứng âm thanh đẳng cấp rạp chiếu phim, được trang bị bộ cân bằng 5 băng tần chuyên nghiệp và bộ nén đa băng tần. Nó cũng ghi nhớ cài đặt của bạn.</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient">
+            <img width=511 src="https://smms.app/image/IXiw9Mgkt4djWa2"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/560766">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/560766">
+        Greasemonkey</a> /
+    <a href="../../youtube-pro-audio-ambient/README_vi.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../../youtube-pro-audio-ambient/README_vi.md">
+        tập tin readme</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">bàn luận</a> /
+    <a href="../../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Mã nguồn</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Cài đặt</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
+</blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
@@ -3094,7 +3132,7 @@ Công cụ chặn phòng trực tiếp Bilibili，Danh sách quản lý hỗ tr�
 >
 > -   _Những người khác dựa trên **Chromium** Trình duyệt hạt nhân（Chẳng hạn như trình duyệt bìa trong nước）Nói chung có thể được sử dụng Chrome Mở rộng。_
 > -   _Hãy đảm bảo sử dụng **Tampermonkey Phiên bản chính thức** Mở rộng，其他的用户Kịch bản管理器可能导致**Không hoạt động đúng cách**脚本。_
-> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Tập lệnh và sau đó cài đặt lại tập lệnh。_
+> -   _Nếu bạn muốn cài đặt lại tập lệnh，Xin hãy nhớ Tampermonkey mở rộng**Xóa hoàn toàn khỏi thùng rác**Sau tập lệnh, hãy đi và cài đặt lại tập lệnh.。_
 
 > _**Không cài đặt ngoại tuyến .crx Mở rộng？[Chrome、Edge Mở lại ẩn [Cài đặt kéo và thả .crx Mở rộng] Chức năng！](https://zhuanlan.zhihu.com/p/276027099)**_
 
@@ -3177,7 +3215,7 @@ MIT Giấy phép là một thỏa thuận cấp phép nguồn mở dễ dàng，
 
 ## 🤝 quy tắc ứng xử
 
-Để đảm bảo sự thân thiện、Một môi trường phát triển tôn trọng và hòa nhập，Chúng tôi đã phát triển như sau<a href="../CODE_OF_CONDUCT.md"><strong>quy tắc ứng xử</strong></a>。Mỗi cộng tác viên được yêu cầu tuân theo các nguyên tắc này。
+Để đảm bảo sự thân thiện、Một môi trường phát triển tôn trọng và hòa nhập，Chúng tôi đã phát triển những điều sau đây<a href="../CODE_OF_CONDUCT.md"><strong>quy tắc ứng xử</strong></a>。Mỗi cộng tác viên được yêu cầu tuân theo các nguyên tắc này。
 
 <div align="right">
 
@@ -3200,7 +3238,7 @@ Yêu cầu kéo cũng được chào đón，nhưng vì lý do bảo mật，Vui
 
 ## 💖 Hướng dẫn đóng góp
 
-Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã phát triển như sau<a href="../../CONTRIBUTING.md"><strong>Hướng dẫn đóng góp</strong></a>。Để giúp bạn đóng góp mã hoặc tài liệu một cách suôn sẻ，Trước khi gửi mã hoặc câu hỏi, vui lòng，Đọc kỹ nội dung。
+Cảm ơn bạn đã quan tâm đến dự án này！Chúng tôi đã phát triển những điều sau đây<a href="../../CONTRIBUTING.md"><strong>Hướng dẫn đóng góp</strong></a>。Để giúp bạn đóng góp mã hoặc tài liệu một cách suôn sẻ，Trước khi gửi mã hoặc câu hỏi, vui lòng，Đọc kỹ nội dung。
 
 <div align="right">
 
