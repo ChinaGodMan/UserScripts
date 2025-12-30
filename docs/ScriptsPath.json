@@ -1089,6 +1089,19 @@
       ],
       "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
       "readme_locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "",
+      "description": "",
+      "group": "YouTube",
+      "js_name": "youtube-pro-audio-ambient.user.js",
+      "directory": "youtube-pro-audio-ambient",
+      "version": "2025.12.30.1",
+      "greasyfork_id": null,
+      "created_at": "2025-12-30 20:23:49",
+      "preview": "https://smms.app/image/IXiw9Mgkt4djWa2",
+      "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
+      "readme_locales": "zh-TW,vi,en,ko"
     }
   ]
 }
