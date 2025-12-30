@@ -83,6 +83,8 @@ jobs:
           git config --global user.signingkey "${{ secrets.GPG_PRIVATE_ID }}"
       - name: 提交和推送更改
         run: |
+          # 在github action中安装依赖有时候会修改[package-lock.json], 恢复下,不在commit中对无关文件进行修改.
+          git restore package-lock.json
           git pull
           git add .
           COMMIT_MESSAGE="docs(sync): 🤖 同步"
