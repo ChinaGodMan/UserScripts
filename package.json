@@ -38,7 +38,7 @@
     "eslint-plugin-yml": "^1.19.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.0"
   },
   "scripts": {
     "prepare": "husky",
