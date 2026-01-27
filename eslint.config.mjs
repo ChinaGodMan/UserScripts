@@ -5,7 +5,6 @@ import json from '@eslint/json'
 import markdown from '@eslint/markdown'
 import regexp from 'eslint-plugin-regexp'
 import stylisticJS from '@stylistic/eslint-plugin'
-import yml from 'eslint-plugin-yml'
 import userscripts from 'eslint-plugin-userscripts'
 
 export default [
@@ -73,7 +72,6 @@ export default [
             'markdown/no-missing-link-fragments': 'off' // 关闭片段链接检查
         }
     },
-    { files: ['**/*.yaml, **/*.yml'], ignores: ['.history/*'], ...yml.configs['flat/standard'][1] },
     {
         files: ['**/*.user.js'],
         plugins: { userscripts: { rules: userscripts.rules } },
