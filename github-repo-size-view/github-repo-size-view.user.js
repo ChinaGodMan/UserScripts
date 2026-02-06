@@ -80,10 +80,9 @@
 // @description:zh-HK  🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠
 // @description:fr-CA  🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            2025.5.27.1
+// @version            2026.2.6.1
 // @author             mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match              https://github.com/*
-// @grant              none
 // @run-at             document-start
 // @grant              GM_getValue
 // @grant              GM_setValue
@@ -108,7 +107,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/05/16,Friday 17:44:54
+ * Last Modified: 2026/02/06,Friday 19:04:18
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License

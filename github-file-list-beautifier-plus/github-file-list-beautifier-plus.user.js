@@ -74,11 +74,10 @@
 // @description:vi     GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。Thêm màu sắc và biểu tượng vào tệp theo loại，Hiển thị hình ảnh nhỏ thay cho biểu tượng loại tệp trong cây nguồn kho lưu trữ
 // @description:zh-TW  GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標
 // @description:zh-HK  GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標
-// @description:fr-CA  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel 
+// @description:fr-CA  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel
 // @license            MIT
-// @version            4.1.0.4
+// @version            2026.2.6.1
 // @match              https://github.com/*
-// @grant              none
 // @run-at             document-start
 // @grant              GM_xmlhttpRequest
 // @grant              GM_getValue
@@ -150,8 +149,8 @@ const { sheet } = document.documentElement.appendChild($create('style', {
       margin: 0 -4px;
     }
      .qinwuyuan-file-icon {
-      width: 16px; 
-      height: 16px; 
+      width: 16px;
+      height: 16px;
       object-fit: scale-down;
       margin: 0 -4px;
     }
