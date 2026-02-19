@@ -24,7 +24,7 @@ jobs:
       - name: 设置 Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "20.18.0"
+          node-version: "lts/*"
 
       - name: 设置 Python
         uses: actions/setup-python@v6.2.0
