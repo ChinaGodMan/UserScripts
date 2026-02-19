@@ -354,7 +354,7 @@
 // @match                  https://mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/*
 // @match                  https://x.com/*
 // @match                  https://mobile.x.com/*
-// @require                https://update.greasyfork.org/scripts/538254/1601105/PNG.js
+// @require                https://update.greasyfork.org/scripts/566787/1757765/PNG%20X.js
 // @grant                  GM_getValue
 // @grant                  GM_registerMenuCommand
 // @grant                  GM_setValue
@@ -369,7 +369,7 @@
 // @compatible             qq
 // @compatible             via
 // @compatible             brave
-// @version                2025.6.4.1
+// @version                2026.2.20.1
 // @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
 // @updateURL              https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter-show-date-normally/twitter-show-date-normally.user.js
 // ==/UserScript==
