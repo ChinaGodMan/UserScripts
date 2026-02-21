@@ -342,8 +342,11 @@ const TMD = (function () {
                 'div[aria-labelledby]>div:first-child>div[role="button"][tabindex="0"]' //for audio (experimental)
             ]
             let media = article.querySelector(media_selector.join(','))
+            let current_tweet_id = document.location.href.includes('/status/') 
+                ? document.location.href.split('/status/').pop().split('/').shift() 
+                : undefined
             if (media) {
-                let status_id = article.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift()
+                let status_id = current_tweet_id || article.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift()
                 let btn_group = article.querySelector('div[role="group"]:last-of-type, ul.tweet-actions, ul.tweet-detail-actions')
                 let btn_share = Array.from(btn_group.querySelectorAll(':scope>div>div, li.tweet-action-item>a, li.tweet-detail-action-item>a')).pop().parentNode
                 let btn_down = btn_share.cloneNode(true)
@@ -367,7 +370,7 @@ const TMD = (function () {
             }
             let imgs = article.querySelectorAll('a[href*="/photo/"]')
             if (imgs.length > 1) {
-                let status_id = article.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift()
+                let status_id = current_tweet_id || article.querySelector('a[href*="/status/"]').href.split('/status/').pop().split('/').shift()
                 let btn_group = article.querySelector('div[role="group"]:last-of-type')
                 let btn_share = Array.from(btn_group.querySelectorAll(':scope>div>div')).pop().parentNode
                 imgs.forEach(img => {
@@ -593,7 +596,7 @@ const TMD = (function () {
                     info.url = media.type == 'photo' ? media.media_url_https + ':orig' : media.video_info.variants.filter(n => n.content_type == 'video/mp4').sort((a, b) => b.bitrate - a.bitrate)[0].url
                     info.file = info.url.split('/').pop().split(/[:?]/).shift()
                     info['file-name'] = info.file.split('.').shift()
-                    info['file-ext'] = info.file.split('.').pop()
+                    info['file-ext'] = info.file.split('.').pop();
                     info['file-type'] = media.type.replace('animated_', '')
                     info.out = (out.replace(/\.?\{file-ext\}/, '') + ((medias.length > 1 || index) && !out.match('{file-name}') ? '-' + (index ? index - 1 : i) : '') + '.{file-ext}').replace(/\{([^{}:]+)(:[^{}]+)?\}/g, (match, name) => info[name])
                     return { url: info.url, name: info.out }
