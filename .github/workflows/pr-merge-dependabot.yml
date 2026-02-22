@@ -51,14 +51,6 @@ jobs:
                 commit_message: commitMessage,
               });
 
-              // 删除分支
-              console.log(`PR 合并成功，删除分支: ${pr.head.ref}`);
-              await github.rest.git.deleteRef({
-                owner,
-                repo,
-                ref: `heads/${pr.head.ref}`,
-              });
-
             } catch (error) {
               // 3. 合并失败时，可能存在冲突.重新关闭和打开PR,让Dependabot处理冲突.
               console.log(`合并失败: ${error.message}`);
