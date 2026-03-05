@@ -76,7 +76,7 @@
 // @description:zh-HK  GitHub 文件清單美化器是一個使用者腳本，用於增強 GitHub 倉庫中的文件顯示效果。它可以為文件和資料夾添加顏色，並將文件類型圖示替換為小圖像，使得程式碼庫更加易於瀏覽和管理。按類型為文件添加顏色和圖標，在儲存庫來源樹中顯示小圖像以取代文件類型圖標
 // @description:fr-CA  GitHub File List Beautifier est un script utilisateur，utilisé pour améliorer GitHub Effet d’affichage des fichiers dans l’entrepôt。Il peut ajouter des couleurs aux fichiers et dossiers，et remplacez les icônes de type de fichier par de petites images，Rend la base de code plus facile à parcourir et à gérer。Ajouter des couleurs et des icônes aux fichiers par type，Afficher de petites images à la place des icônes de type de fichier dans l’arborescence des sources du référentiel
 // @license            MIT
-// @version            2026.2.6.1
+// @version            2026.3.5.1
 // @match              https://github.com/*
 // @run-at             document-start
 // @grant              GM_xmlhttpRequest
@@ -104,7 +104,6 @@ var addIcon = true
 if (DEBUG) {
     GM_setValue('fileTypesColors', {})
 }
-GM_setValue('fileTypesColors', {})
 if (Object.keys(customColors).length === 0) {
     GM_xmlhttpRequest({
         method: 'GET',

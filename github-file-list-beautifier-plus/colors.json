@@ -89,14 +89,14 @@
   },
   "sh": {
     "color": "#89e051",
-    "icon": "https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Shell.svgl"
+    "icon": "https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/Shell.svg"
   },
   "bat": {
     "color": "#4eaa25",
     "icon": "https://raw.githubusercontent.com/the-userr/GitHub-Icons/master/icons/CMD.png"
   },
   "ps1": {
-    "color": "#012456",
+    "color": "#0298c3",
     "icon": "powershell"
   },
   "ttf": {
