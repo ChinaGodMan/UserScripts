@@ -61,70 +61,73 @@
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
     <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%ED%99%95%EC%9D%B8&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>수리하다</strong>: 경고 텍스트가 검은색으로 변경되었습니다.,일부 요소 경로 수정<br></p>
+<hr />
 <h3><strong>📅 2025.5.27.1</strong></h3>
-<p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다.<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，다른 스크립트로 인해 페이지 요소가 변경됩니다<br></p>
+<p><strong>Fix</strong>: 저장소 페이지에 바로가기 점프 버튼이 표시되지 않는 문제를 수정했습니다.<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，다른 스크립트로 인해 페이지 요소가 변경됨<br></p>
 <hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
-<p><strong>Fix</strong>: 리포지토리 페이지에 빠른 점프 버튼이 표시되지 않은 문제를 수정했습니다. <br></p>
+<p><strong>Fix</strong>: 저장소 페이지에 바로가기 점프 버튼이 표시되지 않는 문제를 수정했습니다. <br></p>
 <hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
-<p><strong>이전 버전에서 사소한 문제를 수정했습니다</strong>:빠른 점프&gt;사용자 리포지토리 수를 사용자 정의 할 때 활성화됩니다,첫 번째 페이지 만 기본적으로 얻습니다<br></p>
+<p><strong>이전 버전의 사소한 문제 수정</strong>:빠른 점프&gt;사용자 웨어하우스 수를 확보하기 위해 커스터마이징을 활성화하는 경우,기본적으로 첫 번째 페이지만 가져옵니다.<br></p>
 <hr />
 <h3><strong>📅 2025.04.22.1003</strong></h3>
-<p><strong>새로운</strong>:빠른 점프:페이지 당 사용자 리포지토리 및 디스플레이 수를 사용자 정의하십시오.<br>
-<strong>새로운</strong>:고정 헤드 탐색 막대:사용자 정의 활성화<br>
-<strong>새로운</strong>:로컬 캐시:캐시를 새로 고치기 위해 사용자 정의 새로 고침 시간을 허용하십시오<br></p>
+<p><strong>새로운</strong>:빠른 점프:사용자 창고 수와 각 페이지에 표시되는 수를 얻기 위해 사용자 정의<br>
+<strong>새로운</strong>:고정 헤더 탐색 모음:맞춤 활성화<br>
+<strong>새로운</strong>:로컬 캐시:사용자 정의 캐시 새로 고침 시간 허용<br></p>
 <hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
-<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>지원 시스템<code>밝은 색 모드</code>그리고<code>다크 모드</code><br>
-<strong>스크린 샷</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
+<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>지원 시스템<code>조명 모드</code>그리고<code>다크 모드</code><br>
+<strong>스크린샷</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
-<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>왼쪽의 창고를 클릭하십시오,지정된 창고의 정보를 직접 표시합니다<br>호환 가능<code>2025.04.15</code>모든 알림 정보에 중단 된 기능의 버전.<br>고마워하는:<a href="https://github.com/qbmiller">qbmiller</a> 스크립트 코드,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>스크린 샷</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
+<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>왼쪽 창고를 클릭하세요,지정된 창고의 정보를 직접 표시<br>호환 가능<code>2025.04.15</code>모든 알림정보에 버전 플로팅 기능.<br>고마워하는:<a href="https://github.com/qbmiller">qbmiller</a> 스크립트 코드,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>스크린샷</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>창고 정보를 표시합니다<br>고마워하는:<a href="https://github.com/qbmiller">qbmiller</a> 스크립트 코드,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>스크린 샷</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
+<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>창고 정보 표시<br>고마워하는:<a href="https://github.com/qbmiller">qbmiller</a> 스크립트 코드,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>스크린샷</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>새로운</strong>:GitHub 글로벌 내비게이션 바 고정 코드<a href="https://greasyfork.org/scripts/529862">GitHub 향상 키트</a><br>
-<strong>스크린 샷</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<p><strong>새로운</strong>:GitHub 전역 탐색 표시줄이 수정되었습니다. 코드<a href="https://greasyfork.org/scripts/529862">GitHub 강화 키트</a><br>
+<strong>스크린샷</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <hr />
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>새로운</strong>:2 요인 검증 코드 자동 충전 기능<code>Two-factor authentication</code> 편리하고 빠른 충전,지속적인 모니터링,확인이 시작될 때까지....<br>
-<strong>새로운</strong>:사용자 프로필 페이지의 출연 창고는 디스플레이 창고 크기를 추가합니다.,<code>?tab=stars</code>아래에서 실행하십시오<br>
-<strong>수리하다</strong>:다른 사용자 주제,요소는 다릅니다,선택기를 변경하십시오<code>document.querySelector('.jxTzTd')</code><br>
-<strong>수리하다</strong>:사용자가 로그인 한 경우<code>TOKEN</code>비어 있지 않습니다,자신의 목록을 사용하십시오 API<code>https://api.github.com/user/repos</code>.오류 코드가 반환되는 것을 방지합니다<code>401</code><br>
-<strong>수리하다</strong>:수리하다<code>코드 검색 및 리포지토리 코드 검색</code>창고의 크기는 두 번 검색됩니다.<br></p>
+<p><strong>새로운</strong>:2단계 인증 코드 자동 완성 기능<code>Two-factor authentication</code> 편리하고 빠른 충전,지속적으로 모니터링,인증이 실행될 때까지....<br>
+<strong>새로운</strong>:사용자 프로필 페이지에 별표 표시된 창고도 추가되어 창고 크기를 표시합니다.,<code>?tab=stars</code>아래에서 실행<br>
+<strong>수리하다</strong>:사용자 테마가 다릅니다,성분도 다르고,선택기가 다음으로 변경됩니다.<code>document.querySelector('.jxTzTd')</code><br>
+<strong>수리하다</strong>:로그인한 사용자인 경우<code>TOKEN</code>비어 있지 않음,나만의 목록 사용 API<code>https://api.github.com/user/repos</code>.오류 코드가 반환되지 않도록 방지<code>401</code><br>
+<strong>수리하다</strong>:수리하다<code>코드 검색 및 창고 코드 검색</code>다음으로 창고 크기를 두 번 반복해서 구해보겠습니다.<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>새로운</strong>:사용자 저장소 목록이 로컬로 저장되었습니다,<code>24h</code>한 번 새로 고치십시오<br>
-<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 스크립팅 기능 ，모바일 장치를 지원합니다，동적 모니터링으로 설정합니다<br>
-<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 빨리 활동적인 것을 찾으십시오 Forks 목록</a> 스크립팅 기능 모바일 장치를 지원합니다，동적 모니터링으로 설정합니다<br>
-<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 스크립팅 기능 개인 창고에서<code>?tab=repositories</code>빠른 페이지 삭제 모바일 장치를 지원합니다，동적 모니터링으로 설정합니다<br>
-<strong>최적화</strong>: 감지기는 10 초 안에 요소를 찾을 수 없으며 실행을 중지합니다.<br></p>
+<p><strong>새로운</strong>:획득한 사용자 창고 목록은 로컬에 저장됩니다.,<code>24h</code>한 번 새로 고침<br>
+<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 스크립트 기능 ，모바일 장치를 지원합니다，동적 모니터링으로 설정<br>
+<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 빠르게 활동 찾기 Forks 목록</a> 스크립트 기능 모바일 장치를 지원합니다，동적 모니터링으로 설정<br>
+<strong>새로운</strong>: 병합<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 스크립트 기능 개인 창고와<code>?tab=repositories</code>빠른 페이지 삭제 모바일 장치를 지원합니다，동적 모니터링으로 설정<br>
+<strong>최적화</strong>: 10초 이내에 요소를 찾을 수 없으면 감지기가 작동을 중지합니다.<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>수리하다</strong>:CSS 작은 파티션 막대는 모바일의 오류로 숨겨져 있습니다：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>수리하다</strong>:CSS 모바일 장치에서 작은 구분선이 잘못 숨겨졌습니다.：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>새로운</strong>: 마우스 부상을 추가하기위한 빠른 점프 목록<code>Title</code>기본 창고 정보를 표시합니다<br>
-<strong>최적화</strong>: 이제 사용자의 모든 저장소를 표시 할 수 있습니다，그러나이 작업을 수행하는 것은 권장되지 않습니다，경험에 영향을 미칩니다。<br> 대본에서 343 라인 사용 코드<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>매개 변수 3이 사실 일 때 사용자 목록을 재귀 적으로 얻습니다<br>매개 변수 4 한계 매개 변수 3은 진정한 최대 재귀 페이지 수입니다.<br>
-<strong>수리하다</strong>：반복 된 목록 추가 질문<br>
+<p><strong>새로운</strong>: 빠른 점프 목록에 마우스 호버 추가<code>Title</code>기본 창고 정보 표시<br>
+<strong>최적화</strong>: 이제 사용자의 모든 저장소를 표시할 수 있습니다.，하지만 권장하지는 않습니다，경험에 영향을 미침。<br> 스크립트에서 343 코드 줄<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>매개변수 3이 true인 경우 사용자 목록을 재귀적으로 가져옵니다.<br>매개변수 4는 매개변수 3이 true인 경우 최대 재귀 페이지 수를 제한합니다.<br>
+<strong>수리하다</strong>：목록에 중복된 질문이 추가되었습니다.<br>
 <strong>수리하다</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>새로운</strong>: GitHub 웨어 하우스로의 사이드 바 점프는 복잡합니다,창고에서 사용자를 빠르게 뛰어 넘기 위해 다른 창고 추가<br></p>
+<p><strong>새로운</strong>: GitHub 사이드바에서 창고로 점프하는 것이 번거롭습니다.,사용자의 다른 창고로 빠르게 이동하려면 창고를 추가하세요.<br></p>
 <table>
 <thead>
 <tr>
-<th><code>빨간색</code> 오픈 창고 용 <code>녹색</code> 개인 창고 용 <code>Forks</code> 복제 창고 (로그인 한 사용자,입력해야합니다 TOKEN)</th>
-<th>데모를 추가했습니다 ~~첫 페이지 만 표시하십시오 30 창고,초과는 표시되지 않습니다,내가 지금 나 자신을 사용하기에 충분합니다~~ <code>0.1.3.4</code>모두 지원됩니다</th>
+<th><code>빨간색</code> 공개 저장소용 <code>녹색</code> 개인창고용 <code>Forks</code> 복제 창고 (로그인한 사용자,입력해야 함 TOKEN)</th>
+<th>데모 추가 ~~첫 페이지만 표시 30 창고,초과 금액은 표시되지 않습니다.,이제 내 용도로는 충분해~~ <code>0.1.3.4</code>모두 지원됨</th>
 </tr>
 </thead>
 <tbody>
@@ -140,21 +143,21 @@
 </table>
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
-<p><strong>최적화</strong>: 작은 태그를 최적화하십시오<br>
-<strong>새로운</strong>: 비활성 개발 배너 마지막 시간은 오른쪽 하단에 표시됩니다.<code>Push</code>지금 얼마나 오래 있었습니까?<br></p>
+<p><strong>최적화</strong>: 작은 태그 최적화<br>
+<strong>새로운</strong>: 비활성 개발 배너의 오른쪽 하단에는 마지막<code>Push</code>지금부터 얼마나 됐나요<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>최적화</strong>: 실행 효율성을 최적화합니다,로딩 속도를 향상시킵니다<br>
+<p><strong>최적화</strong>: 실행 효율성 최적화,로딩 속도 향상<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 창고 페이지에 비활성 개발 알림 표시。<br>
+<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> 저장소 페이지에 비활성 개발 알림 표시。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>1 년 이상 업데이트가 없습니다</th>
-<th>반년 이내에 업데이트가 없습니다</th>
+<th>1년이 넘도록 업데이트가 없습니다.</th>
+<th>반년 동안 업데이트가 없습니다</th>
 </tr>
 </thead>
 <tbody>
@@ -170,20 +173,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 이 스크립트의 설정 인터페이스를 사용하십시오。</p>
+<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 이 스크립트의 설정 인터페이스를 사용하세요。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>새로운</strong>: 스크립트 메뉴를 추가하십시오 → 설정 GitHub Token 인터페이스，코드에서 수정할 필요가 없습니다。</p>
+<p><strong>새로운</strong>: 스크립트 메뉴 추가 → 설정 GitHub Token 인터페이스，코드 내에서 수정할 필요가 없습니다.。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 사용자 프로필 창고 목록 및 조직 목록에 디스플레이 창고 크기 추가。</p>
+<p><strong>새로운</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 사용자 프로필 창고 목록 및 조직 목록에서 창고 크기 표시 증가。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>수리하다</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 원래 저자 토큰은 공개 저장소에 액세스하지 못합니다.。그것을 고치는 방법：원래 저자 토큰을 삭제하십시오，GitHub 생성 된 공개 토큰은 항상 지워집니다，그러므로 더 이상。</p>
+<p><strong>수리하다</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 원본 작성자의 토큰이 유효하지 않아 공개 저장소에 액세스할 수 없습니다.。문제를 해결하는 방법：원본 작성자 토큰 제거，GitHub 생성된 공개 토큰은 항상 지워집니다.，그러니 더 이상 추가하지 마세요.。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>수리하다</strong>: 검색 페이지를 무효화하는 문제가 수정되었습니다。
-<strong>수리하다</strong>: 다른 저장소를 볼 때 표시되지 않은 문제를 수정했습니다.（지연을 증가시킵니다）。</p>
+<p><strong>수리하다</strong>: 잘못된 검색 페이지 문제 수정。
+<strong>수리하다</strong>: 다른 창고 보기 시 표시되지 않는 문제 수정（지연 증가）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>

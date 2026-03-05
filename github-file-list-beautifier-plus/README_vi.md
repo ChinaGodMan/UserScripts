@@ -59,13 +59,16 @@
     <p>「 GitHub File List Beautifier là một tập lệnh người dùng，được sử dụng để tăng cường GitHub Hiển thị tác dụng của file trong kho。Nó có thể thêm màu sắc vào tập tin và thư mục，và thay thế các biểu tượng loại tệp bằng hình ảnh nhỏ，Làm cho cơ sở mã dễ dàng duyệt và quản lý hơn。Thêm màu sắc và biểu tượng vào tệp theo loại，Hiển thị hình ảnh nhỏ thay cho biểu tượng loại tệp trong cây nguồn kho lưu trữ 」</p>
     <img src="https://views.whatilearened.today/views/github/508047/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.508047&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Ki%E1%BB%83m%20tra%20c%E1%BA%ADp%20nh%E1%BA%ADt%20h%C3%A0ng%20ng%C3%A0y&query=$.508047&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/508047">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Danh sách tập tin làm đẹp Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Trình làm đẹp danh sách tập tin Nhật ký thay đổi</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Thay đổi<code>.sh</code>Liên kết biểu tượng tập tin，Ôn lại<code>powershell</code>màu văn bản，Xóa nội dung gỡ lỗi</p>
+<hr />
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
-<p><strong>Mới</strong>: Đã thêm biểu tượng vào tệp,Đã thêm màu và biểu tượng tệp tùy chỉnh。</p>
+<p><strong>Mới</strong>: Đã thêm biểu tượng cho tập tin,Đã thêm màu sắc và biểu tượng tệp tùy chỉnh。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/508047.png">
 </div></center>

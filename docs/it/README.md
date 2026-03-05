@@ -28,11 +28,11 @@
 <a href="https://greasyfork.org/users/1169082-%E4%BA%BA%E6%B0%91%E7%9A%84%E5%8B%A4%E5%8A%A1%E5%91%98?per_page=200" target="_blank"><img src="https://img.shields.io/static/v1?label=%20&message=GreasyFork&logo=greasyfork&logoColor=white&labelColor=%23670000&color=%23670000&style=for-the-badge" alt="GreasyFork"></a>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20totale%20di%20installazioni%20di%20tutti%20gli%20script&query=$.totalInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Tempi%20di%20utilizzo%20degli%20script%20al%20giorno&query=$.total&logo=greasyfork&logoColor=white&labelColor=%23670000&color=186f83&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json" alt="Daily update checks">
-<img src="https://img.shields.io/badge/dynamic/json?&label=今日所有脚本安装数&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
+<img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20di%20tutte%20le%20installazioni%20di%20script%20oggi&query=$.totalDailyInstalls&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Total Daily Installs">
 <img src="https://img.shields.io/badge/dynamic/json?&label=Numero%20di%20script&query=$.numScripts&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Scripts Count"><br>
 <img src="https://img.shields.io/badge/dynamic/json?&label=Tutte%20le%20recensioni%20positive&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?&label=Tutto%20generale&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
-<img src="https://img.shields.io/badge/dynamic/json?label=Tutte%20le%20recensioni%20negative&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?&label=所有一般&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
+<img src="https://img.shields.io/badge/dynamic/json?label=所有差评&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
 <a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=Qualit%C3%A0%20del%20codice&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=stella&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
@@ -48,11 +48,11 @@
 
 <center><div align="center">
     <strong>La sceneggiatura proviene dal vasto numero di netizen su Internet，Ho appena apportato alcune modifiche.Grazie netizen</strong><br>
-    <strong>如有侵权,Il contatto deve essere eliminato</strong><br>
+    <strong>Se c’è qualche violazione,Il contatto deve essere eliminato</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
     <strong>Raccomandato：</strong><br>
-<img src="https://img.shields.io/badge/sistema%20operativo-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
-<img src="https://img.shields.io/badge/Browser%20consigliato-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/操作系统-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
+<img src="https://img.shields.io/badge/推荐浏览器-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Gestore%20degli%20script-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> L’elenco sopra riportato di gestori di script e browser non è esaustivo<br>
     <strong>Lo script funziona correttamente nel seguente ambiente</strong><br>
@@ -66,7 +66,7 @@
 > [!WARNING]
 >  <div align="center">
 >  Questo repository è disponibile solo in<code>GitHub</code>ospitato su,Non qui<code>GitCode</code>E<code>XPlaza</code>ospitato su。I seguenti repository sono tutti mirror。<br>
->    :trollface: Se lo stai utilizzando nella Cina continentale<code>git clone</code>La velocità di download è troppo lenta，你也可以是使用以下地址进行
+>    :trollface: Se lo stai utilizzando nella Cina continentale<code>git clone</code>La velocità di download è troppo lenta，Puoi anche utilizzare il seguente indirizzo
 >    
 >  
 >    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (Conto speculare，non identità)  
@@ -92,7 +92,7 @@
 
 ## 📜 elenco di script
 
-💡 **Tip:** _Per mostrare lo screenshot di anteprima，请点击扩展名称下方的 ▸ o descrivere。_
+💡 **Tip:** _Per mostrare lo screenshot di anteprima，Fai clic sotto il nome dell’estensione ▸ o descrivere。_
 
 <!--SCRIPTS_COUNT-->
 **Il numero corrente di script pubblicati nel repository:83,La sceneggiatura include:**
@@ -2657,7 +2657,7 @@ Abilita la finestra a schermo intero di WeChat web，modalità oscura
 <h3>
     <a href="../../weibo-mobile-redirect">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://m.weibo.cn/favicon.ico"><img width=18 src="https://m.weibo.cn/favicon.ico" width=18></a>
-    <a href="../../weibo-mobile-redirect">新浪微博移动版跳转</a>&nbsp;
+    <a href="../../weibo-mobile-redirect">Salto della versione mobile di Sina Weibo</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537683">
         <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=numero%20di%20utenti"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect&hashtags=greasemonkey,userscripts,javascript">
@@ -3094,7 +3094,7 @@ Scarica i video di Bilibili（Non supporta i drammi）
         </a>
 </h3>
 
-Strumento di blocco delle stanze live di Bilibili，Elenco di gestione del supporto，批量屏蔽，Esportare、Elenchi di importazione ecc.……
+Strumento di blocco delle stanze live di Bilibili，Elenco di gestione del supporto，Blocco batch，Esportare、Importare elenchi ecc.……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3122,19 +3122,19 @@ Strumento di blocco delle stanze live di Bilibili，Elenco di gestione del suppo
 
 ## ❔️ Come installare o utilizzare lo script？
 
-Per utilizzare qualsiasi script，Per prima cosa devi installare il browser **Tampermonkey 脚本管理器扩展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+Per utilizzare qualsiasi script，Per prima cosa devi installare il browser **Tampermonkey Estensione Gestore script（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   Fare clic sul modulo **\[Installare\]** Visualizza direttamente l’interfaccia di installazione dello script manager。
--   Se Github La velocità di accesso è troppo lenta，Puoi scegliere di fare clic GreasyFork **\[Installare\]** Successivamente viene visualizzata la richiesta di estensione，Fare di nuovo clic **\[Installare\]** Questo è tutto。
+-   Fare clic sul modulo **\[Installare\]** 直接弹出脚本管理器安装界面。
+-   Se Github La velocità di accesso è troppo lenta，可以选择点击 GreasyFork **\[Installare\]** Successivamente viene visualizzata la richiesta di estensione，Fare di nuovo clic **\[Installare\]** Questo è tutto。
 -   [Visualizza il tutorial dettagliato](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _Altri basati su **Chromium** 内核的浏览器（Come il browser di copertina domestico）Generalmente può essere utilizzato Chrome Espandere。_
-> -   _Assicurati di usarlo **Tampermonkey Versione ufficiale** Espandere，其他的用户Copione管理器可能导致**Non funziona correttamente**脚本。_
-> -   _Se vuoi reinstallare lo script，Per favore, ricordatelo Tampermonkey esteso**Elimina completamente dal cestino**脚本后再去重新安装脚本。_
+> -   _Altri basati su **Chromium** Browser del kernel（Come il browser di copertina domestico）Generalmente può essere utilizzato Chrome Espandere。_
+> -   _请确保使用 **Tampermonkey 正式版** Espandere，其他的用户Copione管理器可能导致**Non funziona correttamente**脚本。_
+> -   _Se vuoi reinstallare lo script，Per favore, ricordatelo Tampermonkey esteso**Elimina completamente dal cestino**Dopo lo script, vai e reinstalla lo script.。_
 
-> _**Nessuna installazione offline .crx Espandere？[Chrome、Edge Riapri nascosto [Trascina e rilascia l’installazione .crx Espandere] Funzione！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**Nessuna installazione offline .crx Espandere？[Chrome、Edge Riapri nascosto [拖入安装 .crx Espandere] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3157,27 +3157,27 @@ Per utilizzare qualsiasi script，Per prima cosa devi installare il browser **Ta
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   Tutto nel magazzino`README.md`Copiata l’introduzione dell’intestazione del file e la tabella storica delle installazioni[FengFeng](https://github.com/BonjourFeng)magazzino[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Contenuto del file
+> -   仓库Dentro所有`README.md`Copiata l’introduzione dell’intestazione del file e la tabella storica delle installazioni[FengFeng](https://github.com/BonjourFeng)magazzino[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)Contenuto del file
 > -   Magazzini secondari di questo magazzino`UserScriptsHistory`Viene copiato e utilizzato anche il codice immagine della tabella della cronologia di installazione degli aggiornamenti automatici.[FengFeng](https://github.com/BonjourFeng)magazzino[Script-History](https://github.com/BonjourFeng/Script-History)codice all’interno[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
-> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="figlio del deserto"/></a> :+1:
-> -   Copiato [figlio del deserto](https://github.com/maboloshi)magazzino[github-chinese](https://github.com/maboloshi/github-chinese)codice all’interno<br>
+> -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
+> -   Copiato [沙漠之子](https://github.com/maboloshi)magazzino[github-chinese](https://github.com/maboloshi/github-chinese)codice all’interno<br>
 > -   In questo magazzino`writer.py` `update-contributors.yml` Copiato utilizzando[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)codice all’interno
-> -   本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8EGestore%20degli%20script)contenuto `Come installare/Usa la sceneggiatura？`
+> -   Questo file Leggimi del repository viene copiato[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8EGestore%20degli%20script)contenuto `Come installare/使用脚本？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui Liu Zhanpeng"/></a> :+1:
-> -   _Traduzione automatica di questo repository e Action Un ringraziamento speciale allo Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ottime idee e codice!_ :trollface:
+> -   _本仓库的自动翻译与 Action Un ringraziamento speciale allo Yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ottime idee e codice!_ :trollface:
 > -   _Lo stile del nome di questo magazzino è ispirato agli Yankees[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Ispirare_ :trollface:
 > -   _Il file readme in questo repository proviene da[Adam Lui Liu Zhanpeng](https://github.com/adamlui)stile di autovalutazione_ :trollface:
-> -   _脚本内的相互导流跳转来自[Adam Lui Liu Zhanpeng](https://github.com/adamlui)stile di autovalutazione_ :trollface:
+> -   _Da qui deriva il salto di reindirizzamento reciproco all’interno dello script[Adam Lui Liu Zhanpeng](https://github.com/adamlui)stile di autovalutazione_ :trollface:
 > -   _Tutto in questo magazzino`README.md`File copiato e utilizzato da questo repository Yankee`README.md`Impaginazione del documento，delimitatore，codice，Idee_ :trollface:
 > -   _yankee copiato[Adam Lui Liu Zhanpeng](https://github.com/adamlui) Action codice interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _Copiato yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Action codice interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _yankee copiato[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimitatore，等排版风格 :trollface:
+> -   _yankee copiato[Adam Lui Liu Zhanpeng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimitatore，Stile di impaginazione :trollface:
 > -   _Copiato yankee[Adam Lui Liu Zhanpeng](https://github.com/adamlui)Python codice interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
@@ -3204,7 +3204,7 @@ Elenco dei contributi di： [contributors](https://github.com/jaywcjlove/github-
 
 ## 🏛️ Contratto di licenza open source
 
-本项目采用 <a href="../../LICENSE.md"><strong>MIT licenza</strong></a> Autorizzare。
+Questo progetto utilizza <a href="../../LICENSE.md"><strong>MIT licenza</strong></a> Autorizzare。
 MIT La licenza è un accordo di licenza open source permissivo，Per i dettagli, fare riferimento a <a href="../../LICENSE.md">Testo completo della licenza</a>。
 
 <div align="right">
@@ -3215,7 +3215,7 @@ MIT La licenza è un accordo di licenza open source permissivo，Per i dettagli,
 
 ## 🤝 codice di comportamento
 
-Per garantire un’amichevole、Un ambiente di sviluppo rispettoso e inclusivo，Abbiamo sviluppato quanto segue<a href="../CODE_OF_CONDUCT.md"><strong>codice di comportamento</strong></a>。Ad ogni contributore è richiesto di seguire queste linee guida。
+Per garantire un’amichevole、尊重和包容的开发环境，Abbiamo sviluppato quanto segue<a href="../CODE_OF_CONDUCT.md"><strong>codice di comportamento</strong></a>。Ad ogni contributore è richiesto di seguire queste linee guida。
 
 <div align="right">
 
@@ -3227,7 +3227,7 @@ Per garantire un’amichevole、Un ambiente di sviluppo rispettoso e inclusivo�
 
 Se trovi una vulnerabilità，per favore aprine uno[progetti di raccomandazioni sulla sicurezza](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-也欢迎拉取请求，ma per ragioni di sicurezza，Si prega di inviare un’e-mail a <china.qinwuyuan@gmail.com> e attendere una risposta prima di renderla pubblica。
+Anche le richieste di pull sono benvenute，但出于安全原因，请发送电子邮件至 <china.qinwuyuan@gmail.com> e attendere una risposta prima di renderla pubblica。
 Per i dettagli, fare riferimento a <a href="../SECURITY.md"><strong>politica di sicurezza</strong></a>
 
 <div align="right">
@@ -3246,9 +3246,9 @@ Grazie per il tuo interesse per questo progetto！Abbiamo sviluppato quanto segu
 
 </div>
 
-## 🌐 浏览器与脚本管理器
+## 🌐 Browser e gestione degli script
 
-|                               Browser consigliato                                |                                                         Responsabile dell’installazione                                                          | Installa il navigatore                                                                    |
+|                               Browser consigliato                                |                                                         安装管理器                                                          | 安装浏览器                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome O basato su Chromium Browser del kernel[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari Navigatore（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] O ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |
@@ -3260,7 +3260,7 @@ Grazie per il tuo interesse per questo progetto！Abbiamo sviluppato quanto segu
 |            <center> Browser dei lemuri（Android）[![][le]][le_link]             | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center>[![][le]][le_link]                                                    |
 |                                                                         |                                                                                                                             |                                                                               |
 
-[Tampermonkey]: http://tampermonkey.net/ "篡改猴"
+[Tampermonkey]: http://tampermonkey.net/ "scimmia manomissione"
 [Violentmonkey]: https://violentmonkey.github.io/ "scimmia violenta"
 [Macaque]: https://macaque.app/ "macaco"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
@@ -3285,7 +3285,7 @@ Grazie per il tuo interesse per questo progetto！Abbiamo sviluppato quanto segu
 [vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "scimmia violenta"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
 [cat_link]: https://docs.scriptcat.org/ "copione gatto"
-[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "篡改猴"
+[TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "scimmia manomissione"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
 [le_link]: https://lemurbrowser.com/ "Browser dei lemuri"
 [kiwi]: https://img.xwyue.com/i/2024/08/02/66ac9deb33bc1.jpg

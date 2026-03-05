@@ -3163,7 +3163,7 @@ Para usar cualquier script，Primero necesitas instalar el navegador. **Tampermo
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="hijo del desierto"/></a> :+1:
-> -   Copiado [hijo del desierto](https://github.com/maboloshi)depósito[github-chinese](https://github.com/maboloshi/github-chinese)código dentro<br>
+> -   copiado [hijo del desierto](https://github.com/maboloshi)depósito[github-chinese](https://github.com/maboloshi/github-chinese)código dentro<br>
 > -   en este almacén`writer.py` `update-contributors.yml` Copiado usando[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)código dentro
 > -   Este archivo Léame del repositorio se copia[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8EAdministrador%20de%20guiones)contenido `Cómo instalar/Usar guión？`
 
@@ -3176,9 +3176,9 @@ Para usar cualquier script，Primero necesitas instalar el navegador. **Tampermo
 > -   _El salto de redirección mutua dentro del guión proviene de[Adam Lui Liu Zhan Peng](https://github.com/adamlui)estilo de autoinforme_ :trollface:
 > -   _Todo en este almacén`README.md`Archivo copiado y usado de este repositorio Yankee`README.md`Diseño del documento，delimitador，código，Ideas_ :trollface:
 > -   _yanqui copiado[Adam Lui Liu Zhan Peng](https://github.com/adamlui) Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _Copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Action codigo interno_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _yanqui copiado[Adam Lui Liu Zhan Peng](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)delimitador，Estilo de composición :trollface:
-> -   _Copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Python codigo interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   _copiado yanqui[Adam Lui Liu Zhan Peng](https://github.com/adamlui)Python codigo interno_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 

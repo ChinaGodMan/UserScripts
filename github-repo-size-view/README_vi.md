@@ -60,71 +60,74 @@
     <p>「 🤠 Kích thước hiển thị kho: Trên mã tìm kiếm, tìm kiếm kho, trang vấn đề, danh sách kho của người dùng và trang kho, kích thước của kho sẽ được hiển thị bên cạnh tên kho, giúp người dùng nhanh chóng hiểu được quy mô của kho và tối ưu hóa quy mô kho của mình. lựa chọn. Cảnh báo phát triển không hoạt động: Nếu kho lưu trữ không được cập nhật trong sáu tháng qua, hệ thống sẽ thêm lời nhắc ở đầu kho lưu trữ để nhắc nhở người dùng rằng kho lưu trữ không hoạt động và hiển thị thời gian cập nhật lần cuối. Điều này giúp người dùng xác định được tình trạng hoạt động và bảo trì của kho. Nhảy nhanh trong kho: Khi duyệt kho, người dùng có thể dễ dàng xem danh sách tất cả các kho của người dùng, cung cấp lối vào để nhanh chóng chuyển đến các kho khác nhau. Người dùng có thể nhanh chóng tìm và truy cập các dự án khác mà họ quan tâm, nâng cao hiệu quả công việc. Tình huống sử dụng: Nhà phát triển: Bằng cách hiển thị quy mô kho và cảnh báo đang hoạt động, bạn có thể nhanh chóng lọc ra các thư viện phù hợp để phát triển và tránh sử dụng các dự án không còn được bảo trì. Quản lý dự án: Thông qua chức năng nhảy nhanh, bạn có thể dễ dàng quản lý và điều phối nhiều dự án, đồng thời nâng cao hiệu quả công việc. Người học: Khi học các công nghệ mới, họ có thể dễ dàng tìm thấy các dự án nguồn mở có liên quan hơn và nhanh chóng kiểm tra hoạt động cũng như quy mô của dự án. 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Ki%E1%BB%83m%20tra%20c%E1%BA%ADp%20nh%E1%BA%ADt%20h%C3%A0ng%20ng%C3%A0y&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Văn bản cảnh báo đã thay đổi thành màu đen,Sửa một số đường dẫn phần tử<br></p>
+<hr />
 <h3><strong>📅 2025.5.27.1</strong></h3>
-<p><strong>Fix</strong>: Đã sửa lỗi trong đó nút nhảy nhanh không được hiển thị trên trang kho lưu trữ<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Các tập lệnh khác khiến các yếu tố trang thay đổi<br></p>
+<p><strong>Fix</strong>: Đã khắc phục sự cố trong đó các nút nhảy phím tắt không được hiển thị trên trang kho lưu trữ<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Các tập lệnh khác khiến các thành phần trang thay đổi<br></p>
 <hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
-<p><strong>Fix</strong>: Đã sửa lỗi trong đó nút nhảy nhanh không được hiển thị trên trang kho lưu trữ <br></p>
+<p><strong>Fix</strong>: Đã khắc phục sự cố trong đó các nút nhảy phím tắt không được hiển thị trên trang kho lưu trữ <br></p>
 <hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
-<p><strong>Đã sửa một vấn đề nhỏ trong phiên bản trước</strong>:Nhảy nhanh&gt;Khi tùy chỉnh số lượng kho lưu trữ người dùng được bật,Chỉ có trang đầu tiên được lấy theo mặc định<br></p>
+<p><strong>Sửa các lỗi nhỏ ở phiên bản trước</strong>:Nhảy nhanh&gt;Khi kích hoạt tùy chỉnh để lấy số lượng kho người dùng,Theo mặc định, chỉ trang đầu tiên được tìm nạp<br></p>
 <hr />
 <h3><strong>📅 2025.04.22.1003</strong></h3>
-<p><strong>Mới</strong>:Nhảy nhanh:Tùy chỉnh số lượng kho lưu trữ người dùng và hiển thị trên mỗi trang<br>
-<strong>Mới</strong>:Thanh điều hướng đầu cố định:Cho phép tùy chỉnh<br>
-<strong>Mới</strong>:Bộ nhớ cache cục bộ:Cho phép thời gian làm mới tùy chỉnh để làm mới bộ đệm<br></p>
+<p><strong>Mới</strong>:Nhảy nhanh:Tùy chỉnh lấy số lượng kho người dùng và số lượng hiển thị trên mỗi trang<br>
+<strong>Mới</strong>:Đã sửa lỗi thanh điều hướng tiêu đề:Bật tùy chỉnh<br>
+<strong>Mới</strong>:bộ đệm cục bộ:Cho phép thời gian làm mới bộ đệm tùy chỉnh<br></p>
 <hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
-<p><strong>Mới</strong>:<a href="https://github.com/notifications">Trang thông báo</a>Hệ thống hỗ trợ<code>Chế độ màu sáng</code>Và<code>Chế độ tối</code><br>
-<strong>Ảnh chụp màn hình</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
+<p><strong>Mới</strong>:<a href="https://github.com/notifications">trang thông báo</a>Hệ thống hỗ trợ<code>chế độ ánh sáng</code>Và<code>chế độ tối</code><br>
+<strong>ảnh chụp màn hình</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
-<p><strong>Mới</strong>:<a href="https://github.com/notifications">Trang thông báo</a>Nhấp vào kho ở bên trái,Hiển thị trực tiếp thông tin của nhà kho được chỉ định<br>tương thích<code>2025.04.15</code>Các phiên bản của chức năng lơ lửng trên tất cả thông tin thông báo.<br>tri ân:<a href="https://github.com/qbmiller">qbmiller</a> Mã tập lệnh,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>Ảnh chụp màn hình</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
+<p><strong>Mới</strong>:<a href="https://github.com/notifications">trang thông báo</a>Bấm vào kho bên trái,Hiển thị trực tiếp thông tin kho chỉ định<br>tương thích<code>2025.04.15</code>Chức năng phiên bản nổi trên mọi thông tin thông báo.<br>tri ân:<a href="https://github.com/qbmiller">qbmiller</a> mã kịch bản,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>ảnh chụp màn hình</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>Mới</strong>:<a href="https://github.com/notifications">Trang thông báo</a>Hiển thị thông tin kho<br>tri ân:<a href="https://github.com/qbmiller">qbmiller</a> Mã tập lệnh,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
-<strong>Ảnh chụp màn hình</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
+<p><strong>Mới</strong>:<a href="https://github.com/notifications">trang thông báo</a>Hiển thị thông tin kho hàng<br>tri ân:<a href="https://github.com/qbmiller">qbmiller</a> mã kịch bản,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<strong>ảnh chụp màn hình</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>Mới</strong>:GitHub Thanh điều hướng toàn cầu đã cố định Mã từ<a href="https://greasyfork.org/scripts/529862">GitHub Bộ nâng cao</a><br>
-<strong>Ảnh chụp màn hình</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
+<p><strong>Mới</strong>:GitHub Đã sửa thanh điều hướng chung mã từ<a href="https://greasyfork.org/scripts/529862">GitHub Bộ nâng cao</a><br>
+<strong>ảnh chụp màn hình</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <hr />
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>Mới</strong>:Mã xác minh hai yếu tố tự động làm đầy<code>Two-factor authentication</code> Làm đầy nhanh chóng và nhanh chóng,Giám sát liên tục,Cho đến khi xác minh được kích hoạt....<br>
-<strong>Mới</strong>:Kho được sao chép trên trang hồ sơ người dùng cũng thêm kích thước kho hiển thị,<code>?tab=stars</code>Thực hiện bên dưới<br>
-<strong>Sửa chữa</strong>:Chủ đề người dùng khác nhau,Các yếu tố khác nhau,Thay đổi bộ chọn thành<code>document.querySelector('.jxTzTd')</code><br>
-<strong>Sửa chữa</strong>:Đăng nhập người dùng nếu<code>TOKEN</code>Không trống,Sử dụng danh sách của riêng bạn API<code>https://api.github.com/user/repos</code>.Ngăn mã lỗi được trả về<code>401</code><br>
-<strong>Sửa chữa</strong>:Sửa chữa<code>Tìm kiếm mã và tìm kiếm mã kho lưu trữ</code>Kích thước của một nhà kho sẽ được lấy lại hai lần.<br></p>
+<p><strong>Mới</strong>:Tính năng tự động điền mã xác minh hai yếu tố<code>Two-factor authentication</code> Làm đầy thuận tiện và nhanh chóng,Giám sát liên tục,cho đến khi xác minh được kích hoạt....<br>
+<strong>Mới</strong>:Các kho được gắn dấu sao trên trang hồ sơ người dùng cũng được thêm vào để hiển thị quy mô kho.,<code>?tab=stars</code>Thực hiện dưới<br>
+<strong>Sửa chữa</strong>:Chủ đề người dùng khác nhau,Các yếu tố cũng khác nhau,Bộ chọn thay đổi thành<code>document.querySelector('.jxTzTd')</code><br>
+<strong>Sửa chữa</strong>:Nếu người dùng đã đăng nhập<code>TOKEN</code>Không trống,Sử dụng danh sách của riêng bạn API<code>https://api.github.com/user/repos</code>.Ngăn chặn việc trả lại mã lỗi<code>401</code><br>
+<strong>Sửa chữa</strong>:Sửa chữa<code>Tìm kiếm mã và tìm kiếm mã kho</code>Tiếp theo, chúng ta sẽ liên tục thu được kích thước của một nhà kho hai lần.<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>Mới</strong>:Danh sách kho lưu trữ người dùng đã được lưu cục bộ,<code>24h</code>Làm mới một lần<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Chức năng kịch bản ，Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Nhanh chóng tìm thấy hoạt động Forks Danh sách</a> Chức năng kịch bản Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>Mới</strong>: Hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Chức năng kịch bản Trong kho cá nhân và<code>?tab=repositories</code>Xóa trang nhanh Và hỗ trợ thiết bị di động，Đặt làm giám sát động<br>
-<strong>tối ưu hóa</strong>: Máy dò không thể tìm thấy phần tử trong mười giây và ngừng chạy<br></p>
+<p><strong>Mới</strong>:Danh sách kho người dùng thu được được lưu cục bộ.,<code>24h</code>Làm mới một lần<br>
+<strong>Mới</strong>: hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Chức năng tập lệnh ，và hỗ trợ các thiết bị di động，Đặt thành giám sát động<br>
+<strong>Mới</strong>: hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Nhanh chóng tìm thấy hoạt động Forks danh sách</a> Chức năng tập lệnh và hỗ trợ các thiết bị di động，Đặt thành giám sát động<br>
+<strong>Mới</strong>: hợp nhất<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Chức năng tập lệnh trong kho cá nhân và<code>?tab=repositories</code>Xóa trang nhanh và hỗ trợ các thiết bị di động，Đặt thành giám sát động<br>
+<strong>tối ưu hóa</strong>: Máy dò sẽ ngừng chạy nếu không thể tìm thấy phần tử trong vòng mười giây.<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>Sửa chữa</strong>:CSS Các thanh phân vùng nhỏ bị ẩn bởi các lỗi trên thiết bị di động：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>Sửa chữa</strong>:CSS Thanh chia nhỏ bị ẩn nhầm trên thiết bị di động：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>Mới</strong>: Danh sách nhảy nhanh để thêm bay chuột<code>Title</code>Hiển thị thông tin kho cơ bản<br>
-<strong>tối ưu hóa</strong>: Tất cả các kho lưu trữ của người dùng hiện có thể được hiển thị，Nhưng không nên làm điều này，Ảnh hưởng kinh nghiệm。<br> Trong kịch bản 343 Mã sử ​​dụng mã<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>Có được danh sách người dùng khi tham số ba là đúng<br>Tham số 4 Giới hạn Tham số 3 là số lượng đệ quy tối đa thực sự<br>
-<strong>Sửa chữa</strong>：Danh sách lặp đi lặp lại các câu hỏi bổ sung<br>
+<p><strong>Mới</strong>: Thêm di chuột vào danh sách nhảy nhanh<code>Title</code>Hiển thị thông tin kho cơ bản<br>
+<strong>tối ưu hóa</strong>: Tất cả các kho lưu trữ của người dùng hiện có thể được hiển thị，Nhưng nó không được khuyến khích，Ảnh hưởng đến trải nghiệm。<br> trong kịch bản 343 dòng mã<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>Khi tham số ba là đúng, lấy đệ quy danh sách người dùng<br>Tham số bốn giới hạn số lượng trang đệ quy tối đa khi tham số ba là đúng.<br>
+<strong>Sửa chữa</strong>：Câu hỏi trùng lặp được thêm vào danh sách<br>
 <strong>Sửa chữa</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>Mới</strong>: GitHub Thanh bên nhảy đến kho rất phức tạp,Thêm một kho khác để nhanh chóng nhảy người dùng vào kho<br></p>
+<p><strong>Mới</strong>: GitHub Nhảy vào kho ở sidebar thì rườm rà,Thêm kho để chuyển nhanh sang kho khác của người dùng<br></p>
 <table>
 <thead>
 <tr>
-<th><code>màu đỏ</code> Đối với kho mở <code>màu xanh lá</code> Cho kho tư nhân <code>Forks</code> Kho lưu trữ (Đăng nhập người dùng,Phải được gõ TOKEN)</th>
-<th>Đã thêm một bản demo ~~Chỉ hiển thị trang đầu tiên 30 Một nhà kho,Vượt quá sẽ không hiển thị,Tôi đủ để sử dụng bản thân mình bây giờ~~ <code>0.1.3.4</code>Tất cả được hỗ trợ</th>
+<th><code>màu đỏ</code> cho kho lưu trữ công cộng <code>màu xanh lá</code> Đối với kho riêng <code>Forks</code> kho bản sao (Người dùng đã đăng nhập,Phải gõ TOKEN)</th>
+<th>Thêm bản trình diễn ~~Chỉ hiển thị trang đầu tiên 30 kho,Vượt quá sẽ không được hiển thị,Bây giờ nó đủ để tôi sử dụng~~ <code>0.1.3.4</code>Tất cả được hỗ trợ</th>
 </tr>
 </thead>
 <tbody>
@@ -141,20 +144,20 @@
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
 <p><strong>tối ưu hóa</strong>: Tối ưu hóa các thẻ nhỏ<br>
-<strong>Mới</strong>: Biểu ngữ phát triển không hoạt động lần trước được hiển thị ở góc dưới bên phải<code>Push</code>Bây giờ đã bao lâu rồi<br></p>
+<strong>Mới</strong>: Góc dưới bên phải của biểu ngữ phát triển không hoạt động hiển thị thông tin cuối cùng<code>Push</code>Đã bao lâu kể từ bây giờ<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>tối ưu hóa</strong>: Tối ưu hóa hiệu quả thực thi,Cải thiện tốc độ tải<br>
+<p><strong>tối ưu hóa</strong>: Tối ưu hóa hiệu quả thực hiện,Cải thiện tốc độ tải<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Hiển thị lời nhắc phát triển không hoạt động trên trang kho。<br>
+<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Hiển thị lời nhắc phát triển không hoạt động trên trang kho lưu trữ。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>Không có bản cập nhật nào trong quá một năm</th>
-<th>Không có bản cập nhật trong vòng nửa năm</th>
+<th>Không có cập nhật trong hơn một năm</th>
+<th>Không có cập nhật trong nửa năm</th>
 </tr>
 </thead>
 <tbody>
@@ -173,17 +176,17 @@
 <p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Sử dụng giao diện thiết lập của tập lệnh này。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>Mới</strong>: Thêm menu tập lệnh → cài đặt GitHub Token giao diện，Không cần sửa đổi nó trong mã。</p>
+<p><strong>Mới</strong>: Thêm menu tập lệnh → cài đặt GitHub Token giao diện，Không cần sửa đổi trong mã。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Thêm kích thước kho hiển thị trong danh sách tổ chức và danh sách tổ chức hồ sơ người dùng。</p>
+<p><strong>Mới</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Tăng hiển thị kích thước kho trong danh sách kho hồ sơ người dùng và danh sách tổ chức。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>Sửa chữa</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Mã thông báo ban đầu của tác giả không truy cập được kho lưu trữ công khai。Cách sửa nó：Xóa mã thông báo tác giả ban đầu，GitHub Mã thông báo công khai được tạo luôn được xóa，Do đó không còn nữa。</p>
+<p><strong>Sửa chữa</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Mã thông báo của tác giả ban đầu không hợp lệ và không thể truy cập được kho lưu trữ công cộng.。Làm thế nào để sửa nó：Xóa mã thông báo tác giả gốc，GitHub Mã thông báo công khai được tạo luôn bị xóa，Thế là không thêm nữa。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>Sửa chữa</strong>: Đã sửa lỗi làm mất hiệu lực trang tìm kiếm。
-<strong>Sửa chữa</strong>: Đã khắc phục sự cố không hiển thị khi xem các kho lưu trữ khác（Tăng độ trễ）。</p>
+<p><strong>Sửa chữa</strong>: Sửa lỗi trang tìm kiếm không hợp lệ。
+<strong>Sửa chữa</strong>: Đã sửa lỗi không hiển thị khi xem các kho khác（tăng độ trễ）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>

@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/508047">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件列表美化器 更新日志</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>修复</strong>: 更改<code>.sh</code>文件图标链接，修改<code>powershell</code>文字颜色，删除调试内容</p>
+<hr />
 <h3><strong>📅 2024/9/12 11:35 - Ver 4.1</strong></h3>
 <p><strong>新增</strong>: 增加了对文件增加图标,增加了自定义文件颜色和图标。</p>
 <hr /></details>

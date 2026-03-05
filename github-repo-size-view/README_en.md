@@ -60,71 +60,74 @@
     <p>「 🤠 Warehouse display size: On GitHub’s code search, warehouse search, issue page, user warehouse list and repository page, the size of the warehouse will be displayed next to the warehouse name, allowing users to quickly understand the scale of the warehouse and optimize their selection. Inactive development warning: If a repository has not been updated in the past six months, the system will add a prompt at the top of the repository to remind users that the repository is inactive and display the time of the last update. This helps users determine the activity and maintenance status of the warehouse. Quick jump within the warehouse: When browsing the warehouse, the user can easily view the list of all warehouses of the user, providing an entrance to quickly jump to different warehouses. Users can quickly find and access other projects of interest, improving work efficiency. Usage scenarios: Developers: By displaying the warehouse size and active warnings, you can quickly filter out suitable libraries for development and avoid using projects that are no longer maintained. Project Manager: Through the quick jump function, it is easy to manage and coordinate multiple projects and improve work efficiency. Learners: When learning new technologies, they can more easily find relevant open source projects and quickly check the activity and scale of the projects. 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20for%20updates&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>repair</strong>: Warning text changed to black,Fix some element paths<br></p>
+<hr />
 <h3><strong>📅 2025.5.27.1</strong></h3>
-<p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Other scripts cause page elements to change<br></p>
+<p><strong>Fix</strong>: Fixed an issue where shortcut jump buttons were not displayed on the repository page<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，Other scripts cause page elements to change<br></p>
 <hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
-<p><strong>Fix</strong>: Fixed the issue where the quick jump button was not displayed on the repository page <br></p>
+<p><strong>Fix</strong>: Fixed an issue where shortcut jump buttons were not displayed on the repository page <br></p>
 <hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
-<p><strong>Fixed a minor issue in the previous version</strong>:Quick jump&gt;When customizing the number of user repositories is enabled,Only the first page is obtained by default<br></p>
+<p><strong>Fix minor issues in previous version</strong>:Quick jump&gt;When enabling customization to obtain the number of user warehouses,By default, only the first page is fetched<br></p>
 <hr />
 <h3><strong>📅 2025.04.22.1003</strong></h3>
-<p><strong>New</strong>:Quick jump:Customize the number of user repositories and displays per page<br>
-<strong>New</strong>:Fixed head navigation bar:Custom Enable<br>
-<strong>New</strong>:Local cache:Allow custom refresh time to refresh the cache<br></p>
+<p><strong>New</strong>:Quick jump:Customize to obtain the number of user warehouses and the number displayed on each page<br>
+<strong>New</strong>:Fixed header navigation bar:Custom enable<br>
+<strong>New</strong>:local cache:Allow custom cache refresh time<br></p>
 <hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
-<p><strong>New</strong>:<a href="https://github.com/notifications">Notification page</a>Support system<code>Light-colored mode</code>and<code>Dark Mode</code><br>
+<p><strong>New</strong>:<a href="https://github.com/notifications">notification page</a>Support system<code>light mode</code>and<code>dark mode</code><br>
 <strong>screenshot</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
-<p><strong>New</strong>:<a href="https://github.com/notifications">Notification page</a>Click on the warehouse on the left,Directly display information of the specified warehouse<br>compatible<code>2025.04.15</code>Versions of the function suspended on all notification information.<br>grateful:<a href="https://github.com/qbmiller">qbmiller</a> script code,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<p><strong>New</strong>:<a href="https://github.com/notifications">notification page</a>Click on the warehouse on the left,Directly display the information of the specified warehouse<br>compatible<code>2025.04.15</code>The function of version floating on all notification information.<br>grateful:<a href="https://github.com/qbmiller">qbmiller</a> script code,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>screenshot</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>New</strong>:<a href="https://github.com/notifications">Notification page</a>Display warehouse information<br>grateful:<a href="https://github.com/qbmiller">qbmiller</a> script code,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<p><strong>New</strong>:<a href="https://github.com/notifications">notification page</a>Show warehouse information<br>grateful:<a href="https://github.com/qbmiller">qbmiller</a> script code,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>screenshot</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>New</strong>:GitHub Global navigation bar fixed Code from<a href="https://greasyfork.org/scripts/529862">GitHub Enhancement Kit</a><br>
+<p><strong>New</strong>:GitHub Global navigation bar fixed code from<a href="https://greasyfork.org/scripts/529862">GitHub Enhancement Kit</a><br>
 <strong>screenshot</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <hr />
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>New</strong>:Two-factor verification code automatic filling function<code>Two-factor authentication</code> Convenient and quick filling,Continuous monitoring,Until verification is triggered....<br>
-<strong>New</strong>:The starred warehouse on the user profile page also adds the display warehouse size,<code>?tab=stars</code>Execute below<br>
-<strong>repair</strong>:Different user topics,The elements are different,Change the selector to<code>document.querySelector('.jxTzTd')</code><br>
-<strong>repair</strong>:Logged in user if<code>TOKEN</code>Not empty,Use your own list API<code>https://api.github.com/user/repos</code>.Prevent error codes from being returned<code>401</code><br>
-<strong>repair</strong>:repair<code>Code Search and Repository Code Search</code>The size of a warehouse will be retrieved twice.<br></p>
+<p><strong>New</strong>:Two-factor verification code autofill feature<code>Two-factor authentication</code> Convenient and quick filling,Continuously monitor,until verification is triggered....<br>
+<strong>New</strong>:The starred warehouses on the user profile page are also added to display the warehouse size.,<code>?tab=stars</code>Execute under<br>
+<strong>repair</strong>:User themes are different,The elements are also different,The selector changes to<code>document.querySelector('.jxTzTd')</code><br>
+<strong>repair</strong>:If the logged in user<code>TOKEN</code>Not empty,Use your own list API<code>https://api.github.com/user/repos</code>.Prevent error codes from being returned<code>401</code><br>
+<strong>repair</strong>:repair<code>Code search and warehouse code search</code>Next, we will repeatedly obtain the size of a warehouse twice.<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>New</strong>:The user repository list has been saved locally,<code>24h</code>Refresh once<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Scripting functions ，And support mobile devices，Set as dynamic monitoring<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Quickly find active Forks List</a> Scripting functions And support mobile devices，Set as dynamic monitoring<br>
-<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Scripting Functions In personal warehouses and<code>?tab=repositories</code>Quick page deletion And support mobile devices，Set as dynamic monitoring<br>
-<strong>optimization</strong>: The detector cannot find the element in ten seconds and stops running<br></p>
+<p><strong>New</strong>:The obtained user warehouse list is saved locally.,<code>24h</code>Refresh once<br>
+<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> Script function ，and supports mobile devices，Set to dynamic monitoring<br>
+<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/494365">Github Quickly find active Forks list</a> Script function and supports mobile devices，Set to dynamic monitoring<br>
+<strong>New</strong>: merge<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> Script function in personal warehouse and<code>?tab=repositories</code>Quick page deletion and supports mobile devices，Set to dynamic monitoring<br>
+<strong>optimization</strong>: The detector stops running if it cannot find an element within ten seconds.<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>repair</strong>:CSS Small partition bars are hidden by errors on mobile：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>repair</strong>:CSS The small divider bar is incorrectly hidden on mobile devices：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>New</strong>: Quick jump list to add mouse levitation<code>Title</code>Display basic warehouse information<br>
-<strong>optimization</strong>: All repositories of users can now be displayed，But it is not recommended to do this，Influence experience。<br> In the script 343 Line usage code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>Recursively obtain user list when parameter three is true<br>Parameter 4 limits parameter 3 is true maximum recursive page count<br>
-<strong>repair</strong>：Repeated list addition questions<br>
+<p><strong>New</strong>: Add mouse hover to quick jump list<code>Title</code>Display basic warehouse information<br>
+<strong>optimization</strong>: All repositories of a user can now be displayed，But it is not recommended，Affect experience。<br> in script 343 line of code<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>When parameter three is true, recursively obtain the user list<br>Parameter four limits the maximum number of recursive pages when parameter three is true.<br>
+<strong>repair</strong>：Duplicate question added to list<br>
 <strong>repair</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>New</strong>: GitHub Sidebar jump to warehouse is complicated,Add another warehouse to quickly jump users in the warehouse<br></p>
+<p><strong>New</strong>: GitHub Jumping to the warehouse in the sidebar is cumbersome,Add a warehouse to quickly jump to other warehouses of users<br></p>
 <table>
 <thead>
 <tr>
-<th><code>red</code> For the open warehouse <code>green</code> For private warehouses <code>Forks</code> Replica warehouse (Logged in user,Must be typed TOKEN)</th>
-<th>Added a demo ~~Show only the first page 30 A warehouse,Exceed will not display,It’s enough for me to use myself now~~ <code>0.1.3.4</code>All supported</th>
+<th><code>red</code> for public repository <code>green</code> For private warehouse <code>Forks</code> replica warehouse (Logged in user,Must type TOKEN)</th>
+<th>Add demo ~~Show only first page 30 warehouse,Exceeded will not be displayed,It’s enough for my own use now~~ <code>0.1.3.4</code>All supported</th>
 </tr>
 </thead>
 <tbody>
@@ -141,20 +144,20 @@
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
 <p><strong>optimization</strong>: Optimize small tags<br>
-<strong>New</strong>: Inactive development banner last time is displayed in the lower right corner<code>Push</code>How long has it been now<br></p>
+<strong>New</strong>: The lower right corner of the inactive development banner displays the last<code>Push</code>How long since now<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
 <p><strong>optimization</strong>: Optimize execution efficiency,Improve loading speed<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Display inactive development reminder on the warehouse page。<br>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/419645">Github - Inactive Development Warning</a> Show inactive development reminder on repository page。<br>
 <strong>i18n</strong>: zh-CN,zh-TW,ja,ko,vi,en<br></p>
 <table>
 <thead>
 <tr>
-<th>No updates for more than one year</th>
-<th>No updates within half a year</th>
+<th>No updates for more than a year</th>
+<th>No updates in half a year</th>
 </tr>
 </thead>
 <tbody>
@@ -173,17 +176,17 @@
 <p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> Use the setup interface of this script。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify it in the code。</p>
+<p><strong>New</strong>: Add script menu → set up GitHub Token interface，No need to modify within the code。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Add the display warehouse size in the user profile warehouse list and organization list。</p>
+<p><strong>New</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> Increased display of warehouse size in user profile warehouse list and organization list。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author token fails to access the public repository。How to fix it：Delete the original author token，GitHub The generated public token is always cleared，Therefore no more。</p>
+<p><strong>repair</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> The original author’s token is invalid and the public repository cannot be accessed.。How to fix it：Remove original author token，GitHub Generated public tokens are always cleared，So no more adding。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>repair</strong>: Fixed the issue of invalidating the search page。
-<strong>repair</strong>: Fixed the issue that did not display when viewing other repositories（Increase delay）。</p>
+<p><strong>repair</strong>: Fix the problem of invalid search page。
+<strong>repair</strong>: Fixed the issue of not displaying when viewing other warehouses（increase delay）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>

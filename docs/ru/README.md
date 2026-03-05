@@ -3124,7 +3124,7 @@ Tiktok отображает более расширенную информаци
 
 Чтобы использовать любой скрипт，Сначала вам нужно установить браузер **Tampermonkey Расширение диспетчера сценариев（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   Нажмите на форму **\[Установить\]** Непосредственное открытие интерфейса установки диспетчера сценариев.。
+-   Нажмите на форму **\[Установить\]** Непосредственно открыть интерфейс установки диспетчера сценариев.。
 -   если Github Скорость доступа слишком низкая，Вы можете нажать кнопку GreasyFork **\[Установить\]** Приглашение к расширению появляется после，Нажмите еще раз **\[Установить\]** Вот и все。
 -   [Посмотреть подробное руководство](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 

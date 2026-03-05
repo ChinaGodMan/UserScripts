@@ -33,7 +33,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%A9%95&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%A9%95&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A2%BC%E8%B3%AA%E9%87%8F&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A2%BC%E5%93%81%E8%B3%AA&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A8%99&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
@@ -47,15 +47,15 @@
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <center><div align="center">
-    <strong>腳本來自互聯網廣大網友，本人僅是做了些許改動.感謝網友</strong><br>
-    <strong>如有侵權,聯繫必刪</strong><br>
+    <strong>劇本來自網路廣大網友，本人僅是做了些許改動.感謝網友</strong><br>
+    <strong>如有侵權,联系必删</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>推薦使用：</strong><br>
+    <strong>推荐使用：</strong><br>
 <img src="https://img.shields.io/badge/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E6%8E%A8%E8%96%A6%E7%80%8F%E8%A6%BD%E5%99%A8-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E8%85%B3%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 💡 <strong>Tip:</strong> 以上已列出的腳本管理器和瀏覽器不代表全部<br>
-    <strong>腳本在以下環境中運行正常</strong><br>
+    <strong>腳本在以下環境中運作正常</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 </div></center>
@@ -69,7 +69,7 @@
 >    :trollface: 如果你在中國大陸地區使用<code>git clone</code>下載速度太慢，你也可以是使用以下地址進行
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (鏡像賬號，非同一性)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (鏡像帳號，非同一性)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -83,7 +83,7 @@
 [🙏 特別感謝開源](#-特別感謝開源) |
 [🛡️ 安全政策](#%EF%B8%8F-安全政策) |
 [🤝 行為準則](#-行為準則) |
-[🏛️ 開源許可協議](#%EF%B8%8F-開源許可協議) |
+[🏛️ 開源授權協議](#%EF%B8%8F-開源授權協議) |
 [🧠 貢獻者](#-貢獻者) |
 [💖 貢獻指南](#-貢獻指南) |
 [⭐ 星標歷史](#-星標歷史) |
@@ -92,10 +92,10 @@
 
 ## 📜 腳本列表
 
-💡 **Tip:** _要顯示預覽截圖，請點擊擴展名稱下方的 ▸ 或描述。_
+💡 **Tip:** _若要顯示預覽截圖，請點選擴充名稱下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**儲存庫當前發布腳本數量:83,腳本包括:**
+**儲存庫目前發布腳本數量:83,腳本包括:**
 <h6><a href="#網頁腳本-10">網頁腳本 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#成人腳本-11">成人腳本 (11)</a>
@@ -103,7 +103,7 @@
  | <a href="#GitHub-腳本-19">GitHub 腳本 (19)</a>
  | <a href="#翻譯腳本-3">翻譯腳本 (3)</a>
  | <a href="#AI-腳本-9">AI 腳本 (9)</a>
- | <a href="#博客網站-5">博客網站 (5)</a>
+ | <a href="#部落格網站-5">部落格網站 (5)</a>
  | <a href="#Twitter-4">Twitter (4)</a>
  | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
@@ -117,7 +117,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
     <a href="../../scroll-button">上下滾動按鈕</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497251">
-        <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -144,7 +144,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../scroll-button/scroll-button.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-button/scroll-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -153,7 +153,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
     <a href="../../clipboard-manager">網頁寫入剪輯版授權管理員</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497403">
-        <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -180,7 +180,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../clipboard-manager/clipboard-manager.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clipboard-manager/clipboard-manager.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md">
@@ -191,7 +191,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
     <a href="../../remove-link-underlines">移除連結下劃線</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498625">
-        <img src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -212,7 +212,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../remove-link-underlines/remove-link-underlines.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/remove-link-underlines/remove-link-underlines.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -221,7 +221,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
     <a href="../../../highlight-keywords-mini">網頁關鍵詞高亮顯示</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498905">
-        <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -242,7 +242,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../../highlight-keywords-mini/highlight-keywords-mini.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords-mini/highlight-keywords-mini.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -251,7 +251,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
     <a href="../../highlight-keywords">網頁高亮關鍵字</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498906">
-        <img src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -278,7 +278,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../highlight-keywords/highlight-keywords.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords/highlight-keywords.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -287,7 +287,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
     <a href="../../scroll-to-top-button">置頂和置底按鈕</a>&nbsp;
     <a href="https://greasyfork.org/scripts/500255">
-        <img src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -314,7 +314,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../scroll-to-top-button/scroll-to-top-button.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-to-top-button/scroll-to-top-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button/CHANGELOG.md">
@@ -325,7 +325,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
     <a href="../../popup-window">小窗預覽</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504880">
-        <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -352,7 +352,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../popup-window/popup-window.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/popup-window/popup-window.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window/CHANGELOG.md">
@@ -363,7 +363,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
     <a href="../../colorful-table">絢麗漸層美化網頁表格</a>&nbsp;
     <a href="https://greasyfork.org/scripts/507036">
-        <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -390,7 +390,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../colorful-table/colorful-table.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/colorful-table/colorful-table.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table/CHANGELOG.md">
@@ -401,7 +401,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
     <a href="../../text-to-link">文本轉鏈接</a>&nbsp;
     <a href="https://greasyfork.org/scripts/514262">
-        <img src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -422,7 +422,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../text-to-link/text-to-link.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link/AUTHORS.md">
@@ -433,7 +433,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
     <a href="../../web-clipper">MarkDown 雲剪筆記</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530139">
-        <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -460,7 +460,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../web-clipper/web-clipper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md">
@@ -468,14 +468,14 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
     <a href="../../greasyfork-link">Greasy fork腳本頁面適用於網址增強</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497317">
-        <img src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -502,7 +502,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-link/greasyfork-link.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-link/greasyfork-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -511,7 +511,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../../greasyfork-utility-toolkit">Greasyfork 膠水工匠</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497346">
-        <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -538,7 +538,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit/CHANGELOG.md">
@@ -549,7 +549,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
     <a href="../../script-finder-plus">Script Finder 油猴腳本查找</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498904">
-        <img src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -576,7 +576,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../script-finder-plus/script-finder-plus.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/script-finder-plus/script-finder-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus/CHANGELOG.md">
@@ -587,7 +587,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
     <a href="../../greasyfork-ranks">Greasyfork 腳本顯示評分</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501119">
-        <img src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -614,7 +614,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-ranks/greasyfork-ranks.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-ranks/greasyfork-ranks.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -623,7 +623,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
     <a href="../../greasyfork-user-control-panel-button">GreasyFork: 導覽列增強</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501880">
-        <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -650,7 +650,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -659,7 +659,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
     <a href="../../greasyfork-markdown-toolbar">GreasyFork markdown</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505164">
-        <img src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -686,7 +686,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar/CHANGELOG.md">
@@ -697,7 +697,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
     <a href="../../greasyfork-search">GreasyFork Search</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505215">
-        <img src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -718,7 +718,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-search/greasyfork-search.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-search/greasyfork-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -727,7 +727,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
     <a href="../../greasyfork-discussion-watcher">GreasyFork 通知助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506345">
-        <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -754,7 +754,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md">
@@ -765,7 +765,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../../greasyfork-webhook-sync-enhanced">GreaysFork 增強WebHook同步設定</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506717">
-        <img src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -792,7 +792,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced/CHANGELOG.md">
@@ -803,7 +803,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
     <a href="../../greasyfork-user-scripts-data-visualization">GreasyFork 用戶發布的腳本資料視覺化</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508968">
-        <img src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -830,7 +830,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization/CHANGELOG.md">
@@ -841,7 +841,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
     <a href="../../greasyfork-user-registration-time">顯示Greasyfork用戶註冊時間，識別惡意評論</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529359">
-        <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -868,7 +868,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time/CHANGELOG.md">
@@ -881,7 +881,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
     <a href="../../greasyfork-unupdated-script">Greasyfork 未更新腳本高亮</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538259">
-        <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -908,7 +908,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/CHANGELOG.md">
@@ -916,14 +916,14 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>成人腳本 (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
     <a href="../../missav-explorer">MissAv批量備份收藏視頻</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/497682">
-        <img src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -950,7 +950,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../missav-explorer/missav-explorer.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-explorer/missav-explorer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer/CHANGELOG.md">
@@ -961,7 +961,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-auto-login-helper">MissAV 自動登入</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/505325">
-        <img src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -982,7 +982,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../missav-auto-login-helper/missav-auto-login-helper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper/CHANGELOG.md">
@@ -993,7 +993,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
     <a href="../../thisav-auto-login-helper">ThisAV 自動登入</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506528">
-        <img src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1014,7 +1014,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../thisav-auto-login-helper/thisav-auto-login-helper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper/CHANGELOG.md">
@@ -1025,7 +1025,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
     <a href="../../jable-auto-login-helper">JableTV 自動登入</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506730">
-        <img src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1046,7 +1046,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../jable-auto-login-helper/jable-auto-login-helper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper/CHANGELOG.md">
@@ -1057,7 +1057,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-m3u8-finder">MissAV視頻下載工具</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528160">
-        <img src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1084,7 +1084,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../missav-m3u8-finder/missav-m3u8-finder.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder/CHANGELOG.md">
@@ -1095,7 +1095,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png" width=18></a>
     <a href="../../xvideos-enhance">xvideos推送下載</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528798">
-        <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1122,7 +1122,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../xvideos-enhance/xvideos-enhance.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xvideos-enhance/xvideos-enhance.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance/CHANGELOG.md">
@@ -1133,7 +1133,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
     <a href="../../pornhub-download">Pornhub 視頻一鍵下載</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528800">
-        <img src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1160,7 +1160,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../pornhub-download/pornhub-download.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/pornhub-download/pornhub-download.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md">
@@ -1171,7 +1171,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png" width=18></a>
     <a href="../../xhamster-downloader">xhamster 視頻一鍵下載助手</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529043">
-        <img src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1198,7 +1198,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../xhamster-downloader/xhamster-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader/CHANGELOG.md">
@@ -1209,7 +1209,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.xnxx.com/apple-touch-icon.png"><img width=18 src="https://www.xnxx.com/apple-touch-icon.png" width=18></a>
     <a href="../../xnxx-downloader">XnxxVideos 視頻一鍵下載助手</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529044">
-        <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1236,7 +1236,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../xnxx-downloader/xnxx-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xnxx-downloader/xnxx-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader/CHANGELOG.md">
@@ -1247,7 +1247,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../missav-enhancer">MissAV 增強小助手</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529125">
-        <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1274,7 +1274,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../missav-enhancer/missav-enhancer.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-enhancer/missav-enhancer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md">
@@ -1285,7 +1285,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
     <a href="../../cnm.r18">剛滿 18 歲</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/537679">
-        <img src="https://img.shields.io/greasyfork/dt/537679?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537679?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1306,7 +1306,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../cnm.r18/cnm.r18.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/CHANGELOG.md">
@@ -1314,14 +1314,14 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Google 腳本 (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
     <a href="../../google-block-search-sites">屏蔽谷歌搜索站點</a>&nbsp;
     <a href="https://greasyfork.org/scripts/500262">
-        <img src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1342,7 +1342,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../google-block-search-sites/google-block-search-sites.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -1351,7 +1351,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
     <a href="../../google-advanced-search">Google 高級搜尋助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502652">
-        <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1378,20 +1378,20 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../google-advanced-search/google-advanced-search.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GitHub 腳本 (19)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../../github-repo-size-view">🤠 Github 增強小助手 倉庫顯示大小</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502291">
-        <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1418,7 +1418,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-repo-size-view/github-repo-size-view.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md">
@@ -1431,7 +1431,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
     <a href="../../github-sort-by-date">GitHub 按日期排序</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505218">
-        <img src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1458,7 +1458,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-sort-by-date/github-sort-by-date.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-sort-by-date/github-sort-by-date.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -1467,7 +1467,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../../github-folder-downloader">GitHub 資料夾下載器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505496">
-        <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1494,7 +1494,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-folder-downloader/github-folder-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-folder-downloader/github-folder-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md">
@@ -1505,7 +1505,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
     <a href="../../github-raw-file-plus">Github 複製原始文件 URL 與下載文件</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505501">
-        <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1532,7 +1532,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-raw-file-plus/github-raw-file-plus.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-raw-file-plus/github-raw-file-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus/CHANGELOG.md">
@@ -1543,7 +1543,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-commit-viewer">GitHub 提交資料顯示網頁視圖</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505830">
-        <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1570,7 +1570,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-commit-viewer/github-commit-viewer.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-commit-viewer/github-commit-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -1579,7 +1579,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
     <a href="../../github-file-list-beautifier-plus">GitHub 文件列表美化器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508047">
-        <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1606,7 +1606,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus/CHANGELOG.md">
@@ -1617,7 +1617,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
     <a href="../../github-device-authorization">GitHub 自動確認設備授權</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508956">
-        <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1638,7 +1638,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-device-authorization/github-device-authorization.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-device-authorization/github-device-authorization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization/CHANGELOG.md">
@@ -1649,7 +1649,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
     <a href="../../github-linguist-expand">Github 代碼語言列表顯示全部</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509889">
-        <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1676,7 +1676,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-linguist-expand/github-linguist-expand.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-linguist-expand/github-linguist-expand.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand/CHANGELOG.md">
@@ -1687,7 +1687,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-repository-navigator">GitHub 倉庫快速跳轉助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/515205">
-        <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1714,7 +1714,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-repository-navigator/github-repository-navigator.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repository-navigator/github-repository-navigator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator/CHANGELOG.md">
@@ -1725,7 +1725,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
     <a href="../../github-jsdelivr-link">在Github上打開jsDelivr鏈接</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527870">
-        <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1752,7 +1752,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-jsdelivr-link/github-jsdelivr-link.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link/CHANGELOG.md">
@@ -1763,7 +1763,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-gist-copier">GitHub Gist 代碼片段複製與下載器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529534">
-        <img src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1790,7 +1790,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-gist-copier/github-gist-copier.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier/CHANGELOG.md">
@@ -1803,14 +1803,14 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-comment-translate">GitHub 快捷鍵翻譯助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530312">
-        <img src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
 <details>
-    <summary>監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.</summary>
+    <summary>監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate">
             <img width=511 src="https://s2.loli.net/2025/03/20/oCRakSZyIOmcpWX.gif"></a>
@@ -1830,7 +1830,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-comment-translate/github-comment-translate.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-comment-translate/github-comment-translate.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate/CHANGELOG.md">
@@ -1841,7 +1841,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-starred-repo-note">GitHub 星標倉庫備註助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/533511">
-        <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1868,7 +1868,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-starred-repo-note/github-starred-repo-note.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note/CHANGELOG.md">
@@ -1881,7 +1881,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png" width=18></a>
     <a href="../../github-to-deepwiki">GitHub 跳轉到 DeepWiKi</a>&nbsp;
     <a href="https://greasyfork.org/scripts/536279">
-        <img src="https://img.shields.io/greasyfork/dt/536279?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/536279?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1908,7 +1908,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-to-deepwiki/github-to-deepwiki.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-to-deepwiki/github-to-deepwiki.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki/CHANGELOG.md">
@@ -1921,7 +1921,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-no-copilot">GitHub 隱藏 Copilot</a>&nbsp;
     <a href="https://greasyfork.org/scripts/536423">
-        <img src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -1948,7 +1948,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-no-copilot/github-no-copilot.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot/CHANGELOG.md">
@@ -1961,14 +1961,14 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
     <a href="../../github-email-finder">GitHub 郵箱地址查找器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537309">
-        <img src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
 <details>
-    <summary>使用公開事件數據（例如，推送到公開代碼庫的提交），獲取用戶的提交郵箱地址並將其顯示在個人資料頁面上。 此外，它還添加了一個便捷的“複製到剪貼板”按鈕，方便複製.</summary>
+    <summary>使用公開事件數據（例如，推送到公開代碼庫的提交），獲取用戶的提交郵箱地址並將其顯示在個人資料頁面上。 另外，它還添加了一個便捷的“複製到剪貼板”按鈕，方便複製.</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder">
             <img width=511 src="https://s2.loli.net/2025/05/26/uHZBkn8x7PLWMmp.png"></a>
@@ -1988,7 +1988,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-email-finder/github-email-finder.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder/AUTHORS.md">
@@ -1999,7 +1999,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
     <a href="../../github-file-size-viewer">GitHub 顯示文件和文件夾大小</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537310">
-        <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2027,7 +2027,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-file-size-viewer/github-file-size-viewer.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer/CHANGELOG.md">
@@ -2040,7 +2040,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
     <a href="../../github-co-authors">GitHub 共同協作者</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537446">
-        <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2068,7 +2068,7 @@
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-co-authors/github-co-authors.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors/AUTHORS.md">
@@ -2079,7 +2079,7 @@
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
     <a href="../../github-notification-inbox-toggle">GitHub 通知篩選狀態</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537684">
-        <img src="https://img.shields.io/greasyfork/dt/537684?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537684?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2100,20 +2100,20 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>翻譯腳本 (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
     <a href="../../no-zh-terminator">外語終結者</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504890">
-        <img src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2134,7 +2134,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../no-zh-terminator/no-zh-terminator.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator/CHANGELOG.md">
@@ -2145,7 +2145,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
     <a href="../../translate-only-chinese">網頁翻譯——自動翻譯為中文</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505208">
-        <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2166,7 +2166,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../translate-only-chinese/translate-only-chinese.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/translate-only-chinese/translate-only-chinese.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -2175,7 +2175,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
     <a href="../../smart-translator-tool">翻譯小工具 | 翻譯任何語言</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530406">
-        <img src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2202,7 +2202,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../smart-translator-tool/smart-translator-tool.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/CHANGELOG.md">
@@ -2210,14 +2210,14 @@ github-notification-inbox-toggle 開發版本
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>AI 腳本 (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-plus">ChatGPT 折疊自己訊息和最大寬度</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504901">
-        <img src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2244,7 +2244,7 @@ github-notification-inbox-toggle 開發版本
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-plus/chatgpt-plus.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-plus/chatgpt-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus/CHANGELOG.md">
@@ -2253,15 +2253,15 @@ github-notification-inbox-toggle 開發版本
 <h3>
     <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../../chatgpt-code-styling">ChatGPT程序碼字體縮小</a>&nbsp;
+    <a href="../../chatgpt-code-styling">ChatGPT程式碼字體縮小</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505209">
-        <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-ChatGPT 讓程序碼字體變小 並且自動折行
+ChatGPT 讓程式碼字體變小 並且自動折行
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/505209">
@@ -2276,7 +2276,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-code-styling/chatgpt-code-styling.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-styling/chatgpt-code-styling.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
@@ -2285,7 +2285,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
     <a href="../../chatgpt-counter">ChatGPT 字元計數器限制 (CCCL)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506166">
-        <img src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2312,7 +2312,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-counter/chatgpt-counter.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter/CHANGELOG.md">
@@ -2323,7 +2323,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
     <a href="../../chatgpt-copy-code-button">ChatGPT 聊天複製程式碼和匯出程式碼按鈕</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509598">
-        <img src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2350,7 +2350,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button/CHANGELOG.md">
@@ -2361,7 +2361,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
     <a href="../../chatgpt-code-hightlight">ChatGPT 代碼高亮</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527255">
-        <img src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2388,7 +2388,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight/CHANGELOG.md">
@@ -2399,7 +2399,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-code-tools">ChatGPT代碼工具</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537646">
-        <img src="https://img.shields.io/greasyfork/dt/537646?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537646?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2420,7 +2420,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-code-tools/chatgpt-code-tools.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-tools/chatgpt-code-tools.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools/AUTHORS.md">
@@ -2431,7 +2431,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-insert-text">ChatGPT 插入提示詞</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537647">
-        <img src="https://img.shields.io/greasyfork/dt/537647?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537647?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-insert-text&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2452,7 +2452,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-insert-text/chatgpt-insert-text.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-insert-text/chatgpt-insert-text.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-insert-text/AUTHORS.md">
@@ -2463,7 +2463,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-save-conversation">ChatGPT 保存對話</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537648">
-        <img src="https://img.shields.io/greasyfork/dt/537648?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537648?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2484,7 +2484,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-save-conversation/chatgpt-save-conversation.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation/CHANGELOG.md">
@@ -2497,13 +2497,13 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
     <a href="../../chatgpt-easy-management">ChatGPT 輕鬆管理聊天</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538142">
-        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-搜索聊天、過濾聊天、快速/批量刪除聊天。
+搜尋聊天、過濾聊天、快速/批量刪除聊天。
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/538142">
@@ -2518,20 +2518,20 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>博客網站 (5)</h1></div><h3>
+<div align="center"><h1>部落格網站 (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
     <a href="../../csdn-blocker">解除CSDN登錄複製</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505207">
-        <img src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2552,7 +2552,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../csdn-blocker/csdn-blocker.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker/CHANGELOG.md">
@@ -2563,7 +2563,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://g.csdnimg.cn/static/logo/favicon32.ico"><img width=18 src="https://g.csdnimg.cn/static/logo/favicon32.ico" width=18></a>
     <a href="../../clean-blog-articles">乾淨的博客文章</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537643">
-        <img src="https://img.shields.io/greasyfork/dt/537643?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537643?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2584,7 +2584,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../clean-blog-articles/clean-blog-articles.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clean-blog-articles/clean-blog-articles.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles/AUTHORS.md">
@@ -2595,7 +2595,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://static.zhihu.com/heifetz/favicon.ico"><img width=18 src="https://static.zhihu.com/heifetz/favicon.ico" width=18></a>
     <a href="../../zhihu-black">知乎的深色主題</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537644">
-        <img src="https://img.shields.io/greasyfork/dt/537644?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537644?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2616,7 +2616,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../zhihu-black/zhihu-black.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black/AUTHORS.md">
@@ -2627,13 +2627,13 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><img width=18 src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width=18></a>
     <a href="../../wechat-black">微信網頁版深色模式</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537645">
-        <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-啟用網頁微信全屏窗口，深色模式
+啟用網頁微信全螢幕窗口，深色模式
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537645">
@@ -2648,7 +2648,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../wechat-black/wechat-black.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/wechat-black/wechat-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black/AUTHORS.md">
@@ -2657,15 +2657,15 @@ ChatGPT 讓程序碼字體變小 並且自動折行
 <h3>
     <a href="../../weibo-mobile-redirect">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://m.weibo.cn/favicon.ico"><img width=18 src="https://m.weibo.cn/favicon.ico" width=18></a>
-    <a href="../../weibo-mobile-redirect">新浪微博移動版跳轉</a>&nbsp;
+    <a href="../../weibo-mobile-redirect">新浪微博行動版跳轉</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537683">
-        <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-新浪微博自動跳轉移動版，支持微博、文章、影片
+新浪微博自動跳轉行動版，支援微博、文章、影片
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537683">
@@ -2680,20 +2680,20 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../weibo-mobile-redirect/weibo-mobile-redirect.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Twitter (4)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-hide-reposts">Twitter/X 隱藏轉發的帖子</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529450">
-        <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2720,7 +2720,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../twitter-hide-reposts/twitter-hide-reposts.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts/CHANGELOG.md">
@@ -2733,14 +2733,14 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-media-downloader">Twitter 媒體下載 (2025.12.02 修復)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
-        <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
 <details>
-    <summary>一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口</summary>
+    <summary>一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面</summary>
     <br><blockquote>
         <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader">
             <img width=511 src="https://s2.loli.net/2025/03/11/GuFXlBNIHpbDnmr.png"></a>
@@ -2760,7 +2760,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../twitter-media-downloader/twitter-media-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader/CHANGELOG.md">
@@ -2773,7 +2773,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-download-blocklist">Twitter(X)黑名單和屏蔽列表下載</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
-        <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2794,7 +2794,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../twitter-download-blocklist/twitter-download-blocklist.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist/AUTHORS.md">
@@ -2805,7 +2805,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../../twitter-show-date-normally">Twitter 顯示正常的日期和時間</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538260">
-        <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2833,18 +2833,18 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../twitter-show-date-normally/twitter-show-date-normally.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-helper">YouTube 小助手</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529845">
-        <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2871,7 +2871,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../youtube-helper/youtube-helper.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md">
@@ -2884,7 +2884,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-watch-later-shortcut">YouTube 稍後觀看快捷鍵</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537622">
-        <img src="https://img.shields.io/greasyfork/dt/537622?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537622?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-watch-later-shortcut&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2905,7 +2905,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-watch-later-shortcut/AUTHORS.md">
@@ -2916,7 +2916,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-better-volume-control">更好的 YouTube 音量控制</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537787">
-        <img src="https://img.shields.io/greasyfork/dt/537787?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537787?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2937,7 +2937,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../youtube-better-volume-control/youtube-better-volume-control.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control/AUTHORS.md">
@@ -2948,7 +2948,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-dynamic-grid">YouTube 動態視頻網格</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538138">
-        <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -2969,7 +2969,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid/CHANGELOG.md">
@@ -2982,7 +2982,7 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
     <a href="../../youtube-pro-audio-ambient">YouTube Pro: 音頻增強器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/560766">
-        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -3009,20 +3009,20 @@ ChatGPT 讓程序碼字體變小 並且自動折行
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png"><img width=18 src="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png" width=18></a>
     <a href="../../tiktok-user-info">TikTok 用戶信息</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537677">
-        <img src="https://img.shields.io/greasyfork/dt/537677?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537677?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
@@ -3043,26 +3043,26 @@ TikTok 在個人資料上顯示更多擴展信息
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../tiktok-user-info/tiktok-user-info.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../../bilibili-video-downloader">嗶哩嗶哩視頻下載器</a>&nbsp;
+    <a href="../../bilibili-video-downloader">嗶哩嗶哩影片下載器</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
-        <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-下載嗶哩嗶哩視頻（不支持番劇）
+下載嗶哩嗶哩視頻（不支援番劇）
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537678">
@@ -3077,7 +3077,7 @@ TikTok 在個人資料上顯示更多擴展信息
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../bilibili-video-downloader/bilibili-video-downloader.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-video-downloader/bilibili-video-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader/AUTHORS.md">
@@ -3088,13 +3088,13 @@ TikTok 在個人資料上顯示更多擴展信息
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
     <a href="../../bilibili-liveroom-filter">嗶哩嗶哩直播間屏蔽工具</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537928">
-        <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F"></a>
+        <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter&hashtags=greasemonkey,userscripts,javascript">
             <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
         </a>
 </h3>
 
-嗶哩嗶哩直播間屏蔽工具，支持管理列表，批量屏蔽，導出、導入列表等……
+嗶哩嗶哩直播間屏蔽工具，支援管理列表，大量屏蔽，匯出、導入列表等……
 
 <blockquote>
     <a href="https://greasyfork.org/scripts/537928">
@@ -3109,32 +3109,32 @@ TikTok 在個人資料上顯示更多擴展信息
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
     <a href="../../bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
-        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源碼</a> /
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
-<div align="right"><a href="#-腳本列表">返回目錄</a></div>
+<div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 
 ## ❔️ 如何安裝或使用腳本？
 
-要使用任何腳本，首先需要瀏覽器安裝 **Tampermonkey 腳本管理器擴展（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
+要使用任何腳本，首先需要瀏覽器安裝 **Tampermonkey 腳本管理器擴充（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
--   點擊表格 **\[安裝\]** 直接彈出腳本管理器安裝界面。
+-   點擊表格 **\[安裝\]** 直接彈出腳本管理器安裝介面。
 -   如果 Github 訪問速度太慢，可以選擇點擊 GreasyFork **\[安裝\]** 後彈出擴展提示，再去點擊 **\[安裝\]** 即可。
--   [查看詳細教程](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
+-   [查看詳細教學](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
-> -   _其他基於 **Chromium** 內核的瀏覽器（如國內套皮瀏覽器）一般都可以使用 Chrome 擴展。_
-> -   _請確保使用 **Tampermonkey 正式版** 擴展，其他的用户腳本管理器可能导致**無法正常使用**脚本。_
-> -   _如果要重裝腳本，請記得在 Tampermonkey 擴展的**回收站中徹底刪除**腳本後再去重新安裝腳本。_
+> -   _其他基於 **Chromium** 內核的瀏覽器（如國內套皮瀏覽器）一般都可以使用 Chrome 擴充。_
+> -   _請確保使用 **Tampermonkey 正式版** 擴充，其他的用户腳本管理器可能导致**無法正常使用**脚本。_
+> -   _如果要重裝腳本，請記得在 Tampermonkey 擴充的**回收站中徹底刪除**腳本後再去重新安裝腳本。_
 
-> _**不會離線安裝 .crx 擴展？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴展] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
+> _**不會離線安裝 .crx 擴充？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴充] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
 
 <div align="right">
 
@@ -3158,13 +3158,13 @@ TikTok 在個人資料上顯示更多擴展信息
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
 > -   仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
-> -   本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片代碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的代碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
+> -   本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
 >
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
-> -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的代碼<br>
-> -   本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的代碼
+> -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
+> -   本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
 > -   本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%85%B3%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
 
 > [!TIP]
@@ -3174,11 +3174,11 @@ TikTok 在個人資料上顯示更多擴展信息
 > -   _本倉庫命名風格受美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)啟發_ :trollface:
 > -   _本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
 > -   _腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
-> -   _本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，代碼，思路_ :trollface:
-> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內代碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內代碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路_ :trollface:
+> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
-> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內代碼_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
+> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內程式碼_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
 
@@ -3202,7 +3202,7 @@ TikTok 在個人資料上顯示更多擴展信息
 
 </div>
 
-## 🏛️ 開源許可協議
+## 🏛️ 開源授權協議
 
 本項目採用 <a href="../../LICENSE.md"><strong>MIT 許可證</strong></a> 授權。
 MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a href="../../LICENSE.md">許可證全文</a>。
@@ -3215,7 +3215,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 🤝 行為準則
 
-為了確保一個友好、尊重和包容的開發環境，我們制定了以下<a href="../CODE_OF_CONDUCT.md"><strong>行為準則</strong></a>。請每位貢獻者遵循這些指導原則。
+為了確保一個友好、尊重與包容的開發環境，我們制定了以下<a href="../CODE_OF_CONDUCT.md"><strong>行為準則</strong></a>。請每位貢獻者遵循這些指導原則。
 
 <div align="right">
 
@@ -3227,7 +3227,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 如果您發現漏洞，請打開一個[安全建議草案](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-也歡迎拉取請求，但出於安全原因，請發送電子郵件至 <china.qinwuyuan@gmail.com> 並在公開之前等待回复。
+也歡迎拉取請求，但出於安全原因，請發送電子郵件至 <china.qinwuyuan@gmail.com> 並在公開前等待回复。
 詳細內容請參閱 <a href="../SECURITY.md"><strong>安全政策</strong></a>
 
 <div align="right">
@@ -3238,7 +3238,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 💖 貢獻指南
 
-感謝您對本項目的興趣！我們制定了以下<a href="../../CONTRIBUTING.md"><strong>貢獻指南</strong></a>。為了幫助您順利貢獻代碼或文檔，請在提交代碼或問題前，仔細閱讀內容。
+感謝您對本計畫的興趣！我們制定了以下<a href="../../CONTRIBUTING.md"><strong>貢獻指南</strong></a>。為了幫助您順利貢獻程式碼或文檔，請在提交程式碼或問題前，仔細閱讀內容。
 
 <div align="right">
 
@@ -3262,7 +3262,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 [Tampermonkey]: http://tampermonkey.net/ "篡改猴"
 [Violentmonkey]: https://violentmonkey.github.io/ "暴力猴"
-[Macaque]: https://macaque.app/ "獼猴"
+[Macaque]: https://macaque.app/ "奇異果"
 [Macaquer]: https://img.xwyue.com/i/2024/08/02/66acc93b56b9f.png
 [Stay]: https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171 "Stay-for-safari"
 [stayr]: https://img.xwyue.com/i/2024/08/02/66acc93b56b6c.png

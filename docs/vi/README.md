@@ -3227,7 +3227,7 @@ MIT Giấy phép là một thỏa thuận cấp phép nguồn mở dễ dàng，
 
 Nếu bạn tìm thấy một lỗ hổng，hãy mở một cái[dự thảo khuyến nghị bảo mật](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-Yêu cầu kéo cũng được chào đón，nhưng vì lý do bảo mật，Vui lòng gửi email tới <china.qinwuyuan@gmail.com> và chờ phản hồi trước khi công khai。
+Yêu cầu kéo cũng được chào đón，nhưng vì lý do bảo mật，Vui lòng gửi email đến <china.qinwuyuan@gmail.com> và chờ phản hồi trước khi công khai。
 Để biết chi tiết, vui lòng tham khảo <a href="../SECURITY.md"><strong>chính sách bảo mật</strong></a>
 
 <div align="right">

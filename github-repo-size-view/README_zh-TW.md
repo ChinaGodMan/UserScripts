@@ -60,71 +60,74 @@
     <p>「 🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠 」</p>
     <img src="https://views.whatilearened.today/views/github/502291/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-repo-size-view/github-repo-size-view.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
+    <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.502291&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
+<h3><strong>📅 2026.3.5.1</strong></h3>
+<p><strong>修復</strong>: 警告文字改成黑色,修復一些元素路徑<br></p>
+<hr />
 <h3><strong>📅 2025.5.27.1</strong></h3>
-<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，其他腳本導致頁面元素變化<br></p>
+<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快速跳轉按鈕的問題<a href="https://github.com/ChinaGodMan/UserScripts/issues/137">#137</a>，其他腳本導致頁面元素變化<br></p>
 <hr />
 <h3><strong>📅 2025.5.16.1</strong></h3>
-<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快捷跳轉按鈕的問題 <br></p>
+<p><strong>Fix</strong>: 修復在儲存庫頁面不顯示快速跳轉按鈕的問題 <br></p>
 <hr />
 <h3><strong>📅 2025.04.25.1850</strong></h3>
-<p><strong>修復上個版本小問題</strong>:快捷跳轉&gt;在開啟自定義獲取用戶倉庫數量時,默認只獲取第一頁<br></p>
+<p><strong>修復上個版本小問題</strong>:快速跳轉&gt;在開啟自訂取得使用者倉庫數量時,預設只取得第一頁<br></p>
 <hr />
 <h3><strong>📅 2025.04.22.1003</strong></h3>
-<p><strong>新增</strong>:快捷跳轉:自定義獲取用戶倉庫數量和每頁顯示數量<br>
-<strong>新增</strong>:固定頭部導航欄:自定義啟用<br>
-<strong>新增</strong>:本地緩存:允許自定義刷新緩存的時間<br></p>
+<p><strong>新增</strong>:快速跳轉:自訂取得使用者倉庫數量和每頁顯示數量<br>
+<strong>新增</strong>:固定頭部導航欄:自訂啟用<br>
+<strong>新增</strong>:本機快取:允許自訂刷新快取的時間<br></p>
 <hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
-<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>支持系統<code>淺色模式</code>和<code>深色模式</code><br>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>支援系統<code>淺色模式</code>和<code>深色模式</code><br>
 <strong>截圖</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
-<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>點擊左側倉庫,直接顯示指定倉庫的信息<br>兼容<code>2025.04.15</code>版本在所有通知信息上懸浮的功能.<br>感謝:<a href="https://github.com/qbmiller">qbmiller</a> 的腳本代碼,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>點選左側倉庫,直接顯示指定倉庫的信息<br>相容<code>2025.04.15</code>版本在所有通知資訊上懸浮的功能.<br>感謝:<a href="https://github.com/qbmiller">qbmiller</a> 的腳本程式碼,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>截圖</strong>:!<img alt="Image" src="https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.15.1536</strong></h3>
-<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>顯示倉庫信息<br>感謝:<a href="https://github.com/qbmiller">qbmiller</a> 的腳本代碼,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
+<p><strong>新增</strong>:<a href="https://github.com/notifications">通知頁面</a>顯示倉庫訊息<br>感謝:<a href="https://github.com/qbmiller">qbmiller</a> 的腳本程式碼,<a href="https://github.com/qbmiller/UserScripts">github_enhance</a> <br>Issue:<a href="https://github.com/ChinaGodMan/UserScripts/issues/111">#111</a><br>
 <strong>截圖</strong>:<img alt="2025.04.15" src="https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.03.16.0506</strong></h3>
-<p><strong>新增</strong>:GitHub 全局導航欄固定 代碼來自<a href="https://greasyfork.org/scripts/529862">GitHub 增強套件</a><br>
+<p><strong>新增</strong>:GitHub 全域導覽列固定 代碼來自<a href="https://greasyfork.org/scripts/529862">GitHub 增強套件</a><br>
 <strong>截圖</strong>:<img alt="2025.03.16" src="https://s2.loli.net/2025/03/16/WrzHm1OaQYBFEkJ.png" /><br></p>
 <hr />
 <h3><strong>📅 2024/10/07 01:53 - Ver 0.1.3.7</strong></h3>
-<p><strong>新增</strong>:雙因素驗證碼自動填充功能<code>Two-factor authentication</code> 方便快速填充,持續監聽,直到觸發驗證....<br>
-<strong>新增</strong>:用戶資料頁面的已星標倉庫也添加顯示倉庫大小,<code>?tab=stars</code>下執行<br>
-<strong>修復</strong>:用戶主題不同,元素也不同,選擇器更改為<code>document.querySelector('.jxTzTd')</code><br>
-<strong>修復</strong>:已登錄用戶如果<code>TOKEN</code>不為空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止返回錯誤代碼<code>401</code><br>
-<strong>修復</strong>:修復<code>代碼搜索和倉庫代碼搜索</code>下會重複對一個倉庫進行兩次獲取大小<br></p>
+<p><strong>新增</strong>:雙重驗證碼自動填滿功能<code>Two-factor authentication</code> 方便快速填充,持續監聽,直到觸發驗證....<br>
+<strong>新增</strong>:使用者資料頁面的已星標倉庫也新增顯示倉庫大小,<code>?tab=stars</code>下執行<br>
+<strong>修復</strong>:使用者主題不同,元素也不同,選擇器更改為<code>document.querySelector('.jxTzTd')</code><br>
+<strong>修復</strong>:已登入用戶如果<code>TOKEN</code>不為空,使用自己的列表 API<code>https://api.github.com/user/repos</code>.防止回傳錯誤代碼<code>401</code><br>
+<strong>修復</strong>:修復<code>代碼搜尋和倉庫代碼搜索</code>下會重複對一個倉庫進行兩次獲取大小<br></p>
 <hr />
 <h3><strong>📅 2024/10/06 05:17 - Ver 0.1.3.6</strong></h3>
-<p><strong>新增</strong>:已經獲取的用戶倉庫列表保存在本地,<code>24h</code>刷新一次<br>
-<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 腳本功能 ，並支持移動設備，設置為動態監聽<br>
-<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快捷查找活躍的 Forks 列表</a> 腳本功能 並支持移動設備，設置為動態監聽<br>
-<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 腳本功能 在個人倉庫和<code>?tab=repositories</code>頁面快速刪除 並支持移動設備，設置為動態監聽<br>
-<strong>最佳化</strong>: 檢測器十秒找不到元素停止運行<br></p>
+<p><strong>新增</strong>:已經取得的用戶倉庫清單保存在本地,<code>24h</code>刷新一次<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/456878">github-ossinsight</a> 腳本功能 ，並支援行動裝置，設定為動態監聽<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/494365">Github 快速找出活躍的 Forks 清單</a> 腳本功能 並支援行動裝置，設定為動態監聽<br>
+<strong>新增</strong>: 合併<a href="https://greasyfork.org/zh-CN/scripts/500173">GitHub Delete Repositories</a> 腳本功能 在個人倉庫和<code>?tab=repositories</code>頁面快速刪除 並支援行動裝置，設定為動態監聽<br>
+<strong>最佳化</strong>: 檢測器十秒鐘找不到元素停止運作<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>修復</strong>:CSS 在移動端小分隔條被錯誤隱藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>修復</strong>:CSS 在行動端小分隔條被錯誤隱藏：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
-<p><strong>新增</strong>: 快捷跳轉列表添加鼠標懸浮<code>Title</code>顯示倉庫基本信息<br>
-<strong>最佳化</strong>: 現在可以顯示用戶的全部倉庫，但不建議這麼做，影響體驗。<br> 在腳本的 343 行使用代碼<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>參數三為真時遞歸獲取用戶列表<br>參數四限制參數三為真時遞歸最大頁數<br>
-<strong>修復</strong>：列表重複添加問題<br>
+<p><strong>新增</strong>: 快捷跳轉列表新增滑鼠懸浮<code>Title</code>顯示倉庫基本訊息<br>
+<strong>最佳化</strong>: 現在可以顯示使用者的全部倉庫，但不建議這麼做，影響體驗。<br> 在腳本的 343 行使用程式碼<code>getUserAllRepos(reposApi, headers, true, 1)</code> <br>參數三為真時遞迴取得使用者列表<br>參數四限制參數三為真時遞迴最大頁數<br>
+<strong>修復</strong>：清單重複新增問題<br>
 <strong>修復</strong>：<code>if (maxPage !== 0 &amp;&amp; page &gt; maxPage) break</code> → <code>if (maxPage !== 0 &amp;&amp; page == maxPage) break</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 07:25 - Ver 0.1.3.3</strong></h3>
-<p><strong>新增</strong>: GitHub 側邊欄跳轉倉庫比較繁瑣,增加一個在倉庫內快捷跳轉用戶的其他倉庫<br></p>
+<p><strong>新增</strong>: GitHub 側邊欄跳轉倉庫較為繁瑣,增加一個在倉庫內快速跳轉用戶的其他倉庫<br></p>
 <table>
 <thead>
 <tr>
-<th><code>紅色</code> 為公開倉庫 <code>綠色</code> 為私人倉庫 <code>Forks</code> 復刻的倉庫 (登錄的用戶,必須鍵入 TOKEN)</th>
-<th>新增演示 ~~僅顯示第一頁 30 個倉庫,超出不會顯示,目前夠我自己使用的了~~ <code>0.1.3.4</code>已支持全部</th>
+<th><code>紅色</code> 為公開倉庫 <code>綠色</code> 為私人倉庫 <code>Forks</code> 復刻的倉庫 (登入的用戶,必須鍵入 TOKEN)</th>
+<th>新增示範 ~~僅顯示第一頁 30 個倉庫,超出不會顯示,目前夠我自己使用的了~~ <code>0.1.3.4</code>已支援全部</th>
 </tr>
 </thead>
 <tbody>
@@ -141,10 +144,10 @@
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
 <p><strong>最佳化</strong>: 優化小標籤<br>
-<strong>新增</strong>: 不活躍開發橫幅右下角顯示最後一次<code>Push</code>距現在多久<br></p>
+<strong>新增</strong>: 不活躍開發橫幅右下角顯示最後一次<code>Push</code>距離現在多久<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
-<p><strong>最佳化</strong>: 優化執行效率,提升加載速度<br>
+<p><strong>最佳化</strong>: 優化執行效率,提升載入速度<br>
 <strong>i18n</strong>: zh,zh-HK,zh-MO,zh-SG<br></p>
 <hr />
 <h3><strong>📅 2024/9/25 10:06 - Ver 0.1.3.0</strong></h3>
@@ -170,20 +173,20 @@
 </table>
 <hr />
 <h3><strong>📅 2024/8/20 05:28 - Ver 0.1.2.26</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用該腳本的設置界面。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/503821">GitHub Repo Size Display</a> 使用該腳本的設定介面。</p>
 <hr />
 <h3><strong>📅 2024/8/13 00:19 - Ver 0.1.2.18</strong></h3>
-<p><strong>新增</strong>: 增加腳本菜單 → 設定 GitHub Token 介面，無需在代碼內修改。</p>
+<p><strong>新增</strong>: 增加腳本選單 → 設定 GitHub Token 介面，無需在程式碼內修改。</p>
 <hr />
 <h3><strong>📅 2024/8/12 21:56 - Ver 0.1.2.17</strong></h3>
-<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在用戶資料倉庫列表和組織列表顯示倉庫大小。</p>
+<p><strong>新增</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 增加在使用者資料倉庫清單和組織清單顯示倉庫大小。</p>
 <hr />
 <h3><strong>📅 2024/8/5 05:18 - Ver 0.1.2.8</strong></h3>
-<p><strong>修復</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效導致無法訪問公共倉庫。修復方式：刪除原作者令牌，GitHub 生成的公共令牌總是被清除，因此不再添加。</p>
+<p><strong>修復</strong>: <a href="https://greasyfork.org/zh-CN/scripts/502291/discussions/254059">#254059</a> 原作者令牌失效導致無法存取公共倉庫。修復方式：刪除原作者令牌，GitHub 產生的公共令牌總是被清除，因此不再添加。</p>
 <hr />
 <h3><strong>📅 2024/8/1 03:43 - Ver 0.1.2</strong></h3>
-<p><strong>修復</strong>: 修復在搜索頁面失效的問題。
-<strong>修復</strong>: 修復查看其他倉庫時不顯示的問題（增加延時）。</p>
+<p><strong>修復</strong>: 修復在搜尋頁面失效的問題。
+<strong>修復</strong>: 修正查看其他倉庫時不顯示的問題（增加延遲）。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/502291.png">
 </div></center>
@@ -192,7 +195,7 @@
 <!--AUTHORS-->
 ## 💖 腳本參考或使用了以下腳本:
 [🧑‍💻 **@mshll**](https://greasyfork.org/users/1010122) ⇒ 📜 _[Github Repo Size](https://greasyfork.org/scripts/458048)_<br>
-[🧑‍💻 **@a1pha**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 快捷查找活躍的Forks列表](https://greasyfork.org/scripts/494365)_<br>
+[🧑‍💻 **@a1pha**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 快捷查找活躍的Forks清單](https://greasyfork.org/scripts/494365)_<br>
 [🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 增強套件](https://greasyfork.org/scripts/529862)_
 <!--AUTHORS-END-->
 ## 預覽
@@ -289,7 +292,7 @@
 要顯示私有存儲庫的大小，您需要生成一個具有“repo”範圍的新個人訪問令牌。
 該令牌將用於通過 Github API 進行身份驗證。
 
-1. [此處](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)生成新令牌。
+1. [此處](https://github.com/settings/tokens/new?description=repo-size%20userscript&scopes=repo)產生新令牌。
 2. 為令牌命名並檢查`repo`範圍。
 3. 單擊 `Generate token` 按鈕並複制令牌。
 4. 點擊腳本菜單`Set GitHub Token`,填入剛剛生成的令牌。
@@ -310,7 +313,7 @@
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -321,9 +324,9 @@
 
 ## 感謝
 
-GitHub: 作者 **[zvizvi](https://github.com/zvizvi)** Chrome插件 [GitHub-Web-IDE](https://github.com/zvizvi/GitHub-Web-IDE)<br>
+GitHub: 作者 **[zvizvi](https://github.com/zvizvi)** Chrome外掛 [GitHub-Web-IDE](https://github.com/zvizvi/GitHub-Web-IDE)<br>
 作者 **[mshll](https://greasyfork.org/zh-CN/users/1010122)** 發布的腳本 [Github Repo Size](https://greasyfork.org/scripts/458048)<br>
-作者 **[a1pha](https://greasyfork.org/zh-CN/users/1298296)** 發布的腳本 [Github 快捷查找活躍的 Forks 列表](https://greasyfork.org/zh-CN/scripts/494365)<br>
+作者 **[a1pha](https://greasyfork.org/zh-CN/users/1298296)** 發布的腳本 [Github 快捷查找活躍的 Forks 清單](https://greasyfork.org/zh-CN/scripts/494365)<br>
 作者 **[lly-ke](https://greasyfork.org/zh-CN/users/902432)** 發布的腳本 [github-ossinsight](https://greasyfork.org/zh-CN/scripts/456878)<br>
 作者 **[Zach Hardesty](https://greasyfork.org/zh-CN/users/371100)** 發布的腳本 [Github - Inactive Development Warning](https://greasyfork.org/zh-CN/scripts/419645)<br>
 作者 **[chen gang](https://greasyfork.org/zh-CN/users/720983)** 發布的腳本 [GitHub Delete Repositories](https://greasyfork.org/zh-CN/scripts/500173)
@@ -396,7 +399,7 @@ GitHub: 作者 **[zvizvi](https://github.com/zvizvi)** Chrome插件 [GitHub-Web-
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -467,7 +470,7 @@ GitHub: 作者 **[zvizvi](https://github.com/zvizvi)** Chrome插件 [GitHub-Web-
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->
