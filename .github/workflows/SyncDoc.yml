@@ -58,11 +58,11 @@ jobs:
       - name: 刷新仓库自述中的脚本列表
         run: python utils/update_scripts_list.py
 
-      - name: 翻译仓库自述
-        run: python utils/translate_force_chinese_to_lang.py
-
       - name: 修复其他语言readme中的相对路径
         run: python utils/fix_toc.py
+
+      - name: 翻译仓库自述
+        run: python utils/translate_force_chinese_to_lang.py
 
       # `徽章信息` `帮助信息`  需要从修复toc之后提取脚本列表标记点.
       - name: 徽章信息

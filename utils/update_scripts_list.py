@@ -1,7 +1,12 @@
 import argparse
 import os
 
-from helper import format_str, get_repo_name, read_json, is_file_updated_more_than
+from helper import (
+    format_str,
+    get_repo_name,
+    is_file_updated_more_than,
+    read_json
+)
 from searcher import search_in_file
 from writer import process_file
 
@@ -149,8 +154,8 @@ def main():
     json_file_path = args.json_file_path
     readme_path = args.readme_path
     if is_file_updated_more_than(json_file_path, 5):
-            print("跳过文件 ，因为ScriptsPath.json在五分钟之内没有新提交。")
-            return
+        print("跳过文件 ，因为ScriptsPath.json在五分钟之内没有新提交。")
+        return
     data = read_json(json_file_path)
     sorted_scripts = sorted(data.get('scripts', []), key=lambda x: x['greasyfork_id'] if x.get('greasyfork_id') is not None else 0)
     related_scripts_map = generate_description(sorted_scripts)
