@@ -80,7 +80,7 @@
 // @description:zh-HK  🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠
 // @description:fr-CA  🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            2026.2.6.1
+// @version            2026.3.5.1
 // @author             mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match              https://github.com/*
 // @run-at             document-start
@@ -107,7 +107,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2026/02/06,Friday 19:04:18
+ * Last Modified: 2026/03/05,Thursday 14:08:47
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -733,7 +733,7 @@ function renderWarning(timediff) {
     color: white;
     font-size: 36px;
     position: relative;
-  `
+    `
     )
     banner.textContent = translate.renderWarning
     const smallTag = document.createElement('div')
@@ -746,7 +746,7 @@ function renderWarning(timediff) {
     padding: 5px 10px;
     font-size: 14px;
     border-top-left-radius: 5px;
-  `
+    `
     )
     smallTag.textContent = timediff
     banner.appendChild(smallTag)
@@ -765,8 +765,9 @@ function renderCaution(timediff) {
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    color: black;
     position: relative;
-  `
+    `
     )
     banner.textContent = translate.renderCaution
     const smallTag = document.createElement('div')
@@ -779,7 +780,7 @@ function renderCaution(timediff) {
     padding: 5px 10px;
     font-size: 14px;
     border-top-left-radius: 5px;
-  `
+    `
     )
     smallTag.textContent = timediff
     banner.appendChild(smallTag)
@@ -962,23 +963,21 @@ function isLoggedInUser(avatar_url) {//从返回的json判断
         return false
     }
 }
+function getMReponame() { //获取当前移动设备页面的仓库名
+    return document.querySelector('#responsive-meta-container .flex-wrap')
+}
+function getCurrentUserId() {
+    return document
+        .querySelector('[data-testid="github-avatar"]')
+        ?.src.match(/\/u\/(\d+)/)?.[1] || null
+}
 function isLoggedInUser_f() {//NOTE - 比较仓库头像和登录头像中的ID
-    const imgElement = document.querySelector('.AppHeader-user button span span img')
-    const repoImgElement = document.querySelector('#repo-title-component > img')
-    if (imgElement && repoImgElement) {
-        const imgSrc = imgElement.src
-        const repoImgSrc = repoImgElement.src
+    const currentUserId = getCurrentUserId()
+    const repoImgSrc = document.querySelector('#repo-title-component > img')?.src
 
-        const userIdPattern = /\/u\/(\d+)/
-        const imgUserIdMatch = imgSrc.match(userIdPattern)
-        const repoUserIdMatch = repoImgSrc.match(userIdPattern)
-        if (imgUserIdMatch && repoUserIdMatch) {
-            const imgUserId = imgUserIdMatch[1]
-            const repoUserId = repoUserIdMatch[1]
-            return imgUserId === repoUserId
-        }
-    }
-    return false
+    if (!currentUserId || !repoImgSrc) return false
+
+    return repoImgSrc.match(/\/u\/(\d+)/)?.[1] === currentUserId
 }
 async function getUserRepos(href, header = {}) {
     try {
@@ -1042,9 +1041,9 @@ function insertOssInsightButton(owner, repo, usePageHeadActions) {
     const title = `${repo}  ${translate.ossinsight}`
     const el = usePageHeadActions
         ? document.querySelector('.pagehead-actions')
-        : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+        : getMReponame()
     if (!el) {
-        console.log('github-ossinsight: 没有找到目标元素, 无法添加按钮')
+        console.log('github-insertOssInsightButton: 没有找到目标元素, 无法添加按钮')
         return
     }
     const buttonHtml = `<a id="github-ossinsight" href="${targetUrl}" target="_blank" rel="noopener noreferrer" aria-label="${title}" class="btn btn-sm tooltipped tooltipped-s">${svgStr}</a>`
@@ -1061,9 +1060,9 @@ function insertActiveForks(owner, repo, usePageHeadActions) {
     const title = `${repo}  ${translate.activeforks}`
     const el = usePageHeadActions
         ? document.querySelector('.pagehead-actions')
-        : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+        : getMReponame()
     if (!el) {
-        console.log('github-Active Forks: 没有找到目标元素, 无法添加按钮')
+        console.log('github-insertActiveForks: 没有找到目标元素, 无法添加按钮')
         return
     }
     const buttonHtml = `<details class="details-reset details-overlay f5 position-relative "><summary id="active-forks-button-repo" class="btn btn-sm tooltipped tooltipped-s" aria-label="${title}"><a id="github-active-forks" href="https://techgaun.github.io/active-forks/index.html#${owner}/${repo}" target="_blank" > ${svgStr}  ${usePageHeadActions ? translate.activeforks_ : ''}</a></details>`
@@ -1084,10 +1083,10 @@ function insertDelBtn(owner, repo, usePageHeadActions, cusClass = 'dialog-show-r
     } else {
         el = usePageHeadActions
             ? document.querySelector('.pagehead-actions')
-            : document.querySelector('#responsive-meta-container .d-flex.gap-2.mt-n3.mb-3.flex-wrap')
+            : getMReponame()
     }
     if (!el) {
-        console.log('github-Active Forks: 没有找到目标元素, 无法添加按钮')
+        console.log('github-insertDelBtn: 没有找到目标元素, 无法添加按钮')
         return
     }
     if (el.querySelector(`#${cusClass}`)) return
