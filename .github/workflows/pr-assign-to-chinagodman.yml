@@ -7,6 +7,7 @@ on:
 
 jobs:
   assign-pr:
+    if: github.actor != 'dependabot[bot]' && github.actor != github.repository_owner && github.actor != 'ChinaGodBot'
     runs-on: ubuntu-latest
     steps:
       - name: 自动分配审查和受理至人民的勤务员
