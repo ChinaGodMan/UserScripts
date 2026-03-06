@@ -38,7 +38,7 @@ jobs:
         run: |
           git pull
           git add docs/README.md
-          git commit -n -m "docs(ci): 📝 更新[\`README.md\`]内贡献者列表" || true
+          git commit -n -m "docs: 更新贡献者列表" || true
           git push
           if [ $? -ne 0 ]; then
             git pull --rebase

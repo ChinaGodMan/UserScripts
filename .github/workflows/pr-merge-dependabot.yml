@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
-      - name: Checkout code 👋
-        uses: actions/checkout@v6
-
       - name: Check and merge ⛙
         uses: actions/github-script@v8
         with:
@@ -20,19 +17,8 @@ jobs:
           script: |
             const { repo: { owner, repo } } = context;
             const pr = context.payload.pull_request;
-
-            // 1. 仅处理 Dependabot 提交的 PR
-            if (pr.user.login !== 'dependabot[bot]') {
-              console.log('不是 Dependabot 提交的 PR，跳过处理');
-              return;
-            }
-
-            // 2. 尝试合并 PR
             try {
               console.log(`尝试合并 PR: ${pr.html_url}`);
-              const commitTitle= `${pr.title} (#${pr.number})`;
-              const commitMessage = "Signed-off-by: dependabot[bot] <support@github.com>";
-              console.log(`提交信息: ${commitTitle}`);
               //批准PR
               await github.rest.pulls.createReview({
                 owner,
@@ -47,8 +33,8 @@ jobs:
                 repo,
                 pull_number: pr.number,
                 merge_method: "squash",  // 挤压合并
-                commit_title: commitTitle,
-                commit_message: commitMessage,
+                commit_title: undefined,
+                commit_message: '',
               });
 
             } catch (error) {
@@ -95,4 +81,10 @@ jobs:
                 pull_number: pr.number,
                 state: 'open',
               });
+             await github.rest.issues.createComment({
+               issue_number: pr.number,
+               owner: owner,
+               repo: repo,
+               body: '@dependabot recreate'
+             });
             }
