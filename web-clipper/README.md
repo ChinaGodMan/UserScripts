@@ -64,6 +64,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/530139">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown 云剪笔记 更新日志</strong></h1>
+<h3><strong>📅 2026.3.10.1</strong></h3>
+<p><strong>新增</strong>: 热键功能,默认为<code>Shift+Alt+S</code><br>
+<strong>优化CSS</strong>: 响应系统主题设置,现在支持深色模式<br></p>
+<hr />
 <h3><strong>📅 2025.03.19.0450</strong></h3>
 <p><strong>新增</strong>:Github 添加可视化界面<br>
 <strong>截图</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>

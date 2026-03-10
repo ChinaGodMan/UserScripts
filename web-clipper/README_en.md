@@ -59,17 +59,21 @@
     <p>「 A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian. 」</p>
     <img src="https://views.whatilearened.today/views/github/530139/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.530139&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20for%20updates&query=$.530139&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/530139">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown Cloud clip notes Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown Cloud Clip Notes Change log</strong></h1>
+<h3><strong>📅 2026.3.10.1</strong></h3>
+<p><strong>New</strong>: Hot key function,Default is<code>Shift+Alt+S</code><br>
+<strong>optimizationCSS</strong>: Responsive system theme settings,Now supports dark mode<br></p>
+<hr />
 <h3><strong>📅 2025.03.19.0450</strong></h3>
-<p><strong>New</strong>:Github Add a visual interface<br>
+<p><strong>New</strong>:Github Add visual interface<br>
 <strong>screenshot</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
 <strong>screenshot</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
-<p><strong>New</strong>: •Add<code>Markdown</code>Save the file to<code>GitHub</code>Functions.</p>
+<p><strong>New</strong>: •Add will<code>Markdown</code>Save file to<code>GitHub</code>function.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/530139.png">
 </div></center>

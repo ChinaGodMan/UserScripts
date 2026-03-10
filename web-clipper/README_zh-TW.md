@@ -59,13 +59,17 @@
     <p>「 將網頁內容轉換為 Markdown 格式的工具，支持複製、下載、發送到 GitHub 和 Obsidian 等功能。 」</p>
     <img src="https://views.whatilearened.today/views/github/530139/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/web-clipper/web-clipper.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
+    <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.530139&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/530139">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown 雲剪筆記 更新日誌</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Markdown 雲端剪筆記 更新日誌</strong></h1>
+<h3><strong>📅 2026.3.10.1</strong></h3>
+<p><strong>新增</strong>: 熱鍵功能,預設為<code>Shift+Alt+S</code><br>
+<strong>最佳化CSS</strong>: 回應系統主題設定,現在支援深色模式<br></p>
+<hr />
 <h3><strong>📅 2025.03.19.0450</strong></h3>
-<p><strong>新增</strong>:Github 添加可視化界面<br>
+<p><strong>新增</strong>:Github 添加可視化介面<br>
 <strong>截圖</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/MK4WfECZR2aDolA.png" /> <br>
 <strong>截圖</strong>:<img alt="2025.03.19" src="https://s2.loli.net/2025/03/19/tH3JqyauEoOWxKh.png" /> <br></p>
 <h3><strong>📅 2025.03.18.0713</strong></h3>
@@ -78,7 +82,7 @@
 <!--TEXT-->
 
 `Markdown Web Clipper` 是一個用戶腳本，允許你將任何網頁上選定的 HTML 轉換為 Markdown 格式。這對於開發人員、內容創作者或經常需要將 HTML 內容轉換為 Markdown 的任何人來說都非常有用.
-並且可以上傳到`GitHub`倉庫中的`Issues`永久保存,實乃是對網頁中的內容進行永久保存的利器!
+並且可以上傳到`GitHub`倉庫中的`Issues`永遠保存,實乃是對網頁中的內容進行永久保存的利器!
 
 ### 特性
 
@@ -109,7 +113,7 @@
 3.  在任何網頁，按 `Ctrl + m` ，或者在腳本管理器的菜單打開功能，開始選擇 HTML 元素。
 4.  選擇時，根據提示信息，使用鼠標滾輪或者方向鍵來選擇元素。
 5.  選擇後，可以在左側對轉換後的 Markdown 代碼進行編輯，右側為其預覽。
-6.  可以將文本作為`GitHub`倉庫的`Issues`永久保存.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
+6.  可以將文本作為`GitHub`倉庫的`Issues`永遠保存.![2025.03.18](https://s2.loli.net/2025/03/18/tLVHU2OqyFzeM1W.png)
 7.  可以將 Markdown 複製到剪貼板，也可以將其下載為 .md 文件，或者在代碼中配置導入到 Obsidian（使用 [黑曜石晚期 URI](https://vinzent03.github.io/obsidian-advanced-uri/installing)）。
 
 <!--AUTHORS-->
@@ -203,7 +207,7 @@
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -269,7 +273,7 @@
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->
