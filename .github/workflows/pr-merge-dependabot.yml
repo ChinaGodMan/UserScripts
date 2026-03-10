@@ -81,10 +81,10 @@ jobs:
                 pull_number: pr.number,
                 state: 'open',
               });
-             await github.rest.issues.createComment({
-               issue_number: pr.number,
-               owner: owner,
-               repo: repo,
-               body: '@dependabot recreate'
-             });
+              await github.rest.issues.createComment({
+                issue_number: pr.number,
+                owner: owner,
+                repo: repo,
+                body: '@dependabot recreate'
+              });
             }
