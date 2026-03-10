@@ -97,6 +97,7 @@
 // @require            https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js
 // @match              *://*/*
 // @icon               data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABHNCSVQICAgIfAhkiAAABBdJREFUaIHtmluIVlUUx39pMup4Q1FrRi1CrMAaREUS75KlBhKKSGAKzkPRQ0lBPngjkIZeBMWHAccH8VIKJQTSIAgWVBQKglco7YYiitrYjONtjg/7G2bPPmt/nvOdtc8ndn5wQM/+77X+i73PnrPP/qCgoKCg4P/Bi8CGAHFfAj4JEDcTc4GodM1Ujt1aintcOW4mTtFT8GnFuAusuBGwSjF2xdQCdwlj7LwTt1kpbiYGAh30NtauEHe1EzMCtivEVeEEcXObM8bsFGIuyxhTjY3EzUXA4ArjNQmxHmSIp86zwH3iJvdWEGuoECcC9qs4VWQ3stGXU8b52hNnoppTJcYjG/05RYxJnhiHVZ0qcgjZ8OKE/X/x9J+t7lQJ3wj9lqDvUk/fNDOkKhxDNv5+mT5PAb97+r0d0qwG9nu1fV3DvKRIrPX0+SOwVzVOIxfQJGgHA20e/eocvKrwFnIBETDa0W716P7Ny6wWl5AL+cLS1Hs0EfBpnmY1eId4EfeBkZbmsKCJgHu5OlXkBr0Lsb+ITME/uo352tTjA3qKuATUWG1nkYv9M2ePqvSjZwV+17q/HP/ozsvZozpbgAvOvevIxR7N11oYRgLTrP+vxz+6r+TuLjBDkffNEdBSRV/B2IVcbCe9/1w9ETTgn8obq+grGEeQi70MPF1FX0FYiH90V5Y09Zht4hPBGeRi7VOKc8CM/K3pswb/6L7maB6r86NK6APcIl7oAWB6SdMPuGK1rcjfpg79MdNUGlmbz4X2N0OZ0lgkhmCOSF8FxgF1mDPdCR79JuCz0r/7Yz791Aq6m5gp/jdm43EO+J4qbi4WAD/ifz6lqwMY4MRpThnjH2Ad5lHIhT7Alx4zt/FvDHwvGGMw50aSvgv5UK278IYA9cU4KCQ/CyzBTOfhwPOY00Nb04aZ/hLuKF8HFgEvAGMxq/leIe8N4t/IVJkjJD3k0W5zdJvLxB2H+axj6/sKusVC/j3pSkjHN06yyx5dnaO7hdkplWMnyQr50NHdIdAo12CeGzvZex7tt44uyRfIsZhn1u5X79G6W8zXE1WQkjriC4hkaKqjuYZZ6JLgjnKrR/edo/soYfxUPEd8BKRpetzRrE2R4xmnb0TP66fNV47m4xQ5EjMC8zJgJ5ruaJY47TcryNPixDgmaH51NOUO6ipmIPHThIOOxv2ZUZrR7WY48VF+w2qvFdqDvYoeFZLNKrU1Ovc7MuRxPwWdsNpanbYuzIIXhFXEC76D2d795dzPspAME/I0In8T+yFDnkdS7uDavm4r5NqRII873YMwHv/7bfc1VynX1UfkCfHrXZFBwD7BQAfmtxpajAJOCnkuAPMrCZh1P1wDTMZsCv4DfsLsfLSZiNlItGOKvRggR0FBQcHjx0Ng/VhKUt8K3AAAAABJRU5ErkJggg==
+// @require            https://cdn.jsdelivr.net/npm/mousetrap@1.6.5/mousetrap.min.js
 // @compatible         chrome
 // @compatible         firefox
 // @compatible         edge
@@ -106,7 +107,7 @@
 // @compatible         qq
 // @compatible         via
 // @compatible         brave
-// @version            2025.03.19.0450
+// @version            2026.3.10.1
 // @created            2025-03-18 07:13:13
 // @modified           2025-03-18 07:13:13
 // @downloadURL        https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/web-clipper/web-clipper.user.js
@@ -119,7 +120,7 @@
  * File Created: 2025/03/18,Tuesday 07:13:13
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/19,Wednesday 04:50:15
+ * Last Modified: 2026/03/10,Tuesday 12:32:19
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -172,6 +173,8 @@
             gui_github_owner: 'Please enter your GitHub username',
             gui_save: 'Save',
             gui_cancel: 'Cancel',
+            hotkey: 'Press the hotkey you want to set.',
+            hotkey1: 'Set hotkeys',
             guide: `
 - Use **arrow keys** to select elements:
     - Up: Select parent element
@@ -202,6 +205,8 @@
             gui_github_owner: '请输入您的GitHub用户名',
             gui_save: '保存',
             gui_cancel: '取消',
+            hotkey: '按下你想设置的热键',
+            hotkey1: '设置热键',
             guide: `
 - 使用**方向键**选择元素
     - 上:选择父元素
@@ -428,12 +433,21 @@
         .modal-title{margin:0 0 10px 0;font-size:20px;}
         .modal-description{margin-bottom:20px;font-size:14px;color:#666;}
         .modal-description a{color:#007bff;text-decoration:underline;}
-        .modal-close-btn {position: absolute;top: 10px;right: 10px;background-color: red;color: white;border: none;border-radius: 50%;width: 24px;height: 24px;font-size: 16px;cursor: pointer;display: flex;justify-content: center;align-items: center;line-height: 1;}
-        .modal-close-btn:hover {background-color: darkred;}
+        .modal-close-btn{position:absolute;top:10px;right:10px;background-color:red;color:white;border:none;border-radius:50%;width:24px;height:24px;font-size:16px;cursor:pointer;display:flex;justify-content:center;align-items:center;line-height:1;}
+        .modal-close-btn:hover{background-color:darkred;}
         .gui-input{width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;margin-bottom:20px;font-size:14px;}
         #save-token{background-color:#28a745;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;margin-right:10px;}
         #cancel-token{background-color:#dc3545;color:white;border:none;padding:10px 20px;cursor:pointer;border-radius:4px;}
-    `)
+        @media (prefers-color-scheme: dark){
+        .modal-overlay{background:rgba(0,0,0,0.7);}
+        .modal-content{background:#1e1e1e;color:#e6e6e6;box-shadow:0 6px 20px rgba(0,0,0,0.6);}
+        .modal-description{color:#aaa;}
+        .modal-description a{color:#58a6ff;}
+        .gui-input{background:#2a2a2a;color:#e6e6e6;border:1px solid #444;}
+        #save-token{background-color:#238636;}
+        #cancel-token{background-color:#b62324;}
+}
+`)
     function showConfig() {
         const modalHTML = `
             <div class="modal-overlay">
@@ -503,6 +517,62 @@
         return turndownMd
     }
 
+    // 热键设置
+    const STORAGE_KEY = 'web-clipper-hotkey'
+    const DEFAULT_KEY = 'shift+alt+s'
+    let currentHotkey = GM_getValue(STORAGE_KEY, DEFAULT_KEY)
+
+    function bindHotkey(key) {
+        Mousetrap.reset()
+        Mousetrap.bind(key, function () {
+            startSelecting()
+        })
+    }
+
+    bindHotkey(currentHotkey)
+    GM_registerMenuCommand(translate.hotkey1, openHotkeyUI)
+    function openHotkeyUI() {
+        if (document.getElementById('hotkey-overlay')) return
+        const overlay = document.createElement('div')
+        overlay.id = 'hotkey-overlay'
+        overlay.className = 'modal-overlay'
+        overlay.innerHTML = `
+        <div class="modal-content">
+            <button class="modal-close-btn" id="close-hotkey">×</button>
+            <h2 class="modal-title">${translate.hotkey}</h2>
+            <input id="hotkey-input"class="gui-input"value="${currentHotkey}"placeholder="${translate.hotkey}">
+            <button id="save-token">${translate.gui_save}</button>
+            <button id="cancel-token">${translate.gui_cancel}</button>
+        </div>
+    `
+        document.body.appendChild(overlay)
+
+        const input = document.getElementById('hotkey-input')
+        input.focus()
+        input.addEventListener('keydown', function (e) {
+            e.preventDefault()
+            let keys = []
+            if (e.ctrlKey) keys.push('ctrl')
+            if (e.shiftKey) keys.push('shift')
+            if (e.altKey) keys.push('alt')
+            let key = e.key.toLowerCase()
+            if (!['shift', 'ctrl', 'alt'].includes(key)) {
+                keys.push(key)
+            }
+            input.value = keys.join('+')
+        })
+        document.getElementById('save-token').onclick = function () {
+            let key = input.value
+            if (!key) return
+            GM_setValue(STORAGE_KEY, key)
+            bindHotkey(key)
+            overlay.remove()
+        }
+        document.getElementById('cancel-token').onclick =
+            document.getElementById('close-hotkey').onclick = function () {
+                overlay.remove()
+            }
+    }
     // 预览
     function showMarkdownModal(markdown) {
         var $modal = $(`
@@ -732,6 +802,9 @@
             padding: 20px;
             box-sizing: border-box;
             overflow-y: auto;
+        }
+        @media (prefers-color-scheme: dark){
+        .h2m-modal .h2m-preview{background:#1e1e1e;color:#e6e6e6;}
         }
         .h2m-modal .h2m-buttons {
             position: absolute;
