@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+<h3><strong>📅 2026.3.14.1</strong></h3>
+<p><strong>Sửa chữa</strong>: thay thế<code>Code</code>đường dẫn chọn nút,Thay đổi kiểu nghe,Xóa ưu tiên ghi đè thanh điều hướng cố định<br></p>
+<hr />
 <h3><strong>📅 2026.3.5.1</strong></h3>
 <p><strong>Sửa chữa</strong>: Văn bản cảnh báo đã thay đổi thành màu đen,Sửa một số đường dẫn phần tử<br></p>
 <hr />

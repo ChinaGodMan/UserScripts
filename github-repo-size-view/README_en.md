@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2026.3.14.1</strong></h3>
+<p><strong>repair</strong>: replace<code>Code</code>button select path,Change listening type,Remove fixed navigation bar override priority<br></p>
+<hr />
 <h3><strong>📅 2026.3.5.1</strong></h3>
 <p><strong>repair</strong>: Warning text changed to black,Fix some element paths<br></p>
 <hr />

@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2026.3.14.1</strong></h3>
+<p><strong>수리하다</strong>: 바꾸다<code>Code</code>버튼 선택 경로,청취 유형 변경,고정 탐색 표시줄 재정의 우선순위 제거<br></p>
+<hr />
 <h3><strong>📅 2026.3.5.1</strong></h3>
 <p><strong>수리하다</strong>: 경고 텍스트가 검은색으로 변경되었습니다.,일부 요소 경로 수정<br></p>
 <hr />
@@ -113,7 +116,7 @@
 <strong>최적화</strong>: 10초 이내에 요소를 찾을 수 없으면 감지기가 작동을 중지합니다.<br></p>
 <hr />
 <h3><strong>📅 2024/10/05 13:16 - Ver 0.1.3.5</strong></h3>
-<p><strong>수리하다</strong>:CSS 모바일 장치에서 작은 구분선이 잘못 숨겨졌습니다.：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
+<p><strong>수리하다</strong>:CSS 모바일 장치에서 작은 구분선 막대가 잘못 숨겨졌습니다.：<code>d-none d-md-block border-top</code>→<code>border-top</code></p>
 <hr />
 <h3><strong>📅 2024/10/05 08:10 - Ver 0.1.3.4</strong></h3>
 <p><strong>새로운</strong>: 빠른 점프 목록에 마우스 호버 추가<code>Title</code>기본 창고 정보 표시<br>

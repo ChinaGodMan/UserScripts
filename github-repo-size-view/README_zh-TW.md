@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升級日誌</strong></h1>
+<h3><strong>📅 2026.3.14.1</strong></h3>
+<p><strong>修復</strong>: 更換<code>Code</code>按鈕選擇路徑,更改監聽類型,刪除固定導覽列覆蓋優先權<br></p>
+<hr />
 <h3><strong>📅 2026.3.5.1</strong></h3>
 <p><strong>修復</strong>: 警告文字改成黑色,修復一些元素路徑<br></p>
 <hr />
