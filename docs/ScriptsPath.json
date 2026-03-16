@@ -1102,6 +1102,20 @@
       "preview": "https://smms.app/image/IXiw9Mgkt4djWa2",
       "icon": "https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png",
       "readme_locales": "zh-TW,vi,en,ko"
+    },
+    {
+      "name": "Twitter(X)-plus",
+      "description": "",
+      "group": "Twitter",
+      "js_name": "twitter(X)-plus.user.js",
+      "directory": "twitter(X)-plus",
+      "version": "2026.3.16.1",
+      "greasyfork_id": null,
+      "created_at": "2026-03-16 13:09:27",
+      "preview": "https://files.seeusercontent.com/2026/03/16/c1iG/pic_1773643051917.png",
+      "icon": "https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg",
+      "readme_locales": "zh-TW,vi,en,ko",
+      "script_locales": null
     }
   ]
 }
