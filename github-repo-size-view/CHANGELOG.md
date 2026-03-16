@@ -1,5 +1,12 @@
 # **🛠️ GitHub Repo Size+ 升级日志**
 
+### **📅 2026.3.16.1**
+
+**新增**: 在个人资料页显示`查看 Gist 资料`<br>![2026.03.16](https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png)<br>来自[GitHub: View User Gists](https://greasyfork.org/zh-CN/scripts/559202)<br>
+**修复**: 修改`Code`按钮查找逻辑<br>
+
+---
+
 ### **📅 2026.3.14.1**
 
 **修复**: 更换`Code`按钮选择路径,更改监听类型,删除固定导航栏覆盖优先级<br>

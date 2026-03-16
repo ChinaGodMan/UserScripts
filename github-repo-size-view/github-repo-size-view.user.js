@@ -80,8 +80,8 @@
 // @description:zh-HK  🤠 倉庫顯示大小：在 GitHub 的程式碼搜尋、倉庫搜尋、議題頁面、使用者倉庫清單和儲存庫頁面上，倉庫名稱旁會顯示該倉庫的大小，方便使用者快速了解倉庫的規模，最佳化選擇。不活躍開發警告：如果某個倉庫在過去六個月內沒有更新，系統會在倉庫的頂部添加提示，提醒用戶該倉庫不活躍，並顯示最後一次更新的時間。這有助於使用者判斷倉庫的活躍程度和維護狀況。倉庫內快速跳轉：在瀏覽倉庫時，使用者可以方便地查看該使用者的所有倉庫列表，提供一個快速跳到不同倉庫的入口。用戶可以快速找到和存取感興趣的其他項目，提高工作效率。使用情境：開發者：可以透過顯示倉庫大小和活躍警告，快速篩選出適當的庫進行開發，避免使用不再維護的項目。專案管理者：透過快速跳轉功能，方便管理和協調多個項目，提高工作效率。學習者：在學習新科技時，可以更方便地找到相關的開源項目，快速查看專案的活躍程度和規模。 🤠
 // @description:fr-CA  🤠 Taille d’affichage de l’entrepôt : sur la recherche de code, la recherche d’entrepôt, la page de problèmes, la liste d’entrepôts d’utilisateurs et la page de référentiel de GitHub, la taille de l’entrepôt sera affichée à côté du nom de l’entrepôt, permettant aux utilisateurs de comprendre rapidement l’échelle de l’entrepôt et d’optimiser leur sélection. Avertissement de développement inactif : si un référentiel n’a pas été mis à jour au cours des six derniers mois, le système ajoutera une invite en haut du référentiel pour rappeler aux utilisateurs que le référentiel est inactif et affichera l’heure de la dernière mise à jour. Cela aide les utilisateurs à déterminer l’activité et l’état de maintenance de l’entrepôt. Saut rapide dans l’entrepôt : lors de la navigation dans l’entrepôt, l’utilisateur peut facilement consulter la liste de tous les entrepôts de l’utilisateur, offrant ainsi une entrée pour accéder rapidement à différents entrepôts. Les utilisateurs peuvent trouver et accéder rapidement à d’autres projets d’intérêt, améliorant ainsi l’efficacité du travail. Scénarios d’utilisation : Développeurs : en affichant la taille de l’entrepôt et les avertissements actifs, vous pouvez rapidement filtrer les bibliothèques appropriées pour le développement et éviter d’utiliser des projets qui ne sont plus maintenus. Gestionnaire de projet : grâce à la fonction de saut rapide, il est facile de gérer et de coordonner plusieurs projets et d’améliorer l’efficacité du travail. Apprenants : lorsqu’ils apprennent de nouvelles technologies, ils peuvent plus facilement trouver des projets open source pertinents et vérifier rapidement l’activité et l’ampleur des projets. 🤠
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            2026.3.14.1
-// @author             mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
+// @version            2026.3.16.1
+// @author             Khalila Gazal,mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match              https://github.com/*
 // @run-at             document-start
 // @grant              GM_getValue
@@ -107,7 +107,7 @@
  * File Created: 2024/11/24,Sunday 12:38:48
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2026/03/14,Saturday 01:35:39
+ * Last Modified: 2026/03/16,Monday 15:09:30
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
@@ -167,7 +167,8 @@ const translations = {
         get_more_repos_perpage: 'Quickly jump to the repositories below to get the number displayed per page',
         fixed_head: 'Fixed page navigation bar',
         fixed_head_on_mobile: 'Fixed page navigation bar on mobile devices',
-        refresh_time: 'Enter the refresh time of the local cache (Format 1: 1s1m1s Format 2: 10h Format 3: 10s etc...)'
+        refresh_time: 'Enter the refresh time of the local cache (Format 1: 1s1m1s Format 2: 10h Format 3: 10s etc...)',
+        gist_profile: 'View Gist Profile'
 
     },
     'zh-CN,zh,zh-SG': {
@@ -217,7 +218,8 @@ const translations = {
         get_more_repos_perpage: '快捷跳转仓库-下方输入获取每页显示的数量',
         fixed_head: '固定页面导航栏',
         fixed_head_on_mobile: '移动设备上固定页面导航栏',
-        refresh_time: '输入本地缓存的刷新时间(格式1:1s1m1s 格式2:10h 格式3:10s 等等...)'
+        refresh_time: '输入本地缓存的刷新时间(格式1:1s1m1s 格式2:10h 格式3:10s 等等...)',
+        gist_profile: '查看 Gist 个人资料'
     },
     'zh-TW,zh-HK,zh-MO': {
         save: '保存',
@@ -667,6 +669,34 @@ document.addEventListener('turbo:load', () => {
             })
     }
 })
+
+//!SECTION 插入个人Gist资料
+// Run the script again when navigating to a new page without a refresh
+document.addEventListener('DOMContentLoaded', injectGistButton)
+function injectGistButton() {
+    // Find the sidebar area where the 'Follow' button is located
+    const sidebar = document.querySelector('.js-profile-editable-area')
+
+    // Stop if the sidebar isn't found or if the button is already there
+    if (!sidebar || document.getElementById('gist-profile-link')) return
+
+    // Get the username from the address bar
+    const username = window.location.pathname.split('/')[1]
+
+    // Create the link and make it look like a GitHub button
+    const btn = document.createElement('a')
+    btn.id = 'gist-profile-link'
+    btn.innerText = translate.gist_profile
+    btn.href = `https://gist.github.com/${username}`
+    btn.className = 'btn btn-block mt-2'
+
+    // Put the button into the sidebar
+    sidebar.appendChild(btn)
+}
+
+// Run the script when the page first opens
+injectGistButton()
+
 /* document.addEventListener('turbo:load', () => {
     addSizeToRepos()
 }) */  //!SECTION-网络不顺畅时，加载太慢
@@ -844,10 +874,11 @@ function insertReposList(links, tip = false) {
         '.faNtbn .d-flex.gap-2', // Repo files page
         '.gwHaUx .d-flex.gap-2' // Commits page
     ]
-    // document.querySelector(selectors.join(', '))
-    // document.getElementById(':R55ab:')直接选择code按钮 使用中文化脚本元素变化选择(':rn:')
-    const buttons = document.querySelectorAll('button[class="prc-Button-ButtonBase-9n-Xk"]')
-    const existingButton = buttons[buttons.length - 1]
+
+    const buttons = Array.from(document.querySelectorAll('button[class^="prc-Button-ButtonBase-"]')).find(
+        btn => ['代码', 'Code'].includes(btn.textContent.trim())
+    )
+    const existingButton = buttons
     if (existingButton) {
         const sortedLinks = links.sort((a, b) => {//!SECTION 排序
             // 首先比较 fork 下沉到数组的低端.
