@@ -65,8 +65,12 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>새로운</strong>: 在个人재료页显示<code>확인하다 Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>~에서<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
+<strong>수리하다</strong>: 개정하다<code>Code</code>버튼 검색 로직<br></p>
+<hr />
 <h3><strong>📅 2026.3.14.1</strong></h3>
-<p><strong>수리하다</strong>: 바꾸다<code>Code</code>버튼 선택 경로,청취 유형 변경,고정 탐색 표시줄 재정의 우선순위 제거<br></p>
+<p><strong>수리하다</strong>: 바꾸다<code>Code</code>버튼 선택 경로,청취 유형 변경,고정 탐색 모음 우선 순위 제거<br></p>
 <hr />
 <h3><strong>📅 2026.3.5.1</strong></h3>
 <p><strong>수리하다</strong>: 경고 텍스트가 검은색으로 변경되었습니다.,일부 요소 경로 수정<br></p>
@@ -86,7 +90,7 @@
 <strong>새로운</strong>:로컬 캐시:사용자 정의 캐시 새로 고침 시간 허용<br></p>
 <hr />
 <h3><strong>📅 2025.04.16.2350</strong></h3>
-<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>지원 시스템<code>조명 모드</code>그리고<code>다크 모드</code><br>
+<p><strong>새로운</strong>:<a href="https://github.com/notifications">알림 페이지</a>지원 시스템<code>라이트 모드</code>그리고<code>다크 모드</code><br>
 <strong>스크린샷</strong>:<img alt="2025.04.16" src="https://s2.loli.net/2025/04/16/LPuwO96n7eGgzFY.gif" /><br></p>
 <hr />
 <h3><strong>📅 2025.04.16.1439</strong></h3>
@@ -147,7 +151,7 @@
 <hr />
 <h3><strong>📅 2024/9/26 09:05 - Ver 0.1.3.2</strong></h3>
 <p><strong>최적화</strong>: 작은 태그 최적화<br>
-<strong>새로운</strong>: 비활성 개발 배너의 오른쪽 하단에는 마지막<code>Push</code>지금부터 얼마나 됐나요<br></p>
+<strong>새로운</strong>: 비활성 개발 배너의 오른쪽 하단에는 마지막 개발 배너가 표시됩니다.<code>Push</code>지금부터 얼마나 됐나요<br></p>
 <hr />
 <h3><strong>📅 2024/9/26 02:16 - Ver 0.1.3.1</strong></h3>
 <p><strong>최적화</strong>: 실행 효율성 최적화,로딩 속도 향상<br>
@@ -196,10 +200,11 @@
 
 <!--HISTORY-END-->
 <!--AUTHORS-->
-## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
+## 💖 해당 스크립트는 다음 스크립트를 참조하거나 사용합니다.:
 [🧑‍💻 **@mshll**](https://greasyfork.org/users/1010122) ⇒ 📜 _[Github Repo Size](https://greasyfork.org/scripts/458048)_<br>
-[🧑‍💻 **@a1pha**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 빨리 활동적인 것을 찾으십시오Forks목록](https://greasyfork.org/scripts/494365)_<br>
-[🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 향상 키트](https://greasyfork.org/scripts/529862)_
+[🧑‍💻 **@TLDR**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 빠르게 활동 찾기Forks목록](https://greasyfork.org/scripts/494365)_<br>
+[🧑‍💻 **@util6**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 강화 키트](https://greasyfork.org/scripts/529862)_<br>
+[🧑‍💻 **@khaliladev**](https://greasyfork.org/users/1549049) ⇒ 📜 _[GitHub: View User Gists](https://greasyfork.org/scripts/559202)_
 <!--AUTHORS-END-->
 
 🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)

@@ -65,6 +65,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>新增</strong>: 在个人资料页显示<code>查看 Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>来自<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
+<strong>修复</strong>: 修改<code>Code</code>按钮查找逻辑<br></p>
+<hr />
 <h3><strong>📅 2026.3.14.1</strong></h3>
 <p><strong>修复</strong>: 更换<code>Code</code>按钮选择路径,更改监听类型,删除固定导航栏覆盖优先级<br></p>
 <hr />
@@ -198,8 +202,9 @@
 <!--AUTHORS-->
 ## 💖 脚本参考或使用了以下脚本:
 [🧑‍💻 **@mshll**](https://greasyfork.org/users/1010122) ⇒ 📜 _[Github Repo Size](https://greasyfork.org/scripts/458048)_<br>
-[🧑‍💻 **@a1pha**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 快捷查找活跃的Forks列表](https://greasyfork.org/scripts/494365)_<br>
-[🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 增强套件](https://greasyfork.org/scripts/529862)_
+[🧑‍💻 **@TLDR**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github 快捷查找活跃的Forks列表](https://greasyfork.org/scripts/494365)_<br>
+[🧑‍💻 **@util6**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub 增强套件](https://greasyfork.org/scripts/529862)_<br>
+[🧑‍💻 **@khaliladev**](https://greasyfork.org/users/1549049) ⇒ 📜 _[GitHub: View User Gists](https://greasyfork.org/scripts/559202)_
 <!--AUTHORS-END-->
 
 🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)

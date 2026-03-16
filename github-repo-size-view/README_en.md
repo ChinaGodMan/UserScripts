@@ -65,6 +65,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>New</strong>: 在个人material页显示<code>Check Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>from<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
+<strong>repair</strong>: Revise<code>Code</code>Button search logic<br></p>
+<hr />
 <h3><strong>📅 2026.3.14.1</strong></h3>
 <p><strong>repair</strong>: replace<code>Code</code>button select path,Change listening type,Remove fixed navigation bar override priority<br></p>
 <hr />
@@ -196,10 +200,11 @@
 
 <!--HISTORY-END-->
 <!--AUTHORS-->
-## 💖 The script referenced or used the following script:
+## 💖 The script refers to or uses the following script:
 [🧑‍💻 **@mshll**](https://greasyfork.org/users/1010122) ⇒ 📜 _[Github Repo Size](https://greasyfork.org/scripts/458048)_<br>
-[🧑‍💻 **@a1pha**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github Quickly find activeForksList](https://greasyfork.org/scripts/494365)_<br>
-[🧑‍💻 **@codeRookieyutaoliu**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub Enhancement Kit](https://greasyfork.org/scripts/529862)_
+[🧑‍💻 **@TLDR**](https://greasyfork.org/users/1298296) ⇒ 📜 _[Github Quickly find activeForkslist](https://greasyfork.org/scripts/494365)_<br>
+[🧑‍💻 **@util6**](https://greasyfork.org/users/1442181) ⇒ 📜 _[GitHub Enhancement Kit](https://greasyfork.org/scripts/529862)_<br>
+[🧑‍💻 **@khaliladev**](https://greasyfork.org/users/1549049) ⇒ 📜 _[GitHub: View User Gists](https://greasyfork.org/scripts/559202)_
 <!--AUTHORS-END-->
 🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)
 
