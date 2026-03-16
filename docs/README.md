@@ -95,7 +95,7 @@
 💡 **Tip:** _要显示预览截图，请点击扩展名称下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**储存库当前发布脚本数量:83,脚本包括:**
+**储存库当前发布脚本数量:84,脚本包括:**
 <h6><a href="#网页脚本-10">网页脚本 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#成人脚本-11">成人脚本 (11)</a>
@@ -104,7 +104,7 @@
  | <a href="#翻译脚本-3">翻译脚本 (3)</a>
  | <a href="#AI-脚本-9">AI 脚本 (9)</a>
  | <a href="#博客网站-5">博客网站 (5)</a>
- | <a href="#Twitter-4">Twitter (4)</a>
+ | <a href="#Twitter-5">Twitter (5)</a>
  | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
  | <a href="#Bilibili-2">Bilibili (2)</a>
@@ -2688,7 +2688,7 @@ ChatGPT 让代码字体变小 并且自动折行
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>Twitter (4)</h1></div><h3>
+<div align="center"><h1>Twitter (5)</h1></div><h3>
     <a href="../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
     <a href="../twitter-hide-reposts">Twitter/X 隐藏转发的帖子</a>&nbsp;
@@ -2836,6 +2836,46 @@ ChatGPT 让代码字体变小 并且自动折行
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a>
+</blockquote>
+<h3>
+    <a href="../twitter(X)-plus">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
+    <a href="../twitter(X)-plus">Twitter(X)-Plus</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/569860">
+        <img src="https://img.shields.io/greasyfork/dt/569860?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>视频取消静音,视频取消自动循环播放,推文删除转发、Grok/浏览量按钮,添加一键屏蔽,一键复制推文网址按钮</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus">
+            <img width=511 src="https://files.seeusercontent.com/2026/03/16/c1iG/pic_1773643051917.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/569860">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/569860">
+        Greasemonkey</a> /
+    <a href="../twitter(X)-plus/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../twitter(X)-plus/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="../twitter(X)-plus/twitter(X)-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter(X)-plus/twitter(X)-plus.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
