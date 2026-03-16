@@ -59,39 +59,42 @@
     <p>「 Khi có câu trả lời mới cho tập lệnh của bạn hoặc cho cuộc thảo luận mà bạn đang tham gia，Tập lệnh sẽ hiển thị nội dung thảo luận mới nhất trong một cửa sổ phương thức trên trang web。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Ki%E1%BB%83m%20tra%20c%E1%BA%ADp%20nh%E1%BA%ADt%20h%C3%A0ng%20ng%C3%A0y&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Trợ lý thông báo Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Trợ lý thông báo Nhật ký thay đổi</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Sửa lỗi nhầm lẫn giao diện cài đặt.<code>CSS</code>issues<br></p>
+<hr />
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
-<p><strong>Mới</strong>: <code>https://greasyfork.org/users/*/notifications</code>Đảo ngược phân loại,Hãy để thông tin mới nhất được hiển thị trên đầu,Thay vì đáy.</p>
+<p><strong>Mới</strong>: <code>https://greasyfork.org/users/*/notifications</code>sắp xếp ngược lại,Để thông tin mới nhất xuất hiện ở trên cùng,thay vì đáy.</p>
 <hr />
 <h3><strong>📅 2024/9/24 08:32 - Ver 1.5.0.3</strong></h3>
-<p><strong>tối ưu hóa</strong>: 🙄 Số lượng tin nhắn mới được hiển thị trong cửa sổ,Khi a<code>discussions</code>Khi không có thông tin chưa đọc,Không có tiêu đề phân loại nào được thêm vào. <br>
+<p><strong>tối ưu hóa</strong>: 🙄 Cửa sổ hiển thị số lượng tin nhắn mới,khi một<code>discussions</code>Khi không có tin nhắn chưa đọc,Tiêu đề danh mục sẽ không được thêm vào. <br>
 <strong>Mới</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
 <hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>Mới</strong>: 🙄 Thêm một<code>sweetalert.js</code>Thư viện của bên thứ ba,Làm cho nó thuận tiện cho chính mình KIWi Chỉ cần sử dụng nó trên trình duyệt</p>
+<p><strong>Mới</strong>: 🙄 thêm vào<code>sweetalert.js</code>Thư viện của bên thứ ba,Thuận tiện cho chính mình KIWi Chỉ cần sử dụng nó trên trình duyệt</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>Mới</strong>: Thêm vào<code>read=unread</code>tham số,Chỉ trích xuất thông tin chưa đọc,Phiên bản này là phiên bản cuối cùng.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Thông báo trang web đã dần được hỗ trợ,Kịch bản sẽ mất đi ý nghĩa của sự tồn tại của nó.</p>
+<p><strong>Mới</strong>: Thêm vào<code>read=unread</code>tham số,Chỉ trích xuất các tin nhắn chưa đọc,Phiên bản này là cuối cùng.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Thông báo tại chỗ đã dần được hỗ trợ,Chữ viết sẽ mất đi ý nghĩa.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới của bạn,并且在Khớp với loa cuối cùng用户 ID Khi thất bại,匹配最后发言人.</p>
+<p><strong>Mới</strong>: Bỏ qua cuộc thảo luận mới mở của riêng bạn,并且在Phù hợp với người nói cuối cùng用户 ID về sự thất bại,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>cải thiện </strong>: Danh sách thảo luận để sử dụng trang web thay thế，Thêm danh mục trong thông tin。</p>
+<p><strong>cải thiện </strong>: Thay vào đó hãy sử dụng danh sách thảo luận của trang web，Thêm danh mục vào thông tin。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>Mới</strong>: Tăng số lượng khỉ dầu để đặt số lượng tin nhắn tối đa。<br />
-<strong>Mới</strong>: Thêm để bỏ qua người phát ngôn cuối cùng là <code>Sở hữu</code> Tùy chọn。</p>
+<p><strong>Mới</strong>: Đã thêm menu khỉ mỡ để cài đặt số lượng tin nhắn tối đa。<br />
+<strong>Mới</strong>: Đã thêm bỏ qua loa cuối cùng là <code>Sở hữu</code> tùy chọn。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>Mới</strong>: Đã thêm cài đặt thời gian làm mới cho menu dầu dầu。</p>
+<p><strong>Mới</strong>: Đã thêm menu khỉ dầu để đặt thời gian làm mới。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
-<p><strong>ban đầu</strong>: Phiên bản ban đầu，Chào mừng。</p>
+<p><strong>ban đầu</strong>: phiên bản đầu tiên，Chào mừng。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>

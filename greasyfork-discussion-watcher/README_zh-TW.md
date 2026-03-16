@@ -59,36 +59,39 @@
     <p>「 當你的腳本或你參與的討論有新回應時，腳本會在網頁上以模態視窗顯示最新的討論內容。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 通知助手 更新日誌</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>修復</strong>: 修復設定介面錯亂無<code>CSS</code>issues<br></p>
+<hr />
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
-<p><strong>新增</strong>: <code>https://greasyfork.org/users/*/notifications</code>反轉排序,讓最新的信息顯示在頂部,而不是底部.</p>
+<p><strong>新增</strong>: <code>https://greasyfork.org/users/*/notifications</code>反轉排序,讓最新的資訊顯示在頂部,而不是底部.</p>
 <hr />
 <h3><strong>📅 2024/9/24 08:32 - Ver 1.5.0.3</strong></h3>
-<p><strong>最佳化</strong>: 🙄 窗口顯示新消息數量,當一個<code>discussions</code>沒有未讀信息時,不會添加分類標題. <br>
+<p><strong>最佳化</strong>: 🙄 視窗顯示新訊息數量,當一個<code>discussions</code>沒有未讀訊息時,不會新增分類標題. <br>
 <strong>新增</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
 <hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>新增</strong>: 🙄 增加個<code>sweetalert.js</code>第三方庫,方便自己在 KIWi 瀏覽器上使用罷了</p>
+<p><strong>新增</strong>: 🙄 增加個<code>sweetalert.js</code>第三方函式庫,方便自己在 KIWi 瀏覽器上使用罷了</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>新增</strong>: 添加<code>read=unread</code>參數,只提取未讀信息,此版本為最終版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已經逐步支持站內通知,腳本將失去存在的意義.</p>
+<p><strong>新增</strong>: 添加<code>read=unread</code>參數,只擷取未讀訊息,此版本為最終版本.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 已经逐步支持站内通知,脚本将失去存在的意义.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>新增</strong>: 跳過自己新開的討論,并且在匹配最後發言人用户 ID 失敗時,匹配最后发言人.</p>
+<p><strong>新增</strong>: 跳过自己新开的讨论,并且在匹配最後發言人用户 ID 失敗時,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>改進</strong>: 改為使用網站的討論列表，增加在信息內添加分類。</p>
+<p><strong>改進</strong>: 改为使用网站的讨论列表，增加在信息内添加分类。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>新增</strong>: 增加設置最大消息數量的油猴菜單。<br />
+<p><strong>新增</strong>: 增加设置最大消息数量的油猴菜单。<br />
 <strong>新增</strong>: 增加跳過最後發言人是 <code>自己</code> 的選項。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>新增</strong>: 增加設置刷新時間的油猴菜單。</p>
+<p><strong>新增</strong>: 增加设置刷新时间的油猴菜单。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
 <p><strong>初始</strong>: 初始版本，歡迎使用。</p>
@@ -112,7 +115,7 @@
 
 -   **自定義樣式：** 提供一個乾淨、用戶友好的模態窗口，用於顯示最新的討論內容，樣式可自定義。
 -   **自動更新：** 腳本會定期檢查討論的更新，並在有新回复時提醒你。
--   **信息提取：** 從網頁上提取討論標題、時間戳和用戶名，並將其整理到模態窗口中。
+-   **資訊擷取：** 從網頁上提取討論標題、時間戳和用戶名，並將其整理到模態窗口中。
 
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
@@ -223,7 +226,7 @@
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -294,7 +297,7 @@
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->

@@ -60,35 +60,38 @@
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
     <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%ED%99%95%EC%9D%B8&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 알림 어시스턴트 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 알림 도우미 변경 로그</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>수리하다</strong>: 설정 인터페이스 혼란을 수정합니다.<code>CSS</code>issues<br></p>
+<hr />
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
-<p><strong>새로운</strong>: <code>https://greasyfork.org/users/*/notifications</code>정렬을 뒤집습니다,최신 정보를 맨 위에 표시하도록하십시오,바닥 대신.</p>
+<p><strong>새로운</strong>: <code>https://greasyfork.org/users/*/notifications</code>역 정렬,최신 정보가 상단에 표시되도록 하세요.,바닥 대신.</p>
 <hr />
 <h3><strong>📅 2024/9/24 08:32 - Ver 1.5.0.3</strong></h3>
-<p><strong>최적화</strong>: 🙄 창에 표시된 새 메시지 수,언제 a<code>discussions</code>읽지 않은 정보가 없을 때,분류 제목이 추가되지 않습니다. <br>
+<p><strong>최적화</strong>: 🙄 창에 새 메시지 수가 표시됩니다.,언제<code>discussions</code>읽지 않은 메시지가 없을 때,카테고리 제목은 추가되지 않습니다.. <br>
 <strong>새로운</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
 <hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>새로운</strong>: 🙄 하나를 추가하십시오<code>sweetalert.js</code>타사 도서관,자신에게 편리하게 만듭니다 KIWi 브라우저에서 사용하십시오</p>
+<p><strong>새로운</strong>: 🙄 추가하다<code>sweetalert.js</code>타사 라이브러리,자신에게 편리함 KIWi 그냥 브라우저에서 사용하세요</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>새로운</strong>: 추가<code>read=unread</code>매개 변수,읽지 않은 정보 만 추출하십시오,이 버전은 최종 버전입니다.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 사이트 알림이 점차 지원되었습니다,대본은 존재의 의미를 잃게됩니다.</p>
+<p><strong>새로운</strong>: 다음에 추가<code>read=unread</code>매개변수,읽지 않은 메시지만 추출,이 버전이 최종 버전입니다..<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork 사이트 내 알림이 점진적으로 지원되었습니다.,스크립트는 의미를 잃게 됩니다..</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>새로운</strong>: 새로운 토론을 건너 뛰십시오,并且在마지막 스피커와 일치합니다用户 ID 실패시,匹配最后发言人.</p>
+<p><strong>새로운</strong>: 새로 열린 토론을 건너뛰세요.,并且在마지막 화자와 일치用户 ID 실패 시,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>개선하다</strong>: 대신 웹 사이트를 사용하기위한 토론 목록，정보에 카테고리를 추가하십시오。</p>
+<p><strong>개선하다</strong>: 대신 사이트의 토론 목록을 사용하세요.，정보에 카테고리 추가。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>새로운</strong>: 최대 메시지 수를 설정하기 위해 오일 원숭이 수를 늘리십시오.。<br />
-<strong>새로운</strong>: 마지막 대변인을 건너 뛰기 위해 추가하십시오 <code>소유하다</code> 옵션。</p>
+<p><strong>새로운</strong>: 최대 메시지 수 설정을 위한 그리스몽키 메뉴 추가。<br />
+<strong>새로운</strong>: 마지막 발언자 건너뛰기를 추가했습니다. <code>소유하다</code> 옵션。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>새로운</strong>: 오일 원숭이 메뉴의 새로 고침 시간 설정 추가。</p>
+<p><strong>새로운</strong>: 새로 고침 시간을 설정할 수 있는 오일몽키 메뉴 추가。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
 <p><strong>초기의</strong>: 초기 버전，환영。</p>

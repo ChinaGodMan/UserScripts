@@ -59,39 +59,42 @@
     <p>「 When there’s a new reply to your script or to a discussion you’re participating in，The script will display the latest discussion content in a modal window on the web page。 」</p>
     <img src="https://views.whatilearened.today/views/github/506345/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20for%20updates&query=$.506345&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Notification Assistant Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork Notification Assistant Change log</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>repair</strong>: Fix the setting interface confusion.<code>CSS</code>issues<br></p>
+<hr />
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
-<p><strong>New</strong>: <code>https://greasyfork.org/users/*/notifications</code>Invert sorting,Let the latest information be displayed on top,Instead of the bottom.</p>
+<p><strong>New</strong>: <code>https://greasyfork.org/users/*/notifications</code>reverse sort,Have the latest information appear at the top,instead of the bottom.</p>
 <hr />
 <h3><strong>📅 2024/9/24 08:32 - Ver 1.5.0.3</strong></h3>
-<p><strong>optimization</strong>: 🙄 The number of new messages displayed in the window,When a<code>discussions</code>When there is no unread information,No classification titles are added. <br>
+<p><strong>optimization</strong>: 🙄 The window displays the number of new messages,when a<code>discussions</code>When there are no unread messages,Category titles will not be added. <br>
 <strong>New</strong>: i18n→[zh-CN,zh-TW,en,ko,ja,vi]</p>
 <hr />
 <h3><strong>📅 2024/9/20 18:40 - Ver 1.5.0.2</strong></h3>
-<p><strong>New</strong>: 🙄 Add one<code>sweetalert.js</code>Third-party library,Make it convenient for yourself KIWi Just use it on the browser</p>
+<p><strong>New</strong>: 🙄 add<code>sweetalert.js</code>Third-party libraries,Convenient for yourself KIWi Just use it on the browser</p>
 <hr />
 <h3><strong>📅 2024/9/12 07:42 - Ver 1.5.0.0</strong></h3>
-<p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread information,This version is the final version.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork Site notifications have been gradually supported,The script will lose its meaning of existence.</p>
+<p><strong>New</strong>: Add to<code>read=unread</code>parameter,Extract only unread messages,This version is final.<a href="https://greasyfork.org/discussions/greasyfork/259731">#259731</a>GreasyFork In-site notifications have been gradually supported,Scripts will lose their meaning.</p>
 <hr />
 <h3><strong>📅 2024/9/11 07:52 - Ver 1.4.0.0</strong></h3>
-<p><strong>New</strong>: Skip your new discussion,并且在Match the last speaker用户 ID When failure,匹配最后发言人.</p>
+<p><strong>New</strong>: Skip your own newly opened discussion,并且在Match last speaker用户 ID on failure,匹配最后发言人.</p>
 <hr />
 <h3><strong>📅 2024/9/7 09:06 - Ver 1.3.0.0</strong></h3>
-<p><strong>improve</strong>: Discussion list for using the website instead，Add categories in the information。</p>
+<p><strong>improve</strong>: Use the site’s discussion list instead，Add categories to information。</p>
 <hr />
 <h3><strong>📅 2024/9/4 04:39 - Ver 1.2.0.0</strong></h3>
-<p><strong>New</strong>: Increase the number of oil monkeys to set the maximum number of messages。<br />
-<strong>New</strong>: Add to skip the last spokesperson is <code>Own</code> Options。</p>
+<p><strong>New</strong>: Added grease monkey menu for setting the maximum number of messages。<br />
+<strong>New</strong>: Added skip last speaker is <code>Own</code> options。</p>
 <hr />
 <h3><strong>📅 2024/9/3 09:10 - Ver 1.1.0.0</strong></h3>
-<p><strong>New</strong>: Added setting refresh time for the oil monkey menu。</p>
+<p><strong>New</strong>: Added oil monkey menu to set refresh time。</p>
 <hr />
 <h3><strong>📅 2024/9/2 12:24 - Ver 1.0.0.0</strong></h3>
-<p><strong>initial</strong>: Initial version，Welcome。</p>
+<p><strong>initial</strong>: initial version，Welcome。</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/506345.png">
 </div></center>

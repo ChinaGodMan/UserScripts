@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/506345">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Greasyfork 通知助手 更新日志</strong></h1>
+<h3><strong>📅 2026.3.16.1</strong></h3>
+<p><strong>修复</strong>: 修复设置界面错乱无<code>CSS</code>问题<br></p>
+<hr />
 <h3><strong>📅 2024/9/28 10:17 - Ver 1.5.0.4</strong></h3>
 <p><strong>新增</strong>: <code>https://greasyfork.org/users/*/notifications</code>反转排序,让最新的信息显示在顶部,而不是底部.</p>
 <hr />
