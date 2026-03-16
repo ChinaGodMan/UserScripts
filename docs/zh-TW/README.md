@@ -33,7 +33,7 @@
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E5%A5%BD%E8%A9%95&query=$.totalGoodRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Good Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%89%80%E6%9C%89%E4%B8%80%E8%88%AC&query=$.totalOkRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=FF9800&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Ok Ratings">
 <img src="https://img.shields.io/badge/dynamic/json?label=%E6%89%80%E6%9C%89%E5%B7%AE%E8%A9%95&query=$.totalBadRatings&logo=greasyfork&logoColor=white&labelColor=%23670000&color=F44336&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/total_installs.json" alt="Bad Ratings">
-<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=代码质量&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
+<a href="https://www.codefactor.io/repository/github/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/codefactor/grade/github/chinagodman/UserScripts?label=%E4%BB%A3%E7%A2%BC%E5%93%81%E8%B3%AA&logo=codefactor&logoColor=white&labelColor=464646&color=b5fc7b&style=for-the-badge" alt="CodeQuality"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/stars/ChinaGodMan/UserScripts?label=%E6%98%9F%E6%A8%99&logo=github&logoColor=white&labelColor=black&color=FF69B4&style=for-the-badge" alt="Stars"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts" target="_blank"><img src="https://img.shields.io/github/forks/ChinaGodMan/UserScripts?label=Forks&logo=github&logoColor=white&labelColor=black&color=grey&style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/ChinaGodMan/UserScripts/issues" target="_blank"><img src="https://img.shields.io/github/issues/ChinaGodMan/UserScripts?label=issues&logo=github&logoColor=white&labelColor=black&style=for-the-badge" alt="Issue"></a>
@@ -48,9 +48,9 @@
 
 <center><div align="center">
     <strong>劇本來自網路廣大網友，本人僅是做了些許改動.感謝網友</strong><br>
-    <strong>如有侵權,聯繫必刪</strong><br>
+    <strong>如有侵權,联系必删</strong><br>
     <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-    <strong>推薦使用：</strong><br>
+    <strong>推荐使用：</strong><br>
 <img src="https://img.shields.io/badge/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E6%8E%A8%E8%96%A6%E7%80%8F%E8%A6%BD%E5%99%A8-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E8%85%B3%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8-%20Violentmonkey%20%7C%20%20Tampermonkey%20%7C%20%20ScriptCat%20%7C%20%20OrangeMonkey%20%7C%20STAY-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -69,7 +69,7 @@
 >    :trollface: 如果你在中國大陸地區使用<code>git clone</code>下載速度太慢，你也可以是使用以下地址進行
 >    
 >  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (鏡像帳號，非本人)  
+>    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (镜像账号，非本人)  
 >    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
 >    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
 >    
@@ -95,12 +95,12 @@
 💡 **Tip:** _若要顯示預覽截圖，請點選擴充名稱下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**儲存庫目前發布腳本數量:84,腳本包括:**
+**儲存庫目前發布腳本數量:85,腳本包括:**
 <h6><a href="#網頁腳本-10">網頁腳本 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#成人腳本-11">成人腳本 (11)</a>
  | <a href="#Google 腳本-2">Google 腳本 (2)</a>
- | <a href="#GitHub 腳本-19">GitHub 腳本 (19)</a>
+ | <a href="#GitHub 腳本-20">GitHub 腳本 (20)</a>
  | <a href="#翻譯腳本-3">翻譯腳本 (3)</a>
  | <a href="#AI 腳本-9">AI 腳本 (9)</a>
  | <a href="#部落格網站-5">部落格網站 (5)</a>
@@ -1386,7 +1386,7 @@
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub 腳本 (19)</h1></div><h3>
+<div align="center"><h1>GitHub 腳本 (20)</h1></div><h3>
     <a href="../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github 增強小助手 倉庫顯示大小</a>&nbsp;
@@ -2104,6 +2104,46 @@ github-notification-inbox-toggle 開發版本
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../github-clone-button">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-clone-button">GitHub 複製複製指令按鈕(fork)</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/569864">
+        <img src="https://img.shields.io/greasyfork/dt/569864?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>在 GitHub 倉庫頁面的「程式碼」按鈕之後，新增一個使用「git clone --recurse-submodules ...」指令的一鍵複製按鈕。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button">
+            <img width=511 src="https://raw.githubusercontent.com/Poker-sang/GitHubCopyButton/main/.github/glance.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/569864">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/569864">
+        Greasemonkey</a> /
+    <a href="../github-clone-button/README_zh-TW.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-clone-button/README_zh-TW.md">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">討論</a> /
+    <a href="../github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">原始碼</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安裝</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
@@ -3165,13 +3205,13 @@ TikTok 在個人資料上顯示更多擴展信息
 要使用任何腳本，首先需要瀏覽器安裝 **Tampermonkey 腳本管理器擴充（[Chrome](https://pan.lanpw.com/b073l8d1e)** / **[Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)** / **[Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN)）。**
 
 -   點擊表格 **\[安裝\]** 直接彈出腳本管理器安裝介面。
--   如果 Github 訪問速度太慢，可以選擇點擊 GreasyFork **\[安裝\]** 后弹出扩展提示，再去點擊 **\[安裝\]** 即可。
+-   如果 Github 訪問速度太慢，可以選擇點擊 GreasyFork **\[安裝\]** 後彈出擴展提示，再去點擊 **\[安裝\]** 即可。
 -   [查看詳細教學](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/README.md)
 
 > [!IMPORTANT]
 >
 > -   _其他基於 **Chromium** 內核的瀏覽器（如國內套皮瀏覽器）一般都可以使用 Chrome 擴充。_
-> -   _請確保使用 **Tampermonkey 正式版** 擴充，其他的用户腳本管理器可能导致**無法正常使用**脚本。_
+> -   _请确保使用 **Tampermonkey 正式版** 擴充，其他的用户腳本管理器可能导致**無法正常使用**脚本。_
 > -   _如果要重裝腳本，請記得在 Tampermonkey 擴充的**回收站中徹底刪除**腳本後再去重新安裝腳本。_
 
 > _**不會離線安裝 .crx 擴充？[Chrome、Edge 重新開啟隱藏的 [拖入安裝 .crx 擴充] 功能！](https://zhuanlan.zhihu.com/p/276027099)**_
@@ -3192,12 +3232,12 @@ TikTok 在個人資料上顯示更多擴展信息
 > [!TIP]
 >
 > -   <a href="https://github.com/hmjz100" title=""><img src="https://avatars.githubusercontent.com/u/98228280?v=4" width="42;" alt="Hmjz100"/></a> :+1:
-> -   倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)內部的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
+> -   倉庫內所有`README.md`文件徽章複製了[Hmjz100](https://github.com/hmjz100)的倉庫[Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant)内的[README.md](https://github.com/hmjz100/Online-disk-direct-link-download-assistant/blob/main/README.md)文件的徽章風格
 
 > [!TIP]
 >
 > -   <a href="https://github.com/BonjourFeng" title=""><img src="https://avatars.githubusercontent.com/u/33033091?v=4" width="42;" alt="FengFeng"/></a> :+1:
-> -   仓库內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
+> -   倉庫內所有`README.md`文件頭部簡介與歷史安裝表格複製了[FengFeng](https://github.com/BonjourFeng)的倉庫[Github-Search-Purification](https://github.com/BonjourFeng/Github-Search-Purification)内[README.md](https://github.com/BonjourFeng/Github-Search-Purification/blob/main/README.md)文件內容
 > -   本倉庫的子倉庫`UserScriptsHistory`自動更新安裝歷史表格圖片程式碼也複製使用了[FengFeng](https://github.com/BonjourFeng)的倉庫[Script-History](https://github.com/BonjourFeng/Script-History)內的程式碼[main.py](https://github.com/BonjourFeng/Script-History/blob/main/source/main.py)
 
 > [!TIP]
@@ -3205,19 +3245,19 @@ TikTok 在個人資料上顯示更多擴展信息
 > -   <a href="https://github.com/maboloshi" title=""><img src="https://avatars.githubusercontent.com/u/7850715?v=4" width="42;" alt="沙漠之子"/></a> :+1:
 > -   複製了 [沙漠之子](https://github.com/maboloshi)的倉庫[github-chinese](https://github.com/maboloshi/github-chinese)內的程式碼<br>
 > -   本倉庫內`writer.py` `update-contributors.yml` 複製使用了[tributors_images.yml](https://github.com/maboloshi/github-chinese/blob/gh-pages/.github/workflows/update_contributors_images.yml)裡面的程式碼
-> -   本仓库自述文件复制了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%85%B3%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
+> -   本倉庫自述文件複製了[github-chinese/README.md](https://github.com/maboloshi/github-chinese#:~:text=%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8E%E8%85%B3%E6%9C%AC%E7%AE%A1%E7%90%86%E5%99%A8)內容 `如何安裝/使用腳本？`
 
 > [!TIP]
 >
 > -   [#12](https://github.com/ChinaGodMan/UserScripts/issues/12) :trollface: <a href="https://github.com/adamlui" title=""><img src="https://avatars.githubusercontent.com/u/10906554?v=4" width="42;" alt="Adam Lui 劉展鵬"/></a> :+1:
-> -   _本倉庫的自動翻譯與 Action 功能特別感謝美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)出色的想法與代碼!_ :trollface:
+> -   _本仓库的自动翻译与 Action 功能特别感谢美国佬[Adam Lui 劉展鵬](https://github.com/adamlui)出色的想法與代碼!_ :trollface:
 > -   _本倉庫命名風格受美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)啟發_ :trollface:
 > -   _本倉庫內自述文件來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
 > -   _腳本內的相互導流跳轉來自[Adam Lui 劉展鵬](https://github.com/adamlui)的自述風格_ :trollface:
-> -   _本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，代码，思路_ :trollface:
+> -   _本倉庫內所有`README.md`文件複製並使用了這個美國佬的倉庫`README.md`文件排版，分隔符，程式碼，思路_ :trollface:
 > -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui) Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
-> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版風格 :trollface:
+> -   _複製了 美国佬[Adam Lui 劉展鵬](https://github.com/adamlui)Action 內程式碼_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
+> -   _複製了美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)分隔符，等排版风格 :trollface:
 > -   _複製了 美國佬[Adam Lui 劉展鵬](https://github.com/adamlui)Python 內程式碼_ [translate-en-messages.py](https://github.com/adamlui/python-utils/blob/main/translate-messages/translate-en-messages.py) :trollface:
 
 <div align="right">
@@ -3247,7 +3287,7 @@ TikTok 在個人資料上顯示更多擴展信息
 ## 🏛️ 開源授權協議
 
 本項目採用 <a href="../LICENSE.md"><strong>MIT 許可證</strong></a> 授權。
-MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a href="../LICENSE.md">许可证全文</a>。
+MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a href="../LICENSE.md">許可證全文</a>。
 
 <div align="right">
 
@@ -3257,7 +3297,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 🤝 行為準則
 
-為了確保一個友好、尊重與包容的開發環境，我們制定了以下<a href="./CODE_OF_CONDUCT.md"><strong>行為準則</strong></a>。請每位貢獻者遵循這些指導原則。
+為了確保一個友好、尊重與包容的開發環境，我們制定了以下<a href="./CODE_OF_CONDUCT.md"><strong>行為準則</strong></a>。请每位贡献者遵循这些指导原则。
 
 <div align="right">
 
@@ -3267,9 +3307,9 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 🛡️ 安全政策
 
-如果您發現漏洞，請打開一個[安全建議草案](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+如果您發現漏洞，请打开一个[安全建議草案](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
-也歡迎拉取請求，但出於安全原因，请发送电子邮件至 <china.qinwuyuan@gmail.com> 並在公開前等待回复。
+也歡迎拉取請求，但出於安全原因，請發送電子郵件至 <china.qinwuyuan@gmail.com> 並在公開前等待回复。
 詳細內容請參閱 <a href="./SECURITY.md"><strong>安全政策</strong></a>
 
 <div align="right">
@@ -3280,7 +3320,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 💖 貢獻指南
 
-感謝您對本計畫的興趣！我們制定了以下<a href="../CONTRIBUTING.md"><strong>貢獻指南</strong></a>。為了幫助您順利貢獻程式碼或文檔，請在提交程式碼或問題前，仔細閱讀內容。
+感謝您對本計畫的興趣！我們制定了以下<a href="../CONTRIBUTING.md"><strong>貢獻指南</strong></a>。為了幫助您順利貢獻程式碼或文檔，請在提交程式碼或問題前，仔细阅读内容。
 
 <div align="right">
 
@@ -3290,7 +3330,7 @@ MIT 許可證是一種寬鬆的開源許可協議，詳細內容請參閱 <a hre
 
 ## 🌐 瀏覽器與腳本管理器
 
-|                               推薦使用瀏覽器                                |                                                         安裝管理器                                                          | 安裝瀏覽器                                                                    |
+|                               推荐使用浏览器                                |                                                         安裝管理器                                                          | 安裝瀏覽器                                                                    |
 | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------- |
 | <center> Chrome 或 基於 Chromium 內核的瀏覽器[![][chrome]][chrome_link] | <center>![.png][TM][Tampermonkey][Tampermonkey] ![.png][vm][Violentmonkey][Violentmonkey] ![.png][cat][ScriptCat][cat_link] | <center> [![][chrome]][chrome_link] [![][edge]][edge_link] [![][QQ]][QQ_link] |
 |  <center>Safari 瀏覽器（macOS, iOS, iPadOS）[![][safari]][safari_link]  |                                <center>![][Macaquer] [Macaque][Macaque] 或 ![][stayr] [Stay]                                | <center>[![][safari]][safari_link]                                            |

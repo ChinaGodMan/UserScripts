@@ -95,12 +95,12 @@
 💡 **Tip:** _要显示预览截图，请点击扩展名称下方的 ▸ 或描述。_
 
 <!--SCRIPTS_COUNT-->
-**储存库当前发布脚本数量:84,脚本包括:**
+**储存库当前发布脚本数量:85,脚本包括:**
 <h6><a href="#网页脚本-10">网页脚本 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#成人脚本-11">成人脚本 (11)</a>
  | <a href="#Google-脚本-2">Google 脚本 (2)</a>
- | <a href="#GitHub-脚本-19">GitHub 脚本 (19)</a>
+ | <a href="#GitHub-脚本-20">GitHub 脚本 (20)</a>
  | <a href="#翻译脚本-3">翻译脚本 (3)</a>
  | <a href="#AI-脚本-9">AI 脚本 (9)</a>
  | <a href="#博客网站-5">博客网站 (5)</a>
@@ -1386,7 +1386,7 @@
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub 脚本 (19)</h1></div><h3>
+<div align="center"><h1>GitHub 脚本 (20)</h1></div><h3>
     <a href="../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Github 增强小助手 仓库显示大小</a>&nbsp;
@@ -2104,6 +2104,46 @@ github-notification-inbox-toggle 开发版本
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
+</blockquote>
+<h3>
+    <a href="../github-clone-button">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-clone-button">GitHub 复制克隆命令按钮(fork)</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/569864">
+        <img src="https://img.shields.io/greasyfork/dt/569864?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B7%E6%95%B0%E9%87%8F"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>在 GitHub 仓库页面的“代码”按钮之后，添加一个使用“git clone --recurse-submodules ...”命令的一键复制按钮。</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button">
+            <img width=511 src="https://raw.githubusercontent.com/Poker-sang/GitHubCopyButton/main/.github/glance.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/569864">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/569864">
+        Greasemonkey</a> /
+    <a href="../github-clone-button/#readme">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-clone-button/#readme">
+        自述文件</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">讨论</a> /
+    <a href="../github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">源码</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">安装</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日志</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-脚本列表">返回目录</a></div>

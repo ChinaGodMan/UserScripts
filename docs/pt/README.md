@@ -95,12 +95,12 @@
 💡 **Tip:** _Para mostrar a captura de tela de visualização，Clique abaixo do nome da extensão ▸ ou descrever。_
 
 <!--SCRIPTS_COUNT-->
-**O número atual de scripts publicados no repositório:84,O roteiro inclui:**
+**O número atual de scripts publicados no repositório:85,O roteiro inclui:**
 <h6><a href="#script da web-10">script da web (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#roteiro adulto-11">roteiro adulto (11)</a>
  | <a href="#Google Roteiro-2">Google Roteiro (2)</a>
- | <a href="#GitHub Roteiro-19">GitHub Roteiro (19)</a>
+ | <a href="#GitHub Roteiro-20">GitHub Roteiro (20)</a>
  | <a href="#Traduzir script-3">Traduzir script (3)</a>
  | <a href="#AI Roteiro-9">AI Roteiro (9)</a>
  | <a href="#blog-5">blog (5)</a>
@@ -1386,7 +1386,7 @@ Procure um Google bloqueando um site especificado
 </blockquote>
 <div align="right"><a href="#-lista de scripts">Voltar ao índice</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub Roteiro (19)</h1></div><h3>
+<div align="center"><h1>GitHub Roteiro (20)</h1></div><h3>
     <a href="../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">-BR         🤠 Tamanho de exibição do armazém do assistente aprimorado do Github</a>&nbsp;
@@ -2104,6 +2104,46 @@ Versão de desenvolvimento do Github-Notification-Inbox-Toggle
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
+<h3>
+    <a href="../github-clone-button">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-clone-button">Botão de comando copiar clone do GitHub (fork)</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/569864">
+        <img src="https://img.shields.io/greasyfork/dt/569864?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=n%C3%BAmero%20de%20usu%C3%A1rios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Após o botão "Código" na página do repositório GitHub, adicione um botão de cópia de um clique usando o comando "git clone --recurse-submodules ...".</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button">
+            <img width=511 src="https://raw.githubusercontent.com/Poker-sang/GitHubCopyButton/main/.github/glance.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/569864">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/569864">
+        Greasemonkey</a> /
+    <a href="../github-clone-button/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-clone-button/README_en.md">
+        arquivo leia-me</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">discutir</a> /
+    <a href="../github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">Código fonte</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de alterações</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
 <div align="right"><a href="#-lista de scripts">Voltar ao índice</a></div>
@@ -3326,7 +3366,7 @@ Obrigado pelo seu interesse neste projeto！Desenvolvemos o seguinte<a href="../
 [x_link]: https://www.xbext.com/ "XNavegador"
 [vm]: https://img.xwyue.com/i/2024/08/02/66ac94776b711.png "macaco violento"
 [cat]: https://img.xwyue.com/i/2024/08/02/66ac94776a4e6.png
-[cat_link]: https://docs.scriptcat.org/ "gato de roteiro"
+[cat_link]: https://docs.scriptcat.org/ "gato de script"
 [TM]: https://img.xwyue.com/i/2024/08/02/66ac94776a4f8.png "macaco adulterador"
 [le]: https://img.xwyue.com/i/2024/08/02/66ac9deb3647d.png
 [le_link]: https://lemurbrowser.com/ "Navegador lêmure"

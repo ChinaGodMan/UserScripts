@@ -95,12 +95,12 @@
 💡 **Tip:** _Para mostrar una captura de pantalla de vista previa，Haga clic debajo del nombre de la extensión ▸ o describir。_
 
 <!--SCRIPTS_COUNT-->
-**El número actual de scripts publicados en el repositorio.:84,El guión incluye:**
+**El número actual de scripts publicados en el repositorio.:85,El guión incluye:**
 <h6><a href="#guión web-10">guión web (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
  | <a href="#guión para adultos-11">guión para adultos (11)</a>
  | <a href="#Google Guion-2">Google Guion (2)</a>
- | <a href="#GitHub Guion-19">GitHub Guion (19)</a>
+ | <a href="#GitHub Guion-20">GitHub Guion (20)</a>
  | <a href="#Traducir guión-3">Traducir guión (3)</a>
  | <a href="#AI Guion-9">AI Guion (9)</a>
  | <a href="#sitio de blogs-5">sitio de blogs (5)</a>
@@ -1386,7 +1386,7 @@ Busque un Google bloqueando un sitio específico
 </blockquote>
 <div align="right"><a href="#-lista de guiones">Volver a la tabla de contenidos</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
-<div align="center"><h1>GitHub Guion (19)</h1></div><h3>
+<div align="center"><h1>GitHub Guion (20)</h1></div><h3>
     <a href="../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
     <a href="../github-repo-size-view">🤠 Tamaño de visualización del almacén del asistente mejorado de Github</a>&nbsp;
@@ -2104,6 +2104,46 @@ Versión de desarrollo de github-notification-inbox-toggle
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle/AUTHORS.md">
+        <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
+</blockquote>
+<h3>
+    <a href="../github-clone-button">
+        <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
+    <a href="../github-clone-button">Botón de comando copiar clonar de GitHub (bifurcación)</a>&nbsp;
+    <a href="https://greasyfork.org/scripts/569864">
+        <img src="https://img.shields.io/greasyfork/dt/569864?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=n%C3%BAmero%20de%20usuarios"></a>
+    <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button&hashtags=greasemonkey,userscripts,javascript">
+            <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet">
+        </a>
+</h3>
+
+<details>
+    <summary>Después del botón "Código" en la página del repositorio de GitHub, agregue un botón de copia con un clic usando el comando "git clone --recurse-submodules ...".</summary>
+    <br><blockquote>
+        <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button">
+            <img width=511 src="https://raw.githubusercontent.com/Poker-sang/GitHubCopyButton/main/.github/glance.png"></a>
+    </blockquote>
+</details>
+
+<blockquote>
+    <a href="https://greasyfork.org/scripts/569864">
+        <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
+    <a href="https://greasyfork.org/scripts/569864">
+        Greasemonkey</a> /
+    <a href="../github-clone-button/README_en.md">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
+    <a href="../github-clone-button/README_en.md">
+        archivo Léame</a> /
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
+        <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
+    <a href="https://github.com/ChinaGodMan/UserScripts/discussions">conversar</a> /
+    <a href="../github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">código fuente</a> /
+        <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-clone-button/github-clone-button.user.js">
+        <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">Instalar</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/CHANGELOG.md">
+        <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Registro de cambios</a> /
+<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modificado de</a>
 </blockquote>
 <div align="right"><a href="#-lista de guiones">Volver a la tabla de contenidos</a></div>
