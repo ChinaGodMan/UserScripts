@@ -363,13 +363,15 @@
 // @compatible             qq
 // @compatible             via
 // @compatible             brave
-// @version                2026.3.16.1
+// @version                2026.3.20.1
 // @created                2026-03-16 13:09:27
 // @downloadURL            https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter(X)-plus/twitter(X)-plus.user.js
 // @updateURL              https://raw.githubusercontent.com/ChinaGodMan/UserScripts/main/twitter(X)-plus/twitter(X)-plus.user.js
 // ==/UserScript==
 
-//LINK - 隐藏按钮
+const fullView = true
+
+//LINK - 隐藏一些元素
 const style = document.createElement('style')
 style.id = 'x-btn-hider-styles'
 style.textContent = `
@@ -377,7 +379,6 @@ style.textContent = `
 button[aria-label="Grok 操作"] {
     display: none !important;
 }
-
 /* 转发 */
 [data-testid="retweet"] {
     display: none !important;
@@ -386,8 +387,38 @@ button[aria-label="Grok 操作"] {
 /* 浏览量 */
 a[href*="/analytics"] {
     display: none !important;
-
+}
+/*按地区国家屏蔽选项*/
+#x-country-blocker-link {
+    display: none !important;
+}
+/*其他*/
+[data-testid="GrokDrawer"],
+/*jb 关注请求 */
+a[href="/follower_requests"],
+/*设置广告*/
+a[href="https://ads.x.com/?ref=gl-tw-tw-twitter-ads-rweb"],
+/* Grok */
+a[href="/i/grok"],
+/* 创作者工作室 */
+a[href="/i/jf/creators/studio"],
+a[href="/i/verified-orgs-signup"],
+a[href="/i/premium_sign_up"],
+/*页面右边订阅*/
+aside[aria-label="订阅 Premium"],
+aside[aria-label="Subscribe to Premium"],
+/*其他*/
+[data-testid="grokImgGen"],
+.r-18u37iz.r-1h0z5md button[aria-label="Grok actions"] {
+    display: none !important;
+}
 `
+// 全尺寸预览图片
+if (fullView) {
+    style.textContent += `
+* div[data-testid="tweetPhoto"]:has(div+img) > div {background-size: contain;}
+`
+}
 document.head.appendChild(style)
 
 //SECTION - 拉黑

@@ -1,4 +1,4 @@
-<!--474877,545417,567371,568421-->
+<!--474877,545417,567371,568421,526565,527908-->
 <!--AUTHORS-->
 ## 💖 脚本参考或使用了以下脚本:
 [🧑‍💻 **@dmtri**](https://greasyfork.org/users/1168813) ⇒ 📜 _[Stop videos looping](https://greasyfork.org/scripts/474877)_<br>
