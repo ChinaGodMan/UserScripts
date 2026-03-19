@@ -59,13 +59,17 @@
     <p>「 YouTube 1. Video loop playback 2. Screenshot download 3. Theme progress bar 」</p>
     <img src="https://views.whatilearened.today/views/github/529845/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-helper/youtube-helper.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=Number%20of%20users">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20updates&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=number%20of%20users">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Daily%20check%20for%20updates&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529845">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Update records</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper Update log</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper Change log</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>New</strong>: Clean up redundant content in web page titles<code>Youtube</code><br>
+<strong>repair</strong>: Fix screenshot function<br></p>
+<hr />
 <h3><strong>📅 2025.03.15.0436</strong></h3>
-<p><strong>New</strong>: •Initial version.</p>
+<p><strong>New</strong>: •initial version.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529845.png">
 </div></center>
@@ -87,10 +91,10 @@
 3.  🎨**Theme progress bar**：Customize progress bar theme。
 
 <!--AUTHORS-->
-## 💖 The script referenced or used the following script:
+## 💖 The script refers to or uses the following script:
 [🧑‍💻 **@bernzrdo**](https://greasyfork.org/users/1207477) ⇒ 📜 _[YouTube Screenshot](https://greasyfork.org/scripts/482387)_<br>
-[🧑‍💻 **@FunnyMonkey**](https://greasyfork.org/users/1414474) ⇒ 📜 _[Youtubeᴾˡᵘˢ Super Assistant(Video Downloader & 🚫 No ads & New Layout For YT!)](https://greasyfork.org/scripts/521538)_<br>
-[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_
+[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_<br>
+[🧑‍💻 **@Alyssa B. Morton**](https://greasyfork.org/users/1389344) ⇒ 📜 _[YouTube Title Cleaner](https://greasyfork.org/scripts/555384)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 

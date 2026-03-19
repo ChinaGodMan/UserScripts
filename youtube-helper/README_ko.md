@@ -60,10 +60,14 @@
     <img src="https://views.whatilearened.today/views/github/529845/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-helper/youtube-helper.user.js?color=%23990000">
     <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%ED%99%95%EC%9D%B8&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529845">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper 변경 로그</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>새로운</strong>: 웹 페이지 제목의 중복 콘텐츠 정리<code>Youtube</code><br>
+<strong>수리하다</strong>: 스크린샷 기능 수정<br></p>
+<hr />
 <h3><strong>📅 2025.03.15.0436</strong></h3>
 <p><strong>새로운</strong>: •초기 버전.</p>
 <hr /></details>
@@ -87,10 +91,10 @@
 3.  🎨**테마 진행 막대**：진행률 표시 줄 테마를 사용자 정의합니다。
 
 <!--AUTHORS-->
-## 💖 스크립트는 다음 스크립트를 참조하거나 사용했습니다:
+## 💖 해당 스크립트는 다음 스크립트를 참조하거나 사용합니다.:
 [🧑‍💻 **@bernzrdo**](https://greasyfork.org/users/1207477) ⇒ 📜 _[YouTube Screenshot](https://greasyfork.org/scripts/482387)_<br>
-[🧑‍💻 **@FunnyMonkey**](https://greasyfork.org/users/1414474) ⇒ 📜 _[Youtubeᴾˡᵘˢ Super Assistant(Video Downloader & 🚫 No ads & New Layout For YT!)](https://greasyfork.org/scripts/521538)_<br>
-[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_
+[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_<br>
+[🧑‍💻 **@Alyssa B. Morton**](https://greasyfork.org/users/1389344) ⇒ 📜 _[YouTube Title Cleaner](https://greasyfork.org/scripts/555384)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 

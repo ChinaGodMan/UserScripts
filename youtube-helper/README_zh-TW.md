@@ -59,11 +59,15 @@
     <p>「 YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條 」</p>
     <img src="https://views.whatilearened.today/views/github/529845/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-helper/youtube-helper.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E7%94%A8%E6%88%B6%E6%95%B8%E9%87%8F">
+    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%E4%BD%BF%E7%94%A8%E8%80%85%E6%95%B8%E9%87%8F">
     <img src="https://img.shields.io/badge/dynamic/json?&label=%E6%AF%8F%E6%97%A5%E6%AA%A2%E6%9F%A5%E6%9B%B4%E6%96%B0%E6%AC%A1%E6%95%B8&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529845">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper 更新日誌</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>新增</strong>: 清理網頁標題中多餘的<code>Youtube</code><br>
+<strong>修復</strong>: 修復截圖功能<br></p>
+<hr />
 <h3><strong>📅 2025.03.15.0436</strong></h3>
 <p><strong>新增</strong>: •初始版本.</p>
 <hr /></details>
@@ -89,8 +93,8 @@
 <!--AUTHORS-->
 ## 💖 腳本參考或使用了以下腳本:
 [🧑‍💻 **@bernzrdo**](https://greasyfork.org/users/1207477) ⇒ 📜 _[YouTube Screenshot](https://greasyfork.org/scripts/482387)_<br>
-[🧑‍💻 **@FunnyMonkey**](https://greasyfork.org/users/1414474) ⇒ 📜 _[Youtubeᴾˡᵘˢ Super Assistant(Video Downloader & 🚫 No ads & New Layout For YT!)](https://greasyfork.org/scripts/521538)_<br>
-[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_
+[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_<br>
+[🧑‍💻 **@Alyssa B. Morton**](https://greasyfork.org/users/1389344) ⇒ 📜 _[YouTube Title Cleaner](https://greasyfork.org/scripts/555384)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
@@ -107,7 +111,7 @@
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-END-->
@@ -176,7 +180,7 @@
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -242,7 +246,7 @@
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->

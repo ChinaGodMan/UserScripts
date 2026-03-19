@@ -59,13 +59,17 @@
     <p>「 YouTube 1. Video Loop Playback 2. Ảnh chụp màn hình tải xuống 3. Thanh tiến trình chủ đề 」</p>
     <img src="https://views.whatilearened.today/views/github/529845/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/youtube-helper/youtube-helper.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=S%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=C%E1%BA%ADp%20nh%E1%BA%ADt%20ki%E1%BB%83m%20tra%20h%C3%A0ng%20ng%C3%A0y&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=s%E1%BB%91%20l%C6%B0%E1%BB%A3ng%20ng%C6%B0%E1%BB%9Di%20d%C3%B9ng">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=Ki%E1%BB%83m%20tra%20c%E1%BA%ADp%20nh%E1%BA%ADt%20h%C3%A0ng%20ng%C3%A0y&query=$.529845&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529845">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper Cập nhật nhật ký</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper Nhật ký thay đổi</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>Mới</strong>: Dọn dẹp nội dung thừa trong tiêu đề trang web<code>Youtube</code><br>
+<strong>Sửa chữa</strong>: Sửa chức năng chụp màn hình<br></p>
+<hr />
 <h3><strong>📅 2025.03.15.0436</strong></h3>
-<p><strong>Mới</strong>: •Phiên bản ban đầu.</p>
+<p><strong>Mới</strong>: •phiên bản đầu tiên.</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/529845.png">
 </div></center>
@@ -87,10 +91,10 @@
 3.  🎨**Thanh tiến trình chủ đề**：Tùy chỉnh chủ đề thanh tiến trình。
 
 <!--AUTHORS-->
-## 💖 Tập lệnh được tham chiếu hoặc sử dụng tập lệnh sau:
+## 💖 Tập lệnh đề cập đến hoặc sử dụng tập lệnh sau:
 [🧑‍💻 **@bernzrdo**](https://greasyfork.org/users/1207477) ⇒ 📜 _[YouTube Screenshot](https://greasyfork.org/scripts/482387)_<br>
-[🧑‍💻 **@FunnyMonkey**](https://greasyfork.org/users/1414474) ⇒ 📜 _[Youtubeᴾˡᵘˢ Super Assistant(Video Downloader & 🚫 No ads & New Layout For YT!)](https://greasyfork.org/scripts/521538)_<br>
-[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_
+[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_<br>
+[🧑‍💻 **@Alyssa B. Morton**](https://greasyfork.org/users/1389344) ⇒ 📜 _[YouTube Title Cleaner](https://greasyfork.org/scripts/555384)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 

@@ -64,6 +64,10 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529845">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ youtube-helper 更新日志</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>新增</strong>: 清理网页标题中多余的<code>Youtube</code><br>
+<strong>修复</strong>: 修复截图功能<br></p>
+<hr />
 <h3><strong>📅 2025.03.15.0436</strong></h3>
 <p><strong>新增</strong>: •初始版本.</p>
 <hr /></details>
@@ -89,8 +93,8 @@
 <!--AUTHORS-->
 ## 💖 脚本参考或使用了以下脚本:
 [🧑‍💻 **@bernzrdo**](https://greasyfork.org/users/1207477) ⇒ 📜 _[YouTube Screenshot](https://greasyfork.org/scripts/482387)_<br>
-[🧑‍💻 **@FunnyMonkey**](https://greasyfork.org/users/1414474) ⇒ 📜 _[Youtubeᴾˡᵘˢ Super Assistant(Video Downloader & 🚫 No ads & New Layout For YT!)](https://greasyfork.org/scripts/521538)_<br>
-[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_
+[🧑‍💻 **@karokahn**](https://greasyfork.org/users/1443366) ⇒ 📜 _[YouTube Auto Loop](https://greasyfork.org/scripts/529134)_<br>
+[🧑‍💻 **@Alyssa B. Morton**](https://greasyfork.org/users/1389344) ⇒ 📜 _[YouTube Title Cleaner](https://greasyfork.org/scripts/555384)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 
