@@ -97,7 +97,7 @@
 // @compatible         qq
 // @compatible         via
 // @compatible         brave
-// @version            2025.03.15.0436
+// @version            2026.3.20.1
 // @grant              GM_addStyle
 // @created            2025-03-14 20:36:01
 // @modified           2025-03-14 20:36:01
@@ -111,18 +111,14 @@
  * File Created: 2025/03/15,Saturday 04:36:02
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/03/15,Saturday 05:57:23
+ * Last Modified: 2026/03/20,Friday 02:00:54
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
- * Copyright © 2024 - 2025 ChinaGodMan,Inc
+ * Copyright © 2024 - 2026 ChinaGodMan,Inc
  */
 const directDownload = true
-const infiniteLool = true
-
-
-
-
+const infiniteLool = false
 
 const loopVideo = () => {
     const video = document.querySelector('video')
@@ -139,8 +135,8 @@ let escapeHTMLPolicy = 'trustedTypes' in window
     ? trustedTypes.createPolicy('forceInner', { createHTML: html => html })
     : { createHTML: html => html }
 function screenBtnUpdate() {
-    let $miniplayerBtn = document.querySelector('button.ytp-miniplayer-button')
-    if ($miniplayerBtn && !document.getElementById('ytp-screenshot-button')) {
+    let $settingsButton = document.querySelector('button.ytp-settings-button')
+    if ($settingsButton && !document.getElementById('ytp-screenshot-button')) {
         const $btn = document.createElement('button')
         $btn.id = 'ytp-screenshot-button'
         $btn.classList.add('ytp-screenshot-button', 'ytp-button')
@@ -149,15 +145,18 @@ function screenBtnUpdate() {
         $btn.dataset.titleNoTooltip = 'Screenshot'
         $btn.ariaLabel = 'Screenshot'
         $btn.title = 'Screenshot'
-        $btn.innerHTML = escapeHTMLPolicy.createHTML(`<svg height="100%" version="1.1" viewBox="-300 -1260 1560 1560" width="100%">
-            <use class="ytp-svg-shadow" xlink:href="#ytp-id-screenshot-svg"></use>
-            <path
-                d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm40-80h480L570-480 450-320l-90-120-120 160Zm-40 80v-560 560Z"
-                fill="#fff" id="ytp-id-screenshot-svg"></path>
+        $btn.innerHTML = escapeHTMLPolicy.createHTML(`<svg fill="none" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M4 5H20C21.1 5 22 5.9 22 7V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V7C2 5.9 2.9 5 4 5Z" stroke="white" stroke-width="1.5" fill="none"/>
+            <circle cx="12" cy="12.5" r="4" stroke="white" stroke-width="1.5" fill="none"/>
+            <circle cx="12" cy="12.5" r="2" fill="white" opacity="0.9"/>
+            <circle cx="18" cy="9" r="1.2" fill="white"/>
+            <path d="M12 9.5V15.5 M9 12.5H15" stroke="white" stroke-width="1" opacity="0.6"/>
+            <circle cx="6.5" cy="9.5" r="0.8" stroke="white" stroke-width="1" fill="none"/>
+            <circle cx="6.5" cy="9.5" r="0.3" fill="white"/>
         </svg>`)
         $btn.addEventListener('click', screenshot)
 
-        insertBefore($btn, $miniplayerBtn)
+        insertBefore($btn, $settingsButton)
     }
 
     requestAnimationFrame(screenBtnUpdate)
@@ -166,7 +165,6 @@ function insertBefore($element, $sibling) {
     $sibling.parentElement.insertBefore($element, $sibling)
 }
 function screenshot() {
-
     const $video = document.querySelector('#player video')
     if (!$video) {
         console.error('No video found to screenshot!')
@@ -217,3 +215,21 @@ if (infiniteLool) {
 
 requestAnimationFrame(screenBtnUpdate)
 ThemeProgressbar()
+
+/**
+ * 清理标题
+ */
+function cleanTitle() {
+    setTimeout(() => {
+        let title = document.title
+        // Remove notification count e.g. "(7) Video name"
+        title = title.replace(/^\(\d+\)\s*/g, '')
+        // Remove " - YouTube" at the end of the title
+        title = title.replace(/\s*-\s*YouTube\s*$/i, '')
+
+        document.title = title
+    }, 300) // small delay to ensure YouTube updates title first
+}
+cleanTitle()
+const cleanTitleObserver = new MutationObserver(cleanTitle)
+cleanTitleObserver.observe(document.querySelector('title'), { childList: true })
