@@ -66,6 +66,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/569860">Greasy
             Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ twitter(X)-plus 변경 로그</strong></h1>
+<h3><strong>📅 2026.3.20.1</strong></h3>
+<p><strong>새로운</strong>: 더 많은 버튼을 정리하고 사진을 전체 크기로 표시합니다.<br></p>
+<hr />
 <h3><strong>📅 2026.3.16.1</strong></h3>
 <p><strong>새로운</strong>: •초기 버전</p>
 <hr /></details>
@@ -91,7 +94,9 @@
 [🧑‍💻 **@dmtri**](https://greasyfork.org/users/1168813) ⇒ 📜 _[Stop videos looping](https://greasyfork.org/scripts/474877)_<br>
 [🧑‍💻 **@hzbrrbmin**](https://greasyfork.org/users/629884) ⇒ 📜 _[X/Twitter Optimized Tweet Buttons](https://greasyfork.org/scripts/545417)_<br>
 [🧑‍💻 **@legendary_warrior_1**](https://greasyfork.org/users/1562844) ⇒ 📜 _[Social Media Auto-Unmute (X & Instagram)](https://greasyfork.org/scripts/567371)_<br>
-[🧑‍💻 **@Kdroidwin**](https://greasyfork.org/users/1344730) ⇒ 📜 _[TwitterX-One-Click-Blocker](https://greasyfork.org/scripts/568421)_
+[🧑‍💻 **@Kdroidwin**](https://greasyfork.org/users/1344730) ⇒ 📜 _[TwitterX-One-Click-Blocker](https://greasyfork.org/scripts/568421)_<br>
+[🧑‍💻 **@Minoa**](https://greasyfork.org/users/1268587) ⇒ 📜 _[Twitter/X UI Improvements](https://greasyfork.org/scripts/526565)_<br>
+[🧑‍💻 **@zhowiny**](https://greasyfork.org/users/1218254) ⇒ 📜 _[x.com photo full preview](https://greasyfork.org/scripts/527908)_
 <!--AUTHORS-END-->
 <!--SCREENSHOT-->
 ![2026.03.16](https://files.seeusercontent.com/2026/03/16/c1iG/pic_1773643051917.png)
