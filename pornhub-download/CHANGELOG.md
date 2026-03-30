@@ -1,5 +1,11 @@
 # **🛠️ Pornhub 视频一键下载 更新日志**
 
+### **📅 2026.3.31.1**
+
+**优化**: 优化代码,来自[纯粹乐趣 – Pornhub 视频下载器](https://greasyfork.org/zh-CN/scripts/551131) 
+
+---
+
 ### **📅 2025.05.01.0128**
 
 **修复**: 删除掉下载视频时，文件名尾随空格[#296954](https://greasyfork.org/scripts/528800/discussions/296954)

@@ -86,8 +86,7 @@
 // @match              *://*.pornhub.com/view_video.php?viewkey=*
 // @match              *://*.pornhubpremium.com/view_video.php?viewkey=*
 // @require            https://update.greasyfork.org/scripts/498897/1404834/Toastnew.js
-// @require            https://code.jquery.com/jquery-3.7.1.min.js
-// @author             liuwanlin,heckles,人民的勤务员 <china.qinwuyuan@gmail.com>
+// @author             liuwanlin,heckles,MatthewXY,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace          https://github.com/ChinaGodMan/UserScripts
 // @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL        https://github.com/ChinaGodMan/UserScripts
@@ -101,7 +100,7 @@
 // @compatible         opera
 // @compatible         safari
 // @compatible         kiwi
-// @version            2025.05.01.0128
+// @version            2026.3.31.1
 // @created            2025-03-05 01:45:13
 // @modified           2025-03-05 01:45:13
 // ==/UserScript==
@@ -109,15 +108,8 @@
 //!人民的勤务员修改自以下脚本 感谢heckles和liuwanlin
 /*https://greasyfork.org/zh-CN/scripts/491333
 https://greasyfork.org/zh-CN/scripts/491329
+https://greasyfork.org/zh-CN/scripts/551131
  */
-GM_addStyle(`
-    .download-urls ul { padding: 10px; font-weight: bold; line-height: 1.5; }
-    .download-urls ul li { display: flex; align-items: center; height: 20px; max-width:400px; }
-    .download-url-label { /* width: 100px; */ text-align: right; }
-    .download-url-copy { flex: 1; }
-    .download-url-mp4 { flex: 1; }
-    .download-url-input { flex: 3; font-size: 12px; padding: 0 5px; border: 1px solid #ffff; margin: 0 5px; }
-`);
 
 (function () {
     'use strict'
@@ -131,9 +123,9 @@ GM_addStyle(`
             downloaderror: 'Error downloading video, please check the console for details',
             downloadfailed: 'Download failed',
             downloadfailed_nosize: 'Unable to retrieve file size',
-            copydownloadbtn: 'Copy address',
+            copydownloadbtn: 'Copy',
             copysuccess: 'Copy successful',
-            downloadbtn: 'Download video',
+            downloadbtn: 'Download',
             linkTip: 'Video download URL:'
         },
         'zh-CN,zh,zh-SG': {
@@ -144,9 +136,9 @@ GM_addStyle(`
             downloaderror: '下载视频时出错,请到控制台查看详细信息',
             downloadfailed: '下载失败',
             downloadfailed_nosize: '无法获取文件大小',
-            copydownloadbtn: '复制地址',
+            copydownloadbtn: '复制',
             copysuccess: '复制成功',
-            downloadbtn: '下载视频',
+            downloadbtn: '下载',
             linkTip: '视频下载地址：'
         },
         'zh-TW,zh-HK,zh-MO': {
@@ -157,9 +149,9 @@ GM_addStyle(`
             downloaderror: '下載視頻時出錯，請到控制台查看詳細信息',
             downloadfailed: '下載失敗',
             downloadfailed_nosize: '無法獲取文件大小',
-            copydownloadbtn: '複製地址',
+            copydownloadbtn: '複製',
             copysuccess: '複製成功',
-            downloadbtn: '下載視頻',
+            downloadbtn: '下載',
             linkTip: '視頻下載地址：'
         },
         'ja': {
@@ -246,30 +238,22 @@ GM_addStyle(`
             unsafeWindow.VideoParsing.init()
         }, 200)
     })
-    //PC和非PC,注意判断条件里不能用$简写，不知为问什么
-    let playerdiv//let可以先不赋值，用在这里
-    if (document.querySelector('#player')) {
-        playerdiv = document.querySelector('#player')
-    }
-    else {
-        console.log('安卓')
-        playerdiv = document.querySelector('.playerWrapper')
-    }
-    const playerDom = playerdiv
-    //
 
-    if (playerDom) {
-        mutationObserver.observe(playerDom, {
-            childList: true,
-            subtree: true
-        })
-    } else {
-        Toast(translate('finderror'), 3000, 'rgb(219, 18, 35)', '#ffffff', 'top')
-    }
-})();
-
-(function () {
     class VideoParsing {
+        static addStyle() {
+            GM_addStyle(`
+                        .download-urls { margin: 15px 0px; padding: 12px; background: #000; border: 1px solid #6f6f6f; border-radius: 5px; font-size: 14px; max-width: 600px; }
+                        .download-urls h3 { margin-bottom: 8px; font-size: 16px; font-weight: bold; color: #333; }
+                        .download-urls ul { padding: 0; margin: 0; list-style: none; }
+                        .download-urls ul li { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+                        .download-url-label { flex: 0 0 90px; font-weight: bold; color: #FFF; }
+                        .download-url-input { flex: 1; font-size: 12px; padding: 3px 6px; border: 1px solid #ccc; border-radius: 5px; background: #fff; color: #000; }
+                        .download-url-copy, .download-url-mp4 { padding: 4px 10px; border-radius: 5px; border: none; cursor: pointer; font-size: 12px; }
+                        .download-url-copy { background: #eee; color: #333; }
+                        .download-url-mp4 { background: #ff9000; color: #fff; }
+                        .download-url-copy:hover { background: #ddd; }
+                        `)
+        }
         // 根据 key 开头字母获取对象中的值，返回数组
         static getObjectValueByStartsWithChar(obj, char) {
             const vars = []
@@ -289,6 +273,7 @@ GM_addStyle(`
             const flashvars = this.getObjectValueByStartsWithChar(unsafeWindow, 'flashvars_')
             if (!flashvars.length) {
                 Toast(translate('fetcherror'), 3000, 'rgb(219, 18, 35)', '#ffffff', 'top')
+                console.warn(translate.finderror)
                 return
             }
             let videosInfo = []
@@ -296,10 +281,10 @@ GM_addStyle(`
                 videosInfo = flashvars[0]['value']['mediaDefinitions']
             } catch (e) {
                 Toast(translate('fetcherror'), 3000, 'rgb(219, 18, 35)', '#ffffff', 'top')
-                console.error(translate('fetcherror'), e, flashvars)
+                console.error(translate.fetcherror, e)
                 return
             }
-            let remoteAddress = undefined
+            let remoteAddress
             let urlInfo = []
             for (let i = 0; i < videosInfo.length; i++) {
                 if (videosInfo[i]['remote']) {
@@ -308,59 +293,103 @@ GM_addStyle(`
                 }
             }
 
-            // MP4 信息
             if (remoteAddress) {
-                $.ajax({
-                    url: remoteAddress,
-                    async: false,
-                    success: (data) => {
-                        if (data && data.length) {
-                            urlInfo = urlInfo.concat(data.map(item => ({
-                                quality: item.quality + '.' + item.format,
-                                url: item.videoUrl
-                            })))
+                const xhr = new XMLHttpRequest()
+                xhr.open('GET', remoteAddress, false)
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        try {
+                            const data = JSON.parse(xhr.responseText)
+                            if (Array.isArray(data)) {
+                                urlInfo = urlInfo.concat(data.map(item => ({
+                                    quality: item.quality + '.' + item.format,
+                                    url: item.videoUrl
+                                })))
+                            }
+                        } catch (err) {
+                            console.error(err)
                         }
                     }
-                })
+                }
+                xhr.send()
             }
-            console.log(videosInfo)
             return urlInfo
         }
 
         // 注入到下载面板
         static injectUrls2Dom(urlInfo) {
-            const li = []
-            urlInfo.forEach(item => {
-                li.push(`
-            <li>
-                <span class="download-url-label">[ ${item.quality} ]</span>
-                <input class="download-url-input" value="${item.url}" style="width: 50px;" />
-                <a target="_blank" class="download-url-copy" data-href="${item.url}" href="javascript: void(0);">${translate('copydownloadbtn')}</a>
-                <a target="_blank" class="download-url-mp4" data-href="${item.url}" href="javascript: void(0);">${translate('downloadbtn')}</a>
-            </li>
-            `)
-            })
-            //pc和非PC两种情况都加上
-            $('.playerWrapper').after(`<div class="download-urls"><h3>${translate('linkTip')}</h3><ul>${li.join('')}</ul></div>`)
-            $('#player').after(`<div class="download-urls"><h3>${translate('linkTip')}</h3><ul>${li.join('')}</ul></div>`)
+            const container = document.createElement('div')
+            container.className = 'download-urls'
+
+            const title = document.createElement('h3')
+            title.textContent = translate.linkTip
+            container.appendChild(title)
+
+            if (urlInfo && urlInfo.length > 0) {
+                const ul = document.createElement('ul')
+                urlInfo.forEach(item => {
+                    const li = document.createElement('li')
+
+                    const label = document.createElement('span')
+                    label.className = 'download-url-label'
+                    label.textContent = `[ ${item.quality} ]`
+
+                    const input = document.createElement('input')
+                    input.className = 'download-url-input'
+                    input.value = item.url
+                    input.readOnly = true
+
+                    const copyBtn = document.createElement('button')
+                    copyBtn.className = 'download-url-copy'
+                    copyBtn.textContent = translate.copydownloadbtn
+                    copyBtn.dataset.href = item.url
+
+                    const dlBtn = document.createElement('button')
+                    dlBtn.className = 'download-url-mp4'
+                    dlBtn.textContent = translate.downloadbtn
+                    dlBtn.dataset.href = item.url
+
+                    li.appendChild(label)
+                    li.appendChild(input)
+                    li.appendChild(copyBtn)
+                    li.appendChild(dlBtn)
+                    ul.appendChild(li)
+                })
+                container.appendChild(ul)
+            }
+
+            const player = document.querySelector('#player')
+            if (player) {
+                player.insertAdjacentElement('afterend', container)
+            }
+
+            const playerWrapper = document.querySelector('.playerWrapper')
+            if (playerWrapper) {
+                playerWrapper.insertAdjacentElement('afterend', container)
+            }
         }
 
         // 初始化事件
         static initEvens() {
-            // 点击下载复制到粘贴板中
-            $(document).on('click', '.download-url-copy', function (e) {
-                e.preventDefault()
-                GM_setClipboard($(this).data('href'))
-                Toast(translate('copysuccess'), 3000, 'rgb(18, 219, 18)', '#ffffff', 'top')
+            document.addEventListener('click', function (e) {
+                if (e.target.classList.contains('download-url-copy')) {
+                    e.preventDefault()
+                    const url = e.target.dataset.href
+                    GM_setClipboard(url)
+                    Toast(translate.copysuccess, 3000, 'rgb(18, 219, 18)', '#ffffff', 'top')
+                }
             })
         }
         static initDownEvens() {
-            $(document).on('click', '.download-url-mp4', function (e) {
-                e.preventDefault()
-                downloadMp4($(this).data('href'), $(this))
+            document.addEventListener('click', function (e) {
+                if (e.target.classList.contains('download-url-mp4')) {
+                    e.preventDefault()
+                    downloadMp4(e.target.dataset.href, e.target)
+                }
             })
         }
         static init() {
+            this.addStyle()
             this.injectUrls2Dom(this.getUrlInfo())
             this.initEvens()
             this.initDownEvens()
@@ -379,39 +408,36 @@ GM_addStyle(`
     function sanitizeTitle() {
         var title = document.title
         title = title.replace(/- Pornhub\.com/, '')
-        return title.replace(/[/:*?"<>|]/g, '_')
+        return title.replace(/[/:*?"<>|]/g, '_').trim()
     }
 
-
     //下载函数
-    async function downloadMp4(videoUrl, targetElement) {
+    async function downloadMp4(videoUrl, element) {
         try {
             const response = await fetch(videoUrl)
             if (!response.ok) {
-                $(targetElement).text(translate('downloadfailed'))
+                element.textContent = translate('downloadfailed')
             }
 
             const contentLength = response.headers.get('Content-Length')
             if (!contentLength) {
-                $(targetElement).text(translate('downloadfailed_nosize'))
-
+                element.textContent = translate('downloadfailed_nosize')
                 return
             }
             const reader = response.body.getReader()
-            const totalSize = contentLength ? parseInt(contentLength, 10) : 0 // 文件总大小
-            let downloadedSize = 0 // 已下载大小
-            const chunks = [] // 存储数据块
+            const totalSize = contentLength ? parseInt(contentLength, 10) : 0
+            let downloadedSize = 0
+            const chunks = []
             while (true) {
                 const { done, value } = await reader.read()
                 if (done) break
-                // 更新下载大小
                 downloadedSize += value.length
                 chunks.push(value)
                 if (totalSize) {
                     const progress = ((downloadedSize / totalSize) * 100).toFixed(2)
-                    $(targetElement).text(`${translate('downloading')} ${progress}% (${getHumanReadableSize(downloadedSize)} / ${getHumanReadableSize(totalSize)})`)
+                    element.textContent = `${translate('downloading')} ${progress}% (${getHumanReadableSize(downloadedSize)} / ${getHumanReadableSize(totalSize)})`
                 } else {
-                    $(targetElement).text(`${translate('downloading')} ${getHumanReadableSize(downloadedSize)}`)
+                    element.textContent = `${translate('downloading')} ${getHumanReadableSize(downloadedSize)}`
                 }
             }
             const blob = new Blob(chunks)
@@ -419,7 +445,7 @@ GM_addStyle(`
             const a = document.createElement('a')
             a.style.display = 'none'
             a.href = url
-            a.download = sanitizeTitle().trim() + '.mp4'
+            a.download = sanitizeTitle() + '.mp4'
             document.body.appendChild(a)
             a.click()
             window.URL.revokeObjectURL(url)
@@ -430,4 +456,5 @@ GM_addStyle(`
             console.error(translate('downloaderror'), error)
         }
     }
+    VideoParsing.init()
 })()
