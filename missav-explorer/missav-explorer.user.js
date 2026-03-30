@@ -220,13 +220,15 @@
 // @description:zh-TW  從當前missav頁面獲取圖片文件和視頻信息，並合併結果後提供下載生成的網頁文件
 // @description:zu     Thola amafayela wesithombe nemininingwane yevidiyo evela ekhasini lamanje le-Missav, futhi unikeze ifayela le-Web elilandiwe ngemuva kokuhlanganisa imiphumela.
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            2025.04.27.1347
+// @version            2026.3.31.1
 // @license            MIT
 // @author             人民的勤务员 <china.qinwuyuan@gmail.com> & ChatGPT
 // @match              https://missav.ws/*
 // @match              https://missav.live/*
 // @match              https://missav.ai/*
 // @match              https://missav123.com/*
+// @match              *://missav.fans/*
+// @match              *://missav.media/*
 // @grant              GM_setValue
 // @grant              GM_getValue
 // @grant              GM_xmlhttpRequest

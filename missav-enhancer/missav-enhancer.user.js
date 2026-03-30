@@ -88,6 +88,8 @@
 // @match              https://missav.ai/*
 // @match              https://missav.com/*
 // @match              https://thisav.com/*
+// @match              *://missav.fans/*
+// @match              *://missav.media/*
 // @author             DonkeyBear,track no,mrhydra,iSwfe,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @namespace          https://github.com/ChinaGodMan/UserScripts
 // @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
@@ -101,7 +103,7 @@
 // @compatible         opera
 // @compatible         safari
 // @compatible         kiwi
-// @version            2025.04.27.1345
+// @version            2026.3.31.1
 // @created            2025-03-07 21:14:34
 // @modified           2025-03-07 21:14:34
 // ==/UserScript==
@@ -112,7 +114,7 @@
  * File Created: 2025/03/07 21:14:34
  * Author: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
- * Last Modified: 2025/06/03,Tuesday 11:09:28
+ * Last Modified: 2026/03/31,Tuesday 05:58:59
  * Modified By: 人民的勤务员@ChinaGodMan (china.qinwuyuan@gmail.com)
  * -----
  * License: MIT License
