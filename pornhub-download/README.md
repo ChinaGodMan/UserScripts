@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/528800">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Pornhub 视频一键下载 更新日志</strong></h1>
+<h3><strong>📅 2026.3.31.1</strong></h3>
+<p><strong>优化</strong>: 优化代码,来自<a href="https://greasyfork.org/zh-CN/scripts/551131">纯粹乐趣 – Pornhub 视频下载器</a> </p>
+<hr />
 <h3><strong>📅 2025.05.01.0128</strong></h3>
 <p><strong>修复</strong>: 删除掉下载视频时，文件名尾随空格<a href="https://greasyfork.org/scripts/528800/discussions/296954">#296954</a></p>
 <hr />
