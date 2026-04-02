@@ -621,12 +621,12 @@ const TMD = (function () {
                                 fetch(task.url)
                                     .then(response => {
                                         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                                        return response.arrayBuffer();   // ← 关键修改
+                                        return response.arrayBuffer()   // ← 关键修改
                                     })
                                     .then(buffer => {
-                                        const uint8Array = new Uint8Array(buffer);
+                                        const uint8Array = new Uint8Array(buffer)
                                         zip.file(task.name, uint8Array);
-                                        tasks = tasks.filter(t => t.url !== task.url);
+                                        tasks = tasks.filter(t => t.url !== task.url)
                                         thread--
                                         this.update()
                                         completedCount++
@@ -639,20 +639,20 @@ const TMD = (function () {
                                                     url: zipUrl,
                                                     name: `${taskList[0].name}.zip`,
                                                     onload: () => {
-                                                        URL.revokeObjectURL(zipUrl);
-                                                        this.status(btn, 'completed', lang.completed);
+                                                        URL.revokeObjectURL(zipUrl)
+                                                        this.status(btn, 'completed', lang.completed)
                                                         if (save_history && !is_exist) {
-                                                            history.push(status_id);
-                                                            this.storage(status_id);
+                                                            history.push(status_id)
+                                                            this.storage(status_id)
                                                         }
                                                     },
                                                     onerror: (err) => {
-                                                        URL.revokeObjectURL(zipUrl);
+                                                        URL.revokeObjectURL(zipUrl)
                                                         this.status(btn, 'failed', err.details?.current || 'ZIP download failed');
                                                     }
-                                                });
+                                                })
                                             }).catch(err => {
-                                                this.status(btn, 'failed', err.message);
+                                                this.status(btn, 'failed', err.message)
                                             });
                                         }
                                     })
@@ -661,8 +661,8 @@ const TMD = (function () {
                                         tasks = tasks.filter(t => t.url !== task.url)
                                         this.status(btn, 'failed', error.message)
                                         this.update()
-                                    });
-                            });
+                                    })
+                            })
                         } else {
                             taskList.forEach((task) => {
                                 thread++
