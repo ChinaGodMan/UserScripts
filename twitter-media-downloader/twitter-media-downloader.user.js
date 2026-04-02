@@ -247,7 +247,7 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2025.12.02.01
+// @version            2026.4.2.1
 // @created            2025-03-11 08:11:29
 // @modified           2025-12-02 14:33:28
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -619,25 +619,41 @@ const TMD = (function () {
                                 thread++
                                 this.update()
                                 fetch(task.url)
-                                    .then(response => response.blob())
-                                    .then(blob => {
-                                        zip.file(task.name, blob)
+                                    .then(response => {
+                                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                                        return response.arrayBuffer()   // ← 关键修改
+                                    })
+                                    .then(buffer => {
+                                        const uint8Array = new Uint8Array(buffer)
+                                        zip.file(task.name, uint8Array);
                                         tasks = tasks.filter(t => t.url !== task.url)
                                         thread--
                                         this.update()
                                         completedCount++
                                         if (completedCount === taskList.length) {
                                             zip.generateAsync({ type: 'blob' }).then(content => {
-                                                let a = document.createElement('a')
-                                                a.href = URL.createObjectURL(content)
-                                                a.download = `${taskList[0].name}.zip`
-                                                a.click()
-                                                this.status(btn, 'completed', lang.completed)
-                                                if (save_history && !is_exist) {
-                                                    history.push(status_id)
-                                                    this.storage(status_id)
-                                                }
-                                            })
+                                                // 使用 GM_download 下载 ZIP（避免 Firefox 的 a.click 拦截）
+                                                const zipBlob = new Blob([content], { type: 'application/zip' })
+                                                const zipUrl = URL.createObjectURL(zipBlob)
+                                                GM_download({
+                                                    url: zipUrl,
+                                                    name: `${taskList[0].name}.zip`,
+                                                    onload: () => {
+                                                        URL.revokeObjectURL(zipUrl)
+                                                        this.status(btn, 'completed', lang.completed)
+                                                        if (save_history && !is_exist) {
+                                                            history.push(status_id)
+                                                            this.storage(status_id)
+                                                        }
+                                                    },
+                                                    onerror: (err) => {
+                                                        URL.revokeObjectURL(zipUrl)
+                                                        this.status(btn, 'failed', err.details?.current || 'ZIP download failed');
+                                                    }
+                                                })
+                                            }).catch(err => {
+                                                this.status(btn, 'failed', err.message)
+                                            });
                                         }
                                     })
                                     .catch(error => {
