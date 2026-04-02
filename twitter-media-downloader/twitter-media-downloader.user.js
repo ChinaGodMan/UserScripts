@@ -613,40 +613,56 @@ const TMD = (function () {
                         tasks.push(...taskList)
                         this.update()
                         if (enable_packaging) {
-                            let zip = new JSZip()
-                            let completedCount = 0
+                            let zip = new JSZip();
+                            let completedCount = 0;
                             taskList.forEach((task, i) => {
-                                thread++
-                                this.update()
+                                thread++;
+                                this.update();
                                 fetch(task.url)
-                                    .then(response => response.blob())
-                                    .then(blob => {
-                                        zip.file(task.name, blob)
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        thread--
-                                        this.update()
-                                        completedCount++
+                                    .then(response => {
+                                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                                        return response.arrayBuffer();   // ← 关键修改
+                                    })
+                                    .then(buffer => {
+                                        const uint8Array = new Uint8Array(buffer);
+                                        zip.file(task.name, uint8Array);
+                                        tasks = tasks.filter(t => t.url !== task.url);
+                                        thread--;
+                                        this.update();
+                                        completedCount++;
                                         if (completedCount === taskList.length) {
                                             zip.generateAsync({ type: 'blob' }).then(content => {
-                                                let a = document.createElement('a')
-                                                a.href = URL.createObjectURL(content)
-                                                a.download = `${taskList[0].name}.zip`
-                                                a.click()
-                                                this.status(btn, 'completed', lang.completed)
-                                                if (save_history && !is_exist) {
-                                                    history.push(status_id)
-                                                    this.storage(status_id)
-                                                }
-                                            })
+                                                // 使用 GM_download 下载 ZIP（避免 Firefox 的 a.click 拦截）
+                                                const zipBlob = new Blob([content], { type: 'application/zip' });
+                                                const zipUrl = URL.createObjectURL(zipBlob);
+                                                GM_download({
+                                                    url: zipUrl,
+                                                    name: `${taskList[0].name}.zip`,
+                                                    onload: () => {
+                                                        URL.revokeObjectURL(zipUrl);
+                                                        this.status(btn, 'completed', lang.completed);
+                                                        if (save_history && !is_exist) {
+                                                            history.push(status_id);
+                                                            this.storage(status_id);
+                                                        }
+                                                    },
+                                                    onerror: (err) => {
+                                                        URL.revokeObjectURL(zipUrl);
+                                                        this.status(btn, 'failed', err.details?.current || 'ZIP download failed');
+                                                    }
+                                                });
+                                            }).catch(err => {
+                                                this.status(btn, 'failed', err.message);
+                                            });
                                         }
                                     })
                                     .catch(error => {
-                                        failed++
-                                        tasks = tasks.filter(t => t.url !== task.url)
-                                        this.status(btn, 'failed', error.message)
-                                        this.update()
-                                    })
-                            })
+                                        failed++;
+                                        tasks = tasks.filter(t => t.url !== task.url);
+                                        this.status(btn, 'failed', error.message);
+                                        this.update();
+                                    });
+                            });
                         } else {
                             taskList.forEach((task) => {
                                 thread++
