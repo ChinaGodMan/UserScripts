@@ -613,11 +613,11 @@ const TMD = (function () {
                         tasks.push(...taskList)
                         this.update()
                         if (enable_packaging) {
-                            let zip = new JSZip();
-                            let completedCount = 0;
+                            let zip = new JSZip()
+                            let completedCount = 0
                             taskList.forEach((task, i) => {
-                                thread++;
-                                this.update();
+                                thread++
+                                this.update()
                                 fetch(task.url)
                                     .then(response => {
                                         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -627,14 +627,14 @@ const TMD = (function () {
                                         const uint8Array = new Uint8Array(buffer);
                                         zip.file(task.name, uint8Array);
                                         tasks = tasks.filter(t => t.url !== task.url);
-                                        thread--;
-                                        this.update();
-                                        completedCount++;
+                                        thread--
+                                        this.update()
+                                        completedCount++
                                         if (completedCount === taskList.length) {
                                             zip.generateAsync({ type: 'blob' }).then(content => {
                                                 // 使用 GM_download 下载 ZIP（避免 Firefox 的 a.click 拦截）
-                                                const zipBlob = new Blob([content], { type: 'application/zip' });
-                                                const zipUrl = URL.createObjectURL(zipBlob);
+                                                const zipBlob = new Blob([content], { type: 'application/zip' })
+                                                const zipUrl = URL.createObjectURL(zipBlob)
                                                 GM_download({
                                                     url: zipUrl,
                                                     name: `${taskList[0].name}.zip`,
@@ -657,10 +657,10 @@ const TMD = (function () {
                                         }
                                     })
                                     .catch(error => {
-                                        failed++;
-                                        tasks = tasks.filter(t => t.url !== task.url);
-                                        this.status(btn, 'failed', error.message);
-                                        this.update();
+                                        failed++
+                                        tasks = tasks.filter(t => t.url !== task.url)
+                                        this.status(btn, 'failed', error.message)
+                                        this.update()
                                     });
                             });
                         } else {
