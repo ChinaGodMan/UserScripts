@@ -3271,6 +3271,7 @@ TikTok 在个人资料上显示更多扩展信息
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/ChinaGodBot" title="人民的机器人"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="人民的机器人"/></a>
+<a href="https://github.com/Metric640" title="Metric"><img src="https://avatars.githubusercontent.com/u/2054928?v=4" width="42;" alt="Metric"/></a>
 <a href="https://github.com/molanp" title="molanp"><img src="https://avatars.githubusercontent.com/u/104612722?v=4" width="42;" alt="molanp"/></a>
 <a href="https://github.com/Yoobohl" title="Yoobohl"><img src="https://avatars.githubusercontent.com/u/54564019?v=4" width="42;" alt="Yoobohl"/></a>
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
