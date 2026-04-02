@@ -247,7 +247,7 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2026.4.2.1
+// @version            2026.4.2.2
 // @created            2025-03-11 08:11:29
 // @modified           2025-12-02 14:33:28
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
