@@ -247,7 +247,7 @@
 // @grant              GM_download
 // @match              https://x.com/*
 // @match              https://twitter.com/*
-// @version            2026.4.2.1
+// @version            2026.4.2.2
 // @created            2025-03-11 08:11:29
 // @modified           2025-12-02 14:33:28
 // @require            https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
@@ -632,28 +632,52 @@ const TMD = (function () {
                                         completedCount++
                                         if (completedCount === taskList.length) {
                                             zip.generateAsync({ type: 'blob' }).then(content => {
-                                                // 使用 GM_download 下载 ZIP（避免 Firefox 的 a.click 拦截）
                                                 const zipBlob = new Blob([content], { type: 'application/zip' })
                                                 const zipUrl = URL.createObjectURL(zipBlob)
-                                                GM_download({
-                                                    url: zipUrl,
-                                                    name: `${taskList[0].name}.zip`,
-                                                    onload: () => {
-                                                        URL.revokeObjectURL(zipUrl)
-                                                        this.status(btn, 'completed', lang.completed)
-                                                        if (save_history && !is_exist) {
-                                                            history.push(status_id)
-                                                            this.storage(status_id)
+                                                const zipFileName = `${taskList[0].name}.zip`
+
+                                                // 检测是否为 Firefox
+                                                const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1
+                                                
+                                                // Firefox 使用 GM_download
+                                                if (isFirefox) {
+                                                    GM_download({
+                                                        url: zipUrl,
+                                                        name: zipFileName,
+                                                        onload: () => {
+                                                            URL.revokeObjectURL(zipUrl)
+                                                            this.status(btn, 'completed', lang.completed)
+                                                            if (save_history && !is_exist) {
+                                                                history.push(status_id)
+                                                                this.storage(status_id)
+                                                            }
+                                                        },
+                                                        onerror: (err) => {
+                                                            URL.revokeObjectURL(zipUrl)
+                                                            this.status(btn, 'failed', err.details?.current || 'ZIP download failed')
                                                         }
-                                                    },
-                                                    onerror: (err) => {
+                                                    })
+                                                } else {
+                                                    // Chrome / Edge / Opera 等使用传统 a.click 方式
+                                                    const a = document.createElement('a')
+                                                    a.href = zipUrl
+                                                    a.download = zipFileName
+                                                    document.body.appendChild(a)
+                                                    a.click()
+                                                    // 延迟移除，确保下载开始
+                                                    setTimeout(() => {
+                                                        document.body.removeChild(a)
                                                         URL.revokeObjectURL(zipUrl)
-                                                        this.status(btn, 'failed', err.details?.current || 'ZIP download failed');
+                                                    }, 100)
+                                                    this.status(btn, 'completed', lang.completed)
+                                                    if (save_history && !is_exist) {
+                                                        history.push(status_id)
+                                                        this.storage(status_id)
                                                     }
-                                                })
+                                                }
                                             }).catch(err => {
                                                 this.status(btn, 'failed', err.message)
-                                            });
+                                            })
                                         }
                                     })
                                     .catch(error => {
