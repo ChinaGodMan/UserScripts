@@ -1,7 +1,8 @@
 import re
+import sys
 
 from content_snippet import get_file_description
-from helper import is_file_modified, read_json
+from helper import is_file_modified, is_file_updated_more_than, read_json
 from writer import process_file
 
 start_tag = "<!--SCRIPTS_COUNT-->"
@@ -18,6 +19,10 @@ reg_relative = r'<a href="([./][^"]+)">'  # 相对路径
 group_toc_template = 'href="{}"'
 return_link_template = '<div align="right"><a href="{}">{}</a></div>'
 readme_toc_template = "({})"
+
+if is_file_updated_more_than("docs/README.md", 15):
+  print("[SKIP] README.md 没有新提交，跳过处理TOC。")
+  sys.exit(0)
 
 docs = read_json("utils/docs/translate_readme.json")
 
