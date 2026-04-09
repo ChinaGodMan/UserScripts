@@ -63,18 +63,7 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
-> [!WARNING]
->  <div align="center">
->  本存储库仅在<code>GitHub</code>上托管,未在<code>GitCode</code>和<code>XPlaza</code>上托管。以下存储库均为镜像。<br>
->    :trollface: 如果你在中国大陆地区使用<code>git clone</code>下载速度太慢，你也可以是使用以下地址进行
->    
->  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (镜像账号，非本人)  
->    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
->    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
->    
->    
->  </div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--README-TOC-->
 ## 🔖 TOC
