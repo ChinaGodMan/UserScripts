@@ -8,18 +8,18 @@
             <img height=14
                 src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
         </picture>
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="./README.md">简体中文</a> |
-        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="./zh-TW/README.md">繁體中文</a> |
-        <a href="./en/README.md">English</a> |
-        <a href="./ja/README.md">日本語</a> |
-        <a href="./vi/README.md">Tiếng Việt</a> |
-        <a href="./it/README.md">Italiano</a> |
-        <a href="./ru/README.md">Русский</a> |
-        <a href="./de/README.md">Deutsch</a> |
-        <a href="./es/README.md">Español</a> |
-        <a href="./pt/README.md">Portuguese</a> |
-        <a href="./fr/README.md">Français</a> |
-        <a href="./ko/README.md">대한민국</a>
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="../README.md">简体中文</a> |
+        <img src="https://raw.githubusercontent.com/ChinaGodMan/ChinaGodMan/main/images/guoqi.svg" style="width: 16px; height: 10.67px;"alt="China"><a href="../zh-TW/README.md">繁體中文</a> |
+        <a href="../en/README.md">English</a> |
+        <a href="../ja/README.md">日本語</a> |
+        <a href="../vi/README.md">Tiếng Việt</a> |
+        <a href="../it/README.md">Italiano</a> |
+        <a href="../ru/README.md">Русский</a> |
+        <a href="../de/README.md">Deutsch</a> |
+        <a href="../es/README.md">Español</a> |
+        <a href="../pt/README.md">Portuguese</a> |
+        <a href="../fr/README.md">Français</a> |
+        <a href="../ko/README.md">대한민국</a>
     </h6>
 </div>
 <center><div align="center"><a href="https://github.com/ChinaGodMan" target="_blank">
@@ -63,47 +63,36 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
-> [!WARNING]
->  <div align="center">
->  이 저장소는 다음에서만 사용할 수 있습니다.<code>GitHub</code>호스팅됨,여기가 아니야<code>GitCode</code>그리고<code>XPlaza</code>호스팅됨。다음 저장소는 모두 미러입니다.。<br>
->    :trollface: 중국 본토에서 사용하는 경우<code>git clone</code>다운로드 속도가 너무 느립니다.，다음 주소를 이용해도 됩니다
->    
->  
->    [https://www.xplaza.cn/ChinaGodMan](https://www.xplaza.cn/ChinaGodMan) (미러 계정，비 본인)  
->    [https://www.xplaza.cn/ChinaGodMan/userscripts](https://www.xplaza.cn/ChinaGodMan/userscripts)  
->    [https://gitcode.com/gh_mirrors/userscripts1/UserScripts/](https://gitcode.com/gh_mirrors/userscripts1/UserScripts)
->    
->    
->  </div>
+<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--README-TOC-->
 ## 🔖 TOC
-[🌐 브라우저 및 스크립트 관리자](#-브라우저 및 스크립트 관리자) |
-[❔️ 스크립트 설치 또는 사용 방법](#%EF%B8%8F-스크립트 설치 또는 사용 방법) |
-[🙏 오픈소스 덕분에 특별히 감사드립니다](#-오픈소스 덕분에 특별히 감사드립니다) |
-[🛡️ 보안 정책](#%EF%B8%8F-보안 정책) |
+[🌐 브라우저 및 스크립트 관리자](#-브라우저-및-스크립트-관리자) |
+[❔️ 스크립트 설치 또는 사용 방법](#%EF%B8%8F-스크립트-설치-또는-사용-방법) |
+[🙏 오픈소스 덕분에 특별히 감사드립니다](#-오픈소스-덕분에-특별히-감사드립니다) |
+[🛡️ 보안 정책](#%EF%B8%8F-보안-정책) |
 [🤝 행동강령](#-행동강령) |
-[🏛️ 오픈소스 라이선스 계약](#%EF%B8%8F-오픈소스 라이선스 계약) |
+[🏛️ 오픈소스 라이선스 계약](#%EF%B8%8F-오픈소스-라이선스-계약) |
 [🧠 기부자](#-기부자) |
-[💖 기여 가이드](#-기여 가이드) |
-[⭐ 스타의 역사](#-스타의 역사) |
-[📜 스크립트 목록](#-스크립트 목록)
+[💖 기여 가이드](#-기여-가이드) |
+[⭐ 스타의 역사](#-스타의-역사) |
+[📜 스크립트 목록](#-스크립트-목록)
 <!--README-TOC-END-->
 
 ## 📜 스크립트 목록
 
-💡 **Tip:** _미리보기 스크린샷을 표시하려면，확장명 아래를 클릭하세요. ▸ 또는 설명。_
+💡 **Tip:** _미리보기 스크린샷을 표시하려면，확장자 이름 아래를 클릭하세요 ▸ 또는 설명。_
 
 <!--SCRIPTS_COUNT-->
 **현재 저장소에 게시된 스크립트 수:85,스크립트에는 다음이 포함됩니다.:**
-<h6><a href="#웹 스크립트-10">웹 스크립트 (10)</a>
+<h6><a href="#웹-스크립트-10">웹 스크립트 (10)</a>
  | <a href="#GreasyFork-12">GreasyFork (12)</a>
- | <a href="#성인 대본-11">성인 대본 (11)</a>
- | <a href="#Google 각본-2">Google 각본 (2)</a>
- | <a href="#GitHub 각본-20">GitHub 각본 (20)</a>
- | <a href="#스크립트 번역-3">스크립트 번역 (3)</a>
- | <a href="#AI 각본-9">AI 각본 (9)</a>
- | <a href="#블로그 사이트-5">블로그 사이트 (5)</a>
+ | <a href="#성인-대본-11">성인 대본 (11)</a>
+ | <a href="#Google-각본-2">Google 각본 (2)</a>
+ | <a href="#GitHub-각본-20">GitHub 각본 (20)</a>
+ | <a href="#스크립트-번역-3">스크립트 번역 (3)</a>
+ | <a href="#AI-각본-9">AI 각본 (9)</a>
+ | <a href="#블로그-사이트-5">블로그 사이트 (5)</a>
  | <a href="#Twitter-5">Twitter (5)</a>
  | <a href="#YouTube-5">YouTube (5)</a>
  | <a href="#TikTok-1">TikTok (1)</a>
@@ -113,9 +102,9 @@
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-->
 <div align="center"><h1>웹 스크립트 (10)</h1></div><h3>
-    <a href="../scroll-button">
+    <a href="../../scroll-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-button.png" width=18></a>
-    <a href="../scroll-button">스크롤 버튼</a>&nbsp;
+    <a href="../../scroll-button">스크롤 버튼</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497251">
         <img src="https://img.shields.io/greasyfork/dt/497251?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-button&hashtags=greasemonkey,userscripts,javascript">
@@ -136,22 +125,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497251">
         Greasemonkey</a> /
-    <a href="../scroll-button/README_ko.md">
+    <a href="../../scroll-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../scroll-button/README_ko.md">
+    <a href="../../scroll-button/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../scroll-button/scroll-button.user.js">
+    <a href="../../scroll-button/scroll-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-button/scroll-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../clipboard-manager">
+    <a href="../../clipboard-manager">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/clipboard-manager.png" width=18></a>
-    <a href="../clipboard-manager">웹 페이지 작성 클립 버전 권한 관리자</a>&nbsp;
+    <a href="../../clipboard-manager">웹 페이지 작성 클립 버전 권한 관리자</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497403">
         <img src="https://img.shields.io/greasyfork/dt/497403?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager&hashtags=greasemonkey,userscripts,javascript">
@@ -172,14 +161,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497403">
         Greasemonkey</a> /
-    <a href="../clipboard-manager/README_ko.md">
+    <a href="../../clipboard-manager/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../clipboard-manager/README_ko.md">
+    <a href="../../clipboard-manager/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../clipboard-manager/clipboard-manager.user.js">
+    <a href="../../clipboard-manager/clipboard-manager.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clipboard-manager/clipboard-manager.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -187,9 +176,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../remove-link-underlines">
+    <a href="../../remove-link-underlines">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/remove-link-underlines.png" width=18></a>
-    <a href="../remove-link-underlines">링크 밑줄 제거</a>&nbsp;
+    <a href="../../remove-link-underlines">링크 밑줄 제거</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498625">
         <img src="https://img.shields.io/greasyfork/dt/498625?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/remove-link-underlines&hashtags=greasemonkey,userscripts,javascript">
@@ -204,22 +193,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498625">
         Greasemonkey</a> /
-    <a href="../remove-link-underlines/README_ko.md">
+    <a href="../../remove-link-underlines/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../remove-link-underlines/README_ko.md">
+    <a href="../../remove-link-underlines/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../remove-link-underlines/remove-link-underlines.user.js">
+    <a href="../../remove-link-underlines/remove-link-underlines.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/remove-link-underlines/remove-link-underlines.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../highlight-keywords-mini">
+    <a href="../../../highlight-keywords-mini">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords-mini.png" width=18></a>
-    <a href="../highlight-keywords-mini">웹 키워드를 강조 표시합니다</a>&nbsp;
+    <a href="../../../highlight-keywords-mini">웹 키워드를 강조 표시합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498905">
         <img src="https://img.shields.io/greasyfork/dt/498905?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords-mini&hashtags=greasemonkey,userscripts,javascript">
@@ -234,22 +223,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498905">
         Greasemonkey</a> /
-    <a href="../highlight-keywords-mini/README_ko.md">
+    <a href="../../../highlight-keywords-mini/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../highlight-keywords-mini/README_ko.md">
+    <a href="../../../highlight-keywords-mini/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../highlight-keywords-mini/highlight-keywords-mini.user.js">
+    <a href="../../../highlight-keywords-mini/highlight-keywords-mini.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords-mini/highlight-keywords-mini.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../highlight-keywords">
+    <a href="../../highlight-keywords">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/highlight-keywords.png" width=18></a>
-    <a href="../highlight-keywords">웹에서 키워드를 강조 표시합니다</a>&nbsp;
+    <a href="../../highlight-keywords">웹에서 키워드를 강조 표시합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498906">
         <img src="https://img.shields.io/greasyfork/dt/498906?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/highlight-keywords&hashtags=greasemonkey,userscripts,javascript">
@@ -270,22 +259,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498906">
         Greasemonkey</a> /
-    <a href="../highlight-keywords/README_ko.md">
+    <a href="../../highlight-keywords/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../highlight-keywords/README_ko.md">
+    <a href="../../highlight-keywords/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../highlight-keywords/highlight-keywords.user.js">
+    <a href="../../highlight-keywords/highlight-keywords.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/highlight-keywords/highlight-keywords.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../scroll-to-top-button">
+    <a href="../../scroll-to-top-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/scroll-to-top-button.png" width=18></a>
-    <a href="../scroll-to-top-button">상단 및 하단 버튼에 고정</a>&nbsp;
+    <a href="../../scroll-to-top-button">상단 및 하단 버튼에 고정</a>&nbsp;
     <a href="https://greasyfork.org/scripts/500255">
         <img src="https://img.shields.io/greasyfork/dt/500255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/scroll-to-top-button&hashtags=greasemonkey,userscripts,javascript">
@@ -306,14 +295,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/500255">
         Greasemonkey</a> /
-    <a href="../scroll-to-top-button/README_ko.md">
+    <a href="../../scroll-to-top-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../scroll-to-top-button/README_ko.md">
+    <a href="../../scroll-to-top-button/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../scroll-to-top-button/scroll-to-top-button.user.js">
+    <a href="../../scroll-to-top-button/scroll-to-top-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/scroll-to-top-button/scroll-to-top-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -321,9 +310,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../popup-window">
+    <a href="../../popup-window">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/popup-window.png" width=18></a>
-    <a href="../popup-window">작은 창 미리보기</a>&nbsp;
+    <a href="../../popup-window">작은 창 미리보기</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504880">
         <img src="https://img.shields.io/greasyfork/dt/504880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/popup-window&hashtags=greasemonkey,userscripts,javascript">
@@ -344,14 +333,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504880">
         Greasemonkey</a> /
-    <a href="../popup-window/README_ko.md">
+    <a href="../../popup-window/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../popup-window/README_ko.md">
+    <a href="../../popup-window/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../popup-window/popup-window.user.js">
+    <a href="../../popup-window/popup-window.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/popup-window/popup-window.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -359,9 +348,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../colorful-table">
+    <a href="../../colorful-table">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/colorful-table.svg" width=18></a>
-    <a href="../colorful-table">화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요</a>&nbsp;
+    <a href="../../colorful-table">화려한 그라데이션으로 웹 양식을 아름답게 꾸미세요</a>&nbsp;
     <a href="https://greasyfork.org/scripts/507036">
         <img src="https://img.shields.io/greasyfork/dt/507036?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/colorful-table&hashtags=greasemonkey,userscripts,javascript">
@@ -382,14 +371,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/507036">
         Greasemonkey</a> /
-    <a href="../colorful-table/README_ko.md">
+    <a href="../../colorful-table/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../colorful-table/README_ko.md">
+    <a href="../../colorful-table/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../colorful-table/colorful-table.user.js">
+    <a href="../../colorful-table/colorful-table.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/colorful-table/colorful-table.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -397,9 +386,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../text-to-link">
+    <a href="../../text-to-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://github.com/lkytal/GM/raw/master/icons/link.png"><img width=18 src="https://github.com/lkytal/GM/raw/master/icons/link.png" width=18></a>
-    <a href="../text-to-link">링크 할 텍스트</a>&nbsp;
+    <a href="../../text-to-link">링크 할 텍스트</a>&nbsp;
     <a href="https://greasyfork.org/scripts/514262">
         <img src="https://img.shields.io/greasyfork/dt/514262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/text-to-link&hashtags=greasemonkey,userscripts,javascript">
@@ -414,14 +403,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/514262">
         Greasemonkey</a> /
-    <a href="../text-to-link/README_ko.md">
+    <a href="../../text-to-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../text-to-link/README_ko.md">
+    <a href="../../text-to-link/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../text-to-link/text-to-link.user.js">
+    <a href="../../text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/text-to-link/text-to-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -429,9 +418,9 @@
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../web-clipper">
+    <a href="../../web-clipper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/web-clipper.png" width=18></a>
-    <a href="../web-clipper">마크 다운 클라우드 컷 메모</a>&nbsp;
+    <a href="../../web-clipper">마크 다운 클라우드 컷 메모</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530139">
         <img src="https://img.shields.io/greasyfork/dt/530139?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper&hashtags=greasemonkey,userscripts,javascript">
@@ -452,14 +441,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530139">
         Greasemonkey</a> /
-    <a href="../web-clipper/README_ko.md">
+    <a href="../../web-clipper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../web-clipper/README_ko.md">
+    <a href="../../web-clipper/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../web-clipper/web-clipper.user.js">
+    <a href="../../web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/web-clipper/web-clipper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -468,12 +457,12 @@
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/web-clipper/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
-    <a href="../greasyfork-link">
+    <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
-    <a href="../greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
+    <a href="../../greasyfork-link">URL 향상을위한 기름기가 많은 포크 스크립트 페이지</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497317">
         <img src="https://img.shields.io/greasyfork/dt/497317?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-link&hashtags=greasemonkey,userscripts,javascript">
@@ -494,22 +483,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497317">
         Greasemonkey</a> /
-    <a href="../greasyfork-link/README_ko.md">
+    <a href="../../greasyfork-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-link/README_ko.md">
+    <a href="../../greasyfork-link/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-link/greasyfork-link.user.js">
+    <a href="../../greasyfork-link/greasyfork-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-link/greasyfork-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-utility-toolkit">
+    <a href="../../greasyfork-utility-toolkit">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="../greasyfork-utility-toolkit">Greasyfork 프레이머</a>&nbsp;
+    <a href="../../greasyfork-utility-toolkit">Greasyfork 프레이머</a>&nbsp;
     <a href="https://greasyfork.org/scripts/497346">
         <img src="https://img.shields.io/greasyfork/dt/497346?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-utility-toolkit&hashtags=greasemonkey,userscripts,javascript">
@@ -530,14 +519,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/497346">
         Greasemonkey</a> /
-    <a href="../greasyfork-utility-toolkit/README_ko.md">
+    <a href="../../greasyfork-utility-toolkit/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-utility-toolkit/README_ko.md">
+    <a href="../../greasyfork-utility-toolkit/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
+    <a href="../../greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-utility-toolkit/greasyfork-utility-toolkit.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -545,9 +534,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../script-finder-plus">
+    <a href="../../script-finder-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/script-finder-plus.png" width=18></a>
-    <a href="../script-finder-plus">Script Finder 그리스 원숭이 스크립트 조회</a>&nbsp;
+    <a href="../../script-finder-plus">Script Finder 그리스 원숭이 스크립트 조회</a>&nbsp;
     <a href="https://greasyfork.org/scripts/498904">
         <img src="https://img.shields.io/greasyfork/dt/498904?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/script-finder-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -568,14 +557,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/498904">
         Greasemonkey</a> /
-    <a href="../script-finder-plus/README_ko.md">
+    <a href="../../script-finder-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../script-finder-plus/README_ko.md">
+    <a href="../../script-finder-plus/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../script-finder-plus/script-finder-plus.user.js">
+    <a href="../../script-finder-plus/script-finder-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/script-finder-plus/script-finder-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -583,9 +572,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-ranks">
+    <a href="../../greasyfork-ranks">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-ranks.png" width=18></a>
-    <a href="../greasyfork-ranks">Greasyfork 평점을 표시하는 스크립트</a>&nbsp;
+    <a href="../../greasyfork-ranks">Greasyfork 평점을 표시하는 스크립트</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501119">
         <img src="https://img.shields.io/greasyfork/dt/501119?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-ranks&hashtags=greasemonkey,userscripts,javascript">
@@ -606,22 +595,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/501119">
         Greasemonkey</a> /
-    <a href="../greasyfork-ranks/README_ko.md">
+    <a href="../../greasyfork-ranks/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-ranks/README_ko.md">
+    <a href="../../greasyfork-ranks/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-ranks/greasyfork-ranks.user.js">
+    <a href="../../greasyfork-ranks/greasyfork-ranks.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-ranks/greasyfork-ranks.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-user-control-panel-button">
+    <a href="../../greasyfork-user-control-panel-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-control-panel-button.png" width=18></a>
-    <a href="../greasyfork-user-control-panel-button">GreasyFork: 탐색 표시줄 개선</a>&nbsp;
+    <a href="../../greasyfork-user-control-panel-button">GreasyFork: 탐색 표시줄 개선</a>&nbsp;
     <a href="https://greasyfork.org/scripts/501880">
         <img src="https://img.shields.io/greasyfork/dt/501880?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-control-panel-button&hashtags=greasemonkey,userscripts,javascript">
@@ -642,22 +631,22 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/501880">
         Greasemonkey</a> /
-    <a href="../greasyfork-user-control-panel-button/README_ko.md">
+    <a href="../../greasyfork-user-control-panel-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-user-control-panel-button/README_ko.md">
+    <a href="../../greasyfork-user-control-panel-button/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
+    <a href="../../greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-control-panel-button/greasyfork-user-control-panel-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-markdown-toolbar">
+    <a href="../../greasyfork-markdown-toolbar">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-markdown-toolbar.png" width=18></a>
-    <a href="../greasyfork-markdown-toolbar">GreasyFork markdown</a>&nbsp;
+    <a href="../../greasyfork-markdown-toolbar">GreasyFork markdown</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505164">
         <img src="https://img.shields.io/greasyfork/dt/505164?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-markdown-toolbar&hashtags=greasemonkey,userscripts,javascript">
@@ -678,14 +667,14 @@
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505164">
         Greasemonkey</a> /
-    <a href="../greasyfork-markdown-toolbar/README_ko.md">
+    <a href="../../greasyfork-markdown-toolbar/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-markdown-toolbar/README_ko.md">
+    <a href="../../greasyfork-markdown-toolbar/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
+    <a href="../../greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-markdown-toolbar/greasyfork-markdown-toolbar.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -693,9 +682,9 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-search">
+    <a href="../../greasyfork-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-search.png" width=18></a>
-    <a href="../greasyfork-search">GreasyFork Search</a>&nbsp;
+    <a href="../../greasyfork-search">GreasyFork Search</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505215">
         <img src="https://img.shields.io/greasyfork/dt/505215?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-search&hashtags=greasemonkey,userscripts,javascript">
@@ -710,22 +699,22 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505215">
         Greasemonkey</a> /
-    <a href="../greasyfork-search/README_ko.md">
+    <a href="../../greasyfork-search/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-search/README_ko.md">
+    <a href="../../greasyfork-search/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-search/greasyfork-search.user.js">
+    <a href="../../greasyfork-search/greasyfork-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-search/greasyfork-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-discussion-watcher">
+    <a href="../../greasyfork-discussion-watcher">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-discussion-watcher.png" width=18></a>
-    <a href="../greasyfork-discussion-watcher">GreasyFork 알림 도우미</a>&nbsp;
+    <a href="../../greasyfork-discussion-watcher">GreasyFork 알림 도우미</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506345">
         <img src="https://img.shields.io/greasyfork/dt/506345?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-discussion-watcher&hashtags=greasemonkey,userscripts,javascript">
@@ -746,14 +735,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506345">
         Greasemonkey</a> /
-    <a href="../greasyfork-discussion-watcher/README_ko.md">
+    <a href="../../greasyfork-discussion-watcher/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-discussion-watcher/README_ko.md">
+    <a href="../../greasyfork-discussion-watcher/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
+    <a href="../../greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-discussion-watcher/greasyfork-discussion-watcher.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -761,9 +750,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-webhook-sync-enhanced">
+    <a href="../../greasyfork-webhook-sync-enhanced">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="../greasyfork-webhook-sync-enhanced">GreaysFork 향상시키다WebHook동기화 설정</a>&nbsp;
+    <a href="../../greasyfork-webhook-sync-enhanced">GreaysFork 향상시키다WebHook동기화 설정</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506717">
         <img src="https://img.shields.io/greasyfork/dt/506717?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-webhook-sync-enhanced&hashtags=greasemonkey,userscripts,javascript">
@@ -784,14 +773,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506717">
         Greasemonkey</a> /
-    <a href="../greasyfork-webhook-sync-enhanced/README_ko.md">
+    <a href="../../greasyfork-webhook-sync-enhanced/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-webhook-sync-enhanced/README_ko.md">
+    <a href="../../greasyfork-webhook-sync-enhanced/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
+    <a href="../../greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-webhook-sync-enhanced/greasyfork-webhook-sync-enhanced.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -799,9 +788,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-user-scripts-data-visualization">
+    <a href="../../greasyfork-user-scripts-data-visualization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-user-scripts-data-visualization.svg" width=18></a>
-    <a href="../greasyfork-user-scripts-data-visualization">GreasyFork 사용자 게시 스크립트 데이터 시각화</a>&nbsp;
+    <a href="../../greasyfork-user-scripts-data-visualization">GreasyFork 사용자 게시 스크립트 데이터 시각화</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508968">
         <img src="https://img.shields.io/greasyfork/dt/508968?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-scripts-data-visualization&hashtags=greasemonkey,userscripts,javascript">
@@ -822,14 +811,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508968">
         Greasemonkey</a> /
-    <a href="../greasyfork-user-scripts-data-visualization/README_ko.md">
+    <a href="../../greasyfork-user-scripts-data-visualization/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-user-scripts-data-visualization/README_ko.md">
+    <a href="../../greasyfork-user-scripts-data-visualization/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
+    <a href="../../greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-scripts-data-visualization/greasyfork-user-scripts-data-visualization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -837,9 +826,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-user-registration-time">
+    <a href="../../greasyfork-user-registration-time">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-webhook-sync-enhanced.svg" width=18></a>
-    <a href="../greasyfork-user-registration-time">Greasyfork등록 시간을 표시</a>&nbsp;
+    <a href="../../greasyfork-user-registration-time">Greasyfork등록 시간을 표시</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529359">
         <img src="https://img.shields.io/greasyfork/dt/529359?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-user-registration-time&hashtags=greasemonkey,userscripts,javascript">
@@ -860,14 +849,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529359">
         Greasemonkey</a> /
-    <a href="../greasyfork-user-registration-time/README_ko.md">
+    <a href="../../greasyfork-user-registration-time/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-user-registration-time/README_ko.md">
+    <a href="../../greasyfork-user-registration-time/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
+    <a href="../../greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-user-registration-time/greasyfork-user-registration-time.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -877,9 +866,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../greasyfork-unupdated-script">
+    <a href="../../greasyfork-unupdated-script">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-utility-toolkit.svg" width=18></a>
-    <a href="../greasyfork-unupdated-script">Greasyfork는 업데이트되지 않은 스크립트가 강조 표시되었습니다</a>&nbsp;
+    <a href="../../greasyfork-unupdated-script">Greasyfork는 업데이트되지 않은 스크립트가 강조 표시되었습니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538259">
         <img src="https://img.shields.io/greasyfork/dt/538259?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script&hashtags=greasemonkey,userscripts,javascript">
@@ -900,14 +889,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/538259">
         Greasemonkey</a> /
-    <a href="../greasyfork-unupdated-script/README_ko.md">
+    <a href="../../greasyfork-unupdated-script/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../greasyfork-unupdated-script/README_ko.md">
+    <a href="../../greasyfork-unupdated-script/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
+    <a href="../../greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/greasyfork-unupdated-script/greasyfork-unupdated-script.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -916,12 +905,12 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/greasyfork-unupdated-script/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>성인 대본 (11)</h1></div><h3>
-    <a href="../missav-explorer">
+    <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
-    <a href="../missav-explorer">Missav 배치 백업 컬렉션 비디오</a>&nbsp;
+    <a href="../../missav-explorer">Missav 배치 백업 컬렉션 비디오</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/497682">
         <img src="https://img.shields.io/greasyfork/dt/497682?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-explorer&hashtags=greasemonkey,userscripts,javascript">
@@ -942,14 +931,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/497682">
         Greasemonkey</a> /
-    <a href="../missav-explorer/README_ko.md">
+    <a href="../../missav-explorer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../missav-explorer/README_ko.md">
+    <a href="../../missav-explorer/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../missav-explorer/missav-explorer.user.js">
+    <a href="../../missav-explorer/missav-explorer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-explorer/missav-explorer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -957,9 +946,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../missav-auto-login-helper">
+    <a href="../../missav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../missav-auto-login-helper">MissAV 자동 로그인</a>&nbsp;
+    <a href="../../missav-auto-login-helper">MissAV 자동 로그인</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/505325">
         <img src="https://img.shields.io/greasyfork/dt/505325?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -974,14 +963,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/505325">
         Greasemonkey</a> /
-    <a href="../missav-auto-login-helper/README_ko.md">
+    <a href="../../missav-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../missav-auto-login-helper/README_ko.md">
+    <a href="../../missav-auto-login-helper/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../missav-auto-login-helper/missav-auto-login-helper.user.js">
+    <a href="../../missav-auto-login-helper/missav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-auto-login-helper/missav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -989,9 +978,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../thisav-auto-login-helper">
+    <a href="../../thisav-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/thisav-auto-login-helper.png" width=18></a>
-    <a href="../thisav-auto-login-helper">ThisAV 자동 로그인</a>&nbsp;
+    <a href="../../thisav-auto-login-helper">ThisAV 자동 로그인</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506528">
         <img src="https://img.shields.io/greasyfork/dt/506528?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/thisav-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -1006,14 +995,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/506528">
         Greasemonkey</a> /
-    <a href="../thisav-auto-login-helper/README_ko.md">
+    <a href="../../thisav-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../thisav-auto-login-helper/README_ko.md">
+    <a href="../../thisav-auto-login-helper/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../thisav-auto-login-helper/thisav-auto-login-helper.user.js">
+    <a href="../../thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/thisav-auto-login-helper/thisav-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1021,9 +1010,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../jable-auto-login-helper">
+    <a href="../../jable-auto-login-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/jable-auto-login-helper.png" width=18></a>
-    <a href="../jable-auto-login-helper">JableTV 자동 로그인</a>&nbsp;
+    <a href="../../jable-auto-login-helper">JableTV 자동 로그인</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/506730">
         <img src="https://img.shields.io/greasyfork/dt/506730?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/jable-auto-login-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -1038,14 +1027,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/506730">
         Greasemonkey</a> /
-    <a href="../jable-auto-login-helper/README_ko.md">
+    <a href="../../jable-auto-login-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../jable-auto-login-helper/README_ko.md">
+    <a href="../../jable-auto-login-helper/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../jable-auto-login-helper/jable-auto-login-helper.user.js">
+    <a href="../../jable-auto-login-helper/jable-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/jable-auto-login-helper/jable-auto-login-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1053,9 +1042,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../missav-m3u8-finder">
+    <a href="../../missav-m3u8-finder">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../missav-m3u8-finder">Missav 비디오 다운로드 도구</a>&nbsp;
+    <a href="../../missav-m3u8-finder">Missav 비디오 다운로드 도구</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528160">
         <img src="https://img.shields.io/greasyfork/dt/528160?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-m3u8-finder&hashtags=greasemonkey,userscripts,javascript">
@@ -1076,14 +1065,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/528160">
         Greasemonkey</a> /
-    <a href="../missav-m3u8-finder/README_ko.md">
+    <a href="../../missav-m3u8-finder/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../missav-m3u8-finder/README_ko.md">
+    <a href="../../missav-m3u8-finder/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../missav-m3u8-finder/missav-m3u8-finder.user.js">
+    <a href="../../missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-m3u8-finder/missav-m3u8-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1091,9 +1080,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../xvideos-enhance">
+    <a href="../../xvideos-enhance">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xvideos-enhance.png" width=18></a>
-    <a href="../xvideos-enhance">xvideos 푸시 다운로드</a>&nbsp;
+    <a href="../../xvideos-enhance">xvideos 푸시 다운로드</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528798">
         <img src="https://img.shields.io/greasyfork/dt/528798?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xvideos-enhance&hashtags=greasemonkey,userscripts,javascript">
@@ -1114,14 +1103,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/528798">
         Greasemonkey</a> /
-    <a href="../xvideos-enhance/README_ko.md">
+    <a href="../../xvideos-enhance/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../xvideos-enhance/README_ko.md">
+    <a href="../../xvideos-enhance/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../xvideos-enhance/xvideos-enhance.user.js">
+    <a href="../../xvideos-enhance/xvideos-enhance.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xvideos-enhance/xvideos-enhance.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1129,9 +1118,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../pornhub-download">
+    <a href="../../pornhub-download">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/pornhub-download.svg" width=18></a>
-    <a href="../pornhub-download">한 번의 클릭으로 Pornhub 비디오 다운로드</a>&nbsp;
+    <a href="../../pornhub-download">한 번의 클릭으로 Pornhub 비디오 다운로드</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/528800">
         <img src="https://img.shields.io/greasyfork/dt/528800?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/pornhub-download&hashtags=greasemonkey,userscripts,javascript">
@@ -1152,14 +1141,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/528800">
         Greasemonkey</a> /
-    <a href="../pornhub-download/README_ko.md">
+    <a href="../../pornhub-download/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../pornhub-download/README_ko.md">
+    <a href="../../pornhub-download/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../pornhub-download/pornhub-download.user.js">
+    <a href="../../pornhub-download/pornhub-download.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/pornhub-download/pornhub-download.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1167,9 +1156,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../xhamster-downloader">
+    <a href="../../xhamster-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/xhamster-downloader.png" width=18></a>
-    <a href="../xhamster-downloader">Xhamster 비디오 원 클릭 다운로드 어시스턴트</a>&nbsp;
+    <a href="../../xhamster-downloader">Xhamster 비디오 원 클릭 다운로드 어시스턴트</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529043">
         <img src="https://img.shields.io/greasyfork/dt/529043?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xhamster-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1190,14 +1179,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/529043">
         Greasemonkey</a> /
-    <a href="../xhamster-downloader/README_ko.md">
+    <a href="../../xhamster-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../xhamster-downloader/README_ko.md">
+    <a href="../../xhamster-downloader/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../xhamster-downloader/xhamster-downloader.user.js">
+    <a href="../../xhamster-downloader/xhamster-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xhamster-downloader/xhamster-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1205,9 +1194,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../xnxx-downloader">
+    <a href="../../xnxx-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.xnxx.com/apple-touch-icon.png"><img width=18 src="https://www.xnxx.com/apple-touch-icon.png" width=18></a>
-    <a href="../xnxx-downloader">xnxxvideos 비디오 1 클릭 다운로드 어시스턴트</a>&nbsp;
+    <a href="../../xnxx-downloader">xnxxvideos 비디오 1 클릭 다운로드 어시스턴트</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529044">
         <img src="https://img.shields.io/greasyfork/dt/529044?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/xnxx-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1228,14 +1217,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/529044">
         Greasemonkey</a> /
-    <a href="../xnxx-downloader/README_ko.md">
+    <a href="../../xnxx-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../xnxx-downloader/README_ko.md">
+    <a href="../../xnxx-downloader/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../xnxx-downloader/xnxx-downloader.user.js">
+    <a href="../../xnxx-downloader/xnxx-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/xnxx-downloader/xnxx-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1243,9 +1232,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../missav-enhancer">
+    <a href="../../missav-enhancer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../missav-enhancer">Missav 강조 보조원</a>&nbsp;
+    <a href="../../missav-enhancer">Missav 강조 보조원</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/529125">
         <img src="https://img.shields.io/greasyfork/dt/529125?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer&hashtags=greasemonkey,userscripts,javascript">
@@ -1266,14 +1255,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/529125">
         Greasemonkey</a> /
-    <a href="../missav-enhancer/README_ko.md">
+    <a href="../../missav-enhancer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../missav-enhancer/README_ko.md">
+    <a href="../../missav-enhancer/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../missav-enhancer/missav-enhancer.user.js">
+    <a href="../../missav-enhancer/missav-enhancer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/missav-enhancer/missav-enhancer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1281,9 +1270,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../cnm.r18">
+    <a href="../../cnm.r18">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-auto-login-helper.png" width=18></a>
-    <a href="../cnm.r18">방금 18 살이되었습니다</a>&nbsp;
+    <a href="../../cnm.r18">방금 18 살이되었습니다</a>&nbsp;
     <a href="https://sleazyfork.org/scripts/537679">
         <img src="https://img.shields.io/greasyfork/dt/537679?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18&hashtags=greasemonkey,userscripts,javascript">
@@ -1298,14 +1287,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://sleazyfork.org/scripts/537679">
         Greasemonkey</a> /
-    <a href="../cnm.r18/README_ko.md">
+    <a href="../../cnm.r18/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../cnm.r18/README_ko.md">
+    <a href="../../cnm.r18/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../cnm.r18/cnm.r18.user.js">
+    <a href="../../cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/cnm.r18/cnm.r18.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1314,12 +1303,12 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/cnm.r18/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Google 각본 (2)</h1></div><h3>
-    <a href="../google-block-search-sites">
+    <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
-    <a href="../google-block-search-sites">Google 검색 사이트를 차단하십시오</a>&nbsp;
+    <a href="../../google-block-search-sites">Google 검색 사이트를 차단하십시오</a>&nbsp;
     <a href="https://greasyfork.org/scripts/500262">
         <img src="https://img.shields.io/greasyfork/dt/500262?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-block-search-sites&hashtags=greasemonkey,userscripts,javascript">
@@ -1334,22 +1323,22 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/500262">
         Greasemonkey</a> /
-    <a href="../google-block-search-sites/README_ko.md">
+    <a href="../../google-block-search-sites/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../google-block-search-sites/README_ko.md">
+    <a href="../../google-block-search-sites/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../google-block-search-sites/google-block-search-sites.user.js">
+    <a href="../../google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-block-search-sites/google-block-search-sites.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../google-advanced-search">
+    <a href="../../google-advanced-search">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-advanced-search.png" width=18></a>
-    <a href="../google-advanced-search">Google 고급 검색 도우미</a>&nbsp;
+    <a href="../../google-advanced-search">Google 고급 검색 도우미</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502652">
         <img src="https://img.shields.io/greasyfork/dt/502652?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search&hashtags=greasemonkey,userscripts,javascript">
@@ -1370,26 +1359,26 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/502652">
         Greasemonkey</a> /
-    <a href="../google-advanced-search/README_ko.md">
+    <a href="../../google-advanced-search/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../google-advanced-search/README_ko.md">
+    <a href="../../google-advanced-search/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../google-advanced-search/google-advanced-search.user.js">
+    <a href="../../google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/google-advanced-search/google-advanced-search.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/google-advanced-search/CHANGELOG.md">
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>GitHub 각본 (20)</h1></div><h3>
-    <a href="../github-repo-size-view">
+    <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
-    <a href="../github-repo-size-view">🤠 Github 향상된 보조 창고 디스플레이 크기</a>&nbsp;
+    <a href="../../github-repo-size-view">🤠 Github 향상된 보조 창고 디스플레이 크기</a>&nbsp;
     <a href="https://greasyfork.org/scripts/502291">
         <img src="https://img.shields.io/greasyfork/dt/502291?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view&hashtags=greasemonkey,userscripts,javascript">
@@ -1410,14 +1399,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/502291">
         Greasemonkey</a> /
-    <a href="../github-repo-size-view/README_ko.md">
+    <a href="../../github-repo-size-view/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-repo-size-view/README_ko.md">
+    <a href="../../github-repo-size-view/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-repo-size-view/github-repo-size-view.user.js">
+    <a href="../../github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repo-size-view/github-repo-size-view.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1427,9 +1416,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-sort-by-date">
+    <a href="../../github-sort-by-date">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-sort-by-date.png" width=18></a>
-    <a href="../github-sort-by-date">GitHub 날짜순으로 정렬</a>&nbsp;
+    <a href="../../github-sort-by-date">GitHub 날짜순으로 정렬</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505218">
         <img src="https://img.shields.io/greasyfork/dt/505218?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-sort-by-date&hashtags=greasemonkey,userscripts,javascript">
@@ -1450,22 +1439,22 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505218">
         Greasemonkey</a> /
-    <a href="../github-sort-by-date/README_ko.md">
+    <a href="../../github-sort-by-date/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-sort-by-date/README_ko.md">
+    <a href="../../github-sort-by-date/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-sort-by-date/github-sort-by-date.user.js">
+    <a href="../../github-sort-by-date/github-sort-by-date.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-sort-by-date/github-sort-by-date.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../github-folder-downloader">
+    <a href="../../github-folder-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="../github-folder-downloader">GitHub 폴더 다운로더</a>&nbsp;
+    <a href="../../github-folder-downloader">GitHub 폴더 다운로더</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505496">
         <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -1486,14 +1475,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505496">
         Greasemonkey</a> /
-    <a href="../github-folder-downloader/README_ko.md">
+    <a href="../../github-folder-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-folder-downloader/README_ko.md">
+    <a href="../../github-folder-downloader/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-folder-downloader/github-folder-downloader.user.js">
+    <a href="../../github-folder-downloader/github-folder-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-folder-downloader/github-folder-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1501,9 +1490,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-raw-file-plus">
+    <a href="../../github-raw-file-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-raw-file-plus.png" width=18></a>
-    <a href="../github-raw-file-plus">Github 원본 파일 복사 URL 다운로드 파일 포함</a>&nbsp;
+    <a href="../../github-raw-file-plus">Github 원본 파일 복사 URL 다운로드 파일 포함</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505501">
         <img src="https://img.shields.io/greasyfork/dt/505501?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-raw-file-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -1524,14 +1513,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505501">
         Greasemonkey</a> /
-    <a href="../github-raw-file-plus/README_ko.md">
+    <a href="../../github-raw-file-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-raw-file-plus/README_ko.md">
+    <a href="../../github-raw-file-plus/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-raw-file-plus/github-raw-file-plus.user.js">
+    <a href="../../github-raw-file-plus/github-raw-file-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-raw-file-plus/github-raw-file-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1539,9 +1528,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-commit-viewer">
+    <a href="../../github-commit-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
+    <a href="../../github-commit-viewer">GitHub 정보 표시 웹뷰 제출</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505830">
         <img src="https://img.shields.io/greasyfork/dt/505830?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-commit-viewer&hashtags=greasemonkey,userscripts,javascript">
@@ -1562,22 +1551,22 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505830">
         Greasemonkey</a> /
-    <a href="../github-commit-viewer/README_ko.md">
+    <a href="../../github-commit-viewer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-commit-viewer/README_ko.md">
+    <a href="../../github-commit-viewer/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-commit-viewer/github-commit-viewer.user.js">
+    <a href="../../github-commit-viewer/github-commit-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-commit-viewer/github-commit-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../github-file-list-beautifier-plus">
+    <a href="../../github-file-list-beautifier-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-list-beautifier-plus.png" width=18></a>
-    <a href="../github-file-list-beautifier-plus">GitHub 파일 목록 미화자</a>&nbsp;
+    <a href="../../github-file-list-beautifier-plus">GitHub 파일 목록 미화자</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508047">
         <img src="https://img.shields.io/greasyfork/dt/508047?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-list-beautifier-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -1598,14 +1587,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508047">
         Greasemonkey</a> /
-    <a href="../github-file-list-beautifier-plus/README_ko.md">
+    <a href="../../github-file-list-beautifier-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-file-list-beautifier-plus/README_ko.md">
+    <a href="../../github-file-list-beautifier-plus/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
+    <a href="../../github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-list-beautifier-plus/github-file-list-beautifier-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1613,9 +1602,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-device-authorization">
+    <a href="../../github-device-authorization">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-device-authorization.png" width=18></a>
-    <a href="../github-device-authorization">GitHub 장치 승인 자동 확인</a>&nbsp;
+    <a href="../../github-device-authorization">GitHub 장치 승인 자동 확인</a>&nbsp;
     <a href="https://greasyfork.org/scripts/508956">
         <img src="https://img.shields.io/greasyfork/dt/508956?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-device-authorization&hashtags=greasemonkey,userscripts,javascript">
@@ -1630,14 +1619,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/508956">
         Greasemonkey</a> /
-    <a href="../github-device-authorization/README_ko.md">
+    <a href="../../github-device-authorization/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-device-authorization/README_ko.md">
+    <a href="../../github-device-authorization/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-device-authorization/github-device-authorization.user.js">
+    <a href="../../github-device-authorization/github-device-authorization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-device-authorization/github-device-authorization.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1645,9 +1634,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-linguist-expand">
+    <a href="../../github-linguist-expand">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-linguist-expand.png" width=18></a>
-    <a href="../github-linguist-expand">Github 코드 언어 목록 모두 표시</a>&nbsp;
+    <a href="../../github-linguist-expand">Github 코드 언어 목록 모두 표시</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509889">
         <img src="https://img.shields.io/greasyfork/dt/509889?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-linguist-expand&hashtags=greasemonkey,userscripts,javascript">
@@ -1668,14 +1657,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/509889">
         Greasemonkey</a> /
-    <a href="../github-linguist-expand/README_ko.md">
+    <a href="../../github-linguist-expand/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-linguist-expand/README_ko.md">
+    <a href="../../github-linguist-expand/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-linguist-expand/github-linguist-expand.user.js">
+    <a href="../../github-linguist-expand/github-linguist-expand.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-linguist-expand/github-linguist-expand.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1683,9 +1672,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-repository-navigator">
+    <a href="../../github-repository-navigator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-repository-navigator">GitHub 창고 빠른 점프 도우미</a>&nbsp;
+    <a href="../../github-repository-navigator">GitHub 창고 빠른 점프 도우미</a>&nbsp;
     <a href="https://greasyfork.org/scripts/515205">
         <img src="https://img.shields.io/greasyfork/dt/515205?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-repository-navigator&hashtags=greasemonkey,userscripts,javascript">
@@ -1706,14 +1695,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/515205">
         Greasemonkey</a> /
-    <a href="../github-repository-navigator/README_ko.md">
+    <a href="../../github-repository-navigator/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-repository-navigator/README_ko.md">
+    <a href="../../github-repository-navigator/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-repository-navigator/github-repository-navigator.user.js">
+    <a href="../../github-repository-navigator/github-repository-navigator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-repository-navigator/github-repository-navigator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1721,9 +1710,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-jsdelivr-link">
+    <a href="../../github-jsdelivr-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67"><img width=18 src="https://camo.githubusercontent.com/6a5d2046028682a99b5fa88ef0f3399c9bced1d514179686a3973a323bccbf44/68747470733a2f2f7777772e6a7364656c6976722e636f6d2f69636f6e5f323536783235362e706e67" width=18></a>
-    <a href="../github-jsdelivr-link">GitHub에서 JSDELIVR 링크를 엽니 다</a>&nbsp;
+    <a href="../../github-jsdelivr-link">GitHub에서 JSDELIVR 링크를 엽니 다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527870">
         <img src="https://img.shields.io/greasyfork/dt/527870?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-jsdelivr-link&hashtags=greasemonkey,userscripts,javascript">
@@ -1744,14 +1733,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/527870">
         Greasemonkey</a> /
-    <a href="../github-jsdelivr-link/README_ko.md">
+    <a href="../../github-jsdelivr-link/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-jsdelivr-link/README_ko.md">
+    <a href="../../github-jsdelivr-link/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-jsdelivr-link/github-jsdelivr-link.user.js">
+    <a href="../../github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-jsdelivr-link/github-jsdelivr-link.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1759,9 +1748,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-gist-copier">
+    <a href="../../github-gist-copier">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-gist-copier">github gist 코드 스 니펫 복사 및 다운로더</a>&nbsp;
+    <a href="../../github-gist-copier">github gist 코드 스 니펫 복사 및 다운로더</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529534">
         <img src="https://img.shields.io/greasyfork/dt/529534?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-gist-copier&hashtags=greasemonkey,userscripts,javascript">
@@ -1782,14 +1771,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529534">
         Greasemonkey</a> /
-    <a href="../github-gist-copier/README_ko.md">
+    <a href="../../github-gist-copier/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-gist-copier/README_ko.md">
+    <a href="../../github-gist-copier/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-gist-copier/github-gist-copier.user.js">
+    <a href="../../github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-gist-copier/github-gist-copier.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1799,9 +1788,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-comment-translate">
+    <a href="../../github-comment-translate">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-comment-translate">Github 바로 가기 키 번역 보조원</a>&nbsp;
+    <a href="../../github-comment-translate">Github 바로 가기 키 번역 보조원</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530312">
         <img src="https://img.shields.io/greasyfork/dt/530312?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-comment-translate&hashtags=greasemonkey,userscripts,javascript">
@@ -1822,14 +1811,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530312">
         Greasemonkey</a> /
-    <a href="../github-comment-translate/README_ko.md">
+    <a href="../../github-comment-translate/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-comment-translate/README_ko.md">
+    <a href="../../github-comment-translate/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-comment-translate/github-comment-translate.user.js">
+    <a href="../../github-comment-translate/github-comment-translate.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-comment-translate/github-comment-translate.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1837,9 +1826,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../github-starred-repo-note">
+    <a href="../../github-starred-repo-note">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-starred-repo-note">Github Star Warehouse Notes Assistant</a>&nbsp;
+    <a href="../../github-starred-repo-note">Github Star Warehouse Notes Assistant</a>&nbsp;
     <a href="https://greasyfork.org/scripts/533511">
         <img src="https://img.shields.io/greasyfork/dt/533511?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-starred-repo-note&hashtags=greasemonkey,userscripts,javascript">
@@ -1860,14 +1849,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/533511">
         Greasemonkey</a> /
-    <a href="../github-starred-repo-note/README_ko.md">
+    <a href="../../github-starred-repo-note/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-starred-repo-note/README_ko.md">
+    <a href="../../github-starred-repo-note/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-starred-repo-note/github-starred-repo-note.user.js">
+    <a href="../../github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-starred-repo-note/github-starred-repo-note.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1877,9 +1866,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-to-deepwiki">
+    <a href="../../github-to-deepwiki">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/deepwiki.png" width=18></a>
-    <a href="../github-to-deepwiki">Github는 Deepwiki로 점프합니다</a>&nbsp;
+    <a href="../../github-to-deepwiki">Github는 Deepwiki로 점프합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/536279">
         <img src="https://img.shields.io/greasyfork/dt/536279?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-to-deepwiki&hashtags=greasemonkey,userscripts,javascript">
@@ -1900,14 +1889,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/536279">
         Greasemonkey</a> /
-    <a href="../github-to-deepwiki/README_ko.md">
+    <a href="../../github-to-deepwiki/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-to-deepwiki/README_ko.md">
+    <a href="../../github-to-deepwiki/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-to-deepwiki/github-to-deepwiki.user.js">
+    <a href="../../github-to-deepwiki/github-to-deepwiki.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-to-deepwiki/github-to-deepwiki.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1917,9 +1906,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-no-copilot">
+    <a href="../../github-no-copilot">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-no-copilot">github copilot을 숨 깁니다</a>&nbsp;
+    <a href="../../github-no-copilot">github copilot을 숨 깁니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/536423">
         <img src="https://img.shields.io/greasyfork/dt/536423?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-no-copilot&hashtags=greasemonkey,userscripts,javascript">
@@ -1940,14 +1929,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/536423">
         Greasemonkey</a> /
-    <a href="../github-no-copilot/README_ko.md">
+    <a href="../../github-no-copilot/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-no-copilot/README_ko.md">
+    <a href="../../github-no-copilot/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-no-copilot/github-no-copilot.user.js">
+    <a href="../../github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-no-copilot/github-no-copilot.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1957,9 +1946,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-email-finder">
+    <a href="../../github-email-finder">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-email-finder">GitHub 이메일 주소 찾기</a>&nbsp;
+    <a href="../../github-email-finder">GitHub 이메일 주소 찾기</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537309">
         <img src="https://img.shields.io/greasyfork/dt/537309?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-email-finder&hashtags=greasemonkey,userscripts,javascript">
@@ -1980,14 +1969,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537309">
         Greasemonkey</a> /
-    <a href="../github-email-finder/README_ko.md">
+    <a href="../../github-email-finder/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-email-finder/README_ko.md">
+    <a href="../../github-email-finder/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-email-finder/github-email-finder.user.js">
+    <a href="../../github-email-finder/github-email-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-email-finder/github-email-finder.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -1995,9 +1984,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-file-size-viewer">
+    <a href="../../github-file-size-viewer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-file-size-viewer.jpg" width=18></a>
-    <a href="../github-file-size-viewer">Github는 파일 및 폴더 크기를 표시합니다</a>&nbsp;
+    <a href="../../github-file-size-viewer">Github는 파일 및 폴더 크기를 표시합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537310">
         <img src="https://img.shields.io/greasyfork/dt/537310?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-file-size-viewer&hashtags=greasemonkey,userscripts,javascript">
@@ -2019,14 +2008,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537310">
         Greasemonkey</a> /
-    <a href="../github-file-size-viewer/README_ko.md">
+    <a href="../../github-file-size-viewer/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-file-size-viewer/README_ko.md">
+    <a href="../../github-file-size-viewer/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-file-size-viewer/github-file-size-viewer.user.js">
+    <a href="../../github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-file-size-viewer/github-file-size-viewer.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2036,9 +2025,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-co-authors">
+    <a href="../../github-co-authors">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-co-authors.png" width=18></a>
-    <a href="../github-co-authors">Github 공동 저자</a>&nbsp;
+    <a href="../../github-co-authors">Github 공동 저자</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537446">
         <img src="https://img.shields.io/greasyfork/dt/537446?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-co-authors&hashtags=greasemonkey,userscripts,javascript">
@@ -2060,14 +2049,14 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537446">
         Greasemonkey</a> /
-    <a href="../github-co-authors/README_ko.md">
+    <a href="../../github-co-authors/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-co-authors/README_ko.md">
+    <a href="../../github-co-authors/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-co-authors/github-co-authors.user.js">
+    <a href="../../github-co-authors/github-co-authors.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-co-authors/github-co-authors.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2075,9 +2064,9 @@ Google을 사용하여 검색GreasyFork그리고SleazyFork상적 각본
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-notification-inbox-toggle">
+    <a href="../../github-notification-inbox-toggle">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-folder-downloader.png" width=18></a>
-    <a href="../github-notification-inbox-toggle">Github 알림 필터 상태</a>&nbsp;
+    <a href="../../github-notification-inbox-toggle">Github 알림 필터 상태</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537684">
         <img src="https://img.shields.io/greasyfork/dt/537684?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-notification-inbox-toggle&hashtags=greasemonkey,userscripts,javascript">
@@ -2092,14 +2081,14 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537684">
         Greasemonkey</a> /
-    <a href="../github-notification-inbox-toggle/README_ko.md">
+    <a href="../../github-notification-inbox-toggle/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-notification-inbox-toggle/README_ko.md">
+    <a href="../../github-notification-inbox-toggle/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
+    <a href="../../github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-notification-inbox-toggle/github-notification-inbox-toggle.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2107,9 +2096,9 @@ Github-Notification-onbox-Toggle 개발 버전
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../github-clone-button">
+    <a href="../../github-clone-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-commit-viewer.png" width=18></a>
-    <a href="../github-clone-button">GitHub 복사 복제 명령 버튼(포크)</a>&nbsp;
+    <a href="../../github-clone-button">GitHub 복사 복제 명령 버튼(포크)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/569864">
         <img src="https://img.shields.io/greasyfork/dt/569864?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button&hashtags=greasemonkey,userscripts,javascript">
@@ -2130,14 +2119,14 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/569864">
         Greasemonkey</a> /
-    <a href="../github-clone-button/README_ko.md">
+    <a href="../../github-clone-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../github-clone-button/README_ko.md">
+    <a href="../../github-clone-button/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../github-clone-button/github-clone-button.user.js">
+    <a href="../../github-clone-button/github-clone-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/github-clone-button/github-clone-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2146,12 +2135,12 @@ Github-Notification-onbox-Toggle 개발 버전
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-clone-button/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>스크립트 번역 (3)</h1></div><h3>
-    <a href="../no-zh-terminator">
+    <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
-    <a href="../no-zh-terminator">외국어 터미네이터</a>&nbsp;
+    <a href="../../no-zh-terminator">외국어 터미네이터</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504890">
         <img src="https://img.shields.io/greasyfork/dt/504890?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/no-zh-terminator&hashtags=greasemonkey,userscripts,javascript">
@@ -2166,14 +2155,14 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504890">
         Greasemonkey</a> /
-    <a href="../no-zh-terminator/README_ko.md">
+    <a href="../../no-zh-terminator/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../no-zh-terminator/README_ko.md">
+    <a href="../../no-zh-terminator/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../no-zh-terminator/no-zh-terminator.user.js">
+    <a href="../../no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/no-zh-terminator/no-zh-terminator.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2181,9 +2170,9 @@ Github-Notification-onbox-Toggle 개발 버전
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../translate-only-chinese">
+    <a href="../../translate-only-chinese">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/translate-only-chinese.png" width=18></a>
-    <a href="../translate-only-chinese">웹 페이지 번역 - 중국어로 자동 번역</a>&nbsp;
+    <a href="../../translate-only-chinese">웹 페이지 번역 - 중국어로 자동 번역</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505208">
         <img src="https://img.shields.io/greasyfork/dt/505208?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/translate-only-chinese&hashtags=greasemonkey,userscripts,javascript">
@@ -2198,22 +2187,22 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505208">
         Greasemonkey</a> /
-    <a href="../translate-only-chinese/README_ko.md">
+    <a href="../../translate-only-chinese/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../translate-only-chinese/README_ko.md">
+    <a href="../../translate-only-chinese/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../translate-only-chinese/translate-only-chinese.user.js">
+    <a href="../../translate-only-chinese/translate-only-chinese.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/translate-only-chinese/translate-only-chinese.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../smart-translator-tool">
+    <a href="../../smart-translator-tool">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://s21.ax1x.com/2024/05/17/pkuVzUH.png"><img width=18 src="https://s21.ax1x.com/2024/05/17/pkuVzUH.png" width=18></a>
-    <a href="../smart-translator-tool">번역 위젯 |. 모든 언어 번역</a>&nbsp;
+    <a href="../../smart-translator-tool">번역 위젯 |. 모든 언어 번역</a>&nbsp;
     <a href="https://greasyfork.org/scripts/530406">
         <img src="https://img.shields.io/greasyfork/dt/530406?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool&hashtags=greasemonkey,userscripts,javascript">
@@ -2234,14 +2223,14 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/530406">
         Greasemonkey</a> /
-    <a href="../smart-translator-tool/README_ko.md">
+    <a href="../../smart-translator-tool/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../smart-translator-tool/README_ko.md">
+    <a href="../../smart-translator-tool/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../smart-translator-tool/smart-translator-tool.user.js">
+    <a href="../../smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/smart-translator-tool/smart-translator-tool.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2250,12 +2239,12 @@ Github-Notification-onbox-Toggle 개발 버전
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/smart-translator-tool/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>AI 각본 (9)</h1></div><h3>
-    <a href="../chatgpt-plus">
+    <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-plus">ChatGPT 자체 메시지 및 최대 너비 축소</a>&nbsp;
+    <a href="../../chatgpt-plus">ChatGPT 자체 메시지 및 최대 너비 축소</a>&nbsp;
     <a href="https://greasyfork.org/scripts/504901">
         <img src="https://img.shields.io/greasyfork/dt/504901?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -2276,14 +2265,14 @@ Github-Notification-onbox-Toggle 개발 버전
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/504901">
         Greasemonkey</a> /
-    <a href="../chatgpt-plus/README_ko.md">
+    <a href="../../chatgpt-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-plus/README_ko.md">
+    <a href="../../chatgpt-plus/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-plus/chatgpt-plus.user.js">
+    <a href="../../chatgpt-plus/chatgpt-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-plus/chatgpt-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2291,9 +2280,9 @@ Github-Notification-onbox-Toggle 개발 버전
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-code-styling">
+    <a href="../../chatgpt-code-styling">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../chatgpt-code-styling">ChatGPT코드 글꼴 크기 감소</a>&nbsp;
+    <a href="../../chatgpt-code-styling">ChatGPT코드 글꼴 크기 감소</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505209">
         <img src="https://img.shields.io/greasyfork/dt/505209?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-styling&hashtags=greasemonkey,userscripts,javascript">
@@ -2308,22 +2297,22 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505209">
         Greasemonkey</a> /
-    <a href="../chatgpt-code-styling/README_ko.md">
+    <a href="../../chatgpt-code-styling/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-code-styling/README_ko.md">
+    <a href="../../chatgpt-code-styling/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-code-styling/chatgpt-code-styling.user.js">
+    <a href="../../chatgpt-code-styling/chatgpt-code-styling.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-styling/chatgpt-code-styling.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-counter">
+    <a href="../../chatgpt-counter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-counter.png" width=18></a>
-    <a href="../chatgpt-counter">ChatGPT 문자 카운터 제한 (CCCL)</a>&nbsp;
+    <a href="../../chatgpt-counter">ChatGPT 문자 카운터 제한 (CCCL)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/506166">
         <img src="https://img.shields.io/greasyfork/dt/506166?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-counter&hashtags=greasemonkey,userscripts,javascript">
@@ -2344,14 +2333,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/506166">
         Greasemonkey</a> /
-    <a href="../chatgpt-counter/README_ko.md">
+    <a href="../../chatgpt-counter/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-counter/README_ko.md">
+    <a href="../../chatgpt-counter/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-counter/chatgpt-counter.user.js">
+    <a href="../../chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-counter/chatgpt-counter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2359,9 +2348,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-copy-code-button">
+    <a href="../../chatgpt-copy-code-button">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-copy-code-button.png" width=18></a>
-    <a href="../chatgpt-copy-code-button">ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼</a>&nbsp;
+    <a href="../../chatgpt-copy-code-button">ChatGPT 채팅 코드 복사 및 코드 내보내기 버튼</a>&nbsp;
     <a href="https://greasyfork.org/scripts/509598">
         <img src="https://img.shields.io/greasyfork/dt/509598?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-copy-code-button&hashtags=greasemonkey,userscripts,javascript">
@@ -2382,14 +2371,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/509598">
         Greasemonkey</a> /
-    <a href="../chatgpt-copy-code-button/README_ko.md">
+    <a href="../../chatgpt-copy-code-button/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-copy-code-button/README_ko.md">
+    <a href="../../chatgpt-copy-code-button/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
+    <a href="../../chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-copy-code-button/chatgpt-copy-code-button.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2397,9 +2386,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-code-hightlight">
+    <a href="../../chatgpt-code-hightlight">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-code-styling.png" width=18></a>
-    <a href="../chatgpt-code-hightlight">chatgpt 코드가 강조되었습니다</a>&nbsp;
+    <a href="../../chatgpt-code-hightlight">chatgpt 코드가 강조되었습니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/527255">
         <img src="https://img.shields.io/greasyfork/dt/527255?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-hightlight&hashtags=greasemonkey,userscripts,javascript">
@@ -2420,14 +2409,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/527255">
         Greasemonkey</a> /
-    <a href="../chatgpt-code-hightlight/README_ko.md">
+    <a href="../../chatgpt-code-hightlight/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-code-hightlight/README_ko.md">
+    <a href="../../chatgpt-code-hightlight/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
+    <a href="../../chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-hightlight/chatgpt-code-hightlight.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2435,9 +2424,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-code-tools">
+    <a href="../../chatgpt-code-tools">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-code-tools">chatgpt 코드 도구</a>&nbsp;
+    <a href="../../chatgpt-code-tools">chatgpt 코드 도구</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537646">
         <img src="https://img.shields.io/greasyfork/dt/537646?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-code-tools&hashtags=greasemonkey,userscripts,javascript">
@@ -2452,14 +2441,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537646">
         Greasemonkey</a> /
-    <a href="../chatgpt-code-tools/README_ko.md">
+    <a href="../../chatgpt-code-tools/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-code-tools/README_ko.md">
+    <a href="../../chatgpt-code-tools/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-code-tools/chatgpt-code-tools.user.js">
+    <a href="../../chatgpt-code-tools/chatgpt-code-tools.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-code-tools/chatgpt-code-tools.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2467,9 +2456,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-insert-text">
+    <a href="../../chatgpt-insert-text">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-insert-text">chatgpt 삽입 프롬프트 단어</a>&nbsp;
+    <a href="../../chatgpt-insert-text">chatgpt 삽입 프롬프트 단어</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537647">
         <img src="https://img.shields.io/greasyfork/dt/537647?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-insert-text&hashtags=greasemonkey,userscripts,javascript">
@@ -2484,14 +2473,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537647">
         Greasemonkey</a> /
-    <a href="../chatgpt-insert-text/README_ko.md">
+    <a href="../../chatgpt-insert-text/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-insert-text/README_ko.md">
+    <a href="../../chatgpt-insert-text/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-insert-text/chatgpt-insert-text.user.js">
+    <a href="../../chatgpt-insert-text/chatgpt-insert-text.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-insert-text/chatgpt-insert-text.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2499,9 +2488,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-save-conversation">
+    <a href="../../chatgpt-save-conversation">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-save-conversation">Chatgpt 대화를 저장하십시오</a>&nbsp;
+    <a href="../../chatgpt-save-conversation">Chatgpt 대화를 저장하십시오</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537648">
         <img src="https://img.shields.io/greasyfork/dt/537648?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-save-conversation&hashtags=greasemonkey,userscripts,javascript">
@@ -2516,14 +2505,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537648">
         Greasemonkey</a> /
-    <a href="../chatgpt-save-conversation/README_ko.md">
+    <a href="../../chatgpt-save-conversation/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-save-conversation/README_ko.md">
+    <a href="../../chatgpt-save-conversation/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-save-conversation/chatgpt-save-conversation.user.js">
+    <a href="../../chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-save-conversation/chatgpt-save-conversation.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2533,9 +2522,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../chatgpt-easy-management">
+    <a href="../../chatgpt-easy-management">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
-    <a href="../chatgpt-easy-management">Chatgpt는 채팅을 쉽게 관리합니다</a>&nbsp;
+    <a href="../../chatgpt-easy-management">Chatgpt는 채팅을 쉽게 관리합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538142">
         <img src="https://img.shields.io/greasyfork/dt/538142?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management&hashtags=greasemonkey,userscripts,javascript">
@@ -2550,26 +2539,26 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/538142">
         Greasemonkey</a> /
-    <a href="../chatgpt-easy-management/README_ko.md">
+    <a href="../../chatgpt-easy-management/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../chatgpt-easy-management/README_ko.md">
+    <a href="../../chatgpt-easy-management/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../chatgpt-easy-management/chatgpt-easy-management.user.js">
+    <a href="../../chatgpt-easy-management/chatgpt-easy-management.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/chatgpt-easy-management/chatgpt-easy-management.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/chatgpt-easy-management/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>블로그 사이트 (5)</h1></div><h3>
-    <a href="../csdn-blocker">
+    <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
-    <a href="../csdn-blocker">제한되지 않은 CSDN 로그인</a>&nbsp;
+    <a href="../../csdn-blocker">제한되지 않은 CSDN 로그인</a>&nbsp;
     <a href="https://greasyfork.org/scripts/505207">
         <img src="https://img.shields.io/greasyfork/dt/505207?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/csdn-blocker&hashtags=greasemonkey,userscripts,javascript">
@@ -2584,14 +2573,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/505207">
         Greasemonkey</a> /
-    <a href="../csdn-blocker/README_ko.md">
+    <a href="../../csdn-blocker/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../csdn-blocker/README_ko.md">
+    <a href="../../csdn-blocker/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../csdn-blocker/csdn-blocker.user.js">
+    <a href="../../csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/csdn-blocker/csdn-blocker.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2599,9 +2588,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">변경 로그</a>
 </blockquote>
 <h3>
-    <a href="../clean-blog-articles">
+    <a href="../../clean-blog-articles">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://g.csdnimg.cn/static/logo/favicon32.ico"><img width=18 src="https://g.csdnimg.cn/static/logo/favicon32.ico" width=18></a>
-    <a href="../clean-blog-articles">깨끗한 블로그 게시물</a>&nbsp;
+    <a href="../../clean-blog-articles">깨끗한 블로그 게시물</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537643">
         <img src="https://img.shields.io/greasyfork/dt/537643?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/clean-blog-articles&hashtags=greasemonkey,userscripts,javascript">
@@ -2616,14 +2605,14 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537643">
         Greasemonkey</a> /
-    <a href="../clean-blog-articles/README_ko.md">
+    <a href="../../clean-blog-articles/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../clean-blog-articles/README_ko.md">
+    <a href="../../clean-blog-articles/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../clean-blog-articles/clean-blog-articles.user.js">
+    <a href="../../clean-blog-articles/clean-blog-articles.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/clean-blog-articles/clean-blog-articles.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2631,9 +2620,9 @@ ChatGPT 코드 글꼴을 더 작게 만들기 자동으로 포장
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../zhihu-black">
+    <a href="../../zhihu-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://static.zhihu.com/heifetz/favicon.ico"><img width=18 src="https://static.zhihu.com/heifetz/favicon.ico" width=18></a>
-    <a href="../zhihu-black">Zhihu 어두운 테마</a>&nbsp;
+    <a href="../../zhihu-black">Zhihu 어두운 테마</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537644">
         <img src="https://img.shields.io/greasyfork/dt/537644?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/zhihu-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2648,14 +2637,14 @@ Zhihu의 어두운 테마 스타일
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537644">
         Greasemonkey</a> /
-    <a href="../zhihu-black/README_en.md">
+    <a href="../../zhihu-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../zhihu-black/README_en.md">
+    <a href="../../zhihu-black/README_en.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../zhihu-black/zhihu-black.user.js">
+    <a href="../../zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/zhihu-black/zhihu-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2663,9 +2652,9 @@ Zhihu의 어두운 테마 스타일
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../wechat-black">
+    <a href="../../wechat-black">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><img width=18 src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width=18></a>
-    <a href="../wechat-black">WeChat 웹 버전 다크 모드</a>&nbsp;
+    <a href="../../wechat-black">WeChat 웹 버전 다크 모드</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537645">
         <img src="https://img.shields.io/greasyfork/dt/537645?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/wechat-black&hashtags=greasemonkey,userscripts,javascript">
@@ -2680,14 +2669,14 @@ Zhihu의 어두운 테마 스타일
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537645">
         Greasemonkey</a> /
-    <a href="../wechat-black/README_en.md">
+    <a href="../../wechat-black/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../wechat-black/README_en.md">
+    <a href="../../wechat-black/README_en.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../wechat-black/wechat-black.user.js">
+    <a href="../../wechat-black/wechat-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/wechat-black/wechat-black.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2695,9 +2684,9 @@ Zhihu의 어두운 테마 스타일
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../weibo-mobile-redirect">
+    <a href="../../weibo-mobile-redirect">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://m.weibo.cn/favicon.ico"><img width=18 src="https://m.weibo.cn/favicon.ico" width=18></a>
-    <a href="../weibo-mobile-redirect">시나 웨이보 모바일 버전 점프</a>&nbsp;
+    <a href="../../weibo-mobile-redirect">시나 웨이보 모바일 버전 점프</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537683">
         <img src="https://img.shields.io/greasyfork/dt/537683?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect&hashtags=greasemonkey,userscripts,javascript">
@@ -2712,26 +2701,26 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537683">
         Greasemonkey</a> /
-    <a href="../weibo-mobile-redirect/README_en.md">
+    <a href="../../weibo-mobile-redirect/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../weibo-mobile-redirect/README_en.md">
+    <a href="../../weibo-mobile-redirect/README_en.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../weibo-mobile-redirect/weibo-mobile-redirect.user.js">
+    <a href="../../weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/weibo-mobile-redirect/weibo-mobile-redirect.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/weibo-mobile-redirect/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Twitter (5)</h1></div><h3>
-    <a href="../twitter-hide-reposts">
+    <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
+    <a href="../../twitter-hide-reposts">Twitter/x는 리트 윗 된 게시물을 숨 깁니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529450">
         <img src="https://img.shields.io/greasyfork/dt/529450?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-hide-reposts&hashtags=greasemonkey,userscripts,javascript">
@@ -2752,14 +2741,14 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529450">
         Greasemonkey</a> /
-    <a href="../twitter-hide-reposts/README_ko.md">
+    <a href="../../twitter-hide-reposts/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../twitter-hide-reposts/README_ko.md">
+    <a href="../../twitter-hide-reposts/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../twitter-hide-reposts/twitter-hide-reposts.user.js">
+    <a href="../../twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-hide-reposts/twitter-hide-reposts.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2769,9 +2758,9 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../twitter-media-downloader">
+    <a href="../../twitter-media-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter-media-downloader">트위터 미디어 다운로드 (2025.12.02 고정)</a>&nbsp;
+    <a href="../../twitter-media-downloader">트위터 미디어 다운로드 (2025.12.02 고정)</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529453">
         <img src="https://img.shields.io/greasyfork/dt/529453?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-media-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -2792,14 +2781,14 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529453">
         Greasemonkey</a> /
-    <a href="../twitter-media-downloader/README_ko.md">
+    <a href="../../twitter-media-downloader/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../twitter-media-downloader/README_ko.md">
+    <a href="../../twitter-media-downloader/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../twitter-media-downloader/twitter-media-downloader.user.js">
+    <a href="../../twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-media-downloader/twitter-media-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2809,9 +2798,9 @@ Sina Weibo가 자동으로 모바일 버전으로 이동합니다.，웨이보 �
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../twitter-download-blocklist">
+    <a href="../../twitter-download-blocklist">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter-download-blocklist">트위터 (x) 블랙리스트 및 차단 된 목록 다운로드</a>&nbsp;
+    <a href="../../twitter-download-blocklist">트위터 (x) 블랙리스트 및 차단 된 목록 다운로드</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538137">
         <img src="https://img.shields.io/greasyfork/dt/538137?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-download-blocklist&hashtags=greasemonkey,userscripts,javascript">
@@ -2826,14 +2815,14 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/538137">
         Greasemonkey</a> /
-    <a href="../twitter-download-blocklist/README_ko.md">
+    <a href="../../twitter-download-blocklist/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../twitter-download-blocklist/README_ko.md">
+    <a href="../../twitter-download-blocklist/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../twitter-download-blocklist/twitter-download-blocklist.user.js">
+    <a href="../../twitter-download-blocklist/twitter-download-blocklist.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-download-blocklist/twitter-download-blocklist.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2841,9 +2830,9 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../twitter-show-date-normally">
+    <a href="../../twitter-show-date-normally">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter-show-date-normally">트위터에는 일반 날짜와 시간이 표시됩니다</a>&nbsp;
+    <a href="../../twitter-show-date-normally">트위터에는 일반 날짜와 시간이 표시됩니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538260">
         <img src="https://img.shields.io/greasyfork/dt/538260?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter-show-date-normally&hashtags=greasemonkey,userscripts,javascript">
@@ -2865,22 +2854,22 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/538260">
         Greasemonkey</a> /
-    <a href="../twitter-show-date-normally/README_ko.md">
+    <a href="../../twitter-show-date-normally/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../twitter-show-date-normally/README_ko.md">
+    <a href="../../twitter-show-date-normally/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../twitter-show-date-normally/twitter-show-date-normally.user.js">
+    <a href="../../twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter-show-date-normally/twitter-show-date-normally.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a>
 </blockquote>
 <h3>
-    <a href="../twitter(X)-plus">
+    <a href="../../twitter(X)-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
-    <a href="../twitter(X)-plus">트위터(X)-플러스</a>&nbsp;
+    <a href="../../twitter(X)-plus">트위터(X)-플러스</a>&nbsp;
     <a href="https://greasyfork.org/scripts/569860">
         <img src="https://img.shields.io/greasyfork/dt/569860?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus&hashtags=greasemonkey,userscripts,javascript">
@@ -2901,14 +2890,14 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/569860">
         Greasemonkey</a> /
-    <a href="../twitter(X)-plus/README_ko.md">
+    <a href="../../twitter(X)-plus/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../twitter(X)-plus/README_ko.md">
+    <a href="../../twitter(X)-plus/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../twitter(X)-plus/twitter(X)-plus.user.js">
+    <a href="../../twitter(X)-plus/twitter(X)-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/twitter(X)-plus/twitter(X)-plus.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2917,12 +2906,12 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/twitter(X)-plus/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>YouTube (5)</h1></div><h3>
-    <a href="../youtube-helper">
+    <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../youtube-helper">YouTube Assistant</a>&nbsp;
+    <a href="../../youtube-helper">YouTube Assistant</a>&nbsp;
     <a href="https://greasyfork.org/scripts/529845">
         <img src="https://img.shields.io/greasyfork/dt/529845?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-helper&hashtags=greasemonkey,userscripts,javascript">
@@ -2943,14 +2932,14 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/529845">
         Greasemonkey</a> /
-    <a href="../youtube-helper/README_ko.md">
+    <a href="../../youtube-helper/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../youtube-helper/README_ko.md">
+    <a href="../../youtube-helper/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../youtube-helper/youtube-helper.user.js">
+    <a href="../../youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-helper/youtube-helper.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2960,9 +2949,9 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../youtube-watch-later-shortcut">
+    <a href="../../youtube-watch-later-shortcut">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../youtube-watch-later-shortcut">YouTube는 나중에 바로 가기를 시청합니다</a>&nbsp;
+    <a href="../../youtube-watch-later-shortcut">YouTube는 나중에 바로 가기를 시청합니다</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537622">
         <img src="https://img.shields.io/greasyfork/dt/537622?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-watch-later-shortcut&hashtags=greasemonkey,userscripts,javascript">
@@ -2977,14 +2966,14 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537622">
         Greasemonkey</a> /
-    <a href="../youtube-watch-later-shortcut/README_ko.md">
+    <a href="../../youtube-watch-later-shortcut/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../youtube-watch-later-shortcut/README_ko.md">
+    <a href="../../youtube-watch-later-shortcut/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
+    <a href="../../youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-watch-later-shortcut/youtube-watch-later-shortcut.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -2992,9 +2981,9 @@ Twitter (X) 블랙리스트 및 차단 된 목록을 다운로드하고, 페이�
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../youtube-better-volume-control">
+    <a href="../../youtube-better-volume-control">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../youtube-better-volume-control">더 나은 YouTube 볼륨 컨트롤</a>&nbsp;
+    <a href="../../youtube-better-volume-control">더 나은 YouTube 볼륨 컨트롤</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537787">
         <img src="https://img.shields.io/greasyfork/dt/537787?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-better-volume-control&hashtags=greasemonkey,userscripts,javascript">
@@ -3009,14 +2998,14 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537787">
         Greasemonkey</a> /
-    <a href="../youtube-better-volume-control/README_ko.md">
+    <a href="../../youtube-better-volume-control/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../youtube-better-volume-control/README_ko.md">
+    <a href="../../youtube-better-volume-control/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../youtube-better-volume-control/youtube-better-volume-control.user.js">
+    <a href="../../youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-better-volume-control/youtube-better-volume-control.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -3024,9 +3013,9 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../youtube-dynamic-grid">
+    <a href="../../youtube-dynamic-grid">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../youtube-dynamic-grid">YouTube 동적 비디오 그리드</a>&nbsp;
+    <a href="../../youtube-dynamic-grid">YouTube 동적 비디오 그리드</a>&nbsp;
     <a href="https://greasyfork.org/scripts/538138">
         <img src="https://img.shields.io/greasyfork/dt/538138?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-dynamic-grid&hashtags=greasemonkey,userscripts,javascript">
@@ -3041,14 +3030,14 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/538138">
         Greasemonkey</a> /
-    <a href="../youtube-dynamic-grid/README_ko.md">
+    <a href="../../youtube-dynamic-grid/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../youtube-dynamic-grid/README_ko.md">
+    <a href="../../youtube-dynamic-grid/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
+    <a href="../../youtube-dynamic-grid/youtube-dynamic-grid.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-dynamic-grid/youtube-dynamic-grid.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -3058,9 +3047,9 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../youtube-pro-audio-ambient">
+    <a href="../../youtube-pro-audio-ambient">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
-    <a href="../youtube-pro-audio-ambient">YouTube Pro: 오디오 향상기</a>&nbsp;
+    <a href="../../youtube-pro-audio-ambient">YouTube Pro: 오디오 향상기</a>&nbsp;
     <a href="https://greasyfork.org/scripts/560766">
         <img src="https://img.shields.io/greasyfork/dt/560766?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient&hashtags=greasemonkey,userscripts,javascript">
@@ -3081,26 +3070,26 @@ YouTube 비디오 플레이어에 슬라이더를 추가하여 볼륨을 더 자
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/560766">
         Greasemonkey</a> /
-    <a href="../youtube-pro-audio-ambient/README_ko.md">
+    <a href="../../youtube-pro-audio-ambient/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../youtube-pro-audio-ambient/README_ko.md">
+    <a href="../../youtube-pro-audio-ambient/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
+    <a href="../../youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/youtube-pro-audio-ambient/youtube-pro-audio-ambient.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/youtube-pro-audio-ambient/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
-    <a href="../tiktok-user-info">
+    <a href="../../tiktok-user-info">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png"><img width=18 src="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png" width=18></a>
-    <a href="../tiktok-user-info">Tiktok 사용자 정보</a>&nbsp;
+    <a href="../../tiktok-user-info">Tiktok 사용자 정보</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537677">
         <img src="https://img.shields.io/greasyfork/dt/537677?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info&hashtags=greasemonkey,userscripts,javascript">
@@ -3115,26 +3104,26 @@ Tiktok은 프로필에 더 많은 확장 정보를 표시합니다
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537677">
         Greasemonkey</a> /
-    <a href="../tiktok-user-info/README_ko.md">
+    <a href="../../tiktok-user-info/README_ko.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../tiktok-user-info/README_ko.md">
+    <a href="../../tiktok-user-info/README_ko.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../tiktok-user-info/tiktok-user-info.user.js">
+    <a href="../../tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/tiktok-user-info/tiktok-user-info.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/tiktok-user-info/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
-    <a href="../bilibili-video-downloader">
+    <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../bilibili-video-downloader">Bilibili 비디오 다운로더</a>&nbsp;
+    <a href="../../bilibili-video-downloader">Bilibili 비디오 다운로더</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537678">
         <img src="https://img.shields.io/greasyfork/dt/537678?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-video-downloader&hashtags=greasemonkey,userscripts,javascript">
@@ -3149,14 +3138,14 @@ Bilibili 비디오 다운로드（드라마를 지원하지 않습니다）
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537678">
         Greasemonkey</a> /
-    <a href="../bilibili-video-downloader/README_en.md">
+    <a href="../../bilibili-video-downloader/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../bilibili-video-downloader/README_en.md">
+    <a href="../../bilibili-video-downloader/README_en.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../bilibili-video-downloader/bilibili-video-downloader.user.js">
+    <a href="../../bilibili-video-downloader/bilibili-video-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-video-downloader/bilibili-video-downloader.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
@@ -3164,9 +3153,9 @@ Bilibili 비디오 다운로드（드라마를 지원하지 않습니다）
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
 <h3>
-    <a href="../bilibili-liveroom-filter">
+    <a href="../../bilibili-liveroom-filter">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
-    <a href="../bilibili-liveroom-filter">Bilibili 라이브 룸 차단 도구</a>&nbsp;
+    <a href="../../bilibili-liveroom-filter">Bilibili 라이브 룸 차단 도구</a>&nbsp;
     <a href="https://greasyfork.org/scripts/537928">
         <img src="https://img.shields.io/greasyfork/dt/537928?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98"></a>
     <a href="https://twitter.com/intent/tweet?text=Just%20discovered%20this%20epic%20userscript!&url=https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter&hashtags=greasemonkey,userscripts,javascript">
@@ -3181,21 +3170,21 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
         <img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/tampermonkey/icon28.png"><img height=13.5 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/svg/vm.svg"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/images/icons/platforms/scriptcat/icon108.png"><img height=13 src="https://github.com/ChinaGodMan/UserScriptsHistory/blob/main/images/icons/platforms/orangemonkey/icon112.png"></a>
     <a href="https://greasyfork.org/scripts/537928">
         Greasemonkey</a> /
-    <a href="../bilibili-liveroom-filter/README_en.md">
+    <a href="../../bilibili-liveroom-filter/README_en.md">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/paper-sheet/white.svg"><img height=13 src="https://assets.aiwebextensions.com/images/icons/paper-sheet/black.svg"></picture></a>
-    <a href="../bilibili-liveroom-filter/README_en.md">
+    <a href="../../bilibili-liveroom-filter/README_en.md">
         읽어보기 파일</a> /
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">
         <picture><source type="image/svg+xml" media="(prefers-color-scheme: dark)" srcset="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/white.svg"><img height=12 src="https://assets.aiwebextensions.com/images/icons/speech-bubble-square/black.svg"></picture></a>
     <a href="https://github.com/ChinaGodMan/UserScripts/discussions">논의하다</a> /
-    <a href="../bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
+    <a href="../../bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/code.png">소스 코드</a> /
         <a href="https://github.com/ChinaGodMan/UserScripts/raw/main/bilibili-liveroom-filter/bilibili-liveroom-filter.user.js">
         <img hight=16 width=15 src="https://img.icons8.com/color/48/maintenance.png">설치하다</a> /
 <a href="https://github.com/ChinaGodMan/UserScripts/tree/main/bilibili-liveroom-filter/AUTHORS.md">
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">다음에서 수정됨</a>
 </blockquote>
-<div align="right"><a href="#-스크립트 목록">목차로 돌아가기</a></div>
+<div align="right"><a href="#-스크립트-목록">목차로 돌아가기</a></div>
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
@@ -3210,7 +3199,7 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
 
 > [!IMPORTANT]
 >
-> -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저 등）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
+> -   _기타 기반 **Chromium** 커널 브라우저（국내 커버 브라우저와 같은）일반적으로 사용할 수 있습니다 Chrome 확장하다。_
 > -   _꼭 이용해주세요 **Tampermonkey 공식 버전** 확장하다，其他的用户각본管理器可能导致**제대로 작동하지 않음**脚本。_
 > -   _스크립트를 다시 설치하고 싶다면，꼭 기억해주세요 Tampermonkey 펼친**휴지통에서 완전히 삭제**스크립트가 끝나면 스크립트를 다시 설치하십시오.。_
 
@@ -3254,7 +3243,7 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
 > -   _이 창고의 이름 스타일은 양키스에서 영감을 받았습니다.[Adam Lui 리우잔펑](https://github.com/adamlui)고무하다_ :trollface:
 > -   _이 저장소의 추가 정보 파일은 다음에서 제공됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
 > -   _스크립트 내의 상호 리디렉션 점프는 다음에서 비롯됩니다.[Adam Lui 리우잔펑](https://github.com/adamlui)자기보고 스타일_ :trollface:
-> -   _이 창고의 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
+> -   _이 창고에 있는 모든 것`README.md`이 Yankee 저장소에서 복사되어 사용되는 파일`README.md`문서 레이아웃，구분 기호，암호，아이디어_ :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui) Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사됨 양키[Adam Lui 리우잔펑](https://github.com/adamlui)Action 내부 코드_ [sync-autoclear-chatgpt-history-changes.yml](https://github.com/adamlui/chatgpt-apps/blob/main/.github/workflows/sync-autoclear-chatgpt-history-changes.yml) :trollface:
 > -   _복사된 양키[Adam Lui 리우잔펑](https://github.com/adamlui)_ [chatgpt-auto-continue/docs/README.md](https://github.com/adamlui/ai-apps/blob/main/chatgpt-auto-continue/docs/README.md)구분 기호，조판 스타일 :trollface:
@@ -3271,6 +3260,7 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
 <!--AUTO_GENERATED_PLEASE_DONT_DELETE_IT-->
 <a href="https://github.com/ChinaGodMan" title="人民的勤务员"><img src="https://avatars.githubusercontent.com/u/96548841?v=4" width="42;" alt="人民的勤务员"/></a>
 <a href="https://github.com/ChinaGodBot" title="사람들의 로봇"><img src="https://avatars.githubusercontent.com/u/177234083?v=4" width="42;" alt="사람들의 로봇"/></a>
+<a href="https://github.com/Metric640" title="Metric"><img src="https://avatars.githubusercontent.com/u/2054928?v=4" width="42;" alt="Metric"/></a>
 <a href="https://github.com/molanp" title="molanp"><img src="https://avatars.githubusercontent.com/u/104612722?v=4" width="42;" alt="molanp"/></a>
 <a href="https://github.com/Yoobohl" title="Yoobohl"><img src="https://avatars.githubusercontent.com/u/54564019?v=4" width="42;" alt="Yoobohl"/></a>
 <a href="https://github.com/fossabot" title="fossabot"><img src="https://avatars.githubusercontent.com/u/29791463?v=4" width="42;" alt="fossabot"/></a>
@@ -3286,8 +3276,8 @@ Bilibili 라이브 룸 차단 도구，지원 관리 목록，일괄 차단，�
 
 ## 🏛️ 오픈소스 라이선스 계약
 
-이 프로젝트에서는 <a href="../LICENSE.md"><strong>MIT 특허</strong></a> 승인하다。
-MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，자세한 내용은 다음을 참조하세요. <a href="../LICENSE.md">라이센스 전문</a>。
+이 프로젝트에서는 <a href="../../LICENSE.md"><strong>MIT 특허</strong></a> 승인하다。
+MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，자세한 내용은 다음을 참조하세요. <a href="../../LICENSE.md">라이센스 전문</a>。
 
 <div align="right">
 
@@ -3297,7 +3287,7 @@ MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，�
 
 ## 🤝 행동강령
 
-우호적인 관계를 보장하기 위해、존중하고 포용적인 개발 환경，우리는 다음을 개발했습니다<a href="./CODE_OF_CONDUCT.md"><strong>행동강령</strong></a>。각 기여자는 다음 지침을 따라야 합니다.。
+우호적인 관계를 보장하기 위해、존중하고 포용적인 개발 환경，우리는 다음을 개발했습니다<a href="../CODE_OF_CONDUCT.md"><strong>행동강령</strong></a>。각 기여자는 다음 지침을 따라야 합니다.。
 
 <div align="right">
 
@@ -3307,10 +3297,10 @@ MIT 라이선스는 허용적인 오픈 소스 라이선스 계약입니다.，�
 
 ## 🛡️ 보안 정책
 
-취약점을 발견한 경우，하나 열어주세요[초안 보안 권장사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
+취약점을 발견한 경우，하나 열어주세요[초안 보안 권장 사항](https://github.com/ChinaGodMan/UserScripts/security/advisories/new)。
 
 Pull Request도 환영합니다，하지만 보안상의 이유로，다음 주소로 이메일을 보내주세요. <china.qinwuyuan@gmail.com> 공개하기 전에 답변을 기다리세요.。
-자세한 내용은 다음을 참조하세요. <a href="./SECURITY.md"><strong>보안 정책</strong></a>
+자세한 내용은 다음을 참조하세요. <a href="../SECURITY.md"><strong>보안 정책</strong></a>
 
 <div align="right">
 
@@ -3320,7 +3310,7 @@ Pull Request도 환영합니다，하지만 보안상의 이유로，다음 주�
 
 ## 💖 기여 가이드
 
-본 프로젝트에 관심을 가져주셔서 감사합니다！우리는 다음을 개발했습니다<a href="../CONTRIBUTING.md"><strong>기여 가이드</strong></a>。코드나 문서를 원활하게 기여할 수 있도록 돕기 위해，코드나 질문을 제출하기 전에 먼저，내용을 잘 읽어보세요。
+본 프로젝트에 관심을 가져주셔서 감사합니다！우리는 다음을 개발했습니다<a href="../../CONTRIBUTING.md"><strong>기여 가이드</strong></a>。코드나 문서를 원활하게 기여할 수 있도록 돕기 위해，코드나 질문을 제출하기 전에 먼저，내용을 잘 읽어보세요。
 
 <div align="right">
 
