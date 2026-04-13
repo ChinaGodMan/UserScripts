@@ -89,7 +89,7 @@ Khi tập lệnh có hiệu lực，Các chấm nhỏ mờ sẽ được hiển 
 ## tác giả
 
 -   **Tên**：人民的勤务员
--   **Thư**：toniaiwanowskiskr47@gmail.com
+-   **Thư**：china.qinwuyuan@gmail.com
 -   **GitHub**：[ChinaGodMan/UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 ## giấy phép

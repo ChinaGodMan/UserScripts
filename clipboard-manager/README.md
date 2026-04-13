@@ -89,7 +89,7 @@
 ## 作者
 
 -   **姓名**：人民的勤务员
--   **邮箱**：toniaiwanowskiskr47@gmail.com
+-   **邮箱**：china.qinwuyuan@gmail.com
 -   **GitHub**：[ChinaGodMan/UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 ## 许可证

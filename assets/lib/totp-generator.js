@@ -3,7 +3,7 @@
 // @namespace   https://github.com/ChinaGodMan/UserScripts
 // @version     2024/10/07
 // @description https://greasyfork.org/zh-CN/scripts/502291 脚本使用
-// @author      人民的勤务员 <toniaiwanowskiskr47@gmail.com>
+// @author      人民的勤务员 <china.qinwuyuan@gmail.com>
 // @license     MIT
 // @supportURL  https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL https://github.com/ChinaGodMan/UserScripts

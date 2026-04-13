@@ -164,7 +164,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 ## Author
 
 人民的勤务员 (Servant of the People) & ChatGPT
-[toniaiwanowskiskr47@gmail.com](mailto:toniaiwanowskiskr47@gmail.com)
+[china.qinwuyuan@gmail.com](mailto:china.qinwuyuan@gmail.com)
 
 <!--HELP-->
 <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">

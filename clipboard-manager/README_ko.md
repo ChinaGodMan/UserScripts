@@ -89,7 +89,7 @@
 ## 작가
 
 -   **이름**：人民的勤务员
--   **우편**：toniaiwanowskiskr47@gmail.com
+-   **우편**：china.qinwuyuan@gmail.com
 -   **GitHub**：[ChinaGodMan/UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 ## 특허

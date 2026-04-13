@@ -284,7 +284,7 @@ function generateJsonIndexContent(finalData) {
             <p>备份数量: <span id="videoCount"></span></p>
             <p>备份时间: <span id="cstTime"></span></p>
              <p>备份地址: <a id="backupLink" href="#" target="_blank">访问</a></p>
-            <p>联系作者: <a href="mailto:toniaiwanowskiskr47@gmail.com" target="_blank">人民的勤务员</a></p>
+            <p>联系作者: <a href="mailto:china.qinwuyuan@gmail.com" target="_blank">人民的勤务员</a></p>
             </form>
         </div>
     </div>

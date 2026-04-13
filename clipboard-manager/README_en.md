@@ -89,7 +89,7 @@ When the script takes effect，A semi-transparent dot will be displayed in the l
 ## author
 
 -   **Name**：人民的勤务员
--   **Mail**：toniaiwanowskiskr47@gmail.com
+-   **Mail**：china.qinwuyuan@gmail.com
 -   **GitHub**：[ChinaGodMan/UserScripts](https://github.com/ChinaGodMan/UserScripts)
 
 ## license

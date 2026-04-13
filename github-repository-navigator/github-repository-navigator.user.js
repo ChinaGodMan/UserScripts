@@ -121,7 +121,7 @@
 // @description:fr-CA  🤠 Assistant de saut rapide d’entrepôt GitHub, spécialement conçu pour aider les utilisateurs à accéder rapidement à leurs propres entrepôts sur GitHub. Il génère un bouton en haut de la barre de navigation. 
 // @namespace          https://github.com/ChinaGodMan/UserScripts 
 // @version            2024.12.18.1956
-// @author             mshll & 人民的勤务员 <toniaiwanowskiskr47@gmail.com> 
+// @author             mshll & 人民的勤务员 <china.qinwuyuan@gmail.com>
 // @match              https://github.com/* 
 // @grant              none 
 // @run-at             document-start 
