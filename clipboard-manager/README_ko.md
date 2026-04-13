@@ -66,7 +66,7 @@
             Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 웹 페이지 작성 클립 버전 승인 관리자 로그 업데이트</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>수리하다</strong>: •복사 기능 <code>pc</code> 그렇지 않다 red 그리고 <code>window.navigator.clipboard.writeText</code> ,클립에 수동으로 복사해야합니다.@90
-<strong>수리하다</strong>: •논리적 오류 ↠ 按下快捷键复制后只有指示器~을 위한 red 언제 재설정하십시오，为 green 재설정 없음@161</p>
+<strong>수리하다</strong>: •논리적 오류 ↠ 복사 단축키를 누르면 표시만 나옵니다~을 위한 red 언제 재설정하십시오，~을 위한 green 재설정 없음@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>새로운</strong>: •감시 장치<code>clipboard.writeText</code>이벤트</p>

@@ -66,7 +66,7 @@
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật hồ sơ</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ Trang web viết clip phiên bản người quản lý ủy quyền Cập nhật nhật ký</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>Sửa chữa</strong>: •Chức năng sao chép <code>pc</code> Không dành cho red và từ <code>window.navigator.clipboard.writeText</code> ,Cần sao chép thủ công vào clip.@90
-<strong>Sửa chữa</strong>: •Lỗi logic ↠ 按下快捷键复制后只有指示器vì red Đặt lại khi nào，为 green Không đặt lại@161</p>
+<strong>Sửa chữa</strong>: •Lỗi logic ↠ Sau khi nhấn phím tắt để sao chép thì chỉ có đèn báovì red Đặt lại khi nào，vì green Không đặt lại@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>Mới</strong>: •màn hình<code>clipboard.writeText</code>sự kiện</p>

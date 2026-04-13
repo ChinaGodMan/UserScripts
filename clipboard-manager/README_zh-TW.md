@@ -66,7 +66,7 @@
             Fork</a></p><details><summary style="color:#FFD700">更新記錄</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/clipboard-manager/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ 網頁寫入剪輯版授權管理器 更新日誌</strong></h1>
 <h3><strong>📅 2024-09-28 08:21- Ver 1.2.3.1</strong></h3>
 <p><strong>修復</strong>: •複製函數 <code>pc</code> 不為 red 時且來源於為 <code>window.navigator.clipboard.writeText</code> ,需要手動複製到剪輯版.@90
-<strong>修復</strong>: •邏輯錯誤 ↠ 按下快捷键复制后只有指示器為 red 時候重置，为 green 不重置@161</p>
+<strong>修復</strong>: •邏輯錯誤 ↠ 按下快捷键复制后只有指示器為 red 時候重置，為 green 不重置@161</p>
 <hr />
 <h3><strong>📅 2024-09-27 11:55- Ver 1.2.3.0</strong></h3>
 <p><strong>新增</strong>: •監聽<code>clipboard.writeText</code>事件</p>
@@ -185,7 +185,7 @@
 > -   [**GitHub 倉庫快速跳轉助手**](https://greasyfork.org/scripts/515205): 🤠 GitHub 倉庫快速跳轉助手，專為幫助用戶快速存取自己在 GitHub 上的倉庫而設計 。它在導覽列頂部產生一個按鈕,點擊展開自己的所有倉庫，輕鬆跳到自己的 GitHub 倉庫頁面，而無需使用 GitHub 的二級選單
 > -   [**在Github上打開jsDelivr鏈接**](https://greasyfork.org/scripts/527870): 打開jsDelivr上的GitHub鏈接,用於快速下載文件
 > -   [**GitHub Gist 代碼片段複製與下載器**](https://greasyfork.org/scripts/529534): 向 Gist 文件添加複制按鈕，以便輕鬆複製代碼。 | 向 Gist 文件添加下載按鈕，以便輕鬆下載代碼。
-> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支持Issue和pull request 頁面.
+> -   [**GitHub 快捷鍵翻譯助手**](https://greasyfork.org/scripts/530312): 監聽鍵盤快捷鍵 Ctrl + Q，實現對文本進行翻譯並將翻譯結果替換到原文本框中的功能 支援Issue和pull request 頁面.
 > -   [**GitHub 星標倉庫備註助手**](https://greasyfork.org/scripts/533511): 曾經 Star 過的倉庫是不是忘記了它們的用途? 這是一個可以給你收藏過的倉庫添加備註的的腳本,並且你備註的信息可以上傳下載到 GitHub Gist
 > -   [**GitHub 跳轉到 DeepWiKi**](https://greasyfork.org/scripts/536279): GitHub 存儲庫跳轉到 DeepWiKi,支持電腦桌面端和移動端
 > -   [**GitHub 隱藏 Copilot**](https://greasyfork.org/scripts/536423): 在 GitHub 上隱藏愚蠢的 Copilot
@@ -256,7 +256,7 @@
 > ### 🔍你可能在找社交媒體腳本
 >
 > -   [**Twitter/X 隱藏轉發的帖子**](https://greasyfork.org/scripts/529450): 自動隱藏轉發轉發內容,並且在首次加載時隱藏轉發內容,移除煩人的廣告
-> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支持新版API接口
+> -   [**Twitter 媒體下載 (2025.04.28 修復)**](https://greasyfork.org/scripts/529453): 一鍵下載視頻/圖片,支持批量下載時自動打包為一個ZIP文件下載.支援新版API介面
 > -   [**YouTube 小助手**](https://greasyfork.org/scripts/529845): YouTube 1.視頻循環播放 2.截圖下載 3.主題進度條
 
 <!--RELATED-社交媒体脚本-END-->
