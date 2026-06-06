@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">기록 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 업그레이드 로그</strong></h1>
+<h3><strong>📅 2026.6.6.1</strong></h3>
+<p><strong>수리하다</strong>: 로그인한 사용자의 개인 저장소를 얻을 수 없는 문제를 수정했습니다.<br></p>
+<hr />
 <h3><strong>📅 2026.3.16.1</strong></h3>
 <p><strong>새로운</strong>: 在个人재료页显示<code>확인하다 Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>~에서<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
 <strong>수리하다</strong>: 개정하다<code>Code</code>버튼 검색 로직<br></p>

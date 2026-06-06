@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Cập nhật bản ghi</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Nhật ký nâng cấp</strong></h1>
+<h3><strong>📅 2026.6.6.1</strong></h3>
+<p><strong>Sửa chữa</strong>: Đã khắc phục sự cố không thể lấy được kho riêng của người dùng đã đăng nhập<br></p>
+<hr />
 <h3><strong>📅 2026.3.16.1</strong></h3>
 <p><strong>Mới</strong>: 在个人vật liệu页显示<code>Kiểm tra Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>từ<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
 <strong>Sửa chữa</strong>: Ôn lại<code>Code</code>Logic tìm kiếm nút<br></p>

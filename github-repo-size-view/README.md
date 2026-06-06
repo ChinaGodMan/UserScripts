@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ 升级日志</strong></h1>
+<h3><strong>📅 2026.6.6.1</strong></h3>
+<p><strong>修复</strong>: 修复无法获取已登录用户的私人存储库问题<br></p>
+<hr />
 <h3><strong>📅 2026.3.16.1</strong></h3>
 <p><strong>新增</strong>: 在个人资料页显示<code>查看 Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>来自<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
 <strong>修复</strong>: 修改<code>Code</code>按钮查找逻辑<br></p>

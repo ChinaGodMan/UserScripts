@@ -65,6 +65,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/502291">Greasy
             Fork</a></p><details><summary style="color:#FFD700">Update record</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-repo-size-view/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub Repo Size+ Upgrade log</strong></h1>
+<h3><strong>📅 2026.6.6.1</strong></h3>
+<p><strong>repair</strong>: Fixed an issue where private repositories of logged-in users could not be obtained<br></p>
+<hr />
 <h3><strong>📅 2026.3.16.1</strong></h3>
 <p><strong>New</strong>: 在个人material页显示<code>Check Gist 资料</code><br><img alt="2026.03.16" src="https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png" /><br>from<a href="https://greasyfork.org/zh-CN/scripts/559202">GitHub: View User Gists</a><br>
 <strong>repair</strong>: Revise<code>Code</code>Button search logic<br></p>
