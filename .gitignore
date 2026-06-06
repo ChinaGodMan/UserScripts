@@ -6,5 +6,4 @@ node_modules/
 __pycache__/
 .history/
 changelog.config.js
-commitlint.config.js
 tempCodeRunnerFile.*
