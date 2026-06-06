@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>Recommended use：</strong><br>
 <img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> The script manager and browser listed above do not represent all<br>
     <strong>The script runs normally in the following environment</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -81,7 +81,7 @@
 
 GitHub File List Beautifier is a user script，used to enhance GitHub Display effect of files in warehouse。It can add colors to files and folders，and replace the file type icons with small images，Makes the code base easier to browse and manage。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Function
 
@@ -90,7 +90,7 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 -   **Image file preview**：For image files，Automatically display thumbnails。
 -   **Color marking**：Add colors to different types of files，to identify file types more quickly。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## please note:
 
@@ -99,7 +99,7 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 -   `github-vscode-icons-updated2.0.3`
 -   `Material Icons for GitHub 1.8.19`
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Install
 
@@ -115,14 +115,14 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 3. **Script placement**：
     - The first time the script is run it will start from the specified URL Load color configuration。If the configuration cannot be loaded，Default settings will be used。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## use
 
 -   The script will be in GitHub Run automatically when page loads，Handling file icons in file lists。
 -   Can be used as needed `localStorage` Or adjust the icon and color configuration in the script settings。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Custom configuration instructions
 
@@ -159,10 +159,10 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
     "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAA....."
 },`
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -184,25 +184,25 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 
 <!--RELATED-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## compatibility
 
 -   **Browser**：support Chrome、Firefox、Edge、Opera and Safari。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Support and feedback
 
 -   If you encounter problems or have any suggestions，Please visit [GitHub Issues page](https://github.com/ChinaGodMan/UserScripts/issues) Submit feedback。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Authorize
 
 -   This script is based on [MIT license](https://opensource.org/licenses/MIT) Open source。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## contribute
 
@@ -214,7 +214,7 @@ GitHub File List Beautifier is a user script，used to enhance GitHub Display ef
 ![Snipaste_2024-09-12_12-03-25.png](https://s2.loli.net/2024/09/12/HCZDNa8EngxQJ4y.png)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Help
 
@@ -228,14 +228,14 @@ Recommended browser and script manager：
 
 **If you need to learn more about how to install user scripts,[Click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en#readme)View the teaching of pictures and texts!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [View all publish scripts](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forChatGPTRelated scripts
 >
@@ -248,7 +248,7 @@ Recommended browser and script manager：
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for web-related scripts
 >
@@ -266,7 +266,7 @@ Recommended browser and script manager：
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -289,7 +289,7 @@ Recommended browser and script manager：
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGoogleRelated scripts
 >
@@ -299,7 +299,7 @@ Recommended browser and script manager：
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
 >
@@ -318,7 +318,7 @@ Recommended browser and script manager：
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for adult scripts
 >
@@ -336,7 +336,7 @@ Recommended browser and script manager：
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for automatic translation
 >
@@ -347,7 +347,7 @@ Recommended browser and script manager：
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for social media scripts
 >
@@ -358,7 +358,7 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">back to top↑</a></p></div></center>
 
 <!--FOOTER--END-->

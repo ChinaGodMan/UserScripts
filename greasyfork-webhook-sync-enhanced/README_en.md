@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>Recommended use：</strong><br>
 <img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> The script manager and browser listed above do not represent all<br>
     <strong>The script runs normally in the following environment</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -82,13 +82,13 @@
        width="320" height="240" controls loop>
 </video>
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # GreasyFork - Enhanced WebHook Synchronization Settings
 
 When setting up synchronization information on GreasyFork, you might often find that after submitting, the sync information hasn't been successfully saved, requiring you to re-enter it. This is one of the small issues with the website. To solve this problem, this script helps you quickly input script synchronization information and batch-add multiple country language codes without having to click on each checkbox and then go to the corresponding URL.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Features
 
@@ -96,14 +96,14 @@ When setting up synchronization information on GreasyFork, you might often find 
 -   **Batch Add Language Codes**: Supports batch addition of multiple country/region language codes without the need to select each one individually.
 -   **Supports Multiple Formats**: You can choose different URL formats for setup based on your needs.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Instructions (For more details, refer to the images below or the video above)
 
 -   **Script Management Page**: On the script management page, an additional button is added at the bottom. After clicking it, you can manage the current script.
 -   **Website Top Navigation Bar**: Adds an option to the navigation bar that, when clicked, automatically retrieves the WebHook synchronized scripts for multiple management.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Supported Formats
 
@@ -119,14 +119,14 @@ Currently, the following three formats are supported:
 Example code: If you have more options, you can extend it.<br>
 `let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Attention:
 
 -   When submitting localized country information, there must be a header declaration such as//@ name: zh CN in the code, otherwise even if the submission is successful, it will still fail!
 -   The script must exist! Otherwise, synchronization will fail,
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Project and Feedback
 
@@ -139,7 +139,7 @@ Example code: If you have more options, you can extend it.<br>
 ![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
 >
@@ -157,7 +157,7 @@ Example code: If you have more options, you can extend it.<br>
 
 <!--RELATED-END-->
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Help
 
@@ -171,14 +171,14 @@ Recommended browser and script manager：
 
 **If you need to learn more about how to install user scripts,[Click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en#readme)View the teaching of pictures and texts!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [View all publish scripts](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forChatGPTRelated scripts
 >
@@ -191,7 +191,7 @@ Recommended browser and script manager：
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for web-related scripts
 >
@@ -209,7 +209,7 @@ Recommended browser and script manager：
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -232,7 +232,7 @@ Recommended browser and script manager：
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGoogleRelated scripts
 >
@@ -242,7 +242,7 @@ Recommended browser and script manager：
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
 >
@@ -261,7 +261,7 @@ Recommended browser and script manager：
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for adult scripts
 >
@@ -279,7 +279,7 @@ Recommended browser and script manager：
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for automatic translation
 >
@@ -290,7 +290,7 @@ Recommended browser and script manager：
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for social media scripts
 >
@@ -301,7 +301,7 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">back to top↑</a></p></div></center>
 
 <!--FOOTER--END-->

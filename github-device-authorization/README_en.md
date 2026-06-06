@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>Recommended use：</strong><br>
 <img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> The script manager and browser listed above do not represent all<br>
     <strong>The script runs normally in the following environment</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -77,21 +77,21 @@
 
 # GitHub Automatic Device Authorization
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Overview
 
 This user script aims to simplify the process on the GitHub authorization page by automatically filling in the authorization code and confirming the action, reducing the need for manual intervention. This script is particularly useful in scenarios where direct browser interaction is not possible, such as automated testing or remote operations.
 (This is a personal script for convenience during portable use.)
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Features
 
 -   **Automatic Code Filling**: Reads the authorization code from the clipboard and automatically fills it into the corresponding input fields on the authorization page.
 -   **Automatic Submission**: Automatically clicks the confirm button on the authorization page.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Installation and Usage
 
@@ -100,28 +100,28 @@ This user script aims to simplify the process on the GitHub authorization page b
     - The script will run automatically when you visit the GitHub device authorization page.
     - The script will read the authorization code from the clipboard, automatically fill out the form, and submit it.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Script Functionality
 
 -   **Automatic Code Filling**: The script waits for the page to load, then reads the authorization code from the clipboard, splits it, and fills it into the appropriate input fields.
 -   **Automatic Submission**: On the confirmation page, the script will automatically click the confirm button to complete the authorization process.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Notes
 
 -   Ensure that the clipboard contains a correctly formatted authorization code (e.g., `XXXX-XXXX`).
 -   The script may need some time to recognize page elements and fill out the form, so please give it enough time to execute.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Thanks
 
 Thanks to [LemonPupl](https://greasyfork.org/zh-CN/users/1274376) for the script [GitHub Copilot automatically obtains GHU](https://greasyfork.org/scripts/489793).
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -144,7 +144,7 @@ Thanks to [LemonPupl](https://greasyfork.org/zh-CN/users/1274376) for the script
 <!--RELATED-END-->
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Help
 
@@ -158,14 +158,14 @@ Recommended browser and script manager：
 
 **If you need to learn more about how to install user scripts,[Click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en#readme)View the teaching of pictures and texts!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [View all publish scripts](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forChatGPTRelated scripts
 >
@@ -178,7 +178,7 @@ Recommended browser and script manager：
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for web-related scripts
 >
@@ -196,7 +196,7 @@ Recommended browser and script manager：
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -219,7 +219,7 @@ Recommended browser and script manager：
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGoogleRelated scripts
 >
@@ -229,7 +229,7 @@ Recommended browser and script manager：
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
 >
@@ -248,7 +248,7 @@ Recommended browser and script manager：
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for adult scripts
 >
@@ -266,7 +266,7 @@ Recommended browser and script manager：
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for automatic translation
 >
@@ -277,7 +277,7 @@ Recommended browser and script manager：
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for social media scripts
 >
@@ -288,7 +288,7 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">back to top↑</a></p></div></center>
 
 <!--FOOTER--END-->

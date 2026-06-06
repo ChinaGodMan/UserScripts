@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>Recommended use：</strong><br>
 <img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> The script manager and browser listed above do not represent all<br>
     <strong>The script runs normally in the following environment</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -68,22 +68,22 @@
 </div></center>
 
 <!--HISTORY-END-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # Remove Link Underlines
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Description
 
 This userscript removes underlines from all links on any website and dynamically handles new links. It ensures a cleaner and more visually appealing browsing experience.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Description in Multiple Languages
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for web-related scripts
 >
@@ -99,67 +99,67 @@ This userscript removes underlines from all links on any website and dynamically
 > -   [**MarkDown Cloud Cut Notes**](https://greasyfork.org/scripts/530139): A tool that converts web content to Markdown format, supports features such as copying, downloading, and sending to GitHub and Obsidian.
 
 <!--RELATED-END-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Chinese（Simplified Chinese）
 
 This user script removes link underlines on all websites，And dynamically process new links。It ensures a cleaner and more visually appealing browsing experience。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Chinese（Traditional Chinese）
 
 This user script removes the links on all websites，And dynamically process new links。It ensures a cleaner and more visually appealing browsing experience。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Français
 
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Japanese
 
 このユーザースクリプトは、AnyのWebサイトsuperiorのすべてのリンクのOfflineをdeleteし、newしいリンクをMovingにprocessします。これにより、よりクリーンでVisionにCharmingなブラウジングExperienceがguaranteeされます。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Deutsch
 
 Dieses Benutzerskript entfernt die Unterstreichungen aller Links auf jeder Website und behandelt neue Links dynamisch. Es sorgt für ein saubereres und optisch ansprechenderes Surferlebnis.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 한국어
 
 이 사용자 스크립트는 모든 웹사이트에서 모든 링크의 밑줄을 제거하고 새 링크를 동적으로 처리합니다. 이는 더 깨끗하고 시각적으로 매력적인 브라우징 경험을 보장합니다.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Tiếng Việt
 
 Tập lệnh người dùng này xóa gạch chân khỏi tất cả các liên kết trên bất kỳ trang web nào và xử lý động các liên kết mới. Nó đảm bảo trải nghiệm duyệt web sạch hơn và hấp dẫn hơn về mặt hình ảnh.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### العربية
 
 يقوم هذا النص البرمجي للمستخدم بإزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة. يضمن تجربة تصفح أنظف وأكثر جاذبية بصريًا.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### हिंदी
 
 यह उपयोगकर्ता स्क्रिप्ट किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटा देती है और नए लिंक को गतिशील रूप से संभालती है। यह एक क्लीनर और अधिक आकर्षक ब्राउज़िंग अनुभव सुनिश्चित करता है।
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Español
 
 Este script de usuario elimina los subrayados de todos los enlaces en cualquier sitio web y maneja dinámicamente los nuevos enlaces. Garantiza una experiencia de navegación más limpia y visualmente atractiva.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Author
 
@@ -167,7 +167,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 [china.qinwuyuan@gmail.com](mailto:china.qinwuyuan@gmail.com)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Help
 
@@ -181,14 +181,14 @@ Recommended browser and script manager：
 
 **If you need to learn more about how to install user scripts,[Click me](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/en#readme)View the teaching of pictures and texts!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [View all publish scripts](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/en#-Script-List)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forChatGPTRelated scripts
 >
@@ -201,7 +201,7 @@ Recommended browser and script manager：
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for web-related scripts
 >
@@ -219,7 +219,7 @@ Recommended browser and script manager：
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGitHubRelated scripts
 >
@@ -242,7 +242,7 @@ Recommended browser and script manager：
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGoogleRelated scripts
 >
@@ -252,7 +252,7 @@ Recommended browser and script manager：
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking forGreasyForkRelated scripts
 >
@@ -271,7 +271,7 @@ Recommended browser and script manager：
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for adult scripts
 >
@@ -289,7 +289,7 @@ Recommended browser and script manager：
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You may be looking for automatic translation
 >
@@ -300,7 +300,7 @@ Recommended browser and script manager：
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍You might be looking for social media scripts
 >
@@ -311,7 +311,7 @@ Recommended browser and script manager：
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>More user scripts</strong></a> /<a href="#top">Back to top↑</a></p></div></center>
 
 <!--FOOTER--END-->

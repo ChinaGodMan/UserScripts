@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>推薦使用：</strong><br>
 <img src="https://img.shields.io/badge/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 以上已列出的腳本管理器和瀏覽器不代表全部<br>
     <strong>腳本在以下環境中運行正常</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -69,17 +69,17 @@
 
 <!--HISTORY-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # GitHub CommitMessage Html View
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 描述
 
 `GitHub CommitMessage Html View` 是一個用戶腳本，旨在將 GitHub 上的提交信息轉換為 HTML 視圖，從而提供更清晰的提交詳情。該腳本自動將提交信息列表、提交頭部和最新提交信息轉換為 HTML 格式，以增強視覺效果和用戶體驗,配合git使用
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 功能
 
@@ -87,7 +87,7 @@
 -   **頭部信息展示**: 顯示提交頭部和最新提交的詳細信息。
 -   **增強視覺效果**: 改善提交信息的可視性和用戶體驗。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## PowerShell配合上傳到遠程倉庫
 
@@ -144,7 +144,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 </pre>
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找GitHub相關腳本
 >
@@ -166,14 +166,14 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 <!--RELATED-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 支持
 
 -   [報告問題](https://github.com/ChinaGodMan/UserScripts/issues)
 -   [項目主頁](https://github.com/ChinaGodMan/UserScripts)
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 許可證
 
@@ -185,7 +185,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 ![2.png](https://s2.loli.net/2024/08/30/56sANeoMWb7QRY2.png)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 使用幫助
 
@@ -199,14 +199,14 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 
 **如果你需要了解更多關於如何安裝用戶腳本,[點擊我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/zh-TW#readme)查看圖文教學!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [查看所有發布腳本](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/zh-TW#-%E8%85%B3%E6%9C%AC%E5%88%97%E8%A1%A8)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找ChatGPT相關腳本
 >
@@ -219,7 +219,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找網頁相關腳本
 >
@@ -237,7 +237,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找GitHub相關腳本
 >
@@ -260,7 +260,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找Google相關腳本
 >
@@ -270,7 +270,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找GreasyFork相關腳本
 >
@@ -289,7 +289,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找成人腳本
 >
@@ -307,7 +307,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找自動翻譯
 >
@@ -318,7 +318,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找社交媒體腳本
 >
@@ -329,7 +329,7 @@ Copy-Item -Path $qinwuyuan_messageFilePath -Destination $qinwuyuan_oldCommitFile
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用戶腳本</strong></a> /<a href="#top">回到頂部↑</a></p></div></center>
 
 <!--FOOTER--END-->

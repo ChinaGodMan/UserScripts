@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>推荐使用：</strong><br>
 <img src="https://img.shields.io/badge/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 以上已列出的脚本管理器和浏览器不代表全部<br>
     <strong>脚本在以下环境中运行正常</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -74,13 +74,13 @@
 
 ![Snipaste_2024-09-01_10-05-11.png](https://s2.loli.net/2024/09/01/uJZIDbie6fdmOQH.png)
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 描述
 
 ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT 的输入框添加一个字符计数器，限制为 32732 个字符。这个脚本可以帮助用户在输入时实时查看已输入字符的数量，并在超出限制时给出视觉提示。.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 功能
 
@@ -90,7 +90,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 -   当字符数接近限制时，计数器文本颜色变为绿色，显示警告。
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找ChatGPT相关脚本
 >
@@ -102,14 +102,14 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 
 <!--RELATED-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Thanks
 
 修改自用户 [Emree.el](https://greasyfork.org/zh-CN/users/1297357)的脚本 [ChatGPT Character Counter Limit (CCCL)](https://greasyfork.org/scripts/505802)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 使用帮助
 
@@ -123,14 +123,14 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 
 **如果你需要了解更多关于如何安装用户脚本,[点击我](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/#readme)查看图文教学!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [查看所有发布脚本](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/#-%E8%84%9A%E6%9C%AC%E5%88%97%E8%A1%A8)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找ChatGPT相关脚本
 >
@@ -143,7 +143,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找网页相关脚本
 >
@@ -161,7 +161,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找GitHub相关脚本
 >
@@ -184,7 +184,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找Google相关脚本
 >
@@ -194,7 +194,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找GreasyFork相关脚本
 >
@@ -213,7 +213,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找成人脚本
 >
@@ -231,7 +231,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找自动翻译
 >
@@ -242,7 +242,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍你可能在找社交媒体脚本
 >
@@ -253,7 +253,7 @@ ChatGPT Character Counter Limit (CCCL) 是一个用户脚本，旨在为 ChatGPT
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>更多用户脚本</strong></a> /<a href="#top">回到顶部↑</a></p></div></center>
 
 <!--FOOTER--END-->

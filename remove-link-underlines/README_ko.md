@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>권장 사용：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 위에 나열된 스크립트 관리자와 브라우저가 모두를 나타내지는 않습니다.<br>
     <strong>스크립트는 정상적으로 다음 환경에서 실행됩니다</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -68,22 +68,22 @@
 </div></center>
 
 <!--HISTORY-END-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # Remove Link Underlines
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Description
 
 This userscript removes underlines from all links on any website and dynamically handles new links. It ensures a cleaner and more visually appealing browsing experience.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Description in Multiple Languages
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
@@ -99,67 +99,67 @@ This userscript removes underlines from all links on any website and dynamically
 > -   [**마크 다운 클라우드 컷 메모**](https://greasyfork.org/scripts/530139): 웹 컨텐츠를 Markdown 형식으로 변환하는 도구는 복사, 다운로드 및 Github 및 Obsidian으로 전송과 같은 기능을 지원합니다.
 
 <!--RELATED-END-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 중국인（단순화 된 중국어）
 
 이 사용자 스크립트는 모든 웹 사이트에서 링크가 강조됩니다，새로운 링크를 동적으로 처리합니다。그것은 더 깨끗하고 시각적으로 매력적인 탐색 경험을 보장합니다.。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 중국인（전통적인 중국어）
 
 이 사용자 스크립트는 모든 웹 사이트의 링크를 제거합니다，새로운 링크를 동적으로 처리합니다。그것은 더 깨끗하고 시각적으로 매력적인 탐색 경험을 보장합니다.。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Français
 
 Ce script utilisateur supprime les soulignements de tous les liens sur n'importe quel site Web et gère dynamiquement les nouveaux liens. Il assure une expérience de navigation plus propre et plus attrayante visuellement.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 일본어
 
 このユーザースクリプトは、어느のWebサイト우수한のすべてのリンクの오프라인を삭제し、새로운しいリンクを움직이는に프로세스します。これにより、よりクリーンで비전に매력적인なブラウジング경험が보장하다されます。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Deutsch
 
 Dieses Benutzerskript entfernt die Unterstreichungen aller Links auf jeder Website und behandelt neue Links dynamisch. Es sorgt für ein saubereres und optisch ansprechenderes Surferlebnis.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 한국어
 
 이 사용자 스크립트는 모든 웹사이트에서 모든 링크의 밑줄을 제거하고 새 링크를 동적으로 처리합니다. 이는 더 깨끗하고 시각적으로 매력적인 브라우징 경험을 보장합니다.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Tiếng Việt
 
 Tập lệnh người dùng này xóa gạch chân khỏi tất cả các liên kết trên bất kỳ trang web nào và xử lý động các liên kết mới. Nó đảm bảo trải nghiệm duyệt web sạch hơn và hấp dẫn hơn về mặt hình ảnh.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### العربية
 
 يقوم هذا النص البرمجي للمستخدم بإزالة التسطير من جميع الروابط على أي موقع ويب والتعامل ديناميكيًا مع الروابط الجديدة. يضمن تجربة تصفح أنظف وأكثر جاذبية بصريًا.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### हिंदी
 
 यह उपयोगकर्ता स्क्रिप्ट किसी भी वेबसाइट पर सभी लिंक से रेखांकन हटा देती है और नए लिंक को गतिशील रूप से संभालती है। यह एक क्लीनर और अधिक आकर्षक ब्राउज़िंग अनुभव सुनिश्चित करता है।
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### Español
 
 Este script de usuario elimina los subrayados de todos los enlaces en cualquier sitio web y maneja dinámicamente los nuevos enlaces. Garantiza una experiencia de navegación más limpia y visualmente atractiva.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Author
 
@@ -167,7 +167,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 [china.qinwuyuan@gmail.com](mailto:china.qinwuyuan@gmail.com)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 돕다
 
@@ -181,14 +181,14 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 
 **사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko#readme)그림과 텍스트의 가르침을보십시오!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [모든 게시 스크립트를보십시오](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/ko#-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
@@ -201,7 +201,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
@@ -219,7 +219,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
@@ -242,7 +242,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
@@ -252,7 +252,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
@@ -271,7 +271,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
@@ -289,7 +289,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍자동 번역을 찾고있을 수 있습니다
 >
@@ -300,7 +300,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
@@ -311,7 +311,7 @@ Este script de usuario elimina los subrayados de todos los enlaces en cualquier 
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p></div></center>
 
 <!--FOOTER--END-->

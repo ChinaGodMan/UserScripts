@@ -44,12 +44,12 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <center><div align="center">
     <strong>The script comes from the vast number of netizens on the Internet，I just made some changes.Thanks netizens</strong><br>
     <strong>If there is any infringement,Contact must be deleted</strong><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
     <strong>Recommended：</strong><br>
 <img src="https://img.shields.io/badge/operating%20system-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Recommended%20browser-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -57,13 +57,13 @@
 💡 <strong>Tip:</strong> The above list of script managers and browsers is not exhaustive<br>
     <strong>The script runs fine in the following environment</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--README-TOC-->
 ## 🔖 TOC
@@ -458,7 +458,7 @@ Convert text links to clickable links
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
@@ -906,7 +906,7 @@ Search using GoogleGreasyForkandSleazyForkupper script
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>adult script (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
@@ -1304,7 +1304,7 @@ Since I just turned 18, I can watch adult content
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Google Script (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
@@ -1374,7 +1374,7 @@ Search for a Google Blocking a specified site
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Change log</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GitHub Script (20)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
@@ -2136,7 +2136,7 @@ github-notification-inbox-toggle development version
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Translate script (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
@@ -2240,7 +2240,7 @@ Add a Google Translation icon to the lower right corner of each non-Chinese web 
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>AI Script (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
@@ -2554,7 +2554,7 @@ Search chat, filter chat, fast/batch delete chat.
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>blog site (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
@@ -2716,7 +2716,7 @@ Sina Weibo automatically jumps to the mobile version，Support Weibo、article�
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Twitter (5)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
@@ -2907,7 +2907,7 @@ Used to download Twitter(X) blacklists and blocked lists, support automatic dete
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
@@ -3085,7 +3085,7 @@ Dynamically adjust the YouTube video grid based on window width to display the b
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png"><img width=18 src="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png" width=18></a>
@@ -3119,7 +3119,7 @@ TikTok displays more extended information on profile
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
@@ -3185,7 +3185,7 @@ Bilibili Live Room Blocking Tool，Support management list，Batch blocking，Ex
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Modified from</a>
 </blockquote>
 <div align="right"><a href="#-script-list">Return to table of contents</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 

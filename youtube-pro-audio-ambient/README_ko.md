@@ -42,7 +42,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>추천：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -51,7 +51,7 @@
 💡 <strong>Tip:</strong> 위의 스크립트 관리자 및 브라우저 목록은 완전한 것이 아닙니다.<br>
     <strong>스크립트는 다음 환경에서 정상적으로 실행됩니다.</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -161,7 +161,7 @@ MIT License
 <!--RELATED-->
 <!--RELATED-END-->
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 돕다
 
@@ -175,14 +175,14 @@ MIT License
 
 **사용자 스크립트 설치 방법에 대해 더 알고 싶다면,[나를 클릭하세요](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko#readme)그래픽 교육 보기!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [모든 게시 스크립트 보기](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/ko#-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 <!--HELP-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts#readme"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">맨 위로 돌아가기↑</a></p></div></center>
 
 <!--FOOTER--END-->

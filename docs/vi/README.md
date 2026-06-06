@@ -44,12 +44,12 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <center><div align="center">
     <strong>Kịch bản đến từ đông đảo cư dân mạng trên Internet，Tôi vừa thực hiện một số thay đổi.Cảm ơn cư dân mạng</strong><br>
     <strong>Nếu có sự vi phạm,Liên hệ phải được xóa</strong><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
     <strong>Khuyến khích：</strong><br>
 <img src="https://img.shields.io/badge/h%E1%BB%87%20%C4%91i%E1%BB%81u%20h%C3%A0nh-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/Tr%C3%ACnh%20duy%E1%BB%87t%20%C4%91%C6%B0%E1%BB%A3c%20%C4%91%E1%BB%81%20xu%E1%BA%A5t-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -57,13 +57,13 @@
 💡 <strong>Tip:</strong> Danh sách trình quản lý tập lệnh và trình duyệt ở trên không đầy đủ<br>
     <strong>Tập lệnh chạy tốt trong môi trường sau</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--README-TOC-->
 ## 🔖 TOC
@@ -458,7 +458,7 @@ Chuyển đổi liên kết văn bản thành các liên kết có thể nhấp
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
@@ -906,7 +906,7 @@ Tìm kiếm bằng GoogleGreasyForkVàSleazyForkchữ viết trên
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>kịch bản người lớn (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
@@ -1304,7 +1304,7 @@ Vì tôi mới tròn 18 tuổi, tôi có thể xem nội dung người lớn
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Google Kịch bản (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
@@ -1374,7 +1374,7 @@ Tìm kiếm một Google chặn một trang web được chỉ định
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">Nhật ký thay đổi</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GitHub Kịch bản (20)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
@@ -2136,7 +2136,7 @@ Phiên bản phát triển github-notification-inbox-toggle
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Dịch tập lệnh (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
@@ -2240,7 +2240,7 @@ Thêm biểu tượng Google Dịch vào góc dưới bên phải của mỗi tr
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>AI Kịch bản (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
@@ -2554,7 +2554,7 @@ Chat tìm kiếm, trò chuyện lọc, trò chuyện xóa nhanh/hàng loạt.
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>trang blog (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
@@ -2716,7 +2716,7 @@ Sina Weibo tự động chuyển sang phiên bản di động，Hỗ trợ weibo
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Twitter (5)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
@@ -2907,7 +2907,7 @@ Sina Weibo tự động chuyển sang phiên bản di động，Hỗ trợ weibo
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
@@ -3085,7 +3085,7 @@ Thêm thanh trượt vào trình phát video YouTube để làm cho thay đổi 
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png"><img width=18 src="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png" width=18></a>
@@ -3119,7 +3119,7 @@ Tiktok hiển thị nhiều thông tin mở rộng hơn về hồ sơ
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
@@ -3185,7 +3185,7 @@ Công cụ chặn phòng trực tiếp Bilibili，Danh sách quản lý hỗ tr�
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">Đã sửa đổi từ</a>
 </blockquote>
 <div align="right"><a href="#-danh-sách-kịch-bản">Quay lại mục lục</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 

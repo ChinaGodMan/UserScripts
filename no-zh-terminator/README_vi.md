@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>Sử dụng được đề xuất：</strong><br>
 <img src="https://img.shields.io/badge/h%E1%BB%87%20%C4%91i%E1%BB%81u%20h%C3%A0nh-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> Trình quản lý tập lệnh và trình duyệt được liệt kê ở trên không đại diện cho tất cả<br>
     <strong>Tập lệnh chạy bình thường trong môi trường sau</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -74,7 +74,7 @@
 
 <h2><mark style="background-color: rgb(255, 0, 0); color: rgb(255, 165, 0);">Đã sử dụngGoolgedịch.Không thể kết nốiGoogleVui lòng không tải xuống</mark></h2>
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # Terminator ngoại ngữ
 
@@ -82,7 +82,7 @@
 **tác giả:** [人民的勤务员](https://greasyfork.org/zh-CN/users/1169082)  
 **mô tả:** Nhận ra các ký tự không phải người Trung Quốc，Nếu độ dài lớn hơn5Và văn bản dịch không chứa tiếng Trung，Thay thế nó bằng tiếng Trung。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Mô tả chức năng
 
@@ -90,7 +90,7 @@ Tập lệnh này có thể nhận ra các ký tự không phải người Trung
 
 -   **Kiểm soát trang web:** Người dùng có thể kiểm soát việc kích hoạt hoặc vô hiệu hóa các hàm dịch trên các trang web cụ thể thông qua các lệnh menu.。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Hướng dẫn sử dụng
 
@@ -98,7 +98,7 @@ Tập lệnh này có thể nhận ra các ký tự không phải người Trung
 -   Menu người dùng có thể kiểm soát việc hỗ trợ và vô hiệu hóa chức năng dịch.。
 -   Chỉnh sửa danh sách trang web hiệu quả，Tùy chỉnh trang web nào cho phép dịch。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Cấu hình và tùy chỉnh
 
@@ -107,19 +107,19 @@ Người dùng có thể sử dụng lệnh sau để thực hiện các hoạt 
 -   **Thêm vào/Di chuyển ra bản dịch:** Chọn xem có thể bật dịch trên trang web hiện tại。
 -   **Chỉnh sửa trang web hiệu quả:** Danh sách trang web chỉnh sửa thủ công，Chức năng dịch tùy chỉnh。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Trước khi sử dụng:
 
 ![bf.png](https://s2.loli.net/2024/08/24/kuC7yUIwPmcRje8.png)
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Sau khi sử dụng:
 
 ![af.png](https://s2.loli.net/2024/08/24/nYrsvgqNukK1ADZ.png)
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
 >
@@ -129,7 +129,7 @@ Người dùng có thể sử dụng lệnh sau để thực hiện các hoạt 
 
 <!--RELATED-END-->
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## Giúp đỡ
 
@@ -143,14 +143,14 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 
 **Nếu bạn cần tìm hiểu thêm về cách cài đặt tập lệnh người dùng,[Nhấp vào tôi](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/vi#readme)Xem việc dạy hình ảnh và văn bản!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [Xem tất cả các tập lệnh xuất bản](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/vi#-Danh-s%C3%A1ch-t%E1%BA%ADp-l%E1%BB%87nh)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếmChatGPTTập lệnh liên quan
 >
@@ -163,7 +163,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếm các tập lệnh liên quan đến web
 >
@@ -181,7 +181,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếmGitHubTập lệnh liên quan
 >
@@ -204,7 +204,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếmGoogleTập lệnh liên quan
 >
@@ -214,7 +214,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếmGreasyForkTập lệnh liên quan
 >
@@ -233,7 +233,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếm kịch bản người lớn
 >
@@ -251,7 +251,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếm bản dịch tự động
 >
@@ -262,7 +262,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍Bạn có thể đang tìm kiếm các kịch bản truyền thông xã hội
 >
@@ -273,7 +273,7 @@ Trình duyệt và trình quản lý tập lệnh được đề xuất：
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>Nhiều tập lệnh người dùng hơn</strong></a> /<a href="#top">Quay lại đầu↑</a></p></div></center>
 
 <!--FOOTER--END-->

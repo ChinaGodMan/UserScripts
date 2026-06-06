@@ -44,12 +44,12 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <center><div align="center">
     <strong>劇本來自網路廣大網友，本人僅是做了些許改動.感謝網友</strong><br>
     <strong>如有侵權,聯繫必刪</strong><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
     <strong>推薦使用：</strong><br>
 <img src="https://img.shields.io/badge/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
 <img src="https://img.shields.io/badge/%E6%8E%A8%E8%96%A6%E7%80%8F%E8%A6%BD%E5%99%A8-%20Google%20Chrome%20%7C%20%20Microsoft%20Edge%20%7C%20%20FireFox%20%7C%20%20Kiwi-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -57,13 +57,13 @@
 💡 <strong>Tip:</strong> 以上已列出的腳本管理器和瀏覽器不代表全部<br>
     <strong>腳本在以下環境中運作正常</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ChinaGodMan/UserScripts)
 <img src="https://visitor-badge.laobi.icu/badge?page_id=ChinaGodMan.UserScripts&left_text=UserScripts%20Visitors" />
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--README-TOC-->
 ## 🔖 TOC
@@ -458,7 +458,7 @@
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GreasyFork (12)</h1></div><h3>
     <a href="../../greasyfork-link">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/greasyfork-link.png" width=18></a>
@@ -906,7 +906,7 @@
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>成人腳本 (11)</h1></div><h3>
     <a href="../../missav-explorer">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/missav-explorer.png" width=18></a>
@@ -1304,7 +1304,7 @@
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Google 腳本 (2)</h1></div><h3>
     <a href="../../google-block-search-sites">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/google-block-search-sites.png" width=18></a>
@@ -1374,7 +1374,7 @@
         <img hight=16 width=15 src="https://img.icons8.com/parakeet/48/renew-subscription.png">更新日誌</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>GitHub 腳本 (20)</h1></div><h3>
     <a href="../../github-repo-size-view">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/github-repo-size-view.png" width=18></a>
@@ -2136,7 +2136,7 @@ github-notification-inbox-toggle 開發版本
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>翻譯腳本 (3)</h1></div><h3>
     <a href="../../no-zh-terminator">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/no-zh-terminator.png" width=18></a>
@@ -2240,7 +2240,7 @@ github-notification-inbox-toggle 開發版本
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>AI 腳本 (9)</h1></div><h3>
     <a href="../../chatgpt-plus">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/chatgpt-plus.png" width=18></a>
@@ -2554,7 +2554,7 @@ ChatGPT 讓程式碼字體變小 並且自動折行
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>部落格網站 (5)</h1></div><h3>
     <a href="../../csdn-blocker">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/csdn-blocker.svg" width=18></a>
@@ -2716,7 +2716,7 @@ ChatGPT 讓程式碼字體變小 並且自動折行
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Twitter (5)</h1></div><h3>
     <a href="../../twitter-hide-reposts">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg"><img width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/scriptsIcon/x.svg" width=18></a>
@@ -2907,7 +2907,7 @@ ChatGPT 讓程式碼字體變小 並且自動折行
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>YouTube (5)</h1></div><h3>
     <a href="../../youtube-helper">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png"><img width=18 src="https://www.youtube.com/s/desktop/ee47b5e0/img/logos/favicon_144x144.png" width=18></a>
@@ -3085,7 +3085,7 @@ ChatGPT 讓程式碼字體變小 並且自動折行
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>TikTok (1)</h1></div><h3>
     <a href="../../tiktok-user-info">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png"><img width=18 src="https://raw.githubusercontent.com/bruddaa/UserScripts/refs/heads/main/TikTok%20User%20Info/tt_logo.png" width=18></a>
@@ -3119,7 +3119,7 @@ TikTok 在個人資料上顯示更多擴展信息
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <div align="center"><h1>Bilibili (2)</h1></div><h3>
     <a href="../../bilibili-video-downloader">
         <picture><source type="image/png" media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png"><img width=18 src="https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png" width=18></a>
@@ -3185,7 +3185,7 @@ TikTok 在個人資料上顯示更多擴展信息
         <img hight=18 width=18 src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/authors.svg">修改自</a>
 </blockquote>
 <div align="right"><a href="#-腳本列表">回目錄</a></div>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 <!--AUTO_SCRIPTS_PLEASE_DONT_DELETE_IT-END-->
 

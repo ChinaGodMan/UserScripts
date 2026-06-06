@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>권장 사용：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 위에 나열된 스크립트 관리자와 브라우저가 모두를 나타내지는 않습니다.<br>
     <strong>스크립트는 정상적으로 다음 환경에서 실행됩니다</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -210,44 +210,44 @@
 🧑‍💻 **[qbmiller]**(https://github.com/qbmiller)   ⇒📜 [github_enhance](https://github.com/qbmiller/UserScripts)
 
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 시사
 
 1. **창고 크기를 보여줍니다：**  
     ![preview1.png](https://s2.loli.net/2024/08/05/RwxPkGZoNiYTM1m.png)
    ![preview2.png](https://s2.loli.net/2024/08/05/iC7kbFJUm3xcMTt.png)
-   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+   <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 2. **창고에서 빠른 점프：**  
     ![Snipaste_2024-10-05_07-22-09.png](https://s2.loli.net/2024/10/05/NhexpPYWIwSvgrA.png) ![info.png](https://s2.loli.net/2024/10/05/x3BTk2frW8eqFOa.png)
    ![GIF 2024-10-5 07-21-25.gif](https://s2.loli.net/2024/10/05/fOGDTQ3SZzro4tj.gif)
-   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+   <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 3. **비활성 개발 경고：**  
    ![years.png](https://s2.loli.net/2024/09/25/cL9GuhJCkK68lsV.png)
    ![6months.png](https://s2.loli.net/2024/09/25/gxzAbUdr4W5BCcT.png)
-   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+   <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 4. **창고 편리한 기능：**
    ![he.png](https://s2.loli.net/2024/10/06/DBytY8Qx6qWRoPH.png)
-   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+   <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 
 5. **자신의 저장소를 빠르게 삭제하십시오：**
   ![delonpro.png](https://s2.loli.net/2024/10/06/l9538YRreGaktx6.png)
-  <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+  <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 
 
 6. **[알림 페이지](https://github.com/notifications)프로젝트 정보를 표시하려면 클릭하십시오，고마워하는:[qbmiller](https://github.com/qbmiller) 스크립트[github_enhance](https://github.com/qbmiller/UserScripts) 암호 [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
    !![Image](https://github.com/user-attachments/assets/6bf713f9-4d17-4844-bd5d-36a0172af9fe)
-   <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+   <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 
 7. **[알림 페이지](https://github.com/notifications)정지 된 디스플레이 프로젝트 정보，고마워하는:[qbmiller](https://github.com/qbmiller) 스크립트[github_enhance](https://github.com/qbmiller/UserScripts) 암호 [#111](https://github.com/ChinaGodMan/UserScripts/issues/111)**
   ![2025.04.15](https://s2.loli.net/2025/04/15/NuBUJ54zVjoWsrw.gif)
-  <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+  <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 🤠 Github 강화 된 비서
 
@@ -276,7 +276,7 @@
 2. ~에서[여기](https://update.greasyfork.org/scripts/502291/Github%20Repo%20Size%2B.user.js)설치 스크립트。
 3. （선택 과목）개인 저장소의 크기를 보려면，아래 지침을 참조하십시오。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 개인 저장소 크기를 확인하십시오
 
@@ -290,7 +290,7 @@
 4. 스크립트 메뉴를 클릭하십시오`Set GitHub Token`,방금 생성 한 토큰을 채우십시오。
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
@@ -312,7 +312,7 @@
 
 <!--RELATED-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 고마워하는
 
@@ -324,7 +324,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 작가 **[chen gang](https://greasyfork.org/zh-CN/users/720983)** 게시 된 스크립트 [GitHub Delete Repositories](https://greasyfork.org/zh-CN/scripts/500173)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 돕다
 
@@ -338,14 +338,14 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 
 **사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko#readme)그림과 텍스트의 가르침을보십시오!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [모든 게시 스크립트를보십시오](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/ko#-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
@@ -358,7 +358,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
@@ -376,7 +376,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
@@ -399,7 +399,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
@@ -409,7 +409,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
@@ -428,7 +428,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
@@ -446,7 +446,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍자동 번역을 찾고있을 수 있습니다
 >
@@ -457,7 +457,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
@@ -468,7 +468,7 @@ GitHub: 작가 **[zvizvi](https://github.com/zvizvi)** Chrome플러그인 [GitHu
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p></div></center>
 
 <!--FOOTER--END-->

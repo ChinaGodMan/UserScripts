@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>권장 사용：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 위에 나열된 스크립트 관리자와 브라우저가 모두를 나타내지는 않습니다.<br>
     <strong>스크립트는 정상적으로 다음 환경에서 실행됩니다</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -73,17 +73,17 @@
 
 <!--HISTORY-END-->
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # Missav 배치 추출기
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 소개
 
 Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 추출하는 도구입니다.。홈페이지를 제외한 모든 비디오를 크롤링 할 수 있습니다，또한 사용자 정의 추출 속도와 파일 이름 지정 기능을 제공합니다.。다운로드가 완료된 후，포함 된 그림을 생성하십시오 `img` 폴더와 하나 `파일 이름을 저장합니다.html` 이름 웹 파일，얻은 비디오 정보를 보는 데 사용됩니다。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 기능
 
@@ -101,11 +101,11 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 -   **고화질 큰 이미지를 다운로드하십시오**：고화질 큰 이미지의 다운로드 지원。
 -   **지원하다WebDAV지원**：저장하십시오webdav。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 레코드 업데이트
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### 2024/6/14 고쳐 쓰다
 
@@ -118,13 +118,13 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 -   **HTML 생성인터페이스는 네트워크에서 사진을 얻는 것을 지원합니다**：생성 HTML 인터페이스는 네트워크에서 사진을 얻을 수 있습니다。
 -   **고화질 큰 이미지를 다운로드하십시오**：고화질 큰 이미지의 다운로드 지원。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 알려진 문제
 
 -   **마지막 페이지를 검색 한 후 최대 페이지를 초과하는 정보를 얻을 수 있습니다.**：나는 실제로 그것을 얻지 못할 것입니다。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 사용 지침
 
@@ -135,7 +135,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 5. **확인하다 `jsonindex` 웹 페이지 파일**：비디오 정보를 봅니다，미리보기를 보려면 이미지를 클릭하십시오，제목을 클릭하여 점프하십시오 Missav 페이지。
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
@@ -152,7 +152,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 
 <!--RELATED-END-->
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 돕다
 
@@ -166,14 +166,14 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 
 **사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko#readme)그림과 텍스트의 가르침을보십시오!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [모든 게시 스크립트를보십시오](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/ko#-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
@@ -186,7 +186,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
@@ -204,7 +204,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
@@ -227,7 +227,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
@@ -237,7 +237,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
@@ -256,7 +256,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
@@ -274,7 +274,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍자동 번역을 찾고있을 수 있습니다
 >
@@ -285,7 +285,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
@@ -296,7 +296,7 @@ Missav 배치 추출기는 즐겨 찾기를 백업하고 비디오 컨텐츠를 
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p></div></center>
 
 <!--FOOTER--END-->

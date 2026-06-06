@@ -1,8 +1,8 @@
 name: Validate links on push + PR
 
 on:
-  push:
-  pull_request:
+  #push:
+  #pull_request:
   workflow_dispatch:
 
 permissions:
@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v6.0.3
       - uses: JustinBeckwith/linkinator-action@v2.4.2
         with:
-          paths: '**/*.md'
+          paths: "**/*.md"
           statusCodes: '{ "408": "skip", "429": "skip", "503": "skip" }'

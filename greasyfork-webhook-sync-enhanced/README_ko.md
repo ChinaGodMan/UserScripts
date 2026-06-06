@@ -40,7 +40,7 @@
 <a href="mailto:china.qinwuyuan@gmail.com"><img src="https://img.shields.io/static/v1?label=%20&message=gmail&logo=gmail&logoColor=white&labelColor=%23D93025&color=%23D93025&style=for-the-badge" alt="Gmail"></a>
 </center>
 </div></center>
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center">
     <strong>권장 사용：</strong><br>
 <img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81%20%EC%B2%B4%EC%A0%9C-🪟%20Windows%20%7C%20🍎%20Mac%20%7C%20🐧%20Linux%20%7C%20🤖%20Android-blueviolet.svg?style=for-the-badge" alt="Support"><br>
@@ -49,7 +49,7 @@
 💡 <strong>Tip:</strong> 위에 나열된 스크립트 관리자와 브라우저가 모두를 나타내지는 않습니다.<br>
     <strong>스크립트는 정상적으로 다음 환경에서 실행됩니다</strong><br>
     <img src="https://img.shields.io/badge/dynamic/json?&label=Passed&query=$.passed&logo=googlechrome&logoColor=white&labelColor=%23007aff&color=4CAF50&style=for-the-badge&url=https://github.com/ChinaGodMan/UserScripts/raw/main/docs/passed.json" alt="Passed"><br>
-    <img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+    <img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 </div></center>
 
 <!--SHIELDS-END-->
@@ -82,13 +82,13 @@
        width="320" height="240" controls loop>
 </video>
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 # GreasyFork - 향상되었습니다WebHook동기 설정
 
 존재하다GreasyFork동기화 정보를 설정할 때，종종, 당신은 제출 후 시청을 만날 것입니다，동기화 정보가 성공적으로 설정되지 않은 것으로 밝혀졌습니다.，재 입력。이것은 웹 사이트의 작은 문제 중 하나입니다.。이 문제를 해결합니다，이 스크립트는 스크립트 동기화 정보를 신속하게 입력하는 데 도움이됩니다.，여러 국가에서 배치로 언어 코드를 추가하십시오，선택 상자를 하나씩 클릭 한 다음 해당 URL로 이동하는 대신。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 기능적 특징
 
@@ -96,14 +96,14 @@
 -   **배치로 언어 코드를 추가하십시오**：여러 국가의 배치 추가 지원/지역 언어 코드，하나씩 선택할 필요가 없습니다。
 -   **여러 형식을 지원합니다**：필요에 따라 다른 것을 선택할 수 있습니다URL형식을 설정하십시오。
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 사용 지침 (자세한 내용은 아래 그림이나 위의 비디오를 볼 수 있습니다.)
 
 -   **스크립트 관리 페이지**：스크립트 관리 페이지에서,아래 버튼을 추가하십시오,클릭 한 후 현재 스크립트를 관리 할 수 ​​있습니다。
 -   **웹 사이트 상단 탐색 표시 줄**：탐색 표시 줄에 옵션을 추가하십시오,클릭 후 자동으로 얻는 데 사용됩니다Webhook동기화 된 스크립트.여러 관리를 수행하십시오.
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 지원되는 형식
 
@@ -119,7 +119,7 @@
 코드는 다음과 같습니다: 더 많은 옵션이 있으면 확장 할 수 있습니다<br>
 ` let localeKey = url.includes('##') ? url.match(/##.*\((.*?)\)$/) || url.match(/##(.*?)$/) : url.match(/README_(.*?)\.md/)`
 
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 알아채다:
 
@@ -127,7 +127,7 @@
 -   스크립트가 있어야합니다!그렇지 않으면 동기화가 실패합니다,
 
 <!--RELATED-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
@@ -144,7 +144,7 @@
 > -   [**Greasyfork등록 시간을 표시**](https://greasyfork.org/scripts/529359): 스크립트가 일부 사람들의 관심사를 방해한다면 악의적 인 부정적인 리뷰를받는 것은 놀라운 일이 아닙니다. 악의적 인 부정적인 검토에는 두 가지 특성이 있습니다. 하나는 계정이 일반적으로 새로 등록되어 있고 다른 하나는 등록 직후에 부정적인 검토가 제공되며 기본적으로 후속 활동이 없다는 것입니다. 이 스크립트는 Greasyfork 사용자의 등록 시간을 가져오고 사용자 이름 옆에 표시됩니다. 사용자 이름 옆에 표시되는 시간이 미래의 시간 인 경우 사용자는 악의적 인 계정 일 가능성이 높습니다.
 
 <!--RELATED-END-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 프로젝트 및 피드백
 
@@ -157,7 +157,7 @@
 ![404.png](https://s2.loli.net/2024/09/05/YmJBL9R8qMcx1UZ.png)
 
 <!--HELP-->
-<img height=6px width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height=6px width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ## 돕다
 
@@ -171,14 +171,14 @@
 
 **사용자 스크립트를 설치하는 방법에 대해 자세히 알아야 할 경우,[나를 클릭하십시오](https://github.com/ChinaGodMan/UserScripts/blob/main/docs/help/ko#readme)그림과 텍스트의 가르침을보십시오!**
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 ### [모든 게시 스크립트를보십시오](https://github.com/ChinaGodMan/UserScripts/tree/main/docs/ko#-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AA%A9%EB%A1%9D)
 
 <!--HELP-END-->
 
 <!--RELATED-ChatGPT相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다ChatGPT관련 스크립트
 >
@@ -191,7 +191,7 @@
 <!--RELATED-ChatGPT相关脚本-END-->
 
 <!--RELATED-网页相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍웹 관련 스크립트를 찾고있을 수 있습니다
 >
@@ -209,7 +209,7 @@
 <!--RELATED-网页相关脚本-END-->
 
 <!--RELATED-GitHub相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GitHub관련 스크립트
 >
@@ -232,7 +232,7 @@
 <!--RELATED-GitHub相关脚本-END-->
 
 <!--RELATED-Google相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다Google관련 스크립트
 >
@@ -242,7 +242,7 @@
 <!--RELATED-Google相关脚本-END-->
 
 <!--RELATED-GreasyFork相关脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍당신은 찾고있을 수 있습니다GreasyFork관련 스크립트
 >
@@ -261,7 +261,7 @@
 <!--RELATED-GreasyFork相关脚本-END-->
 
 <!--RELATED-成人脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍성인 스크립트를 찾고있을 수 있습니다
 >
@@ -279,7 +279,7 @@
 <!--RELATED-成人脚本-END-->
 
 <!--RELATED-自动翻译-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍자동 번역을 찾고있을 수 있습니다
 >
@@ -290,7 +290,7 @@
 <!--RELATED-自动翻译-END-->
 
 <!--RELATED-社交媒体脚本-->
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 
 > ### 🔍소셜 미디어 스크립트를 찾고있을 수 있습니다
 >
@@ -301,7 +301,7 @@
 <!--RELATED-社交媒体脚本-END-->
 <!--FOOTER-->
 
-<img height="6px" width="100%" src="https://media.chatgptautorefresh.com/images/separators/gradient-aqua.png?latest">
+<img height="6px" width="100%" src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/separators/gradient-aqua.png">
 <center><div align="center"><p><a href="https://github.com/ChinaGodMan/UserScripts"><strong>더 많은 사용자 스크립트</strong></a> /<a href="#top">위로 돌아갑니다↑</a></p></div></center>
 
 <!--FOOTER--END-->
