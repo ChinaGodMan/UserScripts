@@ -1,5 +1,11 @@
 # **🛠️ GitHub Repo Size+ 升级日志**
 
+### **📅 2026.6.6.1**
+
+**修复**: 修复无法获取已登录用户的私人存储库问题<br>
+
+---
+
 ### **📅 2026.3.16.1**
 
 **新增**: 在个人资料页显示`查看 Gist 资料`<br>![2026.03.16](https://files.seeusercontent.com/2026/03/16/1Kqb/pic_1773644853242.png)<br>来自[GitHub: View User Gists](https://greasyfork.org/zh-CN/scripts/559202)<br>
