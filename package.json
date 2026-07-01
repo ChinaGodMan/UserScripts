@@ -27,7 +27,7 @@
   ],
   "devDependencies": {
     "@eslint/json": "^2.0.0",
-    "@eslint/markdown": "^8.0.2",
+    "@eslint/markdown": "^8.0.3",
     "@stylistic/eslint-plugin": "^5.10.0",
     "cz-git": "^1.13.1",
     "czg": "^1.13.1",
