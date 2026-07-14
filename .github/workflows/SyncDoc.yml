@@ -22,7 +22,7 @@ jobs:
           fetch-depth: 0 #检查时间用.
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: "lts/*"
 
