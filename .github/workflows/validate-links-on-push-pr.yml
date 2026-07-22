@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
-      - uses: JustinBeckwith/linkinator-action@v2.4.2
+      - uses: JustinBeckwith/linkinator-action@v2.4.3
         with:
           paths: "**/*.md"
           statusCodes: '{ "408": "skip", "429": "skip", "503": "skip" }'
