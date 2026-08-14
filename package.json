@@ -29,7 +29,7 @@
     "@eslint/json": "^2.0.1",
     "@eslint/markdown": "^8.0.3",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "cz-git": "^1.13.1",
+    "cz-git": "^1.13.2",
     "czg": "^1.13.2",
     "eslint": "^9.39.2",
     "eslint-plugin-import": "^2.32.0",
