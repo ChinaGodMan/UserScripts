@@ -450,7 +450,7 @@ const addSizeToRepos = () => {
     let repoSelector
     switch (pageType) {
         case 'repo': //仓库详情界面
-            repoSelector = '#repository-container-header strong a'
+            repoSelector = '#repo-title-component strong a'
             break
         case 'list-view-container': //ORG下的仓库列表
             repoSelector =
@@ -645,7 +645,7 @@ window.onload = function () {
 
 }
 const selectors = [
-    '#repository-container-header strong a', // 仓库详情界面
+    '#repo-title-component strong a', // 仓库详情界面
     'div[data-testid="list-view-item-title-container"] h4 a', // ORG下的仓库列表
     '#user-repositories-list h3 a', // 用户资料页面的仓库TAB
     '#user-starred-repos h3 a', // 用户资料页面的已星标仓库
