@@ -103,7 +103,7 @@
 // @compatible         opera
 // @compatible         safari
 // @compatible         kiwi
-// @version            2026.3.31.1
+// @version            2026.11.7.1
 // @created            2025-03-07 21:14:34
 // @modified           2025-03-07 21:14:34
 // ==/UserScript==
@@ -169,9 +169,9 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
     var handle = () => {
         console.log('【视频控制条增强】开始...')
         // 【页面内容区域】获取元素
-        var content = document.querySelector('body > div:nth-child(3) > div.sm\\:container > div > div.flex-1.order-first > div:first-child')
+        var content = document.querySelector('div.flex-1.order-first')
         // 【视频区域】样式调整
-        var video = content.querySelector('div:first-child')
+        var video = content.querySelector('div.relative')
         video.id = 'video'
         video.classList.value = 'relative -mx-4 sm:m-0 mt-1'
         // 【视频区域】设备横屏时自动锚点到视频
@@ -239,10 +239,11 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
                     const doc = parser.parseFromString(html, 'text/html')
                     const imgElement = doc.querySelector('.bg-norddark img')
                     const profile = doc.querySelector('.font-medium.text-lg.leading-6')
-                    // 收藏按钮
-                    const saveBtn = profile.querySelector('div.hero-pattern button')
+                    if (!profile) { console.log('🔍 ~ 未找到女优资料,跳过.'); return }
+                    // 收藏按钮（新版頁面收藏按鈕在 .bg-norddark.hero-pattern 容器內）
+                    const saveBtn = doc.querySelector('div.hero-pattern button')
                     //直接删除按钮,不然会直接保存当前页面的影片
-                    saveBtn.remove()
+                    if (saveBtn) saveBtn.remove()
                     //名字转链接.
                     profile.querySelector('h4').innerHTML = `<a href="${actressesLink}">${profile.querySelector('h4').textContent}</a>`
                     const profileDiv = document.createElement('div')
@@ -264,7 +265,7 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
                     } else {
                         console.log('🔍 ~ 未找到图片,不添加这个女优.')
                     }
-                    saveBtn.remove()
+                    if (saveBtn) saveBtn.remove()
                     profileDiv.appendChild(profile)
                     link.parentElement.appendChild(profileDiv)
                     link.addEventListener('mouseenter', () => {
@@ -277,7 +278,7 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
                         profileDiv.style.left = `${rect.left + window.scrollX}px`
 
                     })
-                    saveBtn.addEventListener('click', () => {
+                    if (saveBtn) saveBtn.addEventListener('click', () => {
                         alert('尚未完成添加操作,敬请期待')
                     })
 
@@ -294,7 +295,7 @@ if (/^https:\/\/(missav|thisav)\.com/.test(url)) {
         console.log('【视频控制条增强】完成。')
     }
     var trigger = () => {
-        return !!document.querySelector('body > div:nth-child(3) > div.sm\\:container > div > div.flex-1.order-first > div:first-child > div.relative')
+        return !!document.querySelector('video.player')
     }
     var interval
     var timeout
