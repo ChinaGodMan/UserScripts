@@ -3,9 +3,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+                srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+                src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/translate-only-chinese/README_en.md">English</a> |

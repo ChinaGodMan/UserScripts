@@ -3,9 +3,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+                srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+                src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a> |
@@ -13,7 +13,7 @@
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_vi.md">Tiếng Việt</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_zh-TW.md">繁體中文</a>
     <br>
-    <em><sub>👆️입장 GitHub 더 나은 경험을 위해 readme 파일을 켜십시오。</sub></em>
+    <em><sub>👆️访问 GitHub 上的自述文件以获得更好的体验。</sub></em>
     </h6>
 </div>
 
@@ -59,16 +59,19 @@
     <p>「 다운로드 버튼 추가，특정 파일을 쉽게 다운로드할 수 있습니다. GitHub 접는 사람。 」</p>
     <img src="https://views.whatilearened.today/views/github/505496/hmjz100.svg" alt="Views">
     <img src="https://img.shields.io/github/size/ChinaGodMan/UserScripts/github-folder-downloader/github-folder-downloader.user.js?color=%23990000">
-    <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98">
-    <img src="https://img.shields.io/badge/dynamic/json?&label=%EB%A7%A4%EC%9D%BC%20%ED%99%95%EC%9D%B8%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&query=$.505496&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
+    <img src="https://img.shields.io/greasyfork/dt/505496?logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&label=用户数量">
+    <img src="https://img.shields.io/badge/dynamic/json?&label=每日检查更新次数&query=$.505496&logo=greasyfork&logoColor=white&labelColor=%23670000&color=blue&url=https://github.com/ChinaGodMan/UserScriptsHistory/raw/main/daily_update_checks.json">
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505496">Greasy
-            Fork</a></p><details><summary style="color:#FFD700">레코드 업데이트</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 폴더를 다운로드하십시오 로그 업데이트</strong></h1>
+            Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
+<h3><strong>📅 2026/11/23 - Ver 0.7.0.24</strong></h3>
+<p><strong>修复</strong>: GitHub 重新渲染文件夹工具栏后（例如登录状态下加载“Add file”按钮）下载按钮消失的问题，按钮丢失时自动重新注入；修复 <code>&lt;/details&gt;</code> 拼写错误；找不到锚点元素时不再报错</p>
+<hr />
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
-<p><strong>최적화</strong>: 원래 스크립트에서 감지 링크가 변경된 리스너를 제거합니다.，저장소 홈페이지가 디렉토리로 점프 할 때 버튼 표시를 지원하기 위해 새 리스너를 추가하십시오.</p>
+<p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮</p>
 <hr />
 <h3><strong>📅 2024/8/28 04:21 - Ver 0.7</strong></h3>
-<p><strong>수리하다</strong>: 실패한 선택기를 교체하십시오</p>
+<p><strong>修复</strong>: 替换失效的选择器</p>
 <hr /></details>
     <img src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/stats/505496.png">
 </div></center>

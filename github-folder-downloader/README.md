@@ -3,9 +3,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+                srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+                src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/github-folder-downloader/README_en.md">English</a> |
@@ -64,6 +64,9 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/505496">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/github-folder-downloader/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ GitHub 文件夹下载 更新日志</strong></h1>
+<h3><strong>📅 2026/11/23 - Ver 0.7.0.24</strong></h3>
+<p><strong>修复</strong>: GitHub 重新渲染文件夹工具栏后（例如登录状态下加载“Add file”按钮）下载按钮消失的问题，按钮丢失时自动重新注入；修复 <code>&lt;/details&gt;</code> 拼写错误；找不到锚点元素时不再报错</p>
+<hr />
 <h3><strong>📅 2024/8/28 09:46 - Ver 0.7.0.2</strong></h3>
 <p><strong>优化</strong>: 移出原脚本的检测链接发生变化的监听器，添加新的监听器用于支持在仓库主页跳转目录时显示按钮</p>
 <hr />

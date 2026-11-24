@@ -3,9 +3,9 @@
     <h6>
         <picture>
             <source type="image/svg+xml" media="(prefers-color-scheme: dark)"
-                srcset="https://assets.aiwebextensions.com/images/icons/earth/white/icon32.svg">
+                srcset="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/white/icon32.svg">
             <img height=14
-                src="https://assets.aiwebextensions.com/images/icons/earth/black/icon32.svg">
+                src="https://raw.githubusercontent.com/ChinaGodMan/UserScriptsHistory/main/images/icons/earth/black/icon32.svg">
         </picture>
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-enhancer/README.md">简体中文</a> |
         <a href="https://github.com/ChinaGodMan/UserScripts/blob/main/missav-enhancer/README_en.md">English</a> |
@@ -64,6 +64,8 @@
     <p>Download:<a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer">Github</a> | ⭐<a
             href="https://greasyfork.org/scripts/529125">Greasy
             Fork</a></p><details><summary style="color:#FFD700">更新记录</summary><div align="right"><a href="https://github.com/ChinaGodMan/UserScripts/tree/main/missav-enhancer/CHANGELOG.md"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&logo=GitHub&logoColor=white"></a></div><h1><strong>🛠️ MissAV 增强小助手 更新日志</strong></h1>
+<h3><strong>📅 2026.11.7.1</strong></h3>
+<p><strong>修复</strong>: 适配 MissAV 网站改版，更新视频页 DOM 选择器（<code>div.flex-1.order-first</code> / <code>div.relative</code> / <code>video.player</code>），女优资料面板选择器调整并增加空值防护，避免脚本失效。 <br></p>
 <h3><strong>📅 2025.04.27.1345</strong></h3>
 <p><strong>新增</strong>: 支持新域名<code>missav.live</code> <br></p>
 <h3><strong>📅 2025.03.11.0544</strong></h3>
