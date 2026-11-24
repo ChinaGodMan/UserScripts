@@ -5,6 +5,7 @@ import re
 import shutil
 import subprocess
 import sys
+import cloudscraper
 from urllib.parse import unquote
 
 import pyotp
@@ -83,7 +84,7 @@ def copy_readme(source_path, suffixes):
 # GreasyFork API类
 class GreasyFork:
     def __init__(self):
-        self.session = requests.Session()
+        self.session = cloudscraper.Session()
         self.csrf_token = None
 
     def fetch_csrf_token(self):
