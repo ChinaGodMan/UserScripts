@@ -76,7 +76,7 @@
 // @description:fr-CA  Ajouter un bouton de téléchargement，Permet de télécharger facilement des fichiers spécifiques GitHub dossier。
 // @description        To add a download button for a GitHub folder, which allows easy downloading of a specific folder, you can follow these steps
 // @namespace          https://github.com/ChinaGodMan/UserScripts
-// @version            0.7.0.23
+// @version            0.7.0.24
 // @author             EricKwok,人民的勤务员 <china.qinwuyuan@gmail.com>
 // @supportURL         https://github.com/ChinaGodMan/UserScripts/issues
 // @homepageURL        https://github.com/ChinaGodMan/UserScripts
@@ -135,6 +135,7 @@ function injectDownloadFolderBtn() {
     if (!isFold) {
         // 展开状态（PC端）
         let html = document.querySelector('[data-testid="tree-overflow-menu-anchor"]')//.types__StyledButton-sc-ws60qy-0.feqCqy
+        if (!html) return
         let _html = `
             <details data-view-component="true" class="details-overlay details-reset position-relative mr-2 github-folder-download">
                 <summary role="button" data-view-component="true">
@@ -162,7 +163,7 @@ function injectDownloadFolderBtn() {
                         </li>
                     </ul >
                 </div >
-            </detials>`
+            </details>`
         html.insertAdjacentHTML('beforebegin', _html)
     } else {
         observeAndAddLinks()
@@ -202,6 +203,7 @@ function main() {
     }
     function observeUrlChanges(callback, delay = 1000) {
         let lastUrl = location.href
+        let pending = false
         const observer = new MutationObserver(() => {
             const url = location.href
             if (url !== lastUrl) {
@@ -210,6 +212,13 @@ function main() {
                     console.log('页面发生变动,')
                     callback()
                 }, delay)
+            } else if (!pending && !isFold && !document.querySelector('.github-folder-download')) {
+                // GitHub 重新渲染工具栏时会移除按钮（例如登录后加载“Add file”按钮），检测到按钮丢失时重新注入
+                pending = true
+                requestAnimationFrame(() => {
+                    pending = false
+                    reinject()
+                })
             }
         })
         observer.observe(document, { subtree: true, childList: true })
