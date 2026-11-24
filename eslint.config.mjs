@@ -3,8 +3,8 @@ import globals from 'globals'
 import importPlugin from 'eslint-plugin-import'
 import json from '@eslint/json'
 import markdown from '@eslint/markdown'
-import regexp from 'eslint-plugin-regexp'
-import stylisticJS from '@stylistic/eslint-plugin'
+import * as regexpPlugin from 'eslint-plugin-regexp'
+import stylistic from '@stylistic/eslint-plugin'
 import userscripts from 'eslint-plugin-userscripts'
 
 export default [
@@ -24,14 +24,15 @@ export default [
                 renderMathInElement: 'readonly', settings: 'writable', toggles: 'writable'
             }
         },
-        plugins: { 'import': importPlugin, 'js-styles': stylisticJS, regexp },
+        plugins: { 'import': importPlugin, '@stylistic': stylistic, regexp: regexpPlugin },
+        settings: { 'import/resolver': { node: { exportsFields: ['exports'] } } },
         rules: {
             ...js.configs.recommended.rules,
             ...importPlugin.flatConfigs.recommended.rules,
-            ...regexp.configs['flat/recommended'].rules,
+            ...regexpPlugin.configs['flat/recommended'].rules,
             'indent': 'off', 'no-unexpected-multiline': 'off', 'key-spacing': 'off', // allow whitespace anywhere
-            'js-styles/no-trailing-spaces': 'off', // ...except at ends of lines
-            'js-styles/max-len': ['error', {
+            '@stylistic/no-trailing-spaces': 'off', // ...except at ends of lines
+            '@stylistic/max-len': ['error', {
                 'code': 180, // limit lines to 120 chars except if containing...
                 'ignoreComments': true, 'ignoreStrings': true, // ...trailing/own-line comments, quoted strings...
                 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true
@@ -41,7 +42,7 @@ export default [
             'regexp/no-super-linear-backtracking': 'off',
             'regexp/no-empty-capturing-group': 'off',
             'regexp/no-useless-flag': 'off',
-            'js-styles/no-extra-semi': 'error', // disallow unnecessary semicolons
+            '@stylistic/no-extra-semi': 'error', // disallow unnecessary semicolons
             'quotes': ['error', 'single', { 'allowTemplateLiterals': true }], // enforce single quotes except backticks to avoid escaping quotes
             'comma-dangle': ['error', 'never'], // enforce no trailing commas in arrays or objects
             'no-async-promise-executor': 'off', // allow promise executor functions to be async (to accomodate await lines)
@@ -54,7 +55,8 @@ export default [
             'no-undef': 'off', //禁用未定义变量的检查
             'no-irregular-whitespace': 'error',// 启用不规则空白字符规则
             'no-misleading-character-class': 'off',
-            'no-redeclare': 'off'
+            'no-redeclare': 'off',
+            'import/no-unresolved': ['error', { ignore: ['^@stylistic/'] }]
         }
     },
     { files: ['**/*.mjs'], languageOptions: { sourceType: 'module' } },
