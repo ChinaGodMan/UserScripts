@@ -5,11 +5,10 @@ import re
 import shutil
 import subprocess
 import sys
-import cloudscraper
 from urllib.parse import unquote
 
 import pyotp
-import requests
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 from helper import (
     get_md_files,
@@ -33,6 +32,9 @@ from searcher import search_in_file
 作者:            人民的勤务员 <china.qinwuyuan@gmail.com>
 主页:     https://github.com/ChinaGodMan/UserScripts
 '''
+
+# 模拟的浏览器指纹（TLS/HTTP2/UA 等），"chrome" 使用 curl_cffi 当前支持的最新 Chrome 版本
+IMPERSONATE = "chrome"
 
 REPO_URL = f"https://raw.githubusercontent.com/{get_repo_name()}/main/"
 
@@ -84,7 +86,8 @@ def copy_readme(source_path, suffixes):
 # GreasyFork API类
 class GreasyFork:
     def __init__(self):
-        self.session = cloudscraper.Session()
+        # 使用 curl_cffi 模拟浏览器指纹，替代 cloudscraper
+        self.session = requests.Session(impersonate=IMPERSONATE)
         self.csrf_token = None
 
     def fetch_csrf_token(self):
@@ -111,7 +114,8 @@ class GreasyFork:
 
         login_url = 'https://greasyfork.org/zh-CN/users/sign_in'
         headers = {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Referer': login_url,
         }
         data = {
             'authenticity_token': self.csrf_token,
@@ -132,7 +136,8 @@ class GreasyFork:
             match = re.search(r'/users/(\d+)-', user_info.get('href', ''))
             user_id = match.group(1) if match else None
             user_name = user_info.get_text()
-            print(f"\033[32m{user_name}({user_id}):{tip.get_text()}\033[0m")
+            tip_text = tip.get_text() if tip else ''
+            print(f"\033[32m{user_name}({user_id}):{tip_text}\033[0m")
             self.fetch_csrf_token()  # 登录成功后重新获取csrf_token.所有的请求都需要csrf_token,而且获取一次就行了,一个csrf_token可以多次使用
         else:
             raise Exception(f"Login failed. Status Code: {response.status_code}\n{response.text}")
