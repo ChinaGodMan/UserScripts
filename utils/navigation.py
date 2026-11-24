@@ -2,7 +2,7 @@ import os
 import re
 
 from content_snippet import get_file_description
-from helper import get_md_files, get_repo_name, read_json
+from helper import get_md_files, get_repo_name, read_json, format_str
 from writer import process_file
 
 USE_FLAG = False
@@ -25,6 +25,7 @@ def build_html(md_files, path, lang='zh-CN'):
     template_path = "utils/templates/SELECTOR.html"
     with open(template_path, 'r', encoding='utf-8') as file:
         html_template = file.read()
+        html_template = format_str(html_template)
     base_url = f"https://github.com/{get_repo_name()}/blob/main/"
     links = []
     for file in md_files:

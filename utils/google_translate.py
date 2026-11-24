@@ -15,6 +15,7 @@
 import json
 import os
 import re
+import time
 import threading
 import urllib.parse
 from urllib.request import urlopen
@@ -183,7 +184,7 @@ def translate_worker(chinese_texts, translations, lang):
 def translate_and_save(lines, chinese_texts, lang, shrink, file_path):
     translations = {}  # 每种语言有自己的翻译结果
     threads = []
-    chunk_size = len(chinese_texts) // 50 or 1  # 加大数量
+    chunk_size = len(chinese_texts) // 2 or 1  # 加大数量
     for i in range(0, len(chinese_texts), chunk_size):
         chunk = chinese_texts[i:i + chunk_size]
         thread = threading.Thread(target=translate_worker, args=(chunk, translations, lang))
